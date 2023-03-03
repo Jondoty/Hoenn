@@ -11,13 +11,13 @@
 
 
 #Littleroot Town
-playsound littleroottown record @s[x=-2098,y=0,z=278,dx=143,dy=256,dz=92,score_MusicCooldown=0] ~ ~ ~ 1000 1 1
-scoreboard players set @s[x=-2098,y=0,z=278,dx=143,dy=256,dz=92,score_MusicCooldown=0] MusicCooldown 2380
+playsound littleroottown record @s[x=-2098,y=0,z=278,dx=143,dy=256,dz=92,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2098,y=0,z=278,dx=143,dy=256,dz=92,scores={MusicCooldown=0}] MusicCooldown 167
 
 
 #Route101
-playsound route101 record @s[x=-2098,y=0,z=121,dx=147,dy=255,dz=156,score_MusicCooldown=0] ~ ~ ~ 1000 1 1
-scoreboard players set @s[x=-2098,y=0,z=121,dx=147,dy=255,dz=156,score_MusicCooldown=0] MusicCooldown 1580
+playsound route101 record @s[x=-2098,y=0,z=121,dx=147,dy=255,dz=156,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2098,y=0,z=121,dx=147,dy=255,dz=156,scores={MusicCooldown=0}] MusicCooldown 111
 
 
 
@@ -27,4 +27,4 @@ scoreboard players set @s[x=-2098,y=0,z=121,dx=147,dy=255,dz=156,score_MusicCool
 
 #---------------------------------------------------------------------------------------------------------------------------
 #Remove RunMusic tag
-scoreboard players tag @s remove RunMusic
+tag @s remove RunMusic
