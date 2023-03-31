@@ -292,43 +292,157 @@ Your team's health was restored!
 #After battling rival for the first time
 #https://youtu.be/MgkqxXCmrtI?t=1472
 
+<Professor Birch> So I hear you beat May on your first try.
+<Professor Birch> That's amazing! May's been helping with my research for a long time, so she has a pretty long history as a Trainer already.
+<Professor Birch> Mm-hmm! I think that settles it!
+<Professor Birch> @s, I ordered this Pokédex for my research, but I think you should take it.
+
+<Professor Birch> So I hear you beat Brendan on your first try.
+<Professor Birch> Amazing! Brendan's been helping with my research for a long time, so he has a pretty long history as a Trainer already.
+<Professor Birch> Mm-hmm! I think that settles it!
+<Professor Birch> @s, I ordered this Pokédex for my research, but I think you should take it.
+
+@s received a Pokédex!
+
+<Professor Birch> That Pokédex is a high-tech tool that automatically makes a record of any Pokémon you meet or catch.
+
+<Professor Birch> My girl May takes hers with her everywhere she goes.
+<Professor Birch> Whenever she catches a rare Pokémon and records its data in the Pokédex, why, she comes to seek me out wherever I am in the field and show me!
+
+<Professor Birch> My boy Brendan takes his with him everywhere he goes.
+<Professor Birch> Whenever he catches a rare Pokémon and records its data in the Pokédex, why, he comes to seek me out wherever I am in the field and show me!
+
+<Professor Birch> The Pokémon and people you will meet...
+<Professor Birch> And the great expanse of nature that lies before you!
+<Professor Birch> Experience them both while you fill in your Pokédex. I'd love it if your world seemed wider than ever!
+<Professor Birch> Though I'd love it even more if you came back from time to time to show me what progress you've made.
+<Professor Birch> ...Arghhh! I'm getting the itch to get out and do fieldwork again!
 
 
+<May> Oh, wow, @s! Now you've got a Pokédex, too!
+<May> That's great. Just like me!
+<May> Then here... I'll give you something, too!
+<May> Some Poké Balls that you can use to catch wild Pokémon!
+
+@s obtained Poké Balls!
+
+<May> If you catch a Pokémon in the wild and battle together with it for a while, it will grow stronger for you!
+<May> Take that as a bit of advice from a more experienced Trainer like me!
+<May> I'm going to get ready to head out from Littleroot soon myself.
+<May> I can't wait to see what kind of Pokémon I'm going to meet...
 
 
+<Brendan> Oh, wow, @s! Now you've got a Pokédex, too!
+<Brendan> That's great. Just like me!
+<Brendan> Then here... I'll give you something, too!
+<Brendan> Some Poké Balls that you can use to catch wild Pokémon!
+
+@s obtained Poké Balls!
+
+<Brendan> If you catch a Pokémon in the wild and battle together with it for a while, it will grow stronger for you!
+<Brendan> Take that as a bit of advice from a more experienced Trainer like me!
+<Brendan> I'm going to get ready to head out from Littleroot soon myself.
+<Brendan> I can't wait to see what kind of Pokémon I'm going to meet...
+
+#tp out
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 13 - Littleroot Town
+#Mom after Birch's Lab
+#https://youtu.be/MgkqxXCmrtI?t=1634
+
+<...> @s! Wait!
+
+#mom tps in
+
+<Mom> @s! @s!
+<Mom> Did you introduce yourself to Professor Birch?
+<Mom> Oh! What an adorable Pokémon!
+<Mom> You got it from the professor?
+<Mom> How nice! You are your father's child, all right...
+<Mom> You look good together with a Pokémon!
+<Mom> ...
+<Mom> To think that you have your very own Pokémon now...
+<Mom> Your father will be overjoyed. But don't push yourself too hard.
+<Mom> If anything happens, you can always come home, honey.
+
+#mom tps out
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 14 - Route 101
+#Rival giving item
+#https://youtu.be/MgkqxXCmrtI?t=1667
+
+<May> This is from my dad. He said he forgot to give it to you before.
+
+Your PokéNav Plus has been updated! The DexNav function has been added to your PokéNav Plus!
+
+<May> The app I just added to your PokéNav Plus is called the DexNav.
+<May> It can tell you lots about the Pokémon living in each area and that kind of stuff.
+<May> It's a handy app to have if you're trying to catch lots of different Pokémon.
+<May> Guess it's about time I use the DexNav to do a little more catching myself!
+<May> I'm gonna head that way and see what I find.
+<May> @s, you should use those Poké Balls I gave you earlier to do a bit of catching, too!
 
 
+<Brendan> This is from my dad. He said he forgot to give it to you before.
+
+Your PokéNav Plus has been updated! The DexNav function has been added to your PokéNav Plus!
+
+<Brendan> The app I just added to your PokéNav Plus is called the DexNav.
+<Brendan> It can tell you lots about the Pokémon living in each area and that kind of stuff.
+<Brendan> It's a handy app to have if you're trying to catch lots of different Pokémon.
+<Brendan> Guess it's about time I use the DexNav to do a little more catching myself!
+<Brendan> I'm gonna head that way and see what I find.
+<Brendan> @s, you should use those Poké Balls I gave you earlier to do a bit of catching, too!
+
+#----------------------------------------------------------------------------------------------------------
+
+#Catching Tutorial - No
+#https://youtu.be/MgkqxXCmrtI?t=1792
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 15 - Route 103
+#Rival on Route 103 end
+https://youtu.be/MgkqxXCmrtI?t=2750
+
+#Assign an armor stand to represent May and Brendan
+
+#Probs skip this one?
+
+<..> Heeeeeey!
+
+#tps rival in
+
+<May> How's it going, @s?
+<May> Have you been using your DexNav and perfecting your sneaking skills?
+<May> I hope you already checked out the DexNav's Detector Mode.
+<May> It reacts to Pokémon in the area, so it's really handy!
+<May> Ah!
+<May> Look! Up there! Check 'em out, @s!
+<May> Those were...Beautifly, weren't they?
+<May> I'll have to check in my DexNav later to be sure!
+<May> Oh, l-look! There's Petalburg already!
+<May> @s, your dad... He's the Gym Leader in Petalburg City, isn't he?
+<May> Maybe I should try to take him on myself, once I train up my Pokémon a bit more!
+<May> Guess I'm off then, @s! Let's meet up again sometime!
 
 
+<Brendan> How's it going, @s?
+<Brendan> Have you been using your DexNav and perfecting your sneaking skills?
+<Brendan> I hope you already checked out the DexNav's Detector Mode.
+<Brendan> It reacts to Pokémon in the area, so it's really handy!
+<Brendan> Ah!
+<Brendan> Look! Up there! Check 'em out, @s!
+<Brendan> Those were...Beautifly, weren't they?
+<Brendan> I'll have to check in my DexNav later to be sure!
+<Brendan> Oh, l-look! There's Petalburg already!
+<Brendan> @s, your dad... He's the Gym Leader in Petalburg City, isn't he?
+<Brendan> Maybe I should try to take him on myself, once I train up my Pokémon a bit more!
+<Brendan> Guess I'm off then, @s! Let's meet up again sometime!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 16 -
 
 
 
@@ -348,7 +462,7 @@ Your team's health was restored!
 
 
 #Left off at
-#https://youtu.be/MgkqxXCmrtI?t=1472
+#https://youtu.be/MgkqxXCmrtI?t=2808
 
 
 
