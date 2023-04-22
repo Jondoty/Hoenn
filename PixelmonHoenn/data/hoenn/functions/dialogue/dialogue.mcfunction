@@ -827,6 +827,338 @@ Out of the way! Move it!
 <Researcher> If I don't... I'm going to be in serious trouble...
 
 #----------------------------------------------------------------------------------------------------------
+#Dialogue 28 - Rusturf Tunnel
+#Pre-Grunt Battle
+#https://youtu.be/MgkqxXCmrtI?t=8360
+
+#tp grunt in if missing
+
+<Team Magma Grunt> Grah, keelhaul it all!
+<Team Magma Grunt> This hostage Pokémon turned out to be worthless!
+<Team Magma Grunt> And to think I made a getaway... into this tunnel to nowhere!
+<Team Magma Grunt> And you! Now you're here to battle me. Really?
+
+<Team Aqua Grunt> Grah, keelhaul it all!
+<Team Aqua Grunt> This hostage Pokémon turned out to be worthless!
+<Team Aqua Grunt> And to think I made a getaway... into this tunnel to nowhere!
+<Team Aqua Grunt> And you! Now you're here to battle me. Really?
+
+<Peeko> Pi pikwee!
+
+
+#------------------
+#Dialogue 29 - Rusturf Tunnel
+#Grunt post-battle
+#https://youtu.be/MgkqxXCmrtI?t=8417
+
+<Team Magma Grunt> This is plain not right...
+<Team Magma Grunt> The boss told me this would be a slick-and-easy job to pull.
+<Team Magma Grunt> All I had to do was steal some parts from Devon.
+<Team Magma Grunt> Tch! You want 'em back that badly, then take 'em!
+
+<Team Aqua Grunt> This is plain not right...
+<Team Aqua Grunt> The boss told me this would be a slick-and-easy job to pull.
+<Team Aqua Grunt> All I had to do was steal some parts from Devon.
+<Team Aqua Grunt> Tch! You want 'em back that badly, then take 'em!
+
+@s obtained the Devon Parts!
+
+#grunt tps out
+
+#tps Mr. Briney in
+
+<Mr. Briney> Peeko! Am I glad to see you're safe!
+<Mr. Briney> My Peeko owes her life an' freedom to you! They call me Mr. Briney. And you are?
+<Mr. Briney> Ah, so it's @s, is it now!
+<Mr. Briney> Then I sincerely thank you, @s!
+<Mr. Briney> If there's ever a thing I can do to help you in turn, don't you hesitate to tell me.
+<Mr. Briney> If I'm to be found, it will always be at my cottage by the sea near Petalburg Woods.
+<Mr. Briney> Come, Peeko! High time we're under way to home!
+
+<Peeko> Pikwee!
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 30 - Rustboro City
+#Bring Devon Parts back
+#https://youtu.be/MgkqxXCmrtI?t=8566
+
+<Researcher> Oh! How did it go? Did you get my Devon Parts?
+<Researcher> You did! You got them back!
+<Researcher> You really are a great Trainer!
+<Researcher> I know! As my thanks, I'll give you a Great Ball!
+
+@s obtained a Great Ball!
+
+<Researcher> Oh, yes! Young trainer! Please come with me!
+
+#shot of Devon Corp
+
+#tps player into the building
+
+<Researcher> This is the top floor of the Devon Corporation.
+<Researcher> Our president's office is on this floor.
+<Researcher> I can't tell you how grateful I am for what you've done for our company.
+<Researcher> Could you wait here for just a moment?
+
+#researcher tps over to president's desk
+
+#researcher tps back to stairs
+
+<Researcher> Our president would like to have a word with you.
+<Researcher> Please come with me.
+
+#tps player over to president's desk
+
+<Mr. Stone> I'm Mr. Stone, the president of the Devon Corporation.
+<Mr. Stone> I heard just now how we have quite a bit to thank you for.
+<Mr. Stone> So you helped out my staff not just once, but twice!
+<Mr. Stone> There's a favor I'd like to ask of a reliable Trainer like you.
+<Mr. Stone> Now I want you to know I'm a president you can trust.
+<Mr. Stone> I'd never be so mean as to ask a favor for nothing in return.
+<Mr. Stone> Here, give me your PokéNav Plus for a moment.
+
+Mr. Stone updated your PokéNav Plus! You can now use the BuzzNav function on your PokéNav Plus!
+
+<Mr. Stone> The function that I just added to your PokéNav Plus is called BuzzNav.
+<Mr. Stone> It is an indispensable tool for any Trainer who is traveling out in the world.
+<Mr. Stone> Use it, and you'll be able to get the latest news from around the region and from your own friends, anytime and anyplace.
+<Mr. Stone> Now let me get to the important issue of what it is I need you to do...
+<Mr. Stone> I want to ask you to deliver this Letter to a man named Steven. You should find him in Dewford.
+
+@s obtained the Letter!
+
+<Mr. Stone> You'll have to cross the sea to reach Dewford, of course.
+<Mr. Stone> I'll ask Mr. Briney, the old sailor who lives in that hut on Route 104, to help with the crossing.
+<Mr. Stone> Go find him, and he should agree to help you. I'm counting on you, young trainer!
+<Mr. Stone> If you're ever unsure of what to do, just come and talk with me again!
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 31 - Rustboro City
+#Rival after Devon Corp Convo
+#https://youtu.be/MgkqxXCmrtI?t=8762
+
+#tps in rival if needed, can do through portals
+
+<May> Oh! Hey, @s! Have you been catching lots of Pokémon?
+<May> I'm doing pretty good on that front, at least.
+<May> I caught so many Pokémon in Petalburg Woods that I ran out of Poké Balls!
+<May> Oh yeah... And I passed by Mr. Briney when I was in Petalburg Woods.
+<May> Hmm. I guess he must have been on his way home to his cottage on Route 104.
+<May> @s, you just moved here so there's no way you could know, but Mr. Briney was once a highly respected seafarer.
+
+
+
+<Brendan> Hey, @s. How's your Pokédex? Completed any entries yet?
+<Brendan> Mine pretty much rules.
+<Brendan> I went on a Pokémon-catching frenzy in Petalburg Woods until I ran out of Poké Balls!
+<Brendan> Oh, yeah. I passed by Mr. Briney in Petalburg Woods.
+<Brendan> I bet he was on his way home to his cottage on Route 104.
+<Brendan> I guess you wouldn't know, since you just moved here and all, but they say that old guy used to be an amazing sailor!
+
+#tps rival out
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 32 - Mr. Briney's Cottage
+#https://youtu.be/MgkqxXCmrtI?t=9012
+
+<Mr. Briney> Hold on, lass! Belay that, Peeko!
+<Mr. Briney> Oh, if it ain't @s! You're the one who saved my Peeko!
+<Mr. Briney> Aye, but we owe you for that day!
+<Mr. Briney> What's that? You want to sail with me?
+<Mr. Briney> What's this all about, then?
+<Mr. Briney> A letter bound for Dewford? Certainly, that'd be no problem at all.
+<Mr. Briney> You've come to the right man! Shall we hoist sail for Dewford at once?
+
+[Head to Dewford]
+
+
+#----------------------------------
+#Dialogue 33 - Mr. Briney's Cottage
+#https://youtu.be/MgkqxXCmrtI?t=9034
+
+<Mr. Briney> Dewford, we're a-coming! Anchors aweigh!
+<Mr. Briney> Peeko, we're setting sail, my darling!
+
+#Cutscene shots?
+
+<Mr. Briney> Ahoy! We've struck land in Dewford.
+<Mr. Briney> I suppose you'll be heading ashore to deliver that letter to what's-his-name or whomever.
+<Mr. Briney> If you're ever feeling lost and adrift though, try calling in on the island's Pokémon Gym.
+<Mr. Briney> The Leader, Brawly, surely knows everyone and everything that goes on in his town!
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 34 - Dewford Gym
+#Brawly Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=10272
+
+<Brawly> I'm Brawly! Dewford's Gym Leader!
+<Brawly> I've been churned in the rough waves of these parts...
+<Brawly> And I've grown tough using the cave at the outskirts of this town as my training ground, as well as using the equipment in this Gym.
+<Brawly> So you want to challenge me?
+<Brawly> Let me see what you're made of!
+
+
+#--------------------------
+#Dialogue 35 - Dewford Gym
+#Brawly Post-Battle
+
+<Brawly> OK, you've got me. Take this Gym Badge!
+
+@s received the Knuckle Badge from Brawly.
+
+<Brawly> Hmm... You know what? I think you can make full use of this, too.
+<Brawly> I'm sure this will help your Pokémon bulk up muscle!
+
+@s obtained TM08 Bulk Up!
+
+<Brawly> Bulk Up temporarily enhances the Pokémon's muscle power.
+<Brawly> The move boosts both Attack and Defense stats of the Pokémon.
+<Brawly> I can see your talent becoming a giant wave that causes a storm of astonishment with Trainers one day!
+<Brawly> I look forward to the day when I can surf your giant wave!
+<Brawly> By the way, have you been to Granite Cave? It's located to the north of this town.
+<Brawly> It's full of fascinating stuff, like rare stones and wall paintings thousands of years old.
+<Brawly> My friend Steven rushed to the cave after I told him about it.
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 36 - Granite Cave
+#Meeting Steven Stone for the first time
+#https://youtu.be/MgkqxXCmrtI?t=10656
+
+#Shots of the primal paintings
+
+So in the ancient world, their primal forms once held this much power...?
+The super-ancient Pokémon... What terrible strength...
+But this appearance here... It seems somehow different from Mega Evolution... Hmm.
+It seems my questions will not be answered today.
+Hm?
+You are...?
+...
+Ah, I see. It's a pleasure, @s.
+My apologies. My name is Steven.
+I'm interested in rare stones, so I travel here and there.
+Today my journey brought me here, but what about you?
+Oh? A letter for me?
+@s gave Steven the letter they had been entrusted with!
+Why, thank you...
+It must have been some trouble to track me down. I suppose I must repay you in some way.
+Let me see...
+I will give you this TM. Please accept it. It contains my favorite move, Steel Wing.
+
+@s obtained TM51 STeel Wing!
+
+#View of overhead, Steven looking at the wall
+
+If you don't mind me asking... Do you feel anything in particular when you look up at this wall?
+A primal world, lost thousands of years in the past...
+A Legendary Pokémon of tremendous power became humanity's greatest threat...
+The terror aroused by that power is clear to see in this ancient artwork.
+
+
+...Yes. But not all power is terrible. Your Pokémon are clearly quite capable as well.
+Looking at you all together... I think that you have in you what it takes to become a Pokémon League Champion.
+As long as you keep training, that is.
+Good luck to you. I must be going now.
+
+#Steven teleports out
+
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 37 - Dewford Town
+#Mr. Briney after delivering Steven's Letter
+#https://youtu.be/MgkqxXCmrtI?t=10962
+
+<Mr. Briney> Oho! It looks as though you have delivered your chit good and proper.
+<Mr. Briney> Ah, but that reminds me! I've had a message from President Stone, saying he has another favor to ask.
+<Mr. Briney> It's about them Devon Parts that you recovered for him before.
+<Mr. Briney> Seems as though they should go to some fellow called Stern at Slateport's shipyard.
+<Mr. Briney> This old seadog will see you there safely! Weigh anchors! We're for Slateport!
+
+[Route 104 (near Petalburg)] [Route 109 (near Slateport)]
+
+<Mr. Briney> Slateport City, is it? Anchors aweigh! Peeko, we're setting sail, my darling!
+
+#Cutscene shots
+
+<Mr. Briney> Ahoy! We've made land in Slateport!
+<Mr. Briney> I suppose you're off to visit Captain Stern and deliver those Devon Parts?
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 38 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -835,7 +1167,7 @@ Out of the way! Move it!
 
 
 #Left off at
-#https://youtu.be/MgkqxXCmrtI?t=7027
+https://youtu.be/MgkqxXCmrtI?t=11469
 
 
 
