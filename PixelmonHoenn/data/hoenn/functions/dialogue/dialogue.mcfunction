@@ -1083,7 +1083,174 @@ Good luck to you. I must be going now.
 <Mr. Briney> I suppose you're off to visit Captain Stern and deliver those Devon Parts?
 
 #----------------------------------------------------------------------------------------------------------
-#Dialogue 38 -
+#Dialogue 38 - Route 109
+#Seashore House after all trainers battled
+#https://youtu.be/MgkqxXCmrtI?t=11872
+
+<Mr. Sea> You're scorching hot! Those battles blazed!
+<Mr. Sea> I'm more than pleased!
+<Mr. Sea> As thanks for showing me your hot streak, I want you to take these.
+<Mr. Sea> It's half a dozen bottles of Soda Pop!
+
+@s obtained Soda Pops!
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 39 - Slateport City
+#Fan Club President when talked to
+
+<Fan Club Chairman> Er-hem! I am the chairman of the Pokémon Fan Club!
+<Fan Club Chairman> Being the chairman, I am naturally the most important!
+<Fan Club Chairman> No one could best me when it comes to raising Pokémon.
+<Fan Club Chairman> No one! In any contest, my victory is a foregone conclusion!
+<Fan Club Chairman> But that would deprive others of their enjoyment.
+<Fan Club Chairman> So I now while away my time examining the Pokémon of others.
+<Fan Club Chairman> It is marvelous to witness how others have raised Pokémon.
+<Fan Club Chairman> The contented faces of properly raised Pokémon...
+<Fan Club Chairman> The kind and loving gazes of their Trainers...
+<Fan Club Chairman> My heart is overwhelmed—there is so much happiness.
+<Fan Club Chairman> Oh my! Excuse me! I seem to have nattered on far too long!
+<Fan Club Chairman> Please, do allow me to examine your Pokémon and see how it's grown.
+
+#---------------
+#Dialogue 40 - Slateport City
+#Fan Club President when Pokemon is sent out
+
+How is your Pokémon growing? Allow me to examine it.
+Hmmhm... I see...
+
+#Mehs
+Hmmm... It's not bad, but it's not good, either.
+You, the Trainer, must put more effort into raising this Pokémon!
+For instance, may I suggest that you give it more Pokéblocks?
+
+#if the player's lead Pokémon has at least 200 stats. Is this possible to track?? Could perhaps track if the trainer has earned 200+ points in each category
+
+Your @e, it is growing in a most impressive manner!
+It is one fine specimen! But!
+If you let it hold this item, it would become even more attractive! Indeed!
+
+Let a Pokémon hold that Red Scarf. Everyone will recognize the coolness of that Pokémon!
+Let a Pokémon hold that Blue Scarf. Its beauty will be accentuated much more than now!
+Let a Pokémon hold that Pink Scarf. It will draw out the cuteness of the Pokémon some more!
+Let a Pokémon hold that Green Scarf. That will enhance the cleverness of the Pokémon!
+Let a Pokémon hold that Yellow Scarf. It will bolster your Pokémon's toughness!
+
+I'm sorry, but I've nothing else to give you! None at all!
+After all, you're blessed with the gift of raising Pokémon without resorting to any items!
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 41 - Slateport City
+#Upon entering Stern's Shipyard
+#https://youtu.be/MgkqxXCmrtI?t=12399
+
+#Shot pans over to man
+
+<...> Umm... If this goes here, and that goes over there...
+<...> Then where does this thing go? And what about that doohickey?
+<...> Aaargh! I can't make heads or tails of this!
+
+#Nps turns around
+
+#tps player to first person again
+
+<Dock> Oh, sorry. I'm Dock.
+<Dock> Captain Stern commissioned me to draw up designs for a ferry.
+<Dock> Oh! Those parts you have... Those are the Devon Parts!
+<Dock> But...hmm... This won't do...
+<Dock> I guess Captain Stern is probably off at the Oceanic Museum again...
+<Dock> Sorry, but could I ask you to find the captain and give the parts to him?
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 42 - Slateport City
+#Oceanic Museum finding Mr. Stern
+
+<...> Yes?
+<Captain Stern> If you're looking for Stern, that would be me.
+<Captain Stern> Ah! Those must be the parts I ordered from Mr. Stone at Devon.
+<Captain Stern> Thank you for bringing the case all this way.
+<Captain Stern> Now we can prepare for our expedition at last!
+
+#Team Grunts teleport in
+
+<Team Aqua Grunt> Heh heh heh heh... Hold up a moment! We'll be taking those!
+<Team Magma Grunt> Hah hah hah hah... Just a moment! We'll be taking those parts!
+
+<Captain Stern> Wh-what was that?! Who are you people?!
+
+<Team Aqua Grunt> We're Team Aqua!
+<Team Aqua Grunt> Our boss wants the parts in that case, so shut your yap and fork it over!
+
+<Team Magma Grunt> We are Team Magma!
+<Team Magma Grunt> Our boss has need of the parts in that case, so relinquish it to us at once!
+
+pokebattle grunt 1
+
+#----------------------------
+#Dialogue 43 - Slateport City
+#Post-Grunt 1 Battle
+
+
+<Team Aqua Grunt> Awaaaughhh! I got beat by a little brat?
+<Team Aqua Grunt> Oh, man, what a disaster... The boss is gonna be furious...
+<Team Aqua Grunt> Hmph! Sniveling wimp!
+<Team Aqua Grunt> Stand back and watch me, the 27th-strongest member of Team Aqua, take care of this kid!
+
+
+<Team Magma Grunt> Absurd! I was defeated by this child?
+<Team Magma Grunt> This is quite disastrous. At this rate, I will become the target of the boss's fury!
+<Team Magma Grunt> My, you really are incompetent...
+<Team Magma Grunt> I suggest you observe while a future Ace Grunt of Team Magma makes short work of this infant.
+
+pokebattle grunt 2
+
+#----------------------------
+#Dialogue 44 - Slateport City
+#Post-Grunt 2 Battle
+#https://youtu.be/MgkqxXCmrtI?t=12837
+
+<Team Aqua Grunt> They beat the 27th-strongest Grunt in Team Aqua?
+<Team Aqua Grunt> N-now what? If we don't get that case, we're in for it!
+<Team Aqua Grunt> Arrgh! I never thought we'd be stopped by some meddling kid!
+
+
+
+
+<Team Magma Grunt> How could a future Ace Grunt of Team Magma be defeated?
+<Team Magma Grunt> Wh-what should we do now? We must obtain that case at once!
+<Team Magma Grunt> Hmph... I would never have posited that a mere child would prove such an obstacle.
+
+#Spawns in leader
+#Shot of them
+#https://youtu.be/MgkqxXCmrtI?t=12840
+
+#Archie
+<...> What do we have here?
+<...> I came to see what was taking so long just to steal a few parts, and I find you simps getting beat by this kid?
+<...> Heh! That's quite a fierce expression for such a wee little scamp.
+<...> That face tells me you're not just another mindless Trainer brat.
+<Archie> The name is Archie.
+<Archie> The rough-looking lot you see here are members of my team—Team Aqua.
+<Archie> So tell me, child...
+<Archie> Do you know that Pokémon, people, and all life in this world depend on the sea for life?
+<Archie> That's right. The sea is an irreplaceable treasure for every living thing on this planet.
+<Archie> But with our selfish extravagance, humanity dirties the great ocean, destroying this source of all life...
+<Archie> Day by day, we're all destroying our most precious resource!
+<Archie> If we humans suffer from our actions, well, maybe we'll end up getting what we deserve.
+<Archie> But what about the Pokémon in our world?
+<Archie> The Pokémon that no longer have a place to live because we stole and soiled their seas?
+<Archie> The Pokémon that won't have a place to raise their young and watch them grow?
+<Archie> We are creating a world in which innocent Pokémon suffer as a result of our actions...
+<Archie> And that is something that I can't forgive!
+<Archie> That's why I came to a decision, see?
+<Archie> The foolish actions of my fellow humans, the seas we have blighted, nature itself...
+<Archie> I will return everything to its unspoiled beginnings!
+<Archie> ... Heh! It's not like me to talk so much.
+<Archie> Never mind, little scamp...
+<Archie> I'll withdraw for now and leave you be.
+<Archie> But understand this...
+<Archie> Get in my way again, and you won't walk away unscathed next time.
+<Archie> Remember that, at least!
+<Archie> We're moving out, lads!
 
 
 
@@ -1094,29 +1261,142 @@ Good luck to you. I must be going now.
 
 
 
+#Maxie
+<...> Now here I was wondering how you could be held up in the simple act of seizing a case.
+<...> Do I take it you are being stymied by this child?
+<...> Hmm. Though you are but a child, your eyes tell me of your fierce determination.
+<...> My heart is pounding in my chest...
+<...> Yes, I think I can see why my lowly Grunts could not stand one minute against you.
+<Maxie> I am called Maxie.
+<Maxie> I stand as the head of Team Magma, a noble organization whose goal is to propel humanity to even greater heights of progress and evolution.
+<Maxie> Indeed.
+<Maxie> And you are one of the young persons who may shape our society's future.
+<Maxie> Considering that fact, I believe I shall educate you in the ways of the world.
+<Maxie> The land...
+<Maxie> It is the stage upon which humanity stands.
+<Maxie> The land exists so we humans might continue onward and upward, stepping into the future...
+<Maxie> For us to continue growing and evolving, humans require a grand stage upon which to stand.
+<Maxie> A land upon which we can stride forward...
+<Maxie> A land we can explore...develop...exploit...
+<Maxie> This is the basis for the growth of all human endeavor.
+<Maxie> That is why we, Team Magma, must increase the landmass of this world!
+<Maxie> Believe that this will lead to a future of eternal happiness for humanity...
+<Maxie> And consequently for all life!
+<Maxie> Humph. I suppose the concept may still be too difficult for a child to comprehend.
+<Maxie> Is that the case?
+<Maxie> At least I have tried to open your mind.
+<Maxie> I will take my leave for now.
+<Maxie> I suggest you take care that you never again stand against Team Magma.
+<Maxie> I will not be so lenient the next time.
+<Maxie> I implore you to remember that.
+<Maxie> We are done here.
+
+#Teleport out leader and grunts
 
 
 
+<Captain Stern> Young trainer...
+<Captain Stern> Ah, @s, is it?
+<Captain Stern> That was quite a tense situation! Thank you for helping me out!
+<Captain Stern> Oh, yes, I almost forgot that you brought the parts from Devon!
 
+@s handed over the Devon Parts to Captain Stern.
 
+<Captain Stern> This is it!
+<Captain Stern> I can't be standing around here!
+<Captain Stern> It's finally time for us to set out on our ocean-floor expedition!
+<Captain Stern> Thanks for this, and excuse me!
 
+#tps out Stern
 
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 45 - Contest Hall without a Pass
+#Multiple locations
+#https://youtu.be/MgkqxXCmrtI?t=13367
 
+<Contest Clerk> Welcome to the Pokémon Contest Spectacular!
+<Contest Clerk> ...Oh? You don't seem to have a Contest Pass.
+<Contest Clerk> We only accept Trainers who have Contest Passes as contestants of the Pokémon Contest Spectacular!
+<Contest Clerk> Well, let me see... You might be able to get it from somebody.
+<Contest Clerk> Slateport City is a big place. Why don't you try sightseeing in different places?
+<Contest Clerk> Please come again.
 
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 46 - Slateport City
+#
+#https://youtu.be/MgkqxXCmrtI?t=13368
 
+#Pans to overhead shot
 
+Hey! That's Lisia and Ali doing a shoot over there!
+Are you serious?! Lisia! Let's go!
 
+#Sets up NPCs and display
 
+#Brings camera overhead of crowd
 
+<Lisia> Hiiiiii, ev-er-y-bo-dy!
+<Lisia> Lisia here! Me and my Altaria, Ali, have come to Slateport City's Contest Spectacular Hall for a bit of FUN!
+<Altaria> Ali-li-li!
+<Lisia> Well then, watch me as I dive right in again today!
 
+<Audience> Yeaaahhhh!
 
+<Lisia> Dazzling, dizzying, doldrums defying!
 
+<Audience> Dazzling! Dizzying!
 
+<Lisia> Lisia's...Miraculous...Contest Scouting!
 
+<Audience> START!
+<Audience> Lissi! Scout me to be your next boyfriend!
+<Audience> Lisia! Aliii!
 
+<Lisia> All righty! I'm going to bring another fantastic Trainer into the wild world of contesting!
+<Lisia> Eenie...meenie...miney...
 
+#teleport player to audience
 
+<Lisia> You there, watching me with that baffled expression on your face!
+<Lisia> Hi! Have you never joined in a contest?
+<Lisia> That's just what I want to hear!
+<Lisia> Then let's get this show on the road! This is the Trainer I'm gonna scout today!
+<Lisia> And their name is...
 
+<Lisia> @s!
+<Lisia> When I took a good look, I could easily see that @s is a powerful Trainer,
+<Lisia> with several Badges of their own already!
+<Lisia> @s!
+<Lisia> You can enjoy Contest Spectaculars at the Pokémon Contest Hall right here.
+<Lisia> Now listen up, because I don't just want to see you making your Pokémon strong.
+<Lisia> I want to see you bringing out a whole new brilliant side of them to show off!
+<Lisia> So here you go! Take these!
+<Lisia> This is a Contest Pass, which is the first thing that anyone needs to take part in a Contest Spectacular!
+<Lisia> And this one is a Pokéblock Kit, which will let you make Pokéblocks for your Pokémon out of Berries!
+
+@s obtained the Contest Pass!
+@s obtained the Pokéblock Kit!
+
+<Lisia> @s's story begins today!
+<Lisia> Yep! And this chapter should be titled...
+<Lisia> “A Sudden Encounter! Miraculous Contest Scouting!”
+<Lisia> That's what I'd call it! Now, everybody out there watching...
+<Lisia> You'd better expect great things from @s, because I do!
+<Lisia> That's it for today's Lisia's Miraculous Contest Scouting! See you all next time!
+
+<Altaria> Al-tariii!
+
+<Audience> Clap! Clap! Clap!
+<Audience> Lissi, you're so cute!
+
+<Lisia> If you feel up for it, try your hand in a contest for me, OK? Tee-hee!
+
+#Lisia telports out
+
+#Teleports everyone else out
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 47 -
 
 
 
@@ -1167,7 +1447,7 @@ Good luck to you. I must be going now.
 
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=11469
+https://youtu.be/MgkqxXCmrtI?t=13523
 
 
 
