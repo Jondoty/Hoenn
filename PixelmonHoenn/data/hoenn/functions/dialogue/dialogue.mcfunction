@@ -1310,9 +1310,11 @@ pokebattle grunt 2
 #tps out Stern
 
 #----------------------------------------------------------------------------------------------------------
-#Dialogue 45 - Contest Hall without a Pass
-#Multiple locations
+#Dialogue 45 - Contest Hall
+#Multiple locations, repeatable
 #https://youtu.be/MgkqxXCmrtI?t=13367
+
+#without a Pass
 
 <Contest Clerk> Welcome to the Pokémon Contest Spectacular!
 <Contest Clerk> ...Oh? You don't seem to have a Contest Pass.
@@ -1320,6 +1322,28 @@ pokebattle grunt 2
 <Contest Clerk> Well, let me see... You might be able to get it from somebody.
 <Contest Clerk> Slateport City is a big place. Why don't you try sightseeing in different places?
 <Contest Clerk> Please come again.
+
+#With a pass, first time
+#https://youtu.be/MgkqxXCmrtI?t=13679
+<Contest Clerk> Welcome to the Pokémon Contest Spectacular!
+<Contest Clerk> It looks like you've brought your Contest Pass.
+<Contest Clerk> Keep on trying until you become a contest star!
+<Contest Clerk> Before we begin, some advice for first-timers...
+<Contest Clerk> During the contest, your Pokémon will show the audience just how lovely it is!
+<Contest Clerk> First up is the Introduction Round!
+<Contest Clerk> The appearance of Pokémon that have raised their Coolness, Cuteness, or other conditions will be judged.
+<Contest Clerk> After the Introduction Round, it's time for the Talent Round!
+<Contest Clerk> It's a competition to determine how well Pokémon can use their moves over the course of five turns.
+<Contest Clerk> Use moves that match the condition of the contest to make the audience go crazy!
+<Contest Clerk> If you check the moves of the Pokémon that you want to put in the contest, you can see that they're split into five different conditions, such as Coolness and Cuteness.
+<Contest Clerk> If you're in a contest with the same title as that condition, you can use that move to appeal to the crowd!
+<Contest Clerk> After you place first in a Normal Rank contest, you can win your way through higher ranks!
+<Contest Clerk> Very well...
+<Contest Clerk> Right this way, please!
+
+#With a pass, Returning
+<Contest Clerk> Rediscover the charm of Pokémon! Welcome to the Pokémon Contest Spectacular!
+<Contest Clerk> Would you like to participate in the contest? [Enter]
 
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 46 - Slateport City
@@ -1396,21 +1420,46 @@ Are you serious?! Lisia! Let's go!
 #Teleports everyone else out
 
 #----------------------------------------------------------------------------------------------------------
-#Dialogue 47 -
+#Dialogue 47 - Slateport Contest Hall
+#Player wanting to start a contest
+#https://youtu.be/MgkqxXCmrtI?t=13567
+#Likely won't include
 
+Ohhh! @s!
 
+#tps Liasa to player
 
+<Lisia> Could it be? Oh, could it, could it?
+<Lisia> Are you really going to try a contest for me?!
+<Lisia> Oooh! I'm happier than a Gloom with a Sun Stone!
+<Lisia> Ah! I know! This chapter of your story should definitely be called...
+<Lisia> “My Big Beginning! A Heart-Pounding Contest Debut!”
+<Lisia> That's what I'm calling it!
+<Lisia> Ohhh, but if you're gonna take the stage, you've gotta come here with me first!
 
+#tps player to makeup room
 
+<Lisia> So! If you're taking on a Contest Spectacular, there's something you hafta have from me!
+<Lisia> Tee hee... I know it's sudden. Sorry!
+<Lisia> Truth is... You're actually the 100th Trainer that I've scouted, @s!
+<Lisia> That's a really big deal, you know!
+<Lisia> It's gotta be fate! Right? Tee hee!
+<Lisia> I think you're just the Trainer I've been looking for!
+<Lisia> Oopsies! So-o-o-orry! Got a little carried away!
+<Lisia> But, um, the point was... Would you like to...?
+<Lisia> Well, do you think...? Um, wanna wear this for your contest debut?
+<Lisia> S-s-s-so...
+<Lisia> So COOOOOOL!
+<Lisia> Oh, wow! It's PERFECT for you!
+<Lisia> Eeeee! I just can't wait!
+<Lisia> Your first time on a live contest stage, @s!
+<Lisia> It's gonna be so so so AWESOME! I'm not gonna blink for even a second!
+Phew! You look so fantastic in that outfit that I'm about to lose it here!
+You have to wear this [VAR ITEM2(0000)]! It'll be perfect for the contest. Promise!
+<Lisia> I'll be cheering for you!
 
-
-
-
-
-
-
-
-
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 48 -
 
 
 
@@ -1447,7 +1496,7 @@ Are you serious?! Lisia! Let's go!
 
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=13523
+https://youtu.be/MgkqxXCmrtI?t=14373
 
 
 
