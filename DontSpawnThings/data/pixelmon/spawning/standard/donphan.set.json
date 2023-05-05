@@ -1,0 +1,75 @@
+{
+  "id": "Donphan",
+  "spawnInfos": [
+    {
+      "spec": "species:Donphan"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 39,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Donphan"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 41,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Donphan"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+    {
+      "spec": "species:Donphan"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 32,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay", "minecraft:gravel"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Simisage",
+  "spawnInfos": [
+    {
+      "spec": "species:Simisage",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 27,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

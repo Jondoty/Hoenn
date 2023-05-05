@@ -1,0 +1,37 @@
+{
+  "id": "Wurmple",
+  "spawnInfos": [
+    {
+      "spec": "species:Wurmple",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent",
+        "Forage"
+      ],
+      "minLevel": 4,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:bright_powder",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pecha_berry",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "all forests"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Simipour",
+  "spawnInfos": [
+    {
+      "spec": "species:Simipour",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 27,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "Rhyhorn",
+  "spawnInfos": [
+    {
+      "spec": "species:Rhyhorn"
+      ,
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 32,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay", "minecraft:gravel"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

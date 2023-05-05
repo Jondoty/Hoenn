@@ -1,0 +1,27 @@
+{
+  "id": "Shellos",
+  "spawnInfos": [
+    {
+      "spec": "species:Shellos",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "beaches"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

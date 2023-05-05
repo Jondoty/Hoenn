@@ -1,0 +1,40 @@
+{
+  "id": "Deino",
+  "spawnInfos": [
+    {
+      "spec": "species:Deino",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous forests",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Deino",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "mountainous"
+        ],
+        "maxLightLevel": 0
+      },
+      "rarity": 0
+    }
+  ]
+}

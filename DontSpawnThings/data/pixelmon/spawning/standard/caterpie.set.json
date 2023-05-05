@@ -1,0 +1,126 @@
+{
+  "id": "Caterpie",
+  "spawnInfos": [
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188,
+        "times": [ "DAWN", "DUSK" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188,
+        "times": [ "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584,
+        "times": [ "DAWN", "DUSK" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584,
+        "times": [ "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 60.0
+    },
+
+
+
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+  ]
+}

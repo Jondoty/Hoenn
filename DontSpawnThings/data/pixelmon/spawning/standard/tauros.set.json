@@ -1,0 +1,55 @@
+{
+  "id": "Tauros",
+  "spawnInfos": [
+    {
+      "spec": "species:Tauros"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Tauros"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 776, "maxX": 798, "minZ": 121, "maxZ": 176,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Tauros"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 21.0
+    }
+
+  ]
+}

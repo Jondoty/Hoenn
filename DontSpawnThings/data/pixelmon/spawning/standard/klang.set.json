@@ -1,0 +1,38 @@
+{
+  "id": "Klang",
+  "spawnInfos": [
+    {
+      "spec": "species:Klang",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:snowy_mountains",
+          "minecraft:gravelly_mountains"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Klang",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "rarity": 0
+    }
+  ]
+}

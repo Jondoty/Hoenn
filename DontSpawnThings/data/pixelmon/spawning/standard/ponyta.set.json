@@ -1,0 +1,72 @@
+{
+  "id": "Ponyta",
+  "spawnInfos": [
+    {
+      "spec": "species:Ponyta"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Ponyta"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Ponyta"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 39,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Ponyta"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1565, "maxX": -1408, "minZ": -1, "maxZ": 72,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

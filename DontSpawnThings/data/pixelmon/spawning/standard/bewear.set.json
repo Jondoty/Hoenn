@@ -1,0 +1,20 @@
+{
+  "id": "Bewear",
+  "spawnInfos": [
+    {
+      "spec": "species:Bewear",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 27,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

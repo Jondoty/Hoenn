@@ -1,0 +1,45 @@
+{
+  "id": "Petilil Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Petilil"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "flowery"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Lilligant"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "flowery"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Bergmite",
+  "spawnInfos": [
+    {
+      "spec": "species:Bergmite",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 23,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_tundra",
+          "minecraft:ice_spikes",
+          "freezing mountains",
+          "byg:frozen_lake",
+          "byg:shattered_glacier",
+          "terraforged:frozen_lake"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

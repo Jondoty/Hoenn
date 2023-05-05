@@ -1,0 +1,35 @@
+{
+  "id": "Dwebble",
+  "spawnInfos": [
+    {
+      "spec": "species:Dwebble",
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 5,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "minecraft:stone_shore",
+          "biomesoplenty:gravel_beach",
+          "byg:basalt_barrera",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

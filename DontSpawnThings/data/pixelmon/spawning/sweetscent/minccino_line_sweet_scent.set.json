@@ -1,0 +1,43 @@
+{
+  "id": "Minccino Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Minccino"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Cinccino"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

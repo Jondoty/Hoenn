@@ -1,0 +1,38 @@
+{
+  "id": "Barboach",
+  "spawnInfos": [
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swamps",
+          "lakes",
+          "minecraft:river",
+          "byg:polluted_lake"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "anticondition": {
+        "stringBiomes": [
+          "pixelmon:infinite_ocean"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

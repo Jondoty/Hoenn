@@ -1,0 +1,74 @@
+{
+  "id": "Lycanroc",
+  "spawnInfos": [
+    {
+      "spec": "species:Lycanroc form:midday",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "hills",
+          "minecraft:snowy_taiga_hills",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_taiga_hills"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Lycanroc form:midnight",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "hills",
+          "minecraft:snowy_taiga_hills",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_taiga_hills"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Lycanroc form:dusk",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "hills",
+          "minecraft:snowy_taiga_hills",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_confierous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_taiga_hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

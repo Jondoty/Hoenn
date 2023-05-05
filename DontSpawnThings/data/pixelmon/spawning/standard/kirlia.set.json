@@ -1,0 +1,46 @@
+{
+  "id": "Kirlia",
+  "spawnInfos": [
+    {
+      "spec": "species:Kirlia",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Kirlia palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "STORM"
+        ],
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

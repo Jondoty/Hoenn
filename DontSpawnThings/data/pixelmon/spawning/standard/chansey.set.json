@@ -1,0 +1,82 @@
+{
+  "id": "Chansey",
+  "spawnInfos": [
+    {
+      "spec": "species:Chansey"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_egg",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:oval_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "minX": -3290, "maxX": -3198, "minZ": -354, "maxZ": -258,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Chansey"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_egg",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:oval_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "minX": -2931, "maxX": -2899, "minZ": -427, "maxZ": -389,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Chansey"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lucky_egg",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:oval_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "minX": -2847, "maxX": -2610, "minZ": -565, "maxZ": -533,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "Porygon2",
+  "spawnInfos": [
+    {
+      "spec": "species:Porygon2 palette:alter",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

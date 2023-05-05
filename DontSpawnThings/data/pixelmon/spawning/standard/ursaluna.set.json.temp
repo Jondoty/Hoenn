@@ -1,0 +1,24 @@
+{
+  "id": "Ursaluna",
+  "spawnInfos": [
+    {
+      "spec": "species:Ursaluna",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ],
+        "moonPhase": 0
+      },
+      "rarity": 0
+    }
+  ]
+}

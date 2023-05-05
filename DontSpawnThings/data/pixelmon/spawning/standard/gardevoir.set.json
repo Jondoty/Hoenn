@@ -1,0 +1,45 @@
+{
+  "id": "Gardevoir",
+  "spawnInfos": [
+    {
+      "spec": "species:Gardevoir",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Gardevoir palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "STORM"
+        ],
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "Linoone",
+  "spawnInfos": [
+    {
+      "spec": "species:Linoone",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:max_revive",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:potion",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "plains",
+          "minecraft:snowy_tundra",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Linoone form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:max_revive",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:potion",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "plains",
+          "minecraft:snowy_tundra",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "Hoothoot",
+  "spawnInfos": [
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -623, "maxX": -324, "minZ": -583, "maxZ": -477,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 85.0
+    },
+
+
+
+
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 371, "maxX": 406, "minZ": -46, "maxZ": -27,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 45.0
+    },
+
+
+
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Hoothoot"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 80.0
+    }
+
+  ]
+}

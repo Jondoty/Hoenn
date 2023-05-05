@@ -1,0 +1,24 @@
+{
+  "id": "Dhelmise Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Dhelmise"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

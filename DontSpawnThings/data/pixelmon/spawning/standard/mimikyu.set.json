@@ -1,0 +1,31 @@
+{
+  "id": "Mimikyu",
+  "spawnInfos": [
+    {
+      "spec": "species:Mimikyu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:chesto_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "evil"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

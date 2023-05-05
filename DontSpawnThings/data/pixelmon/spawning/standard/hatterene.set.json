@@ -1,0 +1,45 @@
+{
+  "id": "Hatterene",
+  "spawnInfos": [
+    {
+      "spec": "species:Hatterene",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "magical"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Hatterene",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_barrens",
+          "byg:nightshade_forest",
+          "byg:shulkren_forest",
+          "byg:imparius_grove",
+          "byg:imparius_clearing",
+          "byg:ethereal_forest",
+          "byg:ethereal_clearing"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "Drowzee",
+  "spawnInfos": [
+    {
+      "spec": "species:Drowzee"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 422, "maxX": 512, "minZ": -721, "maxZ": -488,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Drowzee"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Drowzee"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -3176, "maxX": -2921, "minZ": -122, "maxZ": -5,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+
+
+  ]
+}

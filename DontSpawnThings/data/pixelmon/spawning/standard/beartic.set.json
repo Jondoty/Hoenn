@@ -1,0 +1,31 @@
+{
+  "id": "Beartic",
+  "spawnInfos": [
+    {
+      "spec": "species:Beartic",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:frozen_river",
+          "minecraft:frozen_ocean",
+          "minecraft:snowy_beach",
+          "minecraft:snowy_tundra",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog",
+          "byg:frozen_lake",
+          "byg:shattered_glacier",
+          "terraforged:frozen_lake"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

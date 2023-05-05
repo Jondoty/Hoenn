@@ -1,0 +1,26 @@
+{
+  "id": "Vibrava",
+  "spawnInfos": [
+    {
+      "spec": "species:Vibrava",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:desert_hills",
+          "biomesoplenty:lush_desert",
+          "byg:lush_red_desert",
+          "byg:mojave_desert"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

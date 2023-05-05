@@ -1,0 +1,24 @@
+{
+  "id": "Dragapult",
+  "spawnInfos": [
+    {
+      "spec": "species:Dragapult",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 60,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "evil"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

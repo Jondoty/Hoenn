@@ -1,0 +1,38 @@
+{
+  "id": "Whiscash",
+  "spawnInfos": [
+    {
+      "spec": "species:Whiscash",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swamps",
+          "lakes",
+          "minecraft:river",
+          "byg:polluted_lake"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Whiscash",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "anticondition": {
+        "stringBiomes": [
+          "pixelmon:infinite_ocean"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

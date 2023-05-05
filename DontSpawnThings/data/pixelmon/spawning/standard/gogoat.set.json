@@ -1,0 +1,53 @@
+{
+  "id": "Gogoat",
+  "spawnInfos": [
+    {
+      "spec": "species:Gogoat",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "hills",
+          "mountainous forests",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Gogoat",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "minecraft:snowy_tundra",
+          "minecraft:snowy_taiga_hills",
+          "byg:snowy_blue_taiga_hills",
+          "byg:snowy_coniferous_forest_hills",
+          "byg:snowy_deciduous_forest_hills",
+          "byg:snowy_evergreen_taiga_hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Charmeleon",
+  "spawnInfos": [
+    {
+      "spec": "species:Charmeleon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "minecraft:eroded_badlands",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

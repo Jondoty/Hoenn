@@ -1,0 +1,32 @@
+{
+  "id": "Walrein",
+  "spawnInfos": [
+    {
+      "spec": "species:Walrein",
+      "stringLocationTypes": [
+        "Water",
+        "Land"
+      ],
+      "minLevel": 44,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_beach",
+          "byg:snowy_rocky_black_beach",
+          "byg:snowy_black_beach",
+          "byg:frozen_lake",
+          "terraforged:frozen_lake"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

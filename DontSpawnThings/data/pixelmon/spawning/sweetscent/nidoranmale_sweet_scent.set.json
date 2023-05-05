@@ -1,0 +1,25 @@
+{
+  "id": "Nidoranmale Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Nidoranmale"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

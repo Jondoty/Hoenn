@@ -1,0 +1,38 @@
+{
+  "id": "Octillery",
+  "spawnInfos": [
+    {
+      "spec": "species:Octillery",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Octillery palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:infinite_ocean"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

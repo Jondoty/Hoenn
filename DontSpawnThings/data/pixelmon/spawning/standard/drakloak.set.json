@@ -1,0 +1,24 @@
+{
+  "id": "Drakloak",
+  "spawnInfos": [
+    {
+      "spec": "species:Drakloak",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 50,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "evil"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

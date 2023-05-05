@@ -1,0 +1,47 @@
+{
+  "id": "Blacephalon",
+  "spawnInfos": [
+    {
+      "spec": "species:Blacephalon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "ultrabeast"
+      ],
+      "minLevel": 60,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "plains"
+        ],
+        "dimensions": [
+          "pixelmon:ultra_space"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Blacephalon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "ultrabeast"
+      ],
+      "minLevel": 60,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "flowery"
+        ],
+        "dimensions": [
+          "pixelmon:ultra_space"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Kingdra",
+  "spawnInfos": [
+    {
+      "spec": "species:Kingdra palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:infinite_ocean"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

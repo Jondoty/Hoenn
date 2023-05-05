@@ -1,0 +1,58 @@
+{
+  "id": "Vaporeon",
+  "spawnInfos": [
+    {
+      "spec": "species:Vaporeon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "neededNearbyBlocks": [
+          "beach"
+        ],
+        "stringBiomes": [
+          "minecraft:beach",
+          "biomesoplenty:tropic_beach",
+          "byg:rainbow_beach",
+          "byg:white_beach",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vaporeon palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "STORM"
+        ],
+        "neededNearbyBlocks": [
+          "beach"
+        ],
+        "stringBiomes": [
+          "minecraft:beach",
+          "biomesoplenty:tropic_beach",
+          "byg:rainbow_beach",
+          "byg:white_beach",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

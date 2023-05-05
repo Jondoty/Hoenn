@@ -1,0 +1,27 @@
+{
+  "id": "Barraskewda",
+  "spawnInfos": [
+    {
+      "spec": "species:Barraskewda",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 26,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Golurk",
+  "spawnInfos": [
+    {
+      "spec": "species:Golurk",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 43,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:light_clay",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:desert_hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

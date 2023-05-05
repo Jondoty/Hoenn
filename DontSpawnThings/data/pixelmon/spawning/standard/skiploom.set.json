@@ -1,0 +1,21 @@
+{
+  "id": "Skiploom",
+  "spawnInfos": [
+    {
+      "spec": "species:Skiploom"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2931, "maxX": -2899, "minZ": -427, "maxZ": -389,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 9.0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "Weezing",
+  "spawnInfos": [
+    {
+      "spec": "species:Weezing"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 39,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826,
+        "neededNearbyBlocks": ["minecraft:wool"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Weezing"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 39,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+      "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826,
+        "neededNearbyBlocks": ["minecraft:planks"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "Stufful",
+  "spawnInfos": [
+    {
+      "spec": "species:Stufful",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

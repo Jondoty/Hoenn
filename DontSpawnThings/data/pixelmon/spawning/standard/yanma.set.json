@@ -1,0 +1,24 @@
+{
+  "id": "Yanma",
+  "spawnInfos": [
+    {
+      "spec": "species:Yanma"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+
+
+  ]
+}

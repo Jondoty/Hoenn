@@ -1,0 +1,48 @@
+{
+  "id": "Diglett",
+  "spawnInfos": [
+    {
+      "spec": "species:Diglett",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+          "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Diglett",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 13,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -3091, "maxX": -2945, "minY": 39, "maxY": 57, "minZ": 72, "maxZ": 222,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

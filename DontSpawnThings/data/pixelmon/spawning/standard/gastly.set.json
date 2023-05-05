@@ -1,0 +1,84 @@
+{
+  "id": "Gastly",
+  "spawnInfos": [
+    {
+      "spec": "species:Gastly"
+      ,
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 45, "maxX": 74, "minY": 83, "maxY": 110, "minZ": 5, "maxZ": 34,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:planks"]
+      },
+      "rarity": 85.0
+    },
+
+
+
+    {
+      "spec": "species:Gastly"
+      ,
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 20,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 240, "maxX": 273, "minY": 70, "maxY": 112, "minZ": 297, "maxZ": 330,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:planks"]
+      },
+      "rarity": 80.0
+    },
+
+
+
+
+    {
+      "spec": "species:Gastly"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gastly"
+      ,
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 8,
+      "maxLevel": 25,
+      "condition": {
+        "maxY": 70
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:oak_planks"
+            ]
+          }
+        }
+      ],
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

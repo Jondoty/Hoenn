@@ -1,0 +1,24 @@
+{
+  "id": "Snivy",
+  "spawnInfos": [
+    {
+      "spec": "species:Snivy",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests",
+          "roofed"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

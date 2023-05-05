@@ -1,0 +1,56 @@
+{
+  "id": "Dusclops",
+  "spawnInfos": [
+    {
+      "spec": "species:Dusclops",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 51,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:wooded_badlands_plateau",
+          "minecraft:badlands_plateau",
+          "evil",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Dusclops",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 51,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kasib_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:soul_sand_valley",
+          "minecraft:warped_forest",
+          "biomesoplenty:witheed_abyss",
+          "byg:wailing_garth"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

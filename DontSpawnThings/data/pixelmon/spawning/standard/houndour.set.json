@@ -1,0 +1,39 @@
+{
+  "id": "Houndour",
+  "spawnInfos": [
+    {
+      "spec": "species:Houndour"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Houndour"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

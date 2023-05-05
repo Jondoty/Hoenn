@@ -1,0 +1,37 @@
+{
+  "id": "Nidoranmale",
+  "spawnInfos": [
+    {
+      "spec": "species:Nidoranmale"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 488, "maxX": 509, "minZ": -248, "maxZ": -200,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Nidoranmale"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 371, "maxX": 406, "minZ": -46, "maxZ": -27,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

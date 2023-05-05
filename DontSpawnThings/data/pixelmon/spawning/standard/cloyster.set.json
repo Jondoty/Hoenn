@@ -1,0 +1,34 @@
+{
+  "id": "Cloyster",
+  "spawnInfos": [
+    {
+      "spec": "species:Cloyster",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

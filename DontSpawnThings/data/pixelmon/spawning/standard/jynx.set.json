@@ -1,0 +1,56 @@
+{
+  "id": "Jynx",
+  "spawnInfos": [
+    {
+      "spec": "species:Jynx"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 22,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -872, "maxX": -587, "maxY": 59, "minZ": 299, "maxZ": 469,
+        "times": [ "DAWN", "DUSK", "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Jynx"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -872, "maxX": -587, "maxY": 59, "minZ": 299, "maxZ": 469,
+        "times": [ "DAY" ],
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Jynx"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 34,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 24, "minZ": -889, "maxZ": -825,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

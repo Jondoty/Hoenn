@@ -1,0 +1,67 @@
+{
+  "id": "Tangela",
+  "spawnInfos": [
+    {
+      "spec": "species:Tangela"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -406, "maxX": -351, "minZ": 177, "maxZ": 202,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Tangela"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 39,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Tangela"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 95.0
+    },
+    {
+      "spec": "species:Tangela"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 90.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Morpeko Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Morpeko"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "hills",
+          "redwoods"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

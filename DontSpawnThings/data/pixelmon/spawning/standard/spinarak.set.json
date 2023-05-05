@@ -1,0 +1,74 @@
+{
+  "id": "Spinarak",
+  "spawnInfos": [
+    {
+      "spec": "species:Spinarak"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Spinarak"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Spinarak"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Spinarak"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

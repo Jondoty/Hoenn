@@ -1,0 +1,27 @@
+{
+  "id": "Mantine",
+  "spawnInfos": [
+    {
+      "spec": "species:Mantine",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean"
+        ],
+        "minY": 55
+      },
+      "rarity": 0
+    }
+  ]
+}

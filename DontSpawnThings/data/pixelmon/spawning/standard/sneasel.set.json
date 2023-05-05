@@ -1,0 +1,27 @@
+{
+  "id": "Sneasel",
+  "spawnInfos": [
+    {
+      "spec": "species:Sneasel"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 39,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:quick_claw",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

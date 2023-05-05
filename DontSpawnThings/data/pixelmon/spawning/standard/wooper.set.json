@@ -1,0 +1,55 @@
+{
+  "id": "Wooper",
+  "spawnInfos": [
+    {
+      "spec": "species:Wooper"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 4,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 35.0
+    },
+
+
+    {
+      "spec": "species:Wooper"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Wooper"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+      },
+      "rarity": 60.0
+    }
+
+
+  ]
+}

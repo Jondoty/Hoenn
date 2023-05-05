@@ -1,0 +1,27 @@
+{
+  "id": "Buizel",
+  "spawnInfos": [
+    {
+      "spec": "species:Buizel",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "minecraft:river",
+          "lakes",
+          "minecraft:stone_shore",
+          "biomesoplenty:gravel_beach",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

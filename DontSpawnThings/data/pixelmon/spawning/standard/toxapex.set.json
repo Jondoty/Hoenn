@@ -1,0 +1,33 @@
+{
+  "id": "Toxapex",
+  "spawnInfos": [
+    {
+      "spec": "species:Toxapex",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 38,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean",
+          "beaches"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

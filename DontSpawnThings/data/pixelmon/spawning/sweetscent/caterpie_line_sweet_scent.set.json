@@ -1,0 +1,73 @@
+{
+  "id": "Caterpie Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Caterpie"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 2,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests",
+          "jungles",
+          "bamboo_forest",
+          "magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Metapod"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1401, "maxX": 1682, "minZ": -421, "maxZ": -302
+      },
+      "rarity": 50.0
+    },
+
+
+    {
+      "spec": "species:Butterfree"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 6,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
+      },
+      "rarity": 10.0
+    },
+
+
+    {
+      "spec": "species:Butterfree"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1401, "maxX": 1682, "minZ": -421, "maxZ": -302
+      },
+      "rarity": 30.0
+    }
+  ]
+}

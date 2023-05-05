@@ -1,0 +1,24 @@
+{
+  "id": "Tyranitar",
+  "spawnInfos": [
+    {
+      "spec": "species:Tyranitar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

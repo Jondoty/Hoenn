@@ -1,0 +1,62 @@
+{
+  "id": "Exeggcute",
+  "spawnInfos": [
+    {
+      "spec": "species:Exeggcute",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:psychic_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "jungles",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Exeggcute palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:psychic_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "jungles",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

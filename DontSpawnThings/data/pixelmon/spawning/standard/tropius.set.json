@@ -1,0 +1,23 @@
+{
+  "id": "Tropius",
+  "spawnInfos": [
+    {
+      "spec": "species:Tropius",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

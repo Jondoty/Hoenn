@@ -1,0 +1,40 @@
+{
+  "id": "Unown",
+  "spawnInfos": [
+    {
+      "spec": "species:Unown",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas"
+        ],
+        "maxY": 50
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Unown",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

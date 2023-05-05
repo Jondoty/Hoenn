@@ -1,0 +1,25 @@
+{
+  "id": "Seedot Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Seedot"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:power_herb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+      },
+      "rarity": 30.0
+    }
+  ]
+}

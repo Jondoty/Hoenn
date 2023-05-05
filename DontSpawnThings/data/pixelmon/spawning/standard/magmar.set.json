@@ -1,0 +1,71 @@
+{
+  "id": "Magmar",
+  "spawnInfos": [
+    {
+      "spec": "species:Magmar"
+      ,
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329,
+        "times": [ "DAWN", "DUSK", "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:stone"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magmar"
+      ,
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329,
+        "times": [ "DAY" ],
+        "neededNearbyBlocks": ["minecraft:stone"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Magmar"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 39,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826,
+        "neededNearbyBlocks": ["minecraft:wool"]
+      },
+      "rarity": 14.0
+    },
+    {
+      "spec": "species:Magmar"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 39,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "condition": {
+      "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826,
+        "neededNearbyBlocks": ["minecraft:planks"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

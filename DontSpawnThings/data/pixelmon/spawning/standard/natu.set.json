@@ -1,0 +1,23 @@
+{
+  "id": "Natu",
+  "spawnInfos": [
+    {
+      "spec": "species:Natu"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 254, "maxX": 273, "minZ": -213, "maxZ": -169,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 90.0
+    }
+
+
+
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Heliolisk",
+  "spawnInfos": [
+    {
+      "spec": "species:Heliolisk",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Araquanid",
+  "spawnInfos": [
+    {
+      "spec": "species:Araquanid",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 22,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:river",
+          "swamps",
+          "lakes",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Cubchoo Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Cubchoo"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Beartic"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 42,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

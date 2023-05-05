@@ -1,0 +1,39 @@
+{
+  "id": "Basculegion",
+  "spawnInfos": [
+    {
+      "spec": "species:Basculegion",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "byg:dead_sea"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Basculegion",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

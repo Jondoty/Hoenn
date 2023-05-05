@@ -1,0 +1,42 @@
+{
+  "id": "Finneon",
+  "spawnInfos": [
+    {
+      "spec": "species:Finneon",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 19,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "beaches",
+          "byg:coral_mangroves"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Finneon palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 19,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:infinite_ocean"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

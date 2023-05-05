@@ -1,0 +1,29 @@
+{
+  "id": "Chinchou",
+  "spawnInfos": [
+    {
+      "spec": "species:Chinchou",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 12,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

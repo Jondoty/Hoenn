@@ -1,0 +1,39 @@
+{
+  "id": "Purugly",
+  "spawnInfos": [
+    {
+      "spec": "species:Purugly",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 39,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soothe_bell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:tall_grass_path"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

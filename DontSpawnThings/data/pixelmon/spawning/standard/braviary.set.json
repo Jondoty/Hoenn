@@ -1,0 +1,47 @@
+{
+  "id": "Braviary",
+  "spawnInfos": [
+    {
+      "spec": "species:Braviary",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 54,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "freezing forests"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Braviary form:hisuian",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 54,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "freezing forests"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

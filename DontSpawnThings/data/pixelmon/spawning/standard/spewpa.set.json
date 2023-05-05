@@ -1,0 +1,27 @@
+{
+  "id": "Spewpa",
+  "spawnInfos": [
+    {
+      "spec": "species:Spewpa",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 10,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "birches",
+          "freezing forests",
+          "magical"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

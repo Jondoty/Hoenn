@@ -1,0 +1,181 @@
+{
+  "id": "Spearow",
+  "spawnInfos": [
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1406, "maxX": 1436, "minZ": -373, "maxZ": -349,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -521, "maxX": -409, "minZ": -468, "maxZ": -319,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 3,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1565, "maxX": -1408, "minZ": -1, "maxZ": 72,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 55.0
+    },
+
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 55.0
+    },
+
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 13,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3319, "maxX": -3300, "minZ": 588, "maxZ": 626,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Spearow"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+
+  ]
+}

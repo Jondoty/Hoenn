@@ -1,0 +1,71 @@
+{
+  "id": "Arcanine",
+  "spawnInfos": [
+    {
+      "spec": "species:Arcanine",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Arcanine form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "minecraft:savanna_plateau",
+          "minecraft:shattered_savanna",
+          "minecraft:shattered_savanna_plateau"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Arcanine palette:ashen",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

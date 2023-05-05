@@ -1,0 +1,75 @@
+{
+  "id": "Kadabra",
+  "spawnInfos": [
+    {
+      "spec": "species:Kadabra"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -3103, "maxX": -3034, "minZ": 293, "maxZ": 344,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Kadabra"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897,
+        "neededNearbyBlocks": ["minecraft:stone"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+    {
+      "spec": "species:Kadabra"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:twisted_spoon",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897,
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

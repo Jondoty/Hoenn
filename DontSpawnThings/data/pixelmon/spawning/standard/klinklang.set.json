@@ -1,0 +1,38 @@
+{
+  "id": "Klinklang",
+  "spawnInfos": [
+    {
+      "spec": "species:Klinklang",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 49,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:snowy_mountains",
+          "minecraft:gravelly_mountains"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Klinklang",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 49,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "rarity": 0
+    }
+  ]
+}

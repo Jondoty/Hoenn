@@ -1,0 +1,149 @@
+{
+  "id": "Machoke",
+  "spawnInfos": [
+    {
+      "spec": "species:Machoke"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 24.0
+    },
+    {
+      "spec": "species:Machoke"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 6.0
+    },
+
+
+
+    {
+      "spec": "species:Machoke"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:stone"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Machoke"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:stone"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Machoke"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897,
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+    {
+      "spec": "species:Machoke"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:focus_band",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701,
+        "neededNearbyBlocks": ["minecraft:dirt", "minecraft:soul_sand"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

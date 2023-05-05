@@ -1,0 +1,45 @@
+{
+  "id": "Pidgeot",
+  "spawnInfos": [
+    {
+      "spec": "species:Pidgeot",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests",
+          "plains",
+          "taigas"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Pidgeot palette:pink",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests",
+          "plains",
+          "taigas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

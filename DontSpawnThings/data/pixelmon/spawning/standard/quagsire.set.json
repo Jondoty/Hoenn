@@ -1,0 +1,211 @@
+{
+  "id": "Quagsire",
+  "spawnInfos": [
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 103, "maxX": 183, "minZ": -509, "maxZ": -390
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3319, "maxX": -3300, "minZ": 588, "maxZ": 626,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3354, "maxX": -2984, "minZ": -395, "maxZ": -263,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3290, "maxX": -3198, "minZ": -354, "maxZ": -258,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 19.0
+    },
+
+
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2931, "maxX": -2899, "minZ": -427, "maxZ": -389,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 19.0
+    },
+
+
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2847, "maxX": -2610, "minZ": -565, "maxZ": -533,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 19.0
+    },
+
+
+
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+          "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Quagsire"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364,
+        "times": [ "NIGHT" ],
+          "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    }
+
+
+  ]
+}

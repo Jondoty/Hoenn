@@ -1,0 +1,26 @@
+{
+  "id": "Poipole",
+  "spawnInfos": [
+    {
+      "spec": "species:Poipole",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "ultrabeast"
+      ],
+      "minLevel": 40,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "swamps"
+        ],
+        "dimensions": [
+          "pixelmon:ultra_space"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Elgyem",
+  "spawnInfos": [
+    {
+      "spec": "species:Elgyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "redwoods"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Elgyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens",
+          "minecraft:end_midlands",
+          "byg:ivis_fields",
+          "byg:shattered_desert",
+          "byg:shattered_desert_isles",
+          "byg:viscal_isles",
+          "byg:shattered_viscal_isles"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Raboot",
+  "spawnInfos": [
+    {
+      "spec": "species:Raboot",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

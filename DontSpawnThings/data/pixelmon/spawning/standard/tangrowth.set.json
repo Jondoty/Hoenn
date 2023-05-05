@@ -1,0 +1,25 @@
+{
+  "id": "Tangrowth",
+  "spawnInfos": [
+    {
+      "spec": "species:Tangrowth",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 57,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

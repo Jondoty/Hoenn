@@ -1,0 +1,24 @@
+{
+  "id": "Togekiss",
+  "spawnInfos": [
+    {
+      "spec": "species:Togekiss",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 45,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "magical"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Silcoon",
+  "spawnInfos": [
+    {
+      "spec": "species:Silcoon",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 6,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "all forests"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

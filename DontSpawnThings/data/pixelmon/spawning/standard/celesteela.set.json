@@ -1,0 +1,26 @@
+{
+  "id": "Celesteela",
+  "spawnInfos": [
+    {
+      "spec": "species:Celesteela",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "ultrabeast"
+      ],
+      "minLevel": 60,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "savannas"
+        ],
+        "dimensions": [
+          "pixelmon:ultra_space"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

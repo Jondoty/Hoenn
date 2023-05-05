@@ -1,0 +1,25 @@
+{
+  "id": "Simisear",
+  "spawnInfos": [
+    {
+      "spec": "species:Simisear",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 27,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

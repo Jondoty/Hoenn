@@ -1,0 +1,26 @@
+{
+  "id": "Karrablast Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Karrablast"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "bamboo_forest"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

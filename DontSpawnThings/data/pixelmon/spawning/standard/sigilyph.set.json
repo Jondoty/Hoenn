@@ -1,0 +1,42 @@
+{
+  "id": "Sigilyph",
+  "spawnInfos": [
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "minecraft:desert_hills",
+          "minecraft:badlands_plateau"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_highlands",
+          "byg:shattered_desert",
+          "byg:shattered_desert_isles"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

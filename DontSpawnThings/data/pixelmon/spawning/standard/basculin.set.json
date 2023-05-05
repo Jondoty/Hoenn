@@ -1,0 +1,71 @@
+{
+  "id": "Basculin",
+  "spawnInfos": [
+    {
+      "spec": "species:Basculin palette:red_stripe",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "swamps",
+          "minecraft:river",
+          "jungles",
+          "lakes",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Basculin palette:blue_stripe",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "swamps",
+          "minecraft:river",
+          "jungles",
+          "lakes",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Basculin form:white_stripe",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

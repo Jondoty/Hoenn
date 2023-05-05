@@ -1,0 +1,27 @@
+{
+  "id": "Arrokuda",
+  "spawnInfos": [
+    {
+      "spec": "species:Arrokuda",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

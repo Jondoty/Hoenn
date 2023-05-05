@@ -1,0 +1,75 @@
+{
+  "id": "Ekans",
+  "spawnInfos": [
+    {
+      "spec": "species:Ekans"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 4,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 80, "maxX": 203, "minZ": -548, "maxZ": -232,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Ekans"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Ekans"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Ekans"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+
+
+  ]
+}

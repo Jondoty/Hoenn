@@ -1,0 +1,96 @@
+{
+  "id": "Koffing",
+  "spawnInfos": [
+    {
+      "spec": "species:Koffing"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 432, "maxX": 452, "minY": 63, "maxY": 70, "minZ": 309, "maxZ": 329,
+        "neededNearbyBlocks": ["minecraft:planks"]
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Koffing"
+      ,
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329,
+        "neededNearbyBlocks": ["minecraft:stone"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+    {
+      "spec": "species:Koffing"
+      ,
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 39,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826,
+        "neededNearbyBlocks": ["minecraft:wool"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Koffing"
+      ,
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 39,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+      "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826,
+        "neededNearbyBlocks": ["minecraft:planks"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

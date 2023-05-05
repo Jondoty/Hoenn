@@ -1,0 +1,73 @@
+{
+  "id": "Arrokuda Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Arrokuda"
+      ,
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "river"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Arrokuda"
+      ,
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "river"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Barraskewda"
+      ,
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 26,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "river"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Barraskewda"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "river"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

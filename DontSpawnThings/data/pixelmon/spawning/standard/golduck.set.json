@@ -1,0 +1,184 @@
+{
+  "id": "Golduck",
+  "spawnInfos": [
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 488, "maxX": 509, "minZ": -248, "maxZ": -200
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364,
+          "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 35,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 35,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+      },
+      "rarity": 0.0
+    },
+
+
+
+
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 26,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 50, "maxY": 57, "minZ": -889, "maxZ": -825,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 26,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 43, "maxY": 49, "minZ": -889, "maxZ": -825,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 14.0
+    },
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 27,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 33, "maxY": 42, "minZ": -889, "maxZ": -825,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 14.0
+    },
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 31,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 25, "maxY": 32, "minZ": -889, "maxZ": -825,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 14.0
+    },
+    {
+      "spec": "species:Golduck"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 34,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 24, "minZ": -889, "maxZ": -825,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 14.0
+    }
+  ]
+}

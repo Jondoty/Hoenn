@@ -1,0 +1,24 @@
+{
+  "id": "Riolu",
+  "spawnInfos": [
+    {
+      "spec": "species:Riolu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "mountainous forests"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

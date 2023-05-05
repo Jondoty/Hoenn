@@ -1,0 +1,34 @@
+{
+  "id": "Lillipup",
+  "spawnInfos": [
+    {
+      "spec": "species:Lillipup",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 4,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:tall_grass_path"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "Basculin Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Basculin",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "jungles",
+          "swamps"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculin",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "jungles",
+          "swamps"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculin",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "jungles",
+          "swamps"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculin",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "jungles",
+          "swamps"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculin",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "river"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculegion"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:river"
+        ]
+      },
+      "rarity": 0.00
+    }
+  ]
+}

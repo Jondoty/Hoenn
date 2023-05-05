@@ -1,0 +1,37 @@
+{
+  "id": "Wartortle",
+  "spawnInfos": [
+    {
+      "spec": "species:Wartortle",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:beach",
+          "biomesoplenty:tropic_beach",
+          "byg:rainbow_beach",
+          "byg:white_beach",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

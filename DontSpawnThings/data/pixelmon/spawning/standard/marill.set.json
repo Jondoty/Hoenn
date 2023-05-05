@@ -1,0 +1,20 @@
+{
+  "id": "Marill",
+  "spawnInfos": [
+    {
+      "spec": "species:Marill"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -22, "maxX": 206, "minY": 42, "maxY": 66, "minZ": 217, "maxZ": 301,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

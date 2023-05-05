@@ -1,0 +1,39 @@
+{
+  "id": "Sentret",
+  "spawnInfos": [
+    {
+      "spec": "species:Sentret"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 4,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -623, "maxX": -324, "minZ": -583, "maxZ": -477,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Sentret"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

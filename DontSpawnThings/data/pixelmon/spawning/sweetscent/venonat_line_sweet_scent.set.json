@@ -1,0 +1,58 @@
+{
+  "id": "Venonat Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 13,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -241, "maxX": -37, "minZ": 241, "maxZ": 533
+      },
+      "rarity": 15.0
+    },
+
+
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 14,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -274, "maxX": -23, "minZ": 534, "maxZ": 771
+      },
+      "rarity": 15.0
+    },
+
+
+    {
+      "spec": "species:Venomoth"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "forests",
+          "swamps",
+          "jungles"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

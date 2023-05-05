@@ -1,0 +1,27 @@
+{
+  "id": "Electabuzz",
+  "spawnInfos": [
+    {
+      "spec": "species:Electabuzz"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:electirizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -3319, "maxX": -3300, "minZ": 588, "maxZ": 626,
+        "times": [ "DAWN", "DUSK", "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

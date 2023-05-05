@@ -1,0 +1,26 @@
+{
+  "id": "Marowak",
+  "spawnInfos": [
+    {
+      "spec": "species:Marowak",
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:thick_club",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701,
+        "neededNearbyBlocks": ["minecraft:dirt", "minecraft:soul_sand"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

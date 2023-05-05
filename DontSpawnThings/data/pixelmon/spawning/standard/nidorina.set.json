@@ -1,0 +1,52 @@
+{
+  "id": "Nidorina",
+  "spawnInfos": [
+    {
+      "spec": "species:Nidorina"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3290, "maxX": -3198, "minZ": -354, "maxZ": -258,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Nidorina"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2931, "maxX": -2899, "minZ": -427, "maxZ": -389,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Nidorina"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2847, "maxX": -2610, "minZ": -565, "maxZ": -533,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

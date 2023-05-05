@@ -1,0 +1,24 @@
+{
+  "id": "Espurr",
+  "spawnInfos": [
+    {
+      "spec": "species:Espurr",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "birches"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

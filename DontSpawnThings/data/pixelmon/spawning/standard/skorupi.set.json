@@ -1,0 +1,33 @@
+{
+  "id": "Skorupi",
+  "spawnInfos": [
+    {
+      "spec": "species:Skorupi",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid",
+          "swamps",
+          "mesas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

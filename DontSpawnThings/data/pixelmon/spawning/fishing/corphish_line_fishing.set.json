@@ -1,0 +1,61 @@
+{
+  "id": "Corphish Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Corphish"
+      ,
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "swamps"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Corphish"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "swamps",
+          "beaches"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Crawdaunt"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 43,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "river",
+          "swamps",
+          "beaches"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

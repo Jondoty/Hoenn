@@ -1,0 +1,40 @@
+{
+  "id": "Absol",
+  "spawnInfos": [
+    {
+      "spec": "species:Absol",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Absol",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_barrens",
+          "byg:purpur_peaks",
+          "byg:nightshade_forest"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Corvisquire",
+  "spawnInfos": [
+    {
+      "spec": "species:Corvisquire",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "redwoods",
+          "swamps",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

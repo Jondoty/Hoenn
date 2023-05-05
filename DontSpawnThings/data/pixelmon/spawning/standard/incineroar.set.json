@@ -1,0 +1,39 @@
+{
+  "id": "Incineroar",
+  "spawnInfos": [
+    {
+      "spec": "species:Incineroar",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 34,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:jungle_hills",
+          "minecraft:modified_jungle",
+          "minecraft:bamboo_jungle_hills",
+          "biomesoplenty:rainforest_cliffs",
+          "byg:guiana_shield",
+          "byg:tropical_rainforest_hills"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "CLEAR"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

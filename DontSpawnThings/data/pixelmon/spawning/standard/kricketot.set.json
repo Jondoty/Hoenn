@@ -1,0 +1,30 @@
+{
+  "id": "Kricketot",
+  "spawnInfos": [
+    {
+      "spec": "species:Kricketot",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metronome",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "all forests"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

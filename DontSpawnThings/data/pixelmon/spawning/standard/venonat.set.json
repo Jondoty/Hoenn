@@ -1,0 +1,107 @@
+{
+  "id": "Venonat",
+  "spawnInfos": [
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523,
+        "times": [ "DAWN", "DUSK" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 15.0
+    },
+
+
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930,
+        "times": [ "DAWN", "DUSK" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Venonat"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+  ]
+}

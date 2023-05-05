@@ -1,0 +1,48 @@
+{
+  "id": "Gothorita",
+  "spawnInfos": [
+    {
+      "spec": "species:Gothorita",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "byg:weeping_witch_forest",
+          "byg:weeping_witch_clearing"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Gothorita",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_midlands",
+          "minecraft:end_highlands",
+          "minecraft:small_end_islands",
+          "byg:nightshade_forest",
+          "byg:shulkren_forest",
+          "byg:imparius_grove",
+          "byg:imparius_clearing",
+          "byg:ethereal_forest",
+          "byg:ethereal_clearing"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

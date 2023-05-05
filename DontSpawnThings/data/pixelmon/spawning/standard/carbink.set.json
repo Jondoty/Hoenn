@@ -1,0 +1,55 @@
+{
+  "id": "Carbink",
+  "spawnInfos": [
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "biomesoplenty:crystalline_chasm"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Carbink",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 12,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "mountainous"
+        ],
+        "maxY": 40
+      },
+      "rarity": 0
+    }
+  ]
+}

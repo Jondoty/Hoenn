@@ -1,0 +1,77 @@
+{
+  "id": "Dratini Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Dratini"
+      ,
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -744, "maxX": -583, "minZ": 507, "maxZ": 654
+    }, "rarity": 10
+    },
+
+
+
+    {
+      "spec": "species:Dratini"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -744, "maxX": -583, "minZ": 507, "maxZ": 654
+    }, "rarity": 32
+    },
+
+
+
+
+
+
+
+    {
+      "spec": "species:Dragonair"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -744, "maxX": -583, "minZ": 507, "maxZ": 654
+    }, "rarity": 3
+    }
+
+
+
+
+
+  ]
+}

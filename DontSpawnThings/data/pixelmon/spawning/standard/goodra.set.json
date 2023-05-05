@@ -1,0 +1,47 @@
+{
+  "id": "Goodra",
+  "spawnInfos": [
+    {
+      "spec": "species:Goodra",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 51,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Goodra form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 51,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

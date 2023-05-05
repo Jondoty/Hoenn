@@ -1,0 +1,24 @@
+{
+  "id": "Eldegoss",
+  "spawnInfos": [
+    {
+      "spec": "species:Eldegoss",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "flowery"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

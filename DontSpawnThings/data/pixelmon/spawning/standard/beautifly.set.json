@@ -1,0 +1,33 @@
+{
+  "id": "Beautifly",
+  "spawnInfos": [
+    {
+      "spec": "species:Beautifly",
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 10,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery",
+          "magical"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

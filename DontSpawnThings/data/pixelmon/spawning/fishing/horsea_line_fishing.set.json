@@ -1,0 +1,59 @@
+{
+  "id": "Horsea Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Horsea"
+      ,
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1104, "maxX": 1376, "minZ": 95, "maxZ": 309
+    },
+      "rarity": 3.0
+    },
+
+
+
+
+
+
+    {
+      "spec": "species:Horsea"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1104, "maxX": 1376, "minZ": 95, "maxZ": 309
+    },
+      "rarity": 30.0
+    },
+
+
+
+
+    {
+      "spec": "species:Seadra"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1104, "maxX": 1376, "minZ": 95, "maxZ": 309
+    },
+      "rarity": 3.0
+    }
+
+
+  ]
+}

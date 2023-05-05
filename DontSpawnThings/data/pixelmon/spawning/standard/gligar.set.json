@@ -1,0 +1,20 @@
+{
+  "id": "Gligar",
+  "spawnInfos": [
+    {
+      "spec": "species:Gligar"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -650, "maxX": -535, "minZ": -298, "maxZ": 95,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "Gengar",
+  "spawnInfos": [
+    {
+      "spec": "species:Gengar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:soul_sand_valley"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Gengar palette:ashen",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:soul_sand_valley"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

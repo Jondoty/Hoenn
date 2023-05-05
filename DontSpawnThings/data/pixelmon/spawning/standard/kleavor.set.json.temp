@@ -1,0 +1,23 @@
+{
+  "id": "Kleavor",
+  "spawnInfos": [
+    {
+      "spec": "species:Kleavor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "mountainous forests"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

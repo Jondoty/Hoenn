@@ -1,0 +1,34 @@
+{
+  "id": "Crabrawler",
+  "spawnInfos": [
+    {
+      "spec": "species:Crabrawler",
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:beach",
+          "biomesoplenty:tropic_beach",
+          "byg:rainbow_beach",
+          "byg:white_beach",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

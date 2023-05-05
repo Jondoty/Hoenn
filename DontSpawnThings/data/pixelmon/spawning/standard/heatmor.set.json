@@ -1,0 +1,25 @@
+{
+  "id": "Heatmor",
+  "spawnInfos": [
+    {
+      "spec": "species:Heatmor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ],
+        "maxY": 75
+      },
+      "rarity": 0
+    }
+  ]
+}

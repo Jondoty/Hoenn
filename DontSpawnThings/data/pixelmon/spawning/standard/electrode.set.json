@@ -1,0 +1,57 @@
+{
+  "id": "Electrode",
+  "spawnInfos": [
+    {
+      "spec": "species:Electrode"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Electrode"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 40,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897,
+        "neededNearbyBlocks": ["minecraft:stone"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Electrode"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897,
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

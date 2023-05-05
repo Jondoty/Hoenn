@@ -1,0 +1,21 @@
+{
+  "id": "Sunkern",
+  "spawnInfos": [
+    {
+      "spec": "species:Sunkern"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930,
+        "times": [ "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

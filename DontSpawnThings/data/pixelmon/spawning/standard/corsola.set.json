@@ -1,0 +1,80 @@
+{
+  "id": "Corsola",
+  "spawnInfos": [
+    {
+      "spec": "species:Corsola",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Rock Smash"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:luminous_moss",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "byg:coral_mangroves"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Corsola form:galarian",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Rock Smash"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:luminous_moss",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Corsola form:galarian",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:luminous_moss",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "byg:dead_sea"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

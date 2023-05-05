@@ -1,0 +1,26 @@
+{
+  "id": "Clefairy",
+  "spawnInfos": [
+    {
+      "spec": "species:Clefairy"
+      ,
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 6,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2261, "maxX": -2159, "minZ": 769, "maxZ": 853,
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:sand"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

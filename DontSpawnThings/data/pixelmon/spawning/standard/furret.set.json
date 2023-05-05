@@ -1,0 +1,21 @@
+{
+  "id": "Furret",
+  "spawnInfos": [
+    {
+      "spec": "species:Furret"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

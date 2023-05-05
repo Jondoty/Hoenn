@@ -1,0 +1,30 @@
+{
+  "id": "Grapploct",
+  "spawnInfos": [
+    {
+      "spec": "species:Grapploct",
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_belt",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "beaches",
+          "minecraft:ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean",
+          "minecraft:freezing_ocean"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

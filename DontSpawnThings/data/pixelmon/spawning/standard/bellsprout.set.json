@@ -1,0 +1,192 @@
+{
+  "id": "Bellsprout",
+  "spawnInfos": [
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 4,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 80, "maxX": 203, "minZ": -548, "maxZ": -232,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 4,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 80, "maxX": 203, "minZ": -548, "maxZ": -232,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -406, "maxX": -351, "minZ": 177, "maxZ": 202,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930,
+        "times": [ "DAWN", "DUSK" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930,
+        "times": [ "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 35.0
+    },
+
+
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Bellsprout"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+
+  ]
+}

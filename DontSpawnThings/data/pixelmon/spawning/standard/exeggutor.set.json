@@ -1,0 +1,68 @@
+{
+  "id": "Exeggutor",
+  "spawnInfos": [
+    {
+      "spec": "species:Exeggutor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "jungles",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Exeggutor form:alolan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "jungle_edge",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Exeggutor form:base palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "jungles",
+          "biomesoplenty:tropic_beach"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Fletchling",
+  "spawnInfos": [
+    {
+      "spec": "species:Fletchling",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "freezing forests",
+          "taigas"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Fletchling",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "birches",
+          "freezing forests",
+          "taigas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "Oddish",
+  "spawnInfos": [
+    {
+      "spec": "species:Oddish"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Oddish"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 8,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Oddish"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 60.0
+    },
+
+
+    {
+      "spec": "species:Oddish"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 60.0
+    },
+
+
+    {
+      "spec": "species:Oddish"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 60.0
+    }
+
+  ]
+}

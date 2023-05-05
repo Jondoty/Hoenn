@@ -1,0 +1,28 @@
+{
+  "id": "Bruxish Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Bruxish"
+      ,
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 18,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:razor_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "oceanic",
+          "beaches"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

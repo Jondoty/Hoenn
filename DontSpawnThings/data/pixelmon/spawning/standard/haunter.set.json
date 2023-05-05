@@ -1,0 +1,21 @@
+{
+  "id": "Haunter",
+  "spawnInfos": [
+    {
+      "spec": "species:Haunter"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3103, "maxX": -3034, "minZ": 293, "maxZ": 344,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

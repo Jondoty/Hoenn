@@ -1,0 +1,37 @@
+{
+  "id": "Girafarig",
+  "spawnInfos": [
+    {
+      "spec": "species:Girafarig"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Girafarig"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "Arbok",
+  "spawnInfos": [
+    {
+      "spec": "species:Arbok"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Arbok"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Arbok"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Arbok"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

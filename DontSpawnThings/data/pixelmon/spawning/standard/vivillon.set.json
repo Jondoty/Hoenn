@@ -1,0 +1,384 @@
+{
+  "id": "Vivillon",
+  "spawnInfos": [
+    {
+      "spec": "species:Vivillon palette:archipelago",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "mushroom"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:continental",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:elegant",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:garden",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:high_plains",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "redwoods"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:icy_snow",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:jungle",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:marine",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "beaches"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:meadow",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:flower_forest"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:modern",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:monsoon",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:ocean",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:polar",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "byg:shattered_glacier"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:river",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:sandstorm",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "anticondition": {
+        "stringBiomes": [
+          "minecraft:desert_lakes"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:savanna",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:sun",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:sunflower_plains"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:tundra",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:snowy_tundra",
+          "minecraft:ice_spikes",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:fancy",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Vivillon palette:strike",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 13,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "STORM"
+        ],
+        "stringBiomes": [
+          "flowery"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

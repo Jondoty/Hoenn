@@ -1,0 +1,29 @@
+{
+  "id": "Passimian",
+  "spawnInfos": [
+    {
+      "spec": "species:Passimian",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:jungle_hills",
+          "minecraft:modified_jungle",
+          "minecraft:bamboo_jungle_hills",
+          "biomesoplenty:rainforest_cliffs",
+          "byg:guiana_shield",
+          "byg:tropical_rainforest_hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Pyroar",
+  "spawnInfos": [
+    {
+      "spec": "species:Pyroar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

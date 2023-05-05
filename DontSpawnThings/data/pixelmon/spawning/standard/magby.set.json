@@ -1,0 +1,37 @@
+{
+  "id": "Magby",
+  "spawnInfos": [
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes",
+          "minecraft:basalt_deltas",
+          "byg:magma_wastes"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Lava Floor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "hellish"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

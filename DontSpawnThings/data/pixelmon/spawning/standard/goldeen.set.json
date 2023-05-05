@@ -1,0 +1,115 @@
+{
+  "id": "Goldeen",
+  "spawnInfos": [
+    {
+      "spec": "species:Goldeen"
+      ,
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 6, "maxX": 188, "minZ": 140, "maxZ": 216
+      },
+      "rarity": 90.0
+    },
+
+    {
+      "spec": "species:Goldeen"
+      ,
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3338, "maxX": -2572, "minZ": 523, "maxZ": 1013
+      },
+      "rarity": 90.0
+    },
+
+    {
+      "spec": "species:Goldeen"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -22, "maxX": 206, "minY": 42, "maxY": 66, "minZ": 217, "maxZ": 301
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Goldeen"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -22, "maxX": 206, "minY": 69, "maxY": 82, "minZ": 217, "maxZ": 565
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": "species:Goldeen"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -22, "maxX": 206, "minY": 27, "maxY": 42, "minZ": 217, "maxZ": 404
+      },
+      "rarity": 90.0
+    },
+
+
+    {
+      "spec": "species:Goldeen"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 20,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -977, "maxX": -859, "minZ": -482, "maxZ": -420
+      },
+      "rarity": 60.0
+    },
+
+
+    {
+      "spec": "species:Goldeen"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1039, "maxX": -932, "minZ": 233, "maxZ": 364
+      },
+      "rarity": 9.0
+    }
+
+  ]
+}

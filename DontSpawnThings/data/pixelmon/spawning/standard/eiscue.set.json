@@ -1,0 +1,37 @@
+{
+  "id": "Eiscue",
+  "spawnInfos": [
+    {
+      "spec": "species:Eiscue",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_beach",
+          "byg:snowy_rocky_black_beach",
+          "byg:snowy_black_beach",
+          "byg:frozen_lake",
+          "terraforged:frozen_lake"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

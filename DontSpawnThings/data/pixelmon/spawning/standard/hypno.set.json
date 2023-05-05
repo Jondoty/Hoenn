@@ -1,0 +1,20 @@
+{
+  "id": "Hypno",
+  "spawnInfos": [
+    {
+      "spec": "species:Hypno"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 14,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -3176, "maxX": -2921, "minZ": -122, "maxZ": -5,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Xatu",
+  "spawnInfos": [
+    {
+      "spec": "species:Xatu",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "jungles",
+          "mesas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

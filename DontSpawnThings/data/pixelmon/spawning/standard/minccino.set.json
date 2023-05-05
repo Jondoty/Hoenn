@@ -1,0 +1,29 @@
+{
+  "id": "Minccino",
+  "spawnInfos": [
+    {
+      "spec": "species:Minccino",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "minecraft:birch_forest_hills",
+          "minecraft:tall_birch_hills",
+          "byg:aspen_forest_hills",
+          "byg:seasonal_birch_forest_hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

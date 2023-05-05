@@ -1,0 +1,63 @@
+{
+  "id": "Burmy Line Sweet Scent",
+  "spawnInfos": [
+    {
+      "spec": "species:Burmy"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 13,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292
+      },
+      "rarity": 35.0
+    },
+
+
+
+    {
+      "spec": "species:Wormadam"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Mothim"
+      ,
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

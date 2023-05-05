@@ -1,0 +1,47 @@
+{
+  "id": "Slowbro",
+  "spawnInfos": [
+    {
+      "spec": "species:Slowbro",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kings_rock",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
+      },
+      "rarity": 15.0
+    },
+
+
+    {
+      "spec": "species:Slowbro",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kings_rock",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 32, "minZ": -889, "maxZ": -825
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

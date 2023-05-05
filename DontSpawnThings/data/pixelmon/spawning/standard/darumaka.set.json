@@ -1,0 +1,47 @@
+{
+  "id": "Darumaka",
+  "spawnInfos": [
+    {
+      "spec": "species:Darumaka",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:desert_hills",
+          "biomesoplenty:lush_desert",
+          "byg:dunes",
+          "byg:mojave_desert",
+          "byg:red_desert_dunes"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Darumaka form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing mountains"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

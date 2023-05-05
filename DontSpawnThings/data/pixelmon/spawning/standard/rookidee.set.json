@@ -1,0 +1,52 @@
+{
+  "id": "Rookidee",
+  "spawnInfos": [
+    {
+      "spec": "species:Rookidee",
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 7,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "redwoods",
+          "swamps",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Rookidee",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 7,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mountainous forests",
+          "redwoods",
+          "swamps",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "Grimer Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Grimer",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+    },
+      "rarity": 90.0
+    },
+
+    {
+      "spec": "species:Muk",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+    },
+      "rarity": 10.0
+    },
+
+
+
+
+
+
+    {
+      "spec": "species:Grimer",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+    },
+      "rarity": 90.0
+    },
+
+    {
+      "spec": "species:Muk",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 20,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+    },
+      "rarity": 10.0
+    },
+
+
+
+
+
+
+
+    {
+      "spec": "species:Grimer",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+    },
+      "rarity": 90.0
+    },
+
+    {
+      "spec": "species:Muk",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+    },
+      "rarity": 10.0
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+}

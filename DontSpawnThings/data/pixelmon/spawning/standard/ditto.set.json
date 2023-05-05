@@ -1,0 +1,165 @@
+{
+  "id": "Ditto",
+  "spawnInfos": [
+    {
+      "spec": "species:Ditto"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 422, "maxX": 512, "minZ": -721, "maxZ": -488,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Ditto"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 12,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Ditto"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1406, "maxX": 1436, "minZ": -373, "maxZ": -349,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Ditto"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
+        "times": [ "DAWN", "DUSK", "DAY" ],
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 11.0
+    },
+    {
+      "spec": "species:Ditto"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 38,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
+        "times": [ "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+      },
+      "rarity": 0.0
+    },
+
+
+
+  {
+      "spec": "species:Ditto"
+    ,
+    "stringLocationTypes": [
+      "Land",
+      "Underground"
+    ],
+    "minLevel": 40,
+    "maxLevel": 42,
+    "typeID": "pokemon",
+    "condition": {
+      "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897,
+      "neededNearbyBlocks": ["minecraft:stone"]
+    },
+    "rarity": 0.0
+  },
+
+
+  {
+      "spec": "species:Ditto"
+    ,
+    "stringLocationTypes": [
+      "Land",
+      "Underground"
+    ],
+    "minLevel": 45,
+    "maxLevel": 47,
+    "typeID": "pokemon",
+    "condition": {
+      "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897,
+        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+    },
+    "rarity": 0.0
+  },
+
+
+  {
+      "spec": "species:Ditto"
+    ,
+    "stringLocationTypes": [
+      "Land",
+      "Underground"
+    ],
+    "minLevel": 39,
+    "maxLevel": 44,
+    "typeID": "pokemon",
+    "condition": {
+      "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826,
+      "neededNearbyBlocks": ["minecraft:wool"]
+    },
+    "rarity": 0.0
+  },
+  {
+      "spec": "species:Ditto"
+    ,
+    "stringLocationTypes": [
+      "Land",
+      "Underground"
+    ],
+    "minLevel": 39,
+    "maxLevel": 44,
+    "typeID": "pokemon",
+    "condition": {
+      "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826,
+      "neededNearbyBlocks": ["minecraft:planks"]
+    },
+    "rarity": 0.0
+  }
+
+
+
+
+
+
+  ]
+}

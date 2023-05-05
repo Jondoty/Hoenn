@@ -1,0 +1,62 @@
+{
+  "id": "Salazzle",
+  "spawnInfos": [
+    {
+      "spec": "species:Salazzle",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "minecraft:swamp_hills",
+          "pixelmon:ultra_deep_sea",
+          "evil",
+          "mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Salazzle",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:nether_wastes",
+          "minecraft:basalt_deltas",
+          "byg:brimstone_caverns",
+          "byg:embur_bog",
+          "byg:magma_wastes"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

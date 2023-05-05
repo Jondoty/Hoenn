@@ -1,0 +1,55 @@
+{
+  "id": "Slugma",
+  "spawnInfos": [
+    {
+      "spec": "species:Slugma"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 27,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2212, "maxX": -2182, "minZ": -580, "maxZ": -561,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Slugma"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 27,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2094, "maxX": -2054, "minZ": 176, "maxZ": 238,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Slugma"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 27,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2197, "maxX": -2145, "minZ": 338, "maxZ": 368,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

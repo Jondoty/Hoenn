@@ -1,0 +1,27 @@
+{
+  "id": "Alomomola",
+  "spawnInfos": [
+    {
+      "spec": "species:Alomomola",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean"
+        ],
+        "minY": 50
+      },
+      "rarity": 0
+    }
+  ]
+}

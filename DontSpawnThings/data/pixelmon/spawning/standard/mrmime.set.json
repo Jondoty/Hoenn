@@ -1,0 +1,37 @@
+{
+  "id": "MrMime",
+  "spawnInfos": [
+    {
+      "spec": "species:MrMime"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328,
+        "times": [ "DAWN", "DUSK", "NIGHT" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:MrMime"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 28,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328,
+        "times": [ "DAY" ],
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "Xurkitree",
+  "spawnInfos": [
+    {
+      "spec": "species:Xurkitree",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "ultrabeast"
+      ],
+      "minLevel": 60,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "birches"
+        ],
+        "dimensions": [
+          "pixelmon:ultra_space"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 10,
+          "condition": {
+            "weathers": [
+              "RAIN",
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

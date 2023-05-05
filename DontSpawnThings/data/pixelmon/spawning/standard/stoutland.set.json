@@ -1,0 +1,33 @@
+{
+  "id": "Stoutland",
+  "spawnInfos": [
+    {
+      "spec": "species:Stoutland",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:tall_grass_path"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Lickitung",
+  "spawnInfos": [
+    {
+      "spec": "species:Lickitung"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+          "minX": -406, "maxX": -351, "minZ": 177, "maxZ": 202,
+          "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 15.0
+    }
+  ]
+}

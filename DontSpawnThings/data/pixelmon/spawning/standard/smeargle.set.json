@@ -1,0 +1,22 @@
+{
+  "id": "Smeargle",
+  "spawnInfos": [
+    {
+      "spec": "species:Smeargle"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 254, "maxX": 273, "minZ": -213, "maxZ": -169,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+
+  ]
+}

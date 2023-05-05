@@ -1,0 +1,26 @@
+{
+  "id": "Guzzlord",
+  "spawnInfos": [
+    {
+      "spec": "species:Guzzlord",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "ultrabeast"
+      ],
+      "minLevel": 60,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "mesas"
+        ],
+        "dimensions": [
+          "pixelmon:ultra_space"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

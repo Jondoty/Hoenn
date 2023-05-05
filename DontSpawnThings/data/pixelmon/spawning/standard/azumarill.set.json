@@ -1,0 +1,55 @@
+{
+  "id": "Azumarill",
+  "spawnInfos": [
+    {
+      "spec": "species:Azumarill",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "biomesoplenty:white_sand",
+          "byg:white_sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches",
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Azumarill palette:alter",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "neededNearbyBlocks": [
+          "minecraft:sand",
+          "biomesoplenty:white_sand",
+          "byg:white_sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches",
+          "minecraft:river",
+          "lakes"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

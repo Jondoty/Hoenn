@@ -1,0 +1,34 @@
+{
+  "id": "Mudsdale",
+  "spawnInfos": [
+    {
+      "spec": "species:Mudsdale",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:light_clay",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "plains",
+          "mountainous"
+        ],
+        "maxY": 80
+      },
+      "rarity": 0
+    }
+  ]
+}

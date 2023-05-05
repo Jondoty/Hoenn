@@ -1,0 +1,34 @@
+{
+  "id": "Croagunk",
+  "spawnInfos": [
+    {
+      "spec": "species:Croagunk",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "minecraft:river",
+          "lakes",
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

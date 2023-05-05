@@ -1,0 +1,56 @@
+{
+  "id": "Phanpy",
+  "spawnInfos": [
+    {
+      "spec": "species:Phanpy"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -650, "maxX": -535, "minZ": -298, "maxZ": 95,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Phanpy"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 41,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    },
+
+
+    {
+      "spec": "species:Phanpy"
+      ,
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 45,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364,
+        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "Horsea",
+  "spawnInfos": [
+    {
+      "spec": "species:Horsea"
+      ,
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 1104, "maxX": 1376, "minY": 80, "maxY": 100, "minZ": 95, "maxZ": 309
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Horsea"
+      ,
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 1219, "maxX": 1270, "minY": 25, "maxY": 39, "minZ": 164, "maxZ": 197
+      },
+      "rarity": 60.0
+    },
+
+
+    {
+      "spec": "species:Horsea"
+      ,
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 32, "minZ": -889, "maxZ": -825
+      },
+      "rarity": 0.0
+    }
+  ]
+}

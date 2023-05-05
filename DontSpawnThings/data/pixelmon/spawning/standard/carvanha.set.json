@@ -1,0 +1,27 @@
+{
+  "id": "Carvanha",
+  "spawnInfos": [
+    {
+      "spec": "species:Carvanha",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "minecraft:river",
+          "jungles"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

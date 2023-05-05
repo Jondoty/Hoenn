@@ -1,0 +1,49 @@
+{
+  "id": "Miltank",
+  "spawnInfos": [
+    {
+      "spec": "species:Miltank"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 13,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moomoo_milk",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    },
+
+    {
+      "spec": "species:Miltank"
+      ,
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 13,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moomoo_milk",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "minX": 776, "maxX": 798, "minZ": 121, "maxZ": 176,
+        "neededNearbyBlocks": ["minecraft:grass"]
+      },
+      "rarity": 0.0
+    }
+
+  ]
+}

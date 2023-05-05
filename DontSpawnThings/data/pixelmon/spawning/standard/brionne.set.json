@@ -1,0 +1,38 @@
+{
+  "id": "Brionne",
+  "spawnInfos": [
+    {
+      "spec": "species:Brionne",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 17,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "minecraft:beach",
+          "biomesoplenty:gravel_beach",
+          "biomesoplenty:tropic_beach",
+          "byg:rainbow_beach",
+          "byg:white_beach",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "CLEAR"
+            ]
+          }
+        }
+      ],
+      "rarity": 0
+    }
+  ]
+}

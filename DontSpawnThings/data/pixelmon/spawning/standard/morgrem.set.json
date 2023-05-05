@@ -1,0 +1,50 @@
+{
+  "id": "Morgrem",
+  "spawnInfos": [
+    {
+      "spec": "species:Morgrem",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 32,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed",
+          "biomesoplenty:mystic_grove",
+          "biomesoplenty:mystic_plains",
+          "byg:twilight_valley",
+          "byg:twilight_valley_hills",
+          "byg:weeping_witch_forest",
+          "byg:weeping_witch_clearing"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Morgrem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 32,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:crimson_forest",
+          "minecraft:warped_forest",
+          "biomesoplenty:undergrowth",
+          "byg:crimson_gardens",
+          "byg:glowstone_gardens",
+          "byg:withering_woods"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

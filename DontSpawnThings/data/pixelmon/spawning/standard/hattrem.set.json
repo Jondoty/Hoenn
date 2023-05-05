@@ -1,0 +1,45 @@
+{
+  "id": "Hattrem",
+  "spawnInfos": [
+    {
+      "spec": "species:Hattrem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 32,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "magical"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Hattrem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 32,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:end_barrens",
+          "byg:nightshade_forest",
+          "byg:shulkren_forest",
+          "byg:imparius_grove",
+          "byg:imparius_clearing",
+          "byg:ethereal_forest",
+          "byg:ethereal_clearing"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

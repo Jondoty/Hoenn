@@ -1,0 +1,57 @@
+{
+  "id": "Avalugg",
+  "spawnInfos": [
+    {
+      "spec": "species:Avalugg",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_tundra",
+          "minecraft:ice_spikes",
+          "freezing mountains",
+          "byg:frozen_lake",
+          "byg:shattered_glacier",
+          "terraforged:frozen_lake"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Avalugg form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:frozen_river",
+          "minecraft:snowy_tundra",
+          "minecraft:ice_spikes",
+          "freezing mountains",
+          "byg:frozen_lake",
+          "byg:shattered_glacier",
+          "terraforged:frozen_lake"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

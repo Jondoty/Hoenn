@@ -1,0 +1,23 @@
+{
+  "id": "Malamar",
+  "spawnInfos": [
+    {
+      "spec": "species:Malamar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "roofed"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "Kingler",
+  "spawnInfos": [
+    {
+      "spec": "species:Kingler",
+      "stringLocationTypes": [
+        "Seafloor",
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 28,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "beaches"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

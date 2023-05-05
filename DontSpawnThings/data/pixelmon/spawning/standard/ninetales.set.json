@@ -1,0 +1,84 @@
+{
+  "id": "Ninetales",
+  "spawnInfos": [
+    {
+      "spec": "species:Ninetales",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:charcoal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "redwoods",
+          "biomesoplenty:seasonal_forest",
+          "byg:seasonal_forest",
+          "byg:seasonal_forest_hills",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Ninetales form:alolan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Ninetales form:base palette:strike",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "STORM"
+        ],
+        "stringBiomes": [
+          "redwoods",
+          "biomesoplenty:seasonal_forest",
+          "byg:seasonal_forest",
+          "byg:seasonal_forest_hills"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

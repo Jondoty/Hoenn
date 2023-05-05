@@ -1,0 +1,24 @@
+{
+  "id": "Cyndaquil",
+  "spawnInfos": [
+    {
+      "spec": "species:Cyndaquil",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 9,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mesas",
+          "biomesoplenty:burnt_forest"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

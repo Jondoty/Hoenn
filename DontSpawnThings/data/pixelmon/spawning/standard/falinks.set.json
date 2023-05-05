@@ -1,0 +1,25 @@
+{
+  "id": "Falinks",
+  "spawnInfos": [
+    {
+      "spec": "species:Falinks",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "savannas",
+          "mesas"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

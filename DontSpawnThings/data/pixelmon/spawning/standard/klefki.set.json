@@ -1,0 +1,24 @@
+{
+  "id": "Klefki",
+  "spawnInfos": [
+    {
+      "spec": "species:Klefki",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "magical"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

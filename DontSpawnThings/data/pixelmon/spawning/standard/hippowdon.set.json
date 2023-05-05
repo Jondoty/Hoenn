@@ -1,0 +1,25 @@
+{
+  "id": "Hippowdon",
+  "spawnInfos": [
+    {
+      "spec": "species:Hippowdon",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 35,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "arid"
+        ],
+        "maxY": 80
+      },
+      "rarity": 0
+    }
+  ]
+}

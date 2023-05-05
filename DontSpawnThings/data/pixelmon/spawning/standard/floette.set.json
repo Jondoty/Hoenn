@@ -1,0 +1,25 @@
+{
+  "id": "Floette",
+  "spawnInfos": [
+    {
+      "spec": "species:Floette",
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "flowery",
+          "magical"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}

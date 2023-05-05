@@ -1,0 +1,47 @@
+{
+  "id": "Darmanitan",
+  "spawnInfos": [
+    {
+      "spec": "species:Darmanitan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "minecraft:desert_hills",
+          "biomesoplenty:lush_desert",
+          "byg:dunes",
+          "byg:mojave_desert",
+          "byg:red_desert_dunes"
+        ]
+      },
+      "rarity": 0
+    },
+    {
+      "spec": "species:Darmanitan form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing mountains"
+        ]
+      },
+      "rarity": 0
+    }
+  ]
+}
