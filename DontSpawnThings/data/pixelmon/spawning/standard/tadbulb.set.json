@@ -1,0 +1,22 @@
+{
+  "id": "Tadbulb",
+  "spawnInfos": [
+    {
+      "spec": "species:Tadbulb",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "minecraft:river",
+          "lakes",
+          "swamps"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

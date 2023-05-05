@@ -1,0 +1,40 @@
+{
+  "id": "Arctibax",
+  "spawnInfos": [
+    {
+      "spec": "species:Arctibax",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing forests",
+          "freezing mountains"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Arctibax",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 35,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "freezing"
+        ],
+        "minY": 70
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Wiglett",
+  "spawnInfos": [
+    {
+      "spec": "species:Wiglett",
+      "stringLocationTypes": [
+        "Land",
+        "Seafloor"
+      ],
+      "minLevel": 10,
+      "maxLevel": 26,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "beaches",
+          "minecraft:ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:warm_ocean"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

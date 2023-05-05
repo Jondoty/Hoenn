@@ -1,0 +1,36 @@
+{
+  "id": "Orthworm",
+  "spawnInfos": [
+    {
+      "spec": "species:Orthworm",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": "species:Orthworm",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 25,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64
+      },
+      "rarity": 0.0
+    }
+  ]
+}
