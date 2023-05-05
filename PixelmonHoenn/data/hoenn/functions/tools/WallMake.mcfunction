@@ -1,67 +1,477 @@
-execute @a ~ ~ ~ detect ~ ~-1 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-2 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-3 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-4 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-5 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-6 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-7 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-8 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-9 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-10 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-11 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-12 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-13 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-14 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-15 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-16 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-17 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-18 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-19 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-20 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-21 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-22 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-23 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-24 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-25 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-26 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-27 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-28 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-29 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-30 ~ minecraft:cobblestone_wall 0 scoreboard players tag @s add WallMake
+execute at Jond if block ~ ~-1 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~ minecraft:cobblestone_wall run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+
+execute at Jond if block ~ ~-1 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~ minecraft:orange_terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+execute at Jond if block ~ ~-1 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~ minecraft:terracotta run fill ~ ~-5 ~ ~ ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
 
 
 
-execute @a ~ ~ ~ detect ~ ~-1 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-2 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-3 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-4 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-5 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-6 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-7 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-8 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-9 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-10 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-11 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-12 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-13 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-14 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-15 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-16 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-17 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-18 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-19 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-20 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-21 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-22 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-23 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-24 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-25 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-26 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-27 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-28 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-29 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
-execute @a ~ ~ ~ detect ~ ~-30 ~ minecraft:stained_hardened_clay 5 scoreboard players tag @s add WallMake
 
-execute @a[tag=WallMake] ~ ~ ~ fill ~ ~-5 ~ ~ ~-30 ~ minecraft:quartz_ore 0 replace minecraft:air
 
-scoreboard players tag @s remove WallMake
+#Below I'm just trying things
+
+
+
+
+
+
+
+
+execute at Jond if block ~-1 ~-1 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-2 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-3 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-4 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-5 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-6 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-7 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-8 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-9 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-11 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-12 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-13 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-14 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-15 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-16 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-17 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-18 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-19 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-20 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-21 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-22 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-23 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-24 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-25 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-26 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-27 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-28 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-29 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-30 ~ minecraft:cobblestone_wall run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+
+execute at Jond if block ~-1 ~-1 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-2 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-3 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-4 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-5 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-6 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-7 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-8 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-9 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-11 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-12 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-13 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-14 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-15 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-16 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-17 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-18 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-19 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-20 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-21 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-22 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-23 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-24 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-25 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-26 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-27 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-28 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-29 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-30 ~ minecraft:orange_terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+execute at Jond if block ~-1 ~-1 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-2 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-3 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-4 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-5 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-6 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-7 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-8 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-9 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-11 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-12 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-13 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-14 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-15 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-16 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-17 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-18 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-19 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-20 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-21 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-22 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-23 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-24 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-25 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-26 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-27 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-28 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-29 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~-1 ~-30 ~ minecraft:terracotta run fill ~-1 ~-5 ~ ~-1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+
+
+
+
+
+execute at Jond if block ~1 ~-1 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-2 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-3 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-4 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-5 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-6 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-7 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-8 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-9 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-11 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-12 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-13 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-14 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-15 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-16 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-17 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-18 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-19 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-20 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-21 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-22 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-23 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-24 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-25 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-26 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-27 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-28 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-29 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-30 ~ minecraft:cobblestone_wall run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+
+execute at Jond if block ~1 ~-1 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-2 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-3 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-4 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-5 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-6 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-7 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-8 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-9 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-11 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-12 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-13 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-14 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-15 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-16 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-17 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-18 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-19 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-20 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-21 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-22 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-23 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-24 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-25 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-26 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-27 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-28 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-29 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-30 ~ minecraft:orange_terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+execute at Jond if block ~1 ~-1 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-2 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-3 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-4 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-5 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-6 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-7 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-8 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-9 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-11 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-12 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-13 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-14 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-15 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-16 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-17 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-18 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-19 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-20 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-21 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-22 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-23 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-24 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-25 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-26 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-27 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-28 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-29 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~1 ~-30 ~ minecraft:terracotta run fill ~1 ~-5 ~ ~1 ~-30 ~ minecraft:nether_quartz_ore replace minecraft:air
+
+
+
+
+execute at Jond if block ~ ~-1 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~-1 minecraft:cobblestone_wall run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+
+
+execute at Jond if block ~ ~-1 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~-1 minecraft:orange_terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+
+execute at Jond if block ~ ~-1 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~-1 minecraft:terracotta run fill ~ ~-5 ~-1 ~ ~-30 ~-1 minecraft:nether_quartz_ore replace minecraft:air
+
+
+
+execute at Jond if block ~ ~-1 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~1 minecraft:cobblestone_wall run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+
+
+execute at Jond if block ~ ~-1 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~1 minecraft:orange_terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+
+execute at Jond if block ~ ~-1 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-2 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-3 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-4 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-5 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-6 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-7 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-8 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-9 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-11 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-12 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-13 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-14 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-15 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-16 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-17 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-18 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-19 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-20 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-21 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-22 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-23 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-24 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-25 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-26 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-27 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-28 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-29 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
+execute at Jond if block ~ ~-30 ~1 minecraft:terracotta run fill ~ ~-5 ~1 ~ ~-30 ~1 minecraft:nether_quartz_ore replace minecraft:air
