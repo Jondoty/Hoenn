@@ -587,44 +587,47 @@ tp @e[x=-554,y=45,z=-611,dx=3,dy=3] -553 64 -610
 #tp @e[x=,y=,z=,dx=3,dy=3]
 
 #Lilycove Department Store
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=529,y=89,z=-1093,dx=4,dy=3] 521 29 -1088
+tp @e[x=518,y=29,z=-1087,dx=5,dy=3] 531 89 -1092
 
-#Top Left NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+#Department Center Rooftop
+tp @e[x=538,y=137,z=-1120,dz=3,dy=3] 537 69 -1117
+
+#Top Left NPC Home (Move Deleter)
+tp @e[x=591,y=89,z=-1093,dx=4,dy=3] 593 67 -1094
+tp @e[x=591,y=67,z=-1093,dx=3,dy=3] 593 89 -1092
 
 #Top Right NPC Home
 #tp @e[x=,y=,z=,dx=3,dy=3]
 #tp @e[x=,y=,z=,dx=3,dy=3]
 
 #Middle Left NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=443,y=74,z=-1036,dx=4,dy=3] 445 55 -1037
+tp @e[x=443,y=55,z=-1036,dx=3,dy=3] 445 74 -1035
 
 #Pokemon Center
 #tp @e[x=,y=,z=,dx=3,dy=3]
 #tp @e[x=,y=,z=,dx=3,dy=3]
 
-#Middle Middle NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+#Middle Middle NPC Home Trainer Club
+tp @e[x=613,y=74,z=-1038,dx=4,dy=3] 615 55 -1039
+tp @e[x=613,y=55,z=-1038,dx=3,dy=3] 615 74 -1037
 
 #Middle Right NPC Home
 #tp @e[x=,y=,z=,dx=3,dy=3]
 #tp @e[x=,y=,z=,dx=3,dy=3]
 
 #Bottom Left NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=437,y=74,z=-988,dx=4,dy=3] 439 53 -989
+tp @e[x=437,y=53,z=-988,dx=3,dy=3] 439 74 -987
 
 #Contest Hall
 #tp @e[x=,y=,z=,dx=3,dy=3]
 #tp @e[x=,y=,z=,dx=3,dy=3]
 
 #Lilycove Motel
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=609,y=74,z=-986,dx=4,dy=3] 611 31 -987
+tp @e[x=609,y=31,z=-986,dx=3,dy=3] 611 74 -985
 
 #Lilycove Harbor
 #tp @e[x=,y=,z=,dx=3,dy=3]
@@ -645,28 +648,28 @@ tp @e[x=1117,y=36,z=-941,dx=3,dy=3] 1119 64 -940
 #Mossdeep City
 
 #Top Left NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1384,y=74,z=-1029,dx=2,dy=3] 1385 46 -1030
+tp @e[x=1383,y=46,z=-1029,dx=4,dy=3] 1385 74 -1028
 
 #Top Middle NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1472,y=74,z=-1036,dx=2,dy=3] 1473 47 -1037
+tp @e[x=1471,y=47,z=-1036,dx=4,dy=3] 1473 74 -1035
 
 #Pokemon Gym
 #tp @e[x=,y=,z=,dx=3,dy=3]
 #tp @e[x=,y=,z=,dx=3,dy=3]
 
 #Top Right NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1607,y=84,z=-1019,dx=2,dy=3] 1608 47 -1020
+tp @e[x=1606,y=47,z=-1019,dx=3,dy=3] 1608 84 -1018
 
 #Space Center
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1723,y=104,z=-1013,dx=2,dy=3] 2698 137 2387
+tp @e[x=2696,y=137,z=2388,dx=4,dy=3] 1724 104 -1012
 
 #Middle Left NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1427,y=74,z=-977,dx=2,dy=3] 1428 48 -978
+tp @e[x=1426,y=48,z=-977,dx=4,dy=3] 1428 74 -976
 
 #Pokemon Center
 #tp @e[x=,y=,z=,dx=3,dy=3]
@@ -677,16 +680,16 @@ tp @e[x=1117,y=36,z=-941,dx=3,dy=3] 1119 64 -940
 #tp @e[x=,y=,z=,dx=3,dy=3]
 
 #Middle Right NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1751,y=84,z=-926,dx=2,dy=3] 1752 59 -927
+tp @e[x=1750,y=59,z=-926,dx=4,dy=3] 1752 84 -925
 
 #Bottom Left NPC Home (yellow roof)
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1545,y=74,z=-912,dx=2,dy=3] 1546 47 -913
+tp @e[x=1455,y=47,z=-912,dx=4,dy=3] 1546 74 -911
 
 #Bottom Right NPC Home
-#tp @e[x=,y=,z=,dx=3,dy=3]
-#tp @e[x=,y=,z=,dx=3,dy=3]
+tp @e[x=1731,y=74,z=-885,dx=2,dy=3] 1732 47 -886
+tp @e[x=1730,y=47,z=-885,dx=4,dy=3] 1732 74 -884
 
 #-------------------------------------------------------------------------
 #Shoal Cave
