@@ -273,12 +273,12 @@ tp @a[x=-1412,y=64,z=203,dx=8,dy=3] 2221 79 2594
 tp @a[x=2220,y=79,z=2595,dx=2,dy=3] -1408 64 204
 
 #Oceanic Museum
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1395,y=69,z=282,dx=2,dy=3] -1394 34 281
+tp @a[x=-1396,y=34,z=282,dx=4,dy=3] -1394 69 283
 
 #Stern's Shipyard
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1488,y=69,z=337,dx=4,dy=3] -1446 16 336
+tp @a[x=-1448,y=16,z=337,dx=4,dy=3] -1446 69 338
 
 #Northwest NPC Home
 tp @a[x=-1611,y=69,z=226,dx=4,dy=3] -1609 48 225
@@ -292,12 +292,12 @@ tp @a[x=-1493,y=50,z=377,dx=4,dy=3] -1491 69 378
 #Route 110
 
 #New Mauville
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=-1373,y=69,z=-332,dx=12,dy=4]
+#tp @a[x=,y=,z=,dx=3,dy=3] -1367 69 -331
 
 #Trick House
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=-1594,y=69,z=-78,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3] -1592 69 -77
 
 #-------------------------------------------------------------------------
 #Mauville City
