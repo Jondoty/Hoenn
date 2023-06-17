@@ -269,16 +269,16 @@ tp @a[x=-1619,y=69,z=271,dx=4,dy=3] -1616 52 270
 tp @a[x=-1618,y=52,z=271,dx=3,dy=3] -1617 69 272
 
 #Slateport Harbor
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1412,y=64,z=203,dx=8,dy=3] 2221 79 2594
+tp @a[x=2220,y=79,z=2595,dx=2,dy=3] -1408 64 204
 
 #Oceanic Museum
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1395,y=69,z=282,dx=2,dy=3] -1394 34 281
+tp @a[x=-1396,y=34,z=282,dx=4,dy=3] -1394 69 283
 
 #Stern's Shipyard
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1488,y=69,z=337,dx=4,dy=3] -1446 16 336
+tp @a[x=-1448,y=16,z=337,dx=4,dy=3] -1446 69 338
 
 #Northwest NPC Home
 tp @a[x=-1611,y=69,z=226,dx=4,dy=3] -1609 48 225
@@ -292,51 +292,75 @@ tp @a[x=-1493,y=50,z=377,dx=4,dy=3] -1491 69 378
 #Route 110
 
 #New Mauville
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=-1373,y=69,z=-332,dx=12,dy=4]
+#tp @a[x=,y=,z=,dx=3,dy=3] -1367 69 -331
 
 #Trick House
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1594,y=69,z=-78,dx=3,dy=3] -1592 41 -79
+tp @a[x=-1594,y=41,z=-78,dx=4,dy=3] -1592 69 -77
 
 #-------------------------------------------------------------------------
 #Mauville City
 
 #South Entrance
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1547,y=70,z=-470,dx=26,dy=10] 2705 65 2959
+tp @a[x=2698,y=65,z=2960,dx=14,dy=6] -1534 70 -469
 
 #West Entrance
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1705,y=69,z=-608,dz=6,dy=6] 2548 65 2816
+tp @a[x=2547,y=65,z=2809,dz=14,dy=6] -1706 69 -605
 
 #North Entrance
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1547,y=70,z=-740,dx=26,dy=10] 2705 65 2670
+tp @a[x=2696,y=65,z=2669,dx=18,dy=6] -1534 70 -741
 
 #East Entrance
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1363,y=69,z=-608,dz=6,dy=6] 2863 65 2815
+tp @a[x=2864,y=65,z=2808,dz=14,dy=6] -1362 69 -605
 
 #TV Studio
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=2731,y=65,z=2707,dx=3,dy=3] 2758 65 2690
+tp @a[x=2756,y=65,z=2691,dx=3,dy=3] 2733 65 2708
 
 #Northwest to Roof
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1612,y=133,z=-685,dz=6,dy=3] 2575 85 2726 0 ~
 
 #Northeast to Roof
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1456,y=133,z=-685,dz=6,dy=3] 2836 85 2726 0 ~
 
 #Southwest to Roof
+tp @a[x=-1612,y=133,z=-531,dz=6,dy=3] 2575 85 2904 180 ~
+
+#Southeast to Roof
+tp @a[x=-1456,y=133,z=-531,dz=6,dy=3] 2836 85 2904 180 ~
+
+#Pokemon Gym
 #tp @a[x=,y=,z=,dx=3,dy=3]
 #tp @a[x=,y=,z=,dx=3,dy=3]
 
-#Southeast to Roof
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+#Pokemon Mart
+#tp @a[x=-1511,y=69,z=-645,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3] -1510 69 -644
+
+#Pokemon Center
+#tp @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1]
+#tp @a[x=,y=,z=,dx=3,dy=3] -1558 69 -644
+
+#North to Courtyard
+tp @a[x=-1540,y=69,z=-656,dx=12,dy=6] 2705 65 2745
+tp @a[x=2712,y=65,z=2746,dx=14,dy=6] -1534 69 -655
+
+#East to COurtyard
+tp @a[x=-1488,y=69,z=-611,dz=12,dy=6] 2759 65 2815
+tp @a[x=2758,y=65,z=2808,dz=14,dy=6] -1489 69 -605
+
+#South to Courtyard
+tp @a[x=-1540,y=69,z=-544,dx=12,dy=6] 2705 65 2867
+tp @a[x=2698,y=65,z=2866,dx=14,dy=6] -1534 69 -555
+
+#West to Courtyard
+tp @a[x=-1580,y=69,z=-611,dz=12,dy=6] 2651 65 2816
+tp @a[x=2652,y=65,z=2811,dz=14,dy=6] -1579 69 -605
 
 #-------------------------------------------------------------------------
 #Route 111
@@ -598,8 +622,8 @@ tp @a[x=591,y=89,z=-1093,dx=4,dy=3] 593 67 -1094
 tp @a[x=591,y=67,z=-1093,dx=3,dy=3] 593 89 -1092
 
 #Top Right NPC Home
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=637,y=89,z=-1093,dx=4,dy=3] 639 73 -1094
+tp @a[x=637,y=73,z=-1093,dx=3,dy=3] 639 89 -1092
 
 #Middle Left NPC Home
 tp @a[x=443,y=74,z=-1036,dx=4,dy=3] 445 55 -1037
@@ -614,8 +638,8 @@ tp @a[x=613,y=74,z=-1038,dx=4,dy=3] 615 55 -1039
 tp @a[x=613,y=55,z=-1038,dx=3,dy=3] 615 74 -1037
 
 #Middle Right NPC Home
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=714,y=84,z=-1045,dx=4,dy=3] 716 47 -1046
+tp @a[x=714,y=47,z=-1045,dx=3,dy=3] 716 84 -1044
 
 #Bottom Left NPC Home
 tp @a[x=437,y=74,z=-988,dx=4,dy=3] 439 53 -989
@@ -630,8 +654,8 @@ tp @a[x=609,y=74,z=-986,dx=4,dy=3] 611 31 -987
 tp @a[x=609,y=31,z=-986,dx=3,dy=3] 611 74 -985
 
 #Lilycove Harbor
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=440,y=74,z=-910,dx=8,dy=3] 2431 79 2594
+tp @a[x=2430,y=79,z=2595,dx=3,dy=3] 444 74 -909
 
 #-------------------------------------------------------------------------
 #Route 124
