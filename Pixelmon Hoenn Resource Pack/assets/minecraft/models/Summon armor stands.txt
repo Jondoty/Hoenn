@@ -1,0 +1,2 @@
+/summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,ArmorItems:[{},{},{},{id:"diamond_hoe",Count:1b,Damage:1s}],HandItems:[{},{}],DisabledSlots:2039327}
+/entitydata @e[r=3,type=armor_stand] {ArmorItems:[{},{},{},{id:"minecraft:iron_hoe",Count:1b,tag:{Unbreakable:1b,HideFlags:6},Damage:20s}]}

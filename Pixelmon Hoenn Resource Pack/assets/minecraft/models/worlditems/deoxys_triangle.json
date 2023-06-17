@@ -1,0 +1,346 @@
+{
+	"__comment": "Designed by Jond with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"Deoxys Triangle_atlas": "worlditems/deoxys_triangle"
+	},
+	"elements": [
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 4, 7 ],
+			"to": [ 12.5, 4.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 0, 15, 4.5, 16 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 0, 15, 4.5, 14 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 12.5, 15.5, 8, 15.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 8, 15.75, 12.5, 16 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 7, 8.5, 8, 8.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 8, 8.75, 7, 9 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 3.5, 4.5, 7.5 ],
+			"to": [ 12.5, 5, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 13.5, 4.5, 14 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 0, 13.5, 4.5, 13 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 12.5, 15, 8, 15.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 8, 15.25, 12.5, 15.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 9.5, 9, 10, 9.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10, 8.75, 9.5, 9 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 4.5, 7 ],
+			"to": [ 12, 5.5, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 8, 14.25, 12, 14.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 12, 14.5, 16, 14.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 4, 9.5, 0, 10 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 0, 10, 4, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 9.5, 8, 9.75, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10, 8, 9.75, 8.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 4.5, 8.5 ],
+			"to": [ 12, 5.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 14, 14, 14.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 10, 14, 14, 13.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 4, 10.5, 0, 11 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 0, 11, 4, 11.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10, 10.5, 10.25, 11 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.5, 10.5, 10.25, 11 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4, 5, 7.5 ],
+			"to": [ 12, 6, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 0, 11.5, 4, 12 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 0, 12.5, 4, 12 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 4, 12.5, 0, 13 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 0, 9, 4, 9.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 4, 9.5, 4.5, 10 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 4.5, 9, 4, 9.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4.5, 5.5, 7 ],
+			"to": [ 11.5, 6, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 15, 16, 15.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 10, 13.75, 13.5, 13.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 13.5, 13.25, 10, 13.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 12.5, 15.75, 16, 16 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10.75, 9, 11, 9.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.75, 9, 10.5, 9.25 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4.5, 5.5, 8.5 ],
+			"to": [ 11.5, 6, 9 ],
+			"faces": {
+				"down": { "uv": [ 12.5, 15.5, 16, 15.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 12.5, 15.5, 16, 15.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 13.5, 13, 10, 13.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 10, 12.75, 13.5, 13 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10.25, 8, 10.5, 8.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.5, 8.25, 10.25, 8.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 4.5, 6, 7.5 ],
+			"to": [ 11.5, 7, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 15, 8, 15.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 4.5, 16, 8, 15.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 3.5, 8, 0, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 0, 8.5, 3.5, 9 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 7.5, 14.5, 8, 15 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 8, 14, 7.5, 14.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5, 6, 7 ],
+			"to": [ 11, 7, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 13, 12.25, 16, 12.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 10, 12.5, 13, 12.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 7.5, 11, 4.5, 11.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 4.5, 14, 7.5, 14.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 11.25, 10.5, 11.5, 11 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 11.25, 10.5, 11, 11 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5, 6, 8.5 ],
+			"to": [ 11, 7, 9 ],
+			"faces": {
+				"down": { "uv": [ 13, 12.5, 16, 12.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 10, 12.75, 13, 12.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 7.5, 13.5, 4.5, 14 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 4.5, 14.5, 7.5, 15 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 11, 10, 11.25, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 11.5, 10, 11.25, 10.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5, 7, 7.5 ],
+			"to": [ 11, 8, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 13, 7.5, 13.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 4.5, 13, 7.5, 12.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 7.5, 12, 4.5, 12.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 4.5, 11.5, 7.5, 12 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 7.5, 13.5, 8, 14 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 8, 13, 7.5, 13.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5.5, 7, 7 ],
+			"to": [ 10.5, 8, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 13.5, 13, 16, 13.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 13.5, 13, 16, 12.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 7, 10, 4.5, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 4.5, 10.5, 7, 11 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10.75, 10, 11, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.75, 10, 10.5, 10.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5.5, 7, 8.5 ],
+			"to": [ 10.5, 8, 9 ],
+			"faces": {
+				"down": { "uv": [ 10, 12, 12.5, 12.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 12.5, 12.25, 15, 12 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 7, 9, 4.5, 9.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 4.5, 9.5, 7, 10 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 11, 9.5, 11.25, 10 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 11, 9.5, 10.75, 10 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 5.5, 8, 7.5 ],
+			"to": [ 10.5, 8.5, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 4.5, 8, 7, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 4.5, 9, 7, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 16, 13.5, 13.5, 13.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 13.5, 13.25, 16, 13.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 15.5, 13.75, 16, 14 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10, 8.5, 9.5, 8.75 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 6, 8, 7 ],
+			"to": [ 10, 9, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 8, 10, 10, 10.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 8, 10, 10, 9.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 12, 14.5, 10, 15 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 12, 14.5, 14, 15 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10, 8.5, 10.25, 9 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.75, 9.5, 10.5, 10 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 6, 8, 8.5 ],
+			"to": [ 10, 9, 9 ],
+			"faces": {
+				"down": { "uv": [ 8, 9.5, 10, 9.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 8, 9.5, 10, 9.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 16, 14.5, 14, 15 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 8, 13.75, 10, 14.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10.75, 10.5, 11, 11 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.75, 10.5, 10.5, 11 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 6, 8.5, 7.5 ],
+			"to": [ 10, 9.5, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 8, 13.25, 10, 13.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 8, 15, 10, 14.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 10, 12.75, 8, 13.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 8, 12.25, 10, 12.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 7.5, 12.5, 8, 13 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 8, 12, 7.5, 12.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 6.5, 9, 7 ],
+			"to": [ 9.5, 9.5, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 8, 8.5, 9.5, 8.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 8, 9, 9.5, 8.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 15.5, 13.75, 14, 14 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 8, 9, 9.5, 9.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 11.25, 9.25, 11.5, 9.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.5, 8.5, 10.25, 8.75 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 6.5, 9, 8.5 ],
+			"to": [ 9.5, 9.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 8, 8.25, 9.5, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 8, 8.25, 9.5, 8 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 15.5, 14, 14, 14.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 10, 11.75, 11.5, 12 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 11.25, 9, 11.5, 9.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 11.25, 9, 11, 9.25 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 6.5, 9.5, 7.5 ],
+			"to": [ 9.5, 10.5, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 8, 11.25, 9.5, 11.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 8, 10.75, 9.5, 10.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 9.5, 10.75, 8, 11.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 8, 11.75, 9.5, 12.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 7.5, 11.5, 8, 12 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 8, 11, 7.5, 11.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 7, 9.5, 7 ],
+			"to": [ 9, 10.5, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 7, 8.25, 8, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 7, 8.25, 8, 8 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 4.5, 8, 3.5, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 3.5, 8.5, 4.5, 9 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10, 10, 10.25, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.5, 10, 10.25, 10.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 7, 9.5, 8.5 ],
+			"to": [ 9, 10.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 15, 12, 16, 12.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 10, 11.75, 11, 11.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 8, 9, 7, 9.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 7, 9.5, 8, 10 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10, 9.5, 10.25, 10 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.5, 9.5, 10.25, 10 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 7, 10.5, 7.5 ],
+			"to": [ 9, 11, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 7, 10, 8, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 7, 11, 8, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 11, 11.25, 10, 11.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 10, 11, 11, 11.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 15.5, 14, 16, 14.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 11.5, 11.5, 11, 11.75 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 7.5, 10.5, 7 ],
+			"to": [ 8.5, 11.5, 7.5 ],
+			"faces": {
+				"down": { "uv": [ 11, 11.25, 11.5, 11.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 11, 11.25, 11.5, 11 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 10, 11.25, 9.5, 11.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 9.5, 10.75, 10, 11.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 11.25, 9.5, 11.5, 10 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.25, 9, 10, 9.5 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 7.5, 10.5, 8.5 ],
+			"to": [ 8.5, 11.5, 9 ],
+			"faces": {
+				"down": { "uv": [ 10.25, 9.25, 10.75, 9.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 10.75, 9.5, 11.25, 9.25 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 10, 10.25, 9.5, 10.75 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 4, 12.5, 4.5, 13 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 10, 8, 10.25, 8.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10.5, 8.75, 10.25, 9.25 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		},
+		{
+			"__comment": "Voxels",
+			"from": [ 7.5, 11, 7.5 ],
+			"to": [ 8.5, 12, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 4, 12, 4.5, 12.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"up": { "uv": [ 4, 12, 4.5, 11.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"north": { "uv": [ 4.5, 11, 4, 11.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"south": { "uv": [ 4, 10.5, 4.5, 11 ], "texture": "#Deoxys Triangle_atlas" },
+				"west": { "uv": [ 4, 10, 4.5, 10.5 ], "texture": "#Deoxys Triangle_atlas" },
+				"east": { "uv": [ 10, 11.75, 9.5, 12.25 ], "texture": "#Deoxys Triangle_atlas" }
+			}
+		}
+	]
+}
