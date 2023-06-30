@@ -292,8 +292,8 @@ tp @a[x=-1493,y=50,z=377,dx=4,dy=3] -1491 69 378
 #Route 110
 
 #New Mauville
-#tp @a[x=-1373,y=69,z=-332,dx=12,dy=4]
-#tp @a[x=,y=,z=,dx=3,dy=3] -1367 69 -331
+tp @a[x=-1373,y=69,z=-332,dx=12,dy=4] -1367 44 -333
+tp @a[x=-1369,y=44,z=-332,dx=4,dy=3] -1367 69 -331
 
 #Trick House
 tp @a[x=-1594,y=69,z=-78,dx=3,dy=3] -1592 41 -79
@@ -361,6 +361,46 @@ tp @a[x=2698,y=65,z=2866,dx=14,dy=6] -1534 69 -555
 #West to Courtyard
 tp @a[x=-1580,y=69,z=-611,dz=12,dy=6] 2651 65 2816
 tp @a[x=2652,y=65,z=2811,dz=14,dy=6] -1579 69 -605
+
+
+#Apartment 1 (North side)
+tp @a[x=2665,y=85,z=2712,dx=2,dy=3] 2667 86 2707
+tp @a[x=2665,y=86,z=2708,dx=3,dy=3] 2666 85 2713
+
+#Apartment 2 (North side)
+tp @a[x=2724,y=85,z=2712,dx=2,dy=3] 2726 86 2707
+tp @a[x=2724,y=86,z=2708,dx=3,dy=3] 2725 85 2713
+
+#Apartment 3 (East side)
+tp @a[x=2833,y=85,z=2774,dz=3,dy=3] 2837 85 2776
+tp @a[x=2836,y=85,z=2774,dz=3,dy=3] 2832 85 2775
+
+#Apartment 11 (East side)
+tp @a[x=2805,y=85,z=2772,dz=3,dy=3] 2801 85 2773
+tp @a[x=2802,y=85,z=2772,dz=3,dy=3] 2806 85 2773
+
+
+#Apartment 13, Wattson's Home (south side)
+tp @a[x=2745,y=85,z=2890,dx=3,dy=3] 2739 85 2886
+tp @a[x=2737,y=85,z=2887,dx=3,dy=3] 2746 85 2891
+
+#Apartment 13 Balcony
+tp @a[x=2749,y=85,z=2865,dx=6,dy=3] -1515 93 -559
+tp @a[x=-1516,y=93,z=-558,dx=2,dy=3,dx=1] 2752 85 2866
+
+
+#Apartment 14 (South Side)
+tp @a[x=2664,y=85,z=2890,dx=3,dy=3] 2665 85 2886
+tp @a[x=2663,y=85,z=2887,dx=3,dy=3] 2665 85 2891
+
+#Apartment 14 Balcony
+tp @a[x=2675,y=85,z=2865,dx=6,dy=3] -1553 93 -559
+tp @a[x=-1554,y=93,z=-558,dx=2,dy=3,dx=1] 2678 85 2866
+
+
+#Apartment 7 (West side)
+tp @a[x=2578,y=85,z=2834,dz=3,dy=3] 2574 85 2835
+tp @a[x=2575,y=85,z=2834,dz=3,dy=3] 2579 85 2835
 
 #-------------------------------------------------------------------------
 #Route 111
