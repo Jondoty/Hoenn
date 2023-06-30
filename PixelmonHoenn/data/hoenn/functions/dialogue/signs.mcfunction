@@ -3,8 +3,11 @@
 
 #/summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,Tags:["Sign"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:diamond_hoe,tag:{Damage:5,HideFlags:6,Unbreakable:1},Count:1}],ArmorDropChances:[0f,0f,0f,0f]}
 
+#Each sign assigns a unique score, SignRead 1, to then run this command. Score then determines which text is displayed to player
+
 #Need to model: Gym Exterior Sign
 #Need to texture: Mauvulle City directory
+#Couple texture changes, Lilycove and Mt Pyre for added detail
 
 #-----------------------------------------------------------------------------------
 
@@ -152,73 +155,61 @@ title @s subtitle ["",{"text":"The windswept highlands with the sweet fragrance 
 title @s title {"text":"Verdanturf Town","color":"green"}
 
 #-2170 69 -613
-Pokémon Contest Spectacular!
-Registrations accepted inside.
-Gather, Pokémon! Gather, Trainers!
+tellraw @s ["",{"text":"Pokémon Contest Spectacular","bold":true,"italic":true,"color":"gray"},{"text":"!\nRegistrations accepted inside.\nGather, Pokémon! Gather, Trainers!","italic":true,"color":"gray"}]
 
 #-2142 69 -578
-Wanda's House
+tellraw @s {"text":"Wanda's House","italic":true,"color":"gray"}
 
 #-----------------------------------------------------------------------------------
 #Route 117
 
 #-1928 69 -619
-Route 117
-West: Verdanturf Town
+tellraw @s ["",{"text":"Route 117","bold":true,"italic":true,"color":"gray"},{"text":"\nWest: Verdanturf Town","italic":true,"color":"gray"}]
 
 #-1740 69 -611
-Route 119
-East: Mauville City
+tellraw @s ["",{"text":"Route 119","bold":true,"italic":true,"color":"gray"},{"text":"\nEast: Mauville City","italic":true,"color":"gray"}]
 
 #-1736 69 -633
-Pokémon Day Care.
-Let us raise your Pokémon.
+tellraw @s ["",{"text":"Pokémon Day Care.","bold":true,"italic":true,"color":"gray"},{"text":"\nLet us raise your Pokémon.","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Dewford Town
 
 #-2473 64 903
-Dewford Town Pokémon Gym
-Leader: Brawly
-A big wave in fighting!
+tellraw @s ["",{"text":"Dewford Town Pokémon Gym","bold":true,"italic":true,"color":"gray"},{"text":"\nLeader: Brawly\nA big wave in fighting!","italic":true,"color":"gray"}]
 
 #-2486 64 847
 title @s subtitle {"text":"A tiny island in the blue sea.","color":"#C22E28"}
 title @s title {"text":"Dewford Town","color":"#C22E28"}
 
 #-2521 64 824
-Dewford Hall
-Everyone exchanges information here!
+tellraw @s ["",{"text":"Dewford Hall","bold":true,"italic":true,"color":"gray"},{"text":"\nEveryone exchanges information here!","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 106
 
 #-2515 64 733
-Route 106
+tellraw @s {"text":"Route 106","italic":true,"color":"gray"}
 
 #-2538 64 733
-The trick to catching Pokémon with a rod is to click as soon as you get a bite.
+tellraw @s ["",{"text":"Trainer Tips","bold":true,"italic":true,"color":"gray"},{"text":"\nThe trick to catching Pokémon with a rod is to click as soon as you get a bite.","italic":true,"color":"gray"}]
 
 #-2299 64 891
-Route 107
-West: Dewford Town
-East: Route 108
+tellraw @s ["",{"text":"Route 107","bold":true,"italic":true,"color":"gray"},{"text":"\nWest: Dewford Town\nEast: Route 108","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 108
 
 #-1801 64 746
-Sea Mauville
-A Hoenn Region Protected Area
+tellraw @s ["",{"text":"Sea Mauville","bold":true,"italic":true,"color":"gray"},{"text":"\nA Hoenn Region Protected Area","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 109
 #-1457 64 608
-Route 109
+tellraw @s {"text":"Route 109","italic":true,"color":"gray"}
 
 #-1534 64 514
-Seashore House
-May hot battles rage on hot stands! The place for hot Trainers!
+tellraw @s ["",{"text":"Seashore House","bold":true,"italic":true,"color":"gray"},{"text":"\nMay hot battles rage on hot stands! The place for hot Trainers!","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Slateport City
@@ -228,91 +219,70 @@ title @s subtitle {"text":"The port where people and Pokémon cross paths with n
 title @s title {"text":"Slateport City","color":"dark_aqua"}
 
 #-1522 69 428
-Slateport Market
-Unique items found nowhere else!
+tellraw @s ["",{"text":"Slateport Market","bold":true,"italic":true,"color":"gray"},{"text":"\nUnique items found nowhere else!","italic":true,"color":"gray"}]
 
 #-1596 69 272
-Pokémon Fan Club
-Calling all fans of Pokémon!
+tellraw @s ["",{"text":"Pokémon Fan Club","bold":true,"italic":true,"color":"gray"},{"text":"\nCalling all fans of Pokémon!","italic":true,"color":"gray"}]
 
 #-1591 69 226
-Name Rater's House
-Pokémon nicknames rated.
+tellraw @s ["",{"text":"Name Rater's House","bold":true,"italic":true,"color":"gray"},{"text":"\nPokémon nicknames rated.","italic":true,"color":"gray"}]
 
+#-1551 69 200
+tellraw @s ["",{"text":"Pokémon Contest Spectacular!","bold":true,"italic":true,"color":"gray"},{"text":"\nRegistrations accepted inside.\nGet fired up, Pokémon! Go all out, Trainers!","italic":true,"color":"gray"}]
 
+#-1462 69 208
+tellraw @s ["",{"text":"Slateport Harbor","bold":true,"italic":true,"color":"gray"},{"text":"\nEnjoy a delightful cruise on the ferry S.S. Tidal.","italic":true,"color":"gray"}]
+
+#-1416 69 278
+tellraw @s ["",{"text":"The endless sea sustains all life.\n","italic":true,"color":"gray"},{"text":"Oceanic Museum","bold":true,"italic":true,"color":"gray"}]
+
+#-1457 69 338
+tellraw @s ["",{"text":"Stern's Shipyard","bold":true,"italic":true,"color":"gray"},{"text":"\nBoarding of the Slateport-Lilycove ferry S.S. Tidal is handled at the Harbor.","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 
 #Battle Resort
 #2380 69 806
-This is the Battle Resort
-It's a paradise of Trainers: by Trainers and for Trainers.
+tellraw @s {"text":"This is the Battle Resort\nIt's a paradise of Trainers: by Trainers and for Trainers.","italic":true,"color":"gray"}
 
 #2473 64 800
-Pokémon Day Care Annex
-We can also raise your Pokémon here.
+tellraw @s ["",{"text":"Pokémon Day Care Annex","bold":true,"italic":true,"color":"gray"},{"text":"\nWe can also raise your Pokémon here.","italic":true,"color":"gray"}]
 
 #2434 94 715
-Battle Maison Replica
-Kalos comes to life in the birthplace of the Battle Maison!
+tellraw @s ["",{"text":"Battle Maison Replica","bold":true,"italic":true,"color":"gray"},{"text":"\nKalos comes to life in the birthplace of the Battle Maison!","italic":true,"color":"gray"}]
 
 #2398 112 630
-The Battle Frontier Project Has Started!
-The First Battle Fronter Facity
-The Battle Tower Building Model
+tellraw @s {"text":"The Battle Frontier Project Has Started!\nThe First Battle Fronter Facity\nThe Battle Tower Building Model","italic":true,"color":"gray"}
 
-#-----------------------------------------------------------------------------------
-#Slateport City
 
-#-1551 69 200
-Pokémon Contest Spectacular!
-Registrations accepted inside.
-Get fired up, Pokémon! Go all out, Trainers!
-
-#-1462 69 208
-Slateport Harbor
-Enjoy a delightful cruise on the ferry S.S. Tidal.
-
-#-1416 69 278
-The endless sea sustains all life.
-Oceanic Museum
-
-#-1457 69 338
-Stern's Shipyard
-Boarding of the Slateport-Lilycove ferry S.S. Tidal is handled at the Harbor.
 
 #-----------------------------------------------------------------------------------
 #Route 110
 
 #-1496 69 65
-Route 110
-South: Slateport City
+tellraw @s ["",{"text":"Route 110","bold":true,"italic":true,"color":"gray"},{"text":"\nSouth: Slateport City","italic":true,"color":"gray"}]
 
 #-1529 69 30
 #-1543 69 -367
-Seaside Cycling Road
+tellraw @s {"text":"Seaside Cycling Road","italic":true,"color":"gray"}
 
 #-1591 69 -46
-Route 110
-West: Route 103
+tellraw @s ["",{"text":"Route 110","bold":true,"italic":true,"color":"gray"},{"text":"\nWest: Route 103","italic":true,"color":"gray"}]
 
 #-1599 69 -74
-Six blocks East and four steps North to readh the wonderous Trick House.
+tellraw @s {"text":"Six blocks East and four blocks North to readh the wonderous Trick House.","italic":true,"color":"gray"}
 
 #-1406 69 -66
-Trainer Tips
-Order your items to be more convenient in your inventory, and store less-used items in bags!
+tellraw @s ["",{"text":"Trainer Tips","bold":true,"italic":true,"color":"gray"},{"text":"\nOrder your items to be more convenient in your inventory, and store less-used items in bags!","italic":true,"color":"gray"}]
 
 #-1417 69 -232
-You can immobilize the opposing Pokémon by paralyzing it or causing it to sleep.
-It is an important technique for Pokémon battles.
+tellraw @s ["",{"text":"Trainer Tips","bold":true,"italic":true,"color":"gray"},{"text":"\nYou can immobilize the opposing Pokémon by paralyzing it or causing it to sleep. It is an important technique for Pokémon battles.","italic":true,"color":"gray"}]
 
 #-1613 69 -368
-Route 110
-North: Mauville City
+tellraw @s ["",{"text":"Route 110","bold":true,"italic":true,"color":"gray"},{"text":"\nNorth: Mauville City","italic":true,"color":"gray"}]
 
 #-1588 119 -188
-Seaside Parking
+tellraw @s {"text":"Seaside Parking","italic":true,"color":"gray"}
 
 #-1428 69 53
 #Probably an optional sign, times player going from one edge to the other of Cycling Road
@@ -325,74 +295,58 @@ Seaside Parking
 #Mauville City
 
 #2839 65 2805
-"Ride in Gravel and Shake Up Your Soul!"
-Rydel's Cycles
+tellraw @s ["",{"text":"\"Ride in Gravel and Shake Up Your Soul!\"\n","italic":true,"color":"gray"},{"text":"Rydel's Cycles","bold":true,"italic":true,"color":"gray"}]
 
 #2794 67 2784
-"Same Old Battles Got You Down? Turn It Up!"
-Inverse Battle Stop
+tellraw @s ["",{"text":"\"Same Old Battles Got You Down? Turn It Up!\"\n","italic":true,"color":"gray"},{"text":"Inverse Battle Stop","bold":true,"italic":true,"color":"gray"}]
 
 #2794 67 2755
-"Test Your Battle Mettle!"
-Battle Institute Hoenn
+tellraw @s ["",{"text":"\"Test Your Battle Mettle!\"\n","italic":true,"color":"gray"},{"text":"Battle Institute Hoenn","bold":true,"italic":true,"color":"gray"}]
 
 #2729 65 2709
-"Hoenn's One and Only TV Network"
-TV Mauville
+tellraw @s ["",{"text":"\"Hoenn's One and Only TV Network\"\n","italic":true,"color":"gray"},{"text":"TV Mauville","bold":true,"italic":true,"color":"gray"}]
 
 #2685 65 2714
-Mauville City Pokémon Gym
-Leader: Watson
-The cheerfully electrifying man!
+tellraw @s ["",{"text":"Mauville City Pokémon Gym","bold":true,"italic":true,"color":"gray"},{"text":"\nLeader: Watson\nThe cheerfully electrifying man!","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 111
 
 #-1500 69 -816
-Route 111
-South: Mauville City
+tellraw @s ["",{"text":"Route 111","bold":true,"italic":true,"color":"gray"},{"text":"\nSouth: Mauville City","italic":true,"color":"gray"}]
 
 #-1544 79 -865
-Our family's hearts beat as one!
-The Winstrate's House
+tellraw @s ["",{"text":"Our family's hearts beat as one!\n","italic":true,"color":"gray"},{"text":"The Winstrate's House","bold":true,"italic":true,"color":"gray"}]
 
 #-1572 79 -1008
-Trainer Tips
-One of the indicators of a Pokémon's potential power is its Sp. Atk stat. Sp. Atk stands for Special Attack.
-It affects the strength of special moves. Likewise, Sp. Def or Special Defense stat protects against special moves!
+tellraw @s ["",{"text":"Trainer Tips","bold":true,"italic":true,"color":"gray"},{"text":"\nOne of the indicators of a Pokémon's potential power is its Sp. Atk stat. Sp. Atk stands for Special Attack. It affects the strength of special moves. Likewise, Sp. Def or Special Defense stat protects against special moves!","italic":true,"color":"gray"}]
 
 #-1577 79 -1095
-Route 111
-West: Route 112
+tellraw @s ["",{"text":"Route 111","bold":true,"italic":true,"color":"gray"},{"text":"\nWest: Route 112","italic":true,"color":"gray"}]
 
 #-1782 79 -1118
-Mt. Chimney
-For Lavaridge Town or the summit, please take the Cable Car.
+tellraw @s ["",{"text":"Mt. Chimney","bold":true,"italic":true,"color":"gray"},{"text":"\nFor Lavaridge Town or the summit, please take the Cable Car.","italic":true,"color":"gray"}]
 
 #-1763 104 -1169
-Mt. Chimney Cable Car
-A short walk north!
+tellraw @s ["",{"text":"Mt. Chimney Cable Car","bold":true,"italic":true,"color":"gray"},{"text":"\nA short walk north!","italic":true,"color":"gray"}]
 
 #-1427 79 -1371
-Old Lady's Rest Stop
-Come in and rest your tired bones.
+tellraw @s ["",{"text":"Old Lady's Rest Stop","bold":true,"italic":true,"color":"gray"},{"text":"\nCome in and rest your tired bones.","italic":true,"color":"gray"}]
 
 #-1529 79 -1432
-Route 111
-West: Route 113
+tellraw @s ["",{"text":"Route 111","bold":true,"italic":true,"color":"gray"},{"text":"\nWest: Route 113","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Mt. Chimney
 
 #-44 210 1902
-South: Jagged Pass
-Direction of Lavaridge Town
+tellraw @s {"text":"South: Jagged Pass\nDirection of Lavaridge Town","italic":true,"color":"gray"}
 
 #-----------------------------------------------------------------------------------
 #Route 112
 
 #-1895 84 -1095
-West: Lavaridge Town
+tellraw @s {"text":"West: Lavaridge Town","italic":true,"color":"gray"}
 
 #-----------------------------------------------------------------------------------
 #Lavaridge Town
@@ -404,33 +358,26 @@ title @s actionbar {"text":"An excellent place for relaxing!"}
 
 
 #-2024 84 -1050
-Lavaridge Town Pokémon Gym
-Leader: Flannery
-One with a fiery passion that burns!
+tellraw @s ["",{"text":"Lavaridge Town Pokémon Gym","bold":true,"italic":true,"color":"gray"},{"text":"\nLeader: Flannery\nOne with a fiery passion that burns!","italic":true,"color":"gray"}]
 
 #-1988 84 -1060
-Pokémon Herb Shop
-Bitter taste, better cure!
+tellraw @s ["",{"text":"Pokémon Herb Shop","bold":true,"italic":true,"color":"gray"},{"text":"\nBitter taste, better cure!","italic":true,"color":"gray"}]
 
 
 #-----------------------------------------------------------------------------------
 #Route 113
 
 #-1657 79 -1430
-Route 113
-East: Route 111
+tellraw @s ["",{"text":"Route 113","bold":true,"italic":true,"color":"gray"},{"text":"\nEast: Route 111","italic":true,"color":"gray"}]
 
 #-1798 89 -1454
-Trainer Tips!
-Your hotbar lets you use items quickly. Store your most-commonly-used items there for easy access.
+tellraw @s ["",{"text":"Trainer Tips!","bold":true,"italic":true,"color":"gray"},{"text":"\nYour hotbar lets you use items quickly. Store your most-commonly-used items there for easy access.","italic":true,"color":"gray"}]
 
 #-1966 94 -1455
-Glass Workshop
-Turning volcanic ash into glass items.
+tellraw @s {"text":"Glass Workshop\nTurning volcanic ash into glass items.","italic":true,"color":"gray"}
 
 #-2054 89 -1433
-Route 113
-West: Fallarbor Town
+tellraw @s ["",{"text":"Route 113","bold":true,"italic":true,"color":"gray"},{"text":"\nWest: Fallarbor Town","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Fallarbor Town
@@ -440,66 +387,56 @@ title @s subtitle {"text":"A farm community with small gardens.","color":"#E2BF6
 title @s title {"text":"Fallarbor Town","color":"#E2BF65"}
 
 #-2276 89 -1426
-Pokémon Contest Spectacular!
-Registrations accepted inside.
-Go for broke, Trainers!
+tellraw @s ["",{"text":"Pokémon Contest Spectacular!","bold":true,"italic":true,"color":"gray"},{"text":"\nRegistrations accepted inside.\nGo for broke, Trainers!","italic":true,"color":"gray"}]
 
 #-2310 89 -1429
-Move Maniac's House
-Let me teach moves to Pokémon.
+tellraw @s ["",{"text":"Move Maniac's House","bold":true,"italic":true,"color":"gray"},{"text":"\nLet me teach moves to Pokémon.","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 114
 
 #-2433 89 -1429
-Fossil Maniac's House
-All rare Fossils are mine!
+tellraw @s ["",{"text":"Fossil Maniac's House","bold":true,"italic":true,"color":"gray"},{"text":"\nAll rare Fossils are mine!","italic":true,"color":"gray"}]
 
 #-2480 89 -1364
-Route 114
+tellraw @s {"text":"Route 114","italic":true,"color":"gray"}
 
 #-2460 87 -1240
-Lanette's House
+tellraw @s {"text":"Lanette's House","italic":true,"color":"gray"}
 
 #-2580 99 -1028
-Meteor Falls
-Rustboro City through here.
+tellraw @s ["",{"text":"Meteor Falls","bold":true,"italic":true,"color":"gray"},{"text":"\nRustboro City through here.","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 118
 
 #-1237 64 -626
-Route 118
-West: Mauville City
+tellraw @s ["",{"text":"Route 118","bold":true,"italic":true,"color":"gray"},{"text":"\nWest: Mauville City","italic":true,"color":"gray"}]
 
 #-894 64 -610
-Route 118
-North: Route 119
+tellraw @s ["",{"text":"Route 118","bold":true,"italic":true,"color":"gray"},{"text":"\nNorth: Route 119","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 123
 
 #-638 64 -582
-East: Route 123
-West: Route 119
+tellraw @s {"text":"East: Route 123\nWest: Route 119","italic":true,"color":"gray"}
 
 #-567 64 -610
-Berry Master's House
+tellraw @s {"text":"Berry Master's House","italic":true,"color":"gray"}
 
 
 #-----------------------------------------------------------------------------------
 #Route 119
 
 #-977 77 -1277
-The Weather Institute
+tellraw @s {"text":"The Weather Institute","italic":true,"color":"gray"}
 
 #-815 84 -1382
-Route 119
-East: Fortree City
+tellraw @s ["",{"text":"Route 119","bold":true,"italic":true,"color":"gray"},{"text":"\nEast: Fortree City","italic":true,"color":"gray"}]
 
 #-802 84 -1412
-Trainer Tips!
-If you get stuck in a Secret Base, use an Escape Rope, and you can be out of your pickle in no time!
+tellraw @s ["",{"text":"Trainer Tips!","bold":true,"italic":true,"color":"gray"},{"text":"\nIf you get stuck in a Secret Base, use an Escape Rope, and you can be out of your pickle in no time!","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Fortree City
@@ -509,9 +446,7 @@ title @s subtitle {"text":"The treetop city that frolics with nature.","color":"
 title @s title {"text":"Fortree City","color":"#A98FF3"}
 
 #-567 84 -1403
-Fortree City Pokémon City
-Leader: Winona
-The bird user taking flight into the world.
+tellraw @s ["",{"text":"Fortree City Pokémon City","bold":true,"italic":true,"color":"gray"},{"text":"\nLeader: Winona\nThe bird user taking flight into the world.","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Route 120
@@ -690,5 +625,8 @@ title @s title {"text":"Sootopolis City","color":"#96D9D6"}
 #998 64 1717
 tellraw @s ["",{"text":"Sootopolis City Pokémon Gym","bold":true,"italic":true,"color":"gray"},{"text":"\nLeader: Wallace\nArtist and lover of Water.","italic":true,"color":"gray"}]
 
+#-----------------------------------------------------------------------------------
+
+scoreboard players set @s SignRead 0
 
 #
