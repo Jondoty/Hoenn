@@ -290,6 +290,10 @@ tellraw @s {"text":"Seaside Parking","italic":true,"color":"gray"}
 #Number of collisions: __ times!
 #Total time: ___ minute or more!
 
+#-1511 69 -304
+tellraw @s ["",{"text":"Here comes Team Magma!","italic":true,"color":"red"},{"text":"\n"},{"text":"Somebody scribbed that on the sign...","italic":true,"color":"gray"}]
+
+tellraw @s ["",{"text":"Here comes Team Aqua!","italic":true,"color":"blue"},{"text":"\n"},{"text":"Somebody scribbed that on the sign...","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
 #Mauville City
