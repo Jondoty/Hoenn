@@ -1458,45 +1458,97 @@ Phew! You look so fantastic in that outfit that I'm about to lose it here!
 You have to wear this [VAR ITEM2(0000)]! It'll be perfect for the contest. Promise!
 <Lisia> I'll be cheering for you!
 
+#------------------------------------
+#Dialogue 48 - Post Contest dialogue
+<Lisia> @s! Wow! Gratz!
+<Lisia> I watched it all! You were great!
+<Lisia> “I Really Did It! A Star Is Born!”
+<Lisia> That's what I'm calling it!
+<Lisia> @s! You've gotta keep up this pace and just go as far as you can go!
+<Lisia> Become a real contest star!
+<Lisia> If you could have as much fun with Contest Spectaculars as me, I'd be happy as Slugma on a sunny day!
+<Lisia> You could become a massive star! I've got a good feeling about you!
+
 #----------------------------------------------------------------------------------------------------------
-#Dialogue 48 -
+#Dialogue 49 - Poke Breeder in contest hall
+#https://youtu.be/MgkqxXCmrtI?t=14490
+
+Hi! Have you got a minute?
+I just saw the Contest Spectacular.
+Your look inspired me. I rushed out and created a matching costume for a Pokémon!
+I know a very fashion-conscious Pikachu called Cosplay Pikachu, and I let it wear the costume!
+Cosplay Pikachu is a special Pikachu!
+It's very, very, very fashionable, and any costume looks fantastic on the Pikachu!
+You'll really, really, really stand out if you two go on stage with matching costumes!
+
+pokegive @s Pikachu form:rockstar ball:cherish
+
+I'm making costumes for the Contest Spectacular!
+There are more costumes for Cosplay Pikachu, so please drop by the dressing room!
+Take good care of Pikachu!
+
+#Changing outfits menu
+#https://youtu.be/MgkqxXCmrtI?t=14575
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 50
+#Route 110 - Team Grunts Chatting
+#https://youtu.be/MgkqxXCmrtI?t=14865
+
+#Set up grunts prior at a furhter distance
+
+<Team Magma Grunt> Let's keep going through Route 110 and head for Mt. Chimney!
+<Team Magma Grunt> It'll be quite a long journey.
+<Team Magma Grunt> Let's take a rest in Mauville City, which is on the way.
+
+<Team Magma Grunt> I concur!
+
+<Team Aqua Grunt> Let's keep going through Route 110 and head for Mt. Chimney!
+<Team Aqua Grunt> Wow, that's quite far.
+<Team Aqua Grunt> Why don't we take a rest in Mauville City. It's on the way.
+
+<Team Aqua Grunt> Great idea!
+
+#tps grunts out
 
 
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 51-56
+#Route 110 - Trick House Dialogues
 
+#https://youtu.be/MgkqxXCmrtI?t=15670
 
+Hah? Grrr... How did you know I concealed myself beneath this desk? You're sharp!
+Behold! For I am the greatest living mystery of a man in all of Hoenn!
+They call me... The Trick Master!
+Wahahaha! Glad to meet you!
+You, you've come to challenge my Trick House, haven't you?
+That's why you're here, isn't it?
+Yes, it is! Consider your challenge accepted!
+Enter through the scroll there, and let your challenge commence!
+I shall be waiting in the back!
+One more thing... I have to warn you.
+My tricks are quite difficult. Don't get lost!
+give @s escape_rope
+@s obtained an Escape Rope!
+Now I'm really leaving. I shall be waiting in the back!
+#tps trickmaster out
 
+Hah? Grrr... How did you know I concealed myself behind this tree? You're sharp!
+Hah? Grrr... How did you know I concealed myself inside this dresser? You're sharp!
+Hah? Grrr... How did you know I concealed myself outside this window? You're sharp!
+Hah? Grrr... How did you know I concealed myself inside this cupboard? You're sharp!
+Hah? Grrr... How did you know I concealed myself beneath this cushion? You're sharp!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#----------------------------------------------------------------------------------------------------------
+#Trick House Answers
+#https://youtu.be/MgkqxXCmrtI?t=16057
 
 
 
 
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=14373
+https://youtu.be/MgkqxXCmrtI?t=16057
 
 
 
