@@ -1026,38 +1026,38 @@ Mr. Stone updated your PokéNav Plus! You can now use the BuzzNav function on yo
 
 #Shots of the primal paintings
 
-So in the ancient world, their primal forms once held this much power...?
-The super-ancient Pokémon... What terrible strength...
-But this appearance here... It seems somehow different from Mega Evolution... Hmm.
-It seems my questions will not be answered today.
-Hm?
-You are...?
-...
-Ah, I see. It's a pleasure, @s.
-My apologies. My name is Steven.
-I'm interested in rare stones, so I travel here and there.
-Today my journey brought me here, but what about you?
-Oh? A letter for me?
-@s gave Steven the letter they had been entrusted with!
-Why, thank you...
-It must have been some trouble to track me down. I suppose I must repay you in some way.
-Let me see...
-I will give you this TM. Please accept it. It contains my favorite move, Steel Wing.
+<...> So in the ancient world, their primal forms once held this much power...?
+<...> The super-ancient Pokémon... What terrible strength...
+<...> But this appearance here... It seems somehow different from Mega Evolution... Hmm.
+<...> It seems my questions will not be answered today.
+<...> Hm?
+<...> You are...?
+<...> ...
+<...> Ah, I see. It's a pleasure, @s.
+<Steven> My apologies. My name is Steven.
+<Steven> I'm interested in rare stones, so I travel here and there.
+<Steven> Today my journey brought me here, but what about you?
+<Steven> Oh? A letter for me?
+<Steven> @s gave Steven the letter they had been entrusted with!
+<Steven> Why, thank you...
+<Steven> It must have been some trouble to track me down. I suppose I must repay you in some way.
+<Steven> Let me see...
+<Steven> I will give you this TM. Please accept it. It contains my favorite move, Steel Wing.
 
 @s obtained TM51 STeel Wing!
 
 #View of overhead, Steven looking at the wall
 
-If you don't mind me asking... Do you feel anything in particular when you look up at this wall?
-A primal world, lost thousands of years in the past...
-A Legendary Pokémon of tremendous power became humanity's greatest threat...
-The terror aroused by that power is clear to see in this ancient artwork.
+<Steven> If you don't mind me asking... Do you feel anything in particular when you look up at this wall?
+<Steven> A primal world, lost thousands of years in the past...
+<Steven> A Legendary Pokémon of tremendous power became humanity's greatest threat...
+<Steven> The terror aroused by that power is clear to see in this ancient artwork.
 
 
-...Yes. But not all power is terrible. Your Pokémon are clearly quite capable as well.
-Looking at you all together... I think that you have in you what it takes to become a Pokémon League Champion.
-As long as you keep training, that is.
-Good luck to you. I must be going now.
+<Steven> ...Yes. But not all power is terrible. Your Pokémon are clearly quite capable as well.
+<Steven> Looking at you all together... I think that you have in you what it takes to become a Pokémon League Champion.
+<Steven> As long as you keep training, that is.
+<Steven> Good luck to you. I must be going now.
 
 #Steven teleports out
 
@@ -1540,16 +1540,1666 @@ Hah? Grrr... How did you know I concealed myself inside this cupboard? You're sh
 Hah? Grrr... How did you know I concealed myself beneath this cushion? You're sharp!
 
 #----------------------------------------------------------------------------------------------------------
+#Dialogue 57
 #Trick House Answers
 #https://youtu.be/MgkqxXCmrtI?t=16057
+#Repeatable, location determines which message is sent
+
+#When locked
+The door is locked.
+A message is written on the scroll on the door: “Write the secret code here.”
+
+#Room 1
+@s wrote the secret code on the scroll!
+"Trick Master is wonderful."
+...
+The door was unlocked!
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 58 - Route 110
+#Rival Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=16530
+
+<May> Hey, @s! It's been ages!
+<May> Nice timing, too. I was just searching for Pokémon, you know?
+<May> My dad is always going on about how nature used to be even more diverse, way back in the day.
+<May> He says that there used to be way more kinds of Pokémon than there are now!
+<May> So that's why we do fieldwork, him and me.
+<May> We really want to find out what happened to those Pokémon in the past.
+<May> On my journey up to now, I've met a lot of different Pokémon, and I think I've gotten to understand a lot of them, too.
+<May> Me and my Pokémon have really grown.
+<May> So...
+<May> How about a little battle?
+
+pokebattle
 
 
+<Brendan> Hey, @s. So this is where you've been.
+<Brendan> How've things been going?
+<Brendan> I was just checking out the Pokémon around here to help with my dad's research.
+<Brendan> He says that a long, long time ago, nature used to be way more diverse and there were lots more kinds of Pokémon, too.
+<Brendan> My dad and I want to learn more about those Pokémon from the past, you know?
+<Brendan> That's why we do fieldwork. And this journey has really helped.
+<Brendan> I've met a lot of Pokémon on my way here and learned about them, too.
+<Brendan> Which reminds me!
+<Brendan> Come on! It's the first time we've met in ages, so let's have a battle!
+<Brendan> Show me what you and your team have accomplished on your journey, @s!
+
+pokebattle
+
+#-------------------------
+#Dialogue 59 - Route 110
+#Rival Pre-Battle
+
+<May> @s, you've been busy training, too, haven't you?
+<May> Oops! But look at us! Our teams look pretty tired.
+<May> Let's get them taken care of first.
+
+pokeheal
+
+<May> And now I think you deserve a reward, too! Here, this is from me!
+
+give @s dowsing_machine
+@s recieved the Dowsing Machine!
+
+<May> That's a Dowsing Machine. Try it out—if there's a hidden item anywhere near you, that little thing will react to tell you.
+<May> Pay attention, and it'll lead you right to items!
+<May> And it's fun to see all those waving bits above your head.
+<May> Try it, and I bet you'll be hooked!
+<May> See you later then, @s! Let's meet again!
+<May> I hope we'll both be able to meet even more Pokémon on our journeys!
+
+#tps May out
+
+
+<Brendan> Sheesh, @s, when did you go and train your Pokémon up that well?
+<Brendan> It's, like, I don't know... It's pretty surprising, OK!
+<Brendan> Both our teams look pretty wiped out after that, huh!
+<Brendan> Here, let me help them out.
+
+pokeheal
+
+<Brendan> And this is for you.
+
+give @s dowsing_machine
+@s recieved the Dowsing Machine!
+
+<Brendan> That's a Dowsing Machine. Use it to root around for items that aren't visible.
+<Brendan> If it senses something nearby, it'll react, see?
+<Brendan> Truth is, once I started using it, I got pretty hooked on it. It's addicting!
+<Brendan> But I recommend you give it a try.
+<Brendan> I guess I'm off to get started surveying the next area then.
+<Brendan> I hope you meet a lot of Pokémon, too, @s!
+
+#tp Brendan out
+
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 60 - Mauville City
+#Wally
+#https://youtu.be/MgkqxXCmrtI?t=17537
+
+<Wally> Wow! So this is Mauville City!
+
+<...> Hahaha! You sure seem to be enjoying it, Wally.
+<...> So what would you like to do? Do you want to grab a bite to eat at the Mauville Food Court?
+<...> Or maybe we should get you a Bike of your own at Rydel's Cycles.
+<...> Would you like that? I bet the exercise would be good for your health.
+
+<Wally> No, thank you! I want to challenge the Gym right away!
+
+<...> What?
+
+<Wally> Let me see... I'm pretty sure the Gym is...
+<Wally> Yup! Straight ahead this way! Just through the inner courtyard!
+
+#Wally tps off
+
+<...> What? Hey! Wait!
+<...> Wally?!
+
+#Other guy tps off
+
+#-------------------------------------
+#Dialogue 61 - Mauville City
+#Wally next to gym
+#https://youtu.be/MgkqxXCmrtI?t=19347
+
+<Wally> Uncle, I'm begging you!
+<Wally> I want to challenge this Gym to see how much stronger I've become!
+<Wally> Please! You'll let me, won't you?
+
+<Wally's Uncle> Now hold on, Wally...
+<Wally's Uncle> It's certainly true that you've grown quite a lot stronger alongside your Pokémon.
+<Wally's Uncle> But don't you think that jumping right into challenging a Gym might be pushing it?
+
+<Wally> I'm not pushing it! If it's me and my Ralts, we can beat anyone!
+<Wally> Ah! @s!
+<Wally> Ralts and I have gotten a lot stronger since we first met. Growing together!
+<Wally> I want to prove that to you and my uncle both, @s.
+<Wally> Please...help me once more... And have a battle with me!
+
+#-------------------------------------
+#Dialogue 62 - Mauville City
+#Wally after a battle
+
+<Wally> ... I'll go back to Verdanturf...
+<Wally> @s, thank you... Being a Trainer is tough, isn't it?
+<Wally> It's not enough just to battle with your Pokémon.
+<Wally> I can't become a true Trainer like that... Not really...
+
+<Wally's Uncle> Wally, there's no need to get so down on yourself.
+<Wally's Uncle> Why, what's keeping you from becoming stronger?
+<Wally's Uncle> Nothing is! All you need to do is keep growing.
+
+<Wally> ...
+
+<Wally's Uncle> Come on, let's go home. Everyone's waiting for you.
+
+<Wally> ...Yes, Uncle.
+<Wally> @s...
+<Wally> I... I'm definitely... I'm going to get stronger. Much, much stronger!
+<Wally> I feel like I learned a lot from just one Pokémon battle with you...
+<Wally> About my own limits...and Ralts's...
+<Wally> So...um... That's why... @s... If it's all right... Could I...
+<Wally> Could I call you...my r-riv—
+<Wally> Ah, never mind! S-sorry! It was nothing! Please forget about it!
+<Wally> Guh...good-bye!
+
+#Wally tp out
+
+<Wally's Uncle> It just dawned on me that you must be the young trainer who kept an eye out for Wally when he caught his Pokémon.
+<Wally's Uncle> So it's you we have to thank for Wally becoming so positive about the future.
+<Wally's Uncle> Thank you.
+<Wally's Uncle> ...Ah, here! Take this.
+<Wally's Uncle> I want you to have it, as a bit of a thank-you.
+
+@s obtained HM06 Rock Smash
+tag @s give RockSmash
+
+<Wally's Uncle> Even if there are obstacles in your path, I think you'll be able to break through them.
+<Wally's Uncle> Especially if you use Rock Smash there!
+<Wally's Uncle> We should head back now, but...
+<Wally's Uncle> If you ever have the time, I'd love it if you'd stop by our home in Verdanturf.
+<Wally's Uncle> I'm sure Wally would enjoy it, too.
+<Wally's Uncle> We'll look forward to seeing you!
+
+#tp Uncle out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 63 - Mauville Food Court
+#
+https://youtu.be/MgkqxXCmrtI?t=17655
+
+<Youngster> Hey there, Trainer! This is your first time here, right?
+<Youngster> This food court is a bit strange, so there are some rules you have to follow before you eat.
+<Youngster> I come here all the time, so I can tell you about them.
+<Youngster> Number one! Place your order at the counter!
+<Youngster> There are three items on the menu here, so order whatever you like.
+<Youngster> When you're done ordering, the restaurant staff will give you a buzzer.
+<Youngster> Number two! Sit in a chair while you wait for your food!
+<Youngster> It may take a while for your order to be ready. Have a seat and wait.
+<Youngster> Here's the important part!
+<Youngster> While you're sitting and waiting for your food, others will come and battle you for your seat!
+<Youngster> You have to fight back if you want to eat the meal you ordered!
+<Youngster> Number three! Eat your food!
+<Youngster> When the buzzer goes off, it means that your order is ready to be picked up at the counter.
+<Youngster> All that's left to do then is to sit back down and eat!
+<Youngster> What do you think? Easy, right?
+<Youngster> Well, you've come all the way here, so why don't you order something?
+<Youngster> Since it's your first time here, maybe you should order the Village Sub Combo.
+<Youngster> That restaurant is a chain from Unova that just opened here!
+<Youngster> It's easy to eat, so it's pretty popular with kids who like Single Battles.
+<Youngster> All right then, see you later! Enjoy your time at the Mauville Food Court!
+
+#-------------------------------------
+#Dialogue 64
+
+Hey there, Trainer! As long as you're here, do you have a minute?
+I guess the trend is dying out already.
+The line of customers waiting to order Magnemite Croquettes has disappeared.
+Magnemite Croquettes are a Mauville specialty.
+They're made with batter containing a blend of several kinds of broth, grilled on a piping-hot hot plate, and coated with specially made sweet, sour, spicy sauce from Johto!
+They're a cheap gourmet food that's all the rage with couples and young people who like Double Battles.
+You should definitely give them a try, too!
+Well OK then, see you later!
+
+#-------------------------------------
+#Dialogue 65
+
+Oh, Trainer! As long as you're here, do you have a minute?
+Maybe it's because we've had fewer amateurs coming in these days...
+The line of customers lining up for a Mauville Ramen Bowl has finally cleared out.
+The noodles are soft like Jigglypuff's cheeks (not that anyone would ever consider biting them...), the soup is golden like lightning, and the ingredients are piled as high as Mt. Chimney.
+It's a local Mauville specialty that even makes discerning people who like Triple Battles say, “Wow!” Mauville Ramen Bowls are an edible legend here at the Mauville Food Court.
+You want to try it, don't you?
+You have to come prepared if you want to eat a Mauville Ramen Bowl, though...
+See you later, Trainer!
+I look forward to seeing you again sometime!
+
+#Battle Food Court Example
+#https://youtu.be/MgkqxXCmrtI?t=17789
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 66 - Mauville City
+#Obtaining a Bike
+#https://youtu.be/MgkqxXCmrtI?t=18457
+
+<...> Well, well, what have we here? A most energetic customer!
+<Rydel> Me? You may call me Rydel. I'm the owner of this cycle shop.
+<Rydel> Your running shoes... They're awfully filthy. Did you come from far away?
+<Rydel> Hm, hm... You're saying you came all the way from Littleroot?
+<Rydel> My goodness! That's ridiculously far!
+<Rydel> If you had one of my Bikes, you could go anywhere easily while feeling the gentle caress of the wind!
+<Rydel> I'll tell you what! I'll give you a Bike!
+<Rydel> Oh, wait a second! I forgot to tell you that there are two kinds of Bikes!
+<Rydel> They are the Mach Bike and the Acro Bike!
+<Rydel> Mach Bikes are for cyclists who want to feel the wild, blowing wind as they ride!
+<Rydel> Acro Bikes are for those who prefer a technical ride!
+<Rydel> I'm a real sweetheart, so you can have whichever one you like! Which one will you choose?
+[Mach Bike]   [Acro Bike]
+
+@s chose the Mach Bike.
+@s chose the Acro Bike.
+<Rydel> If you get the urge to switch Bikes, just come see me!
+
+
+#Switching out bikes, likely just needs to be a couple TriggerCommands
+<Rydel> Oh? Were you thinking about switching Bikes?
+<Rydel> OK, no problem! Are you ready to switch Bikes?
+[Yes]
+@s got the Mach Bike exchanged for an Acro Bike.
+@s got the Acro Bike exchanged for a Mach Bike.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 67 - Mauville Gym
+#Wattson Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=19941
+
+<Wattson> Oh? Now, what are you doing here?
+<Wattson> What? You say you've gotten past all my rigged doors?
+<Wattson> Wahahahah! Now, that is amusing!
+<Wattson> The plans to reform Mauville are done for now.
+<Wattson> Making traps for my Gym and battling with young Trainers like you are the things I live for now!
+<Wattson> Then I, Wattson, the Leader of Mauville Gym, shall electrify you!
+
+
+#-------------------------------------
+#Dialogue 68 - Mauville Gym
+#Wattson Post-Battle
+
+<Wattson>
+I was electrified by you. Now, take this Badge!
+
+give @s
+@s received the Dynamo Badge from Wattson.
+
+With the Dynamo Badge, Pokémon can use the HM Rock Smash outside of battle.
+All righty then, this here's for you, too! Go on, take it with you!
+
+give @s TM72 volt switch
+
+Volt Switch is a move where your Pokémon attacks the opponent and then rushes back to switch places with a party Pokémon in waiting!
+I swell with optimism, seeing a promising young Trainer like you!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 69 - Rusturf Tunnel
+#Pre-Rock Smash Clear
+<Wanda> It's a cracked boulder. A Pokémon may be able to break it.
+<Wanda> Y-your Pokémon! You can use Rock Smash?!
+<Wanda> Please, kid! Use Rock Smash and break up these boulders!
+
+#-----------------------------
+#Dialogue 70 - Rusturf Tunnel
+#Post-Rock Smash
+#https://youtu.be/MgkqxXCmrtI?t=22309
+
+<Black Belt> Wow! You shattered those boulders blocking the way.
+<Black Belt> To show you how much I appreciate it, I'd like you to have this!
+
+give @s Aggronite
+@s obtained Aggronite!
+
+<Black Belt> I found that when I was digging for the tunnel.
+<Black Belt> I felt like there's some mysterious power coming from it, but I don't think I could do a thing with it.
+<Black Belt> Wanda! Now I can see you anytime!
+<Wanda> That's...that's wonderful! Come on. Let me take you to my place so you can rest.
+
+#tps them out
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 71 - Verdanturf Town
+#Finding Shroomish behind sign
+#https://youtu.be/MgkqxXCmrtI?t=22379
+Verdanturf Town
+The windswept highlands with the sweet fragrance of grass.
+
+#teleport Shroomish in
+<Shroomish> Mu... Mushh...?
+<Shroomish> Mushh!
+
+#teleport player and statue to the girl
+
+Ah! Mushew! Thank you for finding my Shroomish!
+I'll give you this. I just found it.
+It has a strange shape and it looks amazing.
+
+give @s Intriguing Stone
+@s obtained the Intriguing Stone!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 72 - Route 116
+#After clearing out the tunnel
+#https://youtu.be/MgkqxXCmrtI?t=22446
+
+<Researcher> Oh! It's you!
+<Researcher> You're that Trainer who helped me in Petalburg Woods and also got back my case that was stolen and then graciously delivered it to Slateport!
+<Researcher> Captain Stern informed us that the case arrived safely! I thank you very, very much.
+<Researcher> If I were a rain cloud, I would shower you with gratitude and hail you as a hero!
+<Researcher> For you, most wonderful Trainer, I bear good news!
+<Researcher> Recently, our company developed a new kind of Poké Ball.
+<Researcher> As a token of our appreciation for all your help, we would like to give you one!
+
+@s obtained a Repeat Ball!
+give @s pixelmon:repeat_ball
+
+<Researcher> Please do try it out! Thank you and bye-bye!
+
+#tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 73 - Rustboro City
+#Bringing the Intriguing Stone to Devon Corp
+#https://youtu.be/MgkqxXCmrtI?t=22574
+
+<Mr. Stone> Hm? Ah. That Intriguing Stone you have...
+<Mr. Stone> On second look, it seems to be Pidgeotite, doesn't it?
+
+@s obtained a Pidgeotite!
+give @s pixelmon:pidgeotite
+
+<Mr. Stone> To be carrying around a Mega Stone like that... It looks like you're also a bit of a connoisseur.
+<Mr. Stone> We had to do a whole lot of research into Mega Evolution to develop Infinity Energy.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 74 - Mauville City
+#Encountering Team Grunts on the north side
+#https://youtu.be/MgkqxXCmrtI?t=22703
+
+<Team Magma Grunt> Where are we supposed to be, um...
+<Team Magma Grunt> Where are we going, again?
+
+<Team Magma Grunt> It's Mt. Chimney!
+<Team Magma Grunt> Stay spaced out, and you'll get scolded by Maxie!
+
+<Team Magma Grunt> Mt. Chimney...
+<Team Magma Grunt> It'll be a long walk going along Route 112 to get there.
+<Team Magma Grunt> I wish I'd brought some snacks...
+
+#Grunts disappear north
+
+
+
+<Team Aqua Grunt> Where are we supposed to be, um...
+<Team Aqua Grunt> Where are we going, again?
+
+<Team Aqua Grunt> It's Mt. Chimney!
+<Team Aqua Grunt> Stay spaced out, and you'll get scolded by Archie!
+
+<Team Aqua Grunt> Mt. Chimney...
+<Team Aqua Grunt> It'll be a long walk going along Route 112 to get there.
+<Team Aqua Grunt> I wonder if I should buy lunch first...
+
+#Grunts disappear north
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 75 - Route 112
+#Rival upon entering the route
+#https://youtu.be/MgkqxXCmrtI?t=23642
+
+<May> Ah!
+<May> @s!
+<May> Look! Right up there! That's Mt. Chimney!
+
+#Cutscene view
+
+<May> It sure is big...
+<May> No, more like huge...
+<May> It totally takes my breath away!
+<May> I'd love to take the Cable Car all the way up to the top someday...
+
+#Back to normal view
+
+<May> Hm? Hey, @s, don't your Pokémon seem a bit ragged around the edges?
+<May> Here, let me give them a little boost!
+
+pokeheal
+Your team's health was restored!
+
+<May> Here! Take this, too!
+
+@s obtained HM04 Strength
+give @s
+
+<May> I bet you can find all kinds of ways to use it in the mountains that lie ahead!
+<May> But it won't work outside of battle if you don't have a Badge from Lavaridge Gym.
+<May> Gasp! What am I doing nattering away here? I'm supposed to be on my way to Fallarbor to visit Professor Cozmo!
+<May> I'm off for now, @s, but let's battle next time
+
+#tps out
+
+
+<Brendan> Hm?
+<Brendan> So it's you, @s.
+<Brendan> You see that mountain up there? That's Mt. Chimney.
+
+#Cutscene view
+
+<Brendan> I dunno, but... But seeing it for real is, like...
+<Brendan> Like a punch in the gut, you know?
+<Brendan> Hope I might get to take the Cable Car up to the top someday...
+
+#Back to normal view
+
+<Brendan> Hey, @s, doesn't your team seem a bit worse for wear?
+<Brendan> Here. I'll help them out for you.
+
+pokeheal
+Your team's health was restored!
+
+<Brendan> And why don't you take this?
+
+@s obtained HM04 Strength
+give @s
+
+<Brendan> I bet you can find all kinds of ways to use it in the mountains that lie ahead!
+<Brendan> Oh... But it won't work out here if you don't have a Badge from Lavaridge Gym.
+<Brendan> Bah! This is no time to be giving you tricks!
+<Brendan> I'm supposed to be heading to Fallarbor to visit Professor Cozmo right now!
+<Brendan> See you later, @s. Next time let's have a battle, OK?
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 76 - Route 111
+#Secret Base Obtaining
+#https://youtu.be/MgkqxXCmrtI?t=24761
+
+#This dialogue should probably be reworked to fit the theme of Minecraft and not auto-claim this one bsae due to it being multiplayer friendly
+
+<...> Mmm-mm. I can smell it. I can smell it right here...
+<...> The scent of adventure! This is definitely one.
+<...> It's gotta be a Secret Spot.
+<Aarune> There'll be enough space here to build a crazy super place, or my name's not Aarune!
+<Aarune> Yo, my young Pokémon Trainer!
+<Aarune> What can I do you for, hmm?
+<Aarune> Huh? What d'you mean, you didn't ask for anything?
+<Aarune> Bet your heart did! Now, now, no need to be shy!
+<Aarune> After all, we managed to meet! The name's Aarune. Put'er there.
+<Aarune> Unova-born, and twenty-five years old.
+<Aarune> Spent the last 11 years trying to find myself. Just a vagabond in search of dreams.
+<Aarune> I'm wandering 'round Hoenn, trying to find a place where I really belong.
+<Aarune> That's right! A Super-Secret Base!
+<Aarune> You don't know about Secret Bases? What kinda life is that?
+<Aarune> Too sad, little kid. Time for a little lecture from Uncle Aarune!
+<Aarune> Let's start with what a Secret Base is...
+<Aarune> Which is adventure! Romance! Awesome!
+<Aarune> For real, it's the best place ever to chill— you, your pals that you let hang out...
+<Aarune> Since you've got this chance, you oughta learn how to make one. Take this.
+
+@s obtained SecretPower
+tag @s add SecretBase
+
+<Aarune> Secret Power can help you find the entrances to hidden places.
+<Aarune> These entrances... They're full of adventure, all right!
+<Aarune> That's why I like to throw some spice in there and call 'em Secret Spots!
+<Aarune> Like this! See? This right here is a Secret Spot.
+<Aarune> Doesn't it look like you could just climb right up in this tree?
+<Aarune> This is exactly the kinda place to bust out with Secret Power!
+
+#Changes into tree with vine
+
+<Aarune> Awww yeah! I never get tired of that!
+<Aarune> And that's all there is to finding Secret Spots and creating the entrance to a Secret Base.
+<Aarune> This move is crucial to having a Secret Base. Don't forget, now!
+
+#tps NPC and player into example base
+
+<Aarune> Mm-hmm! Not a bad layout...
+<Aarune> See, behind each Secret Spot, you'll find a space like this.
+<Aarune> They come in all kindsa shapes and sizes.
+<Aarune> So basically, whenever you find a Secret Spot, you oughta at least check it out with Secret Power!
+<Aarune> Just think... Someday this place could be somebody's Secret Base, all decorated and filled with goods and friends...
+<Aarune> I'd really love to see it like that.
+<Aarune> Wait a sec...
+<Aarune> But who in the world are you?
+<Aarune> ...
+<Aarune> Ahhh! Right! @s! Sorry about that.
+<Aarune> I just got on such a roll...
+<Aarune> So then, @s! How about I give you one more tip?
+<Aarune> When you feel happy about something, you oughta express that feeling.
+<Aarune> That's just how we roll in the Secret Base life.
+<Aarune> Every day is full of happy adventures! Aw yeah!
+<Aarune> Hmm. Now I could go ahead and make a Secret Base right here, but...
+<Aarune> I get the feeling that this layout could be even better for you, little kid!
+<Aarune> Guess I'm gonna leave this spot for you!
+
+#Sets up PC and decorations
+
+<Aarune> This will be your Secret Base from now on, little pal!
+<Aarune> It's yours now, so decorate it, destroy it, do whatever you want!
+<Aarune> Whatever floats your boat, right?
+<Aarune> Oh, right. Decorating!
+<Aarune> See, any Decorations you buy or find around the world you'll use here.
+<Aarune> Place 'em around and liven up your base a bit.
+<Aarune> Not that you probably have much, right? Here, I'll give you these to get ya started!
+
+@s received Decorations from Aarune!
+
+<Aarune> Oh, RIGHT! One last thing!
+<Aarune> You can do more than make your own Secret Base.
+<Aarune> You can visit other people's bases for a bit of fun.
+<Aarune> If you find a base that belongs to someone else, check it out.
+<Aarune> And here's the real point. When you check out someone's base, collect the flag you find next to the PC.
+<Aarune> Heh heh... Something good might come of it!
+<Aarune> Looks like it's about time for me to hit the road in search of my perfect base!
+<Aarune> Good-bye for now, but hopefully I'll see you again, @s.
+<Aarune> If you need me for anything, try dropping in at the Secret Base Guild in Fortree!
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 77 - Route 113
+#Rival
+https://youtu.be/MgkqxXCmrtI?t=25356
+
+<May> Hey!
+<May> Phew...
+<May> The road here was pretty long, huh? I got tired enough that I had to take a little break.
+<May> @s, your Pokémon look pretty tired themselves. Let me take care of them for a sec.
+pokeheal
+<May> ...There! That's all better.
+<May> I'm on my way to pay a visit to Professor Cozmo.
+<May> He's famous for his research on Meteorites.
+<May> He was working on a project with my dad—um, I mean, Professor Birch—on how Meteorites might affect Pokémon.
+<May> Enough dawdling! I think it's not much farther to Fallarbor.
+<May> Let's give it one last push!
+
+#tps out
+
+<Brendan> Hey!
+<Brendan> Phew...
+<Brendan> It took a long time to make it this far. Even I felt like I needed a little break.
+<Brendan> Looks like your team could use one, too, @s. Lemme patch them up for you.
+pokeheal
+<Brendan> I'm on my way to meet this Professor Cozmo fellow, right?
+<Brendan> He's super famous for his research on Meteorites.
+<Brendan> He even worked with my dad—I mean, with Professor Birch—on figuring out if Meteorites could have any effect on Pokémon.
+<Brendan> OK! Time to get moving again! I think Fallarbor's pretty close now.
+<Brendan> Let's both give it one last push!
+
+#tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 78 - Fallarbor Town
+#Introduction to Lanette
+#https://youtu.be/MgkqxXCmrtI?t=26069
+
+<...> Oh, hello. You are?
+<...> OK, you're @s. I can see that you're a Trainer.
+<...> So that means you use the Pokémon Storage System I developed.
+<...> How I arrived at that conclusion is a simple deductive process.
+<...> You spoke to me because you wanted to access something on this PC.
+<Lanette> Oh, I'm sorry. I'm Lanette.
+<Lanette> Honestly, I'm glad to meet you.
+<Lanette> It's great you're using the Storage System.
+<Lanette> If you could, please visit me at home. My house is on Route 114.
+
+#tps out
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 79
+#Rival in Fallarbor Town
+#https://youtu.be/MgkqxXCmrtI?t=26132
+
+<May> Arghhh, what a disaster!
+<May> Oh! @s! Help! You've got to come with me!
+
+
+<Brendan> @s! C'mere!
+<Brendan> Everything's a mess!
+
+#tps into observatory house
+
+<May> -you see...
+<May> Professor Cozmo...
+<May> He got abducted by some weird guys calling themselves Team Something or Other...
+
+
+
+<Brendan> It's ridiculous...
+<Brendan> Professor Cozmo...
+<Brendan> They say that he was just up and kidnapped by some nuts calling themselves Team Something or Other...
+
+<Cozmo's Wife> Those shady characters... They called themselves Team Magma.
+<Cozmo's Wife> Those shady characters... They called themselves Team Aqua.
+<Cozmo's Wife> It seems as though they plan to do something with the Meteorite that the professor has been researching.
+<Cozmo's Wife> The professor is just too gullible.
+<Cozmo's Wife> If you show the least bit of interest in his research, he would happily go with you anywhere, without question.
+
+
+<May> @s, please... You've got to help me save him!
+<May> They can't be planning to do anything good with Professor Cozmo's research.
+<May> We have to do something!
+<May> I...I'm going to head after them right away!
+<May> Let's meet up at Meteor Falls!
+
+<Brendan> @s... I know it's a lot to ask, but we've gotta help Cozmo!
+<Brendan> I can't just stand by here and watch them use his life's work for their own corrupt reasons!
+<Brendan> I'm going to head to Meteor Falls right away.
+<Brendan> Come catch up to me as soon as you can.
+
+#tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 80 - Meteor Falls Route 114 Side
+#Rival chasing team
+#https://youtu.be/MgkqxXCmrtI?t=27051
+
+#Cinematic shot?
+
+<May> You guys are— Where are you taking the professor?!
+<May> H-hey! Wait up!
+
+<Brendan> You guys are— Where are you taking the professor?!
+<Brendan> H-hey! Stop right there!
+
+#runs ahead
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 81 - Meteor Falls
+#Team Encounter
+#https://youtu.be/MgkqxXCmrtI?t=27516
+
+<May> Give it up, you bozos! Let the professor go!
+
+<Brendan> Hey! You jerks! Let Professor Cozmo go!
+
+<Team Magma Admin> Hyuh?
+<Team Magma Admin> What have we here? Why has this child suddenly appeared?
+
+<Team Aqua Admin> Hahn?
+<Team Aqua Admin> What's this? Who is this spoiled brat?
+
+<May> @s! You came!
+<May> We've got to save Professor Cozmo from these people!
+<May> There are two of them... And two of us... @s, please! Battle together with me!
+
+<Brendan> @s! You finally made it, huh!
+<Brendan> We've gotta protect the professor from these lunatics or else!
+<Brendan> There's two of them... And two of us, huh? Sorry to ask, @s, but... Battle alongside me!
+
+
+<Team Magma Admin> Ahyahyahya! Isn't this amusing?!
+<Team Magma Admin> Is it really your intention to oppose me, a Team Magma Admin, just the two of you?
+<Team Magma Admin> Mmm... Very well then! I'll show you how terrifying adults can be!
+<Team Magma Admin> Ahyahyahya! I'm going to give you some very thorough coaching!
+
+<Team Aqua Admin> Ah! So even I, Team Aqua Admin Shelly, have been made a fool.
+<Team Aqua Admin> ...Fine! Brats who don't know how to watch their mouths must be punished!
+<Team Aqua Admin> I won't forgive you if you cower in fear either! Wahahaha!
+
+
+#double poke battle
+
+#-----------------------------
+#Dialogue 82 - Meteor Falls
+#Team Encounter post-battle
+#https://youtu.be/MgkqxXCmrtI?t=27710
+
+<Team Magma Admin> Hyuhn?! An unexpected development?!
+
+<Team Aqua Admin> Ahhh?! Did I go too easy on you?!
+
+<May> We did it, @s!
+
+<Brendan> All right! We beat 'em!
+
+<Team Magma Admin> You children! I would like you to stay out of my way!
+<Team Magma Admin> Team Magma's scientific prowess, Mt. Chimney's energy...
+<Team Magma Admin> And the hidden power of the Meteorite!
+<Team Magma Admin> If we combine them all, a super-ancient Pokémon...
+
+<Team Aqua Admin> If the tremendous energy of Mt. Chimney and the Meteorite are combined, we of Team Aqua can take a giant step toward the world that we dream of!
+<Team Aqua Admin> We won't let ignorant little brats get in our way!
+
+<...> Bwahahahahahaha! You lost to this scamp?
+<...> What a pathetic bunch! You lazy stooges will be the downfall of Team Magma!
+
+<...> Hmph... Do these mere children give you so much trouble?
+<...> You—an Admin of Team Aqua...
+
+<May> Wh-who's there?!
+<Brendan> Who's that?!
+
+<Team Magma Admin> Hyahya! Even Team Aqua is making an appearance!
+<Team Magma Admin> The odds do not appear to be in my favor...
+
+<Team Aqua Admin> Hmph! Even Team Magma showed their faces, huh?
+<Team Aqua Admin> There's nothing to be done about it...
+
+<Team Magma Admin> You there! I'll have the Meteorite now!
+<Team Magma Grunt> Yes, sir!
+
+<Team Aqua Admin> Hey! Grab that Meteorite!
+<Team Aqua Grunt> Aye aye!
+
+<Professor Cosmo> Wha-wha-wha-what?!
+
+<Team Magma Grunt> Come now! Hand over the Meteorite!
+
+<Team Aqua Grunt> Come on! Hand over the Meteorite!
+
+<Professor Cosmo> Augh?!
+
+<May> Professor!
+<Brendan> Professor!
+
+<Team Aqua Admin> Ahyahya! The Meteorite is in the palm of my hand!
+<Team Aqua Admin> Well, well, well... Adios to each and every one of you!
+<Team Aqua Admin> At long last I'm off to Mt. Chimney!
+
+<Team Magma Admin> Ahahaha! Later days, brats and Team Magma!
+<Team Magma Admin> All right, time to rush to Mt. Chimney!
+
+
+#Main team tps out
+
+<...> Hmph...
+<...> Tch!
+
+<Team Aqua Grunt> Archie! We will go after those monsters!
+<Team Magma Grunt> Maxie... We must give chase to Team Aqua or else...
+
+<Archie> That's right! We're not letting them get away!
+<Maxie> Hmm...
+
+<Archie> Oh? What's this?
+<Archie> You've got quite a fierce expression on you for such a wee little thing.
+<Archie> The name's Archie. I'm the leader of Team Aqua, a group that's working to return the world to a pristine state.
+<Archie> One that'll be perfect for Pokémon's survival.
+<Archie> Looks like you were getting into it with Team Magma there, 'less my eyes deceive me.
+<Archie> It's not like I'm in a position to argue if that's what you're up to, hey?
+<Archie> But I'll tell you this much. So remember.
+<Archie> If you next get in the way of Team Aqua, you won't get off so lightly.
+<Archie> So steer clear and keep your nose clean, scamp!
+<Archie> I imagine I'll be seeing you! Waha! Bwahahahahah!
+
+<Maxie> ... My name is Maxie.
+<Maxie> I lead an organization known as Team Magma.
+<Maxie> We work for the future happiness of all mankind.
+<Maxie> From what I have seen here, it appears that you are working against our rivals in Team Aqua.
+<Maxie> ...Fine. Amuse yourself with those Team Aqua fools.
+<Maxie> But be careful you do not impede our goals.
+<Maxie> Be you child or grown, oppose us in the slightest, and I, the great Maxie, will show no mercy!
+
+#Secondary leader and grunts tp out
+
+<May> Oh bother! I have no idea what's going on anymore with all these people!
+<May> Never mind those nuts! Professor, you doing OK?!
+
+<Brendan> Oh man... What's with those lunatics?
+<Brendan> Forget those guys! Professor! Hey! Professor Cozmo! Hang in there, OK?
+
+<Professor Cosmo> B-but...they... I...only...
+
+<May> Looks like he's still pretty out of it...
+<May> @s...
+<May> Never mind what's happened! I've got to get the professor back to his lab in Fallarbor!
+<May> OK, Professor... Easy now...
+
+<Brendan> I think he's still pretty out of it...
+<Brendan> @s...
+<Brendan> Never mind what's happened! I've got to get the professor back to his lab in Fallarbor!
+<Brendan> OK, Professor... Easy now...
+
+#tps everyone to Cosmos's house
+
+<Cosmo's Wife> Ahhh! Professor! Thank the stars above! Professor, you're back!
+
+<Professor Cosmo> Hah...haha... Thanks to these children, I have somehow returned.
+
+<May> Those nuts back there... What do you think they're hoping to do with the professor's Meteorite?
+<May> From the look of them, they kind of seem like bad guys, but...
+<May> We've both got to be careful.
+<May> Though I'm not worried a bit if it's you and your team, @s!
+
+<Brendan> Those crazy jerks... What do you think they wanted with the professor's Meteorite anyway?
+<Brendan> I've gotta say, they sure didn't look like the good guys...but...
+<Brendan> I guess we'd both better be careful from here on out.
+<Brendan> Not that I'm really worried about you, @s. You and your team'd be fine for sure.
+
+<Professor Cosmo> But I need to thank you, as well. You truly saved me from disaster.
+<Professor Cosmo> I hope you'll take this TM as some small form of repayment.
+
+give @s smack down
+@s obtained TM23 Smack Down
+
+<May> Wow! Thanks, Professor!
+<May> We-e-ell... What're you gonna do next, @s?
+<May> I'm thinking of checking out the next Gym on my list.
+<May> It's the one in Mauville City.
+<May> Why don't you come with me, @s? To Mauville!
+[Yes]  [No]
+
+<Brendan> Thank you, Professor.
+<Brendan> Now that that's over with... What're you planning to do next, @s?
+<Brendan> I'm thinking of going for my next Gym Badge.
+<Brendan> The one from Mauville City.
+<Brendan> Wanna make the trip together, @s? To Mauville, that is.
+[Yes]  [No]
+
+
+#--------------------------------------------------------
+#Dialogue 83 - if player chooses to go with your rival
+<May> Let's hit the road!
+<Brendan> Let's go then.
+
+
+
+#tps rival and player to Mauville City
+#https://youtu.be/MgkqxXCmrtI?t=27924
+
+#Mauville City
+<May> All right, made it to Mauville City.
+<May> Up ahead here is Mt. Chimney, huh?
+<May> That's the place those nut jobs at Meteor Falls were talking about going to.
+<May> Be careful, @s. It might get dangerous around here.
+
+<Brendan> We've arrived in Mauville City!
+<Brendan> Up ahead here is Mt. Chimney, huh?
+<Brendan> That's the place those nut jobs at Meteor Falls were talking about going to.
+<Brendan> Be careful, @s. It might get dangerous around here.
+
+#tps out, could do it on a portal block execution since the rival stays in place
+
+#--------------------------------------------
+#Dialogue 84 - if player chooses to go alone
+
+<May> Ah, right. Well, I will see you there!
+<May> Mauville's right in the middle of Hoenn, so you can go to all sorts of places from there.
+<May> Even Mt. Chimney, the place those guys were talking about at Meteor Falls, is a pretty short trip from Mauville.
+<May> See ya!
+
+<Brendan> Oh. Right. Well, I will see you there!
+<Brendan> Mauville's right in the middle of Hoenn, so you can go to all sorts of places from there.
+<Brendan> Even Mt. Chimney, the place those guys were talking about at Meteor Falls, in fact.
+<Brendan> It's just a short trip from Mauville.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 85 - Mt. Chimney
+#Team Admin pre-battle
+#https://youtu.be/MgkqxXCmrtI?t=28387
+
+<Team Magma Admin> Hyahyahya?!
+<Team Magma Admin> It's you! You're the one who tried to interrupt me, Tabitha, at Meteor Falls!
+<Team Magma Tabitha> D-d-do you intend to get in my way once more? Unngh! You're really...
+<Team Magma Tabitha> really, really, really, really, really, really...
+<Team Magma Tabitha> really, really, really, really, really, really, really, really, really, really...
+<Team Magma Tabitha> reeeallllyyyyy...
+<Team Magma Tabitha> ...an obnoxious child, aren't you?!
+<Team Magma Tabitha> Ahh... Ahh...
+<Team Magma Tabitha> I will...crush you. So that you...never get in my way...again.
+
+#Aqua Reference
+#https://youtu.be/yGAMrV0H33w?t=313
+
+<Team Aqua Admin> What are you doing here?!
+<Team Aqua Admin> Did you follow us all the way here from Meteor Falls?!
+<Team Aqua Admin> Ha! Well hey, good job, kid.
+<Team Aqua Admin> OK. I admit it.
+<Team Aqua Admin> You are quite the Trainer. And...
+<Team Aqua Admin> To Archie... me...
+<Team Aqua Admin> and all of Team Aqua, your existence is annoying!
+<Team Aqua Admin> The world Archie dreams of would be a utopia for Pokémon.
+<Team Aqua Admin> I can't let you get in the way of someone who's pushing on toward a perfect world!
+<Team Aqua Admin> Prepare yourself!
+<Team Aqua Admin> This will finally be the time that I leave that cute face of yours swollen and crying!
+
+pokebattle
+
+#---------------------------
+#Dialogue 86 - Mt. Chimney
+#Team Admin Post-Battle
+#https://youtu.be/MgkqxXCmrtI?t=28537
+
+<Team Magma Tabitha> I knew you would be strong.
+<Team Magma Tabitha> What a shame, though!
+<Team Magma Tabitha> The Meteorite we got from Professor Whoever is already in our Boss's hands!
+<Team Magma Tabitha> Where's the Boss, you ask?
+<Team Magma Tabitha> Ah, yes, yes, right this way!
+<Team Magma Tabitha> Oh, I do hope that you can be shown Team Magma's true power!
+<Team Magma Tabitha> Ahya! Ahyahyahyahya!
+
+<Team Aqua Shelly> Uh. Are you telling me you've upped your game even more since last time?
+<Team Aqua Shelly> You're a brat with a bright future...
+<Team Aqua Shelly> My Pokémon and I don't have any strength left to fight...
+<Team Aqua Shelly> Go on... Go and be destroyed by Archie.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 87 - Mt. Chimney
+#Team Leader Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=28596
+
+<Maxie> The power contained in the Meteorite...
+<Maxie> If we merge the explosive energy contained within the planet's core with the Meteorite's power...
+<Maxie> I remember those eyes. And the indomitable will that seems to burn behind them.
+<Maxie> Ahhh. Now I recall. You are the one who defied us at Slateport's Oceanic Museum.
+<Maxie> And, your presence here tells me that you have defeated Tabitha.
+<Maxie> Yes, I see now that the stirring of interest I felt was not misplaced.
+<Maxie> Hmph. You show true promise. Fine. I will attempt to educate you.
+<Maxie> Thousands of years ago, there lived a most powerful being that was said to be capable of creating new lands on the planet.
+<Maxie> The power which we in Team Magma seek—
+<Maxie> This power, which can expand the available landmass, belongs to a legendary and super- ancient Pokémon.
+<Maxie> Though now it slumbers, having lost the source of its power and been trapped in a deep sleep.
+<Maxie> So what is it that we must do to awaken this slumbering giant?
+<Maxie> Our research has led us here, to Mt. Chimney.
+<Maxie> Yes, here...to this very Meteorite.
+<Maxie> If we create the right conditions, we should find ourselves able to alter this Meteorite's qualities.
+<Maxie> Yes, even into a Mega Stone.
+<Maxie> Even into a Key Stone.
+<Maxie> And here, at Mt. Chimney—
+<Maxie> Hmph... I should not say too much. That is the end of today's lesson.
+<Maxie> Now then. I believe it is time we begin.
+<Maxie> The time for the purge has come.
+<Maxie> I do believe that I made myself quite clear when we were last in Slateport.
+<Maxie> I warned you that any fool standing in our way would be met without mercy!
+<Maxie> I will bury you by my own hand.
+<Maxie> I hope you appreciate this honor!
+
+
+#Aqua Reference
+#https://youtu.be/yGAMrV0H33w?t=502
+
+<Archie> The great swell of power that sleeps deep in the magma...
+<Archie> And it's the key to controlling the super-ancient Pokémon's power?
+<Archie> Ah! You...
+<Archie> Uh... No... Oh!
+<Archie> Now I know how I know you! You're the little scamp that got in our way in Slateport's museum!
+<Archie> If you made it here to me, you musta swept right past Shelly, huh?
+<Archie> Heh...heheheh... Krmph! Bwahahahahaha!
+<Archie> I figured you were a big deal the first time I laid eyes on you, but...whoa!
+<Archie> Heheh. Well, since you are the real deal, I s'pose I could let you in on just what's going on.
+<Archie> See, this Meteorite that I just got from good old Professor High-an'-Mighty back there...
+<Archie> With the right bit of work, it seems we could turn it into a real nice, valuable bit.
+<Archie> Like maybe a Mega Stone.
+<Archie> Or maybe...even a Key Stone.
+<Archie> And as long as we're here at Mt. Chimney...
+<Archie> Hyup! Bwahahahahah! Look what I nearly went an' did!
+<Archie> If I give away all my secrets, all the thrill'd be gone from our relationship!
+<Archie> I think I'll just leave you hanging here.
+<Archie> Well... It's not the details that matter any old how.
+<Archie> We've got a thing we gotta do, ya see.
+<Archie> From our point of view, scamp, you're a dirty villain who's gotten in our way one time too many.
+<Archie> I'm still leader of Team Aqua, so I'm afraid it's the rope's end for you and your Pokémon.
+<Archie> Now come!
+
+#--------------------------
+#Dialogue 88 - Mt. Chimney
+#Team Leader Post-Battle
+#https://youtu.be/MgkqxXCmrtI?t=28853
+
+<Maxie> Oh? So you repulsed the great Maxie in battle.
+<Maxie> Haha... You never fail to entertain me!
+<Maxie> An excellent start! This time, permit me to unleash my full strength!
+<Maxie> Once you've tasted my Pokémon's Mega Evolved power, you will say good-bye to your last shred of hope!
+#summon exclamation
+<Maxie> Hm?
+<Maxie> Yes, it's me.
+<Maxie> ... Oh?
+<Maxie> Then it is Mt. Pyre.
+<Maxie> I understand. I will come at once.
+<Maxie> I am sorry to cut our battle short, but I'm afraid I must excuse myself.
+<Maxie> Such rudeness demands reparation. Take this Meteorite with my apologies.
+<Maxie> You may do with it what you like.
+
+@s obtained the Meteorite!
+give @s meteorite
+
+<Maxie> And I will not again forget the face of the Trainer who managed to thwart me in battle!
+
+#tp Maxie out
+
+#Aqua Reference
+#https://youtu.be/yGAMrV0H33w?t=946
+
+<Archie> Heheheh.
+<Archie> Ya little scamp! I knew you were the real deal!
+<Archie> Brilliant!
+<Archie> Then my team won't hold back this time! Mega Evolution, how I've missed you!
+<Archie> It's been ages since we got to let loose!
+
+#summon exclamation
+
+<Archie> Tch.
+<Archie> Scamp, I'm gonna have to ask you to hold that thought.
+<Archie> I've gotta use my time-out.
+<Archie> Huh? That you, Matt? You have the worst timing—
+<Archie> What?
+<Archie> Hoh!
+<Archie> So Mt. Pyre's the real— Got it.
+<Archie> Guess that orb's not just some fairy tale after all!
+<Archie> All right! I'm on my way!
+<Archie> Sorry, scamp. When you're a grown-up, y'see, sometimes things crop up.
+<Archie> Gotta put our battle on hold till next time. Take this.
+<Archie> Should help keep ya busy till we settle the score. Have fun with it, hey?
+
+@s obtained the Meteorite!
+give @s meteorite
+
+<Archie> Let's meet again somewhere. I'll be sure to remember that face.
+
+#tps out
+
+
+#Rival team walks up
+#https://youtu.be/MgkqxXCmrtI?t=28912
+
+<Archie> Huh? If it ain't that little scamp!
+<Archie> But blast that Maxie! He just escaped us!
+<Archie> And he just left behind the Meteorite that he's been crazy about finding?
+<Archie> Can't be—!
+<Archie> Could he have found out where the real orbs are hidden?!
+<Archie> That sneaky little scientific so-and-so!
+<Archie> I'm always left watching his bony backside run two steps ahead of me!
+
+#Tps out
+
+#https://youtu.be/yGAMrV0H33w?t=1021
+
+<Maxie> I've seen you before, child.
+<Maxie> It seems you are not to be trifled with, if you repelled Archie in battle.
+<Maxie> What is that fool up to now?
+<Maxie> He abandoned the Meteorite that he sought so persistently?
+<Maxie> No!
+<Maxie> Could it be possible that he has confirmed the existence of the orbs at last?
+<Maxie> Ngh! Again, I find myself outmaneuvered.
+<Maxie> What a terrible miscalculation!
+
+#Tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 89 - Lavaridge Gym
+#Flannery Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=30401
+
+<Flannery> Welcome!
+<Flannery> No, wait.
+<Flannery> I mean... Puny Trainer, you've done well to make it this far!
+<Flannery> Let's see. I'm, uh, honored to be serving as the Gym Leader of...
+<Flannery> No, I mean...
+<Flannery> I'm Flannery, and I'm in charge here!
+<Flannery> Uh... You'd better not underestimate me just 'cause I've only been Leader a short time!
+<Flannery> With the skills inherited from my grandfather, I'm gonna, uh, demonstrate the hot moves we've honed in this land!
+<Flannery> Haiyaaaaaaaaaaaaa!
+
+#----------------------------
+#Dialogue 90 - Lavaridge Gym
+#Flannery Post-Battle
+#https://youtu.be/MgkqxXCmrtI?t=30632
+
+<Flannery> I...I've only recently become a Gym Leader.
+<Flannery> I guess I was trying too hard to be someone I'm not.
+<Flannery> When I don't act like myself, no wonder Pokémon that battle at my side get confused.
+<Flannery> Thank you for teaching me that. You deserve this.
+
+@s received the Heat Badge from Flannery.
+
+<Flannery> If you have a Heat Badge, it lets Pokémon use the HM move Strength outside of battle.
+<Flannery> This is a token of my appreciation. Don't be shy about taking it!
+
+@s obtained TM50 Overheat!
+give @s
+
+<Flannery> Overheat is a Fire-type move that inflicts serious damage on the target.
+<Flannery> But it also sharply cuts the Sp. Atk of the Pokémon using it.
+<Flannery> It might not be suitable for longer battles.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 91 - Lavaridge Town
+#Upon leaving
+
+#tp Rival in
+
+<May> @s! Wow, it's a relief to see you in one piece!
+<May> Oh, well, you know...
+<May> The last time I saw you was right after battling those Team Whatsit people...
+<May> So I was a bit worried, thinking about what might have happened to you after that, @s...
+<May> ...What? You battled them AGAIN after that?
+<May> And you BEAT them! You really are something else, @s.
+<May> I-I mean, you and your team are. I'm pretty impressed by you all!
+<May> And that pretty stone that's sparkling there...
+<May> Is that the Meteorite you got back from them?
+<May> Oh, that's right! Here! Here!
+<May> I've been thinking of giving these to you.
+
+@s obtained the Go-Goggles!
+
+<May> If you put on those Go-Goggles, you'll be all set heading into the desert on Route 111.
+<May> ...Oh! And isn't that— That's Lavaridge's Gym Badge!
+<May> So you beat Flannery, too?
+<May> I guess you really are training your Pokémon right...
+<May> Next up will be challenging your dad, Norman, in Petalburg, right?
+<May> I'm headed to Petalburg's Gym next myself...
+<May> Do you want to go back together? Back to Petalburg?
+[Yes]  [No]
+
+
+#tp Rival in
+
+<Brendan> @s, hey! So you were all right, huh?
+<Brendan> Oh, well, you know...
+<Brendan> The last time I saw you, you were mixed up with those “Team Whatsit” people...
+<Brendan> So I just wondered if you'd gotten back on the road after that.
+<Brendan> It was, like, I don't know...
+<Brendan> I guess I was a bit...worried?
+<Brendan> What? You battled them AGAIN after that?
+<Brendan> And you even managed to beat them?
+<Brendan> You really are something else, @s...
+<Brendan> You and your Pokémon. Your team.
+<Brendan> And that...that sparkle there... Is that the Meteorite you got back from them?
+<Brendan> ...Oh, right! I forgot to give you these before.
+
+@s obtained the Go-Goggles!
+
+<Brendan> Keep those with you if you're planning on going into that desert near Route 111.
+<Brendan> There should be some Pokémon that only make their habitat in the desert, you know.
+<Brendan> You might check 'em out—if you're up to it.
+<Brendan> And... Huh? You got the Lavaridge Badge!
+<Brendan> So you even beat Flannery, huh? Looks like you've been taking proper care of your Pokémon.
+<Brendan> Guess that means...that you'll be headed to Petalburg City next, huh?
+<Brendan> To challenge your dad at his Gym?
+<Brendan> W-well, if you are... I just happened to be thinking of going to Petalburg myself, so...
+<Brendan> How about it? Wanna go back to Petalburg together?
+[Yes]  [No]
+
+#---------------------------
+#Dialogue 92 - Lavaridge Town
+#If player Declines
+
+<May> Oh, yeah? Well, I'll still be here in Lavaridge for a while. But I'll catch up with you later!
+
+<Brendan> O-oh... Yeah, I get it...
+But, well, I'll probably still be here in Lavaridge for a while. But I'll catch up with you later!
+
+#tp out
+
+
+
+#--------------------------------
+#Dialogue 93 - Lavaridge Town
+#If player Decides to fast travel
+#https://youtu.be/MgkqxXCmrtI?t=30799
+
+<May> Aye aye! Then let's hit the road!
+
+<Brendan> Y-yeah? Then let's hit it!
+
+#tps npc out
+
+#tps to Petalburg
+
+<May> Well, we made it! The Petalburg City Gym!
+<May> Good luck with taking on the Gym Leader, @s.
+<May> I'm cheering for you!
+<May> Later!
+
+#tps off
+
+<Brendan> So we're here. Petalburg City.
+<Brendan> @s, you do your best with the Gym.
+<Brendan> I'm behind you all the way.
+<Brendan> See ya!
+
+#tps off
+
+#------------------------------
+#Dialogue 94 - Petalburg Gym
+#Norman Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=31145
+
+<Dad> Hm... So you did get four Gym Badges.
+<Dad> Then, as I promised, we will have a Pokémon battle.
+<Dad> @s...
+<Dad> It makes me happier than I can really describe.
+<Dad> Being able to have a real battle with my own kid like this.
+<Dad> But a battle is a battle!
+<Dad> I will do everything within my power as a Gym Leader to win!
+<Dad> You'd better give it your best shot, too, @s!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 95 - Petalburg Gym
+#Normal Post-Battle
+
+<Dad> I can't believe it.
+<Dad> I lost to @s?
+<Dad> ... ...
+<Dad> You've come this far...
+<Dad> That's how it is, then! I will give you this.
+
+@s received the Balance Badge from their dad!
+
+<Dad> Having that Badge will ensure that Pokémon that know the HM move Surf will be able to travel over water now.
+<Dad> And this is my gift to you, @s.
+<Dad> I'm sure you'll be able to use it well.
+
+@s obtained TM67 Retaliate
+
+<Dad> Retaliate will allow you to take revenge for a fallen team member.
+<Dad> Its power will be doubled if you have a Pokémon use it in the very next move right after an ally faints.
+<Dad> I hope you and your Pokémon will be diligent enough to use it wisely.
+<Dad> ...
+<Dad> Sigh.
+<Dad> As the Gym Leader, I can't express how frustrated I am.
+<Dad> But, as a father, it makes me both happy and a little sad. It's odd.
+<Dad> ... Come on, @s.
+<Dad> I'll see you on your way. Let's get out of here.
+
+#-----------------------------
+#Dialogue 96 - Activate on player leaving
+#https://youtu.be/MgkqxXCmrtI?t=31561
+#Tps player to exterior
+
+#tps Norman NPC in
+
+<Wally> Ah! @s!
+<Wally> Mr. Norman!
+<Wally> I haven't seen the two of you in some time.
+<Wally> What a coincidence! I just came back to my parents' house to grab something I'd forgotten.
+
+<Dad> You look like you've been working hard, Wally.
+<Dad> It's clear even without a battle.
+
+<Wally> R-really? You really think so?
+<Wally> Hehe... Thank you! That's so nice of you to say!
+
+<Wally's Dad> As you can see, Wally's health has thoroughly improved.
+<Wally's Dad> It's all thanks to you and your father.
+<Wally's Dad> You two helped Wally catch his first Pokémon that day.
+<Wally's Dad> It's because of you that he has a partner of his own now.
+<Wally's Dad> That partner is why he's grown so strong. That's my firm belief. So, I thank you.
+#Summons exclamation
+<Wally's Dad> Yes, that's it. Sometimes words aren't enough.
+<Wally's Dad> It would delight me if you'd take this.
+
+give @s HM03 Surf
+@s obtained HM03 Surf!
+
+<Wally's Dad> If you're cleared to use Surf outside of battle, you'll be able to cross seas with your Pokémon.
+
+<Dad> @s...
+<Dad> Considering how much you and Wally have grown, you should be able to handle what lies beyond the sea on Route 118 now.
+<Dad> There are far stronger Pokémon and Trainers waiting for you on Hoenn's east coast.
+<Dad> Continue your journey and your adventures there. I know you'll do your best!
+
+<Wally> Yes, sir!
+<Wally> I will do my best to become as strong as @s, sir!
+<Wally> I guess I had better start out, then.
+<Wally> I'm off for now, Dad! See you next time!
+<Wally> Um. Come on, @s! Let's go together!
+
+<Dad> Wally...
+<Dad> I look forward to seeing you and your Pokémon grow stronger together.
+<Dad> @s? Well, take care of yourself out there.
+<Dad> Don't forget to drop by Littleroot to visit your mother from time to time!
+
+<Wally> OK! We're off!
+
+<Wally's Dad> Be safe out there!
+
+<Dad> Learn a lot!
+
+#Wally and player tp out
+
+#Cutscene top-down perspective
+
+<Wally's Dad> ...
+
+<Dad> ...
+
+<Wally's Dad> I don't know what it is, but...
+
+<Dad> ...Hm?
+
+<Wally's Dad> Seeing my little boy all grown up and going off on his own...
+<Wally's Dad> As a father, it makes me happy and a little sad...
+
+<Dad> Hahahah! What a coincidence!
+<Dad> I caught myself thinking the same thing.
+
+<Wally's Dad> Hohoho! Is that so?
+<Wally's Dad> ... But if only...
+<Wally's Dad> If only my boy keeps growing strong and healthy like that...
+<Wally's Dad> I wouldn't ask for anything else.
+
+<Dad> Yes. I know exactly what you mean.
+
+#Blinds player
+#https://youtu.be/MgkqxXCmrtI?t=31679
+
+#Player is back with Wally
+
+<Wally> Mr. Norman told us to keep going beyond Route 118, didn't he...
+<Wally> Let me check my AreaNav...
+<Wally> Route 118 is the one east of Mauville City, huh?
+<Wally> @s! Since we're both here anyway, let's go to Mauville together!
+<Wally> I'm definitely planning on going to check out Route 118 like your dad said!
+
+#tps player and Wally to Eastern side of Mauville Interior
+
+<Wally> Phew...
+<Wally> It's actually pretty far, isn't it? All the way here to Mauville...
+<Wally> So that must be Route 118 ahead...
+<Wally> I wonder what kind of Pokémon I'll meet there. I can't wait to find out!
+<Wally> I'll see you later, @s!
+<Wally> I'm going straight to Route 118!
+<Wally> Let's definitely have a battle next time we meet! It's a promise, OK?
+<Wally> And you can't break a promise!
+
+#Wally tps out
+
+#-----------------------------------------------------------------------------------------------------
+##Dialogue 97 - Route 118
+#Steven Stone Encounter
+#https://youtu.be/MgkqxXCmrtI?t=32410
+
+#Summon exclamation
+
+<Steven> Why, hello.
+<Steven> We met in Granite Cave, didn't we?
+<Steven> No, I remember it. It's @s... Right?
+<Steven> It's good to see that your journey is going well.
+<Steven> You know, @s...
+<Steven> In this vast world, there are many kinds of Pokémon.
+<Steven> They come in many types.
+<Steven> Should you raise different types?
+<Steven> Or will you only raise Pokémon of a certain type you like?
+<Steven> I wonder what you think, as a Pokémon Trainer?
+<Steven> Not that it's anything I should be concerning myself with...
+<Steven> But somehow I find myself wanting to know what you think.
+<Steven> I suppose I should be going. I hope to see you again though.
+
+<Steven> ...Hm?
+
+#Summons legendary statue over water
+
+Hyahhn!
+<Steven> Latias!
+<Latias> Hyaahh!
+
+Shwahhn!
+<Steven> Latios!
+<Latios> Shwaahh!
+
+<Steven> Do you...want us to soar somewhere with you?
+<Steven> @s.
+<Steven> Come with me.
+
+<Steven> Latias... I believe that it sought us out for help.
+<Steven> Latios... I believe that it sought us out for help.
+<Steven> If that's the case, let's go!
+
+#Blinds player
+
+#Shot of soaring Hoenn Map?
+
+#Teleports to Southern Island
+
+<Steven> We've arrived.
+<Steven> Thank you, Latias.
+<Steven> Thank you, Latios.
+<Steven> ...
+<Steven> I don't know what it is...
+<Steven> Not quite unease, not quite fear...
+<Steven> But there is something...unsettling...
+<Steven> It is an odd feeling, as though I am walking in a dream— or an illusion.
+<Steven> I once heard an odd fable.
+<Steven> It was said that the two Pokémon that live on this island guard some secret about that great form of Evolution: Mega Evolution.
+<Steven> Could it be that some dangerous element is here because of that?
+<Steven> ...
+<Steven> Come, we should be going.
+
+#---------------------------------
+#Dialogue 98 - Southern Island
+#a message
+#https://youtu.be/MgkqxXCmrtI?t=32555
+
+(Th— wh— mem—de se— to carv— th—rts...)
+
+(Those whose memories fade seek to carve them in their hearts...)
+
+
+#---------------------------------
+#Dialogue 99 - Southern Island
+#Finding the opposite Lati
+#https://youtu.be/MgkqxXCmrtI?t=32571
+
+
+#teleports Steven in
+<Steven> Latios...
+<Steven> It's beautiful...
+<Steven> If I were to describe such beauty in terms of a stone, it would be a Water Stone.
+<Steven> No... It goes beyond that...
+<Steven> Isn't its brilliance like that of a Dawn Stone?
+<Steven> It is as fantastic as a Steel-type Pokémon...
+
+
+
+<Steven> Latias...
+<Steven> It's beautiful...
+<Steven> If I were to describe such beauty in terms of a stone, it would be a Sun Stone.
+<Steven> No... It goes beyond that...
+<Steven> Isn't its brilliance like that of a Dawn Stone?
+<Steven> It is as fantastic as a Steel-type Pokémon...
+
+#Lati Cry
+
+#Teleports Team Grunts In
+
+<Steven> Hm?
+
+<Steven> Team Magma, is it?
+<Steven> So Latios noticed their coming, and that is why it called on us.
+
+<Team Magma Admin> ...
+<Team Magma Admin> Who are you?
+
+<Team Magma Grunt> Hah?!
+<Team Magma Grunt> M-Mistress Courtney!
+<Team Magma Grunt> That pipsqueak over there is the kid that I heard keeps getting in our way!
+<Team Magma Grunt> But that enviably unruffled-looking fellow there with him...
+<Team Magma Grunt> Hm. I feel like I ought to know him from somewhere...
+<Team Magma Grunt> Maybe he's a contest star?
+
+<Team Magma Courtney> Yes.
+<Team Magma Courtney> For the time being...get away from me.
+<Team Magma Courtney> The Pokémon behind you...
+<Team Magma Courtney> Its Mega Stone... No more...no less.
+<Team Magma Courtney> That is what... That's what we of Team Magma seek.
+<Team Magma Courtney> How about it? Will you get away from me... or not?
+
+
+<Steven> Team Aqua, is it?
+<Steven> So Latias noticed their coming, and that is why it called on us.
+
+<Team Aqua Admin> Huhn?! What's this?! You?!
+
+<Team Aqua Grunt> Huh?!
+<Team Aqua Grunt> Mr. Matt, sir!
+<Team Aqua Grunt> That pipsqueak over there is the kid that I heard keeps getting in our way!
+<Team Aqua Grunt> B-but that rather alluring gentleman with them...
+<Team Aqua Grunt> Oh, I feel like I should know him from somewhere...
+<Team Aqua Grunt> Maybe he's a contest star?
+
+<Team Aqua Admin> Oh ho! I have no time to worry about that!
+<Team Aqua Matt> The name's Matt! That's Team Aqua Admin Matt to you!
+<Team Aqua Matt> What I want from you is that Latias behind you there.
+<Team Aqua Matt> But that Mega Stone...
+<Team Aqua Matt> We of Team Aqua are definitely gonna need the transcendent power of Mega Evolution to achieve our ambitions.
+<Team Aqua Matt> How 'bout it? If you get out of our way, we won't rough you up.
+
+
+
+<Steven> I'll take part in this battle as well.
+
+<Steven> Let's protect Latios from these beasts together.
+<Steven> We cannot allow Latios or even a Mega Stone to fall into the hands of such villains!
+
+<Steven> Let's protect Latias from these beasts together.
+<Steven> We cannot allow Latias or even a Mega Stone to fall into the hands of such villains!
+
+<Team Magma Courtney> ... Well then...
+<Team Magma Courtney> Deleting...
+
+<Team Aqua Matt>
+<Team Aqua Matt>
+
+
+#---------------------------------
+#Dialogue 100 - Southern Island
+#Team Post-Battle
+
+<Team Magma Grunt> Puyah?!
+<Team Magma Courtney> As anticipated.
+<Team Magma Courtney> Unanticipated.
+<Team Magma Courtney> You. Target lock...completed.
+<Team Magma Courtney> Commencing...experiment. You. Forever. Aha... ♪
+<Team Magma Courtney> Returning home.
+
+#tps Courtney out
+
+<Team Magma Grunt> W-wait for me! Courtne-e-e-y!
+
+#tp Grunt out
+
+<Steven> Hah...
+<Steven> Good work, @s.
+<Steven> Ah, that's right.
+<Steven> We should first heal up the Pokémon that fought on our behalf, shouldn't we?
+
+Your team's health was restored!
+
+<Steven> You performed spectacularly.
+<Steven> We were able to protect both this wondrous Pokémon and its Mega Stone, thanks to you.
+
+#Lati Cry
+
+<Steven> And it looks as though Latios may have also recognized you as a Trainer worthy of its trust.
+<Steven> And it looks as though Latias may have also recognized you as a Trainer worthy of its trust.
+<Steven> Look. It's trying to offer you its allegiance.
+<Steven> I believe it is trying to show that it wants to go with you on your journey.
+<Steven> Go on. Hold out your hand to it.
+
+Latios joined your team!
+Latias joined your team!
+
+#Vanish Lati statue
+
+Latios is carrying a piece of Latiosite!
+Latias is carrying a piece of Latiasite!
+
+<Steven> You should take this from me...
+
+@s obtained the Mega Braclet!
+
+<Steven> With the Mega Bracelet that I just gave you and the Mega Stones that a Pokémon may hold,
+<Steven> your Pokémon will be able to achieve a powerful boost, quite unlike any usual form of Evolution...
+<Steven> but only if you are bound by great affection.
+<Steven> You will be able to achieve Mega Evolution.
+
+<Steven> I suggest you try it with Latios the next time that you happen to have the chance in battle.
+<Steven> I suggest you try it with Latias the next time that you happen to have the chance in battle.
+
+<Steven> Mega Evolution is a phenomenon that has long been shrouded in mystery.
+<Steven> What is a Mega Stone? What is a Key Stone?
+<Steven> The process by which bonds between Pokémon and people manifest in tangible power...
+<Steven> How do we explain that?
+<Steven> I hope that the Mega Bracelet I just gave you might bring us one step closer to finding the answer to these questions.
+<Steven> If that settles that... Should we be heading back?
+
+<Steven> Together with Latias, waiting so patiently for us there...
+<Steven> Together with Latios, waiting so patiently for us there...
+
+#Cutscene shots?
+
+#blinds player
+
+#Teleports back to Route 118
+
+<Steven> Thank you for your help, @s.
+
+<Latias> Hyan!
+<Latios> Shwan!
+
+<Steven> Perhaps it's trying to tell you to take good care of Latios.
+<Steven> Perhaps it's trying to tell you to take good care of Latias.
+
+<Latias> Hyaahhn!
+<Latios> Shwaahhn!
+
+#flies away
+
+<Steven> In the end, you were a far greater help than I expected you might be.
+<Steven> I expect that you and your team will be able to best both Route 119 ahead and even the Fortree Gym beyond that.
+<Steven> I'll be curious to see how much stronger you might grow by the next time we meet.
+<Steven> Until then, @s.
+
+#tp Steven out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 101 - Route 123
+#Berry Master's House if Shaymin is in the room
+#https://youtu.be/MgkqxXCmrtI?t=33690
+Golly! You have a Shaymin!
+Speaking of Shaymin, do you have a Gracidea?
+I have many Gracidea right now, so I'll give you one.
+
+give @s Gracidea
+
+In the Sinnoh region, there's an old custom that they give a bouquet of Gracidea to convey gratitude.
+In other words, if you give Gracidea, you can express your feeling even without saying it.
+For a shy person like me, there's nothing more useful than this.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 102
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Invese Battle Stop
+#https://youtu.be/MgkqxXCmrtI?t=18548
+
+#Winstrate Family Battles
+https://youtu.be/MgkqxXCmrtI?t=22748
 
 
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=16057
-
+https://youtu.be/MgkqxXCmrtI?t=35922
 
 
 
