@@ -3170,7 +3170,1210 @@ In other words, if you give Gracidea, you can express your feeling even without 
 For a shy person like me, there's nothing more useful than this.
 
 #-----------------------------------------------------------------------------------------------------
-#Dialogue 102
+#Dialogue 102 - Weather Institute
+#Overhearing Team Admin
+#https://youtu.be/MgkqxXCmrtI?t=35989
+
+#tp to overhead shot
+
+<Team Magma Tabitha> Just...what...
+<Team Magma Tabitha> is this...
+<Team Magma Tabitha> D-d-did Leader Maxie know that it would happen like this?!
+<Scientist> Curse you! The precious results of my research! GIVE THEM BACK!!!
+<Team Magma Tabitha> Oh, shut it!
+<Scientist> Augh?!
+<...> Steady on! Are you all right?!
+<Team Magma Tabitha> Just what is going on around here?!
+<Team Magma Tabitha> Ahyahya! Even I, Tabitha, am feeling all discombobulated.
+<Team Magma Tabitha> Leader Maxie!
+<Team Magma Tabitha> What are you trying to do?!
+<Team Magma Tabitha> ...To the world. ...To us.
+<Team Magma Tabitha> ...To Team Magma.
+<Team Magma Tabitha> This can never, ever be forgiven!
+
+
+
+<Team Aqua Shelly> Could it be?
+<Team Aqua Shelly> Is this the world... Archie hoped to create...
+<Scientist> Curse you! The precious results of my research! GIVE THEM BACK!!!
+<Team Aqua Shelly> Shut your mouth!
+<Scientist> Augh?!
+<...> Steady on! Are you all right?!
+<Team Aqua Shelly> Fine, I'll give it back.
+<Team Aqua Shelly> I'll give it back, all right?
+<Team Aqua Shelly> The awakening of the super-ancient Pokémon will bring about extreme weather.
+<Team Aqua Shelly> If this happened all over the world, what would become of Pokémon, not to mention people?
+
+#tps player back to stairs
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 103 - Weather Institute
+#Pre-Battle with Admin
+#https://youtu.be/MgkqxXCmrtI?t=36165
+
+<Team Magma Tabitha> Ahya. Are you one of my fans?
+<Team Magma Tabitha> You're that same kid who's always popping up!
+<Team Magma Tabitha> I can't believe you're even following me around in my private life.
+<Team Magma Tabitha> Ahyahya! Well, that's all right!
+<Team Magma Tabitha> Maybe I'll just clear up this intensely unpleasant feeling I have welling up inside of me...
+<Team Magma Tabitha> By beating you to a pulp!
+
+
+<Team Aqua Shelly> Oh my! I even run into you when I'm not on the clock!
+<Team Aqua Shelly> I wonder why that is...
+<Team Aqua Shelly> Maybe we're destined to be together... Ahaha!
+<Team Aqua Shelly> Wanna know something?
+<Team Aqua Shelly> I'm feeling so empty and downhearted right now.
+<Team Aqua Shelly> I can't get my head straight.
+<Team Aqua Shelly> Umm? Help me take my mind off it.
+<Team Aqua Shelly> The way you and your Pokémon battle so straightforwardly and sincerely with such hope, it makes me so mad!
+
+
+#---------------------------------
+#Dialogue 104 - Weather Institute
+#Pre-Battle with Admin
+
+<Team Magma Tabitha> Hah... Hah... Ahya... Ahya...
+<Team Magma Tabitha> Good grief... Today has been absolutely nothing but stress! I can't take it... It's so unpleasant!
+<Team Magma Tabitha> You better listen, you stress-inducing child.
+<Team Magma Tabitha> When Leader Maxie's plan has been executed, twilight will fall upon the world.
+<Team Magma Tabitha> The Primordial Sea will be changed to Desolate Land.
+<Team Magma Tabitha> In other words, all life... Child!
+<Team Magma Tabitha> What do you think you can do in the face of that which is to come?
+<Team Magma Tabitha> I'm looking forward to seeing you rush into action!
+<Team Magma Tabitha> Ahya! Ahyahyahyahya!
+<Team Magma Tabitha> The Leader should be headed for Mt. Pyre... Which means I...
+#tp out
+
+<Team Aqua Shelly> ...
+<Team Aqua Shelly> Hmmph. I feel a bit more relaxed... Thanks.
+<Team Aqua Shelly> As a token of my gratitude, I'll tell you one thing.
+<Team Aqua Shelly> When Team Aqua's...
+<Team Aqua Shelly> No, when the illustrious Archie's ambitions have been realized, the world will truly return to its beginnings,
+<Team Aqua Shelly> to before the birth of anything at all...
+<Team Aqua Shelly> Think for yourself about what to do when you're up against that reality.
+<Team Aqua Shelly> I still haven't figured out for myself what's wrong and what's right...
+<Team Aqua Shelly> See ya. I'm sure I'll run into you again, though.
+<Team Aqua Shelly> Archie is probably on the way to Mt. Pyre... So I...
+#tp out
+
+<Institute Professor> Thank you, young one. You helped save us from quite a pinch!
+<...> You OK there, mate?
+
+<Scientist> Hah... Hah... That truly was a slap in the face...
+
+<Institute Professor> Those thieves...
+<Institute Professor> What could they hope to gain by investigating the extreme weather patterns of thousands of years ago?
+<Institute Professor> Oh, but I am forgetting myself!
+<Institute Professor> First I must thank you properly for your help.
+<Institute Professor> It might seem an odd way of rewarding you, but please take this Pokémon as my thanks.
+
+@s received Castform!
+
+<Institute Professor> Castform is a Pokémon that changes its form according to the current weather conditions.
+<Institute Professor> We have many of them living here in the Institute with us.
+<Institute Professor> They help us with our research of weather phenomena.
+<Institute Professor> But as for the data those ruffians were seeking...
+<Institute Professor> They wanted to know about the extreme weather conditions that ruled thousands of years ago because of those two super-ancient Pokémon.
+
+#Ruby line
+<Institute Professor> One of that pair was the Legendary Pokémon we know as mighty Groudon...
+<Institute Professor> By absorbing the energy that abounds in the natural world, Groudon transformed itself—or so it is said.
+<Institute Professor> The transformed Groudon caused so much disturbance to the weather patterns that the world grew barren.
+<Institute Professor> The heat it created dried up the oceans, and the parched land covered more and more of the planet.
+<Institute Professor> We refer to this transformation as Primal Reversion...
+<Institute Professor> The result of it is the terror we call Primal Groudon.
+<Institute Professor> Primal Reversion is a possible form of Evolution, like and yet not like Mega Evolution...
+<Institute Professor> Or so it has been theorized.
+<Institute Professor> But it has never been achieved by any Pokémon other than the super-ancient Legendary Pokémon,
+<Institute Professor> and so it has been largely forgotten as a method of Evolution.
+
+#Sapphire line
+<Institute Professor> One of that pair was the Legendary Pokémon we know as mighty Kyogre...
+<Institute Professor> By absorbing the energy that abounds in the natural world, Kyogre transformed itself—or so it is said.
+<Institute Professor> The transformed Kyogre caused so much disturbance to the weather patterns that the world was assaulted by torrential rains,
+<Institute Professor> and the seas rose around the planet.
+<Institute Professor> We refer to this transformation as Primal Reversion...
+<Institute Professor> Its result is the terror we call Primal Kyogre.
+<Institute Professor> Primal Reversion is a possible form of Evolution, like and yet not like Mega Evolution...
+<Institute Professor> Or so it has been theorized.
+<Institute Professor> But it has never been achieved by any Pokémon other than the super-ancient Legendary Pokémon,
+<Institute Professor> and so it has been largely forgotten as a method of Evolution.
+
+<Scientist> If you'll excuse us then...
+<Scientist> We'll be heading downstairs now, but talk to us when you have a moment.
+<Scientist> We want to thank you as well.
+
+#tps scientist and other person out
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 105 - Route 119
+#Rival Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=36504
+
+#tps in
+
+<May> @s!
+<May> Gosh, where have you been hiding? I've been looking all over for you!
+#summon question mark
+<May> Oh... Where did you get that thing on your wrist?
+<May> That's a pretty fancy-looking bracelet...
+<May> ...
+<May> Wow! So that's a Mega Bracelet? And you can use it for Mega Evolution...
+<May> I guess now you can keep getting even closer to your Pokémon, huh?
+<May> Some people have all the luck...
+<May> But I'm not about to lose to you and some accessory!
+<May> Let's see who's best in battle!
+<May> Are your Pokémon all ready? Of course they are! Let's go!
+
+#pokebattle
+
+<Brendan> @s!
+<Brendan> You've been looking for Pokémon here?
+<Brendan> Huh? That bracelet you've got on...
+<Brendan> It's like, I don't know, really cool...
+<Brendan> ...
+<Brendan> Whoa. So that's the Mega Bracelet? And you can use it for Mega Evolution...
+<Brendan> So you'll just keep getting closer to your Pokémon and getting even stronger...
+<Brendan> All right, then. I guess I've just gotta help you test how strong you've become, huh?
+<Brendan> Show me in battle how much better you've gotten!
+<Brendan> Come on! A battle! I'm challenging you to a battle!
+
+#--------------------------
+#Dialogue 106 - Route 119
+#Rival Post-Battle
+#https://youtu.be/MgkqxXCmrtI?t=36669
+
+<May> Hm! Well, you did battle me like I asked, so I'll give you a reward.
+
+give @s hm02 Fly
+give @s minecraft:carrot_on_a_stick
+@s obtained HM02 Fly!
+
+<May> If you use Fly, your Pokémon will carry you back to anywhere you've been before.
+<May> But you must have the Gym Badge from Fortree City to use Fly outside of battle.
+<May> That's the most important bit, so don't forget!
+<May> Maybe you should Fly home and visit Littleroot sometimes.
+<May> I bet your mom worries about you, @s...
+<May> Well, till we meet again!
+<May> And next time I won't lose!
+
+#tp out
+
+<Brendan> I'd say you're good enough to search for Pokémon anywhere by now.
+<Brendan> Here, I'll give you this, so try it out. You should be able to use it fine.
+
+give @s hm02 Fly
+give @s minecraft:carrot_on_a_stick
+@s obtained HM02 Fly!
+
+<Brendan> With Fly, your Pokémon can carry you back to just about anyplace you've visited before.
+<Brendan> Of course, you'll need the Fortree Gym Badge first, though...
+<Brendan> Well, I'm going on ahead.
+<Brendan> But I'm definitely winning next time!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 107 - Fortree City
+#Hidden Power TM Coin Flip First Dialogue
+#https://youtu.be/MgkqxXCmrtI?t=36919
+
+<Old Woman> People... Pokémon...
+<Old Woman> Their hidden powers are awakened by living in natural environments...
+<Old Woman> Let this old woman see if your hidden power has awakened.
+<Old Woman> Let's see...
+<Old Woman> I hold a coin in my hand.
+<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?
+[Left hand]  [Right hand]
+
+#Incorrect answers, runs a TriggerCommands number to reset.
+<Old Woman> No, too bad. You guessed wrong.
+
+#--------------------------------------
+#Dialogue 108 - Fortree City
+#Hidden Power TM Coin Flip First Dialogue
+#Answers Right Hand
+
+<Old Woman> You are correct! Let us try again.
+<Old Woman> I hold a coin in my hand.
+<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?
+[Left hand]  [Right hand]
+
+#--------------------------------------
+#Dialogue 109 - Fortree City
+#Right Hand Second Time
+
+<Old Woman> Yes, correct again! We shall try once more.
+<Old Woman> I hold a coin in my hand.
+<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?
+[Left hand]  [Right hand]
+
+#--------------------------------------
+#Dialogue 110 - Fortree City
+#Right Hand Second Time
+
+<Old Woman> Splendid! Your hidden power has awakened!
+<Old Woman> Here, take this and awaken the hidden power of your Pokémon.
+
+@s obtained TM10 Hidden Power!
+give @s pixelmon:
+
+<Old Woman> Hidden Power varies in type depending on the Pokémon using it.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 111 - Fortree City
+#Steven Stone
+#https://youtu.be/MgkqxXCmrtI?t=37061
+
+#tp in separately
+
+<Steven> Hm...
+<Steven> It looks as though that Pokémon can be found up on Route 120...
+
+#tps off
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 112 - Fortree City
+#Aarune when entering the building
+#https://youtu.be/MgkqxXCmrtI?t=37096
+
+#Thinking a proclamation could be a menu item or something to change between battle modes, single, double, inverse, etc
+
+<Aarune> Yo-o-o-o, @s! I knew we'd meet again!
+<Aarune> What? You don't know where you are?
+<Aarune> This is the Secret Base Guild, of course! Huh? Whaddaya mean you never asked?
+<Aarune> Oh, you! No need to be shy!
+<Aarune> The Secret Base Guild is here to fully support everyone so they can have a Secret Base life full of adventure!
+<Aarune> We can give you hints on how to enjoy your base, and items you can't get anywhere else!
+<Aarune> And, best of all, coming here means that you can always meet me! Anytime you want!
+<Aarune> So lemme give a gift to my fellow base fanatic, for coming so far to see me here!
+<Aarune> A Proclamation will let you set the battle format that will fly in your own base.
+<Aarune> Whenever you get a new bit of swag for your digs, check it out to see what it does!
+<Aarune> And enjoy the base life!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 113 - Route 120
+#Steven on the bridge
+#https://youtu.be/MgkqxXCmrtI?t=37852
+
+<Steven> Hm?
+<Steven> @s? So, we meet again.
+<Steven> How has it been? Have you been using the Mega Bracelet wisely?
+<Steven> I suppose I needn't even ask, though.
+<Steven> Not when it comes to you and your team.
+<Steven> I wonder... Have you noticed? Hm?
+<Steven> There's something here you can't see.
+<Steven> Now, if I were to use this device on the invisible obstacle...
+<Steven> No, no... Rather than describing it, I should just show you.
+<Steven> That should be more entertaining.
+<Steven> @s...
+<Steven> Are you and your Pokémon ready for battle?
+<Steven> I want you to take this.
+<Steven> Try it on. I'm sure it will fit you.
+@s slipped the Devon Scope on.
+
+#changes Kecleon to visible
+
+<Steven> A previously invisible Pokémon became visible to the naked eye!
+<Steven> The startled Pokémon attacked!
+
+pokebattle @s kecleon lvl:30
+
+#-----------------------------
+#Dialogue 114 - Route 120
+#Post Kecleon Battle
+
+<Steven> Just as I expected. That's called a Devon Scope.
+<Steven> It's a fantastic piece of tech that lets you see Pokémon in hiding.
+<Steven> Consider it a gift from me. Take it.
+
+@s obtained the Devon Scope!
+
+<Steven> And one more thing...
+
+give @s Sceptilite
+give @s Swampertite
+give @s Blazikenite
+@s obtained Sceptilite!
+@s obtained Swampertite!
+@s obtained Blazikenite!
+
+<Steven> This stone ranks as one of my top five favorite stones in existence.
+<Steven> I have no doubt that your Pokémon will like it, too.
+<Steven> You know, @s... I like to see Trainers and Pokémon who are trying their best.
+<Steven> That's why I like you so much.
+
+#summon exclamation
+
+<Steven> Hm?
+<Steven> It seemed as though something just...
+<Steven> shone for a moment in your Bag.
+<Steven> I'm sure I sensed the power of some kind of stone...
+<Steven> A Meteorite...? No, it couldn't be...
+<Steven> Let's meet again someday.
+
+#tp Steven out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 115 - Fortree City
+#Prompt for Kecleon blocking gym
+
+There's an invisible obstacle in your way.
+Would you like to use the Devon Scope?
+[Yes]  [No]
+
+#-------------------------------
+#Dialogue 116 - Fortree City
+#Revealing Kecleon
+
+#summons a statue
+
+A previously invisible Pokémon became visible to the naked eye!
+The startled Kecleon fled!
+
+#tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 117 - Fortree Gym
+#Winona Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=38564
+
+<Winona> I am Winona. I am the Leader of the Fortree Pokémon Gym.
+<Winona> I have become one with bird Pokémon and have soared the skies...
+<Winona> However grueling the battle, we will triumph with grace...
+<Winona> Witness the elegant choreography of my bird Pokémon and me!
+
+#----------------------------
+#Dialogue 118 - Fortree Gym
+#Winona Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=38780
+
+<Winona> I recognize your talent and present you with this Gym Badge.
+
+@s received the Feather Badge from Winona.
+
+<Winona> With the Feather Badge, you will be able to use the HM move Fly outside of battle.
+<Winona> And this... This is a gift from me.
+
+@s obtained TM19 Roost
+give @s
+
+<Winona> Roost...
+<Winona> With this move, the user can restore its HP by up to half of its max HP by landing on the ground and resting its injured body.
+<Winona> However, the user loses its Flying-type designation during the turn, so be cautious.
+<Winona> You won against me... I know you'll keep aiming higher and higher!
+<Winona> Someday, you may even fly up into the sky...
+<Winona> That's the impression I get from you.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 119 - Route 121
+#Team Grunts
+#https://youtu.be/MgkqxXCmrtI?t=40620
+
+<Team Magma Grunt> All right! We are leaving for Mt. Pyre!
+<Team Magma Grunt> We are going to obtain that orb before Team Aqua does!
+
+
+<Team Aqua Grunt> OK! We're moving out to Mt. Pyre!
+<Team Aqua Grunt> We're getting our hands on that orb before Team Magma does!
+
+#tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 119 - Mt. Pyre
+#Leader taking orb
+#https://youtu.be/MgkqxXCmrtI?t=44145
+
+#cut to overhead
+
+
+<Maxie> Hmph...
+<Maxie> So it was you...
+<Maxie> I'm sorry I had to postpone my defeat of you at Mt. Chimney.
+<Maxie> And now, I am sorry that I have to postpone it once more.
+<Maxie> I cannot afford to waste even a single second now.
+<Maxie> For the Red Orb which has long been enshrined here at Mt. Pyre...
+<Maxie> Now belongs to me, the great Maxie!
+<Maxie> Courtney.
+
+<Team Magma Cortney> ...Ha.
+
+<Maxie> You must see to it that our dear visitor is not neglected due to my inability to battle now...
+<Maxie> Do be so kind as to battle them with the full measure of your strength...
+<Maxie> and crush this child so that they will never again for a single moment dream of defying our team!
+<Maxie> Fufufu...
+<Maxie> With this Red Orb in my possession, I have no need for the power of the Meteorite to awaken the beast from the deep! \
+<Maxie> All that I need now is a way to reach the place where it sleeps...
+<Maxie> The only task remaining is obtaining the submarine being constructed in Slateport!
+<Maxie> We move out at once, team!
+<Maxie> Our next destination...Slateport City!
+
+<Team Magma Cortney> ...
+<Team Magma Cortney> ...Analyzing.
+<Team Magma Cortney> ...Hah. ♪
+
+
+
+<Archie> Yo.
+<Archie> I thought something was a bit noisy, and who is it but the usual scamp!
+<Archie> Sorry, scampo, but I'm afraid I just don't have time to play with you right now.
+<Archie> The Blue Orb that's long been enshrined here at Mt. Pyre...
+<Archie> It belongs to Team Aqua now!
+<Archie> ...Ma-a-att!
+
+<Team Aqua Matt> Oh! Boss!
+
+<Archie> How about you do a favor for our lively little visitor, and keep them entertained?
+<Archie> You'd better use your full strength, too, so you don't offend our honored guest!
+<Archie> Bwahahahaha! With this Blue Orb in my hands, I won't even need the power of the Meteorite to awaken the beast from the deep!
+<Archie> All I need now is a way to get to the place where it sleeps...
+<Archie> All I have to do is get that submarine they're making in Slateport!
+<Archie> Come on, boys! We're for Slateport City!
+
+<Team Aqua Matt> All right then, until the Boss makes his getaway, I'll be your opponent!
+
+#------------------------
+#Dialogue 120 - Mt. Pyre
+#Post admin battle
+#https://youtu.be/MgkqxXCmrtI?t=44251
+
+<Team Magma Cortney> ...Again? That's unanticipated.
+<Team Magma Cortney> ...I knew it. You...are interesting! ...Haha. ♪
+<Team Magma Cortney> I'm looking forward to...
+<Team Magma Cortney> I'm looking forward to... When we...can meet again.
+
+<Team Aqua Matt> That was fun! I knew you'd show me a good time!
+<Team Aqua Matt> I look forward to facing you again someday!
+
+
+#tp admins out
+
+
+<Old Man> Aye, me, what disaster...
+<Old Man> The Red Orb... Stolen from our safekeeping...
+<Old Lady> The Red Orb and Blue Orb must never be separated. They belong together...
+
+<Old Man> The Blue Orb... Stolen from our safekeeping...
+<Old Lady> The Blue Orb and Blue Orb must never be separated. They belong together...
+
+<Old Lady> Mmm...
+<Old Lady> I will entrust the remaining Blue Orb to you, young one.
+
+give @s blue_orb
+@s obtained a Blue Orb!
+
+give @s red_orb
+@s obtained a Red Orb!
+
+<Old Lady> And I beg you...
+<Old Lady> Chase after those thieves and take back their orb! That wretched leader of theirs...
+<Old Lady> I'm sure he said they were headed for Slateport City next...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 121 - Route 123
+#Poochyena giving mega stone
+#https://youtu.be/MgkqxXCmrtI?t=45180
+
+<Poochyena> Gromp gromp gromp...
+It seems like something is bothering Chomper... Could you give it a little scratch?
+<Poochyena> Grrrmph! Rahk! Hack!
+
+@s obtained a Gyaradosite!
+give @s Gyaradosite
+
+<Poochyena> Grrromp!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 122 - Route 123
+
+#Trigger text
+<Fisherman> Play along with an old man, would you? Tell me which Pokémon you like best.
+[Magikarp]  [Gyarados]
+
+#If player picks Gyarados
+<Fisherman> That won't do... No, not at all. It's like you know nothing.
+
+#Dialogue, if player picks Magikarp
+<Fisherman> Oh, exactly! You get it, don't you?
+<Fisherman> I'll have to give you something special I've been holding onto!
+
+give @s eviolite
+@s obtained an Eviolite!
+
+<Fisherman> That there will boost the Defense and Sp. Def of a Pokémon that can still evolve!
+<Fisherman> I have my precious Magikarp hold one. Huhuhuhu...
+<Fisherman> Unevolved Pokémon just get me right there, you know?
+<Fisherman> They're like... Like a bud that hasn't yet bloomed!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 123 - Slateport City
+#Slateport Harbor
+#https://youtu.be/MgkqxXCmrtI?t=46181
+
+#View of overhead shot
+
+<Captain Stern> Yes, indeed. And that is why we intend to move ahead with our expedition.
+
+<Interviewer> That's wonderful, Captain Stern!
+<Interviewer> Thank you for taking the time from your busy schedule to talk to us.
+<Interviewer> We hope we can interview you again with news of more discoveries!
+
+#tp out interviewers
+
+<Captain Stern> Whew... That was my first time being filmed for TV.
+<Captain Stern> What a nerve-racking experience!
+
+#bring player to first person
+
+<Captain Stern> Oh! It's you again! You're looking well.
+<Captain Stern> Glad to see it. We made a huge discovery on our latest expedition to the seafloor.
+<Captain Stern> We found an underwater cavern on Route 128—
+<Captain Stern> and we think it may be the den of a super-ancient Pokémon long thought to have been extinct.
+
+“Hrr-hrrmph. Captain Stern, I presume you can hear me.”
+“We of Team Magma will now assume control of your famed submarine.”
+“Take pride in the fact that your invention will serve as a linchpin of the next great step in humanity's development!”
+“Fufufu... Fuwahahahahaha!”
+
+“Ahhh... Ahhh... Testing, testing. One, two, three...OK.”
+“I hope you're listening out there... Captain Stern!”
+“We of Team Aqua will now be assuming control of your lovely submarine!”
+“You'll contribute to our great plan of returning everything to the beginning...
+I hope you appreciate this great honor!” “Wah...hahahah! Bwahahahahahahahah!”
+
+#Summons question marks above everyone's heads
+
+<Captain Stern> Do you hear that voice?
+<Captain Stern> It's like someone is using a megaphone...
+<Captain Stern> But where is it coming from?
+
+#Summons exclamation mark
+
+<Captain Stern> It came from the Harbor!
+<Captain Stern> Our submarine! They took it!
+<Captain Stern> Young trainer! I'm sorry, but...
+<Captain Stern> Please come with me!
+
+#teleports Stern into building
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 124 - Slateport Harbor
+#Team leaders taking Submarine
+#https://youtu.be/MgkqxXCmrtI?t=46289
+
+<Captain Stern> Those thugs...
+<Captain Stern> They're the same lot who tried to take the Devon Parts at the museum...
+
+<Maxie> Hmph...
+<Maxie> So you have bothered to chase me, Maxie, all the way here from Mt. Pyre...
+<Maxie> Hohoho.
+<Maxie> You have earned my respect for the persistence you have shown.
+<Maxie> However... None can stop us now.
+<Maxie> All that remains is to retrofit this submarine and force our way into the Seafloor Cavern, where the great Pokémon sleeps...
+<Maxie> Our plans to propel humanity to its ultimate heights have entered their final stage.
+<Maxie> If you wish to prolong your futile struggle, I will not deny your right to try.
+<Maxie> Our hideout lies in Lilycove City. Follow us to our very door if you feel that justice demands it.
+<Maxie> And now I must be going. Tabitha!
+<Team Magma Tabitha> We are in accord, Leader Maxie... You Grunts, there!
+<Team Magma Tabitha> Until our Leader and I, your Admin, have made our escape in the submarine, stay here and buy us some time!
+
+#tps in grunts
+
+<Team Magma Grunt> Yessir!
+<Team Magma Grunt> Yessir!
+
+<Team Magma Tabitha> This way, Leader Maxie... We should make haste.
+
+<Maxie> Let us go.
+
+#tps admin and leader out
+
+#submarine sinks
+
+<Team Magma Grunt> This is not just for buying time. I'll flatten you!
+
+#battle grunt
+
+#Aqua Line
+<Archie> Impossible! You actually followed us all the way from Mt. Pyre?
+<Archie> Grah-hah! You got me! I bow to your persistence and love of justice!
+<Archie> Bwaha! Bwahahahahah!
+<Archie> It's a pity, so it is, but we're well past the time when you and your best efforts could turn the tide.
+<Archie> We'll add a few last touches to this submarine, and we'll be all set to bust open the Seafloor Cavern where that great Pokémon is sleeping.
+<Archie> Our plans to return everything to the beginning...
+<Archie> They're as good as complete!
+<Archie> But I know you gotta do what you gotta do, scamp.
+<Archie> I'm not gonna tell ya to quit chasing us...
+<Archie> Follow us all the way to our hideout in Lilycove, if that's what your honor demands.
+<Archie> Now then... Shelly?
+
+<Team Aqua Shelly> ...Got it.
+<Team Aqua Shelly> You guys! Keep that spoiled brat busy until the submarine takes off.
+
+<Team Aqua Grunt> Aye aye!
+<Team Aqua Grunt> Ma'am!
+
+<Team Aqua Shelly> Let's go. Archie...
+
+<Archie> Got it. We'll see you there, then!
+<Archie> My little scamp adversary! Grahahaha! Bwahahahahahahah!
+
+#tps admin and leader out
+
+#submarine sinks
+
+<Team Aqua Grunt> I can fight like Poseidon even on land!
+
+#Battle Grunt
+
+#-------------------------------------
+#Dialogue 127 - Slateport City
+#After first grunt
+
+<Team Magma Grunt> I was the one who was flattened...
+
+<Team Magma Grunt> Seems I have no choice...
+<Team Magma Grunt> It takes me, a Team Magma Ace Grunt, to take care of you!
+
+
+<Team Aqua Grunt> P-P-Poseidon is not so good at battles on land!
+
+<Team Aqua Grunt> Hmph! What a pathetic man!
+<Team Aqua Grunt> I'm the 26th-strongest Team Aqua Grunt. Leave this to me!
+
+#battle grunt 2
+
+#---------------------------------
+#Dialogue 126 - After second grunt
+
+<Team Magma Grunt> But, but... I'm a Team Magma Ace Grunt. How could I have lost?
+
+<Team Magma Grunt> Mission complete!
+<Team Magma Grunt> Let's head for the hideout and join the project to modify the submarine!
+
+<Team Magma Grunt> Yes! I can't wait to see the progress on the submarine.
+
+
+
+<Team Aqua Grunt> I'm the 26th-strongest Team Aqua Grunt. But, but...I lost!
+
+<Team Aqua Grunt> Mission complete! I'm going to check out the modified sub in our hideout!
+<Team Aqua Grunt> I'm psyched to see all the modding on the sub!
+
+<Team Aqua Grunt> Yes! I can't wait to see the progress on the submarine.
+
+#team tps off
+
+<Captain Stern> M-modding?
+<Captain Stern> Those criminals...
+<Captain Stern> What are they planning to do with my Submarine Explorer 1?
+
+#summon exclamation
+
+<Captain Stern> They can't be!
+<Captain Stern> They can't be after the super-ancient Pokémon that slumbers at the bottom of the sea...
+<Captain Stern> @s... I'm sorry, but...
+<Captain Stern> My stolen submarine...
+<Captain Stern> It could bring an unimaginable disaster upon the world...
+<Captain Stern> Someone has to get to their hideout in Lilycove and stop them! But I've got no chance alone!
+<Captain Stern> @s, please... May I ask for your help?
+<Captain Stern> I can at least get you as far as Lilycove, where their hideout is...
+<Captain Stern> Do you think you and your Pokémon could put a stop to them and save my sub from being used for evil? Please!
+[Yes]   [No]
+
+#-----------------------
+#Dialogue 127 - Slateport City
+#Captain Stern Fast Travel
+#https://youtu.be/MgkqxXCmrtI?t=46536
+
+<Captain Stern> Thank you! We'll launch at once!
+
+#blinds player
+
+#tps player
+
+<Captain Stern> We have arrived in Lilycove City.
+<Captain Stern> Those thieves who stole my submarine must be hiding out somewhere in this city...
+<Captain Stern> @s, please...
+<Captain Stern> Find my sub for me...
+<Captain Stern> I'll be heading back to the shipyard in Slateport to start dealing with the aftermath of all this...
+
+#tps Stern out
+
+#If answers no
+<Captain Stern> O-oh... Tell me if you change your mind. There's no one else I can ask...
+[Yes]
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 128 - Lilycove City
+#Rival pre-battle
+#https://youtu.be/MgkqxXCmrtI?t=47196
+
+<May> Heeey! @s!
+
+#tp in
+
+<May> Don't tell me... Are you here for the shopping, too, @s?
+
+#shot of the department store
+
+<May> We're right in front of the famous Lilycove Department Store, after all!
+<May> When I saw you, I figured maybe you'd come here to do some shopping, same as me.
+
+#return to first person
+
+<May> I'm afraid I already bought up tons of stuff! Like Pokémon Dolls...and posters...and...
+<May> B-but—
+<May> That's not all I've been doing, of course!
+<May> I've also caught tons of different Pokémon, and I've been raising them well, too!
+<May> Let's test my team and see how they stack up against your passion for Pokémon, @s!
+
+
+<Brendan> Hm?
+<Brendan> Hey, if it isn't @s! Did you come to do some shopping, too?
+<Brendan> You know what I'm talking about...
+
+#shot of the department store
+
+<Brendan> The Lilycove Department Store!
+<Brendan> My dad asked me to pick him up a few things here.
+<Brendan> It's not like I'm here to buy Dolls or something, r-right!
+
+#return to first person
+
+<Brendan> A-anyway, it feels like it's been ages since we last ran into each other.
+<Brendan> How about I battle you so you can see which one of us is doing a better job raising our Pokémon?
+<Brendan> Though I think you and I both know who the winner is gonna be, @s!
+
+
+#------------------------------
+#Dialogue 129 - Lilycove City
+#Rival post-battle
+
+<May> Ahhh, this reminds me of the battle I had with you back on Route 103!
+<May> You were able to become this strong because you battled me back then, right, @s?
+<May> ...What would you think if I said something like that?
+<May> Hee hee...
+<May> I'm actually thinking that it's about time I went back to Littleroot, though.
+<May> I've caught a lot of different Pokémon, and my Pokédex is pretty complete, so I think I should go show it to my dad.
+<May> ...Huh? Did something just...sparkle in your Bag?
+<May> It was like the light from that Meteorite...
+<May> ...Oh, nothing! Sorry! Just forget it!
+<May> I'm probably just imagining things!
+<May> @s, what are you going to do?
+<May> You going to collect all the Gym Badges and take on the Pokémon League challenge?
+<May> Typical @s! Then while you're collecting your Badges, I guess I'll go and complete my Pokédex!
+<May> I guess I'll be off, then!
+
+#tp out
+
+
+<Brendan> Boy, that stings a bit...
+<Brendan> I had a head start on you as a Pokémon Trainer, but still...
+<Brendan> I, uh... I'm planning on going home to Littleroot.
+<Brendan> You know how I've been helping out my dad with the Pokédex, and it's been coming together pretty decently.
+<Brendan> So...I ought to go back home and show it to him.
+<Brendan> @s, what are you gonna do?
+<Brendan> You still thinking of collecting all the Gym Badges and taking on the Pokémon League challenge?
+<Brendan> Yeah? I guess I'm not surprised. Do your best. You know I'm behind you.
+<Brendan> ...Uhhh. Huh? Did you... @s, I think there's something...
+<Brendan> There's something, like, sparkling in your Bag...
+<Brendan> It's the same kinda light as that Meteorite had, the one you showed me in Lavaridge...
+<Brendan> Ahhh, never mind! Just... Good luck out there!
+
+#tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 130 - Lilycove Department Store
+#Loto Prompt
+#https://youtu.be/MgkqxXCmrtI?t=47713
+
+<Loto Clerk> This is the Pokémon Lottery Corner.
+<Loto Clerk> All shoppers visiting our department store get to draw a Pokémon Loto Ticket.
+<Loto Clerk> If the Loto Ticket's number matches the ID number of any of your Pokémon, you will receive a fabulous gift.
+<Loto Clerk> Would you like to try it?
+[Yes]  [No]
+
+
+#If asking again
+<Loto Clerk> You can only win once per day. Please come again tomorrow!
+
+#If no
+<Loto Clerk> We look forward to seeing you again soon!
+
+#----------------------------------------
+#Dialogue 131 - Lilycove Department Store
+#Loto Roll
+
+#Rolls for a random number for display
+
+<Loto Clerk> The Loto Ticket number is @e.
+<Loto Clerk> I need to check this number to see if it matches any of your Pokémon's ID numbers.
+<Loto Clerk> Please wait a moment.
+
+<Loto Clerk> Spectacular! A ID number of your team's Pokémon matches your Loto Ticket number!
+
+#Rolls for a random number for a prize
+
+#Odds:
+
+<Loto Clerk> My goodness, all five digits matched! You've won the jackpot prize, a Master Ball!
+<Loto Clerk> Four digits matched, so you win first prize! You've won a Rare Candy!
+<Loto Clerk> Three digits matched, so you win second prize, a PP Max!
+<Loto Clerk> Two digits matched, so you win third prize! You've won a PP Up!
+<Loto Clerk> One digit matched, so you win fourth prize! You've won a Moomoo Milk!
+<Loto Clerk> I'm sorry. None of the numbers matched.
+
+#Gives prizes
+give @s
+give @s
+give @s
+give @s
+give @s
+
+<Loto Clerk> We look forward to seeing you again soon!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 132 - Team Magma Hideout
+#Hoard battle (is this kinda thing possible?)
+#https://youtu.be/MgkqxXCmrtI?t=49369
+
+<Team Magma Grunt 1> Hehehe!
+
+<Team Magma Grunt 4> We finally meet again.
+
+<Team Magma Grunt 2> Hm? Ah... Is this the first time we've met?
+
+<Team Magma Grunt 3> Nincompoop! It doesn't matter!
+
+<Team Magma Grunt 5> Brace yourself! We'll show you the power of quintuplets!
+
+pokebattle
+
+#---------------------------------
+#Dialogue 133 - Team Aqua Hideout
+#Hoard battle (is this kinda thing possible?)
+#
+
+<Team Aqua Grunt 1> Teeheehee!
+
+<Team Aqua Grunt 4> We finally meet again.
+
+<Team Aqua Grunt 2> Hm? Ah... Is this the first time we've met?
+
+<Team Aqua Grunt 3> Nincompoop! It doesn't matter!
+
+<Team Aqua Grunt 5> Brace yourself! We'll show you the power of quintuplets!
+
+pokebattle
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 134 - Team Hideout
+#Post quintuplet battle
+#https://youtu.be/MgkqxXCmrtI?t=49431
+
+
+
+
+<Team Magma Grunt 1> Hah, hah, hah...
+<Team Magma Grunt 1> We lost...
+
+<Team Magma Grunt 3> It's odd.
+<Team Magma Grunt 3> I can't believe five of us couldn't defeat just one Trainer.
+<Team Magma Grunt 3> Did you cheat? Grumble, grumble...
+
+<Team Magma Grunt 2> Nincompoop!
+<Team Magma Grunt 2> You're strong, aren't you? Stop whining!
+<Team Magma Grunt 2> Our leaders are ahead!
+<Team Magma Grunt 2> You have no chance to defeat them!
+
+#tp out
+
+<Team Aqua Grunt 1> Hah, hah, hah...
+<Team Aqua Grunt 1> We lost...
+
+<Team Aqua Grunt 3> It's odd.
+<Team Aqua Grunt 3> I can't believe five of us couldn't defeat just one Trainer.
+<Team Aqua Grunt 3> Did you cheat? Grumble, grumble...
+
+<Team Aqua Grunt 2> Nincompoop!
+<Team Aqua Grunt 2> You're strong, aren't you? Stop whining!
+<Team Aqua Grunt 2> Our leaders are ahead!
+<Team Aqua Grunt 2> You have no chance to defeat them!
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 135 - Team Admin Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=49471
+#https://youtu.be/XQJjBGOrdPw?t=309 (Aqua)
+
+<Team Magma Courtney> ... ...
+<Team Magma Courtney> ...I knew you would come.
+<Team Magma Courtney> ...Too bad, though. ...It's all over now. ♪
+<Team Magma Courtney> ...The submarine has been upgraded.
+
+#Shot of submarine
+
+<Team Magma Courtney> ...Look. ♪ ...At that drill.
+<Team Magma Courtney> ...With that...even the seal on the Seafloor Cavern is in for a walloping! ♪
+<Team Magma Courtney> ... ...There's still more...work for me to do. ...I must...stop you.
+<Team Magma Courtney> ...Until Leader Maxie...departs...
+
+#back to first person
+
+<Team Magma Courtney> ...But...
+<Team Magma Courtney> ...Now...I just...want to...
+<Team Magma Courtney> ...With you...
+<Team Magma Courtney> ...I want to...engage...
+<Team Magma Courtney> ...You...
+<Team Magma Courtney> ...I want to...analyze. Ahahaha. ♪
+
+pokebattle
+
+#Aqua
+<Team Aqua Matt> Oh! I knew you'd come!
+<Team Aqua Matt> You're the first punk ever to sneak into this hideout and make it this far!
+<Team Aqua Matt> I expected nothing less from a crumb like you!
+<Team Aqua Matt> But I've got some bad news for you!
+<Team Aqua Matt> We already completely finished upgrading the ship!
+
+#Shot of submarine
+
+<Team Aqua Matt> Look at that drill!
+<Team Aqua Matt> As long as we've got that thing, we could KO the seal over the Seafloor Cavern with one punch!
+<Team Aqua Matt> My bro Archie's in the ship! Come at me!
+<Team Aqua Matt> If you take me out fast, you might be able to catch up to him!
+
+#back to first person
+
+<Team Aqua Matt> Before you do, though...
+<Team Aqua Matt> We need to settle once and for all who's stronger,
+<Team Aqua Matt> you and your sorry Pokémon, or me and my not-so-sorry Pokémon!
+<Team Aqua Matt> ...Hoo!
+<Team Aqua Matt> ...Haaahh!
+<Team Aqua Matt> I'm... Heating up!
+<Team Aqua Matt> Hooah! Full on! I'm burning up!
+<Team Aqua Matt> Me! You! Pokémon!
+<Team Aqua Matt> Mixing it up! Dueling!
+<Team Aqua Matt> Well! Welll! Wellllll!
+<Team Aqua Matt> Let's battle it out until we've got nothing left!
+
+pokebattle
+
+#--------------------------------------
+#Dialogue 136 - Team Admin Post-Battle
+#https://youtu.be/XQJjBGOrdPw?t=452 (Aqua)
+
+<Team Magma Courtney> ...
+<Team Magma Courtney> ...Change...the world.
+
+#submarine sinks
+
+<Team Magma Courtney> ...Leader Maxie...
+<Team Magma Courtney> ...
+<Team Magma Courtney> ...Mission...
+<Team Magma Courtney> ...Complete.
+<Team Magma Courtney> ...Leader Maxie...has departed.
+<Team Magma Courtney> ...For the development...of humanity.
+<Team Magma Courtney> ...For our...dreams...
+<Team Magma Courtney> ...To you...whom I had not foreseen. ...I will give a hint.
+<Team Magma Courtney> ...So that you...may dream... ...the same dream as us.
+<Team Magma Courtney> ...Leader Maxie...is headed for... the sea stretching out from Lilycove.
+<Team Magma Courtney> ...In the depths of the sea...lies the Seafloor Cavern.
+<Team Magma Courtney> ...What are you...going to do?
+<Team Magma Courtney> ...Looking around...in seaside towns. ...That might work. ...Ahaha. ♪
+<Team Magma Courtney> ...I don't know...what you could do to get there.
+<Team Magma Courtney> ...Even if I knew...I wouldn't tell. ...Ahaha. ♪
+
+
+#Aqua variant
+<Team Aqua Matt> Hah... Hah... Hah...
+<Team Aqua Matt> Bro!
+<Team Aqua Matt> It's all...on you...now...
+
+#submarine sinks
+
+<Team Aqua Matt> ...
+<Team Aqua Matt> While we were battling it out...
+<Team Aqua Matt> My bro Archie finished getting ready...
+<Team Aqua Matt> ...
+<Team Aqua Matt> I have only one hope...
+<Team Aqua Matt> For my bro Archie to finish doing what he set out to do...
+<Team Aqua Matt> That's all...
+<Team Aqua Matt> My bro Archie is everything to me...
+<Team Aqua Matt> I live to serve my bro...
+<Team Aqua Matt> ...All right,
+<Team Aqua Matt> then. You took me out, so I'll give you an idea of what the world will be like if my bro has his way.
+<Team Aqua Matt> My bro Archie is headed for the big blue sea that stretches out from Lilycove City.
+<Team Aqua Matt> Deep beneath the surface is the Seafloor Cavern.
+<Team Aqua Matt> That's where the world my bro hopes to create...
+<Team Aqua Matt> Where the beginnings of the primordial world will be felt...
+<Team Aqua Matt> Regular people and Pokémon can't make it there, though.
+<Team Aqua Matt> How could you get there...
+<Team Aqua Matt> Why don't you look around in towns by the sea and use your own thick head to think about it?
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 137 - Mossdeep Gym
+#Liza and Tate pre-battle
+#https://youtu.be/MgkqxXCmrtI?t=51741
+
+<Liza> Heh heh heh... Were you surprised?
+<Tate> Tee hee hee... Were you surprised?
+
+<Liza> That there are two Gym Leaders?
+<Tate> That there are two Gym Leaders?
+
+<Liza> We're twins!
+<Tate> We're twins!
+
+<Liza> We don't need to talk because...
+<Tate> ...we can each tell...
+<Liza> ...what the other is thinking...
+<Tate> ...all in our minds!
+<Liza> This combination of ours...
+<Tate> Can you beat it?
+
+
+#---------------------------
+#Dialogue 138 - Mossdeep Gym
+#Liza and Tate post-battle
+#https://youtu.be/MgkqxXCmrtI?t=51868
+
+<Liza> It can't be helped. You've won...
+<Tate> ...so take this in recognition!
+
+@s received the Mind Badge from Liza and Tate.
+
+<Tate> The Mind Badge enables Pokémon to use the HM move called Dive!
+<Liza> And take this, too!
+
+@s obtained TM04 Calm Mind!
+
+<Liza> Calm Mind...
+<Tate> ...comes from relaxing your mind and concentrating.
+
+#same time
+<Liza> Pokémon's Sp. Atk and...
+<Tate> ...Pokémon's Sp. Def...
+
+<Liza> ...will be heightened by this move!
+<Tate> It's a perfect move for Psychic-type Pokémon!
+<Tate> Looks like the bond between you and your Pokémon is far stronger than the bond we share as twins...
+<Tate> But you'll go on from here to form even more bonds! That's the future I see for you!
+<Liza> There may be a harsh ordeal ahead for you and your Pokémon...
+<Liza> But that's all right! You and your Pokémon aren't alone!
+<Liza> You have each other!
+<Liza> That's why we want you to face whatever troubles may come your way head-on and full of courage!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 139 - Mossdeep City
+#Upon exiting the gym
+#https://youtu.be/MgkqxXCmrtI?t=51939
+
+#screen shaking
+
+#shot of green beam in ocean
+
+#sets up NPCs
+
+<Man> Wha—whaaa—whaaaat?!
+<Woman> A p-p-p-pillar of light! Ap-p-p-peared from the sea!
+<Lass> That direction... Is that the direction of Route 128?
+<Youngster> Whoa! Dude! Seriously, dude!
+<Old Man> Heeeeeeeeeh... This is the end of the world...
+<Kimono Girl> Skitty! Don't worry! Calm down!
+<Skitty> Skidddddy!
+
+#cut to ocean shot
+<Male Swimmer> Whoa... That was, like, a total shocker...
+<Female Swimmer> What the heck was that? That big fat pillar of light!
+<Female Swimmer> It totally came out of here, didn't it?
+
+#cut back to first person
+
+<Steven> @s!
+<Steven> I heard from little Liza and Tate that you visited their Gym.
+<Steven> I was thinking of trying to catch you while you were in the area, but then this happened...
+<Steven> ...
+<Steven> We should talk.
+<Steven> Let's go to my place.
+
+#blinds player
+#tp to Steven's house
+#https://youtu.be/MgkqxXCmrtI?t=52020
+
+<Steven> Ah... Yes... I suppose I should welcome you to my home.
+<Steven> Please forgive the rather sparse décor...
+<Steven> Now, where to begin...
+<Steven> Let us take a moment to understand what is happening to our world right now.
+<Steven> That rumbling that shook the earth just now...
+<Steven> The eardrum-rupturing explosion we heard...
+<Steven> They are proof that a seal, which was long hidden deep undersea, has been undone at last.
+<Steven> The super-ancient Pokémon that has been sealed deep beneath Route 128 since ancient times...
+<Steven> It slept until now in the Seafloor Cavern.
+<Steven> The entrance to that cavern was sealed by the power of a certain Pokémon, all in an effort to keep any human or Pokémon from ever breaching it.
+<Steven> But now it appears that the scheming of that terrible team has undone the seal.
+<Steven> There is no doubt that they intend to revive the super-ancient Pokémon.
+<Steven> And once they do so, it seems they hope to make its power their own.
+<Steven> @s...
+<Steven> If that team obtains the power of the super-ancient Pokémon, it will upset the balance of nature in this world.
+<Steven> A crisis unlike any other before it will befall every living thing on this planet.
+<Steven> I plan to do everything in my power to quell this situation. That is my duty.
+<Steven> But there is a limit to what I can do with my power alone...
+<Steven> That is why I am asking for your help. I have great faith in your abilities.
+<Steven> Lend me your strength to help put a halt to these Teams' mad ambitions!
+<Steven> With you and I and our Pokémon all working together, we will overcome this disastrous turn of events.
+<Steven> I don't think it is out of the question.
+<Steven> I will entrust you with this.
+
+@s obtained HM07 Dive!
+tag @s add Dive
+
+<Steven> If you use Dive, you will be able to dive to the ocean floor with your Pokémon.
+<Steven> And take this so you can stay with your Pokémon even in the depths of the ocean...
+
+@s obtained Devon Scuba Gear!
+
+<Steven> If you were to use Dive in the correct stretch of water along Route 128...
+<Steven> I believe you should be able to reach the entrance to the Seafloor Cavern.
+<Steven> I will join you when I finish my duties.
+<Steven> Please do what you can to stop Team Aqua and Team Magma until then.
+<Steven> I am trusting you to do this for me!
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 140
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3196,10 +4399,12 @@ For a shy person like me, there's nothing more useful than this.
 #Winstrate Family Battles
 https://youtu.be/MgkqxXCmrtI?t=22748
 
+#Team Fake poke balls to activate a battle
+https://youtu.be/MgkqxXCmrtI?t=49151
 
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=35922
+https://youtu.be/MgkqxXCmrtI?t=52177
 
 
 
