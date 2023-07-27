@@ -5240,53 +5240,1038 @@ give @s dawn_stone
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 155 - Pokemon League
 #Sidney Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=61412
+
+<...> Welcome, challenger!
+<Sidney> I'm Sidney of the Elite Four.
+<Sidney> I like that look you're giving me. I guess you'll give me a good match.
+<Sidney> That's good! Looking real good!
+<Sidney> All right! Let's get down to the kind of battle that can happen only here in the Pokémon League!
+
+#Rematch text?
+<Sidney> Yo! I've been waiting for you, Champion! With the strength you've gained, we can battle with no holds barred!
+<Sidney> Not to mention, our boy Steven sent us Elite Four some Key Stones!
+<Sidney> In other words, my Pokémon can Mega Evolve, too...
+<Sidney> Heh heh... This one's gonna be fun!
+
+<Sidney> I was waiting for you, Champion. No matter who wins, no hard feelings!
+<Sidney> Let's get our most excellent battle underway!
+
 
 #--------------------------------
-
 #Dialogue 156 - Pokemon League
 #Sidney Post-Battle
 
+<Sidney> Well, listen to what this loser has to say.
+<Sidney> You've got what it takes to go a long way!
+<Sidney> Go on to the next room and challenge your next battle!
+
+#Rematch
+<Sidney> Heh... I knew you really were the strongest...
+<Sidney> Well, hurry up and get out of here!
+<Sidney> Everybody else is still waiting for you!
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 157 - Pokemon League
 #Phoebe Pre-Battle
 
-#--------------------------------
+<...> Hahaha!
+<Phoebe> I'm Phoebe of the Elite Four.
+<Phoebe> I did my training on Mt. Pyre.
+<Phoebe> While I trained there, I gained the ability to commune with Ghost-type Pokémon.
+<Phoebe> The bond I developed with my Pokémon is extremely tight.
 
+#Rematch?
+<Phoebe> Ahaha!
+<Phoebe> I've been waiting for you!
+<Phoebe> I'm bringing a little something new to the table this time!
+<Phoebe> Prepare yourself and bring it on!
+
+#--------------------------------
 #Dialogue 158 - Pokemon League
 #Phoebe Post-Battle
 
+<Phoebe> There's definitely a bond between you and your Pokémon, too.
+<Phoebe> I didn't recognize that fact, so it's only natural that I lost.
+<Phoebe> Yup, I'd like to see how far your bond will carry you.
+<Phoebe> Go ahead. Move on to the next room.
+
+#Rematch?
+<Phoebe> Hmmp, what a shame. I lost again, huh?
+<Phoebe> But on the bright side...
+<Phoebe> We fought together, so the bonds between my Pokémon and me got even deeper!
+<Phoebe> I look forward to being able to battle you again sometime!
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 159 - Pokemon League
 #Glacia Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=62059
+
+<...> Welcome.
+<Glacia> My name is Glacia of the Elite Four.
+<Glacia> I've traveled from afar to Hoenn so that I may hone my Ice-type moves.
+<Glacia> But all I have seen are challenges by weak Trainers and their Pokémon.
+<Glacia> I wonder what you will show me.
+<Glacia> What a relief it would be if I could, for once, have a serious battle against an opponent!
+
+#Rematch
+<Glacia> I've been waiting for a Trainer with a burning-hot soul.
+<Glacia> How can you oppose Mega Evolution that can freeze everything?
 
 #--------------------------------
-
 #Dialogue 160 - Pokemon League
 #Glacia Post-Battle
 
+<Glacia> You and your Pokémon...
+<Glacia> How fiercely your spirits burn!
+<Glacia> My icy moves pale in the face of such all-consuming flames.
+<Glacia> Advance to the next room.
+<Glacia> There you will learn how fearsome the Pokémon League can truly be!
+
+#Rematch
+<Glacia> Hmmph... Do you intend to thaw my very heart?
+<Glacia> That actually wouldn't bother me.
+<Glacia> Anyway, continue onward! Drake is waiting for you as well.
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 161 - Pokemon League
 #Drake Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=62435
+
+<Drake> I am the last of the Pokémon League Elite Four, Drake the Dragon master!
+<Drake> In their natural state, Pokémon are wild living things. They are free.
+<Drake> At times, they hinder us. At times, they help us.
+<Drake> For us to battle alongside Pokémon as partners, do you know what it takes?
+<Drake> Do you know what is needed?
+<Drake> If you don't, you will never prevail over me!
+
+#Rematch
+<Drake> Oh, I've been waitin' for you!
+<Drake> My Pokémon and I are going to show you everything we've got!
+<Drake> Well then, you had better get ready to try and stop me!
 
 #--------------------------------
-
 #Dialogue 162 - Pokemon League
 #Drake Post-Battle
 
+<Drake> You deserve every credit for coming this far as a Pokémon Trainer.
+<Drake> You do seem to know what is needed.
+<Drake> Yes, what a Trainer needs is a true and virtuous heart.
+<Drake> It is through their contact with Trainers that Pokémon learn right from wrong.
+<Drake> The influence of their Trainers' good hearts helps them grow strong!
+<Drake> Go! Go onward! The Champion is waiting!
+
+#Rematch
+<Drake> I got a glimpse inside your heart!
+<Drake> There's nothing for me to say to you!
+<Drake> Go forth, Trainer!
+<Drake> Go on to your next challenge with your head held high!
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 163 - Pokemon League
 #Steven Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=62718
+
+<Steven> Welcome, @s.
+<Steven> I was hoping I would get to see you make it here one day.
+<Steven> Tell me... What have you seen on your journey with your Pokémon?
+<Steven> What have you felt, meeting so many other Trainers out there?
+<Steven> Traveling this rich land of Hoenn...
+<Steven> Has it awoken something inside you? I want you to come at me with all that you've learned.
+<Steven> My Pokémon and I will respond in turn with all that we know!
+<Steven> Let it begin!
 
 #--------------------------------
-
 #Dialogue 164 - Pokemon League
 #Steven Post-Battle
+#https://youtu.be/MgkqxXCmrtI?t=63093
+
+<Steven> Just as I have come to expect.
+<Steven> @s, you are truly an excellent Pokémon Trainer.
+<Steven> Congratulations to you!
+<Steven> And thank you...
+<Steven> I had wanted to learn how you feel about this world, what kinds of ideals you have developed with your Pokémon...
+<Steven> I feel I was able to find the answer in our battle.
+<Steven> The feelings you have for your Pokémon...
+<Steven> And the way that your Pokémon gave their all in battle in response to those feelings...
+<Steven> Those two together created a great power. That is how you seized victory today.
+<Steven> I felt a thrill of excitement in my breast when we first met, and now I know for sure that feeling was not misplaced!
+<Steven> You are rightfully the Hoenn region's new...
+
+#Rival tps in
+
+<May> @s, wait!
+<May> I've got some advice you've got to hear before you challenge the Champion...
+
+#summon exclamation
+
+<May> Huh? Wait—what?
+<May> What? @s... Could it be that...
+<May> It's already over?
+
+#tp in Birch
+
+<Professor Birch> See? What did I say, May?
+<Professor Birch> Didn't I tell you that @s would be just fine?
+<Professor Birch> @s, you've finally done it.
+<Professor Birch> When I heard that you defeated your own father at the Petalburg Gym, I thought perhaps you had a chance...
+<Professor Birch> But to think you've actually become the Champion!
+<Professor Birch> But congratulations on today's victory!
+<Professor Birch> Now go in there with your head held high!
+
+
+
+<Brendan> @s! Before you go to challenge the Champion, I've got one last thing you've got to...
+
+#summon exclamation
+
+<Brendan> @s... You didn't...
+<Brendan> No, you couldn't have... Did you already beat the Champion?!
+
+#tp in Birch
+
+<Professor Birch> See? What did I say, Brendan?
+<Professor Birch> Didn't I tell you that @s would be just fine?
+<Professor Birch> @s, you've finally done it.
+<Professor Birch> When I heard that you defeated your own father at the Petalburg Gym, I thought perhaps you had a chance...
+<Professor Birch> But to think you've actually become the Champion!
+<Professor Birch> But congratulations on today's victory!
+<Professor Birch> Now go in there with your head held high!
+
+<Steven> @s...
+<Steven> No, I should call you the Hoenn region's new Pokémon League Champion...
+<Steven> Step into this room with me, Champion.
+
+#tp out the NPCs on portal tp to hall of fame
 
 #--------------------------------
+#Dialogue 165 - Hall of Fame room pre-credits
+#https://youtu.be/MgkqxXCmrtI?t=63203
+
+<Steven> This room...
+<Steven> This is where we maintain the records of Pokémon that prevailed through the harshest of battles.
+<Steven> It is here that League Champions are honored.
+<Steven> Pokémon sent out in this room will obtain a ribbon unique to this region's League.
+<Steven> You can use this machine to record your name and the names of the partners who battled along with you to triumph over the Pokémon League!
+
+#--------------------------------
+#Dialogue 166 - Map Credits
+#First time
+
+Thank you for playing Pixelmon Hoenn!
+Map Creators: Jond - Project Manager, Builder, Commands, Terrain
+PixelmonChampion (Ozzy) - Builder & Modeler
+
+_SilverPhoenix - Builder, Pokemon League Interiors, Fortree City
+MystCraftMC - Gym Interiors
+
+Magma Builds - ~25 World buildings, Sea Mauville, Pokemon League, NPC Homes
+booksketball - Builder, Misc Homes and World Buildings
+
+Check out my other region maps if you liked this one!
+[Pixelmon Johto]  [Pixelmon Kalos]
+
+All source material credit to Game Freak, The Pokemon Company, and Nintendo.
+
+#runs legendary reset function
+
+#If this is the player's first time, run cutscenes
+
+#Tps player to exterior room with rival
+#https://youtu.be/MgkqxXCmrtI?t=63290
+
+<May> Welcome back, @s.
+<May> I just thought, you know, that since we were both here and all...that I'd wait for you.
+<May> We set out on this journey together, right? So maybe we should finish it together, too.
+<May> Hee hee...
+<May> So...come on! Let's go home! Back to Littleroot Town!
+
+<Brendan> Welcome back, @s.
+<Brendan> I just, uh, you know...
+<Brendan> We set out on this journey together, right? So maybe we should finish it together, too.
+<Brendan> D-don't go trying to read anything into it, though!
+<Brendan> Now, come on! We're going home! Back to Littleroot Town!
+
+#blinds player
+
+#tps back to Route 103, looking at stars
+
+#https://youtu.be/MgkqxXCmrtI?t=63769
+
+<May> Here we are on Route 103 again! Wow, it's so nostalgic, you know?
+<May> Oh! Remember that pond? This is where we first battled, isn't it?
+<May> ...@s! Could you do something for me?
+<May> Come on! Let's battle one more time!
+<May> I wanna know what you saw on your journey, how you felt, and what you experienced out there.
+<May> I want to understand everything about you and your Pokémon, @s!
+<May> And then...
+<May> I want you to understand everything about me and mine!
+
+#pokebattle
+
+
+
+<Brendan> Man, this is nostalgic. Back on Route 103, huh?
+<Brendan> Remember that pond over there? This is where we battled the first time, huh?
+<Brendan> Hey, @s... Do me a favor?
+<Brendan> Come on! Let's battle one more time!
+<Brendan> I wanna know about what you saw on your journey, how you felt, and what you experienced out there.
+<Brendan> I want to know all about you and your Pokémon, @s.
+<Brendan> But that's not all...
+<Brendan> I want you to know all about me and mine!
+
+#pokebattle
+
+#If this is the player's second+ time, skip over and tp to Littleroot after
+
+#--------------------------
+#Dialogue 167 - Route 103
+#Rival post-Credit rematch
+#https://youtu.be/MgkqxXCmrtI?t=63979
+
+<May> ...
+<May> Thanks, @s! You really are a Champion!
+<May> Meeting so many different people...
+<May> And encountering so many Pokémon...
+<May> It's just really...
+<May> It's been really, really fun!
+<May> Ah!
+<May> @s! Look at that!
+
+
+
+<Brendan> ...
+<Brendan> Thanks, @s! Just what I'd expect from a Champion!
+<Brendan> Getting to meet so many different people...
+<Brendan> And so many different Pokémon...
+<Brendan> It's like... I don't know...
+<Brendan> It's been really, really fun!
+<Brendan> Oh!
+<Brendan> @s! Look there!
+
+#look up to sky, shooting star particles
+
+title screen
+
+Pixelmon Hoenn
+
+THE END
+
+#blinds and tps to your room
+
+#blocks the stairs downstairs, player is just overhearing
+
+<Mom> Norman?
+<Mom> Norman? Sorry, I know you're watching your show, but...
+<Dad> Hm? What is it?
+<Mom> You do remember that we planned to go watch the meteor shower in Mossdeep...
+<Dad> Ah... About that. I've been meaning to tell you, but...
+<Dad> It now looks like I'm going to have to be at the Gym that day.
+<Mom> O-oh. Well... Work is work, I suppose.
+<Dad> I'm sorry, honey...
+<Mom> It's fine. No, really, it's fine!
+<Mom> But... What should we do with the tickets we bought?
+<Dad> Hmm. That's true. We already paid for them, so...
+
+#Delta symbol title?
+
+#https://youtu.be/MgkqxXCmrtI?t=64241
+#Shot of the sky
+XX:XX, the XXth day of the XXth month
+Mossdeep Space Center Celestial Observatory
+
+<Scientist> Professor Cozmo! It's... It's a disaster!
+<Scientist> The meteoroid's trajectory— it's suddenly changed direction!
+<Scientist> Now it's on a collision course with our planet!
+<Professor Cozmo> WHAT? Recheck the data!
+<Professor Cozmo> Update the course calculations and confirm the new trajectory!
+<Scientist> Target locked on! Confirming the meteoroid's new expected trajectory now...
+<Scientist> According to the numbers, it should make impact...
+<Scientist> Somewhere southwest of Sootopolis, on a small island off Route 131!
+<Professor Cozmo> But changing trajectories midflight...
+<Professor Cozmo> It's almost like it's alive.
+<Scientist> But Professor, what should we do? WHAT DO WE DO?!
+<Professor Cozmo> Calm yourself, man!
+<Scientist> Y-y-yessir...
+<Professor Cozmo> ...Hmmn. So it's come to this.
+
+#Shot on Sky Pillar
+
+#Summon Team Grunt skin
+
+<...> ... Looks like I won't be needing THIS...
+<...> Hiyyup!
+
+#changes to Zinnia skin
+
+<...> Phew! That's sooo much better!
+<...> Ooooh, I feel so free!
+<...> That uniform got pretty stinky after a while! And all sweaty, too!
+<Whismur> Murrrm!
+<...> Ohhh, my adorable little Aster!
+<...> Are you that happy to see me looking like myself again, hmm?
+<...> Ahhh, you're just too darned cute! Like always!
+<...> Phew.
+<...> But there's not much time left for us.
+<...> It'll only be a matter of weeks...
+<...> ...No. Days.
+<...> Things have gotten a bit tricky now, since that kid managed to stop one of the super-ancient Pokémon from being revived like it should've been.
+<...> Not that it's a really big deal. I've already thought of a new plan.
+<...> If I just tweak a bit with a Key Stone, one with plenty of THAT built up...
+<Whismur> Whisss...
+
+#shot of top-down
+
+<...> I swear I'll protect you.
+<...> ...Aster.
+
+#blinds player
+
+title: Pixelmon Hoenn
+Delta Episode
+
+#tps playet to Littleroot room
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 168 - Littleroot Town
+#Mom and Dad post-Pokemon League
+#https://youtu.be/MgkqxXCmrtI?t=64382
+
+<Dad> Hm?
+<Dad> Why, if it isn't @s!
+<Dad> It's been some time since I last saw you, but you look...stronger, somehow.
+<Dad> That's the impression I get.
+<Dad> But your old man hasn't given up yet!
+<Dad> Oh, and before I forget...
+<Dad> I was thinking of giving these to you.
+
+@s obtained the Pair of Tickets!
+
+<Dad> They're tickets to the star show that's being held at the Mossdeep Space Center.
+<Dad> I was really planning to go with your mom, but...
+<Dad> It looks like I've got to rush back to the Gym in Petalburg.
+<Dad> Oh! Hmm. You know, it is a pair of tickets...
+
+<Dad> Why don't you invite that little cutie May from next door to come along?
+<Dad> Why don't you invite that Brendan boy from next door to come along?
+
+<Dad> Now I'd better be heading back to the Gym.
+<Dad> Thanks for looking after the house while I'm away, dear.
+<Mom> Of course, dear. You have a safe trip.
+
+#Norman tps out
+
+<Mom> Ohhh, that dad of yours!
+<Mom> He comes home for the first time in ages, and all he talks about is Pokémon!
+<Mom> Why can't he ever just let go and relax?
+<Television> ...And tomorrow the long- awaited star show will finally begin!
+<Television> We've got all the latest news and updates!
+<Mom> Oh? Well, and just like that...
+<Mom> Look at this, @s!
+<Television> At last the Litleonid meteor shower returns to illuminate Hoenn's night sky!
+<Television> The star show held at the Mossdeep Space Center will provide the best view of the shooting stars from the center's lofty viewing deck!
+<Television> We hope you all will take the chance to join...
+<Mom> Oh! It sounds lovely!
+<Mom> The Litleonids, hmm?
+<Mom> I remember going to see them with your dad 11 years ago when they last passed by!
+<Mom> You should march right over to invite that neighbor you're friends with.
+<Mom> You can't let that pair of tickets you got from Dad go to waste—so take them along!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 169 - Littleroot Exterior
+#Player metting Zinnia
+#https://youtu.be/MgkqxXCmrtI?t=64490
+
+<...> Huh?
+<...> Whoa! Are we in sync or what! You know, I was just thinking about you!
+<...> It's great to meet you! ...It is our first real meeting, right?
+<...> Yeah. That's right. Of course it is!
+<Zinnia> The name's Zinnia.
+<Zinnia> And you... Well, I know ALL about you. You're @s, of course.
+<Zinnia> You're the new Pokémon League Champion!
+<Zinnia> And you're one of those special few who use Mega Evolution to get even closer to their Pokémon...
+<Zinnia> Now, aren't you?
+<Whismur> Mrrr...
+<Zinnia> OK, I know, I know. I'll leave it alone. Look, I'm stopping!
+<Zinnia> But this sure is a ni-i-i-ice place, isn't it? Littleroot Town.
+<Zinnia> And everybody living here is just so ni-i-i-ice, too.
+<Zinnia> Like that neighbor of yours.
+<Zinnia> ...Oops! So-o-o-rry. I didn't mean to go on like that.
+<Zinnia> We should keep our first meeting short and sweet, don't you think?
+<Zinnia> Until next time, then. Buh-bye!
+<Zinnia> Well... Bye then...
+
+#Zinnia and Whismur tp out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 170 - Littleroot Town
+#Walking into Rival's House
+#https://youtu.be/MgkqxXCmrtI?t=64553
+
+
+<May> Owwww...
+<Mrs. Birch> May, are you OK?!
+<Mrs. Birch> Oh, what should I do! What should I do?! Oh, wibble...
+<May> It's not that big of a deal, Mom.
+<May> She just knocked me down a bit... Yowch! That stings!
+<May> ... Oh! @s!
+<May> @s, you... You're all right, huh?
+<May> ...That's a relief.
+<May> It all happened so fast that I couldn't do a thing, but...
+<May> Some strange woman came in my window, upstairs...
+<May> And then she... She took my Key Stone from me...
+<May> I tried to fight her off with my team, but...
+<May> She was really strong... I didn't stand a chance...
+<May> I think I heard her muttering under her breath as she left, though...
+<May> Something like “Petalburg's next...”
+<May> @s...be careful.
+<May> I'm really happy you came to visit me, but...I'm sorry...
+<May> I think I'll have to sit this one out.
+<Mrs. Birch> Who could have done such a thing to my sweet girl...
+
+
+
+<Brendan> Ughhh...
+<Mrs. Birch> Brendan, are you OK?!
+<Mrs. Birch> Oh, what should I do! What should I do?! Oh, wibble...
+<Brendan> It's not that big of a deal, Mom.
+<Brendan> She just knocked me down a bit... Yowch! That stings!
+<Brendan> ... Oh! H-hey, @s!
+<Brendan> Looks like she didn't get you, huh?
+<Brendan> That's a relief.
+<Brendan> Everything happened so fast that I couldn't do a thing, but...
+<Brendan> Some strange woman came in my window, upstairs...
+<Brendan> And then she... She stole my Key Stone...
+<Brendan> I tried to fight her off with my team, but...
+<Brendan> She was unstoppable... I didn't stand a chance...
+<Brendan> I think I heard her muttering under her breath when she left, though...
+<Brendan> Something like “Petalburg's next...”
+<Brendan> ...You be careful, @s.
+<Brendan> Um, it's really cool that you came to visit me, but...sorry...
+<Brendan> I think I gotta sit this one out...
+<Mrs. Birch> Who could have done such a thing to my sweet boy...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 171 - Littleroot Town
+#Professor Birch giving Johto starter post-league and Zinnia Encounter
+#Activated by leaving your house and having the Dialogue169 tag
+#https://youtu.be/MgkqxXCmrtI?t=64626
+
+<...> H-help me!
+
+#tps player to grass
+
+<Professor Birch> H-help me!
+<Professor Birch> Oh! Why, if it isn't @s!
+<Professor Birch> H-help a professor out!
+<Professor Birch> I've got some Poké Balls in my Bag there!
+
+#----------------------------
+#Dialogue 172 - Route 101
+#After picking a Johto Starter
+
+<Professor Birch> My, my! Good thing that Shroomish wasn't as fierce as it seemed!
+<Professor Birch> I sure do appreciate your trying to help me out, though.
+<Professor Birch> In fact... Why don't you keep that Pokémon?
+<Professor Birch> Yes, that one from the Johto region!
+<Professor Birch> Well, I hope to see you later.
+<Professor Birch> I somehow get the feeling that I will, if I stick around here!
+
+#tp Professor and Shroomish out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 173 - Littleroot Town
+#Professor Birch giving Unova starter
+#NEED CRITERIA
+
+
+<...> H-help me!
+
+#tps player to grass
+
+<Professor Birch> H-help me!
+<Professor Birch> Oh! Why, if it isn't @s again!
+<Professor Birch> H-help a professor out!
+<Professor Birch> I've got some Poké Balls in my Bag there!
+
+#----------------------------
+#Dialogue 174 - Route 101
+#After picking a Unova Starter
+
+<Professor Birch> My goodness, I sure misread that situation, didn't I?
+<Professor Birch> I thought that Machoke from the Pokémon Postal Service was a wild Machoke!
+<Professor Birch> My, my, what a slipup...
+<Professor Birch> I sure do appreciate your trying to help me out, though.
+<Professor Birch> In fact... Why don't you keep that Pokémon?
+<Professor Birch> Yes, that one from the Unova region!
+<Professor Birch> Well, I hope to see you later.
+<Professor Birch> I somehow get the feeling that I will again, if I stick around here!
+
+#tp Professor and Shroomish out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 175 - Littleroot Town
+#Professor Birch giving Sinnoh starter
+#NEED CRITERIA
+
+
+<...> H-help me!
+
+#tps player to grass
+
+<Professor Birch> H-help me!
+<Professor Birch> Oh! Why, if it isn't @s yet again!
+<Professor Birch> H-help a professor out!
+<Professor Birch> I've got some Poké Balls in my Bag there!
+
+#----------------------------
+#Dialogue 176 - Route 101
+#After picking a Sinnoh Starter
+
+<Professor Birch> Oh my! I sure did misread that situation, now didn't I?
+<Professor Birch> I assumed it was a Pokémon chasing after me, but it was just my own wife!
+<Professor Birch> My, my, what a slipup...
+<Professor Birch> I sure do appreciate your trying to help me out, though.
+<Professor Birch> In fact... Why don't you keep that Pokémon?
+<Professor Birch> Yes, that one from the Sinnoh region!
+<Professor Birch> Well, I hope to see you later.
+<Professor Birch> Stop by the lab anytime. Always happy to see you!
+
+#tp Professor
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 177 - Petalburg Town
+#Team Admin at Wally's
+#https://youtu.be/MgkqxXCmrtI?t=64751
+
+<Team Magma Courtney> Tedious... bothersome...child...
+<Team Magma Courtney> You should... just be quiet...
+<Team Magma Courtney> and give me...the Key Stone!
+<Wally> I'm telling you I don't have it!
+<Team Magma Courtney> I already know...
+<Team Magma Courtney> that you can... use...Mega Evolution!
+<Wally> Argh! Are you even listening? I've been telling you—
+<Wally> Ah! @s!
+<Team Magma Courtney> ...?!
+<Team Magma Courtney> ...You.
+<Team Magma Courtney> Aha. ♪ Nice timing...maybe. ♪
+<Team Magma Courtney> I'll be taking... yours first!
+<Team Magma Courtney> Give me... the Key Stone!
+
+#pokebattle
+
+
+
+<Team Aqua Matt> You're such a little pain! Shut up and give me the Key Stone!
+<Wally> I don't have it, I tell you!
+<Team Aqua Matt> Don't play dumb! I already know you can use Mega Evolution!
+<Wally> Argh! Are you even listening? I've been telling you— Ah! @s!
+<Team Aqua Matt> What the?!
+<Team Aqua Matt> You punk!
+<Team Aqua Matt> Hoohahaha! Just in time, aren't you?
+<Team Aqua Matt> I'm gonna take your Key Stone first, you jerk!
+<Team Aqua Matt> Hooaahhh!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 178 - Petalburg Town
+#Team Admin at Wally's Post-battle
+#https://youtu.be/MgkqxXCmrtI?t=64848
+
+<Team Magma Courtney> Huh...
+<Team Magma Courtney> ...No! You're always meddling!
+<Team Magma Courtney> If that's...how it is...
+<Team Magma Courtney> at Meteor Falls... the Leader's...Key Stone...
+
+#team admin tps out
+
+
+<Team Aqua Matt> You clown!
+<Team Aqua Matt> Always gettin' all up in my business!
+<Team Aqua Matt> If it's gonna be like that, I'm off to Meteor Falls.
+
+#team admin tps out
+
+
+<Wally> Thank you so much, @s...
+
+<Wally> That strange woman suddenly attacked me, demanding that I hand over my Key Stone...
+<Wally> The truth is that I couldn't give it to her even if I wanted to.
+
+<Wally> That strange man suddenly attacked me, demanding that I hand over my Key Stone...
+<Wally> The truth is that I couldn't give it to him even if I wanted to.
+
+
+<Wally> My Key Stone is gone...
+<Wally> I left it in the house when I went out, and it just disappeared.
+<Wally> What in the world is going on...
+<Wally> If someone like that ever shows up again...
+<Wally> I've gotta protect my mom and dad.
+<Wally> You be careful, too, @s!
+
+#Wally tps inside
+
+The Entry Call (Ver. 0.09) app rang on your PokéNav Plus!
+???: ...'Lo? Hello?
+???: ...Is that you, @s?
+<Steven> It's me. Steven. Have you been doing well?
+<Steven> Heh... I imagine you must be quite shocked.
+<Steven> This is a communication mode that Devon is still currently developing.
+<Steven> It comes installed on every PokéNav Plus.
+<Steven> I thought I would only use it if I needed to contact you urgently...
+<Steven> But it looks as though that time has already come.
+<Steven> I'm sorry to ask this of you, but I need you to come to the Devon Corporation in Rustboro.
+<Steven> There's something I have to talk to you about—in person...
+<Steven> I'll be waiting for you there.
+...Kzt!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 179 - Rustboro City
+#Meeting Steven outside Devon Corp
+#https://youtu.be/MgkqxXCmrtI?t=65021
+
+<Steven> @s...
+<Steven> I'm sorry about summoning you so suddenly.
+<Steven> It's well known how often my intuition turns out to be right.
+<Steven> But I never imagined we would be meeting again this soon!
+<Steven> I'm sorry to say it is not happy news that brings us together.
+<Steven> Sigh. This isn't something we should discuss in public.
+<Steven> Let's continue this inside. After you.
+
+#tp Steven NPC out upon player going into building
+
+#-------------------------------------
+#Dialogue 180 - Devon Corp
+#https://youtu.be/MgkqxXCmrtI?t=65052
+
+#tp player upstairs to Stone's room
+
+<Steven> Dad...
+<Steven> @s is here.
+<Mr. Stone> Well, welcome, welcome.
+<Mr. Stone> It's been quite a while... hasn't it?
+<Mr. Stone> Ho ho ho... I suppose I'm just getting old.
+<Mr. Stone> Recently I seem to forget details just as soon as I learn them...
+<Mr. Stone> Ho ho ho ho...
+<Steven> ...Dad?
+<Mr. Stone> Ahem!
+<Mr. Stone> Oh, I know. I know what you want to say.
+<Mr. Stone> My, what a hasty, impatient one you are!
+<Mr. Stone> What are we to do with such an impatient one for our Pokémon League Champion?
+<Mr. Stone> ...Hm? Oh, is that so?
+<Mr. Stone> So you're the new Champion, @s?
+<Mr. Stone> Then I guess we'll never break you of that impatience after all, Steven!
+<Mr. Stone> Ho ho ho ho!
+<Steven> Dad!
+<Mr. Stone> Bah! I know... I know...
+<Mr. Stone> Can't you take a joke...
+<Mr. Stone> Now then, @s.
+<Mr. Stone> I'm afraid that I'm planning to start in on a rather long and quite heavy topic.
+<Mr. Stone> Let me first take us back 3,000 years, to the days when this story began...
+<Mr. Stone> There was a great war at that time, in a region far from here.
+<Mr. Stone> That war was finally brought to an end by a weapon created by one man.
+<Mr. Stone> And what energy source could power such a dreadful weapon?
+<Mr. Stone> Do you know? You see...
+<Mr. Stone> It ran on the life energy of Pokémon.
+The energy that could be gained by the sacrifice of so many Pokémon...
+<Mr. Stone> There are surely many people who would call it reprehensible.
+<Mr. Stone> But my grandfather, the president of Devon before me, said this...
+<Mr. Stone> “Couldn't we use the energy to improve the lives of people and Pokémon?”
+<Mr. Stone> And so he developed our greatest creation here at the Devon Corporation: Infinity Energy.
+<Mr. Stone> Thanks to Infinity Energy, Devon was able to become one of the top industries in Hoenn and developed into the giant you see today.
+<Mr. Stone> You may be surprised to learn that the Devon Parts you once recovered for us were in fact parts of a motor that would make it possible to power a submarine using Infinity Energy.
+<Mr. Stone> It was not long before we began to expand our attempts to further human development.
+<Mr. Stone> Next, we moved into exploring space.
+<Mr. Stone> The rockets launched from the Mossdeep Space Center using our Infinity Energy...
+<Mr. Stone> They are the true results of our dreams, our passion, and our technology.
+<Mr. Stone> But never did we imagine they could end up as the best hope for saving our world.
+<Mr. Stone> My preamble has been quite long, but we arrive at last at the real issue.
+<Mr. Stone> That is the overwhelming catastrophe which now approaches us.
+<Mr. Stone> A huge asteroid, more than six miles in diameter, is currently on track to collide with our planet.
+<Mr. Stone> We have been working together with the Mossdeep Space Center, which was first to recognize this danger.
+<Mr. Stone> We are devising countermeasures that would use our rockets, but...
+<Mr. Stone> In order for these plans to succeed, though, we need a Meteorite Shard.
+<Steven> So that's it...
+<Steven> You want them to go and get that shard for you.
+<Mr. Stone> Hah! That's my boy, all right! I knew you'd understand at once.
+<Steven> It was hardly a deduction worthy of praise...
+<Mr. Stone> I want you to make your way to the Granite Cave near Dewford.
+<Mr. Stone> According to our surveys, you should be able to find the kind of Meteorite Shards that we need there.
+<Mr. Stone> And you, Steven...
+<Mr. Stone> I want you, Son, to head for the Space Center at once to start the preparations, using that Link Cable that I gave you.
+<Steven> The Link Cable? So it is to be a warp system...
+<Steven> Yes, I understand. But Granite Cave...
+<Steven> Ah. I see. The floor where we first met— the floor with the ancient wall paintings.
+<Steven> It is true that there were many shards of meteorite scattered about there.
+<Steven> It looks as though it's decided then, @s.
+<Steven> I will head for the Space Center in Mossdeep.
+<Steven> If I learn anything, I will contact you at once.
+<Steven> Though it will end up as another one-sided message like the one I sent you, I'm afraid.
+<Steven> Good luck.
+<Mr. Stone> ...Steven? You be careful.
+
+#Steven tps out
+
+<Mr. Stone> Then...I will be counting on the two of you to take care of this for me.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 181 - Granite Cave
+#Zinnia and the player
+#https://youtu.be/MgkqxXCmrtI?t=65432
+
+<Zinnia> Hm, hm, hm. Well, seems like it's true.
+<Zinnia> It really is just like the wall painting there.
+<Zinnia> This one shows Primal Reversion... While that one shows Mega Evolution...
+<Zinnia> I guess that proves it once and for all.
+<Zinnia> Our great ancestors once lived here, too.
+The ancestors who passed down through me the knowledge of how to protect the world...
+<Zinnia> How to avert the threat that will appear from space, as long was foretold...
+<Zinnia> From a place higher even than the heavens...
+<Whismur> ...Mum?
+<Zinnia> What is it, Aster?
+<Zinnia> Oh?
+<Zinnia> We do seem to meet an awful lot, @s.
+<Zinnia> Are you also interested in this old painting?
+<Zinnia> Or are you here for the other? For one of the Meteorite Shards that can serve as a source of power for the Legendary Pokémon that lives in the heavens above.
+<Zinnia> Either way... You know I adore you.
+<Zinnia> That's it! I can't help it! I have to battle you!
+<Zinnia> I'll play nice, though, and ask first... You're ready to battle me, right?
+
+#---------------------------------
+#Dialogue 182 - Granite Cave
+#Zinnia post-battle
+#https://youtu.be/MgkqxXCmrtI?t=65629
+
+<Zinnia> Niiice! Real nice, @s! Ohhh, I really felt that one! Full points to you!
+<Zinnia> That settles it! You get this Meteorite Shard as a reward!
+
+@s obtained the Meteorite Shard!
+
+#Summon question mark
+
+<Zinnia> That glittering Meteorite that you've got there...
+<Zinnia> Hmm... It's sure giving off some vibes.
+<Zinnia> I'd keep a tight hold on it if I were you, along with that shard I just gave you.
+<Zinnia> ...
+<Zinnia> ... Hey... The actions that you're taking now...
+<Zinnia> Are they based on the ideals you cling to?
+<Zinnia> Or are they based on actual truths?
+<Zinnia> And if they are... How much of the truth do you think you know?
+<Whismur> ...Mum?
+<Zinnia> Yes, ma'am! Moving out!
+<Zinnia> Such a spoiled girl you are, Aster...
+<Zinnia> So what'll be our next stop, hmm, sweetie?
+
+#tp out
+
+The Entry Call (Ver. 0.09) app rang on your PokéNav Plus!
+<Steven> ...@s.
+<Steven> Were you able to find the Meteorite Shard that we need?
+<Steven> If you were able to secure it, could you hurry back to us at the Mossdeep Space Center?
+<Steven> I'm afraid we don't seem to have much time left...
+<Steven> ...I'll be waiting for you.
+...Kzt!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 183 - Mossdeep Space Center
+#Speaking to woman by the stairs
+#https://youtu.be/MgkqxXCmrtI?t=65836
+
+<Lass> You must be @s.
+<Lass> Mr. Steven Stone told me he was expecting you. This way, please.
+
+#teleport to story-specific floor of control room
+
+<Lass> Professor Cozmo. If I may interrupt you...
+<Professor Cozmo> Ah, @s! Thank you for coming!
+<Professor Cozmo> And you brought the Meteorite Shard with you. Well done!
+
+@s handed over the Meteorite Shard to Professor Cozmo!
+
+<Steven> I was rather surprised to learn that you knew the professor.
+<Steven> You really do seem to make connections everywhere you go.
+<Steven> Now then, Professor...
+<Steven> Could I ask you to explain once more about the current plan?
+<Professor Cozmo> Indeed... Please come this way.
+
+#tps over to the control panel
+
+<Professor Cozmo> I imagine that you've heard some of the situation from President Stone already.
+<Professor Cozmo> Our current plan involves using the Infinity Energy within our rocket, combined with the life energy of humans found in Key Stones...
+<Professor Cozmo> We will start off by artificially replicating the massive energy that is triggered at the time of Mega Evolution!
+<Professor Cozmo> We will fire the energy produced from our rocket into space...
+<Professor Cozmo> And create a "warp hole."
+<Professor Cozmo> By creating a warp hole in the path of the incoming meteoroid, we hope to be able to transport it somewhere far away from here.
+<Professor Cozmo> As a matter of fact, this technology already exists and has been incorporated in some of our commonly used devices.
+
+#summon exclamation
+<Professor Cozmo> I think you know what I mean.
+<Professor Cozmo> Those panels that spin you about and then out you come, warped to another spot.
+<Professor Cozmo> I imagine you've stepped on a few such?
+
+<Steven> An audacious plan... And using such technology you would...
+<Steven> May I ask where exactly the asteroid will be warped to?
+<Professor Cozmo> Well. We're not entirely sure, but...
+<Professor Cozmo> We do have a device that links the warp holes.
+<Professor Cozmo> We've named it the Link Cable.
+<Professor Cozmo> But there's no need to worry. Based on our theory, we can at least guarantee that we will be sending it away from our planet.
+<Professor Cozmo> However, we've realized that we will need more energy than originally anticipated to control the Link Cable properly...
+<Professor Cozmo> I'm sorry to ask this of you, but with one more Meteorite Shard...
+
+#summons question marks
+
+#cut to shot of Zinnia
+<Zinnia> Nice!
+<Zinnia> So this is the heart of the famous Space Center everyone talks about!
+<Zinnia> Pretty impressive, huh, Aster?
+<Whismur> Mur mur mur!
+<Lass> Excuse me! Young lady! You can't just let yourself in here!
+<Zinnia> Oh? Where's the harm in it? Don't be such a stick-in-the-mud! ♪
+<Zinnia> ...Right?
+<Lass> Ugh...
+
+#tps Steven and Cozmo near Zinnia
+
+<Steven> Who...are you? You're no sightseer...
+<Zinnia> Oh me, we do seem to keep running into one another.
+<Zinnia> You are a busy trainer, @s.
+<Professor Cozmo> Wh-who are you?! What're you doing here?!
+<Zinnia> Me? I'm Zinnia.
+<Zinnia> Just your regular ol' tourist, nothing more.
+<Zinnia> Dreaming of taking a little trip into space... Heh.
+<Zinnia> Oh, I seeeeee... So this is what has come of human technology and of hope and blood and sweat and tears and...
+<Zinnia> Well, the list gets kinda long and boring. But it contains everything, huh?
+<Zinnia> I know all about it.
+<Zinnia> About just what kinda energy you're using to fuel this rocket thing...
+<Zinnia> The abominable technology humanity first thought up 3,000 years ago...
+<Zinnia> So you're once again planning to claim that this is best for humanity, or best for the whole darn world...
+<Zinnia> It's a snap of your fingers to repeat the sins of the past.
+<Zinnia> Worse, if what I overheard is true...
+<Zinnia> This time, you're about to commit an error more abominable than before!
+<Steven> Tell me, would you rather we sit here wringing our hands, waiting for that meteoroid to strike us?
+<Zinnia> Ahahahaha! What's up with that?
+<Zinnia> You're a pretty simple guy for a former Pokémon League Champion.
+<Zinnia> Then I guess I'll hang my hopes on what our current Champion will have to say.
+<Zinnia> So how about it, @s?
+<Zinnia> What do you think? Do you have some better idea?
+[You bet I do!]  [I've got nothing...]
+
+#relog text
+<Zinnia> What do you think? Do you have some better idea?
+[You bet I do!]  [I've got nothing...]
+
+#----------------
+#Dialogue 184 - Mossdeep Space Center
+#Story Continuation
+
+[I've got nothing...]
+<Zinnia> Really? Too bad. Guess I was expecting more than I should have from you.
+<Zinnia> Hey, that's fine, though. That's pretty normal.
+
+[You bet I do!]
+
+<Zinnia> Oooh! Really? Well, that's promising...
+<Zinnia> You'll have to tell me so we can set these guys straight.
+
+<Zinnia> Look, I'm not here to criticize the way you guys are looking at this.
+<Zinnia> But I want to be sure you've thought this through well and good.
+<Zinnia> You know, there are necessary sacrifices, and there are unnecessary sacrifices.
+<Zinnia> What a disappointment!
+<Zinnia> This is the best you could do with all your knowledge and technology?
+<Zinnia> Instead of trying to make something outta nothing, you'd rather repeat the mistakes of the past, straight up?
+<Zinnia> No, you're gonna add new mistakes on top—that really takes the cake.
+<Zinnia> You guys need some imagination.
+<Professor Cozmo> ...
+<Zinnia> Oops! But you were all in the middle of a conversation or something, right?
+<Zinnia> Sorry about that.
+<Zinnia> I guess we'll just let ourselves out, then.
+<Zinnia> C'mon, Aster.
+<Whismur> Mur mur mur!
+
+#tps out
+
+<Steven> ... Who was that woman?
+<Steven> And the way she spoke to us...
+<Steven> It's almost as if she came here for some kind of confirmation...
+<Steven> Ah, Professor, forgive me.
+<Steven> I believe you were trying to tell us something before that woman interrupted us?
+<Professor Cozmo> Uh... Yes... Ah, you see...
+<Professor Cozmo> In order to complete the warp hole, we will need another Meteorite Shard, an extremely pure one...
+<Steven> Then should we head to Granite Cave once again?
+<Professor Cozmo> No... The kind of Meteorite Shard we need this time can only be found at Meteor Falls.
+<Steven> Meteor Falls!
+<Steven> I see... Perhaps we will learn something there...
+<Steven> I will head to Meteor Falls at once. Follow as soon as you are ready.
+<Steven> I feel we might discover even more than a Meteorite Shard there...
+
+#Steven TPs out
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 185 - Meteor Falls
+#Steven
+#https://youtu.be/MgkqxXCmrtI?t=66751
+
+#summon exclamation
+
+<Steven> @s. We have the Meteorite Shard.
+<Steven> And I have come to understand many things, as I suspected might happen.
+<Steven> Allow me to introduce you.
+<Steven> The honorable lady you see before you is a descendant of the ancient Draconids.
+<Draconids Lady> Yes, I am one of the Draconid people.
+<Draconids Lady> One of those ancient folk tasked with passing down the knowledge of Mega Evolution—\
+<Draconids Lady> with the great lore of Lord Rayquaza, who was the beginning of all.
+<Draconids Lady> Since times long gone, Hoenn has repeatedly suffered great disasters.
+<Draconids Lady> At times, the destruction took the form of a huge meteoroid, which fell upon our land from distant space.
+<Draconids Lady> At other times, the Primal Reversions of our own super-ancient Pokémon brought us to the brink of destruction.
+<Draconids Lady> Each time, Lord Rayquaza has saved us from doom.
+<Draconids Lady> The chosen Lorekeeper, standing before a stone that shone with rainbow light, offered up a wish to the great one.
+<Draconids Lady> And Lord Rayquaza's body was suffused with a brilliant light and transformed.
+<Draconids Lady> In its transformed state, Rayquaza's power was more devastating than ever before,
+<Draconids Lady> overcoming even the super-ancient Pokémon with all their primal power.
+<Steven> A rainbow-colored stone...
+<Steven> An invocation from the Lorekeeper...
+<Steven> And a Rayquaza unlike any ever seen...
+<Steven> I see. It does resemble what we know of the process of Mega Evolution...
+<Draconids Lady> Yes, it does indeed. A Pokémon, a person, a stone of power.
+<Draconids Lady> The bonds that tie them all together...
+<Draconids Lady> The transformation of the Pokémon that occurs as a result of this phenomenon was called “Mega Evolution” by later peoples.
+<Steven> So the mechanism for Mega Evolution was discovered as a result of the first meeting between humanity and Rayquaza...
+<Steven> Hmmmm. But I have one last question. That “Lorekeeper” you spoke of...
+<Draconids Lady> The Lorekeeper is the one who has inherited the knowledge and power to summon Lord Rayquaza when disaster imperils this world.
+<Draconids Lady> The true Lorekeeper of the current generation is the one called Zinnia.
+<Draconids Lady> The disaster that now approaches our planet, as it has twice before...
+<Draconids Lady> Zinnia has been trying for some time to avert it... in her own way.
+<Draconids Lady> To draw Lord Rayquaza to our sphere, she joined a certain organization that sought to revive the super-ancient Pokémon.
+<Draconids Lady> She taught them the secrets needed to bring back these threats and summon the great Dragon itself.
+<Draconids Lady> And now it seems she travels the land, scouring the world for Key Stones...
+<Steven> So it was true...
+<Steven> As I had suspected, that woman who appeared at the Space Center was one of the Draconids...
+<Steven> But I never dreamed she was involved in the attempted revival of the super-ancient Pokémon...
+<Steven> In full knowledge of the power they held, fully understanding the terrible changes they would wreak upon our world...
+<Steven> Still she helped bring that situation about?
+<Steven> Did she give a thought to the many people and Pokémon whose lives were put at grave risk by her actions?
+<Steven> Could she accept the inevitable sacrifice of so many lives, in order to protect the planet from the coming meteoroid?
+<Draconids Lady> Balance must rule this world. History is doomed to repeat itself...
+<Draconids Lady> While our people have overcome many disasters in the past, it was always through great, great sacrifice...
+<Draconids Lady> Yet we have continued to struggle to preserve peace for as many years as we can.
+<Draconids Lady> That is how we have protected this world, upon which we now live.
+<Draconids Lady> People... Pokémon... All nature... And, yes, even you.
+<Draconids Lady> I do not know exactly what you plan to do.
+<Draconids Lady> But do you believe that you are not sacrificing anything for your own protection?
+<Draconids Lady> Zinnia will follow her convictions until the very end.
+<Draconids Lady> Even knowing the sacrifices that they will require.
+<Draconids Lady> Even if the sacrificial blade is leveled at her own heart.
+<Steven> ... Is that right?
+<Steven> ... I understand.
+<Steven> Thank you for everything.
+<Steven> What is this... This vague sense of apprehension...
+<Steven> And my intuition has often proven true.
+<Steven> I am going back to Rustboro first. I have to get back to Devon.
+
+#tp steven out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 186
 
 
 
@@ -5295,6 +6280,122 @@ give @s dawn_stone
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Helpful points of reference
 
 #Invese Battle Stop
 #https://youtu.be/MgkqxXCmrtI?t=18548
@@ -5312,7 +6413,7 @@ Clear air surrounds the area. It's lifting your spirits...
 
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=61369
+https://youtu.be/MgkqxXCmrtI?t=66973
 
 
 
