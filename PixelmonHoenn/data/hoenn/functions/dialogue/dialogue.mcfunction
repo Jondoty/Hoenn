@@ -4343,47 +4343,950 @@ tag @s add Dive
 
 
 #-----------------------------------------------------------------------------------------------------
-#Dialogue 140
+#Dialogue 140 - Seafloor Cavern
+#Leaders prior to waking  legendary
+#https://youtu.be/MgkqxXCmrtI?t=54127
+
+#Magma Variant
+<Archie> Ugh...
+<Maxie> Ahahaha!
+<Maxie> How pathetic you appear now. The fool, Archie.
+<Archie> Ugh! Arghhh...
+<Archie> M-Maxie...you...!
+<Archie> Fuhahaha! Just as I predicted.
+<Archie> L-little scamp...
+<Archie> Even I, the great Maxie, have found myself wishing for something I cannot justify.
+<Archie> And the illogical desire that I harbored was to have you present here at this moment.
+<Archie> Hahaha... And now that fool's wish has come true.
+<Archie> Fantastic! Nothing could please me more!
+<Archie> I suppose I should make introductions...
+<Archie> I present to you my incomparable partner, who will assist Team Magma in driving humanity forward to its next level!
+
+#shot of the legendary in stone
+
+<Maxie> The super-ancient Pokémon...Groudon!
+<Maxie> Behold! This great form slumbering in defiance of even the broiling lava surrounding it!
+
+#shot of Archie
+
+<Archie> ...
+
+#back to first person
+
+<Maxie> So long have I waited for this day...
+<Maxie> Immeasurably long!
+<Maxie> This foolish world has held back humanity's progress out of misguided idealism regarding the coexistence of humans and Pokémon.
+<Maxie> But this ancient creature can bring that to its rightful end, creating a new land upon which humanity may stride freely forward.
+<Maxie> Now that I have at last obtained the power of Primal Groudon!
+<Maxie> And now, you are the final obstacle remaining between me and my goals.
+<Maxie> It behooves me to use every tool at my disposal to eliminate you.
+<Maxie> Indeed! Even Mega Evolution!
+<Maxie> Do not delude yourself that you and your Pokémon are the only ones capable of it.
+<Maxie> I must apologize for making you wait through our encounters at Mt. Chimney and Mt. Pyre without treating you to this sight.
+<Maxie> Brace yourself for my ultimate attack!
+<Maxie> Fuhahaha!
 
 
 
 
 
+#Aqua Reference
+#https://youtu.be/gFWJkdUqeWA?t=188
+
+<Maxie> Urk...
+<Archie> Bwahahaha!
+<Archie> You're looking pretty pathetic now, aren't you? The great Maxie!
+<Maxie> Ugh...
+<Maxie> A-Archie...you...
+
+<Archie> Bwahahaha!
+<Maxie> Y-you, child...
+<Archie> Well, if it isn't my little adversary!
+<Archie> I can't even find the words to praise you as you deserve.
+<Archie> Sometimes it's best to keep things simple.
+<Archie> All I'll say is you met my expectations, scamp!
+<Archie> And I'm not just talking about today, but everything you've done up till now.
+<Archie> And that's why you'll get the honor of meeting my new partner before anyone else living in this world!
+
+#shot of the legendary in stone
+
+<Archie> The super-ancient Pokémon...KYOGRE!!!
+<Archie> How 'bout that?!
+<Archie> That beautiful form so long resting at peace within the azure sea!
+<Maxie> ...
+<Archie> I've been waiting so long for this day to come.
+<Archie> We humans have disregarded Pokémon and nature both in our endless pursuit of our own desires and needs...
+<Archie> And in the process, we've created this broken and disordered world...
+<Archie> But this is the day when I finally obtain the power to return everything to how it once was—to return to our beginnings!
+<Archie> Now that I can release the ancient power!
+<Archie> The ancient power of Primal Kyogre!
+<Archie> And now, you are the last token resistance that's trying to ruin my day.
+<Archie> I'll use everything my team and I have to crush you once and for all!
+<Archie> Oh? And...Mega Evolution?
+<Archie> Did ya think that you and your Pokémon are the only ones who can use it?
+<Archie> Let me show you now what I didn't get the chance to show you at Mt. Chimney...
+<Archie> This is the true power of my team!
+<Archie> GRAAAAAAAAAHHHHHH!!!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 141 - Seafloor Cavern
+#Legendary summoned, Magma line
+#https://youtu.be/MgkqxXCmrtI?t=54419
+
+#Magma Line
+<Maxie> Hah... Hah... Hahhh...
+<Maxie> ... Ah. Aha... Fuhahaha...
+<Maxie> Kahahahaha! GAHAHAHAHAHAHA!
+<Maxie> Splendid. Just splendid, my young Trainer.
+<Maxie> No, it is more than that!
+<Maxie> I should be calling you my young hero!
+<Maxie> Believing until the very end that a world where humanity and Pokémon coexist must be the best...
+<Maxie> Rejecting my ideals without a second thought...
+<Maxie> Yes, watching you struggle desperately to halt the beginning of the world's end...
+<Maxie> You are undoubtedly a hero!
+<Maxie> So noble...
+<Maxie> And yet. I will not yield! I will not bend!
+<Maxie> My ideals will not be shaken!
+<Maxie> My dream for the world's next step forward will never change!
+<Maxie> I will use the Red Orb to awaken Groudon, revert it to its primal form, and put an end to all else!
+<...> Wait! Maxie!
+
+#tps Tabitha in
+
+<Maxie> Buh?! Tabitha?!
+<Team Magma Tabitha> Do stop that now... Please! Maxie!
+<Team Magma Tabitha> You just don't understand!
+<Team Magma Tabitha> What Groudon will bring about upon awakening is an end to the world!
+<Maxie> Humph. Did you think I had not noticed?
+<Maxie> That I had somehow failed to realize you were after my spot? Such a sad development indeed.
+<Maxie> To be betrayed by my number two...
+<Maxie> In the end, there is only one being upon which I can depend!
+<Maxie> Now, Groudon! Absorb all of the power resting in this Red Orb, and reclaim yourself!
+<Maxie> Revert to your primal form!
+<Maxie> This is the time to take back the great Evolution you lost in the ancient past!
+<Maxie> Reclaim the possibility you once held!
+<Archie> Augh... You...
+
+#Maxie using the blue orb
+
+#Groudon shatters rock, turns into normal form
+
+#Maxie surfaces to the land, toggles weather to sunny
+
+#Shot of Sootopolis in view, grouodon on lava?
+
+<Maxie> Gahahahaha! At last...
+<Maxie> AT LAST! I've finally done it!!!
+<Maxie> A new world for human evolution will be born!!!
+<Maxie> We shall stride forward!!!
+<Team Magma Tabitha> Ohh... What have you done...
+<Team Magma Tabitha> Boss... What...
+<Maxie> ...Hm? A message from our members outside?
+<Maxie> What is it?
+<Maxie> So the sun has turned mercilessly fierce in its heat. I should expect so.
+<Maxie> That is what I have long— No, what WE have long wished for.
+<Maxie> What?! The heat is greater than simulations predicted?
+<Maxie> It will be a risk to our own safety if it continues?!
+<Maxie> That cannot be... It has only just awoken...
+<Maxie> Where is it getting so much power from?
+<Maxie> And how much more will it gain when it does undergo Primal Reversion...
+<Maxie> C-continue your readings! Then report back!
+<Team Magma Tabitha> Boss?! Maxie?! Just what's happening on the surface?!
+<Maxie> All that matters is...
+<Maxie> That I have used the Red Orb to awaken Groudon.
+<Maxie> And now... I will transform this planet to a land ideal for humanity.
+<Archie> Hey, Maxie.
+<Archie> Looks like we underestimated the power of the super-ancient Pokémon...
+<Archie> The power of Primal Reversion...
+<Maxie> What...did you say?
+<Archie> Primal Groudon brings about an “end,” all right.
+<Archie> But you don't get to choose what end.
+<Archie> It's gonna drive every living thing on this planet to its death!
+<Archie> The only thing waiting for us is despair.
+<Archie> A despair we can't even run from. A despair that's gonna crush humanity.
+<Archie> You blasted fool...
+<Archie> And it's all happening 'cause you were cocky enough to think you could control the super-ancient Pokémon's power!
+<Team Magma Tabitha> So the information we received from the Weather Institute was true...
+<Team Magma Tabitha> Boss Maxie! We'll never get anywhere just standing around here like this!
+<Team Magma Tabitha> There isn't a moment to spare! We must confirm the situation on the outside!
+<Team Magma Tabitha> Child! You're coming, too! Hurry up!
+
+#tps everyone out to surface
+
+#shot of the sun
+
+#Drought particles @ 20tps
+#particle minecraft:crimson_spore ~ ~1 ~ 10 10 10 10 100 normal
+#particle minecraft:flame ~ ~0 ~ 10 0.1 10 0 1 normal
+
+<Maxie> This... This is not...
+<Team Magma Tabitha> What...
+<Maxie> ...
+<Maxie> I...
+<Maxie> I wanted... I wanted to make...
+<Maxie> It was supposed to be a world where the human race would attain new heights...
+<Maxie> The next stage...of our development...
+<Maxie> It was all...for humanity's future...
+<Team Magma Tabitha> Boss... Maxie...
+<Archie> So this...is the power of the super-ancient Pokémon...
+<Archie> This is how Groudon brings everything to an end...
+<Archie> All of us, people and Pokémon...
+<Archie> Every living thing on this planet... Everything's gonna die...
+<Archie> OK, little scamp... We're setting sail for Sootopolis.
+<Archie> That blasted Groudon is no doubt gonna get there ahead of us.
+<Archie> It'll be waiting for us deep in the Cave of Origin, there in Sootopolis...
+<Archie> There's a pool of energy there that folks say is needful for Primal Reversion.
+<Archie> There's no doubt in my mind that Groudon will be racing to that cave, thirsting for that power...
+<Archie> We got no choice but to go ourselves. We gotta do whatever we can to fight back!
+<Archie> All right, Maxie! You Team Magma blighters better come with us.
+<Archie> We're responsible for this mess. This ridiculous, impossible mess.
+<Archie> It only makes sense for us all to step up and clean up after ourselves. Agreed?
+<Maxie> Ngh...
+<Team Magma Tabitha> Let's go. Boss Maxie...
+
+#tps Magmas out
+
+<Archie> ...
+<Archie> Hey, little scamp. Look, I'm supposed to be a grown-up, right?
+<Archie> So let me say sorry for the way this has gone down.
+<Archie> And...I'm sorry 'cause I've gotta ask you to pitch in with the cleanup.
+<Archie> We need every hand on deck if we're gonna do something about this mess...
+<Archie> So...I'll be waitin' for you in Sootopolis.
+
+#tps Archie Out
+
+#overhead shot of the island
+
+#tps back to the island
+
+#Steven Stone flies in
+
+<Steven> @s!
+<Steven> I'm sorry I could not be here sooner.
+<Steven> Terrible...
+<Steven> So this is what was being depicted in that painting in Granite Cave.
+
+<Steven> If this doesn't stop, all Hoenn— no, the entire world—will burn up.
+<Steven> Nothing could live in such a land of death—neither Pokémon nor humans!
+<Steven> This dreadful blaze... It must be caused by the sweltering heat wave forming above Sootopolis...
+
+<Steven> Come on, Steven... Think! What are you going to do?
+<Steven> ... ...No.
+<Steven> There's no point in agonizing over the situation from here...
+<Steven> I have to go to Sootopolis. There must be answers there.
+<Steven> @s...
+<Steven> I will count on you to help with this crisis...
+<Steven> But...please... Promise you won't do anything reckless.
+<Steven> Well then. I'll go ahead to Sootopolis.
+<Steven> Good luck to you.
+
+#Steven flies away
+
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 142 - Seafloor Cavern
+#Legendary Summoned, Aqua Line
+
+
+#Aqua Line
+#https://youtu.be/gFWJkdUqeWA?t=595
+<Archie> Hah... Hah... Ahh...
+<Archie> ... Ah. Aha...
+<Archie> Ahahahaha...
+<Archie> Bwahahahahahaha! Bwaha! AHAHAHAHAHA!
+<Archie> Perfect! You're just as great as any little hero trying to save the world oughta be!
+<Archie> But it changes nothing!
+<Archie> I can't give up now! I can't!
+<Archie> I WILL use the power of this Blue Orb to awaken Kyogre at last!
+<Archie> Then I'll return everything in this world to its original, pure state!!
+<Archie> Now! AWAKEN, KYOGRE!
+<Archie> RETURN EVERYTHING TO THE WAY IT WAS!!
+<...> Archie!
+
+#tps in Shelly
+
+<Archie> Shelly?
+<Team Aqua Shelly> That's enough!
+<Team Aqua Shelly> Can't you see that the world you dream of and the world that Kyogre will create are two completely different places?!
+<Archie> Shelly...
+<Archie> I always believed that you at least would understand my dreams...
+<Archie> But no! In the end, the only one I can depend on is you, Kyogre!
+<Archie> Absorb all the power resting in this Blue Orb, and reclaim yourself!
+<Archie> Revert to your primal form!
+<Archie> This is the time to take back the great Evolution you lost in the ancient past!
+<Maxie> No... That...
+
+#Archie using the blue orb
+
+#Kyogre shatters rock, turns into normal form
+
+#Kyogre surfaces to the land, toggles weather to rainfall
+
+#Shot of Sootopolis in view
+
+<Archie> Bwahahahaha! At last...
+<Archie> AT LAST! I've finally done it!!!
+<Archie> It hasn't even finished reversion, and it still has this much power!!!
+<Archie> With this I can return everything to its natural beginning!
+<Archie> It's time at last!
+<Team Aqua Shelly> What...have you done...
+<Archie> Is that the crew outside?
+<Archie> What is it...? Oh? So the great deluge has begun...
+<Archie> Bwahahahaha! But of course it has!
+<Archie> That is exactly what I have—
+<Archie> What...?
+<Archie> What do you mean far more than we thought?!
+<Archie> It can't be... Then if it completes its Primal Reversion...
+<Archie> N-never mind that! Just keep an eye on it!
+<Team Aqua Shelly> Archie! What's going on outside?!
+<Archie> All that matters is...
+<Archie> That I have used the Blue Orb to awaken Kyogre...
+<Archie> And now... I will return this world to its natural state...
+<Archie> The state that is best for Pokémon!
+<Maxie> Archie.
+<Maxie> It appears you have made a grave error regarding Kyogre's powers.
+<Archie> What...did you say?
+<Maxie> The “beginning” that Primal Kyogre brings about... The way that it resets the world...
+<Maxie> It starts by driving every living thing on this planet to death first!
+<Maxie> This path leads only to an inescapable despair that cannot be withstood.
+<Maxie> That is all you have brought us.
+<Maxie> This is what comes of the madness of thinking that you could ever control the super-ancient Pokémon's power!
+<Team Aqua Shelly> I knew it.
+<Team Aqua Shelly> ... We just need to get out of here! Standing around complaining isn't going to solve anything!
+<Team Aqua Shelly> You, too! Well, hurry up!
+
+#tps everyone out to surface
+
+#shot of the rain
+
+<Archie> This... This is...
+<Team Aqua Shelly> How awful...
+<Archie> ...
+<Archie> I... I only wanted...
+<Archie> I wanted to make...a world where Pokémon could live on...in peace...
+<Archie> Where...that...Pokémon...
+<Team Aqua Shelly> Archie...
+<Maxie> Is this... Is this the power of the super-ancient Pokémon?
+<Maxie> Is this what Kyogre's power truly is?
+<Maxie> Is this how you return everything to its beginning?
+<Maxie> The balance in this world is faltering.
+<Maxie> At this rate, it may be lost forever.
+<Maxie> You...
+<Maxie> We will make our way to Sootopolis.
+<Maxie> It is most likely the case that Kyogre is also making its way to that city.
+<Maxie> In the deepest reaches of the Cave of Origin, which lies in the heart of Sootopolis City...
+<Maxie> That is where Kyogre will find the energy it needs to reclaim its primal form.
+<Maxie> I expect Kyogre will go to that place in search of even greater power.
+<Maxie> We must follow it to the Cave of Origin and do whatever it takes!
+<Maxie> There's nothing else we can do!
+<Maxie> Archie. You and your team of fools will accompany us.
+<Maxie> We have brought this calamity upon ourselves.
+<Maxie> It is only right that we take responsibility and clean up after our mistakes.
+<Archie> Ugh!
+<Team Aqua Shelly> Let's go, Archie!
+
+#Aquas tp out
+
+<Maxie> ...
+<Maxie> As an adult, I first feel I must apologize for the way things have turned out.
+<Maxie> I am truly sorry...
+<Maxie> But I must ask for your assistance. Won't you help us avert this crisis?
+<Maxie> If we work together, I believe we'll be able to overcome this ultimate threat.
+<Maxie> I will expect your arrival in Sootopolis.
+
+#tp Maxie out
+
+#overhead shot of the island
+
+#tps back to the island
+
+#Steven Stone flies in
+
+<Steven> @s!
+<Steven> I'm sorry I could not be here sooner.
+<Steven> Terrible...
+<Steven> So this is what was being depicted in that painting in Granite Cave.
+
+<Steven> If this doesn't stop, all Hoenn— no, the entire world—will drown.
+<Steven> Nothing could live in such a world— neither humans nor Pokémon!
+<Steven> This huge rain cloud... Is it spreading out from Sootopolis?
+
+<Steven> Come on, Steven... Think! What are you going to do?
+<Steven> ... ...No.
+<Steven> There's no point in agonizing over the situation from here...
+<Steven> I have to go to Sootopolis. There must be answers there.
+<Steven> @s...
+<Steven> I will count on you to help with this crisis...
+<Steven> But...please... Promise you won't do anything reckless.
+<Steven> Well then. I'll go ahead to Sootopolis.
+<Steven> Good luck to you.
+
+#Steven flies away
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 143 - Sootopolis City
+#Prior to Cave of Origin (Magma Variant)
+#https://youtu.be/MgkqxXCmrtI?t=55538
+
+<Steven> @s!
+<Steven> So you did come... I have been waiting for you.
+
+<Steven> ... What terrible heat...
+<Steven> It feels as though the entire world will be burnt away...
+
+<Steven> ... What terrible rain...
+<Steven> It feels as though the entire world will be washed away...
+
+<Steven> Ah, yes. You need to hear what my friend has to say.
+
+<Wallace> My name is Wallace. I'm this town's Gym Leader.
+<Wallace> I've also been entrusted with the protection of the Cave of Origin.
+
+<Wallace> This drought is being caused by a power emanating from the Cave of Origin.
+<Wallace> This downpour is being caused by a power emanating from the Cave of Origin.
+
+#summon exclamation
+
+<Wallace> That is the Blue Orb.
+<Wallace> That is the Red Orb.
+
+<Wallace> I see. Follow me.
+
+#teleports to side of path
+
+<Steven> This sunlight...
+<Steven> People and Pokémon need sunlight to live...
+<Steven> So why does this sunlight fill us with so much dread?
+<Steven> The blazing sun over Sootopolis is growing even more intense...
+<Steven> Soon all of Hoenn will be caught under its withering glare...
+
+<Steven> This rain...
+<Steven> People and Pokémon need water to live...
+<Steven> So why does this rain fill us with so much dread?
+<Steven> The rain clouds massing over Sootopolis keep building...
+<Steven> Soon they will extend over all of Hoenn...
+
+<Steven> If that were to happen...
+
+#shot of leaders at entrance
+
+#tps to bridge
+
+#Magma line
+<Maxie> ...
+<Steven> Team Magma...and Team Aqua...
+<Archie> We've been waiting, ya scamp!
+<Team Magma Tabitha> Leader Maxie...
+<Team Magma Tabitha> to that child...?
+<Maxie> ...I know what must be done.
+<Maxie> I will entrust this to you now.
+<Maxie> It is the fruit of our collaboration with the Devon Corporation, and it represents the height of Hoenn's technological knowledge and skill.
+
+@s obtained the Magma Suit!
+
+<Team Magma Tabitha> We had actually been preparing that in anticipation of making contact with Groudon...
+<Team Magma Tabitha> But at this point, it doesn't look like there's any hope of that for us...
+<Team Magma Tabitha> There's nothing we can do except leave it to you.
+<Maxie> And yet...
+<Maxie> Even with that Magma Suit, is it probable that anyone could pass through that magma,
+<Maxie> now fiercer than ever due to the forces of nature?
+<Team Magma Tabitha> That's true.
+<Team Magma Tabitha> It is very possible that its energy could be far greater than our calculations show.
+<Wallice> There is nothing to fear.
+<Wallice> The Blue Orb they bear...
+<Wallice> Its ancient powers will protect both the trainer and their Pokémon.
+<Archie> You've hit the nail on the head!
+<Archie> Those old folks at Mt. Pyre did say something about that...
+<Archie> That the Red Orb would unleash Groudon's primal powers...
+<Archie> And trigger a Primal Reversion.
+<Archie> ...While the Blue Orb had the power to reverse that and calm the beast.
+<Wallice> Yes. The energy overflowing from the Cave of Origin just now...
+<Wallice> It is the same energy that gives Groudon its power...
+<Wallice> With the Blue Orb, which contains the power to suppress that...
+<Wallice> It should be possible to calm the rage of this flood of magma.
+<Wallice> Of course the Blue Orb's power alone will not lead you to where Groudon waits.
+<Wallice> You will not reach Hoenn's Core that way.
+<Wallice> Use the suit that you were just given.
+<Wallice> With that, it will finally become possible to stand up against the forces of nature.
+<Steven> @s... To think that you had the Blue Orb...
+<Steven> You'll be OK.
+<Steven> You and your Pokémon can handle it, whatever happens.
+<Steven> I believe that.
+<Wallice> No man or woman from Sootopolis is permitted to enter the Cave of Origin.
+<Wallice> But you must go, together with your Blue Orb.
+<Wallice> You must go regardless of what waits for you inside that cave...
+<Archie> We'll also get our people together up top here, to help any folks and Pokémon in trouble.
+<Archie> My little scamp of a savior...
+<Archie> Looks like we're making you bear all the burden on your little shoulders alone.
+<Archie> I'm sorry for that. ...But I know you're going to see this through!
+<Maxie> Child, you...
+<Maxie> No. I have no right to call you “child.”
+<Maxie> Fellow Trainer.
+<Maxie> I have caused great harm, and for that I apologize most sincerely.
+<Maxie> But now we find ourselves at an impasse, and you and your Pokémon are all that humanity has to count on in its stand against Groudon...
+<Maxie> The fate of our world...
+<Maxie> The world upon which all humanity thrives...
+<Maxie> The fate of our world rests in your hands!
+
+#May tps in
+
+<May> @s!
+<May> I heard on the news that things were going haywire around Sootopolis.
+<May> And then I saw you on BuzzNav, @s!
+<May> I couldn't just sit there and do nothing when I knew you were here in the thick of it, so I came flying!
+<May> Bwuh?! Isn't that Team Aqua? And Team Magma?!
+<May> OK, can I just say that I am, like, shocked and confused on so many levels right now?
+<May> This is probably something way bigger than I can even imagine, isn't it?
+<May> So I'm not even going to ask right now.
+<May> I'm going to try to find what I can do to help, and then I'm going to do my best with that.
+<May> And I'm going to keep on hoping and believing that y-you'll be OK out there, @s.
+<May> Because...
+<May> Because you... You're the best friend I have!
+<May> I'll always be right there behind you.
+<May> You're my best friend, after all!
+
+
+
+
+<Brendan> @s!
+<Brendan> When I saw the news about Sootopolis on my BuzzNav, and there you were, @s...
+<Brendan> Well, anyway, all I could think of was coming to help!
+<Brendan> You don't know how glad I am to see that you're still in one piece.
+<Brendan> Bwuh?! Is that Team Aqua? And Team Magma?!
+<Brendan> OK, I don't really know what to say right now—I'm kind of dumbfounded.
+<Brendan> Look, I get that this is probably something way bigger than I've ever imagined.
+<Brendan> So, I won't bother with any questions now.
+<Brendan> I'm gonna find out what I should do to help, and then I'm going to do whatever I can.
+<Brendan> You'd better go do the same, @s.
+<Brendan> Because...
+<Brendan> Because you... You're the best friend I have!
+<Brendan> I'll always be right there behind you.
+<Brendan> You're my best friend, after all!
 
 
 
 
 
+#-----------------------------------
+#Dialogue 144 - Sootopolis City
+#Prior to Cave of Origin (Aqua Variant)
 
 
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 145 - Cave of Origin
+#Groudon Encounter
+#https://youtu.be/MgkqxXCmrtI?t=56025
+
+@s changed into the Magma Suit!
+
+@s fitted the suit with the Blue Orb!
+
+<Groudon> Gurrraaahhhh! Gurrrooouuuhhh!!!
+
+You can hear a voice from within the Magma Suit!
+???: Do you read me?
+<Maxie> It is I, the great Maxie.
+<Maxie> A device built into that suit you have donned allows me to talk to you.
+<Maxie> We have received the readings from your suit.
+<Maxie> They suggest that Groudon has appeared.
+<Maxie> Is my supposition correct? Does it stand before you now?
+<Maxie> You must listen...
+<Maxie> Do not waste even a single second. Leap upon Groudon's mighty back.
+<Maxie> Then le— take you to— dee—est... o— th— c...
+
+The sound cut out...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 146 - Cave of Origin
+#Kyogre Encounter
+
+@s changed into the Aqua Suit!
+
+@s fitted the suit with the Red Orb!
+
+<Kyogre> Krrraaawwwrrr!!!
+
+<Archie> You can hear a voice from within the Aqua Suit!
+<Archie> ???: Hey! You read me, little scamp?
+<Archie> Aye, it's me, Archie!
+<Archie> There's a device built into that suit that lets me talk to you.
+<Archie> We're getting readings up here that look as though Kyogre's appeared.
+<Archie> I'd guess you're staring right at it, if I'm not mistaken!
+<Archie> Don't be afraid, scamp! You leap right onto that beastie's back!
+<Archie> Then le— take you to— dee—est... o— th— c...
+<Archie> The sound cut out...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 147 - Cave of Origin
+#Groudon in primal chamber
+#Triggered by jumping into the lava with legendary
+#https://youtu.be/MgkqxXCmrtI?t=56137
+
+<Groudon> Gurrrooouuuhhh!!!
+
+#Groudon transforms into Primal form
+#Could form glass crystals around it during transformation?
+
+#Text if legend is defeated
+Groudon disappeared deep beneath the magma...
+
+#pokebattle
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 148 - Cave of Origin
+#Groudon in primal chamber
+#Triggered by jumping into the water with legendary
+
+<Kyogre> Krrraaawwwrrr!!!
+
+#Kyogre transforms into Primal form
+#Could form glass crystals around it during transformation?
+
+#Text if legend is defeated
+Kyogre disappeared deep beneath the water...
+
+#pokebattle
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 149 - Cave of Origin
+#After legendaty is caught (or defeated?)
+#https://youtu.be/MgkqxXCmrtI?t=56455
+
+#Energy particles
+
+#Shot of the door
+
+#Overhead shot of Sootopolis
+
+#view of the sky
+
+#rain or the harsh sun subsides
+
+#Shot of Littleroot
+https://youtu.be/MgkqxXCmrtI?t=56498
+
+#sets up NPCs
+
+#tps Professor Birch
+
+#Shot of Wally in Ever Grand City
+
+#shot in Lillycove
+
+#Shot on beach
+
+#shots in Mossdeep
+
+#Shots exterior of temple entrance
+
+#player tps out
+
+<May> @s!!!
+<May> It's really over, isn't it...
+
+<Brendan> @s!!!
+<Brendan> So it's all over...
+
+<Steven> @s, we owe you great thanks.
+<Steven> Look above you.
+<Steven> The sky over Sootopolis has returned to normal.
+
+<Archie> Somehow, it's...so warm...
 
 
+<Maxie> Is the energy that had been amassed deep within the Cave of Origin now flowing out to pour over the greater world?
+<Maxie> It's as if the uncertainty and fear from moments ago never even existed.
+<Maxie> My heart feels like it's been softly set at ease...
+<Archie> ... The sea or the land...
+<Archie> Pokémon or humanity...
+<Archie> All this time we've just been trying to grab onto happiness for one of them, even if it meant destroying the other...
+<Archie> Look at how things have turned out, now the world's got its natural balance back...
+<Archie> We've got to rethink this thing from the very start...
+<Archie> We've got to redo everything we've done from scratch—and get it right this time.
+<Archie> Whaddaya say? Maxie...
+<Maxie> ... I suppose...you may be right...
+<Maxie> However... Personally, in my case...
+<Maxie> Some wrongs cannot be atoned for, no matter how you try to right them.
+<Maxie> And I have committed wrongs so great as to bring the whole world to its knees. It may be that I...
+<Maxie> It may be too much to assume that I should deserve the chance to start anything over.
+<Team Magma Tabitha> Leader...
+<Team Magma Tabitha> Without a doubt, you have committed an offense that can never be forgiven.
+<Team Magma Tabitha> You have wronged not only Team Magma but all living things on this planet, whether great or small.
+<Team Magma Tabitha> However, that is precisely why you must now set things right.
+<Team Magma Tabitha> You must continue to atone for the sins you have committed, even at the risk of your own life...
+<Team Magma Tabitha> To set right the wrongs you've done, without running away in fear— isn't that how an adult accepts responsibility?
+<Team Magma Tabitha> ... Should you find the resolve to do so inside yourself, then I...
+<Team Magma Tabitha> Team Magma Admin Tabitha...
+<Team Magma Tabitha> I will serve at your side as counsel forever.
+<Maxie> T-Tabitha...
+<Maxie> ... Thank you.
+<Archie> Y'know...
+<Archie> Someday we adults are gonna have to hand this world off to this little scamp and the rest of your generation.
+<Archie> But what kinda world are we adults gonna make?
+<Archie> What kinda world do we wanna pass to these kids?
+<Archie> If we haven't even figured that out ourselves, we're never gonna get anywhere.
+<Archie> So are we gonna make a world where everyone can coexist together?
+<Archie> Or, after all, is it gonna be a world that we claim by force? One that we fight and scrabble over...
+<Archie> I don't know, but I think we can at least start by giving it some time and thinking it over.
+<Archie> All of us can do that, whether we're Team Aqua or Team Magma or whatever...
+<Maxie> You were able to use that Blue Orb to great effect, so I imagine you will also be able to handle this.
+<Maxie> Have Groudon hold it, and you should be able to control its Primal Reversion for at least a short period, such as during a battle.
+
+give @s red_orb
+@s obtained a Red Orb!
+
+<Archie> And that's it from me! Later, scamp!
+<Maxie> Farewell.
+
+#tps teams out
+
+<Steven> ...
+<Steven> Team Magma and Team Aqua are made up of people with completely opposing ideals and goals.
+<Steven> But perhaps even they can learn to meet halfway...one small concession at a time.
+<Steven> I know it's too much to expect that everything will change at once, but...
+<Steven> I hope this crisis might at least help them take that first vital step forward.
+<Steven> I imagine that many changes are happening now all across Hoenn.
+<Steven> I hope you will be able to travel this world and see its richness with your own eyes—
+<Steven> and revel in its newness in your own heart.
+<Steven> But for the present, you may first wish to challenge this city's Pokémon Gym.
+<Steven> There, you'll find the very same Wallace who helped us so much waiting for you.
+<Steven> He's strong.
+<Steven> But the way you are now, you should be capable of battling him on an equal footing.
+<Steven> And when you travel the world, you should try to use this.
+<Steven> This flute is one of my favorite items.
+
+@s obtained the Eon Flute
+give @s Eon Flute
+
+<Steven> This Eon Flute is proof of the bond between you and your Latios.
+<Steven> No matter how far you may be from one another, play that flute and Latios will surely fly straight to you.
+<Steven> Then it can take to the sky, soaring above the land with you astride its back.
+<Steven> Yes, just like when we first encountered Latias and Latios at Southern Island...
+
+#shot of the tree
+
+<Steven> People, Pokémon, nature itself...
+<Steven> Our survival in this world depends on all of us living together in harmony.
+<Steven> I feel I have just begun to understand that.
+<Steven> And I'm wondering how the world will continue to change from this point on...
+<Steven> It fills me with an inexplicable excitement.
+
+#back to first person
+
+<Steven> @s...
+<Steven> As you and your Pokémon live and grow in this changed world, I wonder what effect it will have on you.
+<Steven> What will you think about? What ideals will you believe in?
+<Steven> If we do get the chance to meet again, I hope you will be able to show me and my team the answers you've found.
+<Steven> Until then.
+
+#tp out
+
+<May> Phew! Finally, it's just the two of us again.
+<May> I've got to say...thanks for everything you've done for our region, @s.
+<May> You know, I thought we were supposed to have set out from Littleroot together, but...
+<May> But you, @s...
+<May> It seems like you just keep getting further and further ahead of me...
+<May> I even started to feel like you'd gone somewhere that I can't even reach.
+<May> It's pretty lonely, you know?
+<May> Not!
+<May> What would you think if I really said something like that?
+<May> Hee hee!
+<May> Anyway, you did something really amazing today, so try to take it easy for a while!
+<May> See you later!
 
 
+<Brendan> Phew! It feels like we can finally relax, huh?
+<Brendan> I guess that now's the time to say thanks for all you've done, @s.
+<Brendan> You know, we set out from Littleroot at the same time, but...
+<Brendan> It seems like you're just dashing ahead by yourself and leaving me behind...
+<Brendan> I feel like we're not even on the same level anymore, you know?
+<Brendan> ... It's kinda lonely thinking like that...
+<Brendan> Or it would be if I really thought that!
+<Brendan> But...well, you did do something pretty amazing. So take it easy for a while, OK, friend?
+<Brendan> Later!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 150 - Littleroot Town
+#Prof Birch after the ancient Pokemon
+#https://youtu.be/MgkqxXCmrtI?t=57020
+
+<Professor Birch> Welcome back, @s!
+<Professor Birch> You must be tired after all your recent exploits.
+
+<Professor Birch> May has been keeping me updated about all of your grand adventures around Hoenn.
+<Professor Birch> Brendan has been keeping me updated about all of your grand adventures around Hoenn.
+
+<Professor Birch> After hearing all that you've been up to, there is something I'd definitely like to share with you.
+<Professor Birch> The fact of the matter is that after you resolved that kerfuffle with the super-ancient Pokémon,
+<Professor Birch> a number of Pokémon never before recorded in the Hoenn region began to appear all over!
+<Professor Birch> Those Pokémon are precisely the subject of my many long years of research...
+<Professor Birch> They are Pokémon which are thought to have resided in Hoenn thousands of years ago!
+<Professor Birch> We'll finally be able to meet Pokémon never before seen, the very Pokémon I've pursued all these years!
+<Professor Birch> I'm so excited I feel like I'm about to burst!
+<Professor Birch> So excited that I went right ahead and upgraded the Pokédex to be ready for all of them!
+<Professor Birch> Now, let me upgrade your Pokédex while you're here!
+The National Pokédex has now been added to @s's Pokédex!
+<Professor Birch> You'll now find the National Pokédex on your Pokédex's menu, so use it well!
+It is being suggested that Hoenn is now more hospitable to Pokémon after that incident in Sootopolis.
+<Professor Birch> However, that does not necessarily mean the environment has become any more hospitable to humanity.
+<Professor Birch> People, Pokémon, and nature...
+<Professor Birch> The balance between these three great ecosystems has shifted greatly.
+<Professor Birch> I can't wait for you to start exploring this new world!
+<Professor Birch> Exploration may help us learn how best to coexist with Pokémon from this time forward.
+<Professor Birch> I hope you will find your own answers to this great question, as you continue your journey with your Pokédex!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 151 - Sootopolis Gym
+#Wallice Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=58198
+
+<Wallice> Allow me to formally introduce myself.
+<Wallice> I am Wallace. The Gym Leader of Sootopolis City.
+<Wallice> There's something about you... A difference in your demeanor...
+<Wallice> I think I sense that in you.
+<Wallice> What happened inside the Cave of Origin, and what you did there...
+<Wallice> Our upcoming battle will make that all clear.
+<Wallice> Now, show me. Show me the power you wield with your Pokémon.
+<Wallice> And I, in turn, shall present you...
+<Wallice> with a performance of illusions in water...
+<Wallice> by me and my Pokémon!
+
+#------------------------------
+#Dialogue 152 - Sootopolis Gym
+#Wallice Post-Battle
+#https://youtu.be/MgkqxXCmrtI?t=58406
+
+<Wallice> I realize now your authenticity and magnificence as a Pokémon Trainer.
+<Wallice> I find much joy in having met you and your Pokémon.
+<Wallice> You have proven yourself worthy of the Rain Badge.
+<Wallice> Accept it.
+
+@s received the Rain Badge from Wallace.
+
+<Wallice> And so you never forget the battle we shared...
+<Wallice> Here...
+
+@s obtained HM05 Waterfall!
+give @s Waterfall
+
+<Wallice> The HM I have given you contains Waterfall.
+<Wallice> It allows you to smash into an opponent with the force required to climb a waterfall itself.
+<Wallice> Yes, it is a mighty move...
+<Wallice> And yet it also has a certain elegance and can sometimes cause opponents to flinch.
+<Wallice> Now, with the power of the Rain Badge, you will become able to use this HM move, Waterfall, to scale walls of cascading water.
+<Wallice> Many paths are open to you now.
+<Wallice> One path would take you to the Pokémon League.
+<Wallice> It is the goal that all Trainers in Hoenn aspire to reach after obtaining all eight Gym Badges.
+<Wallice> If that is the path you chose, then you must find your way to the island said to be the most remote in Hoenn: Ever Grande.
+<Wallice> But if it is a different path you seek, and you would rather pursue Pokémon and a completed Pokédex...
+<Wallice> The rumors that reach me on the wind whisper that Professor Birch in Littleroot has created a more powerful Pokédex.
+<Wallice> Visit him, obtain this new technology, and I have little doubt you will encounter more diverse Pokémon than ever before.
+<Wallice> ...I will hope that a bright future waits for you, whatever path it is you choose.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 153 - Victory Road
+#Wally Pre-Battle
+#https://youtu.be/MgkqxXCmrtI?t=60879
+
+#Summon exclamation
+
+<Wally> Ah! @s!
+<Wally> I bet you must be surprised to see me in a place like this!
+<Wally> That promise that we made back then... Thank you for keeping your end of it.
+<Wally> It was really all thanks to you that I could make it this far, @s.
+<Wally> It was only because I lost to you back then that I could become even stronger.
+<Wally> I'm sure that you and your Pokémon must have had to overcome a lot, too...
+<Wally> To make it all the way here. Right, @s?
+<Wally> Everyone's grown so much...
+<Wally> And now we'll finally get to see just what we all can do.
+<Wally> Standing here facing you again gives me chills...
+<Wally> ...But I won't give up! I won't lose anymore.
+<Wally> My Pokémon have given me the courage and strength to fight.
+<Wally> I have to win for their sake!
+<Wally> So get ready... Here I come!
 
 
+#-----------------------------
+#Dialogue 154 - Victory Road
+#Wally Pre-Battle
+
+<Wally> ...
+<Wally> ...
+<Wally> Arghhh!!!
+<Wally> ... ...
+<Wally> ...Hah.
+<Wally> @s, you... And your Pokémon, too...
+<Wally> Thank you for not holding back when you battled against us...
+<Wally> For not holding back when you beat us...
+<Wally> And... Gallade... Everyone... Thank you so much...
+<Wally> I feel like I've been able to take another step forward thanks to you!
+
+#Summon exclamation
+
+<Wally> Oh! I know! I'll give you this to keep.
+<Wally> I hope it will always remind you of your battle with me...and with Gallade and the rest of my team.
+
+@s obtained a Dawn Stone!
+give @s dawn_stone
+
+<Wally> If you have a male Kirlia as one of your partners, @s, I hope that you might use that Dawn Stone on it for me.
+<Wally> I couldn't beat you this time, @s. But I'll stay here and continue training.
+<Wally> And one day... Look out! I swear I'll catch up to you one day!
+<Wally> When I do, promise we'll battle again! That's a promise I intend to live up to!
 
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 155 - Pokemon League
+#Sidney Pre-Battle
+
+#--------------------------------
+
+#Dialogue 156 - Pokemon League
+#Sidney Post-Battle
 
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 157 - Pokemon League
+#Phoebe Pre-Battle
+
+#--------------------------------
+
+#Dialogue 158 - Pokemon League
+#Phoebe Post-Battle
 
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 159 - Pokemon League
+#Glacia Pre-Battle
+
+#--------------------------------
+
+#Dialogue 160 - Pokemon League
+#Glacia Post-Battle
 
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 161 - Pokemon League
+#Drake Pre-Battle
+
+#--------------------------------
+
+#Dialogue 162 - Pokemon League
+#Drake Post-Battle
 
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 163 - Pokemon League
+#Steven Pre-Battle
 
+#--------------------------------
 
+#Dialogue 164 - Pokemon League
+#Steven Post-Battle
 
-
-
-
-
-
-
-
-
+#--------------------------------
 
 
 
@@ -4403,8 +5306,13 @@ https://youtu.be/MgkqxXCmrtI?t=22748
 https://youtu.be/MgkqxXCmrtI?t=49151
 
 
+#Nameless Cavern
+#https://youtu.be/MgkqxXCmrtI?t=58653
+Clear air surrounds the area. It's lifting your spirits...
+
+
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=52177
+https://youtu.be/MgkqxXCmrtI?t=61369
 
 
 
