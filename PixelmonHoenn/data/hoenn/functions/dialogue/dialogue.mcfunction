@@ -5782,8 +5782,7 @@ Delta Episode
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 173 - Littleroot Town
 #Professor Birch giving Unova starter
-#NEED CRITERIA
-
+#Post-Delta Episode
 
 <...> H-help me!
 
@@ -6271,103 +6270,1718 @@ The Entry Call (Ver. 0.09) app rang on your PokéNav Plus!
 #tp steven out
 
 #-----------------------------------------------------------------------------------------------------
-#Dialogue 186
+#Dialogue 186 - Rustboro City
+#Visitng Devon corp
+#https://youtu.be/MgkqxXCmrtI?t=67575
 
+<...> Awawawa?!
 
+#tps scientist out
 
+<...> Waaah?!
+<Researcher> Ouch...
+<Researcher> Oooh? You're that fantastic Trainer who helped me before!
 
+#Team grunt tps out
+<Team Magma Grunt> Yo, geek!
+<Team Aqua Grunt> Yo, geek!
 
+<Researcher> Aiieee! You've got to help me, please!
 
+<Team Magma Grunt> Whoa! You're the kid Trainer I met before!
+<Team Magma Grunt> Aargh! You're getting in my way again!
 
+<Team Aqua Grunt> Whoa! You're the kid Trainer I met before!
+<Team Aqua Grunt> Aargh! You're getting in my way again!
 
+#pokebattle
 
+#------------------------------
+#Dialogue 187 - Rustboro City
+#Post-Grunt Battle
+#https://youtu.be/MgkqxXCmrtI?t=67703
 
+<Team Magma Grunt> Grrrr... Am I destined to lose to you all the time?
+<Team Aqua Grunt> Grrrr... Am I destined to lose to you all the time?
 
+#tps out
 
+#tps in second grunt
 
+<Team Magma Grunt 2> What's wrong, Grunt?
+<Team Magma Grunt 2> What? You again? ...Fine.
+<Team Magma Grunt 2> Even though I know I can't win, I'm going to challenge you for Courtney!
 
+<Team Aqua Grunt 2> What's wrong, Grunt?
+<Team Aqua Grunt 2> What? You again? ...Fine.
+<Team Aqua Grunt 2> Sure I know I can't win, but I'm going to challenge you for Matt!
 
+#pokebattle
 
+#------------------------------
+#Dialogue 188 - Rustboro City
+#Post Grunt 2
+#https://youtu.be/MgkqxXCmrtI?t=67772
 
+<Team Magma Grunt 2> Sound the retreat! It's only good sense to save my own hide— for Courtney's sake!
+<Team Aqua Grunt 2> Sound the retreat! It's only good sense to save my own hide— for Matt's sake!
 
+#tp out Grunt 2
 
+#tp in Grunt 3
 
+<Team Magma Grunt 3> I'm hungry, so I'm going back...
+<Team Magma Grunt 3> Gaaaaah!
+<Team Magma Grunt 3> Well, my stomach's ready for battle... 'Cause it's rumbling...
 
+<Team Aqua Grunt 3> I'm hungry, so I'm going back...
+<Team Aqua Grunt 3> Gaaaaah!
+<Team Aqua Grunt 3> Well, my stomach's ready for battle... 'Cause it's rumbling...
 
+#pokebattle
 
 
+#------------------------------
+#Dialogue 189 - Rustboro City
+#Post Grunt 3
 
+<Team Magma Grunt 3> I lost.
+<Team Magma Grunt 3> Like I figured... I'm gonna get some food on the way back.
 
+<Team Aqua Grunt 3> I lost.
+<Team Aqua Grunt 3> Like I figured... I'm gonna get some food on the way back.
 
+#tps out
 
+<Researcher> Th-th-thank you! You helped me again!
+<Researcher> As my thanks, I'll give you another Great Ba—
+<Researcher> Oh, now is not the time for this!
+<Researcher> We're in big trouble!
 
+<Researcher> Team Aqua stole the control device for the Link Cable that our company had been developing...
+<Researcher> It's a special tool called the dimensional shifter.
+<Researcher> The person who stole it was a huge man with bulging muscles!
 
+<Researcher> Team Magma stole the control device for the Link Cable that our company had been developing...
+<Researcher> It's a special tool called the dimensional shifter.
+<Researcher> The person who stole it was short and pretty, and she had a nasty look in her eyes!
 
+<Researcher> What shall I do? What would you do? WHAT SHALL I DO?
+<Researcher> They must have headed for the Mossdeep Space Center...
+<Researcher> Steven must have gone ahead to the Space Center, but...I'm worried...
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 190 - Mossdeep City
+#Team outside of space center
+#https://youtu.be/MgkqxXCmrtI?t=67980
 
+#shot of top down
+
+<Team Magma Courtney> Mission, start...
+<Team Magma Courtney> Let's go, Grunts!
 
+<Team Magma Matt> Mission, start...
+<Team Magma Matt> Let's go, Grunts!
 
+#tps grunts out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 191 - Mossdeep Space Center
+#Hoard of Grunts
+#https://youtu.be/MgkqxXCmrtI?t=68073
+
+<Team Magma Grunt 1> Hee hee hee!
+<Team Magma Grunt 3> We finally meet again.
+<Team Magma Grunt 2> It's been three— Hm?
+<Team Magma Grunt 2> How long has it been?
+<Team Magma Grunt 4> Nincompoop! It doesn't matter!
+<Team Magma Grunt 5> Brace yourself! We won't let you call us mere quintuplets!
+
+pokebattle
 
+<Team Aqua Grunt 1> Hee hee hee!
+<Team Aqua Grunt 3> We finally meet again.
+<Team Aqua Grunt 2> It's been three— Hm?
+<Team Aqua Grunt 2> How long has it been?
+<Team Aqua Grunt 4> Nincompoop! It doesn't matter!
+<Team Aqua Grunt 5> Brace yourself! We won't let you call us mere quintuplets!
 
+#-------------------------------------
+#Dialogue 192 - Mossdeep Space Center
+#After Hoard Battle
 
+<Team Magma Grunt 2> Hah, hah, hah... I knew we would lose...
+<Team Magma Grunt 3> I wanted to win in style like the Hoenn Rangers!
+<Team Magma Grunt 5> It's odd. That strategy—Intimidate five times in a row— should be invincible...
+<Team Magma Grunt 5> Did you cheat? Grumble, grumble...
+<Team Magma Grunt 4> Nincompoop! You're strong, aren't you? Stop whining!
+<Team Magma Grunt 1> Courtney is on the second floor.
+<Team Magma Grunt 1> It's pathetic, but we can't stop her... Please. Please help her.
 
+<Team Aqua Grunt 2> Hah, hah, hah... I knew we would lose...
+<Team Aqua Grunt 3> I wanted to win in style like the Hoenn Rangers!
+<Team Aqua Grunt 5> It's odd. That strategy—Intimidate five times in a row— should be invincible...
+<Team Aqua Grunt 5> Did you cheat? Grumble, grumble...
+<Team Aqua Grunt 4> Nincompoop! Stop whining!
+<Team Aqua Grunt 1> Matt is on the second floor.
+<Team Aqua Grunt 1> It's pathetic, but we can't stop him... Please. Please stop him.
 
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 193 - Mossdeep Space Center
+#Pre-battle team admin
+#https://youtu.be/MgkqxXCmrtI?t=68207
 
+<Steven> Your timing is impeccable as always, @s.
 
+<Steven> Team Magma...
+<Steven> Team Aqua...
 
+<Steven> What do you intend to do with that device?
+<Steven> You do realize that this is the last hope we have of saving this planet?
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<Team Magma Courtney> ...
+<Team Magma Courtney> Last...hope?
+<Team Magma Courtney> ...
+<Team Magma Courtney> Ha ha. ♪
+<Team Magma Courtney> Hrmm... Ermm, haha...
+<Team Magma Courtney> Ahahaha! ♪ Ahahahaha haha! ♪ ♪ ♪
+<Team Magma Courtney> Ahahahaha hahahahahahaha! ♪ ♪ ♪ ♪
+<Team Magma Courtney> Mwahahahaho!
+<Team Magma Courtney> ... My team... The team I put all my hope into...
+<Team Magma Courtney> ... I ain't laughin' one bit. ...Punk.
+<Team Magma Courtney> Leader Maxie... was broken.
+
+
+<Team Aqua Matt> What was that? What? Last hope?!
+<Team Aqua Matt> Hrmm... Ermm, haha...
+<Team Aqua Matt> Mwahahahaho!
+<Team Aqua Matt> ... I ain't laughin' one bit. ...Punk.
+<Team Aqua Matt> My bro... My bro whom I loved so much...
+<Team Aqua Matt> Are you trying to tell me that everything we've done up till now...
+<Team Aqua Matt> The ties that bind us...
+<Team Aqua Matt> all of it was a mistake? My bro has changed since he got mixed up with you!
+
+
+<Steven> How convenient it must be for you to put all the blame on another.
+
+<Team Magma Courtney> Grrr... Shut up! Enough!
+<Team Magma Courtney> I've had enough of this world!
+<Team Magma Courtney> Aha! ♪ I know... ♪ Inside that rocket is the same amount—
+<Team Magma Courtney> no, even more—Pokémon life energy than what powered the ultimate weapon in the war 3,000 years ago.
+
+
+
+
+<Team Aqua Matt> Shut it! I... I'm...
+<Team Aqua Matt> Know what? That rocket's full of crazy amounts of energy!
+<Team Aqua Matt> It's even more awesome than the ultimate weapon that ended the war 3,000 years ago, right?
+
+<Steven> Wha—?!
+
+<Team Magma Courtney> Ahaha! ♪
+<Team Magma Courtney> I think we're in for an impact so big it will surpass the massive explosion that ended that war!
+<Team Magma Courtney> I don't know what all this talk of a meteoroid is, but I have no need of it.
+<Team Magma Courtney> Here, by my own hand...
+<Team Magma Courtney> I'll make this rocket explode...
+<Team Magma Courtney> And bring an end to this world...
+<Team Magma Courtney> I will...fix...Project AZOTH!
+<Team Magma Courtney> Of course, I'll also destroy this dimensional shifter that's supposed to warp the asteroid away someplace, too. ♪
+
+<Steven> ...@s.
+<Steven> This fool!
+<Steven> This incredible fool really intends to do it! If we don't stop this now,
+<Steven> our whole world will be embroiled in the destruction!
+
+
+<Team Magma Courtney> Don't. Get. In. My. Way.
+<Team Aqua Matt> Hoo hah! I'm gonna smash you up!
+
+#pokebattle
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 194 - Mossdeep Space Center
+#Post-battle team admin
+#https://youtu.be/MgkqxXCmrtI?t=68446
+
+<Team Magma Courtney> Why? Why must...you always...
+<Team Magma Courtney> Always, always, always, always...
+<Team Magma Courtney> Get...in...my...way!
+
+<Team Aqua Matt> Whoa... Ohh... Ohhh...
+<Team Aqua Matt> Darn! Dang it...
+<Team Aqua Matt> Dang it! Am I not good enough, bro?!
+
+<Steven> ...
+<Steven> ...@s! Now is our chance!
+<Steven> Take the dimensional shifter and—
+
+#tps Whismur in
+
+<Whismur> Mumumurrr!
+
+<Team Magma Courtney> Huh?!
+Aster snatched the dimensional shifter away from Courtney!
+
+<Team Aqua Matt> Wha—?!
+Aster snatched the dimensional shifter away from Matt!
+
+<Steven> That Pokémon... Doesn't it belong to...
+
+<???> Nice one, Aster!
+
+#tp Zinnia in
+
+<Steven> You're the—!
+<Zinnia> The Draconid, yup. Or you could just call me Zinnia.
+<Zinnia> Aster!
+<Whismur> Murrr!
+<Zinnia> Thank you, dear.
+<Zinnia> Now then...
+<Zinnia> That is an impressive machine. Snap your fingers, the asteroid vanishes, and we all live happily ever after?
+<Zinnia> Ahahahah! Indeed! It's like that former Champ said!
+<Zinnia> This thing is the best hope we have of saving this planet and everything on it.
+<Zinnia> But you know...
+<Zinnia> It could also be the worst tragedy imaginable for some other world and everything on it.
+<Steven> ...What are you trying to say?
+<Zinnia> I'm not talking to you. You don't get it.
+<Steven> Ugh...
+<Zinnia> But you, @s...
+<Zinnia> Hope for our world... Tragedy for another... You get it, don't you?
+<Zinnia> My people know it.
+<Zinnia> From generation to generation, we pass along the lore about the distortions in the world borne by the Mega Evolution mechanism.
+<Zinnia> And about the existence of another world, which we have long observed to be just like this one and yet not the same...
+<Zinnia> That's right. A Hoenn region that's almost exactly like this one we live in.
+<Zinnia> Filled with Pokémon and people like us.
+<Zinnia> A world where maybe the evolution of Pokémon took a slightly different path, where Mega Evolution is unknown...
+<Zinnia> A world where that war 3,000 years ago...never happened.
+<Zinnia> A world where the ultimate weapon was never even built.
+<Zinnia> And in that Hoenn of that world...
+<Zinnia> What would happen if one day, out of the blue, a meteoroid appeared?
+<Zinnia> What would happen to the people of that world, without the technology to destroy the meteoroid or the power to warp it away?
+<Zinnia> ...
+<Zinnia> Looks like it's beyond the power of your imagination.
+
+Zinnia crushed the dimensional shifter in her hand!
+#playsound, particle
+
+<Professor Cozmo> What kind of fool are you!
+<Professor Cozmo> You have no substantive proof, and yet you claim another world, one just like our own, exists?
+<Professor Cozmo> Out of this fantasy, you—you have destroyed our only hope!
+<Steven> What have...you done...
+<Zinnia> Farewell, brief hope...
+<Professor Cozmo> Y-you! Do you even know— Now what are we to do?!
+<Zinnia> Calm down there, Prof.
+<Zinnia> It'll be OK. I...
+<Zinnia> We...
+<Zinnia> We can protect this world...and the other.
+<Steven> Who exactly is “we”? What are your intentions?
+<Zinnia> Oh yeah! Silly me... I forgot the other thing I came for.
+
+<Team Magma Courtney> Wha-what...
+<Team Aqua Matt> ?!
+
+Zinnia snatched the Key Stone away from Courtney!
+Zinnia snatched the Key Stone away from Matt!
+
+<Team Magma Courtney> Wha... Errgh!
+<Team Aqua Matt> Wha... Errgh!
+
+<Zinnia> And that's the Key Stone gotten...
+<Zinnia> Now I'll put it together with the Key Stone they've got in their base...
+<Whismur> Murrr!
+<Zinnia> Looks like my next appointment is calling, so I'll excuse myself now.
+<Zinnia> Later!
+<Whismur> Murrr!
+
+#teleports out
+
+<Team Magma Courtney> Our...leader... Leader Maxie's... Key Stone.
+<Team Magma Courtney> Is she trying... to steal it?! No...no...
+<Steven> Confound it all... So she must be making for Team Magma's hideout next...
+
+<Team Aqua Matt> Th-that punk! How dare she try to take my bro Archie's Key Stone?! Not cool, man! Not cool!
+<Steven> Confound it all... So she must be making for Team Aqua's hideout next...
+
+<Steven> Think, Steven. Think! What to do, what to do...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 195 - Team Hideout
+#Zinnia and the team leaders
+#https://youtu.be/MgkqxXCmrtI?t=69417
+
+<Maxie> Guh—?!
+<Zinnia> All right! And the winner is Zinnia!
+<Team Magma Tabitha> Leader Maxie! Please compose yourself!
+<Maxie> Grr...
+<Maxie> The great Maxie has fallen to this woman?!
+<Whismur> Murrr!♪ Murrr!♪
+<Zinnia> Oh, oh, what's this? Aren't you a happy girl, Aster? ♪
+<Zinnia> Just what I'd expect of my daughter! We're so in sync! Ahahaha!
+<Maxie> Woman... Who are you?
+<Zinnia> Who am I? That's a surprisingly difficult question.
+<Zinnia> ... I couldn't become who I was supposed to be, so who does that make me now? ...
+<Zinnia> Haha! Whatever, right?
+<Zinnia> Enough with the introspection and the soul searching...
+<Zinnia> You there! @s! Don't just stand there like a stick in the mud.
+<Zinnia> Come on over and say hi.
+<Team Magma Tabitha> Could it be?! The child?!
+<Maxie> You... Why are you here?
+<Zinnia> Isn't it obvious? They're the hero, right? Here to save the world again.
+<Zinnia> Oops. But looks like they're a bit too late this time.
+<Zinnia> If only you'd been here just one minute earlier!
+Zinnia snatched the Key Stone away from Maxie!
+<Maxie> You—?!
+<Team Magma Tabitha> Le-leader?!
+<Zinnia> All right. I'd say this Key Stone is mine.
+<Zinnia> We finally got everything, Aster.
+<Whismur> Murrr?
+<Zinnia> Now we can do it: The summoning.
+<Zinnia> We will summon Rayquaza!
+<Zinnia> Well then, looks like my job here is done.
+<Zinnia> So don't mind me while I excuse myself.
+<Zinnia> Oh. @s?
+<Zinnia> I really hope you'll come chasing after me, you know?
+<Zinnia> We'll be heading to that ancient tower, sealed since primal times, the Sky Pillar.
+<Zinnia> If you don't know what that is, well, ask that former Champ of yours. He'll know what I'm talking about.
+<Zinnia> See you there!
+<Whismur> Murrr!
+
+#Zinnia tps out
+
+<Team Magma Tabitha> Wh-wh-wh-wh— What is going on here?!
+<Team Magma Tabitha> Who does she think she is, messing up our base and then giving us the slip?!
+<Team Magma Tabitha> That can never be forgiven!
+<Maxie> ...
+<Maxie> Now I see...
+<Maxie> Yes, it was not chance that brought you here now. This was inevitable.
+<Team Magma Tabitha> Leader?
+<Maxie> Tabitha. Give it to them.
+<Team Magma Tabitha> What did you say?! I-is that all right?!
+<Maxie> Yes... Now that the Key Stone has been stolen, a Mega Stone will serve me no purpose.
+<Team Magma Tabitha> Acknowledged.
+
+@s obtained a Cameruptite!
+
+<Team Magma Tabitha> Cameruptite. Make sure your Camerupt holds on to it tightly.
+<Maxie> I do not have the power now to use Mega Evolution. So I entrust it to you.
+<Maxie> I entrust it believing that this is the best action I can now take!
+<Maxie> That woman...
+<Maxie> She had such utter mastery over her Dragon-type Pokémon.
+<Maxie> There is more to her than meets the eye.
+<Maxie> I do not know what must be going through her mind.
+<Maxie> But...I think you may be the only one who can now stand against her.
+<Maxie> So I ask you this favor: Rage!
+<Maxie> Take up this fight for me, and bring this crisis to its resolution!
+
+
+#Aqua Line
+<Archie> Guwahhh?!
+<Zinnia> All right! And the winner is Zinnia!
+<Team Aqua Shelly> Archie... Are you...OK?
+<Archie> Ugh...
+<Archie> I'll be keelhauled! How did I get beat by this little slip of a girl?
+<Whismur> Murrr!♪ Murrr!♪
+<Zinnia> Oh, oh, what's this?! Aren't you a happy girl, Aster! ♪
+<Zinnia> Just what I'd expect of my daughter! We're so in sync! Ahahaha!
+<Archie> You... Who are you?
+<Zinnia> Who am I? That's a surprisingly difficult question.
+<Zinnia> ... I couldn't become who I was supposed to be, so who does that make me now? ...
+<Zinnia> Haha! Whatever, right? Enough with the introspection and the soul searching...
+<Zinnia> You there! @s! Don't just stand there like a stick in the mud.
+<Zinnia> Come on over and say hi.
+<Archie> You!
+<Archie> Scamp? But why are you...
+<Zinnia> Isn't it obvious? They're the hero, right? Here to save the world again.
+<Zinnia> Oops. But looks like they're a bit too late this time. If only you'd been here just one minute earlier!
+Zinnia grabbed the Key Stone away from Archie!
+<Archie> Wha—?!
+<Team Aqua Shelly> Archie! Hang in there!
+<Zinnia> There now. I'd say this Key Stone is mine.
+<Zinnia> We finally got everything, Aster.
+<Whismur> Murrr?
+<Zinnia> Now we can do it... The summoning.
+<Zinnia> We will summon Rayquaza!
+<Zinnia> Well then, looks like my job here is done. So don't mind me while I excuse myself.
+<Zinnia> Oh. @s?
+<Zinnia> I really hope you'll come chasing after me, you know?
+<Zinnia> We'll be heading to that ancient tower, sealed since primal times, the Sky Pillar.
+<Zinnia> If you don't know what that is, well, ask that former Champ of yours. He'll know what I'm talking about.
+<Zinnia> Find me there!
+<Whismur> Murrr!
+
+
+<Team Aqua Shelly> ...Oh man! What makes her think she can just do whatever she wants and then hightail it out of here?!
+<Archie> ... Little scamp...
+<Archie> Heh... Fine...
+<Archie> I guess it's just fate. That you showed up now of all times.
+<Archie> ...
+<Archie> Shelly... Give it to the kid.
+<Team Aqua Shelly> ...What?! I-is that OK?!
+<Archie> Yeah... What could I do with a Mega Stone anyway, now that I've lost my Key Stone?
+<Team Aqua Shelly> ...I understand.
+<Archie> The Sharpedonite... Make sure your Sharpedo holds on to it tightly.
+<Archie> You take my power, scamp... I'm giving it to you.
+<Archie> That woman... I don't think she's just any old Trainer.
+<Archie> Not with the way she controlled those Dragon-type Pokémon of hers...
+<Archie> I got no idea what she's planning...
+<Archie> But I think you're our best bet at stopping her now, little scamp. Do that for me.
+
+
+
+
+The Entry Call (Ver. 0.09) app rang on your PokéNav Plus!
+<Steven> @s! Are you all right?!
+<Steven> ...
+<Steven> Is that right... I never even imagined...
+<Steven> The Key Stone... The Sky Pillar... And the Draconid people...
+<Steven> So that's it... I begin to see the line connecting these dots.
+<Steven> I think we need to meet up at once to discuss what we should do next.
+<Steven> I'll be waiting at the Space Center. Up on 2F.
+<Steven> Do hurry.
+...Kzt!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 196 - Mossdeep Space Center
+#Steven and Cozmo
+#https://youtu.be/MgkqxXCmrtI?t=69791
+
+<Steven> @s! I have been expecting you!
+<Steven> Ah... That's it.
+<Steven> That woman... That “Zinnia”...
+<Steven> She mentioned the Sky Pillar.
+<Steven> Few can enter it—only the successors of the ancient world, who know of what has been...
+<Steven> The Lorekeepers who are tasked with passing on that knowledge to those who come after...
+<Steven> Do you remember Wallace, whom you met in Sootopolis?
+<Steven> The Gym Leader of Sootopolis, Wallace, should know how to undo the seal on the Sky Pillar's entrance.
+<Steven> He is also one of the few humans to have inherited such ancient lore.
+<Steven> I will remain here and work with the professor and his team to devise a plan for what to do next.
+<Steven> That woman...Zinnia... I cannot put my faith in her.
+<Steven> We will think of a new way to stop the meteoroid on our own.
+<Steven> Zinnia...and the Sky Pillar...
+<Steven> I will leave them in your hands.
+<Steven> I will send a message to Wallace for you, so he knows to help.
+<Steven> You will probably find him in the Cave of Origin in Sootopolis.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 197 - Sootopolis
+#Wallice outside Cave of Origin
+#https://youtu.be/MgkqxXCmrtI?t=69940
+
+<Wallice> What a...glorious turn of events...
+<Old Man> Is it really? Ohohohoho! Is it really?
+<Wallice> To think that this tree...
+<Wallice> I never knew we had received it from that huge man who visited from the Kalos region...
+<Wallice> Goodness me, old master. This has been a learning experience. I thank you for this.
+<Old Man> Ohoho! You're too kind, Master Wallace! Ohohohoho!
+<Wallice> No, no, you're too modest. Hah hah hah...
+<Wallice> Now then...
+<Wallice> Welcome again to Sootopolis, our new Champion, @s.
+<Wallice> Steven has told me everything. Do you wish to go to the Sky Pillar?
+<Wallice> It is true the cave that leads to the Sky Pillar can only be opened by the hand of someone descended from the ancient people of Sootopolis...as, indeed, am I.
+<Wallice> Or by one of the Draconids, who have also lived in Hoenn since ancient times...
+<Wallice> The Sky Pillar is in fact an altar built for the ascension of Rayquaza—that Legendary Pokémon long said to be the protector of the Hoenn region.
+<Wallice> Only the ancient Draconid people know how to summon Rayquaza to the Sky Pillar.
+<Wallice> Steven has told me of the woman Zinnia.
+<Wallice> She must be trying to revive Rayquaza for some purpose.
+<Wallice> I shall go first to the Sky Pillar. When your preparations are complete, come join me.
+<Wallice> The Sky Pillar towers over everything upon one of Route 131's small islands.
+
+#Wallice tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 198 - Sky Pillar
+#Wallice outside cave
+#https://youtu.be/MgkqxXCmrtI?t=70322
+
+<Wallice> ...
+<Wallice> So, you've come, @s.
+<Wallice> As you can see, I have undone the seal on the entrance to the Sky Pillar.
+<Wallice> Follow the path within, and you will reach the pillar in time.
+<Wallice> However... To go beyond this point... There is one more trial you must overcome.
+<Wallice> This is my duty as one of the ancient Sootopolitans, a duty passed down to me by my former master.
+<Wallice> You must battle me. Here and now. Prove to me that your power is great enough to face what lies ahead!
+<Wallice> Champion of Hoenn.
+<Wallice> You, who should exhibit the most graceful of art in battle with your Pokémon...
+<Wallice> I would have you show me your true strength!
+
+#---------------------------
+#Dialogue 199 - Sky Pillar
+#Wallice post-vattle
+
+<Wallice> As I have come to expect from you, @s...
+<Wallice> You are an excellent Pokémon Trainer.
+The Pokémon that you sent out in that battle...
+<Wallice> At times dancing as lightly as an elusive spring breeze...
+<Wallice> Yet striking with the sudden surety of lightning from the blue.
+<Wallice> Watching you command the battle with such ease and grace...
+<Wallice> Even I might succumb to your charm.
+<Wallice> Now go forth. Find the truth that you seek.
+<Wallice> As one of the ancient people of Sootopolis, I cannot intrude upon this holy place.
+<Wallice> I will return to Sootopolis for now and try to lay plans in case the worst should come to pass despite all our efforts.
+<Wallice> I'm sorry that we always seem to be leaving the fate of all the world in your hands.
+<Wallice> Yet there it lies once again. Good luck to you, young Champion!
+
+#Wallice tps off
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 200 - Sky Pillar
+#Zinnia on ground floor
+#https://youtu.be/MgkqxXCmrtI?t=70613
+
+<Zinnia> So you came for me. Thanks for that.
+<Zinnia> That's really good, @s. I really feel it, right here.
+<Zinnia> Mm-hmm...
+<Zinnia> Since you've been a good trainer, I think I'll give you something I've been keeping.
+<Zinnia> Look... The paintings that cover the walls of this tower...
+<Zinnia> See, these are the history of humanity, of Pokémon, and of nature itself.
+<Zinnia> They're the tales that have been passed down by my ancestors, the Draconids, for thousands of years.
+<Zinnia> And now...I will pass that history and lore on to you.
+
+#shot of the paintings
+
+<Zinnia> Thousands of years ago, in the primal age long lost, the world was overflowing with natural energy.
+<Zinnia> Primal Groudon and Primal Kyogre fought over that energy in endless, furious clashes.
+<Zinnia> In the face of Primal Groudon and Kyogre's great power, people could do nothing.
+<Zinnia> The only choice was to watch as disaster upon disaster swept over them.
+<Zinnia> It was in such a time that a great many meteoroids poured from the darkness of space, from a place higher even than the heavens.
+<Zinnia> And the meteoroids fell in their multitude upon a waterfall that had long been home to a tribe of Dragon-type-Pokémon users...
+
+#Back to first person
+
+<Zinnia> ...OK! That's it! That's the end of the first chapter of my tale.
+<Zinnia> I'll tell you the next part of the story on the next floor. Look forward to it!
+
+#Zinnia tps to next point
+
+#---------------------------
+#Dialogue 201 - Sky Pillar
+#Zinnia on floor 2
+#https://youtu.be/MgkqxXCmrtI?t=70699
+<Zinnia> Oh! Here you are!
+<Zinnia> Let me continue. It's finally time for chapter two. Here we go!
+<Zinnia> At last, right? Hah! I know you're thrilled.
+
+#shot of the paintings
+
+<Zinnia> The meteors shone with a rainbow brilliance, as if some great life was held within.
+<Zinnia> That was when, as if drawn by the brilliance, a Pokémon that shone in a blazing emerald hue descended from the heavens...
+<Zinnia> That Pokémon was none other than Rayquaza.
+<Zinnia> Rayquaza's power overwhelmed that of the two Primal Pokémon, and peace returned to the world.
+<Zinnia> The people of Hoenn revered Rayquaza as a true savior.
+<Zinnia> A thousand years after this time, the meteoroids once again fell.
+<Zinnia> A huge meteoroid, far greater than any before, struck the planet, boring deep into the ocean and leaving behind it a crater larger than any other. \
+<Zinnia> The land born of this event later become known as Sootopolis.
+
+#Back to first person
+
+<Zinnia> And that is it! Chapter two is over!
+<Zinnia> But we've only just left the starting line.
+<Zinnia> There's a long way yet—don't fall behind now!
+
+#Zinnia tps to next point
+
+#---------------------------
+#Dialogue 202 - Sky Pillar
+#Zinnia on floor 3
+#https://youtu.be/MgkqxXCmrtI?t=70770
+
+<Zinnia> Now, our tale reaches the best part.
+<Zinnia> Sootopolis was born from a great meteoroid strike.
+
+#shot of the paintings
+
+<Zinnia> The great meteoroid was the first of many disasters to befall humanity.
+<Zinnia> When it punched into the planet, the land cracked beneath it, and a great welling of natural energy poured from beneath Hoenn.
+<Zinnia> Thirsting for that energy, Primal Kyogre and Primal Groudon once again woke.
+<Zinnia> The people had a wish—a memory from a thousand years before...
+<Zinnia> They wished that the Legendary Pokémon clad in emerald light would appear again.
+<Zinnia> The huge Meteorite that lay at the heart of Sootopolis gave off a boundless brilliance.
+<Zinnia> In its brilliance, it resembled a vast and powerful Key Stone.
+<Zinnia> And once again, Rayquaza descended from whence it came in the heavens.
+<Zinnia> The people fell to their knees before Rayquaza and made a wish for salvation.
+<Zinnia> As they did, a great change came over the Legendary Pokémon.
+<Zinnia> It was enveloped in blinding light. As the light receded, they beheld a Rayquaza beyond all knowledge—
+<Zinnia> a sublime figure, incandescent with overwhelming life force.
+
+#Back to first person
+
+<Zinnia> It was humanity's wish that brought about Rayquaza's transformation in the face of the rainbow stone...
+<Zinnia> Yes... A wish...
+<Zinnia> An intangible thing, invisible to the eye.
+<Zinnia> Yet this wish bound people and Pokémon together, enabling the Legendary Pokémon to change its appearance...
+<Zinnia> Doesn't it remind you of something?
+<Zinnia> That's right... It sounds like Mega Evolution, doesn't it?
+
+#Zinnia tps to next point
+
+#---------------------------
+#Dialogue 203 - Sky Pillar
+#Zinnia on floor 4
+#https://youtu.be/MgkqxXCmrtI?t=70873
+
+<Zinnia> And how did the story end?
+<Zinnia> After being transformed by the wish of the people, did Rayquaza save them from disaster?
+
+#shot of the paintings
+
+<Zinnia> Rayquaza once again confronted Primal Groudon and Primal Kyogre.
+<Zinnia> The golden filaments that sprang from its body covered the sky.
+<Zinnia> An emerald brilliance illuminated the area. A terrible wind rose.
+<Zinnia> The wind and emerald light visibly sapped the power from Primal Groudon and Primal Kyogre.
+<Zinnia> Drained of their primal powers, the two vanished into the depths of land and sea.
+<Zinnia> Rayquaza watched them go, regaining its usual appearance.
+<Zinnia> Then it soared back up into the heavens where it dwelled.
+<Zinnia> A witness to this series of events, a tall visitor from a distant land, said, “It is the Δ (Delta), born of the great disturbances in this world.”
+<Zinnia> “By the bonds born of mankind's wish and the power of the stones, it will calm the troubles that plague the world.”
+<Zinnia> That was when the Draconids constructed their great tower,
+<Zinnia> to hold the rainbow stone that had granted Rayquaza its power,
+<Zinnia> and to try to get a little bit closer to Rayquaza in the heavens above.
+<Zinnia> To record the history of their trials and the great feats of mighty Rayquaza for all to know, they left behind the murals you see here.
+
+#Back to first person
+
+<Zinnia> A giant tower... And paintings of the past...
+<Zinnia> You know, I feel like I've seen something like that recently.
+<Zinnia> Heh. But now, I suppose it's time for the last chapter in our tale.
+
+#---------------------------
+#Dialogue 204 - Sky Pillar
+#Zinnia on floor 5
+#https://youtu.be/MgkqxXCmrtI?t=70969
+
+<Zinnia> At last we reach the final chapter...
+
+#shot of the paintings
+
+<Zinnia> A thousand years of peace followed after that disastrous time.
+<Zinnia> But the Draconid people, learning from their long history's cyclical nature,
+<Zinnia> foretold that the meteoroids would fall on this land again.
+<Zinnia> The meteoroid to come, they prophesized, would be far greater than those that had come before it.
+<Zinnia> This meteoroid would be great enough to break the world forever...
+<Zinnia> In order to prevent this great calamity, those who held the knowledge of the past arrived at a plan.
+<Zinnia> Their plan was to invoke Rayquaza, the great savior, and summon it to this land before the meteoroid could strike.
+
+#Back to first person
+
+<Zinnia> And that's it.
+<Zinnia> That's the end of our...
+<Zinnia> of the Draconids' tale.
+<Zinnia> I spent a long time thinking about how I could protect the happiness of as many people as possible.
+<Zinnia> What I must do, as one who holds both the knowledge and the power...
+<Zinnia> One who bears the heavy wishes of those who could not...live up to that fate...
+<Zinnia> Well, I had to be really creative, you know?
+
+#Zinnia tps out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 205 - Sky Pillar
+#Upon climbing to the top
+#https://youtu.be/MgkqxXCmrtI?t=71048
+
+#sets time to night
+
+#shot of Zinnia
+<Zinnia> ...
+<Zinnia> See that, Aster? You always wanted to watch them, right?
+<Zinnia> The Litleonids. A million glittering stars falling from the sky...
+<Zinnia> The show is about to start.
+<Whismur> Mur! Murrr!
+<Zinnia> Aren't we happy now? Yes, what could be better, dear Aster? Ha ha...
+
+
+
+<Zinnia> ... Welcome to the Dragonhark altar.
+<Zinnia> @s.
+<Zinnia> You know what I am trying to do here by now, don't you?
+
+#wide shot
+
+<Zinnia> That's right. I will summon Rayquaza to this world to destroy the meteoroid headed for Hoenn.
+
+#shot of Zinnia
+
+<Zinnia> That is my... It is our duty.
+
+#shot of the stars
+
+<Zinnia> Ever since I was a little girl, I have always turned my eyes up to the sky.
+<Zinnia> When I was so full of uncertainty that I felt my heart might be crushed by it...
+<Zinnia> When I was so grief-stricken and alone I thought my heart might break of it...
+
+#shot of Zinnia
+
+<Zinnia> I turned and looked up there... so that my tears would never, ever fall.
+
+<Zinnia> What about you?
+<Zinnia> Have you ever had to do something like that?
+
+#first person
+
+<Zinnia> ... I used to watch the stars like this all the time...
+<Zinnia> Together with Aster. We were always together. In good times and in bad.
+<Zinnia> I loved her. I loved her with everything I had...
+<Zinnia> But I still lost her.
+<Zinnia> ... Hahaha...
+<Zinnia> ... I want to see her...
+<Zinnia> I want to be with her again... My sweet Aster...
+<Whismur> Mum...?
+<Zinnia> I will, won't I?
+<Zinnia> With this...
+<Zinnia> Just a little longer...
+
+#blinds player
+
+<Whismur> Mur, mur!
+
+#sets time to morning
+
+<Zinnia> Guess I should say good morning?
+<Zinnia> You slept well, didn't you? You look so adorable when you sleep.
+<Zinnia> Sorry about the knocking-you-out thing.
+<Zinnia> ...
+<Zinnia> Enough.
+<Zinnia> I think it's time I gave it a shot.
+<Zinnia> I'm sorry...for all the trouble I caused you.
+<Zinnia> If something happens to me... Please... Take this little one...
+<Zinnia> ...
+<Zinnia> ...
+<Zinnia> ...OK. Here I go.
+<Zinnia> “With jewel bright and borrowed might from the spirits of the departed...”
+<Zinnia> “Through sacred rite, in thy great sight, my life as well I offer...”
+The Key Stones that Zinnia holds are giving off a blinding light!
+#shaking
+<Zinnia> ...Ugh...ngh...gh...
+<Zinnia> “I summon thee...to aid...this fight... and save us...from disaster!”
+<Zinnia> Realize them...upon this world...! For this do I summon thee!
+#top-down shot
+<Zinnia> Rayquazaaa!!!
+
+#bright light around player
+
+#summons Rayquaza
+
+<Rayquaza> Kiryararararahhh!!!
+
+#over the shoulder shot of Rayquaza
+
+<Zinnia> !!!
+<Rayquaza> Kiryassshhhaaahhh!!!
+<Zinnia> Ray...quaza!
+<Zinnia> I did it! I...I did it!
+<Zinnia> Now the world...will be saved!
+<Zinnia> Aster... Aster, I did it!
+<Zinnia> Great Rayquaza! Hear my wish!
+<Zinnia> Achieve your Mega Evolution! Take hold of your true power!
+<Zinnia> Show me your true face! The Rayquaza that will save this planet!
+...
+...
+... Zinnia's Key Stone does not react...
+<Zinnia> Huh?!
+<Zinnia> H-how can this be?!
+<Zinnia> I gathered all of the Key Stones that could withstand your great power...
+<Zinnia> and summoned you here... You came...
+<Zinnia> And yet... Why?!
+<Zinnia> Come on! Do it! Mega Evolve! Why?! Why won't you...
+...
+...
+Zinnia's Key Stone does not react...
+<Rayquaza> Kirrrurrrurrr...
+<Zinnia> What?!
+<Zinnia> It can't be...
+<Zinnia> The one without enough power...is you, Rayquaza?
+<Zinnia> The Meteorites that should lie within Rayquaza's great body...aren't enough?
+<Zinnia> Have these thousand years drained them of their power?
+<Zinnia> This...can't...be...
+<Zinnia> I can't...
+<Zinnia> I... I... Everything...I've done...till now...
+<Zinnia> Aster... I can't... I can't take any...more...
+<Zinnia> ...
+@s's Meteorite suddenly began to glow!
+<Zinnia> That's—?!
+The glow of @s's Meteorite grew even stronger!
+<Zinnia> What? That Meteorite?!
+<Zinnia> It's just like...a Mega Stone?!
+<Rayquaza> Kiryarararaaahhh!!!
+Rayquaza swallowed @s's Meteorite!
+<Rayquaza> Kirrrihrrrihrrrihhhh!!!
+Light is spilling forth from within Rayquaza's body!
+
+#shaking
+
+<Zinnia> Whoa!!!
+<Zinnia> Swallowing meteorites allows it to store as much power as a Mega Stone.
+<Zinnia> Your Meteorite summoned forth the power needed for Rayquaza to Mega Evolve!
+<Rayquaza> Kirrrihrrrihrrriii!!!
+<Zinnia> Hah! It's amazing!
+<Zinnia> @s! Rayquaza is trying to build up power...
+<Zinnia> It wants power for itself to take you on!
+<Zinnia> Use everything you've got and win over Rayquaza! You have to master it!
+<Zinnia> This is the Legendary Pokémon that all Hoenn views as our great protector!
+<Zinnia> And the only one who can direct it now...
+<Zinnia> It's you! You have to do this!
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 206 - Sky Pillar
+#Upon catching Rayquaza
+#https://youtu.be/MgkqxXCmrtI?t=71512
+
+#Don't forget to buff that catch rate!
+
+<Zinnia> Is it...over?
+<Whismur> Murrrrrr!
+<Zinnia> ... Congratulations, @s. And...thank you.
+<Zinnia> History has chosen you...
+<Zinnia> The truth remains that Rayquaza chose you and not me...
+<Zinnia> But... While I don't know how to put it into words exactly...
+<Zinnia> I think I understand why...
+<Zinnia> ...You will be successor to our long history now.
+<Zinnia> And I pass to you the final key to Rayquaza's true power.
+<Zinnia> The move that only it can learn: Dragon Ascent...
+Rayquaza succeeded to the power of Dragon Ascent!
+<Zinnia> ...That's it, then.
+<Zinnia> I guess...it's time that I do my last task as Lorekeeper.
+<Zinnia> You have obtained Rayquaza's power for your own...
+<Zinnia> Now I will have you prove to me that you can master that power... in battle!
+<Zinnia> That is my final...
+<Zinnia> The final duty of the last Lorekeeper of the Draconid people!
+<Zinnia> Show me that you can exceed it—the entirety of history that we have clung to until today!
+<Zinnia> ...Phew.
+<Zinnia> ...
+<Zinnia> My pulse... I can feel it racing...
+<Zinnia> ...Yes. I'm feeling...totally...pumped!
+<Zinnia> Haaahhh!
+<Zinnia> This is it!!
+
+#Battle with Zinnia
+
+#---------------------------
+#Dialogue 207 - Sky Pillar
+#After battling Zinnia
+#https://youtu.be/MgkqxXCmrtI?t=71855
+
+<Zinnia> ...
+<Zinnia> ...I guess...it falls to you now...
+<Zinnia> That settles it, then...
+<Zinnia> @s, you should even be able to beat that meteoroid that's approaching the planet.
+<Zinnia> You and Rayquaza...together.
+<Zinnia> I am leaving this task to you, our new Successor.
+<Zinnia> Successor @s.
+<Zinnia> You and Rayquaza must protect nature...Pokémon...the people...
+<Whismur> Mur!
+
+#sends Rayqyaza statue out
+
+#Shot of side of pillar
+
+#Green beam shoots into the sky
+
+#shots of space area
+
+#Rayquaza shoots into meteor
+#https://youtu.be/MgkqxXCmrtI?t=71973
+
+#Meteor explodes, leaving Deoxys' triangle
+
+#Triangle begins moving, sprouts tenticles
+
+#Triangle shatters, turning into Deoxys
+
+pokebattle Deoxys lvl:80
+
+
+#---------------------------
+#Dialogue 208 - Outer Space
+#Post-Deoxys Battle
+#https://youtu.be/MgkqxXCmrtI?t=72112
+
+#Shot of particles in the sky
+
+#View from Sky Pillar
+
+#player is back on Sky Pillar
+
+<Whismur> Mur!
+You received a letter from Aster!
+<Whismur> Mur murrr!
+
+#Aster tps out
+
+“I was finally able to bring everything to an end.”
+“I thank you for that.”
+“I think I'll spend some time now trying to find out if it's also possible to forge a new beginning for something once lost.”
+“Until we meet again,
+Zinnia”
+
+#Shot of Mossdeep Space Center
+
+<Scientist> The energy reading appears to be diffusing!
+<Scientist> W-we can confirm that the meteoroid has been destroyed, sir!
+<Scientist> Puh... P-P-P-P-P-P-Professor!
+<Scientist> The meteoroid! The meteoroid—it's—! Thank the powers above! It's—!
+<Professor Cozmo> Calm yourself, man!
+<Professor Cozmo> Oh, who am I kidding! I'm so happy, I could kiss you!
+<Professor Cozmo> We did it! We actually did it!
+<Professor Cozmo> Wahahahaha! Success is ours!
+<Professor Cozmo> Hahahaha...ha... Hah...
+<Professor Cozmo> Thank you, @s.
+
+#Shot of Wally's House
+<Wally> I'll be leaving, then. Good-bye, Mom! Bye, Dad!
+<Wally's Dad> W-wait just a minute! Wally!
+<Wally's Mom> That's right! Are you OK?
+<Wally's Mom> You looked like you were in trouble recently when those strange thugs came around...
+<Wally> Of course! My Pokémon and I are fit for anything!
+<Wally> See, @s got my Key Stone back for me.
+<Wally> And Mr. Norman gave me a ticket to a resort that sounds really neat.
+<Wally> I can't wait to go and check it out!
+
+#Wally tps out
+
+<Wally's Dad> My, my... I never dreamed I would one day think that Wally was TOO well...
+<Wally's Mom> Yes... But he looks so honestly happy... that I can't help feeling happy, too.
+
+#Shot from Team Leader Room
+#https://youtu.be/MgkqxXCmrtI?t=72236
+#NEED AQUA VARIANT
+
+<Team Magma Courtney> ...
+<Maxie> ...
+<Team Magma Courtney> ...
+<Maxie> ...
+<Team Magma Courtney> ...
+<Maxie> ...
+<Team Magma Tabitha> Uwaahhh!
+<Team Magma Tabitha> This conversation isn't proceeding as expected!
+<Maxie> Ugh...
+<Team Magma Tabitha> If it has come to this, then I, Tabitha, shall handle this myself!
+<Team Magma Tabitha> Courtney!
+<Team Magma Courtney> Y-yes?!
+<Team Magma Tabitha> Apologize to Leader Maxie!
+<Team Magma Courtney> Hu-huh?! Ow...ch...
+<Team Magma Tabitha> Hurry up! OK?! Just say, “Sorry!”
+<Team Magma Courtney> I'm sorry! Leader Maxie, I'm sorry!
+<Team Magma Courtney> I won't do it...anymore! I'll never do anything...like that...again!
+<Team Magma Courtney> So please... Forgive... Forgive me.
+<Maxie> ?!
+<Team Magma Courtney> Wah...wah... Sniffle...
+<Maxie> What are you—?!
+<Team Magma Courtney> Sniff...sniffle... Ohh...ooh...
+<Maxie> ... ... Fine.
+<Maxie> I understand.
+<Maxie> Courtney.
+<Maxie> I, the great Maxie, will forgive you.
+<Maxie> But only on one condition!
+<Team Magma Courtney> Huh?!
+<Team Magma Tabitha> ?
+<Maxie> You must...also forgive me.
+<Maxie> Courtney. I never imagined... I never could have imagined...
+<Maxie> How very loyal you were to me.
+<Maxie> Nor did I imagine even one iota of the shock you must have experienced, due to my recent speech and conduct, or how it could have pained you.
+<Maxie> The one who drove you to such an extreme act was me.
+<Maxie> I am truly sorry for that.
+<Maxie> You see, Courtney, I would like to start on a new path.
+<Maxie> There are truths that I have learned because of the mistakes I have made.
+<Maxie> They pit me against others who are not like me and against ideas that differ from mine.
+<Maxie> They tell me the importance of understanding these others, even though we may continue to cause pain to one another.
+<Maxie> And that holds true whether the opponent I face is human, Pokémon, or even the might of nature itself.
+<Maxie> I will take this step forward, free from hesitation, and meet my foe.
+<Maxie> And together we will find a way to create, not destroy.
+<Maxie> Or so I hope. That is the vision that I, Maxie, have for Team Magma's future.
+<Maxie> Will you come with me on this journey as well? Courtney.
+<Team Magma Courtney> Wahh... Uwahh... Waahhh!
+<Team Magma Courtney> Waahhh... Of course I will!
+<Maxie> My... You certainly do cry a lot.
+<Team Magma Tabitha>Ahyahya!
+<Team Magma Tabitha>And that settles that! Ahyahyahyahya!
+
+#Steven's Room of Elite Four, talking to Wallice
+#https://youtu.be/MgkqxXCmrtI?t=72378
+
+<Steven> I still owe you for your help at the Sky Pillar. Thank you for that.
+<Wallice> Hahaha!
+<Wallice> How unlike you to be so thoughtful.
+<Steven> Heh...
+<Steven> You know, this experience really brought it home for me again...
+<Steven> That there is still so much about this world that I do not know.
+<Steven> I wonder what would have happened to Hoenn...
+<Steven> If @s had not been here to aid us with this, and the incident with the super-ancient Pokémon...
+<Steven> I alone was powerless to stop either.
+<Wallice> There is no one person in this world who knows all.
+<Wallice> None who can do all.
+<Wallice> Steven... There is no cause for such worries or concern.
+<Steven> Hmm.
+<Steven> Heh. Don't worry.
+<Steven> It's not that I am so shocked by my own disappointing performance. But rather...
+<Wallice> Rather what?
+<Steven> I was just thinking how much more there is I must learn about nature...about Pokémon...
+<Steven> and about my fellow humans as well... If I am to keep living in this huge, wide world.
+<Steven> I want to walk this world on my own two feet.
+<Steven> To see it with my own eyes. To feel it on my very skin...
+<Steven> I need to put into practice all of the advice I ever gave to @s.
+<Steven> That's what I am thinking now.
+<Wallice> ...? Steven... You can't intend to...
+<Steven> Hah hah hah! But no need to fear...
+<Steven> I won't just disappear at once.
+<Steven> I'll still be around doing my duty on behalf of the Pokémon League.
+<Steven> But, hmm...
+<Steven> When the time does come for me to pursue my own hopes...
+<Steven> Well... I hope that you, Wallace, will be behind me to lend a hand.
+<Wallice> ...
+<Wallice> Hmph. It seems I have little choice.
+<Wallice> I bow to the whims of the pampered heir. I, Wallace, will do this thing you wish.
+<Wallice> Heh.
+<Steven> Hah hah hah... Thank you, my friend...
+
+
+#Zinnia in Meteor Falls
+#https://youtu.be/MgkqxXCmrtI?t=72486
+<Zinnia> ...
+<Whismur> Mum...
+<Zinnia> Aster...
+<Zinnia> It's over... It's all over...
+<Draconids Lady> ...Zinnia, my child.
+<Zinnia> ...Grannie.
+<Zinnia's Grandma> ...You have worked so hard.
+<Zinnia> ...
+<Zinnia's Grandma> ...It is enough, child. ...Be done with your burden. Let it go now.
+<Zinnia's Grandma> For everything there must be an ending.
+<Zinnia's Grandma> Only then... Only then can there be a new beginning.
+<Zinnia's Grandma> This is immutable truth that all living things on this planet, great and small, must accept.
+<Zinnia's Grandma> We Draconids have seen it in our history, as you have seen it in your own life.
+<Zinnia's Grandma> Now is the time for rest.
+<Zinnia's Grandma> Let down the great burden you have borne so long alone...
+<Zinnia's Grandma> So that you might at last take a step forward toward new life.
+<Zinnia's Grandma> Now is the time for rest...
+<Zinnia> ...
+<Zinnia> ... Yes.
+
+#Zinnia tps out
+
+
+#Littleroot House
+#https://youtu.be/MgkqxXCmrtI?t=72564
+
+<Professor Birch> I suppose May and @s have probably arrived by now...
+<Professor Birch> I suppose Brendan and @s have probably arrived by now...
+
+<Mrs. Birch> I imagine so.
+<Mom> The weather is good today. They should get a good view of the stars.
+<Dad> But you know...I really am glad we moved here from Johto.
+
+<Dad> I think that meeting you, Birch, and Mrs. Birch and little May, has had a huge impact on @s's life.
+<Mrs. Birch> Oh, it's just the same for our May.
+<Mrs. Birch> Don't you agree, dear?
+<Professor Birch> Of course!
+<Professor Birch> Whenever she does make it home, all May has to talk about is Pokémon and her precious friend @s.
+I think she's over the moon about this adventure and the great friend she's found.
+
+
+<Dad> I think that meeting you, Birch, and Mrs. Birch and your boy, has had a huge impact on @s's life.
+<Mrs. Birch> Oh, it's just the same for our Brendan.
+<Mrs. Birch> Don't you agree, dear?
+<Professor Birch> Of course!
+<Professor Birch> Whenever he does make it home, all Brendan has to talk about is Pokémon and his pal @s.
+I think he's over the moon about this adventure and the great friend he's found.
+
+<Mom> I think ours is just the same. They always looks so happy these days.
+<Dad> I hope you'll continue to look after our @s for many more years to come.
+<Professor Birch> Bwahahaha! Why, Norman! You don't even have to ask...
+<Professor Birch> Nothing could make me happier!
+<Dad> Hahahaha... Thanks, old friend.
+<Mrs. Birch> ...Well then, dear, isn't it about time we were headed back home?
+<Mrs. Birch> I should get supper started...
+<Professor Birch> Oh, yes! Those kids'll probably be starving when they get home!
+<Mom> Oh, I didn't make any plans yet for dinner... What do you think we should have, dear?
+<Dad> Hmm. How about our little @s's favorite?
+
+#tps to Mossdeep Space Center downstairs
+#https://youtu.be/MgkqxXCmrtI?t=72671
+
+#tps in rival
+
+<May> That was amazing... So those are the Litleonids!
+<May> I'm really going to need to thank your dad for this one.
+<May> 'Cause... Come on...
+<May> I've never felt this touched before...
+<May> Oh, I guess I should thank you, too, @s!
+<May> I'm so glad I got to see this with you.
+
+
+<Brendan> That was kinda awesome. Wow. So those are the Litleonids.
+<Brendan> I'm really gonna have to thank your old man for this one.
+<Brendan> It's like...I don't know...
+<Brendan> I feel like I've been knocked flat on my back...
+<Brendan> ...Thanks, @s.
+<Brendan> I'm really glad I got to see this with you.
+
+<Announcement> Thank you for visiting the Mossdeep Space Center.
+<Announcement> This center will be closing shortly.
+<Announcement> Please make sure that you don't forget anything when you leave.
+
+<May> It's true what they say, though. Time really flies when you're having fun...
+<Brendan> It's true what they say, though. Time really flies when you're having fun...
+
+#Littleroot OVerhead
+https://youtu.be/MgkqxXCmrtI?t=72716
+
+#tps to first person
+
+<May> Well... Bye then...
+<May> ...
+<May> @s!
+<May> See you tomorrow!
+
+
+<Brendan> Well... Bye...
+<Brendan> ...
+<Brendan> @s!
+<Brendan> See you tomorrow!
+
+#rival goes inside
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 209 - Littleroot Town
+#https://youtu.be/MgkqxXCmrtI?t=72737
+
+<Mom & Dad> You're back at last! Welcome home, @s!
+
+#blinds player
+
+#title sequence
+Pixelmon Hoenn
+Delta Episode: End
+
+#tps to room
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 210 - Littleroot Town
+#Mom and Dad after Delta Episode, gainint SS Ticket
+#https://youtu.be/MgkqxXCmrtI?t=72769
+
+<Dad> Hm?
+<Dad> Morning, @s
+<Dad> You must've been bushed. You slept like a log.
+#Summon esclamation
+<Dad> Oh, but before I forget...
+<Dad> This came for you. It's from someone named Briney.
+
+@s obtained the S.S. Ticket!
+
+<Dad> Hm, so it was a ferry ticket, was it?
+<Dad> As I recall, you can catch the ferry from the ports in Slateport and Lilycove.
+<Dad> @s!
+<Dad> If you have ambition as a Trainer, I want you to take that ferry to the Battle Resort.
+<Dad> I think it will teach you that there is no end to a Trainer's chosen path.
+<Dad> I'd better be heading back to the Petalburg Gym, then.
+<Dad> Thanks for looking after the house while I'm away, honey.
+
+#tp dad out
+
+<Mom> Ohhh, that dad of yours!
+<Mom> Can't he ever forget about work?
+<Mom> I wish he could just switch it off and take it easy sometimes!
+<Mom> But I love him just the way he is...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 211 - Mauville City
+#Wattson New Mauville first talk
+#https://youtu.be/MgkqxXCmrtI?t=73422
+#Accessible after the primals are caught/defeated, tag 149
+
+<Wattson> Oh, @s, eh?
+<Wattson> You got here just in time to give me a hand and take a look at this.
+<Wattson> This is Square Tower, an attraction here in Mauville City.
+<Wattson> It's not just for decoration, though. It has a purpose.
+<Wattson> It's monitoring how things are going in a place near here called New Mauville.
+<Wattson> To put it simply, it's a watchtower.
+<Wattson> The light's shining brightly now, see?
+<Wattson> It's warning us that something out of the ordinary may be going on in New Mauville.
+<Wattson> I've got something to ask of you, @s.
+<Wattson> If we're going to keep standing around talking, could I get you to come to my place?
+<Wattson> I've got an apartment on the second floor at Mauville Hills.
+<Wattson> I'll let the security guy know, so how about you grab the elevator on the first floor?
+<Wattson> I sure am sorry to put you out like this, @s, but please do come.
+
+#Wattson teleports out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 212 - Mauville City
+#After Rotation Battle
+#https://youtu.be/MgkqxXCmrtI?t=73682
+
+<Circie> Oh, of all things... We done? I'm plumb tuckered out now...
+<Lass> Thanks for showing Gran a good time.
+<Lass> Why don't you take this for your trouble?
+
+@s obtained an Elixir!
+
+<Circie> Consarn it. I'm feeling weak as all get-out.
+<Circie> You go and get yourself on home now.
+
+
+
+https://youtu.be/MgkqxXCmrtI?t=73917
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 213 - Mauville City
+#Wattson's Apartment
+
+<Wattson> Oh, @s, you made it!
+<Wattson> I'm sure sorry to call you all the way out here.
+<Wattson> Well, I've got a favor I need done right away.
+<Wattson> I've mentioned this before, but that bright, flashing light on top of that tower means something may have happened in New Mauville!
+<Wattson> That's why I called you here.
+<Wattson> I want you to go check on things in New Mauville.
+<Wattson> There's just one thing, though.
+<Wattson> New Mauville is usually a prohibited area.
+<Wattson> Back in my day, it was just locked up normally, but security has been evolving, too!
+<Wattson> Don't you go anywhere just yet...
+#Flash in the player's eyes
+<Wattson> Hey, thanks! I just took a picture of your eyes.
+<Wattson> Now if we just use the computer to transmit this data...
+<Wattson> Now if you go to New Mauville, the doors will open automatically!
+<Wattson> The Basement Key has what they call “iris recognition.”
+<Wattson> When you get inside, go press the button on the computer in the back.
+<Wattson> When that computer starts working right, come back here and report to me.
+<Wattson> I sure am sorry to bug you with all this, but I'm really counting on you!
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 214 - Mauville City
+#Apt 12, A Frightened Man's Home
+#https://youtu.be/MgkqxXCmrtI?t=74008
+
+<...> Yo! How many months do you think you haven't paid for?
+<...> If you don't pay what you owe, I'll take everything you have, including your Pokémon!
+<A Frightened Man> No one is here! No one is in this unit!
+<...> Oh, no one is there... Then it can't be helped...
+<...> What? You're there, talking! Don't give me that!
+<A Frightened Man> Oops...
+
+#tp NPC outside the door
+<A Frightened Man> I'm sorry! I'm sorry! I'm sorry!
+<...> You pretended not to be in last month and the month before that!
+<...> You and me need to have a long talk. Let's go inside.
+<A Frightened Man> Sniffle...
+
+#tps them both inside
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 215 - Mauville City
+#After some time has passed. Maybe after the computer is on?
+#https://youtu.be/MgkqxXCmrtI?t=74725
+
+<...> Yo! You're a Trainer, aren't ya? Then take this.
+
+@s obtained a Lopunnite!
+
+<...> I got it as security for a loan from a fool who doesn't pay what he owes.
+<...> A Pokémon would be miserable if it bonded with such a fool and Mega Evolved.
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 216 - New Mauville
+#Player pressing button(s) in New Mauville
+<Computer> WELCOME. THIS IS THE NEW MAUVILLE MANAGEMENT SYSTEM. SURVEILLANCE OF NEW MAUVILLE BEGINS. ...
+<Computer> SURVEILLANCE COMPLETE. SECURITY CONFIRMED. NO UNUSUAL ACTIVITY NOTED IN NEW MAUVILLE.
+<Computer> TRANSMITTING THE SURVEILLANCE RESULT...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 217 - Mauville City
+#Wattson after button was pressed
+#https://youtu.be/MgkqxXCmrtI?t=74770
+
+<Wattson> Oh, @s! Sorry to make you come all this way. You went out to New Mauville, right?
+<Wattson> The results of your investigation have been sent here to my computer, too.
+<Wattson> The most important thing is that there don't appear to be any abnormalities for the time being.
+<Wattson> Let me give you this as a way to say sorry for causing you such a hassle.
+
+@s obtained TM24 Thunderbolt!
+
+<Wattson> By the way, there wasn't anything going on in New Mauville, right?
+<Wattson> That was supposed to be a new town, though...
+<Wattson> We should've been able to build a huge underground city stretching down into the depths.
+<Wattson> Things happened, and its development had to be suspended.
+<Wattson> Since then it's just been left to rot.
+<Wattson> All the equipment inside might have seen better days.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 218 - Slateport City
+#If player has the scanner in their inventory
+#https://youtu.be/MgkqxXCmrtI?t=77756
+
+<Captain Stern> Ho! That device you have there is the Scanner from Sea Mauville!
+<Captain Stern> That could make our expeditions really take off!
+<Captain Stern> Would you do me a favor and let me take that Scanner off your hands?
+[Yes]  [No]
+
+#No:
+#You drive a hard bargain. Let me know if you reconsider.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 219 - Slateport City
+#Player handing over scanner
+#https://youtu.be/MgkqxXCmrtI?t=77765
+
+@s handed the Scanner to Captain Stern.
+<Captain Stern> Yes! Thanks.
+<Captain Stern> This will help our research a lot!
+<Captain Stern> Take these bells as a token of my appreciation for your generosity.
+
+@s obtained the Clear Bell!
+@s obtained the Tidal Bell!
+
+<Captain Stern> Those bells figure in old legends from the Johto region.
+<Captain Stern> They're pretty nice to have.
+<Captain Stern> When I was working on Sea Mauville, I had a lad working under me who was from those parts, and he gave me them.
+<Captain Stern> If I remember rightly, his family passed down some special dance style.
+<Captain Stern> But it was only for the girls, so as a lad he came here looking for work...
+<Captain Stern> He always kept those bells on his person, but sometimes when we were up top there at Sea Mauville they would ring,
+<Captain Stern> and they would almost seem to glow. It sure was mysterious, all right.
+<Captain Stern> I've held onto them all these years, but I'd be happy if they could serve you some use now.
+
+#Player can now obtain Ho-Oh and Lugia via wormhole when at the Sea Mauville
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 220 - Sea Mauville
+#Ho-Oh Encounter
+#https://youtu.be/MgkqxXCmrtI?t=77866
+
+#When player is approaching the portal
+#https://youtu.be/MgkqxXCmrtI?t=77853
+#Spawns portal
+The Clear Bell in your Bag seems to be flowing faintly...
+
+#
+
+A mysterious ring is floating in the air.
+A mystical presence seems to be lurking within it...
+Would you like to examine it?
+[Yes]
+
+Ho-Oh Appeared!
+
+pokebattle @s hooh lvl:50
+
+#Note on legendary resets. Thinking if this tag is present but not a HoOh, etc tag present applied upon catching, reset upon beating the Elite Four. Tag=Dialogue220,tag=!HoOh equals reset
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 221 - Sea Mauville
+#Lugia Encounter
+
+The Tidal Bell in your Bag seems to be flowing faintly...
+
+A mysterious ring is floating in the water...
+Extremely pure seawater is flowing out from within it.
+Would you like to examine it?
+[Yes]
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 222 - Scorched Slab
+#Flannery Post-Legendary
+#https://youtu.be/MgkqxXCmrtI?t=78387
+
+<Flannery> Haiyaaaaaaaaa!
+<Flannery> Ugh... It might be impossible.
+#summon exclamation
+<Flannery> Waaaaah!!
+<Flannery> D-d-don't scare me like that!
+<Flannery> You scared the living daylights out of me!
+<Flannery> Hah... Anyway... By any chance did you come here to look for the rare Pokémon, too?
+[Yes]  [No]
+
+
+
+#----------------------
+#Dialogue 223
+#Flannery Answer
+#Yes
+<Flannery> Oh, you don't know the rumor?
+<Flannery> OK. I'll tell you, then.
+<Flannery> According to my grandfather, this cave long has been rumored to be the place where a rare Fire-type Pokémon lives.
+<Flannery> The Pokémon has a magma-like body and sharp claws...
+<Flannery> But it's too dark to move forward from here without Flash.
+<Flannery> It's a bit scary. You know, in a pitch-black place like this, if something falls from the ceiling, you can't tell what it is...
+<Flannery> Eww. I'm thinking about going back to Lavaridge and coming back better prepared.
+<Flannery> So I'm leaving now, but if you go farther, please be careful!
+
+#tp Flannery out
+
+#No
+#Dialogue 224
+<Flannery> You, too... Oh, I see.
+<Flannery> As you may have heard, this cave has long been rumored to be the place where a rare Fire-type Pokémon lives.
+<Flannery> That's why I came here. But I guess I was a bit ill prepared...
+<Flannery> I was just thinking about going back to Lavaridge and coming back later.
+<Flannery> So I'm leaving now, but if you go farther, please be careful!
+
+#tp Flannery out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 225 - Scorched Slab
+#Heatran Encounter
+#https://youtu.be/MgkqxXCmrtI?t=78468
+
+#Upon entering the room
+It's so hot that you can't stop sweating... Merely breathing is difficult...
+
+A mysterious ring is floating in the air. Something is visible deep in the hole...
+Would you like to put your hand deep in the hole?
+[Yes]
+
+pokebattle @s Heatran lvl:50
+
+Heatran Appeared!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 226 - Shoal Cave
+#Shell Guy First Talk
+<Shoal Man> Are you planning on going deep in there?
+<Shoal Man> How about bringing me back some Shoal Salt and Shoal Shells?
+<Shoal Man> I can make you something good if you bring me those items.
+<Shoal Man> If you bring me four each of the Shoal Salt and Shoal Shells, I can make you a Shell Bell...
+<Shoal Man> You can get more every day.
+
+#-------------------------------
+#Dialogue 227 - Shoal Cave
+#Shell Guy if resources present
+#https://youtu.be/MgkqxXCmrtI?t=79763
+
+<Shoal Man> Oh, hey! Shoal Salt and Shoal Shells!
+<Shoal Man> And enough of them, too! Would you like me to make you a Shell Bell with them?
+[Yes]  [No]
+
+#-------------------------------
+#Dialogue 228 - Shoal Cave
+#Shell Guy Creating shells
+
+#If answers no,
+<Shoal Man> Oh... Is that so...? I wanted to make a Shell Bell...
+
+#Checks resources are still present
+<Shoal Man> All righty, then! I'll make you a Shell Bell right away.
+<Shoal Man> ... There! Done!
+
+@s obtained a Shell Bell!
+
+<Shoal Man> Have a Pokémon hold on to that.
+<Shoal Man> It'll love it, that's for certain.
+<Shoal Man> Why, the Shell Bell's chime... It's simply sublime!
+<Shoal Man> You can get more Shoal Salt and Shoal Shells every day, so I can always make more.
+
+#if done for the first time, applies tag after first time. Skips if recurring
+<Shoal Man> And... I'm not quite sure what this is, but I got this recently.
+<Shoal Man> If you like, please take this, too.
+
+@s obtained a Slowbronite!
+give @s slowbronite
+tag @s add Slowbronite
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 229 - Sealed Chamber
+#Upon meeting unlock conditions
+#https://youtu.be/MgkqxXCmrtI?t=81073
+#Having a Pokemon use dig, unlocks first room
+
+#Upon standing on raided platform, throwing out Relicanth and then Whailord could activate it as a Pixelmon alternative
+
+#Screen shaking
+
+#Three loud bangs
+
+
+It sounded as if doors opened somewhere far away.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 230 - Desert Ruins
+#Regirock Encoutner
+#https://youtu.be/MgkqxXCmrtI?t=81896
+#Puzzle: "Right, right, down, down, then use your Strength."
+#Wonder if I could just do right motion, right motion, down motion, down motion. Summon an armor stand and if they are all four aligned unlock the door? Or if motion checks, confirm with the player to use strength to unlock
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 231 - Ancient Tomb
+#Registeel Encounter
+#https://youtu.be/MgkqxXCmrtI?t=83515
+#Puzzle: "Stand center. Aim to the sky with love and hope and time."
+#Player can stand roughly in the center of the tomb and use the Fly HM
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 232 - Island Cave
+#Regice Encounter
+#https://youtu.be/MgkqxXCmrtI?t=82941
+#Puzzle: "Stop and wait unmoving as time passes you by twice."
+#Track any walk on the player, and if zero, count up totaling two minutes without movement. If any movement, reset the timer.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 233 - Island Cave
+#Regigigas Encounter
+#Next day after obtaining all three Regis needs to occur. Add a verification tag in the daily reset
+#https://youtu.be/MgkqxXCmrtI?t=84127
+
+#Shaking screen
+The very earth is quaking! Is something approaching?!
+<...> Zut zutt!
+
+pokebattle Regigigas lvl:50
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 234 - Pathless Plain
+#Cobalion (Sun, Wed, Fri)
+
+#Upon landing in the Plain, if able to battle
+You feel a strong gaze and like something is calling for you...
+
+A mysterious ring is floating in the air.
+Something is visible deep in the hole...
+Would you like to put your hand deep in the hole?
+[Yes]
+
+Cobalion appeared!
+pokebattle Cobalion lvl:50
+
+#------------------------------
+#Dialogue 235 - Pathless Plain
+#Terrakion (Tues, Sat)
+
+A mysterious ring is floating in the air.
+Something is visible deep in the hole...
+Would you like to put your hand deep in the hole?
+[Yes]
+
+Terrakion appeared!
+pokebattle Terrakion lvl:50
+
+#-------------------------------
+#Dialogue 236 - Pathless Plain
+#Virizion (Mon, Thurs)
+
+A mysterious ring is floating in the air.
+Something is visible deep in the hole...
+Would you like to put your hand deep in the hole?
+[Yes]
+
+Virizion appeared!
+pokebattle Virizion lvl:50
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 237 - Trackless Forest
+#Raikou Encounter
+#Requires player to have caught Ho-Oh or Lugia
+#https://youtu.be/MgkqxXCmrtI?t=84919
+
+#Switch between the three depending on time of day
+#Pre-Text
+You feel an intense gaze almost electrifying your entire body...
+
+A mysterious ring is floating in the air.
+Something is visible deep in the hole...
+Would you like to put your hand deep in the hole?
+[Yes]
+
+Raikou appeared!
+pokebattle @s Raikou lvl:50
+
+#-------------------------------
+#Dialogue 238 - Trackless Forest
+#Entei Encounter
+
+#Pre-Text
+A blazing and strong presence is in the air...
+
+A mysterious ring is floating in the air.
+Something is visible deep in the hole...
+Would you like to put your hand deep in the hole?
+[Yes]
+
+Entei appeared!
+pokebattle @s Entei lvl:50
+
+#-------------------------------
+#Dialogue 239 - Trackless Forest
+#Suicune Encounter
+
+#Pre-text
+Very clear sea water is quietly surging...
+
+A mysterious ring is floating in the air.
+Something is visible deep in the hole...
+Would you like to put your hand deep in the hole?
+[Yes]
+
+Suicune appeared!
+pokebattle @s Suicune lvl:50
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 240 - Soaring in the sky
+#Tornadus Prompt
+
+#Instead of version exclusives, do when the weather is rainy or sunny
+#Requires Castform in player's party
+
+You feel a presence behind the black clouds.
+A strong wind is blowing...
+Despite that, do you want to fly into the clouds?
+[Yes]
+
+Tornadus appeared!
+pokebattle @s Tornadus lvl:50
+
+#-------------------------------
+#Dialogue 241 - Soaring in the sky
+#Thundurus Prompt
+
+You feel a presence behind the black clouds.
+It looks as though lightning could strike at any moment...
+Despite that, do you want to fly into the clouds?
+[Yes]
+
+Thundurus appeared!
+pokebattle @s Thundurus lvl:50
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 242 - Lillycove or Slateport Harbor
+#https://youtu.be/MgkqxXCmrtI?t=85438
+
+<Lass> Hello. Are you here for the ferry? May I see your ticket?
+
+@s showed the woman their ticket.
+
+<Lass> Perfect! That's all you need! And where would you like to go?
+
+#change depending on player's location
+[The Battle Resort]  [Slateport City]
+[The Battle Resort] [Lilycove City]
+[Slateport City]  [Lilycove City]
+
+#if ticket not present
+@s doesn't have a ticket!
+<Lass> I'm terribly sorry. You must have a ticket to board the ferry.
+
+#-----------------------------------------
+#Dialogue 243 - S.S. Tidal Voyrage Start
+#Traveling to a location
+<Lass> Please board the ferry and wait for departure.
+
+#blinds player
+
+#tps player to the in-progress boat, tracks where they're heading with a score
+
+<Sailor> This ferry is built to plow through fast-running currents.
+<Sailor> We hope you enjoy your voyage with us. Feel free to explore the ship.
+
+#----------------------------------------
+#Dialogue 244 - Arriving from S.S. Tidal
+
+
+
+#-----------------------------------------------------------------------------------------------------
 
 
 
@@ -6411,9 +8025,18 @@ https://youtu.be/MgkqxXCmrtI?t=49151
 #https://youtu.be/MgkqxXCmrtI?t=58653
 Clear air surrounds the area. It's lifting your spirits...
 
+#Pacifidlog Town, assesses friendship for TMs
+https://youtu.be/MgkqxXCmrtI?t=80461
+Ah! Your Pokémon...
+It's clearly very friendly toward you. A Pokémon that adoring and adorable deserves a TM like this, no?
+Hmm... It's not bad, but it's also not good. You, as the Trainer, need to put in some more effort.
+It has a vicious look to it. A frightening Pokémon like that deserves a TM like this.
+If a Pokémon is very friendly toward you, Return's power is enhanced. If it's not friendly, Frustration's power goes up.
+
+
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=66973
+https://youtu.be/MgkqxXCmrtI?t=85462
 
 
 
