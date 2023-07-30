@@ -7979,32 +7979,132 @@ pokebattle @s Thundurus lvl:50
 #----------------------------------------
 #Dialogue 244 - Arriving from S.S. Tidal
 
+<Intercom> We will be landing in Slateport City shortly.
+<Intercom> We will be landing in Lilycove City shortly.
+<Intercom> Thank you for sailing with us.
+<Intercom> When you get off the ferry, please speak to the crew at the entrance.
 
+#then when player visits entrance they'll be able to board?
+#I might need to tp the plyaer off to make that work
 
 #-----------------------------------------------------------------------------------------------------
+#Dialogue 245 - S.S. Tidal
+#Mr. Briney and Drake conversation
+#https://youtu.be/MgkqxXCmrtI?t=85767
+
+<Mr. Briney> ...But I thank ye for coming along.
+<Drake> Briney, it's like the good old days, having you guide the rudder again after all this time.
+<Drake> And it's great to see Peeko again, too!
+<Peeko> Pi pi!
+<Mr. Briney> Ohoho! Look how thrilled Peeko is to see her old pal Drake!
+<Mr. Briney> But no need to keep goin' on about it, mind you.
+<Mr. Briney> Eh-hrrmm. Anyhow, it's a short crossing, so drink it all in, eh?
+<Drake> Well then, I'll see you later on! Full speed ahead, Briney!
+<Mr. Briney> Aye aye, old friend! Full speed ahead.
+
+#Drake TPS out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 246 - Battle Resort
+#Wally greeting player
+#https://youtu.be/MgkqxXCmrtI?t=86869
+
+<Wally> Ah! @s! So you came, too!
+<Wally> Mr. Norman actually gave me a ticket as well.
+<Wally> I just got here a little while ago.
+<Wally> So this is the Battle Resort... A tropical paradise that only the lucky few get to visit...
+<Wally> I'm getting pumped just standing here! Let's check it out!
+
+#overhead shot of Team Aqua (in the magma line)
+
+<Team Aqua Shelly> See you later, Archie. Do it right.
+<Team Aqua Matt> Fight on, bro!
+<Archie> Aye aye! Take care of the crew while I'm away!
+#Wally walks through the NPCs
+<Archie> Hyo!
+<Wally> I'm s-sorry, ma'am, sir... Running into you like that...
+#Wally tps off
+<Team Aqua Shelly> Ma'am...
+<Team Aqua Matt> Oho?!
+<Archie> Hmm. Interesting.
+<Team Aqua Shelly> Wh-what?! It's that brat! No matter how you look at it, I'm a “miss,” not a “ma'am”!
+<Team Aqua Matt> What an honest kid...
+<Archie> Oh!
+#return to first person
+<Team Aqua Shelly> Huhn?! Is this that kid...
+<Archie> Ahhh, yeah.
+<Archie> The scamp of a Trainer who put a stop to Team Magma and that Groudon of theirs.
+<Archie> To think I'd run into you here.
+<Archie> And that little runt there, he's one of your friends?
+<Archie> He only passed us by, but I felt a real fire for battle there. He must be some Trainer.
+<Archie> Looks like I'll get to take on the both of you if I keep battling here a while!
+<Archie> Bwahahaha! Looks like it won't be a waste that I came all the way out here after all!
+<Archie> I've gotta say...it's been weighing on my mind ever since Sootopolis, but...
+<Archie> You know, if we lived in a slightly different world, it might have been me and my crew that you'd had to stop...
+<Archie> It's not a stretch to think that we might have tried reviving Kyogre to try to use its power for ourselves...
+<Archie> You know?
+<Team Aqua Shelly> Hmmph...I'd like to go there. If there is a world like that...
+<Team Aqua Matt> Oh-hoh! Sounds fun!
+<Archie> Bwahahaha!
+<Archie> It's nonsense, of course! It's not like there could be another world out there just like ours, eh?
+<Archie> That's why we dream, right? Wahaha! 'Cause we know our dreams can't be real!
+<Archie> Ah... But since we did get to run into each other like this...
+<Archie> I think I'll give this to you!
+<Archie> Matt!
+<Team Aqua Matt> Yeah, bro!
+
+@s obtained a Sharpedonite!
+
+<Team Aqua Matt> This is a gift from my bro! Take good care of it.
+<Archie> I look forward to pitting my team against yours someday! See you then!
+
+#Archie tps out
+
+<Team Aqua Shelly> Wouldn't you know it... He can really make a girl's eyes sparkle.
+<Team Aqua Shelly> He's always like that when he meets strong Trainers.
+<Team Aqua Shelly> That's what I like about him, though...
+
+#Shelly tps off
+
+<Team Aqua Matt> Muwahahahaha! That's fun! You're crazy fun!
+<Team Aqua Matt> I can tell how strong you are even though we're not battling!
+<Team Aqua Matt> I'll be looking forward to when me and my bro squash you!
+
+#Matt tps off
 
 
+#AQUA VARIANT
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 247 - Battle Resort
+#Player and Wally continued
+#https://youtu.be/MgkqxXCmrtI?t=87034
 
+#Shot of the island
 
+<Wally> Wow... Incredible...
+<Supernerd> Hmmm?
+<Supernerd> You two... You don't look like spectators.
+<Supernerd> You must be Trainers who came here for a challenge, correct?
+<Wally> Challenge?
+<Supernerd> You see, people who come to the Battle Resort are divided into two types!
+<Supernerd> Those who come to see battles, and those who come to battle!
+<Wally> Oh, is that right? But where can we battle?
+<Supernerd> What? You don't know the Battle Maison?!
+<Wally> No, I don't...
+<Supernerd> Oh my... All right.
+<Supernerd> It's better to have you experience it rather than me explaining it in words!
+<Supernerd> Make sure you visit the Battle Maison that's up on top of this island's main hill!
+<Wally> Thank you very much. We will be sure to do that!
+<Supernerd> All right, then. I'm leaving now. Good luck, you two!
+<Wally> The Battle Maison...
+<Wally> I'm curious about what kind of place it is, but I think I'll take a look around the island first.
+<Wally> I've never been so far from home before, and I've never visited anything like a resort!
+<Wally> So I'll be off exploring, @s. But I'll see you later!
+<Wally> I hope we can battle again, here in this resort!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 248
 
 
 
@@ -8036,7 +8136,7 @@ If a Pokémon is very friendly toward you, Return's power is enhanced. If it's n
 
 
 #Left off at
-https://youtu.be/MgkqxXCmrtI?t=85462
+https://youtu.be/MgkqxXCmrtI?t=87117
 
 
 
