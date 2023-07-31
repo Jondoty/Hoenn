@@ -5248,15 +5248,19 @@ give @s dawn_stone
 <Sidney> That's good! Looking real good!
 <Sidney> All right! Let's get down to the kind of battle that can happen only here in the Pokémon League!
 
-#Rematch text?
-<Sidney> Yo! I've been waiting for you, Champion! With the strength you've gained, we can battle with no holds barred!
+#Rematch text
+#https://youtu.be/MgkqxXCmrtI?t=89647
+#I think these are post-Delta Episode?
+<Sidney> Yo! I've been waiting for you, Champion!
+<Sidney> With the strength you've gained, we can battle with no holds barred!
 <Sidney> Not to mention, our boy Steven sent us Elite Four some Key Stones!
 <Sidney> In other words, my Pokémon can Mega Evolve, too...
 <Sidney> Heh heh... This one's gonna be fun!
 
-<Sidney> I was waiting for you, Champion. No matter who wins, no hard feelings!
+#Rematch Second+ time
+#https://youtu.be/MgkqxXCmrtI?t=92146
+<Sidney>  was waiting for you, Champion. No matter who wins, no hard feelings!
 <Sidney> Let's get our most excellent battle underway!
-
 
 #--------------------------------
 #Dialogue 156 - Pokemon League
@@ -5266,7 +5270,7 @@ give @s dawn_stone
 <Sidney> You've got what it takes to go a long way!
 <Sidney> Go on to the next room and challenge your next battle!
 
-#Rematch
+#Rematchs
 <Sidney> Heh... I knew you really were the strongest...
 <Sidney> Well, hurry up and get out of here!
 <Sidney> Everybody else is still waiting for you!
@@ -5281,7 +5285,8 @@ give @s dawn_stone
 <Phoebe> While I trained there, I gained the ability to commune with Ghost-type Pokémon.
 <Phoebe> The bond I developed with my Pokémon is extremely tight.
 
-#Rematch?
+#Rematch
+#https://youtu.be/MgkqxXCmrtI?t=90041
 <Phoebe> Ahaha!
 <Phoebe> I've been waiting for you!
 <Phoebe> I'm bringing a little something new to the table this time!
@@ -5381,6 +5386,15 @@ give @s dawn_stone
 <Steven> My Pokémon and I will respond in turn with all that we know!
 <Steven> Let it begin!
 
+#Rematch
+<Steven> Welcome, Champion.
+<Steven> Let me test my skills against you once again!
+
+#Rematch Second+
+<Steven> Now then...
+<Steven> There are no words left for us to exchange.
+<Steven> We will understand one another through battle!
+
 #--------------------------------
 #Dialogue 164 - Pokemon League
 #Steven Post-Battle
@@ -5443,6 +5457,32 @@ give @s dawn_stone
 <Steven> Step into this room with me, Champion.
 
 #tp out the NPCs on portal tp to hall of fame
+
+#Rematch
+https://youtu.be/MgkqxXCmrtI?t=91802
+<Steven> I knew you would be strong...
+<Steven> But I don't regret our battle.
+<Steven> Because each time that I battle you, I learn more about Pokémon...
+<Steven> Yes...
+<Steven> I have something I'd like to give to you in thanks for all you've done.
+
+@s obtained a Metagrossite!
+
+<Steven> That is a very special piece from my collection...
+<Steven> But I think you are capable of appreciating its worth.
+<Steven> Come. It is time we record your great victory.
+
+#tps to Hall of Fame room
+
+
+
+
+#Rematch #2?
+<Steven> In the end, you are still the strongest.
+<Steven> Amazing.
+<Steven> Now let us make a record of your victory!
+
+#tp to Hall of Fame
 
 #--------------------------------
 #Dialogue 165 - Hall of Fame room pre-credits
@@ -5782,7 +5822,7 @@ Delta Episode
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 173 - Littleroot Town
 #Professor Birch giving Unova starter
-#Post-Delta Episode
+#After completing the Delta Episode
 
 <...> H-help me!
 
@@ -5811,7 +5851,8 @@ Delta Episode
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 175 - Littleroot Town
 #Professor Birch giving Sinnoh starter
-#NEED CRITERIA
+#After entering the Hall of Fame for the second time
+#https://youtu.be/MgkqxXCmrtI?t=91936
 
 
 <...> H-help me!
@@ -8104,7 +8145,206 @@ pokebattle @s Thundurus lvl:50
 <Wally> I hope we can battle again, here in this resort!
 
 #-----------------------------------------------------------------------------------------------------
-#Dialogue 248
+#Dialogue 248 - Battle Resort
+#Daycare woman missing purse
+#https://youtu.be/MgkqxXCmrtI?t=87153
+
+<Lass> How could I be so careless? I lost my purse, and I'm in a somewhat compromised situation.
+<Lass> Well, shall I allow you to give me some money?
+<Lass> Yes, $100 would be fine.
+[Yes]  [No]
+
+#-----------------------------
+#Dialogue 249 - Battle Resort
+Answer
+
+No: <Lass> You're unbelievable. You're missing the opportunity to help me out.
+
+<Lass> Fine. You may help me.
+<Lass> However, my pride won't let me accept your charity.
+<Lass> Therefore, I will show my generosity by giving you this in return.
+
+@s obtained TM87 (Swagger)
+
+<Lass> You may embrace the happiness and express your gratitude for having been able to help me every time you use the move.
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 250 - Battle Resort
+#Looker first encounter
+#https://youtu.be/MgkqxXCmrtI?t=87236
+
+<...> Ugh...
+<...> ...You. I want to ask you something.
+<...> Where...where am I?
+<...> Hoenn...?
+
+#tp in NPC
+
+<Beauty> Hey! What happened to you? You're absolutely soaked to the skin!
+<Beauty> Even in a tropical place like Hoenn, if you are soaked like that, you'll catch cold!
+<...> Ah...yeah...
+<Beauty> Oh, boy. I guess I have no other choice... Come to my cottage.
+
+#both walk away
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 251 - Battle Maison
+#Upon first entrance
+#https://youtu.be/MgkqxXCmrtI?t=88682
+
+<Sidney> Oh! It's you!
+<Sidney> You're here, too, huh?
+<Sidney> I guess when Trainers find out about a facility like this, it gets their blood pumping.
+<Sidney> This place reeks of hard-driving Trainers.
+<Sidney> Who, me?
+<Sidney> I came to ask that guy Steven to come to the Pokémon League.
+<Sidney> That guy really goes for it when it comes to the Battle Maison.
+<Sidney> He's been hanging around here where he can have different battles than in the Pokémon League.
+<Sidney> Anyway, I came to bring him back, but it looks like he dodged me...
+<Sidney> Well, I said what I came to say. I'm going back to Ever Grande.
+<Sidney> You're going to try your luck at the Battle Maison, too, right?
+<Sidney> If you see that guy, say hi for me. See you later.
+
+#tp Sidney out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 252 - Battle Resort
+#Team Grunts
+#https://youtu.be/MgkqxXCmrtI?t=89017
+
+<Team Magma Grunt> Eek! You...!
+<Team Aqua Grunt> So you really came... Blast it...
+<Team Aqua Grunt> Hrmph! Then I guess I've just got to do it...
+<Team Magma Grunt> No! It's too dangerous, baby!
+<Team Aqua Grunt> It's fine, darling! I'll take care of this!
+<Team Aqua Grunt> You just take this chance to get away!
+<Team Magma Grunt> What are you talking about, baby?
+<Team Magma Grunt> I couldn't possibly leave you here!
+<Team Magma Grunt> Didn't we make a promise to each other?!
+<Team Magma Grunt> We're supposed to survive together!
+<Team Aqua Grunt> D-darling...
+<Team Magma Grunt> If we're going to get caught anyway, then let's get caught together!
+<Team Magma Grunt> I won't leave you here alone!
+<Team Magma Grunt> Whatever punishment awaits us for betraying our teams...
+<Team Magma Grunt> We'll face it together!
+<...> No need to worry about that.
+
+#Team Magma Grunt tps in
+
+<Team Magma Grunt> Y-you!!! But why?!
+<Team Magma Grunt 2> Team Magma...and Team Aqua both...
+<Team Magma Grunt 2> We've all changed.
+<Team Magma Grunt 2> And all because of this Champion next to me.
+
+<...> Yeah. That's how it is.
+
+#Team Aqua Grunt 2 tps in
+
+<Team Aqua Grunt> You...
+<Team Aqua Grunt 2> No one's going to come chasing after a couple of runaways like you anymore.
+<Team Magma Grunt> Then why... How did you even find us?
+<Team Magma Grunt 2> I know how you think. And besides...
+<Team Magma Grunt 2> Our leader Maxie came here, too. I could guess he had some reason for that.
+<Team Magma Grunt 2> He never misses a detail, after all. I'm sure he knew the two of you were here.
+<Team Aqua Grunt 2> And our Archie is just the same.
+<Team Aqua Grunt 2> He's testing himself against the fine Trainers at the Battle Maison, taking a good hard look at who he is.
+<Team Aqua Grunt 2> I don't think he's bothered at all about some runaway like you.
+<Team Aqua Grunt>  that's how it is, huh?
+<Team Magma Grunt 2> You know.
+<Team Magma Grunt 2> To be honest, I came here to bring you back with me, but looks like maybe I shouldn't have bothered.
+<Team Magma Grunt 2> Just...take good care of her, you hear?
+<Team Magma Grunt> You mean...
+
+#tp Magma Grunt 2 out
+
+<Team Aqua Grunt 2> Well, wonders never cease.
+<Team Aqua Grunt 2> To think that little Miss Magma and I would arrive at the same conclusion...
+<Team Aqua Grunt 2> But that's how it is, so... Yeah. You're free.
+<Team Aqua Grunt 2> Be as happy as you can be with that fellow of yours.
+
+#tp Aqua Grunt 2 out
+
+<Team Aqua Grunt> Y-you busybody... You bet I will...
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 253 - Battle Resort
+#Upon revisiting Magma and Aqua Grunts
+#https://youtu.be/MgkqxXCmrtI?t=89173
+
+<Team Magma Grunt> We've been awaiting you, Champion!
+<Team Aqua Grunt> You sure kept us waiting, Champ.
+<Team Magma Grunt> We spent a long time thinking things through after what happened last time.
+<Team Magma Grunt> And in the end...we both decided that we should go back to our own teams.
+<Team Aqua Grunt> Team Aqua and Team Magma...
+<Team Aqua Grunt> We've decided to each go back to our own teams...
+<Team Aqua Grunt> And we were thinking maybe we could help mediate things between them.
+<Team Magma Grunt> Even a couple of Grunts like us have managed to find a way to understand one another.
+<Team Magma Grunt> It seems like there has to be a way for everyone to recognize one another and move forward.
+<Team Aqua Grunt> But we were only able to dream of something like that because both teams have changed already...
+<Team Aqua Grunt> And I think that's all thanks to what you've done.
+<Team Magma Grunt> And so that is why we hoped to ask you for a favor, Champion.
+<Team Aqua Grunt> That's right. It's something we could only ask you to do.
+
+#Triggercommand outputs
+<Team Magma Grunt> I want you to take my Camerupt. Will you accept it from a Team Magma Grunt like me?
+[Yes]
+
+<Team Magma Grunt> Thank you very much. Please take good care of Camerupt. It loves to run more than anything, so I hope you'll play with it a whole lot...
+pokegive @s camerupt lvl:40
+
+<Team Aqua Grunt> I want you to take my Sharpedo. Will you take a Pokémon from a Team Aqua Grunt like me?
+[Yes]
+
+<Team Aqua Grunt> Thanks for this. I'll leave Sharpedo in your care. Riding around on this fella's back while surfing... It's the best.
+pokegive @s sharpedo lvl:40
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 254 - Battle Resort
+#Looker Follow Up
+#https://youtu.be/MgkqxXCmrtI?t=89373
+
+<...> Hnh. You again.
+<...> I apologize for my actions earlier. The truth of the matter is...
+<...> I have no idea in the world what I am doing here... Or even who I am.
+<...> The first thing of which I can remember is awakening here upon this beach.
+<...> Baffled, lacking awareness of the circumstances that brought me here...
+<...> And at that moment, you appeared!
+<...> I feel...as though I have some duty that I should be accomplishing...
+<...> But of it, I can remember nothing.
+<...> Please, pardon me for going on about myself. In fact... I feel quite uneasy.
+<...> Of course, I must thank you for finding me.
+
+@s obtained an Audinite!
+
+<...> That, I found in the pocket of my overcoat.
+<...> It was the only thing I had on me.
+<...> I do not know if it will prove worth anything, but I'm glad to give it to you.
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 255 - Littleroot
+#Mom giving Latiasite (After Delta Episode?)
+#https://youtu.be/MgkqxXCmrtI?t=91913
+
+<Mom> ...Oh!
+<Mom> That reminds me! Here!
+<Mom> I've been thinking I should give you these, @s...
+
+@s obtained a Latiasite!
+@s obtained a Latiosite!
+
+<Mom> Remember the night you went to see the star show?
+<Mom> Well, I found these in the grass out front the next morning!
+<Mom> Isn't it pretty, the way they sparkle? It's like a rainbow!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 256
+
+
+
+
+
+
 
 
 
