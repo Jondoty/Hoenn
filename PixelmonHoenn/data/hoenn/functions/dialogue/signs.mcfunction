@@ -84,6 +84,12 @@ tellraw @s ["",{"text":"Trainer Tips","bold":true,"italic":true,"color":"gray"},
 tellraw @s ["",{"text":"Route 104","bold":true,"italic":true,"color":"gray"},{"text":"\nNorth: Rustboro City","italic":true,"color":"gray"}]
 
 #-----------------------------------------------------------------------------------
+#Route 105
+#-2767 64 474
+Route 105
+North: Petalburg City
+
+#-----------------------------------------------------------------------------------
 #Petalburg Woods
 
 #-2785 69 -158
@@ -210,6 +216,10 @@ tellraw @s {"text":"Route 109","italic":true,"color":"gray"}
 
 #-1534 64 514
 tellraw @s ["",{"text":"Seashore House","bold":true,"italic":true,"color":"gray"},{"text":"\nMay hot battles rage on hot stands! The place for hot Trainers!","italic":true,"color":"gray"}]
+
+#-1390 64 552
+Trainer Tips
+Pokémon at the same level may not always have identical stats. Pokémon raised by Trainers are said to grow stronger than wild Pokémon.
 
 #-----------------------------------------------------------------------------------
 #Slateport City
