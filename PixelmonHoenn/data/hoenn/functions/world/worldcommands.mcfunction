@@ -29,7 +29,10 @@ scoreboard players set @a[scores={click=1..}] MusicCooldown 0
 scoreboard players set @a[scores={click=1..}] click 0
 
 
+#Runs Fly HM and Map
 
+#Fly Map
+execute as @a[x=334,y=237,z=-1917,distance=..40] run hoenn:world/flymap
 
 
 
