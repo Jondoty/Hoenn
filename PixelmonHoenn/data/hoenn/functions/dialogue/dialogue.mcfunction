@@ -8338,7 +8338,76 @@ pokegive @s sharpedo lvl:40
 <Mom> Isn't it pretty, the way they sparkle? It's like a rainbow!
 
 #-----------------------------------------------------------------------------------------------------
-#Dialogue 256
+#Dialogue 256 - Littleroot Town
+#Mom giving Amulet Coin after beating Dad
+
+<Mom> Oh? Did Dad give you that Badge?!
+<Mom> Then here's something from your mom!
+
+@s obtained an Amulet Coin!
+
+<Mom> It's a wonderful thing to try hard at your passion, but don't push yourself too hard, dear.
+<Mom> You can always come home if you need to. Good luck, honey!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 257 - Littleroot Town
+#Birch giving Oval Charm
+
+You've been meeting new Pokémon at a good clip, haven't you? Here, take this as a little reward for all your hard work!
+If you're holding an Oval Charm, you'll have a better chance of finding an Egg at the Pokémon Day Care.
+
+#---------------------------------
+#Dialogue 258 - Littleroot Town
+#Birch giving Shiny Charm
+
+Congratulations to you! You've completed the Pokédex!
+Sniffle... I am overwhelmed.
+My decision to give you that Pokédex I'd ordered was wholly justified.
+This completed Pokédex is a testament to your hard work...
+And to the support of the many who helped you...
+And to the bonds you have built with your Pokémon! It is a unique treasure!
+You've been meeting new Pokémon at a good clip, haven't you?
+Here, take this as a little reward for all your hard work!
+Holding a Shiny Charm will improve your chances of finding a Shiny Pokémon!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 259 - Verdanturf Town
+#Wanda after clearing out the tunnel
+#tp in the NPCs separately
+
+<Wanda> Why, it feels like it's been ages since we saw you last!
+<Wanda> What wonderful timing! I was thinking that I wanted to give this to you...
+
+@s obtained a Gardevoirite!
+
+<Wanda> I didn't really thank you properly when you helped smash those rocks in the tunnel.
+<Wanda> Do you remember how light came falling out of the sky a while ago?
+<Wanda> I found this in the yard that day. Actually, I found two, and I gave the other to Wally.
+<Wanda> It's a pretty stone, and I'm sure your Pokémon would be delighted if you let one of them hold it!
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 260 - Fallarbor Town
+#Professor Cozmo after the Delta Episode
+
+<Professor Cozmo> Oh! Why, hello again!
+What good fortune... I'd been thinking that if I saw you again, I would want to give you this...
+
+@s obtained a Galladite!
+
+<Professor Cozmo> I happened to pick this up some time ago, while doing excavation at Meteor Falls.
+<Professor Cozmo> I hoped it might help you and your team along on your journey.
+<Professor Cozmo> But I'm still astounded by it all.
+<Professor Cozmo> A relationship between the Mega Stones, Key Stones, and the Meteorites...
+<Professor Cozmo> My, but new facts do come to light every day! This is what makes my research feel worthwhile!
+<Professor Cozmo> I know a man, a dear friend in the Kalos region, who has been researching Mega Evolution.
+<Professor Cozmo> We worked together a few years back here at Meteor Falls researching Meteorites.
+<Professor Cozmo> I'll have to share this information with him at once.
+<Professor Cozmo> It might propel his research forward, and help future Trainers and Pokémon. I hope it does.
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 261
+
 
 
 
@@ -8375,8 +8444,7 @@ If a Pokémon is very friendly toward you, Return's power is enhanced. If it's n
 
 
 
-#Left off at
-https://youtu.be/MgkqxXCmrtI?t=87117
+
 
 
 
