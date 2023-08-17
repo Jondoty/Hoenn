@@ -6,23 +6,23 @@ fill 313 237 -1931 356 237 -1902 minecraft:red_carpet replace minecraft:green_ca
 
 #Sets applicable carpets player can visit if they have the existing tag
 setblock 321 237 -1913 green_carpet
-execute if @s[tag=FlyOldale] run fill 321 237 -1916 321 237 -1916 green_carpet
-execute if @s[tag=FlyPetalburg] run fill 319 237 -1916 318 237 -1916 green_carpet
-execute if @s[tag=FlyRustboro] run fill 317 237 -1922 316 237 -1921 green_carpet replace red_carpet
-execute if @s[tag=FlyDewford] run fill 319 237 -1907 319 237 -1907 green_carpet
-execute if @s[tag=FlySlateport] run fill 326 237 -1914 327 237 -1913 green_carpet
-execute if @s[tag=FlyMauville] run fill 327 237 -1921 326 237 -1920 green_carpet replace red_carpet
-execute if @s[tag=FlyVerdanturf] run fill 321 237 -1921 321 237 -1921 green_carpet
-execute if @s[tag=FlyFallarbor] run fill 323 237 -1924 323 237 -1924 green_carpet
-execute if @s[tag=FlyLavaridge] run fill 321 237 -1921 321 237 -1921 green_carpet
-execute if @s[tag=FlyFortree] run fill 330 237 -1927 330 237 -1927 green_carpet
-execute if @s[tag=FlyLilycove] run fill 337 237 -1924 336 237 -1923 green_carpet
-execute if @s[tag=FlyMossdeep] run fill 345 237 -1922 344 237 -1922 green_carpet
-execute if @s[tag=FlySootopolis] run fill 341 237 -1917 341 237 -1917 green_carpet
-execute if @s[tag=FlyPacifidlog] run fill 338 237 -1913 338 237 -1913 green_carpet
-execute if @s[tag=FlyEverGrande] run fill 350 237 -1915 350 237 -1915 green_carpet
-execute if @s[tag=FlyLeague] run fill 350 237 -1917 350 237 -1917 green_carpet
-execute if @s[tag=FlyResort] run fill 345 237 -1908 345 237 -1908 green_carpet
+execute if entity @s[tag=FlyOldale] run fill 321 237 -1916 321 237 -1916 green_carpet
+execute if entity @s[tag=FlyPetalburg] run fill 319 237 -1916 318 237 -1916 green_carpet
+execute if entity @s[tag=FlyRustboro] run fill 317 237 -1922 316 237 -1921 green_carpet replace red_carpet
+execute if entity @s[tag=FlyDewford] run fill 319 237 -1907 319 237 -1907 green_carpet
+execute if entity @s[tag=FlySlateport] run fill 326 237 -1914 327 237 -1913 green_carpet
+execute if entity @s[tag=FlyMauville] run fill 327 237 -1921 326 237 -1920 green_carpet replace red_carpet
+execute if entity @s[tag=FlyVerdanturf] run fill 321 237 -1921 321 237 -1921 green_carpet
+execute if entity @s[tag=FlyFallarbor] run fill 323 237 -1924 323 237 -1924 green_carpet
+execute if entity @s[tag=FlyLavaridge] run fill 321 237 -1921 321 237 -1921 green_carpet
+execute if entity @s[tag=FlyFortree] run fill 330 237 -1927 330 237 -1927 green_carpet
+execute if entity @s[tag=FlyLilycove] run fill 337 237 -1924 336 237 -1923 green_carpet
+execute if entity @s[tag=FlyMossdeep] run fill 345 237 -1922 344 237 -1922 green_carpet
+execute if entity @s[tag=FlySootopolis] run fill 341 237 -1917 341 237 -1917 green_carpet
+execute if entity @s[tag=FlyPacifidlog] run fill 338 237 -1913 338 237 -1913 green_carpet
+execute if entity @s[tag=FlyEverGrande] run fill 350 237 -1915 350 237 -1915 green_carpet
+execute if entity @s[tag=FlyLeague] run fill 350 237 -1917 350 237 -1917 green_carpet
+execute if entity @s[tag=FlyResort] run fill 345 237 -1908 345 237 -1908 green_carpet
 
 
 

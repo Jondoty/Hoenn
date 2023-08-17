@@ -5,8 +5,9 @@ execute at @a run execute if block ~ ~ ~ minecraft:pink_carpet run function hoen
 
 
 
-
-
+#-------------------------World Functions-----------------------------------------------------------------------------------
+#Runs function to update player's music and titles on a constant basis
+execute as @a run function hoenn:world/musictitles
 
 
 
@@ -32,7 +33,7 @@ scoreboard players set @a[scores={click=1..}] click 0
 #Runs Fly HM and Map
 
 #Fly Map
-execute as @a[x=334,y=237,z=-1917,distance=..40] run hoenn:world/flymap
+execute as @a[x=334,y=237,z=-1917,distance=..40] run function hoenn:world/flymap
 
 
 
