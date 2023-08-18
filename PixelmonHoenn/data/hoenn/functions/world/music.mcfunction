@@ -112,8 +112,8 @@ playsound rustborocity record @s[x=2613,y=0,z=2295,dx=149,dy=256,dz=148,scores={
 scoreboard players set @s[x=2613,y=0,z=2295,dx=149,dy=256,dz=148,scores={MusicCooldown=0}] MusicCooldown 185
 
 #Sootopolis City
-playsound sootopoliscity record @s[x=1266,y=0,z=1970,dx=582,dy=256,dz=602,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1266,y=0,z=1970,dx=582,dy=256,dz=602,scores={MusicCooldown=0}] MusicCooldown 168
+playsound sootopoliscity record @s[x=689,y=0,z=1366,dx=582,dy=256,dz=602,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=689,y=0,z=1366,dx=582,dy=256,dz=602,scores={MusicCooldown=0}] MusicCooldown 168
 
 #Pacifidlog Town
 playsound lilycovecity record @s[x=-180,y=0,z=97,dx=224,dy=256,dz=299,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

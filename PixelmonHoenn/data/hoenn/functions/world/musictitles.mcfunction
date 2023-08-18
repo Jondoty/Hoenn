@@ -109,9 +109,9 @@ execute unless score @s MusicTitles matches 15 run scoreboard players set @s[x=1
 execute unless score @s MusicTitles matches 16 run title @s[x=2613,y=0,z=2295,dx=149,dy=256,dz=148] actionbar {"text":"Mossdeep Space Center"}
 execute unless score @s MusicTitles matches 16 run scoreboard players set @s[x=2613,y=0,z=2295,dx=149,dy=256,dz=148] MusicTitles 16
 
-execute unless score @s MusicTitles matches 17 run title @s[x=1266,y=0,z=1970,dx=582,dy=256,dz=602] actionbar {"text":"Sootopolis City"}
-execute unless score @s MusicTitles matches 17 as @s[x=1266,y=0,z=1970,dx=582,dy=256,dz=602] run function hoenn:tools/forceclick
-execute unless score @s MusicTitles matches 17 run scoreboard players set @s[x=1266,y=0,z=1970,dx=582,dy=256,dz=602] MusicTitles 17
+execute unless score @s MusicTitles matches 17 run title @s[x=689,y=0,z=1366,dx=582,dy=256,dz=602] actionbar {"text":"Sootopolis City"}
+execute unless score @s MusicTitles matches 17 as @s[x=689,y=0,z=1366,dx=582,dy=256,dz=602] run function hoenn:tools/forceclick
+execute unless score @s MusicTitles matches 17 run scoreboard players set @s[x=689,y=0,z=1366,dx=582,dy=256,dz=602] MusicTitles 17
 
 execute unless score @s MusicTitles matches 18 run title @s[x=-180,y=0,z=97,dx=224,dy=256,dz=299] actionbar {"text":"Pacifidlog Town"}
 execute unless score @s MusicTitles matches 18 as @s[x=-180,y=0,z=97,dx=224,dy=256,dz=299] run function hoenn:tools/forceclick
@@ -314,15 +314,21 @@ execute unless score @s MusicTitles matches 74 as @s[x=-1654,y=0,z=-491,dx=333,d
 execute unless score @s MusicTitles matches 74 run scoreboard players set @s[x=-1654,y=0,z=-491,dx=333,dy=256,dz=626,tag=!Indoors] MusicTitles 74
 
 execute unless score @s MusicTitles matches 75 run title @s[x=-1601,y=60,z=-1507,dx=288,dy=256,dz=788,tag=!Indoors] actionbar {"text":"Route 111"}
-execute unless score @s MusicTitles matches 75 as @s[x=-1601,y=60,z=-1507,dx=288,dy=256,dz=788,tag=!Indoors] run function hoenn:tools/forceclick
+execute as @s[x=-1601,y=60,z=-1507,dx=288,dy=256,dz=788,tag=!Indoors,scores={MusicTitles=..74}] run function hoenn:tools/forceclick
+execute as @s[x=-1601,y=60,z=-1507,dx=288,dy=256,dz=788,tag=!Indoors,scores={MusicTitles=76}] run function hoenn:tools/forceclick
+execute as @s[x=-1601,y=60,z=-1507,dx=288,dy=256,dz=788,tag=!Indoors,scores={MusicTitles=78..}] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 75 run scoreboard players set @s[x=-1601,y=60,z=-1507,dx=288,dy=256,dz=788,tag=!Indoors] MusicTitles 75
 
 execute unless score @s MusicTitles matches 75 run title @s[x=-1668,y=0,z=-1024,dx=66,dy=256,dz=305] actionbar {"text":"Route 111"}
-execute unless score @s MusicTitles matches 75 as @s[x=-1668,y=0,z=-1024,dx=66,dy=256,dz=305] run function hoenn:tools/forceclick
+execute as @s[x=-1668,y=0,z=-1024,dx=66,dy=256,dz=305,scores={MusicTitles=..74}] run function hoenn:tools/forceclick
+execute as @s[x=-1668,y=0,z=-1024,dx=66,dy=256,dz=305,scores={MusicTitles=76}] run function hoenn:tools/forceclick
+execute as @s[x=-1668,y=0,z=-1024,dx=66,dy=256,dz=305,scores={MusicTitles=78..}] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 75 run scoreboard players set @s[x=-1668,y=0,z=-1024,dx=66,dy=256,dz=305] MusicTitles 75
 
 execute unless score @s MusicTitles matches 77 run title @s[x=-1910,y=60,z=-1371,dx=308,dy=256,dz=347] actionbar {"text":"Route 112"}
-execute unless score @s MusicTitles matches 77 as @s[x=-1910,y=60,z=-1371,dx=308,dy=256,dz=347] run function hoenn:tools/forceclick
+execute as @s[x=-1910,y=60,z=-1371,dx=308,dy=256,dz=347,scores={MusicTitles=..74}] run function hoenn:tools/forceclick
+execute as @s[x=-1910,y=60,z=-1371,dx=308,dy=256,dz=347,scores={MusicTitles=76}] run function hoenn:tools/forceclick
+execute as @s[x=-1910,y=60,z=-1371,dx=308,dy=256,dz=347,scores={MusicTitles=78..}] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 77 run scoreboard players set @s[x=-1910,y=60,z=-1371,dx=308,dy=256,dz=347] MusicTitles 77
 
 execute unless score @s MusicTitles matches 78 run title @s[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] actionbar {"text":"Route 113"}
@@ -355,7 +361,7 @@ execute as @s[x=-1399,y=0,z=-662,dx=674,dy=256,dz=170,scores={MusicTitles=85..}]
 execute unless score @s MusicTitles matches 83 run scoreboard players set @s[x=-1399,y=0,z=-662,dx=674,dy=256,dz=170] MusicTitles 83
 
 execute unless score @s MusicTitles matches 84 run title @s[x=-1070,y=0,z=-1509,dx=342,dy=256,dz=846] actionbar {"text":"Route 119"}
-execute as @s[x=-1070,y=0,z=-1509,dx=342,dy=256,dz=846,scores={MusicTitles=..83}] run function hoenn:tools/forceclick
+execute as @s[x=-1070,y=0,z=-1509,dx=342,dy=256,dz=846,scores={MusicTitles=..82}] run function hoenn:tools/forceclick
 execute as @s[x=-1070,y=0,z=-1509,dx=342,dy=256,dz=846,scores={MusicTitles=85..}] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 84 run scoreboard players set @s[x=-1070,y=0,z=-1509,dx=342,dy=256,dz=846] MusicTitles 84
 
