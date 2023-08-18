@@ -3269,6 +3269,8 @@ For a shy person like me, there's nothing more useful than this.
 <Institute Professor> It might seem an odd way of rewarding you, but please take this Pokémon as my thanks.
 
 @s received Castform!
+pokegive @s castform
+give @s Mystic Water
 
 <Institute Professor> Castform is a Pokémon that changes its form according to the current weather conditions.
 <Institute Professor> We have many of them living here in the Institute with us.
@@ -8406,11 +8408,42 @@ What good fortune... I'd been thinking that if I saw you again, I would want to 
 
 
 #-----------------------------------------------------------------------------------------------------
-#Dialogue 261
+#Dialogue 261 - Meteor Falls
+#Zinnia's Grandma after the Delta Episode
 
+<Zinnia's Grandma> Child, you...
+<Zinnia's Grandma> I heard of what happened from Zinnia.
+<Zinnia's Grandma> The Draconids owe you much. Thank you, child.
+<Zinnia's Grandma> Zinnia has gone on a journey. A journey to find herself this time.
+<Zinnia's Grandma> Ah, yes... She did leave this for you, though. I hope you will accept it.
 
+@s obtained a Salamencite!
 
+<Zinnia's Grandma> I wonder what kind of future Zinnia might find for herself, now that she is free from the fate of the Draconids.
+<Zinnia's Grandma> Though I don't think that I need worry about it.
+<Zinnia's Grandma> Ah, yes. If ever your Rayquaza forgets how to use Dragon Ascent, come call upon me.
+<Zinnia's Grandma> I may not seem like much, but I am also one of the last Draconids.
+<Zinnia's Grandma> I can help the Dragon lord remember that grand move.
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 262 - Mt. Pyre
+#Elite Four Phoebe
+
+<Phoebe> ...I know, right?!
+<Phoebe> ...Uh-huh. ...Uh-huh-uh-huh.
+<Phoebe> ...Ahahaha! You're always joking around!
+<Phoebe> ...Uh-huh, got it. ...OK, I'll be back!
+#Summon question mark
+<Phoebe> Oh?
+<Phoebe> You... What are you doing in a place like this?
+<Phoebe> Hmmm, I see. I usually train here.
+<Phoebe> Today I had planned to come see my grandma here, though.
+<Phoebe> Well, good luck with your training! See you in the Pokémon League!
+
+#tp out
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 263
 
 
 
