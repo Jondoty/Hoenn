@@ -104,8 +104,8 @@ playsound lilycovecity record @s[x=318,y=0,z=-1170,dx=514,dy=256,dz=325,scores={
 scoreboard players set @s[x=318,y=0,z=-1170,dx=514,dy=256,dz=325,scores={MusicCooldown=0}] MusicCooldown 172
 
 #Mossdeep City
-playsound rustborocity record @s[x=1245,y=0,z=-1163,dx=554,dy=256,dz=251,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1245,y=0,z=-1163,dx=554,dy=256,dz=251,scores={MusicCooldown=0}] MusicCooldown 185
+playsound rustborocity record @s[x=1245,y=0,z=-1163,dx=554,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1245,y=0,z=-1163,dx=554,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 185
 
 #Mossdeep (Space Center)
 playsound rustborocity record @s[x=2613,y=0,z=2295,dx=149,dy=256,dz=148,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
