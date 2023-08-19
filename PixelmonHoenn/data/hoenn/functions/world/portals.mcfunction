@@ -274,8 +274,8 @@ tp @a[x=-1556,y=66,z=513,dx=4,dy=3] -1554 38 512
 tp @a[x=-1556,y=38,z=513,dx=3,dy=3] -1554 64 516
 
 #Pokemon Center
-execute as @a[x=-2542,y=69,z=262,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
-tp @a[x=-2542,y=69,z=262,dx=6,dy=5,dz=1] -1539 48 261
+execute as @a[x=-1542,y=69,z=262,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-1542,y=69,z=262,dx=6,dy=5,dz=1] -1539 48 261
 
 execute as @a[x=-1540,y=48,z=262,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1540,y=48,z=262,dx=3,dy=3] -1539 69 264
@@ -672,12 +672,12 @@ tp @a[x=43,y=68,z=-1072,dx=3,dy=3] 55 84 -1099
 #Mt. Pyre
 
 #Route 121 Entrance
-tp @a[x=138,y=64,z=-765,dx=5,dy=3] -1084 27 1889
-tp @a[x=-1087,y=27,z=1890,dx=5,dy=3] 140 64 -764
+tp @a[x=138,y=64,z=-765,dx=5,dy=3] 1644 27 2653
+tp @a[x=1642,y=27,z=2654,dx=5,dy=3] 140 64 -764
 
 #To standalone Mountain
-tp @a[x=-1230,y=87,z=2090,dx=4,dy=3] -1115 51 1884
-tp @a[x=-1118,y=51,z=1885,dx=5,dy=3] -1228 87 2091
+tp @a[x=-1499,y=87,z=2854,dx=4,dy=3] 1614 51 2648
+tp @a[x=1611,y=51,z=2649,dx=5,dy=3] 1501 87 2855
 
 #-------------------------------------------------------------------------
 #Route 123
@@ -856,7 +856,7 @@ tp @a[x=-102,y=32,z=248,dx=3,dy=3] -100 65 249
 
 #Pokemon Center
 execute as @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
-tp @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1] -53 65 268
+tp @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1] -53 28 265
 
 execute as @a[x=-53,y=28,z=265,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-53,y=28,z=265,dx=3,dy=3] -53 65 268
