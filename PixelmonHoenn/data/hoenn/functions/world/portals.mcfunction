@@ -25,8 +25,11 @@ tp @a[x=-2004,y=69,z=309,dx=4,dy=3] -2002 40 308
 #Oldale Town
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2057,y=69,z=87,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2057,y=69,z=87,dx=6,dy=5,dz=1] -2054 48 86
+
+execute as @a[x=-2055,y=48,z=87,dx=2,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2055,y=48,z=87,dx=2,dy=3] -2054 69 89
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -42,11 +45,14 @@ tp @a[x=-1995,y=55,z=88,dx=3,dy=3] -1993 69 89
 
 
 #-------------------------------------------------------------------------
-#Oldale Town
+#Petalburg City
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2509,y=69,z=25,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2509,y=69,z=25,dx=6,dy=5,dz=1] -2506 48 24
+
+execute as @a[x=-2507,y=48,z=25,dx=2,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2507,y=48,z=25,dx=2,dy=3] -2506 69 27
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -85,15 +91,24 @@ tp @a[x=-2804,y=52,z=-403,dx=4,dy=3] -2802 69 -402
 #Route 105
 
 #Island Cave
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2803,y=64,z=256,dx=4,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2803,y=64,z=256,dx=4,dy=3] -2801 11 255
+
+execute as @a[x=-2803,y=11,z=256,dx=4,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2803,y=11,z=256,dx=4,dy=3] -2801 64 257
+
+#if trapped behind wall
+execute as @a[x=-2803,y=11,z=207,dx=4,dy=5] at @s run tp @s ~ ~ ~5
 
 #-------------------------------------------------------------------------
 #Rustboro City
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2739,y=69,z=-607,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2739,y=69,z=-607,dx=6,dy=5,dz=1] -2736 48 -608
+
+execute as @a[x=-2737,y=48,z=-607,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2737,y=48,z=-607,dx=3,dy=3] -2736 69 -605
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -178,8 +193,11 @@ tp @a[x=-2271,y=37,z=-770,dx=6,dy=5] -2118 69 -658
 #Verdanturf Town
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2059,y=69,z=-639,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2059,y=69,z=-639,dx=6,dy=5,dz=1] -2056 48 -640
+
+execute as @a[x=-2057,y=48,z=-639,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2057,y=48,z=-639,dx=3,dy=3] -2056 69 -637
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -213,8 +231,11 @@ tp @a[x=-1724,y=50,z=-634,dx=3,dy=3] -1722 69 -633
 #Dewford Town
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2536,y=64,z=864,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2536,y=64,z=864,dx=6,dy=5,dz=1] -2533 43 863
+
+execute as @a[x=-2534,y=43,z=864,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2534,y=43,z=864,dx=3,dy=3] -2533 64 866
 
 #Pokemon Gym
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -253,8 +274,11 @@ tp @a[x=-1556,y=66,z=513,dx=4,dy=3] -1554 38 512
 tp @a[x=-1556,y=38,z=513,dx=3,dy=3] -1554 64 516
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2542,y=69,z=262,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2542,y=69,z=262,dx=6,dy=5,dz=1] -1539 48 261
+
+execute as @a[x=-1540,y=48,z=262,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1540,y=48,z=262,dx=3,dy=3] -1539 69 264
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -343,8 +367,11 @@ tp @a[x=-1456,y=133,z=-531,dz=6,dy=3] 2836 85 2904 180 ~
 #tp @a[x=,y=,z=,dx=3,dy=3] -1510 69 -644
 
 #Pokemon Center
-#tp @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=3,dy=3] -1558 69 -644
+execute as @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1] -1558 48 -647
+
+execute as @a[x=-1559,y=48,z=-646,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1559,y=48,z=-646,dx=3,dy=3] -1558 69 -644
 
 #North to Courtyard
 tp @a[x=-1540,y=69,z=-656,dx=12,dy=6] 2705 65 2745
@@ -410,8 +437,14 @@ tp @a[x=1564,y=79,z=-868,dx=3,dy=3] -1562 58 -869
 tp @a[x=-1564,y=58,z=-868,dx=3,dy=3] -1562 79 -867
 
 #Desert Ruins
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+#execute as @a run function hoenn:tools/forceclick
+#tp @a[x=,y=,z=,dx=3,dy=3] -1421 37 -994
+
+#execute as @a run function hoenn:tools/forceclick
+#tp @a[x=-1423,y=37,z=-993,dx=4,dy=3] -1422 79 -991
+
+#if trapped behind wall
+execute as @a[x=-1423,y=37,z=-1041,dx=4,dy=5] at @s run tp @s ~ ~ ~5
 
 #North half NPC House
 tp @a[x=-1425,y=79,z=-1374,dx=3,dy=3] -1423 61 -1374
@@ -421,16 +454,20 @@ tp @a[x=-1425,y=61,z=-1373,dx=4,dy=3] -1423 79 -1373
 #Route 112
 
 #Mt. Chimney Lift Entrance
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1740,y=104,z=-1226,dx=8,dy=3] -1924 141 -3127
+tp @a[x=-1926,y=141,z=-3126,dx=4,dy=3] -1736 104 -1225
 
 #Mt. Chimney Lift Top of Mountain
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-1940,y=149,z=-3153,dx=1,dy=2,dz=1] -1836 148 -3149 0 ~
+tp @a[x=-1836,y=149,z=-3153,dx=3,dy=3] -1939 148 -3149 0 ~
 
-#Jagged Pass Entrance and Exit
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+#Jagged Pass Lyft Entrance and Exit
+tp @a[x=-1927,y=210,z=-3147,dx=8,dy=3] -1851 141 -3127
+tp @a[x=-1853,y=141,z=-3126,dx=4,dy=3] -1923 210 -3146
+
+#Jagged Pass & Route 112 Direct Connect
+tp @a[x=-1883,y=65,z=-2498,dx=6,dy=4] -1872 84 -1127
+tp @a[x=-1877,y=84,z=-1128,dx=10,dy=4] -1880 65 -2499
 
 #-------------------------------------------------------------------------
 
@@ -454,8 +491,11 @@ tp @a[x=-1789,y=33,z=-1336,dx=5,dy=5] -1682 79 -1308
 #Lavaridge Town
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2015,y=84,z=-1108,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2015,y=84,z=-1108,dx=6,dy=5,dz=1] -2012 63 -1109
+
+execute as @a[x=-2013,y=63,z=-1108,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2013,y=63,z=-1108,dx=3,dy=3] -2012 84 -1106
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -485,8 +525,11 @@ tp @a[x=-1956,y=77,z=-1458,dx=3,dy=3] -1954 94 -1455
 #Fallarbor Town
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2203,y=89,z=-1430,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-2203,y=89,z=-1430,dx=6,dy=5,dz=1] -2200 68 -1431
+
+execute as @a[x=-2201,y=68,z=-1430,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2201,y=68,z=-1430,dx=3,dy=3] -2200 89 -1428
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -563,8 +606,11 @@ tp @a[x=-989,y=51,z=-1280,dx=3,dy=3] -987 79 -1279
 #Fortree City
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-691,y=84,z=-1427,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-691,y=84,z=-1427,dx=6,dy=5,dz=1] -688 63 -1428
+
+execute as @a[x=-689,y=63,z=-1427,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-689,y=63,z=-1427,dx=3,dy=3] -688 84 -1425
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -609,9 +655,6 @@ tp @a[x=-475,y=66,z=-1375,dx=3,dy=3] -473 101 -1374
 #Registeel room exit if not air
 tp @a[x=-373,y=37,z=-1228,dx=4,dy=3] -371 37 -1224
 
-#Scorched Slab
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
 
 #-------------------------------------------------------------------------
 #Route 121
@@ -674,8 +717,11 @@ tp @a[x=443,y=74,z=-1036,dx=4,dy=3] 445 55 -1037
 tp @a[x=443,y=55,z=-1036,dx=3,dy=3] 445 74 -1035
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=515,y=74,z=-1035,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=515,y=74,z=-1035,dx=6,dy=5,dz=1] 518 53 -1036
+
+execute as @a[x=517,y=53,z=-1035,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=517,y=53,z=-1035,dx=3,dy=3] 518 74 -1033
 
 #Middle Middle NPC Home Trainer Club
 tp @a[x=613,y=74,z=-1038,dx=4,dy=3] 615 55 -1039
@@ -701,10 +747,6 @@ tp @a[x=609,y=31,z=-986,dx=3,dy=3] 611 74 -985
 tp @a[x=440,y=74,z=-910,dx=8,dy=3] 2431 79 2594
 tp @a[x=2430,y=79,z=2595,dx=3,dy=3] 444 74 -909
 
-#-------------------------------------------------------------------------
-#Route 124
-
-#Team Aqua/Magma Hideout Entrance
 
 #---------------------------------
 
@@ -740,8 +782,11 @@ tp @a[x=1427,y=74,z=-977,dx=2,dy=3] 1428 48 -978
 tp @a[x=1426,y=48,z=-977,dx=4,dy=3] 1428 74 -976
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=1479,y=74,z=-978,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=1479,y=74,z=-978,dx=6,dy=5,dz=1] 1482 53 -979
+
+execute as @a[x=1481,y=53,z=-978,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=1481,y=53,z=-978,dx=3,dy=3] 1482 74 -976
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -810,8 +855,11 @@ tp @a[x=-102,y=65,z=248,dx=4,dy=3] -100 32 247
 tp @a[x=-102,y=32,z=248,dx=3,dy=3] -100 65 249
 
 #Pokemon Center
-#tp @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=3,dy=3] -53 65 268
+execute as @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1] -53 65 268
+
+execute as @a[x=-53,y=28,z=265,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-53,y=28,z=265,dx=3,dy=3] -53 65 268
 
 #Top Right Home
 tp @a[x=-2,y=65,z=253,dx=4,dy=3] 0 34 252
@@ -837,8 +885,11 @@ tp @a[x=8,y=29,z=319,dx=3,dy=3] 10 65 320
 #tp @a[x=,y=,z=,dx=3,dy=3]
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=1118,y=79,z=1668,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=1118,y=79,z=1668,dx=6,dy=5,dz=1] 1121 58 1667
+
+execute as @a[x=1120,y=58,z=1668,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=1120,y=58,z=1668,dx=3,dy=3] 1121 79 1670
 
 #Pokemon Mart
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -889,16 +940,19 @@ tp @a[x=1943,y=227,z=-2417,dx=4,dy=4] 985 69 1503
 #Evergrand City
 
 #Pokemon Center
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a run function hoenn:tools/forceclick
+tp @a[x=2224,y=154,z=-222,dx=6,dy=5,dz=1] 2227 133 -223
+
+execute as @a run function hoenn:tools/forceclick
+tp @a[x=2226,y=133,z=-222,dx=3,dy=3] 2227 154 -220
 
 #Victory Road Entrance
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=2164,y=164,z=-296,dx=4,dy=3] 1342 75 -3154
+tp @a[x=1431,y=75,z=-3153,dx=3,dy=3] 2166 164 -295
 
 #Victory Road Exit
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=2246,y=159,z=-377,dx=4,dy=3] 1645 94 -3111
+tp @a[x=1642,y=94,z=-3112,dx=8,dy=3] 2248 159 -378
 
 #-------------------------------------------------------------------------
 #Pokemon League
@@ -910,12 +964,34 @@ tp @a[x=2156,y=171,z=-765,dx=4,dy=3] 2158 170 -749
 #Entrance to Elite Four Chambers
 
 #Removes tags present of previous members
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue155
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue156
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue157
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue158
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue159
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue160
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue161
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue161
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue162
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue163
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue164
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue165
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue166
 
-#tp @a[x=2155,y=171,z=-797,dx=6,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3] 2158 171 -795
+#Sydney's Entrance to League
+tp @e[x=633,y=91,z=-2306,dx=2,dy=3] 2158 171 -795
+tp @e[x=2155,y=171,z=-797,dx=6,dy=4] 634 91 -2307
+
 
 #-------------------------------------------------------------------------
 #Battle Resort
+
+#Pokemon Center
+execute as @a[x=2350,y=69,z=805,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+tp @a[x=2350,y=69,z=805,dx=6,dy=5,dz=1] 2353 48 804
+
+execute as @a[x=2352,y=48,z=805,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=2352,y=48,z=805,dx=3,dy=3] 2353 69 807
 
 #Daycare Area
 tp @a[x=2454,y=64,z=799,dx=3,dy=3] 2456 41 798
