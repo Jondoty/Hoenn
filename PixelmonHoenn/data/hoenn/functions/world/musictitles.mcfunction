@@ -531,9 +531,9 @@ execute unless score @s MusicTitles matches 140 run title @s[x=191,y=0,z=1425,dx
 execute unless score @s MusicTitles matches 140 as @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 140 run scoreboard players set @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164] MusicTitles 140
 
-#execute unless score @s MusicTitles matches 141 run title @s[] actionbar {"text":"Pathless Plain"}
-#execute unless score @s MusicTitles matches 141 as @s[] run function hoenn:tools/forceclick
-#execute unless score @s MusicTitles matches 141 run scoreboard players set @s[] MusicTitles 141
+execute unless score @s MusicTitles matches 141 run title @s[x=-369,y=0,z=1349,dx=164,dy=256,dz=236] actionbar {"text":"Pathless Plain"}
+execute unless score @s MusicTitles matches 141 as @s[x=-369,y=0,z=1349,dx=164,dy=256,dz=236] run function hoenn:tools/forceclick
+execute unless score @s MusicTitles matches 141 run scoreboard players set @s[x=-369,y=0,z=1349,dx=164,dy=256,dz=236] MusicTitles 141
 
 execute unless score @s MusicTitles matches 142 run title @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145] actionbar {"text":"Nameless Cavern"}
 execute unless score @s MusicTitles matches 142 as @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145] run function hoenn:tools/forceclick

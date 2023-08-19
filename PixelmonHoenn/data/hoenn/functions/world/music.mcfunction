@@ -49,6 +49,73 @@ playsound battlemaison record @s[x=2348,y=38,z=611,dx=93,dy=40,dz=111,scores={Mu
 scoreboard players set @s[x=2348,y=38,z=611,dx=93,dy=40,dz=111,scores={MusicCooldown=0}] MusicCooldown 118
 
 #---------------------------------------------------------------------------------------------------------------------------
+#Pokemon Centers
+
+#Oldale
+playsound pokemoncenter record @s[x=-2072,y=48,z=67,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2072,y=48,z=67,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Petalburg
+playsound pokemoncenter record @s[x=-2524,y=48,z=5,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2524,y=48,z=5,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Rustboro
+playsound pokemoncenter record @s[x=-2754,y=48,z=-627,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2754,y=48,z=-627,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Dewford
+playsound pokemoncenter record @s[x=-2548,y=43,z=844,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2548,y=43,z=844,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Slateport
+playsound pokemoncenter record @s[x=-1557,y=48,z=242,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1557,y=48,z=242,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Mauville
+playsound pokemoncenter record @s[x=-1576,y=48,z=-666,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1576,y=48,z=-666,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Verdanturf
+playsound pokemoncenter record @s[x=-2074,y=48,z=-659,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2074,y=48,z=-659,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Lavaridge
+playsound pokemoncenter record @s[x=-2030,y=63,z=-1128,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2030,y=63,z=-1128,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Lavaridge
+playsound pokemoncenter record @s[x=-2214,y=68,z=-1450,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2214,y=68,z=-1450,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Fortree
+playsound pokemoncenter record @s[x=-703,y=63,z=-1447,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-703,y=63,z=-1447,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Lilycove
+playsound pokemoncenter record @s[x=500,y=53,z=-1055,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=500,y=53,z=-1055,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Mossdeep
+playsound pokemoncenter record @s[x=1468,y=53,z=-998,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1468,y=53,z=-998,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Ever Grand
+playsound pokemoncenter record @s[x=2209,y=133,z=-242,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2209,y=133,z=-242,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Battle Resort
+playsound pokemoncenter record @s[x=2339,y=48,z=785,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2339,y=48,z=785,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Sootopolis
+playsound pokemoncenter record @s[x=1106,y=58,z=1648,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1106,y=58,z=1648,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#Pacifidlog
+playsound pokemoncenter record @s[x=-67,y=28,z=246,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-67,y=28,z=246,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
+
+#---------------------------------------------------------------------------------------------------------------------------
 #World Music
 
 #Littleroot Town
@@ -451,14 +518,16 @@ scoreboard players set @s[x=265,y=0,z=-3209,dx=198,dy=256,dz=512,scores={MusicCo
 #Mirage Areas
 
 #Crescent Isle
-playsound sealedchamber record @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164	,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164	,scores={MusicCooldown=0}] MusicCooldown 123
+playsound sealedchamber record @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164,scores={MusicCooldown=0}] MusicCooldown 123
 
 #Nameless Cavern
-playsound sealedchamber record @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145	,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145	,scores={MusicCooldown=0}] MusicCooldown 123
+playsound sealedchamber record @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 123
 
-
+#Pathless Plain
+playsound sealedchamber record @s[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,scores={MusicCooldown=0}] MusicCooldown 123
 
 
 
