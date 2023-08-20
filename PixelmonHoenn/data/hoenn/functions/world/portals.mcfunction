@@ -32,8 +32,11 @@ execute as @a[x=-2055,y=48,z=87,dx=2,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2055,y=48,z=87,dx=2,dy=3] -2054 69 89
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2008,y=69,z=35,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2008,y=69,z=35,dx=3,dy=3] -2006 50 34
+
+execute as @a[x=-2008,y=50,z=35,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2008,y=50,z=35,dx=3,dy=3] -2007 69 36
 
 #Top Left Home
 tp @a[x=-2062,y=69,z=34,dx=3,dy=3] -2061 55 33
@@ -55,8 +58,11 @@ execute as @a[x=-2507,y=48,z=25,dx=2,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2507,y=48,z=25,dx=2,dy=3] -2506 69 27
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2473,y=69,z=8,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2473,y=69,z=8,dx=3,dy=3] -2471 50 7
+
+execute as @a[x=-2473,y=50,z=8,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2473,y=50,z=8,dx=3,dy=3] -2472 69 9
 
 #Pokemon Gym
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -111,8 +117,11 @@ execute as @a[x=-2737,y=48,z=-607,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2737,y=48,z=-607,dx=3,dy=3] -2736 69 -605
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2743,y=69,z=-567,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2743,y=69,z=-567,dx=3,dy=3] -2741 50 -568
+
+execute as @a[x=-2743,y=50,z=-567,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2743,y=50,z=-567,dx=3,dy=3] -2742 69 -566
 
 #Pokemon Gym
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -200,8 +209,11 @@ execute as @a[x=-2057,y=48,z=-639,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2057,y=48,z=-639,dx=3,dy=3] -2056 69 -637
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2097,y=69,z=-640,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2097,y=69,z=-640,dx=3,dy=3] -2095 50 -641
+
+execute as @a[x=-2097,y=50,z=-640,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2097,y=50,z=-640,dx=3,dy=3] -2096 69 -639
 
 #Contest Hall
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -281,8 +293,11 @@ execute as @a[x=-1540,y=48,z=262,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1540,y=48,z=262,dx=3,dy=3] -1539 69 264
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-1490,y=69,z=262,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1490,y=69,z=262,dx=3,dy=3] -1488 50 261
+
+execute as @a[x=-1490,y=50,z=262,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1490,y=50,z=262,dx=3,dy=3] -1489 69 263
 
 #Contest Hall
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -363,8 +378,11 @@ tp @a[x=-1456,y=133,z=-531,dz=6,dy=3] 2836 85 2904 180 ~
 #tp @a[x=,y=,z=,dx=3,dy=3]
 
 #Pokemon Mart
-#tp @a[x=-1511,y=69,z=-645,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3] -1510 69 -644
+execute as @a[x=-1511,y=69,z=-645,dx=2,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1511,y=69,z=-645,dx=2,dy=3] -1510 50 -646
+
+execute as @a[x=-1512,y=50,z=-645,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1512,y=50,z=-645,dx=3,dy=3] -1510 69 -644
 
 #Pokemon Center
 execute as @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
@@ -498,8 +516,11 @@ execute as @a[x=-2013,y=63,z=-1108,dx=3,dy=3] run function hoenn:tools/forceclic
 tp @a[x=-2013,y=63,z=-1108,dx=3,dy=3] -2012 84 -1106
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-1977,y=84,z=-1112,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1977,y=84,z=-1112,dx=3,dy=3] -1975 65 -1113
+
+execute as @a[x=-1977,y=65,z=-1112,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1977,y=65,z=-1112,dx=3,dy=3] -1976 84 -1111
 
 #Pokemon Gym
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -532,8 +553,11 @@ execute as @a[x=-2201,y=68,z=-1430,dx=3,dy=3] run function hoenn:tools/forceclic
 tp @a[x=-2201,y=68,z=-1430,dx=3,dy=3] -2200 89 -1428
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2197,y=89,z=-1384,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2197,y=89,z=-1384,dx=3,dy=3] -2195 70 -1385
+
+execute as @a[x=-2197,y=70,z=-1384,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2197,y=70,z=-1384,dx=3,dy=3] -2196 89 -1383
 
 #Contest Hall
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -613,8 +637,11 @@ execute as @a[x=-689,y=63,z=-1427,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-689,y=63,z=-1427,dx=3,dy=3] -688 84 -1425
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-698,y=84,z=-1373,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-698,y=84,z=-1373,dx=3,dy=3] -696 65 -1374
+
+execute as @a[x=-698,y=65,z=-1373,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-698,y=65,z=-1373,dx=3,dy=3] -697 84 -1372
 
 #Pokemon Gym
 #tp @a[x=,y=,z=,dx=3,dy=3]
@@ -789,8 +816,11 @@ execute as @a[x=1481,y=53,z=-978,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=1481,y=53,z=-978,dx=3,dy=3] 1482 74 -976
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=1534,y=74,z=-974,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=1534,y=74,z=-974,dx=3,dy=3] 1536 55 -975
+
+execute as @a[x=1534,y=55,z=-974,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=1534,y=55,z=-974,dx=3,dy=3] 1535 74 -973
 
 #Middle Right NPC Home
 tp @a[x=1751,y=84,z=-926,dx=2,dy=3] 1752 59 -927
@@ -892,8 +922,11 @@ execute as @a[x=1120,y=58,z=1668,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=1120,y=58,z=1668,dx=3,dy=3] 1121 79 1670
 
 #Pokemon Mart
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=858,y=79,z=1666,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=858,y=79,z=1666,dx=3,dy=3] 860 60 1665
+
+execute as @a[x=858,y=60,z=1666,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=858,y=60,z=1666,dx=3,dy=3] 859 79 1667
 
 #Left Side Top Home
 tp @a[x=835,y=209,z=1468,dx=6,dy=3] 838 94 1467

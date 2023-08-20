@@ -115,6 +115,53 @@ scoreboard players set @s[x=1106,y=58,z=1648,dx=37,dy=10,dz=22,scores={MusicCool
 playsound pokemoncenter record @s[x=-67,y=28,z=246,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=-67,y=28,z=246,dx=37,dy=10,dz=22,scores={MusicCooldown=0}] MusicCooldown 120
 
+#-------------------------------------------
+#Pokemon Marts
+
+#Oldale
+playsound pokemart record @s[x=-2018,y=50,z=15,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2018,y=50,z=15,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Petalburg
+playsound pokemart record @s[x=-2483,y=50,z=-12,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2483,y=50,z=-12,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Rustboro
+playsound pokemart record @s[x=-2753,y=50,z=-587,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2753,y=50,z=-587,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Vaniville
+playsound pokemart record @s[x=-2107,y=50,z=-660,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2107,y=50,z=-660,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Mauville
+playsound pokemart record @s[x=-1522,y=50,z=-665,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1522,y=50,z=-665,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Slateport
+playsound pokemart record @s[x=-1500,y=50,z=-242,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1500,y=50,z=-242,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Lavaridge
+playsound pokemart record @s[x=-1987,y=65,z=-1132,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1987,y=65,z=-1132,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Fallarbor
+playsound pokemart record @s[x=-2207,y=70,z=-1404,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2207,y=70,z=-1404,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Fortree
+playsound pokemart record @s[x=-708,y=65,z=-1393,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-708,y=65,z=-1393,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Mossdeep
+playsound pokemart record @s[x=1524,y=55,z=-994,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1524,y=55,z=-994,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
+#Sootopolis
+playsound pokemart record @s[x=848,y=60,z=1646,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=848,y=60,z=1646,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+
 #---------------------------------------------------------------------------------------------------------------------------
 #World Music
 
