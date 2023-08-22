@@ -18,6 +18,31 @@ execute as @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] at @s run particle mine
 
 
 
+#Road Blocks
+
+#Soaring Overworld
+#North Barrier
+execute as @a[x=-1048,y=0,z=1331,dx=378,dy=256,dz=50,gamemode=spectator] at @s run tp @s ~ ~ ~5
+
+#East Barrier
+execute as @a[x=-720,y=0,z=1382,dx=50,dy=256,dz=194,gamemode=spectator] at @s run tp @s ~-5 ~ ~
+
+#West Barrier
+execute as @a[x=-1048,y=0,z=1382,dx=50,dy=256,dz=194,gamemode=spectator] at @s run tp @s ~5 ~ ~
+
+#South Barrier
+execute as @a[x=-1048,y=0,z=1577,dx=378,dy=256,dz=50,gamemode=spectator] at @s run tp @s ~ ~ ~-5
+
+#Bottom Barrier
+execute as @a[x=-997,y=0,z=1382,dx=276,dy=61,dz=194,gamemode=spectator] at @s run tp @s ~ ~5 ~
+
+#Top Barrier
+execute as @a[x=-997,y=205,z=1382,dx=276,dy=50,dz=194,gamemode=spectator] at @s run tp @s ~ ~-5 ~
+
+
+
+
+
 
 
 

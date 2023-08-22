@@ -48,6 +48,10 @@ scoreboard players set @s[x=384,y=51,z=-1158,dx=86,dy=25,dz=73,scores={MusicCool
 playsound battlemaison record @s[x=2348,y=38,z=611,dx=93,dy=40,dz=111,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2348,y=38,z=611,dx=93,dy=40,dz=111,scores={MusicCooldown=0}] MusicCooldown 118
 
+#Ever Grand City, Pokemon League entrance
+playsound victoryroad record @s[x=2137,y=170,z=-798,dx=42,dy=15,dz=35,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2137,y=170,z=-798,dx=42,dy=15,dz=35,scores={MusicCooldown=0}] MusicCooldown 151
+
 #---------------------------------------------------------------------------------------------------------------------------
 #Pokemon Centers
 
@@ -563,6 +567,10 @@ scoreboard players set @s[x=265,y=0,z=-3209,dx=198,dy=256,dz=512,scores={MusicCo
 
 
 #Mirage Areas
+
+#Soaring Overworld
+playsound soaringoverworld record @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0}] MusicCooldown 223
 
 #Crescent Isle
 playsound sealedchamber record @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
