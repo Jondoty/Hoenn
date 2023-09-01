@@ -576,21 +576,105 @@ scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicC
 playsound sealedchamber record @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=191,y=0,z=1425,dx=125,dy=256,dz=164,scores={MusicCooldown=0}] MusicCooldown 123
 
-#Nameless Cavern
-playsound sealedchamber record @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 123
-
 #Pathless Plain
 playsound sealedchamber record @s[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,scores={MusicCooldown=0}] MusicCooldown 123
 
+#Nameless Cavern
+playsound sealedchamber record @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 123
+
+#Fabled Cave
+playsound sealedchamber record @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 123
+
+#Gnarled Den
+playsound sealedchamber record @s[x=-61,y=0,z=2085,dx=183,dy=256,dz=227,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-61,y=0,z=2085,dx=183,dy=256,dz=227,scores={MusicCooldown=0}] MusicCooldown 123
+
+#Trackless Forest
+playsound sealedchamber record @s[x=-490,y=0,z=256,dx=167,dy=256,dz=192,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-490,y=0,z=256,dx=167,dy=256,dz=192,scores={MusicCooldown=0}] MusicCooldown 123
 
 
+#Islands
+playsound seamauville record @s[x=-3395,y=0,z=-325,dx=198,dy=256,dz=222,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-3134,y=0,z=837,dx=228,dy=256,dz=196,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1953,y=0,z=-2065,dx=241,dy=256,dz=219,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=942,y=0,z=-1630,dx=199,dy=256,dz=217,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=1679,y=0,z=-1752,dx=196,dy=256,dz=174,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-170,y=0,z=699,dx=217,dy=256,dz=242,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-579,y=0,z=571,dx=193,dy=256,dz=214,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1080,y=0,z=528,dx=238,dy=256,dz=241,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+
+scoreboard players set @s[x=-3395,y=0,z=-325,dx=198,dy=256,dz=222,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-3134,y=0,z=837,dx=228,dy=256,dz=196,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1953,y=0,z=-2065,dx=241,dy=256,dz=219,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=942,y=0,z=-1630,dx=199,dy=256,dz=217,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=1679,y=0,z=-1752,dx=196,dy=256,dz=174,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-170,y=0,z=699,dx=217,dy=256,dz=242,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-579,y=0,z=571,dx=193,dy=256,dz=214,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1080,y=0,z=528,dx=238,dy=256,dz=241,scores={MusicCooldown=0}] MusicCooldown 123
 
 
+#Forests
+playsound seamauville record @s[x=-1291,y=0,z=2086,dx=182,dy=256,dz=169,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1073,y=0,z=2086,dx=165,dy=256,dz=187,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-874,y=0,z=2086,dx=137,dy=256,dz=146,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1279,y=0,z=2285,dx=180,dy=256,dz=154,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1050,y=0,z=2285,dx=125,dy=256,dz=149,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-878,y=0,z=2285,dx=160,dy=256,dz=159,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1280,y=0,z=2462,dx=178,dy=256,dz=143,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1069,y=0,z=2462,dx=187,dy=256,dz=147,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+
+scoreboard players set @s[x=-1291,y=0,z=2086,dx=182,dy=256,dz=169,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1073,y=0,z=2086,dx=165,dy=256,dz=187,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-874,y=0,z=2086,dx=137,dy=256,dz=146,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1279,y=0,z=2285,dx=180,dy=256,dz=154,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1050,y=0,z=2285,dx=125,dy=256,dz=149,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-878,y=0,z=2285,dx=160,dy=256,dz=159,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1280,y=0,z=2462,dx=178,dy=256,dz=143,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1069,y=0,z=2462,dx=187,dy=256,dz=147,scores={MusicCooldown=0}] MusicCooldown 123
 
 
+#Caves
+playsound seamauville record @s[x=-600,y=0,z=2487,dx=267,dy=256,dz=232,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-323,y=0,z=2487,dx=202,dy=256,dz=223,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-79,y=0,z=2487,dx=209,dy=256,dz=213,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-3266,y=0,z=-1490,dx=148,dy=256,dz=124,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-3177,y=0,z=-2052,dx=180,dy=256,dz=168,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-3303,y=0,z=-955,dx=139,dy=256,dz=139,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-594,y=0,z=2823,dx=342,dy=256,dz=280,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-224,y=0,z=2823,dx=284,dy=256,dz=260,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 
+scoreboard players set @s[x=-600,y=0,z=2487,dx=267,dy=256,dz=232,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-323,y=0,z=2487,dx=202,dy=256,dz=223,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-79,y=0,z=2487,dx=209,dy=256,dz=213,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-3266,y=0,z=-1490,dx=148,dy=256,dz=124,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-3177,y=0,z=-2052,dx=180,dy=256,dz=168,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-3303,y=0,z=-955,dx=139,dy=256,dz=139,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-594,y=0,z=2823,dx=342,dy=256,dz=280,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-224,y=0,z=2823,dx=284,dy=256,dz=260,scores={MusicCooldown=0}] MusicCooldown 123
+
+
+#Mountains
+playsound seamauville record @s[x=-984,y=0,z=2963,dx=245,dy=256,dz=184,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-853,y=0,z=2463,dx=162,dy=256,dz=155,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1360,y=0,z=3010,dx=223,dy=256,dz=121,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1360,y=0,z=2817,dx=223,dy=256,dz=192,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-984,y=0,z=2769,dx=245,dy=256,dz=193,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1136,y=0,z=2885,dx=151,dy=256,dz=142,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1152,y=0,z=2691,dx=150,dy=256,dz=155,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+playsound seamauville record @s[x=-1360,y=0,z=3182,dx=197,dy=256,dz=153,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+
+scoreboard players set @s[x=-984,y=0,z=2963,dx=245,dy=256,dz=184,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-853,y=0,z=2463,dx=162,dy=256,dz=155,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1360,y=0,z=3010,dx=223,dy=256,dz=121,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1360,y=0,z=2817,dx=223,dy=256,dz=192,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-984,y=0,z=2769,dx=245,dy=256,dz=193,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1136,y=0,z=2885,dx=151,dy=256,dz=142,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1152,y=0,z=2691,dx=150,dy=256,dz=155,scores={MusicCooldown=0}] MusicCooldown 123
+scoreboard players set @s[x=-1360,y=0,z=3182,dx=197,dy=256,dz=153,scores={MusicCooldown=0}] MusicCooldown 123
 
 
 
