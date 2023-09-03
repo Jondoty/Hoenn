@@ -65,8 +65,8 @@ execute as @a[x=-2473,y=50,z=8,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2473,y=50,z=8,dx=3,dy=3] -2472 69 9
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-2548,y=69,z=-23,dx=6,dy=3] -3244 65 1639
+tp @a[x=-3246,y=65,z=1640,dx=4,dy=3] -2545 69 -22
 
 #Top Left Home (Wally's)
 tp @a[x=-2592,y=69,z=-39,dx=4,dy=3] -2590 41 -40
@@ -124,8 +124,11 @@ execute as @a[x=-2743,y=50,z=-567,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2743,y=50,z=-567,dx=3,dy=3] -2742 69 -566
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2674,y=69,z=-679,dx=6,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2674,y=69,z=-679,dx=6,dy=3] -2985 65 1579
+
+execute as @a[x=-2987,y=65,z=1480,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2987,y=65,z=1480,dx=3,dy=3] -2671 69 -678
 
 #Devon Corp Building
 tp @a[x=-2761,y=69,z=-708,dx=8,dy=3,dz=2] -2756 18 -707
@@ -158,6 +161,10 @@ tp @a[x=-2682,y=53,z=-569,dx=3,dy=3] -2681 69 -568
 #Bottom Right Home
 tp @a[x=-2655,y=69,z=-569,dx=4,dy=3] -2652 41 -570
 tp @a[x=-2654,y=41,z=-569,dx=3,dy=3] -2653 69 -568
+
+#Top Right Home, Next to Gym
+tp @a[x=-2642,y=69,z=-679,dx=3,dy=3] -2639 53 -680
+tp @a[x=-2641,y=53,z=-679,dx=3,dy=3] -2640 69 -678
 
 #-------------------------------------------------------------------------
 #Route 116
@@ -316,7 +323,7 @@ tp @a[x=-1395,y=69,z=282,dx=2,dy=3] -1394 34 281
 tp @a[x=-1396,y=34,z=282,dx=4,dy=3] -1394 69 283
 
 #Stern's Shipyard
-tp @a[x=-1488,y=69,z=337,dx=4,dy=3] -1446 16 336
+tp @a[x=-1448,y=69,z=337,dx=4,dy=3] -1446 16 336
 tp @a[x=-1448,y=16,z=337,dx=4,dy=3] -1446 69 338
 
 #Northwest NPC Home
@@ -374,8 +381,8 @@ tp @a[x=-1612,y=133,z=-531,dz=6,dy=3] 2575 85 2904 180 ~
 tp @a[x=-1456,y=133,z=-531,dz=6,dy=3] 2836 85 2904 180 ~
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=2670,y=65,z=2714,dx=6,dy=3] -3375 99 1599
+tp @a[x=-3379,y=99,z=1600,dx=8,dy=3] 2673 65 2715
 
 #Pokemon Mart
 execute as @a[x=-1511,y=69,z=-645,dx=2,dy=3] run function hoenn:tools/forceclick
@@ -393,7 +400,7 @@ tp @a[x=-1559,y=48,z=-646,dx=3,dy=3] -1558 69 -644
 
 #North to Courtyard
 tp @a[x=-1540,y=69,z=-656,dx=12,dy=6] 2705 65 2745
-tp @a[x=2712,y=65,z=2746,dx=14,dy=6] -1534 69 -655
+tp @a[x=2698,y=65,z=2746,dx=14,dy=6] -1534 69 -655
 
 #East to COurtyard
 tp @a[x=-1488,y=69,z=-611,dz=12,dy=6] 2759 65 2815
@@ -451,7 +458,7 @@ tp @a[x=2575,y=85,z=2834,dz=3,dy=3] 2579 85 2835
 #Route 111
 
 #Winrate House
-tp @a[x=1564,y=79,z=-868,dx=3,dy=3] -1562 58 -869
+tp @a[x=-1564,y=79,z=-868,dx=3,dy=3] -1562 58 -869
 tp @a[x=-1564,y=58,z=-868,dx=3,dy=3] -1562 79 -867
 
 #Desert Ruins
@@ -476,8 +483,8 @@ tp @a[x=-1740,y=104,z=-1226,dx=8,dy=3] -1924 141 -3127
 tp @a[x=-1926,y=141,z=-3126,dx=4,dy=3] -1736 104 -1225
 
 #Mt. Chimney Lift Top of Mountain
-tp @a[x=-1940,y=149,z=-3153,dx=1,dy=2,dz=1] -1836 148 -3149 0 ~
-tp @a[x=-1836,y=149,z=-3153,dx=3,dy=3] -1939 148 -3149 0 ~
+tp @a[x=-1940,y=149,z=-3153,dx=1,dy=2,dz=1] -1842 141 -3132 90 ~
+tp @a[x=-1861,y=149,z=-3165,dx=1,dy=2,dz=1] -1909 141 -3138 0 ~
 
 #Jagged Pass Lyft Entrance and Exit
 tp @a[x=-1927,y=210,z=-3147,dx=8,dy=3] -1851 141 -3127
@@ -515,6 +522,14 @@ tp @a[x=-2015,y=84,z=-1108,dx=6,dy=5,dz=1] -2012 63 -1109
 execute as @a[x=-2013,y=63,z=-1108,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2013,y=63,z=-1108,dx=3,dy=3] -2012 84 -1106
 
+#Spa Entrance
+execute as @a[x=2023,y=63,z=-1128,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=2023,y=63,z=-1128,dx=3,dy=3] -2020 84 -1133
+
+execute as @a[x=-2022,y=84,z=-1132,dx=4,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2022,y=84,z=-1132,dx=4,dy=3] -2021 63 -1127
+
+
 #Pokemon Mart
 execute as @a[x=-1977,y=84,z=-1112,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1977,y=84,z=-1112,dx=3,dy=3] -1975 65 -1113
@@ -523,8 +538,8 @@ execute as @a[x=-1977,y=65,z=-1112,dx=3,dy=3] run function hoenn:tools/forceclic
 tp @a[x=-1977,y=65,z=-1112,dx=3,dy=3] -1976 84 -1111
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-2039,y=84,z=-1053,dx=6,dy=3] -3101 88 1625
+tp @a[x=-3102,y=88,z=1626,dx=3,dy=3] -2036 84 -1052
 
 #Left NPC Home
 tp @a[x=-2002,y=84,z=-1062,dx=3,dy=3] -2000 66 -1063
@@ -568,7 +583,7 @@ tp @a[x=-2321,y=89,z=-1432,dx=6,dy=3] -2318 74 -1433
 tp @a[x=-2320,y=74,z=-1432,dx=3,dy=3] -2318 89 -1431
 
 #Observatory Home
-tp @a[x=-2666,y=89,z=-1379,dx=6,dy=3] -2262 68 -1380
+tp @a[x=-2266,y=89,z=-1379,dx=6,dy=3] -2262 68 -1380
 tp @a[x=-2264,y=68,z=-1379,dx=3,dy=3] -2263 89 -1378
 
 #-------------------------------------------------------------------------
@@ -586,31 +601,33 @@ tp @a[x=-2453,y=68,z=-1248,dx=3,dy=3] -2451 89 -1247
 #Meteor Falls
 
 #Route 114 & Fallarbor Side
-scoreboard players set @a[x=-2573,y=99,z=-1031,dx=4,dy=4] click 1
-tp @a[x=-2573,y=99,z=-1031,dx=4,dy=4] 2362 110 -2496
+scoreboard players set @a[x=-2577,y=99,z=-1031,dx=4,dy=4] click 1
+tp @a[x=-2577,y=99,z=-1031,dx=4,dy=4] 2362 110 -2496
 
-scoreboard players set @a[x=2661,y=110,z=-2495,dx=3,dy=4] click 1
-tp @a[x=2661,y=110,z=-2495,dx=3,dy=4] -2575 99 -1030
+scoreboard players set @a[x=2361,y=110,z=-2495,dx=3,dy=4] click 1
+tp @a[x=2361,y=110,z=-2495,dx=3,dy=4] -2575 99 -1030
 
 #------------
 
 #Route 115 & Rustboro Side
-scoreboard players set @a[x=-2655,y=89,z=-1049,dx=4,dy=4] click 1
-tp @a[x=-2655,y=89,z=-1049,dx=4,dy=4] 2250 75 -2383
+scoreboard players set @a[x=-2659,y=89,z=-1049,dx=4,dy=4] click 1
+tp @a[x=-2659,y=89,z=-1049,dx=4,dy=4] 2250 75 -2383
 
 scoreboard players set @a[x=2248,y=75,z=-2382,dx=3,dy=4] click 1
-tp @a[x=2248,y=75,z=-2382,dx=3,dy=4] -2615 64 763
+tp @a[x=2248,y=75,z=-2382,dx=3,dy=4] -2657 89 -1048
 
 #------------
-#A Warp
-tp @a[x=2265,y=120,z=-2600,dx=3,dy=4] 2283 75 -2695
-tp @a[x=2282,y=120,z=-2694,dx=3,dy=4] 2264 120 -2599
+#https://gamefaqs.gamespot.com/gba/471243-pokemon-ruby-version/map/12847?raw=1
 
-#C Warp
-tp @a[x=2349,y=75,z=-3130,dx=3,dy=4] 2335 149 -3040
+#Warp 1
+tp @a[x=2262,y=120,z=-2600,dx=3,dy=4] 2283 75 -2695
+tp @a[x=2282,y=75,z=-2694,dx=3,dy=4] 2264 120 -2599
+
+#Warp 3
+tp @a[x=2346,y=75,z=-3130,dx=3,dy=4] 2335 149 -3040
 tp @a[x=2334,y=149,z=-3039,dx=3,dy=4] 2348 75 -3129
 
-#D Warp
+#Warp 4
 tp @a[x=2353,y=75,z=-2957,dx=3,dy=4] 2352 80 -2450
 tp @a[x=2351,y=80,z=-2451,dx=3,dy=4] 2354 75 -2958
 
@@ -703,7 +720,7 @@ tp @a[x=138,y=64,z=-765,dx=5,dy=3] 1644 27 2653
 tp @a[x=1642,y=27,z=2654,dx=5,dy=3] 140 64 -764
 
 #To standalone Mountain
-tp @a[x=-1499,y=87,z=2854,dx=4,dy=3] 1614 51 2648
+tp @a[x=1499,y=87,z=2854,dx=4,dy=3] 1614 51 2648
 tp @a[x=1611,y=51,z=2649,dx=5,dy=3] 1501 87 2855
 
 #-------------------------------------------------------------------------
@@ -828,7 +845,7 @@ tp @a[x=1750,y=59,z=-926,dx=4,dy=3] 1752 84 -925
 
 #Bottom Left NPC Home (yellow roof)
 tp @a[x=1545,y=74,z=-912,dx=2,dy=3] 1546 47 -913
-tp @a[x=1455,y=47,z=-912,dx=4,dy=3] 1546 74 -911
+tp @a[x=1544,y=47,z=-912,dx=4,dy=3] 1546 74 -911
 
 #Bottom Right NPC Home
 tp @a[x=1731,y=74,z=-885,dx=2,dy=3] 1732 47 -886
@@ -885,11 +902,11 @@ tp @a[x=-102,y=65,z=248,dx=4,dy=3] -100 32 247
 tp @a[x=-102,y=32,z=248,dx=3,dy=3] -100 65 249
 
 #Pokemon Center
-execute as @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
-tp @a[x=-56,y=65,z=266,dx=6,dy=3,dz=1] -53 28 265
+execute as @a[x=-56,y=65,z=267,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
+tp @a[x=-56,y=65,z=267,dx=6,dy=3,dz=1] -53 28 265
 
-execute as @a[x=-53,y=28,z=265,dx=3,dy=3] run function hoenn:tools/forceclick
-tp @a[x=-53,y=28,z=265,dx=3,dy=3] -53 65 268
+execute as @a[x=-54,y=28,z=266,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-54,y=28,z=266,dx=3,dy=3] -53 65 268
 
 #Top Right Home
 tp @a[x=-2,y=65,z=253,dx=4,dy=3] 0 34 252
@@ -911,8 +928,8 @@ tp @a[x=8,y=29,z=319,dx=3,dy=3] 10 65 320
 #Sootopolis City
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=983,y=64,z=1715,dx=6,dy=3] -3533.0 82 1601
+tp @a[x=-3536,y=82,z=1602,dx=5,dy=3] 986 65 1716
 
 #Pokemon Center
 execute as @a[x=1118,y=79,z=1668,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
@@ -929,7 +946,7 @@ execute as @a[x=858,y=60,z=1666,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=858,y=60,z=1666,dx=3,dy=3] 859 79 1667
 
 #Left Side Top Home
-tp @a[x=835,y=209,z=1468,dx=6,dy=3] 838 94 1467
+tp @a[x=835,y=109,z=1468,dx=6,dy=3] 838 94 1467
 tp @a[x=836,y=94,z=1468,dx=3,dy=3] 838 109 1469
 
 #Left Side Top Middle Home
@@ -942,7 +959,7 @@ tp @a[x=817,y=67,z=1625,dx=3,dy=3] 819 84 1626
 
 #Left Side Bottom Home
 tp @a[x=803,y=79,z=1709,dx=6,dy=3] 806 62 1708
-tp @a[x=806,y=62,z=1708,dx=3,dy=3] 806 79 1710
+tp @a[x=804,y=62,z=1709,dx=3,dy=3] 806 79 1710
 
 #Right Side Top Home
 tp @a[x=1111,y=109,z=1496,dx=6,dy=3] 1114 94 1495
@@ -963,25 +980,22 @@ tp @a[x=1209,y=73,z=1658,dx=3,dy=3] 1211 89 1659
 #---------------
 
 #Cave of Origin
-scoreboard players set @a[x=979,y=69,z=-1500,dx=13,dy=8,dz=1] click 1
-tp @a[x=979,y=69,z=-1500,dx=13,dy=8,dz=1] 1945 227 -2418
-
-scoreboard players set @a[x=1943,y=227,z=-2417,dx=4,dy=4] click 1
+tp @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1] 1945 227 -2418
 tp @a[x=1943,y=227,z=-2417,dx=4,dy=4] 985 69 1503
 
 #-------------------------------------------------------------------------
 #Evergrand City
 
 #Pokemon Center
-execute as @a run function hoenn:tools/forceclick
+execute as @a[x=2224,y=154,z=-222,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
 tp @a[x=2224,y=154,z=-222,dx=6,dy=5,dz=1] 2227 133 -223
 
-execute as @a run function hoenn:tools/forceclick
+execute as @a[x=2226,y=133,z=-222,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=2226,y=133,z=-222,dx=3,dy=3] 2227 154 -220
 
 #Victory Road Entrance
 tp @a[x=2164,y=164,z=-296,dx=4,dy=3] 1342 75 -3154
-tp @a[x=1431,y=75,z=-3153,dx=3,dy=3] 2166 164 -295
+tp @a[x=1341,y=75,z=-3153,dx=3,dy=3] 2166 164 -295
 
 #Victory Road Exit
 tp @a[x=2246,y=159,z=-377,dx=4,dy=3] 1645 94 -3111
@@ -1012,9 +1026,51 @@ tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue165
 tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue166
 
 #Sydney's Entrance to League
-tp @e[x=633,y=91,z=-2306,dx=2,dy=3] 2158 171 -795
-tp @e[x=2155,y=171,z=-797,dx=6,dy=4] 634 91 -2307
+tp @a[x=633,y=91,z=-2306,dx=2,dy=3] 2158 171 -795
+tp @a[x=2155,y=171,z=-797,dx=6,dy=4] 634 91 -2307
 
+#-------------------------------------------------------------------------
+#League Proper
+#Sydney's exterior to battle room
+tp @a[x=632,y=91,z=-2382,dx=4,dy=3] 634 95 -2447
+tp @a[x=632,y=95,z=-2446,dx=4,dy=3] 634 91 -2381
+
+#Sydney's Battle Room to Phoebe's exterior
+tp @a[x=632,y=95,z=-2478,dx=4,dy=3] 634 91 -2489
+tp @a[x=633,y=91,z=-2488,dx=4,dy=3] 634 95 -2477
+
+#Phoebe's exterior to battle room
+tp @a[x=632,y=91,z=-2562,dx=4,dy=3] 634 91 -2631
+tp @a[x=632,y=91,z=-2630,dx=4,dy=3] 634 91 -2561
+
+#Phoebe's battle room to Glacia's exterior
+tp @a[x=632,y=91,z=-2662,dx=4,dy=3] 634 91 -2677
+tp @a[x=633,y=91,z=-2676,dx=4,dy=3] 634 91 -2661
+
+#Glacia's exterior to battle room
+tp @a[x=631,y=91,z=-2750,dx=6,dy=3] 634 92 -2824
+tp @a[x=632,y=91,z=-2823,dx=4,dy=3] 634 91 -2749
+
+#Glacia's battle room to Drake's exterior
+tp @a[x=632,y=91,z=-2855,dx=4,dy=3] 634 91 -2871
+tp @a[x=633,y=91,z=-2870,dx=4,dy=3] 634 92 -2854
+
+#Drake's exterior to battle room
+tp @a[x=631,y=91,z=-2946,dx=6,dy=3] 634 91 -3017
+tp @a[x=632,y=91,z=-3016,dx=4,dy=3] 634 91 -2945
+
+#Drake's battle room to Steven's exterior
+tp @a[x=632,y=91,z=-3048,dx=4,dy=3] 634.0 88 -3064
+tp @a[x=632,y=87,z=-3063,dx=4,dy=3] 634 91 -3047
+
+#Steven's Exterior to battle room (return)
+tp @a[x=632,y=140,z=-3215,dx=4,dy=3] 634.0 87 -3180
+
+#Steven's battle room to hall of fame
+#tp @a[x=632,y=171,z=-3288,dx=4,dy=3] BUILDME
+
+#--------------------------
+#Rematch Portals
 
 #-------------------------------------------------------------------------
 #Battle Resort
@@ -1030,17 +1086,20 @@ tp @a[x=2352,y=48,z=805,dx=3,dy=3] 2353 69 807
 tp @a[x=2454,y=64,z=799,dx=3,dy=3] 2456 41 798
 tp @a[x=2454,y=41,z=799,dx=3,dy=3] 2456 64 800
 
+tp @a[x=2454,y=64,z=785,dx=2,dy=3] 2456.0 41 782
+tp @a[x=2454,y=41,z=781,dx=2,dy=3] 2456 64 784
+
 #Battle Maison
 tp @a[x=2395,y=94,z=715,dx=6,dy=3] 2398 44 714
 tp @a[x=2395,y=44,z=715,dx=6,dy=3] 2398 94 716
 
 #Island Left NPC Home
-#tp @a[x=2468,y=84,z=681,dx=4,dy=3]
-#tp @a[x=,y=,z=,dx=4,dy=3] 2470 84 682
+tp @a[x=2468,y=84,z=681,dx=4,dy=3] 2470 44 680
+tp @a[x=2468,y=44,z=681,dx=4,dy=3] 2470 84 682
 
 #Island Right NPC Home
-#tp @a[x=2518,y=84,z=632,dx=4,dy=3]
-#tp @a[x=,y=,z=,dx=4,dy=3] 2520 84 633
+tp @a[x=2518,y=84,z=632,dx=4,dy=3] 2520 43 631
+tp @a[x=2518,y=43,z=632,dx=4,dy=3] 2520 84 633
 
 
 #Pier Left NPC Home
@@ -1051,5 +1110,59 @@ tp @a[x=2631,y=69,z=632,dx=4,dy=3] 2633 69 636
 tp @a[x=2681,y=69,z=635,dx=4,dy=3] 2683 69 631
 tp @a[x=2681,y=69,z=632,dx=4,dy=3] 2683 69 636
 
+#Northern Beach House
+tp @a[x=2500,y=64,z=431,dx=4,dy=3] 2502 44 432
+tp @a[x=2500,y=44,z=431,dx=4,dy=3] 2502 64 430
+
 
 #-------------------------------------------------------------------------
+#Seafloor Cavern
+#https://gamefaqs.gamespot.com/gba/471243-pokemon-ruby-version/map/12855?raw=1
+
+#Portal 1
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 2
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 3
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 4
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 5
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 6
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 7
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 8
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 9
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 10
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 11
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]
+
+#Portal 12
+#tp @a[x=,y=,z=,dx=3,dy=3]
+#tp @a[x=,y=,z=,dx=3,dy=3]

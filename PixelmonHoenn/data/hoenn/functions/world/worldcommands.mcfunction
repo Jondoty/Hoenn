@@ -5,11 +5,13 @@ execute at @a run execute if block ~ ~ ~ minecraft:pink_carpet run function hoen
 
 
 
+
 #-------------------------World Functions-----------------------------------------------------------------------------------
 #Runs function to update player's music and titles on a constant basis
 execute as @a run function hoenn:world/musictitles
 
-
+#Runs less-frequent cave portals, portals that are not activated by a portal block.
+execute as @a run function hoenn:world/cavewarps
 
 
 
