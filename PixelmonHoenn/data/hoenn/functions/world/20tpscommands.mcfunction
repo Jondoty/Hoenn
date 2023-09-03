@@ -1,4 +1,7 @@
 
+#Runs world portals
+execute at @a run execute if block ~ ~ ~ pixelmon:warp_plate run function hoenn:world/portals
+
 
 #Ambient Particles
 #Route 113, Mt. Chimney, Jagged Pass Falling Ash Particles
