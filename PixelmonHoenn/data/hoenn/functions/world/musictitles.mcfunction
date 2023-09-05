@@ -484,7 +484,9 @@ execute as @s[x=-1287,y=31,z=136,dx=362,dy=256,dz=312,scores={MusicTitles=..96}]
 execute as @s[x=-1287,y=31,z=136,dx=362,dy=256,dz=312,scores={MusicTitles=100..}] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 99 run scoreboard players set @s[x=-1287,y=31,z=136,dx=362,dy=256,dz=312] MusicTitles 99
 
-
+execute unless score @s MusicTitles matches 147 run title @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52] actionbar {"text":"Lobby"}
+execute unless score @s MusicTitles matches 147 as @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52] run function hoenn:tools/forceclick
+execute unless score @s MusicTitles matches 147 run scoreboard players set @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52] MusicTitles 147
 
 
 
