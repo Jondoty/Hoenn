@@ -7,6 +7,9 @@ execute at @a run execute if block ~ ~ ~ minecraft:pink_carpet run function hoen
 
 
 #-------------------------World Functions-----------------------------------------------------------------------------------
+#Starts the player at spawn with items, scores and tps to lobby
+execute as @a[x=-2021,y=64,z=1459,distance=..20,tag=!InitialTags] run function hoenn:triggers/startingcommands
+
 #Runs function to update player's music and titles on a constant basis
 execute as @a run function hoenn:world/musictitles
 
