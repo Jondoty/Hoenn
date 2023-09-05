@@ -7,10 +7,67 @@
 #tp @a[x=,y=,z=,dx=3,dy=3]
 
 #-------------------------------------------------------------------------
+#Lobby to options, or to Littleroot if chosen options
+#Ruby=GameVersion 1, Sapphire=GameVersion 2
+#May Rival = 1, Brendan Rival = 2
+
+#Lobby to Game Version
+tellraw @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=0}] ["",{"text":"Select which game version and story you would like to follow!\n","italic":true,"color":"gray"},{"text":"THESE CANNOT BE CHANGED LATER","bold":true,"italic":true,"color":"gray"}]
+tp @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=0}] -2012 65 1374
+
+#Lobby to RivaL
+tellraw @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=1..,Rival=0}] {"text":"Which rival do you want to battle in the story?","italic":true,"color":"gray"}
+tp @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=1..,Rival=0}] -2042 65 1374
+
+#lobby to Littleroot
+tp @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=1..,Rival=1}] -2074 50 299 -120 12
+tp @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=1..,Rival=2}] -1985 50 299 120 12
+
+
+#Game Version to Rival
+scoreboard players set @a[x=-2028,y=65,z=1376,dz=1,dy=3] GameVersion 1
+playsound minecraft:entity.player.levelup ambient @a[x=-2028,y=65,z=1376,dz=1,dy=3] ~ ~ ~ 1 1 1
+tellraw @a[x=-2028,y=65,z=1376,dz=1,dy=3] {"text":"You picked the Omega Ruby story line!","italic":true,"color":"gray"}
+
+scoreboard players set @a[x=-2028,y=65,z=1371,dz=1,dy=3] GameVersion 1
+playsound minecraft:entity.player.levelup ambient @a[x=-2028,y=65,z=1371,dz=1,dy=3] ~ ~ ~ 1 1 1
+tellraw @a[x=-2028,y=65,z=1371,dz=1,dy=3] {"text":"You picked the Alpha Sapphire story line!","italic":true,"color":"gray"}
+
+tellraw @a[x=-2028,y=65,z=1371,dz=6,dy=3,scores={Rival=0}] {"text":"Which rival do you want to battle in the story?","italic":true,"color":"gray"}
+tp @a[x=-2028,y=65,z=1371,dz=6,dy=3,scores={Rival=0}] -2042 65 1374
+
+tp @a[x=-2028,y=65,z=1371,dz=6,dy=3,scores={Rival=1}] -2074 50 299 -120 12
+tp @a[x=-2028,y=65,z=1371,dz=6,dy=3,scores={Rival=2}] -1985 50 299 120 12
+
+
+#Rival to Littleroot
+scoreboard players set @a[x=-2051,y=65,z=1375,dz=1,dy=3] Rival 1
+playsound minecraft:entity.player.levelup ambient @a[x=-2051,y=65,z=1375,dz=1,dy=3] ~ ~ ~ 1 1 1
+tellraw @a[x=-2051,y=65,z=1375,dz=1,dy=3] {"text":"May will be your rival!","italic":true,"color":"gray"}
+effect give @a[x=-2051,y=65,z=1375,dz=1,dy=3] minecraft:blindness 3 1 true
+tp @a[x=-2051,y=65,z=1375,dz=1,dy=3,scores={Rival=1}] -2074 50 299 -120 12
+
+scoreboard players set @a[x=-2051,y=65,z=1372,dz=1,dy=3] Rival 2
+playsound minecraft:entity.player.levelup ambient @a[x=-2051,y=65,z=1372,dz=1,dy=3] ~ ~ ~ 1 1 1
+tellraw @a[x=-2051,y=65,z=1372,dz=1,dy=3] {"text":"Brendan will be your rival!","italic":true,"color":"gray"}
+effect give @a[x=-2051,y=65,z=1372,dz=1,dy=3] minecraft:blindness 3 1 true
+tp @a[x=-2051,y=65,z=1372,dz=1,dy=3,scores={Rival=2}] -1985 50 299 120 12
+
+
+#May's House to lobby
+tp @a[x=-1987,y=50,z=302,dy=3] -1976 66 1375.0 90 11
+
+#Brendan's House to lobby
+tp @a[x=-2072,y=50,z=302,dy=3] -1976 66 1375.0 90 11
+
+#-------------------------------------------------------------------------
 #Littleroot Town
 
 #Prof Birch's Lab
+execute as @a[x=-2043,y=50,z=344,dx=3,dy=5] run function hoenn:tools/forceclick
 tp @a[x=-2043,y=50,z=344,dx=3,dy=5] -2042 69 345
+
+execute as @a[x=-2043,y=69,z=344,dx=2,dy=5] run function hoenn:tools/forceclick
 tp @a[x=-2043,y=69,z=344,dx=2,dy=5] -2041 50 343
 
 #Brendan's House
