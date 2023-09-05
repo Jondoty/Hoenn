@@ -169,6 +169,10 @@ scoreboard players set @s[x=848,y=60,z=1646,dx=32,dy=10,dz=20,scores={MusicCoold
 #---------------------------------------------------------------------------------------------------------------------------
 #World Music
 
+#Lobby
+playsound maintheme record @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52,scores={MusicCooldown=0}] MusicCooldown 147
+
 #Littleroot Town
 playsound littleroottown record @s[x=-2098,y=0,z=278,dx=143,dy=256,dz=92,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=-2098,y=0,z=278,dx=143,dy=256,dz=92,scores={MusicCooldown=0}] MusicCooldown 167
@@ -408,8 +412,8 @@ playsound route104 record @s[x=-2869,y=31,z=635,dx=538,dy=256,dz=154,scores={Mus
 scoreboard players set @s[x=-2869,y=31,z=635,dx=538,dy=256,dz=154,scores={MusicCooldown=0}] MusicCooldown 125
 
 #Route 107
-playsound route104 record @s[x=-2330,y=0,z=782,dx=270,dy=256,dz=184,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2330,y=0,z=782,dx=270,dy=256,dz=184,scores={MusicCooldown=0}] MusicCooldown 125
+playsound route104 record @s[x=-2330,y=41,z=782,dx=270,dy=256,dz=184,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2330,y=41,z=782,dx=270,dy=256,dz=184,scores={MusicCooldown=0}] MusicCooldown 125
 
 #Route 108
 playsound route104 record @s[x=-2059,y=0,z=802,dx=371,dy=256,dz=164,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -484,28 +488,28 @@ playsound introductions record @s[x=-725,y=0,z=-680,dx=972,dy=256,dz=189,scores=
 scoreboard players set @s[x=-725,y=0,z=-680,dx=972,dy=256,dz=189,scores={MusicCooldown=0}] MusicCooldown 150
 
 #Route 124
-playsound route120 record @s[x=833,y=0,z=-1170,dx=411,dy=256,dz=339,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=833,y=0,z=-1170,dx=411,dy=256,dz=339,scores={MusicCooldown=0}] MusicCooldown 175
+playsound route120 record @s[x=833,y=31,z=-1170,dx=411,dy=256,dz=339,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=833,y=31,z=-1170,dx=411,dy=256,dz=339,scores={MusicCooldown=0}] MusicCooldown 175
 
 #Route 125
-playsound route120 record @s[x=1391,y=0,z=-1373,dx=408,dy=256,dz=209,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1391,y=0,z=-1373,dx=408,dy=256,dz=209,scores={MusicCooldown=0}] MusicCooldown 175
+playsound route120 record @s[x=1391,y=31,z=-1373,dx=408,dy=256,dz=209,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1391,y=31,z=-1373,dx=408,dy=256,dz=209,scores={MusicCooldown=0}] MusicCooldown 175
 
 #Route 126
-playsound route120 record @s[x=676,y=0,z=-830,dx=509,dy=256,dz=560,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=676,y=0,z=-830,dx=509,dy=256,dz=560,scores={MusicCooldown=0}] MusicCooldown 175
+playsound route120 record @s[x=676,y=31,z=-830,dx=509,dy=256,dz=560,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=676,y=31,z=-830,dx=509,dy=256,dz=560,scores={MusicCooldown=0}] MusicCooldown 175
 
 #Route 127
-playsound route120 record @s[x=1186,y=0,z=-811,dx=576,dy=256,dz=575,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1186,y=0,z=-811,dx=576,dy=256,dz=575,scores={MusicCooldown=0}] MusicCooldown 175
+playsound route120 record @s[x=1186,y=31,z=-811,dx=576,dy=256,dz=575,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1186,y=31,z=-811,dx=576,dy=256,dz=575,scores={MusicCooldown=0}] MusicCooldown 175
 
 #Route 128
-playsound route120 record @s[x=1186,y=0,z=-235,dx=838,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1186,y=0,z=-235,dx=838,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 175
+playsound route120 record @s[x=1186,y=31,z=-235,dx=838,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1186,y=31,z=-235,dx=838,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 175
 
 #Route 129
-playsound route119 record @s[x=945,y=0,z=78,dx=857,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=945,y=0,z=78,dx=857,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 200
+playsound route119 record @s[x=945,y=31,z=78,dx=857,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=945,y=31,z=78,dx=857,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 200
 
 #Route 130
 playsound route119 record @s[x=507,y=0,z=78,dx=437,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -516,49 +520,49 @@ playsound route119 record @s[x=45,y=0,z=-8,dx=461,dy=256,dz=404,scores={MusicCoo
 scoreboard players set @s[x=45,y=0,z=-8,dx=461,dy=256,dz=404,scores={MusicCooldown=0}] MusicCooldown 200
 
 #Route 132
-playsound route119 record @s[x=-545,y=0,z=135,dx=364,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-545,y=0,z=135,dx=364,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 200
+playsound route119 record @s[x=-545,y=31,z=135,dx=364,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-545,y=31,z=135,dx=364,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 200
 
 #Route 133
-playsound route119 record @s[x=-924,y=0,z=136,dx=378,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-924,y=0,z=136,dx=378,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 200
+playsound route119 record @s[x=-924,y=31,z=136,dx=378,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-924,y=31,z=136,dx=378,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 200
 
 #Route 134
-playsound route119 record @s[x=-1287,y=0,z=136,dx=362,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1287,y=0,z=136,dx=362,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 200
+playsound route119 record @s[x=-1287,y=31,z=136,dx=362,dy=256,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1287,y=31,z=136,dx=362,dy=256,dz=312,scores={MusicCooldown=0}] MusicCooldown 200
 
 
 #Route 107 (Underwater)
-playsound dive record @s[x=-560,y=0,z=-2950,dx=214,dy=256,dz=253,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-560,y=0,z=-2950,dx=214,dy=256,dz=253,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=-2236,y=-84,z=721,dx=214,dy=124,dz=253,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2236,y=-84,z=721,dx=214,dy=124,dz=253,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 124 (Underwater)
-playsound dive record @s[x=113,y=0,z=-3637,dx=345,dy=256,dz=372,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=113,y=0,z=-3637,dx=345,dy=256,dz=372,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=838,y=-70,z=-1150,dx=314,dy=99,dz=372,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=838,y=-70,z=-1150,dx=314,dy=99,dz=372,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 126 (Underwater)
-playsound dive record @s[x=-286,y=0,z=-3205,dx=453,dy=256,dz=508,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-286,y=0,z=-3205,dx=453,dy=256,dz=508,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=692,y=-46,z=-835,dx=453,dy=75,dz=508,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=692,y=-46,z=-835,dx=453,dy=75,dz=508,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 127 (Underwater)
-playsound dive record @s[x=-1311,y=0,z=-3220,dx=619,dy=256,dz=573,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1311,y=0,z=-3220,dx=619,dy=256,dz=573,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=1175,y=-62,z=-811,dx=619,dy=92,dz=573,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1175,y=-62,z=-811,dx=619,dy=92,dz=573,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 128 (Underwater)
-playsound dive record @s[x=-1311,y=0,z=-2646,dx=618,dy=256,dz=342,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1311,y=0,z=-2646,dx=618,dy=256,dz=342,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=1175,y=-62,z=-237,dx=618,dy=92,dz=342,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1175,y=-62,z=-237,dx=618,dy=92,dz=342,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 129 (Underwater)
-playsound dive record @s[x=-209,y=0,z=-2655,dx=673,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-209,y=0,z=-2655,dx=673,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 130 (Underwater)
-playsound dive record @s[x=-627,y=0,z=-2655,dx=417,dy=256,dz=251,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-627,y=0,z=-2655,dx=417,dy=256,dz=251,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=546,y=-74,z=83,dx=417,dy=103,dz=251,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=546,y=-74,z=83,dx=417,dy=103,dz=251,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 134 (Underwater)
-playsound dive record @s[x=265,y=0,z=-3209,dx=198,dy=256,dz=512,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=265,y=0,z=-3209,dx=198,dy=256,dz=512,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=-1092,y=-41,z=304,dx=198,dy=71,dz=512,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1092,y=-41,z=304,dx=198,dy=71,dz=512,scores={MusicCooldown=0}] MusicCooldown 225
 
 
 
