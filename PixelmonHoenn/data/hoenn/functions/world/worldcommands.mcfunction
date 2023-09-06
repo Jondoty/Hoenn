@@ -63,7 +63,8 @@ execute as @a[x=334,y=237,z=-1917,distance=..40] run function hoenn:world/flymap
 
 
 
-
+#Runs GameDifferences function to change things based on player's chosen version
+function hoenn:world/gamedifferences
 
 
 
