@@ -235,10 +235,12 @@ tp @a[x=-2453,y=56,z=-723,dx=4,dy=3] -2451 69 -722
 #Rustboro Tunnel
 #Route 116 Side
 scoreboard players set @a[x=-2417,y=69,z=-723,dx=6,dy=5] click 1
+scoreboard players set @a[x=-2417,y=69,z=-723,dx=6,dy=5] EscapeRope 1
 tp @a[x=-2417,y=69,z=-723,dx=6,dy=5] -2414 37 -792
 
 #Return
 scoreboard players set @a[x=-2417,y=37,z=-791,dx=6,dy=5] click 1
+scoreboard players set @a[x=-2417,y=37,z=-791,dx=6,dy=5] EscapeRope 0
 tp @a[x=-2417,y=37,z=-791,dx=6,dy=5] -2414 69 -722
 
 #------------
@@ -256,10 +258,12 @@ tp @a[x=-2336,y=37,z=-750,dx=6,dy=5] -2333 69 -709
 
 #Verdanturf Town Side
 scoreboard players set @a[x=-2121,y=69,z=-659,dx=6,dy=5] click 1
+scoreboard players set @a[x=-2121,y=69,z=-659,dx=6,dy=5] EscapeRope 2
 tp @a[x=-2121,y=69,z=-659,dx=6,dy=5] -2268 37 -771
 
 #Return
 scoreboard players set @a[x=-2271,y=37,z=-770,dx=6,dy=5] click 1
+scoreboard players set @a[x=-2271,y=37,z=-770,dx=6,dy=5] EscapeRope 0
 tp @a[x=-2271,y=37,z=-770,dx=6,dy=5] -2118 69 -658
 
 #-------------------------------------------------------------------------
@@ -659,18 +663,22 @@ tp @a[x=-2453,y=68,z=-1248,dx=3,dy=3] -2451 89 -1247
 
 #Route 114 & Fallarbor Side
 scoreboard players set @a[x=-2577,y=99,z=-1031,dx=4,dy=4] click 1
+scoreboard players set @a[x=-2577,y=99,z=-1031,dx=4,dy=4] EscapeRope 3
 tp @a[x=-2577,y=99,z=-1031,dx=4,dy=4] 2362 110 -2496
 
 scoreboard players set @a[x=2361,y=110,z=-2495,dx=3,dy=4] click 1
+scoreboard players set @a[x=2361,y=110,z=-2495,dx=3,dy=4] EscapeRope 0
 tp @a[x=2361,y=110,z=-2495,dx=3,dy=4] -2575 99 -1030
 
 #------------
 
 #Route 115 & Rustboro Side
 scoreboard players set @a[x=-2659,y=89,z=-1049,dx=4,dy=4] click 1
+scoreboard players set @a[x=-2659,y=89,z=-1049,dx=4,dy=4] EscapeRope 4
 tp @a[x=-2659,y=89,z=-1049,dx=4,dy=4] 2250 75 -2383
 
 scoreboard players set @a[x=2248,y=75,z=-2382,dx=3,dy=4] click 1
+scoreboard players set @a[x=2248,y=75,z=-2382,dx=3,dy=4] EscapeRope 0
 tp @a[x=2248,y=75,z=-2382,dx=3,dy=4] -2657 89 -1048
 
 #------------
@@ -1074,11 +1082,15 @@ execute as @a[x=2226,y=133,z=-222,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=2226,y=133,z=-222,dx=3,dy=3] 2227 154 -220
 
 #Victory Road Entrance
+scoreboard players set @a[x=2164,y=164,z=-296,dx=4,dy=3] EscapeRope 5
 tp @a[x=2164,y=164,z=-296,dx=4,dy=3] 1342 75 -3154
+scoreboard players set @a[x=1341,y=75,z=-3153,dx=3,dy=3] EscapeRope 0
 tp @a[x=1341,y=75,z=-3153,dx=3,dy=3] 2166 164 -295
 
 #Victory Road Exit
+scoreboard players set @a[x=2246,y=159,z=-377,dx=4,dy=3] EscapeRope 6
 tp @a[x=2246,y=159,z=-377,dx=4,dy=3] 1645 94 -3111
+scoreboard players set @a[x=1642,y=94,z=-3112,dx=8,dy=3] EscapeRope 0
 tp @a[x=1642,y=94,z=-3112,dx=8,dy=3] 2248 159 -378
 
 #-------------------------------------------------------------------------
