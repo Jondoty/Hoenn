@@ -11,11 +11,11 @@
       "maxLevel": 23,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

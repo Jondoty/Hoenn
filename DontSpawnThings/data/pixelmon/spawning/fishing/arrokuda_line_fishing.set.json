@@ -2,8 +2,7 @@
   "id": "Arrokuda Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Arrokuda"
-      ,
+      "spec": "species:Arrokuda",
       "stringLocationTypes": [
         "Old Rod"
       ],
@@ -11,16 +10,21 @@
       "maxLevel": 15,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "river"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Arrokuda"
-      ,
+      "spec": "species:Arrokuda",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -28,16 +32,21 @@
       "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "river"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Barraskewda"
-      ,
+      "spec": "species:Barraskewda",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -45,16 +54,21 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "river"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Barraskewda"
-      ,
+      "spec": "species:Barraskewda",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -62,9 +76,15 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "river"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0

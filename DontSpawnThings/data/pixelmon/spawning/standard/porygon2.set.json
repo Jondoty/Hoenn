@@ -10,12 +10,29 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "minecraft:small_end_islands",
-          "minecraft:end_barrens"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Porygon2 palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

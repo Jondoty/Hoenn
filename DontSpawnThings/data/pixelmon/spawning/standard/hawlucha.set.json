@@ -19,11 +19,35 @@
         "times": [
           "AFTERNOON"
         ],
-        "stringBiomes": [
-          "mountainous forests"
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Hawlucha",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:kings_rock",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

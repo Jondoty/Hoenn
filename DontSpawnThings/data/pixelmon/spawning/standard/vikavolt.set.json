@@ -16,13 +16,33 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "taigas",
-          "redwoods",
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Vikavolt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

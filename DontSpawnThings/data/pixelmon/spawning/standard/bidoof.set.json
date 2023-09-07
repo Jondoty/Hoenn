@@ -14,13 +14,13 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "swamps",
-          "lakes"
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

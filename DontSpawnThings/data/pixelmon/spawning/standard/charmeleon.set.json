@@ -16,14 +16,32 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "mountainous",
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
           "minecraft:eroded_badlands",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Charmeleon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

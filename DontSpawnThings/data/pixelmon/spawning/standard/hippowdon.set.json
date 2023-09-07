@@ -14,12 +14,30 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ],
         "maxY": 80
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Hippowdon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

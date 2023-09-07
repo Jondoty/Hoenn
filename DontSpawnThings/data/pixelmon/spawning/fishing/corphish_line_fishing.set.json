@@ -2,8 +2,7 @@
   "id": "Corphish Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Corphish"
-      ,
+      "spec": "species:Corphish",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -11,16 +10,16 @@
       "maxLevel": 29,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "river",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Corphish"
-      ,
+      "spec": "species:Corphish",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -28,17 +27,17 @@
       "maxLevel": 28,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "river",
-          "swamps",
-          "beaches"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/beaches"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Crawdaunt"
-      ,
+      "spec": "species:Crawdaunt",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -49,10 +48,11 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "river",
-          "swamps",
-          "beaches"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/beaches"
         ]
       },
       "rarity": 0.0

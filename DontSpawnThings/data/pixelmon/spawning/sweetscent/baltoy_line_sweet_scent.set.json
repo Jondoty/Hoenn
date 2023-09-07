@@ -2,8 +2,7 @@
   "id": "Baltoy Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Baltoy"
-      ,
+      "spec": "species:Baltoy",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -21,15 +20,14 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Claydol"
-      ,
+      "spec": "species:Claydol",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -47,8 +45,8 @@
           "AFTERNOON",
           "DUSK"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarity": 0.0

@@ -19,12 +19,12 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas"
         ],
         "minY": 90
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Metang",
@@ -44,12 +44,12 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:ice_spikes"
         ],
         "minY": 90
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Metang",
@@ -66,12 +66,64 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_highlands",
           "minecraft:end_barrens"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Metang",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Metang",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade"
+      ],
+      "minLevel": 20,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:land_chalice"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

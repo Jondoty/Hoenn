@@ -13,7 +13,7 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:deep_ocean",
           "minecraft:deep_warm_ocean",
           "minecraft:deep_lukewarm_ocean",
@@ -21,7 +21,22 @@
         ],
         "maxY": 35
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Eelektrik",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 52,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

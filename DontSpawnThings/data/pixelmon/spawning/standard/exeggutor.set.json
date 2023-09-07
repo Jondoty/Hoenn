@@ -15,13 +15,13 @@
           "DAY",
           "DUSK"
         ],
-        "stringBiomes": [
-          "taigas",
-          "jungles",
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/jungles",
           "biomesoplenty:tropic_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Exeggutor form:alolan",
@@ -35,12 +35,12 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
+        "biomes": [
           "jungle_edge",
           "biomesoplenty:tropic_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Exeggutor form:base palette:pink",
@@ -56,13 +56,13 @@
           "DAY",
           "DUSK"
         ],
-        "stringBiomes": [
-          "taigas",
-          "jungles",
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/jungles",
           "biomesoplenty:tropic_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

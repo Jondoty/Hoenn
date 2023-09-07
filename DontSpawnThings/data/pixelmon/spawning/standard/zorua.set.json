@@ -13,11 +13,11 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "plains"
+        "biomes": [
+          "#pixelmon:spawning/plains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Zorua form:hisuian",
@@ -31,12 +31,45 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing forests",
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
           "minecraft:ice_spikes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Zorua form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "byg:subzero_hypogeal"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Zorua form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Zorua palette:alter",
@@ -50,11 +83,11 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "plains"
+        "biomes": [
+          "pixelmon:ultra_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

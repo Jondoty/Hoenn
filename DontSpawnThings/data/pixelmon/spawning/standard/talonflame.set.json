@@ -13,13 +13,14 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches",
-          "freezing forests",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas",
+          "pixelmon:mount_lanakila"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Talonflame palette:ashen",
@@ -33,16 +34,11 @@
         "times": [
           "AFTERNOON"
         ],
-        "weathers": [
-          "CLEAR"
-        ],
-        "stringBiomes": [
-          "birches",
-          "freezing forests",
-          "taigas"
+        "biomes": [
+          "pixelmon:ultra_crater"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

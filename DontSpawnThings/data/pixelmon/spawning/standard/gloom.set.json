@@ -2,54 +2,85 @@
   "id": "Gloom",
   "spawnInfos": [
     {
-      "spec": "species:Gloom"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 31,
-      "maxLevel": 35,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 1406, "maxX": 1436, "minZ": -373, "maxZ": -349,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Gloom"
-      ,
+      "spec": "species:Gloom",
       "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 21,
-      "maxLevel": 24,
+      "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-        "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/roofed"
+        ]
       },
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Gloom"
-      ,
+      "spec": "species:Gloom palette:valencian",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 12,
-      "maxLevel": 15,
+      "minLevel": 21,
+      "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-        "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gloom palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/roofed"
+        ]
       },
       "rarity": 0.0
     }
-
   ]
 }

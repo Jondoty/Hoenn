@@ -20,14 +20,14 @@
           "AFTERNOON",
           "DUSK"
         ],
-        "stringBiomes": [
-          "mountainous forests"
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Snorlax palette:snowy",
+      "spec": "species:Snorlax palette:snow",
       "stringLocationTypes": [
         "Land"
       ],
@@ -45,11 +45,11 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Snorlax palette:summer",
@@ -70,14 +70,14 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:stone_shore",
           "biomesoplenty:gravel_beach",
           "byg:basalt_barrera",
           "byg:rocky_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

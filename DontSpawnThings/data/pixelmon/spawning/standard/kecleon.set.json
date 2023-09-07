@@ -13,11 +13,29 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Kecleon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Kecleon palette:alter",
@@ -31,11 +49,11 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "pixelmon:ultra_jungle"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

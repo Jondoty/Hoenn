@@ -2,8 +2,7 @@
   "id": "Mothim Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Mothim"
-      ,
+      "spec": "species:Mothim",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,9 +13,9 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "taigas",
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
         ]
       },
       "rarity": 0.0

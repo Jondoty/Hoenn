@@ -14,14 +14,14 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Eevee form:creator",
+      "spec": "species:Eevee",
       "stringLocationTypes": [
         "Land"
       ],
@@ -32,14 +32,32 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "pixelmon:ultra_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Eevee form:base palette:strike",
+      "spec": "species:Eevee palette:creator",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Eevee palette:strike",
       "stringLocationTypes": [
         "Land"
       ],
@@ -50,14 +68,29 @@
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Eevee palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

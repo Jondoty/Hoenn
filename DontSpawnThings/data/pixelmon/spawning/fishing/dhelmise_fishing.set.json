@@ -2,8 +2,7 @@
   "id": "Dhelmise Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Dhelmise"
-      ,
+      "spec": "species:Dhelmise",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -14,8 +13,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0

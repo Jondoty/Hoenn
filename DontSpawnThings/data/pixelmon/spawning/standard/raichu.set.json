@@ -13,8 +13,8 @@
         "times": [
           "AFTERNOON"
         ],
-        "stringBiomes": [
-          "all forests"
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
         ]
       },
       "rarityMultipliers": [
@@ -27,7 +27,25 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Raichu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Raichu form:alolan",
@@ -41,7 +59,7 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:stone_shore",
           "biomesoplenty:gravel_beach",
           "byg:basalt_barrera",
@@ -58,7 +76,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Raichu form:alolan palette:summer",
@@ -76,14 +94,14 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:stone_shore",
           "biomesoplenty:gravel_beach",
           "byg:basalt_barrera",
           "byg:rocky_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -6,8 +6,8 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 15,
-      "maxLevel": 19,
+      "minLevel": 28,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -16,22 +16,33 @@
         }
       ],
       "condition": {
-        "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass_path"
+            ]
+          }
+        }
+      ],
       "rarity": 0.0
     },
-
-
-
     {
-      "spec": "species:Persian",
+      "spec": "species:Persian form:alolan",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 38,
-      "maxLevel": 40,
+      "minLevel": 28,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -40,32 +51,24 @@
         }
       ],
       "condition": {
-        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
-      "rarity": 14.0
-    },
-    {
-      "spec": "species:Persian",
-      "stringLocationTypes": [
-        "Land",
-        "Underground"
-      ],
-      "minLevel": 38,
-      "maxLevel": 40,
-      "typeID": "pokemon",
-      "heldItems": [
+      "rarityMultipliers": [
         {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass_path"
+            ]
+          }
         }
       ],
-      "condition": {
-        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
-      },
       "rarity": 0.0
     }
   ]

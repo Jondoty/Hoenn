@@ -14,13 +14,13 @@
           "AFTERNOON",
           "DUSK"
         ],
-        "stringBiomes": [
-          "forests",
-          "roofed",
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Victreebel palette:valencian",
@@ -35,11 +35,11 @@
           "AFTERNOON",
           "DUSK"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Victreebel palette:pink",
@@ -54,12 +54,12 @@
           "AFTERNOON",
           "DUSK"
         ],
-        "stringBiomes": [
-          "forests",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

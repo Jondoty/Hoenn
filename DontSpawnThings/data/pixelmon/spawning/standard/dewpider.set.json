@@ -16,14 +16,15 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "swamps",
-          "lakes",
-          "byg:crag_gardens"
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens",
+          "pixelmon:ultra_jungle"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

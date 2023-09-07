@@ -14,13 +14,31 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "mountainous",
-          "mountainous forests",
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Braviary",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 54,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Braviary form:hisuian",
@@ -35,13 +53,31 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "mountainous",
-          "mountainous forests",
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Braviary form:hisuian",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 54,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

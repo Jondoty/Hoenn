@@ -16,13 +16,13 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesas",
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
           "biomesoplenty:burnt_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Sizzlipede",
@@ -33,16 +33,16 @@
       "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "hellish"
+        "biomes": [
+          "#pixelmon:spawning/hellish"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
+        "biomes": [
           "byg:subzero_hypogeal"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

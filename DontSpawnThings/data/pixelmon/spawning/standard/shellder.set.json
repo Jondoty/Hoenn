@@ -25,15 +25,15 @@
           "DUSK",
           "NIGHT"
         ],
-        "neededNearbyBlocks": [
+        "baseBlocks": [
           "beach"
         ],
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Shellder palette:valencian",
@@ -58,11 +58,11 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

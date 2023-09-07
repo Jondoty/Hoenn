@@ -19,11 +19,35 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Salamence",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Salamence palette:alter",
@@ -41,13 +65,13 @@
       ],
       "condition": {
         "times": [
-          "MIDNIGHT"
+          "MIDDAY"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "pixelmon:ultra_crater"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

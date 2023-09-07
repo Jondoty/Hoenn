@@ -2,18 +2,25 @@
   "id": "Sunkern",
   "spawnInfos": [
     {
-      "spec": "species:Sunkern"
-      ,
+      "spec": "species:Sunkern",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Sweet Scent"
       ],
-      "minLevel": 8,
-      "maxLevel": 12,
+      "minLevel": 2,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930,
-        "times": [ "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
       },
       "rarity": 0.0
     }

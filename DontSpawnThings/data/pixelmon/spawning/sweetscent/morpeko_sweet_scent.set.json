@@ -2,8 +2,7 @@
   "id": "Morpeko Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Morpeko"
-      ,
+      "spec": "species:Morpeko",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -12,11 +11,12 @@
       "typeID": "pokemon",
       "condition": {
         "times": [
+          "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "hills",
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/redwoods"
         ]
       },
       "rarity": 0.0

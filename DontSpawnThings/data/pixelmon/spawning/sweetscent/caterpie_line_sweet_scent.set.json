@@ -2,8 +2,7 @@
   "id": "Caterpie Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Caterpie"
-      ,
+      "spec": "species:Caterpie",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -12,62 +11,70 @@
       "typeID": "pokemon",
       "condition": {
         "times": [
+          "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "forests",
-          "jungles",
-          "bamboo_forest",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Metapod"
-      ,
+      "spec": "species:Metapod",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
-      "minLevel": 25,
-      "maxLevel": 28,
+      "minLevel": 7,
+      "maxLevel": 12,
       "typeID": "pokemon",
       "condition": {
-        "minX": 1401, "maxX": 1682, "minZ": -421, "maxZ": -302
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "#pixelmon:spawning/magical"
+        ]
       },
-      "rarity": 50.0
+      "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Butterfree"
-      ,
+      "spec": "species:Butterfree",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
-      "minLevel": 6,
-      "maxLevel": 8,
+      "minLevel": 13,
+      "maxLevel": 23,
       "typeID": "pokemon",
       "condition": {
-        "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "#pixelmon:spawning/magical"
+        ]
       },
-      "rarity": 10.0
-    },
-
-
-    {
-      "spec": "species:Butterfree"
-      ,
-      "stringLocationTypes": [
-        "Sweet Scent"
-      ],
-      "minLevel": 25,
-      "maxLevel": 28,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 1401, "maxX": 1682, "minZ": -421, "maxZ": -302
-      },
-      "rarity": 30.0
+      "rarity": 0.0
     }
   ]
 }

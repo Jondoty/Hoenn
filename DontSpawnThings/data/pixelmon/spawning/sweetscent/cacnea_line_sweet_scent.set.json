@@ -2,8 +2,7 @@
   "id": "Cacnea Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Cacnea"
-      ,
+      "spec": "species:Cacnea",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -21,16 +20,15 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesa"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "minecraft:badlands"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Cacturne"
-      ,
+      "spec": "species:Cacturne",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -48,9 +46,9 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesa"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "minecraft:badlands"
         ]
       },
       "rarity": 0.0

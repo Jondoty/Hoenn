@@ -2,8 +2,7 @@
   "id": "Carvanha Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Carvanha"
-      ,
+      "spec": "species:Carvanha",
       "stringLocationTypes": [
         "Old Rod"
       ],
@@ -17,22 +16,15 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "jungles",
-          "river"
-        ]
-      },
-      "anticondition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "minecraft:river"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Carvanha"
-      ,
+      "spec": "species:Carvanha",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -46,22 +38,16 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "jungles",
-          "river"
-        ]
-      },
-      "anticondition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/jungles",
+          "minecraft:river"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Sharpedo"
-      ,
+      "spec": "species:Sharpedo",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -79,20 +65,19 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Sharpedo"
-      ,
+      "spec": "species:Sharpedo",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -110,13 +95,13 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

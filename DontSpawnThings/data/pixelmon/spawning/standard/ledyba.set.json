@@ -2,74 +2,27 @@
   "id": "Ledyba",
   "spawnInfos": [
     {
-      "spec": "species:Ledyba"
-      ,
+      "spec": "species:Ledyba",
       "stringLocationTypes": [
-        "Land"
+        "Air",
+        "Headbutt",
+        "Sweet Scent"
       ],
-      "minLevel": 2,
-      "maxLevel": 4,
+      "minLevel": 5,
+      "maxLevel": 17,
       "typeID": "pokemon",
       "condition": {
-        "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188,
-        "times": [ "DAWN", "DUSK" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Ledyba"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 12,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135,
-        "times": [ "DAWN", "DUSK" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-    {
-      "spec": "species:Ledyba"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 3,
-      "maxLevel": 7,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265,
-        "times": [ "DAWN", "DUSK" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Ledyba"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 3,
-      "maxLevel": 7,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530,
-        "times": [ "DAWN", "DUSK" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
       },
       "rarity": 0.0
     }
-
-
-
   ]
 }

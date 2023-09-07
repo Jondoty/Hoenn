@@ -1,0 +1,125 @@
+{
+  "id": "Magikarp Line Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Oas Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gyarados",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gyarados",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gyarados",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "spawnSpecificShinyRate": 100,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/lakes"
+        ],
+        "weathers": [
+          "STORM"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magikarp palette:roasted",
+      "stringLocationTypes": [
+        "Old Rod Lava"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magikarp palette:roasted",
+      "stringLocationTypes": [
+        "Good Rod Lava"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magikarp palette:roasted",
+      "stringLocationTypes": [
+        "Super Rod Lava"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

@@ -9,17 +9,44 @@
       "minLevel": 45,
       "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
       "condition": {
         "neededNearbyBlocks": [
           "pixelmon:moss_rock"
         ],
-        "stringBiomes": [
-          "forests",
-          "birches",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Leafeon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Leafeon palette:strike",
@@ -29,23 +56,45 @@
       "minLevel": 45,
       "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
       "condition": {
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "neededNearbyBlocks": [
-          "pixelmon:moss_rock"
-        ],
-        "stringBiomes": [
-          "forests",
-          "birches",
-          "roofed"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Leafeon palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

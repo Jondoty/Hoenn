@@ -2,54 +2,92 @@
   "id": "Electrode",
   "spawnInfos": [
     {
-      "spec": "species:Electrode"
-      ,
+      "spec": "species:Electrode",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 38,
-      "maxLevel": 40,
+      "minLevel": 30,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
-        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Electrode"
-      ,
+      "spec": "species:Electrode",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 40,
-      "maxLevel": 42,
+      "minLevel": 30,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897,
-        "neededNearbyBlocks": ["minecraft:stone"]
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
       },
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Electrode"
-      ,
+      "spec": "species:Electrode form:hisuian",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 45,
-      "maxLevel": 47,
+      "minLevel": 30,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897,
-        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Electrode form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Electrode palette:summer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
       "rarity": 0.0
     }

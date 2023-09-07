@@ -4,14 +4,25 @@
     {
       "spec": "species:Smoliv",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Sweet Scent"
       ],
-      "minLevel": 1,
-      "maxLevel": 1,
+      "minLevel": 5,
+      "maxLevel": 20,
       "typeID": "pokemon",
       "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains"
+        ]
       },
-      "rarity": 0.0
+      "rarity": 0.00.0
     }
   ]
 }
+
+

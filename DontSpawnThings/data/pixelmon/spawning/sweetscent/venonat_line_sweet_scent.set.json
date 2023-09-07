@@ -2,40 +2,28 @@
   "id": "Venonat Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Venonat"
-      ,
+      "spec": "species:Venonat",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
-      "minLevel": 13,
-      "maxLevel": 16,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": -241, "maxX": -37, "minZ": 241, "maxZ": 533
-      },
-      "rarity": 15.0
-    },
-
-
-    {
-      "spec": "species:Venonat"
-      ,
-      "stringLocationTypes": [
-        "Sweet Scent"
-      ],
-      "minLevel": 14,
+      "minLevel": 3,
       "maxLevel": 19,
       "typeID": "pokemon",
       "condition": {
-        "minX": -274, "maxX": -23, "minZ": 534, "maxZ": 771
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
       },
-      "rarity": 15.0
+      "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Venomoth"
-      ,
+      "spec": "species:Venomoth",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -44,12 +32,13 @@
       "typeID": "pokemon",
       "condition": {
         "times": [
+          "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "forests",
-          "swamps",
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
         ]
       },
       "rarity": 0.0

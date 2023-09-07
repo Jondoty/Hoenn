@@ -14,13 +14,14 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "hills",
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/freezing_forests",
+          "pixelmon:mount_lanakila"
         ],
         "minY": 70
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

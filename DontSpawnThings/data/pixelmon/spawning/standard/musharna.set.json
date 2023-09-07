@@ -13,8 +13,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
         ]
       },
       "rarityMultipliers": [
@@ -27,7 +27,35 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Musharna",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

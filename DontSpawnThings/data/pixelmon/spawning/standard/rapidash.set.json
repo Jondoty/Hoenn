@@ -2,17 +2,119 @@
   "id": "Rapidash",
   "spawnInfos": [
     {
-      "spec": "species:Rapidash"
-      ,
+      "spec": "species:Rapidash",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 39,
-      "maxLevel": 43,
+      "minLevel": 40,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "MORNING"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Ponyta",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": -3,
+            "y": -3,
+            "z": -3
+          },
+          "spawn_range_maximum": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Rapidash form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Ponyta",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Rapidash form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Rapidash form:base palette:drowned",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/drowned"
+        ]
       },
       "rarity": 0.0
     }

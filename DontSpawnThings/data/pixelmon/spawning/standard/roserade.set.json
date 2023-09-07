@@ -19,12 +19,12 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Roserade palette:ashen",
@@ -44,15 +44,11 @@
         "times": [
           "AFTERNOON"
         ],
-        "weathers": [
-          "CLEAR"
-        ],
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "pixelmon:ultra_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -2,71 +2,106 @@
   "id": "Ponyta",
   "spawnInfos": [
     {
-      "spec": "species:Ponyta"
-      ,
+      "spec": "species:Ponyta",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 28,
-      "maxLevel": 32,
+      "minLevel": 10,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "MORNING"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas"
+        ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Ponyta",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": -3,
+            "y": -3,
+            "z": -3
+          },
+          "spawn_range_maximum": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+          },
+          "chance": 0.3
+        }
+      ],
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Ponyta"
-      ,
+      "spec": "species:Ponyta form:galarian",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 28,
-      "maxLevel": 32,
+      "minLevel": 10,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Ponyta form:galarian",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": -3,
+            "y": -3,
+            "z": -3
+          },
+          "spawn_range_maximum": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+          },
+          "chance": 0.3
+        }
+      ],
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Ponyta"
-      ,
+      "spec": "species:Ponyta form:galarian",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 39,
-      "maxLevel": 43,
+      "minLevel": 10,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Ponyta"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 3,
-      "maxLevel": 7,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": -1565, "maxX": -1408, "minZ": -1, "maxZ": 72,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
       },
       "rarity": 0.0
     }
-
   ]
 }

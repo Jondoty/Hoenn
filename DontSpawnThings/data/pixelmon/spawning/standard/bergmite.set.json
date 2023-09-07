@@ -11,19 +11,19 @@
       "maxLevel": 36,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:frozen_ocean",
           "minecraft:deep_frozen_ocean",
           "minecraft:frozen_river",
           "minecraft:snowy_tundra",
           "minecraft:ice_spikes",
-          "freezing mountains",
+          "#pixelmon:spawning/freezing_mountains",
           "byg:frozen_lake",
           "byg:shattered_glacier",
           "terraforged:frozen_lake"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

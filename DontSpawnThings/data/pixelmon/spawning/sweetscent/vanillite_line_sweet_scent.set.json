@@ -2,8 +2,7 @@
   "id": "Vanillite Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Vanillite"
-      ,
+      "spec": "species:Vanillite",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -11,15 +10,14 @@
       "maxLevel": 20,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Vanillish"
-      ,
+      "spec": "species:Vanillish",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -27,15 +25,14 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Vanilluxe"
-      ,
+      "spec": "species:Vanilluxe",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -43,8 +40,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

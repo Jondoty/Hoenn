@@ -14,9 +14,9 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "hills",
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/redwoods"
         ]
       },
       "rarityMultipliers": [
@@ -29,7 +29,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

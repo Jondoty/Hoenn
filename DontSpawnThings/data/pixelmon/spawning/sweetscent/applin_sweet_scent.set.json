@@ -2,8 +2,7 @@
   "id": "Applin Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Applin"
-      ,
+      "spec": "species:Applin",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -25,8 +24,9 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "forests"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
         ]
       },
       "rarity": 0.0

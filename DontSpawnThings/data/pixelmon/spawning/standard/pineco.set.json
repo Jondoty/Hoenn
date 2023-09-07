@@ -11,13 +11,13 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "taigas",
-          "redwoods",
-          "mountainous forests"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/mountainous_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

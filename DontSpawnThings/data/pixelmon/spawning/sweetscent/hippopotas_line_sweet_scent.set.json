@@ -2,8 +2,7 @@
   "id": "Hippopotas Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Hippopotas"
-      ,
+      "spec": "species:Hippopotas",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -11,15 +10,14 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Hippowdon"
-      ,
+      "spec": "species:Hippowdon",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -27,8 +25,8 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarity": 0.0

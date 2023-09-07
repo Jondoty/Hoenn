@@ -2,68 +2,119 @@
   "id": "Magmar",
   "spawnInfos": [
     {
-      "spec": "species:Magmar"
-      ,
+      "spec": "species:Magmar",
       "stringLocationTypes": [
-        "Underground"
+        "Land"
       ],
-      "minLevel": 14,
-      "maxLevel": 16,
+      "minLevel": 25,
+      "maxLevel": 34,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-        "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329,
-        "times": [ "DAWN", "DUSK", "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:stone"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Magmar"
-      ,
+      "spec": "species:Magmar",
       "stringLocationTypes": [
-        "Underground"
+        "Land"
       ],
-      "minLevel": 14,
-      "maxLevel": 16,
+      "minLevel": 25,
+      "maxLevel": 34,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-        "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329,
-        "times": [ "DAY" ],
-        "neededNearbyBlocks": ["minecraft:stone"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
       },
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Magmar"
-      ,
+      "spec": "species:Magmar",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 39,
-      "maxLevel": 44,
+      "minLevel": 25,
+      "maxLevel": 34,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-        "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826,
-        "neededNearbyBlocks": ["minecraft:wool"]
+        "biomes": [
+          "minecraft:nether_wastes",
+          "minecraft:basalt_deltas",
+          "byg:magma_wastes"
+        ]
       },
-      "rarity": 14.0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Magmar"
-      ,
+      "spec": "species:Magmar",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Lava Floor"
       ],
-      "minLevel": 39,
-      "maxLevel": 44,
+      "minLevel": 25,
+      "maxLevel": 34,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-      "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826,
-        "neededNearbyBlocks": ["minecraft:planks"]
+        "biomes": [
+          "#pixelmon:spawning/hellish"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magmar",
+      "stringLocationTypes": [
+        "Lava Floor"
+      ],
+      "minLevel": 25,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:magmarizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
       },
       "rarity": 0.0
     }

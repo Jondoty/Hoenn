@@ -2,8 +2,7 @@
   "id": "Flabebe Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Flabebe"
-      ,
+      "spec": "species:Flabebe palette:red",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -11,17 +10,15 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Floette",
-        "form": 0
-      ,
+      "spec": "species:Flabebe palette:orange",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -29,17 +26,15 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Floette",
-        "form": 1
-      ,
+      "spec": "species:Flabebe palette:yellow",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -47,17 +42,15 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Floette",
-        "form": 2
-      ,
+      "spec": "species:Flabebe palette:white",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -65,17 +58,15 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Floette",
-        "form": 3
-      ,
+      "spec": "species:Flabebe palette:blue",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -83,17 +74,15 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Floette",
-        "form": 4
-      ,
+      "spec": "species:Floette palette:red",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -101,17 +90,15 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Floette",
-        "form": 5
-      ,
+      "spec": "species:Floette palette:orange",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -119,16 +106,82 @@
       "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Florges"
-      ,
+      "spec": "species:Floette palette:yellow",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Floette palette:white",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Floette palette:blue",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Floette form:az",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Florges palette:red",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -136,9 +189,73 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Florges palette:orange",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Florges palette:yellow",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Florges palette:white",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Florges palette:blue",
+      "stringLocationTypes": [
+        "Sweet Scent"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0

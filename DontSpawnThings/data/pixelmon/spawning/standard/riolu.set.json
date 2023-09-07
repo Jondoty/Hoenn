@@ -14,11 +14,29 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "mountainous forests"
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Riolu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

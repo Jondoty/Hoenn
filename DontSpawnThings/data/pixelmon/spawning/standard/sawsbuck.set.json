@@ -10,12 +10,32 @@
       "maxLevel": 47,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "flowery",
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/birches"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Deerling form:spring",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Sawsbuck form:summer",
@@ -26,13 +46,33 @@
       "maxLevel": 47,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "forests",
-          "roofed",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/magical"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Deerling form:summer",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Sawsbuck form:autumn",
@@ -43,12 +83,32 @@
       "maxLevel": 47,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "redwoods",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Deerling form:autumn",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Sawsbuck form:winter",
@@ -59,11 +119,32 @@
       "maxLevel": 47,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "pixelmon:mount_lanakila"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Deerling form:winter",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

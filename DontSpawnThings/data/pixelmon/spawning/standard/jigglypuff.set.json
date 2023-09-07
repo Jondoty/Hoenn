@@ -2,38 +2,30 @@
   "id": "Jigglypuff",
   "spawnInfos": [
     {
-      "spec": "species:Jigglypuff"
-      ,
+      "spec": "species:Jigglypuff",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 5,
-      "maxLevel": 10,
+      "minLevel": 10,
+      "maxLevel": 50,
       "typeID": "pokemon",
-      "condition": {
-        "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-    {
-      "spec": "species:Jigglypuff"
-      ,
-      "stringLocationTypes": [
-        "Land"
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
       ],
-      "minLevel": 5,
-      "maxLevel": 10,
-      "typeID": "pokemon",
       "condition": {
-        "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/roofed"
+        ]
       },
       "rarity": 0.0
     }
-
-
-
   ]
 }

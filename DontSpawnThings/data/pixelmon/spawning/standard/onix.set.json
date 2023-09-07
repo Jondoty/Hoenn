@@ -4,96 +4,93 @@
     {
       "spec": "species:Onix",
       "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 4,
-      "maxLevel": 7,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Onix",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 6,
-      "maxLevel": 9,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Onix",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 20,
-      "maxLevel": 23,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
-      },
-      "rarity": 0.0
-    },
-
-
-
-
-    {
-      "spec": "species:Onix",
-      "stringLocationTypes": [
         "Land",
-        "Underground"
+        "Rock Smash"
       ],
-      "minLevel": 41,
-      "maxLevel": 45,
+      "minLevel": 10,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ],
+        "maxY": 90
       },
       "rarity": 0.0
     },
-
-
     {
       "spec": "species:Onix",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 32,
-      "maxLevel": 36,
+      "minLevel": 10,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay", "minecraft:gravel"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
       },
-      "rarity": 15.0
+      "rarity": 0.0
     },
-
-
-
     {
       "spec": "species:Onix",
       "stringLocationTypes": [
-        "Land",
         "Underground"
       ],
       "minLevel": 10,
-      "maxLevel": 13,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701,
-        "neededNearbyBlocks": ["minecraft:dirt", "minecraft:soul_sand"]
+        "maxY": 50
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Onix palette:crystal",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ],
+        "maxY": 90
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Onix palette:crystal",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
       },
       "rarity": 0.0
     }

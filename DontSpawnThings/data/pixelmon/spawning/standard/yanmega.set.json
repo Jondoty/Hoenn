@@ -20,14 +20,14 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "swamps",
-          "jungles",
-          "lakes",
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/lakes",
           "minecraft:river"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

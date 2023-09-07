@@ -2,8 +2,7 @@
   "id": "Dunsparce Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Dunsparce"
-      ,
+      "spec": "species:Dunsparce",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -11,8 +10,8 @@
       "maxLevel": 15,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarity": 0.0

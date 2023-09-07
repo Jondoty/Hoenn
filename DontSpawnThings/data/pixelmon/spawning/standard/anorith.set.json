@@ -1,0 +1,23 @@
+{
+  "id": "Anorith",
+  "spawnInfos": [
+    {
+      "spec": "species:Anorith",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

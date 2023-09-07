@@ -14,12 +14,31 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:desert_hills",
-          "minecraft:badlands_plateau"
+          "minecraft:badlands_plateau",
+          "pixelmon:ultra_desert"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Sigilyph",
@@ -30,13 +49,35 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_highlands",
           "byg:shattered_desert",
           "byg:shattered_desert_isles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Sigilyph",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:spear_pillar"
+        ],
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

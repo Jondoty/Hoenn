@@ -14,18 +14,18 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "beaches",
-          "oceanic",
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/oceanic",
           "pixelmon:ultra_deep_sea"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

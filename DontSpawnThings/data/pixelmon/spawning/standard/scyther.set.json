@@ -8,7 +8,7 @@
         "Sweet Scent"
       ],
       "minLevel": 15,
-      "maxLevel": 50,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
         "times": [
@@ -16,12 +16,31 @@
           "DUSK",
           "DAY"
         ],
-        "stringBiomes": [
-          "jungles",
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/savannas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Scyther",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

@@ -13,12 +13,12 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "taigas",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/magical"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Hatterene",
@@ -29,7 +29,7 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_barrens",
           "byg:nightshade_forest",
           "byg:shulkren_forest",
@@ -39,7 +39,7 @@
           "byg:ethereal_clearing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -2,13 +2,12 @@
   "id": "Magnemite",
   "spawnInfos": [
     {
-      "spec": "species:Magnemite"
-      ,
+      "spec": "species:Magnemite",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 13,
-      "maxLevel": 16,
+      "minLevel": 10,
+      "maxLevel": 30,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -17,21 +16,35 @@
         }
       ],
       "condition": {
-        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:snowy_mountains",
+          "minecraft:gravelly_mountains"
+        ]
       },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Magnemite"
-      ,
+      "spec": "species:Magnemite",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Manmade"
       ],
-      "minLevel": 13,
-      "maxLevel": 16,
+      "minLevel": 10,
+      "maxLevel": 30,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -40,59 +53,14 @@
         }
       ],
       "condition": {
-        "minX": 776, "maxX": 798, "minZ": 121, "maxZ": 176,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Magnemite"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 12,
-      "maxLevel": 14,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:metal_coat",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Magnemite"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 14,
-      "maxLevel": 16,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:metal_coat",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -3176, "maxX": -2921, "minZ": -122, "maxZ": -5,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "structures": [
+          "pixelmon:land_chalice"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
       },
       "rarity": 0.0
     }
-
-
-
   ]
 }

@@ -13,12 +13,12 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Silicobra",
@@ -29,12 +29,12 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "arid",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

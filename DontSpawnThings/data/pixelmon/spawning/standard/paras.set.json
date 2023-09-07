@@ -25,13 +25,13 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "swamps",
-          "mushroom",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Paras palette:valencian",
@@ -57,11 +57,31 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Paras",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Paras palette:pink",
@@ -87,13 +107,33 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "swamps",
-          "mushroom",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Paras",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

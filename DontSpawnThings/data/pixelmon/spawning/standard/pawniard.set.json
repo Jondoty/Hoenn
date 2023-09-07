@@ -13,10 +13,9 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "pixelmon:ultra_deep_sea",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarityMultipliers": [
@@ -29,7 +28,27 @@
           }
         }
       ],
-      "rarity": 0
+	  "groupSpawnSettings": [
+        {
+          "spec": "Pawniard",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Pawniard",
@@ -40,7 +59,7 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:nether_wastes",
           "minecraft:basalt_deltas",
           "niomesoplenty:crystalline_chasm",
@@ -48,7 +67,27 @@
           "byg:wailing_garth"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Pawniard",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

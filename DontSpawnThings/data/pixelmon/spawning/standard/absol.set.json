@@ -13,11 +13,11 @@
         "times": [
           "MIDNIGHT"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Absol",
@@ -28,13 +28,13 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_barrens",
           "byg:purpur_peaks",
           "byg:nightshade_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

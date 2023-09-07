@@ -11,8 +11,8 @@
       "maxLevel": 39,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "beaches",
+        "biomes": [
+          "#pixelmon:spawning/beaches",
           "minecraft:ocean",
           "minecraft:lukewarm_ocean",
           "minecraft:warm_ocean"

@@ -21,8 +21,8 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
       "rarityMultipliers": [
@@ -35,7 +35,31 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Lurantis",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

@@ -13,7 +13,7 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:deep_ocean",
           "minecraft:deep_warm_ocean",
           "minecraft:deep_lukewarm_ocean",
@@ -21,7 +21,7 @@
         ],
         "maxY": 35
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Tynamo",
@@ -32,11 +32,11 @@
       "maxLevel": 38,
       "typeID": "pokemon",
       "anticondition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

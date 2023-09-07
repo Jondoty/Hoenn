@@ -2,8 +2,7 @@
   "id": "Phanpy Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Phanpy"
-      ,
+      "spec": "species:Phanpy",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,15 +13,16 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "minecraft:shattered_savanna",
+          "minecraft:shattered_savanna_plateau"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Donphan"
-      ,
+      "spec": "species:Donphan",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -33,8 +33,10 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "minecraft:shattered_savanna",
+          "minecraft:shattered_savanna_plateau"
         ]
       },
       "rarity": 0.0

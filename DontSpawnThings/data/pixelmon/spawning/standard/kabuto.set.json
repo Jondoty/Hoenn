@@ -1,0 +1,23 @@
+{
+  "id": "Kabuto",
+  "spawnInfos": [
+    {
+      "spec": "species:Kabuto",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

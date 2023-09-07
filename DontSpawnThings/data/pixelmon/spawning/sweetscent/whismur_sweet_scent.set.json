@@ -2,8 +2,7 @@
   "id": "Whismur Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Whismur"
-      ,
+      "spec": "species:Whismur",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -11,8 +10,8 @@
       "maxLevel": 16,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ]
       },
       "rarity": 0.0

@@ -13,13 +13,13 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "roofed",
+        "biomes": [
+          "#pixelmon:spawning/roofed",
           "byg:weeping_witch_forest",
           "byg:weeping_witch_clearing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Gothitelle",
@@ -30,7 +30,7 @@
       "maxLevel": 54,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_midlands",
           "minecraft:end_highlands",
           "minecraft:small_end_islands",
@@ -42,7 +42,7 @@
           "byg:ethereal_clearing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

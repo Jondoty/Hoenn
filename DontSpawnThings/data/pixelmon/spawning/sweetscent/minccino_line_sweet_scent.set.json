@@ -2,8 +2,7 @@
   "id": "Minccino Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Minccino"
-      ,
+      "spec": "species:Minccino",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,15 +13,14 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Cinccino"
-      ,
+      "spec": "species:Cinccino",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -33,8 +31,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
       "rarity": 0.0

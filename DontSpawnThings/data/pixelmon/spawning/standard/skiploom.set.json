@@ -2,20 +2,23 @@
   "id": "Skiploom",
   "spawnInfos": [
     {
-      "spec": "species:Skiploom"
-      ,
+      "spec": "species:Skiploom",
       "stringLocationTypes": [
-        "Land"
+        "Air"
       ],
-      "minLevel": 23,
+      "minLevel": 18,
       "maxLevel": 26,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2931, "maxX": -2899, "minZ": -427, "maxZ": -389,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/plains"
+        ]
       },
-      "rarity": 9.0
+      "rarity": 0.0
     }
   ]
 }

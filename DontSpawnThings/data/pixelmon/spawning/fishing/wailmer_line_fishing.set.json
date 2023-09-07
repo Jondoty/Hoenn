@@ -2,8 +2,7 @@
   "id": "Wailmer Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Wailmer"
-      ,
+      "spec": "species:Wailmer",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -11,15 +10,14 @@
       "maxLevel": 39,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Wailmer"
-      ,
+      "spec": "species:Wailmer",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -27,15 +25,15 @@
       "maxLevel": 39,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Wailord"
-      ,
+      "spec": "species:Wailord",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -46,8 +44,8 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0

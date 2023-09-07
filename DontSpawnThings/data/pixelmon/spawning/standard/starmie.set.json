@@ -24,11 +24,11 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Starmie palette:drowned",
@@ -49,11 +49,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

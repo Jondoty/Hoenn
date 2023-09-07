@@ -13,13 +13,13 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
         ],
         "maxY": 50
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Unown",
@@ -30,11 +30,30 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end",
+          "pixelmon:ultra_desert"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Unown",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:spear_pillar"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

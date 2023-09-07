@@ -2,8 +2,7 @@
   "id": "Sunkern Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Sunkern"
-      ,
+      "spec": "species:Sunkern",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,15 +13,14 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Sunflora"
-      ,
+      "spec": "species:Sunflora",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -33,8 +31,8 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0

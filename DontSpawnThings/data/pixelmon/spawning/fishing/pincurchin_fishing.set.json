@@ -2,8 +2,7 @@
   "id": "Pincurchin Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Pincurchin"
-      ,
+      "spec": "species:Pincurchin",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -11,16 +10,15 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "beaches",
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Pincurchin"
-      ,
+      "spec": "species:Pincurchin",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -28,9 +26,9 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "beaches",
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0

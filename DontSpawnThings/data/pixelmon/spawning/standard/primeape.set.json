@@ -2,54 +2,50 @@
   "id": "Primeape",
   "spawnInfos": [
     {
-      "spec": "species:Primeape"
-      ,
+      "spec": "species:Primeape",
       "stringLocationTypes": [
-        "Land"
+        "Tree Top",
+        "Headbutt"
       ],
-      "minLevel": 13,
-      "maxLevel": 15,
+      "minLevel": 28,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
       },
       "rarity": 0.0
     },
-
-
-
     {
-      "spec": "species:Primeape"
-      ,
+      "spec": "species:Primeape palette:pink",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Tree Top"
       ],
-      "minLevel": 38,
-      "maxLevel": 40,
+      "minLevel": 28,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
       },
-      "rarity": 14.0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Primeape"
-      ,
+      "spec": "species:Primeape",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Tree Top"
       ],
-      "minLevel": 38,
-      "maxLevel": 40,
+      "minLevel": 28,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:stone", "minecraft:cobblestone"]
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
       },
       "rarity": 0.0
     }

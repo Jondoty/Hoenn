@@ -19,11 +19,12 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "pixelmon:mount_lanakila"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Castform form:snow",
@@ -43,11 +44,11 @@
         "weathers": [
           "RAIN"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Castform form:rain",
@@ -67,17 +68,17 @@
         "weathers": [
           "RAIN"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "arid",
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/freezing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Castform form:sun",
@@ -94,11 +95,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

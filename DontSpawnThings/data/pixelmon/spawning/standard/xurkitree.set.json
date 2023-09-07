@@ -13,25 +13,11 @@
       "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "birches"
-        ],
-        "dimensions": [
-          "pixelmon:ultra_space"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 10,
-          "condition": {
-            "weathers": [
-              "RAIN",
-              "STORM"
-            ]
-          }
-        }
-      ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

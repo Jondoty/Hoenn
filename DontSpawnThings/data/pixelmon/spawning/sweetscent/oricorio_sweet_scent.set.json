@@ -2,7 +2,7 @@
   "id": "Oricorio Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Oricorio",
+      "spec": "species:Oricorio form:baile",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -13,19 +13,14 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "forest",
-          "forest_hills",
-          "boreal_forest",
-          "woodland",
-          "woodlands",
-          "forested_hills"
+        "biomes": [
+          "#pixelmon:spawning/forests"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Oricorio",
+      "spec": "species:Oricorio form:pom_pom",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -36,14 +31,14 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Oricorio",
+      "spec": "species:Oricorio form:pau_u",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -54,14 +49,14 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/taigas"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Oricorio",
+      "spec": "species:Oricorio form:sensu",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -72,10 +67,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "roofed_forest",
-          "mutated_roofed_forest",
-          "rw_bur_oak_forest"
+        "biomes": [
+          "#pixelmon:spawning/roofed"
         ]
       },
       "rarity": 0.0

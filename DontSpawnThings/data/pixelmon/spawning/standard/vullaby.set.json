@@ -17,14 +17,14 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesas",
-          "evil",
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/savannas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

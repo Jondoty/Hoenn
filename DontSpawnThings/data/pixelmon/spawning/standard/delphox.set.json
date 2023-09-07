@@ -13,8 +13,8 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarityMultipliers": [
@@ -27,7 +27,25 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Delphox",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

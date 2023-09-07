@@ -14,13 +14,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches",
-          "forests",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Taillow",
@@ -34,13 +34,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches",
-          "forests",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

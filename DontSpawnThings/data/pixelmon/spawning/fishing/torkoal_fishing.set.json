@@ -2,8 +2,7 @@
   "id": "Torkoal Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Torkoal"
-      ,
+      "spec": "species:Torkoal",
       "stringLocationTypes": [
         "Good Rod Lava"
       ],
@@ -17,18 +16,20 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "arid",
-          "savannas",
-          "mesas",
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "#pixelmon:spawning/hellish"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Torkoal"
-    ,
+      "spec": "species:Torkoal",
       "stringLocationTypes": [
         "Super Rod Lava"
       ],
@@ -42,11 +43,14 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "arid",
-          "savannas",
-          "mesas",
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "#pixelmon:spawning/hellish"
         ]
       },
       "rarity": 0.0

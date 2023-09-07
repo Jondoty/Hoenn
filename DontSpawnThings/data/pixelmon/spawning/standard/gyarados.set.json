@@ -10,8 +10,8 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarityMultipliers": [
@@ -24,7 +24,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Gyarados",
@@ -35,8 +35,8 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "lakes"
+        "biomes": [
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarityMultipliers": [
@@ -49,7 +49,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Gyarados palette:drowned",
@@ -60,11 +60,30 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gyarados",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:water_chalice"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

@@ -17,11 +17,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Lairon",
@@ -50,7 +50,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

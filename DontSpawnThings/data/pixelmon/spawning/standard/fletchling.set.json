@@ -14,13 +14,33 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches",
-          "freezing forests",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
         ]
       },
-      "rarity": 0
+	  "groupSpawnSettings": [
+        {
+          "spec": "Fletchling",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 0.00.0
     },
     {
       "spec": "species:Fletchling",
@@ -34,13 +54,33 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches",
-          "freezing forests",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/taigas"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Fletchling",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.00.0
     }
   ]
 }

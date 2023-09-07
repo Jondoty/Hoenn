@@ -19,7 +19,7 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:desert_lakes"
         ]
       },
@@ -33,7 +33,31 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Krookodile",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_glasses",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

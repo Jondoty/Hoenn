@@ -13,9 +13,9 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "plains",
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarityMultipliers": [
@@ -28,7 +28,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

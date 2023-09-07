@@ -14,12 +14,27 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:snowy_mountains",
           "minecraft:gravelly_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Klinklang",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 49,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Klinklang",
@@ -32,7 +47,7 @@
       "condition": {
         "maxY": 50
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

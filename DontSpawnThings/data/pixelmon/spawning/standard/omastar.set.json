@@ -2,19 +2,37 @@
   "id": "Omastar",
   "spawnInfos": [
     {
+      "spec": "species:Omastar",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
       "spec": "species:Omastar palette:drowned",
       "stringLocationTypes": [
         "Water"
       ],
-      "minLevel": 30,
-      "maxLevel": 35,
+      "minLevel": 40,
+      "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

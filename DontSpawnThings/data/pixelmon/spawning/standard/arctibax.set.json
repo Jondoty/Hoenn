@@ -13,9 +13,9 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing forests",
-          "freezing mountains"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/freezing_mountains"
         ]
       },
       "rarity": 0.0
@@ -29,8 +29,8 @@
       "maxLevel": 53,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ],
         "minY": 70
       },
@@ -38,3 +38,4 @@
     }
   ]
 }
+

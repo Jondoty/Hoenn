@@ -14,11 +14,29 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gardevoir",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Gardevoir palette:strike",
@@ -32,14 +50,11 @@
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

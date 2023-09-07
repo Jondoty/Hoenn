@@ -1,37 +1,85 @@
 {
   "id": "Remoraid Line Fishing",
   "spawnInfos": [
-
     {
-      "spec": "species:Remoraid"
-      ,
+      "spec": "species:Remoraid",
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 20,
-      "maxLevel": 20,
+      "minLevel": 5,
+      "maxLevel": 24,
       "typeID": "pokemon",
       "condition": {
-        "minX": -452, "maxX": -222, "minZ": 138, "maxZ": 234
-    }, "rarity": 2
-  },
-
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 0.0
+    },
     {
-      "spec": "species:Remoraid"
-      ,
+      "spec": "species:Remoraid",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 40,
-      "maxLevel": 40,
+      "minLevel": 5,
+      "maxLevel": 24,
       "typeID": "pokemon",
       "condition": {
-        "minX": -452, "maxX": -222, "minZ": 138, "maxZ": 234
-    }, "rarity": 3
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Octillery",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Octillery",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 42,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 0.0
     }
-
-
-
-
   ]
 }

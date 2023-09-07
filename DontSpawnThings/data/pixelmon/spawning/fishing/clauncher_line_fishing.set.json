@@ -2,8 +2,7 @@
   "id": "Clauncher Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Clauncher"
-      ,
+      "spec": "species:Clauncher",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -15,17 +14,15 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "beaches",
-          "river",
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Clauncher"
-      ,
+      "spec": "species:Clauncher",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -37,17 +34,16 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "beaches",
-          "river",
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "minecraft:river",
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Clawitzer"
-      ,
+      "spec": "species:Clawitzer",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -59,9 +55,9 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "beaches",
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0

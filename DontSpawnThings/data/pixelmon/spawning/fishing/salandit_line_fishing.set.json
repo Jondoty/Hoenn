@@ -2,8 +2,7 @@
   "id": "Salandit Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Salandit"
-      ,
+      "spec": "species:Salandit",
       "stringLocationTypes": [
         "Good Rod Lava"
       ],
@@ -17,16 +16,19 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "#pixelmon:spawning/hellish"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Salandit"
-      ,
+      "spec": "species:Salandit",
       "stringLocationTypes": [
         "Super Rod Lava"
       ],
@@ -40,16 +42,19 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "#pixelmon:spawning/hellish"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Salazzle"
-      ,
+      "spec": "species:Salazzle",
       "stringLocationTypes": [
         "Super Rod Lava"
       ],
@@ -63,12 +68,16 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "#pixelmon:spawning/hellish"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

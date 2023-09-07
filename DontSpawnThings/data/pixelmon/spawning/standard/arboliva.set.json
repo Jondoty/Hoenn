@@ -6,10 +6,18 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 1,
-      "maxLevel": 1,
+      "minLevel": 35,
+      "maxLevel": 45,
       "typeID": "pokemon",
       "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains"
+        ]
       },
       "rarity": 0.0
     }

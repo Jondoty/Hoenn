@@ -1,0 +1,24 @@
+{
+  "id": "Elekid",
+  "spawnInfos": [
+    {
+      "spec": "species:Elekid",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
+

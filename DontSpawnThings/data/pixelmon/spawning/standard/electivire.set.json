@@ -2,6 +2,30 @@
   "id": "Electivire",
   "spawnInfos": [
     {
+      "spec": "species:Electivire",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:electirizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
       "spec": "species:Electivire palette:strike",
       "stringLocationTypes": [
         "Land"
@@ -19,14 +43,11 @@
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "stringBiomes": [
-          "plains"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

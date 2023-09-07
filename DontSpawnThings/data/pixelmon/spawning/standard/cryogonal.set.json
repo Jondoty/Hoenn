@@ -23,11 +23,12 @@
           "RAIN",
           "STORM"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing",
+          "pixelmon:mount_lanakila"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Cryogonal",
@@ -51,12 +52,12 @@
           "RAIN",
           "STORM"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ],
         "minY": 150
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

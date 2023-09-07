@@ -2,6 +2,64 @@
   "id": "Kingdra",
   "spawnInfos": [
     {
+      "spec": "species:Kingdra",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "byg:coral_mangroves",
+          "terraforged:warm_beach"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "groupSpawnSettings": [
+        {
+          "spec": "Horsea",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
       "spec": "species:Kingdra palette:drowned",
       "stringLocationTypes": [
         "Water"
@@ -16,11 +74,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

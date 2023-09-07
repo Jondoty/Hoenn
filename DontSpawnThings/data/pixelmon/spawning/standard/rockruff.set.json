@@ -10,16 +10,31 @@
       "maxLevel": 24,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "hills",
+        "biomes": [
+          "#pixelmon:spawning/hills",
           "minecraft:snowy_taiga_hills",
           "byg:snowy_blue_taiga_hills",
           "byg:snowy_confierous_forest_hills",
           "byg:snowy_deciduous_forest_hills",
-          "byg:snowy_evergreen_taiga_hills"
+          "byg:snowy_evergreen_hills"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Rockruff",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

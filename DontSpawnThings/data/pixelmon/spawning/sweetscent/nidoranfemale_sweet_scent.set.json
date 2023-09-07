@@ -2,8 +2,7 @@
   "id": "Nidoranfemale Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Nidoranfemale"
-      ,
+      "spec": "species:Nidoranfemale",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,8 +14,8 @@
           "DAY",
           "DUSK"
         ],
-        "stringBiomes": [
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/savannas"
         ]
       },
       "rarity": 0.0

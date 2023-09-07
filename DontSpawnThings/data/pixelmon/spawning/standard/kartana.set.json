@@ -4,8 +4,7 @@
     {
       "spec": "species:Kartana",
       "stringLocationTypes": [
-        "Land",
-        "Tree Top"
+        "Land"
       ],
       "tags": [
         "ultrabeast"
@@ -14,17 +13,11 @@
       "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
-        "weathers": [
-          "CLEAR"
-        ],
-        "stringBiomes": [
-          "forests"
-        ],
-        "dimensions": [
-          "pixelmon:ultra_space"
+        "biomes": [
+          "pixelmon:ultra_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

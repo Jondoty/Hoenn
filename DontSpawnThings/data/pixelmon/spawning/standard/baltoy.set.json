@@ -21,11 +21,11 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Baltoy palette:alter",
@@ -43,14 +43,13 @@
       ],
       "condition": {
         "times": [
-          "DAWN",
-          "DUSK"
+          "NIGHT"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "pixelmon:ultra_desert"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Baltoy",
@@ -67,14 +66,14 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_midlands",
           "byg:shattered_desert",
           "byg:shattered_desert_isles",
           "byg:cryptic_wastes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

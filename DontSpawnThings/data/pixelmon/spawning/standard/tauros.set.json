@@ -2,54 +2,178 @@
   "id": "Tauros",
   "spawnInfos": [
     {
-      "spec": "species:Tauros"
-      ,
+      "spec": "species:Tauros",
       "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 15,
-      "maxLevel": 20,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Tauros",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        },
+        {
+          "spec": "Miltank",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Tauros"
-      ,
+      "spec": "species:Tauros form:paldean_combat",
       "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 15,
-      "maxLevel": 20,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": 776, "maxX": 798, "minZ": 121, "maxZ": 176,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Tauros form:paldean_combat",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Tauros"
-      ,
+      "spec": "species:Tauros form:paldean_blaze",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 21,
-      "maxLevel": 25,
+      "minLevel": 15,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
       },
-      "rarity": 21.0
+      "groupSpawnSettings": [
+        {
+          "spec": "Tauros form:paldean_combat",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Tauros form:paldean_aqua",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Tauros form:paldean_combat",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     }
-
   ]
 }

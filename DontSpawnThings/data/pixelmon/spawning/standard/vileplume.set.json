@@ -21,13 +21,37 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "swamps",
-          "jungles",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Vileplume",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Vileplume palette:valencian",
@@ -49,11 +73,11 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Vileplume palette:pink",
@@ -75,12 +99,12 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "swamps",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

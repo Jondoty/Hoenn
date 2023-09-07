@@ -4,6 +4,7 @@
     {
       "spec": "species:Rotom",
       "stringLocationTypes": [
+        "Indoors",
         "Land"
       ],
       "minLevel": 13,
@@ -13,29 +14,32 @@
         "times": [
           "MIDNIGHT"
         ],
-        "stringBiomes": [
-          "roofed"
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Rotom",
       "stringLocationTypes": [
-        "Indoors"
+        "Land"
       ],
       "minLevel": 13,
       "maxLevel": 27,
       "typeID": "pokemon",
       "condition": {
         "times": [
-          "MIDNIGHT"
+          "NIGHT"
         ],
-        "stringBiomes": [
-          "roofed"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

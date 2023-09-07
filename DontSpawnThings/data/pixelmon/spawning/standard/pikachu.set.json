@@ -2,13 +2,12 @@
   "id": "Pikachu",
   "spawnInfos": [
     {
-      "spec": "species:Pikachu"
-      ,
+      "spec": "species:Pikachu",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 3,
-      "maxLevel": 7,
+      "minLevel": 5,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -17,20 +16,56 @@
         }
       ],
       "condition": {
-        "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Pikachu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:light_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Pikachu"
-      ,
+      "spec": "species:Pikachu palette:drowned",
       "stringLocationTypes": [
-        "Land"
+        "Water"
       ],
-      "minLevel": 3,
-      "maxLevel": 7,
+      "minLevel": 5,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -39,55 +74,9 @@
         }
       ],
       "condition": {
-        "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Pikachu"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 3,
-      "maxLevel": 7,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:light_ball",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 6.0
-    },
-    {
-      "spec": "species:Pikachu"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 3,
-      "maxLevel": 7,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:light_ball",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "biomes": [
+          "#pixelmon:spawning/drowned"
+        ]
       },
       "rarity": 0.0
     }

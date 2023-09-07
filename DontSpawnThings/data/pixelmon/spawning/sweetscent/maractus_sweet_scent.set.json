@@ -2,8 +2,7 @@
   "id": "Maractus Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Maractus"
-      ,
+      "spec": "species:Maractus",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -21,9 +20,9 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesa"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "minecraft:badlands"
         ]
       },
       "rarity": 0.0

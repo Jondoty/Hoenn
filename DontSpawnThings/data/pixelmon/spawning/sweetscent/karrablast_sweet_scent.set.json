@@ -2,8 +2,7 @@
   "id": "Karrablast Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Karrablast"
-      ,
+      "spec": "species:Karrablast",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,9 +14,8 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps",
-          "bamboo_forest"
+        "biomes": [
+          "#pixelmon:spawning/swamps"
         ]
       },
       "rarity": 0.0

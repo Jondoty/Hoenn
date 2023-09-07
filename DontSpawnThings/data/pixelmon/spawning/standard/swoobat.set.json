@@ -13,13 +13,13 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps",
-          "roofed",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Swoobat",
@@ -32,7 +32,7 @@
       "condition": {
         "maxLightLevel": 0
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

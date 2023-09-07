@@ -2,8 +2,7 @@
   "id": "Cutiefly Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Cutiefly"
-      ,
+      "spec": "species:Cutiefly",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,15 +14,14 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Ribombee"
-      ,
+      "spec": "species:Ribombee",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -35,8 +33,8 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0

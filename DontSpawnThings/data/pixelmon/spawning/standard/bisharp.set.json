@@ -13,10 +13,9 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "pixelmon:ultra_deep_sea",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarityMultipliers": [
@@ -29,7 +28,27 @@
           }
         }
       ],
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Pawniard",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Bisharp",
@@ -40,7 +59,25 @@
       "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Bisharp",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 52,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
           "minecraft:nether_wastes",
           "minecraft:basalt_deltas",
           "niomesoplenty:crystalline_chasm",
@@ -48,7 +85,27 @@
           "byg:wailing_garth"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Pawniard",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

@@ -2,8 +2,7 @@
   "id": "Finneon Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Finneon"
-      ,
+      "spec": "species:Finneon",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -11,15 +10,21 @@
       "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "#pixelmon:spawning/beaches",
+          "byg:coral_mangroves"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Finneon"
-      ,
+      "spec": "species:Finneon",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -27,15 +32,21 @@
       "maxLevel": 28,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches",
+          "byg:coral_mangroves"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Lumineon"
-      ,
+      "spec": "species:Lumineon",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -43,15 +54,17 @@
       "maxLevel": 45,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Lumineon"
-      ,
+      "spec": "species:Lumineon",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -59,8 +72,13 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

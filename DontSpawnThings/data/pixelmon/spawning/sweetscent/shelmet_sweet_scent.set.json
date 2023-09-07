@@ -2,8 +2,7 @@
   "id": "Shelmet Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Shelmet"
-      ,
+      "spec": "species:Shelmet",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,9 +14,8 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "swamps",
-          "bamboo_forest"
+        "biomes": [
+          "#pixelmon:spawning/swamps"
         ]
       },
       "rarity": 0.0

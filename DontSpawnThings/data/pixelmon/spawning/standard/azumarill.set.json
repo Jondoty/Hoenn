@@ -10,7 +10,7 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "neededNearbyBlocks": [
+        "baseBlocks": [
           "minecraft:sand",
           "biomesoplenty:white_sand",
           "byg:white_sand"
@@ -18,13 +18,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "beaches",
+        "biomes": [
+          "#pixelmon:spawning/beaches",
           "minecraft:river",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Azumarill palette:alter",
@@ -35,21 +35,14 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "neededNearbyBlocks": [
-          "minecraft:sand",
-          "biomesoplenty:white_sand",
-          "byg:white_sand"
-        ],
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "beaches",
-          "minecraft:river",
-          "lakes"
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

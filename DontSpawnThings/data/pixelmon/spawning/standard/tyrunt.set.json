@@ -1,0 +1,24 @@
+{
+  "id": "Tyrunt",
+  "spawnInfos": [
+    {
+      "spec": "species:Tyrunt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
+

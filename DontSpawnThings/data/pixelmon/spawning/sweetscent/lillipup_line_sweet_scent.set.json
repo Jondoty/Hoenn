@@ -2,8 +2,7 @@
   "id": "Lillipup Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Lillipup"
-      ,
+      "spec": "species:Lillipup",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,15 +13,14 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "plains"
+        "biomes": [
+          "#pixelmon:spawning/plains"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Herdier"
-      ,
+      "spec": "species:Herdier",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -33,8 +31,8 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "plains"
+        "biomes": [
+          "#pixelmon:spawning/plains"
         ]
       },
       "rarity": 0.0

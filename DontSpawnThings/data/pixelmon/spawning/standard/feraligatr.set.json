@@ -13,9 +13,9 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarityMultipliers": [
@@ -28,7 +28,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

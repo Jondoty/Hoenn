@@ -10,14 +10,15 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:ocean",
           "minecraft:warm_ocean",
           "minecraft:lukewarm_ocean",
-          "minecraft:cold_ocean"
+          "minecraft:cold_ocean",
+          "terraforged:warm_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Octillery palette:drowned",
@@ -28,11 +29,11 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

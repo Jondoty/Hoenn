@@ -2,35 +2,41 @@
   "id": "Girafarig",
   "spawnInfos": [
     {
-      "spec": "species:Girafarig"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 21,
-      "maxLevel": 24,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Girafarig"
-      ,
+      "spec": "species:Girafarig",
       "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 15,
-      "maxLevel": 17,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Girafarig",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
       "rarity": 0.0
     }
   ]

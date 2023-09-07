@@ -10,18 +10,38 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:ocean",
           "minecraft:deep_ocean",
           "minecraft:warm_ocean",
           "minecraft:deep_warm_ocean",
           "minecraft:lukewarm_ocean",
           "minecraft:deep_lukewarm_ocean",
-          "beaches",
+          "#pixelmon:spawning/beaches",
           "byg:coral_mangroves"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Finneon",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Finneon palette:drowned",
@@ -32,11 +52,11 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "pixelmon:infinite_ocean"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

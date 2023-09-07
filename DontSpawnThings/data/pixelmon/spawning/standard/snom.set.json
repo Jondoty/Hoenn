@@ -20,11 +20,12 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "pixelmon:mount_lanakila"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

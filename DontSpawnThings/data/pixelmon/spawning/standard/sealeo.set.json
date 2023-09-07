@@ -15,7 +15,7 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:frozen_ocean",
           "minecraft:deep_frozen_ocean",
           "minecraft:frozen_river",
@@ -26,7 +26,27 @@
           "terraforged:frozen_lake"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Spheal",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

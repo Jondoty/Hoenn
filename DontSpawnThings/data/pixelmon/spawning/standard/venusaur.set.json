@@ -13,13 +13,14 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "forests",
-          "birches",
-          "byg:crag_gardens"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches",
+          "byg:crag_gardens",
+          "pixelmon:ultra_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

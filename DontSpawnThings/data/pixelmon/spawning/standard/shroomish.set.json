@@ -25,9 +25,9 @@
           "DAY",
           "DAWN"
         ],
-        "stringBiomes": [
-          "mushroom",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/roofed"
         ]
       },
       "rarityMultipliers": [
@@ -40,7 +40,35 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Shroomish palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

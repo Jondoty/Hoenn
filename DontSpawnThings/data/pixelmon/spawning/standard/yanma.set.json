@@ -2,23 +2,32 @@
   "id": "Yanma",
   "spawnInfos": [
     {
-      "spec": "species:Yanma"
-      ,
+      "spec": "species:Yanma",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 12,
-      "maxLevel": 14,
+      "minLevel": 5,
+      "maxLevel": 25,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:wide_lens",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-          "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94,
-          "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/lakes",
+          "minecraft:river"
+        ]
       },
       "rarity": 0.0
     }
-
-
-
-
   ]
 }

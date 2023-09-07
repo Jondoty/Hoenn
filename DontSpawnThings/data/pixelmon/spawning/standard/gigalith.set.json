@@ -1,0 +1,32 @@
+
+{
+  "id": "Gigalith",
+  "spawnInfos": [
+    {
+      "spec": "species:Gigalith",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_deep_sea",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

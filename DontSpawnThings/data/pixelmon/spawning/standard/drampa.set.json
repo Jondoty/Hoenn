@@ -20,11 +20,12 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "mushroom"
+        "biomes": [
+          "#pixelmon:spawning/mushroom",
+          "pixelmon:mount_lanakila"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Drampa",
@@ -41,7 +42,7 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_highlands",
           "minecraft:small_end_islands",
           "byg:ethereal_islands",
@@ -49,7 +50,7 @@
           "byg:bulbis_gardens_edge"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -22,12 +22,36 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "flowery",
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Bellossom",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Bellossom palette:valencian",
@@ -50,11 +74,11 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Bellossom palette:pink",
@@ -77,11 +101,11 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

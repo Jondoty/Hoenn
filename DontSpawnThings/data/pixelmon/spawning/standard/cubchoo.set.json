@@ -11,7 +11,7 @@
       "maxLevel": 37,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:frozen_river",
           "minecraft:frozen_ocean",
           "minecraft:snowy_beach",
@@ -25,7 +25,7 @@
           "terraforged:frozen_lake"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

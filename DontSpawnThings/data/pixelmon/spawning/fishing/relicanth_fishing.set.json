@@ -2,8 +2,7 @@
   "id": "Relicanth Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Relicanth"
-      ,
+      "spec": "species:Relicanth",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -17,8 +16,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "deep_ocean"
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
         ]
       },
       "rarity": 0.0

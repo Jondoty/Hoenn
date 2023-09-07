@@ -14,17 +14,17 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "beaches",
+        "biomes": [
+          "#pixelmon:spawning/beaches",
           "pixelmon:ultra_deep_sea"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

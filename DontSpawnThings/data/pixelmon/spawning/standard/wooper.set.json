@@ -2,54 +2,65 @@
   "id": "Wooper",
   "spawnInfos": [
     {
-      "spec": "species:Wooper"
-      ,
+      "spec": "species:Wooper",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 4,
-      "maxLevel": 6,
+      "minLevel": 5,
+      "maxLevel": 19,
       "typeID": "pokemon",
       "condition": {
-        "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAY",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
       },
-      "rarity": 35.0
-    },
-
-
-    {
-      "spec": "species:Wooper"
-      ,
-      "stringLocationTypes": [
-        "Water",
-        "Underground Water"
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
       ],
-      "minLevel": 4,
-      "maxLevel": 7,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
-      },
-      "rarity": 60.0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Wooper"
-      ,
+      "spec": "species:Wooper form:paldean",
       "stringLocationTypes": [
-        "Water",
-        "Underground Water"
+        "Land",
+        "Water"
       ],
-      "minLevel": 4,
-      "maxLevel": 7,
+      "minLevel": 5,
+      "maxLevel": 19,
       "typeID": "pokemon",
       "condition": {
-        "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+        "times": [
+          "NIGHT",
+          "DAWN"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
       },
-      "rarity": 60.0
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.0
     }
-
-
   ]
 }

@@ -2,8 +2,7 @@
   "id": "Bounsweet Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Bounsweet"
-      ,
+      "spec": "species:Bounsweet",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,16 +14,15 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "flowery",
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/birches"
         ]
       },
-      "rarity": 0.0
+      "rarity": 0.00.0
     },
     {
-      "spec": "species:Steenee"
-      ,
+      "spec": "species:Steenee",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -42,16 +40,15 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "birches",
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Tsareena"
-      ,
+      "spec": "species:Tsareena",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -69,9 +66,9 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
-          "birches",
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0

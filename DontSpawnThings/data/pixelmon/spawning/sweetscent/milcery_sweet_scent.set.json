@@ -2,8 +2,7 @@
   "id": "Milcery Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Milcery"
-      ,
+      "spec": "species:Milcery",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -12,31 +11,31 @@
       "typeID": "pokemon",
       "heldItems": [
         {
-          "itemID": "pixelmon:strawberry_sweet",
+          "itemID": "pixelmon:sweet_strawberry",
           "percentChance": 5
         },
         {
-          "itemID": "pixelmon:flower_sweet",
+          "itemID": "pixelmon:sweet_flower",
           "percentChance": 5
         },
         {
-          "itemID": "pixelmon:love_sweet",
+          "itemID": "pixelmon:sweet_love",
           "percentChance": 5
         },
         {
-          "itemID": "pixelmon:berry_sweet",
+          "itemID": "pixelmon:sweet_berry",
           "percentChance": 5
         },
         {
-          "itemID": "pixelmon:clover_sweet",
+          "itemID": "pixelmon:sweet_clover",
           "percentChance": 5
         },
         {
-          "itemID": "pixelmon:star_sweet",
+          "itemID": "pixelmon:sweet_star",
           "percentChance": 5
         },
         {
-          "itemID": "pixelmon:ribbon_sweet",
+          "itemID": "pixelmon:sweet_ribbon",
           "percentChance": 5
         }
       ],
@@ -45,8 +44,8 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "all forests"
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
         ]
       },
       "rarity": 0.0

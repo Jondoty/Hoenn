@@ -6,7 +6,7 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 38,
+      "minLevel": 35,
       "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
@@ -20,19 +20,19 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ],
         "minY": 70
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Clefable",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 38,
+      "minLevel": 35,
       "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
@@ -42,18 +42,42 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "end"
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Clefable",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/end"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Clefable",
       "stringLocationTypes": [
         "Underground"
       ],
-      "minLevel": 38,
+      "minLevel": 35,
       "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
@@ -65,7 +89,7 @@
       "condition": {
         "minY": 70
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

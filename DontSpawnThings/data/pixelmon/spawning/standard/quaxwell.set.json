@@ -6,10 +6,17 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 1,
-      "maxLevel": 1,
+      "minLevel": 16,
+      "maxLevel": 36,
       "typeID": "pokemon",
       "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
       },
       "rarity": 0.0
     }

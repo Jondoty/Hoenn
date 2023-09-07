@@ -16,12 +16,12 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "taigas",
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Blipbug",
@@ -32,11 +32,11 @@
       "maxLevel": 9,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

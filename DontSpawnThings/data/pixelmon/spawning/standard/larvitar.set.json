@@ -2,35 +2,52 @@
   "id": "Larvitar",
   "spawnInfos": [
     {
-      "spec": "species:Larvitar"
-      ,
+      "spec": "species:Larvitar",
       "stringLocationTypes": [
-        "Underground",
         "Land"
       ],
-      "minLevel": 41,
-      "maxLevel": 45,
+      "minLevel": 5,
+      "maxLevel": 29,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ]
       },
       "rarity": 0.0
     },
-
     {
-      "spec": "species:Larvitar"
-      ,
+      "spec": "species:Larvitar",
       "stringLocationTypes": [
-        "Underground",
         "Land"
       ],
-      "minLevel": 45,
-      "maxLevel": 48,
+      "minLevel": 5,
+      "maxLevel": 29,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Larvitar",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 55
       },
       "rarity": 0.0
     }

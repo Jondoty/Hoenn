@@ -18,12 +18,12 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "redwoods",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

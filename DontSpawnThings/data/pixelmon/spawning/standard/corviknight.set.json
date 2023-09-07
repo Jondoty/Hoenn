@@ -19,15 +19,36 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mountainous",
-          "mountainous forests",
-          "redwoods",
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps",
           "biomesoplenty:burnt_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Corviknight",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 38,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

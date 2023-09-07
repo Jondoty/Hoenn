@@ -2,69 +2,141 @@
   "id": "Arbok",
   "spawnInfos": [
     {
-      "spec": "species:Arbok"
-      ,
+      "spec": "species:Arbok",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 28,
-      "maxLevel": 32,
+      "minLevel": 22,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
+        ]
       },
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Arbok"
-      ,
+      "spec": "species:Arbok",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 28,
-      "maxLevel": 32,
+      "minLevel": 22,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
       },
       "rarity": 0.0
     },
-
     {
-      "spec": "species:Arbok"
-      ,
+      "spec": "species:Arbok palette:main_circular",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 5,
-      "maxLevel": 10,
+      "minLevel": 22,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
       },
       "rarity": 0.0
     },
-
     {
-      "spec": "species:Arbok"
-      ,
+      "spec": "species:Arbok palette:main_circular",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 5,
-      "maxLevel": 10,
+      "minLevel": 22,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Arbok palette:secondary_circular",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Arbok palette:secondary_circular",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Arbok palette:dark",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/evil",
+          "minecraft:crimson_forest",
+          "minecraft:warped_forest",
+          "biomesoplenty:undergrowth",
+          "byg:crimson_gardens",
+          "byg:withering_woods"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Arbok palette:dark",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
       },
       "rarity": 0.0
     }
-
   ]
 }

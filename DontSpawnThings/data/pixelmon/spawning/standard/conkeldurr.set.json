@@ -1,0 +1,24 @@
+{
+  "id": "Conkeldurr",
+  "spawnInfos": [
+    {
+      "spec": "species:Conkeldurr",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
+

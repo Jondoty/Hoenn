@@ -1,0 +1,24 @@
+
+{
+  "id": "Aurorus",
+  "spawnInfos": [
+    {
+      "spec": "species:Aurorus",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -13,13 +13,13 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "all forests",
-          "evil",
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/evil",
           "byg:crag_gardens"
         ]
       },
-      "rarity": 40.0
+      "rarity": 0.0
     },
     {
       "spec": "species:Ariados",
@@ -33,13 +33,13 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "all forests",
-          "evil",
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/evil",
           "byg:crag_gardens"
         ]
       },
-      "rarity": 5.0
+      "rarity": 0.0
     }
   ]
 }

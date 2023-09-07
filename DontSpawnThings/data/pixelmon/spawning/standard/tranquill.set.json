@@ -19,16 +19,37 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "plains",
+        "biomes": [
+          "#pixelmon:spawning/plains",
           "minecraft:snowy_tundra",
           "minecraft:ice_spikes",
           "biomesoplenty:tundra",
           "biomesoplenty:tundra_basin",
-          "biomesoplenty:tundra_bog"
+          "biomesoplenty:tundra_bog",
+          "pixelmon:mount_lanakila"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Pidove",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

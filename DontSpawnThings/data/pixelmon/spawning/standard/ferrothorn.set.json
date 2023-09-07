@@ -19,12 +19,12 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "redwoods",
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Ferrothorn",
@@ -41,13 +41,13 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "redwoods",
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/freezing_forests"
         ],
         "maxLightLevel": 2
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

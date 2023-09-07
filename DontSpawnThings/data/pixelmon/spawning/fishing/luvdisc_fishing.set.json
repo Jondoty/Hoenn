@@ -2,8 +2,7 @@
   "id": "Luvdisc Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Luvdisc"
-      ,
+      "spec": "species:Luvdisc",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -17,16 +16,15 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Luvdisc"
-      ,
+      "spec": "species:Luvdisc",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -40,9 +38,15 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

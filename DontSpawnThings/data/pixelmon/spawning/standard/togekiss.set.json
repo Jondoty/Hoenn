@@ -13,12 +13,30 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "taigas",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/magical"
         ]
       },
-      "rarity": 0
+      "rarity": 0.2
+    },
+    {
+      "spec": "species:Togekiss",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 45,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

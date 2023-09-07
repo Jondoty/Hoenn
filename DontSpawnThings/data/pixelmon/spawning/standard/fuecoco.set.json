@@ -6,12 +6,19 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 1,
-      "maxLevel": 1,
+      "minLevel": 5,
+      "maxLevel": 16,
       "typeID": "pokemon",
       "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
       },
       "rarity": 0.0
     }
   ]
 }
+

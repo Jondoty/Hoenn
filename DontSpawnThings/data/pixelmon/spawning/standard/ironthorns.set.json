@@ -1,0 +1,21 @@
+{
+  "id": "IronThorns",
+  "spawnInfos": [
+    {
+      "spec": "species:IronThorns",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:small_end_islands"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
+

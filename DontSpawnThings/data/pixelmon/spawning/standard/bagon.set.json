@@ -19,11 +19,35 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Bagon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dragon_fang",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Bagon palette:alter",
@@ -41,13 +65,13 @@
       ],
       "condition": {
         "times": [
-          "NIGHT"
+          "DAY"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "pixelmon:ultra_crater"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

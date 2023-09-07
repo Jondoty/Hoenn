@@ -1,0 +1,23 @@
+{
+  "id": "Tyrantrum",
+  "spawnInfos": [
+    {
+      "spec": "species:Tyrantrum",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

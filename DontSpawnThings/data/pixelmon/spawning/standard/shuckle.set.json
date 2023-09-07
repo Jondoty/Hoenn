@@ -17,7 +17,7 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:stone_shore",
           "pixelmon:ultra_deep_sea",
           "biomesoplenty:gravel_beach",
@@ -25,7 +25,7 @@
           "byg:rocky_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Shuckle",
@@ -44,7 +44,7 @@
       "condition": {
         "maxY": 60
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

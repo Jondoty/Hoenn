@@ -14,12 +14,30 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
-          "jungles",
+        "biomes": [
+          "#pixelmon:spawning/jungles",
           "byg:crag_gardens"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Tangrowth",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 45,
+      "maxLevel": 57,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

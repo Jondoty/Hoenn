@@ -16,8 +16,8 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/roofed"
         ]
       },
       "rarityMultipliers": [
@@ -30,7 +30,29 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Lampent",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 41,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

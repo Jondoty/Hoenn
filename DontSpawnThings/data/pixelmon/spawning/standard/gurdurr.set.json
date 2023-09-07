@@ -14,11 +14,29 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "hills"
+        "biomes": [
+          "#pixelmon:spawning/hills"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gurdurr",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 26,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

@@ -2,8 +2,7 @@
   "id": "Lotad Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Lotad"
-      ,
+      "spec": "species:Lotad",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -11,8 +10,9 @@
       "maxLevel": 12,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0

@@ -4,10 +4,11 @@
     {
       "spec": "species:Slowpoke",
       "stringLocationTypes": [
-        "Underground"
+        "Land",
+        "Sweet Scent"
       ],
-      "minLevel": 5,
-      "maxLevel": 8,
+      "minLevel": 15,
+      "maxLevel": 37,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -16,40 +17,26 @@
         }
       ],
       "condition": {
-        "minX": 231, "maxX": 327, "minY": 16, "maxY": 54, "minZ": -731, "maxZ": -647,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
       },
-      "rarity": 15.0
-    },
-
-
-    {
-      "spec": "species:Slowpoke",
-      "stringLocationTypes": [
-        "Underground Water"
-      ],
-      "minLevel": 5,
-      "maxLevel": 8,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:lagging_tail",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": 231, "maxX": 327, "minY": 36, "maxY": 54, "minZ": -731, "maxZ": -647
-      },
-      "rarity": 100.0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Slowpoke",
-
+      "spec": "species:Slowpoke form:galarian",
       "stringLocationTypes": [
-        "Underground Water"
+        "Land",
+        "Sweet Scent"
       ],
-      "minLevel": 5,
-      "maxLevel": 8,
+      "minLevel": 15,
+      "maxLevel": 37,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -58,50 +45,15 @@
         }
       ],
       "condition": {
-        "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
-      },
-      "rarity": 90.0
-    },
-
-
-    {
-      "spec": "species:Slowpoke",
-      "stringLocationTypes": [
-        "Underground",
-        "Land"
-      ],
-      "minLevel": 22,
-      "maxLevel": 23,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:lagging_tail",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -977, "maxX": -859, "minZ": -482, "maxZ": -420,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
-      },
-      "rarity": 15.0
-    },
-    {
-      "spec": "species:Slowpoke",
-      "stringLocationTypes": [
-        "Water",
-        "Underground Water"
-      ],
-      "minLevel": 20,
-      "maxLevel": 20,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:lagging_tail",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -977, "maxX": -859, "minZ": -482, "maxZ": -420
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes"
+        ]
       },
       "rarity": 0.0
     }

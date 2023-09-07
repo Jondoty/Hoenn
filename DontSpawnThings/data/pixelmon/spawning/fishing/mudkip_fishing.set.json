@@ -1,0 +1,41 @@
+{
+  "id": "Mudkip Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Mudkip",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Mudkip",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

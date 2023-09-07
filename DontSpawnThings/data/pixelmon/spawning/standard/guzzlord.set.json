@@ -13,14 +13,11 @@
       "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "mesas"
-        ],
-        "dimensions": [
-          "pixelmon:ultra_space"
+        "biomes": [
+          "pixelmon:ultra_desert"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

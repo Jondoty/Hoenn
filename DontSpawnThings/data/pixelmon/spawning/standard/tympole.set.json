@@ -13,13 +13,13 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/swamps",
           "minecraft:river",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

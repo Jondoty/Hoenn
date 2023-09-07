@@ -13,8 +13,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "roofed",
+        "biomes": [
+          "#pixelmon:spawning/roofed",
           "biomesoplenty:mystic_grove",
           "biomesoplenty:mystic_plains",
           "byg:twilight_valley",
@@ -23,7 +23,7 @@
           "byg:weeping_witch_clearing"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Grimmsnarl",
@@ -34,7 +34,7 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:crimson_forest",
           "minecraft:warped_forest",
           "biomesoplenty:undergrowth",
@@ -43,7 +43,7 @@
           "byg:withering_woods"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }
