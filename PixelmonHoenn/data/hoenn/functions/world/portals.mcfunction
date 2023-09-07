@@ -912,6 +912,26 @@ tp @a[x=1730,y=47,z=-885,dx=4,dy=3] 1732 74 -884
 #Shoal Cave
 #https://gamefaqs.gamespot.com/gba/921905-pokemon-emerald-version/map/13387?raw=1
 
+
+#High Tide
+#Entrance
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=15000..21000}] run tp @a[x=1584,y=64,z=-1245,dx=4,dy=3] 2909 70 -3150
+tp @a[x=2907,y=70,z=-3149,dx=4,dy=3] 1586 64 -1244
+
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=3000..8000}] run tp @a[x=1584,y=64,z=-1245,dx=4,dy=3] 2909 70 -3150
+tp @a[x=2907,y=70,z=-3149,dx=4,dy=3] 1586 64 -1244
+
+
+#Cave Door 1
+tp @a[x=2863,y=75,z=-3243,dx=4,dy=3] 2881 99 -3003
+tp @a[x=2879,y=99,z=-3002,dx=4,dy=3] 2865 75 -3242
+
+#Cave Door 2
+tp @a[x=2945,y=80,z=-3244,dx=4,dy=3] 2965 99 -3002
+tp @a[x=2963,y=99,z=-3001,dx=4,dy=3] 2947 80 -3243
+
+
+
 #Low Tide Entrance
 tp @a[x=1584,y=64,z=-1245,dx=4,dy=3] 2857 70 -2341
 tp @a[x=2855,y=70,z=-2340,dx=4,dy=3] 1586 64 -1244
@@ -932,19 +952,6 @@ tp @a[x=2906,y=84,z=-2483,dx=4,dy=3] 2856 65 -2428
 tp @a[x=2897,y=84,z=-2497,dx=4,dy=3] 2914 87 -2864
 tp @a[x=2912,y=87,z=-2863,dx=4,dy=3] 2899 84 -2496
 
-
-#High Tide
-#Entrance
-tp @a[x=1584,y=64,z=-1245,dx=4,dy=3] 2909 70 -3150
-tp @a[x=2907,y=70,z=-3149,dx=4,dy=3] 1586 64 -1244
-
-#Cave Door 1
-tp @a[x=2863,y=75,z=-3243,dx=4,dy=3] 2881 99 -3003
-tp @a[x=2879,y=99,z=-3002,dx=4,dy=3] 2865 75 -3242
-
-#Cave Door 2
-tp @a[x=2945,y=80,z=-3244,dx=4,dy=3] 2965 99 -3002
-tp @a[x=2963,y=99,z=-3001,dx=4,dy=3] 2947 80 -3243
 
 #-------------------------------------------------------------------------
 #Sealed Chamber (if player is stuck)
