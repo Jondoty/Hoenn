@@ -1,0 +1,61 @@
+{
+  "starters": [
+    {
+      "spec": "Treecko",
+      "chanceSpecs": [],
+      "page": 0,
+      "x": 3,
+      "y": 0,
+      "scale": 1
+    },
+    {
+      "spec": "Torchic",
+      "chanceSpecs": [],
+      "page": 0,
+      "x": 3,
+      "y": 2,
+      "scale": 1
+    },
+    {
+      "spec": "Mudkip",
+      "chanceSpecs": [],
+      "page": 0,
+      "x": 3,
+      "y": 4,
+      "scale": 1
+    }
+  ],
+  "chanceSpecs": [
+    {
+      "spec": "level:5",
+      "rate": 1
+    },
+    {
+      "spec": "ribbon:destiny",
+      "rate": 1
+    },
+    {
+      "spec": "shiny",
+      "rate": 4096
+    }
+  ],
+  "options": [
+
+  ],
+  "pageColors": [
+    {
+      "page": 0,
+      "color": {
+        "r": 226,
+        "g": 86,
+        "b": 146,
+        "a": 255
+      }
+    }
+  ],
+  "loop": true,
+  "text": [
+    "gui.starter.trademark4",
+    "gui.starter.trademark5"
+  ]
+}
