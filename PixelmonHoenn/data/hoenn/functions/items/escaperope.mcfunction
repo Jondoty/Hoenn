@@ -62,7 +62,7 @@ execute as @s[x=783,y=0,z=-3361,dx=391,dy=256,dz=797] run tp @s 1071 132 -2732 0
 #Meteor Falls (two enteances)
 execute as @s[scores={EscapeRope=3}] run effect give @s minecraft:blindness 5 1 true
 execute as @s[scores={EscapeRope=3}] run playsound flee ambient @s ~ ~ ~ 1 1 1
-execute as @s[scores={EscapeRope=3}] run tp @s -2414 69 -722 0 0
+execute as @s[scores={EscapeRope=3}] run tp @s -2575 99 -1030 0 0
 
 execute as @s[scores={EscapeRope=4}] run effect give @s minecraft:blindness 5 1 true
 execute as @s[scores={EscapeRope=4}] run playsound flee ambient @s ~ ~ ~ 1 1 1
@@ -81,10 +81,10 @@ execute as @s[x=1556,y=23,z=2548,dx=116,dy=55,dz=129] run playsound flee ambient
 execute as @s[x=1556,y=23,z=2548,dx=116,dy=55,dz=129] run tp @s 140 64 -764 0 0
 
 #Sky Pillar
-execute as @s[x=142,y=90,z=-326,dx=364,dy=256,dz=317] run tag @s add EscapeRopeUse
-execute as @s[x=142,y=90,z=-326,dx=364,dy=256,dz=317] run effect give @s minecraft:blindness 5 1 true
-execute as @s[x=142,y=90,z=-326,dx=364,dy=256,dz=317] run playsound flee ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=142,y=90,z=-326,dx=364,dy=256,dz=317] run tp @s 338 89 -131 0 0
+execute as @s[x=142,y=95,z=-326,dx=364,dy=256,dz=317] run tag @s add EscapeRopeUse
+execute as @s[x=142,y=95,z=-326,dx=364,dy=256,dz=317] run effect give @s minecraft:blindness 5 1 true
+execute as @s[x=142,y=95,z=-326,dx=364,dy=256,dz=317] run playsound flee ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=142,y=95,z=-326,dx=364,dy=256,dz=317] run tp @s 338 89 -131 0 0
 
 #Victory Road (two enteances)
 execute as @s[scores={EscapeRope=5}] run effect give @s minecraft:blindness 5 1 true
@@ -147,7 +147,7 @@ execute as @s[tag=EscapeRopeUse] run tag @s remove EscapeRopeUse
 
 
 #Not in area where Escape Rope works
-tellraw @s[scores={EscapeRopeUse=1..}] ["",{"text":"Your father's words echo in your mind... ","italic":true,"color":"gray"},{"selector":"@s","italic":true,"color":"gray"},{"text":"! This isn' tthe time for that!\"","italic":true,"color":"gray"}]
+tellraw @s[scores={EscapeRopeUse=1..}] ["",{"text":"Your father's words echo in your mind... ","italic":true,"color":"gray"},{"selector":"@s","italic":true,"color":"gray"},{"text":"! This isn't the time for that!\"","italic":true,"color":"gray"}]
 give @s[scores={EscapeRopeUse=1..}] ender_eye
 scoreboard players set @s[scores={EscapeRopeUse=1..}] EscapeRope 0
 scoreboard players set @s[scores={EscapeRopeUse=1..}] EscapeRopeUse 0
