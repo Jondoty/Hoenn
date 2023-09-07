@@ -25,6 +25,17 @@ execute as @a[scores={Trigger=1..}] run function hoenn:triggers/triggercommands
 #Soaring Overworld function
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:world/soaringoverworld
 
+#---------------------
+#Time-based commands
+
+#Runs daily commands, sets time to armor stand based on game time
+execute store result score @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand] DayTime run time query daytime
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=18000..},tag=!DailyExecuted] run function hoenn:triggers/dailycommands
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=18000..},tag=!DailyExecuted] run tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand] add DailyExecuted
+tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=DailyExecuted] remove DailyExecuted
+
+
+
 #-------------------------Important Items-----------------------------------------------------------------------------------
 #Adds tags to play music if player is holding the radio in a specific way
 tag @a[scores={MusicCooldown=0},nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick"}]}] add RunMusic
