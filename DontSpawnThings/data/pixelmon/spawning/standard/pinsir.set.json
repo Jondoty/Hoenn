@@ -9,7 +9,7 @@
         "Headbutt",
         "Sweet Scent"
       ],
-      "minLevel": 10,
+      "minLevel": 25,
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
@@ -18,12 +18,31 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "jungles",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/magical"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Pinsir",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

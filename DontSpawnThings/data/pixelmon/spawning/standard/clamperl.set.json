@@ -20,11 +20,12 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "terraforged:warm_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -22,11 +22,31 @@
           "DAWN",
           "MORNING"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Combee",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

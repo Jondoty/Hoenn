@@ -1,0 +1,23 @@
+{
+  "id": "Arctovish",
+  "spawnInfos": [
+    {
+      "spec": "species:Arctovish",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

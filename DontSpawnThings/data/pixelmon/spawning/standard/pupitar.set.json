@@ -2,26 +2,44 @@
   "id": "Pupitar",
   "spawnInfos": [
     {
-      "spec": "species:Pupitar"
-      ,
+      "spec": "species:Pupitar",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 45,
-      "maxLevel": 48,
+      "minLevel": 30,
+      "maxLevel": 54,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
+        ]
       },
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Pupitar"
-      ,
+      "spec": "species:Pupitar",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Pupitar",
       "stringLocationTypes": [
         "Underground"
       ],

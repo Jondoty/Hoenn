@@ -20,8 +20,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
+        "biomes": [
+          "#pixelmon:spawning/arid",
           "minecraft:badlands"
         ]
       },
@@ -35,7 +35,28 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Cacturne",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sticky_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

@@ -2,8 +2,7 @@
   "id": "Shellos Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Shellos"
-      ,
+      "spec": "species:Shellos",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -11,20 +10,21 @@
       "maxLevel": 15,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Shellos"
-      ,
+      "spec": "species:Shellos",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -32,20 +32,20 @@
       "maxLevel": 15,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Gastrodon"
-      ,
+      "spec": "species:Gastrodon",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -53,20 +53,21 @@
       "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Gastrodon"
-      ,
+      "spec": "species:Gastrodon",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -74,13 +75,14 @@
       "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

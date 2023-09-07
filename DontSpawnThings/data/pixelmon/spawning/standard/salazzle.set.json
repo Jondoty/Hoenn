@@ -22,16 +22,16 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:swamp_hills",
-          "pixelmon:ultra_deep_sea",
-          "evil",
-          "mesas",
+          "pixelmon:ultra_desert",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/mesas",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Salazzle",
@@ -48,7 +48,7 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:nether_wastes",
           "minecraft:basalt_deltas",
           "byg:brimstone_caverns",
@@ -56,7 +56,7 @@
           "byg:magma_wastes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

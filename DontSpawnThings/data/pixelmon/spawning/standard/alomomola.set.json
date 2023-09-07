@@ -13,15 +13,16 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:warm_ocean",
           "minecraft:deep_warm_ocean",
           "minecraft:lukewarm_ocean",
-          "minecraft:deep_lukewarm_ocean"
+          "minecraft:deep_lukewarm_ocean",
+          "terraforged:warm_beach"
         ],
         "minY": 50
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

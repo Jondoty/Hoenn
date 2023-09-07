@@ -6,8 +6,8 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 30,
-      "maxLevel": 50,
+      "minLevel": 50,
+      "maxLevel": 65,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -19,10 +19,54 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps"
         ],
         "moonPhase": 0
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Teddiursa",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Ursaluna",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 50,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:peat_block",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
       },
       "rarity": 0.0
     }

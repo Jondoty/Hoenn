@@ -2,8 +2,7 @@
   "id": "Pinsir Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Pinsir"
-      ,
+      "spec": "species:Pinsir",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -16,8 +15,8 @@
           "NIGHT",
           "DUSK"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
       "rarity": 0.0

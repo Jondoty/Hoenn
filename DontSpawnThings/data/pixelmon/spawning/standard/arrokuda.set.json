@@ -10,7 +10,7 @@
       "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:ocean",
           "minecraft:deep_ocean",
           "minecraft:warm_ocean",
@@ -18,10 +18,32 @@
           "minecraft:lukewarm_ocean",
           "minecraft:deep_lukewarm_ocean",
           "minecraft:river",
-          "lakes"
+          "#pixelmon:spawning/lakes",
+          "terraforged:warm_beach"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Arrokuda",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.00.0
     }
   ]
 }
+

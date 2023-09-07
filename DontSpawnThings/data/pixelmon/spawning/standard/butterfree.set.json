@@ -2,13 +2,14 @@
   "id": "Butterfree",
   "spawnInfos": [
     {
-      "spec": "species:Butterfree"
-      ,
+      "spec": "species:Butterfree",
       "stringLocationTypes": [
-        "Land"
+        "Air",
+        "Headbutt",
+        "Sweet Scent"
       ],
-      "minLevel": 3,
-      "maxLevel": 7,
+      "minLevel": 10,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -17,20 +18,29 @@
         }
       ],
       "condition": {
-        "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens",
+          "#pixelmon:spawning/magical"
+        ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Butterfree"
-      ,
+      "spec": "species:Butterfree",
       "stringLocationTypes": [
-        "Land"
+        "Air"
       ],
-      "minLevel": 3,
-      "maxLevel": 7,
+      "minLevel": 10,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -39,22 +49,23 @@
         }
       ],
       "condition": {
-        "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
       },
       "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Butterfree"
-      ,
+      "spec": "species:Butterfree palette:pink",
       "stringLocationTypes": [
-        "Land"
+        "Air"
       ],
-      "minLevel": 3,
-      "maxLevel": 7,
+      "minLevel": 10,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -63,9 +74,43 @@
         }
       ],
       "condition": {
-        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448,
-        "times": [ "DAWN", "DUSK" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Butterfree palette:valencian",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
       },
       "rarity": 0.0
     }

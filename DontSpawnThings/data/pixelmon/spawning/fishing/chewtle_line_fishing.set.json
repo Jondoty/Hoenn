@@ -2,8 +2,7 @@
   "id": "Chewtle Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Chewtle"
-      ,
+      "spec": "species:Chewtle",
       "stringLocationTypes": [
         "Old Rod"
       ],
@@ -11,16 +10,16 @@
       "maxLevel": 20,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "swamps",
-          "river"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Chewtle"
-      ,
+      "spec": "species:Chewtle",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -28,16 +27,16 @@
       "maxLevel": 20,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "swamps",
-          "river"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Drednaw"
-      ,
+      "spec": "species:Drednaw",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -45,26 +44,27 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "swamps",
-          "river"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Drednaw"
-      ,
+      "spec": "species:Drednaw",
       "stringLocationTypes": [
-        "Good Rod"
+        "Super Rod"
       ],
       "minLevel": 22,
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "swamps",
-          "river"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0

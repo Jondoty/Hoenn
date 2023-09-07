@@ -16,8 +16,8 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/roofed"
         ]
       },
       "rarityMultipliers": [
@@ -30,7 +30,26 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Litwick",
+      "stringLocationTypes": [
+        "Indoors",
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:haunted_tower"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

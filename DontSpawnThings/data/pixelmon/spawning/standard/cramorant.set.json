@@ -13,16 +13,16 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "swamps",
-          "beaches",
-          "lakes",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes",
           "minecraft:frozen_ocean",
           "minecraft:deep_frozen_ocean"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

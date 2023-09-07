@@ -21,13 +21,14 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:warm_ocean",
           "minecraft:lukewarm_ocean",
-          "byg:coral_mangroves"
+          "byg:coral_mangroves",
+          "terraforged:warm_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Corsola form:galarian",
@@ -49,11 +50,11 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Corsola form:galarian",
@@ -70,11 +71,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "byg:dead_sea"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

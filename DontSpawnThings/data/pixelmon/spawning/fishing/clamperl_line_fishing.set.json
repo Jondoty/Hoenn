@@ -2,13 +2,12 @@
   "id": "Clamperl Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Clamperl"
-      ,
+      "spec": "species:Clamperl",
       "stringLocationTypes": [
-        "Super Rod"
+        "Good Rod"
       ],
-      "minLevel": 40,
-      "maxLevel": 40,
+      "minLevel": 15,
+      "maxLevel": 30,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -21,15 +20,19 @@
         }
       ],
       "condition": {
-        "minX": 528, "maxX": 975, "minZ": 320, "maxZ": 799
-    }, "rarity": 30
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 0.0
     },
-
-
-
     {
-      "spec": "species:Clamperl"
-      ,
+      "spec": "species:Clamperl",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -47,15 +50,19 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Huntail"
-      ,
+      "spec": "species:Huntail",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -72,15 +79,17 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Gorebyss"
-      ,
+      "spec": "species:Gorebyss",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -97,8 +106,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

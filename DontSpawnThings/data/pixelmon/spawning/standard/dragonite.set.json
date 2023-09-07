@@ -20,13 +20,13 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:deep_ocean",
           "minecraft:deep_warm_ocean",
           "minecraft:deep_lukewarm_ocean"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Dragonite form:creator",
@@ -47,11 +47,11 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:deep_ocean"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Dragonite form:base palette:ashen",
@@ -71,16 +71,11 @@
         "times": [
           "AFTERNOON"
         ],
-        "weathers": [
-          "CLEAR"
-        ],
-        "stringBiomes": [
-          "minecraft:deep_ocean",
-          "minecraft:deep_warm_ocean",
-          "minecraft:deep_lukewarm_ocean"
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

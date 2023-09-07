@@ -14,7 +14,7 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:desert_hills",
           "biomesoplenty:lush_desert",
           "byg:dunes",
@@ -22,7 +22,7 @@
           "byg:red_desert_dunes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Darumaka form:galarian",
@@ -37,11 +37,11 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing mountains"
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

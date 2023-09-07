@@ -19,13 +19,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "plains",
+        "biomes": [
+          "#pixelmon:spawning/plains",
           "minecraft:river",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

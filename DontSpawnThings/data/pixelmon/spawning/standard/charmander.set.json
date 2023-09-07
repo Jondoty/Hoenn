@@ -16,14 +16,32 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "mountainous",
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
           "minecraft:eroded_badlands",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Charmander",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

@@ -13,7 +13,7 @@
         "times": [
           "AFTERNOON"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:stone_shore",
           "biomesoplenty:gravel_beach",
           "byg:basalt_barrera",
@@ -30,7 +30,25 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Oshawott",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

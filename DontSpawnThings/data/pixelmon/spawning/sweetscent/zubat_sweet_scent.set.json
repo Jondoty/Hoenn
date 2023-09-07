@@ -2,8 +2,7 @@
   "id": "Zubat Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Zubat"
-      ,
+      "spec": "species:Zubat",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,13 +13,14 @@
         "times": [
           "NIGHT"
         ],
-        "stringbiomes": [
-          "all forests",
-          "swamps",
-          "mountainous",
-          "plains",
-          "flowery",
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/evil"
         ]
       },
       "rarity": 0.0

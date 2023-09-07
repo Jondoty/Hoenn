@@ -19,8 +19,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarityMultipliers": [
@@ -33,7 +33,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Yamask",
@@ -53,8 +53,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarityMultipliers": [
@@ -67,7 +67,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Yamask",
@@ -84,11 +84,35 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "hellish"
+        "biomes": [
+          "#pixelmon:spawning/hellish"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Yamask",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Yamask form:galarian",
@@ -108,8 +132,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas"
         ]
       },
       "rarityMultipliers": [
@@ -122,7 +146,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Yamask form:galarian",
@@ -142,8 +166,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas"
         ]
       },
       "rarityMultipliers": [
@@ -156,7 +180,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Yamask form:galarian",
@@ -173,11 +197,35 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "hellish"
+        "biomes": [
+          "#pixelmon:spawning/hellish"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Yamask form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

@@ -16,11 +16,31 @@
         "weathers": [
           "RAIN"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Snorunt",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Froslass",
@@ -31,11 +51,11 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "byg:subzero_hypogeal"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

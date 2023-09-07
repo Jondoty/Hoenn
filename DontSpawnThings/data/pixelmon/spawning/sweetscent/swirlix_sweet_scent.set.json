@@ -2,8 +2,7 @@
   "id": "Swirlix Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Swirlix"
-      ,
+      "spec": "species:Swirlix",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -18,11 +17,12 @@
       ],
       "condition": {
         "times": [
+          "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "birches",
-          "magical"
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/magical"
         ]
       },
       "rarity": 0.0

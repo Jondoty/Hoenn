@@ -20,9 +20,9 @@
         "weathers": [
           "RAIN"
         ],
-        "stringBiomes": [
-          "swamps",
-          "lakes"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarityMultipliers": [
@@ -36,7 +36,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -15,19 +15,34 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesas",
-          "evil",
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/savannas"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:desert_lakes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Mandibuzz",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 55,
+      "maxLevel": 63,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

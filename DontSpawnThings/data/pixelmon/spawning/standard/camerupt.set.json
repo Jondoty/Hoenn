@@ -13,8 +13,8 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "arid",
+        "biomes": [
+          "#pixelmon:spawning/arid",
           "minecraft:badlands",
           "biomesoplenty:volcanic_plains"
         ]
@@ -29,7 +29,25 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Camerupt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

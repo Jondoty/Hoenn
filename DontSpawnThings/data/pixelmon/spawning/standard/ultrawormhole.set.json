@@ -9,15 +9,17 @@
       "maxMaxAge": 1400,
       "minY": 100,
       "maxY": 140,
-      "interval": "wormhole_ultra_space",
+      "tags": [
+        "wormhole_ultra_space"
+      ],
       "typeID": "wormhole",
       "requiredSpace": 7,
       "condition": {
         "dimensions": [
-          72
+          "pixelmon:ultra_space"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "stringLocationTypes": [
@@ -27,15 +29,25 @@
       "maxMaxAge": 1400,
       "minY": 100,
       "maxY": 140,
-      "interval": "wormhole_overworld",
+      "tags": [
+        "wormhole_overworld"
+      ],
       "typeID": "wormhole",
       "requiredSpace": 7,
       "condition": {
         "dimensions": [
-          0
+          "minecraft:overworld"
         ]
       },
-      "rarity": 0
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/lakes",
+          "minecraft:river",
+          "minecraft:frozen_river"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

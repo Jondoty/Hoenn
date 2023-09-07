@@ -10,13 +10,31 @@
       "maxLevel": 10,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:nether_wastes",
           "minecraft:basalt_deltas",
           "byg:magma_wastes"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Magby",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Magby",
@@ -27,11 +45,11 @@
       "maxLevel": 10,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "hellish"
+        "biomes": [
+          "#pixelmon:spawning/hellish"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -2,8 +2,7 @@
   "id": "Nincada Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Nincada"
-      ,
+      "spec": "species:Nincada",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -18,11 +17,12 @@
       ],
       "condition": {
         "times": [
+          "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "taigas",
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
         ]
       },
       "rarity": 0.0

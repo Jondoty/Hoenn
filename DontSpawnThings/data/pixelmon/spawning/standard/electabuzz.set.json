@@ -2,13 +2,12 @@
   "id": "Electabuzz",
   "spawnInfos": [
     {
-      "spec": "species:Electabuzz"
-      ,
+      "spec": "species:Electabuzz",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 15,
-      "maxLevel": 18,
+      "minLevel": 25,
+      "maxLevel": 34,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -17,9 +16,46 @@
         }
       ],
       "condition": {
-        "minX": -3319, "maxX": -3300, "minZ": 588, "maxZ": 626,
-        "times": [ "DAWN", "DUSK", "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Electabuzz",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:electirizer",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
       },
       "rarity": 0.0
     }

@@ -13,13 +13,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "forests",
-          "plains",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pidgeot palette:pink",
@@ -33,13 +33,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "forests",
-          "plains",
-          "taigas"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/taigas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -4,14 +4,37 @@
     {
       "spec": "species:Nacli",
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Rock Smash"
       ],
-      "minLevel": 1,
-      "maxLevel": 1,
+      "minLevel": 7,
+      "maxLevel": 23,
       "typeID": "pokemon",
       "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas",
+          "minecraft:stone_shore",
+          "biomesoplenty:gravel_beach",
+          "byg:rocky_beach"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Nacli",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 7,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64
       },
       "rarity": 0.0
     }
   ]
 }
+
+

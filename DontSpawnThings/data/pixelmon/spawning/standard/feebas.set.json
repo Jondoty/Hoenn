@@ -19,13 +19,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "swamps",
-          "lakes",
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
           "byg:crag_gardens"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Feebas",
@@ -42,11 +42,11 @@
         }
       ],
       "anticondition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

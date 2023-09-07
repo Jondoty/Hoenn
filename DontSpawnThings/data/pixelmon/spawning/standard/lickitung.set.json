@@ -2,13 +2,12 @@
   "id": "Lickitung",
   "spawnInfos": [
     {
-      "spec": "species:Lickitung"
-      ,
+      "spec": "species:Lickitung",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 22,
-      "maxLevel": 26,
+      "minLevel": 25,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -17,10 +16,14 @@
         }
       ],
       "condition": {
-          "minX": -406, "maxX": -351, "minZ": 177, "maxZ": 202,
-          "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ]
       },
-      "rarity": 15.0
+      "rarity": 0.0
     }
   ]
 }

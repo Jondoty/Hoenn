@@ -20,12 +20,12 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas"
         ],
         "minY": 90
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Metagross",
@@ -46,12 +46,12 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:ice_spikes"
         ],
         "minY": 90
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Metagross",
@@ -68,12 +68,64 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:end_highlands",
           "minecraft:end_barrens"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade"
+      ],
+      "minLevel": 50,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:land_chalice"
+        ],
+        "times": [
+          "MIDDAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

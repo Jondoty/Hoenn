@@ -2,8 +2,7 @@
   "id": "Tympole Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Tympole"
-      ,
+      "spec": "species:Tympole",
       "stringLocationTypes": [
         "Old Rod"
       ],
@@ -14,16 +13,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps",
-          "river"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Tympole"
-      ,
+      "spec": "species:Tympole",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -34,16 +33,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "river",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Palpitoad"
-      ,
+      "spec": "species:Palpitoad",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -54,16 +53,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps",
-          "river"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Palpitoad"
-      ,
+      "spec": "species:Palpitoad",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -74,16 +73,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "river",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Seismitoad"
-      ,
+      "spec": "species:Seismitoad",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -94,9 +93,10 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps",
-          "river"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0

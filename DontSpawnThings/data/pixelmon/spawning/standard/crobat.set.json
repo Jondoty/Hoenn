@@ -16,17 +16,17 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "all forests",
-          "swamps",
-          "mountainous",
-          "plains",
-          "flowery",
-          "evil",
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/evil",
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Crobat palette:strike",
@@ -40,20 +40,11 @@
         "times": [
           "MIDNIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "stringBiomes": [
-          "all forests",
-          "swamps",
-          "mountainous",
-          "plains",
-          "flowery",
-          "evil",
-          "jungles"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Crobat",
@@ -66,7 +57,7 @@
       "condition": {
         "maxLightLevel": 0
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

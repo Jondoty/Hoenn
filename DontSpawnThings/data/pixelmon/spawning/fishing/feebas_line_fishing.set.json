@@ -2,8 +2,7 @@
   "id": "Feebas Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Feebas"
-      ,
+      "spec": "species:Feebas",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -17,15 +16,16 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Feebas"
-      ,
+      "spec": "species:Feebas",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -39,15 +39,16 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Milotic"
-      ,
+      "spec": "species:Milotic",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -55,8 +56,13 @@
       "maxLevel": 53,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

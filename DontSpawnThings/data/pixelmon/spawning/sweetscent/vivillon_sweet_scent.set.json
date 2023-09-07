@@ -2,9 +2,7 @@
   "id": "Vivillon Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Vivillon",
-        "form": 19
-      ,
+      "spec": "species:Vivillon palette:poke_ball",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,8 +13,8 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0

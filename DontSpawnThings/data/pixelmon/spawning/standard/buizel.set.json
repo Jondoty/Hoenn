@@ -13,15 +13,35 @@
         "times": [
           "AFTERNOON"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "lakes",
+          "#pixelmon:spawning/lakes",
           "minecraft:stone_shore",
           "biomesoplenty:gravel_beach",
           "byg:rocky_beach"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Buizel",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

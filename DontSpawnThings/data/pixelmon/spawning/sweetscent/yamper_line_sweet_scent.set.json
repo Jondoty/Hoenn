@@ -2,8 +2,7 @@
   "id": "Yamper Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Yamper"
-      ,
+      "spec": "species:Yamper",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,15 +14,14 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/savannas"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Boltund"
-      ,
+      "spec": "species:Boltund",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -35,8 +33,8 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/savannas"
         ]
       },
       "rarity": 0.0

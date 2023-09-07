@@ -2,8 +2,7 @@
   "id": "Mantine Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Mantine"
-      ,
+      "spec": "species:Mantine",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -14,15 +13,17 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Mantine"
-      ,
+      "spec": "species:Mantine",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -33,8 +34,13 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

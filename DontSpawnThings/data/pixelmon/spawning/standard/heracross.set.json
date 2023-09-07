@@ -8,20 +8,39 @@
         "Headbutt",
         "Sweet Scent"
       ],
-      "minLevel": 10,
-      "maxLevel": 60,
+      "minLevel": 25,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
         "times": [
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "taigas",
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Heracross",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

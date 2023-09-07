@@ -19,8 +19,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarityMultipliers": [
@@ -33,7 +33,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Cofagrigus",
@@ -53,8 +53,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid"
+        "biomes": [
+          "#pixelmon:spawning/arid"
         ]
       },
       "rarityMultipliers": [
@@ -67,7 +67,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Cofagrigus",
@@ -84,7 +84,7 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:basalt_deltas",
           "minecraft:soul_sand_valley",
           "biomesoplenty:withered_abyss",
@@ -93,7 +93,7 @@
           "byg:quartz_desert"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

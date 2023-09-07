@@ -16,15 +16,15 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "beaches",
+        "biomes": [
+          "#pixelmon:spawning/beaches",
           "minecraft:ocean",
           "minecraft:lukewarm_ocean",
           "minecraft:cold_ocean",
-          "minecraft:freezing_ocean"
+          "minecraft:frozen_ocean"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

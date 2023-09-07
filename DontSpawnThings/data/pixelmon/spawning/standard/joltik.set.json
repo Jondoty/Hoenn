@@ -11,11 +11,11 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Joltik",
@@ -26,8 +26,8 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
       "rarityMultipliers": [
@@ -40,7 +40,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

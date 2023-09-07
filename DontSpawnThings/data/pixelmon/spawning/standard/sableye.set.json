@@ -28,7 +28,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Sableye",
@@ -45,12 +45,12 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "hellish",
+        "biomes": [
+          "#pixelmon:spawning/hellish",
           "pixelmon:ultra_deep_sea"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Sableye palette:drowned",
@@ -67,11 +67,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

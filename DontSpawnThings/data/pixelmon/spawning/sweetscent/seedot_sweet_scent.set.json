@@ -2,13 +2,12 @@
   "id": "Seedot Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Seedot"
-      ,
+      "spec": "species:Seedot",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
-      "minLevel": 3,
-      "maxLevel": 7,
+      "minLevel": 2,
+      "maxLevel": 13,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -17,9 +16,12 @@
         }
       ],
       "condition": {
-        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+        "biomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
+        ]
       },
-      "rarity": 30.0
+      "rarity": 0.0
     }
   ]
 }

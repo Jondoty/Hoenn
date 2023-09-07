@@ -2,19 +2,81 @@
   "id": "Rhyhorn",
   "spawnInfos": [
     {
-      "spec": "species:Rhyhorn"
-      ,
+      "spec": "species:Rhyhorn",
       "stringLocationTypes": [
-        "Underground",
         "Land"
       ],
-      "minLevel": 32,
-      "maxLevel": 36,
+      "minLevel": 20,
+      "maxLevel": 34,
       "typeID": "pokemon",
       "condition": {
-        "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay", "minecraft:gravel"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:badlands",
+          "#pixelmon:spawning/savannas"
+        ]
       },
+      "groupSpawnSettings": [
+        {
+          "spec": "Rhyhorn",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Rhyhorn palette:pink",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:badlands",
+          "#pixelmon:spawning/savannas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Rhyhorn",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
       "rarity": 0.0
     }
   ]

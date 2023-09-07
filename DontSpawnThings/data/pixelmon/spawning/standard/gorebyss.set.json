@@ -19,7 +19,7 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:ocean",
           "minecraft:deep_ocean",
           "minecraft:warm_ocean",
@@ -27,10 +27,35 @@
           "minecraft:lukewarm_ocean",
           "minecraft:deep_lukewarm_ocean",
           "minecraft:deep_cold_ocean",
-          "beaches"
+          "#pixelmon:spawning/beaches"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Gorebyss",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:water_chalice"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

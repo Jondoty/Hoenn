@@ -2,8 +2,7 @@
   "id": "Frillish Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Frillish"
-      ,
+      "spec": "species:Frillish",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -14,15 +13,14 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Frillish"
-      ,
+      "spec": "species:Frillish",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -33,15 +31,14 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Jellicent"
-      ,
+      "spec": "species:Jellicent",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -52,8 +49,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0

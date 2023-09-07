@@ -13,15 +13,35 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "hills",
-          "mountainous forests",
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/mountainous_forests",
           "biomesoplenty:tundra",
           "biomesoplenty:tundra_basin",
           "biomesoplenty:tundra_bog"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Skiddo",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Skiddo",
@@ -38,7 +58,7 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:snowy_tundra",
           "minecraft:snowy_taiga_hills",
           "byg:snowy_blue_taiga_hills",
@@ -47,7 +67,27 @@
           "byg:snowy_evergreen_taiga_hills"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Skiddo",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

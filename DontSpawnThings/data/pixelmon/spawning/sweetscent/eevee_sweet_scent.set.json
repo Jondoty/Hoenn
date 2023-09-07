@@ -2,8 +2,7 @@
   "id": "Eevee Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Eevee"
-      ,
+      "spec": "species:Eevee",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,8 +13,8 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
       "rarity": 0.0

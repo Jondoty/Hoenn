@@ -17,11 +17,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Stunfisk form:galarian",
@@ -39,11 +39,32 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Stunfisk form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 48,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_plant"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Stunfisk form:galarian",
@@ -60,11 +81,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

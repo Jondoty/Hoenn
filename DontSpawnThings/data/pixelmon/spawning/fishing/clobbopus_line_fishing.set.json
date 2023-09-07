@@ -2,8 +2,7 @@
   "id": "Clobbopus Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Clobbopus"
-      ,
+      "spec": "species:Clobbopus",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -11,19 +10,14 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DAWN",
-          "DAY"
-        ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Clobbopus"
-      ,
+      "spec": "species:Clobbopus",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -31,19 +25,14 @@
       "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DAWN",
-          "DAY"
-        ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Grapploct"
-      ,
+      "spec": "species:Grapploct",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -51,12 +40,8 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DAWN",
-          "DAY"
-        ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
       "rarity": 0.0

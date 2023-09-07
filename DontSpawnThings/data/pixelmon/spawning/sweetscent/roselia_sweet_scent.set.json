@@ -2,8 +2,7 @@
   "id": "Roselia Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Roselia"
-      ,
+      "spec": "species:Roselia",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,8 +14,8 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "flowery"
+        "biomes": [
+          "#pixelmon:spawning/flowery"
         ]
       },
       "rarity": 0.0

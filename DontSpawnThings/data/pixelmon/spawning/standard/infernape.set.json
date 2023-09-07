@@ -14,14 +14,14 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "mountainous forests",
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests",
           "minecraft:snowy_taiga_mountains",
           "minecraft:snowy_taiga_hills",
           "byg:snowy_blue_taiga_hills",
           "byg:snowy_confierous_forest_hills",
           "byg:snowy_deciduous_forest_hills",
-          "byg:snowy_evergreen_taiga_hills"
+          "byg:snowy_evergreen_hills"
         ]
       },
       "rarityMultipliers": [
@@ -34,7 +34,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

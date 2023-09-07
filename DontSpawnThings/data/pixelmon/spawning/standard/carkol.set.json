@@ -17,16 +17,36 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:shattered_savanna",
           "minecraft:shattered_savanna_plateau",
-          "mesas",
-          "mountainous",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Rolycoly",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 0.0
     },
     {
       "spec": "species:Carkol",
@@ -43,10 +63,10 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "savannas",
-          "mesas",
-          "mountainous",
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/mountainous",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ],
@@ -62,7 +82,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

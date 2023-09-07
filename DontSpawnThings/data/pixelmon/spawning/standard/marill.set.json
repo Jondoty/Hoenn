@@ -2,17 +2,45 @@
   "id": "Marill",
   "spawnInfos": [
     {
-      "spec": "species:Marill"
-      ,
+      "spec": "species:Marill",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 14,
-      "maxLevel": 16,
+      "minLevel": 5,
+      "maxLevel": 17,
       "typeID": "pokemon",
       "condition": {
-        "minX": -22, "maxX": 206, "minY": 42, "maxY": 66, "minZ": 217, "maxZ": 301,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "baseBlocks": [
+          "minecraft:sand",
+          "biomesoplenty:white_sand",
+          "byg:white_sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Marill palette:alter",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
       },
       "rarity": 0.0
     }

@@ -17,14 +17,14 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesas",
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Magcargo",
@@ -38,16 +38,16 @@
         "neededNearbyBlocks": [
           "lava"
         ],
-        "stringBiomes": [
-          "hellish"
+        "biomes": [
+          "#pixelmon:spawning/hellish"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
+        "biomes": [
           "byg:subzero_hypogeal"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Magcargo",
@@ -57,7 +57,7 @@
       "minLevel": 38,
       "maxLevel": 60,
       "typeID": "pokemon",
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

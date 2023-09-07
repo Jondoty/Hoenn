@@ -9,14 +9,20 @@
       "minLevel": 35,
       "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
       "condition": {
         "times": [
           "DAY"
         ],
-        "neededNearbyBlocks": [
+        "baseBlocks": [
           "beach"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:beach",
           "biomesoplenty:tropic_beach",
           "byg:rainbow_beach",
@@ -24,7 +30,31 @@
           "terraforged:warm_beach"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Vaporeon",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Vaporeon palette:strike",
@@ -34,25 +64,45 @@
       "minLevel": 35,
       "maxLevel": 50,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
       "condition": {
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "neededNearbyBlocks": [
-          "beach"
-        ],
-        "stringBiomes": [
-          "minecraft:beach",
-          "biomesoplenty:tropic_beach",
-          "byg:rainbow_beach",
-          "byg:white_beach",
-          "terraforged:warm_beach"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Vaporeon palette:spirit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:adamant_crystal",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

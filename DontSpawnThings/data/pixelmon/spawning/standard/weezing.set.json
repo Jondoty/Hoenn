@@ -2,14 +2,12 @@
   "id": "Weezing",
   "spawnInfos": [
     {
-      "spec": "species:Weezing"
-      ,
+      "spec": "species:Weezing",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 39,
-      "maxLevel": 44,
+      "minLevel": 35,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -18,20 +16,26 @@
         }
       ],
       "condition": {
-        "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826,
-        "neededNearbyBlocks": ["minecraft:wool"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil",
+          "biomesoplenty:burnt_forest",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains"
+        ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Weezing"
-      ,
+      "spec": "species:Weezing",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Land"
       ],
-      "minLevel": 39,
-      "maxLevel": 44,
+      "minLevel": 35,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -40,8 +44,34 @@
         }
       ],
       "condition": {
-      "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826,
-        "neededNearbyBlocks": ["minecraft:planks"]
+        "biomes": [
+          "biomesoplenty:visceral_heap",
+          "byg:embur_bog"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Weezing form:galarian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
       },
       "rarity": 0.0
     }

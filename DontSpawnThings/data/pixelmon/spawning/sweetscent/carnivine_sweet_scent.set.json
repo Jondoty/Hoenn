@@ -2,8 +2,7 @@
   "id": "Carnivine Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Carnivine"
-      ,
+      "spec": "species:Carnivine",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,8 +13,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "jungles"
+        "biomes": [
+          "#pixelmon:spawning/jungles"
         ]
       },
       "rarity": 0.0

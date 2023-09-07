@@ -19,16 +19,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:pygmy",
@@ -48,16 +48,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:runt",
@@ -77,16 +77,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:small",
@@ -106,16 +106,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:ordinary",
@@ -135,16 +135,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:huge",
@@ -164,16 +164,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:giant",
@@ -193,16 +193,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:enormous",
@@ -222,16 +222,16 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pumpkaboo growth:ginormous",
@@ -251,16 +251,64 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:sunflower_plains",
-          "evil",
+          "#pixelmon:spawning/evil",
           "biomesoplenty:seasonal_pumpkin_patch",
           "byg:pumpkin_forest",
           "byg:cika_woods",
           "byg:cika_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Pumpkaboo",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:miracle_seed",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

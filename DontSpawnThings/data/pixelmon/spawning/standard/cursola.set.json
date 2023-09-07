@@ -14,11 +14,11 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Cursola",
@@ -29,11 +29,11 @@
       "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "byg:dead_sea"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

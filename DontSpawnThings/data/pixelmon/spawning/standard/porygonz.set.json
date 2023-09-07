@@ -10,12 +10,11 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "minecraft:small_end_islands",
-          "minecraft:end_barrens"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

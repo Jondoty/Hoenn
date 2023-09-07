@@ -16,12 +16,12 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "savannas",
+        "biomes": [
+          "#pixelmon:spawning/savannas",
           "biomesoplenty:burnt_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Arcanine form:hisuian",
@@ -38,13 +38,31 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:savanna_plateau",
           "minecraft:shattered_savanna",
           "minecraft:shattered_savanna_plateau"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Arcanine form:hisuian",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Arcanine palette:ashen",
@@ -58,14 +76,11 @@
         "times": [
           "AFTERNOON"
         ],
-        "weathers": [
-          "CLEAR"
-        ],
-        "stringBiomes": [
-          "savannas"
+        "biomes": [
+          "pixelmon:ultra_crater"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

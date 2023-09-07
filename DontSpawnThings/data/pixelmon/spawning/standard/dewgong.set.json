@@ -2,36 +2,50 @@
   "id": "Dewgong",
   "spawnInfos": [
     {
-      "spec": "species:Dewgong"
-      ,
+      "spec": "species:Dewgong",
       "stringLocationTypes": [
-        "Land",
-        "Underground"
-      ],
-      "minLevel": 31,
-      "maxLevel": 36,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": -2128, "maxX": -2022, "minY": 25, "maxY": 32, "minZ": -889, "maxZ": -825,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
-      },
-      "rarity": 24.0
-    },
-    {
-      "spec": "species:Dewgong"
-      ,
-      "stringLocationTypes": [
-        "Land",
-        "Underground"
+        "Water",
+        "Land"
       ],
       "minLevel": 34,
-      "maxLevel": 40,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 24, "minZ": -889, "maxZ": -825,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:deep_frozen_ocean",
+          "minecraft:snowy_beach",
+          "byg:snowy_rocky_black_beach",
+          "byg:snowy_black_beach",
+          "byg:frozen_lake",
+          "terraforged:frozen_lake"
+        ]
       },
-      "rarity": 24.0
+      "groupSpawnSettings": [
+        {
+          "spec": "Seel",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 0.0
     }
   ]
 }

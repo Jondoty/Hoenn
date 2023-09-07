@@ -13,10 +13,10 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "all forests",
-          "swamps",
-          "evil"
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil"
         ]
       },
       "rarityMultipliers": [
@@ -29,7 +29,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

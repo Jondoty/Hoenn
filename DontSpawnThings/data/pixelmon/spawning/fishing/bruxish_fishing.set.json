@@ -2,8 +2,7 @@
   "id": "Bruxish Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Bruxish"
-      ,
+      "spec": "species:Bruxish",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -17,9 +16,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic",
-          "beaches"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "byg:coral_mangroves",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

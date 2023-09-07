@@ -20,13 +20,37 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "arid",
-          "swamps",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/mesas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Drapion",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

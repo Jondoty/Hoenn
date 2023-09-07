@@ -2,22 +2,43 @@
   "id": "Natu",
   "spawnInfos": [
     {
-      "spec": "species:Natu"
-      ,
+      "spec": "species:Natu",
       "stringLocationTypes": [
-        "Land"
+        "Tree Top",
+        "Headbutt"
       ],
-      "minLevel": 18,
+      "minLevel": 5,
       "maxLevel": 24,
       "typeID": "pokemon",
       "condition": {
-        "minX": 254, "maxX": 273, "minZ": -213, "maxZ": -169,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/mesas"
+        ]
       },
-      "rarity": 90.0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Natu",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 5,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.0
     }
-
-
-
   ]
 }

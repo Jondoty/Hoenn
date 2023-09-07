@@ -20,11 +20,36 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "minecraft:desert_hills"
+        "biomes": [
+          "minecraft:desert_hills",
+          "pixelmon:ultra_desert"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Volcarona",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 59,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:silver_powder",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
     },
     {
       "spec": "species:Volcarona palette:alter",
@@ -42,14 +67,13 @@
       ],
       "condition": {
         "times": [
-          "DAWN",
-          "DUSK"
+          "NIGHT"
         ],
-        "stringBiomes": [
-          "minecraft:desert_hills"
+        "biomes": [
+          "pixelmon:ultra_desert"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

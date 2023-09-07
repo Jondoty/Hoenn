@@ -1,0 +1,20 @@
+{
+  "id": "Togepi",
+  "spawnInfos": [
+    {
+      "spec": "species:Togepi",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

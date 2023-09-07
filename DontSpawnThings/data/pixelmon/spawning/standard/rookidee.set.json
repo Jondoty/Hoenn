@@ -15,15 +15,15 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mountainous",
-          "mountainous forests",
-          "redwoods",
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps",
           "biomesoplenty:burnt_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Rookidee",
@@ -38,15 +38,31 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mountainous",
-          "mountainous forests",
-          "redwoods",
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/swamps",
           "biomesoplenty:burnt_forest"
         ]
       },
-      "rarity": 0
+      "rarity": 0.00.0
+    },
+    {
+      "spec": "species:Rookidee",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade"
+      ],
+      "minLevel": 7,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.00.0
     }
   ]
 }

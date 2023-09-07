@@ -1,0 +1,21 @@
+{
+  "id": "Bonsly",
+  "spawnInfos": [
+    {
+      "spec": "species:Bonsly",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
+

@@ -19,11 +19,11 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Mawile",
@@ -43,11 +43,11 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing mountains"
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Mawile",
@@ -64,13 +64,13 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "freezing mountains",
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "#pixelmon:spawning/mountainous"
         ],
         "maxY": 50
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

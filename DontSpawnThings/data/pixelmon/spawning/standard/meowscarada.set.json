@@ -6,10 +6,16 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 1,
-      "maxLevel": 1,
+      "minLevel": 36,
+      "maxLevel": 55,
       "typeID": "pokemon",
       "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ]
       },
       "rarity": 0.0
     }

@@ -2,7 +2,7 @@
   "id": "Basculin",
   "spawnInfos": [
     {
-      "spec": "species:Basculin palette:red_stripe",
+      "spec": "species:Basculin form:red",
       "stringLocationTypes": [
         "Water"
       ],
@@ -16,18 +16,59 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/swamps",
           "minecraft:river",
-          "jungles",
-          "lakes",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/lakes",
           "byg:crag_gardens"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Basculin form:red",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
     },
     {
-      "spec": "species:Basculin palette:blue_stripe",
+      "spec": "species:Basculin form:red",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculin form:blue",
       "stringLocationTypes": [
         "Water"
       ],
@@ -41,18 +82,59 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/swamps",
           "minecraft:river",
-          "jungles",
-          "lakes",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/lakes",
           "byg:crag_gardens"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Basculin form:blue",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
     },
     {
-      "spec": "species:Basculin form:white_stripe",
+      "spec": "species:Basculin form:blue",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculin form:white",
       "stringLocationTypes": [
         "Water"
       ],
@@ -60,12 +142,47 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Basculin form:white",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Basculin form:white",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

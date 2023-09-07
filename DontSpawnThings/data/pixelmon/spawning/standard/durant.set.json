@@ -11,13 +11,28 @@
       "maxLevel": 46,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "mountainous",
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas"
         ],
         "maxLightLevel": 5
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Durant",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

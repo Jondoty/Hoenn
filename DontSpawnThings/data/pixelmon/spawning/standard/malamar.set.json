@@ -13,11 +13,16 @@
         "times": [
           "AFTERNOON"
         ],
-        "stringBiomes": [
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/beaches"
         ]
       },
-      "rarity": 0
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

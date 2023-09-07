@@ -2,17 +2,20 @@
   "id": "Snubbull",
   "spawnInfos": [
     {
-      "spec": "species:Snubbull"
-      ,
+      "spec": "species:Snubbull",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 13,
-      "maxLevel": 16,
+      "minLevel": 5,
+      "maxLevel": 22,
       "typeID": "pokemon",
       "condition": {
-        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292,
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
       "rarity": 0.0
     }

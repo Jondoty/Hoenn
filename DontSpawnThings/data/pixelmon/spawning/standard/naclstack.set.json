@@ -6,10 +6,48 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 1,
-      "maxLevel": 1,
+      "minLevel": 24,
+      "maxLevel": 37,
       "typeID": "pokemon",
       "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/mesas",
+          "minecraft:stone_shore",
+          "biomesoplenty:gravel_beach",
+          "byg:rocky_beach",
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_desert",
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Naclstack",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 24,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 64
       },
       "rarity": 0.0
     }

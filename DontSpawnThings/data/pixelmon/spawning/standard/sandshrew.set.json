@@ -4,44 +4,56 @@
     {
       "spec": "species:Sandshrew",
       "stringLocationTypes": [
-        "Underground"
+        "Land",
+        "Sweet Scent"
       ],
-      "minLevel": 4,
-      "maxLevel": 7,
+      "minLevel": 12,
+      "maxLevel": 22,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-        "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585,
-        "neededNearbyBlocks": ["minecraft:cyan_terracotta", "minecraft:andesite"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas"
+        ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Sandshrew",
+      "spec": "species:Sandshrew form:alolan",
       "stringLocationTypes": [
-        "Underground"
+        "Land",
+        "Sweet Scent"
       ],
-      "minLevel": 6,
-      "maxLevel": 9,
+      "minLevel": 12,
+      "maxLevel": 22,
       "typeID": "pokemon",
-      "condition": {
-        "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585,
-        "neededNearbyBlocks": ["minecraft:cyan_terracotta", "minecraft:andesite"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Sandshrew",
-      "stringLocationTypes": [
-        "Underground"
+      "heldItems": [
+        {
+          "itemID": "pixelmon:grip_claw",
+          "percentChance": 5
+        }
       ],
-      "minLevel": 6,
-      "maxLevel": 12,
-      "typeID": "pokemon",
       "condition": {
-        "minX": -2261, "maxX": -2159, "minZ": 769, "maxZ": 853,
-        "neededNearbyBlocks": ["minecraft:stone", "minecraft:sand"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing_mountains",
+          "minecraft:snowy_tundra",
+          "minecraft:ice_spikes",
+          "biomesoplenty:cold_desert",
+          "byg:shattered_glacier",
+          "pixelmon:mount_lanakila"
+        ]
       },
       "rarity": 0.0
     }

@@ -10,11 +10,11 @@
       "maxLevel": 10,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

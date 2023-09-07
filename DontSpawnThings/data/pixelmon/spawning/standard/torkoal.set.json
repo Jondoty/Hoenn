@@ -22,10 +22,10 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "arid",
-          "mesas",
-          "savannas",
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/savannas",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ]
@@ -40,7 +40,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Torkoal",
@@ -57,12 +57,12 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:nether_wastes",
           "minecraft:basalt_deltas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Torkoal",
@@ -78,7 +78,7 @@
           "percentChance": 5
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

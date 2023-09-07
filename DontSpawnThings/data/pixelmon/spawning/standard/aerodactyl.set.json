@@ -1,0 +1,23 @@
+{
+  "id": "Aerodactyl",
+  "spawnInfos": [
+    {
+      "spec": "species:Aerodactyl",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

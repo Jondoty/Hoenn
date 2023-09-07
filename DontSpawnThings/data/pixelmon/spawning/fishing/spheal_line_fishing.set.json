@@ -2,8 +2,7 @@
   "id": "Spheal Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Spheal"
-      ,
+      "spec": "species:Spheal",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -14,20 +13,19 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Spheal"
-      ,
+      "spec": "species:Spheal",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -38,20 +36,19 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Sealeo"
-      ,
+      "spec": "species:Sealeo",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -62,20 +59,19 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Sealeo"
-      ,
+      "spec": "species:Sealeo",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -86,20 +82,19 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Walrein"
-      ,
+      "spec": "species:Walrein",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -110,13 +105,13 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing"
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "anticondition": {
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
       "rarity": 0.0

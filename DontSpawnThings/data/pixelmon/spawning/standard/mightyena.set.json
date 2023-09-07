@@ -6,18 +6,18 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 18,
-      "maxLevel": 65,
+      "minLevel": 20,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
         "times": [
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "all forests",
-          "freezing forests",
-          "evil"
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/evil"
         ]
       },
       "rarityMultipliers": [
@@ -30,7 +30,42 @@
           }
         }
       ],
-      "rarity": 0
+      "groupSpawnSettings": [
+        {
+          "spec": "Poochyena",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.5
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Mightyena",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

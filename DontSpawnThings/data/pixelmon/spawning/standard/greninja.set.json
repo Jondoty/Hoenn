@@ -14,11 +14,11 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "#pixelmon:spawning/swamps"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Greninja palette:alter",
@@ -30,17 +30,16 @@
       "typeID": "pokemon",
       "condition": {
         "times": [
-          "DAWN",
-          "DUSK"
+          "MORNING"
         ],
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "pixellmon:ultra_jungle"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
-      "spec": "species:Greninja palette:alter ability:BattleBond",
+      "spec": "species:Greninja palette:alter form:battle_bond ivhp:20 ivspdef:20 ivdef:20 ivatk:31 ivspatk:31 ivspd:31 gender:male",
       "stringLocationTypes": [
         "Land"
       ],
@@ -52,11 +51,11 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "swamps"
+        "biomes": [
+          "pixelmon:ultra_jungle"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

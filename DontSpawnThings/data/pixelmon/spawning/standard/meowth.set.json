@@ -6,8 +6,8 @@
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 13,
-      "maxLevel": 16,
+      "minLevel": 10,
+      "maxLevel": 28,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -16,19 +16,33 @@
         }
       ],
       "condition": {
-        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
-      "rarity": 0.0
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass_path"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.00.0
     },
     {
-      "spec": "species:Meowth",
+      "spec": "species:Meowth form:alolan",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 13,
-      "maxLevel": 16,
+      "minLevel": 10,
+      "maxLevel": 28,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -37,42 +51,33 @@
         }
       ],
       "condition": {
-        "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
       },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Meowth",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 13,
-      "maxLevel": 16,
-      "typeID": "pokemon",
-      "heldItems": [
+      "rarityMultipliers": [
         {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass_path"
+            ]
+          }
         }
       ],
-      "condition": {
-        "minX": 776, "maxX": 798, "minZ": 121, "maxZ": 176,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
       "rarity": 0.0
     },
     {
-      "spec": "species:Meowth",
+      "spec": "species:Meowth form:galarian",
       "stringLocationTypes": [
         "Land"
       ],
-      "minLevel": 13,
-      "maxLevel": 16,
+      "minLevel": 10,
+      "maxLevel": 28,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -81,144 +86,27 @@
         }
       ],
       "condition": {
-        "minX": 776, "maxX": 798, "minZ": 121, "maxZ": 176,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:snowy_tundra",
+          "#pixelmon:spawning/freezing_mountains",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ]
       },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Meowth",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 15,
-      "maxLevel": 19,
-      "typeID": "pokemon",
-      "heldItems": [
+      "rarityMultipliers": [
         {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass_path"
+            ]
+          }
         }
       ],
-      "condition": {
-        "minX": -3103, "maxX": -3034, "minZ": 293, "maxZ": 344,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Meowth",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 12,
-      "maxLevel": 14,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Meowth",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 12,
-      "maxLevel": 14,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-    {
-      "spec": "species:Meowth",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 15,
-      "maxLevel": 19,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-
-
-
-    {
-      "spec": "species:Meowth",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 12,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614,
-        "times": [ "DAWN", "DUSK", "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Meowth",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 12,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:quick_claw",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614,
-        "times": [ "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
       "rarity": 0.0
     }
   ]

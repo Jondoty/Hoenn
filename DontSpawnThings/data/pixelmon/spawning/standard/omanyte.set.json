@@ -1,0 +1,23 @@
+{
+  "id": "Omanyte",
+  "spawnInfos": [
+    {
+      "spec": "species:Omanyte",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

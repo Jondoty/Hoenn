@@ -4,10 +4,10 @@
     {
       "spec": "species:Grimer",
       "stringLocationTypes": [
-        "Old Rod"
+        "Good Rod"
       ],
-      "minLevel": 10,
-      "maxLevel": 10,
+      "minLevel": 15,
+      "maxLevel": 32,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -16,43 +16,21 @@
         }
       ],
       "condition": {
-        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil",
+          "byg:polluted_lake"
+        ]
+      },
+      "rarity": 0.0
     },
-      "rarity": 90.0
-    },
-
-    {
-      "spec": "species:Muk",
-      "stringLocationTypes": [
-        "Old Rod"
-      ],
-      "minLevel": 10,
-      "maxLevel": 10,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:black_sludge",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
-    },
-      "rarity": 10.0
-    },
-
-
-
-
-
-
     {
       "spec": "species:Grimer",
       "stringLocationTypes": [
-        "Good Rod"
+        "Super Rod"
       ],
-      "minLevel": 20,
-      "maxLevel": 20,
+      "minLevel": 15,
+      "maxLevel": 32,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -61,44 +39,47 @@
         }
       ],
       "condition": {
-        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil",
+          "byg:polluted_lake"
+        ]
+      },
+      "rarity": 0.0
     },
-      "rarity": 90.0
+    {
+      "spec": "species:Grimer form:alolan",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 32,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil",
+          "byg:polluted_lake"
+        ]
+      },
+      "rarity": 0.0
     },
-
     {
       "spec": "species:Muk",
       "stringLocationTypes": [
-        "Good Rod"
-      ],
-      "minLevel": 20,
-      "maxLevel": 20,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:black_sludge",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
-    },
-      "rarity": 10.0
-    },
-
-
-
-
-
-
-
-    {
-      "spec": "species:Grimer",
-      "stringLocationTypes": [
-        "Good Rod"
+        "Super Rod"
       ],
       "minLevel": 40,
-      "maxLevel": 40,
+      "maxLevel": 52,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -107,18 +88,21 @@
         }
       ],
       "condition": {
-        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil",
+          "byg:polluted_lake"
+        ]
+      },
+      "rarity": 0.0
     },
-      "rarity": 90.0
-    },
-
     {
-      "spec": "species:Muk",
+      "spec": "species:Muk form:alolan",
       "stringLocationTypes": [
-        "Good Rod"
+        "Super Rod"
       ],
       "minLevel": 40,
-      "maxLevel": 40,
+      "maxLevel": 52,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -127,21 +111,16 @@
         }
       ],
       "condition": {
-        "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
-    },
-      "rarity": 10.0
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/evil",
+          "byg:polluted_lake"
+        ]
+      },
+      "rarity": 0.0
     }
-
-
-
-
-
-
-
-
-
-
-
-
   ]
 }

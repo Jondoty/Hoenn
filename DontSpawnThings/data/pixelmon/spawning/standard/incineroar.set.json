@@ -14,7 +14,7 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:jungle_hills",
           "minecraft:modified_jungle",
           "minecraft:bamboo_jungle_hills",
@@ -33,7 +33,26 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Incineroar",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 34,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

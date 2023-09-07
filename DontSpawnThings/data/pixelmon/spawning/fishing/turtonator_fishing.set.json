@@ -2,8 +2,7 @@
   "id": "Turtonator Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Turtonator"
-      ,
+      "spec": "species:Turtonator",
       "stringLocationTypes": [
         "Super Rod Lava"
       ],
@@ -17,8 +16,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "mesas"
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "biomesoplenty:volcano",
+          "biomesoplenty:volcanic_plains",
+          "#pixelmon:spawning/hellish"
         ]
       },
       "rarity": 0.0

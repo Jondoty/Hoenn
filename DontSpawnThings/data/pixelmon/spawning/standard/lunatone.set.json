@@ -24,7 +24,7 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:wooded_badlands_plateau"
         ]
       },
@@ -42,7 +42,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:gibbous",
@@ -63,8 +63,8 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end"
         ]
       },
       "rarityMultipliers": [
@@ -81,7 +81,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:gibbous",
@@ -118,7 +118,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:quarter",
@@ -143,7 +143,7 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:wooded_badlands_plateau"
         ]
       },
@@ -161,7 +161,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:quarter",
@@ -182,8 +182,8 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end"
         ]
       },
       "rarityMultipliers": [
@@ -200,7 +200,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:quarter",
@@ -237,7 +237,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:full",
@@ -262,7 +262,7 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:wooded_badlands_plateau"
         ]
       },
@@ -274,7 +274,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:full",
@@ -295,8 +295,8 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end"
         ]
       },
       "rarityMultipliers": [
@@ -307,7 +307,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:full",
@@ -338,7 +338,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:new_moon",
@@ -363,7 +363,7 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:wooded_badlands_plateau"
         ]
       },
@@ -375,7 +375,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:new_moon",
@@ -396,8 +396,8 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end"
         ]
       },
       "rarityMultipliers": [
@@ -408,7 +408,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:new_moon",
@@ -439,7 +439,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:crescent",
@@ -464,7 +464,7 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:wooded_badlands_plateau"
         ]
       },
@@ -482,7 +482,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:crescent",
@@ -503,8 +503,8 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "end"
+        "biomes": [
+          "#pixelmon:spawning/end"
         ]
       },
       "rarityMultipliers": [
@@ -521,7 +521,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     },
     {
       "spec": "species:Lunatone form:crescent",
@@ -558,7 +558,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.4
     }
   ]
 }

@@ -19,7 +19,7 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:deep_ocean",
           "minecraft:deep_warm_ocean",
           "minecraft:deep_lukewarm_ocean",
@@ -27,7 +27,32 @@
         ],
         "maxY": 40
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Huntail",
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:deep_sea_tooth",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "structures": [
+          "pixelmon:water_chalice"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

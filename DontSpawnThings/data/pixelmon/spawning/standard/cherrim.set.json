@@ -24,12 +24,12 @@
           "RAIN",
           "STORM"
         ],
-        "stringBiomes": [
-          "forests",
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Cherrim form:sunshine",
@@ -53,12 +53,12 @@
         "weathers": [
           "CLEAR"
         ],
-        "stringBiomes": [
-          "forests",
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

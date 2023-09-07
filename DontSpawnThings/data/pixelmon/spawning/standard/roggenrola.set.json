@@ -21,16 +21,15 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:shattered_savanna",
           "minecraft:shattered_savanna_plateau",
-          "mesas",
-          "pixelmon:ultra_deep_sea",
+          "#pixelmon:spawning/mesas",
           "biomesoplenty:volcano",
           "biomesoplenty:volcanic_plains"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Roggenrola",
@@ -53,7 +52,7 @@
       "condition": {
         "maxY": 70
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

@@ -2,26 +2,45 @@
   "id": "Dunsparce",
   "spawnInfos": [
     {
-      "spec": "species:Dunsparce"
-      ,
+      "spec": "species:Dunsparce",
       "stringLocationTypes": [
-        "Underground"
+        "Land",
+        "Rock Smash",
+        "Sweet Scent"
       ],
-      "minLevel": 2,
-      "maxLevel": 4,
+      "minLevel": 5,
+      "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "minX": -418, "maxX": -206, "minZ": -191, "maxZ": -11,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ]
       },
       "rarity": 0.0
     },
-
-
-
     {
-      "spec": "species:Dunsparce"
-      ,
+      "spec": "species:Dunsparce",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Dunsparce",
       "stringLocationTypes": [
         "Underground"
       ],

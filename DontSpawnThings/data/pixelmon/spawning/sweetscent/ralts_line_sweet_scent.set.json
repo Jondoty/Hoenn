@@ -2,8 +2,7 @@
   "id": "Ralts Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Ralts"
-      ,
+      "spec": "species:Ralts",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -14,15 +13,14 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Kirlia"
-      ,
+      "spec": "species:Kirlia",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -33,8 +31,8 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "birches"
+        "biomes": [
+          "#pixelmon:spawning/birches"
         ]
       },
       "rarity": 0.0

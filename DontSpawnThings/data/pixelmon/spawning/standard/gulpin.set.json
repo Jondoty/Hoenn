@@ -23,8 +23,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/swamps",
           "pixelmon:ultra_deep_sea"
         ]
       },
@@ -38,7 +38,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

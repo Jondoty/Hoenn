@@ -2,8 +2,7 @@
   "id": "Skrelp Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Skrelp"
-      ,
+      "spec": "species:Skrelp",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -15,15 +14,17 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "minecraft:deep_ocean",
+          "minecraft:deep_warm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+          "minecraft:deep_cold_ocean"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Skrelp"
-    ,
+      "spec": "species:Skrelp",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -35,15 +36,19 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Dragalge"
-      ,
+      "spec": "species:Dragalge",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -55,8 +60,13 @@
           "DUSK",
           "NIGHT"
         ],
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

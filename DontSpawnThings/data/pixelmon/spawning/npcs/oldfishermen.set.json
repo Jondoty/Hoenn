@@ -7,10 +7,10 @@
         "Land"
       ],
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "lakes",
-          "beaches"
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/beaches"
         ]
       },
       "rarityMultipliers": [
@@ -25,7 +25,7 @@
         {
           "multiplier": 20,
           "condition": {
-            "stringBiomes": [
+            "biomes": [
               "minecraft:river"
             ]
           }

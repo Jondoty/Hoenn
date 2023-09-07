@@ -19,8 +19,8 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
       "rarityMultipliers": [
@@ -33,7 +33,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Weavile palette:strike",
@@ -53,24 +53,11 @@
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "stringBiomes": [
-          "freezing forests"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 2,
-          "condition": {
-            "times": [
-              "MIDNIGHT"
-            ]
-          }
-        }
-      ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

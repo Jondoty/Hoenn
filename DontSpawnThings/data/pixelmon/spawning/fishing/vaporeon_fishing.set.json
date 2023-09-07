@@ -2,8 +2,7 @@
   "id": "Vaporeon Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Vaporeon"
-      ,
+      "spec": "species:Vaporeon",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -11,8 +10,13 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "river"
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarityMultipliers": [

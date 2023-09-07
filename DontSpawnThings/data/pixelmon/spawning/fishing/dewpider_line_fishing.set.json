@@ -2,8 +2,7 @@
   "id": "Dewpider Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Dewpider"
-      ,
+      "spec": "species:Dewpider",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -17,16 +16,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Dewpider"
-      ,
+      "spec": "species:Dewpider",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -40,16 +40,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Araquanid"
-      ,
+      "spec": "species:Araquanid",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -63,16 +64,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Araquanid"
-      ,
+      "spec": "species:Araquanid",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -86,9 +88,11 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes",
+          "byg:crag_gardens"
         ]
       },
       "rarity": 0.0

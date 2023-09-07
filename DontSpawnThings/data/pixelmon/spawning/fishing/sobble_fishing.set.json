@@ -1,0 +1,43 @@
+{
+  "id": "Sobble Fishing",
+  "spawnInfos": [
+    {
+      "spec": "species:Sobble",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 2,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Sobble",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

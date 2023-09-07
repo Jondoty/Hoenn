@@ -2,8 +2,7 @@
   "id": "Mareanie Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Mareanie"
-      ,
+      "spec": "species:Mareanie",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -17,15 +16,23 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:cold_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Mareanie"
-      ,
+      "spec": "species:Mareanie",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -39,15 +46,20 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Toxapex"
-      ,
+      "spec": "species:Toxapex",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -61,8 +73,14 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "oceanic"
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing"
         ]
       },
       "rarity": 0.0

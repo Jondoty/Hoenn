@@ -19,9 +19,9 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:snowy_tundra",
-          "freezing mountains",
+          "#pixelmon:spawning/freezing_mountains",
           "biomesoplenty:tundra",
           "biomesoplenty:tundra_basin",
           "biomesoplenty:tundra_bog"
@@ -32,12 +32,12 @@
           "multiplier": 1.5,
           "condition": {
             "neededNearbyBlocks": [
-              "minecraft:tall_grass_path"
+              "minecraft:grass_path"
             ]
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

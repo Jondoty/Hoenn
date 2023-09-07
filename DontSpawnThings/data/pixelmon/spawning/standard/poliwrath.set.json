@@ -19,10 +19,10 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "swamps",
+        "biomes": [
+          "#pixelmon:spawning/swamps",
           "minecraft:river",
-          "lakes"
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarityMultipliers": [
@@ -35,7 +35,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Poliwrath palette:strike",
@@ -55,16 +55,11 @@
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "stringBiomes": [
-          "swamps",
-          "minecraft:river",
-          "lakes"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

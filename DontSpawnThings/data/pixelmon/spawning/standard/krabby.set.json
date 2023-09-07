@@ -2,32 +2,26 @@
   "id": "Krabby",
   "spawnInfos": [
     {
-      "spec": "species:Krabby"
-      ,
+      "spec": "species:Krabby",
       "stringLocationTypes": [
-        "Underground"
+        "Seafloor",
+        "Land",
+        "Rock Smash"
       ],
-      "minLevel": 22,
-      "maxLevel": 24,
+      "minLevel": 15,
+      "maxLevel": 28,
       "typeID": "pokemon",
       "condition": {
-        "minX": 1104, "maxX": 1376, "minY": 80, "maxY": 100, "minZ": 95, "maxZ": 309,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Krabby"
-      ,
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 22,
-      "maxLevel": 24,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": 1219, "maxX": 1270, "minY": 25, "maxY": 39, "minZ": 164, "maxZ": 197,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "times": [
+          "DAWN",
+          "MORNING",
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean",
+          "#pixelmon:spawning/beaches"
+        ]
       },
       "rarity": 0.0
     }

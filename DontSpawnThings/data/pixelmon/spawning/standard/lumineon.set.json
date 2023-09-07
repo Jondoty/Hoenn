@@ -10,14 +10,14 @@
       "maxLevel": 43,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:deep_ocean",
           "minecraft:deep_warm_ocean",
           "minecraft:deep_lukewarm_ocean",
           "minecraft:deep_cold_ocean"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Lumineon palette:drowned",
@@ -28,11 +28,11 @@
       "maxLevel": 43,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

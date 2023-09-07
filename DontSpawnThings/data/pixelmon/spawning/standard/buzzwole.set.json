@@ -14,14 +14,11 @@
       "maxLevel": 60,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "jungles"
-        ],
-        "dimensions": [
-          "pixelmon:ultra_space"
+        "biomes": [
+          "pixelmon:ultra_jungle"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

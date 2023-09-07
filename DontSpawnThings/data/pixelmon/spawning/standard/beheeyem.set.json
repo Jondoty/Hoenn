@@ -14,11 +14,11 @@
           "DAWN",
           "DUSK"
         ],
-        "stringBiomes": [
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Beheeyem",
@@ -29,7 +29,7 @@
       "maxLevel": 54,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:small_end_islands",
           "minecraft:end_barrens",
           "byg:ivis_fields",
@@ -39,7 +39,22 @@
           "byg:shattered_viscal_isles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Beheeyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 43,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

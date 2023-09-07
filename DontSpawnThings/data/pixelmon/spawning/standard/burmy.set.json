@@ -16,9 +16,9 @@
           "DAY",
           "DUSK"
         ],
-        "stringBiomes": [
-          "forests",
-          "roofed"
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed"
         ]
       },
       "rarityMultipliers": [
@@ -31,7 +31,7 @@
           }
         }
       ],
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

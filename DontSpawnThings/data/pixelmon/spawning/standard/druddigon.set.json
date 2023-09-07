@@ -19,12 +19,12 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ],
         "minY": 70
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Druddigon",
@@ -43,7 +43,7 @@
       "condition": {
         "maxY": 50
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

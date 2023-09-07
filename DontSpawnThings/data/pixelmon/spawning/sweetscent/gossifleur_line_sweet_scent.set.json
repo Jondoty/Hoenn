@@ -2,8 +2,7 @@
   "id": "Gossifleur Line Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Gossifleur"
-      ,
+      "spec": "species:Gossifleur",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -15,15 +14,14 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "mutated_plains"
+        "biomes": [
+          "minecraft:sunflower_plains"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Eldegoss"
-      ,
+      "spec": "species:Eldegoss",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -35,8 +33,8 @@
           "DAWN",
           "DAY"
         ],
-        "stringBiomes": [
-          "mutated_plains"
+        "biomes": [
+          "minecraft:sunflower_plains"
         ]
       },
       "rarity": 0.0

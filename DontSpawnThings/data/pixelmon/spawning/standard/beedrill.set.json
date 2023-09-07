@@ -2,13 +2,14 @@
   "id": "Beedrill",
   "spawnInfos": [
     {
-      "spec": "species:Beedrill"
-      ,
+      "spec": "species:Beedrill",
       "stringLocationTypes": [
-        "Land"
+        "Air",
+        "Headbutt",
+        "Sweet Scent"
       ],
-      "minLevel": 3,
-      "maxLevel": 7,
+      "minLevel": 10,
+      "maxLevel": 50,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -17,9 +18,50 @@
         }
       ],
       "condition": {
-        "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448,
-        "times": [ "DAWN", "DUSK" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Beedrill palette:pink",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/flowery",
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/redwoods",
+          "byg:crag_gardens"
+        ]
       },
       "rarity": 0.0
     }

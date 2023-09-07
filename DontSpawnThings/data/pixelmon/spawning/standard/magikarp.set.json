@@ -2,131 +2,102 @@
   "id": "Magikarp",
   "spawnInfos": [
     {
-      "spec": "species:Magikarp"
-      ,
+      "spec": "species:Magikarp",
       "stringLocationTypes": [
         "Water"
       ],
-      "minLevel": 15,
-      "maxLevel": 17,
-      "typeID": "pokemon",
-      "condition": {
-      "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523
-      },
-      "rarity": 100.0
-    },
-
-
-
-    {
-      "spec": "species:Magikarp"
-      ,
-      "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 10,
+      "minLevel": 5,
       "maxLevel": 20,
       "typeID": "pokemon",
       "condition": {
-      "minX": -251, "maxX": -86, "minZ": 575, "maxZ": 724
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/swamps",
+          "minecraft:river",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/freezing",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/plains",
+          "#pixelmon:spawning/magical",
+          "#pixelmon:spawning/lakes",
+          "byg:polluted_lake",
+          "byg:crag_gardens"
+        ]
       },
-      "rarity": 90.0
-    },
-
-
-    {
-      "spec": "species:Magikarp"
-      ,
-      "stringLocationTypes": [
-        "Water"
+      "groupSpawnSettings": [
+        {
+          "spec": "Magikarp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
       ],
-      "minLevel": 2,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "condition": {
-      "minX": -687, "maxX": -604, "minZ": 254, "maxZ": 324
-      },
-      "rarity": 100.0
+      "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Magikarp"
-      ,
+      "spec": "species:Magikarp",
       "stringLocationTypes": [
         "Underground Water"
       ],
-      "minLevel": 2,
-      "maxLevel": 30,
+      "minLevel": 5,
+      "maxLevel": 20,
       "typeID": "pokemon",
-      "condition": {
-      "minX": -744, "maxX": -583, "minZ": 507, "maxZ": 654
+      "anticondition": {
+        "biomes": [
+          "pixelmon:infinite_ocean"
+        ]
       },
-      "rarity": 90.0
+      "rarity": 0.0
     },
-
-
     {
-      "spec": "species:Magikarp"
-      ,
+      "spec": "species:Magikarp palette:valencian",
       "stringLocationTypes": [
         "Water"
       ],
-      "minLevel": 2,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "condition": {
-      "minX": -629, "maxX": -604, "minZ": -325, "maxZ": -300
-      },
-      "rarity": 100.0
-    },
-
-
-    {
-      "spec": "species:Magikarp"
-      ,
-      "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 10,
+      "minLevel": 5,
       "maxLevel": 20,
       "typeID": "pokemon",
       "condition": {
-      "minX": -2498, "maxX": -2300, "minZ": -593, "maxZ": -474
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
       },
-      "rarity": 100.0
-    },
-
-
-    {
-      "spec": "species:Magikarp"
-      ,
-      "stringLocationTypes": [
-        "Underground Water"
+      "groupSpawnSettings": [
+        {
+          "spec": "Magikarp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
       ],
-      "minLevel": 2,
-      "maxLevel": 4,
-      "typeID": "pokemon",
-      "condition": {
-      "minX": -418, "maxX": -206, "minZ": -191, "maxZ": -11
-      },
-      "rarity": 100.0
-    },
-    {
-      "spec": "species:Magikarp"
-      ,
-      "stringLocationTypes": [
-        "Underground Water"
-      ],
-      "minLevel": 23,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "condition": {
-      "minX": -437, "maxX": -280, "minZ": -10, "maxZ": 128
-      },
-      "rarity": 100.0
+      "rarity": 0.0
     }
-
-
   ]
 }

@@ -13,11 +13,29 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Munna",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

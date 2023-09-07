@@ -2,18 +2,26 @@
   "id": "Swinub",
   "spawnInfos": [
     {
-      "spec": "species:Swinub"
-      ,
+      "spec": "species:Swinub",
       "stringLocationTypes": [
-        "Underground",
         "Land"
       ],
-      "minLevel": 22,
-      "maxLevel": 24,
+      "minLevel": 10,
+      "maxLevel": 33,
       "typeID": "pokemon",
       "condition": {
-        "minX": -872, "maxX": -587, "maxY": 59, "minZ": 299, "maxZ": 469,
-        "neededNearbyBlocks": ["minecraft:stained_hardened_clay"]
+        "biomes": [
+          "#pixelmon:spawning/freezing",
+          "biomesoplenty:tundra",
+          "biomesoplenty:tundra_basin",
+          "biomesoplenty:tundra_bog"
+        ],
+        "maxY": 80
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
+        ]
       },
       "rarity": 0.0
     }

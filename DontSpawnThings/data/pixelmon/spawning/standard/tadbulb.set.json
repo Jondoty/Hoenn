@@ -10,10 +10,10 @@
       "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:river",
-          "lakes",
-          "swamps"
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/swamps"
         ]
       },
       "rarity": 0.0

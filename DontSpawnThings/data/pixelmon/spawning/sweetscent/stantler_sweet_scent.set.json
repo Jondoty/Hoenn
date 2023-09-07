@@ -2,8 +2,7 @@
   "id": "Stantler Sweet Scent",
   "spawnInfos": [
     {
-      "spec": "species:Stantler"
-      ,
+      "spec": "species:Stantler",
       "stringLocationTypes": [
         "Sweet Scent"
       ],
@@ -16,8 +15,9 @@
           "AFTERNOON",
           "DUSK"
         ],
-        "stringBiomes": [
-          "hills"
+        "biomes": [
+          "#pixelmon:spawning/hills",
+          "#pixelmon:spawning/freezing_forests"
         ]
       },
       "rarity": 0.0

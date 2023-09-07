@@ -19,11 +19,11 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/savannas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Blissey palette:valencian",
@@ -43,12 +43,12 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
+        "biomes": [
           "minecraft:jungle_edge",
           "byg:tropical_islands"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

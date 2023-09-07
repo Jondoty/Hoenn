@@ -13,11 +13,11 @@
         "times": [
           "DAY"
         ],
-        "stringBiomes": [
-          "redwoods"
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Elgyem",
@@ -28,7 +28,7 @@
       "maxLevel": 41,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
+        "biomes": [
           "minecraft:small_end_islands",
           "minecraft:end_barrens",
           "minecraft:end_midlands",
@@ -39,7 +39,22 @@
           "byg:shattered_viscal_isles"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Elgyem",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "pixelmon:ultra_crater"
+        ]
+      },
+      "rarity": 0.0
     }
   ]
 }

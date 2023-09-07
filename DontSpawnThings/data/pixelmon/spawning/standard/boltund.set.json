@@ -14,11 +14,11 @@
         "times": [
           "MORNING"
         ],
-        "stringBiomes": [
-          "savannas"
+        "biomes": [
+          "#pixelmon:spawning/savannas"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Boltund palette:strike",
@@ -32,14 +32,11 @@
         "times": [
           "NIGHT"
         ],
-        "weathers": [
-          "STORM"
-        ],
-        "stringBiomes": [
-          "savannas"
+        "biomes": [
+          "pixelmon:ultra_plant"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

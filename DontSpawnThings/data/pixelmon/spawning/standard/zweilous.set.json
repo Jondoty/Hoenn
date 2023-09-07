@@ -13,12 +13,29 @@
         "times": [
           "NIGHT"
         ],
-        "stringBiomes": [
-          "mountainous forests",
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Zweilous",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 51,
+      "maxLevel": 63,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
           "pixelmon:ultra_deep_sea"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Zweilous",
@@ -29,12 +46,12 @@
       "maxLevel": 63,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "mountainous"
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
         ],
         "maxLightLevel": 0
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }

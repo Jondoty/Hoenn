@@ -2,7 +2,7 @@
   "id": "Basculin Line Fishing",
   "spawnInfos": [
     {
-      "spec": "species:Basculin",
+      "spec": "species:Basculin form:red",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -16,16 +16,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "jungles",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Basculin",
+      "spec": "species:Basculin form:red",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -39,16 +40,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "jungles",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Basculin",
+      "spec": "species:Basculin form:blue",
       "stringLocationTypes": [
         "Good Rod"
       ],
@@ -62,16 +64,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "jungles",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Basculin",
+      "spec": "species:Basculin form:blue",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -85,16 +88,17 @@
         }
       ],
       "condition": {
-        "stringBiomes": [
-          "river",
-          "jungles",
-          "swamps"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/swamps",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Basculin",
+      "spec": "species:Basculin form:white",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -102,15 +106,15 @@
       "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "river"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/lakes"
         ]
       },
       "rarity": 0.0
     },
     {
-      "spec": "species:Basculegion"
-      ,
+      "spec": "species:Basculegion",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -118,11 +122,13 @@
       "maxLevel": 50,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "minecraft:river"
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/lakes",
+          "byg:dead_sea"
         ]
       },
-      "rarity": 0.00
+      "rarity": 0.0
     }
   ]
 }

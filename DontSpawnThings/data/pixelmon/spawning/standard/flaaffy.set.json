@@ -2,54 +2,44 @@
   "id": "Flaaffy",
   "spawnInfos": [
     {
-      "spec": "species:Flaaffy"
-      ,
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 14,
-      "maxLevel": 16,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177,
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
-      "rarity": 0.0
-    },
-
-    {
-      "spec": "species:Flaaffy"
-      ,
+      "spec": "species:Flaaffy",
       "stringLocationTypes": [
         "Land"
       ],
       "minLevel": 15,
-      "maxLevel": 17,
+      "maxLevel": 30,
       "typeID": "pokemon",
       "condition": {
-        "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523,
-        "times": [ "DAWN", "DUSK", "NIGHT" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_tundra"
+        ]
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Flaaffy"
-      ,
-      "stringLocationTypes": [
-        "Land"
+      "groupSpawnSettings": [
+        {
+          "spec": "Mareep",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
       ],
-      "minLevel": 15,
-      "maxLevel": 17,
-      "typeID": "pokemon",
-      "condition": {
-        "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523,
-        "times": [ "DAY" ],
-        "neededNearbyBlocks": ["minecraft:grass"]
-      },
       "rarity": 0.0
     }
-
-
   ]
 }

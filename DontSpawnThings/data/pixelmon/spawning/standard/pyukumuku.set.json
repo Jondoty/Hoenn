@@ -11,8 +11,8 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "beaches",
+        "biomes": [
+          "#pixelmon:spawning/beaches",
           "minecraft:deep_ocean",
           "minecraft:warm_ocean",
           "minecraft:deep_warm_ocean",
@@ -21,7 +21,7 @@
           "minecraft:deep_cold_ocean"
         ]
       },
-      "rarity": 0
+      "rarity": 0.00.0
     },
     {
       "spec": "species:Pyukumuku palette:alter",
@@ -32,11 +32,11 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "minecraft:warm_ocean"
+        "biomes": [
+          "pixelmon:ultra_deep_sea"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     },
     {
       "spec": "species:Pyukumuku palette:drowned",
@@ -47,11 +47,11 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "stringBiomes": [
-          "pixelmon:infinite_ocean"
+        "biomes": [
+          "#pixelmon:spawning/drowned"
         ]
       },
-      "rarity": 0
+      "rarity": 0.0
     }
   ]
 }
