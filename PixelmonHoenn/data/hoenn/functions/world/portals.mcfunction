@@ -1111,46 +1111,65 @@ tp @a[x=2155,y=171,z=-797,dx=6,dy=4] 634 91 -2307
 
 #-------------------------------------------------------------------------
 #League Proper
-#Sydney's exterior to battle room
-tp @a[x=632,y=91,z=-2382,dx=4,dy=3] 634 95 -2447
-tp @a[x=632,y=95,z=-2446,dx=4,dy=3] 634 91 -2381
+#Rematch Portals
 
-#Sydney's Battle Room to Phoebe's exterior
-tp @a[x=632,y=95,z=-2478,dx=4,dy=3] 634 91 -2489
-tp @a[x=633,y=91,z=-2488,dx=4,dy=3] 634 95 -2477
+#Sydney's exterior to battle room
+tp @a[x=632,y=91,z=-2382,dx=4,dy=3,scores={PokemonLeague=1..}] 634 117 -2447
 
 #Phoebe's exterior to battle room
-tp @a[x=632,y=91,z=-2562,dx=4,dy=3] 634 91 -2631
-tp @a[x=632,y=91,z=-2630,dx=4,dy=3] 634 91 -2561
-
-#Phoebe's battle room to Glacia's exterior
-tp @a[x=632,y=91,z=-2662,dx=4,dy=3] 634 91 -2677
-tp @a[x=633,y=91,z=-2676,dx=4,dy=3] 634 91 -2661
+tp @a[x=632,y=91,z=-2562,dx=4,dy=3,scores={PokemonLeague=1..}] 634 111 -2631
 
 #Glacia's exterior to battle room
-tp @a[x=631,y=91,z=-2750,dx=6,dy=3] 634 92 -2824
-tp @a[x=632,y=91,z=-2823,dx=4,dy=3] 634 91 -2749
-
-#Glacia's battle room to Drake's exterior
-tp @a[x=632,y=91,z=-2855,dx=4,dy=3] 634 91 -2871
-tp @a[x=633,y=91,z=-2870,dx=4,dy=3] 634 92 -2854
+tp @a[x=631,y=91,z=-2750,dx=6,dy=3,scores={PokemonLeague=1..}] 634 111 -2824
 
 #Drake's exterior to battle room
-tp @a[x=631,y=91,z=-2946,dx=6,dy=3] 634 91 -3017
-tp @a[x=632,y=91,z=-3016,dx=4,dy=3] 634 91 -2945
+tp @a[x=631,y=91,z=-2946,dx=6,dy=3,scores={PokemonLeague=1..}] 634 112 -3017
+
+#--------------------------
+#Regular Portals
+
+#Sydney's exterior to battle room
+tp @a[x=632,y=91,z=-2382,dx=4,dy=25] 634 95 -2447
+tp @a[x=632,y=95,z=-2446,dx=4,dy=25] 634 91 -2381
+
+#Sydney's Battle Room to Phoebe's exterior
+tp @a[x=632,y=95,z=-2478,dx=4,dy=25] 634 91 -2489
+tp @a[x=633,y=91,z=-2488,dx=4,dy=25,scores={PokemonLeague=1..}] 634 117 -2477
+tp @a[x=633,y=91,z=-2488,dx=4,dy=25] 634 95 -2477
+
+#Phoebe's exterior to battle room
+tp @a[x=632,y=91,z=-2562,dx=4,dy=25] 634 91 -2631
+tp @a[x=632,y=91,z=-2630,dx=4,dy=25] 634 91 -2561
+
+#Phoebe's battle room to Glacia's exterior
+tp @a[x=632,y=91,z=-2662,dx=4,dy=25] 634 91 -2677
+tp @a[x=633,y=91,z=-2676,dx=4,dy=25,scores={PokemonLeague=1..}] 634 111 -2661
+tp @a[x=633,y=91,z=-2676,dx=4,dy=25] 634 91 -2661
+
+#Glacia's exterior to battle room
+tp @a[x=631,y=91,z=-2750,dx=6,dy=25] 634 92 -2824
+tp @a[x=632,y=91,z=-2823,dx=4,dy=25] 634 91 -2749
+
+#Glacia's battle room to Drake's exterior
+tp @a[x=632,y=91,z=-2855,dx=4,dy=25] 634 91 -2871
+tp @a[x=633,y=91,z=-2870,dx=4,dy=25,scores={PokemonLeague=1..}] 634 111 -2854
+tp @a[x=633,y=91,z=-2870,dx=4,dy=25] 634 92 -2854
+
+#Drake's exterior to battle room
+tp @a[x=631,y=91,z=-2946,dx=6,dy=25] 634 91 -3017
+tp @a[x=632,y=91,z=-3016,dx=6,dy=25] 634 91 -2945
 
 #Drake's battle room to Steven's exterior
-tp @a[x=632,y=91,z=-3048,dx=4,dy=3] 634.0 88 -3064
-tp @a[x=632,y=87,z=-3063,dx=4,dy=3] 634 91 -3047
+tp @a[x=632,y=91,z=-3048,dx=4,dy=25] 634.0 87 -3064
+tp @a[x=632,y=87,z=-3063,dx=4,dy=25,scores={PokemonLeague=1..}] 634 112 -3047
+tp @a[x=632,y=87,z=-3063,dx=4,dy=25] 634 91 -3047
 
 #Steven's Exterior to battle room (return)
+tp @a[x=632,y=84,z=-3215,dx=4,dy=3] 634.0 87 -3180
 tp @a[x=632,y=140,z=-3215,dx=4,dy=3] 634.0 87 -3180
 
 #Steven's battle room to hall of fame
 #tp @a[x=632,y=171,z=-3288,dx=4,dy=3] BUILDME
-
-#--------------------------
-#Rematch Portals
 
 #-------------------------------------------------------------------------
 #Battle Resort
@@ -1200,52 +1219,54 @@ tp @a[x=2500,y=44,z=431,dx=4,dy=3] 2502 64 430
 #https://gamefaqs.gamespot.com/gba/471243-pokemon-ruby-version/map/12855?raw=1
 
 #Portal 1
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1069,y=132,z=-2736,dx=3,dy=3] 878 65 -2613
+tp @a[x=877,y=65,z=-2612,dx=3,dy=3] 1070 132 -2735
+
+#go back to room 1070 65 -2967
 
 #Portal 2
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1041,y=65,z=-2892,dx=3,dy=3] 955 70 -2638
+tp @a[x=954,y=70,z=-2637,dx=3,dy=3] 1043 65 -2891
 
 #Portal 3
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1120,y=97,z=-2797,dx=3,dy=3] 892 65 -2711
+tp @a[x=891,y=65,z=-2712,dx=3,dy=3] 1121 97 -2798
 
 #Portal 4
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1058,y=97,z=-2788,dx=3,dy=3] 947 70 -2887
+tp @a[x=945,y=70,z=-2888,dx=3,dy=3] 1060 97 -2789
 
 #Portal 5
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1055,y=65,z=-2792,dx=3,dy=3] 919 70 -2832
+tp @a[x=917,y=70,z=-2833,dx=3,dy=3] 1057 65 -2793
 
 #Portal 6
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1113,y=65,z=-2824,dx=3,dy=3] 882 80 -2892
+tp @a[x=880,y=80,z=-2893,dx=3,dy=3] 1115 65 -2825
 
 #Portal 7
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1121,y=97,z=-2874,dx=3,dy=3] 934 75 -2940
+tp @a[x=933,y=75,z=-2939,dx=3,dy=3] 1122 97 -2873
 
 #Portal 8
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1058,y=97,z=-2878,dx=3,dy=3] 899 107 -2783
+tp @a[x=897,y=107,z=-2782,dx=3,dy=3] 1060 97 -2877
 
 #Portal 9
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=987,y=75,z=-3065,dx=3,dy=3] 1123 75 -2990
+tp @a[x=1122,y=75,z=-2989,dx=3,dy=3] 988 75 -3064
 
 #Portal 10
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=893,y=107,z=-2900,dx=3,dy=3] 1070 65 -2967
+tp @a[x=1069,y=65,z=-2966,dx=3,dy=3] 895 107 -2899
 
 #Portal 11
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1104,y=124,z=-2946,dx=3,dy=3] 1092 75 -3061
+tp @a[x=1091,y=75,z=-3062,dx=3,dy=3] 1106 124 -2947
 
 #Portal 12
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1105,y=104,z=-3049,dx=3,dy=3] 1028 120 -3322
+tp @a[x=1026,y=120,z=-3321,dx=3,dy=3] 1106 104 -3048
 
 #-------------------------------------------------------------------------
 #Team Magma Base
@@ -1344,88 +1365,92 @@ tp @a[x=910,y=99,z=-2347,dx=1,dy=3,dz=1] 911 99 -2380 0 0
 #Team Aqua Base
 
 #Entrance
+tp @a[x=1218,y=76,z=-2495,dx=7,dy=3] 1411.0 83 -2336
+tp @a[x=1409,y=83,z=-2335,dx=5,dy=3] 1221 76 -2494
 
 #A
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1399,y=83,z=-2352,dx=1,dy=3,dz=1] 1401 88 -2365 -90 0
+tp @a[x=1399,y=88,z=-2366,dx=1,dy=3,dz=1] 1399 83 -2350 0 0
+
+#one-way portal
+tp @a[x=1300,y=75,z=-2508,dx=1,dy=3,dz=1] 1401 88 -2365 -90 0
 
 #B
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1385,y=88,z=-2384,dx=1,dy=3,dz=1] 1430 88 -2390 0 0
+tp @a[x=1430,y=88,z=-2392,dx=1,dy=3,dz=1] 1384 88 -2383 90 0
 
 #C
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1381,y=83,z=-2355,dx=1,dy=3,dz=1] 1352 88 -2369 -90 0
+tp @a[x=1350,y=88,z=-2369,dx=1,dy=3,dz=1] 1382 83 -2353 66 0
 
 #D
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+#Connected stairs
 
 #E
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1319,y=74,z=-2414,dx=1,dy=3,dz=1] 1417 88 -2391 90 0
+tp @a[x=1418,y=88,z=-2392,dx=1,dy=3,dz=1] 1318 74 -2413 53 0
 
 #F
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1279,y=74,z=-2414,dx=1,dy=3,dz=1] 1424 83 -2353 -90 0
+tp @a[x=1422,y=83,z=-2354,dx=1,dy=3,dz=1] 1281 74 -2412 -45 0
 
 #G
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1400,y=99,z=-2336,dx=1,dy=3,dz=1] 1442 83 -2353 90 0
+tp @a[x=1443,y=83,z=-2354,dx=1,dy=3,dz=1] 1400 99 -2334 0 0
 
 #H
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1270,y=74,z=-2383,dx=1,dy=3,dz=1] 1359 74 -2382 -90 0
+tp @a[x=1357,y=74,z=-2383,dx=1,dy=3,dz=1] 1272 74 -2382 -90 0
 
 #I
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1406,y=74,z=-2432,dx=1,dy=3,dz=1] 1359 74 -2394 -90 0
+tp @a[x=1357,y=74,z=-2395,dx=1,dy=3,dz=1] 1405 74 -2431 90 0
 
 #J
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1290,y=75,z=-2502,dx=1,dy=3,dz=1] 1386 74 -2431 -90 0
+tp @a[x=1384,y=74,z=-2432,dx=1,dy=3,dz=1] 1289 75 -2501 90 0
 
 #K
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1395,y=74,z=-2395,dx=1,dy=3,dz=1] 1442 83 -2340
+tp @a[x=1443,y=83,z=-2341,dx=1,dy=3,dz=1] 1394 74 -2394 90 0
 
 #L
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1421,y=99,z=-2336,dx=1,dy=3,dz=1] 1424 83 -2340 -90 0
+tp @a[x=1422,y=83,z=-2341,dx=1,dy=3,dz=1] 1422.0 99 -2334 0 0
 
 #M
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1407,y=74,z=-2418,dx=1,dy=3,dz=1] 1332 74 -2417 -45 0
+tp @a[x=1330,y=74,z=-2319,dx=1,dy=3,dz=1] 1407 74 -2416 0 0
 
 #N
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1411,y=99,z=-2382,dx=1,dy=3,dz=1] 1331 74 -2397 180 0
+tp @a[x=1330,y=74,z=-2396,dx=1,dy=3,dz=1] 1411 99 -2380 0 0
 
 #O
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1420,y=99,z=-2374,dx=1,dy=3,dz=1] 1404 99 -2364 -90 0
+tp @a[x=1402,y=99,z=-2365,dx=1,dy=3,dz=1] 1419 99 -2373 90 0
 
 #P
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1402,y=99,z=-2374,dx=1,dy=3,dz=1] 1419 99 -2364 90 0
+tp @a[x=1420,y=99,z=-2365,dx=1,dy=3,dz=1] 1404 99 -2373 -90 0
 
 #Q
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1411,y=99,z=-2365,dx=1,dy=3,dz=1] 1410 99 -2354 140 0
+tp @a[x=1411,y=99,z=-2356,dx=1,dy=3,dz=1] 1413 99 -2363 -140 0
 
 #R
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1402,y=99,z=-2356,dx=1,dy=3,dz=1] 1420 99 -2345 80 0
+tp @a[x=1420,y=99,z=-2347,dx=1,dy=3,dz=1] 1404 99 -2355 -90 0
 
 #S
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1360,y=102,z=-2365,dx=1,dy=3,dz=1] 1403 99 -2345 -80 0
+tp @a[x=1402,y=99,z=-2347,dx=1,dy=3,dz=1] 1361.0 102 -2366 180 0
 
 #T
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1300,y=75,z=-2455,dx=1,dy=3,dz=1] 1343 74 -2418 90 0
+tp @a[x=1344,y=74,z=-2319,dx=1,dy=3,dz=1] 1302 75 -2454 -90 0
 
 #Back to start
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
-#tp @a[x=,y=,z=,dx=1,dy=3,dz=1]
+tp @a[x=1411,y=99,z=-2374,dx=1,dy=3,dz=1] 1411 99 -2380 0 0
+tp @a[x=1420,y=99,z=-2356,dx=1,dy=3,dz=1] 1411 99 -2380 0 0
+tp @a[x=1411,y=99,z=-2347,dx=1,dy=3,dz=1] 1411 99 -2380 0 0
