@@ -59,7 +59,8 @@ scoreboard players set @a[scores={click=1..}] click 0
 execute as @a[x=334,y=237,z=-1917,distance=..40] run function hoenn:world/flymap
 
 
-
+#Escape Rope used function
+execute as @a[scores={EscapeRopeUse=1..}] run function hoenn:items/escaperope
 
 
 
