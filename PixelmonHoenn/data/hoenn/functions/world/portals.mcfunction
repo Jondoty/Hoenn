@@ -559,18 +559,22 @@ tp @a[x=-1877,y=84,z=-1128,dx=10,dy=4] -1880 65 -2499
 
 #Fiery Path Mt. Chimney Base Station side
 scoreboard players set @a[x=-1820,y=104,z=-1173,dx=6,dy=5] click 1
+scoreboard players set @a[x=-1820,y=104,z=-1173,dx=6,dy=5] EscapeRope 7
 tp @a[x=-1820,y=104,z=-1173,dx=6,dy=5] -1787 43 -1171
 
 #Return
 scoreboard players set @a[x=-1790,y=43,z=-1170,dx=5,dy=5] click 1
+scoreboard players set @a[x=-1790,y=43,z=-1170,dx=5,dy=5] EscapeRope 0
 tp @a[x=-1790,y=43,z=-1170,dx=5,dy=5] -1817 104 -1172
 
 #------------
 scoreboard players set @a[x=-1685,y=79,z=-1309,dx=5,dy=5] click 1
+scoreboard players set @a[x=-1685,y=79,z=-1309,dx=5,dy=5] EscapeRope 8
 tp @a[x=-1685,y=79,z=-1309,dx=5,dy=5] -1786 33 -1337
 
 #Return
 scoreboard players set @a[x=-1789,y=33,z=-1336,dx=5,dy=5] click 1
+scoreboard players set @a[x=-1789,y=33,z=-1336,dx=5,dy=5] EscapeRope 0
 tp @a[x=-1789,y=33,z=-1336,dx=5,dy=5] -1682 79 -1308
 
 #-------------------------------------------------------------------------

@@ -105,19 +105,19 @@ execute as @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] run tp @s -2801 64 259 0 0
 execute as @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] run tag @s add EscapeRopeUse
 execute as @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] run effect give @s minecraft:blindness 5 1 true
 execute as @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] run playsound flee ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] run tp @s -1420 79 -991 0 0
+execute as @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] run tp @s -1422 79 -991 0 0
 
 #Ancient Tomb
 execute as @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227] run tag @s add EscapeRopeUse
 execute as @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227] run effect give @s minecraft:blindness 5 1 true
 execute as @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227] run playsound flee ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227] run tp @s -1420 79 -991 0 0
+execute as @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227] run tp @s -371 104 -1178 0 0
 
 #Team Aqua HQ
 execute as @s[x=1176,y=0,z=-2562,dx=312,dy=256,dz=276] run tag @s add EscapeRopeUse
 execute as @s[x=1176,y=0,z=-2562,dx=312,dy=256,dz=276] run effect give @s minecraft:blindness 5 1 true
 execute as @s[x=1176,y=0,z=-2562,dx=312,dy=256,dz=276] run playsound flee ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=1176,y=0,z=-2562,dx=312,dy=256,dz=276] run tp @s -371 104 -1178 0 0
+execute as @s[x=1176,y=0,z=-2562,dx=312,dy=256,dz=276] run tp @s 785 62 -1083 0 0
 
 #Team Magma HQ
 execute as @s[x=783,y=0,z=-2562,dx=391,dy=256,dz=276] run tag @s add EscapeRopeUse
@@ -125,8 +125,17 @@ execute as @s[x=783,y=0,z=-2562,dx=391,dy=256,dz=276] run effect give @s minecra
 execute as @s[x=783,y=0,z=-2562,dx=391,dy=256,dz=276] run playsound flee ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=783,y=0,z=-2562,dx=391,dy=256,dz=276] run tp @s 785 62 -1083 0 0
 
+#Fiery Path (Two entrances)
+execute as @s[scores={EscapeRope=7}] run effect give @s minecraft:blindness 5 1 true
+execute as @s[scores={EscapeRope=7}] run playsound flee ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={EscapeRope=7}] run tp @s -1817 104 -1172 0 0
 
-tag @s[scores={EscapeRopeUse=1..}] add EscapeRopeUse
+execute as @s[scores={EscapeRope=8}] run effect give @s minecraft:blindness 5 1 true
+execute as @s[scores={EscapeRope=8}] run playsound flee ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={EscapeRope=8}] run tp @s -1682 79 -1308 0 0
+
+
+tag @s[scores={EscapeRope=1..}] add EscapeRopeUse
 
 #Removes EscapeRope and EscapeRopeUse scores
 execute as @s[tag=EscapeRopeUse] run scoreboard players set @s click 1
