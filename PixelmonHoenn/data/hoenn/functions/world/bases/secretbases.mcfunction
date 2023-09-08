@@ -23,36 +23,41 @@ execute as @s[scores={BaseTrigger=1..}] run function hoenn:world/bases/claimbase
 
 
 #Base regeneration
-#In the format of /scoreboard objectives add Break24 minecraft.broken:pixelmon.warp_plate
+#Scans for dropped items with specific non-allowed blocks. If found, will regenerate the base and kill exact items.
 
-#Adds up a score to detect if player has broken anything
-scoreboard players operation @s BreakBase += @s Break1
-scoreboard players operation @s BreakBase += @s Break2
-scoreboard players operation @s BreakBase += @s Break3
-scoreboard players operation @s BreakBase += @s Break4
-scoreboard players operation @s BreakBase += @s Break5
-scoreboard players operation @s BreakBase += @s Break6
-scoreboard players operation @s BreakBase += @s Break7
-scoreboard players operation @s BreakBase += @s Break8
-scoreboard players operation @s BreakBase += @s Break9
-scoreboard players operation @s BreakBase += @s Break10
-scoreboard players operation @s BreakBase += @s Break11
-scoreboard players operation @s BreakBase += @s Break12
-scoreboard players operation @s BreakBase += @s Break13
-scoreboard players operation @s BreakBase += @s Break14
-scoreboard players operation @s BreakBase += @s Break15
-scoreboard players operation @s BreakBase += @s Break16
-scoreboard players operation @s BreakBase += @s Break17
-scoreboard players operation @s BreakBase += @s Break18
-scoreboard players operation @s BreakBase += @s Break19
-scoreboard players operation @s BreakBase += @s Break20
-scoreboard players operation @s BreakBase += @s Break21
-scoreboard players operation @s BreakBase += @s Break22
-scoreboard players operation @s BreakBase += @s Break23
-scoreboard players operation @s BreakBase += @s Break24
+#If any block broken that is specifically not allowed, will regenerate base.
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:terracotta",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:cyan_terracotta",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:jungle_leaves",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:red_terracotta",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:sandstone",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:cut_sandstone",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:spruce_wood",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:sand",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:lime_concrete_powder",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:orange_terracotta",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:orange_terracotta",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:gray_concrete_powder",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:spruce_log",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:granite",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:brown_concrete_powder",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:black_concrete",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:sandstone_stairs",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:pink_terracotta",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:gray_concrete",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:red_sandstone",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:coarse_dirt",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:red_concrete_powder",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:white_concrete",Count:1b}}] run function hoenn:world/bases/clonebases
+execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:pixelmon:warp_plate",Count:1b}}] run function hoenn:world/bases/clonebases
 
-#If any block broken that is specifically not allowed, will regenerate base. If modded/decorative block is broken, score won't trigger.
-execute if entity @s[scores={BreakBase=1..}] run function hoenn:world/bases/clonebases
+
+
+
+
+
+
+
 
 
 
