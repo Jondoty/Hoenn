@@ -35,6 +35,108 @@ scoreboard players operation @e[x=-2070,y=64,z=1410,dy=3] MirageSpots = @e[x=-20
 
 
 
+#Removes temporary claimed base tags, which is added when player goes to tour a base. Doesn't need to claim.
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base1Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base2Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base3Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base4Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base5Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base6Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base7Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base8Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base9Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base10Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base11Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base12Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base13Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base14Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base15Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base16Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base17Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base18Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base19Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base20Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base21Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base22Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base23Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base24Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base25Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base26Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base27Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base28Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base29Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base30Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base31Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base32Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base33Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base34Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base35Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base36Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base37Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base38Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base39Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base40Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base41Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base42Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base43Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base44Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base45Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base46Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base47Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base48Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base49Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base50Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base51Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base52Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base53Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base54Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base55Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base56Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base57Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base58Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base59Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base60Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base61Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base62Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base63Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base64Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base65Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base66Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base67Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base68Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base69Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base70Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base71Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base72Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base73Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base74Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base75Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base76Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base77Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base78Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base79Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base80Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base81Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base82Temp
+tag @e[x=-2070,y=65,z=1410,dy=3] remove Base83Temp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
