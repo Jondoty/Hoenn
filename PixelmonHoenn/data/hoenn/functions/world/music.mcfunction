@@ -183,7 +183,7 @@ scoreboard players set @s[x=-2107,y=0,z=-4,dx=155,dy=256,dz=122,scores={MusicCoo
 
 #Petalburg City
 playsound petalburgcity record @s[x=-2636,y=0,z=-81,dx=199,dy=256,dz=199,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2636,y=0,z=-81,dx=199,dy=256,dz=199,scores={MusicCooldown=0}] MusicCooldown 78
+scoreboard players set @s[x=-2636,y=0,z=-81,dx=199,dy=256,dz=199,scores={MusicCooldown=0}] MusicCooldown 102
 
 #Rustboro City
 playsound rustborocity record @s[x=-2804,y=0,z=-748,dx=195,dy=256,dz=235,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
