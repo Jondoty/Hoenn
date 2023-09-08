@@ -534,100 +534,100 @@ tellraw @s[x=735,y=65,z=-337,distance=..10,scores={BaseTrigger=200}] ["",{"text"
 
 
 
-execute as @s[scores={BaseTrigger=201}] tag @e add Base1Temp
-execute as @s[scores={BaseTrigger=202}] tag @e add Base2Temp
-execute as @s[scores={BaseTrigger=203}] tag @e add Base3Temp
-execute as @s[scores={BaseTrigger=204}] tag @e add Base4Temp
-execute as @s[scores={BaseTrigger=205}] tag @e add Base5Temp
-execute as @s[scores={BaseTrigger=206}] tag @e add Base6Temp
-execute as @s[scores={BaseTrigger=207}] tag @e add Base7Temp
-execute as @s[scores={BaseTrigger=208}] tag @e add Base8Temp
-execute as @s[scores={BaseTrigger=209}] tag @e add Base9Temp
-execute as @s[scores={BaseTrigger=210}] tag @e add Base10Temp
-execute as @s[scores={BaseTrigger=211}] tag @e add Base11Temp
-execute as @s[scores={BaseTrigger=212}] tag @e add Base12Temp
+execute as @s[scores={BaseTrigger=201}] run tag @e add Base1Temp
+execute as @s[scores={BaseTrigger=202}] run tag @e add Base2Temp
+execute as @s[scores={BaseTrigger=203}] run tag @e add Base3Temp
+execute as @s[scores={BaseTrigger=204}] run tag @e add Base4Temp
+execute as @s[scores={BaseTrigger=205}] run tag @e add Base5Temp
+execute as @s[scores={BaseTrigger=206}] run tag @e add Base6Temp
+execute as @s[scores={BaseTrigger=207}] run tag @e add Base7Temp
+execute as @s[scores={BaseTrigger=208}] run tag @e add Base8Temp
+execute as @s[scores={BaseTrigger=209}] run tag @e add Base9Temp
+execute as @s[scores={BaseTrigger=210}] run tag @e add Base10Temp
+execute as @s[scores={BaseTrigger=211}] run tag @e add Base11Temp
+execute as @s[scores={BaseTrigger=212}] run tag @e add Base12Temp
 
 
-execute as @s[scores={BaseTrigger=213}] tag @e add Base13Temp
-execute as @s[scores={BaseTrigger=214}] tag @e add Base14Temp
-execute as @s[scores={BaseTrigger=215}] tag @e add Base15Temp
-execute as @s[scores={BaseTrigger=216}] tag @e add Base16Temp
-execute as @s[scores={BaseTrigger=217}] tag @e add Base17Temp
-execute as @s[scores={BaseTrigger=218}] tag @e add Base18Temp
-execute as @s[scores={BaseTrigger=219}] tag @e add Base19Temp
-execute as @s[scores={BaseTrigger=220}] tag @e add Base20Temp
-execute as @s[scores={BaseTrigger=221}] tag @e add Base21Temp
-execute as @s[scores={BaseTrigger=222}] tag @e add Base22Temp
-execute as @s[scores={BaseTrigger=223}] tag @e add Base23Temp
-execute as @s[scores={BaseTrigger=224}] tag @e add Base24Temp
+execute as @s[scores={BaseTrigger=213}] run tag @e add Base13Temp
+execute as @s[scores={BaseTrigger=214}] run tag @e add Base14Temp
+execute as @s[scores={BaseTrigger=215}] run tag @e add Base15Temp
+execute as @s[scores={BaseTrigger=216}] run tag @e add Base16Temp
+execute as @s[scores={BaseTrigger=217}] run tag @e add Base17Temp
+execute as @s[scores={BaseTrigger=218}] run tag @e add Base18Temp
+execute as @s[scores={BaseTrigger=219}] run tag @e add Base19Temp
+execute as @s[scores={BaseTrigger=220}] run tag @e add Base20Temp
+execute as @s[scores={BaseTrigger=221}] run tag @e add Base21Temp
+execute as @s[scores={BaseTrigger=222}] run tag @e add Base22Temp
+execute as @s[scores={BaseTrigger=223}] run tag @e add Base23Temp
+execute as @s[scores={BaseTrigger=224}] run tag @e add Base24Temp
 
 
-execute as @s[scores={BaseTrigger=225}] tag @e add Base25Temp
-execute as @s[scores={BaseTrigger=226}] tag @e add Base26Temp
-execute as @s[scores={BaseTrigger=227}] tag @e add Base27Temp
-execute as @s[scores={BaseTrigger=228}] tag @e add Base28Temp
-execute as @s[scores={BaseTrigger=229}] tag @e add Base29Temp
-execute as @s[scores={BaseTrigger=230}] tag @e add Base30Temp
-execute as @s[scores={BaseTrigger=231}] tag @e add Base31Temp
-execute as @s[scores={BaseTrigger=232}] tag @e add Base32Temp
-execute as @s[scores={BaseTrigger=233}] tag @e add Base33Temp
-execute as @s[scores={BaseTrigger=234}] tag @e add Base34Temp
-execute as @s[scores={BaseTrigger=235}] tag @e add Base35Temp
-execute as @s[scores={BaseTrigger=236}] tag @e add Base36Temp
+execute as @s[scores={BaseTrigger=225}] run tag @e add Base25Temp
+execute as @s[scores={BaseTrigger=226}] run tag @e add Base26Temp
+execute as @s[scores={BaseTrigger=227}] run tag @e add Base27Temp
+execute as @s[scores={BaseTrigger=228}] run tag @e add Base28Temp
+execute as @s[scores={BaseTrigger=229}] run tag @e add Base29Temp
+execute as @s[scores={BaseTrigger=230}] run tag @e add Base30Temp
+execute as @s[scores={BaseTrigger=231}] run tag @e add Base31Temp
+execute as @s[scores={BaseTrigger=232}] run tag @e add Base32Temp
+execute as @s[scores={BaseTrigger=233}] run tag @e add Base33Temp
+execute as @s[scores={BaseTrigger=234}] run tag @e add Base34Temp
+execute as @s[scores={BaseTrigger=235}] run tag @e add Base35Temp
+execute as @s[scores={BaseTrigger=236}] run tag @e add Base36Temp
 
 
-execute as @s[scores={BaseTrigger=237}] tag @e add Base37Temp
-execute as @s[scores={BaseTrigger=238}] tag @e add Base38Temp
-execute as @s[scores={BaseTrigger=239}] tag @e add Base39Temp
-execute as @s[scores={BaseTrigger=240}] tag @e add Base40Temp
-execute as @s[scores={BaseTrigger=241}] tag @e add Base41Temp
-execute as @s[scores={BaseTrigger=242}] tag @e add Base42Temp
-execute as @s[scores={BaseTrigger=243}] tag @e add Base43Temp
-execute as @s[scores={BaseTrigger=244}] tag @e add Base44Temp
-execute as @s[scores={BaseTrigger=245}] tag @e add Base45Temp
-execute as @s[scores={BaseTrigger=246}] tag @e add Base46Temp
-execute as @s[scores={BaseTrigger=247}] tag @e add Base47Temp
-execute as @s[scores={BaseTrigger=248}] tag @e add Base48Temp
+execute as @s[scores={BaseTrigger=237}] run tag @e add Base37Temp
+execute as @s[scores={BaseTrigger=238}] run tag @e add Base38Temp
+execute as @s[scores={BaseTrigger=239}] run tag @e add Base39Temp
+execute as @s[scores={BaseTrigger=240}] run tag @e add Base40Temp
+execute as @s[scores={BaseTrigger=241}] run tag @e add Base41Temp
+execute as @s[scores={BaseTrigger=242}] run tag @e add Base42Temp
+execute as @s[scores={BaseTrigger=243}] run tag @e add Base43Temp
+execute as @s[scores={BaseTrigger=244}] run tag @e add Base44Temp
+execute as @s[scores={BaseTrigger=245}] run tag @e add Base45Temp
+execute as @s[scores={BaseTrigger=246}] run tag @e add Base46Temp
+execute as @s[scores={BaseTrigger=247}] run tag @e add Base47Temp
+execute as @s[scores={BaseTrigger=248}] run tag @e add Base48Temp
 
 
-execute as @s[scores={BaseTrigger=249}] tag @e add Base49Temp
-execute as @s[scores={BaseTrigger=250}] tag @e add Base50Temp
-execute as @s[scores={BaseTrigger=251}] tag @e add Base51Temp
-execute as @s[scores={BaseTrigger=252}] tag @e add Base52Temp
-execute as @s[scores={BaseTrigger=253}] tag @e add Base53Temp
-execute as @s[scores={BaseTrigger=254}] tag @e add Base54Temp
-execute as @s[scores={BaseTrigger=255}] tag @e add Base55Temp
-execute as @s[scores={BaseTrigger=256}] tag @e add Base56Temp
-execute as @s[scores={BaseTrigger=257}] tag @e add Base57Temp
-execute as @s[scores={BaseTrigger=258}] tag @e add Base58Temp
-execute as @s[scores={BaseTrigger=259}] tag @e add Base59Temp
-execute as @s[scores={BaseTrigger=260}] tag @e add Base60Temp
+execute as @s[scores={BaseTrigger=249}] run tag @e add Base49Temp
+execute as @s[scores={BaseTrigger=250}] run tag @e add Base50Temp
+execute as @s[scores={BaseTrigger=251}] run tag @e add Base51Temp
+execute as @s[scores={BaseTrigger=252}] run tag @e add Base52Temp
+execute as @s[scores={BaseTrigger=253}] run tag @e add Base53Temp
+execute as @s[scores={BaseTrigger=254}] run tag @e add Base54Temp
+execute as @s[scores={BaseTrigger=255}] run tag @e add Base55Temp
+execute as @s[scores={BaseTrigger=256}] run tag @e add Base56Temp
+execute as @s[scores={BaseTrigger=257}] run tag @e add Base57Temp
+execute as @s[scores={BaseTrigger=258}] run tag @e add Base58Temp
+execute as @s[scores={BaseTrigger=259}] run tag @e add Base59Temp
+execute as @s[scores={BaseTrigger=260}] run tag @e add Base60Temp
 
 
-execute as @s[scores={BaseTrigger=261}] tag @e add Base61Temp
-execute as @s[scores={BaseTrigger=262}] tag @e add Base62Temp
-execute as @s[scores={BaseTrigger=263}] tag @e add Base63Temp
-execute as @s[scores={BaseTrigger=264}] tag @e add Base64Temp
-execute as @s[scores={BaseTrigger=265}] tag @e add Base65Temp
-execute as @s[scores={BaseTrigger=266}] tag @e add Base66Temp
-execute as @s[scores={BaseTrigger=267}] tag @e add Base67Temp
-execute as @s[scores={BaseTrigger=268}] tag @e add Base68Temp
-execute as @s[scores={BaseTrigger=269}] tag @e add Base69Temp
-execute as @s[scores={BaseTrigger=270}] tag @e add Base70Temp
-execute as @s[scores={BaseTrigger=271}] tag @e add Base71Temp
-execute as @s[scores={BaseTrigger=272}] tag @e add Base72Temp
+execute as @s[scores={BaseTrigger=261}] run tag @e add Base61Temp
+execute as @s[scores={BaseTrigger=262}] run tag @e add Base62Temp
+execute as @s[scores={BaseTrigger=263}] run tag @e add Base63Temp
+execute as @s[scores={BaseTrigger=264}] run tag @e add Base64Temp
+execute as @s[scores={BaseTrigger=265}] run tag @e add Base65Temp
+execute as @s[scores={BaseTrigger=266}] run tag @e add Base66Temp
+execute as @s[scores={BaseTrigger=267}] run tag @e add Base67Temp
+execute as @s[scores={BaseTrigger=268}] run tag @e add Base68Temp
+execute as @s[scores={BaseTrigger=269}] run tag @e add Base69Temp
+execute as @s[scores={BaseTrigger=270}] run tag @e add Base70Temp
+execute as @s[scores={BaseTrigger=271}] run tag @e add Base71Temp
+execute as @s[scores={BaseTrigger=272}] run tag @e add Base72Temp
 
 
-execute as @s[scores={BaseTrigger=273}] tag @e add Base73Temp
-execute as @s[scores={BaseTrigger=274}] tag @e add Base74Temp
-execute as @s[scores={BaseTrigger=275}] tag @e add Base75Temp
-execute as @s[scores={BaseTrigger=276}] tag @e add Base76Temp
-execute as @s[scores={BaseTrigger=277}] tag @e add Base77Temp
-execute as @s[scores={BaseTrigger=278}] tag @e add Base78Temp
-execute as @s[scores={BaseTrigger=279}] tag @e add Base79Temp
-execute as @s[scores={BaseTrigger=280}] tag @e add Base80Temp
-execute as @s[scores={BaseTrigger=281}] tag @e add Base81Temp
-execute as @s[scores={BaseTrigger=282}] tag @e add Base82Temp
+execute as @s[scores={BaseTrigger=273}] run tag @e add Base73Temp
+execute as @s[scores={BaseTrigger=274}] run tag @e add Base74Temp
+execute as @s[scores={BaseTrigger=275}] run tag @e add Base75Temp
+execute as @s[scores={BaseTrigger=276}] run tag @e add Base76Temp
+execute as @s[scores={BaseTrigger=277}] run tag @e add Base77Temp
+execute as @s[scores={BaseTrigger=278}] run tag @e add Base78Temp
+execute as @s[scores={BaseTrigger=279}] run tag @e add Base79Temp
+execute as @s[scores={BaseTrigger=280}] run tag @e add Base80Temp
+execute as @s[scores={BaseTrigger=281}] run tag @e add Base81Temp
+execute as @s[scores={BaseTrigger=282}] run tag @e add Base82Temp
 
 tellraw @s[scores={BaseTrigger=201..282}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" used Secret Power!","italic":true,"color":"gray"}]
 
