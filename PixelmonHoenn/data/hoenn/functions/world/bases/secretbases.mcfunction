@@ -50,29 +50,29 @@ execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"mi
 execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:white_concrete",Count:1b}}] run function hoenn:world/bases/clonebases
 execute if entity @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"pixelmon:warp_plate",Count:1b}}] run function hoenn:world/bases/clonebases
 
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:terracotta"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:cyan_terracotta"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:jungle_leaves"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:red_terracotta"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:sandstone"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:cut_sandstone"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:spruce_wood"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:sand"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:lime_concrete_powder"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:orange_terracotta"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:gray_concrete_powder"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:spruce_log"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:granite"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:brown_concrete_powder"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:black_concrete"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:sandstone_stairs"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:pink_terracotta"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:gray_concrete"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:red_sandstone"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:coarse_dirt"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:red_concrete_powder"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:white_concrete"}]}] run function hoenn:world/bases/clonebases
-execute if @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:pixelmon:warp_plate"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:terracotta"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:cyan_terracotta"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:jungle_leaves"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:red_terracotta"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:sandstone"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:cut_sandstone"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:spruce_wood"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:sand"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:lime_concrete_powder"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:orange_terracotta"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:gray_concrete_powder"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:spruce_log"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:granite"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:brown_concrete_powder"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:black_concrete"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:sandstone_stairs"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:pink_terracotta"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:gray_concrete"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:red_sandstone"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:coarse_dirt"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:red_concrete_powder"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:white_concrete"}]}] run function hoenn:world/bases/clonebases
+execute if entity @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Inventory:[{id:"minecraft:pixelmon:warp_plate"}]}] run function hoenn:world/bases/clonebases
 
 
 
