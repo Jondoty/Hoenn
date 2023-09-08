@@ -27,6 +27,7 @@ execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:world/
 
 #Runs secret bases functions
 execute as @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] run function hoenn:world/bases/secretbases
+execute as @a[scores={BaseTrigger=1..}] run function hoenn:world/bases/secretbases
 
 #---------------------
 #Time-based commands
