@@ -1,5 +1,7 @@
 #This function will clone in and regenerate a base should a player destroy bits of it.
 
+#/gamerule commandModificationBlockLimit 500000
+
 #Build-level Y Axis:
 #64..88
 
@@ -43,7 +45,6 @@ execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:sand"}}] run kill @s
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:lime_concrete_powder"}}] run kill @s
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:orange_terracotta"}}] run kill @s
-execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:orange_terracotta"}}] run kill @s
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:gray_concrete_powder"}}] run kill @s
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:spruce_log"}}] run kill @s
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:granite"}}] run kill @s
@@ -56,9 +57,33 @@ execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:coarse_dirt"}}] run kill @s
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:red_concrete_powder"}}] run kill @s
 execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:white_concrete"}}] run kill @s
-execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"minecraft:pixelmon:warp_plate"}}] run kill @s
+execute as @e[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658,nbt={Item:{id:"pixelmon:warp_plate"}}] run kill @s
 
 
+#Clears player's inventory if they end up catching a block of the base
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:terracotta
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:cyan_terracotta
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:jungle_leaves
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:red_terracotta
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:sandstone
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:cut_sandstone
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:spruce_wood
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:sand
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:lime_concrete_powder
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:orange_terracotta
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:gray_concrete_powder
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:spruce_log
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:granite
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:brown_concrete_powder
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:black_concrete
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:sandstone_stairs
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:pink_terracotta
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:gray_concrete
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:red_sandstone
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:coarse_dirt
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:red_concrete_powder
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] minecraft:white_concrete
+clear @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] pixelmon:warp_plate
 
 
 #Starting at top left, northwest corner, working horizontally line by line
