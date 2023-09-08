@@ -61,6 +61,10 @@ tp @a[x=-1987,y=50,z=302,dy=3] -1976 66 1375.0 90 11
 tp @a[x=-2072,y=50,z=302,dy=3] -1976 66 1375.0 90 11
 
 #-------------------------------------------------------------------------
+#Secret-base related portals
+execute as @a run function hoenn:world/bases/portals
+
+#-------------------------------------------------------------------------
 #Littleroot Town
 
 #Prof Birch's Lab
