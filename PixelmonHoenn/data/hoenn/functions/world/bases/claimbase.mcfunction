@@ -434,7 +434,7 @@ tag @s remove ClaimSuccess
 
 #Rums commands if player is just entering the base
 
-tellraw @s[scores={BaseTrigger=200...}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[scores={BaseTrigger=200..}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
 
 tellraw @s[x=-1518,y=70,z=-301,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 201"}},{"text":"]","color":"white"}]
 tellraw @s[x=-1359,y=80,z=-1283,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 202"}},{"text":"]","color":"white"}]
