@@ -429,4 +429,234 @@ scoreboard players set @s[tag=ClaimSuccess] BaseTrigger 0
 tag @s remove ClaimSuccess
 
 
+
+
+
+#Rums commands if player is just entering the base
+
+tellraw @s[scores={BaseTrigger=200...}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+tellraw @s[x=-1518,y=70,z=-301,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 201"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1359,y=80,z=-1283,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 202"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1439,y=80,z=-1276,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 203"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1427,y=90,z=-1304,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 204"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1352,y=90,z=-1300,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 205"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1515,y=80,z=-1373,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 206"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1377,y=90,z=-1447,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 207"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1754,y=80,z=-1410,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 208"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2560,y=90,z=-1292,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 209"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2553,y=95,z=-1212,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 210"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2416,y=100,z=-1155,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 211"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2374,y=100,z=-1123,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 212"}},{"text":"]","color":"white"}]
+
+
+tellraw @s[x=-2519,y=100,z=-974,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 213"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2555,y=100,z=-1044,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 214"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2625,y=85,z=-1041,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 215"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2810,y=65,z=-1114,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 216"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2811,y=80,z=-1215,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 217"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2719,y=85,z=-1208,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 218"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2712,y=85,z=-1254,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 219"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2663,y=100,z=-1192,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 220"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2372,y=85,z=-731,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 221"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2378,y=70,z=-688,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 222"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2304,y=85,z=-739,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 223"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2271,y=70,z=-703,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 224"}},{"text":"]","color":"white"}]
+
+
+tellraw @s[x=-1794,y=70,z=-617,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 225"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1191,y=65,z=-627,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 226"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1088,y=65,z=-625,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 227"}},{"text":"]","color":"white"}]
+tellraw @s[x=-967,y=65,z=-547,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 228"}},{"text":"]","color":"white"}]
+tellraw @s[x=-977,y=67,z=-638,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 229"}},{"text":"]","color":"white"}]
+tellraw @s[x=-813,y=67,z=-630,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 230"}},{"text":"]","color":"white"}]
+tellraw @s[x=-790,y=85,z=-1434,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 231"}},{"text":"]","color":"white"}]
+tellraw @s[x=-818,y=75,z=-1061,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 232"}},{"text":"]","color":"white"}]
+tellraw @s[x=-918,y=75,z=-1052,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 233"}},{"text":"]","color":"white"}]
+tellraw @s[x=-945,y=75,z=-1307,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 234"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1000,y=90,z=-1431,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 235"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1017,y=90,z=-1363,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 236"}},{"text":"]","color":"white"}]
+
+
+tellraw @s[x=-980,y=70,z=-896,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 237"}},{"text":"]","color":"white"}]
+tellraw @s[x=-934,y=70,z=-1018,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 238"}},{"text":"]","color":"white"}]
+tellraw @s[x=-861,y=69,z=-1017,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 239"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1003,y=70,z=-951,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 240"}},{"text":"]","color":"white"}]
+tellraw @s[x=-280,y=85,z=-1376,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 241"}},{"text":"]","color":"white"}]
+tellraw @s[x=-317,y=75,z=-1374,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 242"}},{"text":"]","color":"white"}]
+tellraw @s[x=-245,y=85,z=-1324,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 243"}},{"text":"]","color":"white"}]
+tellraw @s[x=-198,y=85,z=-1228,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 244"}},{"text":"]","color":"white"}]
+tellraw @s[x=-245,y=75,z=-1166,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 245"}},{"text":"]","color":"white"}]
+tellraw @s[x=-378,y=100,z=-1106,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 246"}},{"text":"]","color":"white"}]
+tellraw @s[x=-350,y=105,z=-1219,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 247"}},{"text":"]","color":"white"}]
+tellraw @s[x=-226,y=85,z=-1044,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 248"}},{"text":"]","color":"white"}]
+
+
+tellraw @s[x=-82,y=75,z=-990,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 249"}},{"text":"]","color":"white"}]
+tellraw @s[x=79,y=80,z=-1048,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 250"}},{"text":"]","color":"white"}]
+tellraw @s[x=39,y=75,z=-1014,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 251"}},{"text":"]","color":"white"}]
+tellraw @s[x=-295,y=71,z=-642,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 252"}},{"text":"]","color":"white"}]
+tellraw @s[x=-370,y=67,z=-657,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 253"}},{"text":"]","color":"white"}]
+tellraw @s[x=-510,y=65,z=-613,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 254"}},{"text":"]","color":"white"}]
+tellraw @s[x=1560,y=65,z=-1179,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 255"}},{"text":"]","color":"white"}]
+tellraw @s[x=1492,y=65,z=-1224,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 256"}},{"text":"]","color":"white"}]
+tellraw @s[x=1683,y=65,z=-1278,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 257"}},{"text":"]","color":"white"}]
+tellraw @s[x=1704,y=65,z=-1268,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 258"}},{"text":"]","color":"white"}]
+tellraw @s[x=802,y=65,z=-783,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 259"}},{"text":"]","color":"white"}]
+tellraw @s[x=818,y=65,z=-673,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 260"}},{"text":"]","color":"white"}]
+
+
+tellraw @s[x=1551,y=65,z=-637,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 261"}},{"text":"]","color":"white"}]
+tellraw @s[x=1620,y=65,z=-725,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 262"}},{"text":"]","color":"white"}]
+tellraw @s[x=1493,y=65,z=-307,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 263"}},{"text":"]","color":"white"}]
+tellraw @s[x=1570,y=65,z=-335,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 264"}},{"text":"]","color":"white"}]
+tellraw @s[x=1659,y=65,z=-366,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 265"}},{"text":"]","color":"white"}]
+tellraw @s[x=-2265,y=43,z=-834,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 266"}},{"text":"]","color":"white"}]
+tellraw @s[x=2632,y=104,z=-2481,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 267"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1954,y=146,z=-2882,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 268"}},{"text":"]","color":"white"}]
+tellraw @s[x=-1888,y=39,z=-1354,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 269"}},{"text":"]","color":"white"}]
+tellraw @s[x=1532,y=70,z=459,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 270"}},{"text":"]","color":"white"}]
+tellraw @s[x=1668,y=70,z=515,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 271"}},{"text":"]","color":"white"}]
+tellraw @s[x=1697,y=75,z=512,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 272"}},{"text":"]","color":"white"}]
+
+
+tellraw @s[x=1665,y=70,z=572,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 273"}},{"text":"]","color":"white"}]
+tellraw @s[x=1548,y=55,z=523,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 274"}},{"text":"]","color":"white"}]
+tellraw @s[x=1557,y=60,z=595,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 275"}},{"text":"]","color":"white"}]
+tellraw @s[x=745,y=65,z=12,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 276"}},{"text":"]","color":"white"}]
+tellraw @s[x=767,y=65,z=6,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 277"}},{"text":"]","color":"white"}]
+tellraw @s[x=751,y=75,z=-23,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 278"}},{"text":"]","color":"white"}]
+tellraw @s[x=723,y=80,z=-26,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 279"}},{"text":"]","color":"white"}]
+tellraw @s[x=802,y=75,z=4,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 280"}},{"text":"]","color":"white"}]
+tellraw @s[x=812,y=85,z=-36,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 281"}},{"text":"]","color":"white"}]
+tellraw @s[x=735,y=65,z=-337,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 282"}},{"text":"]","color":"white"}]
+
+
+
+
+execute as @s[scores={BaseTrigger=201}] tag @e add Base1Temp
+execute as @s[scores={BaseTrigger=202}] tag @e add Base2Temp
+execute as @s[scores={BaseTrigger=203}] tag @e add Base3Temp
+execute as @s[scores={BaseTrigger=204}] tag @e add Base4Temp
+execute as @s[scores={BaseTrigger=205}] tag @e add Base5Temp
+execute as @s[scores={BaseTrigger=206}] tag @e add Base6Temp
+execute as @s[scores={BaseTrigger=207}] tag @e add Base7Temp
+execute as @s[scores={BaseTrigger=208}] tag @e add Base8Temp
+execute as @s[scores={BaseTrigger=209}] tag @e add Base9Temp
+execute as @s[scores={BaseTrigger=210}] tag @e add Base10Temp
+execute as @s[scores={BaseTrigger=211}] tag @e add Base11Temp
+execute as @s[scores={BaseTrigger=212}] tag @e add Base12Temp
+
+
+execute as @s[scores={BaseTrigger=213}] tag @e add Base13Temp
+execute as @s[scores={BaseTrigger=214}] tag @e add Base14Temp
+execute as @s[scores={BaseTrigger=215}] tag @e add Base15Temp
+execute as @s[scores={BaseTrigger=216}] tag @e add Base16Temp
+execute as @s[scores={BaseTrigger=217}] tag @e add Base17Temp
+execute as @s[scores={BaseTrigger=218}] tag @e add Base18Temp
+execute as @s[scores={BaseTrigger=219}] tag @e add Base19Temp
+execute as @s[scores={BaseTrigger=220}] tag @e add Base20Temp
+execute as @s[scores={BaseTrigger=221}] tag @e add Base21Temp
+execute as @s[scores={BaseTrigger=222}] tag @e add Base22Temp
+execute as @s[scores={BaseTrigger=223}] tag @e add Base23Temp
+execute as @s[scores={BaseTrigger=224}] tag @e add Base24Temp
+
+
+execute as @s[scores={BaseTrigger=225}] tag @e add Base25Temp
+execute as @s[scores={BaseTrigger=226}] tag @e add Base26Temp
+execute as @s[scores={BaseTrigger=227}] tag @e add Base27Temp
+execute as @s[scores={BaseTrigger=228}] tag @e add Base28Temp
+execute as @s[scores={BaseTrigger=229}] tag @e add Base29Temp
+execute as @s[scores={BaseTrigger=230}] tag @e add Base30Temp
+execute as @s[scores={BaseTrigger=231}] tag @e add Base31Temp
+execute as @s[scores={BaseTrigger=232}] tag @e add Base32Temp
+execute as @s[scores={BaseTrigger=233}] tag @e add Base33Temp
+execute as @s[scores={BaseTrigger=234}] tag @e add Base34Temp
+execute as @s[scores={BaseTrigger=235}] tag @e add Base35Temp
+execute as @s[scores={BaseTrigger=236}] tag @e add Base36Temp
+
+
+execute as @s[scores={BaseTrigger=237}] tag @e add Base37Temp
+execute as @s[scores={BaseTrigger=238}] tag @e add Base38Temp
+execute as @s[scores={BaseTrigger=239}] tag @e add Base39Temp
+execute as @s[scores={BaseTrigger=240}] tag @e add Base40Temp
+execute as @s[scores={BaseTrigger=241}] tag @e add Base41Temp
+execute as @s[scores={BaseTrigger=242}] tag @e add Base42Temp
+execute as @s[scores={BaseTrigger=243}] tag @e add Base43Temp
+execute as @s[scores={BaseTrigger=244}] tag @e add Base44Temp
+execute as @s[scores={BaseTrigger=245}] tag @e add Base45Temp
+execute as @s[scores={BaseTrigger=246}] tag @e add Base46Temp
+execute as @s[scores={BaseTrigger=247}] tag @e add Base47Temp
+execute as @s[scores={BaseTrigger=248}] tag @e add Base48Temp
+
+
+execute as @s[scores={BaseTrigger=249}] tag @e add Base49Temp
+execute as @s[scores={BaseTrigger=250}] tag @e add Base50Temp
+execute as @s[scores={BaseTrigger=251}] tag @e add Base51Temp
+execute as @s[scores={BaseTrigger=252}] tag @e add Base52Temp
+execute as @s[scores={BaseTrigger=253}] tag @e add Base53Temp
+execute as @s[scores={BaseTrigger=254}] tag @e add Base54Temp
+execute as @s[scores={BaseTrigger=255}] tag @e add Base55Temp
+execute as @s[scores={BaseTrigger=256}] tag @e add Base56Temp
+execute as @s[scores={BaseTrigger=257}] tag @e add Base57Temp
+execute as @s[scores={BaseTrigger=258}] tag @e add Base58Temp
+execute as @s[scores={BaseTrigger=259}] tag @e add Base59Temp
+execute as @s[scores={BaseTrigger=260}] tag @e add Base60Temp
+
+
+execute as @s[scores={BaseTrigger=261}] tag @e add Base61Temp
+execute as @s[scores={BaseTrigger=262}] tag @e add Base62Temp
+execute as @s[scores={BaseTrigger=263}] tag @e add Base63Temp
+execute as @s[scores={BaseTrigger=264}] tag @e add Base64Temp
+execute as @s[scores={BaseTrigger=265}] tag @e add Base65Temp
+execute as @s[scores={BaseTrigger=266}] tag @e add Base66Temp
+execute as @s[scores={BaseTrigger=267}] tag @e add Base67Temp
+execute as @s[scores={BaseTrigger=268}] tag @e add Base68Temp
+execute as @s[scores={BaseTrigger=269}] tag @e add Base69Temp
+execute as @s[scores={BaseTrigger=270}] tag @e add Base70Temp
+execute as @s[scores={BaseTrigger=271}] tag @e add Base71Temp
+execute as @s[scores={BaseTrigger=272}] tag @e add Base72Temp
+
+
+execute as @s[scores={BaseTrigger=273}] tag @e add Base73Temp
+execute as @s[scores={BaseTrigger=274}] tag @e add Base74Temp
+execute as @s[scores={BaseTrigger=275}] tag @e add Base75Temp
+execute as @s[scores={BaseTrigger=276}] tag @e add Base76Temp
+execute as @s[scores={BaseTrigger=277}] tag @e add Base77Temp
+execute as @s[scores={BaseTrigger=278}] tag @e add Base78Temp
+execute as @s[scores={BaseTrigger=279}] tag @e add Base79Temp
+execute as @s[scores={BaseTrigger=280}] tag @e add Base80Temp
+execute as @s[scores={BaseTrigger=281}] tag @e add Base81Temp
+execute as @s[scores={BaseTrigger=282}] tag @e add Base82Temp
+
+tellraw @s[scores={BaseTrigger=201..282}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" used Secret Power!","italic":true,"color":"gray"}]
+
+execute as @s[scores={BaseTrigger=201..282}] run function hoenn:world/bases/exteriors
+scoreboard players set @s[scores={BaseTrigger=200..282}] BaseTrigger 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #
