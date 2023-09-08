@@ -1166,8 +1166,32 @@ execute as @a[x=-2698,y=64,z=-2586,dx=92,dy=20,dz=92] run clone -2623 34 -2523 -
 
 
 
-
-
+#Resets scores if player has broken anything
+scoreboard players set @a[scores={Break1=1..}] Break1 0
+scoreboard players set @a[scores={Break2=1..}] Break2 0
+scoreboard players set @a[scores={Break3=1..}] Break3 0
+scoreboard players set @a[scores={Break4=1..}] Break4 0
+scoreboard players set @a[scores={Break5=1..}] Break5 0
+scoreboard players set @a[scores={Break6=1..}] Break6 0
+scoreboard players set @a[scores={Break7=1..}] Break7 0
+scoreboard players set @a[scores={Break8=1..}] Break8 0
+scoreboard players set @a[scores={Break9=1..}] Break9 0
+scoreboard players set @a[scores={Break10=1..}] Break10 0
+scoreboard players set @a[scores={Break11=1..}] Break11 0
+scoreboard players set @a[scores={Break12=1..}] Break12 0
+scoreboard players set @a[scores={Break13=1..}] Break13 0
+scoreboard players set @a[scores={Break14=1..}] Break14 0
+scoreboard players set @a[scores={Break15=1..}] Break15 0
+scoreboard players set @a[scores={Break16=1..}] Break16 0
+scoreboard players set @a[scores={Break17=1..}] Break17 0
+scoreboard players set @a[scores={Break18=1..}] Break18 0
+scoreboard players set @a[scores={Break19=1..}] Break19 0
+scoreboard players set @a[scores={Break20=1..}] Break20 0
+scoreboard players set @a[scores={Break21=1..}] Break21 0
+scoreboard players set @a[scores={Break22=1..}] Break22 0
+scoreboard players set @a[scores={Break23=1..}] Break23 0
+scoreboard players set @a[scores={Break24=1..}] Break24 0
+scoreboard players set @a[scores={BreakBase=1..}] BreakBase 0
 
 
 
