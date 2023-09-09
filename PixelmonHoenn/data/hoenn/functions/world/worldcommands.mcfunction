@@ -66,7 +66,8 @@ execute as @a[x=334,y=237,z=-1917,distance=..40] run function hoenn:world/flymap
 #Escape Rope used function
 execute as @a[scores={EscapeRopeUse=1..}] run function hoenn:items/escaperope
 
-
+#Mega Stones, execute if player is nearby a Mega Stone armor stand
+execute as @e[type=minecraft:armor_stand,tag=MegaStone] at @s if entity @a[distance=..50] run function hoenn:items/megastones
 
 
 

@@ -18,8 +18,35 @@ scoreboard players set @s MusicCooldown 0
 scoreboard players set @s StarterPick 0
 scoreboard players set @s TriggerCommand 0
 scoreboard players set @s Trigger 0
+scoreboard players set @s SecretBase 0
+scoreboard players set @s SecretBase 0
+scoreboard players set @s BaseTrigger 0
+scoreboard players set @s rng 0
+scoreboard players set @s PokemonLeague 0
 
 
+#Removes Mega Stone Fount tags
+tag @s remove MegaStone1
+tag @s remove MegaStone2
+tag @s remove MegaStone3
+tag @s remove MegaStone4
+tag @s remove MegaStone5
+tag @s remove MegaStone6
+tag @s remove MegaStone7
+tag @s remove MegaStone8
+tag @s remove MegaStone9
+tag @s remove MegaStone10
+tag @s remove MegaStone11
+tag @s remove MegaStone12
+tag @s remove MegaStone13
+tag @s remove MegaStone14
+tag @s remove MegaStone15
+tag @s remove MegaStone16
+tag @s remove MegaStone17
+tag @s remove MegaStone18
+tag @s remove MegaStone19
+tag @s remove MegaStone20
+tag @s remove MegaStone21
 
 
 #Removes any existing story tags
