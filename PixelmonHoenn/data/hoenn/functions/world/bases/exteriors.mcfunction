@@ -32,7 +32,7 @@
 #1
 execute if entity @e[x=-2070,y=65,z=1410,dy=3,tag=!Base1Claimed] if entity @a[x=-1518,y=70,z=-301,distance=..50] run clone -2068 70 1450 -2068 64 1452 -1518 69 -303
 execute if entity @e[x=-2070,y=65,z=1410,dy=3,tag=Base1Claimed] if entity @a[x=-1518,y=70,z=-301,distance=..50] run clone -2066 64 1452 -2066 70 1450 -1518 69 -303
-execute if entity @e[x=-2070,y=65,z=1410,dy=3,tag=Base1Temp] if entity @a[x=-1518,y=70,z=-301,distance=..50] run clone -2068 70 1450 -2068 64 1452 -1518 69 -303
+execute if entity @e[x=-2070,y=65,z=1410,dy=3,tag=Base1Temp] if entity @a[x=-1518,y=70,z=-301,distance=..50] run clone -2066 64 1452 -2066 70 1450 -1518 69 -303
 
 #2
 execute if entity @e[x=-2070,y=65,z=1410,dy=3,tag=!Base2Claimed] if entity @a[x=-1359,y=80,z=-1283,distance=..50] run clone -2068 65 1456 -2068 64 1457 -1359 79 -1284

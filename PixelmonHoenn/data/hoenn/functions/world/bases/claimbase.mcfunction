@@ -104,7 +104,7 @@ execute if entity @e[x=-2070,y=65,z=1410,dy=3,tag=!Base82Claimed] as @a[x=-2698,
 
 
 #Adds tag after telling player about the initial base prompt to not repeat. Tag will be removed upon leaving the base area.
-tag @s add BasePrompt
+tag @s[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] add BasePrompt
 
 
 

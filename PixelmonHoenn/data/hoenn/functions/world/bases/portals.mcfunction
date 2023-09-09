@@ -1,5 +1,6 @@
 #Sets the player into adventure mode if they're in anything else
 gamemode adventure @s
+tag @s remove BasePrompt
 
 #Base 1
 tp @a[x=-3493,y=65,z=-3083,dx=4,dy=3] -1518 70 -300
