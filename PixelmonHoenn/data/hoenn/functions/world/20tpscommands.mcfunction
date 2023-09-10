@@ -16,6 +16,8 @@ execute as @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] at @s run particle mine
 #execute as @a[SCOREBOARDTAGS] at @s run particle minecraft:flame ~ ~0 ~ 10 0.1 10 0 1 normal
 
 
+#Shakes the player's screen if tag is present
+execute as @a[tag=ShakeScreen] at @s run function hoenn:cutscenes/shakeeffect
 
 
 
