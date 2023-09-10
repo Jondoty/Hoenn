@@ -527,11 +527,11 @@ tp @a[x=-1564,y=79,z=-868,dx=3,dy=3] -1562 58 -869
 tp @a[x=-1564,y=58,z=-868,dx=3,dy=3] -1562 79 -867
 
 #Desert Ruins
-#execute as @a run function hoenn:tools/forceclick
-#tp @a[x=,y=,z=,dx=3,dy=3] -1421 37 -994
+execute as @a run function hoenn:tools/forceclick
+tp @a[x=-1424,y=79,z=-995,dx=4,dy=3] -1421 37 -994
 
-#execute as @a run function hoenn:tools/forceclick
-#tp @a[x=-1423,y=37,z=-993,dx=4,dy=3] -1422 79 -991
+execute as @a run function hoenn:tools/forceclick
+tp @a[x=-1423,y=37,z=-993,dx=4,dy=3] -1422 79 -994
 
 #if trapped behind wall
 execute as @a[x=-1423,y=37,z=-1041,dx=4,dy=5] at @s run tp @s ~ ~ ~5
@@ -766,8 +766,8 @@ tp @a[x=-475,y=66,z=-1375,dx=3,dy=3] -473 101 -1374
 
 #Ancient Tomb
 #Entrance is present or not present if Regis have been unlocked.
-#tp @a[x=,y=,z=,dx=3,dy=3] -371 37 -1181
-#tp @a[x=-373,y=37,z=-1180,dx=4,dy=3] -371 104 -1178
+tp @a[x=-374,y=104,z=-1182,dx=4,dy=3] -371 37 -1181
+tp @a[x=-373,y=37,z=-1180,dx=4,dy=3] -372 104 -1181
 
 #Registeel room exit if not air
 tp @a[x=-373,y=37,z=-1228,dx=4,dy=3] -371 37 -1224
@@ -971,7 +971,7 @@ tp @a[x=2912,y=87,z=-2863,dx=4,dy=3] 2899 84 -2496
 
 #-------------------------------------------------------------------------
 #Sealed Chamber (if player is stuck)
-tp @a[x=2575,y=80,z=-2948,dx=6,dy=3] 2579 80 -2945
+tp @a[x=2575,y=80,z=-2949,dx=6,dy=3] 2579 80 -2945
 
 #-------------------------------------------------------------------------
 #Route 126, Nameless Cavern

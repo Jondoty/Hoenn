@@ -70,9 +70,12 @@ execute as @a[scores={EscapeRopeUse=1..}] run function hoenn:items/escaperope
 execute as @e[type=minecraft:armor_stand,tag=MegaStone] at @s if entity @a[distance=..50] run function hoenn:items/megastones
 
 
+#-------------------------Regi-Related Commands-----------------------------------------------------------------------------------
+function hoenn:world/regis
 
-
-
+#Manages step counter commands total
+scoreboard players operation @a StepCounterWalk += @a[scores={StepCounterWalk=1..}] StepCounter
+scoreboard players set @a[scores={StepCounterWalk=1..}] StepCounterWalk 0
 
 
 

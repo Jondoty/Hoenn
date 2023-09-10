@@ -8443,13 +8443,19 @@ What good fortune... I'd been thinking that if I saw you again, I would want to 
 #tp out
 
 #-----------------------------------------------------------------------------------------------------
-#Dialogue 263
+#Dialogue 263  - Sealed Chamber Regis Unlock
 
+execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run tag @s add ShakeScreen
 
+execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 .75 1
+execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1.25 1
+execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run tag @s add RegiUnlock
+execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run tag @s remove ShakeScreen
 
+execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run tellraw @s {"text":"It sounded as if doors opened somewhere far away.","italic":true,"color":"gray"}
 
-
-
+#-----------------------------------------------------------------------------------------------------
 
 #Helpful points of reference
 
