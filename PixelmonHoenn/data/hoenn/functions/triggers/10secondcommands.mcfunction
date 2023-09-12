@@ -3,6 +3,9 @@
 #Manages secret base external visuals
 function hoenn:world/bases/exteriors
 
+#Manages any differences in game version
+function hoenn:world/gamedifferences
+
 
 #Manages fly spots if player needs tags
 tag @a[tag=!FlyOldale,x=-2107,y=0,z=-4,dx=155,dy=256,dz=122] add FlyOldale
