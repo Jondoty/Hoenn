@@ -238,35 +238,35 @@ tp @a[x=-2453,y=56,z=-723,dx=4,dy=3] -2451 69 -722
 
 #Rustboro Tunnel
 #Route 116 Side
-scoreboard players set @a[x=-2417,y=69,z=-723,dx=6,dy=5] click 1
+execute as @a[x=-2417,y=69,z=-723,dx=6,dy=5] run function hoenn:tools/forceclick
 scoreboard players set @a[x=-2417,y=69,z=-723,dx=6,dy=5] EscapeRope 1
 tp @a[x=-2417,y=69,z=-723,dx=6,dy=5] -2414 37 -792
 
 #Return
-scoreboard players set @a[x=-2417,y=37,z=-791,dx=6,dy=5] click 1
+execute as @a[x=-2417,y=37,z=-791,dx=6,dy=5] run function hoenn:tools/forceclick
 scoreboard players set @a[x=-2417,y=37,z=-791,dx=6,dy=5] EscapeRope 0
 tp @a[x=-2417,y=37,z=-791,dx=6,dy=5] -2414 69 -722
 
 #------------
 
 #Dead End Middle Portal
-scoreboard players set @a[x=-2336,y=69,z=-710,dx=6,dy=5] click 1
+execute as @a[x=-2336,y=69,z=-710,dx=6,dy=5] run function hoenn:tools/forceclick
 tp @a[x=-2336,y=69,z=-710,dx=6,dy=5] -2333 37 -751
 
 #Return
-scoreboard players set @a[x=-2336,y=37,z=-750,dx=6,dy=5] click 1
+execute as @a[x=-2336,y=37,z=-750,dx=6,dy=5] run function hoenn:tools/forceclick
 tp @a[x=-2336,y=37,z=-750,dx=6,dy=5] -2333 69 -709
 
 
 #------------
 
 #Verdanturf Town Side
-scoreboard players set @a[x=-2121,y=69,z=-659,dx=6,dy=5] click 1
+execute as @a[x=-2121,y=69,z=-659,dx=6,dy=5] run function hoenn:tools/forceclick
 scoreboard players set @a[x=-2121,y=69,z=-659,dx=6,dy=5] EscapeRope 2
 tp @a[x=-2121,y=69,z=-659,dx=6,dy=5] -2268 37 -771
 
 #Return
-scoreboard players set @a[x=-2271,y=37,z=-770,dx=6,dy=5] click 1
+execute as @a[x=-2271,y=37,z=-770,dx=6,dy=5] run function hoenn:tools/forceclick
 scoreboard players set @a[x=-2271,y=37,z=-770,dx=6,dy=5] EscapeRope 0
 tp @a[x=-2271,y=37,z=-770,dx=6,dy=5] -2118 69 -658
 
@@ -527,10 +527,10 @@ tp @a[x=-1564,y=79,z=-868,dx=3,dy=3] -1562 58 -869
 tp @a[x=-1564,y=58,z=-868,dx=3,dy=3] -1562 79 -867
 
 #Desert Ruins
-execute as @a run function hoenn:tools/forceclick
+execute as @a[x=-1424,y=79,z=-995,dx=4,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1424,y=79,z=-995,dx=4,dy=3] -1421 37 -994
 
-execute as @a run function hoenn:tools/forceclick
+execute as @a[x=-1423,y=37,z=-993,dx=4,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1423,y=37,z=-993,dx=4,dy=3] -1422 79 -994
 
 #if trapped behind wall
