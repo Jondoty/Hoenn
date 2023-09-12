@@ -157,7 +157,7 @@ tag @s[x=2348,y=38,z=611,dx=93,dy=40,dz=111] remove Fly
 
 
 gamemode spectator @s[tag=Fly]
-tp @s [tag=Fly]-787 111 1566 133 37
+tp @s[tag=Fly] -787 111 1566 133 37
 tag @s remove Fly
 
 

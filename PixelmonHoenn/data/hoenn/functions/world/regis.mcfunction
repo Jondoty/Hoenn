@@ -141,16 +141,16 @@ execute if entity @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmo
 #If player moves at all, StepCounter=1.., reset to 0
 #When DayTime=168... is achieved, activates tag.
 
-scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounter=1..,}] DayTime 0
-scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounterWalk=1..,}] DayTime 0
+scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounter=1..}] DayTime 0
+scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounterWalk=1..}] DayTime 0
 
-scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounter=1..,}] StepCounter 0
-scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounterWalk=1..,}] StepCounterWalk 0
+scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounter=1..}] StepCounter 0
+scoreboard players set @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={StepCounterWalk=1..}] StepCounterWalk 0
 
 execute as @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] run scoreboard players add @s DayTime 1
 
-execute as @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={DayTIme=168...}] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={DayTIme=168...}] run tag @s add IceUnlock
+execute as @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={DayTIme=168..}] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={DayTIme=168..}] run tag @s add IceUnlock
 
 
 #--------------------------------------------------------------------

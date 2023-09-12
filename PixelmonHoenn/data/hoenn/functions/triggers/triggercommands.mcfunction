@@ -6,7 +6,7 @@
 #Starters
  #1 - Treecko first prompt
 execute as @s[scores={TriggerCommand=1}] run tellraw @s ["",{"text":"You pick Treecko, the "},{"text":"Grass ","color":"green"},{"text":"Pokémon?"}]
-execute as @s[scores={TriggerCommand=1}] run tp @s ToConfirmationDome
+#execute as @s[scores={TriggerCommand=1}] run tp @s ToConfirmationDome
 
  #2 - Treecko confirmation
 execute as @s[scores={TriggerCommand=2}] run tellraw @s {"text":"You chose Treecko!"}
@@ -18,7 +18,7 @@ execute as @s[scores={TriggerCommand=2}] run pokebattle @s poochyena lvl:3
  #-----------------------------
  #3 - Torchic first prompt
 execute as @s[scores={TriggerCommand=3}] run tellraw @a ["",{"text":"You pick Torchic, the "},{"text":"Fire","color":"red"},{"text":" Pokémon?"}]
-execute as @s[scores={TriggerCommand=3}] run
+#execute as @s[scores={TriggerCommand=3}] run
 
  #4 - Torchic confirmation
 execute as @s[scores={TriggerCommand=4}] run tellraw @s {"text":"You chose Torchic!"}
@@ -30,7 +30,7 @@ execute as @s[scores={TriggerCommand=4}] run pokebattle @s poochyena lvl:3
 #-----------------------------
 #5 - Mudkip first prompt
 execute as @s[scores={TriggerCommand=5}] run tellraw @s ["",{"text":"You pick Mudkip, the "},{"text":"Water","color":"aqua"},{"text":" Pokémon?"}]
-execute as @s[scores={TriggerCommand=5}] run
+#execute as @s[scores={TriggerCommand=5}] run
 
 #6 - Mudkip confirmation
 execute as @s[scores={TriggerCommand=6}] run tellraw @s {"text":"You chose Mudkip!"}
@@ -50,8 +50,8 @@ execute as @s[scores={TriggerCommand=7}] run tellraw @s ["",{"text":"<Parasol La
 
 #Yes
 #Adds a score to a placeholder armor stand to track which tune plays.
-execute as @s[scores={TriggerCommand=8}] run scoreboard players add @e[ARMOR STAND] MusicCooldown 1
-execute as @s[scores={TriggerCommand=8}] run scoreboard players add @e[ARMOR STAND,scores={MusicCooldown=5..}] MusicCooldown 0
+execute as @s[scores={TriggerCommand=8}] run scoreboard players add @e[x=-2070,y=64,z=1410,dy=3] MusicCooldown 1
+execute as @s[scores={TriggerCommand=8}] run scoreboard players add @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=5..}] MusicCooldown 0
 execute as @s[scores={TriggerCommand=8}] run stopsound @a[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=1..}] record
 execute as @s[scores={TriggerCommand=8}] run scoreboard players set @a[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=1..}] MusicCooldown 0
 execute as @s[scores={TriggerCommand=8}] run tellraw @s {"text":"<Parasol Lady> Do you like it? If you want to change the music again, let me know!"}
