@@ -1,5 +1,14 @@
 #Runs the commands specifically if player clicks on the Eon flute. Confirms the player is not within an area they can't fly.
 
+#Adds the tag Fly, that must remain until the end to succeed.
+tag @s add Fly
+
+#When the player is in a dialogue
+title @s[tag=Fly,scores={TalkTime=1..}] actionbar {"text":"You can't Fly while in a dialogue!"}
+tag @s[scores={Fly=1..,TalkTime=1..}] remove Fly
+
+title @s[tag=Fly,scores={DialogueTrigger=1..}] actionbar {"text":"You can't Fly while in a dialogue!"}
+tag @s[scores={Fly=1..,DialogueTrigger=1..}] remove Fly
 
 
 
