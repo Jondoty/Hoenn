@@ -32,6 +32,9 @@ execute as @a[scores={BaseTrigger=1..}] run function hoenn:world/bases/secretbas
 #Relog function, commands when the player joins back into the world.
 execute as @a[scores={relog=1..}] run function hoenn:triggers/relog
 
+#Runs road-blocks, preventing player from going out of bounds or skipping ahead in world.
+function hoenn:world/roadblocks
+
 #---------------------
 #Time-based commands
 
