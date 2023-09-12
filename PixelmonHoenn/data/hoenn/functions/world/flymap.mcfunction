@@ -55,4 +55,35 @@ tp @s[x=350,y=237,z=-1915,dy=3,tag=FlyEverGrande] 2227 154 -219 0 ~
 tp @s[x=350,y=237,z=-1917,dy=3,tag=FlyLeague] 2158 170 -748 0 ~
 tp @s[x=345,y=237,z=-1908,dy=3,tag=FlyResort] 2353 69 808 0 ~
 
+
+#Runs particles
+particle minecraft:firework 321 237 -1913 0 2 0 0.1 0 normal @s
+particle minecraft:firework 321 237 -1916 0 2 0 0.1 0 normal @s[tag=FlyOldale]
+particle minecraft:firework 319.0 237 -1916 0 2 0 0.1 0 normal @s[tag=FlyPetalburg]
+particle minecraft:firework 316 237 -1922 0 2 0 0.1 0 normal @s[tag=FlyRustboro]
+particle minecraft:firework 319 237 -1907 0 2 0 0.1 0 normal @s[tag=FlyDewford]
+particle minecraft:firework 327.0 237 -1913.0 0 2 0 0.1 0 normal @s[tag=FlySlateport]
+particle minecraft:firework 326 237 -1921 0 2 0 0.1 0 normal @s[tag=FlyMauville]
+particle minecraft:firework 321 237 -1921 0 2 0 0.1 0 normal @s[tag=FlyVerdanturf]
+particle minecraft:firework 321.0 237 -1927 0 2 0 0.1 0 normal @s[tag=FlyFallarbor]
+particle minecraft:firework 323 237 -1924 0 2 0 0.1 0 normal @s[tag=FlyLavaridge]
+particle minecraft:firework 330 237 -1927 0 2 0 0.1 0 normal @s[tag=FlyFortree]
+particle minecraft:firework 337.0 237 -1923.0 0 2 0 0.1 0 normal @s[tag=FlyLilycove]
+particle minecraft:firework 345.0 237 -1922 0 2 0 0.1 0 normal @s[tag=FlyMossdeep]
+particle minecraft:firework 341 237 -1917 0 2 0 0.1 0 normal @s[tag=FlySootopolis]
+particle minecraft:firework 338 237 -1913 0 2 0 0.1 0 normal @s[tag=FlyPacifidlog]
+particle minecraft:firework 350 237 -1915 0 2 0 0.1 0 normal @s[tag=FlyEverGrande]
+particle minecraft:firework 350 237 -1917 0 2 0 0.1 0 normal @s[tag=FlyLeague]
+particle minecraft:firework 345 237 -1908 0 2 0 0.1 0 normal @s[tag=FlyResort]
+
+
+
+
+
+
+
+
+
+
+
 #

@@ -168,7 +168,7 @@ tag @s[x=2348,y=38,z=611,dx=93,dy=40,dz=111] remove Fly
 #---------------------------------------------------------------------------------------------
 #Fly Success
 
-tp @s[tag=Fly] 332 241 -1903
+tp @s[tag=Fly] 332 241 -1903 -180 0
 effect give @s[tag=Fly] minecraft:resistance 3 5 true
 tag @s remove Fly
 

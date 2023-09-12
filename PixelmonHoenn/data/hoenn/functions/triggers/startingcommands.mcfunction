@@ -49,6 +49,26 @@ tag @s remove MegaStone20
 tag @s remove MegaStone21
 
 
+#Resets Fly Tags
+tag @s remove FlyOldale
+tag @s remove FlyPetalburg
+tag @s remove FlyRustboro
+tag @s remove FlyDewford
+tag @s remove FlySlateport
+tag @s remove FlyMauville
+tag @s remove FlyVerdanturf
+tag @s remove FlyFallarbor
+tag @s remove FlyLavaridge
+tag @s remove FlyFortree
+tag @s remove FlyLilycove
+tag @s remove FlyMossdeep
+tag @s remove FlySootopolis
+tag @s remove FlyPacifidlog
+tag @s remove FlyEverGrande
+tag @s remove FlyLeague
+tag @s remove FlyResort
+
+
 #Removes any existing story tags
 tag @s remove Dialogue1
 tag @s remove Dialogue2
