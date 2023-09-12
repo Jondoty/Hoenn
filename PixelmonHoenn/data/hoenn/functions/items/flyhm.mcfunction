@@ -2,6 +2,7 @@
 
 #Adds the tag Fly, that must remain until the end to succeed.
 tag @s add Fly
+scoreboard players set @s click 0
 
 #When the player is in a dialogue
 title @s[tag=Fly,scores={TalkTime=1..}] actionbar {"text":"You can't Fly while in a dialogue!"}

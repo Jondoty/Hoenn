@@ -41,8 +41,29 @@ tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 
 
 #-------------------------Important Items-----------------------------------------------------------------------------------
+
+#Runs Fly HM and Map
+execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"HM02: Fly","italic":false,"color":"aqua"}]'}}}}] run function hoenn:items/flyhm
+
+#Eon Flute
+execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"Eon Flute","italic":false,"color":"light_purple"}]'}}}}] run function hoenn:items/eonflute
+
+#Fly Map
+execute as @a[x=334,y=237,z=-1917,distance=..40] run function hoenn:world/flymap
+
+
+#Escape Rope used function
+execute as @a[scores={EscapeRopeUse=1..}] run function hoenn:items/escaperope
+
+#Mega Stones, execute if player is nearby a Mega Stone armor stand
+execute as @e[type=minecraft:armor_stand,tag=MegaStone] at @s if entity @a[distance=..50] run function hoenn:items/megastones
+
+
+
+
 #Adds tags to play music if player is holding the radio in a specific way
-tag @a[scores={MusicCooldown=0},nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick"}]}] add RunMusic
+#This will likely be replaced when a proper Nav Plus system is added.
+tag @a[scores={MusicCooldown=0},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick"}]}] add RunMusic
 
 #Runs music function
 execute as @a[tag=RunMusic,scores={MusicCooldown=0}] run function hoenn:world/music
@@ -56,18 +77,6 @@ stopsound @a[scores={click=1..}] record
 scoreboard players set @a[scores={click=1..}] MusicCooldown 0
 scoreboard players set @a[scores={click=1..}] click 0
 
-
-#Runs Fly HM and Map
-
-#Fly Map
-execute as @a[x=334,y=237,z=-1917,distance=..40] run function hoenn:world/flymap
-
-
-#Escape Rope used function
-execute as @a[scores={EscapeRopeUse=1..}] run function hoenn:items/escaperope
-
-#Mega Stones, execute if player is nearby a Mega Stone armor stand
-execute as @e[type=minecraft:armor_stand,tag=MegaStone] at @s if entity @a[distance=..50] run function hoenn:items/megastones
 
 
 #-------------------------Regi-Related Commands-----------------------------------------------------------------------------------
