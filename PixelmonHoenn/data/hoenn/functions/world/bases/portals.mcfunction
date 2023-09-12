@@ -1,5 +1,5 @@
 #Sets the player into adventure mode if they're in anything else
-gamemode adventure @s
+gamemode adventure @s[gamemode=survival]
 tag @s remove BasePrompt
 
 #Base 1
