@@ -1,4 +1,4 @@
-#These commands run at, shockingly, 15-second intervals. Used for larger-area things that aren't super time-sensitive
+#These commands run at, shockingly, 10-second intervals. Used for larger-area things that aren't super time-sensitive
 
 #Manages secret base external visuals
 function hoenn:world/bases/exteriors
