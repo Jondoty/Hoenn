@@ -30,15 +30,16 @@ tag @a[tag=!FlyResort,x=2071,y=0,z=323,dx=663,dy=256,dz=906] add FlyResort
 #Manages Eon Flute fly tags (for a later version)
 
 
+#Runs flash commands on tall structures
+particle flash 1643 105 -1137 0 0 0 0 1 force @a
+particle flash 1620 105 -1160 0 0 0 0 1 force @a
+particle flash 2588 105 2231 0 0 0 0 1 force @a
+particle flash 2611 105 2255 0 0 0 0 1 force @a
 
-
-
-
-
-
-
-
-
+particle flash -1534 173 -525 0 0 0 0 1 force @a
+particle flash -1617 173 -605 0 0 0 0 1 force @a
+particle flash -1534 173 -685 0 0 0 0 1 force @a
+particle flash -1451 173 -605 0 0 0 0 1 force @a
 
 
 
