@@ -33,7 +33,7 @@ title @s[x=-919,y=63,z=1522,dx=20,dy=150,dz=21] actionbar {"text":"Route 108"}
 title @s[x=-898,y=63,z=1516,dx=11,dy=150,dz=27] actionbar {"text":"Route 109"}
 title @s[x=-899,y=63,z=1464,dx=11,dy=150,dz=39] actionbar {"text":"Route 110"}
 title @s[x=-900,y=63,z=1432,dx=11,dy=150,dz=20] actionbar {"text":"Route 111"}
-title @s[x=-900,y=63,z=1413,dx=18,dy=150,dz=18] actionbar {"text":"Route 111 Desert"}
+title @s[x=-900,y=63,z=1413,dx=18,dy=150,dz=18] actionbar {"text":"Route 111"}
 title @s[x=-898,y=63,z=1396,dx=16,dy=150,dz=16] actionbar {"text":"Route 111"}
 title @s[x=-910,y=63,z=1429,dx=9,dy=150,dz=7] actionbar {"text":"Route 112"}
 title @s[x=-930,y=63,z=1395,dx=31,dy=150,dz=11] actionbar {"text":"Route 113"}
@@ -54,7 +54,7 @@ title @s[x=-770,y=63,z=1460,dx=16,dy=150,dz=18] actionbar {"text":"Route 127"}
 title @s[x=-770,y=63,z=1479,dx=16,dy=150,dz=14] actionbar {"text":"Route 128"}
 title @s[x=-770,y=63,z=1494,dx=16,dy=150,dz=16] actionbar {"text":"Route 129"}
 title @s[x=-792,y=63,z=1491,dx=21,dy=150,dz=19] actionbar {"text":"Route 130"}
-title @s[x=-792,y=63,z=1491,dx=19,dy=150,dz=19] actionbar {"text":"Route 131"}
+title @s[x=-812,y=63,z=1491,dx=19,dy=150,dz=19] actionbar {"text":"Route 131"}
 title @s[x=-842,y=63,z=1491,dx=19,dy=150,dz=25] actionbar {"text":"Route 132"}
 title @s[x=-864,y=63,z=1491,dx=21,dy=150,dz=39] actionbar {"text":"Route 133"}
 title @s[x=-886,y=63,z=1491,dx=21,dy=150,dz=39] actionbar {"text":"Route 134"}
@@ -63,6 +63,7 @@ title @s[x=-803,y=63,z=1479,dx=17,dy=150,dz=11] actionbar {"text":"Sky Pillar"}
 title @s[x=-957,y=63,z=1413,dx=8,dy=150,dz=7] actionbar {"text":"Meteor Falls"}
 title @s[x=-861,y=63,z=1531,dx=18,dy=150,dz=15] actionbar {"text":"Southern Island"}
 title @s[x=-926,y=63,z=1407,dx=19,dy=150,dz=14] actionbar {"text":"Mt. Chimney"}
+title @s[x=-968,y=63,z=1450,dx=14,dy=150,dz=12] actionbar {"text":"Petalburg Woods"}
 
 
 #Cities
@@ -142,7 +143,7 @@ gamemode adventure @s[x=-770,y=63,z=1460,dx=16,dy=15,dz=18]
 gamemode adventure @s[x=-770,y=63,z=1479,dx=16,dy=15,dz=14]
 gamemode adventure @s[x=-770,y=63,z=1494,dx=16,dy=15,dz=16]
 gamemode adventure @s[x=-792,y=63,z=1491,dx=21,dy=15,dz=19]
-gamemode adventure @s[x=-792,y=63,z=1491,dx=19,dy=15,dz=19]
+gamemode adventure @s[x=-812,y=63,z=1491,dx=19,dy=15,dz=19]
 gamemode adventure @s[x=-842,y=63,z=1491,dx=19,dy=15,dz=25]
 gamemode adventure @s[x=-864,y=63,z=1491,dx=21,dy=15,dz=39]
 gamemode adventure @s[x=-886,y=63,z=1491,dx=21,dy=15,dz=39]
@@ -153,6 +154,7 @@ gamemode adventure @s[x=-957,y=63,z=1413,dx=8,dy=15,dz=7]
 gamemode adventure @s[x=-861,y=63,z=1531,dx=18,dy=15,dz=15]
 gamemode adventure @s[x=-968,y=63,z=1450,dx=14,dy=15,dz=12]
 gamemode adventure @s[x=-926,y=63,z=1407,dx=19,dy=15,dz=14]
+gamemode adventure @s[x=-968,y=63,z=1450,dx=14,dy=15,dz=12]
 
 
 #Teleports
@@ -210,7 +212,7 @@ tp @s[x=-770,y=63,z=1460,dx=16,dy=15,dz=18] 1270 64 -728 0 0
 tp @s[x=-770,y=63,z=1479,dx=16,dy=15,dz=14] 1596 64 -42 -180 0
 tp @s[x=-770,y=63,z=1494,dx=16,dy=15,dz=16] 1367 64 170 0 0
 tp @s[x=-792,y=63,z=1491,dx=21,dy=15,dz=19] 877 64 213 0 0
-tp @s[x=-792,y=63,z=1491,dx=19,dy=15,dz=19] 457 64 197 0 0
+tp @s[x=-812,y=63,z=1491,dx=19,dy=15,dz=19] 457 64 197 0 0
 tp @s[x=-842,y=63,z=1491,dx=19,dy=15,dz=25] -214 64 247 0 0
 tp @s[x=-864,y=63,z=1491,dx=21,dy=15,dz=39] -571 64 311 0 0
 tp @s[x=-886,y=63,z=1491,dx=21,dy=15,dz=39] -954 64 296 0 0
@@ -220,7 +222,7 @@ tp @s[x=-957,y=63,z=1413,dx=8,dy=15,dz=7] -2575 99 -1030 0 0
 tp @s[x=-861,y=63,z=1531,dx=18,dy=15,dz=15] 707 64 983 -180 0
 tp @s[x=-968,y=63,z=1450,dx=14,dy=15,dz=12] -2769 69 -89 0 0
 tp @s[x=-926,y=63,z=1407,dx=19,dy=15,dz=14] -1880 210 -3144 0 0
-
+tp @s[x=-968,y=63,z=1450,dx=14,dy=15,dz=12] -2769 69 -89 0 0
 
 
 
