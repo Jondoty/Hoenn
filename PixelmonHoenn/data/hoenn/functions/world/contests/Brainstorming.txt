@@ -1,1 +1,30 @@
 https://youtu.be/MgkqxXCmrtI?t=13930
+
+Player walks up to the front desk, at which time it checks if a contest is actively going on.
+	If no contest, prompt player to do one. Only one contest hall per region to simplify things.
+	Player then picks which type of contest they prefer to enter. Store this value as a tag.
+	If player has won other contests, they can choose a rank to participate in. Normal, Super, Hyper, Master. Store as a scoreboard value.
+It is then asked that the Pokemon the player wishes to enter into the contest is sent out. 
+From here, a function scans the Pokemon for attributes. ndex, form, size, and four moves. 
+	Each of these values is logged on an armor stand to be retrieved during the contest.
+Player then teleports into the contest hall, and sets up the scene
+Upon start of the contest, RNG values are rolled for your three opponents. They will share the stage with you.
+	Each contestent is also represented by an armor stand. But the data pool will be more limited
+		https://bulbapedia.bulbagarden.net/wiki/List_of_Contest_opponents_(Generation_VI)
+
+Introduction Round (First Round)
+	Player is prompted to use a move based on what data was cloned to the armor stand. Each move has a specific amount of hearts and info that can be seen on hover.
+		https://docs.google.com/spreadsheets/d/1blSlFzBde25rMGkwaRGbf0d6FHRiGAptyxYzPTdequg/edit#gid=0
+Player selects a move to use, and a cutscene of them using the move runs. Add particles for special effects, could be based roughly on the move's type.
+	Move used is tracked, and can bore the audience if used in the second round. Could add a tag with Move1, Move2 when using it.
+Player then views opponents using moves, which are rolled at random. 
+Score of the appeal used is stored and used for scoring. Could display at the top as a boss bar for all players in the contest hall.
+	Appeal is positive, Jam subtracts opponent's hearts. 
+
+Secondary round, player then picks their move again.
+	If player picks the same move, a Move1, Move2, etc tag is read, and messages them that the audience was bored with that move. Half the appeal?
+Player then views opponents using moves, which are rolled at random. 
+
+Scoring (Simplified method)
+Dialogue then goes through scoring the player's Pokemon, and based on amount of hearts, grants them first, second, third or fourth. 
+	Score can be continually displayed on the sidebar.
