@@ -1,7 +1,7 @@
 {
 	"credit": "Designed by Jond with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"3": "item/playeritems/maps/map1",
+		"3": "item/playeritems/page6",
 		"untitled_atlas": "item/playeritems/pokenavoff"
 	},
 	"elements": [
@@ -556,10 +556,10 @@
 			"from": [4.2, 7.8, 4.2],
 			"to": [11.9, 8.05, 9.3],
 			"faces": {
-				"north": {"uv": [0.3125, 12.8125, 8, 13.0625], "texture": "#missing"},
-				"east": {"uv": [8.1875, 12.9375, 13.3125, 13.1875], "texture": "#missing"},
-				"south": {"uv": [8.0625, 13.0625, 15.75, 13.3125], "texture": "#missing"},
-				"west": {"uv": [9.625, 12.9375, 14.75, 13.1875], "texture": "#missing"},
+				"north": {"uv": [1.03843, 12.27917, 8.72593, 12.52917], "texture": "#3"},
+				"east": {"uv": [7.58009, 12.30046, 12.70509, 12.55046], "texture": "#3"},
+				"south": {"uv": [3.91435, 12.30694, 11.60185, 12.55694], "texture": "#3"},
+				"west": {"uv": [6.97315, 12.30046, 12.09815, 12.55046], "texture": "#3"},
 				"up": {"uv": [15.58519, 12.70509, 0.44444, 2.59861], "texture": "#3"},
 				"down": {"uv": [7.6875, 6, 0, 11.125], "texture": "#missing"}
 			}
