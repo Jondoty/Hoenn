@@ -1,0 +1,1 @@
+tag @s remove aj.animated_pokemon.animation.idle

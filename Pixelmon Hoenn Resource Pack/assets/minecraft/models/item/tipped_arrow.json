@@ -1,0 +1,43 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/tipped_arrow"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/animated_java_empty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "animated_java:item/animated_pokemon/ear1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "animated_java:item/animated_pokemon/ear2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "animated_java:item/animated_pokemon/base"
+		}
+	],
+	"animated_java": {
+		"rigs": {
+			"animated_pokemon": {
+				"used_ids": [
+					2,
+					3,
+					4
+				]
+			}
+		}
+	}
+}

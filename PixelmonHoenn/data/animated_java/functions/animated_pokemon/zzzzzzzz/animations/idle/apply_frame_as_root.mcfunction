@@ -1,0 +1,1 @@
+execute if score @s aj.anim_time matches 0..60 run function animated_java:animated_pokemon/zzzzzzzz/animations/idle/tree/branch_0_60

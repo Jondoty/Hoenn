@@ -1,0 +1,93 @@
+{
+	"textures": {
+		"0": "animated_java:item/animated_pokemon/texture"
+	},
+	"elements": [
+		{
+			"from": [
+				8.01,
+				6,
+				8
+			],
+			"to": [
+				8.01,
+				14,
+				16
+			],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "x",
+				"origin": [
+					8,
+					-4,
+					11
+				]
+			},
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						0,
+						2
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						4.25,
+						4.5,
+						6.25,
+						6.5
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						0,
+						2
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						6.25,
+						4.25,
+						8.25,
+						6.25
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						0,
+						2,
+						0,
+						0
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						0,
+						2
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [
+				0,
+				180,
+				0
+			]
+		}
+	}
+}

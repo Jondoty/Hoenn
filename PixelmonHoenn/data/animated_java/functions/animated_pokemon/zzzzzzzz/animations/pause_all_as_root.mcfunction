@@ -1,0 +1,1 @@
+function animated_java:animated_pokemon/zzzzzzzz/animations/idle/pause_as_root

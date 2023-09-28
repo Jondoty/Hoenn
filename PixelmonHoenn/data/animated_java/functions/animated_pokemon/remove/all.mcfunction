@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item_display,tag=aj.animated_pokemon.root] run function animated_java:animated_pokemon/zzzzzzzz/remove/as_root
+kill @e[tag=aj.animated_pokemon.rig_entity]

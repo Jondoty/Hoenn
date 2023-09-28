@@ -1,0 +1,1 @@
+execute on passengers run function animated_java:animated_pokemon/zzzzzzzz/animations/idle/tree/leaf_40_as_bone

@@ -1,0 +1,2 @@
+execute if entity @s[tag=aj.animated_pokemon.root] run function animated_java:animated_pokemon/zzzzzzzz/animations/pause_all_as_root
+execute if entity @s[tag=!aj.animated_pokemon.root] run tellraw @a ["",{"text":"["},{"text":"Animated Java","color":"aqua"},{"text":"] "},{"text":"ERROR ☠","color":"red"},{"text":" > ","color":"gray"},[{"text":"The function","color":"yellow"},{"text":" animated_java:animated_pokemon/animations/pause_all ","color":"blue"},{"text":"must be run"},{"text":" as ","color":"red"},{"text":"the root entity!"}]]

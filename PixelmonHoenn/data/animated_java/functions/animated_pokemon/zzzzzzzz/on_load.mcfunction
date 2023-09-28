@@ -1,0 +1,2 @@
+scoreboard players set @s aj.animated_pokemon.rig_loaded 1
+execute unless score @s aj.animated_pokemon.export_version = aj.animated_pokemon.export_version aj.i at @s run function animated_java:animated_pokemon/zzzzzzzz/mark_outdated_rig
