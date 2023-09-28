@@ -48,6 +48,10 @@ tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 
 #-------------------------Important Items-----------------------------------------------------------------------------------
 
+#Poke Nav
+execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]'}}}}] run function hoenn:pokenav/main
+execute as @a[scores={click=1..,NavSlot=10}] run function hoenn:pokenav/main
+
 #Runs Fly HM and Map
 execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"HM02: Fly","italic":false,"color":"aqua"}]'}}}}] run function hoenn:items/flyhm
 
@@ -71,23 +75,13 @@ execute as @a[scores={EscapeRopeUse=1..}] run function hoenn:items/escaperope
 execute as @e[type=minecraft:armor_stand,tag=MegaStone] at @s if entity @a[distance=..50] run function hoenn:items/megastones
 
 
-
-
-#Adds tags to play music if player is holding the radio in a specific way
-#This will likely be replaced when a proper Nav Plus system is added.
-tag @a[scores={MusicCooldown=0},nbt={Inventory:[{id:"minecraft:carrot_on_a_stick"}]}] add RunMusic
-
 #Runs music function
-execute as @a[tag=RunMusic,scores={MusicCooldown=0}] run function hoenn:world/music
+execute as @a[tag=!MusicDisabled,scores={MusicCooldown=0}] run function hoenn:world/music
 
 #Removes a MusicCooldown score each run, resets music at 0
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
 
-#Runs click Music resets
-stopsound @a[scores={click=1..}] record
-scoreboard players set @a[scores={click=1..}] MusicCooldown 0
-scoreboard players set @a[scores={click=1..}] click 0
 
 
 

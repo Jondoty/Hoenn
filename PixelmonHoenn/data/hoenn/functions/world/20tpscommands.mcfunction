@@ -23,6 +23,11 @@ execute as @a[tag=ShakeScreen] at @s run function hoenn:cutscenes/shakeeffect
 
 
 
+#-----------------------------------------------------------------------------------------
+#Poke Nav commands
+execute as @a run function hoenn:pokenav/throwdetect
+
+#-----------------------------------------------------------------------------------------
 
 
 #Road Blocks
