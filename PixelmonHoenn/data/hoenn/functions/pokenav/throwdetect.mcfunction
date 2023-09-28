@@ -39,32 +39,82 @@ scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:18}}]}] NavTrack
 scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:19}}]}] NavTrack 19
 scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:20}}]}] NavTrack 20
 
+#Which map the player currently has
 scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:100}}]}] NavTrack 100
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:101}}]}] NavTrack 101
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:102}}]}] NavTrack 102
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:103}}]}] NavTrack 103
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:104}}]}] NavTrack 104
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:105}}]}] NavTrack 105
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:106}}]}] NavTrack 106
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:107}}]}] NavTrack 107
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:108}}]}] NavTrack 108
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:109}}]}] NavTrack 109
-scoreboard players set @s[nbt={Inventory:[{tag:{CustomModelData:110}}]}] NavTrack 110
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 #Gives player back respective PokeNav for their NavTrack variant
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=1},tag=!Skip] run item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=2},tag=!Skip] run item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=3},tag=!Skip] run item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=4},tag=!Skip] run item replace entity @s hotbar.3 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=5},tag=!Skip] run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=6},tag=!Skip] run item replace entity @s hotbar.5 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=7},tag=!Skip] run item replace entity @s hotbar.6 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=8},tag=!Skip] run item replace entity @s hotbar.7 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=9},tag=!Skip] run item replace entity @s hotbar.8 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
-execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=10},tag=!Skip] run item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=1},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=2},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=3},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=4},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.3 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=5},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=6},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.5 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=7},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.6 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=8},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.7 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=9},tag=!Skip,tag=!MusicDisabled] run item replace entity @s hotbar.8 with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=10},tag=!Skip,tag=!MusicDisabled] run item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick{CustomModelData:13,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+
+
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=1},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=2},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.1 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=3},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.2 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=4},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.3 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=5},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.4 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=6},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.5 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=7},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.6 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=8},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.7 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=9},tag=!Skip,tag=MusicDisabled] run item replace entity @s hotbar.8 with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+execute as @s[scores={ThrowNav=1..,NavTrack=11..12,NavSlot=10},tag=!Skip,tag=MusicDisabled] run item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick{CustomModelData:14,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1
+
+
 
 
 execute as @s[scores={ThrowNav=1..,NavTrack=13..14,NavSlot=1},tag=!Skip] run item replace entity @s hotbar.0 with minecraft:carrot_on_a_stick{CustomModelData:15,display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]',Lore:['[{"text":"An electronic device with modules","italic":false}]','[{"text":"used in exploring the Hoenn region.","italic":false}]','[{"text":"","italic":false}]','[{"text":"Controls","italic":false,"bold":true},{"text":": Q (drop) to change modules.","italic":false,"bold":false}]','[{"text":"Right click to interact with module.","italic":false}]']}} 1

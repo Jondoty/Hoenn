@@ -49,8 +49,8 @@ tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 #-------------------------Important Items-----------------------------------------------------------------------------------
 
 #Poke Nav
-execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]'}}}}] run function hoenn:pokenav/main
-execute as @a[scores={click=1..,NavSlot=10}] run function hoenn:pokenav/main
+execute as @a[nbt={SelectedItem:{tag:{display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]'}}}}] run function hoenn:pokenav/main
+execute as @a[scores={NavSlot=10}] run function hoenn:pokenav/main
 
 #Runs Fly HM and Map
 execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"HM02: Fly","italic":false,"color":"aqua"}]'}}}}] run function hoenn:items/flyhm

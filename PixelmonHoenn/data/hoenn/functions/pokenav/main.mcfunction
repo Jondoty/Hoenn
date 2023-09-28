@@ -4,15 +4,13 @@
 #2-
 #100... - Mapping locations
 
-#Assumed all functions include a score of Click=1..
-
 
 #TrainerNav
-execute as @s[scores={NavTrack=11}] run tellraw @s {"text":"No rematchable trainers found...","italic":true,"color":"gray"}
+execute as @s[scores={NavTrack=11..12,click=1}] run tellraw @s {"text":"No rematchable trainers found...","italic":true,"color":"gray"}
 
 #If entity within distance to player
 
-
+#-----------------------------------------------------------------------------------------------------------------------------------
 
 #MusicToggle
 
@@ -54,6 +52,35 @@ execute as @s[scores={NavTrack=14,click=1..}] run tag @s add Temp
 execute as @s[scores={NavTrack=14,click=1..}] run scoreboard players set @s NavTrack 13
 
 execute as @s[tag=Temp] run scoreboard players set @s click 0
+
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------
+#DexNav
+
+execute as @s[scores={NavTrack=15..17,click=1}] run tellraw @s {"text":"No Pokémon in this area found...","italic":true,"color":"gray"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------
+#AreaNav
+execute as @s[scores={NavTrack=100..}] run function hoenn:pokenav/maptracking
+execute as @s[scores={NavTrack=100..}] run function hoenn:pokenav/maptitles
+
+
+
+
 
 
 
