@@ -703,7 +703,7 @@
   "badgeget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/badgeget",
+        "name":"hoenn/events/badgeget",
         "stream": true
       }
     ]
@@ -711,7 +711,7 @@
   "battlepointget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/battlepointget",
+        "name":"hoenn/events/battlepointget",
         "stream": true
       }
     ]
@@ -719,7 +719,15 @@
   "berryget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/berryget",
+        "name":"hoenn/events/berryget",
+        "stream": true
+      }
+    ]
+  },
+  "click": {
+    "sounds": [
+      {
+        "name":"hoenn/events/click",
         "stream": true
       }
     ]
@@ -727,7 +735,7 @@
   "contestcostumetime": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/contestcostumetime",
+        "name":"hoenn/events/contestcostumetime",
         "stream": true
       }
     ]
@@ -735,7 +743,7 @@
   "contestrank": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/contestrank",
+        "name":"hoenn/events/contestrank",
         "stream": true
       }
     ]
@@ -743,7 +751,7 @@
   "contestvictor": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/contestvictor",
+        "name":"hoenn/events/contestvictor",
         "stream": true
       }
     ]
@@ -751,7 +759,7 @@
   "decorationget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/decorationget",
+        "name":"hoenn/events/decorationget",
         "stream": true
       }
     ]
@@ -759,7 +767,7 @@
   "eggget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/eggget",
+        "name":"hoenn/events/eggget",
         "stream": true
       }
     ]
@@ -767,7 +775,7 @@
   "eonflute": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/eonflute",
+        "name":"hoenn/events/eonflute",
         "stream": true
       }
     ]
@@ -775,7 +783,7 @@
   "keyitem": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/keyitem",
+        "name":"hoenn/events/keyitem",
         "stream": true
       }
     ]
@@ -783,7 +791,7 @@
   "megastoneget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/megastoneget",
+        "name":"hoenn/events/megastoneget",
         "stream": true
       }
     ]
@@ -791,7 +799,7 @@
   "orbget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/orbget",
+        "name":"hoenn/events/orbget",
         "stream": true
       }
     ]
@@ -799,7 +807,7 @@
   "pokedex1": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedex1",
+        "name":"hoenn/events/pokedex1",
         "stream": true
       }
     ]
@@ -807,7 +815,7 @@
   "pokedex2": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedex2",
+        "name":"hoenn/events/pokedex2",
         "stream": true
       }
     ]
@@ -815,7 +823,7 @@
   "pokedex3": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedex3",
+        "name":"hoenn/events/pokedex3",
         "stream": true
       }
     ]
@@ -823,7 +831,7 @@
   "pokedex4": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedex4",
+        "name":"hoenn/events/pokedex4",
         "stream": true
       }
     ]
@@ -831,7 +839,7 @@
   "pokedex5": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedex5",
+        "name":"hoenn/events/pokedex5",
         "stream": true
       }
     ]
@@ -839,7 +847,7 @@
   "pokedex6": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedex6",
+        "name":"hoenn/events/pokedex6",
         "stream": true
       }
     ]
@@ -847,7 +855,7 @@
   "pokedex7": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedex7",
+        "name":"hoenn/events/pokedex7",
         "stream": true
       }
     ]
@@ -855,7 +863,7 @@
   "pokedexcomplete": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/pokedexcomplete",
+        "name":"hoenn/events/pokedexcomplete",
         "stream": true
       }
     ]
@@ -863,7 +871,7 @@
   "tmget": {
     "sounds": [
       {
-        "name":"hoenn/dialogues/tmget",
+        "name":"hoenn/events/tmget",
         "stream": true
       }
     ]
