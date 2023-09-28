@@ -3,33 +3,22 @@
 	"textures": {
 		"layer0": "items/carrot_on_a_stick"
 	},
-	"overrides": [
-		{ "predicate": { "damage": 0 }, "model": "playeritems/pokenavoff" },
-		{ "predicate": { "damaged": 0, "damage": 0.038461538461538 }, "model": "item/carrot_on_a_stick1" },
-		{ "predicate": { "damaged": 0, "damage": 0.076923076923077 }, "model": "item/carrot_on_a_stick2" },
-		{ "predicate": { "damaged": 0, "damage": 0.115384615384615 }, "model": "item/carrot_on_a_stick3" },
-		{ "predicate": { "damaged": 0, "damage": 0.153846153846154 }, "model": "item/carrot_on_a_stick4" },
-		{ "predicate": { "damaged": 0, "damage": 0.192307692307692 }, "model": "item/carrot_on_a_stick5" },
-		{ "predicate": { "damaged": 0, "damage": 0.230769230769231 }, "model": "item/carrot_on_a_stick6" },
-		{ "predicate": { "damaged": 0, "damage": 0.269230769230769 }, "model": "item/carrot_on_a_stick7" },
-		{ "predicate": { "damaged": 0, "damage": 0.307692307692308 }, "model": "item/carrot_on_a_stick8" },
-		{ "predicate": { "damaged": 0, "damage": 0.346153846153846 }, "model": "item/carrot_on_a_stick9" },
-		{ "predicate": { "damaged": 0, "damage": 0.384615384615385 }, "model": "item/carrot_on_a_stick10" },
-		{ "predicate": { "damaged": 0, "damage": 0.423076923076923 }, "model": "item/carrot_on_a_stick11" },
-		{ "predicate": { "damaged": 0, "damage": 0.461538461538462 }, "model": "item/carrot_on_a_stick12" },
-		{ "predicate": { "damaged": 0, "damage": 0.5 }, "model": "item/carrot_on_a_stick13" },
-		{ "predicate": { "damaged": 0, "damage": 0.538461538461539 }, "model": "item/carrot_on_a_stick14" },
-		{ "predicate": { "damaged": 0, "damage": 0.576923076923077 }, "model": "item/carrot_on_a_stick15" },
-		{ "predicate": { "damaged": 0, "damage": 0.615384615384615 }, "model": "item/carrot_on_a_stick16" },
-		{ "predicate": { "damaged": 0, "damage": 0.653846153846154 }, "model": "item/carrot_on_a_stick17" },
-		{ "predicate": { "damaged": 0, "damage": 0.692307692307692 }, "model": "item/carrot_on_a_stick18" },
-		{ "predicate": { "damaged": 0, "damage": 0.730769230769231 }, "model": "item/carrot_on_a_stick19" },
-		{ "predicate": { "damaged": 0, "damage": 0.769230769230769 }, "model": "item/carrot_on_a_stick20" },
-		{ "predicate": { "damaged": 0, "damage": 0.807692307692308 }, "model": "item/carrot_on_a_stick21" },
-		{ "predicate": { "damaged": 0, "damage": 0.846153846153846 }, "model": "item/carrot_on_a_stick22" },
-		{ "predicate": { "damaged": 0, "damage": 0.884615384615385 }, "model": "item/carrot_on_a_stick23" },
-		{ "predicate": { "damaged": 0, "damage": 0.923076923076923 }, "model": "hms/eon_flute" },
-		{ "predicate": { "damaged": 0, "damage": 0.961538461538462 }, "model": "hms/fly" },
-		{ "predicate": { "damaged": 1 }, "model": "item/carrot_on_a_stick" }
-	]
+"overrides": [
+	{"predicate": {"custom_model_data":1}, "model": "hms/eon_flute"},
+	{"predicate": {"custom_model_data":2}, "model": "hms/fly"},
+	{"predicate": {"custom_model_data":3}, "model": "hms/flash"},
+		{"predicate": {"custom_model_data":10}, "model": "playeritems/pokenavoff"},
+		{"predicate": {"custom_model_data":11}, "model": "playeritems/page1"},
+		{"predicate": {"custom_model_data":12}, "model": "playeritems/page2"},
+		{"predicate": {"custom_model_data":13}, "model": "playeritems/page3"},
+		{"predicate": {"custom_model_data":14}, "model": "playeritems/page4"},
+		{"predicate": {"custom_model_data":15}, "model": "playeritems/page5"},
+		{"predicate": {"custom_model_data":16}, "model": "playeritems/page6"},
+		{"predicate": {"custom_model_data":17}, "model": "playeritems/page7"},
+		{"predicate": {"custom_model_data":18}, "model": "playeritems/page8"},
+		{"predicate": {"custom_model_data":19}, "model": "playeritems/page9"},
+		{"predicate": {"custom_model_data":20}, "model": "playeritems/page10"},
+			{"predicate": {"custom_model_data":100}, "model": "playeritems/maps/map0"},
+			{"predicate": {"custom_model_data":101}, "model": "playeritems/maps/map1"}
+]
 }
