@@ -50,7 +50,12 @@ tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 
 #Poke Nav
 execute as @a[nbt={SelectedItem:{tag:{display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]'}}}}] run function hoenn:pokenav/main
-execute as @a[scores={NavSlot=10}] run function hoenn:pokenav/main
+execute as @a[scores={NavSlot=10..}] run function hoenn:pokenav/main
+
+#DexNav function for approaching a shadow Pokemon
+execute as @e[type=armor_stand,tag=DexNav,tag=Active] at @s run function hoenn:pokenav/dexnav/approach
+
+
 
 #Runs Fly HM and Map
 execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"HM02: Fly","italic":false,"color":"aqua"}]'}}}}] run function hoenn:items/flyhm
@@ -89,7 +94,7 @@ scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 function hoenn:world/regis
 
 #Manages step counter commands total
-scoreboard players operation @a StepCounterWalk += @a[scores={StepCounterWalk=1..}] StepCounter
+execute as @a at @s run scoreboard players operation @s StepCounter += @s StepCounterWalk
 scoreboard players set @a[scores={StepCounterWalk=1..}] StepCounterWalk 0
 
 

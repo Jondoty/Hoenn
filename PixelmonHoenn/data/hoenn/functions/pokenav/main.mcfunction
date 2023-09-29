@@ -32,7 +32,8 @@ execute as @s[scores={NavTrack=13,click=1..}] run scoreboard players set @s Musi
 execute as @s[scores={NavTrack=13,click=1..}] run tag @s add Temp
 execute as @s[scores={NavTrack=13,click=1..}] run scoreboard players set @s NavTrack 14
 
-execute as @s[tag=Temp] run scoreboard players set @s click 0
+execute as @s[scores={NavTrack=14,click=1..},tag=Temp] run scoreboard players set @s click 0
+tag @s remove Temp
 
 
 #Turns music on
@@ -51,15 +52,30 @@ execute as @s[scores={NavTrack=14,click=1..}] run tag @s remove MusicDisabled
 execute as @s[scores={NavTrack=14,click=1..}] run tag @s add Temp
 execute as @s[scores={NavTrack=14,click=1..}] run scoreboard players set @s NavTrack 13
 
-execute as @s[tag=Temp] run scoreboard players set @s click 0
+execute as @s[scores={NavTrack=13,click=1..},tag=Temp] run scoreboard players set @s click 0
+tag @s remove Temp
 
 
 
 #-----------------------------------------------------------------------------------------------------------------------------------
 #DexNav
+#Runs a check to see if a DexNav tagged armor stand is within a 50 block radius of the player.
+#If one found, tag it Active. This will queue a model to spawn.
 
-execute as @s[scores={NavTrack=15..17,click=1}] run tellraw @s {"text":"No Pokémon in this area found...","italic":true,"color":"gray"}
+execute as @s[scores={NavTrack=15,click=1..}] at @s run tag @e[distance=..50,sort=nearest,tag=DexNav,tag=!Active] add Active
 
+#Sets up model on Active tagged armor stand
+execute as @s[scores={NavTrack=15,click=1..}] at @s as @e[distance=..55,tag=Active] at @s unless entity @e[type=#animated_java:root,tag=aj.animated_pokemon.root,distance=..5] run function animated_java:animated_pokemon/summon
+execute as @s[scores={NavTrack=15,click=1..}] at @s as @e[distance=..55,tag=Active] at @s as @e[type=#animated_java:root,tag=aj.animated_pokemon.root] run function animated_java:animated_pokemon/animations/idle/play
+
+
+
+
+
+
+
+#If no Pokemon is within range
+execute as @s[scores={NavTrack=15,click=1}] at @s unless entity @e[distance=..55,tag=Active] run tellraw @s {"text":"No Pokémon found in this area... Try scanning another section!","italic":true,"color":"gray"}
 
 
 
