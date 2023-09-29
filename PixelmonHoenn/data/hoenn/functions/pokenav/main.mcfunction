@@ -62,10 +62,11 @@ tag @s remove Temp
 #Runs a check to see if a DexNav tagged armor stand is within a 50 block radius of the player.
 #If one found, tag it Active. This will queue a model to spawn.
 
+execute as @s[scores={NavTrack=15,click=1..}] at @s as @e[distance=..50,sort=nearest,tag=DexNav,tag=!Active] run function hoenn:pokenav/dexnav/shufflespots
 execute as @s[scores={NavTrack=15,click=1..}] at @s run tag @e[distance=..50,sort=nearest,tag=DexNav,tag=!Active] add Active
 
 #Sets up model on Active tagged armor stand
-execute as @s[scores={NavTrack=15,click=1..}] at @s as @e[distance=..55,tag=Active] at @s unless entity @e[type=#animated_java:root,tag=aj.animated_pokemon.root,distance=..5] run function animated_java:animated_pokemon/summon
+execute as @s[scores={NavTrack=15,click=1..}] at @s as @e[distance=..55,tag=Active] at @s unless entity @e[type=#animated_java:root,tag=aj.animated_pokemon.root,distance=..5] positioned ~ ~-.75 ~ run function animated_java:animated_pokemon/summon
 execute as @s[scores={NavTrack=15,click=1..}] at @s as @e[distance=..55,tag=Active] at @s as @e[type=#animated_java:root,tag=aj.animated_pokemon.root] run function animated_java:animated_pokemon/animations/idle/play
 
 
