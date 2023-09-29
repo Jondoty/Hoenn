@@ -306,7 +306,7 @@ scoreboard players set @s[x=2761,y=0,z=-3361,dx=294,dy=256,dz=1075,scores={Music
 
 #Mt. Pyre (Exterior)
 playsound mtpyreexterior record @s[x=1369,y=0,z=2223,dx=492,dy=256,dz=768,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1369,y=0,z=2223,dx=492,dy=256,dz=768,scores={MusicCooldown=0}] MusicCooldown 126
+scoreboard players set @s[x=1369,y=0,z=2223,dx=492,dy=256,dz=768,scores={MusicCooldown=0}] MusicCooldown 216
 
 #Jagged Pass
 playsound petalburgwoods record @s[x=-2215,y=0,z=-3100,dx=686,dy=256,dz=757,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
