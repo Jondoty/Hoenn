@@ -5,20 +5,22 @@
 
 #spreadplayers X Z 1 6 false @e[x=X,y=Y,z=Z,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
-#Fiery Path
-spreadplayers -1788 -1234 6 false @e[x=-1788,y=43,z=-1234,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers -1822 -1274 1 6 false @e[x=-1822,y=38,z=-1274,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers -1813 -1346 1 6 false @e[x=-1813,y=38,z=-1346,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers -1899 -1319 1 6 false @e[x=-1899,y=38,z=-1319,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers -1901 -1251 1 6 false @e[x=-1901,y=38,z=-1251,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#Spreadplayers don't keep entities underground. Getting rid of caves
 
-#Granite Cave
-spreadplayers 2589 -2390 1 6 false @e[x=2589,y=131,z=-2390,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2588 -2414 1 6 false @e[x=2588,y=93,z=-2414,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2654 -2475 1 6 false @e[x=2654,y=103,z=-2475,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2658 -2390 1 6 false @e[x=2658,y=93,z=-2390,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2676 -2401 1 6 false @e[x=2676,y=70,z=-2401,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2589 -2399 1 6 false @e[x=2589,y=75,z=-2399,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#Fiery Path
+#spreadplayers -1788 -1234 1 6 false @e[x=-1788,y=43,z=-1234,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers -1822 -1274 1 6 false @e[x=-1822,y=38,z=-1274,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers -1813 -1346 1 6 false @e[x=-1813,y=38,z=-1346,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers -1899 -1319 1 6 false @e[x=-1899,y=38,z=-1319,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers -1901 -1251 1 6 false @e[x=-1901,y=38,z=-1251,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#
+##Granite Cave
+#spreadplayers 2589 -2390 1 6 false @e[x=2589,y=131,z=-2390,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2588 -2414 1 6 false @e[x=2588,y=93,z=-2414,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2654 -2475 1 6 false @e[x=2654,y=103,z=-2475,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2658 -2390 1 6 false @e[x=2658,y=93,z=-2390,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2676 -2401 1 6 false @e[x=2676,y=70,z=-2401,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2589 -2399 1 6 false @e[x=2589,y=75,z=-2399,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 #Jagged Pass
 spreadplayers -1843 -2615 1 6 false @e[x=-1843,y=85,z=-2615,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
@@ -29,14 +31,14 @@ spreadplayers -1851 -2949 1 6 false @e[x=-1851,y=175,z=-2949,distance=..12,type=
 spreadplayers -1931 -2938 1 6 false @e[x=-1931,y=170,z=-2938,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 #Meteor Falls
-spreadplayers 2353 -2534 1 6 false @e[x=2353,y=115,z=-2534,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2227 -2495 1 6 false @e[x=2227,y=105,z=-2495,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2297 -2387 1 6 false @e[x=2297,y=75,z=-2387,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2327 -2747 1 6 false @e[x=2327,y=75,z=-2747,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2332 -2823 1 6 false @e[x=2332,y=95,z=-2823,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2289 -2878 1 6 false @e[x=2289,y=115,z=-2878,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2345 -3022 1 6 false @e[x=2345,y=80,z=-3022,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2299 -3098 1 6 false @e[x=2299,y=80,z=-3098,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2353 -2534 1 6 false @e[x=2353,y=115,z=-2534,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2227 -2495 1 6 false @e[x=2227,y=105,z=-2495,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2297 -2387 1 6 false @e[x=2297,y=75,z=-2387,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2327 -2747 1 6 false @e[x=2327,y=75,z=-2747,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2332 -2823 1 6 false @e[x=2332,y=95,z=-2823,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2289 -2878 1 6 false @e[x=2289,y=115,z=-2878,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2345 -3022 1 6 false @e[x=2345,y=80,z=-3022,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2299 -3098 1 6 false @e[x=2299,y=80,z=-3098,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 #Mt. Pyre
 spreadplayers 1607 2876 1 6 false @e[x=1607,y=87,z=2876,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
@@ -65,11 +67,11 @@ spreadplayers -53 -1158 1 6 false @e[x=-53,y=94,z=-1158,distance=..12,type=armor
 spreadplayers -89 -1126 1 6 false @e[x=-89,y=84,z=-1126,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 #Shoal Cave
-spreadplayers 2959 -2881 1 6 false @e[x=2959,y=65,z=-2881,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2969 -2787 1 6 false @e[x=2969,y=65,z=-2787,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2916 -2788 1 6 false @e[x=2916,y=65,z=-2788,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2944 -2844 1 6 false @e[x=2944,y=75,z=-2844,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 2918 -2910 1 6 false @e[x=2918,y=70,z=-2910,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2959 -2881 1 6 false @e[x=2959,y=65,z=-2881,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2969 -2787 1 6 false @e[x=2969,y=65,z=-2787,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2916 -2788 1 6 false @e[x=2916,y=65,z=-2788,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2944 -2844 1 6 false @e[x=2944,y=75,z=-2844,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+#spreadplayers 2918 -2910 1 6 false @e[x=2918,y=70,z=-2910,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 #Route 101
 spreadplayers -2059 234 1 6 false @e[x=-2059,y=69,z=234,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
@@ -80,7 +82,7 @@ spreadplayers -2055 158 1 6 false @e[x=-2055,y=69,z=158,distance=..12,type=armor
 #Route 102
 spreadplayers -2185 8 1 6 false @e[x=-2185,y=69,z=8,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 spreadplayers -2230 75 1 6 false @e[x=-2230,y=69,z=75,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers -2269 100 1 6 false @e[x=-2269,y=69,z=100,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers -2264 97 1 6 false @e[x=-2264,y=69,z=97,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 spreadplayers -2315 48 1 6 false @e[x=-2315,y=69,z=48,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 spreadplayers -2402 23 1 6 false @e[x=-2402,y=69,z=23,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 spreadplayers -2390 81 1 6 false @e[x=-2390,y=69,z=81,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
@@ -239,12 +241,12 @@ spreadplayers 621 164 1 6 false @e[x=621,y=64,z=164,distance=..12,type=armor_sta
 spreadplayers 939 184 1 6 false @e[x=939,y=64,z=184,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 #Route 131
-spreadplayers 81 64 181 1 6 false @e[x=X,y=Y,z=Z,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 199 185 1 6 false @e[x=X,y=64,z=185,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 315 310 1 6 false @e[x=X,y=64,z=310,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 388 220 1 6 false @e[x=X,y=64,z=220,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 451 261 1 6 false @e[x=X,y=64,z=261,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers 206 137 1 6 false @e[x=X,y=64,z=137,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers 81 181 1 6 false @e[x=81,y=64,z=181,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers 199 185 1 6 false @e[x=199,y=64,z=185,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers 315 310 1 6 false @e[x=315,y=64,z=310,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers 388 220 1 6 false @e[x=388,y=64,z=220,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers 451 261 1 6 false @e[x=451,y=64,z=261,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers 206 137 1 6 false @e[x=206,y=64,z=137,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 #Route 132
 spreadplayers -307 333 1 6 false @e[x=-307,y=64,z=333,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
@@ -270,8 +272,8 @@ spreadplayers -1030 378 1 6 false @e[x=-1030,y=64,z=378,distance=..12,type=armor
 spreadplayers -1131 325 1 6 false @e[x=-1131,y=64,z=325,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 spreadplayers -1196 209 1 6 false @e[x=-1196,y=64,z=209,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 spreadplayers -1086 192 1 6 false @e[x=-1086,y=64,z=192,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers -924 64 225 1 6 false @e[x=-924,y=64,z=225,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
-spreadplayers -1095 64 276 1 6 false @e[x=-1095,y=64,z=276,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers -924 225 1 6 false @e[x=-924,y=64,z=225,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
+spreadplayers -1095 276 1 6 false @e[x=-1095,y=64,z=276,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
 
 
 #spreadplayers X Z 1 6 false @e[x=X,y=Y,z=Z,distance=..12,type=armor_stand,tag=!Active,tag=DexNav]
