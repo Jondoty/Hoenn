@@ -15,11 +15,11 @@ execute if entity @a[distance=3..6,scores={StepCounter=1..}] run tag @s remove A
 
 #If StepCounter score is 0 and player is within range, spawn a Pokemon! Randomized and based on which route the player is hunting on.
 
-execute if entity @a[distance=..3,scores={StepCounter=0}] run tellraw @a[distance=..3,scores={StepCounter=0}] {"text":"You found a Pokémon!","italic":true,"color":"gray"}
+#execute if entity @a[distance=..3,scores={StepCounter=0}] run tellraw @a[distance=..3,scores={StepCounter=0}] {"text":"You found a Pokémon!","italic":true,"color":"gray"}
 
-execute if entity @a[distance=..3,scores={StepCounter=0}] run pokespawn Tyrogue s
+#execute if entity @a[distance=..3,scores={StepCounter=0}] run pokespawn Tyrogue s
 
-
+execute if entity @a[distance=..3,scores={StepCounter=0}] run function hoenn:pokenav/dexnav/trigger
 
 
 
