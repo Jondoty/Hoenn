@@ -565,6 +565,9 @@ playsound dive record @s[x=-1092,y=-41,z=304,dx=198,dy=71,dz=512,scores={MusicCo
 scoreboard players set @s[x=-1092,y=-41,z=304,dx=198,dy=71,dz=512,scores={MusicCooldown=0}] MusicCooldown 225
 
 
+#All Gyms
+playsound gym record @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449,scores={MusicCooldown=0}] MusicCooldown 111
 
 
 

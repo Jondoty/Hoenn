@@ -308,6 +308,19 @@ execute unless score @s MusicTitles matches 53 run scoreboard players set @s[x=2
 
 
 #Gyms
+#Town-specific gym specific titles
+execute unless score @s MusicTitles matches 54 run title @s[x=-3055,y=0,z=1224,dx=130,dy=256,dz=449] actionbar {"text":"Rustboro Gym"}
+execute unless score @s MusicTitles matches 54 run title @s[x=-2495,y=0,z=1224,dx=133,dy=256,dz=449] actionbar {"text":"Dewford Gym"}
+execute unless score @s MusicTitles matches 54 run title @s[x=-3454,y=0,z=1224,dx=152,dy=256,dz=449] actionbar {"text":"Mauville Gym"}
+execute unless score @s MusicTitles matches 54 run title @s[x=-3181,y=0,z=1224,dx=125,dy=256,dz=449] actionbar {"text":"Lavaridge Gym"}
+execute unless score @s MusicTitles matches 54 run title @s[x=-3301,y=0,z=1224,dx=119,dy=256,dz=449] actionbar {"text":"Petalburg Gym"}
+execute unless score @s MusicTitles matches 54 run title @s[x=-2924,y=0,z=1224,dx=237,dy=256,dz=449] actionbar {"text":"Fortree Gym"}
+execute unless score @s MusicTitles matches 54 run title @s[x=-2686,y=0,z=1224,dx=190,dy=256,dz=449] actionbar {"text":"Mossdeep Gym"}
+execute unless score @s MusicTitles matches 54 run title @s[x=-3594,y=0,z=1224,dx=139,dy=256,dz=449] actionbar {"text":"Sootopolis Gym"}
+
+#Activates on all gyms
+execute unless score @s MusicTitles matches 54 as @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449] run function hoenn:tools/forceclick
+execute unless score @s MusicTitles matches 54 run scoreboard players set @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449] MusicTitles 54
 
 
 

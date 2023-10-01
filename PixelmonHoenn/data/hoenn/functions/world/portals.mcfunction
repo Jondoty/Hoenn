@@ -185,10 +185,7 @@ execute as @a[x=-2743,y=50,z=-567,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2743,y=50,z=-567,dx=3,dy=3] -2742 69 -566
 
 #Pokemon Gym
-execute as @a[x=-2674,y=69,z=-679,dx=6,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2674,y=69,z=-679,dx=6,dy=3] -2985 65 1579
-
-execute as @a[x=-2987,y=65,z=1480,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2987,y=65,z=1480,dx=3,dy=3] -2671 69 -678
 
 #Devon Corp Building
@@ -322,8 +319,8 @@ execute as @a[x=-2534,y=43,z=864,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2534,y=43,z=864,dx=3,dy=3] -2533 64 866
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-2487,y=64,z=901,dx=6,dy=3] -2434 65 1622
+tp @a[x=-2436,y=65,z=1623,dx=3,dy=3] -2484 64 902
 
 #Top Left Home
 tp @a[x=-2529,y=64,z=821,dx=4,dy=3] -2527 48 820
@@ -734,8 +731,8 @@ execute as @a[x=-698,y=65,z=-1373,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-698,y=65,z=-1373,dx=3,dy=3] -697 84 -1372
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=-584,y=84,z=-1400,dx=3,dy=3] -2798 121 1610
+tp @a[x=-2800,y=121,z=1611,dx=4,dy=3] -583 84 -1399
 
 #Northwest Edge Home
 tp @a[x=-651,y=101,z=-1434,dx=3,dy=3] -649 66 -1435
@@ -883,8 +880,8 @@ tp @a[x=1472,y=74,z=-1036,dx=2,dy=3] 1473 47 -1037
 tp @a[x=1471,y=47,z=-1036,dx=4,dy=3] 1473 74 -1035
 
 #Pokemon Gym
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+tp @a[x=1563,y=74,z=-1038,dx=6,dy=3] -2586 61 1586
+tp @a[x=-2587,y=61,z=1587,dx=3,dy=3] 1566 74 -1037
 
 #Top Right NPC Home
 tp @a[x=1607,y=84,z=-1019,dx=2,dy=3] 1608 47 -1020

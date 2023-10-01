@@ -69,7 +69,14 @@ title @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92] actionbar {"text":"S.S. Tidal"}
 
 
 #Gyms
-
+title @s[x=-3055,y=0,z=1224,dx=130,dy=256,dz=449] actionbar {"text":"Rustboro Gym"}
+title @s[x=-2495,y=0,z=1224,dx=133,dy=256,dz=449] actionbar {"text":"Dewford Gym"}
+title @s[x=-3454,y=0,z=1224,dx=152,dy=256,dz=449] actionbar {"text":"Mauville Gym"}
+title @s[x=-3181,y=0,z=1224,dx=125,dy=256,dz=449] actionbar {"text":"Lavaridge Gym"}
+title @s[x=-3301,y=0,z=1224,dx=119,dy=256,dz=449] actionbar {"text":"Petalburg Gym"}
+title @s[x=-2924,y=0,z=1224,dx=237,dy=256,dz=449] actionbar {"text":"Fortree Gym"}
+title @s[x=-2686,y=0,z=1224,dx=190,dy=256,dz=449] actionbar {"text":"Mossdeep Gym"}
+title @s[x=-3594,y=0,z=1224,dx=139,dy=256,dz=449] actionbar {"text":"Sootopolis Gym"}
 
 
 #Routes
