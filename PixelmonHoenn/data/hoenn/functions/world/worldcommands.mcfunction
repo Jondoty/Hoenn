@@ -46,6 +46,20 @@ tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 
 
 
+#---------------------
+#Signs/Establishing Shots
+
+#Sign titles if player has a score to read one.
+execute as @a[scores={SignRead=1..}] run function hoenn:dialogue/signs
+
+#Return teleports if the player flies
+
+#Oldale
+gamemode adventure @a[scores={FlyTrack=1..},x=-1993,y=115,z=111,distance=..15,gamemode=spectator]
+tp @a[scores={FlyTrack=1..},x=-1993,y=115,z=111,distance=..15,gamemode=spectator] -2021 69 62 180 0
+
+
+
 #-------------------------Important Items-----------------------------------------------------------------------------------
 
 #Poke Nav
