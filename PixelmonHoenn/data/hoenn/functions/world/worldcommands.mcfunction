@@ -55,8 +55,8 @@ execute as @a[scores={SignRead=1..}] run function hoenn:dialogue/signs
 #Return teleports if the player flies
 
 #Oldale
-gamemode adventure @a[scores={FlyTrack=1..},x=-1993,y=115,z=111,distance=..15,gamemode=spectator]
-tp @a[scores={FlyTrack=1..},x=-1993,y=115,z=111,distance=..15,gamemode=spectator] -2021 69 62 180 0
+gamemode adventure @a[scores={FlyCounter=1..},x=-1993,y=115,z=111,distance=..15,gamemode=spectator]
+tp @a[scores={FlyCounter=1..},x=-1993,y=115,z=111,distance=..15] -2021 69 62 180 0
 
 
 
@@ -110,9 +110,6 @@ function hoenn:world/regis
 #Manages step counter commands total
 execute as @a at @s run scoreboard players operation @s StepCounter += @s StepCounterWalk
 scoreboard players set @a[scores={StepCounterWalk=1..}] StepCounterWalk 0
-
-
-
 
 
 

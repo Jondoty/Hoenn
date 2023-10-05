@@ -13,12 +13,12 @@
 
 #Littleroot Town
 #-2039 69 312
-tellraw @s[scores={SignRead=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":"'s House","italic":true,"color":"gray"}]
-tellraw @s[scores={SignRead=1}] {"text":"Brendan's House"}
+tellraw @s[scores={SignRead=1,Rival=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":"'s House","italic":true,"color":"gray"}]
+tellraw @s[scores={SignRead=1,Rival=2}] {"text":"Brendan's House"}
 
 #-2014 69 312
-tellraw @s[scores={SignRead=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":"'s House","italic":true,"color":"gray"}]
-tellraw @s[scores={SignRead=2}] {"text":"Professor Birch's House"}
+tellraw @s[scores={SignRead=2,Rival=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":"'s House","italic":true,"color":"gray"}]
+tellraw @s[scores={SignRead=2,Rival=1}] {"text":"Professor Birch's House"}
 
 #-2026 69 346
 tellraw @s[scores={SignRead=3}] {"text":"Professor Birch's Pokémon Lab","italic":true,"color":"gray"}
@@ -34,7 +34,7 @@ tellraw @s[scores={SignRead=4}] {"text":"Route 101\nNorth: Oldale Town","italic"
 #-2021 69 59
 title @s[scores={SignRead=5}] subtitle {"text":"Where things start off scarce.","color":"white"}
 title @s[scores={SignRead=5}] title {"text":"Oldale Town","color":"white"}
-scoreboard players set @s[scores={SignRead=5}] FlyTrack 0
+scoreboard players set @s[scores={SignRead=5}] FlyCounter 0
 gamemode spectator @s[scores={SignRead=5}]
 tp @s[scores={SignRead=5}] -1993 115 111 152 44
 #Camera cutscene
