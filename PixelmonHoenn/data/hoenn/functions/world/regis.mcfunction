@@ -109,26 +109,12 @@ execute as @e[x=2578,y=80,z=-2941,distance=..10,nbt={Moveset:[{MoveID:"Dig"}]}] 
 
 #Chamber 2
 #   FIRST COMES RELICANTH. LAST COMES WAILORD.
-#Send out Relicanth first, then send out Wailord in order?
+#Checks against if a Relicanth is in slot 1, and a Wailord is in slot 6
 
-#Tags the two relivant Pokemon
-execute as @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,nbt={ndex:321}] run tag @s add Temp
-execute as @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,nbt={ndex:369}] run tag @s add Temp
+execute as @a[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35] store result score @s RelicanthHave run poketest 1 Relicanth
+execute as @a[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35] store result score @s WailordHave run poketest 6 Wailord
 
-#Add a tag to any Pokemon thrown out.
-#If Relicanth with a First tag, it will then search for a Wailord next.
-#Second tag will only apply to a Wailord from a tagged First Relicanth.
-#If any other Pokemon is out, it will reset the First tag before a success tag can be applied.
-
-execute if entity @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,tag=First,nbt={ndex:369}] as @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,nbt={ndex:321},tag=!First] run tag @s add Second
-execute as @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon] run tag @s add First
-
-
-#If tag of Temp is not found, indicating it is not a Relicanth or Wailord, removes tags that would cause success.
-execute as @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,tag=!Temp] run tag @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon] remove First
-execute as @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,tag=!Temp] run tag @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon] remove Second
-
-execute if entity @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,tag=First,nbt={ndex:369}] if entity @e[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,type=pixelmon:pixelmon,nbt={ndex:321},tag=Second] run scoreboard players set @a[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,tag=!Dialogue263] DialogueTrigger 263
+execute as @a[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,scores={RelicanthHave=1..,WailordHave=1..}] run scoreboard players set @a[x=2545,y=86,z=-3188,dx=70,dy=30,dz=35,tag=!Dialogue263] DialogueTrigger 263
 
 #--------------------------------------------------------------------
 #Island Cave
