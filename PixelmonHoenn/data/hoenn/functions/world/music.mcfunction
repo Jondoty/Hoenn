@@ -143,8 +143,8 @@ playsound pokemart record @s[x=-1522,y=50,z=-665,dx=32,dy=10,dz=20,scores={Music
 scoreboard players set @s[x=-1522,y=50,z=-665,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
 
 #Slateport
-playsound pokemart record @s[x=-1500,y=50,z=-242,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1500,y=50,z=-242,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
+playsound pokemart record @s[x=-1500,y=50,z=242,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1500,y=50,z=242,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] MusicCooldown 139
 
 #Lavaridge
 playsound pokemart record @s[x=-1987,y=65,z=-1132,dx=32,dy=10,dz=20,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
