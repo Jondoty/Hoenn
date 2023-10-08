@@ -5,8 +5,8 @@ execute at @a run execute if block ~ ~ ~ pixelmon:warp_plate run function hoenn:
 
 #Ambient Particles
 #Route 113, Mt. Chimney, Jagged Pass Falling Ash Particles
-execute as @a[x=-2154,y=78,z=-1507,dx=552,dy=256,dz=135] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 500 normal
-execute as @a[x=-2215,y=0,z=-3623,dx=686,dy=256,dz=522] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 300 normal
+execute as @a[x=-2154,y=80,z=-1507,dx=552,dy=256,dz=135] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 500 normal
+execute as @a[x=-2215,y=160,z=-3623,dx=686,dy=256,dz=522] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 300 normal
 execute as @a[x=-2215,y=129,z=-3100,dx=686,dy=256,dz=757] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 100 normal
 
 #Desert Sandstorm Particles
