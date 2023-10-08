@@ -43,4 +43,73 @@ particle flash -1451 173 -605 0 0 0 0 1 force @a
 
 
 
+#Route 113 bushes regeneration
+#Checks if a player isn't on the route, anbb if air is found where a bush tip is, regenerate.
+#Bush 1
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1798 91 -1424 air run fill -1799 89 -1426 -1797 89 -1422 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1798 91 -1424 air run fill -1796 89 -1423 -1800 89 -1425 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1798 91 -1424 air run fill -1799 90 -1425 -1797 90 -1423 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1798 91 -1424 air run setblock -1798 91 -1424 minecraft:dark_oak_leaves
+
+#Bush 2
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1781 91 -1446 air run fill -1782 89 -1448 -1780 89 -1444 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1781 91 -1446 air run fill -1779 89 -1445 -1783 89 -1447 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1781 91 -1446 air run fill -1782 90 -1447 -1780 90 -1445 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1781 91 -1446 air run setblock -1781 91 -1446 minecraft:dark_oak_leaves
+
+#Bush 3
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1771 91 -1453 air run fill -1772 89 -1455 -1770 89 -1451 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1771 91 -1453 air run fill -1769 89 -1452 -1773 89 -1454 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1771 91 -1453 air run fill -1772 90 -1454 -1770 90 -1452 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1771 91 -1453 air run setblock -1771 91 -1453 minecraft:dark_oak_leaves
+
+#Bush 4
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1722 86 -1450 air run fill -1723 84 -1448 -1721 84 -1452 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1722 86 -1450 air run fill -1720 84 -1451 -1724 84 -1449 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1722 86 -1450 air run fill -1723 85 -1451 -1721 85 -1449 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1722 86 -1450 air run setblock -1722 86 -1450 minecraft:dark_oak_leaves
+
+#Bush 5
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1714 81 -1418 air run fill -1715 79 -1416 -1713 79 -1420 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1714 81 -1418 air run fill -1712 79 -1419 -1716 79 -1417 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1714 81 -1418 air run fill -1715 80 -1417 -1713 80 -1419 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1714 81 -1418 air run setblock -1714 81 -1418 minecraft:dark_oak_leaves
+
+#Bush 6
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1961 96 -1452 air run fill -1963 94 -1453 -1959 94 -1451 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1961 96 -1452 air run fill -1960 94 -1450 -1962 94 -1454 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1961 96 -1452 air run fill -1962 95 -1453 -1960 95 -1451 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1961 96 -1452 air run setblock -1961 96 -1452 minecraft:dark_oak_leaves
+
+#Bush 7
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1969 91 -1403 air run fill -1970 89 -1405 -1968 89 -1401 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1969 91 -1403 air run fill -1967 89 -1402 -1971 89 -1404 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1969 91 -1403 air run fill -1970 90 -1404 -1968 90 -1402 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1969 91 -1403 air run setblock -1969 91 -1403 minecraft:dark_oak_leaves
+
+#Bush 8
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1998 91 -1422 air run fill -1997 89 -1420 -1999 89 -1424 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1998 91 -1422 air run fill -2000 89 -1423 -1996 89 -1421 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1998 91 -1422 air run fill -1997 90 -1421 -1999 90 -1423 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -1998 91 -1422 air run setblock -1998 91 -1422 minecraft:dark_oak_leaves
+
+#Bush 9
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -2008 91 -1447 air run fill -2007 89 -1445 -2009 89 -1449 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -2008 91 -1447 air run fill -2010 89 -1448 -2006 89 -1446 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -2008 91 -1447 air run fill -2007 90 -1446 -2009 90 -1448 minecraft:dark_oak_leaves replace air
+execute unless entity @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] if block -2008 91 -1447 air run setblock -2008 91 -1447 minecraft:dark_oak_leaves
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #
