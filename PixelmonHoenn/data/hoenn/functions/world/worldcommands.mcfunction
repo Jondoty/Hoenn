@@ -114,8 +114,8 @@ scoreboard players set @a[scores={StepCounterWalk=1..}] StepCounterWalk 0
 
 
 
-#Runs GameDifferences function to change things based on player's chosen version
-function hoenn:world/gamedifferences
+#Runs function to change things based on player's chosen version, or other block-based world events.
+function hoenn:world/blockchanges
 
 
 
