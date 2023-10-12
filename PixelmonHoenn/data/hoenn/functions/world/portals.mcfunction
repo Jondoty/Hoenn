@@ -1538,10 +1538,14 @@ tp @a[x=-26,y=15,z=2914,dx=3,dy=3] -25 64 2914
 
 
 
+#Dewford Brawly tp return
+tp @a[x=-2434,y=67,z=1432,dx=1,dy=5,dz=1] -2434 65 1522
 
+#Mauville Gym
+tp @a[x=-3370,y=91,z=1370,dx=1,dy=5,dz=1] -3375 106 1462
 
-
-
+#Fortree Gym
+tp @a[x=-2800,y=222,z=1556,dx=1,dy=5,dz=1] -2798 151 1484
 
 
 

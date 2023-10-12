@@ -997,6 +997,8 @@ Mr. Stone updated your PokéNav Plus! You can now use the BuzzNav function on yo
 <Brawly> So you want to challenge me?
 <Brawly> Let me see what you're made of!
 
+tp @s -2433 67 1424
+pokebattle @s brawly
 
 #--------------------------
 #Dialogue 35 - Dewford Gym
@@ -1823,6 +1825,8 @@ I look forward to seeing you again sometime!
 <Wattson> Making traps for my Gym and battling with young Trainers like you are the things I live for now!
 <Wattson> Then I, Wattson, the Leader of Mauville Gym, shall electrify you!
 
+tp @s -3370 91 1358
+pokebattle @s Wattson
 
 #-------------------------------------
 #Dialogue 68 - Mauville Gym
@@ -3545,6 +3549,9 @@ The startled Kecleon fled!
 <Winona> However grueling the battle, we will triumph with grace...
 <Winona> Witness the elegant choreography of my bird Pokémon and me!
 
+tp @s -2799 222 1535
+pokebattle @s Winona
+
 #----------------------------
 #Dialogue 118 - Fortree Gym
 #Winona Pre-Battle
@@ -5155,6 +5162,8 @@ It is being suggested that Hoenn is now more hospitable to Pokémon after that i
 <Wallice> with a performance of illusions in water...
 <Wallice> by me and my Pokémon!
 
+tp @s -3532 91 1344
+pokebattle @s Wallice
 #------------------------------
 #Dialogue 152 - Sootopolis Gym
 #Wallice Post-Battle
