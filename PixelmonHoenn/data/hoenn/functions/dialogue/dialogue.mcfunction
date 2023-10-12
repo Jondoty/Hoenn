@@ -783,6 +783,9 @@ tp @s -2741 69 -561 180 ~
 <Roxanne> I knew you and your Pokémon would be able to get this far.
 <Roxanne> Now, would you kindly demonstrate how you battle with your Pokémon?
 
+tp @s -2988 91 1356 180 0
+pokebattle @s Roxanne
+
 #--------------------------
 #Dialogue 25 - Rustboro Gym
 #Roxanne post-battle
