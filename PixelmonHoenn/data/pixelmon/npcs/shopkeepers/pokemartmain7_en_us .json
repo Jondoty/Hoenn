@@ -1,0 +1,39 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shopman.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Poké Mart Clerk"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Welcome to the Poké Mart! May I help you?",
+      "goodbye": "Please come again!"
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:repeat_ball",
+      "variation": false
+    },
+    {
+      "name": "pixelmon:timer_ball",
+      "variation": false
+    },
+    {
+      "name": "pixelmon:net_ball",
+      "variation": false
+    },
+    {
+      "name": "pixelmon:premier_ball",
+      "variation": false
+    }
+  ]
+}
