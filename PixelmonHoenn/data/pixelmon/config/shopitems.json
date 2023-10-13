@@ -201,7 +201,8 @@
       "nbtData": {
         "PokeBallID": "premier_ball"
       },
-      "sell": 100
+      "buy": 1000,
+      "sell": 500
     },
     {
       "id": "pixelmon:master_ball",
@@ -1221,39 +1222,48 @@
     },
     {
       "name": "pixelmon:full_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:lax_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:luck_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:odd_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:pure_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:rock_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:rose_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:sea_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:wave_incense",
-      "sell": 100
+      "buy": 9600,
+      "sell": 4800
     },
     {
       "name": "pixelmon:bug_gem",
@@ -6337,7 +6347,12 @@
 },
 
 
-
+},
+{
+"name": "minecraft:ender_eye",
+"buy": 550,
+"sell": 225
+},
 
 
 
