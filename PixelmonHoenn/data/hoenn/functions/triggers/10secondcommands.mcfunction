@@ -42,6 +42,9 @@ particle flash -1534 173 -685 0 0 0 0 1 force @a
 particle flash -1451 173 -605 0 0 0 0 1 force @a
 
 
+#Runs Cut Tree regeneration
+function hoenn:world/cuttrees
+
 
 #Route 113 bushes regeneration
 #Checks if a player isn't on the route, anbb if air is found where a bush tip is, regenerate.
