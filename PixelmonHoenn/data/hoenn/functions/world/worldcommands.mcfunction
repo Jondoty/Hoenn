@@ -101,6 +101,14 @@ execute as @a[tag=!MusicDisabled,scores={MusicCooldown=0}] run function hoenn:wo
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
 
+#Desert Ruins Safety Goggles Equip
+tag @a[x=-1562,y=60,z=-1293,dx=249,dy=256,dz=159] add DesertTemp
+tag @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] add DesertTemp
+
+clear @a pixelmon:safety_goggles
+execute as @a[tag=SafetyGoggles] run item replace entity @s[tag=DesertTemp] armor.head with pixelmon:safety_goggles
+
+tag @a remove DesertTemp
 
 
 
