@@ -6,6 +6,9 @@
 
 #tp @a[x=,y=,z=,dx=3,dy=3]
 
+#Runs potion effects function for if there's applicable need
+function hoenn:triggers/potioneffects
+
 #-------------------------------------------------------------------------
 #Lobby to options, or to Littleroot if chosen options
 #Ruby=GameVersion 1, Sapphire=GameVersion 2

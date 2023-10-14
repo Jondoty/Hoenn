@@ -35,6 +35,9 @@ execute as @a[scores={relog=1..}] run function hoenn:triggers/relog
 #Runs road-blocks, preventing player from going out of bounds or skipping ahead in world.
 function hoenn:world/roadblocks
 
+#Manages potion effects in the world.
+function hoenn:triggers/potioneffects
+
 #---------------------
 #Time-based commands
 
