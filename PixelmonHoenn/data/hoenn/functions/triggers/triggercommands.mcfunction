@@ -1,6 +1,7 @@
 #This function nests several commands within a single TriggerCommand scoreboard value.
 #When a value is applied through various means, run this function to execute commands, then set TriggerCommands back to 0.
 
+#/trigger TriggerCommand set 1
 
 #-----------------------------------------------------------------------------------------------------
 #Starters
@@ -60,6 +61,75 @@ execute as @s[scores={TriggerCommand=8}] run tellraw @s {"text":"<Parasol Lady> 
 execute as @s[scores={TriggerCommand=9}] run tellraw @s {"text":"<Parasol Lady> Acknowledged. I can change the music anytime, so whenever you feel like it, let me know."}
 
 #-----------------------------------------------------------------------------------------------------
+#Dialogue 7 & 8, Prof Birch's options
+
+execute as @s[scores={TriggerCommand=10}] run
+
+execute as @s[scores={TriggerCommand=11}] run
+
+
+#-----------------------------------------------------------------------------------------------------
+#Mr. Briney's locations
+
+#Dewford
+execute as @s[scores={TriggerCommand=12}] run
+
+#Slateport
+execute as @s[scores={TriggerCommand=13}] run
+
+#Petalburg
+execute as @s[scores={TriggerCommand=14}] run
+
+#-----------------------------------------------------------------------------------------------------
+#Rydel's Bike Choices
+
+#Initial Bike Pick
+#Mach
+execute as @s[scores={TriggerCommand=15}] run
+execute as @s[scores={TriggerCommand=15}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" chose the Mach Bike.","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=15}] run tellraw @s {"text":"<Rydel> If you get the urge to switch Bikes, just come see me!"}
+
+#Acro
+execute as @s[scores={TriggerCommand=16}] run
+execute as @s[scores={TriggerCommand=16}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" chose the Acro Bike.","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=16}] run tellraw @s {"text":"<Rydel> If you get the urge to switch Bikes, just come see me!"}
+
+#Prompt to switch bikes
+execute as @s[scores={TriggerCommand=17}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={TriggerCommand=17}] run tellraw @s ["",{"text":"<Rydel> Oh? Were you thinking about switching Bikes?\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 18"}},{"text":"]"}]
+
+#If bike is in inventory, run according
+#Switching Mach to Acro
+execute as @s[scores={TriggerCommand=18}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Mach Bike exchanged for an Acro Bike.","italic":true,"color":"gray"}]
+
+#Switching Acro to Mach
+execute as @s[scores={TriggerCommand=18}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Acro Bike exchanged for an Mach Bike.","italic":true,"color":"gray"}]
+
+
+#Switching out bikes, likely just needs to be a couple TriggerCommands
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 82 & 83 Rival fast travel option
+
+#No
+execute as @s[scores={TriggerCommand=19}] run
+
+#Yes
+execute as @s[scores={TriggerCommand=20}] run
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 91 & 93 Rival fast travel option
+
+#No
+execute as @s[scores={TriggerCommand=21}] run
+
+#Yes
+execute as @s[scores={TriggerCommand=22}] run
+
+#-----------------------------------------------------------------------------------------------------
+
+
+
 #Battle Resort
 #Battle Point Trader
 #https://youtu.be/MgkqxXCmrtI?t=87840
