@@ -743,6 +743,7 @@ tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> No, wait, d
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> I'm sure that you will be capable of putting this HM to good use."}
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> No need to be modest or shy. Go on, take it!"}
 
+execute as @s[scores={DialogueTrigger=21,TalkTime=1}] run give @s pixelmon:hm1
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] ["",{"selector":"@s"},{"text":" obtained HM01 Cut!"}]
 
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> That's an axe that can chop down prickly trees if the Trainer has earned the Stone Badge."}
@@ -989,7 +990,7 @@ tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"["},{"text":"Hea
 #https://youtu.be/MgkqxXCmrtI?t=9034
 
 tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Dewford, we're a-coming! Anchors aweigh!"}
-tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Peeko, we're setting sail, my darling!"}"}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Peeko, we're setting sail, my darling!"}
 
 #Cutscene shots?
 
@@ -1730,7 +1731,7 @@ tellraw @s[scores={DialogueTrigger=62,TalkTime=1}] {"text":"<Wally's Uncle> ...A
 tellraw @s[scores={DialogueTrigger=62,TalkTime=1}] {"text":"<Wally's Uncle> I want you to have it, as a bit of a thank-you."}
 
 tellraw @s[scores={DialogueTrigger=62,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM06 Rock Smash","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=62,TalkTime=1}] run tag @s give RockSmash
+execute as @s[scores={DialogueTrigger=62,TalkTime=1}] run tag @s add RockSmash
 
 tellraw @s[scores={DialogueTrigger=62,TalkTime=1}] {"text":"<Wally's Uncle> Even if there are obstacles in your path, I think you'll be able to break through them."}
 tellraw @s[scores={DialogueTrigger=62,TalkTime=1}] {"text":"<Wally's Uncle> Especially if you use Rock Smash there!"}
@@ -1845,7 +1846,7 @@ tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] ["",{"selector":"@s","italic"
 tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> With the Dynamo Badge, Pokémon can use the HM Rock Smash outside of battle."}
 tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> All righty then, this here's for you, too! Go on, take it with you!"}
 
-execute as @s[scores={DialogueTrigger=68,TalkTime=1}] run give @s TM72 volt switch
+execute as @s[scores={DialogueTrigger=68,TalkTime=1}] run give @s pixelmon:tm_gen6{tm:72s}
 
 tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> Volt Switch is a move where your Pokémon attacks the opponent and then rushes back to switch places with a party Pokémon in waiting!"}
 tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> I swell with optimism, seeing a promising young Trainer like you!"}
@@ -1865,7 +1866,7 @@ tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> Please, kid!
 tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> Wow! You shattered those boulders blocking the way."}
 tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> To show you how much I appreciate it, I'd like you to have this!"}
 
-execute as @s[scores={DialogueTrigger=70,TalkTime=1}] run give @s aggronite
+#execute as @s[scores={DialogueTrigger=70,TalkTime=1}] run give @s pixelmon:aggronite
 tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Aggronite!","italic":true,"color":"gray"}]
 
 tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> I found that when I was digging for the tunnel."}
@@ -1986,6 +1987,7 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=1}] {"text":"Your team's health w
 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=1}] {"text":"<May> Here! Take this, too!"}
 
+execute as @s[scores={DialogueTrigger=75,TalkTime=1}] run give @s pixelmon:hm4
 tellraw @s[scores={DialogueTrigger=75,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM04 Strength","italic":true,"color":"gray"}]
 #execute as @s[scores={DialogueTrigger=75,TalkTime=1}] run give @s
 
@@ -2390,7 +2392,7 @@ tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<Brendan> Not th
 tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> But I need to thank you, as well. You truly saved me from disaster."}
 tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> I hope you'll take this TM as some small form of repayment."}
 
-execute as @s[scores={DialogueTrigger=82,TalkTime=1}] run give @s smack down
+execute as @s[scores={DialogueTrigger=82,TalkTime=1}] run give @s pixelmon:tm_gen6{tm:23s}
 tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM23 Smack Down","italic":true,"color":"gray"}]
 
 tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Wow! Thanks, Professor!"}
@@ -2855,7 +2857,7 @@ tellraw @s[scores={DialogueTrigger=96,TalkTime=1}] {"text":"<Wally's Dad> That p
 tellraw @s[scores={DialogueTrigger=96,TalkTime=1}] {"text":"<Wally's Dad> Yes, that's it. Sometimes words aren't enough."}
 tellraw @s[scores={DialogueTrigger=96,TalkTime=1}] {"text":"<Wally's Dad> It would delight me if you'd take this."}
 
-execute as @s[scores={DialogueTrigger=96,TalkTime=1}] run give @s HM03 Surf
+execute as @s[scores={DialogueTrigger=96,TalkTime=1}] run give @s pixelmon:hm3
 tellraw @s[scores={DialogueTrigger=96,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM03 Surf!","italic":true,"color":"gray"}]
 execute as @s[scores={DialogueTrigger=96,TalkTime=1}] run tag @s add Surf
 
@@ -3373,7 +3375,7 @@ tellraw @s[scores={DialogueTrigger=105,TalkTime=1}] {"text":"<Brendan> Come on! 
 
 tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"<May> Hm! Well, you did battle me like I asked, so I'll give you a reward."}
 
-execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run give @s hm02 Fly
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run give @s pixelmon:hm2
 execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run function hoenn:spawn/flyhm
 tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"@s obtained HM02 Fly!","italic":true,"color":"gray"}
 
@@ -3390,7 +3392,7 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"<May> And next time
 tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"<Brendan> I'd say you're good enough to search for Pokémon anywhere by now."}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"<Brendan> Here, I'll give you this, so try it out. You should be able to use it fine."}
 
-execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run give @s hm02 Fly
+execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run give @s pixelmon:hm2
 execute as @s[scores={DialogueTrigger=106,TalkTime=1}] run function hoenn:spawn/flyhm
 tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"@s obtained HM02 Fly!","italic":true,"color":"gray"}
 
@@ -3442,7 +3444,7 @@ tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"<Old Woman> Splendi
 tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"<Old Woman> Here, take this and awaken the hidden power of your Pokémon."}
 
 tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM10 Hidden Power!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=110,TalkTime=1}] run give @s pixelmon:
+execute as @s[scores={DialogueTrigger=110,TalkTime=1}] run give @s pixelmon:tm_gen6{tm:10s}
 
 tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"<Old Woman> Hidden Power varies in type depending on the Pokémon using it."}
 
@@ -3520,9 +3522,9 @@ tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> And one mo
 tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Sceptilite!","italic":true,"color":"gray"}]
 tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Swampertite!","italic":true,"color":"gray"}]
 tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Blazikenite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s Sceptilite
-execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s Swampertite
-execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s Blazikenite
+execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s pixelmon:sceptilite
+execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s pixelmon:swampertite
+execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s pixelmon:blazikenite
 
 tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> This stone ranks as one of my top five favorite stones in existence."}
 tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> I have no doubt that your Pokémon will like it, too."}
@@ -3708,7 +3710,7 @@ tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"It seems like somet
 tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Poochyena> Grrrmph! Rahk! Hack!"}
 
 tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Gyaradosite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=121,TalkTime=1}] run give @s Gyaradosite
+execute as @s[scores={DialogueTrigger=121,TalkTime=1}] run give @s pixelmon:gyaradosite
 
 tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Poochyena> Grrromp!"}
 
@@ -3719,7 +3721,7 @@ tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Poochyena> Grrromp
 tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> Oh, exactly! You get it, don't you?"}
 tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> I'll have to give you something special I've been holding onto!"}
 
-execute as @s[scores={DialogueTrigger=122,TalkTime=1}] run give @s eviolite
+execute as @s[scores={DialogueTrigger=122,TalkTime=1}] run give @s pixelmon:eviolite
 tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained an Eviolite!","italic":true,"color":"gray"}]
 
 tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> That there will boost the Defense and Sp. Def of a Pokémon that can still evolve!"}
@@ -5120,7 +5122,7 @@ tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<May> See you later
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> Phew! It feels like we can finally relax, huh?"}
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] ["",{"text":"<Brendan> I guess that now's the time to say thanks for all you've done, "},{"selector":"@s"},{"text":"."}]
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> You know, we set out from Littleroot at the same time, but..."}
-tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> It seems like you're just dashing ahead by yourself and leaving me behind..."}"}
+tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> It seems like you're just dashing ahead by yourself and leaving me behind..."}
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> I feel like we're not even on the same level anymore, you know?"}
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> ... It's kinda lonely thinking like that..."}
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> Or it would be if I really thought that!"}
@@ -5192,7 +5194,7 @@ tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> And so yo
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Here..."}
 
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM05 Waterfall!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=152,TalkTime=1}] run give @s Waterfall
+execute as @s[scores={DialogueTrigger=152,TalkTime=1}] run give @s pixelmon:hm7
 
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> The HM I have given you contains Waterfall."}
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> It allows you to smash into an opponent with the force required to climb a waterfall itself."}
