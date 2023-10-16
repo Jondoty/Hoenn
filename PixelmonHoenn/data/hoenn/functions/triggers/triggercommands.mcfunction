@@ -177,6 +177,63 @@ execute as @s[scores={TriggerCommand=33}] run
 
 execute as @s[scores={TriggerCommand=34}] run
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogues 183 & 184, Zinnea yes and no
+
+#[You bet I do!]
+execute as @s[scores={TriggerCommand=35}] run
+
+#[I've got nothing...]
+execute as @s[scores={TriggerCommand=36}] run
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogues 218 & 218, Stern exchanging scanner for bells
+
+#[Yes]
+execute as @s[scores={TriggerCommand=37}] run
+
+#[No]
+execute as @s[scores={TriggerCommand=38}] run
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #-----------------------------------------------------------------------------------------------------
 
