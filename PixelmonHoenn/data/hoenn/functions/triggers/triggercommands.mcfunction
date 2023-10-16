@@ -127,8 +127,58 @@ execute as @s[scores={TriggerCommand=21}] run
 execute as @s[scores={TriggerCommand=22}] run
 
 #-----------------------------------------------------------------------------------------------------
+#Dialogues 107 - 110, hidden power lady coin flips
+
+#Incorrect hands
+execute as @s[scores={TriggerCommand=23}] run
+
+#First correct hand
+execute as @s[scores={TriggerCommand=24}] run
+
+#Second correct hand
+execute as @s[scores={TriggerCommand=25}] run
+
+#Third correct hand
+execute as @s[scores={TriggerCommand=26}] run
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 115, Kecleon in Fortree
+
+execute as @s[scores={TriggerCommand=27}] run
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 122, Evolite fisherman questions
+
+#Prompt
+execute as @s[scores={TriggerCommand=28}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={TriggerCommand=28}] run tellraw @s {"text":"<Fisherman> Play along with an old man, would you? Tell me which Pokémon you like best."}
+execute as @s[scores={TriggerCommand=28}] run tellraw @s ["",{"text":"["},{"text":"Magikarp","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 29"}},{"text":"] \u0020["},{"text":"Gyarados","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 30"}},{"text":"]"}]
+
+#Magikarp Answer
+execute as @s[scores={TriggerCommand=29}] run scoreboard players set @s DialogueTrigger 122
+
+#Gyarados Answer
+execute as @s[scores={TriggerCommand=30}] run tellraw @s {"text":"<Fisherman> That won't do... No, not at all. It's like you know nothing."}
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 126-127, Captain Stern prompt
+
+#No
+execute as @s[scores={TriggerCommand=31}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={TriggerCommand=31}] run tellraw @s ["",{"text":"<Captain Stern> O-oh... Tell me if you change your mind. There's no one else I can ask...\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 32"}},{"text":"]"}]
+
+#Yes
+execute as @s[scores={TriggerCommand=32}] run scoreboard players set @s DialogueTrigger 127
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 130 - Loto ID Yes and No
+
+execute as @s[scores={TriggerCommand=33}] run
+
+execute as @s[scores={TriggerCommand=34}] run
 
 
+#-----------------------------------------------------------------------------------------------------
 
 #Battle Resort
 #Battle Point Trader
