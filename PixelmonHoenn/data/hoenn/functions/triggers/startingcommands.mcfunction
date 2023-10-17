@@ -347,16 +347,107 @@ tag @s remove Dialogue274
 tag @s remove Dialogue275
 
 
-
-
-
-
-
-
-
-
-
-
+#Removes tags that grant player chatting npc items
+tag @s remove Item1Give
+tag @s remove Item2Give
+tag @s remove Item3Give
+tag @s remove Item4Give
+tag @s remove Item5Give
+tag @s remove Item6Give
+tag @s remove Item7Give
+tag @s remove Item8Give
+tag @s remove Item9Give
+tag @s remove Item10Give
+tag @s remove Item11Give
+tag @s remove Item12Give
+tag @s remove Item13Give
+tag @s remove Item14Give
+tag @s remove Item15Give
+tag @s remove Item16Give
+tag @s remove Item17Give
+tag @s remove Item18Give
+tag @s remove Item19Give
+tag @s remove Item20Give
+tag @s remove Item21Give
+tag @s remove Item22Give
+tag @s remove Item23Give
+tag @s remove Item24Give
+tag @s remove Item25Give
+tag @s remove Item26Give
+tag @s remove Item27Give
+tag @s remove Item28Give
+tag @s remove Item29Give
+tag @s remove Item30Give
+tag @s remove Item31Give
+tag @s remove Item32Give
+tag @s remove Item33Give
+tag @s remove Item34Give
+tag @s remove Item35Give
+tag @s remove Item36Give
+tag @s remove Item37Give
+tag @s remove Item38Give
+tag @s remove Item39Give
+tag @s remove Item40Give
+tag @s remove Item41Give
+tag @s remove Item42Give
+tag @s remove Item43Give
+tag @s remove Item44Give
+tag @s remove Item45Give
+tag @s remove Item46Give
+tag @s remove Item47Give
+tag @s remove Item48Give
+tag @s remove Item49Give
+tag @s remove Item50Give
+tag @s remove Item51Give
+tag @s remove Item52Give
+tag @s remove Item53Give
+tag @s remove Item54Give
+tag @s remove Item55Give
+tag @s remove Item56Give
+tag @s remove Item57Give
+tag @s remove Item58Give
+tag @s remove Item59Give
+tag @s remove Item60Give
+tag @s remove Item61Give
+tag @s remove Item62Give
+tag @s remove Item63Give
+tag @s remove Item64Give
+tag @s remove Item65Give
+tag @s remove Item66Give
+tag @s remove Item67Give
+tag @s remove Item68Give
+tag @s remove Item69Give
+tag @s remove Item70Give
+tag @s remove Item71Give
+tag @s remove Item72Give
+tag @s remove Item73Give
+tag @s remove Item74Give
+tag @s remove Item75Give
+tag @s remove Item76Give
+tag @s remove Item77Give
+tag @s remove Item78Give
+tag @s remove Item79Give
+tag @s remove Item80Give
+tag @s remove Item81Give
+tag @s remove Item82Give
+tag @s remove Item83Give
+tag @s remove Item84Give
+tag @s remove Item85Give
+tag @s remove Item86Give
+tag @s remove Item87Give
+tag @s remove Item88Give
+tag @s remove Item89Give
+tag @s remove Item90Give
+tag @s remove Item91Give
+tag @s remove Item92Give
+tag @s remove Item93Give
+tag @s remove Item94Give
+tag @s remove Item95Give
+tag @s remove Item96Give
+tag @s remove Item97Give
+tag @s remove Item98Give
+tag @s remove Item99Give
+tag @s remove Item100Give
 
 
 

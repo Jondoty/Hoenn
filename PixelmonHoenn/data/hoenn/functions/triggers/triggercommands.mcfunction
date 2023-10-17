@@ -472,36 +472,354 @@ execute as @s[scores={TriggerCommand=135},tag=!Item35Give] run function hoenn:sp
 execute as @s[scores={TriggerCommand=135},tag=!Item35Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=135},tag=!Item35Give] run tag @s add Item35Give
 
+#Fallarbor Town
+#execute as @s[scores={TriggerCommand=136},tag=!Item36Give] run give @s honey
+#execute as @s[scores={TriggerCommand=136},tag=!Item36Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+#execute as @s[scores={TriggerCommand=136},tag=!Item36Give] run tag @s add Item36Give
+
+execute as @s[scores={TriggerCommand=137},tag=!Item37Give] run give @s pixelmon:infuser
+execute as @s[scores={TriggerCommand=137},tag=!Item37Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=137},tag=!Item37Give] run tag @s add Item37Give
+
+#Route 114
+execute as @s[scores={TriggerCommand=138},tag=!Item38Give] run give @s pixelmon:tm_gen6{tm:28s}
+execute as @s[scores={TriggerCommand=138},tag=!Item38Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=138},tag=!Item38Give] run tag @s add Item38Give
+
+execute as @s[scores={TriggerCommand=139},tag=!Item39Give] run give @s pixelmon:tm_gen6{tm:5s}
+execute as @s[scores={TriggerCommand=139},tag=!Item39Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=139},tag=!Item39Give] run tag @s add Item39Give
+
+execute as @s[scores={TriggerCommand=140},tag=!Item40Give] run give @s pixelmon:bluk_berry
+execute as @s[scores={TriggerCommand=140},tag=!Item40Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=140},tag=!Item40Give] run tag @s add Item40Give
+
+execute as @s[scores={TriggerCommand=141},tag=!Item41Give] run give @s pixelmon:purple_pc
+execute as @s[scores={TriggerCommand=141},tag=!Item41Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=141},tag=!Item41Give] run tag @s add Item41Give
+
+#Lavaridge Town
+execute as @s[scores={TriggerCommand=142},tag=!Item42Give] run give @s pixelmon:tm_gen6{tm:75s}
+execute as @s[scores={TriggerCommand=142},tag=!Item42Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=142},tag=!Item42Give] run tag @s add Item42Give
+
+execute as @s[scores={TriggerCommand=143},tag=!Item43Give] run give @s pixelmon:charcoal
+execute as @s[scores={TriggerCommand=143},tag=!Item43Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=143},tag=!Item43Give] run tag @s add Item43Give
 
 
+execute as @s[scores={TriggerCommand=144},tag=Item44Give,tag=Dialogue149] run scoreboard players set @s DialogueTrigger 145
+
+#Pre-legendary only
+execute as @s[scores={TriggerCommand=144},tag=!Item44Give] run pokegive wynaut egg
+execute as @s[scores={TriggerCommand=144},tag=!Item44Give] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=144},tag=!Item44Give] run tag @s add Item44Give
+
+#Post-legendary, checks if claimed Wynaut prior and applies the 145 score to get the second egg
+execute as @s[scores={TriggerCommand=145},tag=!Item45Give] run pokegive togepi egg
+execute as @s[scores={TriggerCommand=145},tag=!Item45Give] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=145},tag=!Item45Give] run tag @s add Item45Give
+
+#Route 118
+execute as @s[scores={TriggerCommand=146},tag=!Item46Give] run give @s pixelmon:good_rod
+execute as @s[scores={TriggerCommand=146},tag=!Item46Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=146},tag=!Item46Give] run tag @s add Item46Give
+
+#Route 123
+#Berry Master's Wife
+#execute as @s[scores={TriggerCommand=147},tag=!Item47Give] run give @s random berry
+#execute as @s[scores={TriggerCommand=147},tag=!Item47Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+#execute as @s[scores={TriggerCommand=147},tag=!Item47Give] run tag @s add Item47Give
+
+#Berry Master
+#execute as @s[scores={TriggerCommand=148},tag=!Item48Give] run give @s random two berries
+#execute as @s[scores={TriggerCommand=148},tag=!Item48Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+#execute as @s[scores={TriggerCommand=148},tag=!Item48Give] run tag @s add Item48Give
+
+execute as @s[scores={TriggerCommand=149},tag=!Item49Give] run give @s pixelmon:tm_gen6{tm:99s}
+execute as @s[scores={TriggerCommand=149},tag=!Item49Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=149},tag=!Item49Give] run tag @s add Item49Give
+
+#Route 119
+execute as @s[scores={TriggerCommand=150}] run pokeheal
+execute as @s[scores={TriggerCommand=150}] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+
+#Weather Institute
+execute as @s[scores={TriggerCommand=151},tag=!Item51Give] run give @s pixelmon:icy_rock
+execute as @s[scores={TriggerCommand=151},tag=!Item51Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=151},tag=!Item51Give] run tag @s add Item51Give
+
+execute as @s[scores={TriggerCommand=152},tag=!Item52Give] run give @s pixelmon:rocky_helmet
+execute as @s[scores={TriggerCommand=152},tag=!Item52Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=152},tag=!Item52Give] run tag @s add Item52Give
+
+#Fortree City
+execute as @s[scores={TriggerCommand=153},tag=!Item53Give] run give @s pixelmon:mental_herb
+execute as @s[scores={TriggerCommand=153},tag=!Item53Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=153},tag=!Item53Give] run tag @s add Item53Give
+
+execute as @s[scores={TriggerCommand=154},tag=!Item54Give] run give @s minecraft:spruce_stairs 15
+execute as @s[scores={TriggerCommand=154},tag=!Item54Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=154},tag=!Item54Give] run tag @s add Item54Give
+
+#Route 120
+execute as @s[scores={TriggerCommand=155},tag=!Item55Give] run give @s pixelmon:iapapa_berry
+execute as @s[scores={TriggerCommand=155},tag=!Item55Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=155},tag=!Item55Give] run tag @s add Item55Give
+
+#Route 121
+execute as @s[scores={TriggerCommand=156},tag=!Item56Give] run give @s pixelmon:tm_gen6{tm:85s}
+execute as @s[scores={TriggerCommand=156},tag=!Item56Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=156},tag=!Item56Give] run tag @s add Item56Give
+
+#Mt. Pyre
+execute as @s[scores={TriggerCommand=157},tag=!Item57Give] run give @s pixelmon:cleanse_tag
+execute as @s[scores={TriggerCommand=157},tag=!Item57Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=157},tag=!Item57Give] run tag @s add Item57Give
+
+#Route 123
+execute as @s[scores={TriggerCommand=158},tag=!Item58Give] run give @s pixelmon:big_root
+execute as @s[scores={TriggerCommand=158},tag=!Item58Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=158},tag=!Item58Give] run tag @s add Item58Give
+
+#Lilycove City
+
+#Random berry of 10, resets daily
+#Some a little less likely than others cause you can get them from another NPC, #5
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run scoreboard players set @e[x=-2068,y=64,z=1410,dx=2,dy=4] rng 0
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 1
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 2
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 4
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 8
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run scoreboard players operation @a[scores={TriggerCommand=159},tag=!Item59Give] rng = @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand] rng
+execute as @s[scores={TriggerCommand=159,rng=0},tag=!Item59Give] run give @s pixelmon:cheri_berry
+execute as @s[scores={TriggerCommand=159,rng=1},tag=!Item59Give] run give @s pixelmon:chesto_berry
+execute as @s[scores={TriggerCommand=159,rng=2},tag=!Item59Give] run give @s pixelmon:pecha_berry
+execute as @s[scores={TriggerCommand=159,rng=3..4},tag=!Item59Give] run give @s pixelmon:rawst_berry
+execute as @s[scores={TriggerCommand=159,rng=5..6},tag=!Item59Give] run give @s pixelmon:aspear_berry
+execute as @s[scores={TriggerCommand=159,rng=7..8},tag=!Item59Give] run give @s pixelmon:leppa_berry
+execute as @s[scores={TriggerCommand=159,rng=9..10},tag=!Item59Give] run give @s pixelmon:oran_berry
+execute as @s[scores={TriggerCommand=159,rng=11..12},tag=!Item59Give] run give @s pixelmon:persim_berry
+execute as @s[scores={TriggerCommand=159,rng=13..14},tag=!Item59Give] run give @s pixelmon:lum_berry
+execute as @s[scores={TriggerCommand=159,rng=15..16},tag=!Item59Give] run give @s pixelmon:sitrus_berry
+
+execute as @s[scores={TriggerCommand=159,rng=0},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Cheri Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=1},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Chesto Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=2},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Pecha Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=3..4},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Rawst Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=5..6},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Aspear Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=7..8},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Leppa Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=9..10},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Oran Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=11..12},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Persim Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=13..14},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Lum Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=159,rng=15..16},tag=!Item59Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Sitrus Berry!","italic":true,"color":"gray"}]
+
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=159},tag=!Item59Give] run tag @s add Item59Give
 
 
+execute as @s[scores={TriggerCommand=160},tag=!Item60Give] run give @s pixelmon:tm_gen6{tm:44s}
+execute as @s[scores={TriggerCommand=160},tag=!Item60Give] run give @s pixelmon:tm_gen6{tm:88s}
+execute as @s[scores={TriggerCommand=160},tag=!Item60Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=160},tag=!Item60Give] run tag @s add Item60Give
+
+execute as @s[scores={TriggerCommand=161},tag=!Item61Give] run give @s pixelmon:poke_flute
+execute as @s[scores={TriggerCommand=161},tag=!Item61Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=161},tag=!Item61Give] run tag @s add Item61Give
+
+#Mossdeep City
+execute as @s[scores={TriggerCommand=162},tag=!Item62Give] run give @s pixelmon:super_rod
+execute as @s[scores={TriggerCommand=162},tag=!Item62Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=162},tag=!Item62Give] run tag @s add Item62Give
+
+execute as @s[scores={TriggerCommand=163},tag=!Item63Give] run give @s pixelmon:tm_gen6{tm:60s}
+execute as @s[scores={TriggerCommand=163},tag=!Item63Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=163},tag=!Item63Give] run tag @s add Item63Give
+
+execute as @s[scores={TriggerCommand=164},tag=!Item64Give] run give @s pixelmon:kings_rock
+execute as @s[scores={TriggerCommand=164},tag=!Item64Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=164},tag=!Item64Give] run tag @s add Item64Give
+
+execute as @s[scores={TriggerCommand=165},tag=!Item65Give] run give @s pixelmon:sun_stone
+execute as @s[scores={TriggerCommand=165},tag=!Item65Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=165},tag=!Item65Give] run tag @s add Item65Give
+
+#Sootopolis City
+#Detects if a Barboach is in their party
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] store result score @s PokeHave run poketest 1 Barboach
+execute as @s[scores={TriggerCommand=166,PokeHave=1},tag=!Item66Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] store result score @s PokeHave run poketest 2 Barboach
+execute as @s[scores={TriggerCommand=166,PokeHave=1},tag=!Item66Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] store result score @s PokeHave run poketest 3 Barboach
+execute as @s[scores={TriggerCommand=166,PokeHave=1},tag=!Item66Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] store result score @s PokeHave run poketest 4 Barboach
+execute as @s[scores={TriggerCommand=166,PokeHave=1},tag=!Item66Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] store result score @s PokeHave run poketest 5 Barboach
+execute as @s[scores={TriggerCommand=166,PokeHave=1},tag=!Item66Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] store result score @s PokeHave run poketest 6 Barboach
+execute as @s[scores={TriggerCommand=166,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave
+
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] run tellraw @s {"text":"<Fisherman> Hm. Hmm... This Barboach is surely cute... I hate to admit it, but it looks as affectionate as my Shroomish. Thank you for showing it to me. I'll give you this as a token of my appreciation!"}
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] run give @s pixelmon:max_elixir
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] run tag @s remove PokeHave
+execute as @s[scores={TriggerCommand=166},tag=!Item66Give] run tag @s add Item66Give
+
+#Detects if a Barboach is in their party
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] store result score @s PokeHave run poketest 1 Shroomish
+execute as @s[scores={TriggerCommand=167,PokeHave=1},tag=!Item67Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] store result score @s PokeHave run poketest 2 Shroomish
+execute as @s[scores={TriggerCommand=167,PokeHave=1},tag=!Item67Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] store result score @s PokeHave run poketest 3 Shroomish
+execute as @s[scores={TriggerCommand=167,PokeHave=1},tag=!Item67Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] store result score @s PokeHave run poketest 4 Shroomish
+execute as @s[scores={TriggerCommand=167,PokeHave=1},tag=!Item67Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] store result score @s PokeHave run poketest 5 Shroomish
+execute as @s[scores={TriggerCommand=167,PokeHave=1},tag=!Item67Give] run tag @s add PokeHave
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] store result score @s PokeHave run poketest 6 Shroomish
+execute as @s[scores={TriggerCommand=167,PokeHave=1},tag=!Item67Give] run tag @s add PokeHave
+
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] run tellraw @s {"text":"<Hiker> Hm. Hmm... This Shroomish  is surely cute... I hate to admit it, but it looks as affectionate as my Barboach. Thank you for showing it to me. I'll give you this as a token of my appreciation!"}
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] run give @s pixelmon:max_elixir
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] run tag @s remove PokeHave
+execute as @s[scores={TriggerCommand=167},tag=!Item67Give] run tag @s add Item67Give
+
+execute as @s[scores={TriggerCommand=168},tag=!Item68Give] run give @s pixelmon:tm_gen6{tm:31s}
+execute as @s[scores={TriggerCommand=168},tag=!Item68Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=168},tag=!Item68Give] run tag @s add Item68Give
+
+#Random berry of 16, resets daily
+#Some a little less likely than others cause you can get them from another NPC, #5
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players set @e[x=-2068,y=64,z=1410,dx=2,dy=4] rng 0
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 1
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 2
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 4
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 8
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players operation @a[scores={TriggerCommand=159},tag=!Item59Give] rng = @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand] rng
+
+execute as @s[scores={TriggerCommand=169,rng=0},tag=!Item59Give] run give @s pixelmon:figy_berry
+execute as @s[scores={TriggerCommand=169,rng=1},tag=!Item59Give] run give @s pixelmon:wiki_berry
+execute as @s[scores={TriggerCommand=169,rng=2},tag=!Item59Give] run give @s pixelmon:mago_berry
+execute as @s[scores={TriggerCommand=169,rng=3..4},tag=!Item59Give] run give @s pixelmon:aguav_berry
+execute as @s[scores={TriggerCommand=169,rng=5..6},tag=!Item59Give] run give @s pixelmon:iapapa_berry
+execute as @s[scores={TriggerCommand=169,rng=7..8},tag=!Item59Give] run give @s pixelmon:razz_berry
+execute as @s[scores={TriggerCommand=169,rng=9..10},tag=!Item59Give] run give @s pixelmon:pomeg_berry
+execute as @s[scores={TriggerCommand=169,rng=11..12},tag=!Item59Give] run give @s pixelmon:kelpsy_berry
+execute as @s[scores={TriggerCommand=169,rng=13..14},tag=!Item59Give] run give @s pixelmon:qualot_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:hondew_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:grepa_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:tamato_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:cornn_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:magost_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:rabuta_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:nomel_berry
+
+execute as @s[scores={TriggerCommand=169,rng=0},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Figy Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=1},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Wiki Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=2},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Mago Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=3},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Aguav Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=4},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Iapapa Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=5},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Razz Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=6},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Pomeg Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=7},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Kelpsy Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=8},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Qualot Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=9},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Hondew Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=10},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Grepa Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=11},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Tamato Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=12},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Cornn Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=13},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Magost Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=14},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Rabuta Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=169,rng=15},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Nomel Berry!","italic":true,"color":"gray"}]
+
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run tag @s add Item69Give
+
+#execute as @s[scores={TriggerCommand=170},tag=!Item70Give] run give @s wailmer doll
+#execute as @s[scores={TriggerCommand=170},tag=!Item70Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+#execute as @s[scores={TriggerCommand=170},tag=!Item70Give] run tag @s add Item70Give
+
+#Shoal Cave
+execute as @s[scores={TriggerCommand=171},tag=!Item71Give] run give @s pixelmon:focus_band
+execute as @s[scores={TriggerCommand=171},tag=!Item71Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=171},tag=!Item71Give] run tag @s add Item71Give
+
+#Pacifidlog Town
+execute as @s[scores={TriggerCommand=172},tag=!Item72Give] run give @s pixelmon:tm_gen6{tm:56s}
+execute as @s[scores={TriggerCommand=172},tag=!Item72Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=172},tag=!Item72Give] run tag @s add Item72Give
+
+execute as @s[scores={TriggerCommand=173},tag=!Item73Give] run give @s pixelmon:tm_gen6{tm:3s}
+execute as @s[scores={TriggerCommand=173},tag=!Item73Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=173},tag=!Item73Give] run tag @s add Item73Give
+
+execute as @s[scores={TriggerCommand=174},tag=!Item74Give] run give @s pixelmon:tm_gen6{tm:21s}
+execute as @s[scores={TriggerCommand=174},tag=!Item74Give] run give @s pixelmon:tm_gen6{tm:27s}
+execute as @s[scores={TriggerCommand=174},tag=!Item74Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=174},tag=!Item74Give] run tag @s add Item74Give
+
+#S.S. Tidal
+execute as @s[scores={TriggerCommand=175},tag=!Item75Give] run give @s pixelmon:tm_gen6{tm:63s}
+execute as @s[scores={TriggerCommand=175},tag=!Item75Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=175},tag=!Item75Give] run tag @s add Item75Give
+
+execute as @s[scores={TriggerCommand=176},tag=!Item76Give] run give @s pixelmon:sharp_beak
+execute as @s[scores={TriggerCommand=176},tag=!Item76Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=176},tag=!Item76Give] run tag @s add Item76Give
+
+#Battle Resort
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give] run give @s pixelmon:tm_gen6{tm:10s}
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give] run tag @s add Item77Give
+
+execute as @s[scores={TriggerCommand=176},tag=!Item76Give] run give @s pixelmon:sharp_beak
+execute as @s[scores={TriggerCommand=176},tag=!Item76Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=176},tag=!Item76Give] run tag @s add Item76Give
+
+#200+ streak
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give,tag=Item77give] run give @s pixelmon:starf_berry
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give,tag=Item77give] run tellraw @s {"text":"<Little Girl> Y-you won 200 times in a row! That's really, really amazing! Here, take this reward! I'll work hard and become a strong Trainer like you!"}
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give,tag=Item77give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give,tag=Item77give] run tag @s add Item78Give
+
+#100+ streak
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give] run give @s pixelmon:lansat_berry
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give] run tellraw @s {"text":"<Little Girl> What? You won 100 times in a row?! That's so cool! OK, I'll give you this as a reward! Maybe you'll win 200 in a row next... Yeah, right! Like that could happen!"}
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=177},tag=!Item77Give] run tag @s add Item77Give
 
 
+#Random berry of 6, resets daily
+#Some a little less likely than others cause you can get them from another NPC, #5
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard players set @e[x=-2068,y=64,z=1410,dx=2,dy=4] rng 0
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 1
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 2
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 4
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 8
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 16
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard players operation @a[scores={TriggerCommand=159},tag=!Item59Give] rng = @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand] rng
 
+execute as @s[scores={TriggerCommand=178,rng=0..4},tag=!Item78Give] run give @s pixelmon:pomeg_berry
+execute as @s[scores={TriggerCommand=178,rng=5..10},tag=!Item78Give] run give @s pixelmon:kelpsy_berry
+execute as @s[scores={TriggerCommand=178,rng=11.15},tag=!Item78Give] run give @s pixelmon:qualot_berry
+execute as @s[scores={TriggerCommand=178,rng=16..20},tag=!Item78Give] run give @s pixelmon:hondew_berry
+execute as @s[scores={TriggerCommand=178,rng=21..25},tag=!Item78Give] run give @s pixelmon:grepa_berry
+execute as @s[scores={TriggerCommand=178,rng=26..31},tag=!Item78Give] run give @s pixelmon:tamato_berry
 
+execute as @s[scores={TriggerCommand=178,rng=0..4},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Pomeg Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=178,rng=5..10},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Kelpsy Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=178,rng=11.15},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Qualot Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=178,rng=16..20},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Hondew Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=178,rng=21..25},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Grepa Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=178,rng=26..31},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Tamato Berry!","italic":true,"color":"gray"}]
 
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run tag @s add Item69Give
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Route 133
+execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run give @s pixelmon:tm_gen6{tm:77s}
+execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run tag @s add Item79Give
 
 
 execute as @s[scores={TriggerCommand=101..199}] run scoreboard players set @s TriggerCommand 0
