@@ -11,6 +11,10 @@
 
 #-----------------------------------------------------------------------------------
 
+playsound minecraft:click ambient @s[scores={SignRead=1..}] ~ ~ ~ 1 1 1
+
+#-----------------------------------------------------------------------------------
+
 #Littleroot Town
 #-2039 69 312
 tellraw @s[scores={SignRead=1,Rival=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":"'s House","italic":true,"color":"gray"}]
@@ -22,6 +26,14 @@ tellraw @s[scores={SignRead=2,Rival=1}] {"text":"Professor Birch's House"}
 
 #-2026 69 346
 tellraw @s[scores={SignRead=3}] {"text":"Professor Birch's Pokémon Lab","italic":true,"color":"gray"}
+
+#-2001 69 329
+title @s[scores={SignRead=146}] subtitle {"text":"A town that can't be shaded any hue.","color":"white"}
+title @s[scores={SignRead=146}] title {"text":"Littleroot Town","color":"white"}
+scoreboard players set @s[scores={SignRead=146}] FlyCounter 0
+gamemode spectator @s[scores={SignRead=146}]
+effect give @s[scores={SignRead=146}] minecraft:slowness infinite 3 true
+tp @s[scores={SignRead=146}] -1998 111 364 152 40
 
 #-----------------------------------------------------------------------------------
 
@@ -36,6 +48,7 @@ title @s[scores={SignRead=5}] subtitle {"text":"Where things start off scarce.",
 title @s[scores={SignRead=5}] title {"text":"Oldale Town","color":"white"}
 scoreboard players set @s[scores={SignRead=5}] FlyCounter 0
 gamemode spectator @s[scores={SignRead=5}]
+effect give @s[scores={SignRead=5}] minecraft:slowness infinite 3 true
 tp @s[scores={SignRead=5}] -1993 115 111 152 44
 #Camera cutscene
 
@@ -61,9 +74,14 @@ tellraw @s[scores={SignRead=8}] {"text":"Route 103\nSouth: Oldale Town","italic"
 title @s[scores={SignRead=9}] subtitle {"text":"Where people mingle with nature"}
 title @s[scores={SignRead=9}] title {"text":"Petalburg City"}
 #Camera cutscene
+scoreboard players set @s[scores={SignRead=9}] FlyCounter 0
+gamemode spectator @s[scores={SignRead=9}]
+tp @s[scores={SignRead=9}] -2578 133 92 -147 43
+effect give @s[scores={SignRead=9}] minecraft:slowness infinite 3 true
+
 
 #-2580 69 -14
-tellraw @s[scores={SignRead=9}] {"text":"Wally's House","italic":true,"color":"gray"}
+tellraw @s[scores={SignRead=147}] {"text":"Wally's House","italic":true,"color":"gray"}
 
 #-2534 69 -12
 tellraw @s[scores={SignRead=10}] ["",{"text":"Petalburg City Pokémon Gym","bold":true,"italic":true,"color":"gray"},{"text":"\nLeader: Norman\nA man in pursuit of power!","italic":true,"color":"gray"}]

@@ -62,9 +62,20 @@ execute as @a[scores={SignRead=1..}] run function hoenn:dialogue/signs
 
 #Return teleports if the player flies
 
+effect clear @a[scores={FlyCounter=1..}] minecraft:slowness
+
+#Littleroot
+gamemode adventure @a[scores={FlyCounter=1..},x=-1998,y=111,z=364,distance=..15,gamemode=spectator]
+tp @a[scores={FlyCounter=1..},x=-1998,y=111,z=364,distance=..15] -2001 69 332 180 0
+
 #Oldale
 gamemode adventure @a[scores={FlyCounter=1..},x=-1993,y=115,z=111,distance=..15,gamemode=spectator]
 tp @a[scores={FlyCounter=1..},x=-1993,y=115,z=111,distance=..15] -2021 69 62 180 0
+
+#Petalburg
+gamemode adventure @a[scores={FlyCounter=1..},x=-2578,y=133,z=92,distance=..15,gamemode=spectator]
+tp @a[scores={FlyCounter=1..},x=-2578,y=133,z=92,distance=..15] -2528 69 28 180 0
+
 
 
 
