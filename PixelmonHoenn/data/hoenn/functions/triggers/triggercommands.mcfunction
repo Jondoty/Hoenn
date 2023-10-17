@@ -11,7 +11,7 @@ execute as @s[scores={TriggerCommand=1}] run tellraw @s ["",{"text":"You pick Tr
 
  #2 - Treecko confirmation
 execute as @s[scores={TriggerCommand=2}] run tellraw @s {"text":"You chose Treecko!"}
-execute as @s[scores={TriggerCommand=2,StarterPick=0}] run pokegive @s Treecko lvl:5
+execute as @s[scores={TriggerCommand=2,StarterPick=0}] run pokegive Treecko lvl:5
 execute as @s[scores={TriggerCommand=2}] run scoreboard players set @s StarterPick 1
 execute as @s[scores={TriggerCommand=2}] run tp @s -2041 69 246 134 7
 execute as @s[scores={TriggerCommand=2}] run pokebattle @s poochyena lvl:3
@@ -23,7 +23,7 @@ execute as @s[scores={TriggerCommand=3}] run tellraw @a ["",{"text":"You pick To
 
  #4 - Torchic confirmation
 execute as @s[scores={TriggerCommand=4}] run tellraw @s {"text":"You chose Torchic!"}
-execute as @s[scores={TriggerCommand=4,StarterPick=0}] run pokegive @s Torchic lvl:5
+execute as @s[scores={TriggerCommand=4,StarterPick=0}] run pokegive Torchic lvl:5
 execute as @s[scores={TriggerCommand=4}] run scoreboard players set @s StarterPick 2
 execute as @s[scores={TriggerCommand=4}] run tp @s -2041 69 246 134 7
 execute as @s[scores={TriggerCommand=4}] run pokebattle @s poochyena lvl:3
@@ -35,7 +35,7 @@ execute as @s[scores={TriggerCommand=5}] run tellraw @s ["",{"text":"You pick Mu
 
 #6 - Mudkip confirmation
 execute as @s[scores={TriggerCommand=6}] run tellraw @s {"text":"You chose Mudkip!"}
-execute as @s[scores={TriggerCommand=6,StarterPick=0}] run pokegive @s Mudkip lvl:5
+execute as @s[scores={TriggerCommand=6,StarterPick=0}] run pokegive Mudkip lvl:5
 execute as @s[scores={TriggerCommand=6}] run scoreboard players set @s StarterPick 3
 execute as @s[scores={TriggerCommand=6}] run tp @s -2041 69 246 134 7
 execute as @s[scores={TriggerCommand=6}] run pokebattle @s poochyena lvl:3
@@ -778,7 +778,7 @@ execute as @s[scores={TriggerCommand=176},tag=!Item76Give] run tag @s add Item76
 
 #200+ streak
 execute as @s[scores={TriggerCommand=178},tag=!Item78Give,tag=Item77give] run give @s pixelmon:starf_berry
-execute as @s[scores={TriggerCommand=177},tag=!Item77Give,tag=Item77give] run tellraw @s {"text":"<Little Girl> Y-you won 200 times in a row! That's really, really amazing! Here, take this reward! I'll work hard and become a strong Trainer like you!"}
+execute as @s[scores={TriggerCommand=178},tag=!Item77Give,tag=Item77give] run tellraw @s {"text":"<Little Girl> Y-you won 200 times in a row! That's really, really amazing! Here, take this reward! I'll work hard and become a strong Trainer like you!"}
 execute as @s[scores={TriggerCommand=178},tag=!Item78Give,tag=Item77give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=178},tag=!Item78Give,tag=Item77give] run tag @s add Item78Give
 
@@ -801,20 +801,20 @@ execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run scoreboard player
 
 execute as @s[scores={TriggerCommand=178,rng=0..4},tag=!Item78Give] run give @s pixelmon:pomeg_berry
 execute as @s[scores={TriggerCommand=178,rng=5..10},tag=!Item78Give] run give @s pixelmon:kelpsy_berry
-execute as @s[scores={TriggerCommand=178,rng=11.15},tag=!Item78Give] run give @s pixelmon:qualot_berry
+execute as @s[scores={TriggerCommand=178,rng=11..15},tag=!Item78Give] run give @s pixelmon:qualot_berry
 execute as @s[scores={TriggerCommand=178,rng=16..20},tag=!Item78Give] run give @s pixelmon:hondew_berry
 execute as @s[scores={TriggerCommand=178,rng=21..25},tag=!Item78Give] run give @s pixelmon:grepa_berry
 execute as @s[scores={TriggerCommand=178,rng=26..31},tag=!Item78Give] run give @s pixelmon:tamato_berry
 
 execute as @s[scores={TriggerCommand=178,rng=0..4},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Pomeg Berry!","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=178,rng=5..10},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Kelpsy Berry!","italic":true,"color":"gray"}]
-execute as @s[scores={TriggerCommand=178,rng=11.15},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Qualot Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=178,rng=11..15},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Qualot Berry!","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=178,rng=16..20},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Hondew Berry!","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=178,rng=21..25},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Grepa Berry!","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=178,rng=26..31},tag=!Item78Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Tamato Berry!","italic":true,"color":"gray"}]
 
 execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run tag @s add Item69Give
+execute as @s[scores={TriggerCommand=178},tag=!Item78Give] run tag @s add Item78Give
 
 #Route 133
 execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run give @s pixelmon:tm_gen6{tm:77s}

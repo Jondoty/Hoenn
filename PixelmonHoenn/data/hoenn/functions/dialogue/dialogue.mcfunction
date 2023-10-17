@@ -2658,7 +2658,7 @@ tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> Uh... You
 tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> With the skills inherited from my grandfather, I'm gonna, uh, demonstrate the hot moves we've honed in this land!"}
 tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> Haiyaaaaaaaaaaaaa!"}
 
-execute as @s[scores={DialogueTrigger=89,TalkTime=1}] run tp @s -3102 70 1352
+execute as @s[scores={DialogueTrigger=89,TalkTime=1}] run tp @s -3102 70 1362
 execute as @s[scores={DialogueTrigger=89,TalkTime=1}] run pokebattle Flannery
 
 #----------------------------
