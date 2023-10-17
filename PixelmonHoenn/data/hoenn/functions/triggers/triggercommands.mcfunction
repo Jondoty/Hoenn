@@ -98,12 +98,24 @@ execute as @s[scores={TriggerCommand=16}] run tellraw @s {"text":"<Rydel> If you
 execute as @s[scores={TriggerCommand=17}] run scoreboard players enable @s TriggerCommand
 execute as @s[scores={TriggerCommand=17}] run tellraw @s ["",{"text":"<Rydel> Oh? Were you thinking about switching Bikes?\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 18"}},{"text":"]"}]
 
-#If bike is in inventory, run according
+#If bike is in inventory, run according to what the player has in their inventory
 #Switching Mach to Acro
-execute as @s[scores={TriggerCommand=18}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Mach Bike exchanged for an Acro Bike.","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=18},nbt={Inventory:[{id:"pixelmon:mach_bike"}]}] run tag @s add MachHaveTemp
+execute as @s[scores={TriggerCommand=18},nbt={Inventory:[{id:"pixelmon:acro_bike"}]}] run tag @s add AcroHaveTemp
+
+execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Mach Bike exchanged for an Acro Bike.","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run clear @s pixelmon:mach_bike
+execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run give @s pixelmon:acro_bike
+execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run tag @s remove MachHaveTemp
 
 #Switching Acro to Mach
-execute as @s[scores={TriggerCommand=18}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Acro Bike exchanged for an Mach Bike.","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Acro Bike exchanged for an Mach Bike.","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run clear @s pixelmon:acro_bike
+execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run give @s pixelmon:mach_bike
+execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run tag @s remove AcroHaveTemp
+execute as @s[scores={TriggerCommand=18}] run scoreboard players set @s TriggerCommand 0
 
 
 #Switching out bikes, likely just needs to be a couple TriggerCommands
@@ -199,6 +211,266 @@ execute as @s[scores={TriggerCommand=38}] run
 
 
 
+#-----------------------------------------------------------------------------------------------------
+#100+, chatting NPCs give player items
+#-----------------------------------------------------------------------------------------------------
+
+#Mom otherwise
+execute as @s[scores={TriggerCommand=101},tag=Norman,tag=Item1Give] run tellraw @s {"text":"<Mom> You feeling OK? You look a little tired. I think you should rest a bit."}
+execute as @s[scores={TriggerCommand=101},tag=Norman,tag=Item1Give] run pokeheal @s
+execute as @s[scores={TriggerCommand=101},tag=Norman,tag=Item1Give] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+
+execute as @s[scores={TriggerCommand=101},tag=!Norman,tag=Item1Give] run tellraw @s {"text":"<Mom> You feeling OK? You look a little tired. I think you should rest a bit."}
+execute as @s[scores={TriggerCommand=101},tag=!Norman,tag=Item1Give] run pokeheal @s
+execute as @s[scores={TriggerCommand=101},tag=!Norman,tag=Item1Give] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+
+#Mom After Petalberg Badge
+execute as @s[scores={TriggerCommand=101},tag=Norman,tag=!Item1Give] run tellraw @s {"text":"<Mom> Oh? Did Dad give you that Badge?! Then here's something from your mom!"}
+execute as @s[scores={TriggerCommand=101},tag=Norman,tag=!Item1Give] run give @s pixelmon:amulet_coin
+execute as @s[scores={TriggerCommand=101},tag=Norman,tag=!Item1Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=101},tag=Norman,tag=!Item1Give] run tag @s add Item1Give
+
+
+#Petelburg Woods
+execute as @s[scores={TriggerCommand=102},tag=!Item2Give] run give @s pixelmon:miracle_seed
+execute as @s[scores={TriggerCommand=102},tag=!Item2Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=102},tag=!Item2Give] run tag @s add Item2Give
+
+#Route 104 (north)
+execute as @s[scores={TriggerCommand=103},tag=!Item3Give] run give @s pixelmon:tm_gen6{tm:49s}
+execute as @s[scores={TriggerCommand=103},tag=!Item3Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=103},tag=!Item3Give] run tag @s add Item3Give
+
+execute as @s[scores={TriggerCommand=104},tag=!Item4Give] run give @s pixelmon:wailmer_pail
+execute as @s[scores={TriggerCommand=104},tag=!Item4Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=104},tag=!Item4Give] run tag @s add Item4Give
+
+
+#Random of 8 berries, resets daily.
+execute as @s[scores={TriggerCommand=105},tag=!Item5Give] run scoreboard players set @e[x=-2068,y=64,z=1410,dx=2,dy=4] rng 0
+execute as @s[scores={TriggerCommand=105},tag=!Item5Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 1
+execute as @s[scores={TriggerCommand=105},tag=!Item5Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 2
+execute as @s[scores={TriggerCommand=105},tag=!Item5Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 4
+execute as @s[scores={TriggerCommand=105},tag=!Item5Give] run scoreboard players operation @a[scores={TriggerCommand=105},tag=!Item5Give] rng = @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand] rng
+execute as @s[scores={TriggerCommand=105,rng=0},tag=!Item5Give] run give @s pixelmon:cheri_berry
+execute as @s[scores={TriggerCommand=105,rng=1},tag=!Item5Give] run give @s pixelmon:chesto_berry
+execute as @s[scores={TriggerCommand=105,rng=2},tag=!Item5Give] run give @s pixelmon:pecha_berry
+execute as @s[scores={TriggerCommand=105,rng=3},tag=!Item5Give] run give @s pixelmon:rawst_berry
+execute as @s[scores={TriggerCommand=105,rng=4},tag=!Item5Give] run give @s pixelmon:aspear_berry
+execute as @s[scores={TriggerCommand=105,rng=5},tag=!Item5Give] run give @s pixelmon:leppa_berry
+execute as @s[scores={TriggerCommand=105,rng=6},tag=!Item5Give] run give @s pixelmon:oran_berry
+execute as @s[scores={TriggerCommand=105,rng=7},tag=!Item5Give] run give @s pixelmon:persim_berry
+
+execute as @s[scores={TriggerCommand=105,rng=0},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Cheri Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=105,rng=1},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Chesto Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=105,rng=2},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Pecha Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=105,rng=3},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Rawst Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=105,rng=4},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Aspear Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=105,rng=5},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Leppa Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=105,rng=6},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received an Oran Berry!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=105,rng=7},tag=!Item5Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Persim Berry!","italic":true,"color":"gray"}]
+
+execute as @s[scores={TriggerCommand=105},tag=!Item5Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=105},tag=!Item5Give] run tag @s add Item5Give
+
+
+
+execute as @s[scores={TriggerCommand=106},tag=!Item6Give] run give @s pixelmon:chesto_berry
+execute as @s[scores={TriggerCommand=106},tag=!Item6Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=106},tag=!Item6Give] run tag @s add Item6Give
+
+#Rustboro City
+execute as @s[scores={TriggerCommand=107},tag=!Item7Give] run give @s pixelmon:quick_claw
+execute as @s[scores={TriggerCommand=107},tag=!Item7Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=107},tag=!Item7Give] run tag @s add Item7Give
+
+execute as @s[scores={TriggerCommand=108},tag=!Item8Give] run give @s pixelmon:premier_ball
+execute as @s[scores={TriggerCommand=108},tag=!Item8Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=108},tag=!Item8Give] run tag @s add Item8Give
+
+execute as @s[scores={TriggerCommand=109},tag=!Item9Give] run give @s pixelmon:float_stone
+execute as @s[scores={TriggerCommand=109},tag=!Item9Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=109},tag=!Item9Give] run tag @s add Item9Give
+
+execute as @s[scores={TriggerCommand=110},tag=!Item10Give] run give @s pixelmon:tm_gen6{tm:54s}
+execute as @s[scores={TriggerCommand=110},tag=!Item10Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=110},tag=!Item10Give] run tag @s add Item10Give
+
+#Dewford Town
+execute as @s[scores={TriggerCommand=111},tag=!Item11Give] run give @s pixelmon:old_rod
+execute as @s[scores={TriggerCommand=111},tag=!Item11Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=111},tag=!Item11Give] run tag @s add Item11Give
+
+execute as @s[scores={TriggerCommand=112},tag=!Item12Give] run give @s pixelmon:silk_scarf
+execute as @s[scores={TriggerCommand=112},tag=!Item12Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=112},tag=!Item12Give] run tag @s add Item12Give
+
+#Granite Cave
+execute as @s[scores={TriggerCommand=113},tag=!Item13Give] run give @s pixelmon:tm_gen6{tm:70s}
+execute as @s[scores={TriggerCommand=113},tag=!Item13Give] run function hoenn:spawn/flashhm
+execute as @s[scores={TriggerCommand=113},tag=!Item13Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=113},tag=!Item13Give] run tag @s add Item13Give
+
+#Route 109
+execute as @s[scores={TriggerCommand=114},tag=!Item14Give] run give @s pixelmon:soft_sand
+execute as @s[scores={TriggerCommand=114},tag=!Item14Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=114},tag=!Item14Give] run tag @s add Item14Give
+
+#Slateport City
+#Friendship ribbon
+#execute as @s[scores={TriggerCommand=115},tag=!Item15Give] run pokeedit @s 1 ribbon:friendship
+#execute as @s[scores={TriggerCommand=115},tag=!Item15Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+#execute as @s[scores={TriggerCommand=115},tag=!Item15Give] run tag @s add Item15Give
+
+execute as @s[scores={TriggerCommand=116},tag=!Item16Give] run give @s pixelmon:aspear_berry
+execute as @s[scores={TriggerCommand=116},tag=!Item16Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=116},tag=!Item16Give] run tag @s add Item16Give
+
+execute as @s[scores={TriggerCommand=117},tag=!Item17Give] run give @s pixelmon:tm_gen6{tm:41s}
+execute as @s[scores={TriggerCommand=117},tag=!Item17Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=117},tag=!Item17Give] run tag @s add Item17Give
+
+execute as @s[scores={TriggerCommand=118},tag=!Item18Give] run give @s pixelmon:shalour_sable
+execute as @s[scores={TriggerCommand=118},tag=!Item18Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=118},tag=!Item18Give] run tag @s add Item18Give
+
+execute as @s[scores={TriggerCommand=119},tag=!Item19Give] run give @s pixelmon:tm_gen6{tm:46s}
+execute as @s[scores={TriggerCommand=119},tag=!Item19Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=119},tag=!Item19Give] run tag @s add Item19Give
+
+#Route 110
+execute as @s[scores={TriggerCommand=120},tag=!Item20Give] run give @s pixelmon:tm_gen6{tm:12s}
+execute as @s[scores={TriggerCommand=120},tag=!Item20Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=120},tag=!Item20Give] run tag @s add Item20Give
+
+#Mauville City
+execute as @s[scores={TriggerCommand=121},tag=!Item21Give] run give @s pixelmon:lime_armchair
+execute as @s[scores={TriggerCommand=121},tag=!Item21Give] run give @s pixelmon:red_armchair
+execute as @s[scores={TriggerCommand=121},tag=!Item21Give] run give @s pixelmon:blue_armchair
+execute as @s[scores={TriggerCommand=121},tag=!Item21Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=121},tag=!Item21Give] run tag @s add Item21Give
+
+#------------------------------------------------------
+
+#Detects if any genie is in their party
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 1 Tornadus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave1
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 2 Tornadus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave1
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 3 Tornadus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave1
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 4 Tornadus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave1
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 5 Tornadus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave1
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 6 Tornadus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave1
+
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 1 Landorus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave2
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 2 Landorus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave2
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 3 Landorus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave2
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 4 Landorus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave2
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 5 Landorus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave2
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 6 Landorus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave2
+
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 1 Thundurus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave3
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 2 Thundurus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave3
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 3 Thundurus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave3
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 4 Thundurus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave3
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 5 Thundurus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave3
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] store result score @s PokeHave run poketest 6 Thundurus
+execute as @s[scores={TriggerCommand=122,PokeHave=1},tag=!Item22Give] run tag @s add PokeHave3
+
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give,tag=PokeHave1] run tellraw @s {"text":"<Lass> Don't tell me that you are with Tornadus! Oh, my! That's awesome! This mirror is called Reveal Glass and it's said to be for Tornadus! You can have it. "}
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give,tag=PokeHave2] run tellraw @s {"text":"<Lass> Don't tell me that you are with Landorus! Oh, my! That's awesome! This mirror is called Reveal Glass and it's said to be for Landorus! You can have it. "}
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give,tag=PokeHave3] run tellraw @s {"text":"<Lass> Don't tell me that you are with Thundurus! Oh, my! That's awesome! This mirror is called Reveal Glass and it's said to be for Thundurus! You can have it. "}
+
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] run tag @s[tag=PokeHave1] add PokeHave
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] run tag @s[tag=PokeHave2] add PokeHave
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] run tag @s[tag=PokeHave3] add PokeHave
+
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] run tag @s remove PokeHave1
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] run tag @s remove PokeHave2
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give] run tag @s remove PokeHave3
+
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give,tag=PokeHave] run give @s pixelmon:reveal_glass
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give,tag=PokeHave] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=122},tag=!Item22Give,tag=PokeHave] run tag @s add Item22Give
+execute as @s[scores={TriggerCommand=122}] run tag @s remove PokeHave
+
+#------------------------------------------------------
+
+execute as @s[scores={TriggerCommand=123},tag=!Item23Give] run give @s pixelmon:tm_gen6{tm:48s}
+execute as @s[scores={TriggerCommand=123},tag=!Item23Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=123},tag=!Item23Give] run tag @s add Item23Give
+
+execute as @s[scores={TriggerCommand=124},tag=!Item24Give] run give @s pixelmon:casteliacone
+execute as @s[scores={TriggerCommand=124},tag=!Item24Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=124},tag=!Item24Give] run tag @s add Item24Give
+
+execute as @s[scores={TriggerCommand=125},tag=!Item25Give] run give @s pixelmon:tm_gen6{tm:58s}
+execute as @s[scores={TriggerCommand=125},tag=!Item25Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=125},tag=!Item25Give] run tag @s add Item25Give
+
+execute as @s[scores={TriggerCommand=126},tag=!Item26Give] run give @s pixelmon:metronome
+execute as @s[scores={TriggerCommand=126},tag=!Item26Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=126},tag=!Item26Give] run tag @s add Item26Give
+
+#Not in Pixelmon
+#execute as @s[scores={TriggerCommand=127},tag=!Item27Give] run give @s pixelmon:poke_toy
+#execute as @s[scores={TriggerCommand=127},tag=!Item27Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+#execute as @s[scores={TriggerCommand=127},tag=!Item27Give] run tag @s add Item27Give
+
+#------------------------------------------------------
+#Gives ribbons
+#https://bulbapedia.bulbagarden.net/wiki/Mauville_City#Mauville_Hills apt 2
+#execute as @s[scores={TriggerCommand=128},tag=!Item28Give] run
+#execute as @s[scores={TriggerCommand=128},tag=!Item28Give] run
+#execute as @s[scores={TriggerCommand=128},tag=!Item28Give] run
+#execute as @s[scores={TriggerCommand=128},tag=!Item28Give] run tag @s add Item28Give
+
+
+#------------------------------------------------------
+
+execute as @s[scores={TriggerCommand=129},tag=!Item29Give] run give @s pixelmon:casteliacone
+execute as @s[scores={TriggerCommand=129},tag=!Item29Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=129},tag=!Item29Give] run tag @s add Item29Give
+
+#Verdanturf Town
+execute as @s[scores={TriggerCommand=130},tag=!Item30Give] run give @s pixelmon:tm_gen6{tm:45s}
+execute as @s[scores={TriggerCommand=130},tag=!Item30Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=130},tag=!Item30Give] run tag @s add Item30Give
+
+#Route 111
+execute as @s[scores={TriggerCommand=131},tag=!Item31Give] run give @s pixelmon:razz_berry
+execute as @s[scores={TriggerCommand=131},tag=!Item31Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=131},tag=!Item31Give] run tag @s add Item31Give
+
+execute as @s[scores={TriggerCommand=132}] run pokeheal @s
+execute as @s[scores={TriggerCommand=132}] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+
+execute as @s[scores={TriggerCommand=133},tag=!Item33Give] run give @s pixelmon:macho_brace
+execute as @s[scores={TriggerCommand=133},tag=!Item33Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=133},tag=!Item33Give] run tag @s add Item33Give
+
+execute as @s[scores={TriggerCommand=134},tag=!Item34Give] run give @s pixelmon:safety_goggles
+execute as @s[scores={TriggerCommand=134},tag=!Item34Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=134},tag=!Item34Give] run tag @s add Item34Give
+
+execute as @s[scores={TriggerCommand=135},tag=!Item35Give] run function hoenn:spawn/soot_sack
+execute as @s[scores={TriggerCommand=135},tag=!Item35Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=135},tag=!Item35Give] run tag @s add Item35Give
 
 
 
@@ -232,7 +504,7 @@ execute as @s[scores={TriggerCommand=38}] run
 
 
 
-
+execute as @s[scores={TriggerCommand=101..199}] run scoreboard players set @s TriggerCommand 0
 
 
 #-----------------------------------------------------------------------------------------------------

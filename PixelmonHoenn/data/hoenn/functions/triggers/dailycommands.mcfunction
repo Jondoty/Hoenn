@@ -28,7 +28,8 @@ scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng
 scoreboard players operation @e[x=-2070,y=64,z=1410,dy=3] MirageSpots = @e[x=-2068,y=64,z=1410,dy=4] rng
 
 
-
+#Removes item give tags, allowing daily use
+tag @a remove Item5Give
 
 
 
