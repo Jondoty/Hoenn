@@ -24,7 +24,10 @@ execute as @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] at @s run particle mine
 #Shakes the player's screen if tag is present
 execute as @a[tag=ShakeScreen] at @s run function hoenn:cutscenes/shakeeffect
 
-
+#Bike obstacles
+execute as @a at @s if entity @e[type=pixelmon:bike,distance=..3] run function hoenn:items/bikeobstacles
+execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:mach_bike",Count:1b}},tag=!AdventureData] run function hoenn:data/bikeitemdata
+execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:acro_bike",Count:1b}},tag=!AdventureData] run function hoenn:data/bikeitemdata
 
 #-----------------------------------------------------------------------------------------
 #Poke Nav commands
@@ -58,7 +61,13 @@ execute as @a[x=-997,y=205,z=1382,dx=276,dy=50,dz=194,gamemode=spectator] at @s 
 
 
 
+#Acro Bike paths on foot
+#Safari Zone
+execute as @a[x=-101,y=93,z=-1149,distance=..5] at @s unless entity @e[distance=..5,type=pixelmon:bike] if block ~ ~-1 ~ minecraft:iron_block run tp @s ~ ~ ~3
+execute as @a[x=-51,y=93,z=-1222,distance=..5] at @s unless entity @e[distance=..5,type=pixelmon:bike] if block ~ ~-1 ~ minecraft:iron_block run tp @s ~3 ~ ~
 
-
+#Route 119
+execute as @a[x=-959,y=88,z=-1361,distance=..5] at @s unless entity @e[distance=..5,type=pixelmon:bike] if block ~ ~-1 ~ minecraft:iron_block run tp @s ~-3 ~ ~
+execute as @a[x=-874,y=67,z=-938,distance=..5] at @s unless entity @e[distance=..5,type=pixelmon:bike] if block ~ ~-1 ~ minecraft:iron_block run tp @s ~3 ~ ~
 
 #

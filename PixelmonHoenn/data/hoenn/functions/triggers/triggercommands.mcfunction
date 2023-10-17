@@ -105,14 +105,14 @@ execute as @s[scores={TriggerCommand=18},nbt={Inventory:[{id:"pixelmon:acro_bike
 
 execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Mach Bike exchanged for an Acro Bike.","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run clear @s pixelmon:mach_bike
-execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run give @s pixelmon:acro_bike
+execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run function hoenn:spawn/acro_bike
 execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=18},tag=MachHaveTemp] run tag @s remove MachHaveTemp
 
 #Switching Acro to Mach
 execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" got the Acro Bike exchanged for an Mach Bike.","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run clear @s pixelmon:acro_bike
-execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run give @s pixelmon:mach_bike
+execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run function hoenn:spawn/mach_bike
 execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run tag @s remove AcroHaveTemp
 execute as @s[scores={TriggerCommand=18}] run scoreboard players set @s TriggerCommand 0
