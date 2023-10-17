@@ -38,6 +38,11 @@ function hoenn:world/roadblocks
 #Manages potion effects in the world.
 function hoenn:triggers/potioneffects
 
+#Runs soot-related commands when player is on route or is holding bag
+execute as @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] run function hoenn:items/soot
+#If player selects their soot sack, tells them how many grams the player has.
+execute as @a[nbt={SelectedItem:{tag:{display:{Name:'[{"text":"Soot Sack","italic":false,"color":"gray"}]'}}}}] run function hoenn:items/sootcount
+
 #---------------------
 #Time-based commands
 
