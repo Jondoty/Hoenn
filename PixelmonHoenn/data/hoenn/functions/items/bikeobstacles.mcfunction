@@ -92,6 +92,8 @@ execute as @a[x=2967,y=91,z=-2913,dx=8,dy=10,dz=2,y_rotation=0..180] at @s if en
 execute as @a[x=2967,y=94,z=-2913,dx=8,dy=10,dz=2,y_rotation=0..180] at @s if entity @e[type=pixelmon:bike,distance=..3,nbt={type:1b}] run data merge entity @e[distance=..3,type=pixelmon:bike,limit=1] {Motion: [1.0d,0.0d,0.0d]}
 
 
+#Mirage Area Slope
+execute as @a[x=1030,y=58,z=-1541,dx=10,dy=15,dz=11,y_rotation=0..180] at @s if entity @e[type=pixelmon:bike,distance=..3,nbt={type:0b}] run data merge entity @e[distance=..3,type=pixelmon:bike,limit=1] {Motion: [-2.0d,3.0d,0.0d]}
 
 
 

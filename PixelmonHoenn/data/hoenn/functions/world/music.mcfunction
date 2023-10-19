@@ -592,16 +592,16 @@ playsound sealedchamber record @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores=
 scoreboard players set @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 123
 
 #Fabled Cave
-playsound sealedchamber record @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,scores={MusicCooldown=0}] MusicCooldown 123
+playsound sealedchamber record @s[x=-310,y=0,z=2085,dx=207,dy=256,dz=264,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-310,y=0,z=2085,dx=207,dy=256,dz=264,scores={MusicCooldown=0}] MusicCooldown 123
 
 #Gnarled Den
 playsound sealedchamber record @s[x=-61,y=0,z=2085,dx=183,dy=256,dz=227,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=-61,y=0,z=2085,dx=183,dy=256,dz=227,scores={MusicCooldown=0}] MusicCooldown 123
 
 #Trackless Forest
-playsound sealedchamber record @s[x=-490,y=0,z=256,dx=167,dy=256,dz=192,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-490,y=0,z=256,dx=167,dy=256,dz=192,scores={MusicCooldown=0}] MusicCooldown 123
+playsound sealedchamber record @s[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,scores={MusicCooldown=0}] MusicCooldown 123
 
 
 #Islands

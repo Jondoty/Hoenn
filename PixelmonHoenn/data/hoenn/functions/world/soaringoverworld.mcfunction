@@ -14,13 +14,359 @@ tag @s add Cooldown
 
 
 
+
+
+#Mirage Areas, rolled random daily
+#Above regular zones to take priority for ones that are zones within larger routes
+
+#Shows titles
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0}] run title @s[x=-988,y=63,z=1470,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=1}] run title @s[x=-970,y=63,z=1528,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=2}] run title @s[x=-916,y=63,z=1385,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=3}] run title @s[x=-788,y=63,z=1419,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=4}] run title @s[x=-758,y=63,z=1403,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=5}] run title @s[x=-814,y=63,z=1521,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=6}] run title @s[x=-835,y=63,z=1525,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=7}] run title @s[x=-878,y=63,z=1542,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Island"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=8}] run title @s[x=-743,y=63,z=1448,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=9}] run title @s[x=-797,y=63,z=1422,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=10}] run title @s[x=-953,y=63,z=1406,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=11}] run title @s[x=-816,y=63,z=1422,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=12}] run title @s[x=-818,y=63,z=1508,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=13}] run title @s[x=-984,y=63,z=1493,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=14}] run title @s[x=-885,y=63,z=1536,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=15}] run title @s[x=-880,y=63,z=1405,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Forest"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=16}] run title @s[x=-985,y=63,z=1465,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=17}] run title @s[x=-858,y=63,z=1404,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=18}] run title @s[x=-811,y=63,z=1512,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=19}] run title @s[x=-936,y=63,z=1546,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=20}] run title @s[x=-780,y=63,z=1422,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=21}] run title @s[x=-838,y=63,z=1487,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=22}] run title @s[x=-758,y=63,z=1514,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=23}] run title @s[x=-935,y=63,z=1399,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Cave"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=24}] run title @s[x=-972,y=63,z=1443,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=25}] run title @s[x=-811,y=63,z=1424,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=26}] run title @s[x=-749,y=63,z=1414,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=27}] run title @s[x=-807,y=63,z=1513,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=28}] run title @s[x=-741,y=63,z=1429,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=29}] run title @s[x=-763,y=63,z=1517,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=30}] run title @s[x=-751,y=63,z=1506,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=31}] run title @s[x=-767,y=63,z=1414,dx=2,dy=150,dz=2] actionbar {"text":"Mirage Mountain"}
+
+#Sets adventure
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0}] run gamemode adventure @s[x=-988,y=63,z=1470,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=1}] run gamemode adventure @s[x=-970,y=63,z=1528,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=2}] run gamemode adventure @s[x=-916,y=63,z=1385,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=3}] run gamemode adventure @s[x=-788,y=63,z=1419,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=4}] run gamemode adventure @s[x=-758,y=63,z=1403,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=5}] run gamemode adventure @s[x=-814,y=63,z=1521,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=6}] run gamemode adventure @s[x=-835,y=63,z=1525,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=7}] run gamemode adventure @s[x=-878,y=63,z=1542,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=8}] run gamemode adventure @s[x=-743,y=63,z=1448,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=9}] run gamemode adventure @s[x=-797,y=63,z=1422,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=10}] run gamemode adventure @s[x=-953,y=63,z=1406,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=11}] run gamemode adventure @s[x=-816,y=63,z=1422,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=12}] run gamemode adventure @s[x=-818,y=63,z=1508,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=13}] run gamemode adventure @s[x=-984,y=63,z=1493,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=14}] run gamemode adventure @s[x=-885,y=63,z=1536,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=15}] run gamemode adventure @s[x=-880,y=63,z=1405,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=16}] run gamemode adventure @s[x=-985,y=63,z=1465,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=17}] run gamemode adventure @s[x=-858,y=63,z=1404,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=18}] run gamemode adventure @s[x=-811,y=63,z=1512,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=19}] run gamemode adventure @s[x=-936,y=63,z=1546,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=20}] run gamemode adventure @s[x=-780,y=63,z=1422,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=21}] run gamemode adventure @s[x=-838,y=63,z=1487,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=22}] run gamemode adventure @s[x=-758,y=63,z=1514,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=23}] run gamemode adventure @s[x=-935,y=63,z=1399,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=24}] run gamemode adventure @s[x=-972,y=63,z=1443,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=25}] run gamemode adventure @s[x=-811,y=63,z=1424,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=26}] run gamemode adventure @s[x=-749,y=63,z=1414,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=27}] run gamemode adventure @s[x=-807,y=63,z=1513,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=28}] run gamemode adventure @s[x=-741,y=63,z=1429,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=29}] run gamemode adventure @s[x=-763,y=63,z=1517,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=30}] run gamemode adventure @s[x=-751,y=63,z=1506,dx=2,dy=15,dz=2]
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=31}] run gamemode adventure @s[x=-767,y=63,z=1414,dx=2,dy=15,dz=2]
+
+#Swaps music
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0}] as @a[x=-988,y=63,z=1470,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=1}] as @a[x=-970,y=63,z=1528,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=2}] as @a[x=-916,y=63,z=1385,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=3}] as @a[x=-788,y=63,z=1419,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=4}] as @a[x=-758,y=63,z=1403,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=5}] as @a[x=-814,y=63,z=1521,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=6}] as @a[x=-835,y=63,z=1525,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=7}] as @a[x=-878,y=63,z=1542,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=8}] as @a[x=-743,y=63,z=1448,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=9}] as @a[x=-797,y=63,z=1422,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=10}] as @a[x=-953,y=63,z=1406,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=11}] as @a[x=-816,y=63,z=1422,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=12}] as @a[x=-818,y=63,z=1508,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=13}] as @a[x=-984,y=63,z=1493,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=14}] as @a[x=-885,y=63,z=1536,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=15}] as @a[x=-880,y=63,z=1405,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=16}] as @a[x=-985,y=63,z=1465,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=17}] as @a[x=-858,y=63,z=1404,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=18}] as @a[x=-811,y=63,z=1512,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=19}] as @a[x=-936,y=63,z=1546,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=20}] as @a[x=-780,y=63,z=1422,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=21}] as @a[x=-838,y=63,z=1487,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=22}] as @a[x=-758,y=63,z=1514,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=23}] as @a[x=-935,y=63,z=1399,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=24}] as @a[x=-972,y=63,z=1443,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=25}] as @a[x=-811,y=63,z=1424,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=26}] as @a[x=-749,y=63,z=1414,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=27}] as @a[x=-807,y=63,z=1513,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=28}] as @a[x=-741,y=63,z=1429,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=29}] as @a[x=-763,y=63,z=1517,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=30}] as @a[x=-751,y=63,z=1506,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=31}] as @a[x=-767,y=63,z=1414,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+
+#Teleports player to mirage spot
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0}] run tp @s[x=-988,y=63,z=1470,dx=2,dy=15,dz=2] -3302 69 -181 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=1}] run tp @s[x=-970,y=63,z=1528,dx=2,dy=15,dz=2] -989 74 622 0 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=2}] run tp @s[x=-916,y=63,z=1385,dx=2,dy=15,dz=2] 1061 59 -1474 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=3}] run tp @s[x=-788,y=63,z=1419,dx=2,dy=15,dz=2] -3056 69 933 -90 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=4}] run tp @s[x=-758,y=63,z=1403,dx=2,dy=15,dz=2] -71 69 889 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=5}] run tp @s[x=-814,y=63,z=1521,dx=2,dy=15,dz=2] -473 69 716 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=6}] run tp @s[x=-835,y=63,z=1525,dx=2,dy=15,dz=2] -1776 69 -1941 90 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=7}] run tp @s[x=-878,y=63,z=1542,dx=2,dy=15,dz=2] 1726 69 -1666 -45 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=8}] run tp @s[x=-743,y=63,z=1448,dx=2,dy=15,dz=2] -1203 64 2212 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=9}] run tp @s[x=-797,y=63,z=1422,dx=2,dy=15,dz=2] -1011 64 2211 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=10}] run tp @s[x=-953,y=63,z=1406,dx=2,dy=15,dz=2] -812 64 2171 0 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=11}] run tp @s[x=-816,y=63,z=1422,dx=2,dy=15,dz=2] -1190 64 2389 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=12}] run tp @s[x=-818,y=63,z=1508,dx=2,dy=15,dz=2] -1003 64 2318 0 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=13}] run tp @s[x=-984,y=63,z=1493,dx=2,dy=15,dz=2] -810 44 2376 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=14}] run tp @s[x=-885,y=63,z=1536,dx=2,dy=15,dz=2] -1191 64 2494 0 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=15}] run tp @s[x=-880,y=63,z=1405,dx=2,dy=15,dz=2] -998 64 2528 0 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=16}] run tp @s[x=-985,y=63,z=1465,dx=2,dy=15,dz=2] -459 64 2665 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=17}] run tp @s[x=-858,y=63,z=1404,dx=2,dy=15,dz=2] -237 64 2653 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=18}] run tp @s[x=-811,y=63,z=1512,dx=2,dy=15,dz=2] 29 84 2596 90 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=19}] run tp @s[x=-936,y=63,z=1546,dx=2,dy=15,dz=2] -3189 69 -1400 0 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=20}] run tp @s[x=-780,y=63,z=1422,dx=2,dy=15,dz=2] -3083 84 -1938 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=21}] run tp @s[x=-838,y=63,z=1487,dx=2,dy=15,dz=2] -3229 69 -866 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=22}] run tp @s[x=-758,y=63,z=1514,dx=2,dy=15,dz=2] -454 84 2987 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=23}] run tp @s[x=-935,y=63,z=1399,dx=2,dy=15,dz=2] -65 74 2995 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=24}] run tp @s[x=-972,y=63,z=1443,dx=2,dy=15,dz=2] -908 85 3048 -90 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=25}] run tp @s[x=-811,y=63,z=1424,dx=2,dy=15,dz=2] -811 80 2559 -135 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=26}] run tp @s[x=-749,y=63,z=1414,dx=2,dy=15,dz=2] -1263 95 3067 -90 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=27}] run tp @s[x=-807,y=63,z=1513,dx=2,dy=15,dz=2] -1253 85 2962 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=28}] run tp @s[x=-741,y=63,z=1429,dx=2,dy=15,dz=2] -893 65 2886 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=29}] run tp @s[x=-763,y=63,z=1517,dx=2,dy=15,dz=2] -1040 54 2931 0 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=30}] run tp @s[x=-751,y=63,z=1506,dx=2,dy=15,dz=2] -1072 75 2797 180 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=31}] run tp @s[x=-767,y=63,z=1414,dx=2,dy=15,dz=2] -1257 95 3243 0 0
+
+
+#Plays mirage spot particles
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0}] run particle pixelmon:shiny 1 255 255 75 75 0 -987 66 1471 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=1}] run particle pixelmon:shiny 1 255 255 75 75 0 -969 66 1529 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=2}] run particle pixelmon:shiny 1 255 255 75 75 0 -915 66 1386 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=3}] run particle pixelmon:shiny 1 255 255 75 75 0 -787 66 1420 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=4}] run particle pixelmon:shiny 1 255 255 75 75 0 -757 66 1404 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=5}] run particle pixelmon:shiny 1 255 255 75 75 0 -813 66 1522 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=6}] run particle pixelmon:shiny 1 255 255 75 75 0 -834 66 1526 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=7}] run particle pixelmon:shiny 1 255 255 75 75 0 -877 66 1543 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=8}] run particle pixelmon:shiny 1 255 255 75 75 0 -741 66 1449 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=9}] run particle pixelmon:shiny 1 255 255 75 75 0 -796 66 1423 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=10}] run particle pixelmon:shiny 1 255 255 75 75 0 -952 66 1407 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=11}] run particle pixelmon:shiny 1 255 255 75 75 0 -815 67 1423 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=12}] run particle pixelmon:shiny 1 255 255 75 75 0 -817 68 1509 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=13}] run particle pixelmon:shiny 1 255 255 75 75 0 -983 66 1494 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=14}] run particle pixelmon:shiny 1 255 255 75 75 0 -884 67 1537 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=15}] run particle pixelmon:shiny 1 255 255 75 75 0 -879 68 1406 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=16}] run particle pixelmon:shiny 1 255 255 75 75 0 -984 66 1466 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=17}] run particle pixelmon:shiny 1 255 255 75 75 0 -857 67 1405 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=18}] run particle pixelmon:shiny 1 255 255 75 75 0 -810 67 1513 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=19}] run particle pixelmon:shiny 1 255 255 75 75 0 -935 66 1547 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=20}] run particle pixelmon:shiny 1 255 255 75 75 0 -779 66 1423 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=21}] run particle pixelmon:shiny 1 255 255 75 75 0 -837 66 1488 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=22}] run particle pixelmon:shiny 1 255 255 75 75 0 -757 67 1515 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=23}] run particle pixelmon:shiny 1 255 255 75 75 0 -934 67 1400 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=24}] run particle pixelmon:shiny 1 255 255 75 75 0 -971 66 1444 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=25}] run particle pixelmon:shiny 1 255 255 75 75 0 -810 67 1425 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=26}] run particle pixelmon:shiny 1 255 255 75 75 0 -748 66 1415 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=27}] run particle pixelmon:shiny 1 255 255 75 75 0 -806 67 1514 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=28}] run particle pixelmon:shiny 1 255 255 75 75 0 -740 66 1430 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=29}] run particle pixelmon:shiny 1 255 255 75 75 0 -762 67 1518 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=30}] run particle pixelmon:shiny 1 255 255 75 75 0 -750 66 1507 0.4 0.5 0.4 1 1 force
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=31}] run particle pixelmon:shiny 1 255 255 75 75 0 -766 66 1415 0.4 0.5 0.4 1 1 force
+
+
+#Legendary Pokemon, checks against specific conditions in the player's party or time of day
+
+#Crescent Isle
+#appears randomly at the start of the day or when it is received from passersby.
+#Could do 50/50 chance at spawning during the mornings. Will base it on MirageSpot scores
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..6000}] run particle pixelmon:shiny 1 204 0 204 75 0 -738 66 1508 0.4 0.5 0.4 1 1 force @s
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=23000..}] run particle pixelmon:shiny 1 204 0 204 75 0 -738 66 1508 0.4 0.5 0.4 1 1 force @s
+
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..6000}] as @a[x=-739,y=63,z=1507,dx=2,dy=150,dz=2] run title @s actionbar {"text":"Crescent Isle"}
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=23000..}] as @a[x=-739,y=63,z=1507,dx=2,dy=150,dz=2] run title @s actionbar {"text":"Crescent Isle"}
+
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..6000}] as @a[x=-739,y=63,z=1507,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=23000..}] as @a[x=-739,y=63,z=1507,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..6000}] as @a[x=-739,y=63,z=1507,dx=2,dy=15,dz=2] run gamemode adventure @s
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=23000..}] as @a[x=-739,y=63,z=1507,dx=2,dy=15,dz=2] run gamemode adventure @s
+
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..6000}] as @a[x=-739,y=63,z=1507,dx=2,dy=15,dz=2] run tp @s 276 79 1533 90 0
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0..15}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=23000..}] as @a[x=-739,y=63,z=1507,dx=2,dy=15,dz=2] run tp @s 276 79 1533 90 0
+
+
+
+#Pathless Plain
+#three Pokémon with maxed EVs in their party
+#Ran by the 10-second commands, 18k lines of scanning lol
+#execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:data/evscantotal
+
+execute as @s[tag=FirstEVMaxed] run scoreboard players add @s Temp 1
+execute as @s[tag=SecondEVMaxed] run scoreboard players add @s Temp 1
+execute as @s[tag=ThirdEVMaxed] run scoreboard players add @s Temp 1
+execute as @s[tag=FourthEVMaxed] run scoreboard players add @s Temp 1
+execute as @s[tag=FifthEVMaxed] run scoreboard players add @s Temp 1
+execute as @s[tag=SixthEVMaxed] run scoreboard players add @s Temp 1
+
+execute as @s[scores={Temp=3..}] run particle pixelmon:shiny 1 204 0 204 75 0 -801 67 1513 0.4 0.5 0.4 1 1 force @s
+execute as @s[scores={Temp=3..},x=-802,y=63,z=1512,dx=2,dy=150,dz=2] run title @s actionbar {"text":"Pathless Plain"}
+execute as @s[scores={Temp=3..},x=-802,y=63,z=1512,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
+execute as @s[scores={Temp=3..},x=-802,y=63,z=1512,dx=2,dy=15,dz=2] run gamemode adventure @s
+execute as @s[scores={Temp=3..},x=-802,y=63,z=1512,dx=2,dy=15,dz=2] run tp @s -247 84 1487 90 0
+
+tag @s remove FirstEVMaxed
+tag @s remove SecondEVMaxed
+tag @s remove ThirdEVMaxed
+tag @s remove FourthEVMaxed
+tag @s remove FifthEVMaxed
+tag @s remove SixthEVMaxed
+scoreboard players set @s PokeHave 0
+
+#Nameless Cavern
+#three Pokémon with max friendship in their party
+
+
+#Fabled Cave
+#if the player has a Level 100 Pokémon on their team
+execute as @s store result score @s PokeHave run poketest 1 lvl:100
+tag @s[scores={PokeHave=1}] add HaveLvl100
+execute as @s store result score @s PokeHave run poketest 2 lvl:100
+tag @s[scores={PokeHave=1}] add HaveLvl100
+execute as @s store result score @s PokeHave run poketest 3 lvl:100
+tag @s[scores={PokeHave=1}] add HaveLvl100
+execute as @s store result score @s PokeHave run poketest 4 lvl:100
+tag @s[scores={PokeHave=1}] add HaveLvl100
+execute as @s store result score @s PokeHave run poketest 5 lvl:100
+tag @s[scores={PokeHave=1}] add HaveLvl100
+execute as @s store result score @s PokeHave run poketest 6 lvl:100
+tag @s[scores={PokeHave=1}] add HaveLvl100
+
+execute as @s[tag=HaveLvl100] run particle pixelmon:shiny 1 204 0 204 75 0 -869 67 1480 0.4 0.5 0.4 1 1 force @s
+execute as @s[x=-870,y=63,z=1479,dx=2,dy=150,dz=2,tag=HaveLvl100] run title @s actionbar {"text":"Fabled Cave"}
+execute as @s[x=-870,y=63,z=1479,dx=2,dy=15,dz=2,tag=HaveLvl100] run function hoenn:tools/forceclick
+execute as @s[x=-870,y=63,z=1479,dx=2,dy=15,dz=2,tag=HaveLvl100] run gamemode adventure @s
+execute as @s[x=-870,y=63,z=1479,dx=2,dy=15,dz=2,tag=HaveLvl100] run tp @s -187 72 2221 180 0
+
+tag @s remove HaveLvl100
+scoreboard players set @s PokeHave 0
+
+
+#Gnarled Den
+#if the player has Reshiram and Zekrom in their party
+execute as @s store result score @s PokeHave run poketest 1 Reshiram
+tag @s[scores={PokeHave=1}] add ReshiramHave
+execute as @s store result score @s PokeHave run poketest 2 Reshiram
+tag @s[scores={PokeHave=1}] add ReshiramHave
+execute as @s store result score @s PokeHave run poketest 3 Reshiram
+tag @s[scores={PokeHave=1}] add ReshiramHave
+execute as @s store result score @s PokeHave run poketest 4 Reshiram
+tag @s[scores={PokeHave=1}] add ReshiramHave
+execute as @s store result score @s PokeHave run poketest 5 Reshiram
+tag @s[scores={PokeHave=1}] add ReshiramHave
+execute as @s store result score @s PokeHave run poketest 6 Reshiram
+tag @s[scores={PokeHave=1}] add ReshiramHave
+
+execute as @s store result score @s PokeHave run poketest 1 Zekrom
+tag @s[scores={PokeHave=1}] add ZekromHave
+execute as @s store result score @s PokeHave run poketest 2 Zekrom
+tag @s[scores={PokeHave=1}] add ZekromHave
+execute as @s store result score @s PokeHave run poketest 3 Zekrom
+tag @s[scores={PokeHave=1}] add ZekromHave
+execute as @s store result score @s PokeHave run poketest 4 Zekrom
+tag @s[scores={PokeHave=1}] add ZekromHave
+execute as @s store result score @s PokeHave run poketest 5 Zekrom
+tag @s[scores={PokeHave=1}] add ZekromHave
+execute as @s store result score @s PokeHave run poketest 6 Zekrom
+tag @s[scores={PokeHave=1}] add ZekromHave
+
+execute as @s[tag=ReshiramHave,tag=ZekromHave] run particle pixelmon:shiny 1 204 0 204 75 0 -928 73 1420 0.4 0.5 0.4 1 1 force @s
+execute as @s[x=-929,y=63,z=1419,dx=2,dy=150,dz=2,tag=ReshiramHave,tag=ZekromHave] run title @s actionbar {"text":"Gnarled Den"}
+execute as @s[x=-929,y=63,z=1419,dx=2,dy=15,dz=2,tag=ReshiramHave,tag=ZekromHave] run function hoenn:tools/forceclick
+execute as @s[x=-929,y=63,z=1419,dx=2,dy=15,dz=2,tag=ReshiramHave,tag=ZekromHave] run gamemode adventure @s
+execute as @s[x=-929,y=63,z=1419,dx=2,dy=15,dz=2,tag=ReshiramHave,tag=ZekromHave] run tp @s 19 85 2229 180 0
+
+tag @s remove ReshiramHave
+tag @s remove ZekromHave
+scoreboard players set @s PokeHave 0
+
+#Trackless Forest
+#if the player has Ho-Oh or Lugia in their party
+
+execute as @s store result score @s PokeHave run poketest 1 Lugia
+tag @s[scores={PokeHave=1}] add LugiaHave
+execute as @s store result score @s PokeHave run poketest 2 Lugia
+tag @s[scores={PokeHave=1}] add LugiaHave
+execute as @s store result score @s PokeHave run poketest 3 Lugia
+tag @s[scores={PokeHave=1}] add LugiaHave
+execute as @s store result score @s PokeHave run poketest 4 Lugia
+tag @s[scores={PokeHave=1}] add LugiaHave
+execute as @s store result score @s PokeHave run poketest 5 Lugia
+tag @s[scores={PokeHave=1}] add LugiaHave
+execute as @s store result score @s PokeHave run poketest 6 Lugia
+tag @s[scores={PokeHave=1}] add LugiaHave
+
+execute as @s store result score @s PokeHave run poketest 1 Hooh
+tag @s[scores={PokeHave=1}] add HoohHave
+execute as @s store result score @s PokeHave run poketest 2 Hooh
+tag @s[scores={PokeHave=1}] add HoohHave
+execute as @s store result score @s PokeHave run poketest 3 Hooh
+tag @s[scores={PokeHave=1}] add HoohHave
+execute as @s store result score @s PokeHave run poketest 4 Hooh
+tag @s[scores={PokeHave=1}] add HoohHave
+execute as @s store result score @s PokeHave run poketest 5 Hooh
+tag @s[scores={PokeHave=1}] add HoohHave
+execute as @s store result score @s PokeHave run poketest 6 Hooh
+tag @s[scores={PokeHave=1}] add HoohHave
+
+scoreboard players set @s[tag=HoohHave] PokeHave 1
+scoreboard players set @s[tag=LugiaHave] PokeHave 1
+execute as @s[scores={PokeHave=1}] run particle pixelmon:shiny 1 204 0 204 75 0 -936 67 1446 0.4 0.5 0.4 1 1 force @s
+execute as @s[x=-937,y=63,z=1445,dx=2,dy=150,dz=2,scores={PokeHave=1}] run title @s actionbar {"text":"Trackless Forest"}
+execute as @s[x=-937,y=63,z=1445,dx=2,dy=15,dz=2,scores={PokeHave=1}] run function hoenn:tools/forceclick
+execute as @s[x=-937,y=63,z=1445,dx=2,dy=15,dz=2,scores={PokeHave=1}] run gamemode adventure @s
+execute as @s[x=-937,y=63,z=1445,dx=2,dy=15,dz=2,scores={PokeHave=1}] run tp @s -375 64 2377 90 0
+
+tag @s remove LugiaHave
+tag @s remove HoohHave
+scoreboard players set @s PokeHave 0
+
+#Dimensional Rifts
+# if the player has Uxie, Mesprit, and Azelf in their party
+#The second contains Giratina, and only appears if the player has Dialga and Palkia in their party
+
+#Storm Clouds
+#The first contains TornadusOR/ThundurusAS, and only appears if the player has Castform in their party
+#The second cloud contains Landorus, and only appears if the player has Tornadus and Thundurus in their party
+
+
+
+
+
+
+
+#Regular world zones
+
+
+
 #Runs titles in action bar depending on which zone player is over
-
-#Mirage Areas
-
-
-
-#Rotes/other zones
+#Routes/other zones
 title @s[x=-928,y=63,z=1489,dx=8,dy=150,dz=8] actionbar {"text":"Route 101"}
 title @s[x=-937,y=63,z=1478,dx=8,dy=150,dz=9] actionbar {"text":"Route 102"}
 title @s[x=-928,y=63,z=1474,dx=28,dy=150,dz=7] actionbar {"text":"Route 103"}
@@ -223,19 +569,6 @@ tp @s[x=-861,y=63,z=1531,dx=18,dy=15,dz=15] 707 64 983 -180 0
 tp @s[x=-968,y=63,z=1450,dx=14,dy=15,dz=12] -2769 69 -89 0 0
 tp @s[x=-926,y=63,z=1407,dx=19,dy=15,dz=14] -1880 210 -3144 0 0
 tp @s[x=-968,y=63,z=1450,dx=14,dy=15,dz=12] -2769 69 -89 0 0
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -7,6 +7,9 @@ function hoenn:world/bases/exteriors
 function hoenn:world/gamedifferences
 
 
+#Mirage spot sword trio EV scanning
+execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:data/evscantotal
+
 #Manages fly spots if player needs tags
 tag @a[tag=!FlyOldale,x=-2107,y=0,z=-4,dx=155,dy=256,dz=122] add FlyOldale
 tag @a[tag=!FlyPetalburg,x=-2636,y=0,z=-81,dx=199,dy=256,dz=199] add FlyPetalburg
