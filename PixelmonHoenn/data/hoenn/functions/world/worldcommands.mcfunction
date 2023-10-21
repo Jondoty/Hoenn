@@ -11,7 +11,7 @@ execute at @a run execute if block ~ ~ ~ minecraft:pink_carpet run function hoen
 execute as @a[x=-2021,y=64,z=1459,distance=..20,tag=!InitialTags] run function hoenn:triggers/startingcommands
 
 #Runs function to update player's music and titles on a constant basis
-execute as @a run function hoenn:world/musictitles
+execute as @a[scores={BattleMusic=0}] run function hoenn:world/musictitles
 
 #Runs less-frequent cave portals, portals that are not activated by a portal block.
 execute as @a run function hoenn:world/cavewarps
@@ -42,6 +42,11 @@ function hoenn:triggers/potioneffects
 execute as @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] run function hoenn:items/soot
 #If player selects their soot sack, tells them how many grams the player has.
 execute as @a[nbt={SelectedItem:{tag:{display:{Name:'[{"text":"Soot Sack","italic":false,"color":"gray"}]'}}}}] run function hoenn:items/sootcount
+
+#Battle Music
+execute as @a[tag=BattleStart] run function hoenn:battles/start
+execute as @a[tag=BattleEnd] run function hoenn:battles/end
+execute as @a[tag=BattleForefit] run function hoenn:battles/forefit
 
 #---------------------
 #Time-based commands

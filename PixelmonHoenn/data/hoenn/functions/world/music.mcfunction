@@ -4,6 +4,45 @@
 #---------------------------------------------------------------------------------------------------------------------------
 #Battle Music
 
+#General Trainer
+playsound trainer record @s[scores={MusicCooldown=0,BattleMusic=1}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=1}] MusicCooldown 246
+
+#Rival
+playsound rival record @s[scores={MusicCooldown=0,BattleMusic=2}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=2}] MusicCooldown 186
+
+#Gym Leader
+playsound gymleader record @s[scores={MusicCooldown=0,BattleMusic=3}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=3}] MusicCooldown 210
+
+#Elite Four
+playsound elitefour record @s[scores={MusicCooldown=0,BattleMusic=4}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=4}] MusicCooldown 170
+
+#Champion Sreven
+playsound steven record @s[scores={MusicCooldown=0,BattleMusic=5}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=5}] MusicCooldown 186
+
+#Battle Chatelaine
+playsound battlechatelaine record @s[scores={MusicCooldown=0,BattleMusic=6}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=6}] MusicCooldown 273
+
+#Team Magma/Aqua grunts
+playsound teambattle record @s[scores={MusicCooldown=0,BattleMusic=7}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=7}] MusicCooldown 281
+
+#Team Laders
+playsound teamleaders record @s[scores={MusicCooldown=0,BattleMusic=8}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=8}] MusicCooldown 204
+
+#Wally
+playsound wally record @s[scores={MusicCooldown=0,BattleMusic=9}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=9}] MusicCooldown 119
+
+#Zinnia
+playsound zinnia record @s[scores={MusicCooldown=0,BattleMusic=10}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=10}] MusicCooldown 257
 
 #---------------------------------------------------------------------------------------------------------------------------
 #Entity-based music
@@ -384,8 +423,8 @@ scoreboard players set @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92,scores={MusicCo
 
 
 #Route101
-playsound route101 record @s[x=-2098,y=0,z=119,dx=146,dy=256,dz=159,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2098,y=0,z=119,dx=146,dy=256,dz=159,scores={MusicCooldown=0}] MusicCooldown 111
+playsound route101 record @s[x=-2098,y=0,z=119,dx=146,dy=256,dz=158,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2098,y=0,z=119,dx=146,dy=256,dz=158,scores={MusicCooldown=0}] MusicCooldown 111
 
 #Route 102
 playsound route101 record @s[x=-2436,y=0,z=-27,dx=329,dy=256,dz=145,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

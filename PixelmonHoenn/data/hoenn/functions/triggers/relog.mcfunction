@@ -20,7 +20,7 @@ execute if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTr
 #Resets music
 stopsound @s[scores={relog=1..}] record
 scoreboard players set @s[scores={relog=1..}] MusicCooldown 0
-
+scoreboard players set @s BattleMusic 0
 
 
 #Sets relog score to 0

@@ -826,6 +826,54 @@ execute as @s[scores={TriggerCommand=101..199}] run scoreboard players set @s Tr
 
 
 #-----------------------------------------------------------------------------------------------------
+#500-999, reserved for after-battle trainer event commands
+#-----------------------------------------------------------------------------------------------------
+#Gym Leaders & Elite Four
+
+#Dialogue 25 - Rustboro Gym Roxanne Post-Battle
+execute as @s[scores={TriggerCommand=500}] run scoreboard players set @s DialogueTrigger 25
+
+#Dialogue 35 - Dewford Gym Brawly Post-Battle
+execute as @s[scores={TriggerCommand=501}] run scoreboard players set @s DialogueTrigger 35
+
+#Dialogue 68 - Mauville Gym Wattson Post-Battle
+execute as @s[scores={TriggerCommand=502}] run scoreboard players set @s DialogueTrigger 68
+
+#Dialogue 89 - Lavaridge Gym Flannery Pre-Battle
+execute as @s[scores={TriggerCommand=503}] run scoreboard players set @s DialogueTrigger 89
+
+#Dialogue 95 - Petalburg Gym Norman Post-Battle
+execute as @s[scores={TriggerCommand=504}] run scoreboard players set @s DialogueTrigger 95
+
+#Dialogue 118 - Fortree Gym Winona Post-Battle
+execute as @s[scores={TriggerCommand=505}] run scoreboard players set @s DialogueTrigger 118
+
+#Dialogue 138 - Mossdeep Gym Liza and Tate post-battle
+execute as @s[scores={TriggerCommand=506}] run scoreboard players set @s DialogueTrigger 138
+
+#Dialogue 152 - Sootopolis Gym Wallace Post-Battle
+execute as @s[scores={TriggerCommand=507}] run scoreboard players set @s DialogueTrigger 152
+
+#Dialogue 156 - Pokemon League Sidney Post-Battle
+execute as @s[scores={TriggerCommand=508}] run scoreboard players set @s DialogueTrigger 156
+
+#Dialogue 158 - Pokemon League Phoebe Post-Battle
+execute as @s[scores={TriggerCommand=509}] run scoreboard players set @s DialogueTrigger 158
+
+#Dialogue 160 - Pokemon League Glacia Post-Battle
+execute as @s[scores={TriggerCommand=510}] run scoreboard players set @s DialogueTrigger 160
+
+#Dialogue 162 - Pokemon League Drake Post-Battle
+execute as @s[scores={TriggerCommand=511}] run scoreboard players set @s DialogueTrigger 162
+
+#Dialogue 164 - Pokemon League Steven Post-Battle
+execute as @s[scores={TriggerCommand=512}] run scoreboard players set @s DialogueTrigger 164
+
+
+
+execute as @s[scores={TriggerCommand=500..999}] run scoreboard players set @s TriggerCommand 0
+
+#-----------------------------------------------------------------------------------------------------
 
 #Battle Resort
 #Battle Point Trader
