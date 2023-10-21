@@ -40,6 +40,8 @@ tellraw @s[scores={DialogueTrigger=1,TalkTime=1}] {"text":"<Professor Birch> You
 tellraw @s[scores={DialogueTrigger=1,TalkTime=1}] {"text":"<Professor Birch> Be courageous and leap into the world of Pokémon where dreams, adventures, and friendships await!"}
 tellraw @s[scores={DialogueTrigger=1,TalkTime=1}] {"text":"<Professor Birch> I expect we'll be meeting again soon. Come see me in my Pokémon Lab!"}
 
+tag @s[scores={DialogueTrigger=1,TalkTime=100..}] add Dialogue1
+
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 2 - Littleroot Town
 #Mom outside of house
@@ -78,6 +80,7 @@ tellraw @s[scores={DialogueTrigger=2,TalkTime=1}] {"text":"<Machoke> Gwagwah gwa
 tellraw @s[scores={DialogueTrigger=2,TalkTime=1}] ["",{"text":"<Mom> You should go and see your new room upstairs, "},{"selector":"@s"},{"text":"!"}]
 tellraw @s[scores={DialogueTrigger=2,TalkTime=1}] {"text":"<Mom> Dad even bought a new clock for it to help celebrate the big move."}
 
+tag @s[scores={DialogueTrigger=2,TalkTime=100..}] add Dialogue2
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 3 - Littleroot Town
 #After player has visited their room upstairs
@@ -99,6 +102,7 @@ tellraw @s[scores={DialogueTrigger=3,TalkTime=1}] {"text":"<Mom> But that remind
 tellraw @s[scores={DialogueTrigger=3,TalkTime=1}] {"text":"<Mom> Professor Birch is his name."}
 tellraw @s[scores={DialogueTrigger=3,TalkTime=1}] {"text":"<Mom> He lives right next door, so you should go over and introduce yourself."}
 
+tag @s[scores={DialogueTrigger=3,TalkTime=100..}] add Dialogue3
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 4 - Littleroot Town
 #Player entering their rival's house
@@ -118,6 +122,7 @@ tellraw @s[scores={DialogueTrigger=4,TalkTime=1}] {"text":"<Mrs. Birch> He shoul
 
 tellraw @s[scores={DialogueTrigger=4,TalkTime=1}] {"text":"<Mrs. Birch> I hope you'll go and introduce yourself!"}
 
+tag @s[scores={DialogueTrigger=4,TalkTime=100..}] add Dialogue4
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 5 - Littleroot Town
 #Meeting your rival (May)
@@ -159,7 +164,7 @@ tellraw @s[scores={DialogueTrigger=5,TalkTime=1}] {"text":"<Brendan> Some other 
 
 #Brendan runs off
 
-
+tag @s[scores={DialogueTrigger=5,TalkTime=100..}] add Dialogue5
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 6 - Route 101
 #Professor Birch pre-picking starters
@@ -179,6 +184,7 @@ tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Professor Birch> In 
 
 #after player picks, immediatley goes into battle with Poochyena
 
+tag @s[scores={DialogueTrigger=6,TalkTime=100..}] add Dialogue6
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 7 - Route 101
 #After battling Poochyena
@@ -216,6 +222,7 @@ tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"text":"["},{"text":"Yes"
 #Oh, don't be that way! You should go meet my kid.
 #activates dialogue, skips first line
 
+tag @s[scores={DialogueTrigger=7,TalkTime=100..}] add Dialogue7
 #-------------------------
 #Dialogue 8 - Birch's Lab
 
@@ -230,6 +237,7 @@ tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> And
 tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> You can use it to see how to get to Route 103, where May ought to be."}
 tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> And if you or your Pokémon get tired, get some rest back at your new house."}
 
+tag @s[scores={DialogueTrigger=8,TalkTime=100..}] add Dialogue8
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 9 - Oldale Town
 #Shopkeeper showing the Mart
@@ -255,6 +263,7 @@ tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> Have a g
 
 #Teleports shopkeeper out
 
+tag @s[scores={DialogueTrigger=9,TalkTime=100..}] add Dialogue9
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 10 - Route 103
 #First battle with Rival
@@ -275,6 +284,7 @@ tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<Brendan> I'm going 
 
 #Swaps to trainer, /pokebattle
 
+tag @s[scores={DialogueTrigger=10,TalkTime=100..}] add Dialogue10
 #------------------------------
 #Dialogue 11 - Route 104
 #Post-battle with Rival
@@ -301,6 +311,7 @@ tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] ["",{"text":"<Brendan> You sh
 
 #tps out
 
+tag @s[scores={DialogueTrigger=11,TalkTime=100..}] add Dialogue11
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 12 - Birch's Lab
 #After battling rival for the first time
@@ -360,6 +371,7 @@ tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> I can't wa
 
 #tp out
 
+tag @s[scores={DialogueTrigger=12,TalkTime=100..}] add Dialogue12
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 13 - Littleroot Town
 #Mom after Birch's Lab
@@ -381,6 +393,8 @@ tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> Your father wi
 tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> If anything happens, you can always come home, honey."}
 
 #mom tps out
+
+tag @s[scores={DialogueTrigger=13,TalkTime=100..}] add Dialogue13
 
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 14 - Route 101
@@ -410,6 +424,7 @@ tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] {"text":"<Brendan> Guess it's
 tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] {"text":"<Brendan> I'm gonna head that way and see what I find."}
 tellraw @s[scores={DialogueTrigger=14,TalkTime=1}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":", you should use those Poké Balls I gave you earlier to do a bit of catching, too!"}]
 
+tag @s[scores={DialogueTrigger=14,TalkTime=100..}] add Dialogue14
 #----------------------------------------------------------------------------------------------------------
 
 #Catching Tutorial - No
@@ -455,6 +470,7 @@ tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] ["",{"text":"<Brendan> "},{"s
 tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] {"text":"<Brendan> Maybe I should try to take him on myself, once I train up my Pokémon a bit more!"}
 tellraw @s[scores={DialogueTrigger=15,TalkTime=1}] ["",{"text":"<Brendan> Guess I'm off then, "},{"selector":"@s"},{"text":"! Let's meet up again sometime!"}]
 
+tag @s[scores={DialogueTrigger=15,TalkTime=100..}] add Dialogue15
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 16 - Petalburg City
 #Wally's introduction and catching Ralts
@@ -568,6 +584,7 @@ tellraw @s[scores={DialogueTrigger=16,TalkTime=1}] {"text":"<Dad> Collect Badges
 tellraw @s[scores={DialogueTrigger=16,TalkTime=1}] {"text":"<Dad> Of course, I'm a Gym Leader, too. I'm sure we'll battle one day."}
 tellraw @s[scores={DialogueTrigger=16,TalkTime=1}] ["",{"text":"<Dad> But that will only be after you've become stronger, "},{"selector":"@s"},{"text":"."}]
 
+tag @s[scores={DialogueTrigger=16,TalkTime=100..}] add Dialogue16
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 17 - Petalburg Woods
 #Devon researcher ambushed
@@ -604,7 +621,7 @@ tellraw @s[scores={DialogueTrigger=17,TalkTime=1}] {"text":"<...> What, you're g
 tellraw @s[scores={DialogueTrigger=17,TalkTime=1}] {"text":"<...> No one who crosses Team Aqua gets any mercy, not even a kid!"}
 tellraw @s[scores={DialogueTrigger=17,TalkTime=1}] {"text":"<...> Come on and battle me!"}
 
-
+tag @s[scores={DialogueTrigger=17,TalkTime=100..}] add Dialogue17
 #-----------------------------
 #Dialogue 18 - Petalburg Woods
 #Team grunt post-battle
@@ -650,6 +667,7 @@ tellraw @s[scores={DialogueTrigger=18,TalkTime=1}] {"text":"<Researcher> Uh-oh! 
 
 #teleport researcher out
 
+tag @s[scores={DialogueTrigger=18,TalkTime=100..}] add Dialogue18
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 19 - Petalburg Woods
 #As player is leaving
@@ -694,7 +712,7 @@ tellraw @s[scores={DialogueTrigger=19,TalkTime=1}] {"text":"<Team Aqua Grunt> Bu
 #Teleports to exit of woods
 #Turns back to adventure mode
 
-
+tag @s[scores={DialogueTrigger=19,TalkTime=100..}] add Dialogue19
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 20 - Rustboro City
 #Rival outside of Poke Mart
@@ -729,6 +747,7 @@ tellraw @s[scores={DialogueTrigger=20,TalkTime=1}] {"text":"<Brendan> Soon as I 
 
 #Tps out
 
+tag @s[scores={DialogueTrigger=20,TalkTime=100..}] add Dialogue20
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 21 - Rustboro City
 #Cut HM Obtaining
@@ -749,6 +768,7 @@ tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] ["",{"selector":"@s"},{"text"
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> That's an axe that can chop down prickly trees if the Trainer has earned the Stone Badge."}
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> HMs like this can be used outside of battle, too, with the right Badges!"}
 
+tag @s[scores={DialogueTrigger=21,TalkTime=100..}] add Dialogue21
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 22 - Rustboro Gym
 #Roxanne introducing herself
@@ -765,6 +785,7 @@ tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<Roxanne> I look for
 
 #tps away
 
+tag @s[scores={DialogueTrigger=22,TalkTime=100..}] add Dialogue22
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 23 - Rustboro Gym
 #Gym Guy first introduction
@@ -781,6 +802,7 @@ tellraw @s[scores={DialogueTrigger=23,TalkTime=1}] {"text":"<Gym Guy> Roxanne, t
 tellraw @s[scores={DialogueTrigger=23,TalkTime=1}] {"text":"<Gym Guy> The Rock type is very durable, but it can't stand Water-type and Grass-type moves."}
 tellraw @s[scores={DialogueTrigger=23,TalkTime=1}] {"text":"<Gym Guy> Well, go for it!"}
 
+tag @s[scores={DialogueTrigger=23,TalkTime=100..}] add Dialogue23
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 24 - Rustboro Gym
 #Roxanne pre-battle
@@ -793,6 +815,7 @@ tellraw @s[scores={DialogueTrigger=24,TalkTime=1}] {"text":"<Roxanne> Now, would
 execute as @s[scores={DialogueTrigger=24,TalkTime=1}] run tp @s -2988 91 1356 180 0
 execute as @s[scores={DialogueTrigger=24,TalkTime=1}] run pokebattle @s Roxanne
 
+tag @s[scores={DialogueTrigger=24,TalkTime=100..}] add Dialogue24
 #--------------------------
 #Dialogue 25 - Rustboro Gym
 #Roxanne post-battle
@@ -812,6 +835,7 @@ tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> The move R
 tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> If you use a TM, it instantly teaches the move to a Pokémon."}
 tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> You can use a TM as many times as you want, so please try it out!"}
 
+tag @s[scores={DialogueTrigger=25,TalkTime=100..}] add Dialogue25
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 26 - Rustboro City
 #Teams after beating gym
@@ -826,6 +850,7 @@ tellraw @s[scores={DialogueTrigger=26,TalkTime=1}] {"text":"<Researcher> Don't t
 
 #researcher chases after
 
+tag @s[scores={DialogueTrigger=26,TalkTime=100..}] add Dialogue26
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 27 - Rustboro City
 #Researcher after parts robbery
@@ -838,6 +863,7 @@ tellraw @s[scores={DialogueTrigger=27,TalkTime=1}] {"text":"<Researcher> Help me
 
 tellraw @s[scores={DialogueTrigger=27,TalkTime=1}] {"text":"<Researcher> If I don't... I'm going to be in serious trouble..."}
 
+tag @s[scores={DialogueTrigger=27,TalkTime=100..}] add Dialogue27
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 28 - Rusturf Tunnel
 #Pre-Grunt Battle
@@ -857,7 +883,7 @@ tellraw @s[scores={DialogueTrigger=28,TalkTime=1}] {"text":"<Team Aqua Grunt> An
 
 tellraw @s[scores={DialogueTrigger=28,TalkTime=1}] {"text":"<Peeko> Pi pikwee!"}
 
-
+tag @s[scores={DialogueTrigger=28,TalkTime=100..}] add Dialogue28
 #------------------
 #Dialogue 29 - Rusturf Tunnel
 #Grunt post-battle
@@ -879,16 +905,17 @@ tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] ["",{"selector":"@s","italic"
 
 #tps Mr. Briney in
 
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Briney> Peeko! Am I glad to see you're safe!"}
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Briney> My Peeko owes her life an' freedom to you! They call me Mr. Briney. And you are?"}
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] ["",{"text":"<Mr. Briney> Ah, so it's "},{"selector":"@s"},{"text":", is it now!"}]
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] ["",{"text":"<Mr. Briney> Then I sincerely thank you, "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Briney> If there's ever a thing I can do to help you in turn, don't you hesitate to tell me."}
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Briney> If I'm to be found, it will always be at my cottage by the sea near Petalburg Woods."}
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Briney> Come, Peeko! High time we're under way to home!"}
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Mr. Briney> Peeko! Am I glad to see you're safe!"}
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Mr. Briney> My Peeko owes her life an' freedom to you! They call me Mr. Briney. And you are?"}
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] ["",{"text":"<Mr. Briney> Ah, so it's "},{"selector":"@s"},{"text":", is it now!"}]
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] ["",{"text":"<Mr. Briney> Then I sincerely thank you, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Mr. Briney> If there's ever a thing I can do to help you in turn, don't you hesitate to tell me."}
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Mr. Briney> If I'm to be found, it will always be at my cottage by the sea near Petalburg Woods."}
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Mr. Briney> Come, Peeko! High time we're under way to home!"}
 
-tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Peeko> Pikwee!"}
+tellraw @s[scores={DialogueTrigger=29,TalkTime=1}] {"text":"<Peeko> Pikwee!"}
 
+tag @s[scores={DialogueTrigger=29,TalkTime=100..}] add Dialogue29
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 30 - Rustboro City
 #Bring Devon Parts back
@@ -944,6 +971,7 @@ tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Stone> I'll ask
 tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Stone> Go find him, and he should agree to help you. I'm counting on you, young trainer!"}
 tellraw @s[scores={DialogueTrigger=30,TalkTime=1}] {"text":"<Mr. Stone> If you're ever unsure of what to do, just come and talk with me again!"}
 
+tag @s[scores={DialogueTrigger=30,TalkTime=100..}] add Dialogue30
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 31 - Rustboro City
 #Rival after Devon Corp Convo
@@ -969,6 +997,7 @@ tellraw @s[scores={DialogueTrigger=31,TalkTime=1}] {"text":"<Brendan> I guess yo
 
 #tps rival out
 
+tag @s[scores={DialogueTrigger=31,TalkTime=100..}] add Dialogue31
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 32 - Mr. Briney's Cottage
 #https://youtu.be/MgkqxXCmrtI?t=9012
@@ -984,7 +1013,7 @@ tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> You've 
 execute as @s[scores={DialogueTrigger=32,TalkTime=1}] run scoreboard players enable @s TriggerCommand
 tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"["},{"text":"Head to Dewford","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 12"}},{"text":"]"}]
 
-
+tag @s[scores={DialogueTrigger=32,TalkTime=100..}] add Dialogue32
 #----------------------------------
 #Dialogue 33 - Mr. Briney's Cottage
 #https://youtu.be/MgkqxXCmrtI?t=9034
@@ -999,6 +1028,7 @@ tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> I suppo
 tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> If you're ever feeling lost and adrift though, try calling in on the island's Pokémon Gym."}
 tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> The Leader, Brawly, surely knows everyone and everything that goes on in his town!"}
 
+tag @s[scores={DialogueTrigger=33,TalkTime=100..}] add Dialogue33
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 34 - Dewford Gym
 #Brawly Pre-Battle
@@ -1013,6 +1043,7 @@ tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Brawly> Let me see 
 execute as @s[scores={DialogueTrigger=34,TalkTime=1}] run tp @s -2433 67 1424
 execute as @s[scores={DialogueTrigger=34,TalkTime=1}] run pokebattle @s brawly
 
+tag @s[scores={DialogueTrigger=34,TalkTime=100..}] add Dialogue34
 #--------------------------
 #Dialogue 35 - Dewford Gym
 #Brawly Post-Battle
@@ -1034,6 +1065,7 @@ tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> By the way,
 tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> It's full of fascinating stuff, like rare stones and wall paintings thousands of years old."}
 tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> My friend Steven rushed to the cave after I told him about it."}
 
+tag @s[scores={DialogueTrigger=35,TalkTime=100..}] add Dialogue35
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 36 - Granite Cave
 #Meeting Steven Stone for the first time
@@ -1076,7 +1108,7 @@ tellraw @s[scores={DialogueTrigger=36,TalkTime=1}] {"text":"<Steven> Good luck t
 
 #Steven teleports out
 
-
+tag @s[scores={DialogueTrigger=36,TalkTime=100..}] add Dialogue36
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 37 - Dewford Town
 #Mr. Briney after delivering Steven's Letter
@@ -1098,6 +1130,7 @@ tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Slatepo
 tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Ahoy! We've made land in Slateport!"}
 tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> I suppose you're off to visit Captain Stern and deliver those Devon Parts?"}
 
+tag @s[scores={DialogueTrigger=37,TalkTime=100..}] add Dialogue37
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 38 - Route 109
 #Seashore House after all trainers battled
@@ -1110,6 +1143,7 @@ tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] {"text":"<Mr. Sea> It's half 
 
 tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Soda Pops!","italic":true,"color":"gray"}]
 
+tag @s[scores={DialogueTrigger=38,TalkTime=100..}] add Dialogue38
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 39 - Slateport City
 #Fan Club President when talked to
@@ -1127,6 +1161,7 @@ tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Fan Club Chairman> 
 tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Fan Club Chairman> Oh my! Excuse me! I seem to have nattered on far too long!"}
 tellraw @s[scores={DialogueTrigger=39,TalkTime=1}] {"text":"<Fan Club Chairman> Please, do allow me to examine your Pokémon and see how it's grown."}
 
+tag @s[scores={DialogueTrigger=39,TalkTime=100..}] add Dialogue39
 #---------------
 #Dialogue 40 - Slateport City
 #Fan Club President when Pokemon is sent out
@@ -1154,6 +1189,7 @@ tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"Let a Pokémon hold 
 tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"I'm sorry, but I've nothing else to give you! None at all!"}
 tellraw @s[scores={DialogueTrigger=40,TalkTime=1}] {"text":"After all, you're blessed with the gift of raising Pokémon without resorting to any items!"}
 
+tag @s[scores={DialogueTrigger=40,TalkTime=100..}] add Dialogue40
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 41 - Slateport City
 #Upon entering Stern's Shipyard
@@ -1176,6 +1212,7 @@ tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Dock> But...hmm... 
 tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Dock> I guess Captain Stern is probably off at the Oceanic Museum again..."}
 tellraw @s[scores={DialogueTrigger=41,TalkTime=1}] {"text":"<Dock> Sorry, but could I ask you to find the captain and give the parts to him?"}
 
+tag @s[scores={DialogueTrigger=41,TalkTime=100..}] add Dialogue41
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 42 - Slateport City
 #Oceanic Museum finding Mr. Stern
@@ -1201,6 +1238,7 @@ tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Magma Grunt> O
 
 execute as @s[scores={DialogueTrigger=42,TalkTime=1}] run pokebattle grunt 1
 
+tag @s[scores={DialogueTrigger=42,TalkTime=100..}] add Dialogue42
 #----------------------------
 #Dialogue 43 - Slateport City
 #Post-Grunt 1 Battle
@@ -1219,6 +1257,7 @@ tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Magma Grunt> I
 
 execute as @s[scores={DialogueTrigger=43,TalkTime=1}] run pokebattle grunt 2
 
+tag @s[scores={DialogueTrigger=43,TalkTime=100..}] add Dialogue43
 #----------------------------
 #Dialogue 44 - Slateport City
 #Post-Grunt 2 Battle
@@ -1325,6 +1364,7 @@ tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Captain Stern> Than
 
 #tps out Stern
 
+tag @s[scores={DialogueTrigger=44,TalkTime=100..}] add Dialogue44
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 45 - Contest Hall
 #Multiple locations, repeatable
@@ -1362,6 +1402,7 @@ tellraw @s[scores={DialogueTrigger=45,TalkTime=1}] {"text":"<Contest Clerk> Redi
 tellraw @s[scores={DialogueTrigger=45,TalkTime=1}] {"text":"<Contest Clerk> Would you like to participate in the contest?"}
 tellraw @s[scores={DialogueTrigger=45,TalkTime=1}] ["",{"text":"["},{"text":"Enter","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set #"}},{"text":"]"}]
 
+tag @s[scores={DialogueTrigger=45,TalkTime=100..}] add Dialogue45
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 46 - Slateport City
 #
@@ -1435,6 +1476,7 @@ tellraw @s[scores={DialogueTrigger=46,TalkTime=1}] {"text":"<Lisia> If you feel 
 
 #Teleports everyone else out
 
+tag @s[scores={DialogueTrigger=46,TalkTime=100..}] add Dialogue46
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 47 - Slateport Contest Hall
 #Player wanting to start a contest
@@ -1472,6 +1514,7 @@ tellraw @s[scores={DialogueTrigger=47,TalkTime=1}] ["",{"text":"<Lisia> Your fir
 tellraw @s[scores={DialogueTrigger=47,TalkTime=1}] {"text":"<Lisia> It's gonna be so so so AWESOME! I'm not gonna blink for even a second!"}
 tellraw @s[scores={DialogueTrigger=47,TalkTime=1}] {"text":"<Lisia> I'll be cheering for you!"}
 
+tag @s[scores={DialogueTrigger=47,TalkTime=100..}] add Dialogue47
 #------------------------------------
 #Dialogue 48 - Post Contest dialogue
 tellraw @s[scores={DialogueTrigger=48,TalkTime=1}] ["",{"text":"<Lisia> "},{"selector":"@s"},{"text":"! Wow! Gratz!"}]
@@ -1483,6 +1526,7 @@ tellraw @s[scores={DialogueTrigger=48,TalkTime=1}] {"text":"<Lisia> Become a rea
 tellraw @s[scores={DialogueTrigger=48,TalkTime=1}] {"text":"<Lisia> If you could have as much fun with Contest Spectaculars as me, I'd be happy as Slugma on a sunny day!"}
 tellraw @s[scores={DialogueTrigger=48,TalkTime=1}] {"text":"<Lisia> You could become a massive star! I've got a good feeling about you!"}
 
+tag @s[scores={DialogueTrigger=48,TalkTime=100..}] add Dialogue48
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 49 - Poke Breeder in contest hall
 #https://youtu.be/MgkqxXCmrtI?t=14490
@@ -1500,6 +1544,8 @@ execute as @s[scores={DialogueTrigger=49,TalkTime=1}] run pokegive @s Pikachu fo
 tellraw @s[scores={DialogueTrigger=49,TalkTime=1}] {"text":"I'm making costumes for the Contest Spectacular!"}
 tellraw @s[scores={DialogueTrigger=49,TalkTime=1}] {"text":"There are more costumes for Cosplay Pikachu, so please drop by the dressing room!"}
 tellraw @s[scores={DialogueTrigger=49,TalkTime=1}] {"text":"Take good care of Pikachu!"}
+
+tag @s[scores={DialogueTrigger=49,TalkTime=100..}] add Dialogue49
 
 #Changing outfits menu
 #https://youtu.be/MgkqxXCmrtI?t=14575
@@ -1524,37 +1570,38 @@ tellraw @s[scores={DialogueTrigger=50,TalkTime=1}] {"text":"<Team Aqua Grunt> Gr
 
 #tps grunts out
 
-
+tag @s[scores={DialogueTrigger=50,TalkTime=100..}] add Dialogue50
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 51-56
 #Route 110 - Trick House Dialogues
 
 #https://youtu.be/MgkqxXCmrtI?t=15670
 
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself beneath this desk? You're sharp!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Behold! For I am the greatest living mystery of a man in all of Hoenn!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"They call me... The Trick Master!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Wahahaha! Glad to meet you!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"You, you've come to challenge my Trick House, haven't you?"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"That's why you're here, isn't it?"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Yes, it is! Consider your challenge accepted!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Enter through the scroll there, and let your challenge commence!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"I shall be waiting in the back!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"One more thing... I have to warn you."}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"My tricks are quite difficult. Don't get lost!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself beneath this desk? You're sharp!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Behold! For I am the greatest living mystery of a man in all of Hoenn!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"They call me... The Trick Master!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Wahahaha! Glad to meet you!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"You, you've come to challenge my Trick House, haven't you?"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"That's why you're here, isn't it?"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Yes, it is! Consider your challenge accepted!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Enter through the scroll there, and let your challenge commence!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"I shall be waiting in the back!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"One more thing... I have to warn you."}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"My tricks are quite difficult. Don't get lost!"}
 
-execute as @s[scores={DialogueTrigger=110,TalkTime=1}] run give @s ender_eye
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained an Escape Rope!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=51,TalkTime=1}] run give @s ender_eye
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained an Escape Rope!","italic":true,"color":"gray"}]
 
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Now I'm really leaving. I shall be waiting in the back!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Now I'm really leaving. I shall be waiting in the back!"}
 #tps trickmaster out
 
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself behind this tree? You're sharp!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself inside this dresser? You're sharp!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself outside this window? You're sharp!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself inside this cupboard? You're sharp!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself beneath this cushion? You're sharp!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself behind this tree? You're sharp!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself inside this dresser? You're sharp!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself outside this window? You're sharp!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself inside this cupboard? You're sharp!"}
+tellraw @s[scores={DialogueTrigger=51,TalkTime=1}] {"text":"Hah? Grrr... How did you know I concealed myself beneath this cushion? You're sharp!"}
 
+tag @s[scores={DialogueTrigger=51,TalkTime=100..}] add Dialogue51
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 57
 #Trick House Answers
@@ -1603,6 +1650,7 @@ tellraw @s[scores={DialogueTrigger=58,TalkTime=1}] ["",{"text":"<Brendan> Show m
 
 execute as @s[scores={DialogueTrigger=58,TalkTime=1}] run pokebattle
 
+tag @s[scores={DialogueTrigger=58,TalkTime=100..}] add Dialogue58
 #-------------------------
 #Dialogue 59 - Route 110
 #Rival Pre-Battle
@@ -1649,7 +1697,7 @@ tellraw @s[scores={DialogueTrigger=59,TalkTime=1}] ["",{"text":"<Brendan> I hope
 
 #tp Brendan out
 
-
+tag @s[scores={DialogueTrigger=59,TalkTime=100..}] add Dialogue59
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 60 - Mauville City
 #Wally
@@ -1676,6 +1724,7 @@ tellraw @s[scores={DialogueTrigger=60,TalkTime=1}] {"text":"<...> Wally?!"}
 
 #Other guy tps off
 
+tag @s[scores={DialogueTrigger=60,TalkTime=100..}] add Dialogue60
 #-------------------------------------
 #Dialogue 61 - Mauville City
 #Wally next to gym
@@ -1695,6 +1744,7 @@ tellraw @s[scores={DialogueTrigger=61,TalkTime=1}] {"text":"<Wally> Ralts and I 
 tellraw @s[scores={DialogueTrigger=61,TalkTime=1}] ["",{"text":"<Wally> I want to prove that to you and my uncle both, "},{"selector":"@s"},{"text":"."}]
 tellraw @s[scores={DialogueTrigger=61,TalkTime=1}] {"text":"<Wally> Please...help me once more... And have a battle with me!"}
 
+tag @s[scores={DialogueTrigger=61,TalkTime=100..}] add Dialogue61
 #-------------------------------------
 #Dialogue 62 - Mauville City
 #Wally after a battle
@@ -1742,6 +1792,7 @@ tellraw @s[scores={DialogueTrigger=62,TalkTime=1}] {"text":"<Wally's Uncle> We'l
 
 #tp Uncle out
 
+tag @s[scores={DialogueTrigger=62,TalkTime=100..}] add Dialogue62
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 63 - Mauville Food Court
 #
@@ -1768,6 +1819,7 @@ tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Youngster> That res
 tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Youngster> It's easy to eat, so it's pretty popular with kids who like Single Battles."}
 tellraw @s[scores={DialogueTrigger=63,TalkTime=1}] {"text":"<Youngster> All right then, see you later! Enjoy your time at the Mauville Food Court!"}
 
+tag @s[scores={DialogueTrigger=63,TalkTime=100..}] add Dialogue63
 #-------------------------------------
 #Dialogue 64
 
@@ -1780,6 +1832,7 @@ tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Youngster> They're 
 tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Youngster> You should definitely give them a try, too!"}
 tellraw @s[scores={DialogueTrigger=64,TalkTime=1}] {"text":"<Youngster> Well OK then, see you later!"}
 
+tag @s[scores={DialogueTrigger=64,TalkTime=100..}] add Dialogue64
 #-------------------------------------
 #Dialogue 65
 
@@ -1796,6 +1849,7 @@ tellraw @s[scores={DialogueTrigger=65,TalkTime=1}] {"text":"<Youngster> I look f
 #Battle Food Court Example
 #https://youtu.be/MgkqxXCmrtI?t=17789
 
+tag @s[scores={DialogueTrigger=65,TalkTime=100..}] add Dialogue65
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 66 - Mauville City
 #Obtaining a Bike
@@ -1818,7 +1872,7 @@ tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] ["",{"text":"["},{"text":"Mac
 
 
 
-
+tag @s[scores={DialogueTrigger=66,TalkTime=100..}] add Dialogue66
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 67 - Mauville Gym
 #Wattson Pre-Battle
@@ -1834,6 +1888,7 @@ tellraw @s[scores={DialogueTrigger=67,TalkTime=1}] {"text":"<Wattson> Then I, Wa
 execute as @s[scores={DialogueTrigger=67,TalkTime=1}] run tp @s -3370 91 1358
 execute as @s[scores={DialogueTrigger=67,TalkTime=1}] run pokebattle @s Wattson
 
+tag @s[scores={DialogueTrigger=67,TalkTime=100..}] add Dialogue67
 #-------------------------------------
 #Dialogue 68 - Mauville Gym
 #Wattson Post-Battle
@@ -1851,6 +1906,7 @@ execute as @s[scores={DialogueTrigger=68,TalkTime=1}] run give @s pixelmon:tm_ge
 tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> Volt Switch is a move where your Pokémon attacks the opponent and then rushes back to switch places with a party Pokémon in waiting!"}
 tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> I swell with optimism, seeing a promising young Trainer like you!"}
 
+tag @s[scores={DialogueTrigger=68,TalkTime=100..}] add Dialogue68
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 69 - Rusturf Tunnel
 #Pre-Rock Smash Clear
@@ -1858,6 +1914,7 @@ tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> It's a crack
 tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> Y-your Pokémon! You can use Rock Smash?!"}
 tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> Please, kid! Use Rock Smash and break up these boulders!"}
 
+tag @s[scores={DialogueTrigger=69,TalkTime=100..}] add Dialogue69
 #-----------------------------
 #Dialogue 70 - Rusturf Tunnel
 #Post-Rock Smash
@@ -1876,7 +1933,7 @@ tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Wanda> That's...tha
 
 #tps them out
 
-
+tag @s[scores={DialogueTrigger=70,TalkTime=100..}] add Dialogue70
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 71 - Verdanturf Town
 #Finding Shroomish behind sign
@@ -1896,6 +1953,7 @@ tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] {"text":"It has a strange sha
 execute as @s[scores={DialogueTrigger=71,TalkTime=1}] run give @s pixelmon:intriguing_stone
 tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Intriguing Stone!","italic":true,"color":"gray"}]
 
+tag @s[scores={DialogueTrigger=71,TalkTime=100..}] add Dialogue71
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 72 - Route 116
 #After clearing out the tunnel
@@ -1916,6 +1974,7 @@ tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> Please 
 
 #tps out
 
+tag @s[scores={DialogueTrigger=72,TalkTime=100..}] add Dialogue72
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 73 - Rustboro City
 #Bringing the Intriguing Stone to Devon Corp
@@ -1930,6 +1989,7 @@ execute as @s[scores={DialogueTrigger=73,TalkTime=1}] run give @s pixelmon:pidge
 tellraw @s[scores={DialogueTrigger=73,TalkTime=1}] {"text":"<Mr. Stone> To be carrying around a Mega Stone like that... It looks like you're also a bit of a connoisseur."}
 tellraw @s[scores={DialogueTrigger=73,TalkTime=1}] {"text":"<Mr. Stone> We had to do a whole lot of research into Mega Evolution to develop Infinity Energy."}
 
+tag @s[scores={DialogueTrigger=73,TalkTime=100..}] add Dialogue73
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 74 - Mauville City
 #Encountering Team Grunts on the north side
@@ -1961,6 +2021,7 @@ tellraw @s[scores={DialogueTrigger=74,TalkTime=1}] {"text":"<Team Aqua Grunt> I 
 
 #Grunts disappear north
 
+tag @s[scores={DialogueTrigger=74,TalkTime=100..}] add Dialogue74
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 75 - Route 112
 #Rival upon entering the route
@@ -2030,6 +2091,7 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=1}] {"text":"<Brendan> Bah! This 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=1}] {"text":"<Brendan> I'm supposed to be heading to Fallarbor to visit Professor Cozmo right now!"}
 tellraw @s[scores={DialogueTrigger=75,TalkTime=1}] ["",{"text":"<Brendan> See you later, "},{"selector":"@s"},{"text":". Next time let's have a battle, OK?"}]
 
+tag @s[scores={DialogueTrigger=75,TalkTime=100..}] add Dialogue75
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 76 - Route 111
 #Secret Base Obtaining
@@ -2116,7 +2178,7 @@ tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Looks like 
 tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] ["",{"text":"<Aarune> Good-bye for now, but hopefully I'll see you again, "},{"selector":"@s"},{"text":"."}]
 tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> If you need me for anything, try dropping in at the Secret Base Guild in Fortree!"}
 
-
+tag @s[scores={DialogueTrigger=76,TalkTime=100..}] add Dialogue76
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 77 - Route 113
 #Rival
@@ -2149,6 +2211,7 @@ tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> Let's both
 
 #tps out
 
+tag @s[scores={DialogueTrigger=77,TalkTime=100..}] add Dialogue77
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 78 - Fallarbor Town
 #Introduction to Lanette
@@ -2166,7 +2229,7 @@ tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<Lanette> If you cou
 
 #tps out
 
-
+tag @s[scores={DialogueTrigger=78,TalkTime=100..}] add Dialogue78
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 79
 #Rival in Fallarbor Town
@@ -2211,6 +2274,7 @@ tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> Come catch
 
 #tps out
 
+tag @s[scores={DialogueTrigger=79,TalkTime=100..}] add Dialogue79
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 80 - Meteor Falls Route 114 Side
 #Rival chasing team
@@ -2226,6 +2290,7 @@ tellraw @s[scores={DialogueTrigger=80,TalkTime=1}] {"text":"<Brendan> H-hey! Sto
 
 #runs ahead
 
+tag @s[scores={DialogueTrigger=80,TalkTime=100..}] add Dialogue80
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 81 - Meteor Falls
 #Team Encounter
@@ -2262,6 +2327,7 @@ tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Aqua Admin> I 
 
 #double poke battle
 
+tag @s[scores={DialogueTrigger=81,TalkTime=100..}] add Dialogue81
 #-----------------------------
 #Dialogue 82 - Meteor Falls
 #Team Encounter post-battle
@@ -2413,7 +2479,7 @@ tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<Brendan> Wanna 
 execute as @s[scores={DialogueTrigger=82,TalkTime=1}] run scoreboard players enable @s TriggerCommand
 tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 19"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 20"}},{"text":"]"}]
 
-
+tag @s[scores={DialogueTrigger=82,TalkTime=100..}] add Dialogue82
 #--------------------------------------------------------
 #Dialogue 83 - if player chooses to go with your rival
 tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<May> Let's hit the road!"}
@@ -2437,6 +2503,7 @@ tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] ["",{"text":"<Brendan> Be car
 
 #tps out, could do it on a portal block execution since the rival stays in place
 
+tag @s[scores={DialogueTrigger=83,TalkTime=100..}] add Dialogue83
 #--------------------------------------------
 #Dialogue 84 - if player chooses to go alone
 #Could activate if the player walks a specific distance away too
@@ -2451,6 +2518,7 @@ tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<Brendan> Mauville's
 tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<Brendan> Even Mt. Chimney, the place those guys were talking about at Meteor Falls, in fact."}
 tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<Brendan> It's just a short trip from Mauville."}
 
+tag @s[scores={DialogueTrigger=84,TalkTime=100..}] add Dialogue84
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 85 - Mt. Chimney
 #Team Admin pre-battle
@@ -2483,6 +2551,7 @@ tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> Th
 
 execute as @s[scores={DialogueTrigger=85,TalkTime=1}] run pokebattle
 
+tag @s[scores={DialogueTrigger=85,TalkTime=100..}] add Dialogue85
 #---------------------------
 #Dialogue 86 - Mt. Chimney
 #Team Admin Post-Battle
@@ -2501,6 +2570,7 @@ tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Aqua Shelly> Y
 tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Aqua Shelly> My Pokémon and I don't have any strength left to fight..."}
 tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Aqua Shelly> Go on... Go and be destroyed by Archie."}
 
+tag @s[scores={DialogueTrigger=86,TalkTime=100..}] add Dialogue86
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 87 - Mt. Chimney
 #Team Leader Pre-Battle
@@ -2559,6 +2629,7 @@ tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> From our po
 tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> I'm still leader of Team Aqua, so I'm afraid it's the rope's end for you and your Pokémon."}
 tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Now come!"}
 
+tag @s[scores={DialogueTrigger=87,TalkTime=100..}] add Dialogue87
 #--------------------------
 #Dialogue 88 - Mt. Chimney
 #Team Leader Post-Battle
@@ -2643,6 +2714,7 @@ tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> What a terri
 
 #Tps out
 
+tag @s[scores={DialogueTrigger=88,TalkTime=100..}] add Dialogue88
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 89 - Lavaridge Gym
 #Flannery Pre-Battle
@@ -2661,6 +2733,7 @@ tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> Haiyaaaaa
 execute as @s[scores={DialogueTrigger=89,TalkTime=1}] run tp @s -3102 70 1362
 execute as @s[scores={DialogueTrigger=89,TalkTime=1}] run pokebattle Flannery
 
+tag @s[scores={DialogueTrigger=89,TalkTime=100..}] add Dialogue89
 #----------------------------
 #Dialogue 90 - Lavaridge Gym
 #Flannery Post-Battle
@@ -2683,6 +2756,7 @@ tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> Overheat 
 tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> But it also sharply cuts the Sp. Atk of the Pokémon using it."}
 tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> It might not be suitable for longer battles."}
 
+tag @s[scores={DialogueTrigger=90,TalkTime=100..}] add Dialogue90
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 91 - Lavaridge Town
 #Upon leaving
@@ -2746,7 +2820,7 @@ tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> How about 
 execute as @s[scores={DialogueTrigger=91,TalkTime=1}] run scoreboard players enable @s TriggerCommand
 tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 22"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 21"}},{"text":"]"}]
 
-
+tag @s[scores={DialogueTrigger=91,TalkTime=100..}] add Dialogue91
 #---------------------------
 #Dialogue 92 - Lavaridge Town
 #If player Declines
@@ -2760,7 +2834,7 @@ tellraw @s[scores={DialogueTrigger=92,TalkTime=1}] {"text":"<Brendan> But, well,
 #tp out
 
 
-
+tag @s[scores={DialogueTrigger=92,TalkTime=100..}] add Dialogue92
 #--------------------------------
 #Dialogue 93 - Lavaridge Town
 #If player Decides to fast travel
@@ -2788,6 +2862,7 @@ tellraw @s[scores={DialogueTrigger=93,TalkTime=1}] {"text":"<Brendan> See ya!"}
 
 #tps off
 
+tag @s[scores={DialogueTrigger=93,TalkTime=100..}] add Dialogue93
 #------------------------------
 #Dialogue 94 - Petalburg Gym
 #Norman Pre-Battle
@@ -2802,9 +2877,10 @@ tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> But a battle i
 tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> I will do everything within my power as a Gym Leader to win!"}
 tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<Dad> You'd better give it your best shot, too, "},{"selector":"@s"},{"text":"!"}]
 
+tag @s[scores={DialogueTrigger=94,TalkTime=100..}] add Dialogue94
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 95 - Petalburg Gym
-#Normal Post-Battle
+#Norman Post-Battle
 
 tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> I can't believe it."}
 tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<Dad> I lost to "},{"selector":"@s"},{"text":"?"}]
@@ -2830,6 +2906,7 @@ tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> But, as a fath
 tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<Dad> ... Come on, "},{"selector":"@s"},{"text":"."}]
 tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> I'll see you on your way. Let's get out of here."}
 
+tag @s[scores={DialogueTrigger=95,TalkTime=100..}] add Dialogue95
 #-----------------------------
 #Dialogue 96 - Activate on player leaving
 #https://youtu.be/MgkqxXCmrtI?t=31561
@@ -2934,6 +3011,7 @@ tellraw @s[scores={DialogueTrigger=96,TalkTime=1}] {"text":"<Wally> And you can'
 
 #Wally tps out
 
+tag @s[scores={DialogueTrigger=96,TalkTime=100..}] add Dialogue96
 #-----------------------------------------------------------------------------------------------------
 ##Dialogue 97 - Route 118
 #Steven Stone Encounter
@@ -2995,6 +3073,7 @@ tellraw @s[scores={DialogueTrigger=97,TalkTime=1}] {"text":"<Steven> Could it be
 tellraw @s[scores={DialogueTrigger=97,TalkTime=1}] {"text":"<Steven> ..."}
 tellraw @s[scores={DialogueTrigger=97,TalkTime=1}] {"text":"<Steven> Come, we should be going."}
 
+tag @s[scores={DialogueTrigger=97,TalkTime=100..}] add Dialogue97
 #---------------------------------
 #Dialogue 98 - Southern Island
 #a message
@@ -3003,7 +3082,7 @@ tellraw @s[scores={DialogueTrigger=97,TalkTime=1}] {"text":"<Steven> Come, we sh
 tellraw @s[scores={DialogueTrigger=98,TalkTime=1}] {"text":"(Th\u2014 wh\u2014 mem\u2014de se\u2014 to carv\u2014 th\u2014rts...)","italic":true,"color":"gray"}
 tellraw @s[scores={DialogueTrigger=98,TalkTime=1}] {"text":"(Those whose memories fade seek to carve them in their hearts...)","color":"gray"}
 
-
+tag @s[scores={DialogueTrigger=98,TalkTime=100..}] add Dialogue98
 #---------------------------------
 #Dialogue 99 - Southern Island
 #Finding the opposite Lati
@@ -3089,7 +3168,7 @@ tellraw @s[scores={DialogueTrigger=99,TalkTime=1}] {"text":"<Team Magma Courtney
 tellraw @s[scores={DialogueTrigger=99,TalkTime=1}] {"text":"<Team Aqua Matt>"}
 tellraw @s[scores={DialogueTrigger=99,TalkTime=1}] {"text":"<Team Aqua Matt>"}
 
-
+tag @s[scores={DialogueTrigger=99,TalkTime=100..}] add Dialogue99
 #---------------------------------
 #Dialogue 100 - Southern Island
 #Team Post-Battle
@@ -3181,6 +3260,7 @@ tellraw @s[scores={DialogueTrigger=100,TalkTime=1}] ["",{"text":"<Steven> Until 
 
 #tp Steven out
 
+tag @s[scores={DialogueTrigger=100,TalkTime=100..}] add Dialogue100
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 101 - Route 123
 #Berry Master's House if Shaymin is in the room
@@ -3195,6 +3275,7 @@ tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"In the Sinnoh regio
 tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"In other words, if you give Gracidea, you can express your feeling even without saying it."}
 tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"For a shy person like me, there's nothing more useful than this."}
 
+tag @s[scores={DialogueTrigger=101,TalkTime=100..}] add Dialogue101
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 102 - Weather Institute
 #Overhearing Team Admin
@@ -3232,6 +3313,7 @@ tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> 
 
 #tps player back to stairs
 
+tag @s[scores={DialogueTrigger=102,TalkTime=100..}] add Dialogue102
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 103 - Weather Institute
 #Pre-Battle with Admin
@@ -3254,7 +3336,7 @@ tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> 
 tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> Umm? Help me take my mind off it."}
 tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> The way you and your Pokémon battle so straightforwardly and sincerely with such hope, it makes me so mad!"}
 
-
+tag @s[scores={DialogueTrigger=103,TalkTime=100..}] add Dialogue103
 #---------------------------------
 #Dialogue 104 - Weather Institute
 #Pre-Battle with Admin
@@ -3334,7 +3416,7 @@ tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Scientist> We want
 
 #tps scientist and other person out
 
-
+tag @s[scores={DialogueTrigger=104,TalkTime=100..}] add Dialogue104
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 105 - Route 119
 #Rival Pre-Battle
@@ -3368,6 +3450,7 @@ tellraw @s[scores={DialogueTrigger=105,TalkTime=1}] {"text":"<Brendan> All right
 tellraw @s[scores={DialogueTrigger=105,TalkTime=1}] {"text":"<Brendan> Show me in battle how much better you've gotten!"}
 tellraw @s[scores={DialogueTrigger=105,TalkTime=1}] {"text":"<Brendan> Come on! A battle! I'm challenging you to a battle!"}
 
+tag @s[scores={DialogueTrigger=105,TalkTime=100..}] add Dialogue105
 #--------------------------
 #Dialogue 106 - Route 119
 #Rival Post-Battle
@@ -3401,6 +3484,7 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"<Brendan> Of course
 tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"<Brendan> Well, I'm going on ahead."}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=1}] {"text":"<Brendan> But I'm definitely winning next time!"}
 
+tag @s[scores={DialogueTrigger=106,TalkTime=100..}] add Dialogue106
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 107 - Fortree City
 #Hidden Power TM Coin Flip First Dialogue
@@ -3417,6 +3501,7 @@ tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] ["",{"text":"["},{"text":"Le
 #Incorrect answers, runs a TriggerCommands number to reset.
 tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> No, too bad. You guessed wrong."}
 
+tag @s[scores={DialogueTrigger=107,TalkTime=100..}] add Dialogue107
 #--------------------------------------
 #Dialogue 108 - Fortree City
 #Hidden Power TM Coin Flip First Dialogue
@@ -3427,6 +3512,7 @@ tellraw @s[scores={DialogueTrigger=108,TalkTime=1}] {"text":"<Old Woman> I hold 
 tellraw @s[scores={DialogueTrigger=108,TalkTime=1}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
 tellraw @s[scores={DialogueTrigger=108,TalkTime=1}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 25"}},{"text":"]"}]
 
+tag @s[scores={DialogueTrigger=108,TalkTime=100..}] add Dialogue108
 #--------------------------------------
 #Dialogue 109 - Fortree City
 #Right Hand Second Time
@@ -3436,6 +3522,7 @@ tellraw @s[scores={DialogueTrigger=109,TalkTime=1}] {"text":"<Old Woman> I hold 
 tellraw @s[scores={DialogueTrigger=109,TalkTime=1}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
 tellraw @s[scores={DialogueTrigger=109,TalkTime=1}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 26"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"]"}]
 
+tag @s[scores={DialogueTrigger=109,TalkTime=100..}] add Dialogue109
 #--------------------------------------
 #Dialogue 110 - Fortree City
 #Left Hand final answer
@@ -3448,6 +3535,7 @@ execute as @s[scores={DialogueTrigger=110,TalkTime=1}] run give @s pixelmon:tm_g
 
 tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"<Old Woman> Hidden Power varies in type depending on the Pokémon using it."}
 
+tag @s[scores={DialogueTrigger=110,TalkTime=100..}] add Dialogue110
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 111 - Fortree City
 #Steven Stone
@@ -3460,6 +3548,7 @@ tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Steven> It looks a
 
 #tps off
 
+tag @s[scores={DialogueTrigger=111,TalkTime=100..}] add Dialogue111
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 112 - Fortree City
 #Aarune when entering the building
@@ -3479,6 +3568,7 @@ tellraw @s[scores={DialogueTrigger=112,TalkTime=1}] {"text":"<Aarune> A Proclama
 tellraw @s[scores={DialogueTrigger=112,TalkTime=1}] {"text":"<Aarune> Whenever you get a new bit of swag for your digs, check it out to see what it does!"}
 tellraw @s[scores={DialogueTrigger=112,TalkTime=1}] {"text":"<Aarune> And enjoy the base life!"}
 
+tag @s[scores={DialogueTrigger=112,TalkTime=100..}] add Dialogue112
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 113 - Route 120
 #Steven on the bridge
@@ -3507,6 +3597,7 @@ tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> The startl
 
 execute as @s[scores={DialogueTrigger=113,TalkTime=1}] run pokebattle @s kecleon lvl:30
 
+tag @s[scores={DialogueTrigger=113,TalkTime=100..}] add Dialogue113
 #-----------------------------
 #Dialogue 114 - Route 120
 #Post Kecleon Battle
@@ -3542,6 +3633,7 @@ tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> Let's meet
 
 #tp Steven out
 
+tag @s[scores={DialogueTrigger=114,TalkTime=100..}] add Dialogue114
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 115 - Fortree City
 #Prompt for Kecleon blocking gym
@@ -3550,6 +3642,7 @@ tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"There's an invisibl
 tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"Would you like to use the Devon Scope?"}
 tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 27"}},{"text":"]"}]
 
+tag @s[scores={DialogueTrigger=115,TalkTime=100..}] add Dialogue115
 #-------------------------------
 #Dialogue 116 - Fortree City
 #Revealing Kecleon
@@ -3561,6 +3654,7 @@ tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] {"text":"The startled Kecleo
 
 #tps out
 
+tag @s[scores={DialogueTrigger=116,TalkTime=100..}] add Dialogue116
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 117 - Fortree Gym
 #Winona Pre-Battle
@@ -3574,9 +3668,10 @@ tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<Winona> Witness th
 execute as @s[scores={DialogueTrigger=117,TalkTime=1}] run tp @s -2799 222 1535
 execute as @s[scores={DialogueTrigger=117,TalkTime=1}] run pokebattle @s Winona
 
+tag @s[scores={DialogueTrigger=117,TalkTime=100..}] add Dialogue117
 #----------------------------
 #Dialogue 118 - Fortree Gym
-#Winona Pre-Battle
+#Winona Post-Battle
 #https://youtu.be/MgkqxXCmrtI?t=38780
 
 tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> I recognize your talent and present you with this Gym Badge."}
@@ -3596,6 +3691,7 @@ tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> You won ag
 tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> Someday, you may even fly up into the sky..."}
 tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> That's the impression I get from you."}
 
+tag @s[scores={DialogueTrigger=118,TalkTime=100..}] add Dialogue118
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 119 - Route 121
 #Team Grunts
@@ -3610,6 +3706,7 @@ tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Aqua Grunt> W
 
 #tps out
 
+tag @s[scores={DialogueTrigger=119,TalkTime=100..}] add Dialogue119
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 119 - Mt. Pyre
 #Leader taking orb
@@ -3663,6 +3760,7 @@ tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> Come on, b
 
 tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Aqua Matt> All right then, until the Boss makes his getaway, I'll be your opponent!"}
 
+tag @s[scores={DialogueTrigger=119,TalkTime=100..}] add Dialogue119
 #------------------------
 #Dialogue 120 - Mt. Pyre
 #Post admin battle
@@ -3700,6 +3798,7 @@ tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> And I be
 tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> Chase after those thieves and take back their orb! That wretched leader of theirs..."}
 tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> I'm sure he said they were headed for Slateport City next..."}
 
+tag @s[scores={DialogueTrigger=120,TalkTime=100..}] add Dialogue120
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 121 - Route 123
 #Poochyena giving mega stone
@@ -3714,6 +3813,7 @@ execute as @s[scores={DialogueTrigger=121,TalkTime=1}] run give @s pixelmon:gyar
 
 tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Poochyena> Grrromp!"}
 
+tag @s[scores={DialogueTrigger=121,TalkTime=100..}] add Dialogue121
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 122 - Route 123
 
@@ -3729,6 +3829,7 @@ tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> I have 
 tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> Unevolved Pokémon just get me right there, you know?"}
 tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> They're like... Like a bud that hasn't yet bloomed!"}
 
+tag @s[scores={DialogueTrigger=122,TalkTime=100..}] add Dialogue122
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 123 - Slateport City
 #Slateport Harbor
@@ -3780,6 +3881,7 @@ tellraw @s[scores={DialogueTrigger=123,TalkTime=1}] {"text":"<Captain Stern> Ple
 
 #teleports Stern into building
 
+tag @s[scores={DialogueTrigger=123,TalkTime=100..}] add Dialogue123
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 124 - Slateport Harbor
 #Team leaders taking Submarine
@@ -3850,23 +3952,25 @@ tellraw @s[scores={DialogueTrigger=124,TalkTime=1}] {"text":"<Team Aqua Grunt> I
 
 #Battle Grunt
 
+tag @s[scores={DialogueTrigger=124,TalkTime=100..}] add Dialogue124
 #-------------------------------------
 #Dialogue 127 - Slateport City
 #After first grunt
 
-tellraw @s[scores={DialogueTrigger=127,TalkTime=1}] {"text":"<Team Magma Grunt> I was the one who was flattened..."}
+tellraw @s[scores={DialogueTrigger=125,TalkTime=1}] {"text":"<Team Magma Grunt> I was the one who was flattened..."}
 
-tellraw @s[scores={DialogueTrigger=127,TalkTime=1}] {"text":"<Team Magma Grunt> Seems I have no choice..."}
-tellraw @s[scores={DialogueTrigger=127,TalkTime=1}] {"text":"<Team Magma Grunt> It takes me, a Team Magma Ace Grunt, to take care of you!"}
+tellraw @s[scores={DialogueTrigger=125,TalkTime=1}] {"text":"<Team Magma Grunt> Seems I have no choice..."}
+tellraw @s[scores={DialogueTrigger=125,TalkTime=1}] {"text":"<Team Magma Grunt> It takes me, a Team Magma Ace Grunt, to take care of you!"}
 
 
-tellraw @s[scores={DialogueTrigger=127,TalkTime=1}] {"text":"<Team Aqua Grunt> P-P-Poseidon is not so good at battles on land!"}
+tellraw @s[scores={DialogueTrigger=125,TalkTime=1}] {"text":"<Team Aqua Grunt> P-P-Poseidon is not so good at battles on land!"}
 
-tellraw @s[scores={DialogueTrigger=127,TalkTime=1}] {"text":"<Team Aqua Grunt> Hmph! What a pathetic man!"}
-tellraw @s[scores={DialogueTrigger=127,TalkTime=1}] {"text":"<Team Aqua Grunt> I'm the 26th-strongest Team Aqua Grunt. Leave this to me!"}
+tellraw @s[scores={DialogueTrigger=125,TalkTime=1}] {"text":"<Team Aqua Grunt> Hmph! What a pathetic man!"}
+tellraw @s[scores={DialogueTrigger=125,TalkTime=1}] {"text":"<Team Aqua Grunt> I'm the 26th-strongest Team Aqua Grunt. Leave this to me!"}
 
 #battle grunt 2
 
+tag @s[scores={DialogueTrigger=125,TalkTime=100..}] add Dialogue125
 #---------------------------------
 #Dialogue 126 - After second grunt
 
@@ -3906,6 +4010,7 @@ tellraw @s[scores={DialogueTrigger=126,TalkTime=1}] {"text":"<Captain Stern> Do 
 execute as @s[scores={DialogueTrigger=126,TalkTime=1}] run scoreboard players enable @s TriggerCommand
 tellraw @s[scores={DialogueTrigger=126,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 31"}},{"text":"] \u0020 ["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 32"}},{"text":"]"}]
 
+tag @s[scores={DialogueTrigger=126,TalkTime=100..}] add Dialogue126
 #-----------------------
 #Dialogue 127 - Slateport City
 #Captain Stern Fast Travel
@@ -3925,7 +4030,7 @@ tellraw @s[scores={DialogueTrigger=127,TalkTime=1}] {"text":"<Captain Stern> I'l
 
 #tps Stern out
 
-
+tag @s[scores={DialogueTrigger=127,TalkTime=100..}] add Dialogue127
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 128 - Lilycove City
 #Rival pre-battle
@@ -3967,7 +4072,7 @@ tellraw @s[scores={DialogueTrigger=128,TalkTime=1}] {"text":"<Brendan> A-anyway,
 tellraw @s[scores={DialogueTrigger=128,TalkTime=1}] {"text":"<Brendan> How about I battle you so you can see which one of us is doing a better job raising our Pokémon?"}
 tellraw @s[scores={DialogueTrigger=128,TalkTime=1}] ["",{"text":"<Brendan> Though I think you and I both know who the winner is gonna be, "},{"selector":"@s"},{"text":"!"}]
 
-
+tag @s[scores={DialogueTrigger=128,TalkTime=100..}] add Dialogue128
 #------------------------------
 #Dialogue 129 - Lilycove City
 #Rival post-battle
@@ -4005,6 +4110,7 @@ tellraw @s[scores={DialogueTrigger=129,TalkTime=1}] {"text":"<Brendan> Ahhh, nev
 
 #tps out
 
+tag @s[scores={DialogueTrigger=129,TalkTime=100..}] add Dialogue129
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 130 - Lilycove Department Store
 #Loto Prompt
@@ -4025,6 +4131,7 @@ tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Loto Clerk> You ca
 #If no
 tellraw @s[scores={DialogueTrigger=130,TalkTime=1}] {"text":"<Loto Clerk> We look forward to seeing you again soon!"}
 
+tag @s[scores={DialogueTrigger=130,TalkTime=100..}] add Dialogue130
 #----------------------------------------
 #Dialogue 131 - Lilycove Department Store
 #Loto Roll
@@ -4057,6 +4164,7 @@ execute as @s[scores={DialogueTrigger=131,TalkTime=1}] run give @s
 
 tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> We look forward to seeing you again soon!"}
 
+tag @s[scores={DialogueTrigger=131,TalkTime=100..}] add Dialogue131
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 132 - Team Magma Hideout
 #Hoard battle (is this kinda thing possible?)
@@ -4074,6 +4182,7 @@ tellraw @s[scores={DialogueTrigger=132,TalkTime=1}] {"text":"<Team Magma Grunt 5
 
 execute as @s[scores={DialogueTrigger=132,TalkTime=1}] run pokebattle
 
+tag @s[scores={DialogueTrigger=132,TalkTime=100..}] add Dialogue132
 #---------------------------------
 #Dialogue 133 - Team Aqua Hideout
 #Hoard battle (is this kinda thing possible?)
@@ -4091,6 +4200,7 @@ tellraw @s[scores={DialogueTrigger=133,TalkTime=1}] {"text":"<Team Aqua Grunt 5>
 
 execute as @s[scores={DialogueTrigger=133,TalkTime=1}] run pokebattle
 
+tag @s[scores={DialogueTrigger=133,TalkTime=100..}] add Dialogue133
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 134 - Team Hideout
 #Post quintuplet battle
@@ -4122,7 +4232,7 @@ tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Team Aqua Grunt 2>
 tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Team Aqua Grunt 2> Our leaders are ahead!"}
 tellraw @s[scores={DialogueTrigger=134,TalkTime=1}] {"text":"<Team Aqua Grunt 2> You have no chance to defeat them!"}
 
-
+tag @s[scores={DialogueTrigger=134,TalkTime=100..}] add Dialogue134
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 135 - Team Admin Pre-Battle
 #https://youtu.be/MgkqxXCmrtI?t=49471
@@ -4181,6 +4291,7 @@ tellraw @s[scores={DialogueTrigger=136,TalkTime=1}] {"text":"<Team Aqua Matt> Le
 
 execute as @s[scores={DialogueTrigger=136,TalkTime=1}] run pokebattle
 
+tag @s[scores={DialogueTrigger=136,TalkTime=100..}] add Dialogue136
 #--------------------------------------
 #Dialogue 136 - Team Admin Post-Battle
 #https://youtu.be/XQJjBGOrdPw?t=452 (Aqua)
@@ -4233,7 +4344,7 @@ tellraw @s[scores={DialogueTrigger=136,TalkTime=1}] {"text":"<Team Aqua Matt> Re
 tellraw @s[scores={DialogueTrigger=136,TalkTime=1}] {"text":"<Team Aqua Matt> How could you get there..."}
 tellraw @s[scores={DialogueTrigger=136,TalkTime=1}] {"text":"<Team Aqua Matt> Why don't you look around in towns by the sea and use your own thick head to think about it?"}
 
-
+tag @s[scores={DialogueTrigger=136,TalkTime=100..}] add Dialogue136
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 137 - Mossdeep Gym
 #Liza and Tate pre-battle
@@ -4255,7 +4366,7 @@ tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> ...all in ou
 tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Liza> This combination of ours..."}
 tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> Can you beat it?"}
 
-
+tag @s[scores={DialogueTrigger=137,TalkTime=100..}] add Dialogue137
 #---------------------------
 #Dialogue 138 - Mossdeep Gym
 #Liza and Tate post-battle
@@ -4287,6 +4398,7 @@ tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> But that's a
 tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> You have each other!"}
 tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> That's why we want you to face whatever troubles may come your way head-on and full of courage!"}
 
+tag @s[scores={DialogueTrigger=138,TalkTime=100..}] add Dialogue138
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 139 - Mossdeep City
 #Upon exiting the gym
@@ -4362,7 +4474,7 @@ tellraw @s[scores={DialogueTrigger=139,TalkTime=1}] {"text":"<Steven> I will joi
 tellraw @s[scores={DialogueTrigger=139,TalkTime=1}] {"text":"<Steven> Please do what you can to stop Team Aqua and Team Magma until then."}
 tellraw @s[scores={DialogueTrigger=139,TalkTime=1}] {"text":"<Steven> I am trusting you to do this for me!"}
 
-
+tag @s[scores={DialogueTrigger=139,TalkTime=100..}] add Dialogue139
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 140 - Seafloor Cavern
 #Leaders prior to waking  legendary
@@ -4449,6 +4561,7 @@ tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Let me sho
 tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> This is the true power of my team!"}
 tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> GRAAAAAAAAAHHHHHH!!!"}
 
+tag @s[scores={DialogueTrigger=140,TalkTime=100..}] add Dialogue140
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 141 - Seafloor Cavern
 #Legendary summoned, Magma line
@@ -4604,7 +4717,7 @@ tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Good luck 
 #Steven flies away
 
 
-
+tag @s[scores={DialogueTrigger=141,TalkTime=100..}] add Dialogue141
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 142 - Seafloor Cavern
 #Legendary Summoned, Aqua Line
@@ -4745,6 +4858,7 @@ tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Good luck 
 
 #Steven flies away
 
+tag @s[scores={DialogueTrigger=142,TalkTime=100..}] add Dialogue142
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 143 - Sootopolis City
 #Prior to Cave of Origin (Magma Variant)
@@ -4888,13 +5002,13 @@ tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Brendan> You're my
 
 
 
-
+tag @s[scores={DialogueTrigger=143,TalkTime=100..}] add Dialogue143
 #-----------------------------------
 #Dialogue 144 - Sootopolis City
 #Prior to Cave of Origin (Aqua Variant)
 
 
-
+tag @s[scores={DialogueTrigger=144,TalkTime=100..}] add Dialogue144
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 145 - Cave of Origin
 #Groudon Encounter
@@ -4919,6 +5033,7 @@ tellraw @s[scores={DialogueTrigger=145,TalkTime=1}] {"text":"<Maxie> Then le— 
 
 tellraw @s[scores={DialogueTrigger=145,TalkTime=1}] {"text":"The sound cut out...","italic":true,"color":"gray"}
 
+tag @s[scores={DialogueTrigger=145,TalkTime=100..}] add Dialogue145
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 146 - Cave of Origin
 #Kyogre Encounter
@@ -4940,6 +5055,7 @@ tellraw @s[scores={DialogueTrigger=146,TalkTime=1}] {"text":"<Archie> Then le—
 
 tellraw @s[scores={DialogueTrigger=146,TalkTime=1}] {"text":"The sound cut out...","italic":true,"color":"gray"}
 
+tag @s[scores={DialogueTrigger=146,TalkTime=100..}] add Dialogue146
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 147 - Cave of Origin
 #Groudon in primal chamber
@@ -4956,6 +5072,7 @@ tellraw @s[scores={DialogueTrigger=147,TalkTime=1}] {"text":"Groudon disappeared
 
 #pokebattle
 
+tag @s[scores={DialogueTrigger=147,TalkTime=100..}] add Dialogue147
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 148 - Cave of Origin
 #Groudon in primal chamber
@@ -4971,6 +5088,7 @@ tellraw @s[scores={DialogueTrigger=148,TalkTime=1}] {"text":"Kyogre disappeared 
 
 #pokebattle
 
+tag @s[scores={DialogueTrigger=148,TalkTime=100..}] add Dialogue148
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 149 - Cave of Origin
 #After legendaty is caught (or defeated?)
@@ -5129,6 +5247,7 @@ tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> Or it wou
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> But...well, you did do something pretty amazing. So take it easy for a while, OK, friend?"}
 tellraw @s[scores={DialogueTrigger=149,TalkTime=1}] {"text":"<Brendan> Later!"}
 
+tag @s[scores={DialogueTrigger=149,TalkTime=100..}] add Dialogue149
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 150 - Littleroot Town
 #Prof Birch after the ancient Pokemon
@@ -5159,9 +5278,10 @@ tellraw @s[scores={DialogueTrigger=150,TalkTime=1}] {"text":"<Professor Birch> I
 tellraw @s[scores={DialogueTrigger=150,TalkTime=1}] {"text":"<Professor Birch> Exploration may help us learn how best to coexist with Pokémon from this time forward."}
 tellraw @s[scores={DialogueTrigger=150,TalkTime=1}] {"text":"<Professor Birch> I hope you will find your own answers to this great question, as you continue your journey with your Pokédex!"}
 
+tag @s[scores={DialogueTrigger=150,TalkTime=100..}] add Dialogue150
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 151 - Sootopolis Gym
-#Wallice Pre-Battle
+#Wallace Pre-Battle
 #https://youtu.be/MgkqxXCmrtI?t=58198
 
 tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> Allow me to formally introduce myself."}
@@ -5178,9 +5298,10 @@ tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> by me and
 execute as @s[scores={DialogueTrigger=151,TalkTime=1}] run tp @s -3532 91 1344
 execute as @s[scores={DialogueTrigger=151,TalkTime=1}] run pokebattle @s Wallice
 
+tag @s[scores={DialogueTrigger=151,TalkTime=100..}] add Dialogue151
 #------------------------------
 #Dialogue 152 - Sootopolis Gym
-#Wallice Post-Battle
+#Wallace Post-Battle
 #https://youtu.be/MgkqxXCmrtI?t=58406
 
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> I realize now your authenticity and magnificence as a Pokémon Trainer."}
@@ -5210,6 +5331,7 @@ tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> The rumor
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Visit him, obtain this new technology, and I have little doubt you will encounter more diverse Pokémon than ever before."}
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> ...I will hope that a bright future waits for you, whatever path it is you choose."}
 
+tag @s[scores={DialogueTrigger=152,TalkTime=100..}] add Dialogue152
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 153 - Victory Road
 #Wally Pre-Battle
@@ -5232,7 +5354,7 @@ tellraw @s[scores={DialogueTrigger=153,TalkTime=1}] {"text":"<Wally> My Pokémon
 tellraw @s[scores={DialogueTrigger=153,TalkTime=1}] {"text":"<Wally> I have to win for their sake!"}
 tellraw @s[scores={DialogueTrigger=153,TalkTime=1}] {"text":"<Wally> So get ready... Here I come!"}
 
-
+tag @s[scores={DialogueTrigger=153,TalkTime=100..}] add Dialogue153
 #-----------------------------
 #Dialogue 154 - Victory Road
 #Wally Pre-Battle
@@ -5261,7 +5383,7 @@ tellraw @s[scores={DialogueTrigger=154,TalkTime=1}] ["",{"text":"<Wally> I could
 tellraw @s[scores={DialogueTrigger=154,TalkTime=1}] {"text":"<Wally> And one day... Look out! I swear I'll catch up to you one day!"}
 tellraw @s[scores={DialogueTrigger=154,TalkTime=1}] {"text":"<Wally> When I do, promise we'll battle again! That's a promise I intend to live up to!"}
 
-
+tag @s[scores={DialogueTrigger=154,TalkTime=100..}] add Dialogue154
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 155 - Pokemon League
 #Sidney Pre-Battle
@@ -5287,6 +5409,7 @@ tellraw @s[scores={DialogueTrigger=155,TalkTime=1}] {"text":"<Sidney> Heh heh...
 tellraw @s[scores={DialogueTrigger=155,TalkTime=1}] {"text":"<Sidney>  was waiting for you, Champion. No matter who wins, no hard feelings!"}
 tellraw @s[scores={DialogueTrigger=155,TalkTime=1}] {"text":"<Sidney> Let's get our most excellent battle underway!"}
 
+tag @s[scores={DialogueTrigger=155,TalkTime=100..}] add Dialogue155
 #--------------------------------
 #Dialogue 156 - Pokemon League
 #Sidney Post-Battle
@@ -5300,6 +5423,7 @@ tellraw @s[scores={DialogueTrigger=156,TalkTime=1}] {"text":"<Sidney> Heh... I k
 tellraw @s[scores={DialogueTrigger=156,TalkTime=1}] {"text":"<Sidney> Well, hurry up and get out of here!"}
 tellraw @s[scores={DialogueTrigger=156,TalkTime=1}] {"text":"<Sidney> Everybody else is still waiting for you!"}
 
+tag @s[scores={DialogueTrigger=156,TalkTime=100..}] add Dialogue156
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 157 - Pokemon League
 #Phoebe Pre-Battle
@@ -5317,6 +5441,7 @@ tellraw @s[scores={DialogueTrigger=157,TalkTime=1}] {"text":"<Phoebe> I've been 
 tellraw @s[scores={DialogueTrigger=157,TalkTime=1}] {"text":"<Phoebe> I'm bringing a little something new to the table this time!"}
 tellraw @s[scores={DialogueTrigger=157,TalkTime=1}] {"text":"<Phoebe> Prepare yourself and bring it on!"}
 
+tag @s[scores={DialogueTrigger=157,TalkTime=100..}] add Dialogue157
 #--------------------------------
 #Dialogue 158 - Pokemon League
 #Phoebe Post-Battle
@@ -5332,6 +5457,7 @@ tellraw @s[scores={DialogueTrigger=158,TalkTime=1}] {"text":"<Phoebe> But on the
 tellraw @s[scores={DialogueTrigger=158,TalkTime=1}] {"text":"<Phoebe> We fought together, so the bonds between my Pokémon and me got even deeper!"}
 tellraw @s[scores={DialogueTrigger=158,TalkTime=1}] {"text":"<Phoebe> I look forward to being able to battle you again sometime!"}
 
+tag @s[scores={DialogueTrigger=158,TalkTime=100..}] add Dialogue158
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 159 - Pokemon League
 #Glacia Pre-Battle
@@ -5348,6 +5474,7 @@ tellraw @s[scores={DialogueTrigger=159,TalkTime=1}] {"text":"<Glacia> What a rel
 tellraw @s[scores={DialogueTrigger=159,TalkTime=1}] {"text":"<Glacia> I've been waiting for a Trainer with a burning-hot soul."}
 tellraw @s[scores={DialogueTrigger=159,TalkTime=1}] {"text":"<Glacia> How can you oppose Mega Evolution that can freeze everything?"}
 
+tag @s[scores={DialogueTrigger=159,TalkTime=100..}] add Dialogue159
 #--------------------------------
 #Dialogue 160 - Pokemon League
 #Glacia Post-Battle
@@ -5363,6 +5490,7 @@ tellraw @s[scores={DialogueTrigger=160,TalkTime=1}] {"text":"<Glacia> Hmmph... D
 tellraw @s[scores={DialogueTrigger=160,TalkTime=1}] {"text":"<Glacia> That actually wouldn't bother me."}
 tellraw @s[scores={DialogueTrigger=160,TalkTime=1}] {"text":"<Glacia> Anyway, continue onward! Drake is waiting for you as well."}
 
+tag @s[scores={DialogueTrigger=160,TalkTime=100..}] add Dialogue160
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 161 - Pokemon League
 #Drake Pre-Battle
@@ -5380,6 +5508,7 @@ tellraw @s[scores={DialogueTrigger=161,TalkTime=1}] {"text":"<Drake> Oh, I've be
 tellraw @s[scores={DialogueTrigger=161,TalkTime=1}] {"text":"<Drake> My Pokémon and I are going to show you everything we've got!"}
 tellraw @s[scores={DialogueTrigger=161,TalkTime=1}] {"text":"<Drake> Well then, you had better get ready to try and stop me!"}
 
+tag @s[scores={DialogueTrigger=161,TalkTime=100..}] add Dialogue161
 #--------------------------------
 #Dialogue 162 - Pokemon League
 #Drake Post-Battle
@@ -5397,6 +5526,7 @@ tellraw @s[scores={DialogueTrigger=162,TalkTime=1}] {"text":"<Drake> There's not
 tellraw @s[scores={DialogueTrigger=162,TalkTime=1}] {"text":"<Drake> Go forth, Trainer!"}
 tellraw @s[scores={DialogueTrigger=162,TalkTime=1}] {"text":"<Drake> Go on to your next challenge with your head held high!"}
 
+tag @s[scores={DialogueTrigger=162,TalkTime=100..}] add Dialogue162
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 163 - Pokemon League
 #Steven Pre-Battle
@@ -5420,6 +5550,7 @@ tellraw @s[scores={DialogueTrigger=163,TalkTime=1}] {"text":"<Steven> Now then..
 tellraw @s[scores={DialogueTrigger=163,TalkTime=1}] {"text":"<Steven> There are no words left for us to exchange."}
 tellraw @s[scores={DialogueTrigger=163,TalkTime=1}] {"text":"<Steven> We will understand one another through battle!"}
 
+tag @s[scores={DialogueTrigger=163,TalkTime=100..}] add Dialogue163
 #--------------------------------
 #Dialogue 164 - Pokemon League
 #Steven Post-Battle
@@ -5509,6 +5640,7 @@ tellraw @s[scores={DialogueTrigger=164,TalkTime=1}] {"text":"<Steven> Now let us
 
 #tp to Hall of Fame
 
+tag @s[scores={DialogueTrigger=164,TalkTime=100..}] add Dialogue164
 #--------------------------------
 #Dialogue 165 - Hall of Fame room pre-credits
 #https://youtu.be/MgkqxXCmrtI?t=63203
@@ -5519,6 +5651,7 @@ tellraw @s[scores={DialogueTrigger=165,TalkTime=1}] {"text":"<Steven> It is here
 tellraw @s[scores={DialogueTrigger=165,TalkTime=1}] {"text":"<Steven> Pokémon sent out in this room will obtain a ribbon unique to this region's League."}
 tellraw @s[scores={DialogueTrigger=165,TalkTime=1}] {"text":"<Steven> You can use this machine to record your name and the names of the partners who battled along with you to triumph over the Pokémon League!"}
 
+tag @s[scores={DialogueTrigger=165,TalkTime=100..}] add Dialogue165
 #--------------------------------
 #Dialogue 166 - Map Credits
 #First time
@@ -5586,6 +5719,7 @@ tellraw @s[scores={DialogueTrigger=166,TalkTime=1}] {"text":"<Brendan> I want yo
 
 #If this is the player's second+ time, skip over and tp to Littleroot after
 
+tag @s[scores={DialogueTrigger=167,TalkTime=100..}] add Dialogue167
 #--------------------------
 #Dialogue 167 - Route 103
 #Rival post-Credit rematch
@@ -5694,6 +5828,7 @@ execute as @s[scores={DialogueTrigger=167,TalkTime=1}] run title @s subtitle {"t
 
 #tps playet to Littleroot room
 
+tag @s[scores={DialogueTrigger=167,TalkTime=100..}] add Dialogue167
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 168 - Littleroot Town
 #Mom and Dad post-Pokemon League
@@ -5739,6 +5874,7 @@ tellraw @s[scores={DialogueTrigger=168,TalkTime=1}] {"text":"<Mom> I remember go
 tellraw @s[scores={DialogueTrigger=168,TalkTime=1}] {"text":"<Mom> You should march right over to invite that neighbor you're friends with."}
 tellraw @s[scores={DialogueTrigger=168,TalkTime=1}] {"text":"<Mom> You can't let that pair of tickets you got from Dad go to waste—so take them along!"}
 
+tag @s[scores={DialogueTrigger=168,TalkTime=100..}] add Dialogue168
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 169 - Littleroot Exterior
 #Player metting Zinnia
@@ -5765,6 +5901,7 @@ tellraw @s[scores={DialogueTrigger=169,TalkTime=1}] {"text":"<Zinnia> Well... By
 
 #Zinnia and Whismur tp out
 
+tag @s[scores={DialogueTrigger=169,TalkTime=100..}] add Dialogue169
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 170 - Littleroot Town
 #Walking into Rival's House
@@ -5813,6 +5950,7 @@ tellraw @s[scores={DialogueTrigger=170,TalkTime=1}] {"text":"<Brendan> Um, it's 
 tellraw @s[scores={DialogueTrigger=170,TalkTime=1}] {"text":"<Brendan> I think I gotta sit this one out..."}
 tellraw @s[scores={DialogueTrigger=170,TalkTime=1}] {"text":"<Mrs. Birch> Who could have done such a thing to my sweet boy..."}
 
+tag @s[scores={DialogueTrigger=170,TalkTime=100..}] add Dialogue170
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 171 - Littleroot Town
 #Professor Birch giving Johto starter post-league and Zinnia Encounter
@@ -5828,6 +5966,7 @@ tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] ["",{"text":"<Professor Birc
 tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<Professor Birch> H-help a professor out!"}
 tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
 
+tag @s[scores={DialogueTrigger=171,TalkTime=100..}] add Dialogue171
 #----------------------------
 #Dialogue 172 - Route 101
 #After picking a Johto Starter
@@ -5841,6 +5980,7 @@ tellraw @s[scores={DialogueTrigger=172,TalkTime=1}] {"text":"<Professor Birch> I
 
 #tp Professor and Shroomish out
 
+tag @s[scores={DialogueTrigger=172,TalkTime=100..}] add Dialogue172
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 173 - Littleroot Town
 #Professor Birch giving Unova starter
@@ -5855,6 +5995,7 @@ tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] ["",{"text":"<Professor Birc
 tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] {"text":"<Professor Birch> H-help a professor out!"}
 tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
 
+tag @s[scores={DialogueTrigger=173,TalkTime=100..}] add Dialogue173
 #----------------------------
 #Dialogue 174 - Route 101
 #After picking a Unova Starter
@@ -5870,6 +6011,7 @@ tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> I
 
 #tp Professor and Shroomish out
 
+tag @s[scores={DialogueTrigger=174,TalkTime=100..}] add Dialogue174
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 175 - Littleroot Town
 #Professor Birch giving Sinnoh starter
@@ -5886,6 +6028,7 @@ tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] ["",{"text":"<Professor Birc
 tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] {"text":"<Professor Birch> H-help a professor out!"}
 tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
 
+tag @s[scores={DialogueTrigger=175,TalkTime=100..}] add Dialogue175
 #----------------------------
 #Dialogue 176 - Route 101
 #After picking a Sinnoh Starter
@@ -5901,6 +6044,7 @@ tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> S
 
 #tp Professor
 
+tag @s[scores={DialogueTrigger=176,TalkTime=100..}] add Dialogue176
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 177 - Petalburg Town
 #Team Admin at Wally's
@@ -5934,6 +6078,7 @@ tellraw @s[scores={DialogueTrigger=177,TalkTime=1}] {"text":"<Team Aqua Matt> Ho
 tellraw @s[scores={DialogueTrigger=177,TalkTime=1}] {"text":"<Team Aqua Matt> I'm gonna take your Key Stone first, you jerk!"}
 tellraw @s[scores={DialogueTrigger=177,TalkTime=1}] {"text":"<Team Aqua Matt> Hooaahhh!"}
 
+tag @s[scores={DialogueTrigger=177,TalkTime=100..}] add Dialogue177
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 178 - Petalburg Town
 #Team Admin at Wally's Post-battle
@@ -5986,6 +6131,7 @@ tellraw @s[scores={DialogueTrigger=178,TalkTime=1}] {"text":"<Steven> There's so
 tellraw @s[scores={DialogueTrigger=178,TalkTime=1}] {"text":"<Steven> I'll be waiting for you there."}
 tellraw @s[scores={DialogueTrigger=178,TalkTime=1}] {"text":"...Kzt!"}
 
+tag @s[scores={DialogueTrigger=178,TalkTime=100..}] add Dialogue178
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 179 - Rustboro City
 #Meeting Steven outside Devon Corp
@@ -6001,6 +6147,7 @@ tellraw @s[scores={DialogueTrigger=179,TalkTime=1}] {"text":"<Steven> Let's cont
 
 #tp Steven NPC out upon player going into building
 
+tag @s[scores={DialogueTrigger=179,TalkTime=100..}] add Dialogue179
 #-------------------------------------
 #Dialogue 180 - Devon Corp
 #https://youtu.be/MgkqxXCmrtI?t=65052
@@ -6075,6 +6222,7 @@ tellraw @s[scores={DialogueTrigger=180,TalkTime=1}] {"text":"<Mr. Stone> ...Stev
 
 tellraw @s[scores={DialogueTrigger=180,TalkTime=1}] {"text":"<Mr. Stone> Then...I will be counting on the two of you to take care of this for me."}
 
+tag @s[scores={DialogueTrigger=180,TalkTime=100..}] add Dialogue180
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 181 - Granite Cave
 #Zinnia and the player
@@ -6098,6 +6246,7 @@ tellraw @s[scores={DialogueTrigger=181,TalkTime=1}] {"text":"<Zinnia> Either way
 tellraw @s[scores={DialogueTrigger=181,TalkTime=1}] {"text":"<Zinnia> That's it! I can't help it! I have to battle you!"}
 tellraw @s[scores={DialogueTrigger=181,TalkTime=1}] {"text":"<Zinnia> I'll play nice, though, and ask first... You're ready to battle me, right?"}
 
+tag @s[scores={DialogueTrigger=181,TalkTime=100..}] add Dialogue181
 #---------------------------------
 #Dialogue 182 - Granite Cave
 #Zinnia post-battle
@@ -6133,6 +6282,7 @@ tellraw @s[scores={DialogueTrigger=182,TalkTime=1}] {"text":"<Steven> I'm afraid
 tellraw @s[scores={DialogueTrigger=182,TalkTime=1}] {"text":"<Steven> ...I'll be waiting for you."}
 tellraw @s[scores={DialogueTrigger=182,TalkTime=1}] {"text":"...Kzt!"}
 
+tag @s[scores={DialogueTrigger=182,TalkTime=100..}] add Dialogue182
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 183 - Mossdeep Space Center
 #Speaking to woman by the stairs
@@ -6223,6 +6373,7 @@ execute as @s[scores={DialogueTrigger=183,TalkTime=1}] run scoreboard players en
 tellraw @s[scores={DialogueTrigger=183,TalkTime=1}] {"text":"<Zinnia> What do you think? Do you have some better idea?"}
 tellraw @s[scores={DialogueTrigger=183,TalkTime=1}] ["",{"text":"["},{"text":"You bet I do!","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 35"}},{"text":"] \u0020["},{"text":"I've got nothing...","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 36"}},{"text":"]"}]
 
+tag @s[scores={DialogueTrigger=183,TalkTime=100..}] add Dialogue183
 #----------------
 #Dialogue 184 - Mossdeep Space Center
 #Story Continuation
@@ -6269,7 +6420,7 @@ tellraw @s[scores={DialogueTrigger=184,TalkTime=1}] {"text":"<Steven> I feel we 
 
 #Steven TPs out
 
-
+tag @s[scores={DialogueTrigger=184,TalkTime=100..}] add Dialogue184
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 185 - Meteor Falls
 #Steven
@@ -6334,6 +6485,7 @@ tellraw @s[scores={DialogueTrigger=185,TalkTime=1}] {"text":"<Steven> I am going
 
 #tp steven out
 
+tag @s[scores={DialogueTrigger=185,TalkTime=100..}] add Dialogue185
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 186 - Rustboro City
 #Visitng Devon corp
@@ -6361,6 +6513,7 @@ tellraw @s[scores={DialogueTrigger=186,TalkTime=1}] {"text":"<Team Aqua Grunt> A
 
 #pokebattle
 
+tag @s[scores={DialogueTrigger=186,TalkTime=100..}] add Dialogue186
 #------------------------------
 #Dialogue 187 - Rustboro City
 #Post-Grunt Battle
@@ -6383,6 +6536,7 @@ tellraw @s[scores={DialogueTrigger=187,TalkTime=1}] {"text":"<Team Aqua Grunt 2>
 
 #pokebattle
 
+tag @s[scores={DialogueTrigger=187,TalkTime=100..}] add Dialogue187
 #------------------------------
 #Dialogue 188 - Rustboro City
 #Post Grunt 2
@@ -6405,7 +6559,7 @@ tellraw @s[scores={DialogueTrigger=188,TalkTime=1}] {"text":"<Team Aqua Grunt 3>
 
 #pokebattle
 
-
+tag @s[scores={DialogueTrigger=188,TalkTime=100..}] add Dialogue188
 #------------------------------
 #Dialogue 189 - Rustboro City
 #Post Grunt 3
@@ -6435,6 +6589,7 @@ tellraw @s[scores={DialogueTrigger=189,TalkTime=1}] {"text":"<Researcher> What s
 tellraw @s[scores={DialogueTrigger=189,TalkTime=1}] {"text":"<Researcher> They must have headed for the Mossdeep Space Center..."}
 tellraw @s[scores={DialogueTrigger=189,TalkTime=1}] {"text":"<Researcher> Steven must have gone ahead to the Space Center, but...I'm worried..."}
 
+tag @s[scores={DialogueTrigger=189,TalkTime=100..}] add Dialogue189
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 190 - Mossdeep City
 #Team outside of space center
@@ -6450,6 +6605,7 @@ tellraw @s[scores={DialogueTrigger=190,TalkTime=1}] {"text":"<Team Magma Matt> L
 
 #tps grunts out
 
+tag @s[scores={DialogueTrigger=190,TalkTime=100..}] add Dialogue190
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 191 - Mossdeep Space Center
 #Hoard of Grunts
@@ -6472,6 +6628,8 @@ tellraw @s[scores={DialogueTrigger=191,TalkTime=1}] {"text":"<Team Aqua Grunt 4>
 tellraw @s[scores={DialogueTrigger=191,TalkTime=1}] {"text":"<Team Aqua Grunt 5> Brace yourself! We won't let you call us mere quintuplets!"}
 
 execute as @s[scores={DialogueTrigger=191,TalkTime=1}] run pokebattle
+
+tag @s[scores={DialogueTrigger=191,TalkTime=100..}] add Dialogue191
 #-------------------------------------
 #Dialogue 192 - Mossdeep Space Center
 #After Hoard Battle
@@ -6492,7 +6650,7 @@ tellraw @s[scores={DialogueTrigger=192,TalkTime=1}] {"text":"<Team Aqua Grunt 4>
 tellraw @s[scores={DialogueTrigger=192,TalkTime=1}] {"text":"<Team Aqua Grunt 1> Matt is on the second floor."}
 tellraw @s[scores={DialogueTrigger=192,TalkTime=1}] {"text":"<Team Aqua Grunt 1> It's pathetic, but we can't stop him... Please. Please stop him."}
 
-
+tag @s[scores={DialogueTrigger=192,TalkTime=100..}] add Dialogue192
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 193 - Mossdeep Space Center
 #Pre-battle team admin
@@ -6565,6 +6723,7 @@ tellraw @s[scores={DialogueTrigger=193,TalkTime=1}] {"text":"<Team Aqua Matt> Ho
 
 #pokebattle
 
+tag @s[scores={DialogueTrigger=193,TalkTime=100..}] add Dialogue193
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 194 - Mossdeep Space Center
 #Post-battle team admin
@@ -6671,6 +6830,7 @@ tellraw @s[scores={DialogueTrigger=194,TalkTime=1}] {"text":"<Steven> Confound i
 
 tellraw @s[scores={DialogueTrigger=194,TalkTime=1}] {"text":"<Steven> Think, Steven. Think! What to do, what to do..."}
 
+tag @s[scores={DialogueTrigger=194,TalkTime=100..}] add Dialogue194
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 195 - Team Hideout
 #Zinnia and the team leaders
@@ -6807,6 +6967,7 @@ tellraw @s[scores={DialogueTrigger=195,TalkTime=1}] {"text":"<Steven> I'll be wa
 tellraw @s[scores={DialogueTrigger=195,TalkTime=1}] {"text":"<Steven> Do hurry."}
 tellraw @s[scores={DialogueTrigger=195,TalkTime=1}] {"text":"...Kzt!"}
 
+tag @s[scores={DialogueTrigger=195,TalkTime=100..}] add Dialogue195
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 196 - Mossdeep Space Center
 #Steven and Cozmo
@@ -6829,6 +6990,7 @@ tellraw @s[scores={DialogueTrigger=196,TalkTime=1}] {"text":"<Steven> I will lea
 tellraw @s[scores={DialogueTrigger=196,TalkTime=1}] {"text":"<Steven> I will send a message to Wallace for you, so he knows to help."}
 tellraw @s[scores={DialogueTrigger=196,TalkTime=1}] {"text":"<Steven> You will probably find him in the Cave of Origin in Sootopolis."}
 
+tag @s[scores={DialogueTrigger=196,TalkTime=100..}] add Dialogue196
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 197 - Sootopolis
 #Wallice outside Cave of Origin
@@ -6855,6 +7017,7 @@ tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> The Sky P
 
 #Wallice tps out
 
+tag @s[scores={DialogueTrigger=197,TalkTime=100..}] add Dialogue197
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 198 - Sky Pillar
 #Wallice outside cave
@@ -6871,6 +7034,7 @@ tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> Champion 
 tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> You, who should exhibit the most graceful of art in battle with your Pokémon..."}
 tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> I would have you show me your true strength!"}
 
+tag @s[scores={DialogueTrigger=198,TalkTime=100..}] add Dialogue198
 #---------------------------
 #Dialogue 199 - Sky Pillar
 #Wallice post-vattle
@@ -6890,7 +7054,7 @@ tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> Yet there
 
 #Wallice tps off
 
-
+tag @s[scores={DialogueTrigger=199,TalkTime=100..}] add Dialogue199
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 200 - Sky Pillar
 #Zinnia on ground floor
@@ -6921,6 +7085,7 @@ tellraw @s[scores={DialogueTrigger=200,TalkTime=1}] {"text":"<Zinnia> I'll tell 
 
 #Zinnia tps to next point
 
+tag @s[scores={DialogueTrigger=200,TalkTime=100..}] add Dialogue200
 #---------------------------
 #Dialogue 201 - Sky Pillar
 #Zinnia on floor 2
@@ -6948,6 +7113,7 @@ tellraw @s[scores={DialogueTrigger=201,TalkTime=1}] {"text":"<Zinnia> There's a 
 
 #Zinnia tps to next point
 
+tag @s[scores={DialogueTrigger=201,TalkTime=100..}] add Dialogue201
 #---------------------------
 #Dialogue 202 - Sky Pillar
 #Zinnia on floor 3
@@ -6982,6 +7148,7 @@ tellraw @s[scores={DialogueTrigger=202,TalkTime=1}] {"text":"<Zinnia> That's rig
 
 #Zinnia tps to next point
 
+tag @s[scores={DialogueTrigger=202,TalkTime=100..}] add Dialogue202
 #---------------------------
 #Dialogue 203 - Sky Pillar
 #Zinnia on floor 4
@@ -7012,6 +7179,7 @@ tellraw @s[scores={DialogueTrigger=203,TalkTime=1}] {"text":"<Zinnia> A giant to
 tellraw @s[scores={DialogueTrigger=203,TalkTime=1}] {"text":"<Zinnia> You know, I feel like I've seen something like that recently."}
 tellraw @s[scores={DialogueTrigger=203,TalkTime=1}] {"text":"<Zinnia> Heh. But now, I suppose it's time for the last chapter in our tale."}
 
+tag @s[scores={DialogueTrigger=203,TalkTime=100..}] add Dialogue203
 #---------------------------
 #Dialogue 204 - Sky Pillar
 #Zinnia on floor 5
@@ -7041,6 +7209,7 @@ tellraw @s[scores={DialogueTrigger=204,TalkTime=1}] {"text":"<Zinnia> Well, I ha
 
 #Zinnia tps out
 
+tag @s[scores={DialogueTrigger=204,TalkTime=100..}] add Dialogue204
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 205 - Sky Pillar
 #Upon climbing to the top
@@ -7188,7 +7357,7 @@ tellraw @s[scores={DialogueTrigger=205,TalkTime=1}] {"text":"<Zinnia> This is th
 tellraw @s[scores={DialogueTrigger=205,TalkTime=1}] {"text":"<Zinnia> And the only one who can direct it now..."}
 tellraw @s[scores={DialogueTrigger=205,TalkTime=1}] {"text":"<Zinnia> It's you! You have to do this!"}
 
-
+tag @s[scores={DialogueTrigger=205,TalkTime=100..}] add Dialogue205
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 206 - Sky Pillar
 #Upon catching Rayquaza
@@ -7223,6 +7392,7 @@ tellraw @s[scores={DialogueTrigger=206,TalkTime=1}] {"text":"<Zinnia> This is it
 
 #Battle with Zinnia
 
+tag @s[scores={DialogueTrigger=206,TalkTime=100..}] add Dialogue206
 #---------------------------
 #Dialogue 207 - Sky Pillar
 #After battling Zinnia
@@ -7257,7 +7427,7 @@ tellraw @s[scores={DialogueTrigger=207,TalkTime=1}] {"text":"<Whismur> Mur!"}
 
 execute as @s[scores={DialogueTrigger=207,TalkTime=1}] run pokebattle Deoxys lvl:80
 
-
+tag @s[scores={DialogueTrigger=207,TalkTime=100..}] add Dialogue207
 #---------------------------
 #Dialogue 208 - Outer Space
 #Post-Deoxys Battle
@@ -7508,6 +7678,7 @@ tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Brendan> See you t
 
 #rival goes inside
 
+tag @s[scores={DialogueTrigger=208,TalkTime=100..}] add Dialogue208
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 209 - Littleroot Town
 #https://youtu.be/MgkqxXCmrtI?t=72737
@@ -7522,6 +7693,7 @@ execute as @s[scores={DialogueTrigger=209,TalkTime=1}] run title @s title {"text
 
 #tps to room
 
+tag @s[scores={DialogueTrigger=209,TalkTime=100..}] add Dialogue209
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 210 - Littleroot Town
 #Mom and Dad after Delta Episode, gainint SS Ticket
@@ -7551,6 +7723,7 @@ tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Mom> Can't he ever
 tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Mom> I wish he could just switch it off and take it easy sometimes!"}
 tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Mom> But I love him just the way he is..."}
 
+tag @s[scores={DialogueTrigger=210,TalkTime=100..}] add Dialogue210
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 211 - Mauville City
 #Wattson New Mauville first talk
@@ -7573,6 +7746,7 @@ tellraw @s[scores={DialogueTrigger=211,TalkTime=1}] ["",{"text":"<Wattson> I sur
 
 #Wattson teleports out
 
+tag @s[scores={DialogueTrigger=211,TalkTime=100..}] add Dialogue211
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 212 - Mauville City
 #After Rotation Battle
@@ -7591,7 +7765,7 @@ tellraw @s[scores={DialogueTrigger=212,TalkTime=1}] {"text":"<Circie> You go and
 
 #https://youtu.be/MgkqxXCmrtI?t=73917
 
-
+tag @s[scores={DialogueTrigger=212,TalkTime=100..}] add Dialogue212
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 213 - Mauville City
 #Wattson's Apartment
@@ -7615,7 +7789,7 @@ tellraw @s[scores={DialogueTrigger=213,TalkTime=1}] {"text":"<Wattson> When you 
 tellraw @s[scores={DialogueTrigger=213,TalkTime=1}] {"text":"<Wattson> When that computer starts working right, come back here and report to me."}
 tellraw @s[scores={DialogueTrigger=213,TalkTime=1}] {"text":"<Wattson> I sure am sorry to bug you with all this, but I'm really counting on you!"}
 
-
+tag @s[scores={DialogueTrigger=213,TalkTime=100..}] add Dialogue213
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 214 - Mauville City
 #Apt 12, A Frightened Man's Home
@@ -7636,7 +7810,7 @@ tellraw @s[scores={DialogueTrigger=214,TalkTime=1}] {"text":"<A Frightened Man> 
 
 #tps them both inside
 
-
+tag @s[scores={DialogueTrigger=214,TalkTime=100..}] add Dialogue214
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 215 - Mauville City
 #After some time has passed. Maybe after the computer is on?
@@ -7649,7 +7823,7 @@ tellraw @s[scores={DialogueTrigger=215,TalkTime=1}] ["",{"selector":"@s","italic
 tellraw @s[scores={DialogueTrigger=215,TalkTime=1}] {"text":"<...> I got it as security for a loan from a fool who doesn't pay what he owes."}
 tellraw @s[scores={DialogueTrigger=215,TalkTime=1}] {"text":"<...> A Pokémon would be miserable if it bonded with such a fool and Mega Evolved."}
 
-
+tag @s[scores={DialogueTrigger=215,TalkTime=100..}] add Dialogue215
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 216 - New Mauville
 #Player pressing button(s) in New Mauville
@@ -7657,6 +7831,7 @@ tellraw @s[scores={DialogueTrigger=216,TalkTime=1}] {"text":"<Computer> WELCOME.
 tellraw @s[scores={DialogueTrigger=216,TalkTime=1}] {"text":"<Computer> SURVEILLANCE COMPLETE. SECURITY CONFIRMED. NO UNUSUAL ACTIVITY NOTED IN NEW MAUVILLE."}
 tellraw @s[scores={DialogueTrigger=216,TalkTime=1}] {"text":"<Computer> TRANSMITTING THE SURVEILLANCE RESULT..."}
 
+tag @s[scores={DialogueTrigger=216,TalkTime=100..}] add Dialogue216
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 217 - Mauville City
 #Wattson after button was pressed
@@ -7676,6 +7851,7 @@ tellraw @s[scores={DialogueTrigger=217,TalkTime=1}] {"text":"<Wattson> Things ha
 tellraw @s[scores={DialogueTrigger=217,TalkTime=1}] {"text":"<Wattson> Since then it's just been left to rot."}
 tellraw @s[scores={DialogueTrigger=217,TalkTime=1}] {"text":"<Wattson> All the equipment inside might have seen better days."}
 
+tag @s[scores={DialogueTrigger=217,TalkTime=100..}] add Dialogue217
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 218 - Slateport City
 #If player has the scanner in their inventory
@@ -7690,6 +7866,7 @@ tellraw @s[scores={DialogueTrigger=218,TalkTime=1}] ["",{"text":"["},{"text":"Ye
 #No:
 #You drive a hard bargain. Let me know if you reconsider.
 
+tag @s[scores={DialogueTrigger=218,TalkTime=100..}] add Dialogue218
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 219 - Slateport City
 #Player handing over scanner
@@ -7714,6 +7891,7 @@ tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> I'v
 
 #Player can now obtain Ho-Oh and Lugia via wormhole when at the Sea Mauville
 
+tag @s[scores={DialogueTrigger=219,TalkTime=100..}] add Dialogue219
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 220 - Sea Mauville
 #Ho-Oh Encounter
@@ -7737,6 +7915,7 @@ execute as @s[scores={DialogueTrigger=220,TalkTime=1}] run pokebattle @s hooh lv
 
 #Note on legendary resets. Thinking if this tag is present but not a HoOh, etc tag present applied upon catching, reset upon beating the Elite Four. Tag=Dialogue220,tag=!HoOh equals reset
 
+tag @s[scores={DialogueTrigger=220,TalkTime=100..}] add Dialogue220
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 221 - Sea Mauville
 #Lugia Encounter
@@ -7748,7 +7927,7 @@ tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"Extremely pure seaw
 tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"Would you like to examine it?"}
 #[Yes]
 
-
+tag @s[scores={DialogueTrigger=221,TalkTime=100..}] add Dialogue221
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 222 - Scorched Slab
 #Flannery Post-Legendary
@@ -7764,7 +7943,7 @@ tellraw @s[scores={DialogueTrigger=222,TalkTime=1}] {"text":"<Flannery> Hah... A
 #[Yes]  [No]
 
 
-
+tag @s[scores={DialogueTrigger=222,TalkTime=100..}] add Dialogue222
 #----------------------
 #Dialogue 223
 #Flannery Answer
@@ -7790,6 +7969,7 @@ tellraw @s[scores={DialogueTrigger=223,TalkTime=1}] {"text":"<Flannery> So I'm l
 
 #tp Flannery out
 
+tag @s[scores={DialogueTrigger=223,TalkTime=100..}] add Dialogue223
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 225 - Scorched Slab
 #Heatran Encounter
@@ -7806,6 +7986,7 @@ execute as @s[scores={DialogueTrigger=225,TalkTime=1}] run pokebattle @s Heatran
 
 tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"Heatran Appeared!"}
 
+tag @s[scores={DialogueTrigger=225,TalkTime=100..}] add Dialogue225
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 226 - Shoal Cave
 #Shell Guy First Talk
@@ -7815,6 +7996,7 @@ tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> I can m
 tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> If you bring me four each of the Shoal Salt and Shoal Shells, I can make you a Shell Bell..."}
 tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> You can get more every day."}
 
+tag @s[scores={DialogueTrigger=226,TalkTime=100..}] add Dialogue226
 #-------------------------------
 #Dialogue 227 - Shoal Cave
 #Shell Guy if resources present
@@ -7824,6 +8006,7 @@ tellraw @s[scores={DialogueTrigger=227,TalkTime=1}] {"text":"<Shoal Man> Oh, hey
 tellraw @s[scores={DialogueTrigger=227,TalkTime=1}] {"text":"<Shoal Man> And enough of them, too! Would you like me to make you a Shell Bell with them?"}
 #[Yes]  [No]
 
+tag @s[scores={DialogueTrigger=227,TalkTime=100..}] add Dialogue227
 #-------------------------------
 #Dialogue 228 - Shoal Cave
 #Shell Guy Creating shells
@@ -7850,6 +8033,7 @@ tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] ["",{"selector":"@s","italic
 execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run give @s pixelmon:slowbronite
 execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run tag @s add Slowbronite
 
+tag @s[scores={DialogueTrigger=228,TalkTime=100..}] add Dialogue228
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 229 - Sealed Chamber
 #Upon meeting unlock conditions
@@ -7865,6 +8049,7 @@ execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run tag @s add Slowbronit
 
 tellraw @s[scores={DialogueTrigger=229,TalkTime=1}] {"text":"It sounded as if doors opened somewhere far away."}
 
+tag @s[scores={DialogueTrigger=229,TalkTime=100..}] add Dialogue229
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 230 - Desert Ruins
 #Regirock Encoutner
@@ -7872,6 +8057,7 @@ tellraw @s[scores={DialogueTrigger=229,TalkTime=1}] {"text":"It sounded as if do
 #Puzzle: "Right, right, down, down, then use your Strength."
 #Wonder if I could just do right motion, right motion, down motion, down motion. Summon an armor stand and if they are all four aligned unlock the door? Or if motion checks, confirm with the player to use strength to unlock
 
+tag @s[scores={DialogueTrigger=230,TalkTime=100..}] add Dialogue230
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 231 - Ancient Tomb
 #Registeel Encounter
@@ -7879,6 +8065,7 @@ tellraw @s[scores={DialogueTrigger=229,TalkTime=1}] {"text":"It sounded as if do
 #Puzzle: "Stand center. Aim to the sky with love and hope and time."
 #Player can stand roughly in the center of the tomb and use the Fly HM
 
+tag @s[scores={DialogueTrigger=231,TalkTime=100..}] add Dialogue231
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 232 - Island Cave
 #Regice Encounter
@@ -7886,6 +8073,7 @@ tellraw @s[scores={DialogueTrigger=229,TalkTime=1}] {"text":"It sounded as if do
 #Puzzle: "Stop and wait unmoving as time passes you by twice."
 #Track any walk on the player, and if zero, count up totaling two minutes without movement. If any movement, reset the timer.
 
+tag @s[scores={DialogueTrigger=232,TalkTime=100..}] add Dialogue232
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 233 - Island Cave
 #Regigigas Encounter
@@ -7898,6 +8086,7 @@ tellraw @s[scores={DialogueTrigger=233,TalkTime=1}] {"text":"<...> Zut zutt!"}
 
 execute as @s[scores={DialogueTrigger=233,TalkTime=1}] run pokebattle Regigigas lvl:50
 
+tag @s[scores={DialogueTrigger=233,TalkTime=100..}] add Dialogue233
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 234 - Pathless Plain
 #Cobalion (Sun, Wed, Fri)
@@ -7913,6 +8102,7 @@ tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"Would you like to p
 tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"Cobalion appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=234,TalkTime=1}] run pokebattle Cobalion lvl:50
 
+tag @s[scores={DialogueTrigger=234,TalkTime=100..}] add Dialogue234
 #------------------------------
 #Dialogue 235 - Pathless Plain
 #Terrakion (Tues, Sat)
@@ -7925,6 +8115,7 @@ tellraw @s[scores={DialogueTrigger=235,TalkTime=1}] {"text":"Would you like to p
 tellraw @s[scores={DialogueTrigger=235,TalkTime=1}] {"text":"Terrakion appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=235,TalkTime=1}] run pokebattle Terrakion lvl:50
 
+tag @s[scores={DialogueTrigger=235,TalkTime=100..}] add Dialogue235
 #-------------------------------
 #Dialogue 236 - Pathless Plain
 #Virizion (Mon, Thurs)
@@ -7937,6 +8128,7 @@ tellraw @s[scores={DialogueTrigger=236,TalkTime=1}] {"text":"Would you like to p
 tellraw @s[scores={DialogueTrigger=236,TalkTime=1}] {"text":"Virizion appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=236,TalkTime=1}] run pokebattle Virizion lvl:50
 
+tag @s[scores={DialogueTrigger=236,TalkTime=100..}] add Dialogue236
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 237 - Trackless Forest
 #Raikou Encounter
@@ -7955,6 +8147,7 @@ tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"Would you like to p
 tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"Raikou appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=237,TalkTime=1}] run pokebattle @s Raikou lvl:50
 
+tag @s[scores={DialogueTrigger=237,TalkTime=100..}] add Dialogue237
 #-------------------------------
 #Dialogue 238 - Trackless Forest
 #Entei Encounter
@@ -7970,6 +8163,7 @@ tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"Would you like to p
 tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"Entei appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=238,TalkTime=1}] run pokebattle @s Entei lvl:50
 
+tag @s[scores={DialogueTrigger=238,TalkTime=100..}] add Dialogue238
 #-------------------------------
 #Dialogue 239 - Trackless Forest
 #Suicune Encounter
@@ -7985,6 +8179,7 @@ tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Would you like to p
 tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Suicune appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=239,TalkTime=1}] run pokebattle @s Suicune lvl:50
 
+tag @s[scores={DialogueTrigger=239,TalkTime=100..}] add Dialogue239
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 240 - Soaring in the sky
 #Tornadus Prompt
@@ -8000,6 +8195,7 @@ tellraw @s[scores={DialogueTrigger=240,TalkTime=1}] {"text":"Despite that, do yo
 tellraw @s[scores={DialogueTrigger=240,TalkTime=1}] {"text":"Tornadus appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=240,TalkTime=1}] run pokebattle @s Tornadus lvl:50
 
+tag @s[scores={DialogueTrigger=240,TalkTime=100..}] add Dialogue240
 #-------------------------------
 #Dialogue 241 - Soaring in the sky
 #Thundurus Prompt
@@ -8012,6 +8208,7 @@ tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"Despite that, do yo
 tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"Thundurus appeared!","italic":true,"color":"gray"}
 execute as @s[scores={DialogueTrigger=241,TalkTime=1}] run pokebattle @s Thundurus lvl:50
 
+tag @s[scores={DialogueTrigger=241,TalkTime=100..}] add Dialogue241
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 242 - Lillycove or Slateport Harbor
 #https://youtu.be/MgkqxXCmrtI?t=85438
@@ -8031,6 +8228,7 @@ tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] {"text":"<Lass> Perfect! Tha
 tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" doesn't have a ticket!","italic":true,"color":"gray"}]
 tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] {"text":"<Lass> I'm terribly sorry. You must have a ticket to board the ferry."}
 
+tag @s[scores={DialogueTrigger=242,TalkTime=100..}] add Dialogue242
 #-----------------------------------------
 #Dialogue 243 - S.S. Tidal Voyrage Start
 #Traveling to a location
@@ -8043,6 +8241,7 @@ tellraw @s[scores={DialogueTrigger=243,TalkTime=1}] {"text":"<Lass> Please board
 tellraw @s[scores={DialogueTrigger=243,TalkTime=1}] {"text":"<Sailor> This ferry is built to plow through fast-running currents."}
 tellraw @s[scores={DialogueTrigger=243,TalkTime=1}] {"text":"<Sailor> We hope you enjoy your voyage with us. Feel free to explore the ship."}
 
+tag @s[scores={DialogueTrigger=243,TalkTime=100..}] add Dialogue243
 #----------------------------------------
 #Dialogue 244 - Arriving from S.S. Tidal
 
@@ -8054,6 +8253,7 @@ tellraw @s[scores={DialogueTrigger=244,TalkTime=1}] {"text":"<Intercom> When you
 #then when player visits entrance they'll be able to board?
 #I might need to tp the plyaer off to make that work
 
+tag @s[scores={DialogueTrigger=244,TalkTime=100..}] add Dialogue244
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 245 - S.S. Tidal
 #Mr. Briney and Drake conversation
@@ -8071,6 +8271,7 @@ tellraw @s[scores={DialogueTrigger=245,TalkTime=1}] {"text":"<Mr. Briney> Aye ay
 
 #Drake TPS out
 
+tag @s[scores={DialogueTrigger=245,TalkTime=100..}] add Dialogue245
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 246 - Battle Resort
 #Wally greeting player
@@ -8142,6 +8343,7 @@ tellraw @s[scores={DialogueTrigger=246,TalkTime=1}] {"text":"<Team Aqua Matt> I'
 
 #AQUA VARIANT
 
+tag @s[scores={DialogueTrigger=246,TalkTime=100..}] add Dialogue246
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 247 - Battle Resort
 #Player and Wally continued
@@ -8170,6 +8372,7 @@ tellraw @s[scores={DialogueTrigger=247,TalkTime=1}] {"text":"<Wally> I've never 
 tellraw @s[scores={DialogueTrigger=247,TalkTime=1}] ["",{"text":"<Wally> So I'll be off exploring, "},{"selector":"@s"},{"text":". But I'll see you later!"}]
 tellraw @s[scores={DialogueTrigger=247,TalkTime=1}] {"text":"<Wally> I hope we can battle again, here in this resort!"}
 
+tag @s[scores={DialogueTrigger=247,TalkTime=100..}] add Dialogue247
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 248 - Battle Resort
 #Daycare woman missing purse
@@ -8180,6 +8383,7 @@ tellraw @s[scores={DialogueTrigger=248,TalkTime=1}] {"text":"<Lass> Well, shall 
 tellraw @s[scores={DialogueTrigger=248,TalkTime=1}] {"text":"<Lass> Yes, $100 would be fine."}
 #[Yes]  [No]
 
+tag @s[scores={DialogueTrigger=248,TalkTime=100..}] add Dialogue248
 #-----------------------------
 #Dialogue 249 - Battle Resort
 #Answer
@@ -8195,6 +8399,7 @@ tellraw @s[scores={DialogueTrigger=249,TalkTime=1}] ["",{"selector":"@s","italic
 
 tellraw @s[scores={DialogueTrigger=249,TalkTime=1}] {"text":"<Lass> You may embrace the happiness and express your gratitude for having been able to help me every time you use the move."}
 
+tag @s[scores={DialogueTrigger=249,TalkTime=100..}] add Dialogue249
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 250 - Battle Resort
 #Looker first encounter
@@ -8214,6 +8419,7 @@ tellraw @s[scores={DialogueTrigger=250,TalkTime=1}] {"text":"<Beauty> Oh, boy. I
 
 #both walk away
 
+tag @s[scores={DialogueTrigger=250,TalkTime=100..}] add Dialogue250
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 251 - Battle Maison
 #Upon first entrance
@@ -8234,6 +8440,7 @@ tellraw @s[scores={DialogueTrigger=251,TalkTime=1}] {"text":"<Sidney> If you see
 
 #tp Sidney out
 
+tag @s[scores={DialogueTrigger=251,TalkTime=100..}] add Dialogue251
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 252 - Battle Resort
 #Team Grunts
@@ -8293,6 +8500,7 @@ tellraw @s[scores={DialogueTrigger=252,TalkTime=1}] {"text":"<Team Aqua Grunt 2>
 
 tellraw @s[scores={DialogueTrigger=252,TalkTime=1}] {"text":"<Team Aqua Grunt> Y-you busybody... You bet I will..."}
 
+tag @s[scores={DialogueTrigger=252,TalkTime=100..}] add Dialogue252
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 253 - Battle Resort
 #Upon revisiting Magma and Aqua Grunts
@@ -8325,6 +8533,7 @@ tellraw @s[scores={DialogueTrigger=253,TalkTime=1}] {"text":"<Team Aqua Grunt> I
 tellraw @s[scores={DialogueTrigger=253,TalkTime=1}] {"text":"<Team Aqua Grunt> Thanks for this. I'll leave Sharpedo in your care. Riding around on this fella's back while surfing... It's the best."}
 execute as @s[scores={DialogueTrigger=253,TalkTime=1}] run pokegive @s sharpedo lvl:40
 
+tag @s[scores={DialogueTrigger=253,TalkTime=100..}] add Dialogue253
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 254 - Battle Resort
 #Looker Follow Up
@@ -8347,7 +8556,7 @@ tellraw @s[scores={DialogueTrigger=254,TalkTime=1}] {"text":"<...> That, I found
 tellraw @s[scores={DialogueTrigger=254,TalkTime=1}] {"text":"<...> It was the only thing I had on me."}
 tellraw @s[scores={DialogueTrigger=254,TalkTime=1}] {"text":"<...> I do not know if it will prove worth anything, but I'm glad to give it to you."}
 
-
+tag @s[scores={DialogueTrigger=254,TalkTime=100..}] add Dialogue254
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 255 - Littleroot
 #Mom giving Latiasite (After Delta Episode?)
@@ -8364,6 +8573,7 @@ tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Remember the 
 tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Well, I found these in the grass out front the next morning!"}
 tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Isn't it pretty, the way they sparkle? It's like a rainbow!"}
 
+tag @s[scores={DialogueTrigger=255,TalkTime=100..}] add Dialogue255
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 256 - Littleroot Town
 #Mom giving Amulet Coin after beating Dad
@@ -8376,6 +8586,7 @@ tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] ["",{"selector":"@s","italic
 tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] {"text":"<Mom> It's a wonderful thing to try hard at your passion, but don't push yourself too hard, dear."}
 tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] {"text":"<Mom> You can always come home if you need to. Good luck, honey!"}
 
+tag @s[scores={DialogueTrigger=256,TalkTime=100..}] add Dialogue256
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 257 - Littleroot Town
 #Birch giving Oval Charm
@@ -8384,6 +8595,7 @@ tellraw @s[scores={DialogueTrigger=257,TalkTime=1}] {"text":"<Professor Birch> Y
 tellraw @s[scores={DialogueTrigger=257,TalkTime=1}] {"text":"<Professor Birch> Here, take this as a little reward for all your hard work!"}
 tellraw @s[scores={DialogueTrigger=257,TalkTime=1}] {"text":"<Professor Birch> If you're holding an Oval Charm, you'll have a better chance of finding an Egg at the Pokémon Day Care."}
 
+tag @s[scores={DialogueTrigger=257,TalkTime=100..}] add Dialogue257
 #---------------------------------
 #Dialogue 258 - Littleroot Town
 #Birch giving Shiny Charm
@@ -8398,6 +8610,7 @@ tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Y
 tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Here, take this as a little reward for all your hard work!"}
 tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Holding a Shiny Charm will improve your chances of finding a Shiny Pokémon!"}
 
+tag @s[scores={DialogueTrigger=258,TalkTime=100..}] add Dialogue258
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 259 - Verdanturf Town
 #Wanda after clearing out the tunnel
@@ -8413,6 +8626,7 @@ tellraw @s[scores={DialogueTrigger=259,TalkTime=1}] {"text":"<Wanda> Do you reme
 tellraw @s[scores={DialogueTrigger=259,TalkTime=1}] {"text":"<Wanda> I found this in the yard that day. Actually, I found two, and I gave the other to Wally."}
 tellraw @s[scores={DialogueTrigger=259,TalkTime=1}] {"text":"<Wanda> It's a pretty stone, and I'm sure your Pokémon would be delighted if you let one of them hold it!"}
 
+tag @s[scores={DialogueTrigger=259,TalkTime=100..}] add Dialogue259
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 260 - Fallarbor Town
 #Professor Cozmo after the Delta Episode
@@ -8432,7 +8646,7 @@ tellraw @s[scores={DialogueTrigger=260,TalkTime=1}] {"text":"<Professor Cozmo> W
 tellraw @s[scores={DialogueTrigger=260,TalkTime=1}] {"text":"<Professor Cozmo> I'll have to share this information with him at once."}
 tellraw @s[scores={DialogueTrigger=260,TalkTime=1}] {"text":"<Professor Cozmo> It might propel his research forward, and help future Trainers and Pokémon. I hope it does."}
 
-
+tag @s[scores={DialogueTrigger=260,TalkTime=100..}] add Dialogue260
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 261 - Meteor Falls
 #Zinnia's Grandma after the Delta Episode
@@ -8451,6 +8665,7 @@ tellraw @s[scores={DialogueTrigger=261,TalkTime=1}] {"text":"<Zinnia's Grandma> 
 tellraw @s[scores={DialogueTrigger=261,TalkTime=1}] {"text":"<Zinnia's Grandma> I may not seem like much, but I am also one of the last Draconids."}
 tellraw @s[scores={DialogueTrigger=261,TalkTime=1}] {"text":"<Zinnia's Grandma> I can help the Dragon lord remember that grand move."}
 
+tag @s[scores={DialogueTrigger=261,TalkTime=100..}] add Dialogue261
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 262 - Mt. Pyre
 #Elite Four Phoebe
@@ -8468,6 +8683,7 @@ tellraw @s[scores={DialogueTrigger=262,TalkTime=1}] {"text":"<Phoebe> Well, good
 
 #tp out
 
+tag @s[scores={DialogueTrigger=262,TalkTime=100..}] add Dialogue262
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 263  - Sealed Chamber Regis Unlock
 
@@ -8481,6 +8697,7 @@ execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run tag @s remove ShakeSc
 
 tellraw @s[scores={DialogueTrigger=263,TalkTime=1}] {"text":"It sounded as if doors opened somewhere far away.","italic":true,"color":"gray"}
 
+tag @s[scores={DialogueTrigger=263,TalkTime=100..}] add Dialogue26
 #-----------------------------------------------------------------------------------------------------
 
 #Helpful points of reference
