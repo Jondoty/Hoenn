@@ -1,0 +1,43 @@
+{
+    "id": "Charcadet",
+    "spawnInfos": [
+      {
+        "spec": "species:Charcadet",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "minLevel": 7,
+        "maxLevel": 16,
+        "typeID": "pokemon",
+        "heldItems": [
+        ],
+        "condition": {
+          "biomes": [
+            "#pixelmon:spawning/mesas",
+            "#pixelmon:spawning/volcanic"
+           ]
+        },
+        "groupSpawnSettings": [
+          {
+            "spec": "Charcadet",
+            "amount": {
+              "min_value": 3,
+              "max_value": 4
+            },
+            "spawn_range_minimum": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "spawn_range_maximum": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "chance": 0.1
+          }
+        ],
+        "rarity": 90.0
+      }
+    ]
+  }

@@ -1,0 +1,26 @@
+{
+    "id": "Armarouge",
+    "spawnInfos": [
+      {
+        "spec": "species:Armarouge",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "minLevel": 25,
+        "maxLevel": 45,
+        "typeID": "pokemon",
+        "heldItems": [
+        ],
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/mesas",
+            "#pixelmon:spawning/volcanic"
+           ]
+        },
+        "rarity": 0.0
+      }
+    ]
+  }

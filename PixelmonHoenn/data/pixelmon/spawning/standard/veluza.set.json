@@ -1,0 +1,26 @@
+{
+    "id": "Veluza",
+    "spawnInfos": [
+      {
+        "spec": "species:Veluza",
+        "stringLocationTypes": [
+          "Water"
+        ],
+        "minLevel": 25,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "biomes": [
+            "minecraft:ocean",
+            "minecraft:deep_ocean",
+            "minecraft:lukewarm_ocean",
+            "minecraft:deep_lukewarm_ocean",
+            "minecraft:warm_ocean",
+            "minecraft:deep_warm_ocean"
+          ],
+          "minY": 50
+        },
+        "rarity": 0.0
+      }
+    ]
+  }

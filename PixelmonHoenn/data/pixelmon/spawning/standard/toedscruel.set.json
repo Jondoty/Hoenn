@@ -1,0 +1,45 @@
+{
+  "id": "Toedscruel",
+  "spawnInfos": [
+    {
+      "spec": "species:Toedscruel",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Toedscool",
+          "amount": {
+            "min_value": 3,
+            "max_value": 5
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
+    }
+  ]
+}

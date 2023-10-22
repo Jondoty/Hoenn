@@ -1,0 +1,25 @@
+{
+  "id": "Toedscool",
+  "spawnInfos": [
+    {
+      "spec": "species:Toedscool",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "#pixelmon:spawning/mushroom",
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

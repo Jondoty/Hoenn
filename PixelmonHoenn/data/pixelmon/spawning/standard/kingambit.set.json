@@ -1,0 +1,47 @@
+{
+  "id": "Kingambit",
+  "spawnInfos": [
+    {
+      "spec": "species:Kingambit",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "minecraft:bamboo_jungle",
+          "pixelmon:ultra_deep_sea",
+          "#pixelmon:spawning/lakes",
+          "terralith:warm_river"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Bisharp",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.1
+    }
+  ]
+}

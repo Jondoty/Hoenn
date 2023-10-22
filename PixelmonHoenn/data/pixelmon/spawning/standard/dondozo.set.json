@@ -1,0 +1,26 @@
+{
+  "id": "Dondozo",
+  "spawnInfos": [
+    {
+      "spec": "species:Dondozo",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:river",
+          "#pixelmon:spawning/lakes",
+          "#pixelmon:spawning/swamps",
+          "terralith:warm_river"
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

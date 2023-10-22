@@ -1,0 +1,42 @@
+{
+  "id": "Brambleghast",
+  "spawnInfos": [
+    {
+      "spec": "species:Brambleghast",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Brambleghast palette:tangela",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas"
+        ],
+        "partyHeadSpecies": [
+          "Tangrowth"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

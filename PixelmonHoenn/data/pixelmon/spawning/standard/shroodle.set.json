@@ -1,0 +1,44 @@
+{
+  "id": "Shroodle",
+  "spawnInfos": [
+    {
+      "spec": "species:Shroodle",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "#pixelmon:spawning/jungles",
+          "#pixelmon:spawning/forests"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Shroodle",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "Pawmot",
+  "spawnInfos": [
+    {
+      "spec": "species:Pawmot",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Pawmi",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.0
+        }
+      ],
+      "rarity": 0.0
+    }
+  ]
+}

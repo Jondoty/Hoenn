@@ -1,0 +1,26 @@
+{
+    "id": "Ceruledge",
+    "spawnInfos": [
+      {
+        "spec": "species:Ceruledge",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "minLevel": 25,
+        "maxLevel": 45,
+        "typeID": "pokemon",
+        "heldItems": [
+        ],
+        "condition": {
+          "times": [
+            "NIGHT"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/mesas",
+            "#pixelmon:spawning/volcanic"
+           ]
+        },
+        "rarity": 0.0
+      }
+    ]
+  }
