@@ -4,49 +4,44 @@
     {
       "spec": "species:Sealeo",
       "stringLocationTypes": [
-        "Water",
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 32,
-      "maxLevel": 43,
+      "minLevel": 31,
+      "maxLevel": 34,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:frozen_ocean",
-          "minecraft:deep_frozen_ocean",
-          "minecraft:frozen_river",
-          "minecraft:snowy_beach",
-          "byg:snowy_rocky_black_beach",
-          "byg:snowy_black_beach",
-          "byg:frozen_lake",
-          "terraforged:frozen_lake"
-        ]
+          "minX": 2812, "maxX": 3005, "minZ": -3281, "maxZ": -2970, "minY": 63, "maxY": 135
       },
-      "groupSpawnSettings": [
-        {
-          "spec": "Spheal",
-          "amount": {
-            "min_value": 3,
-            "max_value": 4
-          },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 0.3
-        }
-      ],
-      "rarity": 0.0
-    }
+      "rarity": 40.0
+    },
+      {
+        "spec": "species:Sealeo",
+        "stringLocationTypes": [
+          "Underground", "Indoors", "Manmade"
+        ],
+        "minLevel": 31,
+        "maxLevel": 34,
+        "typeID": "pokemon",
+        "condition": {
+          "minX": 2783, "maxX": 3012, "minZ": -2959, "maxZ": -2326, "minY": 63, "maxY": 125
+        },
+        "anticondition": {
+          "minX": 2783, "maxX": 3012, "minZ": -2959, "maxZ": -2748, "minY": 63, "maxY": 84
+        },
+        "rarity": 35.0
+      },
+      {
+        "spec": "species:Sealeo",
+        "stringLocationTypes": [
+          "Underground", "Indoors", "Manmade"
+        ],
+        "minLevel": 31,
+        "maxLevel": 34,
+        "typeID": "pokemon",
+        "condition": {
+        "minX": 2783, "maxX": 3012, "minZ": -2959, "maxZ": -2748, "minY": 63, "maxY": 84
+        },
+        "rarity": 30.0
+      }
   ]
 }

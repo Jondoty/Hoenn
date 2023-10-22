@@ -4,32 +4,15 @@
     {
       "spec": "species:Numel",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 5,
-      "maxLevel": 33,
+      "minLevel": 13,
+      "maxLevel": 16,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/arid",
-          "minecraft:badlands",
-          "biomesoplenty:volcanic_plains"
-        ]
+          "minX": -1963, "maxX": -1739, "minZ": -1387, "maxZ": -1144, "minY": 0, "maxY": 60
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 1.5,
-          "condition": {
-            "neededNearbyBlocks": [
-              "minecraft:dead_bush"
-            ]
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 40.0
     }
   ]
 }

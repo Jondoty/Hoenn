@@ -4,26 +4,28 @@
     {
       "spec": "species:Makuhita",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 5,
-      "maxLevel": 15,
+      "minLevel": 9,
+      "maxLevel": 12,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:black_belt",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "AFTERNOON"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/mountainous_forests"
-        ]
+          "minX": 2440, "maxX": 2759, "minZ": -2673, "maxZ": -2286, "minY": 130, "maxY": 150
       },
-      "rarity": 0.0
+      "rarity": 40.0
+    },
+    {
+      "spec": "species:Makuhita",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 9,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2440, "maxX": 2759, "minZ": -2673, "maxZ": -2286, "minY": 92, "maxY": 129
+      },
+      "rarity": 20.0
     }
   ]
 }

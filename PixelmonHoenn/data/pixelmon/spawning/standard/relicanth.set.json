@@ -4,99 +4,28 @@
     {
       "spec": "species:Relicanth",
       "stringLocationTypes": [
-        "Water"
+        "Underground Water"
       ],
-      "minLevel": 30,
+      "minLevel": 20,
       "maxLevel": 35,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:deep_sea_scale",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:deep_ocean",
-          "minecraft:deep_warm_ocean",
-          "minecraft:deep_lukewarm_ocean",
-          "minecraft:deep_cold_ocean"
-        ],
-        "maxY": 32
+          "minX": -2330, "maxX": -2060, "minZ": 782, "maxZ": 966, "minY": -30, "maxY": -20
       },
-      "rarity": 0.0
+      "rarity": 5.0
     },
     {
       "spec": "species:Relicanth",
       "stringLocationTypes": [
         "Underground Water"
       ],
-      "minLevel": 30,
+      "minLevel": 20,
       "maxLevel": 35,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:deep_sea_scale",
-          "percentChance": 5
-        }
-      ],
-      "anticondition": {
-        "biomes": [
-          "#pixelmon:spawning/drowned"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Relicanth palette:drowned",
-      "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 30,
-      "maxLevel": 35,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:deep_sea_scale",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/drowned"
-        ]
+          "minX": 833, "maxX": 1244, "minZ": -1170, "maxZ": -831, "minY": -32, "maxY": -20
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Relicanth",
-      "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 30,
-      "maxLevel": 35,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:deep_sea_scale",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "structures": [
-          "pixelmon:water_chalice"
-        ],
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 5.0
     }
   ]
 }

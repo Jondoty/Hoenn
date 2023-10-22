@@ -4,81 +4,67 @@
     {
       "spec": "species:Zubat",
       "stringLocationTypes": [
-        "Air",
-        "Sweet Scent"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 5,
-      "maxLevel": 22,
+      "minLevel": 9,
+      "maxLevel": 12,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "weathers": [
-          "CLEAR"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/all_forests",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/mountainous",
-          "#pixelmon:spawning/plains",
-          "#pixelmon:spawning/flowery",
-          "#pixelmon:spawning/evil",
-          "#pixelmon:spawning/jungles"
-        ]
+          "minX": 2440, "maxX": 2759, "minZ": -2673, "maxZ": -2286, "minY": 130, "maxY": 150
       },
-      "groupSpawnSettings": [
-        {
-          "spec": "Zubat",
-          "amount": {
-            "min_value": 3,
-            "max_value": 5
-          },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 0.1
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 40.0
     },
     {
       "spec": "species:Zubat",
       "stringLocationTypes": [
-        "Underground"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 5,
-      "maxLevel": 22,
+      "minLevel": 10,
+      "maxLevel": 12,
       "typeID": "pokemon",
       "condition": {
-        "maxLightLevel": 0
+          "minX": 2440, "maxX": 2759, "minZ": -2673, "maxZ": -2286, "minY": 92, "maxY": 129
       },
-      "rarity": 0.0
+      "rarity": 30.0
     },
     {
-      "spec": "species:Zubat palette:strike",
+      "spec": "species:Zubat",
       "stringLocationTypes": [
-        "Air"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 5,
-      "maxLevel": 22,
+      "minLevel": 10,
+      "maxLevel": 12,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "pixelmon:ultra_plant"
-        ]
+          "minX": 2440, "maxX": 2759, "minZ": -2673, "maxZ": -2286, "minY": 64, "maxY": 91
       },
-      "rarity": 0.0
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 16,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2199, "maxX": 2402, "minZ": -2619, "maxZ": -2326, "minY": 0, "maxY": 130
+      },
+      "rarity": 75.0
+    },
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 16,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2199, "maxX": 2402, "minZ": -2619, "maxZ": -2326, "minY": 0, "maxY": 130
+      },
+      "rarity": 80.0
     }
   ]
 }

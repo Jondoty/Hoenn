@@ -4,75 +4,15 @@
     {
       "spec": "species:Duskull",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 25,
-      "maxLevel": 33,
+      "minLevel": 28,
+      "maxLevel": 31,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:spell_tag",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:wooded_badlands_plateau",
-          "minecraft:badlands_plateau",
-          "#pixelmon:spawning/evil",
-          "biomesoplenty:burnt_forest"
-        ]
+          "minX": 1561, "maxX": 1675, "minZ": 2544, "maxZ": 2663, "minY": 25, "maxY": 77
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Duskull",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 25,
-      "maxLevel": 33,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:spell_tag",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "#pixelmon:spawning/hellish"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Duskull",
-      "stringLocationTypes": [
-        "Indoors",
-        "Land"
-      ],
-      "minLevel": 25,
-      "maxLevel": 33,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:spell_tag",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "structures": [
-          "pixelmon:haunted_tower"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/roofed"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 35.0
     }
   ]
 }

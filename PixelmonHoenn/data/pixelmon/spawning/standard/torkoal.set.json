@@ -4,81 +4,15 @@
     {
       "spec": "species:Torkoal",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 35,
-      "maxLevel": 45,
+      "minLevel": 13,
+      "maxLevel": 16,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:charcoal",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "weathers": [
-          "CLEAR"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/arid",
-          "#pixelmon:spawning/mesas",
-          "#pixelmon:spawning/savannas",
-          "biomesoplenty:volcano",
-          "biomesoplenty:volcanic_plains"
-        ]
+          "minX": -1963, "maxX": -1739, "minZ": -1387, "maxZ": -1144, "minY": 0, "maxY": 60
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 2,
-          "condition": {
-            "neededNearbyBlocks": [
-              "minecraft:coal_ore"
-            ]
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Torkoal",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 35,
-      "maxLevel": 45,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:charcoal",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "minecraft:nether_wastes",
-          "minecraft:basalt_deltas"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Torkoal",
-      "stringLocationTypes": [
-        "Lava Floor"
-      ],
-      "minLevel": 35,
-      "maxLevel": 45,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:charcoal",
-          "percentChance": 5
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 10.0
     }
   ]
 }

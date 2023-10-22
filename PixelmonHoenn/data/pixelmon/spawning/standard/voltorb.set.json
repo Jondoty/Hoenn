@@ -4,71 +4,15 @@
     {
       "spec": "species:Voltorb",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 10,
-      "maxLevel": 30,
+      "minLevel": 9,
+      "maxLevel": 12,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/plains"
-        ]
+          "minX": -1399, "maxX": -1334, "minZ": -413, "maxZ": -321, "minY": 0, "maxY": 55
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Voltorb",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 10,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "condition": {
-        "biomes": [
-          "pixelmon:ultra_plant"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Voltorb form:hisuian",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 10,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/savannas"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Voltorb form:hisuian",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 10,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "pixelmon:ultra_forest"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 50.0
     }
   ]
 }

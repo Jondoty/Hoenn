@@ -4,26 +4,28 @@
     {
       "spec": "species:Lanturn",
       "stringLocationTypes": [
-        "Water"
+        "Underground Water"
       ],
-      "minLevel": 27,
-      "maxLevel": 50,
+      "minLevel": 20,
+      "maxLevel": 35,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:deep_sea_scale",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "biomes": [
-          "minecraft:deep_ocean",
-          "minecraft:deep_warm_ocean",
-          "minecraft:deep_lukewarm_ocean",
-          "minecraft:deep_cold_ocean"
-        ]
+          "minX": -2330, "maxX": -2060, "minZ": 782, "maxZ": 966, "minY": -30, "maxY": -20
       },
-      "rarity": 0.0
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Lanturn",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 20,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 833, "maxX": 1244, "minZ": -1170, "maxZ": -831, "minY": -32, "maxY": -20
+      },
+      "rarity": 15.0
     }
   ]
 }

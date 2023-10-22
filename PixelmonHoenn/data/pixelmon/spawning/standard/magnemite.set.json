@@ -4,63 +4,15 @@
     {
       "spec": "species:Magnemite",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 10,
-      "maxLevel": 30,
+      "minLevel": 22,
+      "maxLevel": 25,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:metal_coat",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "AFTERNOON",
-          "DUSK"
-        ],
-        "biomes": [
-          "minecraft:snowy_mountains",
-          "minecraft:gravelly_mountains"
-        ]
+          "minX": -1399, "maxX": -1334, "minZ": -413, "maxZ": -321, "minY": 0, "maxY": 55
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 2,
-          "condition": {
-            "weathers": [
-              "STORM"
-            ]
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Magnemite",
-      "stringLocationTypes": [
-        "Land",
-        "Manmade"
-      ],
-      "minLevel": 10,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:metal_coat",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "structures": [
-          "pixelmon:land_chalice"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/mountainous"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 50.0
     }
   ]
 }

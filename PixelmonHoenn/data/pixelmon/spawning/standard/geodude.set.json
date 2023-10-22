@@ -4,96 +4,15 @@
     {
       "spec": "species:Geodude",
       "stringLocationTypes": [
-        "Land",
-        "Rock Smash"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 10,
-      "maxLevel": 25,
+      "minLevel": 9,
+      "maxLevel": 12,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:ever_stone",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/arid",
-          "#pixelmon:spawning/mountainous",
-          "#pixelmon:spawning/mesas",
-          "biomesoplenty:volcano",
-          "biomesoplenty:volcanic_plains"
-        ],
-        "maxY": 80
+          "minX": 2440, "maxX": 2759, "minZ": -2673, "maxZ": -2286, "minY": 130, "maxY": 150
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Geodude form:alolan",
-      "stringLocationTypes": [
-        "Land",
-        "Rock Smash"
-      ],
-      "minLevel": 10,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:cell_battery",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "minecraft:gravelly_mountains",
-          "minecraft:shattered_savanna",
-          "minecraft:shattered_savanna_plateau"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Geodude",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 10,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:ever_stone",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "maxY": 70
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Geodude form:alolan",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 10,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:cell_battery",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "#pixelmon:spawning/mountainous",
-          "#pixelmon:spawning/savannas",
-          "#pixelmon:spawning/freezing_mountains"
-        ],
-        "maxY": 70
-      },
-      "rarity": 0.0
+      "rarity": 5.0
     }
   ]
 }

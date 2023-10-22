@@ -4,73 +4,31 @@
     {
       "spec": "species:Snorunt",
       "stringLocationTypes": [
-        "Land",
-        "Rock Smash"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 15,
-      "maxLevel": 30,
+      "minLevel": 31,
+      "maxLevel": 34,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:snowball",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/freezing"
-        ]
+          "minX": 2783, "maxX": 3012, "minZ": -2959, "maxZ": -2326, "minY": 63, "maxY": 125
       },
-      "rarity": 0.0
+      "anticondition": {
+          "minX": 2783, "maxX": 3012, "minZ": -2959, "maxZ": -2748, "minY": 63, "maxY": 84
+      },
+      "rarity": 5.0
     },
     {
       "spec": "species:Snorunt",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 15,
-      "maxLevel": 30,
+      "minLevel": 31,
+      "maxLevel": 34,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:snowball",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/mountainous"
-        ],
-        "minY": 150
+          "minX": 2783, "maxX": 3012, "minZ": -2959, "maxZ": -2748, "minY": 63, "maxY": 84
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Snorunt",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 15,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:snowball",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "pixelmon:mount_lanakila"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 40.0
     }
   ]
 }

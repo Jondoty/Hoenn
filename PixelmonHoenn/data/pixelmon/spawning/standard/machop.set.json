@@ -4,27 +4,15 @@
     {
       "spec": "species:Machop",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 5,
-      "maxLevel": 28,
+      "minLevel": 13,
+      "maxLevel": 16,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:focus_band",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/mountainous"
-        ],
-        "maxY": 80
+          "minX": -1963, "maxX": -1739, "minZ": -1387, "maxZ": -1144, "minY": 0, "maxY": 60
       },
-      "rarity": 0.0
+      "rarity": 5.0
     }
   ]
 }

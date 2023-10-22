@@ -4,79 +4,93 @@
     {
       "spec": "species:Solrock",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 16,
+      "maxLevel": 19,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:sun_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "times": [
-          "DAWN",
-          "DAY"
-        ],
-        "biomes": [
-          "minecraft:wooded_badlands_plateau"
-        ]
+          "minX": 2199, "maxX": 2402, "minZ": -2619, "maxZ": -2326, "minY": 0, "maxY": 130
       },
-      "rarity": 0.0
+      "rarity": 25.0
     },
     {
       "spec": "species:Solrock",
       "stringLocationTypes": [
-        "Land"
+        "Surface Water", "Underground Water"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 16,
+      "maxLevel": 19,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:sun_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/end"
-        ]
+          "minX": 2199, "maxX": 2402, "minZ": -2619, "maxZ": -2326, "minY": 0, "maxY": 130
       },
-      "rarity": 0.0
+      "rarity": 16.0
     },
     {
       "spec": "species:Solrock",
       "stringLocationTypes": [
-        "Underground"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 37,
+      "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:sun_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "maxY": 70
+          "minX": 2224, "maxX": 2402, "minZ": -2901, "maxZ": -2654, "minY": 0, "maxY": 123
       },
-      "rarity": 0.0
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Solrock",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2224, "maxX": 2402, "minZ": -2901, "maxZ": -2654, "minY": 0, "maxY": 123
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Solrock",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 37,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2264, "maxX": 2402, "minZ": -3154, "maxZ": -2932, "minY": 0, "maxY": 97
+      },
+      "rarity": 25.0
+    },
+    {
+      "spec": "species:Solrock",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2264, "maxX": 2402, "minZ": -3154, "maxZ": -2932, "minY": 0, "maxY": 97
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Solrock",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 37,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2298, "maxX": 2376, "minZ": -3146, "maxZ": -3023, "minY": 138, "maxY": 163
+      },
+      "rarity": 25.0
     }
   ]
 }

@@ -4,53 +4,15 @@
     {
       "spec": "species:Koffing",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 15,
-      "maxLevel": 35,
+      "minLevel": 13,
+      "maxLevel": 16,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:smoke_ball",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/evil",
-          "biomesoplenty:burnt_forest",
-          "biomesoplenty:volcano",
-          "biomesoplenty:volcanic_plains"
-        ]
+          "minX": -1963, "maxX": -1739, "minZ": -1387, "maxZ": -1144, "minY": 0, "maxY": 60
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Koffing",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 15,
-      "maxLevel": 35,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:smoke_ball",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "biomesoplenty:visceral_heap",
-          "byg:embur_bog"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 15.0
     }
   ]
 }

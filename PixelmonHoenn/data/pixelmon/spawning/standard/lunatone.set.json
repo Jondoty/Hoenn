@@ -2,563 +2,95 @@
   "id": "Lunatone",
   "spawnInfos": [
     {
-      "spec": "species:Lunatone form:gibbous",
+      "spec": "species:Lunatone",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 16,
+      "maxLevel": 19,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:wooded_badlands_plateau"
-        ]
+          "minX": 2199, "maxX": 2402, "minZ": -2619, "maxZ": -2326, "minY": 0, "maxY": 130
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 1
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 7
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 25.0
     },
     {
-      "spec": "species:Lunatone form:gibbous",
+      "spec": "species:Lunatone",
       "stringLocationTypes": [
-        "Land"
+        "Surface Water", "Underground Water"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 16,
+      "maxLevel": 19,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/end"
-        ]
+          "minX": 2199, "maxX": 2402, "minZ": -2619, "maxZ": -2326, "minY": 0, "maxY": 130
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 1
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 7
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 16.0
     },
     {
-      "spec": "species:Lunatone form:gibbous",
+      "spec": "species:Lunatone",
       "stringLocationTypes": [
-        "Underground"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 37,
+      "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "maxY": 70
+          "minX": 2224, "maxX": 2402, "minZ": -2901, "maxZ": -2654, "minY": 0, "maxY": 123
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 1
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 7
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 25.0
     },
     {
-      "spec": "species:Lunatone form:quarter",
+      "spec": "species:Lunatone",
       "stringLocationTypes": [
-        "Land"
+        "Surface Water", "Underground Water"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 30,
+      "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:wooded_badlands_plateau"
-        ]
+          "minX": 2224, "maxX": 2402, "minZ": -2901, "maxZ": -2654, "minY": 0, "maxY": 123
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 2
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 6
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 20.0
     },
     {
-      "spec": "species:Lunatone form:quarter",
+      "spec": "species:Lunatone",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 37,
+      "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/end"
-        ]
+          "minX": 2264, "maxX": 2402, "minZ": -3154, "maxZ": -2932, "minY": 0, "maxY": 97
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 2
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 6
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 25.0
     },
     {
-      "spec": "species:Lunatone form:quarter",
+      "spec": "species:Lunatone",
       "stringLocationTypes": [
-        "Underground"
+        "Surface Water", "Underground Water"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 30,
+      "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "maxY": 70
+          "minX": 2264, "maxX": 2402, "minZ": -3154, "maxZ": -2932, "minY": 0, "maxY": 97
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 2
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 6
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 20.0
     },
     {
-      "spec": "species:Lunatone form:full",
+      "spec": "species:Lunatone",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
-      "maxLevel": 50,
+      "minLevel": 37,
+      "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:wooded_badlands_plateau"
-        ]
+          "minX": 2298, "maxX": 2376, "minZ": -3146, "maxZ": -3023, "minY": 138, "maxY": 163
       },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 0
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:full",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "#pixelmon:spawning/end"
-        ]
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 0
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:full",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "maxY": 70
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 0
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:new_moon",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:wooded_badlands_plateau"
-        ]
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 4
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:new_moon",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "#pixelmon:spawning/end"
-        ]
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 4
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:new_moon",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "maxY": 70
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 4
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:crescent",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:wooded_badlands_plateau"
-        ]
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 3
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 5
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:crescent",
-      "stringLocationTypes": [
-        "Land"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "#pixelmon:spawning/end"
-        ]
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 3
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 5
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lunatone form:crescent",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 20,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:moon_stone",
-          "percentChance": 5
-        },
-        {
-          "itemID": "pixelmon:stardust",
-          "percentChance": 50
-        }
-      ],
-      "condition": {
-        "maxY": 70
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 3
-          }
-        },
-        {
-          "multiplier": 17,
-          "condition": {
-            "moonPhase": 5
-          }
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 25.0
     }
   ]
 }

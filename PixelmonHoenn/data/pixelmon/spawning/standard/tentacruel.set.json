@@ -6,47 +6,39 @@
       "stringLocationTypes": [
         "Water"
       ],
-      "minLevel": 30,
-      "maxLevel": 50,
+      "minLevel": 20,
+      "maxLevel": 30,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:poison_barb",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "terraforged:warm_beach"
-        ],
-        "minY": 50
+          "minX": 833, "maxX": 1244, "minZ": -1170, "maxZ": -831, "minY": 31, "maxY": 287
       },
-      "rarity": 0.0
+      "rarity": 15.0
     },
     {
-      "spec": "species:Tentacruel palette:drowned",
+      "spec": "species:Tentacruel",
       "stringLocationTypes": [
         "Water"
       ],
-      "minLevel": 30,
-      "maxLevel": 50,
+      "minLevel": 20,
+      "maxLevel": 30,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:poison_barb",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/drowned"
-        ]
+          "minX": 1391, "maxX": 1799, "minZ": -1373, "maxZ": -1164, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 15.0
+    },
+    {
+      "spec": "species:Tentacruel",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 20,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2812, "maxX": 3005, "minZ": -3281, "maxZ": -2970, "minY": 63, "maxY": 135
+      },
+      "rarity": 15.0
     }
   ]
 }
