@@ -4,49 +4,54 @@
     {
       "spec": "species:Wingull",
       "stringLocationTypes": [
-        "Air"
+        "Water"
       ],
-      "minLevel": 5,
-      "maxLevel": 24,
+      "minLevel": 2,
+      "maxLevel": 3,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:pretty_feather",
-          "percentChance": 50
-        }
-      ],
       "condition": {
-        "times": [
-          "DAWN",
-          "DAY",
-          "DUSK"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "#pixelmon:spawning/beaches"
-        ]
+          "minX": -2107, "maxX": -1655, "minZ": -138, "maxZ": -5, "minY": 0, "maxY": 256
       },
-      "groupSpawnSettings": [
-        {
-          "spec": "Wingull",
-          "amount": {
-            "min_value": 1,
-            "max_value": 4
-          },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 1.0
-        }
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Wingull",
+      "stringLocationTypes": [
+        "Water"
       ],
-      "rarity": 0.0
+      "minLevel": 2,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -2862, "maxX": -2609, "minZ": -512, "maxZ": -348, "minY": 0, "maxY": 256
+      },
+      "rarity": 95.0
+    },
+    {
+      "spec": "species:Wingull",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -2889, "maxX": -2637, "minZ": -114, "maxZ": 110, "minY": 0, "maxY": 256
+      },
+      "rarity": 95.0
+    },
+    {
+      "spec": "species:Wingull",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 20,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -2869, "maxX": -2637, "minZ": 111, "maxZ": 634, "minY": 36, "maxY": 292
+      },
+      "rarity": 30.0
     }
   ]
 }

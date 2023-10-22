@@ -6,26 +6,26 @@
       "stringLocationTypes": [
         "Water"
       ],
-      "minLevel": 8,
+      "minLevel": 2,
+      "maxLevel": 3,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": -2107, "maxX": -1655, "minZ": -138, "maxZ": -5, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Tentacool",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 20,
       "maxLevel": 30,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:poison_barb",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "terraforged:warm_beach"
-        ],
-        "minY": 50
+          "minX": -2869, "maxX": -2637, "minZ": 111, "maxZ": 634, "minY": 36, "maxY": 292
       },
-      "rarity": 0.0
+      "rarity": 65.0
     }
   ]
 }
