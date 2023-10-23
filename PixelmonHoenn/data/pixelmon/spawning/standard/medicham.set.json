@@ -4,20 +4,15 @@
     {
       "spec": "species:Medicham",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 38,
-      "maxLevel": 45,
+      "minLevel": 37,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/mountainous_forests"
-        ]
-      },
-      "rarity": 0.0
+          "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+        },
+      "rarity": 15.0
     }
   ]
 }

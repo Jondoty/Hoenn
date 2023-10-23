@@ -4,53 +4,15 @@
     {
       "spec": "species:Loudred",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
+      "minLevel": 37,
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/mountainous"
-        ]
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 2,
-          "condition": {
-            "neededNearbyBlocks": [
-              "minecraft:gravel"
-            ]
-          }
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Loudred",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 20,
-      "maxLevel": 40,
-      "typeID": "pokemon",
-      "condition": {
-        "maxY": 70
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 2,
-          "condition": {
-            "neededNearbyBlocks": [
-              "minecraft:gravel"
-            ]
-          }
-        }
-      ],
-      "rarity": 0.0
+          "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+        },
+      "rarity": 20.0
     }
   ]
 }

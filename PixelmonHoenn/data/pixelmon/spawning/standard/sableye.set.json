@@ -13,6 +13,35 @@
           "minX": 2440, "maxX": 2759, "minZ": -2673, "maxZ": -2286, "minY": 64, "maxY": 91
       },
       "rarity": 20.0
+    },
+    {
+      "spec": "species:Sableye",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 33,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1774, "maxX": 2142, "minZ": -2978, "maxZ": -2306, "minY": 0, "maxY": 256
+        },
+        "anticondition": {
+            "minX": 1785, "maxX": 2098, "minZ": -2499, "maxZ": -2326, "minY": 63, "maxY": 99
+        },
+      "rarity": 31.0
+    },
+    {
+      "spec": "species:Sableye",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 37,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+        },
+      "rarity": 10.0
     }
   ]
 }

@@ -4,53 +4,15 @@
     {
       "spec": "species:Lairon",
       "stringLocationTypes": [
-        "Land",
-        "Rock Smash"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 40,
-      "maxLevel": 60,
+      "minLevel": 37,
+      "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:hard_stone",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/mesas"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Lairon",
-      "stringLocationTypes": [
-        "Underground"
-      ],
-      "minLevel": 40,
-      "maxLevel": 60,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:hard_stone",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "maxY": 40
-      },
-      "rarityMultipliers": [
-        {
-          "multiplier": 2,
-          "condition": {
-            "neededNearbyBlocks": [
-              "minecraft:iron_ore"
-            ]
-          }
-        }
-      ],
-      "rarity": 0.0
+          "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+        },
+      "rarity": 20.0
     }
   ]
 }

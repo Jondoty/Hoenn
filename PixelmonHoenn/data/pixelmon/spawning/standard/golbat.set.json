@@ -133,6 +133,100 @@
           "minX": 2783, "maxX": 3012, "minZ": -2959, "maxZ": -2748, "minY": 63, "maxY": 84
       },
       "rarity": 20.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 33,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1774, "maxX": 2142, "minZ": -2978, "maxZ": -2306, "minY": 0, "maxY": 256
+        },
+        "anticondition": {
+            "minX": 1785, "maxX": 2098, "minZ": -2499, "maxZ": -2326, "minY": 63, "maxY": 99
+        },
+      "rarity": 69.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2440, "maxX": 2759, "minZ": -3361, "maxZ": -2675, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 37,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+        },
+      "rarity": 20.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1203, "maxX": 1472, "minZ": -3114, "maxZ": -2829, "minY": 0, "maxY": 256
+      },
+      "rarity": 1000000.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 26,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 26,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 50.0
     }
   ]
 }

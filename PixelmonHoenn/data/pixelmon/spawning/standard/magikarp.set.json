@@ -4,100 +4,15 @@
     {
       "spec": "species:Magikarp",
       "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 5,
-      "maxLevel": 20,
-      "typeID": "pokemon",
-      "condition": {
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "#pixelmon:spawning/beaches",
-          "#pixelmon:spawning/swamps",
-          "minecraft:river",
-          "#pixelmon:spawning/jungles",
-          "#pixelmon:spawning/all_forests",
-          "#pixelmon:spawning/mountainous",
-          "#pixelmon:spawning/freezing",
-          "#pixelmon:spawning/savannas",
-          "#pixelmon:spawning/plains",
-          "#pixelmon:spawning/magical",
-          "#pixelmon:spawning/lakes",
-          "byg:polluted_lake",
-          "byg:crag_gardens"
-        ]
-      },
-      "groupSpawnSettings": [
-        {
-          "spec": "Magikarp",
-          "amount": {
-            "min_value": 3,
-            "max_value": 5
-          },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 0.3
-        }
-      ],
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Magikarp",
-      "stringLocationTypes": [
         "Underground Water"
       ],
-      "minLevel": 5,
-      "maxLevel": 20,
-      "typeID": "pokemon",
-      "anticondition": {
-        "biomes": [
-          "pixelmon:infinite_ocean"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Magikarp palette:valencian",
-      "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 5,
-      "maxLevel": 20,
+      "minLevel": 25,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/jungles"
-        ]
+          "minX": 689, "maxX": 1271, "minZ": 1366, "maxZ": 1968, "minY": 0, "maxY": 256
       },
-      "groupSpawnSettings": [
-        {
-          "spec": "Magikarp",
-          "amount": {
-            "min_value": 3,
-            "max_value": 5
-          },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 1.0
-        }
-      ],
-      "rarity": 0.0
+      "rarity": 50.0
     }
   ]
 }

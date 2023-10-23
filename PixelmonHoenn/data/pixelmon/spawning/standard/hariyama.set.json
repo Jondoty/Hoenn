@@ -4,26 +4,15 @@
     {
       "spec": "species:Hariyama",
       "stringLocationTypes": [
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 20,
+      "minLevel": 37,
       "maxLevel": 40,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:kings_rock",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "times": [
-          "AFTERNOON"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/mountainous_forests"
-        ]
-      },
-      "rarity": 0.0
+          "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+        },
+      "rarity": 15.0
     }
   ]
 }

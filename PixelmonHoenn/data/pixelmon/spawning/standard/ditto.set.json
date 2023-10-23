@@ -2,32 +2,17 @@
   "id": "Ditto",
   "spawnInfos": [
     {
-      "spec": "species:Ditto palette:zombie",
+      "spec": "species:Ditto",
       "stringLocationTypes": [
-        "Indoors",
-        "Land"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 25,
-      "maxLevel": 36,
+      "minLevel": 36,
+      "maxLevel": 38,
       "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:hard_stone",
-          "percentChance": 5
-        }
-      ],
       "condition": {
-        "structures": [
-          "pixelmon:haunted_tower"
-        ],
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/roofed"
-        ]
+          "minX": -3303, "maxX": -3164, "minZ": -955, "maxZ": -816, "minY": 0, "maxY": 256,
       },
-      "rarity": 0.0
+      "rarity": 40.0
     }
   ]
 }

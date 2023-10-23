@@ -65,6 +65,32 @@
           "minX": 2199, "maxX": 2402, "minZ": -2619, "maxZ": -2326, "minY": 0, "maxY": 130
       },
       "rarity": 80.0
+    },
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 2440, "maxX": 2759, "minZ": -3361, "maxZ": -2675, "minY": 0, "maxY": 256
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": "species:Zubat",
+      "stringLocationTypes": [
+        "Surface Water", "Underground Water"
+      ],
+      "minLevel": 25,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 30.0
     }
   ]
 }
