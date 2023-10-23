@@ -20,6 +20,57 @@
               "buy": 700,
               "sell": 350
           },
+          {
+            "id": "Loneliness",
+            "name": "pixelmon:hard_stone",
+            "nbtData": "{display:{Name:'[{\"text\":\"Loneliness\"}]'}}",
+            "buy": 45000
+          },
+          {
+            "id": "Emotionless",
+            "name": "pixelmon:hard_stone",
+            "nbtData": "{display:{Name:'[{\"text\":\"Emotionless\"}]'}}",
+            "buy": 80000
+          },
+          {
+            "id": "Tears",
+            "name": "pixelmon:hard_stone",
+            "nbtData": "{display:{Name:'[{\"text\":\"Tears\"}]'}}",
+            "buy": 150000
+          },
+          {
+            "id": "Withered Tree",
+            "name": "pixelmon:sceptilite",
+            "nbtData": "{display:{Name:'[{\"text\":\"Withered Tree\"}]'}}",
+            "buy": 1500
+          },
+          {
+            "id": "Ebb Tide",
+            "name": "pixelmon:swampertite",
+            "nbtData": "{display:{Name:'[{\"text\":\"Ebb Tide\"}]'}}",
+            "buy": 1500
+          },
+          {
+            "id": "Ebb Tide",
+            "name": "pixelmon:blazikenite",
+            "nbtData": "{display:{Name:'[{\"text\":\"Fading Fire\"}]'}}",
+            "buy": 1500
+          },
+          {
+              "name": "pixelmon:fluffy_tail",
+              "buy": 1000,
+              "sell": 500
+          },
+          {
+              "name": "pixelmon:poke_doll",
+              "buy": 1000,
+              "sell": 500
+          },
+          {
+              "name": "pixelmon:poke_toy",
+              "buy": 1000,
+              "sell": 500
+          },
         {
             "id": "pixelmon:poke_ball",
             "name": "pixelmon:poke_ball",
@@ -750,7 +801,7 @@
         {
             "name": "pixelmon:energy_powder",
             "buy": 500,
-            "sell": 50
+            "sell": 250
         },
         {
             "name": "pixelmon:energy_root",
@@ -1578,7 +1629,7 @@
             "sell": 5000
         },
         {
-            "id": "Venoshock",
+            "id": "Kalos: Venoshock",
             "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:9s}",
             "buy": 10000,
@@ -1613,29 +1664,29 @@
             "sell": 7500
         },
         {
-            "id": "Alola: Blizzard",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Blizzard",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:14s}",
-            "buy": 12500,
-            "sell": 6250
+            "buy": 30000,
+            "sell": 15000
         },
         {
-            "id": "Alola: Hyper Beam",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Hyper Beam",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:15s}",
-            "buy": 10000,
-            "sell": 5000
+            "buy": 50000,
+            "sell": 25000
         },
         {
-            "id": "Alola: Light Screen",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Light Screen",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:16s}",
             "buy": 10000,
             "sell": 5000
         },
         {
-            "id": "Alola: Protect",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Protect",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:17s}",
             "buy": 10000,
             "sell": 5000
@@ -1655,11 +1706,11 @@
             "sell": 1250
         },
         {
-            "id": "Alola: Safeguard",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Safeguard",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:20s}",
-            "buy": 2500,
-            "sell": 1250
+            "buy": 10000,
+            "sell": 5000
         },
         {
             "id": "Alola: Frustration",
@@ -1690,11 +1741,11 @@
             "sell": 7500
         },
         {
-            "id": "Alola: Thunder",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Thunder",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:25s}",
-            "buy": 12500,
-            "sell": 6250
+            "buy": 30000,
+            "sell": 15000
         },
         {
             "id": "Alola: Earthquake",
@@ -1746,8 +1797,8 @@
             "sell": 3750
         },
         {
-            "id": "Alola: Reflect",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Reflect",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:33s}",
             "buy": 10000,
             "sell": 5000
@@ -1781,11 +1832,11 @@
             "sell": 2500
         },
         {
-            "id": "Alola: Fire Blast",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Fire Blast",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:38s}",
-            "buy": 15000,
-            "sell": 7500
+            "buy": 30000,
+            "sell": 15000
         },
         {
             "id": "Alola: Rock Tomb",
@@ -1795,7 +1846,7 @@
             "sell": 1250
         },
         {
-            "id": "Aerial Ace",
+            "id": "Kalos: Aerial Ace",
             "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:40s}",
             "buy": 10000,
@@ -1809,7 +1860,7 @@
             "sell": 2500
         },
         {
-            "id": "Facade",
+            "id": "Kalos: Facade",
             "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:42s}",
             "buy": 10000,
@@ -1844,7 +1895,7 @@
             "sell": 1250
         },
         {
-            "id": "Low Sweep",
+            "id": "Kalos: Low Sweep",
             "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:47s}",
             "buy": 10000,
@@ -1879,11 +1930,11 @@
             "sell": 1250
         },
         {
-            "id": "Alola: Focus Blast",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Focus Blast",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:52s}",
-            "buy": 15000,
-            "sell": 7500
+            "buy": 30000,
+            "sell": 15000
         },
         {
             "id": "Alola: Energy Ball",
@@ -1991,11 +2042,11 @@
             "sell": 1250
         },
         {
-            "id": "Alola: Giga Impact",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Giga Impact",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:68s}",
-            "buy": 10000,
-            "sell": 5000
+            "buy": 50000,
+            "sell": 25000
         },
         {
             "id": "Alola: Rock Polish",
@@ -2012,11 +2063,11 @@
             "sell": 1250
         },
         {
-            "id": "Alola: Stone Edge",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Stone Edge",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:71s}",
-            "buy": 15000,
-            "sell": 7500
+            "buy": 30000,
+            "sell": 15000
         },
         {
             "id": "Alola: Volt Switch",
@@ -2026,11 +2077,11 @@
             "sell": 6250
         },
         {
-            "id": "Alola: Thunder Wave",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Thunder Wave",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:73s}",
-            "buy": 12500,
-            "sell": 6250
+            "buy": 5000,
+            "sell": 2500
         },
         {
             "id": "Alola: Gyro Ball",
@@ -2089,7 +2140,7 @@
             "sell": 6250
         },
         {
-            "id": "Dragon Tail",
+            "id": "Kalos: Dragon Tail",
             "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:82s}",
             "buy": 10000,
@@ -2201,11 +2252,25 @@
             "sell": 1250
         },
         {
-            "id": "Power-Up Punch",
+            "id": "Kalos: Power-Up Punch",
             "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:98s}",
             "buy": 10000,
             "sell": 5000
+        },
+        {
+            "id": "Kalos: Hone Claws",
+            "name": "pixelmon:tm_gen6",
+            "nbtData": "{tm:1s}",
+            "buy": 5000,
+            "sell": 2500
+        },
+        {
+            "id": "Kalos: Struggle Bug",
+            "name": "pixelmon:tm_gen6",
+            "nbtData": "{tm:76s}",
+            "buy": 5000,
+            "sell": 2500
         },
         {
             "id": "Alola: Waterfall",
@@ -2222,51 +2287,11 @@
             "sell": 2500
         },
         {
-            "id": "Alola: Confide",
-            "name": "pixelmon:tm_gen7",
+            "id": "Kalos: Confide",
+            "name": "pixelmon:tm_gen6",
             "nbtData": "{tm:100s}",
-            "buy": 7500,
-            "sell": 3750
-        },
-        {
-            "name": "pixelmon:hm1",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm2",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm3",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm4",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm5",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm6",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm7",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm8",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm9",
-            "sell": 8000
-        },
-        {
-            "name": "pixelmon:hm10",
-            "sell": 8000
+            "buy": 5000,
+            "sell": 2500
         },
         {
             "name": "pixelmon:pokemail_air",

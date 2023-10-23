@@ -1,0 +1,27 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "swimmer_m2.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Seaside Shack"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Want to buy some Soda Pop? Pokémon love it! Only $300 a bottle! Try some, buy some!",
+      "goodbye": "Drink up!"
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:soda_pop",
+      "variation": false
+    }
+  ]
+}

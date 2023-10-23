@@ -1,0 +1,39 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shoplady3.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "TM Shop"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Welcome to the traveling TM shop!",
+      "goodbye": "Thank you for your patronage!"
+    }
+  ],
+  "items": [
+    {
+      "name": "Kalos: Hone Claws",
+      "variation": false
+    },
+    {
+      "name": "Kalos: Thunder Wave",
+      "variation": false
+    },
+    {
+      "name": "Kalos: Struggle Bug",
+      "variation": false
+    },
+    {
+      "name": "Kalos: Confide",
+      "variation": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "type": "PokemartMain"
+  },
+  "textures": [
+    {
+      "name": "shoplady4.png"
+    }
+  ],
+  "names": [
+    {
+      "name": "Herbal Shop"
+    }
+  ],
+  "chat": [
+    {
+      "hello": "Welcome! Cheap and effective herbs are my wares!",
+      "goodbye": "Come again!"
+    }
+  ],
+  "items": [
+    {
+      "name": "pixelmon:heal_powder",
+      "variation": false
+    },
+    {
+      "name": "pixelmon:energy_powder",
+      "variation": false
+    },
+    {
+      "name": "pixelmon:energy_root",
+      "variation": false
+    },
+    {
+      "name": "pixelmon:revival_herb",
+      "variation": false
+    }
+  ]
+}
