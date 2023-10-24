@@ -1,0 +1,27 @@
+{
+  "id": "Cobalion",
+  "spawnInfos": [
+    {
+      "spec": "species:Cobalion level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
+        ],
+        "minY": 85
+      },
+      "rarity": 0.0
+    }
+  ]
+}

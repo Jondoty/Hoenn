@@ -1,0 +1,26 @@
+{
+  "id": "Zarude",
+  "spawnInfos": [
+    {
+      "spec": "species:Zarude level:70",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ],
+        "minY": 90
+      },
+      "rarity": 0.0
+    }
+  ]
+}

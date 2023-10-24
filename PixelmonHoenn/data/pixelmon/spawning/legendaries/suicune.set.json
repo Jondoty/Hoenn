@@ -1,0 +1,46 @@
+{
+  "id": "Suicune",
+  "spawnInfos": [
+    {
+      "spec": "species:Suicune level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/beaches"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Suicune palette:spirit level:70",
+      "stringLocationTypes": [
+        "Land",
+        "Manmade"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDNIGHT"
+        ],
+        "structures": [
+          "pixelmon:graveyard"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

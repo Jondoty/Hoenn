@@ -1,0 +1,25 @@
+{
+  "id": "Zekrom",
+  "spawnInfos": [
+    {
+      "spec": "species:Zekrom level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

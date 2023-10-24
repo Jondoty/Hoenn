@@ -1,0 +1,42 @@
+{
+  "spec": "type1:FAIRY",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 90,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "1x Cake",
+      "items": [
+        {
+          "item": "minecraft:cake",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "3x Lily of the Valley",
+      "items": [
+        {
+          "item": "minecraft:lily_of_the_valley",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "3x Chorus Fruit",
+      "items": [
+        {
+          "item": "minecraft:chorus_fruit",
+          "amount": 3
+        }
+      ]
+    }
+  ]
+}

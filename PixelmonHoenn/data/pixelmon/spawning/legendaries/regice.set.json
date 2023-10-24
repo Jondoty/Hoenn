@@ -1,0 +1,26 @@
+{
+  "id": "Regice",
+  "spawnInfos": [
+    {
+      "spec": "species:Regice level:40",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ],
+        "maxY": 30
+      },
+      "rarity": 0.0
+    }
+  ]
+}

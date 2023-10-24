@@ -1,0 +1,34 @@
+{
+  "id": "Deoxys",
+  "spawnInfos": [
+    {
+      "spec": "species:Deoxys level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:meteorite",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "minecraft:end_highlands",
+          "#pixelmon:spawning/freezing_forests"
+        ],
+        "minY": 100
+      },
+      "rarity": 0.0
+    }
+  ]
+}

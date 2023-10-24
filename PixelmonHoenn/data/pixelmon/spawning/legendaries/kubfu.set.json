@@ -1,0 +1,26 @@
+{
+  "id": "Kubfu",
+  "spawnInfos": [
+    {
+      "spec": "species:Kubfu level:15",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "minecraft:bamboo_jungle",
+          "byg:bamboo_forest"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

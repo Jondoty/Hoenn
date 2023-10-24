@@ -1,0 +1,50 @@
+{
+  "id": "Rayquaza",
+  "spawnInfos": [
+    {
+      "spec": "species:Rayquaza level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Rayquaza palette:alter level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ],
+        "partyHeadSpecies": [
+          "Mismagius"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

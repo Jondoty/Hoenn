@@ -1,0 +1,25 @@
+{
+  "id": "Regidrago",
+  "spawnInfos": [
+    {
+      "spec": "species:Regidrago level:40",
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/hellish"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

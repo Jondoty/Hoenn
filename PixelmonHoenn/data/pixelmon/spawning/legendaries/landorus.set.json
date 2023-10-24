@@ -1,0 +1,26 @@
+{
+  "id": "Landorus",
+  "spawnInfos": [
+    {
+      "spec": "species:Landorus level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

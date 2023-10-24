@@ -1,0 +1,34 @@
+{
+  "id": "Jirachi",
+  "spawnInfos": [
+    {
+      "spec": "species:Jirachi level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:star_piece",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ],
+        "minY": 100
+      },
+      "rarity": 0.0
+    }
+  ]
+}

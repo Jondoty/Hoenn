@@ -1,0 +1,26 @@
+{
+  "id": "Regigigas",
+  "spawnInfos": [
+    {
+      "spec": "species:Regigigas level:70",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "structures": [
+          "minecraft:ancient_city"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

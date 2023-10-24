@@ -1,0 +1,26 @@
+{
+  "id": "TapuBulu",
+  "spawnInfos": [
+    {
+      "spec": "species:TapuBulu level:60",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ],
+        "maxY": 90
+      },
+      "rarity": 0.0
+    }
+  ]
+}

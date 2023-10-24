@@ -1,0 +1,32 @@
+{
+  "id": "Kyurem",
+  "spawnInfos": [
+    {
+      "spec": "species:Kyurem level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:dna_splicers",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "biomes": [
+          "minecraft:ice_spikes"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

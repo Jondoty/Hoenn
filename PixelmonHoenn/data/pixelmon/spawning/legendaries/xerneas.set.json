@@ -1,0 +1,57 @@
+{
+  "id": "Xerneas",
+  "spawnInfos": [
+    {
+      "spec": "species:Xerneas level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Xerneas palette:creator level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MIDDAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed",
+          "#pixelmon:spawning/magical"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

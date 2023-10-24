@@ -1,0 +1,25 @@
+{
+  "id": "Reshiram",
+  "spawnInfos": [
+    {
+      "spec": "species:Reshiram level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

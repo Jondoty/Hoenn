@@ -1,0 +1,26 @@
+{
+  "id": "TapuLele",
+  "spawnInfos": [
+    {
+      "spec": "species:TapuLele level:60",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ],
+        "maxY": 90
+      },
+      "rarity": 0.0
+    }
+  ]
+}

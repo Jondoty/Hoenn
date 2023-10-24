@@ -1,0 +1,26 @@
+{
+  "id": "TapuFini",
+  "spawnInfos": [
+    {
+      "spec": "species:TapuFini level:60",
+      "stringLocationTypes": [
+        "Surface Water"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ],
+        "maxY": 90
+      },
+      "rarity": 0.0
+    }
+  ]
+}

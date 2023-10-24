@@ -1,0 +1,25 @@
+{
+  "id": "Spectrier",
+  "spawnInfos": [
+    {
+      "spec": "species:Spectrier level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

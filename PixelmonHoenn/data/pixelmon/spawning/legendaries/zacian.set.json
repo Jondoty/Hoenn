@@ -1,0 +1,33 @@
+{
+  "id": "Zacian",
+  "spawnInfos": [
+    {
+      "spec": "species:Zacian level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:rusted_sword",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/birches"
+        ],
+        "maxY": 85
+      },
+      "rarity": 0.0
+    }
+  ]
+}

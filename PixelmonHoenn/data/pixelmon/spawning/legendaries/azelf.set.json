@@ -1,0 +1,32 @@
+{
+  "id": "Azelf",
+  "spawnInfos": [
+    {
+      "spec": "species:Azelf level:50",
+      "stringLocationTypes": [
+        "Surface Water"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/forests",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "terralith:desert_oasis",
+          "terralith:red_oasis"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

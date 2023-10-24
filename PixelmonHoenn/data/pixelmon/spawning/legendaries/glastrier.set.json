@@ -1,0 +1,30 @@
+{
+  "id": "Glastrier",
+  "spawnInfos": [
+    {
+      "spec": "species:Glastrier level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/freezing"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

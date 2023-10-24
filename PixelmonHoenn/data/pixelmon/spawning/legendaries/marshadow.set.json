@@ -1,0 +1,27 @@
+{
+  "id": "Marshadow",
+  "spawnInfos": [
+    {
+      "spec": "species:Marshadow level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "#pixelmon:spawning/hellish"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

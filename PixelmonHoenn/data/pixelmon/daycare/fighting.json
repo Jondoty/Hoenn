@@ -1,0 +1,42 @@
+{
+  "spec": "type1:FIGHTING",
+  "durations": [
+    {
+      "type": "add",
+      "amount": 90,
+      "unit": "MINUTES"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "itemstack",
+      "error_message": "2x Oak Planks",
+      "items": [
+        {
+          "item": "minecraft:oak_planks",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x Bricks",
+      "items": [
+        {
+          "item": "minecraft:bricks",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "type": "itemstack",
+      "error_message": "2x Temple Brick",
+      "items": [
+        {
+          "item": "pixelmon:temple_brick",
+          "amount": 2
+        }
+      ]
+    }
+  ]
+}

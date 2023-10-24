@@ -1,0 +1,27 @@
+{
+  "id": "Eternatus",
+  "spawnInfos": [
+    {
+      "spec": "species:Eternatus level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:end_barrens",
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

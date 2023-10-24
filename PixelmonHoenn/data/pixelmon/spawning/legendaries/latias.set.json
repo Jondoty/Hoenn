@@ -1,0 +1,26 @@
+{
+  "id": "Latias",
+  "spawnInfos": [
+    {
+      "spec": "species:Latias level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:warm_ocean"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

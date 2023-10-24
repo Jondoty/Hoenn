@@ -1,0 +1,32 @@
+{
+  "id": "Hoopa",
+  "spawnInfos": [
+    {
+      "spec": "species:Hoopa level:50",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prison_bottle",
+          "percentChance": 100
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "structures": [
+          "minecraft:desert_pyramid"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

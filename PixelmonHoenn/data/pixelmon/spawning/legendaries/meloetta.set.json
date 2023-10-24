@@ -1,0 +1,26 @@
+{
+  "id": "Meloetta",
+  "spawnInfos": [
+    {
+      "spec": "species:Meloetta level:50",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

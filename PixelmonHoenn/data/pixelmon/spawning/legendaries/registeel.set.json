@@ -1,0 +1,27 @@
+{
+  "id": "Registeel",
+  "spawnInfos": [
+    {
+      "spec": "species:Registeel level:40",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid"
+        ],
+        "maxY": 30
+      },
+      "rarity": 0.0
+    }
+  ]
+}

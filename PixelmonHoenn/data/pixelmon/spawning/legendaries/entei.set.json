@@ -1,0 +1,32 @@
+{
+  "id": "Entei",
+  "spawnInfos": [
+    {
+      "spec": "species:Entei level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "#pixelmon:spawning/volcanic"
+        ],
+        "maxY": 100
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "Tornadus",
+  "spawnInfos": [
+    {
+      "spec": "species:Tornadus level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "weathers": [
+          "RAIN",
+          "STORM"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.0
+    }
+  ]
+}

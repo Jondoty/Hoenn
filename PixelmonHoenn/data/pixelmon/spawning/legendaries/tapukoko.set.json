@@ -1,0 +1,26 @@
+{
+  "id": "TapuKoko",
+  "spawnInfos": [
+    {
+      "spec": "species:TapuKoko level:60",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ],
+        "maxY": 90
+      },
+      "rarity": 0.0
+    }
+  ]
+}

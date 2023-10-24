@@ -1,0 +1,31 @@
+{
+  "id": "Yveltal",
+  "spawnInfos": [
+    {
+      "spec": "species:Yveltal level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/taigas",
+          "#pixelmon:spawning/evil"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#pixelmon:spawning/redwoods"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

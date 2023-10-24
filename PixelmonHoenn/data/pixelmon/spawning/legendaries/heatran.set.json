@@ -1,0 +1,42 @@
+{
+  "id": "Heatran",
+  "spawnInfos": [
+    {
+      "spec": "species:Heatran level:70",
+      "stringLocationTypes": [
+        "Underground Lava"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ],
+        "maxY": 50
+      },
+      "rarity": 2.0
+    },
+    {
+      "spec": "species:Heatran level:70",
+      "stringLocationTypes": [
+        "Surface Lava"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "minecraft:basalt_deltas",
+          "biomesoplenty:erupting_inferno",
+          "byg:magma_wastes"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

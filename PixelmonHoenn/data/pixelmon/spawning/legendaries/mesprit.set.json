@@ -1,0 +1,33 @@
+{
+  "id": "Mesprit",
+  "spawnInfos": [
+    {
+      "spec": "species:Mesprit level:50",
+      "stringLocationTypes": [
+        "Surface Water"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "terralith:desert_oasis",
+          "terralith:red_oasis"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

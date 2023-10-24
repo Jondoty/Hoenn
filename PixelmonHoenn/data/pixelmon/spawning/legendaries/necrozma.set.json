@@ -1,0 +1,36 @@
+{
+  "id": "Necrozma",
+  "spawnInfos": [
+    {
+      "spec": "species:Necrozma level:65",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:n_solarizer",
+          "percentChance": 50
+        },
+        {
+          "itemID": "pixelmon:n_lunarizer",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ],
+        "maxY": 85
+      },
+      "rarity": 0.0
+    }
+  ]
+}

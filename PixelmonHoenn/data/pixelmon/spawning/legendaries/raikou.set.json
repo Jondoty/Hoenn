@@ -1,0 +1,27 @@
+{
+  "id": "Raikou",
+  "spawnInfos": [
+    {
+      "spec": "species:Raikou level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas"
+        ],
+        "maxY": 85
+      },
+      "rarity": 0.0
+    }
+  ]
+}

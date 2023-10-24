@@ -1,0 +1,27 @@
+{
+    "id": "ChiYu",
+    "spawnInfos": [
+      {
+        "spec": "species:ChiYu level:60",
+        "stringLocationTypes": [
+          "Lava Floor"
+        ],
+        "tags": [
+          "legendary"
+        ],
+        "interval": "legendary",
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "stringBiomes": [
+            "#pixelmon:spawning/mesas",
+            "#pixelmon:spawning/volcanic"
+          ],
+          "minY": 100
+        },
+        "rarity": 0.0
+      }
+    ]
+  }

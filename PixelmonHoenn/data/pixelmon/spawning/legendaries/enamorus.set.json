@@ -1,0 +1,26 @@
+{
+  "id": "Enamorus",
+  "spawnInfos": [
+    {
+      "spec": "species:Enamorus level:70",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/flowery"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

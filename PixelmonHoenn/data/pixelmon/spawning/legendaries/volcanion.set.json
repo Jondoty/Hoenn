@@ -1,0 +1,31 @@
+{
+  "id": "Volcanion",
+  "spawnInfos": [
+    {
+      "spec": "species:Volcanion level:70",
+      "stringLocationTypes": [
+        "Liquid Floor"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/volcanic",
+          "byg:oasis",
+          "terralith:desert_oasis",
+          "terralith:red_oasis"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

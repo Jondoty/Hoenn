@@ -1,0 +1,26 @@
+{
+  "id": "Regirock",
+  "spawnInfos": [
+    {
+      "spec": "species:Regirock level:40",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ],
+        "maxY": 30
+      },
+      "rarity": 0.0
+    }
+  ]
+}

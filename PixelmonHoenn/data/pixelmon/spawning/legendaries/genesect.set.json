@@ -1,0 +1,44 @@
+{
+  "id": "Genesect",
+  "spawnInfos": [
+    {
+      "spec": "species:Genesect level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:burn_drive",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:chill_drive",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:douse_drive",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:shock_drive",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

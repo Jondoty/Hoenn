@@ -1,0 +1,28 @@
+{
+  "id": "Darkrai",
+  "spawnInfos": [
+    {
+      "spec": "species:Darkrai level:70",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary",
+        "mythical"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/roofed"
+        ],
+        "minY": 85,
+        "moonPhase": 4
+      },
+      "rarity": 0.0
+    }
+  ]
+}

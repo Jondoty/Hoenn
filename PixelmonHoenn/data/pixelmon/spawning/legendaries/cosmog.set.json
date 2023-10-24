@@ -1,0 +1,27 @@
+{
+  "id": "Cosmog",
+  "spawnInfos": [
+    {
+      "spec": "species:Cosmog level:15",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "tags": [
+        "legendary"
+      ],
+      "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "biomes": [
+          "minecraft:sunflower_plains",
+          "#pixelmon:spawning/ultra_space"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
