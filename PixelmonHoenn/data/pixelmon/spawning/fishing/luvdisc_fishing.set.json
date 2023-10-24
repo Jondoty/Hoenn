@@ -6,8 +6,8 @@
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 11,
-      "maxLevel": 27,
+      "minLevel": 25,
+      "maxLevel": 25,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -16,20 +16,17 @@
         }
       ],
       "condition": {
-        "biomes": [
-          "minecraft:warm_ocean",
-          "minecraft:lukewarm_ocean"
-        ]
+        "minX": 1186, "maxX": 2024, "minZ": -235, "maxZ": 77, "minY": 31, "maxY": 287
       },
-      "rarity": 0.0
+      "rarity": 35.0
     },
     {
       "spec": "species:Luvdisc",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 25,
-      "maxLevel": 38,
+      "minLevel": 35,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -38,18 +35,49 @@
         }
       ],
       "condition": {
-        "biomes": [
-          "minecraft:warm_ocean",
-          "minecraft:lukewarm_ocean",
-          "#pixelmon:spawning/beaches"
-        ]
+        "minX": 1186, "maxX": 2024, "minZ": -235, "maxZ": 77, "minY": 31, "maxY": 287
       },
-      "anticondition": {
-        "biomes": [
-          "#pixelmon:spawning/freezing"
-        ]
+      "rarity": 60.0
+    },
+
+
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "minX": 2025, "maxX": 2363, "minZ": -884, "maxZ": 77, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Luvdisc",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 35,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:heart_scale",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "minX": 2025, "maxX": 2363, "minZ": -884, "maxZ": 77, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
     }
   ]
 }

@@ -6,7 +6,26 @@
       "stringLocationTypes": [
         "Old Rod"
       ],
-      "minLevel": 10,
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2436, "maxX": -2107, "minZ": -27, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
       "maxLevel": 25,
       "typeID": "pokemon",
       "heldItems": [
@@ -16,23 +35,37 @@
         }
       ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/swamps",
-          "minecraft:river",
-          "#pixelmon:spawning/all_forests",
-          "#pixelmon:spawning/lakes",
-          "byg:crag_gardens"
-        ]
+        "minX": -2436, "maxX": -2107, "minZ": -27, "maxZ": 118, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2636, "maxX": -2437, "minZ": -81, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
     },
     {
       "spec": "species:Goldeen",
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 20,
-      "maxLevel": 30,
+      "minLevel": 25,
+      "maxLevel": 25,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -41,23 +74,37 @@
         }
       ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/swamps",
-          "minecraft:river",
-          "#pixelmon:spawning/all_forests",
-          "#pixelmon:spawning/lakes",
-          "byg:crag_gardens"
-        ]
+        "minX": -2636, "maxX": -2437, "minZ": -81, "maxZ": 118, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1601, "maxX": -1313, "minZ": -1507, "maxZ": -719, "minY": 60, "maxY": 316
+      },
+      "rarity": 35.0
     },
     {
-      "spec": "species:Seaking",
+      "spec": "species:Goldeen",
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 35,
-      "maxLevel": 45,
+      "minLevel": 25,
+      "maxLevel": 25,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -66,23 +113,304 @@
         }
       ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/swamps",
-          "minecraft:river",
-          "#pixelmon:spawning/all_forests",
-          "#pixelmon:spawning/lakes",
-          "byg:crag_gardens"
-        ]
+        "minX": -1601, "maxX": -1313, "minZ": -1507, "maxZ": -719, "minY": 60, "maxY": 316
       },
-      "rarity": 0.0
+      "rarity": 35.0
     },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2620, "maxX": -2345, "minZ": -1507, "maxZ": -1080, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -2620, "maxX": -2345, "minZ": -1507, "maxZ": -1080, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 2168, "maxX": 2438, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 2168, "maxX": 2438, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1998, "maxX": -1669, "minZ": -718, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1998, "maxX": -1669, "minZ": -718, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -177, "maxX": 126, "minZ": -1340, "maxZ": -1091, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -177, "maxX": 126, "minZ": -1340, "maxZ": -1091, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -725, "maxX": 247, "minZ": -680, "maxZ": -491, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -725, "maxX": 247, "minZ": -680, "maxZ": -491, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Goldeen",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "spec": "species:Seaking",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 40,
-      "maxLevel": 50,
+      "minLevel": 25,
+      "maxLevel": 25,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -91,15 +419,10 @@
         }
       ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/swamps",
-          "minecraft:river",
-          "#pixelmon:spawning/all_forests",
-          "#pixelmon:spawning/lakes",
-          "byg:crag_gardens"
-        ]
+        "minX": -177, "maxX": 126, "minZ": -1340, "maxZ": -1091, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 100.0
     }
+
   ]
 }

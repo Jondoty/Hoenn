@@ -4,45 +4,152 @@
     {
       "spec": "species:Magikarp",
       "stringLocationTypes": [
-        "Oas Rod"
-      ],
-      "minLevel": 2,
-      "maxLevel": 15,
-      "typeID": "pokemon",
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Magikarp",
-      "stringLocationTypes": [
         "Old Rod"
       ],
-      "minLevel": 2,
+      "minLevel": 10,
       "maxLevel": 15,
       "typeID": "pokemon",
-      "rarity": 0.0
+      "condition": {
+        "minX": -2436, "maxX": -2107, "minZ": -27, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
     },
     {
       "spec": "species:Magikarp",
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 15,
+      "minLevel": 25,
       "maxLevel": 25,
       "typeID": "pokemon",
-      "rarity": 0.0
+      "condition": {
+        "minX": -2436, "maxX": -2107, "minZ": -27, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2107, "maxX": -1655, "minZ": -138, "maxZ": -5, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2107, "maxX": -1655, "minZ": -138, "maxZ": -5, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2636, "maxX": -2437, "minZ": -81, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2636, "maxX": -2437, "minZ": -81, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2862, "maxX": -2609, "minZ": -512, "maxZ": -348, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2862, "maxX": -2609, "minZ": -512, "maxZ": -348, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
     },
     {
       "spec": "species:Magikarp",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 15,
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2862, "maxX": -2609, "minZ": -512, "maxZ": -348, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2889, "maxX": -2637, "minZ": -114, "maxZ": 110, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
       "maxLevel": 25,
       "typeID": "pokemon",
-      "rarity": 0.0
+      "condition": {
+        "minX": -2889, "maxX": -2637, "minZ": -114, "maxZ": 110, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
     },
     {
-      "spec": "species:Gyarados",
+      "spec": "species:Magikarp",
       "stringLocationTypes": [
         "Super Rod"
       ],
@@ -50,26 +157,724 @@
       "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/oceanic"
-        ]
+        "minX": -2889, "maxX": -2637, "minZ": -114, "maxZ": 110, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2869, "maxX": -2637, "minZ": 111, "maxZ": 634, "minY": 36, "maxY": 292
+      },
+      "rarity": 65.0
     },
     {
-      "spec": "species:Gyarados",
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2869, "maxX": -2637, "minZ": 111, "maxZ": 634, "minY": 36, "maxY": 292
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2869, "maxX": -2331, "minZ": 635, "maxZ": 789, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2869, "maxX": -2331, "minZ": 635, "maxZ": 789, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2574, "maxX": -2331, "minZ": 790, "maxZ": 966, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2574, "maxX": -2331, "minZ": 790, "maxZ": 966, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2330, "maxX": -2060, "minZ": 782, "maxZ": 966, "minY": 40, "maxY": 296
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2330, "maxX": -2060, "minZ": 782, "maxZ": 966, "minY": 40, "maxY": 296
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2059, "maxX": -1688, "minZ": 802, "maxZ": 966, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2059, "maxX": -1688, "minZ": 802, "maxZ": 966, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2059, "maxX": -1688, "minZ": 537, "maxZ": 801, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2059, "maxX": -1688, "minZ": 537, "maxZ": 801, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1687, "maxX": -1270, "minZ": 449, "maxZ": 966, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1687, "maxX": -1270, "minZ": 449, "maxZ": 966, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1654, "maxX": -1288, "minZ": 136, "maxZ": 448, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1654, "maxX": -1288, "minZ": 136, "maxZ": 448, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1654, "maxX": -1321, "minZ": -491, "maxZ": 135, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1654, "maxX": -1321, "minZ": -491, "maxZ": 135, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1601, "maxX": -1313, "minZ": -1507, "maxZ": -719, "minY": 60, "maxY": 316
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1601, "maxX": -1313, "minZ": -1507, "maxZ": -719, "minY": 60, "maxY": 316
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2620, "maxX": -2345, "minZ": -1507, "maxZ": -1080, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2620, "maxX": -2345, "minZ": -1507, "maxZ": -1080, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2168, "maxX": 2438, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2168, "maxX": 2438, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2929, "maxX": -2609, "minZ": -1363, "maxZ": -749, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2929, "maxX": -2609, "minZ": -1363, "maxZ": -749, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1998, "maxX": -1669, "minZ": -718, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1998, "maxX": -1669, "minZ": -718, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1399, "maxX": -725, "minZ": -662, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1399, "maxX": -725, "minZ": -662, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1070, "maxX": -728, "minZ": -1509, "maxZ": -663, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1070, "maxX": -728, "minZ": -1509, "maxZ": -663, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -435, "maxX": -178, "minZ": -1509, "maxZ": -993, "minY": 60, "maxY": 316
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -435, "maxX": -178, "minZ": -1509, "maxZ": -993, "minY": 60, "maxY": 316
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -177, "maxX": 126, "minZ": -1340, "maxZ": -1091, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -177, "maxX": 126, "minZ": -1340, "maxZ": -1091, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -725, "maxX": 247, "minZ": -680, "maxZ": -491, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -725, "maxX": 247, "minZ": -680, "maxZ": -491, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 318, "maxX": 832, "minZ": -1170, "maxZ": -845, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 318, "maxX": 832, "minZ": -1170, "maxZ": -845, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 833, "maxX": 1244, "minZ": -1170, "maxZ": -831, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 833, "maxX": 1244, "minZ": -1170, "maxZ": -831, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1391, "maxX": 1799, "minZ": -1373, "maxZ": -1164, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1391, "maxX": 1799, "minZ": -1373, "maxZ": -1164, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2761, "maxX": 3055, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2761, "maxX": 3055, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1245, "maxX": 1799, "minZ": -1163, "maxZ": -812, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1245, "maxX": 1799, "minZ": -1163, "maxZ": -812, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 676, "maxX": 1185, "minZ": -830, "maxZ": -270, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 676, "maxX": 1185, "minZ": -830, "maxZ": -270, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 676, "maxX": 1185, "minZ": -830, "maxZ": -270, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 676, "maxX": 1185, "minZ": -830, "maxZ": -270, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
       "stringLocationTypes": [
         "Super Rod"
       ],
       "minLevel": 30,
-      "maxLevel": 40,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/lakes"
-        ]
+        "minX": 676, "maxX": 1185, "minZ": -830, "maxZ": -270, "minY": 31, "maxY": 287
       },
-      "rarity": 0.0
+      "rarity": 65.0
     },
     {
       "spec": "species:Gyarados",
@@ -77,49 +882,417 @@
         "Super Rod"
       ],
       "minLevel": 40,
-      "maxLevel": 50,
-      "spawnSpecificShinyRate": 100,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "#pixelmon:spawning/lakes"
-        ],
-        "weathers": [
-          "STORM"
-        ]
+        "minX": 676, "maxX": 1185, "minZ": -830, "maxZ": -270, "minY": 31, "maxY": 287
       },
-      "rarity": 0.0
+      "rarity": 5.0
     },
+
     {
-      "spec": "species:Magikarp palette:roasted",
+      "spec": "species:Magikarp",
       "stringLocationTypes": [
-        "Old Rod Lava"
+        "Old Rod"
       ],
-      "minLevel": 2,
+      "minLevel": 10,
       "maxLevel": 15,
       "typeID": "pokemon",
-      "rarity": 0.0
+      "condition": {
+        "minX": 1186, "maxX": 1762, "minZ": -811, "maxZ": -236, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
     },
     {
-      "spec": "species:Magikarp palette:roasted",
+      "spec": "species:Magikarp",
       "stringLocationTypes": [
-        "Good Rod Lava"
+        "Good Rod"
       ],
-      "minLevel": 2,
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1186, "maxX": 1762, "minZ": -811, "maxZ": -236, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
       "maxLevel": 15,
       "typeID": "pokemon",
-      "rarity": 0.0
+      "condition": {
+        "minX": 1186, "maxX": 2024, "minZ": -235, "maxZ": 77, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
     },
     {
-      "spec": "species:Magikarp palette:roasted",
+      "spec": "species:Magikarp",
       "stringLocationTypes": [
-        "Super Rod Lava"
+        "Good Rod"
       ],
-      "minLevel": 2,
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1186, "maxX": 2024, "minZ": -235, "maxZ": 77, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
       "maxLevel": 15,
       "typeID": "pokemon",
-      "rarity": 0.0
+      "condition": {
+        "minX": 945, "maxX": 1802, "minZ": 78, "maxZ": 429, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 945, "maxX": 1802, "minZ": 78, "maxZ": 429, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 507, "maxX": 944, "minZ": 78, "maxZ": 429, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 507, "maxX": 944, "minZ": 78, "maxZ": 429, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 45, "maxX": 506, "minZ": -8, "maxZ": 396, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 45, "maxX": 506, "minZ": -8, "maxZ": 396, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -180, "maxX": 44, "minZ": 97, "maxZ": 396, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -180, "maxX": 44, "minZ": 97, "maxZ": 396, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -545, "maxX": -181, "minZ": 135, "maxZ": 447, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -545, "maxX": -181, "minZ": 135, "maxZ": 447, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2440, "maxX": 2759, "minZ": -3361, "maxZ": -2675, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2440, "maxX": 2759, "minZ": -3361, "maxZ": -2675, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -924, "maxX": -546, "minZ": 136, "maxZ": 448, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -924, "maxX": -546, "minZ": 136, "maxZ": 448, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1287, "maxX": -925, "minZ": 136, "maxZ": 448, "minY": 31, "maxY": 287
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1287, "maxX": -925, "minZ": 136, "maxZ": 448, "minY": 31, "maxY": 287
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2025, "maxX": 2363, "minZ": -884, "maxZ": 77, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2025, "maxX": 2363, "minZ": -884, "maxZ": 77, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1176, "maxX": 1488, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1176, "maxX": 1488, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 783, "maxX": 1174, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 783, "maxX": 1174, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
+    },
+
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 65.0
+    },
+    {
+      "spec": "species:Magikarp",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 60.0
     }
+
   ]
 }

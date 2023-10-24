@@ -4,9 +4,9 @@
     {
       "spec": "species:Carvanha",
       "stringLocationTypes": [
-        "Old Rod"
+        "Good Rod"
       ],
-      "minLevel": 3,
+      "minLevel": 25,
       "maxLevel": 25,
       "typeID": "pokemon",
       "heldItems": [
@@ -16,43 +16,17 @@
         }
       ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/jungles",
-          "minecraft:river"
-        ]
+        "minX": -1399, "maxX": -725, "minZ": -662, "maxZ": -492, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 5.0
     },
     {
       "spec": "species:Carvanha",
       "stringLocationTypes": [
-        "Good Rod"
-      ],
-      "minLevel": 10,
-      "maxLevel": 25,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:deep_sea_tooth",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "biomes": [
-          "#pixelmon:spawning/lakes",
-          "#pixelmon:spawning/jungles",
-          "minecraft:river"
-        ]
-      },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Sharpedo",
-      "stringLocationTypes": [
-        "Good Rod"
+        "Super Rod"
       ],
       "minLevel": 30,
-      "maxLevel": 43,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -61,28 +35,17 @@
         }
       ],
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic"
-        ]
+        "minX": -1399, "maxX": -725, "minZ": -662, "maxZ": -492, "minY": 0, "maxY": 256
       },
-      "anticondition": {
-        "biomes": [
-          "#pixelmon:spawning/freezing"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 95.0
     },
     {
       "spec": "species:Sharpedo",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 35,
-      "maxLevel": 47,
+      "minLevel": 40,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -91,20 +54,12 @@
         }
       ],
       "condition": {
-        "times": [
-          "DUSK",
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic"
-        ]
+        "minX": -1399, "maxX": -725, "minZ": -662, "maxZ": -492, "minY": 0, "maxY": 256
       },
-      "anticondition": {
-        "biomes": [
-          "#pixelmon:spawning/freezing"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 5.0
     }
+
+
+
   ]
 }

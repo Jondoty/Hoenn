@@ -6,35 +6,124 @@
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 5,
-      "maxLevel": 29,
+      "minLevel": 25,
+      "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "minecraft:river",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes"
-        ]
+        "minX": -2436, "maxX": -2107, "minZ": -27, "maxZ": 118, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 5.0
     },
     {
       "spec": "species:Corphish",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 10,
-      "maxLevel": 28,
+      "minLevel": 30,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "minecraft:river",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "#pixelmon:spawning/beaches"
-        ]
+        "minX": -2436, "maxX": -2107, "minZ": -27, "maxZ": 118, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 100.0
+    },
+
+    {
+      "spec": "species:Corphish",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2636, "maxX": -2437, "minZ": -81, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Corphish",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2636, "maxX": -2437, "minZ": -81, "maxZ": 118, "minY": 0, "maxY": 256
+      },
+      "rarity": 100.0
+    },
+
+    {
+      "spec": "species:Corphish",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1998, "maxX": -1669, "minZ": -718, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Corphish",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1998, "maxX": -1669, "minZ": -718, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 95.0
+    },
+
+    {
+      "spec": "species:Corphish",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -725, "maxX": 247, "minZ": -680, "maxZ": -491, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Corphish",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -725, "maxX": 247, "minZ": -680, "maxZ": -491, "minY": 0, "maxY": 256
+      },
+      "rarity": 95.0
+    },
+
+
+
+
+    {
+      "spec": "species:Crawdaunt",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -1998, "maxX": -1669, "minZ": -718, "maxZ": -492, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
     },
     {
       "spec": "species:Crawdaunt",
@@ -42,20 +131,12 @@
         "Super Rod"
       ],
       "minLevel": 30,
-      "maxLevel": 43,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "minecraft:river",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "#pixelmon:spawning/beaches"
-        ]
+        "minX": -725, "maxX": 247, "minZ": -680, "maxZ": -491, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 5.0
     }
   ]
 }

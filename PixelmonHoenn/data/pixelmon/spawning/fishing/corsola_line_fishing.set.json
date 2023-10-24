@@ -6,8 +6,8 @@
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 18,
-      "maxLevel": 34,
+      "minLevel": 40,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "heldItems": [
         {
@@ -16,72 +16,29 @@
         }
       ],
       "condition": {
-        "times": [
-          "DAY"
-        ],
-        "biomes": [
-          "minecraft:warm_ocean",
-          "minecraft:lukewarm_ocean",
-          "byg:coral_mangroves",
-          "#pixelmon:spawning/beaches"
-        ]
+        "minX": 318, "maxX": 832, "minZ": -1170, "maxZ": -845, "minY": 0, "maxY": 256
       },
-      "anticondition": {
-        "biomes": [
-          "#pixelmon:spawning/freezing"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 5.0
     },
+
     {
-      "spec": "species:Corsola form:galarian",
+      "spec": "species:Corsola",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 18,
-      "maxLevel": 34,
+      "minLevel": 40,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "heldItems": [
         {
-          "itemID": "pixelmon:float_stone",
+          "itemID": "pixelmon:luminous_moss",
           "percentChance": 5
         }
       ],
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "#pixelmon:spawning/beaches"
-        ]
+        "minX": 2025, "maxX": 2363, "minZ": -884, "maxZ": 77, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
-    },
-    {
-      "spec": "species:Cursola",
-      "stringLocationTypes": [
-        "Super Rod"
-      ],
-      "minLevel": 34,
-      "maxLevel": 50,
-      "typeID": "pokemon",
-      "heldItems": [
-        {
-          "itemID": "pixelmon:float_stone",
-          "percentChance": 5
-        }
-      ],
-      "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "#pixelmon:spawning/beaches"
-        ]
-      },
-      "rarity": 0.0
+      "rarity": 5.0
     }
   ]
 }

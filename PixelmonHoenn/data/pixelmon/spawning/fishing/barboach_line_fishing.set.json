@@ -6,72 +6,186 @@
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 10,
+      "minLevel": 25,
       "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "minecraft:river",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "byg:polluted_lake"
-        ]
+        "minX": -1601, "maxX": -1313, "minZ": -1507, "maxZ": -719, "minY": 60, "maxY": 316
       },
-      "rarity": 0.0
+      "rarity": 5.0
     },
     {
       "spec": "species:Barboach",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 10,
-      "maxLevel": 28,
+      "minLevel": 30,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "minecraft:river",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "byg:polluted_lake"
-        ]
+        "minX": -1601, "maxX": -1313, "minZ": -1507, "maxZ": -719, "minY": 60, "maxY": 316
       },
-      "rarity": 0.0
+      "rarity": 100.0
     },
+
     {
-      "spec": "species:Whiscash",
+      "spec": "species:Barboach",
       "stringLocationTypes": [
         "Good Rod"
       ],
-      "minLevel": 30,
-      "maxLevel": 43,
+      "minLevel": 25,
+      "maxLevel": 25,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "minecraft:river",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "byg:polluted_lake"
-        ]
+        "minX": -2620, "maxX": -2345, "minZ": -1507, "maxZ": -1080, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 5.0
     },
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -2620, "maxX": -2345, "minZ": -1507, "maxZ": -1080, "minY": 0, "maxY": 256
+      },
+      "rarity": 100.0
+    },
+
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2168, "maxX": 2438, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 2168, "maxX": 2438, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 95.0
+    },
+
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -435, "maxX": -178, "minZ": -1509, "maxZ": -993, "minY": 60, "maxY": 316
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": -435, "maxX": -178, "minZ": -1509, "maxZ": -993, "minY": 60, "maxY": 316
+      },
+      "rarity": 100.0
+    },
+
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 100.0
+    },
+
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Barboach",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
+      },
+      "rarity": 100.0
+    },
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "spec": "species:Whiscash",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 35,
-      "maxLevel": 47,
+      "minLevel": 30,
+      "maxLevel": 40,
       "typeID": "pokemon",
       "condition": {
-        "biomes": [
-          "minecraft:river",
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "byg:polluted_lake"
-        ]
+        "minX": 2168, "maxX": 2438, "minZ": -3361, "maxZ": -2286, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 5.0
     }
   ]
 }

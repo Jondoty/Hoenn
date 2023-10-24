@@ -4,68 +4,183 @@
     {
       "spec": "species:Feebas",
       "stringLocationTypes": [
-        "Good Rod"
+        "Old Rod"
       ],
-      "minLevel": 5,
-      "maxLevel": 17,
+      "minLevel": 15,
+      "maxLevel": 15,
       "typeID": "pokemon",
       "heldItems": [
         {
           "itemID": "pixelmon:prism_scale",
-          "percentChance": 1
+          "percentChance": 5
         }
       ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "byg:crag_gardens"
-        ]
+        "minX": -1070, "maxX": -728, "minZ": -1509, "maxZ": -663, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Feebas",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prism_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -1070, "maxX": -728, "minZ": -1509, "maxZ": -663, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
     },
     {
       "spec": "species:Feebas",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 5,
-      "maxLevel": 17,
+      "minLevel": 35,
+      "maxLevel": 35,
       "typeID": "pokemon",
       "heldItems": [
         {
           "itemID": "pixelmon:prism_scale",
-          "percentChance": 1
+          "percentChance": 5
         }
       ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/swamps",
-          "#pixelmon:spawning/lakes",
-          "byg:crag_gardens"
-        ]
+        "minX": -1070, "maxX": -728, "minZ": -1509, "maxZ": -663, "minY": 0, "maxY": 256
       },
-      "rarity": 0.0
+      "rarity": 5.0
+    },
+
+
+    {
+      "spec": "species:Feebas",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prism_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -913, "maxX": -897, "minZ": -846, "maxZ": -830, "minY": 0, "maxY": 256,
+        "times": ["NIGHT"]
+      },
+      "rarity": 1000000.0
     },
     {
-      "spec": "species:Milotic",
+      "spec": "species:Feebas",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prism_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -913, "maxX": -897, "minZ": -846, "maxZ": -830, "minY": 0, "maxY": 256,
+        "times": ["NIGHT"]
+      },
+      "rarity": 1000000.0
+    },
+    {
+      "spec": "species:Feebas",
       "stringLocationTypes": [
         "Super Rod"
       ],
-      "minLevel": 40,
-      "maxLevel": 53,
+      "minLevel": 35,
+      "maxLevel": 35,
       "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prism_scale",
+          "percentChance": 5
+        }
+      ],
       "condition": {
-        "biomes": [
-          "#pixelmon:spawning/oceanic"
-        ]
+        "minX": -913, "maxX": -897, "minZ": -846, "maxZ": -830, "minY": 0, "maxY": 256,
+        "times": ["NIGHT"]
       },
-      "anticondition": {
-        "biomes": [
-          "#pixelmon:spawning/freezing"
-        ]
+      "rarity": 1000000.0
+    },
+
+
+    {
+      "spec": "species:Feebas",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 15,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prism_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -952, "maxX": -879, "minZ": -1285, "maxZ": -1272, "minY": 0, "maxY": 256,
+        "times": ["DAY"]
       },
-      "rarity": 0.0
+      "rarity": 1000000.0
+    },
+    {
+      "spec": "species:Feebas",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prism_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -952, "maxX": -879, "minZ": -1285, "maxZ": -1272, "minY": 0, "maxY": 256,
+        "times": ["DAY"]
+      },
+      "rarity": 1000000.0
+    },
+    {
+      "spec": "species:Feebas",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 35,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:prism_scale",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": -952, "maxX": -879, "minZ": -1285, "maxZ": -1272, "minY": 0, "maxY": 256,
+        "times": ["DAY"]
+      },
+      "rarity": 1000000.0
     }
   ]
 }
