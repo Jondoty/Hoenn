@@ -2,6 +2,12 @@
 #execute @a[tag=RunMusic] ~ ~ ~ function hoenn:music
 
 #---------------------------------------------------------------------------------------------------------------------------
+#Dialogue specific music
+
+playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=6}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=6}] MusicCooldown 28
+
+#---------------------------------------------------------------------------------------------------------------------------
 #Battle Music
 
 #General Trainer
@@ -608,7 +614,9 @@ scoreboard players set @s[x=-1092,y=-41,z=304,dx=198,dy=71,dz=512,scores={MusicC
 playsound gym record @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449,scores={MusicCooldown=0}] MusicCooldown 111
 
-
+#Starter Domes
+playsound helpme record @s[x=-2123,y=63,z=1286,dx=203,dy=40,dz=50,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2123,y=63,z=1286,dx=203,dy=40,dz=50,scores={MusicCooldown=0}] MusicCooldown 28
 
 
 

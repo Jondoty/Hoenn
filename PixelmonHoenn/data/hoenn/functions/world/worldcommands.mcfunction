@@ -23,7 +23,7 @@ execute as @a[scores={TriggerCommand=1..}] run function hoenn:triggers/triggerco
 execute as @a[scores={Trigger=1..}] run function hoenn:triggers/triggercommands
 
 #Soaring Overworld function
-execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:world/soaringoverworld
+#execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:world/soaringoverworld
 
 #Runs secret bases functions
 execute as @a[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] run function hoenn:world/bases/secretbases
@@ -115,7 +115,7 @@ execute as @a[x=334,y=237,z=-1917,distance=..40] run function hoenn:world/flymap
 execute as @a[scores={EscapeRopeUse=1..}] run function hoenn:items/escaperope
 
 #Mega Stones, execute if player is nearby a Mega Stone armor stand
-execute as @e[type=minecraft:armor_stand,tag=MegaStone] at @s if entity @a[distance=..50] run function hoenn:items/megastones
+#execute as @e[type=minecraft:armor_stand,tag=MegaStone] at @s if entity @a[distance=..50] run function hoenn:items/megastones
 
 
 #Runs music function
@@ -150,5 +150,11 @@ scoreboard players set @a[scores={StepCounterWalk=1..}] StepCounterWalk 0
 function hoenn:world/blockchanges
 
 
+#-------------------------Dialogues and Story-----------------------------------------------------------------------------------
+#Runs the primary story and dialogue function if player has an applicable dialogue score
+execute as @a[scores={DialogueTrigger=1..}] run function hoenn:dialogue/dialogue
+
+#Manages story trigger commands, starts from a perspective of player not having an active dialogue score
+execute as @a[scores={DialogueTrigger=0,TalkTime=0}] run function hoenn:dialogue/dialoguetriggers
 
 #

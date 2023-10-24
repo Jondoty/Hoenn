@@ -72,9 +72,11 @@ execute as @a run function hoenn:world/bases/portals
 
 #Prof Birch's Lab
 execute as @a[x=-2043,y=50,z=344,dx=3,dy=5] run function hoenn:tools/forceclick
+execute as @a[x=-2043,y=50,z=344,dx=3,dy=5] run effect clear @e[x=-2042,y=49,z=319,dy=3,type=pixelmon:npc_chatting] minecraft:invisibility
 tp @a[x=-2043,y=50,z=344,dx=3,dy=5] -2042 69 345
 
 execute as @a[x=-2043,y=69,z=344,dx=2,dy=5] run function hoenn:tools/forceclick
+execute as @a[x=-2043,y=69,z=344,dx=2,dy=5,tag=!Dialogue7] run effect give @e[x=-2042,y=49,z=319,dy=3,type=pixelmon:npc_chatting] minecraft:invisibility infinite 1 true
 tp @a[x=-2043,y=69,z=344,dx=2,dy=5] -2041 50 343
 
 #Brendan's House
@@ -1537,19 +1539,14 @@ tp @a[x=-26,y=15,z=2914,dx=3,dy=3] -25 64 2914
 tp @a[x=-2989,y=91,z=1376,dx=2,dy=3,dz=2] -2987 75 1495
 
 
-
-
-
-
-
-
-
-
 #Dewford Brawly tp return
 tp @a[x=-2434,y=67,z=1432,dx=1,dy=5,dz=1] -2434 65 1522
 
 #Mauville Gym
 tp @a[x=-3370,y=91,z=1370,dx=1,dy=5,dz=1] -3375 106 1462
+
+#Lavaridge Gym
+tp @a[x=-3103,y=70,z=1368,dx=2,dy=5,dz=2] -3101 91 1521
 
 #Fortree Gym
 tp @a[x=-2800,y=222,z=1556,dx=1,dy=5,dz=1] -2798 151 1484

@@ -170,59 +170,68 @@ tag @s[scores={DialogueTrigger=5,TalkTime=100..}] add Dialogue5
 #Professor Birch pre-picking starters
 #https://youtu.be/MgkqxXCmrtI?t=683
 
-tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Youngster> I think I hear someone screaming up ahead!"}
-tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Youngster> What should I do? What should we do?"}
-tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Youngster> Somebody has to go help..."}
+#tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Youngster> I think I hear someone screaming up ahead!"}
+#tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Youngster> What should I do? What should we do?"}
+#tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Youngster> Somebody has to go help..."}
 
+execute as @s[scores={DialogueTrigger=6,TalkTime=1}] run function hoenn:tools/forceclick
 tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"H-help me!"}
 
-tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Professor Birch> Halloo! You over there!"}
-tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Professor Birch> Please! Help me out!"}
-tellraw @s[scores={DialogueTrigger=6,TalkTime=1}] {"text":"<Professor Birch> In my Bag! There are some Poké Balls!"}
+tellraw @s[scores={DialogueTrigger=6,TalkTime=7}] {"text":"<Professor Birch> Halloo! You over there!"}
+tellraw @s[scores={DialogueTrigger=6,TalkTime=14}] {"text":"<Professor Birch> Please! Help me out!"}
+tellraw @s[scores={DialogueTrigger=6,TalkTime=21}] {"text":"<Professor Birch> In my Bag! There are some Poké Balls!"}
 
 #tps player to starter select screen
+execute as @s[scores={DialogueTrigger=6,TalkTime=30}] run tp @s -2098 65 1319 180 21
 
 #after player picks, immediatley goes into battle with Poochyena
 
-tag @s[scores={DialogueTrigger=6,TalkTime=100..}] add Dialogue6
+tag @s[scores={DialogueTrigger=6,TalkTime=30..}] add Dialogue6
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 7 - Route 101
 #After battling Poochyena
 #https://youtu.be/MgkqxXCmrtI?t=796
 
 tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> Whew..."}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> I went into the tall grass to survey wild Pokémon when I was suddenly jumped!"}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> You saved my hide. Thanks a lot!"}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"text":"<Professor Birch> Oh? But you're Norman's kid, "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> I didn't even realize who you were at first."}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> You've grown into quite the young kid."}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> This isn't the place for a chat, though. Come along to my lab."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=6}] {"text":"<Professor Birch> I went into the tall grass to survey wild Pokémon when I was suddenly jumped!"}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=15}] {"text":"<Professor Birch> You saved my hide. Thanks a lot!"}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=22}] ["",{"text":"<Professor Birch> Oh? But you're Norman's kid, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=7,TalkTime=30}] {"text":"<Professor Birch> I didn't even realize who you were at first."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=37}] {"text":"<Professor Birch> You've grown into quite the young kid."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=44}] {"text":"<Professor Birch> This isn't the place for a chat, though. Come along to my lab."}
 
 #Teleports player to lab
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"text":"<Professor Birch> So, "},{"selector":"@s"},{"text":"! I've heard so much about you from your father."}]
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> But he said that you don't have your own Pokémon yet."}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> If that's true, that was quite the performance back there!"}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> Looks like you really are your father's kid!"}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> Oh, yes! To say thanks for rescuing me out there, how about I give you that Pokémon you used earlier?"}
 
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Treecko!","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Torchic!","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Mudkip!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=7,TalkTime=50}] run effect give @s minecraft:blindness 3 1 true
+execute as @s[scores={DialogueTrigger=7,TalkTime=51}] run tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=7,TalkTime=52}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=7,TalkTime=52}] run tp @s -2042 50 323 180 21
 
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> You know, if you work with your Pokémon and gain experience, I think you'll make a pretty excellent Trainer."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=55}] ["",{"text":"<Professor Birch> So, "},{"selector":"@s"},{"text":"! I've heard so much about you from your father."}]
+tellraw @s[scores={DialogueTrigger=7,TalkTime=62}] {"text":"<Professor Birch> But he said that you don't have your own Pokémon yet."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=70}] {"text":"<Professor Birch> If that's true, that was quite the performance back there!"}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=77}] {"text":"<Professor Birch> Looks like you really are your father's kid!"}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=84}] {"text":"<Professor Birch> Oh, yes! To say thanks for rescuing me out there, how about I give you that Pokémon you used earlier?"}
 
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> My girl, May, happens to be out on Route 103 right now, surveying Pokémon for me."}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> My boy, Brendan, happens to be out on Route 103 right now, surveying Pokémon for me."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=94,StarterPick=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Treecko!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=7,TalkTime=94,StarterPick=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Torchic!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=7,TalkTime=94,StarterPick=3}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Mudkip!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=7,TalkTime=94}] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> It might not be a bad idea for you to head out that way yourself."}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> What do you think?"}
-tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 10"}},{"text":"] \u0020 \u0020 ["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 11"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=7,TalkTime=102}] {"text":"<Professor Birch> You know, if you work with your Pokémon and gain experience, I think you'll make a pretty excellent Trainer."}
+
+#tellraw @s[scores={DialogueTrigger=7,TalkTime=112,Rival=1}] {"text":"<Professor Birch> My girl, May, happens to be out on Route 103 right now, surveying Pokémon for me."}
+#tellraw @s[scores={DialogueTrigger=7,TalkTime=112,Rival=2}] {"text":"<Professor Birch> My boy, Brendan, happens to be out on Route 103 right now, surveying Pokémon for me."}
+#
+#tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> It might not be a bad idea for you to head out that way yourself."}
+#tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> What do you think?"}
+#tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 10"}},{"text":"] \u0020 \u0020 ["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 11"}},{"text":"]"}]
 
 #No dialogue:
 #Oh, don't be that way! You should go meet my kid.
 #activates dialogue, skips first line
 
-tag @s[scores={DialogueTrigger=7,TalkTime=100..}] add Dialogue7
+tag @s[scores={DialogueTrigger=7,TalkTime=102..}] add Dialogue7
 #-------------------------
 #Dialogue 8 - Birch's Lab
 
@@ -6366,7 +6375,7 @@ tellraw @s[scores={DialogueTrigger=183,TalkTime=1}] {"text":"<Zinnia> Then I gue
 tellraw @s[scores={DialogueTrigger=183,TalkTime=1}] ["",{"text":"<Zinnia> So how about it, "},{"selector":"@s"},{"text":"?"}]
 tellraw @s[scores={DialogueTrigger=183,TalkTime=1}] {"text":"<Zinnia> What do you think? Do you have some better idea?"}
 execute as @s[scores={DialogueTrigger=183,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s ["",{"text":"["},{"text":"You bet I do!","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 35"}},{"text":"] \u0020["},{"text":"I've got nothing...","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 36"}},{"text":"]"}]
+execute as @s[scores={DialogueTrigger=183,TalkTime=1}] run tellraw @s ["",{"text":"["},{"text":"You bet I do!","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 35"}},{"text":"] \u0020["},{"text":"I've got nothing...","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 36"}},{"text":"]"}]
 
 #relog text
 execute as @s[scores={DialogueTrigger=183,TalkTime=1}] run scoreboard players enable @s TriggerCommand

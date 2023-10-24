@@ -13,8 +13,10 @@ execute as @s[scores={TriggerCommand=1}] run tellraw @s ["",{"text":"You pick Tr
 execute as @s[scores={TriggerCommand=2}] run tellraw @s {"text":"You chose Treecko!"}
 execute as @s[scores={TriggerCommand=2,StarterPick=0}] run pokegive Treecko lvl:5
 execute as @s[scores={TriggerCommand=2}] run scoreboard players set @s StarterPick 1
-execute as @s[scores={TriggerCommand=2}] run tp @s -2041 69 246 134 7
-execute as @s[scores={TriggerCommand=2}] run pokebattle @s poochyena lvl:3
+execute as @s[scores={TriggerCommand=2}] run tp @s -2038 69 232 134 7
+#execute as @s[scores={TriggerCommand=2}] run pokebattle @s poochyena lvl:3
+execute as @s[scores={TriggerCommand=2}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch1Initiate] remove Birch1Initiate
+execute as @s[scores={TriggerCommand=2}] at @s run summon pixelmon:pixelmon ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [{Base: 0.41999998688697815d, Name: "minecraft:horse.jump_strength"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 21.0d, Name: "minecraft:generic.max_health"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 5.0d, Name: "forge:swim_speed"}, {Base: 0.4444444444444444d, Name: "minecraft:generic.movement_speed"}], Moveset: [{MoveID: "Tackle", MovePP: 35b}], Invulnerable: 0b, Gender: 0b, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, BossTier: "notboss", IVSpDef: 0b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, palette: "none", Ability: "RunAway", IVDefense: 0b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], EVSpecialAttack: 0s, IVSpeed: 11b, Temper: 0, pixelmonType: 0b, CanPickUpLoot: 0b, Level: 2, HurtTime: 0s, Tame: 0b, StatsDefense: 9s, IVAttack: 0, Growth:7b, PHiddenAbility: 0b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 0s, EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 10s, IVHP: 27b, EVHP: 0s, ndex:261, StatsSpecialDefense: 9s, Age: 0, Nature: 4b, StatsHP: 21s, Health: 21, SpecFlags: ["uncatchable"], LeftHanded: 0b, OnGround: 1b, Rotation: [2.1416008f, 0.0f], StatsSpeed: 9s, StatsAttack: 12s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 24b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: [], Aggression:2b}
 
  #-----------------------------
  #3 - Torchic first prompt
@@ -25,8 +27,10 @@ execute as @s[scores={TriggerCommand=3}] run tellraw @a ["",{"text":"You pick To
 execute as @s[scores={TriggerCommand=4}] run tellraw @s {"text":"You chose Torchic!"}
 execute as @s[scores={TriggerCommand=4,StarterPick=0}] run pokegive Torchic lvl:5
 execute as @s[scores={TriggerCommand=4}] run scoreboard players set @s StarterPick 2
-execute as @s[scores={TriggerCommand=4}] run tp @s -2041 69 246 134 7
-execute as @s[scores={TriggerCommand=4}] run pokebattle @s poochyena lvl:3
+execute as @s[scores={TriggerCommand=4}] run tp @s -2038 69 232 134 7
+#execute as @s[scores={TriggerCommand=4}] run pokebattle @s poochyena lvl:3
+execute as @s[scores={TriggerCommand=4}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch1Initiate] remove Birch1Initiate
+execute as @s[scores={TriggerCommand=4}] at @s run summon pixelmon:pixelmon ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [{Base: 0.41999998688697815d, Name: "minecraft:horse.jump_strength"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 21.0d, Name: "minecraft:generic.max_health"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 5.0d, Name: "forge:swim_speed"}, {Base: 0.4444444444444444d, Name: "minecraft:generic.movement_speed"}], Moveset: [{MoveID: "Tackle", MovePP: 35b}], Invulnerable: 0b, Gender: 0b, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, BossTier: "notboss", IVSpDef: 0b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, palette: "none", Ability: "RunAway", IVDefense: 0b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], EVSpecialAttack: 0s, IVSpeed: 11b, Temper: 0, pixelmonType: 0b, CanPickUpLoot: 0b, Level: 2, HurtTime: 0s, Tame: 0b, StatsDefense: 9s, IVAttack: 0, Growth:7b, PHiddenAbility: 0b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 0s, EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 10s, IVHP: 27b, EVHP: 0s, ndex:261, StatsSpecialDefense: 9s, Age: 0, Nature: 4b, StatsHP: 21s, Health: 21, SpecFlags: ["uncatchable"], LeftHanded: 0b, OnGround: 1b, Rotation: [2.1416008f, 0.0f], StatsSpeed: 9s, StatsAttack: 12s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 24b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: [], Aggression:2b}
 
 #-----------------------------
 #5 - Mudkip first prompt
@@ -37,8 +41,10 @@ execute as @s[scores={TriggerCommand=5}] run tellraw @s ["",{"text":"You pick Mu
 execute as @s[scores={TriggerCommand=6}] run tellraw @s {"text":"You chose Mudkip!"}
 execute as @s[scores={TriggerCommand=6,StarterPick=0}] run pokegive Mudkip lvl:5
 execute as @s[scores={TriggerCommand=6}] run scoreboard players set @s StarterPick 3
-execute as @s[scores={TriggerCommand=6}] run tp @s -2041 69 246 134 7
-execute as @s[scores={TriggerCommand=6}] run pokebattle @s poochyena lvl:3
+execute as @s[scores={TriggerCommand=6}] run tp @s -2038 69 232 134 7
+#execute as @s[scores={TriggerCommand=6}] run pokebattle @s poochyena lvl:3
+execute as @s[scores={TriggerCommand=6}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch1Initiate] remove Birch1Initiate
+execute as @s[scores={TriggerCommand=6}] at @s run summon pixelmon:pixelmon ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [{Base: 0.41999998688697815d, Name: "minecraft:horse.jump_strength"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 21.0d, Name: "minecraft:generic.max_health"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 5.0d, Name: "forge:swim_speed"}, {Base: 0.4444444444444444d, Name: "minecraft:generic.movement_speed"}], Moveset: [{MoveID: "Tackle", MovePP: 35b}], Invulnerable: 0b, Gender: 0b, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, BossTier: "notboss", IVSpDef: 0b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, palette: "none", Ability: "RunAway", IVDefense: 0b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], EVSpecialAttack: 0s, IVSpeed: 11b, Temper: 0, pixelmonType: 0b, CanPickUpLoot: 0b, Level: 2, HurtTime: 0s, Tame: 0b, StatsDefense: 9s, IVAttack: 0, Growth:7b, PHiddenAbility: 0b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 0s, EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 10s, IVHP: 27b, EVHP: 0s, ndex:261, StatsSpecialDefense: 9s, Age: 0, Nature: 4b, StatsHP: 21s, Health: 21, SpecFlags: ["uncatchable"], LeftHanded: 0b, OnGround: 1b, Rotation: [2.1416008f, 0.0f], StatsSpeed: 9s, StatsAttack: 12s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 24b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: [], Aggression:2b}
 
 execute as @s[scores={TriggerCommand=1..6}] run scoreboard players set @s TriggerCommand 0
 

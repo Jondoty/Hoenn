@@ -34,6 +34,10 @@ execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelm
 execute as @a run function hoenn:pokenav/throwdetect
 
 #-----------------------------------------------------------------------------------------
+#Professor Birch's Route 101 Running Commands
+execute as @a[x=-2035,y=69,z=246,distance=..30,tag=!Dialogue6] run function hoenn:cutscenes/birchrunning
+
+#-----------------------------------------------------------------------------------------
 
 
 #Road Blocks
