@@ -4,8 +4,31 @@
 #---------------------------------------------------------------------------------------------------------------------------
 #Dialogue specific music
 
+#Professor Birch's first introduction
 playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=6}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=6}] MusicCooldown 28
+
+#Hall of Fame music
+playsound halloffame record @s[scores={MusicCooldown=0,DialogueTrigger=166}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=166}] MusicCooldown 106
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #---------------------------------------------------------------------------------------------------------------------------
 #Battle Music
