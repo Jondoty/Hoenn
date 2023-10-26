@@ -1123,8 +1123,35 @@ tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue165
 tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue166
 
 #Sydney's Entrance to League
+scoreboard players set @a[x=633,y=91,z=-2306,dx=2,dy=3] MusicTitles 19
 tp @a[x=633,y=91,z=-2306,dx=2,dy=3] 2158 171 -795
-tp @a[x=2155,y=171,z=-797,dx=6,dy=4] 634 91 -2307
+
+#Checks if player has all 8 badges
+scoreboard players set @a[x=2155,y=171,z=-797,dx=6,dy=4] Temp 0
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue25] Temp 1
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue35] Temp 1
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue68] Temp 1
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue90] Temp 1
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue95] Temp 1
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue118] Temp 1
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue138] Temp 1
+scoreboard players add @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,tag=Dialogue152] Temp 1
+tag @a[x=2155,y=171,z=-797,dx=6,dy=4,scores={Temp=8..}] add AllBadges
+
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,scores={Temp=7}] {"text":"All eight badges are required to enter the Elite Four! You are missing the badge:","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges,scores={Temp=..6}] {"text":"All eight badges are required to enter the Elite Four! You are missing the badges:","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue25] {"text":"Stone Badge","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue35] {"text":"Knuckle Badge","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue68] {"text":"Dynamo Badge","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue90] {"text":"Heat Badge","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue95] {"text":"Balance Badge","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue118] {"text":"Feather Badge","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue138] {"text":"Mind Badge","italic":true,"color":"gray"}
+tellraw @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!Dialogue152] {"text":"Rain Badge","italic":true,"color":"gray"}
+
+scoreboard players set @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=AllBadges] MusicTitles 44
+tp @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=AllBadges] 634 91 -2307
+execute as @a[x=2155,y=171,z=-797,dx=6,dy=4,tag=!AllBadges] at @s run tp @s ~ ~ ~5
 
 #-------------------------------------------------------------------------
 #League Proper
@@ -1150,36 +1177,44 @@ tp @a[x=632,y=91,z=-2382,dx=4,dy=25] 634 95 -2447
 tp @a[x=632,y=95,z=-2446,dx=4,dy=25] 634 91 -2381
 
 #Sydney's Battle Room to Phoebe's exterior
-tp @a[x=632,y=95,z=-2478,dx=4,dy=25] 634 91 -2489
+tp @a[x=632,y=95,z=-2478,dx=4,dy=25,tag=Dialogue156] 634 91 -2489
 tp @a[x=633,y=91,z=-2488,dx=4,dy=25,scores={PokemonLeague=1..}] 634 117 -2477
 tp @a[x=633,y=91,z=-2488,dx=4,dy=25] 634 95 -2477
+
+execute as @a[x=632,y=95,z=-2478,dx=4,dy=25,tag=!Dialogue156] run tp @s ~ ~ ~3
 
 #Phoebe's exterior to battle room
 tp @a[x=632,y=91,z=-2562,dx=4,dy=25] 634 91 -2631
 tp @a[x=632,y=91,z=-2630,dx=4,dy=25] 634 91 -2561
 
 #Phoebe's battle room to Glacia's exterior
-tp @a[x=632,y=91,z=-2662,dx=4,dy=25] 634 91 -2677
+tp @a[x=632,y=91,z=-2662,dx=4,dy=25,tag=Dialogue158] 634 91 -2677
 tp @a[x=633,y=91,z=-2676,dx=4,dy=25,scores={PokemonLeague=1..}] 634 111 -2661
 tp @a[x=633,y=91,z=-2676,dx=4,dy=25] 634 91 -2661
+
+execute as @a[x=632,y=91,z=-2662,dx=4,dy=25,tag=!Dialogue158] run tp @s ~ ~ ~3
 
 #Glacia's exterior to battle room
 tp @a[x=631,y=91,z=-2750,dx=6,dy=25] 634 92 -2824
 tp @a[x=632,y=91,z=-2823,dx=4,dy=25] 634 91 -2749
 
 #Glacia's battle room to Drake's exterior
-tp @a[x=632,y=91,z=-2855,dx=4,dy=25] 634 91 -2871
+tp @a[x=632,y=91,z=-2855,dx=4,dy=25,tag=Dialogue160] 634 91 -2871
 tp @a[x=633,y=91,z=-2870,dx=4,dy=25,scores={PokemonLeague=1..}] 634 111 -2854
 tp @a[x=633,y=91,z=-2870,dx=4,dy=25] 634 92 -2854
+
+execute as @a[x=632,y=91,z=-2855,dx=4,dy=25,tag=!Dialogue160] run tp @s ~ ~ ~3
 
 #Drake's exterior to battle room
 tp @a[x=631,y=91,z=-2946,dx=6,dy=25] 634 91 -3017
 tp @a[x=632,y=91,z=-3016,dx=6,dy=25] 634 91 -2945
 
 #Drake's battle room to Steven's exterior
-tp @a[x=632,y=91,z=-3048,dx=4,dy=25] 634.0 87 -3064
+tp @a[x=632,y=91,z=-3048,dx=4,dy=25,tag=Dialogue162] 634.0 87 -3064
 tp @a[x=632,y=87,z=-3063,dx=4,dy=25,scores={PokemonLeague=1..}] 634 112 -3047
 tp @a[x=632,y=87,z=-3063,dx=4,dy=25] 634 91 -3047
+
+execute as @a[x=632,y=91,z=-3048,dx=4,dy=25,tag=!Dialogue162] run tp @s ~ ~ ~3
 
 #Steven's Exterior to battle room (return)
 tp @a[x=632,y=84,z=-3215,dx=4,dy=3] 634.0 87 -3180

@@ -24,6 +24,8 @@ scoreboard players set @s BaseTrigger 0
 scoreboard players set @s rng 0
 scoreboard players set @s PokemonLeague 0
 
+#Removes Misc Story Tags
+tag @s remove AllBadges
 
 #Removes Mega Stone Fount tags
 tag @s remove MegaStone1
