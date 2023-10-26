@@ -785,12 +785,12 @@ tag @s[scores={DialogueTrigger=21,TalkTime=100..}] add Dialogue21
 
 
 tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<...> Hello."}
-tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<...> You must be a new challenger."}
-tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<Roxanne> I am Roxanne, the Rustboro City Pokémon Gym Leader."}
-tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<Roxanne> I became a Gym Leader so that I may apply in battle all that I've learned at the Pokémon Trainers' School."}
-tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<Roxanne> If you defeat me in a Pokémon battle, I'll present you with a Gym Badge as proof of your strength as a Trainer."}
-tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<Roxanne> Please take up the challenge."}
-tellraw @s[scores={DialogueTrigger=22,TalkTime=1}] {"text":"<Roxanne> I look forward to seeing you as a challenger. Until then, farewell."}
+tellraw @s[scores={DialogueTrigger=22,TalkTime=7}] {"text":"<...> You must be a new challenger."}
+tellraw @s[scores={DialogueTrigger=22,TalkTime=14}] {"text":"<Roxanne> I am Roxanne, the Rustboro City Pokémon Gym Leader."}
+tellraw @s[scores={DialogueTrigger=22,TalkTime=22}] {"text":"<Roxanne> I became a Gym Leader so that I may apply in battle all that I've learned at the Pokémon Trainers' School."}
+tellraw @s[scores={DialogueTrigger=22,TalkTime=32}] {"text":"<Roxanne> If you defeat me in a Pokémon battle, I'll present you with a Gym Badge as proof of your strength as a Trainer."}
+tellraw @s[scores={DialogueTrigger=22,TalkTime=43}] {"text":"<Roxanne> Please take up the challenge."}
+tellraw @s[scores={DialogueTrigger=22,TalkTime=50}] {"text":"<Roxanne> I look forward to seeing you as a challenger. Until then, farewell."}
 
 #tps away
 
@@ -818,11 +818,11 @@ tag @s[scores={DialogueTrigger=23,TalkTime=100..}] add Dialogue23
 #https://youtu.be/MgkqxXCmrtI?t=6726
 
 tellraw @s[scores={DialogueTrigger=24,TalkTime=1}] {"text":"<Roxanne> Just as I expected..."}
-tellraw @s[scores={DialogueTrigger=24,TalkTime=1}] {"text":"<Roxanne> I knew you and your Pokémon would be able to get this far."}
-tellraw @s[scores={DialogueTrigger=24,TalkTime=1}] {"text":"<Roxanne> Now, would you kindly demonstrate how you battle with your Pokémon?"}
+tellraw @s[scores={DialogueTrigger=24,TalkTime=8}] {"text":"<Roxanne> I knew you and your Pokémon would be able to get this far."}
+tellraw @s[scores={DialogueTrigger=24,TalkTime=15}] {"text":"<Roxanne> Now, would you kindly demonstrate how you battle with your Pokémon?"}
 
-execute as @s[scores={DialogueTrigger=24,TalkTime=1}] run tp @s -2988 91 1356 180 0
-execute as @s[scores={DialogueTrigger=24,TalkTime=1}] run pokebattle @s Roxanne
+execute as @s[scores={DialogueTrigger=24,TalkTime=23}] run tp @s -2988 91 1356 180 0
+execute as @s[scores={DialogueTrigger=24,TalkTime=23}] run pokebattle @s Roxanne
 
 tag @s[scores={DialogueTrigger=24,TalkTime=100..}] add Dialogue24
 #--------------------------
@@ -830,21 +830,27 @@ tag @s[scores={DialogueTrigger=24,TalkTime=100..}] add Dialogue24
 #Roxanne post-battle
 
 tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> I understand."}
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> The Pokémon League's rules state that Trainers receive this if they defeat a Gym Leader."}
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> Please accept the official Pokémon League Stone Badge."}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=8}] {"text":"<Roxanne> The Pokémon League's rules state that Trainers receive this if they defeat a Gym Leader."}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=18}] {"text":"<Roxanne> Please accept the official Pokémon League Stone Badge."}
 
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Stone Badge from Roxanne.","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=25,TalkTime=26}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Stone Badge from Roxanne.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run give @s pixelmon:stone_badge
+execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> The Stone Badge enables Pokémon to use the HM move Cut outside of battle."}
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> And... Please take this with you, too."}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=33}] {"text":"<Roxanne> The Stone Badge enables Pokémon to use the HM move Cut outside of battle."}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=41}] {"text":"<Roxanne> And... Please take this with you, too."}
 
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM37 Rock Tomb!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=25,TalkTime=48}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM37 Rock Tomb!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=25,TalkTime=48}] run give @s pixelmon:tm_gen6{tm:37s}
+execute as @s[scores={DialogueTrigger=25,TalkTime=48}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> The move Rock Tomb not only inflicts damage by dropping rocks, it also lowers the target's Speed."}
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> If you use a TM, it instantly teaches the move to a Pokémon."}
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<Roxanne> You can use a TM as many times as you want, so please try it out!"}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=55}] {"text":"<Roxanne> The move Rock Tomb not only inflicts damage by dropping rocks, it also lowers the target's Speed."}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=65}] {"text":"<Roxanne> If you use a TM, it instantly teaches the move to a Pokémon."}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=73}] {"text":"<Roxanne> You can use a TM as many times as you want, so please try it out!"}
 
-tag @s[scores={DialogueTrigger=25,TalkTime=100..}] add Dialogue25
+tag @s[scores={DialogueTrigger=25,TalkTime=73..}] add Dialogue25
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 26 - Rustboro City
 #Teams after beating gym
@@ -1044,37 +1050,43 @@ tag @s[scores={DialogueTrigger=33,TalkTime=100..}] add Dialogue33
 #https://youtu.be/MgkqxXCmrtI?t=10272
 
 tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Brawly> I'm Brawly! Dewford's Gym Leader!"}
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Brawly> I've been churned in the rough waves of these parts..."}
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Brawly> And I've grown tough using the cave at the outskirts of this town as my training ground, as well as using the equipment in this Gym."}
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Brawly> So you want to challenge me?"}
-tellraw @s[scores={DialogueTrigger=34,TalkTime=1}] {"text":"<Brawly> Let me see what you're made of!"}
+tellraw @s[scores={DialogueTrigger=34,TalkTime=8}] {"text":"<Brawly> I've been churned in the rough waves of these parts..."}
+tellraw @s[scores={DialogueTrigger=34,TalkTime=15}] {"text":"<Brawly> And I've grown tough using the cave at the outskirts of this town as my training ground, as well as using the equipment in this Gym."}
+tellraw @s[scores={DialogueTrigger=34,TalkTime=26}] {"text":"<Brawly> So you want to challenge me?"}
+tellraw @s[scores={DialogueTrigger=34,TalkTime=33}] {"text":"<Brawly> Let me see what you're made of!"}
 
-execute as @s[scores={DialogueTrigger=34,TalkTime=1}] run tp @s -2433 67 1424
-execute as @s[scores={DialogueTrigger=34,TalkTime=1}] run pokebattle @s brawly
+execute as @s[scores={DialogueTrigger=34,TalkTime=40}] run tp @s -2433 67 1424
+execute as @s[scores={DialogueTrigger=34,TalkTime=40}] run pokebattle @s Brawly
 
-tag @s[scores={DialogueTrigger=34,TalkTime=100..}] add Dialogue34
+tag @s[scores={DialogueTrigger=34,TalkTime=40..}] add Dialogue34
 #--------------------------
 #Dialogue 35 - Dewford Gym
 #Brawly Post-Battle
 
 tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> OK, you've got me. Take this Gym Badge!"}
 
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Knuckle Badge from Brawly.","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=35,TalkTime=10}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Knuckle Badge from Brawly.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run give @s pixelmon:knuckle_badge
+execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> Hmm... You know what? I think you can make full use of this, too."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> I'm sure this will help your Pokémon bulk up muscle!"}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=17}] {"text":"<Brawly> Hmm... You know what? I think you can make full use of this, too."}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=26}] {"text":"<Brawly> I'm sure this will help your Pokémon bulk up muscle!"}
 
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM08 Bulk Up!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=35,TalkTime=33}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM08 Bulk Up!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=35,TalkTime=33}] run give @s pixelmon:tm_gen6{tm:8s}
+execute as @s[scores={DialogueTrigger=35,TalkTime=33}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> Bulk Up temporarily enhances the Pokémon's muscle power."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> The move boosts both Attack and Defense stats of the Pokémon."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> I can see your talent becoming a giant wave that causes a storm of astonishment with Trainers one day!"}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> I look forward to the day when I can surf your giant wave!"}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> By the way, have you been to Granite Cave? It's located to the north of this town."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> It's full of fascinating stuff, like rare stones and wall paintings thousands of years old."}
-tellraw @s[scores={DialogueTrigger=35,TalkTime=1}] {"text":"<Brawly> My friend Steven rushed to the cave after I told him about it."}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=40}] {"text":"<Brawly> Bulk Up temporarily enhances the Pokémon's muscle power."}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=47}] {"text":"<Brawly> The move boosts both Attack and Defense stats of the Pokémon."}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=55}] {"text":"<Brawly> I can see your talent becoming a giant wave that causes a storm of astonishment with Trainers one day!"}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=65}] {"text":"<Brawly> I look forward to the day when I can surf your giant wave!"}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=72}] {"text":"<Brawly> By the way, have you been to Granite Cave? It's located to the north of this town."}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=80}] {"text":"<Brawly> It's full of fascinating stuff, like rare stones and wall paintings thousands of years old."}
+tellraw @s[scores={DialogueTrigger=35,TalkTime=89}] {"text":"<Brawly> My friend Steven rushed to the cave after I told him about it."}
 
-tag @s[scores={DialogueTrigger=35,TalkTime=100..}] add Dialogue35
+tag @s[scores={DialogueTrigger=35,TalkTime=89..}] add Dialogue35
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 36 - Granite Cave
 #Meeting Steven Stone for the first time
@@ -1888,40 +1900,45 @@ tag @s[scores={DialogueTrigger=66,TalkTime=100..}] add Dialogue66
 #https://youtu.be/MgkqxXCmrtI?t=19941
 
 tellraw @s[scores={DialogueTrigger=67,TalkTime=1}] {"text":"<Wattson> Oh? Now, what are you doing here?"}
-tellraw @s[scores={DialogueTrigger=67,TalkTime=1}] {"text":"<Wattson> What? You say you've gotten past all my rigged doors?"}
-tellraw @s[scores={DialogueTrigger=67,TalkTime=1}] {"text":"<Wattson> Wahahahah! Now, that is amusing!"}
-tellraw @s[scores={DialogueTrigger=67,TalkTime=1}] {"text":"<Wattson> The plans to reform Mauville are done for now."}
-tellraw @s[scores={DialogueTrigger=67,TalkTime=1}] {"text":"<Wattson> Making traps for my Gym and battling with young Trainers like you are the things I live for now!"}
-tellraw @s[scores={DialogueTrigger=67,TalkTime=1}] {"text":"<Wattson> Then I, Wattson, the Leader of Mauville Gym, shall electrify you!"}
+tellraw @s[scores={DialogueTrigger=67,TalkTime=8}] {"text":"<Wattson> What? You say you've gotten past all my rigged doors?"}
+tellraw @s[scores={DialogueTrigger=67,TalkTime=16}] {"text":"<Wattson> Wahahahah! Now, that is amusing!"}
+tellraw @s[scores={DialogueTrigger=67,TalkTime=23}] {"text":"<Wattson> The plans to reform Mauville are done for now."}
+tellraw @s[scores={DialogueTrigger=67,TalkTime=30}] {"text":"<Wattson> Making traps for my Gym and battling with young Trainers like you are the things I live for now!"}
+tellraw @s[scores={DialogueTrigger=67,TalkTime=40}] {"text":"<Wattson> Then I, Wattson, the Leader of Mauville Gym, shall electrify you!"}
 
-execute as @s[scores={DialogueTrigger=67,TalkTime=1}] run tp @s -3370 91 1358
-execute as @s[scores={DialogueTrigger=67,TalkTime=1}] run pokebattle @s Wattson
+execute as @s[scores={DialogueTrigger=67,TalkTime=48}] run tp @s -3370 91 1358
+execute as @s[scores={DialogueTrigger=67,TalkTime=48}] run pokebattle @s Wattson
 
-tag @s[scores={DialogueTrigger=67,TalkTime=100..}] add Dialogue67
+tag @s[scores={DialogueTrigger=67,TalkTime=48..}] add Dialogue67
 #-------------------------------------
 #Dialogue 68 - Mauville Gym
 #Wattson Post-Battle
 
 tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> I was electrified by you. Now, take this Badge!"}
 
-execute as @s[scores={DialogueTrigger=68,TalkTime=1}] run give @s
-tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Dynamo Badge from Wattson.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run give @s pixelmon:dynamo_badge
+tellraw @s[scores={DialogueTrigger=68,TalkTime=9}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Dynamo Badge from Wattson.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> With the Dynamo Badge, Pokémon can use the HM Rock Smash outside of battle."}
-tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> All righty then, this here's for you, too! Go on, take it with you!"}
+tellraw @s[scores={DialogueTrigger=68,TalkTime=16}] {"text":"<Wattson> With the Dynamo Badge, Pokémon can use the HM Rock Smash outside of battle."}
+tellraw @s[scores={DialogueTrigger=68,TalkTime=25}] {"text":"<Wattson> All righty then, this here's for you, too! Go on, take it with you!"}
 
-execute as @s[scores={DialogueTrigger=68,TalkTime=1}] run give @s pixelmon:tm_gen6{tm:72s}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=33}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM72 Volt Switch!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=68,TalkTime=33}] run give @s pixelmon:tm_gen6{tm:72s}
+execute as @s[scores={DialogueTrigger=68,TalkTime=33}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> Volt Switch is a move where your Pokémon attacks the opponent and then rushes back to switch places with a party Pokémon in waiting!"}
-tellraw @s[scores={DialogueTrigger=68,TalkTime=1}] {"text":"<Wattson> I swell with optimism, seeing a promising young Trainer like you!"}
+tellraw @s[scores={DialogueTrigger=68,TalkTime=40}] {"text":"<Wattson> Volt Switch is a move where your Pokémon attacks the opponent and then rushes back to switch places with a party Pokémon in waiting!"}
+tellraw @s[scores={DialogueTrigger=68,TalkTime=52}] {"text":"<Wattson> I swell with optimism, seeing a promising young Trainer like you!"}
 
-tag @s[scores={DialogueTrigger=68,TalkTime=100..}] add Dialogue68
+tag @s[scores={DialogueTrigger=68,TalkTime=52..}] add Dialogue68
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 69 - Rusturf Tunnel
 #Pre-Rock Smash Clear
 tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> It's a cracked boulder. A Pokémon may be able to break it."}
-tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> Y-your Pokémon! You can use Rock Smash?!"}
-tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> Please, kid! Use Rock Smash and break up these boulders!"}
+tellraw @s[scores={DialogueTrigger=69,TalkTime=10}] {"text":"<Wanda> Y-your Pokémon! You can use Rock Smash?!"}
+tellraw @s[scores={DialogueTrigger=69,TalkTime=18}] {"text":"<Wanda> Please, kid! Use Rock Smash and break up these boulders!"}
 
 tag @s[scores={DialogueTrigger=69,TalkTime=100..}] add Dialogue69
 #-----------------------------
@@ -1930,19 +1947,20 @@ tag @s[scores={DialogueTrigger=69,TalkTime=100..}] add Dialogue69
 #https://youtu.be/MgkqxXCmrtI?t=22309
 
 tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> Wow! You shattered those boulders blocking the way."}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> To show you how much I appreciate it, I'd like you to have this!"}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=10}] {"text":"<Black Belt> To show you how much I appreciate it, I'd like you to have this!"}
 
-#execute as @s[scores={DialogueTrigger=70,TalkTime=1}] run give @s pixelmon:aggronite
-tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Aggronite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=70,TalkTime=17}] run give @s pixelmon:aggronite
+execute as @s[scores={DialogueTrigger=70,TalkTime=17}] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
+tellraw @s[scores={DialogueTrigger=70,TalkTime=17}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Aggronite!","italic":true,"color":"gray"}]
 
-tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> I found that when I was digging for the tunnel."}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> I felt like there's some mysterious power coming from it, but I don't think I could do a thing with it."}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> Wanda! Now I can see you anytime!"}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Wanda> That's...that's wonderful! Come on. Let me take you to my place so you can rest."}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=24}] {"text":"<Black Belt> I found that when I was digging for the tunnel."}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=31}] {"text":"<Black Belt> I felt like there's some mysterious power coming from it, but I don't think I could do a thing with it."}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=41}] {"text":"<Black Belt> Wanda! Now I can see you anytime!"}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=48}] {"text":"<Wanda> That's...that's wonderful! Come on. Let me take you to my place so you can rest."}
 
 #tps them out
 
-tag @s[scores={DialogueTrigger=70,TalkTime=100..}] add Dialogue70
+tag @s[scores={DialogueTrigger=70,TalkTime=48..}] add Dialogue70
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 71 - Verdanturf Town
 #Finding Shroomish behind sign
@@ -1950,19 +1968,20 @@ tag @s[scores={DialogueTrigger=70,TalkTime=100..}] add Dialogue70
 tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] ["",{"text":"Verdanturf Town\n"},{"text":"The windswept highlands with the sweet fragrance of grass.","italic":true}]
 
 #teleport Shroomish in
-tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] {"text":"<Shroomish> Mu... Mushh...?"}
-tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] {"text":"<Shroomish> Mushh!"}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=8}] {"text":"<Shroomish> Mu... Mushh...?"}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=14}] {"text":"<Shroomish> Mushh!"}
 
 #teleport player and statue to the girl
 
-tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] {"text":"Ah! Mushew! Thank you for finding my Shroomish!"}
-tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] {"text":"I'll give you this. I just found it."}
-tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] {"text":"It has a strange shape and it looks amazing."}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=22}] {"text":"Ah! Mushew! Thank you for finding my Shroomish!"}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=29}] {"text":"I'll give you this. I just found it."}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=36}] {"text":"It has a strange shape and it looks amazing."}
 
-execute as @s[scores={DialogueTrigger=71,TalkTime=1}] run give @s pixelmon:intriguing_stone
-tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Intriguing Stone!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=71,TalkTime=43}] run give @s pixelmon:intriguing_stone
+tellraw @s[scores={DialogueTrigger=71,TalkTime=43}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Intriguing Stone!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=71,TalkTime=43}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @a ~ ~ ~ 1 1 1
 
-tag @s[scores={DialogueTrigger=71,TalkTime=100..}] add Dialogue71
+tag @s[scores={DialogueTrigger=71,TalkTime=43..}] add Dialogue71
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 72 - Route 116
 #After clearing out the tunnel
@@ -1990,15 +2009,16 @@ tag @s[scores={DialogueTrigger=72,TalkTime=100..}] add Dialogue72
 #https://youtu.be/MgkqxXCmrtI?t=22574
 
 tellraw @s[scores={DialogueTrigger=73,TalkTime=1}] {"text":"<Mr. Stone> Hm? Ah. That Intriguing Stone you have..."}
-tellraw @s[scores={DialogueTrigger=73,TalkTime=1}] {"text":"<Mr. Stone> On second look, it seems to be Pidgeotite, doesn't it?"}
+tellraw @s[scores={DialogueTrigger=73,TalkTime=10}] {"text":"<Mr. Stone> On second look, it seems to be Pidgeotite, doesn't it?"}
 
-tellraw @s[scores={DialogueTrigger=73,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pidgeotite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=73,TalkTime=1}] run give @s pixelmon:pidgeotite
+execute as @s[scores={DialogueTrigger=73,TalkTime=17}] run clear @s pixelmon:intriguing_stone
+tellraw @s[scores={DialogueTrigger=73,TalkTime=17}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pidgeotite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=73,TalkTime=17}] run give @s pixelmon:pidgeotite
 
-tellraw @s[scores={DialogueTrigger=73,TalkTime=1}] {"text":"<Mr. Stone> To be carrying around a Mega Stone like that... It looks like you're also a bit of a connoisseur."}
-tellraw @s[scores={DialogueTrigger=73,TalkTime=1}] {"text":"<Mr. Stone> We had to do a whole lot of research into Mega Evolution to develop Infinity Energy."}
+tellraw @s[scores={DialogueTrigger=73,TalkTime=24}] {"text":"<Mr. Stone> To be carrying around a Mega Stone like that... It looks like you're also a bit of a connoisseur."}
+tellraw @s[scores={DialogueTrigger=73,TalkTime=34}] {"text":"<Mr. Stone> We had to do a whole lot of research into Mega Evolution to develop Infinity Energy."}
 
-tag @s[scores={DialogueTrigger=73,TalkTime=100..}] add Dialogue73
+tag @s[scores={DialogueTrigger=73,TalkTime=34..}] add Dialogue73
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 74 - Mauville City
 #Encountering Team Grunts on the north side
@@ -2730,42 +2750,47 @@ tag @s[scores={DialogueTrigger=88,TalkTime=100..}] add Dialogue88
 #https://youtu.be/MgkqxXCmrtI?t=30401
 
 tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> Welcome!"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> No, wait."}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> I mean... Puny Trainer, you've done well to make it this far!"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> Let's see. I'm, uh, honored to be serving as the Gym Leader of..."}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> No, I mean..."}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> I'm Flannery, and I'm in charge here!"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> Uh... You'd better not underestimate me just 'cause I've only been Leader a short time!"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> With the skills inherited from my grandfather, I'm gonna, uh, demonstrate the hot moves we've honed in this land!"}
-tellraw @s[scores={DialogueTrigger=89,TalkTime=1}] {"text":"<Flannery> Haiyaaaaaaaaaaaaa!"}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=7}] {"text":"<Flannery> No, wait."}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=13}] {"text":"<Flannery> I mean... Puny Trainer, you've done well to make it this far!"}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=21}] {"text":"<Flannery> Let's see. I'm, uh, honored to be serving as the Gym Leader of..."}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=30}] {"text":"<Flannery> No, I mean..."}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=36}] {"text":"<Flannery> I'm Flannery, and I'm in charge here!"}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=43}] {"text":"<Flannery> Uh... You'd better not underestimate me just 'cause I've only been Leader a short time!"}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=52}] {"text":"<Flannery> With the skills inherited from my grandfather, I'm gonna, uh, demonstrate the hot moves we've honed in this land!"}
+tellraw @s[scores={DialogueTrigger=89,TalkTime=62}] {"text":"<Flannery> Haiyaaaaaaaaaaaaa!"}
 
-execute as @s[scores={DialogueTrigger=89,TalkTime=1}] run tp @s -3102 70 1362
-execute as @s[scores={DialogueTrigger=89,TalkTime=1}] run pokebattle Flannery
+execute as @s[scores={DialogueTrigger=89,TalkTime=67}] run tp @s -3102 70 1362
+execute as @s[scores={DialogueTrigger=89,TalkTime=67}] run pokebattle Flannery
 
-tag @s[scores={DialogueTrigger=89,TalkTime=100..}] add Dialogue89
+tag @s[scores={DialogueTrigger=89,TalkTime=67..}] add Dialogue89
 #----------------------------
 #Dialogue 90 - Lavaridge Gym
 #Flannery Post-Battle
 #https://youtu.be/MgkqxXCmrtI?t=30632
 
 tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> I...I've only recently become a Gym Leader."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> I guess I was trying too hard to be someone I'm not."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> When I don't act like myself, no wonder Pokémon that battle at my side get confused."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> Thank you for teaching me that. You deserve this."}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=9}] {"text":"<Flannery> I guess I was trying too hard to be someone I'm not."}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=17}] {"text":"<Flannery> When I don't act like myself, no wonder Pokémon that battle at my side get confused."}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=27}] {"text":"<Flannery> Thank you for teaching me that. You deserve this."}
 
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Heat Badge from Flannery.","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=90,TalkTime=34}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Heat Badge from Flannery.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run give @s pixelmon:heat_badge
+execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> If you have a Heat Badge, it lets Pokémon use the HM move Strength outside of battle."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> This is a token of my appreciation. Don't be shy about taking it!"}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=41}] {"text":"<Flannery> If you have a Heat Badge, it lets Pokémon use the HM move Strength outside of battle."}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=50}] {"text":"<Flannery> This is a token of my appreciation. Don't be shy about taking it!"}
 
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM50 Overheat!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=90,TalkTime=1}] run give @s
+tellraw @s[scores={DialogueTrigger=90,TalkTime=57}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM50 Overheat!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=90,TalkTime=57}] run give @s pixelmon:tm_gen6{tm:50s}
+execute as @s[scores={DialogueTrigger=90,TalkTime=57}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> Overheat is a Fire-type move that inflicts serious damage on the target."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> But it also sharply cuts the Sp. Atk of the Pokémon using it."}
-tellraw @s[scores={DialogueTrigger=90,TalkTime=1}] {"text":"<Flannery> It might not be suitable for longer battles."}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=64}] {"text":"<Flannery> Overheat is a Fire-type move that inflicts serious damage on the target."}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=73}] {"text":"<Flannery> But it also sharply cuts the Sp. Atk of the Pokémon using it."}
+tellraw @s[scores={DialogueTrigger=90,TalkTime=81}] {"text":"<Flannery> It might not be suitable for longer battles."}
 
-tag @s[scores={DialogueTrigger=90,TalkTime=100..}] add Dialogue90
+tag @s[scores={DialogueTrigger=90,TalkTime=81..}] add Dialogue90
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 91 - Lavaridge Town
 #Upon leaving
@@ -2878,44 +2903,53 @@ tag @s[scores={DialogueTrigger=93,TalkTime=100..}] add Dialogue93
 #https://youtu.be/MgkqxXCmrtI?t=31145
 
 tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> Hm... So you did get four Gym Badges."}
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> Then, as I promised, we will have a Pokémon battle."}
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<Dad> "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> It makes me happier than I can really describe."}
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> Being able to have a real battle with my own kid like this."}
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> But a battle is a battle!"}
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] {"text":"<Dad> I will do everything within my power as a Gym Leader to win!"}
-tellraw @s[scores={DialogueTrigger=94,TalkTime=1}] ["",{"text":"<Dad> You'd better give it your best shot, too, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=94,TalkTime=10}] {"text":"<Dad> Then, as I promised, we will have a Pokémon battle."}
+tellraw @s[scores={DialogueTrigger=94,TalkTime=18}] ["",{"text":"<Dad> "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=94,TalkTime=23}] {"text":"<Dad> It makes me happier than I can really describe."}
+tellraw @s[scores={DialogueTrigger=94,TalkTime=30}] {"text":"<Dad> Being able to have a real battle with my own kid like this."}
+tellraw @s[scores={DialogueTrigger=94,TalkTime=38}] {"text":"<Dad> But a battle is a battle!"}
+tellraw @s[scores={DialogueTrigger=94,TalkTime=44}] {"text":"<Dad> I will do everything within my power as a Gym Leader to win!"}
+tellraw @s[scores={DialogueTrigger=94,TalkTime=52}] ["",{"text":"<Dad> You'd better give it your best shot, too, "},{"selector":"@s"},{"text":"!"}]
 
-tag @s[scores={DialogueTrigger=94,TalkTime=100..}] add Dialogue94
+execute as @s[scores={DialogueTrigger=94,TalkTime=52}] run tp @s -3236 95 1363 180 0
+execute as @s[scores={DialogueTrigger=94,TalkTime=52}] run pokebattle @s Norman
+
+tag @s[scores={DialogueTrigger=94,TalkTime=52..}] add Dialogue94
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 95 - Petalburg Gym
 #Norman Post-Battle
 
 tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> I can't believe it."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<Dad> I lost to "},{"selector":"@s"},{"text":"?"}]
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> ... ..."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> You've come this far..."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> That's how it is, then! I will give you this."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=8}] ["",{"text":"<Dad> I lost to "},{"selector":"@s"},{"text":"?"}]
+tellraw @s[scores={DialogueTrigger=95,TalkTime=15}] {"text":"<Dad> ... ..."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=20}] {"text":"<Dad> You've come this far..."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=27}] {"text":"<Dad> That's how it is, then! I will give you this."}
 
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Balance Badge from their dad!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=95,TalkTime=34}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Balance Badge from their dad!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run give @s pixelmon:balance_badge
+execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> Having that Badge will ensure that Pokémon that know the HM move Surf will be able to travel over water now."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<Dad> And this is my gift to you, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> I'm sure you'll be able to use it well."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=41}] {"text":"<Dad> Having that Badge will ensure that Pokémon that know the HM move Surf will be able to travel over water now."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=51}] ["",{"text":"<Dad> And this is my gift to you, "},{"selector":"@s"},{"text":"."}]
+tellraw @s[scores={DialogueTrigger=95,TalkTime=58}] {"text":"<Dad> I'm sure you'll be able to use it well."}
 
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM67 Retaliate","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=95,TalkTime=65}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM67 Retaliate","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=95,TalkTime=65}] run give @s pixelmon:tm_gen6{tm:67s}
+execute as @s[scores={DialogueTrigger=95,TalkTime=65}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> Retaliate will allow you to take revenge for a fallen team member."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> Its power will be doubled if you have a Pokémon use it in the very next move right after an ally faints."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> I hope you and your Pokémon will be diligent enough to use it wisely."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> ..."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> Sigh."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> As the Gym Leader, I can't express how frustrated I am."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> But, as a father, it makes me both happy and a little sad. It's odd."}
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] ["",{"text":"<Dad> ... Come on, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=95,TalkTime=1}] {"text":"<Dad> I'll see you on your way. Let's get out of here."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=72}] {"text":"<Dad> Retaliate will allow you to take revenge for a fallen team member."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=80}] {"text":"<Dad> Its power will be doubled if you have a Pokémon use it in the very next move right after an ally faints."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=90}] {"text":"<Dad> I hope you and your Pokémon will be diligent enough to use it wisely."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=97}] {"text":"<Dad> ..."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=101}] {"text":"<Dad> Sigh."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=105}] {"text":"<Dad> As the Gym Leader, I can't express how frustrated I am."}
+tellraw @s[scores={DialogueTrigger=95,TalkTime=113}] {"text":"<Dad> But, as a father, it makes me both happy and a little sad. It's odd."}
+#tellraw @s[scores={DialogueTrigger=95,TalkTime=120}] ["",{"text":"<Dad> ... Come on, "},{"selector":"@s"},{"text":"."}]
+#tellraw @s[scores={DialogueTrigger=95,TalkTime=127}] {"text":"<Dad> I'll see you on your way. Let's get out of here."}
 
-tag @s[scores={DialogueTrigger=95,TalkTime=100..}] add Dialogue95
+tag @s[scores={DialogueTrigger=95,TalkTime=113..}] add Dialogue95
 #-----------------------------
 #Dialogue 96 - Activate on player leaving
 #https://youtu.be/MgkqxXCmrtI?t=31561
@@ -3670,14 +3704,14 @@ tag @s[scores={DialogueTrigger=116,TalkTime=100..}] add Dialogue116
 #https://youtu.be/MgkqxXCmrtI?t=38564
 
 tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<Winona> I am Winona. I am the Leader of the Fortree Pokémon Gym."}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<Winona> I have become one with bird Pokémon and have soared the skies..."}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<Winona> However grueling the battle, we will triumph with grace..."}
-tellraw @s[scores={DialogueTrigger=117,TalkTime=1}] {"text":"<Winona> Witness the elegant choreography of my bird Pokémon and me!"}
+tellraw @s[scores={DialogueTrigger=117,TalkTime=9}] {"text":"<Winona> I have become one with bird Pokémon and have soared the skies..."}
+tellraw @s[scores={DialogueTrigger=117,TalkTime=17}] {"text":"<Winona> However grueling the battle, we will triumph with grace..."}
+tellraw @s[scores={DialogueTrigger=117,TalkTime=25}] {"text":"<Winona> Witness the elegant choreography of my bird Pokémon and me!"}
 
-execute as @s[scores={DialogueTrigger=117,TalkTime=1}] run tp @s -2799 222 1535
-execute as @s[scores={DialogueTrigger=117,TalkTime=1}] run pokebattle @s Winona
+execute as @s[scores={DialogueTrigger=117,TalkTime=30}] run tp @s -2799 222 1535 180 21
+execute as @s[scores={DialogueTrigger=117,TalkTime=30}] run pokebattle @s Winona
 
-tag @s[scores={DialogueTrigger=117,TalkTime=100..}] add Dialogue117
+tag @s[scores={DialogueTrigger=117,TalkTime=30..}] add Dialogue117
 #----------------------------
 #Dialogue 118 - Fortree Gym
 #Winona Post-Battle
@@ -3685,22 +3719,27 @@ tag @s[scores={DialogueTrigger=117,TalkTime=100..}] add Dialogue117
 
 tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> I recognize your talent and present you with this Gym Badge."}
 
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Feather Badge from Winona.","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=118,TalkTime=9}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Feather Badge from Winona.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run give @s pixelmon:feather_badge
+execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> With the Feather Badge, you will be able to use the HM move Fly outside of battle."}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> And this... This is a gift from me."}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=16}] {"text":"<Winona> With the Feather Badge, you will be able to use the HM move Fly outside of battle."}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=25}] {"text":"<Winona> And this... This is a gift from me."}
 
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM19 Roost","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=118,TalkTime=1}] run
+tellraw @s[scores={DialogueTrigger=118,TalkTime=32}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM19 Roost","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=118,TalkTime=32}] run give @s pixelmon:tm_gen6{tm:19s}
+execute as @s[scores={DialogueTrigger=118,TalkTime=32}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> Roost..."}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> With this move, the user can restore its HP by up to half of its max HP by landing on the ground and resting its injured body."}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> However, the user loses its Flying-type designation during the turn, so be cautious."}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> You won against me... I know you'll keep aiming higher and higher!"}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> Someday, you may even fly up into the sky..."}
-tellraw @s[scores={DialogueTrigger=118,TalkTime=1}] {"text":"<Winona> That's the impression I get from you."}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=39}] {"text":"<Winona> Roost..."}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=43}] {"text":"<Winona> With this move, the user can restore its HP by up to half of its max HP by landing on the ground and resting its injured body."}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=53}] {"text":"<Winona> However, the user loses its Flying-type designation during the turn, so be cautious."}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=62}] {"text":"<Winona> You won against me... I know you'll keep aiming higher and higher!"}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=70}] {"text":"<Winona> Someday, you may even fly up into the sky..."}
+tellraw @s[scores={DialogueTrigger=118,TalkTime=77}] {"text":"<Winona> That's the impression I get from you."}
 
-tag @s[scores={DialogueTrigger=118,TalkTime=100..}] add Dialogue118
+tag @s[scores={DialogueTrigger=118,TalkTime=77..}] add Dialogue118
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 119 - Route 121
 #Team Grunts
@@ -4362,52 +4401,61 @@ tag @s[scores={DialogueTrigger=136,TalkTime=100..}] add Dialogue136
 tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Liza> Heh heh heh... Were you surprised?"}
 tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> Tee hee hee... Were you surprised?"}
 
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Liza> That there are two Gym Leaders?"}
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> That there are two Gym Leaders?"}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=10}] {"text":"<Liza> That there are two Gym Leaders?"}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=10}] {"text":"<Tate> That there are two Gym Leaders?"}
 
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Liza> We're twins!"}
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> We're twins!"}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=18}] {"text":"<Liza> We're twins!"}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=18}] {"text":"<Tate> We're twins!"}
 
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Liza> We don't need to talk because..."}
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> ...we can each tell..."}
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Liza> ...what the other is thinking..."}
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> ...all in our minds!"}
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Liza> This combination of ours..."}
-tellraw @s[scores={DialogueTrigger=137,TalkTime=1}] {"text":"<Tate> Can you beat it?"}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=25}] {"text":"<Liza> We don't need to talk because..."}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=31}] {"text":"<Tate> ...we can each tell..."}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=38}] {"text":"<Liza> ...what the other is thinking..."}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=45}] {"text":"<Tate> ...all in our minds!"}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=52}] {"text":"<Liza> This combination of ours..."}
+tellraw @s[scores={DialogueTrigger=137,TalkTime=59}] {"text":"<Tate> Can you beat it?"}
 
-tag @s[scores={DialogueTrigger=137,TalkTime=100..}] add Dialogue137
+execute as @s[scores={DialogueTrigger=137,TalkTime=65}] run tp @s
+execute as @s[scores={DialogueTrigger=137,TalkTime=65}] run pokebattle
+
+tag @s[scores={DialogueTrigger=137,TalkTime=65..}] add Dialogue137
 #---------------------------
 #Dialogue 138 - Mossdeep Gym
 #Liza and Tate post-battle
 #https://youtu.be/MgkqxXCmrtI?t=51868
 
 tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> It can't be helped. You've won..."}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Tate> ...so take this in recognition!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=8}] {"text":"<Tate> ...so take this in recognition!"}
 
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Mind Badge from Liza and Tate.","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=138,TalkTime=16}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Mind Badge from Liza and Tate.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run give @s pixelmon:mind_badge
+execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Tate> The Mind Badge enables Pokémon to use the HM move called Dive!"}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> And take this, too!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=23}] {"text":"<Tate> The Mind Badge enables Pokémon to use the HM move called Dive!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=31}] {"text":"<Liza> And take this, too!"}
 
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM04 Calm Mind!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=138,TalkTime=38}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM04 Calm Mind!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=138,TalkTime=38}] run give @s pixelmon:tm_gen6{tm:4s}
+execute as @s[scores={DialogueTrigger=138,TalkTime=38}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> Calm Mind..."}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Tate> ...comes from relaxing your mind and concentrating."}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=45}] {"text":"<Liza> Calm Mind..."}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=51}] {"text":"<Tate> ...comes from relaxing your mind and concentrating."}
 
 #same time
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> Pokémon's Sp. Atk and..."}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Tate> ...Pokémon's Sp. Def..."}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=59}] {"text":"<Liza> Pokémon's Sp. Atk and..."}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=59}] {"text":"<Tate> ...Pokémon's Sp. Def..."}
 
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> ...will be heightened by this move!"}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Tate> It's a perfect move for Psychic-type Pokémon!"}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Tate> Looks like the bond between you and your Pokémon is far stronger than the bond we share as twins..."}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Tate> But you'll go on from here to form even more bonds! That's the future I see for you!"}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> There may be a harsh ordeal ahead for you and your Pokémon..."}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> But that's all right! You and your Pokémon aren't alone!"}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> You have each other!"}
-tellraw @s[scores={DialogueTrigger=138,TalkTime=1}] {"text":"<Liza> That's why we want you to face whatever troubles may come your way head-on and full of courage!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=67}] {"text":"<Liza> ...will be heightened by this move!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=74}] {"text":"<Tate> It's a perfect move for Psychic-type Pokémon!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=81}] {"text":"<Tate> Looks like the bond between you and your Pokémon is far stronger than the bond we share as twins..."}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=91}] {"text":"<Tate> But you'll go on from here to form even more bonds! That's the future I see for you!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=100}] {"text":"<Liza> There may be a harsh ordeal ahead for you and your Pokémon..."}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=108}] {"text":"<Liza> But that's all right! You and your Pokémon aren't alone!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=116}] {"text":"<Liza> You have each other!"}
+tellraw @s[scores={DialogueTrigger=138,TalkTime=123}] {"text":"<Liza> That's why we want you to face whatever troubles may come your way head-on and full of courage!"}
 
-tag @s[scores={DialogueTrigger=138,TalkTime=100..}] add Dialogue138
+tag @s[scores={DialogueTrigger=138,TalkTime=123..}] add Dialogue138
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 139 - Mossdeep City
 #Upon exiting the gym
@@ -5294,53 +5342,58 @@ tag @s[scores={DialogueTrigger=150,TalkTime=100..}] add Dialogue150
 #https://youtu.be/MgkqxXCmrtI?t=58198
 
 tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> Allow me to formally introduce myself."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> I am Wallace. The Gym Leader of Sootopolis City."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> There's something about you... A difference in your demeanor..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> I think I sense that in you."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> What happened inside the Cave of Origin, and what you did there..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> Our upcoming battle will make that all clear."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> Now, show me. Show me the power you wield with your Pokémon."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> And I, in turn, shall present you..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> with a performance of illusions in water..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> by me and my Pokémon!"}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=8}] {"text":"<Wallice> I am Wallace. The Gym Leader of Sootopolis City."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=15}] {"text":"<Wallice> There's something about you... A difference in your demeanor..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=24}] {"text":"<Wallice> I think I sense that in you."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=31}] {"text":"<Wallice> What happened inside the Cave of Origin, and what you did there..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=40}] {"text":"<Wallice> Our upcoming battle will make that all clear."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=47}] {"text":"<Wallice> Now, show me. Show me the power you wield with your Pokémon."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=54}] {"text":"<Wallice> And I, in turn, shall present you..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=61}] {"text":"<Wallice> with a performance of illusions in water..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=67}] {"text":"<Wallice> by me and my Pokémon!"}
 
-execute as @s[scores={DialogueTrigger=151,TalkTime=1}] run tp @s -3532 91 1344
-execute as @s[scores={DialogueTrigger=151,TalkTime=1}] run pokebattle @s Wallice
+execute as @s[scores={DialogueTrigger=151,TalkTime=73}] run tp @s -3532 91 1344
+execute as @s[scores={DialogueTrigger=151,TalkTime=73}] run pokebattle @s Wallice
 
-tag @s[scores={DialogueTrigger=151,TalkTime=100..}] add Dialogue151
+tag @s[scores={DialogueTrigger=151,TalkTime=73..}] add Dialogue151
 #------------------------------
 #Dialogue 152 - Sootopolis Gym
 #Wallace Post-Battle
 #https://youtu.be/MgkqxXCmrtI?t=58406
 
 tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> I realize now your authenticity and magnificence as a Pokémon Trainer."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> I find much joy in having met you and your Pokémon."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> You have proven yourself worthy of the Rain Badge."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Accept it."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=10}] {"text":"<Wallice> I find much joy in having met you and your Pokémon."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=17}] {"text":"<Wallice> You have proven yourself worthy of the Rain Badge."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=24}] {"text":"<Wallice> Accept it."}
 
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Rain Badge from Wallace.","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=152,TalkTime=30}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Rain Badge from Wallace.","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run give @s pixelmon:rain_badge
+execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run stopsound @s record
+execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run scoreboard players set @s MusicCooldown 10
+execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> And so you never forget the battle we shared..."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Here..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=37}] {"text":"<Wallice> And so you never forget the battle we shared..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=44}] {"text":"<Wallice> Here..."}
 
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM05 Waterfall!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=152,TalkTime=1}] run give @s pixelmon:hm7
+tellraw @s[scores={DialogueTrigger=152,TalkTime=50}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM05 Waterfall!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=152,TalkTime=50}] run give @s pixelmon:hm7
+execute as @s[scores={DialogueTrigger=152,TalkTime=50}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> The HM I have given you contains Waterfall."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> It allows you to smash into an opponent with the force required to climb a waterfall itself."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Yes, it is a mighty move..."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> And yet it also has a certain elegance and can sometimes cause opponents to flinch."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Now, with the power of the Rain Badge, you will become able to use this HM move, Waterfall, to scale walls of cascading water."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Many paths are open to you now."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> One path would take you to the Pokémon League."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> It is the goal that all Trainers in Hoenn aspire to reach after obtaining all eight Gym Badges."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> If that is the path you chose, then you must find your way to the island said to be the most remote in Hoenn: Ever Grande."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> But if it is a different path you seek, and you would rather pursue Pokémon and a completed Pokédex..."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> The rumors that reach me on the wind whisper that Professor Birch in Littleroot has created a more powerful Pokédex."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> Visit him, obtain this new technology, and I have little doubt you will encounter more diverse Pokémon than ever before."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> ...I will hope that a bright future waits for you, whatever path it is you choose."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=57}] {"text":"<Wallice> The HM I have given you contains Waterfall."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=64}] {"text":"<Wallice> It allows you to smash into an opponent with the force required to climb a waterfall itself."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=73}] {"text":"<Wallice> Yes, it is a mighty move..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=80}] {"text":"<Wallice> And yet it also has a certain elegance and can sometimes cause opponents to flinch."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=88}] {"text":"<Wallice> Now, with the power of the Rain Badge, you will become able to use this HM move, Waterfall, to scale walls of cascading water."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=98}] {"text":"<Wallice> Many paths are open to you now."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=105}] {"text":"<Wallice> One path would take you to the Pokémon League."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=112}] {"text":"<Wallice> It is the goal that all Trainers in Hoenn aspire to reach after obtaining all eight Gym Badges."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=121}] {"text":"<Wallice> If that is the path you chose, then you must find your way to the island said to be the most remote in Hoenn: Ever Grande."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=131}] {"text":"<Wallice> But if it is a different path you seek, and you would rather pursue Pokémon and a completed Pokédex..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=140}] {"text":"<Wallice> The rumors that reach me on the wind whisper that Professor Birch in Littleroot has created a more powerful Pokédex."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=150}] {"text":"<Wallice> Visit him, obtain this new technology, and I have little doubt you will encounter more diverse Pokémon than ever before."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=160}] {"text":"<Wallice> ...I will hope that a bright future waits for you, whatever path it is you choose."}
 
-tag @s[scores={DialogueTrigger=152,TalkTime=100..}] add Dialogue152
+tag @s[scores={DialogueTrigger=152,TalkTime=160..}] add Dialogue152
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 153 - Victory Road
 #Wally Pre-Battle
