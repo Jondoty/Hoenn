@@ -213,9 +213,152 @@ execute as @s[scores={TriggerCommand=37}] run
 #[No]
 execute as @s[scores={TriggerCommand=38}] run
 
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 225 - Spawns Heatran when confirmed
+
+execute as @s[scores={TriggerCommand=39}] run tellraw @s {"text":"Heatran Appeared!"}
+execute as @s[scores={TriggerCommand=39}] run pokebattle @s Heatran lvl:50
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 234-236 - Spawns sword trio when confirmed, results depends on day of the week.
+
+#If player has encountered one of the swords when they click on it on a specific day
+
+execute as @s[scores={TriggerCommand=40},tag=VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=40},tag=TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=40},tag=CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=40},tag=VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=40},tag=CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=40},tag=TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=40},tag=CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
 
 
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tellraw @s {"text":"Virizion Appeared!"}
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run pokebattle Virizion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tag @s add VirizionEncounter
 
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tellraw @s {"text":"Terrakion Appeared!"}
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run pokebattle Terrakion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tag @s add TerrakionEncounter
+
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tellraw @s {"text":"Cobalion Appeared!"}
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run pokebattle Cobalion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tag @s add CobalionEncounter
+
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tellraw @s {"text":"Virizion Appeared!"}
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run pokebattle Virizion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tag @s add VirizionEncounter
+
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tellraw @s {"text":"Cobalion Appeared!"}
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run pokebattle Cobalion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tag @s add CobalionEncounter
+
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tellraw @s {"text":"Terrakion Appeared!"}
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run pokebattle Terrakion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tag @s add TerrakionEncounter
+
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tellraw @s {"text":"Cobalion Appeared!"}
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run pokebattle Cobalion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tag @s add CobalionEncounter
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 237-239 - Spawns sword trio when confirmed, results depends on day of the week.
+
+#If player has encountered one of the swords when they click on it on a specific day
+#Originally it's dependent on the player's clock, but the Minecraft day clock moves too fast for that, and 20-minute increments roughly translates to day of the week anyway
+
+execute as @s[scores={TriggerCommand=41},tag=SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=41},tag=EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=41},tag=RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=41},tag=SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=41},tag=RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=41},tag=EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=41},tag=RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+
+
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tellraw @s {"text":"Suicune Appeared!"}
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run pokebattle Suicune lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tag @s add SuicuneEncounter
+
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tellraw @s {"text":"Entei Appeared!"}
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run pokebattle Entei lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tag @s add EnteiEncounter
+
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tellraw @s {"text":"Raikou Appeared!"}
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run pokebattle Raikou lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tag @s add RaikouEncounter
+
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tellraw @s {"text":"Suicune Appeared!"}
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run pokebattle Suicune lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tag @s add SuicuneEncounter
+
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tellraw @s {"text":"Raikou Appeared!"}
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run pokebattle Raikou lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tag @s add RaikouEncounter
+
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tellraw @s {"text":"Entei Appeared!"}
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run pokebattle Entei lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tag @s add EnteiEncounter
+
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tellraw @s {"text":"Raikou Appeared!"}
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run pokebattle Raikou lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tag @s add RaikouEncounter
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 240 - Soaring in the sky (Depends on the weather, sunny for Tornadus)
+#Tornadus
+
+execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tellraw @s {"text":"Tornadus Appeared!"}
+execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run pokebattle Tornadus lvl:50
+execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tag @s add TornadusEncounter
+
+#---------------------------------------------------
+#Dialogue 241 - Soaring in the sky (Depends on the weather, rainy for Thundurus)
+#Thundurus
+
+execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tellraw @s {"text":"Thundurus Appeared!"}
+execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run pokebattle Thundurus lvl:50
+execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tag @s add ThundurusEncounter
+
+#---------------------------------------------------
+#Dialogue 241 - Soaring in the sky
+#Landorus
+
+execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run tellraw @s {"text":"Landorus Appeared!"}
+execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run pokebattle Landorus lvl:50
+execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run tag @s add LandorusEncounter
+
+#-----------------------------------------------------------------------------------------------------
+#Lake Trio, time-of-day-based.
+
+execute as @s[scores={TriggerCommand=45},tag=UxieEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=45},tag=MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=45},tag=AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+execute as @s[scores={TriggerCommand=45},tag=AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run tellraw @s {"text":"Nothing appeared...","italic":true,"color":"gray"}
+
+execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run tellraw @s {"text":"Uxie Appeared!"}
+execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run pokebattle Uxie lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run tag @s add UxieEncounter
+
+execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}}] run tellraw @s {"text":"Mespirit Appeared!"}
+execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}}] run pokebattle Mespirit lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}}] run tag @s add MespiritEncounter
+
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run tellraw @s {"text":"Azelf Appeared!"}
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run pokebattle Azelf lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run tag @s add AzelfEncounter
+
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run tellraw @s {"text":"Azelf Appeared!"}
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run pokebattle Azelf lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run tag @s add AzelfEncounter
+
+#-----------------------------------------------------------------------------------------------------
+#Dialga/Palkia (randomize which it is today based on Mirage spot roll)
+
+#-----------------------------------------------------------------------------------------------------
+#Reshiram/Zekrom (randomize which it is today based on Mirage spot roll)
+
+#-----------------------------------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------------------------------
 #100+, chatting NPCs give player items

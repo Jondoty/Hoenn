@@ -8109,9 +8109,9 @@ tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"A mysterious ring i
 tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
 #[Yes]
 
-execute as @s[scores={DialogueTrigger=225,TalkTime=1}] run pokebattle @s Heatran lvl:50
+#execute as @s[scores={DialogueTrigger=225,TalkTime=1}] run pokebattle @s Heatran lvl:50
 
-tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"Heatran Appeared!"}
+#tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"Heatran Appeared!"}
 
 tag @s[scores={DialogueTrigger=225,TalkTime=100..}] add Dialogue225
 #-----------------------------------------------------------------------------------------------------
