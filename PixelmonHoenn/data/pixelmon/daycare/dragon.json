@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "1x Diamond Block",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:diamond_block",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "2x Gold Block",
-      "items": [
-        {
-          "item": "minecraft:gold_block",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x End Stone",
-      "items": [
-        {
-          "item": "minecraft:end_stone",
-          "amount": 3
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

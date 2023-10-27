@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "5x Flint n' Steel",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:flint_and_steel",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "2x Lava Bucket",
-      "items": [
-        {
-          "item": "minecraft:lava_bucket",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "2x Blaze Rod",
-      "items": [
-        {
-          "item": "minecraft:blaze_rod",
-          "amount": 2
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "1x Brewing Stand",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:brewing_stand",
-          "amount": 1
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Mycelium",
-      "items": [
-        {
-          "item": "minecraft:mycelium",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Slime Block",
-      "items": [
-        {
-          "item": "minecraft:slime_block",
-          "amount": 3
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

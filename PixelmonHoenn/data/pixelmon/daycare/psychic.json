@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "5x Eye of Ender",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:ender_eye",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Bookshelf",
-      "items": [
-        {
-          "item": "minecraft:bookshelf",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "2x Clock",
-      "items": [
-        {
-          "item": "minecraft:clock",
-          "amount": 2
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

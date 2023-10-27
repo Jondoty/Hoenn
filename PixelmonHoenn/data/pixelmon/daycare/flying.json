@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "10x Feather",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:feather",
-          "amount": 10
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Glass",
-      "items": [
-        {
-          "item": "minecraft:glass",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Target",
-      "items": [
-        {
-          "item": "minecraft:target",
-          "amount": 3
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

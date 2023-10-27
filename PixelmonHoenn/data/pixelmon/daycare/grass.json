@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "5x Grass",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:grass",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Oak Leaves",
-      "items": [
-        {
-          "item": "minecraft:oak_leaves",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Grass Block",
-      "items": [
-        {
-          "item": "minecraft:grass_block",
-          "amount": 3
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

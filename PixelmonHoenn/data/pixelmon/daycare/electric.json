@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "2x Redstone Block",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:redstone_block",
-          "amount": 2
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Glowstone",
-      "items": [
-        {
-          "item": "minecraft:glowstone",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "2x Redstone Lamp",
-      "items": [
-        {
-          "item": "minecraft:redstone_lamp",
-          "amount": 2
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "3x Iron Block",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:iron_block",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Iron Bars",
-      "items": [
-        {
-          "item": "minecraft:iron_bars",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "2x Silver Block",
-      "items": [
-        {
-          "item": "pixelmon:silver_block",
-          "amount": 2
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

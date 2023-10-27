@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "3x Clay",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:clay",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Brown Terracotta",
-      "items": [
-        {
-          "item": "minecraft:brown_terracotta",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Soul Soil",
-      "items": [
-        {
-          "item": "minecraft:soul_soil",
-          "amount": 3
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

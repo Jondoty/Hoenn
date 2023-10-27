@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "10x Leather",
+      "error_message": "none",
       "items": [
         {
-          "item": "minecraft:leather",
-          "amount": 10
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x Hay Bale",
-      "items": [
-        {
-          "item": "minecraft:hay_block",
-          "amount": 3
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "3x White Wool",
-      "items": [
-        {
-          "item": "minecraft:white_wool",
-          "amount": 3
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }

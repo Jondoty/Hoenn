@@ -3,38 +3,18 @@
   "durations": [
     {
       "type": "add",
-      "amount": 90,
+      "amount": 3,
       "unit": "MINUTES"
     }
   ],
   "requirements": [
     {
       "type": "itemstack",
-      "error_message": "5x Boulder",
+      "error_message": "none",
       "items": [
         {
-          "item": "pixelmon:boulder",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "5x Granite",
-      "items": [
-        {
-          "item": "minecraft:granite",
-          "amount": 5
-        }
-      ]
-    },
-    {
-      "type": "itemstack",
-      "error_message": "10x Stone",
-      "items": [
-        {
-          "item": "minecraft:stone",
-          "amount": 10
+          "item": "minecraft:air",
+          "amount": 0
         }
       ]
     }
