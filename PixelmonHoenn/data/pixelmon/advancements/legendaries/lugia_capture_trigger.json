@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "pixelmon:poke_ball"
+    },
+    "title": "Legendary Capture",
+    "description": "catch tracking",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria" : {
+      "lugia_capture" : {
+          "trigger" : "pixelmon:legendary_capture_trigger",
+          "conditions" : {
+              "pokemon" : "lugia"
+          }
+      }
+  },
+  "rewards": {
+    "function": "hoenn:catch/lugia"
+  }
+}

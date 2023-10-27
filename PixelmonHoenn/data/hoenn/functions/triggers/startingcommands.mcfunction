@@ -71,6 +71,41 @@ tag @s remove FlyLeague
 tag @s remove FlyResort
 
 
+#Resets legendary caught tags
+tag @s remove AzelfCatch
+tag @s remove CobalionCatch
+tag @s remove CresseliaCatch
+tag @s remove DeoxysCatch
+tag @s remove DialgaCatch
+tag @s remove EnteiCatch
+tag @s remove GiratinaCatch
+tag @s remove GroudonCatch
+tag @s remove HeatranCatch
+tag @s remove HoohCatch
+tag @s remove KyogreCatch
+tag @s remove KyuremCatch
+tag @s remove LandorusCatch
+tag @s remove LatiasCatch
+tag @s remove LatiosCatch
+tag @s remove LugiaCatch
+tag @s remove MespiritCatch
+tag @s remove PalkiaCatch
+tag @s remove RaikouCatch
+tag @s remove RayquazaCatch
+tag @s remove RegiceCatch
+tag @s remove RegigigasCatch
+tag @s remove RegirockCatch
+tag @s remove RegisteelCatch
+tag @s remove ReshiramCatch
+tag @s remove suicuneCatch
+tag @s remove TerrakionCatch
+tag @s remove ThundurusCatch
+tag @s remove TornadusCatch
+tag @s remove UxieCatch
+tag @s remove VirizionCatch
+tag @s remove ZekromCatch
+
+
 #Removes any existing story tags
 tag @s remove Dialogue1
 tag @s remove Dialogue2

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "pixelmon:poke_ball"
+    },
+    "title": "Legendary Capture",
+    "description": "catch tracking",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria" : {
+      "latias_capture" : {
+          "trigger" : "pixelmon:legendary_capture_trigger",
+          "conditions" : {
+              "pokemon" : "latias"
+          }
+      }
+  },
+  "rewards": {
+    "function": "hoenn:catch/latias"
+  }
+}
