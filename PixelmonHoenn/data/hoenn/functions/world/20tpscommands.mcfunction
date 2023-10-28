@@ -29,6 +29,11 @@ execute as @a at @s if entity @e[type=pixelmon:bike,distance=..3] run function h
 execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:mach_bike",Count:1b}},tag=!AdventureData] run function hoenn:data/bikeitemdata
 execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:acro_bike",Count:1b}},tag=!AdventureData] run function hoenn:data/bikeitemdata
 
+#Soaring Overworld particles
+execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] if predicate hoenn:rain_test positioned -863 95 1411 run particle minecraft:flame ~ ~ ~ 1 1 1 0 13 force @a[tag=!ThundurusEncounter]
+execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] if predicate hoenn:rain_test positioned -863 95 1411 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 1 2 0 50 force @a[tag=!ThundurusEncounter]
+
+
 #-----------------------------------------------------------------------------------------
 #Poke Nav commands
 execute as @a run function hoenn:pokenav/throwdetect

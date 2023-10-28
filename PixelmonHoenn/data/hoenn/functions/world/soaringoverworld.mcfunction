@@ -355,10 +355,11 @@ scoreboard players set @s PokeHave 0
 #The first contains TornadusOR/ThundurusAS, and only appears if the player has Castform in their party
 #The second cloud contains Landorus, and only appears if the player has Tornadus and Thundurus in their party
 
+#Thundurus, runs if it is raining
+execute if predicate hoenn:rain_test run scoreboard players set @a[x=-863,y=95,z=1411,distance=..7,tag=!Dialogue241] DialogueTrigger 241
 
-
-
-
+#Tornadus, runs if it is sunny
+#execute unless predicate hoenn:rain_test run scoreboard players set @a[x=-930,y=95,z=1522,distance=..7,tag=!Dialogue240] DialogueTrigger 240
 
 
 #Regular world zones

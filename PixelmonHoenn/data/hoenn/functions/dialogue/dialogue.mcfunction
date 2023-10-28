@@ -8315,27 +8315,32 @@ tag @s[scores={DialogueTrigger=239,TalkTime=100..}] add Dialogue239
 #Requires Castform in player's party
 
 tellraw @s[scores={DialogueTrigger=240,TalkTime=1}] {"text":"You feel a presence behind the black clouds."}
-tellraw @s[scores={DialogueTrigger=240,TalkTime=1}] {"text":"A strong wind is blowing..."}
-tellraw @s[scores={DialogueTrigger=240,TalkTime=1}] {"text":"Despite that, do you want to fly into the clouds?"}
+tellraw @s[scores={DialogueTrigger=240,TalkTime=8}] {"text":"A strong wind is blowing..."}
+tellraw @s[scores={DialogueTrigger=240,TalkTime=15}] {"text":"Despite that, do you want to fly into the clouds?"}
+execute as @s[scores={DialogueTrigger=240,TalkTime=15}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=240,TalkTime=15}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 42"}},{"text":"]"}]
+
 #[Yes]
 
-tellraw @s[scores={DialogueTrigger=240,TalkTime=1}] {"text":"Tornadus appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=240,TalkTime=1}] run pokebattle @s Tornadus lvl:50
+#tellraw @s[scores={DialogueTrigger=240,TalkTime=1}] {"text":"Tornadus appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=240,TalkTime=1}] run pokebattle @s Tornadus lvl:50
 
-tag @s[scores={DialogueTrigger=240,TalkTime=100..}] add Dialogue240
+tag @s[scores={DialogueTrigger=240,TalkTime=16..}] add Dialogue240
 #-------------------------------
 #Dialogue 241 - Soaring in the sky
 #Thundurus Prompt
 
 tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"You feel a presence behind the black clouds."}
-tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"It looks as though lightning could strike at any moment..."}
-tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"Despite that, do you want to fly into the clouds?"}
+tellraw @s[scores={DialogueTrigger=241,TalkTime=9}] {"text":"It looks as though lightning could strike at any moment..."}
+tellraw @s[scores={DialogueTrigger=241,TalkTime=16}] {"text":"Despite that, do you want to fly into the clouds?"}
+execute as @s[scores={DialogueTrigger=241,TalkTime=16}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=241,TalkTime=16}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 43"}},{"text":"]"}]
 #[Yes]
 
-tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"Thundurus appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=241,TalkTime=1}] run pokebattle @s Thundurus lvl:50
+#tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"Thundurus appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=241,TalkTime=1}] run pokebattle @s Thundurus lvl:50
 
-tag @s[scores={DialogueTrigger=241,TalkTime=100..}] add Dialogue241
+tag @s[scores={DialogueTrigger=241,TalkTime=16..}] add Dialogue241
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 242 - Lillycove or Slateport Harbor
 #https://youtu.be/MgkqxXCmrtI?t=85438

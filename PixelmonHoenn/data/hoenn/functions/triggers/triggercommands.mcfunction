@@ -309,7 +309,7 @@ execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2
 #Tornadus
 
 execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tellraw @s {"text":"Tornadus Appeared!"}
-execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run pokebattle Tornadus lvl:50
+execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] at @s run pokespawn Tornadus lvl:50 gr:7
 execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tag @s add TornadusEncounter
 
 #---------------------------------------------------
@@ -317,7 +317,7 @@ execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tag @s add 
 #Thundurus
 
 execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tellraw @s {"text":"Thundurus Appeared!"}
-execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run pokebattle Thundurus lvl:50
+execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] at @s run pokespawn Thundurus lvl:50 gr:7
 execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tag @s add ThundurusEncounter
 
 #---------------------------------------------------
@@ -325,7 +325,7 @@ execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tag @s add
 #Landorus
 
 execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run tellraw @s {"text":"Landorus Appeared!"}
-execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run pokebattle Landorus lvl:50
+execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] at @s run pokespawn Landorus lvl:50 gr:7
 execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run tag @s add LandorusEncounter
 
 #-----------------------------------------------------------------------------------------------------
@@ -340,9 +340,9 @@ execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] if entity @e[x=-207
 execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run pokebattle Uxie lvl:50
 execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run tag @s add UxieEncounter
 
-execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}}] run tellraw @s {"text":"Mespirit Appeared!"}
-execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}}] run pokebattle Mespirit lvl:50
-execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}}] run tag @s add MespiritEncounter
+execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run tellraw @s {"text":"Mespirit Appeared!"}
+execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run pokebattle Mespirit lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!MespiritEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run tag @s add MespiritEncounter
 
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run tellraw @s {"text":"Azelf Appeared!"}
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run pokebattle Azelf lvl:50
@@ -1060,6 +1060,6 @@ execute as @s[scores={TriggerCommand=500..999}] run scoreboard players set @s Tr
 
 
 
-
+scoreboard players set @s TriggerCommand 0
 
 #
