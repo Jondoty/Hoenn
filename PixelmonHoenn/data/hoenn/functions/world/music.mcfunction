@@ -237,6 +237,11 @@ scoreboard players set @s[x=848,y=60,z=1646,dx=32,dy=10,dz=20,scores={MusicCoold
 #---------------------------------------------------------------------------------------------------------------------------
 #World Music
 
+#Contest Halls (All)
+playsound contestlobby record @s[x=-1799,y=63,z=1240,dx=261,dy=100,dz=366,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1799,y=63,z=1240,dx=261,dy=100,dz=366,scores={MusicCooldown=0}] MusicCooldown 95
+
+
 #Lobby
 playsound maintheme record @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52,scores={MusicCooldown=0}] MusicCooldown 147

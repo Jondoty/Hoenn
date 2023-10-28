@@ -290,8 +290,11 @@ execute as @a[x=-2097,y=50,z=-640,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2097,y=50,z=-640,dx=3,dy=3] -2096 69 -639
 
 #Contest Hall
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2158,y=69,z=-618,dx=10,dy=3,dz=2] run function hoenn:tools/forceclick
+tp @a[x=-2158,y=69,z=-618,dx=10,dy=3,dz=2] -1742 67 1443
+
+execute as @a[x=-1743,y=67,z=1444,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1743,y=67,z=1444,dx=3,dy=3] -2153 69 -615
 
 #Left Home
 tp @a[x=-2184,y=69,z=-581,dx=4,dy=3] -2182 50 -582
@@ -374,8 +377,12 @@ execute as @a[x=-1490,y=50,z=262,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1490,y=50,z=262,dx=3,dy=3] -1489 69 263
 
 #Contest Hall
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-1572,y=69,z=196,dx=10,dy=3,dz=2] run function hoenn:tools/forceclick
+tp @a[x=-1572,y=69,z=196,dx=10,dy=3,dz=2] -1636 67 1443
+
+execute as @a[x=-1637,y=67,z=1444,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1637,y=67,z=1444,dx=3,dy=3] -1567 69 199
+
 
 #Fan Club
 tp @a[x=-1619,y=69,z=271,dx=4,dy=3] -1616 52 270
@@ -646,8 +653,12 @@ execute as @a[x=-2197,y=70,z=-1384,dx=3,dy=3] run function hoenn:tools/forceclic
 tp @a[x=-2197,y=70,z=-1384,dx=3,dy=3] -2196 89 -1383
 
 #Contest Hall
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-2269,y=89,z=-1431,dx=9,dy=3,dz=2] run function hoenn:tools/forceclick
+tp @a[x=-2269,y=89,z=-1431,dx=9,dy=3,dz=2] -1742 67 1348
+
+execute as @a[x=-1743,y=67,z=1349,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1743,y=67,z=1349,dx=3,dy=3] -2264 89 -1428
+
 
 #Left NPC Home
 tp @a[x=-2321,y=89,z=-1432,dx=6,dy=3] -2318 74 -1433
@@ -855,8 +866,11 @@ tp @a[x=437,y=74,z=-988,dx=4,dy=3] 439 53 -989
 tp @a[x=437,y=53,z=-988,dx=3,dy=3] 439 74 -987
 
 #Contest Hall
-#tp @a[x=,y=,z=,dx=3,dy=3]
-#tp @a[x=,y=,z=,dx=3,dy=3]
+execute as @a[x=-1637,y=67,z=1349,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1637,y=67,z=1349,dx=3,dy=3] 514 74 -977
+
+execute as @a[x=509,y=74,z=-980,dx=10,dy=3,dz=2] run function hoenn:tools/forceclick
+tp @a[x=509,y=74,z=-980,dx=10,dy=3,dz=2] -1636 67 1348
 
 #Lilycove Motel
 tp @a[x=609,y=74,z=-986,dx=4,dy=3] 611 31 -987
