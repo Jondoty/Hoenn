@@ -1,27 +1,55 @@
 {
-  "data": {
-    "type": "PokemartMain"
-  },
-  "textures": [
-    {
-      "name": "schoolboy.png"
-    }
-  ],
-  "names": [
-    {
-      "name": "Secret Power Club"
-    }
-  ],
-  "chat": [
-    {
-      "hello": "I've got a great array of Decorations for your Secret Base! Step right up and have a look!",
-      "goodbye": "Hope to see you again, pal!"
-    }
-  ],
-  "items": [
-    {
-      "name": "pixelmon:protein",
-      "variation": false
-    }
-  ]
+    "data": {
+        "type": "PokemartMain"
+    },
+    "textures": [
+        {
+            "name": "schoolboy.png"
+        }
+    ],
+    "names": [
+        {
+            "name": "Secret Power Club"
+        }
+    ],
+    "chat": [
+        {
+            "hello": "I've got a great array of Decorations for your Secret Base! Step right up and have a look!",
+            "goodbye": "Hope to see you again, pal!"
+        }
+    ],
+    "items": [
+        {
+            "name": "pixelmon:movement_plate",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:stick_plate",
+            "variation": false
+        },
+        {
+            "name": "minecraft:amethyst_cluster",
+            "variation": false
+        },
+        {
+            "name": "minecraft:enchanting_table",
+            "variation": false
+        },
+        {
+            "name": "minecraft:end_crystal",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cross_tombstone",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:tall_tombstone",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:vertical_tombstone",
+            "variation": false
+        }
+    ]
 }

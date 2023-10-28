@@ -1,0 +1,399 @@
+{
+    "data": {
+        "type": "PokemartMain"
+    },
+    "textures": [
+        {
+            "name": "shopman.png"
+        }
+    ],
+    "names": [
+        {
+            "name": "Department Store Clerk"
+        }
+    ],
+    "chat": [
+        {
+            "hello": "Welcome to Lilycove Department Store! I've got electronics for your base here!",
+            "goodbye": "We look forward to seeing you again!"
+        }
+    ],
+    "items": [
+        {
+            "name": "pixelmon:fossil_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:fossil_cleaner",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cloning_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:fossil_display",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:fridge",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:oven",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:fan",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:washing_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:mower",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:tv",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:tv2",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:tv3",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lightworkplace",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:darkworkplace",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_pc",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_healer",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_trade_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_vending_machine",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_cash_register",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_cash_register",
+            "variation": false
+        }
+    ]
+}

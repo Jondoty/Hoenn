@@ -1,0 +1,359 @@
+{
+    "data": {
+        "type": "PokemartMain"
+    },
+    "textures": [
+        {
+            "name": "shopman.png"
+        }
+    ],
+    "names": [
+        {
+            "name": "Department Store Clerk"
+        }
+    ],
+    "chat": [
+        {
+            "hello": "Welcome to Lilycove Department Store! I've got miscellaneous furnishings for your base here!",
+            "goodbye": "We look forward to seeing you again!"
+        }
+    ],
+    "items": [
+        {
+            "name": "minecraft:bookshelf",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cluttered_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:picket_fence",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_letter_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_mail_box",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_mail_box",
+            "variation": false
+        },
+        {
+            "name": "minecraft:white_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:light_gray_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:gray_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:black_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:brown_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:red_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:orange_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:yellow_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:lime_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:green_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:cyan_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:light_blue_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:blue_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:purple_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:magenta_candle",
+            "variation": false
+        },
+        {
+            "name": "minecraft:pink_candle",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_umbrella",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_water_float",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_water_float",
+            "variation": false
+        }
+    ]
+}

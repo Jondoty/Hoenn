@@ -1,0 +1,427 @@
+{
+    "data": {
+        "type": "PokemartMain"
+    },
+    "textures": [
+        {
+            "name": "shopman.png"
+        }
+    ],
+    "names": [
+        {
+            "name": "Department Store Clerk"
+        }
+    ],
+    "chat": [
+        {
+            "hello": "Welcome to Lilycove Department Store! I've got furniture for your base here!",
+            "goodbye": "We look forward to seeing you again!"
+        }
+    ],
+    "items": [
+        {
+            "name": "minecraft:painting",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:end_table",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:froggy_chair",
+            "variation": false
+        },
+        {
+            "name": "minecraft:chiseled_bookshelf",
+            "variation": false
+        },
+        {
+            "name": "minecraft:cauldron",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_arm_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_couch",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_cushion_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_folding_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_chair",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:white_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_gray_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:gray_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:black_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:brown_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:red_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:orange_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:yellow_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:lime_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:green_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cyan_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:light_blue_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:blue_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:purple_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:magenta_clock",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:pink_clock",
+            "variation": false
+        }
+    ]
+}

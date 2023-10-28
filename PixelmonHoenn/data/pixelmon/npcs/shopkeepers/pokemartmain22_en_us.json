@@ -1,0 +1,59 @@
+{
+    "data": {
+        "type": "PokemartMain"
+    },
+    "textures": [
+        {
+            "name": "lass2.png"
+        }
+    ],
+    "names": [
+        {
+            "name": "Secret Base Guild"
+        }
+    ],
+    "chat": [
+        {
+            "hello": "Must-have items for your Secret Base right here!",
+            "goodbye": "Come again!"
+        }
+    ],
+    "items": [
+        {
+            "name": "minecraft:chest",
+            "variation": false
+        },
+        {
+            "name": "minecraft:ender_chest",
+            "variation": false
+        },
+        {
+            "name": "minecraft:camp_fire",
+            "variation": false
+        },
+        {
+            "name": "minecraft:ladder",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:cooking_pot",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:infuser",
+            "variation": false
+        },
+        {
+            "name": "minecraft:scafolding",
+            "variation": false
+        },
+        {
+            "name": "minecraft:lantern",
+            "variation": false
+        },
+        {
+            "name": "minecraft:soul_lantern",
+            "variation": false
+        }
+    ]
+}
