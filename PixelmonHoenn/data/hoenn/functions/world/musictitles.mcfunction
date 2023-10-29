@@ -303,9 +303,9 @@ execute unless score @s MusicTitles matches 51 run title @s[x=2071,y=0,z=323,dx=
 execute unless score @s MusicTitles matches 51 as @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 51 run scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906] MusicTitles 51
 
-execute unless score @s MusicTitles matches 52 run title @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501] actionbar {"text":"Outer Space"}
-execute unless score @s MusicTitles matches 52 as @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501] run function hoenn:tools/forceclick
-execute unless score @s MusicTitles matches 52 run scoreboard players set @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501] MusicTitles 52
+execute unless score @s MusicTitles matches 52 run title @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] actionbar {"text":"Outer Space"}
+execute unless score @s MusicTitles matches 52 as @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] run function hoenn:tools/forceclick
+execute unless score @s MusicTitles matches 52 run scoreboard players set @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] MusicTitles 52
 
 execute unless score @s MusicTitles matches 53 run title @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92] actionbar {"text":"S.S. Tidal"}
 execute unless score @s MusicTitles matches 53 as @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92] run function hoenn:tools/forceclick

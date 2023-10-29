@@ -115,8 +115,8 @@ tag @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] remove Fly
 #tag @s[] remove Fly
 
 #Outer Space
-tellraw @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-tag @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501] remove Fly
+tellraw @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] remove Fly
 
 #Route 107 (Underwater)
 tellraw @s[x=-560,y=0,z=-2950,dx=214,dy=256,dz=253] {"text":"You cannot use that move here.","italic":true,"color":"gray"}

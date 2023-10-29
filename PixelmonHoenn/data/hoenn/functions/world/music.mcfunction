@@ -460,8 +460,8 @@ playsound battleresort record @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={M
 scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] MusicCooldown 130
 
 #Deoxys's Space Battle
-playsound deoxys record @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501,scores={MusicCooldown=0}] MusicCooldown 127
+playsound deoxys record @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501,scores={MusicCooldown=0}] MusicCooldown 226
 
 #S.S. Tidal
 playsound crossingthesea record @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

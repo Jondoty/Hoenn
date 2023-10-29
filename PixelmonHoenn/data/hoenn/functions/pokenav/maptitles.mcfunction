@@ -64,7 +64,7 @@ title @s[x=-2059,y=0,z=537,dx=371,dy=256,dz=264] actionbar {"text":"Sea Mauville
 title @s[x=646,y=0,z=-98,dx=233,dy=256,dz=175] actionbar {"text":"Secret Meadow"}
 title @s[x=1487,y=0,z=430,dx=315,dy=256,dz=249] actionbar {"text":"Secret Shore"}
 title @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906] actionbar {"text":"Battle Resort"}
-title @s[x=392,y=0,z=2311,dx=501,dy=256,dz=501] actionbar {"text":"Outer Space"}
+title @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] actionbar {"text":"Outer Space"}
 title @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92] actionbar {"text":"S.S. Tidal"}
 
 
