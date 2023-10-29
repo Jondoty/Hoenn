@@ -130,6 +130,10 @@ scoreboard players set @s[x=2348,y=38,z=611,dx=93,dy=40,dz=111,scores={MusicCool
 playsound victoryroad record @s[x=2137,y=170,z=-798,dx=42,dy=15,dz=35,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2137,y=170,z=-798,dx=42,dy=15,dz=35,scores={MusicCooldown=0}] MusicCooldown 151
 
+#Hall of Fame room
+playsound roomofglory record @s[x=616,y=0,z=-3337,dx=35,dy=256,dz=40,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=616,y=0,z=-3337,dx=35,dy=256,dz=40,scores={MusicCooldown=0}] MusicCooldown 105
+
 #---------------------------------------------------------------------------------------------------------------------------
 #Pokemon Centers
 
