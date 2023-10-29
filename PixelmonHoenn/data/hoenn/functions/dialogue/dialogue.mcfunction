@@ -164,6 +164,9 @@ tellraw @s[scores={DialogueTrigger=5,TalkTime=1}] {"text":"<Brendan> Some other 
 
 #Brendan runs off
 
+#/data merge entity @e[x=-1963,y=64,z=1464,dy=4,limit=1] {Name:"Brendan",CustomSteveTexture:"Brendan"}
+#/data merge entity @e[x=-1963,y=64,z=1464,dy=4,limit=1] {Name:"May",CustomSteveTexture:"May"}
+
 tag @s[scores={DialogueTrigger=5,TalkTime=100..}] add Dialogue5
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 6 - Route 101
@@ -4987,29 +4990,29 @@ tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Maxie> Even with t
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Maxie> now fiercer than ever due to the forces of nature?"}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Team Magma Tabitha> That's true."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Team Magma Tabitha> It is very possible that its energy could be far greater than our calculations show."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> There is nothing to fear."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> The Blue Orb they bear..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> Its ancient powers will protect both the trainer and their Pokémon."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> There is nothing to fear."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> The Blue Orb they bear..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> Its ancient powers will protect both the trainer and their Pokémon."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> You've hit the nail on the head!"}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> Those old folks at Mt. Pyre did say something about that..."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> That the Red Orb would unleash Groudon's primal powers..."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> And trigger a Primal Reversion."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> ...While the Blue Orb had the power to reverse that and calm the beast."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> Yes. The energy overflowing from the Cave of Origin just now..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> It is the same energy that gives Groudon its power..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> With the Blue Orb, which contains the power to suppress that..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> It should be possible to calm the rage of this flood of magma."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> Of course the Blue Orb's power alone will not lead you to where Groudon waits."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> You will not reach Hoenn's Core that way."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> Use the suit that you were just given."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> With that, it will finally become possible to stand up against the forces of nature."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> Yes. The energy overflowing from the Cave of Origin just now..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> It is the same energy that gives Groudon its power..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> With the Blue Orb, which contains the power to suppress that..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> It should be possible to calm the rage of this flood of magma."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> Of course the Blue Orb's power alone will not lead you to where Groudon waits."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> You will not reach Hoenn's Core that way."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> Use the suit that you were just given."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> With that, it will finally become possible to stand up against the forces of nature."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"... To think that you had the Blue Orb..."}]
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Steven> You'll be OK."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Steven> You and your Pokémon can handle it, whatever happens."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Steven> I believe that."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> No man or woman from Sootopolis is permitted to enter the Cave of Origin."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> But you must go, together with your Blue Orb."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallice> You must go regardless of what waits for you inside that cave..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> No man or woman from Sootopolis is permitted to enter the Cave of Origin."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> But you must go, together with your Blue Orb."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> You must go regardless of what waits for you inside that cave..."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> We'll also get our people together up top here, to help any folks and Pokémon in trouble."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> My little scamp of a savior..."}
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Archie> Looks like we're making you bear all the burden on your little shoulders alone."}
@@ -5343,19 +5346,19 @@ tag @s[scores={DialogueTrigger=150,TalkTime=100..}] add Dialogue150
 #Wallace Pre-Battle
 #https://youtu.be/MgkqxXCmrtI?t=58198
 
-tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallice> Allow me to formally introduce myself."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=8}] {"text":"<Wallice> I am Wallace. The Gym Leader of Sootopolis City."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=15}] {"text":"<Wallice> There's something about you... A difference in your demeanor..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=24}] {"text":"<Wallice> I think I sense that in you."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=31}] {"text":"<Wallice> What happened inside the Cave of Origin, and what you did there..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=40}] {"text":"<Wallice> Our upcoming battle will make that all clear."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=47}] {"text":"<Wallice> Now, show me. Show me the power you wield with your Pokémon."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=54}] {"text":"<Wallice> And I, in turn, shall present you..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=61}] {"text":"<Wallice> with a performance of illusions in water..."}
-tellraw @s[scores={DialogueTrigger=151,TalkTime=67}] {"text":"<Wallice> by me and my Pokémon!"}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=1}] {"text":"<Wallace> Allow me to formally introduce myself."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=8}] {"text":"<Wallace> I am Wallace. The Gym Leader of Sootopolis City."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=15}] {"text":"<Wallace> There's something about you... A difference in your demeanor..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=24}] {"text":"<Wallace> I think I sense that in you."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=31}] {"text":"<Wallace> What happened inside the Cave of Origin, and what you did there..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=40}] {"text":"<Wallace> Our upcoming battle will make that all clear."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=47}] {"text":"<Wallace> Now, show me. Show me the power you wield with your Pokémon."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=54}] {"text":"<Wallace> And I, in turn, shall present you..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=61}] {"text":"<Wallace> with a performance of illusions in water..."}
+tellraw @s[scores={DialogueTrigger=151,TalkTime=67}] {"text":"<Wallace> by me and my Pokémon!"}
 
 execute as @s[scores={DialogueTrigger=151,TalkTime=73}] run tp @s -3532 91 1344
-execute as @s[scores={DialogueTrigger=151,TalkTime=73}] run pokebattle @s Wallice
+execute as @s[scores={DialogueTrigger=151,TalkTime=73}] run pokebattle @s Wallace
 
 tag @s[scores={DialogueTrigger=151,TalkTime=73..}] add Dialogue151
 #------------------------------
@@ -5363,10 +5366,10 @@ tag @s[scores={DialogueTrigger=151,TalkTime=73..}] add Dialogue151
 #Wallace Post-Battle
 #https://youtu.be/MgkqxXCmrtI?t=58406
 
-tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallice> I realize now your authenticity and magnificence as a Pokémon Trainer."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=10}] {"text":"<Wallice> I find much joy in having met you and your Pokémon."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=17}] {"text":"<Wallice> You have proven yourself worthy of the Rain Badge."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=24}] {"text":"<Wallice> Accept it."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=1}] {"text":"<Wallace> I realize now your authenticity and magnificence as a Pokémon Trainer."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=10}] {"text":"<Wallace> I find much joy in having met you and your Pokémon."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=17}] {"text":"<Wallace> You have proven yourself worthy of the Rain Badge."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=24}] {"text":"<Wallace> Accept it."}
 
 tellraw @s[scores={DialogueTrigger=152,TalkTime=30}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received the Rain Badge from Wallace.","italic":true,"color":"gray"}]
 execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run give @s pixelmon:rain_badge
@@ -5374,26 +5377,26 @@ execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=152,TalkTime=37}] {"text":"<Wallice> And so you never forget the battle we shared..."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=44}] {"text":"<Wallice> Here..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=37}] {"text":"<Wallace> And so you never forget the battle we shared..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=44}] {"text":"<Wallace> Here..."}
 
 tellraw @s[scores={DialogueTrigger=152,TalkTime=50}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM05 Waterfall!","italic":true,"color":"gray"}]
 execute as @s[scores={DialogueTrigger=152,TalkTime=50}] run give @s pixelmon:hm7
 execute as @s[scores={DialogueTrigger=152,TalkTime=50}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=152,TalkTime=57}] {"text":"<Wallice> The HM I have given you contains Waterfall."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=64}] {"text":"<Wallice> It allows you to smash into an opponent with the force required to climb a waterfall itself."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=73}] {"text":"<Wallice> Yes, it is a mighty move..."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=80}] {"text":"<Wallice> And yet it also has a certain elegance and can sometimes cause opponents to flinch."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=88}] {"text":"<Wallice> Now, with the power of the Rain Badge, you will become able to use this HM move, Waterfall, to scale walls of cascading water."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=98}] {"text":"<Wallice> Many paths are open to you now."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=105}] {"text":"<Wallice> One path would take you to the Pokémon League."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=112}] {"text":"<Wallice> It is the goal that all Trainers in Hoenn aspire to reach after obtaining all eight Gym Badges."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=121}] {"text":"<Wallice> If that is the path you chose, then you must find your way to the island said to be the most remote in Hoenn: Ever Grande."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=131}] {"text":"<Wallice> But if it is a different path you seek, and you would rather pursue Pokémon and a completed Pokédex..."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=140}] {"text":"<Wallice> The rumors that reach me on the wind whisper that Professor Birch in Littleroot has created a more powerful Pokédex."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=150}] {"text":"<Wallice> Visit him, obtain this new technology, and I have little doubt you will encounter more diverse Pokémon than ever before."}
-tellraw @s[scores={DialogueTrigger=152,TalkTime=160}] {"text":"<Wallice> ...I will hope that a bright future waits for you, whatever path it is you choose."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=57}] {"text":"<Wallace> The HM I have given you contains Waterfall."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=64}] {"text":"<Wallace> It allows you to smash into an opponent with the force required to climb a waterfall itself."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=73}] {"text":"<Wallace> Yes, it is a mighty move..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=80}] {"text":"<Wallace> And yet it also has a certain elegance and can sometimes cause opponents to flinch."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=88}] {"text":"<Wallace> Now, with the power of the Rain Badge, you will become able to use this HM move, Waterfall, to scale walls of cascading water."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=98}] {"text":"<Wallace> Many paths are open to you now."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=105}] {"text":"<Wallace> One path would take you to the Pokémon League."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=112}] {"text":"<Wallace> It is the goal that all Trainers in Hoenn aspire to reach after obtaining all eight Gym Badges."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=121}] {"text":"<Wallace> If that is the path you chose, then you must find your way to the island said to be the most remote in Hoenn: Ever Grande."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=131}] {"text":"<Wallace> But if it is a different path you seek, and you would rather pursue Pokémon and a completed Pokédex..."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=140}] {"text":"<Wallace> The rumors that reach me on the wind whisper that Professor Birch in Littleroot has created a more powerful Pokédex."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=150}] {"text":"<Wallace> Visit him, obtain this new technology, and I have little doubt you will encounter more diverse Pokémon than ever before."}
+tellraw @s[scores={DialogueTrigger=152,TalkTime=160}] {"text":"<Wallace> ...I will hope that a bright future waits for you, whatever path it is you choose."}
 
 tag @s[scores={DialogueTrigger=152,TalkTime=160..}] add Dialogue152
 #-----------------------------------------------------------------------------------------------------
@@ -7135,66 +7138,66 @@ tellraw @s[scores={DialogueTrigger=196,TalkTime=1}] {"text":"<Steven> You will p
 tag @s[scores={DialogueTrigger=196,TalkTime=100..}] add Dialogue196
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 197 - Sootopolis
-#Wallice outside Cave of Origin
+#Wallace outside Cave of Origin
 #https://youtu.be/MgkqxXCmrtI?t=69940
 
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> What a...glorious turn of events..."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> What a...glorious turn of events..."}
 tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Old Man> Is it really? Ohohohoho! Is it really?"}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> To think that this tree..."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> I never knew we had received it from that huge man who visited from the Kalos region..."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> Goodness me, old master. This has been a learning experience. I thank you for this."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> To think that this tree..."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> I never knew we had received it from that huge man who visited from the Kalos region..."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> Goodness me, old master. This has been a learning experience. I thank you for this."}
 tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Old Man> Ohoho! You're too kind, Master Wallace! Ohohohoho!"}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> No, no, you're too modest. Hah hah hah..."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> Now then..."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] ["",{"text":"<Wallice> Welcome again to Sootopolis, our new Champion, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> Steven has told me everything. Do you wish to go to the Sky Pillar?"}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> It is true the cave that leads to the Sky Pillar can only be opened by the hand of someone descended from the ancient people of Sootopolis...as, indeed, am I."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> Or by one of the Draconids, who have also lived in Hoenn since ancient times..."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> The Sky Pillar is in fact an altar built for the ascension of Rayquaza—that Legendary Pokémon long said to be the protector of the Hoenn region."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> Only the ancient Draconid people know how to summon Rayquaza to the Sky Pillar."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> Steven has told me of the woman Zinnia."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> She must be trying to revive Rayquaza for some purpose."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> I shall go first to the Sky Pillar. When your preparations are complete, come join me."}
-tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallice> The Sky Pillar towers over everything upon one of Route 131's small islands."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> No, no, you're too modest. Hah hah hah..."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> Now then..."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] ["",{"text":"<Wallace> Welcome again to Sootopolis, our new Champion, "},{"selector":"@s"},{"text":"."}]
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> Steven has told me everything. Do you wish to go to the Sky Pillar?"}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> It is true the cave that leads to the Sky Pillar can only be opened by the hand of someone descended from the ancient people of Sootopolis...as, indeed, am I."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> Or by one of the Draconids, who have also lived in Hoenn since ancient times..."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> The Sky Pillar is in fact an altar built for the ascension of Rayquaza—that Legendary Pokémon long said to be the protector of the Hoenn region."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> Only the ancient Draconid people know how to summon Rayquaza to the Sky Pillar."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> Steven has told me of the woman Zinnia."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> She must be trying to revive Rayquaza for some purpose."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> I shall go first to the Sky Pillar. When your preparations are complete, come join me."}
+tellraw @s[scores={DialogueTrigger=197,TalkTime=1}] {"text":"<Wallace> The Sky Pillar towers over everything upon one of Route 131's small islands."}
 
-#Wallice tps out
+#Wallace tps out
 
 tag @s[scores={DialogueTrigger=197,TalkTime=100..}] add Dialogue197
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 198 - Sky Pillar
-#Wallice outside cave
+#Wallace outside cave
 #https://youtu.be/MgkqxXCmrtI?t=70322
 
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> ..."}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] ["",{"text":"<Wallice> So, you've come, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> As you can see, I have undone the seal on the entrance to the Sky Pillar."}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> Follow the path within, and you will reach the pillar in time."}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> However... To go beyond this point... There is one more trial you must overcome."}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> This is my duty as one of the ancient Sootopolitans, a duty passed down to me by my former master."}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> You must battle me. Here and now. Prove to me that your power is great enough to face what lies ahead!"}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> Champion of Hoenn."}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> You, who should exhibit the most graceful of art in battle with your Pokémon..."}
-tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallice> I would have you show me your true strength!"}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> ..."}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] ["",{"text":"<Wallace> So, you've come, "},{"selector":"@s"},{"text":"."}]
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> As you can see, I have undone the seal on the entrance to the Sky Pillar."}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> Follow the path within, and you will reach the pillar in time."}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> However... To go beyond this point... There is one more trial you must overcome."}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> This is my duty as one of the ancient Sootopolitans, a duty passed down to me by my former master."}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> You must battle me. Here and now. Prove to me that your power is great enough to face what lies ahead!"}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> Champion of Hoenn."}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> You, who should exhibit the most graceful of art in battle with your Pokémon..."}
+tellraw @s[scores={DialogueTrigger=198,TalkTime=1}] {"text":"<Wallace> I would have you show me your true strength!"}
 
 tag @s[scores={DialogueTrigger=198,TalkTime=100..}] add Dialogue198
 #---------------------------
 #Dialogue 199 - Sky Pillar
-#Wallice post-vattle
+#Wallace post-vattle
 
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] ["",{"text":"<Wallice> As I have come to expect from you, "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> You are an excellent Pokémon Trainer."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> The Pokémon that you sent out in that battle..."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> At times dancing as lightly as an elusive spring breeze..."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> Yet striking with the sudden surety of lightning from the blue."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> Watching you command the battle with such ease and grace..."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> Even I might succumb to your charm."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> Now go forth. Find the truth that you seek."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> As one of the ancient people of Sootopolis, I cannot intrude upon this holy place."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> I will return to Sootopolis for now and try to lay plans in case the worst should come to pass despite all our efforts."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> I'm sorry that we always seem to be leaving the fate of all the world in your hands."}
-tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallice> Yet there it lies once again. Good luck to you, young Champion!"}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] ["",{"text":"<Wallace> As I have come to expect from you, "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> You are an excellent Pokémon Trainer."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> The Pokémon that you sent out in that battle..."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> At times dancing as lightly as an elusive spring breeze..."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> Yet striking with the sudden surety of lightning from the blue."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> Watching you command the battle with such ease and grace..."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> Even I might succumb to your charm."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> Now go forth. Find the truth that you seek."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> As one of the ancient people of Sootopolis, I cannot intrude upon this holy place."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> I will return to Sootopolis for now and try to lay plans in case the worst should come to pass despite all our efforts."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> I'm sorry that we always seem to be leaving the fate of all the world in your hands."}
+tellraw @s[scores={DialogueTrigger=199,TalkTime=1}] {"text":"<Wallace> Yet there it lies once again. Good luck to you, young Champion!"}
 
-#Wallice tps off
+#Wallace tps off
 
 tag @s[scores={DialogueTrigger=199,TalkTime=100..}] add Dialogue199
 #-----------------------------------------------------------------------------------------------------
@@ -7675,42 +7678,42 @@ tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Maxie> My... You c
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Team Magma Tabitha>Ahyahya!"}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Team Magma Tabitha>And that settles that! Ahyahyahyahya!"}
 
-#Steven's Room of Elite Four, talking to Wallice
+#Steven's Room of Elite Four, talking to Wallace
 #https://youtu.be/MgkqxXCmrtI?t=72378
 
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> I still owe you for your help at the Sky Pillar. Thank you for that."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> Hahaha!"}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> How unlike you to be so thoughtful."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> Hahaha!"}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> How unlike you to be so thoughtful."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> Heh..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> You know, this experience really brought it home for me again..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> That there is still so much about this world that I do not know."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> I wonder what would have happened to Hoenn..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] ["",{"text":"<Steven> If "},{"selector":"@s"},{"text":" had not been here to aid us with this, and the incident with the super-ancient Pokémon..."}]
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> I alone was powerless to stop either."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> There is no one person in this world who knows all."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> None who can do all."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> Steven... There is no cause for such worries or concern."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> There is no one person in this world who knows all."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> None who can do all."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> Steven... There is no cause for such worries or concern."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> Hmm."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> Heh. Don't worry."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> It's not that I am so shocked by my own disappointing performance. But rather..."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> Rather what?"}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> Rather what?"}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> I was just thinking how much more there is I must learn about nature...about Pokémon..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> and about my fellow humans as well... If I am to keep living in this huge, wide world."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> I want to walk this world on my own two feet."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> To see it with my own eyes. To feel it on my very skin..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] ["",{"text":"<Steven> I need to put into practice all of the advice I ever gave to "},{"selector":"@s"},{"text":"."}]
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> That's what I am thinking now."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> ...? Steven... You can't intend to..."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> ...? Steven... You can't intend to..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> Hah hah hah! But no need to fear..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> I won't just disappear at once."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> I'll still be around doing my duty on behalf of the Pokémon League."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> But, hmm..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> When the time does come for me to pursue my own hopes..."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> Well... I hope that you, Wallace, will be behind me to lend a hand."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> ..."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> Hmph. It seems I have little choice."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> I bow to the whims of the pampered heir. I, Wallace, will do this thing you wish."}
-tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallice> Heh."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> ..."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> Hmph. It seems I have little choice."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> I bow to the whims of the pampered heir. I, Wallace, will do this thing you wish."}
+tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Wallace> Heh."}
 tellraw @s[scores={DialogueTrigger=208,TalkTime=1}] {"text":"<Steven> Hah hah hah... Thank you, my friend..."}
 
 

@@ -26,6 +26,14 @@ scoreboard players set @s PokemonLeague 0
 
 #Removes Misc Story Tags
 tag @s remove AllBadges
+tag @s remove Room1
+tag @s remove Room2
+tag @s remove Room3
+tag @s remove Room4
+tag @s remove Room5
+tag @s remove Room6
+tag @s remove Room7
+
 
 #Removes Mega Stone Fount tags
 tag @s remove MegaStone1

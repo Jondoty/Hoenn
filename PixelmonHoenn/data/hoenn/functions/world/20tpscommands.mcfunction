@@ -20,6 +20,9 @@ execute as @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] at @s run particle mine
 #execute as @a[SCOREBOARDTAGS] at @s run particle minecraft:crimson_spore ~ ~1 ~ 10 10 10 10 100 normal
 #execute as @a[SCOREBOARDTAGS] at @s run particle minecraft:flame ~ ~0 ~ 10 0.1 10 0 1 normal
 
+#Lavaridge Gym
+execute if entity @p[x=-3181,y=77,z=1224,dx=125,dy=256,dz=449] run particle minecraft:campfire_cosy_smoke -3101 87 1550 30 0 40 0.1 3 force
+execute if entity @p[x=-3181,y=0,z=1224,dx=125,dy=77,dz=449] run particle minecraft:campfire_cosy_smoke -3101 65 1570 30 2 40 0.1 3 force
 
 #Shakes the player's screen if tag is present
 execute as @a[tag=ShakeScreen] at @s run function hoenn:cutscenes/shakeeffect

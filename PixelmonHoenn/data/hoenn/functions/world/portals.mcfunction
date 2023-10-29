@@ -146,6 +146,57 @@ tp @a[x=-2565,y=54,z=44,dx=4,dy=3] -2563 69 45
 tp @a[x=-2508,y=69,z=64,dx=4,dy=3] -2505 54 63
 tp @a[x=-2507,y=54,z=64,dx=4,dy=3] -2506 69 65
 
+#-------------------------------------------------------------------------
+#Petalburg Gym Interiors
+
+#Entrance - Speed Room
+tp @a[x=-3253,y=66,z=1607,dx=2,dy=3] -3256 65 1591
+tp @a[x=-3257,y=65,z=1592,dx=2,dy=3] -3252 66 1608
+
+#Entrance - Accuracy Room
+tp @a[x=-3237,y=66,z=1607,dx=2,dy=3] -3227 65 1591
+tp @a[x=-3228,y=65,z=1592,dx=2,dy=3] -3236 66 1608
+
+#Speed room - Zero Reduction room
+tp @a[x=-3269,y=65,z=1568,dx=2,dy=3,tag=Room1] -3276 65 1553
+tp @a[x=-3277,y=65,z=1554,dx=2,dy=3] -3268 65 1569
+
+#Speed room - Defense
+tp @a[x=-3257,y=65,z=1568,dx=2,dy=3,tag=Room1] -3247 65 1553
+tp @a[x=-3248,y=65,z=1554,dx=2,dy=3] -3256 65 1569
+
+#Accuracy Room - Defense
+tp @a[x=-3228,y=65,z=1568,dx=2,dy=3,tag=Room2] -3235 65 1553
+tp @a[x=-3236,y=65,z=1554,dx=2,dy=3] -3227 65 1569
+
+#Accuracy Room - Recovery
+tp @a[x=-3216,y=65,z=1568,dx=2,dy=3,tag=Room2] -3206 65 1553
+tp @a[x=-3207,y=65,z=1554,dx=2,dy=3] -3215 65 1569
+
+#Zero Spec - Strength
+tp @a[x=-3277,y=65,z=1530,dx=2,dy=3,tag=Room3] -3270 65 1515
+tp @a[x=-3271,y=65,z=1516,dx=2,dy=3] -3276 65 1531
+
+#Defense - Strength
+tp @a[x=-3248,y=65,z=1530,dx=2,dy=3,tag=Room4] -3257 65 1515
+tp @a[x=-3258,y=65,z=1516,dx=2,dy=3] -3247 65 1531
+
+#Defense - 1-hit-ko
+tp @a[x=-3236,y=65,z=1530,dx=2,dy=3,tag=Room4] -3225 65 1515
+tp @a[x=-3226,y=65,z=1516,dx=2,dy=3] -3235 65 1531
+
+#Recovery - 1-hit-ko
+tp @a[x=-3207,y=65,z=1530,dx=2,dy=3,tag=Room5] -3213 65 1515
+tp @a[x=-3214,y=65,z=1516,dx=2,dy=3] -3206 65 1531
+
+#Strength - Gym Leader
+tp @a[x=-3258,y=65,z=1492,dx=2,dy=3,tag=Room6] -3248 65 1478
+tp @a[x=-3249,y=65,z=1479,dx=2,dy=3] -3257 65 1493
+
+#1-hit-ko to Gym Leader
+tp @a[x=-3226,y=65,z=1492,dx=2,dy=3,tag=Room7] -3233 65 1478
+tp @a[x=-3234,y=65,z=1479,dx=2,dy=3] -3225 65 1493
+
 
 #-------------------------------------------------------------------------
 #Route 104
@@ -1587,6 +1638,8 @@ tp @a[x=-26,y=15,z=2914,dx=3,dy=3] -25 64 2914
 #Rustboro
 tp @a[x=-2989,y=91,z=1376,dx=2,dy=3,dz=2] -2987 75 1495
 
+#Petalburg Gym return
+tp @a[x=-3237,y=95,z=1373,dx=2,dy=3,dz=2] -3240 65 1460
 
 #Dewford Brawly tp return
 tp @a[x=-2434,y=67,z=1432,dx=1,dy=5,dz=1] -2434 65 1522
@@ -1600,7 +1653,12 @@ tp @a[x=-3103,y=70,z=1368,dx=2,dy=5,dz=2] -3101 91 1521
 #Fortree Gym
 tp @a[x=-2800,y=222,z=1556,dx=1,dy=5,dz=1] -2798 151 1484
 
+#Mossdeep Gym
+#-2586 68 1504
+tp @a[x=-2580,y=68,z=1501,dy=3] -2586 61 1568 0 20
 
+#Sootopolis Gym
+tp @a[x=-3532,y=91,z=1353,dx=1,dy=5,dz=1] -3533 122 1473
 
 
 
