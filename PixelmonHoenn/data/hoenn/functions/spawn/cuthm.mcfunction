@@ -1,0 +1,1 @@
+give @s diamond_axe{Unbreakable:1,display:{Name:'[{"text":"HM01: Cut","italic":false,"color":"aqua"}]',Lore:['[{"text":"An axe that can be used to","italic":false}]','[{"text":"cut down thin trees.","italic":false}]']},CanDestroy:["pixelmon:tree"]} 1

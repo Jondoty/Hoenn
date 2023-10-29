@@ -764,20 +764,22 @@ tag @s[scores={DialogueTrigger=20,TalkTime=100..}] add Dialogue20
 
 
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> That determined expression..."}
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> That limber way you move..."}
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> And your well-trained Pokémon..."}
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> You're obviously a skilled Trainer!"}
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> No, wait, don't say a word. I can tell just by looking at you."}
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> I'm sure that you will be capable of putting this HM to good use."}
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> No need to be modest or shy. Go on, take it!"}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=8}] {"text":"<Cutter> That limber way you move..."}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=15}] {"text":"<Cutter> And your well-trained Pokémon..."}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=22}] {"text":"<Cutter> You're obviously a skilled Trainer!"}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=29}] {"text":"<Cutter> No, wait, don't say a word. I can tell just by looking at you."}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=37}] {"text":"<Cutter> I'm sure that you will be capable of putting this HM to good use."}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=46}] {"text":"<Cutter> No need to be modest or shy. Go on, take it!"}
 
-execute as @s[scores={DialogueTrigger=21,TalkTime=1}] run give @s pixelmon:hm1
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] ["",{"selector":"@s"},{"text":" obtained HM01 Cut!"}]
+execute as @s[scores={DialogueTrigger=21,TalkTime=54}] run give @s pixelmon:hm1
+execute as @s[scores={DialogueTrigger=21,TalkTime=54}] run function hoenn:spawn/cuthm
+execute as @s[scores={DialogueTrigger=21,TalkTime=54}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+tellraw @s[scores={DialogueTrigger=21,TalkTime=54}] ["",{"selector":"@s"},{"text":" obtained HM01 Cut!"}]
 
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> That's an axe that can chop down prickly trees if the Trainer has earned the Stone Badge."}
-tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> HMs like this can be used outside of battle, too, with the right Badges!"}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=60}] {"text":"<Cutter> That's an axe that can chop down prickly trees if the Trainer has earned the Stone Badge."}
+tellraw @s[scores={DialogueTrigger=21,TalkTime=70}] {"text":"<Cutter> HMs like this can be used outside of battle, too, with the right Badges!"}
 
-tag @s[scores={DialogueTrigger=21,TalkTime=100..}] add Dialogue21
+tag @s[scores={DialogueTrigger=21,TalkTime=70..}] add Dialogue21
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 22 - Rustboro Gym
 #Roxanne introducing herself
