@@ -355,10 +355,99 @@ execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-20
 #-----------------------------------------------------------------------------------------------------
 #Dialga/Palkia (randomize which it is today based on Mirage spot roll)
 
+execute as @s[scores={TriggerCommand=46}] run
+
 #-----------------------------------------------------------------------------------------------------
 #Reshiram/Zekrom (randomize which it is today based on Mirage spot roll)
 
+execute as @s[scores={TriggerCommand=47}] run
+
 #-----------------------------------------------------------------------------------------------------
+#Johto Starters
+
+#Chikorita
+execute as @s[scores={TriggerCommand=50},tag=!JohtoStarter] run tellraw @s {"text":"You chose Chikorita!"}
+execute as @s[scores={TriggerCommand=50},tag=!JohtoStarter] run pokegive Chikorita lvl:5
+execute as @s[scores={TriggerCommand=50}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=50}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch2Initiate] remove Birch2Initiate
+execute as @s[scores={TriggerCommand=50}] run scoreboard players set @s DialogueTrigger 172
+execute as @s[scores={TriggerCommand=50},tag=!JohtoStarter] run tag @s add JohtoStarter
+
+#Cyndaquil
+execute as @s[scores={TriggerCommand=51},tag=!JohtoStarter] run tellraw @s {"text":"You chose Cyndaquil!"}
+execute as @s[scores={TriggerCommand=51},tag=!JohtoStarter] run pokegive Cyndaquil lvl:5
+execute as @s[scores={TriggerCommand=51}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=51}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch2Initiate] remove Birch2Initiate
+execute as @s[scores={TriggerCommand=51}] run scoreboard players set @s DialogueTrigger 172
+execute as @s[scores={TriggerCommand=51},tag=!JohtoStarter] run tag @s add JohtoStarter
+
+#Totodile
+execute as @s[scores={TriggerCommand=52},tag=!JohtoStarter] run tellraw @s {"text":"You chose Totodile!"}
+execute as @s[scores={TriggerCommand=52},tag=!JohtoStarter] run pokegive Totodile lvl:5
+execute as @s[scores={TriggerCommand=52}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=52}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch2Initiate] remove Birch2Initiate
+execute as @s[scores={TriggerCommand=52}] run scoreboard players set @s DialogueTrigger 172
+execute as @s[scores={TriggerCommand=52},tag=!JohtoStarter] run tag @s add JohtoStarter
+
+#-----------------------------------------------------------------------------------------------------
+#Sinnoh Starters
+
+#Turtwig
+execute as @s[scores={TriggerCommand=53},tag=!SinnohStarter] run tellraw @s {"text":"You chose Turtwig!"}
+execute as @s[scores={TriggerCommand=53},tag=!SinnohStarter] run pokegive Turtwig lvl:5
+execute as @s[scores={TriggerCommand=53}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=53}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch4Initiate] remove Birch4Initiate
+execute as @s[scores={TriggerCommand=53}] run scoreboard players set @s DialogueTrigger 176
+execute as @s[scores={TriggerCommand=53},tag=!SinnohStarter] run tag @s add SinnohStarter
+
+#Chimchar
+execute as @s[scores={TriggerCommand=54},tag=!SinnohStarter] run tellraw @s {"text":"You chose Chimchar!"}
+execute as @s[scores={TriggerCommand=54},tag=!SinnohStarter] run pokegive Chimchar lvl:5
+execute as @s[scores={TriggerCommand=54}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=54}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch4Initiate] remove Birch4Initiate
+execute as @s[scores={TriggerCommand=54}] run scoreboard players set @s DialogueTrigger 176
+execute as @s[scores={TriggerCommand=54},tag=!SinnohStarter] run tag @s add SinnohStarter
+
+#Piplup
+execute as @s[scores={TriggerCommand=55},tag=!SinnohStarter] run tellraw @s {"text":"You chose Piplup!"}
+execute as @s[scores={TriggerCommand=55},tag=!SinnohStarter] run pokegive Piplup lvl:5
+execute as @s[scores={TriggerCommand=55}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=55}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch4Initiate] remove Birch4Initiate
+execute as @s[scores={TriggerCommand=55}] run scoreboard players set @s DialogueTrigger 176
+execute as @s[scores={TriggerCommand=55},tag=!SinnohStarter] run tag @s add SinnohStarter
+
+#-----------------------------------------------------------------------------------------------------
+#Unova  Starters
+
+#Snivy
+execute as @s[scores={TriggerCommand=56},tag=!UnovaStarter] run tellraw @s {"text":"You chose Snivy!"}
+execute as @s[scores={TriggerCommand=56},tag=!UnovaStarter] run pokegive Snivy lvl:5
+execute as @s[scores={TriggerCommand=56}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=56}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch3Initiate] remove Birch3Initiate
+execute as @s[scores={TriggerCommand=56}] run scoreboard players set @s DialogueTrigger 174
+execute as @s[scores={TriggerCommand=56},tag=!UnovaStarter] run tag @s add UnovaStarter
+
+#Tepig
+execute as @s[scores={TriggerCommand=57},tag=!UnovaStarter] run tellraw @s {"text":"You chose Tepig!"}
+execute as @s[scores={TriggerCommand=57},tag=!UnovaStarter] run pokegive Tepig lvl:5
+execute as @s[scores={TriggerCommand=57}] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=57}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch3Initiate] remove Birch3Initiate
+execute as @s[scores={TriggerCommand=57}] run scoreboard players set @s DialogueTrigger 174
+execute as @s[scores={TriggerCommand=57},tag=!UnovaStarter] run tag @s add UnovaStarter
+
+#Oshawott
+execute as @s[scores={TriggerCommand=58},tag=!UnovaStarter] run tp @s -2038 69 232 134 7
+execute as @s[scores={TriggerCommand=58},tag=!UnovaStarter] run tellraw @s {"text":"You chose Oshawott!"}
+execute as @s[scores={TriggerCommand=58}] run pokegive Oshawott lvl:5
+execute as @s[scores={TriggerCommand=58}] run tag @e[x=-2070,y=65,z=1410,dy=3,tag=Birch3Initiate] remove Birch3Initiate
+execute as @s[scores={TriggerCommand=58}] run scoreboard players set @s DialogueTrigger 174
+execute as @s[scores={TriggerCommand=58},tag=!UnovaStarter] run tag @s add UnovaStarter
+
+
+
+
+
+
 
 #-----------------------------------------------------------------------------------------------------
 #100+, chatting NPCs give player items

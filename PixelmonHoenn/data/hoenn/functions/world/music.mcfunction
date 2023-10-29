@@ -8,6 +8,16 @@
 playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=6}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=6}] MusicCooldown 28
 
+#Birch's other starter Pokemon dialogues
+playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=171}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=171}] MusicCooldown 28
+
+playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=173}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=173}] MusicCooldown 28
+
+playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=175}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=175}] MusicCooldown 28
+
 #Hall of Fame music
 playsound halloffame record @s[scores={MusicCooldown=0,DialogueTrigger=166}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=166}] MusicCooldown 106

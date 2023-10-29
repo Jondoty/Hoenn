@@ -6084,61 +6084,70 @@ tag @s[scores={DialogueTrigger=170,TalkTime=100..}] add Dialogue170
 #Activated by leaving your house and having the Dialogue169 tag
 #https://youtu.be/MgkqxXCmrtI?t=64626
 
-tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<...> H-help me!"}
+#tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<...> H-help me!"}
 
 #tps player to grass
 
-tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<Professor Birch> H-help me!"}
-tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] ["",{"text":"<Professor Birch> Oh! Why, if it isn't "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<Professor Birch> H-help a professor out!"}
-tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
+execute as @s[scores={DialogueTrigger=171,TalkTime=1}] run function hoenn:tools/forceclick
 
-tag @s[scores={DialogueTrigger=171,TalkTime=100..}] add Dialogue171
+tellraw @s[scores={DialogueTrigger=171,TalkTime=1}] {"text":"<Professor Birch> H-help me!"}
+tellraw @s[scores={DialogueTrigger=171,TalkTime=8}] ["",{"text":"<Professor Birch> Oh! Why, if it isn't "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=171,TalkTime=15}] {"text":"<Professor Birch> H-help a professor out!"}
+tellraw @s[scores={DialogueTrigger=171,TalkTime=22}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
+execute as @s[scores={DialogueTrigger=171,TalkTime=30}] run tp @s -2047 65 1318 180 20
+
+tag @s[scores={DialogueTrigger=171,TalkTime=30..}] add Dialogue171
 #----------------------------
 #Dialogue 172 - Route 101
 #After picking a Johto Starter
 
-tellraw @s[scores={DialogueTrigger=172,TalkTime=1}] {"text":"<Professor Birch> My, my! Good thing that Shroomish wasn't as fierce as it seemed!"}
-tellraw @s[scores={DialogueTrigger=172,TalkTime=1}] {"text":"<Professor Birch> I sure do appreciate your trying to help me out, though."}
-tellraw @s[scores={DialogueTrigger=172,TalkTime=1}] {"text":"<Professor Birch> In fact... Why don't you keep that Pokémon?"}
-tellraw @s[scores={DialogueTrigger=172,TalkTime=1}] {"text":"<Professor Birch> Yes, that one from the Johto region!"}
-tellraw @s[scores={DialogueTrigger=172,TalkTime=1}] {"text":"<Professor Birch> Well, I hope to see you later."}
-tellraw @s[scores={DialogueTrigger=172,TalkTime=1}] {"text":"<Professor Birch> I somehow get the feeling that I will, if I stick around here!"}
+tellraw @s[scores={DialogueTrigger=172,TalkTime=3}] {"text":"<Professor Birch> My, my! Good thing that Shroomish wasn't as fierce as it seemed!"}
+tellraw @s[scores={DialogueTrigger=172,TalkTime=12}] {"text":"<Professor Birch> I sure do appreciate your trying to help me out, though."}
+tellraw @s[scores={DialogueTrigger=172,TalkTime=20}] {"text":"<Professor Birch> In fact... Why don't you keep that Pokémon?"}
+tellraw @s[scores={DialogueTrigger=172,TalkTime=27}] {"text":"<Professor Birch> Yes, that one from the Johto region!"}
+tellraw @s[scores={DialogueTrigger=172,TalkTime=34}] {"text":"<Professor Birch> Well, I hope to see you later."}
+tellraw @s[scores={DialogueTrigger=172,TalkTime=41}] {"text":"<Professor Birch> I somehow get the feeling that I will, if I stick around here!"}
 
 #tp Professor and Shroomish out
+execute as @s[scores={DialogueTrigger=172,TalkTime=50}] at @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] run particle cloud ~ ~ ~ 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=172,TalkTime=50}] run tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=172,TalkTime=100..}] add Dialogue172
+tag @s[scores={DialogueTrigger=172,TalkTime=50..}] add Dialogue172
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 173 - Littleroot Town
 #Professor Birch giving Unova starter
 #After completing the Delta Episode
 
-tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] {"text":"<...> H-help me!"}
+#tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] {"text":"<...> H-help me!"}
 
 #tps player to grass
 
+execute as @s[scores={DialogueTrigger=173,TalkTime=1}] run function hoenn:tools/forceclick
 tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] {"text":"<Professor Birch> H-help me!"}
-tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] ["",{"text":"<Professor Birch> Oh! Why, if it isn't "},{"selector":"@s"},{"text":" again!"}]
-tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] {"text":"<Professor Birch> H-help a professor out!"}
-tellraw @s[scores={DialogueTrigger=173,TalkTime=1}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
+tellraw @s[scores={DialogueTrigger=173,TalkTime=8}] ["",{"text":"<Professor Birch> Oh! Why, if it isn't "},{"selector":"@s"},{"text":" again!"}]
+tellraw @s[scores={DialogueTrigger=173,TalkTime=15}] {"text":"<Professor Birch> H-help a professor out!"}
+tellraw @s[scores={DialogueTrigger=173,TalkTime=22}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
+execute as @s[scores={DialogueTrigger=173,TalkTime=30}] run tp @s -1945 65 1318 180 20
 
-tag @s[scores={DialogueTrigger=173,TalkTime=100..}] add Dialogue173
+tag @s[scores={DialogueTrigger=173,TalkTime=30..}] add Dialogue173
 #----------------------------
 #Dialogue 174 - Route 101
 #After picking a Unova Starter
 
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> My goodness, I sure misread that situation, didn't I?"}
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> I thought that Machoke from the Pokémon Postal Service was a wild Machoke!"}
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> My, my, what a slipup..."}
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> I sure do appreciate your trying to help me out, though."}
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> In fact... Why don't you keep that Pokémon?"}
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> Yes, that one from the Unova region!"}
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> Well, I hope to see you later."}
-tellraw @s[scores={DialogueTrigger=174,TalkTime=1}] {"text":"<Professor Birch> I somehow get the feeling that I will again, if I stick around here!"}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=3}] {"text":"<Professor Birch> My goodness, I sure misread that situation, didn't I?"}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=11}] {"text":"<Professor Birch> I thought that Machoke from the Pokémon Postal Service was a wild Machoke!"}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=20}] {"text":"<Professor Birch> My, my, what a slipup..."}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=27}] {"text":"<Professor Birch> I sure do appreciate your trying to help me out, though."}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=35}] {"text":"<Professor Birch> In fact... Why don't you keep that Pokémon?"}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=42}] {"text":"<Professor Birch> Yes, that one from the Unova region!"}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=49}] {"text":"<Professor Birch> Well, I hope to see you later."}
+tellraw @s[scores={DialogueTrigger=174,TalkTime=56}] {"text":"<Professor Birch> I somehow get the feeling that I will again, if I stick around here!"}
 
 #tp Professor and Shroomish out
+execute as @s[scores={DialogueTrigger=174,TalkTime=63}] at @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] run particle cloud ~ ~ ~ 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=174,TalkTime=63}] run tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=174,TalkTime=100..}] add Dialogue174
+tag @s[scores={DialogueTrigger=174,TalkTime=63..}] add Dialogue174
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 175 - Littleroot Town
 #Professor Birch giving Sinnoh starter
@@ -6150,28 +6159,32 @@ tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] {"text":"<...> H-help me!"}
 
 #tps player to grass
 
+execute as @s[scores={DialogueTrigger=175,TalkTime=1}] run function hoenn:tools/forceclick
 tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] {"text":"<Professor Birch> H-help me!"}
-tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] ["",{"text":"<Professor Birch> Oh! Why, if it isn't "},{"selector":"@s"},{"text":" yet again!"}]
-tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] {"text":"<Professor Birch> H-help a professor out!"}
-tellraw @s[scores={DialogueTrigger=175,TalkTime=1}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
+tellraw @s[scores={DialogueTrigger=175,TalkTime=8}] ["",{"text":"<Professor Birch> Oh! Why, if it isn't "},{"selector":"@s"},{"text":" yet again!"}]
+tellraw @s[scores={DialogueTrigger=175,TalkTime=15}] {"text":"<Professor Birch> H-help a professor out!"}
+tellraw @s[scores={DialogueTrigger=175,TalkTime=22}] {"text":"<Professor Birch> I've got some Poké Balls in my Bag there!"}
+execute as @s[scores={DialogueTrigger=175,TalkTime=30}] run tp @s -1996 65 1318 180 20
 
-tag @s[scores={DialogueTrigger=175,TalkTime=100..}] add Dialogue175
+tag @s[scores={DialogueTrigger=175,TalkTime=30..}] add Dialogue175
 #----------------------------
 #Dialogue 176 - Route 101
 #After picking a Sinnoh Starter
 
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> Oh my! I sure did misread that situation, now didn't I?"}
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> I assumed it was a Pokémon chasing after me, but it was just my own wife!"}
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> My, my, what a slipup..."}
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> I sure do appreciate your trying to help me out, though."}
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> In fact... Why don't you keep that Pokémon?"}
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> Yes, that one from the Sinnoh region!"}
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> Well, I hope to see you later."}
-tellraw @s[scores={DialogueTrigger=176,TalkTime=1}] {"text":"<Professor Birch> Stop by the lab anytime. Always happy to see you!"}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=3}] {"text":"<Professor Birch> Oh my! I sure did misread that situation, now didn't I?"}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=11}] {"text":"<Professor Birch> I assumed it was a Pokémon chasing after me, but it was just my own wife!"}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=21}] {"text":"<Professor Birch> My, my, what a slipup..."}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=28}] {"text":"<Professor Birch> I sure do appreciate your trying to help me out, though."}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=36}] {"text":"<Professor Birch> In fact... Why don't you keep that Pokémon?"}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=43}] {"text":"<Professor Birch> Yes, that one from the Sinnoh region!"}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=50}] {"text":"<Professor Birch> Well, I hope to see you later."}
+tellraw @s[scores={DialogueTrigger=176,TalkTime=57}] {"text":"<Professor Birch> Stop by the lab anytime. Always happy to see you!"}
 
 #tp Professor
+execute as @s[scores={DialogueTrigger=176,TalkTime=65}] at @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] run particle cloud ~ ~ ~ 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=176,TalkTime=65}] run tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=176,TalkTime=100..}] add Dialogue176
+tag @s[scores={DialogueTrigger=176,TalkTime=65..}] add Dialogue176
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 177 - Petalburg Town
 #Team Admin at Wally's
