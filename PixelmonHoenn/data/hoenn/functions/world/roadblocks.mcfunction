@@ -25,7 +25,7 @@ execute as @a[x=-1556,y=78,z=-1286,dx=29,dy=25,dz=30,tag=!SafetyGoggles] at @s r
 
 #Gyms
 #Mossdeep Gym Return
-tp @a[x=-2686,y=0,z=1224,dx=190,dy=55,dz=449] -2586 61 1586 180 0
+tp @a[x=-2686,y=0,z=1224,dx=190,dy=50,dz=449] -2586 61 1586 180 0
 
 
 #
