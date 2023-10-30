@@ -4419,8 +4419,8 @@ tellraw @s[scores={DialogueTrigger=137,TalkTime=45}] {"text":"<Tate> ...all in o
 tellraw @s[scores={DialogueTrigger=137,TalkTime=52}] {"text":"<Liza> This combination of ours..."}
 tellraw @s[scores={DialogueTrigger=137,TalkTime=59}] {"text":"<Tate> Can you beat it?"}
 
-execute as @s[scores={DialogueTrigger=137,TalkTime=65}] run tp @s
-execute as @s[scores={DialogueTrigger=137,TalkTime=65}] run pokebattle
+execute as @s[scores={DialogueTrigger=137,TalkTime=65}] run tp @s -2587.0 52 1347 180 21
+execute as @s[scores={DialogueTrigger=137,TalkTime=65}] run pokebattle @s "Liza & Tate"
 
 tag @s[scores={DialogueTrigger=137,TalkTime=65..}] add Dialogue137
 #---------------------------

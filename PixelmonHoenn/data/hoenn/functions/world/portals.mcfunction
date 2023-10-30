@@ -92,6 +92,7 @@ tp @a[x=-2004,y=69,z=309,dx=4,dy=3] -2002 40 308
 
 #Pokemon Center
 execute as @a[x=-2057,y=69,z=87,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-2057,y=69,z=87,dx=6,dy=5,dz=1] run spawnpoint @s -2054 48 86
 tp @a[x=-2057,y=69,z=87,dx=6,dy=5,dz=1] -2054 48 86
 
 execute as @a[x=-2055,y=48,z=87,dx=2,dy=3] run function hoenn:tools/forceclick
@@ -118,6 +119,7 @@ tp @a[x=-1995,y=55,z=88,dx=3,dy=3] -1993 69 89
 
 #Pokemon Center
 execute as @a[x=-2509,y=69,z=25,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-2509,y=69,z=25,dx=6,dy=5,dz=1] run spawnpoint @s -2506 48 24
 tp @a[x=-2509,y=69,z=25,dx=6,dy=5,dz=1] -2506 48 24
 
 execute as @a[x=-2507,y=48,z=25,dx=2,dy=3] run function hoenn:tools/forceclick
@@ -228,6 +230,7 @@ execute as @a[x=-2803,y=11,z=207,dx=4,dy=5] at @s run tp @s ~ ~ ~5
 
 #Pokemon Center
 execute as @a[x=-2739,y=69,z=-607,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-2739,y=69,z=-607,dx=6,dy=5,dz=1] run spawnpoint @s -2736 48 -608
 tp @a[x=-2739,y=69,z=-607,dx=6,dy=5,dz=1] -2736 48 -608
 
 execute as @a[x=-2737,y=48,z=-607,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -328,6 +331,7 @@ tp @a[x=-2271,y=37,z=-770,dx=6,dy=5] -2118 69 -658
 
 #Pokemon Center
 execute as @a[x=-2059,y=69,z=-639,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-2059,y=69,z=-639,dx=6,dy=5,dz=1] run spawnpoint @s -2056 48 -640
 tp @a[x=-2059,y=69,z=-639,dx=6,dy=5,dz=1] -2056 48 -640
 
 execute as @a[x=-2057,y=48,z=-639,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -372,6 +376,7 @@ tp @a[x=-1724,y=50,z=-634,dx=3,dy=3] -1722 69 -633
 
 #Pokemon Center
 execute as @a[x=-2536,y=64,z=864,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-2536,y=64,z=864,dx=6,dy=5,dz=1] run spawnpoint @s -2533 43 863
 tp @a[x=-2536,y=64,z=864,dx=6,dy=5,dz=1] -2533 43 863
 
 execute as @a[x=-2534,y=43,z=864,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -415,6 +420,7 @@ tp @a[x=-1556,y=38,z=513,dx=3,dy=3] -1554 64 516
 
 #Pokemon Center
 execute as @a[x=-1542,y=69,z=262,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-1542,y=69,z=262,dx=6,dy=5,dz=1] run spawnpoint @s -1539 48 261
 tp @a[x=-1542,y=69,z=262,dx=6,dy=5,dz=1] -1539 48 261
 
 execute as @a[x=-1540,y=48,z=262,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -518,6 +524,7 @@ tp @a[x=-1512,y=50,z=-645,dx=3,dy=3] -1510 69 -644
 
 #Pokemon Center
 execute as @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1] run spawnpoint @s -1558 48 -647
 tp @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1] -1558 48 -647
 
 execute as @a[x=-1559,y=48,z=-646,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -646,6 +653,7 @@ tp @a[x=-1789,y=33,z=-1336,dx=5,dy=5] -1682 79 -1308
 
 #Pokemon Center
 execute as @a[x=-2015,y=84,z=-1108,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-2015,y=84,z=-1108,dx=6,dy=5,dz=1] run spawnpoint @s -2012 63 -1109
 tp @a[x=-2015,y=84,z=-1108,dx=6,dy=5,dz=1] -2012 63 -1109
 
 execute as @a[x=-2013,y=63,z=-1108,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -691,6 +699,7 @@ tp @a[x=-1956,y=77,z=-1458,dx=3,dy=3] -1954 94 -1455
 
 #Pokemon Center
 execute as @a[x=-2203,y=89,z=-1430,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-2203,y=89,z=-1430,dx=6,dy=5,dz=1] run spawnpoint @s -2200 68 -1431
 tp @a[x=-2203,y=89,z=-1430,dx=6,dy=5,dz=1] -2200 68 -1431
 
 execute as @a[x=-2201,y=68,z=-1430,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -785,6 +794,7 @@ tp @a[x=-989,y=51,z=-1280,dx=3,dy=3] -987 79 -1279
 
 #Pokemon Center
 execute as @a[x=-691,y=84,z=-1427,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-691,y=84,z=-1427,dx=6,dy=5,dz=1] run spawnpoint @s -688 63 -1428
 tp @a[x=-691,y=84,z=-1427,dx=6,dy=5,dz=1] -688 63 -1428
 
 execute as @a[x=-689,y=63,z=-1427,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -899,6 +909,7 @@ tp @a[x=443,y=55,z=-1036,dx=3,dy=3] 445 74 -1035
 
 #Pokemon Center
 execute as @a[x=515,y=74,z=-1035,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=515,y=74,z=-1035,dx=6,dy=5,dz=1] run spawnpoint @s 518 53 -1036
 tp @a[x=515,y=74,z=-1035,dx=6,dy=5,dz=1] 518 53 -1036
 
 execute as @a[x=517,y=53,z=-1035,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -967,6 +978,7 @@ tp @a[x=1426,y=48,z=-977,dx=4,dy=3] 1428 74 -976
 
 #Pokemon Center
 execute as @a[x=1479,y=74,z=-978,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=1479,y=74,z=-978,dx=6,dy=5,dz=1] run spawnpoint @s 1482 53 -979
 tp @a[x=1479,y=74,z=-978,dx=6,dy=5,dz=1] 1482 53 -979
 
 execute as @a[x=1481,y=53,z=-978,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -1061,6 +1073,7 @@ tp @a[x=-102,y=32,z=248,dx=3,dy=3] -100 65 249
 
 #Pokemon Center
 execute as @a[x=-56,y=65,z=267,dx=6,dy=3,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=-56,y=65,z=267,dx=6,dy=3,dz=1] run spawnpoint @s -53 28 265
 tp @a[x=-56,y=65,z=267,dx=6,dy=3,dz=1] -53 28 265
 
 execute as @a[x=-54,y=28,z=266,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -1091,6 +1104,7 @@ tp @a[x=-3536,y=82,z=1602,dx=5,dy=3] 986 65 1716
 
 #Pokemon Center
 execute as @a[x=1118,y=79,z=1668,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=1118,y=79,z=1668,dx=6,dy=5,dz=1] run spawnpoint @s 1121 58 1667
 tp @a[x=1118,y=79,z=1668,dx=6,dy=5,dz=1] 1121 58 1667
 
 execute as @a[x=1120,y=58,z=1668,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -1146,6 +1160,7 @@ tp @a[x=1943,y=227,z=-2417,dx=4,dy=4] 985 69 1503
 
 #Pokemon Center
 execute as @a[x=2224,y=154,z=-222,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=2224,y=154,z=-222,dx=6,dy=5,dz=1] run spawnpoint @s 2227 133 -223
 tp @a[x=2224,y=154,z=-222,dx=6,dy=5,dz=1] 2227 133 -223
 
 execute as @a[x=2226,y=133,z=-222,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -1168,6 +1183,7 @@ tp @a[x=1642,y=94,z=-3112,dx=8,dy=3] 2248 159 -378
 
 #Exterior to Interior
 tp @a[x=2154,y=170,z=-750,dx=8,dy=3] 2158 171 -766
+execute as @a[x=2154,y=170,z=-750,dx=8,dy=3] run spawnpoint @s 2158 171 -766
 tp @a[x=2156,y=171,z=-765,dx=4,dy=3] 2158 170 -749
 
 #Entrance to Elite Four Chambers
@@ -1293,6 +1309,7 @@ tp @a[x=632,y=115,z=-3288,dx=4,dy=100] 633 132 -3305
 
 #Pokemon Center
 execute as @a[x=2350,y=69,z=805,dx=6,dy=5,dz=1] run function hoenn:tools/forceclick
+execute as @a[x=2350,y=69,z=805,dx=6,dy=5,dz=1] run spawnpoint @s 2353 48 804
 tp @a[x=2350,y=69,z=805,dx=6,dy=5,dz=1] 2353 48 804
 
 execute as @a[x=2352,y=48,z=805,dx=3,dy=3] run function hoenn:tools/forceclick
@@ -1631,6 +1648,9 @@ tp @a[x=-27,y=64,z=2913,dx=4,dy=3] -25 15 2913
 tp @a[x=-26,y=15,z=2914,dx=3,dy=3] -25 64 2914
 
 
+#Cave 5 lower level
+tp @a[x=-3084,y=69,z=-1922,dx=3,dy=3] -3082 15 -1923
+tp @a[x=-3084,y=15,z=-1922,dx=3,dy=3] -3082 69 -1921
 
 #-------------------------------------------------------------------------
 #Gym Return teleport pads
@@ -1654,7 +1674,7 @@ tp @a[x=-3103,y=70,z=1368,dx=2,dy=5,dz=2] -3101 91 1521
 tp @a[x=-2800,y=222,z=1556,dx=1,dy=5,dz=1] -2798 151 1484
 
 #Mossdeep Gym
-#-2586 68 1504
+tp @a[x=-2588,y=52,z=1354,dx=1,dy=5,dz=1] -2586 68 1504
 tp @a[x=-2580,y=68,z=1501,dy=3] -2586 61 1568 0 20
 
 #Sootopolis Gym
