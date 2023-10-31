@@ -359,7 +359,7 @@ scoreboard players set @s PokeHave 0
 execute if predicate hoenn:rain_test run scoreboard players set @a[x=-863,y=95,z=1411,distance=..7,tag=!Dialogue241] DialogueTrigger 241
 
 #Tornadus, runs if it is sunny
-#execute unless predicate hoenn:rain_test run scoreboard players set @a[x=-930,y=95,z=1522,distance=..7,tag=!Dialogue240] DialogueTrigger 240
+execute unless predicate hoenn:rain_test run scoreboard players set @a[x=-930,y=95,z=1522,distance=..7,tag=!Dialogue240] DialogueTrigger 240
 
 
 #Regular world zones
