@@ -1,0 +1,349 @@
+{
+  "name": "Trubbish",
+  "dex": 568,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Gas",
+              "Pound"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Recycle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Sludge"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Gunk Shot"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Corrosive Gas"
+        ],
+        "eggMoves": [
+          "Autotomize",
+          "Curse",
+          "Haze",
+          "Rollout",
+          "Sand Attack"
+        ],
+        "tmMoves8": [
+          "Self-Destruct",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Rock Blast",
+          "Payback",
+          "Drain Punch",
+          "Venoshock",
+          "Round"
+        ],
+        "trMoves": [
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Slap",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Mud Sport",
+          "Return",
+          "Secret Power",
+          "Spite",
+          "Swagger"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Stench",
+          "StickyHold"
+        ],
+        "hiddenAbilities": [
+          "Aftermath"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 62,
+        "specialAttack": 40,
+        "specialDefense": 62,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 70,
+        "spawnLevel": 23,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/568_trubbish/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/568_trubbish/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/568_trubbish/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/568_trubbish/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/568_trubbish/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 31.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Garbodor",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

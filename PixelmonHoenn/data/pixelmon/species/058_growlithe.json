@@ -1,0 +1,661 @@
+{
+  "name": "Growlithe",
+  "dex": 58,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Leer"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Covet",
+          "Double Kick",
+          "Double-Edge",
+          "Morning Sun",
+          "Raging Fury",
+          "Thrash"
+        ],
+        "tmMoves8": [
+          "Fire Spin",
+          "Dig",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fire Fang",
+          "Round",
+          "Retaliate",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Agility",
+          "Fire Blast",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Heat Wave",
+          "Overheat",
+          "Close Combat",
+          "Flare Blitz",
+          "Wild Charge",
+          "Play Rough",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Burn Up",
+          "Captivate",
+          "Charm",
+          "Confide",
+          "Curse",
+          "Double Team",
+          "Dragon Breath",
+          "Dragon Rage",
+          "Flame Burst",
+          "Flame Charge",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Incinerate",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Odor Sleuth",
+          "Rage",
+          "Reflect",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Skull Bash",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Retaliate",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Retaliate",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Overheat",
+          "Endure",
+          "Will-O-Wisp",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Overheat"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Dragon Breath",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Swift",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Rage",
+          "Dragon Rage",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Fire Blast",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "FlashFire"
+        ],
+        "hiddenAbilities": [
+          "Justified"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 45,
+        "specialAttack": 70,
+        "specialDefense": 50,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 91,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/058_growlithe/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/058_growlithe/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/058_growlithe/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.growlithe",
+                "pixelmon.mob.growlithe",
+                "pixelmon.mob.growlithe",
+                "pixelmon.mob.growlithe"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/058_growlithe/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/058_growlithe/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 19.0,
+      "catchRate": 190,
+      "malePercentage": 75,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:fire_stone"
+          },
+          "to": "Arcanine",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Extreme Speed"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "FlashFire"
+        ],
+        "hiddenAbilities": [
+          "RockHead"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 80,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 45,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 55
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 91,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/058_growlithe/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/058_growlithe/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/058_growlithe/all/hisuian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/058_growlithe/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/058_growlithe/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE",
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 22.7,
+      "catchRate": 190,
+      "malePercentage": 75,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:fire_stone"
+          },
+          "to": "Arcanine form:hisuian",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": []
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

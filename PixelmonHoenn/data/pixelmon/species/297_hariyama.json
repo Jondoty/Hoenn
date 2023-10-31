@@ -1,0 +1,453 @@
+{
+  "name": "Hariyama",
+  "dex": 297,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FLUCTUATING",
+      "dimensions": {
+        "height": 2.3,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 2.3,
+        "hoverHeight": 2.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Arm Thrust",
+              "Brine",
+              "Focus Energy",
+              "Sand Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Arm Thrust"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Fake Out"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Vital Throw"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Belly Drum"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Smelling Salts"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Seismic Toss"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Wake-Up Slap"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Punch",
+          "Focus Punch",
+          "Helping Hand",
+          "Ice Punch",
+          "Iron Head",
+          "Knock Off",
+          "Low Kick",
+          "Role Play",
+          "Snore",
+          "Stomping Tantrum",
+          "Superpower",
+          "Throat Chop",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "Bullet Punch",
+          "Chip Away",
+          "Counter",
+          "Cross Chop",
+          "Detect",
+          "Dynamic Punch",
+          "Feint",
+          "Feint Attack",
+          "Focus Punch",
+          "Foresight",
+          "Helping Hand",
+          "Revenge",
+          "Wake-Up Slap",
+          "Wide Guard"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Dig",
+          "Double-Edge",
+          "Headbutt",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Refresh",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Vacuum Wave",
+          "Whirlpool"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Brine",
+          "Fling",
+          "Endure",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ThickFat",
+          "Guts"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.4
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 144,
+        "attack": 120,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 60,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 184,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/297_hariyama/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/297_hariyama/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/297_hariyama/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              },
+              "sounds": [
+                "pixelmon.mob.hariyama"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/297_hariyama/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/297_hariyama/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Makuhita"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 253.8,
+      "catchRate": 200,
+      "malePercentage": 75,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 3
+}

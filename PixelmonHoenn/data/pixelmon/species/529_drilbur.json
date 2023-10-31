@@ -1,0 +1,362 @@
+{
+  "name": "Drilbur",
+  "dex": 529,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Scratch"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Crush Claw"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Drill Run"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Fissure"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Metal Sound",
+          "Slash",
+          "Submission"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "Fling",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Earthquake",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Poison Jab",
+          "X-Scissor",
+          "Earth Power",
+          "Stealth Rock",
+          "Drill Run",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Mud Sport",
+          "Return",
+          "Rock Climb",
+          "Rock Smash",
+          "Secret Power",
+          "Skull Bash",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandRush",
+          "SandForce"
+        ],
+        "hiddenAbilities": [
+          "MoldBreaker"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 40,
+        "specialAttack": 30,
+        "specialDefense": 45,
+        "speed": 68
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 70,
+        "spawnLevel": 23,
+        "spawnLevelRange": 7,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/529_drilbur/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/529_drilbur/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/529_drilbur/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.drilbur"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/529_drilbur/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/529_drilbur/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 8.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 31,
+          "to": "Excadrill",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Horn Drill"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

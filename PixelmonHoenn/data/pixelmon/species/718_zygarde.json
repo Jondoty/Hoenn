@@ -1,0 +1,436 @@
+{
+  "name": "Zygarde",
+  "dex": 718,
+  "defaultForms": [
+    "fifty_percent"
+  ],
+  "forms": [
+    {
+      "name": "fifty_percent",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.5,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 2.5,
+        "hoverHeight": 2.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bind",
+              "Bite",
+              "Bulldoze",
+              "Core Enforcer",
+              "Dragon Breath",
+              "Thousand Arrows",
+              "Thousand Waves"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Land\u0027s Wrath"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Glare"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Outrage"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Scale Shot",
+          "Scorching Sands",
+          "Skitter Smack"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Payback",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Superpower",
+          "Hyper Voice",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Earth Power",
+          "Zen Headbutt",
+          "Stone Edge",
+          "Grass Knot",
+          "Sludge Wave",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Camouflage",
+          "Confide",
+          "Double Team",
+          "Dragon Tail",
+          "Extreme Speed",
+          "Frustration",
+          "Hidden Power",
+          "Pain Split",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Spite",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Round",
+          "Focus Blast",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Round",
+          "Focus Blast",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "AuraBreak",
+          "PowerConstruct"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.6
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.6
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 108,
+        "attack": 100,
+        "defense": 121,
+        "specialAttack": 81,
+        "specialDefense": 95,
+        "speed": 95
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 1,
+        "spawnLevelRange": 99,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/texture.png",
+              "sprite": "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.zygarde.50"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/718_zygarde/all/fifty_percent/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/718_zygarde/all/fifty_percent/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DRAGON",
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 305.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    },
+    {
+      "name": "ten_percent",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "battleStats": {
+        "hp": 54,
+        "attack": 100,
+        "defense": 71,
+        "specialAttack": 61,
+        "specialDefense": 85,
+        "speed": 115
+      },
+      "weight": 33.5,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/718_zygarde/all/ten_percent/none/texture.png",
+              "sprite": "pixelmon:pokemon/718_zygarde/all/ten_percent/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/718_zygarde/all/ten_percent/none/model.pqc"
+                ],
+                "animationIncrement": 1.5
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/718_zygarde/all/ten_percent/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/718_zygarde/all/ten_percent/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "complete",
+      "dimensions": {
+        "height": 6.0,
+        "width": 3.0,
+        "length": 3.0
+      },
+      "battleStats": {
+        "hp": 216,
+        "attack": 100,
+        "defense": 121,
+        "specialAttack": 91,
+        "specialDefense": 95,
+        "speed": 85
+      },
+      "weight": 610.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/718_zygarde/all/complete/none/texture.png",
+              "sprite": "pixelmon:pokemon/718_zygarde/all/complete/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/718_zygarde/all/complete/none/model.pqc"
+                ],
+                "animationIncrement": 1.5
+              },
+              "sounds": [
+                "pixelmon.mob.zygarde.100"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/718_zygarde/all/complete/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/718_zygarde/all/complete/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "temp"
+      ]
+    }
+  ],
+  "generation": 6
+}

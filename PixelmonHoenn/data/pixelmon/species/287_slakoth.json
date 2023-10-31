@@ -1,0 +1,410 @@
+{
+  "name": "Slakoth",
+  "dex": 287,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Scratch",
+              "Yawn"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Slack Off"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Chip Away"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Play Rough"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Covet",
+          "Fire Punch",
+          "Focus Punch",
+          "Gunk Shot",
+          "Ice Punch",
+          "Icy Wind",
+          "Shock Wave",
+          "Snore",
+          "Thunder Punch",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "After You",
+          "Body Slam",
+          "Crush Claw",
+          "Curse",
+          "Hammer Arm",
+          "Night Slash",
+          "Pursuit",
+          "Slash",
+          "Sleep Talk",
+          "Snore",
+          "Tickle"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Cut",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Endure",
+          "Fury Cutter",
+          "Headbutt",
+          "Hone Claws",
+          "Incinerate",
+          "Mega Kick",
+          "Mega Punch",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Sucker Punch"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Shadow Claw",
+          "Retaliate",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Shadow Claw",
+          "Retaliate",
+          "Rock Slide",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Endure",
+          "Shadow Claw",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Truant"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 83,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/287_slakoth/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/287_slakoth/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/287_slakoth/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/287_slakoth/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/287_slakoth/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 24.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 18,
+          "to": "Vigoroth",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,443 @@
+{
+  "name": "Dodrio",
+  "dex": 85,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Peck",
+              "Quick Attack",
+              "Rage",
+              "Tri Attack"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rage"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Jump Kick"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Knock Off",
+          "Sky Attack",
+          "Snore",
+          "Stomping Tantrum",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Assurance",
+          "Brave Bird",
+          "Endeavor",
+          "Feint Attack",
+          "Flail",
+          "Haze",
+          "Mirror Move",
+          "Natural Gift",
+          "Quick Attack",
+          "Supersonic"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Baton Pass",
+          "Bide",
+          "Body Slam",
+          "Captivate",
+          "Curse",
+          "Double-Edge",
+          "Endure",
+          "Mimic",
+          "Mud-Slap",
+          "Secret Power",
+          "Skull Bash",
+          "Swift",
+          "Take Down",
+          "Whirlwind"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Payback",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Payback",
+          "Giga Impact",
+          "Work Up",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Payback",
+          "Giga Impact",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves1": [
+          "Whirlwind",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Skull Bash",
+          "Sky Attack",
+          "Rest",
+          "Tri Attack",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "EarlyBird"
+        ],
+        "hiddenAbilities": [
+          "TangledFeet"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 110,
+        "defense": 70,
+        "specialAttack": 60,
+        "specialDefense": 60,
+        "speed": 110
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 158,
+        "baseFriendship": 70,
+        "spawnLevel": 31,
+        "spawnLevelRange": 19,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/085_dodrio/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/085_dodrio/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/085_dodrio/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dodrio"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/085_dodrio/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/085_dodrio/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/085_dodrio/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/085_dodrio/all/base/pink/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Doduo"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 85.2,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 1
+}

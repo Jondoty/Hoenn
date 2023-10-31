@@ -1,0 +1,304 @@
+{
+  "name": "Torracat",
+  "dex": 726,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Growl",
+              "Lick",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Pledge"
+        ],
+        "eggMoves": [
+          "Fake Out",
+          "Parting Shot",
+          "Power Trip"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Fire Spin",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Revenge",
+          "U-turn",
+          "Shadow Claw",
+          "Fire Fang",
+          "Round",
+          "Acrobatics"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Flamethrower",
+          "Fire Blast",
+          "Leech Life",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Heat Wave",
+          "Taunt",
+          "Overheat",
+          "Bulk Up",
+          "Flare Blitz",
+          "Nasty Plot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Dual Chop",
+          "Endeavor",
+          "Flame Charge",
+          "Frustration",
+          "Hidden Power",
+          "Leer",
+          "Return",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Shadow Claw",
+          "Swords Dance",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Intimidate"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.35
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.35
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 85,
+        "defense": 50,
+        "specialAttack": 80,
+        "specialDefense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 70,
+        "spawnLevel": 18,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/726_torracat/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/726_torracat/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/726_torracat/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/726_torracat/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/726_torracat/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Litten"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 25.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Incineroar",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Darkest Lariat"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 7
+}

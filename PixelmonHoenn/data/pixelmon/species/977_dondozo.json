@@ -1,0 +1,264 @@
+{
+  "name": "Dondozo",
+  "dex": 977,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1.0,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Supersonic",
+              "Tackle",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Tickle"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rest",
+              "Sleep Talk"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Noble Roar"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Order Up"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Wave Crash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Curse",
+          "Fissure",
+          "Thrash",
+          "Yawn"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Ice Fang",
+          "Water Pulse",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Avalanche",
+          "Endure",
+          "Rain Dance",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Waterfall",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Substitute",
+          "Crunch",
+          "Liquidation",
+          "Heavy Slam",
+          "Surf",
+          "Hydro Pump",
+          "Earthquake",
+          "Giga Impact",
+          "Outrage",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Unaware",
+          "Oblivious"
+        ],
+        "hiddenAbilities": [
+          "WaterVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 3,
+          "depthRangeEnd": 15,
+          "swimSpeed": 8,
+          "decayRate": 0.99,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 150,
+        "attack": 100,
+        "defense": 115,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 35
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 265,
+        "baseFriendship": 50,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/977_dondozo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/977_dondozo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dondozo"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/977_dondozo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/977_dondozo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 40,
+      "weight": 220.0,
+      "catchRate": 25,
+      "evolutions": [],
+      "malePercentage": 50,
+      "evYields": {
+        "hp": 3
+      }
+    }
+  ],
+  "generation": 9
+}

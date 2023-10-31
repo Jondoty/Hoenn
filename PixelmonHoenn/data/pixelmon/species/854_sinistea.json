@@ -1,0 +1,293 @@
+{
+  "name": "Sinistea",
+  "dex": 854,
+  "defaultForms": [
+    "phony",
+    "antique"
+  ],
+  "forms": [
+    {
+      "name": "phony",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Aromatic Mist"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Shell Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Celebrate",
+          "Poltergeist"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Payback",
+          "Wonder Room",
+          "Round",
+          "Hex",
+          "Phantom Force"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Metronome",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Trick",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WeakArmor"
+        ],
+        "hiddenAbilities": [
+          "CursedBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 45,
+        "specialAttack": 74,
+        "specialDefense": 54,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 34,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/854_sinistea/all/phony/none/texture.png",
+              "sprite": "pixelmon:pokemon/854_sinistea/all/phony/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/854_sinistea/all/phony/none/model.pqc"
+                ],
+                "rotateAngleX": 0
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/854_sinistea/all/phony/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/854_sinistea/all/phony/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/854_sinistea/all/phony/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/854_sinistea/all/phony/christmas/sprite.png"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.2,
+      "catchRate": 120,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:cracked_pot"
+          },
+          "to": "Polteageist form:phony",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "antique",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/854_sinistea/all/antique/none/texture.png",
+              "sprite": "pixelmon:pokemon/854_sinistea/all/antique/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/854_sinistea/all/antique/none/model.pqc"
+                ],
+                "rotateAngleX": 0
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/854_sinistea/all/antique/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/854_sinistea/all/antique/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/854_sinistea/all/antique/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/854_sinistea/all/antique/christmas/sprite.png"
+            }
+          ]
+        }
+      ],
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:chipped_pot"
+          },
+          "to": "Polteageist form:antique",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Teatime"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

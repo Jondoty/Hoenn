@@ -1,0 +1,625 @@
+{
+  "name": "Lunatone",
+  "dex": 337,
+  "defaultForms": [
+    "gibbous"
+  ],
+  "forms": [
+    {
+      "name": "gibbous",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Harden",
+              "Moonblast",
+              "Moonlight",
+              "Rock Throw",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Future Sight"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Magic Room"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Sandstorm",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Weather Ball",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Power Swap",
+          "Trick Room",
+          "Magic Room",
+          "Round",
+          "Acrobatics",
+          "Bulldoze",
+          "Psychic Terrain",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Future Sight",
+          "Skill Swap",
+          "Cosmic Power",
+          "Calm Mind",
+          "Gyro Ball",
+          "Power Gem",
+          "Earth Power",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Baton Pass",
+          "Charge Beam",
+          "Confide",
+          "Defense Curl",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Embargo",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Heal Block",
+          "Hidden Power",
+          "Laser Focus",
+          "Magic Coat",
+          "Mimic",
+          "Natural Gift",
+          "Pain Split",
+          "Psych Up",
+          "Psywave",
+          "Recycle",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Signal Beam",
+          "Smack Down",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Charge Beam",
+          "Endure",
+          "Embargo",
+          "Explosion",
+          "Recycle",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 55,
+        "defense": 65,
+        "specialAttack": 95,
+        "specialDefense": 85,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 150,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/gibbous/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/337_lunatone/all/base/none/gibbous.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lunatone",
+                "pixelmon.mob.lunatone",
+                "pixelmon.mob.lunatone",
+                "pixelmon.mob.lunatone",
+                "pixelmon.mob.lunatone"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/gibbous/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 168.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "quarter",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/quarter/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/337_lunatone/all/base/none/quarter.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/quarter/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "full",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/full/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/337_lunatone/all/base/none/full.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/full/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "new_moon",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/337_lunatone/all/new_moon/none/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/new_moon/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/337_lunatone/all/base/none/new.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/337_lunatone/all/new_moon/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/new_moon/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "crescent",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/crescent/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/337_lunatone/all/base/none/crescent.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/337_lunatone/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/337_lunatone/all/crescent/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,456 @@
+{
+  "name": "Cacturne",
+  "dex": 332,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Destiny Bond",
+              "Growth",
+              "Leer",
+              "Poison Sting",
+              "Revenge",
+              "Spiky Shield"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Needle Arm"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 59,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Block",
+          "Drain Punch",
+          "Focus Punch",
+          "Foul Play",
+          "Giga Drain",
+          "Low Kick",
+          "Role Play",
+          "Seed Bomb",
+          "Snore",
+          "Spite",
+          "Stomping Tantrum",
+          "Superpower",
+          "Synthesis",
+          "Thunder Punch",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Acid",
+          "Belch",
+          "Block",
+          "Counter",
+          "Disable",
+          "Dynamic Punch",
+          "Fell Stinger",
+          "Grass Whistle",
+          "Low Kick",
+          "Magical Leaf",
+          "Nasty Plot",
+          "Power-Up Punch",
+          "Rototiller",
+          "Seed Bomb",
+          "Smelling Salts",
+          "Switcheroo",
+          "Teeter Dance",
+          "Worry Seed"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Bullet Seed",
+          "Captivate",
+          "Cut",
+          "Double-Edge",
+          "Encore",
+          "Endure",
+          "Flash",
+          "Fury Cutter",
+          "Headbutt",
+          "Mega Kick",
+          "Mega Punch",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Retaliate",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandVeil"
+        ],
+        "hiddenAbilities": [
+          "WaterAbsorb"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.25,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.25,
+            "z": -0.4
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 60,
+        "specialAttack": 115,
+        "specialDefense": 60,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 177,
+        "baseFriendship": 35,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/332_cacturne/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/332_cacturne/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/332_cacturne/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/332_cacturne/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/332_cacturne/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "GRASS",
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Cacnea"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 77.4,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 3
+}

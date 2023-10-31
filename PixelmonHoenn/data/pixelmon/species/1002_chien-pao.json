@@ -1,0 +1,265 @@
+{
+  "name": "Chien-Pao",
+  "dex": 1002,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.9,
+        "length": 1.0,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mean Look",
+              "Powder Snow",
+              "Spite"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Haze",
+              "Mist"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ice Shard"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Snowscape"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Icicle Crash"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Ruination"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Sacred Sword"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Ice Fang",
+          "Acrobatics",
+          "Facade",
+          "Aerial Ace",
+          "Hex",
+          "Snarl",
+          "Icy Wind",
+          "Avalanche",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "False Swipe",
+          "Brick Break",
+          "Psychic Fangs",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Dark Pulse",
+          "Substitute",
+          "Crunch",
+          "Ice Spinner",
+          "Blizzard",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwordOfRuin"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 80,
+        "specialAttack": 90,
+        "specialDefense": 65,
+        "speed": 135
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 60,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1002_chien-pao/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1002_chien-pao/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/1002_chien-pao/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1002_chien-pao/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1002_chien-pao/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "rainbow",
+              "texture": "pixelmon:pokemon/1002_chien-pao/all/base/rainbow/texture.png",
+              "sprite": "pixelmon:pokemon/1002_chien-pao/all/base/rainbow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DARK",
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 152.2,
+      "catchRate": 6,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "speed": 3
+      }
+    }
+  ],
+  "generation": 9
+}

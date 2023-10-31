@@ -1,0 +1,471 @@
+{
+  "name": "Torkoal",
+  "dex": 324,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Smog"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Lava Plume"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Heat Wave"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Inferno"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Shell Smash"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Eruption"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Fissure",
+          "Flail",
+          "Skull Bash",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Weather Ball",
+          "Rock Tomb",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Earthquake",
+          "Fire Blast",
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Heat Wave",
+          "Superpower",
+          "Overheat",
+          "Iron Defense",
+          "Gyro Ball",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heat Crash",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Explosion",
+          "Flame Burst",
+          "Flame Charge",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Incinerate",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nature Power",
+          "Return",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat",
+          "Endure",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WhiteSmoke",
+          "Drought"
+        ],
+        "hiddenAbilities": [
+          "ShellArmour"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 140,
+        "specialAttack": 85,
+        "specialDefense": 70,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 70,
+        "spawnLevel": 35,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/324_torkoal/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/324_torkoal/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/324_torkoal/all/base/none/model.pqc"
+                ],
+                "zRotation": 0.5
+              },
+              "sounds": [
+                "pixelmon.mob.torkoal"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/324_torkoal/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/324_torkoal/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 80.4,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 3
+}

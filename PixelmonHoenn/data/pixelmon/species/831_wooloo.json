@@ -1,0 +1,442 @@
+{
+  "name": "Wooloo",
+  "dex": 831,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Copycat"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Guard Swap"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Stomp",
+          "Swagger"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Payback",
+          "Guard Swap",
+          "Round"
+        ],
+        "trMoves": [
+          "Agility",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Electro Ball",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Fluffy",
+          "RunAway"
+        ],
+        "hiddenAbilities": [
+          "Bulletproof"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 42,
+        "attack": 40,
+        "defense": 55,
+        "specialAttack": 40,
+        "specialDefense": 45,
+        "speed": 48
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 122,
+        "baseFriendship": 50,
+        "spawnLevel": 18,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/831_wooloo/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.wooloo"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "black",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/black/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/black/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/blue/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/blue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/brown/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/brown/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "cyan",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/cyan/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/cyan/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/gray/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/gray/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "green",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/green/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/green/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lightblue",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/lightblue/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/lightblue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lightgray",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/lightgray/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/lightgray/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lime",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/lime/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/lime/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "magenta",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/magenta/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/magenta/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/orange/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/purple/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/purple/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "red",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/red/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/red/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "yellow",
+              "texture": "pixelmon:pokemon/831_wooloo/all/base/yellow/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/base/yellow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 6.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Dubwool",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    },
+    {
+      "name": "shorn",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 0.7
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/none/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/831_wooloo/all/shorn/none/shorn.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "black",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/black/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/black/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/blue/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/blue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/brown/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/brown/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "cyan",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/cyan/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/cyan/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/gray/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/gray/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "green",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/green/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/green/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lightblue",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/lightblue/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/lightblue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lightgray",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/lightgray/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/lightgray/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lime",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/lime/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/lime/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "magenta",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/magenta/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/magenta/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/orange/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/pink/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/purple/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/purple/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "red",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/red/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/red/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "yellow",
+              "texture": "pixelmon:pokemon/831_wooloo/all/shorn/yellow/texture.png",
+              "sprite": "pixelmon:pokemon/831_wooloo/all/shorn/yellow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

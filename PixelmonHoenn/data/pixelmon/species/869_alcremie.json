@@ -1,0 +1,1187 @@
+{
+  "name": "Alcremie",
+  "dex": 869,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.85,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.85,
+        "hoverHeight": 0.85
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aromatic Mist",
+              "Decorate",
+              "Sweet Kiss",
+              "Sweet Scent",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Entrainment"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Misty Explosion"
+        ],
+        "eggMoves": [
+          "Baby-Doll Eyes",
+          "Last Resort"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Imprison",
+          "Fake Tears",
+          "Fling",
+          "Drain Punch",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Misty Terrain",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Metronome",
+          "Tri Attack",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Calm Mind",
+          "Energy Ball",
+          "Stored Power",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SweetVeil"
+        ],
+        "hiddenAbilities": [
+          "AromaVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 75,
+        "specialAttack": 110,
+        "specialDefense": 121,
+        "speed": 64
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "strawberry_vanilla_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.alcremie",
+                "pixelmon.mob.alcremie",
+                "pixelmon.mob.alcremie"
+              ]
+            },
+            {
+              "name": "strawberry_caramel_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_caramel_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_caramel_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_lemon_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_lemon_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_lemon_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_matcha_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_matcha_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_matcha_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_mint_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_mint_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_mint_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_rainbow_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_rainbow_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_rainbow_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_ruby_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_ruby_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_ruby_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_ruby_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_ruby_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_ruby_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_salted_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_salted_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_salted_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "strawberry_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/strawberry_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/strawberry_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/strawberry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_caramel_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_caramel_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_caramel_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_lemon_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_lemon_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_lemon_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_matcha_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_matcha_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_matcha_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_mint_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_mint_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_mint_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_rainbow_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_rainbow_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_rainbow_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_ruby_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_ruby_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_ruby_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_ruby_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_ruby_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_ruby_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_salted_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_salted_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_salted_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "star_vanilla_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/star_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_caramel_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_caramel_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_caramel_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_lemon_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_lemon_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_lemon_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_matcha_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_matcha_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_matcha_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_mint_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_mint_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_mint_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_rainbow_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_rainbow_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_rainbow_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_ruby_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_ruby_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_ruby_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_ruby_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_ruby_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_ruby_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_salted_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_salted_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_salted_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "ribbon_vanilla_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/ribbon_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "pumpkin",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/pumpkin/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/pumpkin/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/pumpkin/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "pumpkin_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/pumpkin_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/pumpkin_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/pumpkin/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_caramel_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_caramel_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_caramel_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_lemon_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_lemon_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_lemon_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_matcha_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_matcha_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_matcha_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_mint_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_mint_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_mint_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_rainbow_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_rainbow_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_rainbow_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_ruby_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_ruby_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_ruby_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_ruby_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_ruby_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_ruby_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_salted_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_salted_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_salted_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "love_vanilla_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/love_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_caramel_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_caramel_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_caramel_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_lemon_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_lemon_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_lemon_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_matcha_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_matcha_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_matcha_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_mint_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_mint_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_mint_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_rainbow_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_rainbow_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_rainbow_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_ruby_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_ruby_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_ruby_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_ruby_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_ruby_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_ruby_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_salted_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_salted_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_salted_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "flower_vanilla_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/flower_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_caramel_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_caramel_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_caramel_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_lemon_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_lemon_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_lemon_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_matcha_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_matcha_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_matcha_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_mint_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_mint_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_mint_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_rainbow_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_rainbow_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_rainbow_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_ruby_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_ruby_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_ruby_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_ruby_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_ruby_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_ruby_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_salted_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_salted_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_salted_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "clover_vanilla_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/clover_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_caramel_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_caramel_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_caramel_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_lemon_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_lemon_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_lemon_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_matcha_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_matcha_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_matcha_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_mint_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_mint_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_mint_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_rainbow_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_rainbow_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_rainbow_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_ruby_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_ruby_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_ruby_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_ruby_swirl",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_ruby_swirl/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_ruby_swirl/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_salted_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_salted_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_salted_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "berry_vanilla_cream",
+              "texture": "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/869_alcremie/all/base/berry_vanilla_cream/model.pqc"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Milcery"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Finale"
+      },
+      "eggCycles": 21,
+      "weight": 0.5,
+      "catchRate": 100,
+      "malePercentage": 0,
+      "evYields": {
+        "specialDefense": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/869_alcremie/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/869_alcremie/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/869_alcremie/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/869_alcremie/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,275 @@
+{
+  "name": "Farigiraf",
+  "dex": 981,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1.0,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Growl",
+              "Guard Swap",
+              "Power Swap",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Twin Beam"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Psychic"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ally Switch",
+          "Beat Up",
+          "Double Kick",
+          "Future Sight",
+          "Mean Look",
+          "Mirror Coat",
+          "Take Down",
+          "Uproar",
+          "Wish"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Low Kick",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Trailblaze",
+          "Charge Beam",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Stored Power",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Psyshock",
+          "Zen Headbutt",
+          "Foul Play",
+          "Psychic Fangs",
+          "Body Slam",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Thunder Wave",
+          "Stomping Tantrum",
+          "Rest",
+          "Imprison",
+          "Skill Swap",
+          "Iron Head",
+          "Substitute",
+          "Crunch",
+          "Trick",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Energy Ball",
+          "Psychic",
+          "Thunderbolt",
+          "Amnesia",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Psychic Terrain",
+          "Nasty Plot",
+          "Earthquake",
+          "Giga Impact",
+          "Trick Room",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CudChew",
+          "ArmorTail"
+        ],
+        "hiddenAbilities": [
+          "SapSipper"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 120,
+        "attack": 90,
+        "defense": 70,
+        "specialAttack": 110,
+        "specialDefense": 70,
+        "speed": 60
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 260,
+        "baseFriendship": 50,
+        "spawnLevel": 33,
+        "spawnLevelRange": 27,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/981_farigiraf/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/981_farigiraf/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/981_farigiraf/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/981_farigiraf/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Girafarig"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 160.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    }
+  ],
+  "generation": 9
+}

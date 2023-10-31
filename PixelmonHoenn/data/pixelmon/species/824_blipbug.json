@@ -1,0 +1,154 @@
+{
+  "name": "Blipbug",
+  "dex": 824,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Infestation",
+          "Recover",
+          "Sticky Web",
+          "Supersonic"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "CompoundEyes"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 25,
+        "attack": 20,
+        "defense": 20,
+        "specialAttack": 25,
+        "specialDefense": 45,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 36,
+        "baseFriendship": 50,
+        "spawnLevel": 4,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/824_blipbug/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/824_blipbug/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/824_blipbug/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.blipbug"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/824_blipbug/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/824_blipbug/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 8.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 10,
+          "to": "Dottler",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Reflect",
+            "Light Screen",
+            "Confusion"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,504 @@
+{
+  "name": "Lilligant",
+  "dex": 549,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.7,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "After You",
+              "Aromatherapy",
+              "Energy Ball",
+              "Entrainment",
+              "Giga Drain",
+              "Growth",
+              "Helping Hand",
+              "Leaf Storm",
+              "Leech Seed",
+              "Magical Leaf",
+              "Mega Drain",
+              "Petal Blizzard",
+              "Petal Dance",
+              "Quiver Dance",
+              "Sleep Powder",
+              "Stun Spore",
+              "Sunny Day",
+              "Synthesis",
+              "Teeter Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Healing Wish",
+          "Ingrain",
+          "Sweet Scent",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Round",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Leaf Blade",
+          "Seed Bomb",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Confide",
+          "Covet",
+          "Cut",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Grass Whistle",
+          "Heal Bell",
+          "Hidden Power",
+          "Laser Focus",
+          "Natural Gift",
+          "Nature Power",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Swords Dance",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll",
+          "OwnTempo"
+        ],
+        "hiddenAbilities": [
+          "LeafGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 75,
+        "specialAttack": 110,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/549_lilligant/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/549_lilligant/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/549_lilligant/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/549_lilligant/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/549_lilligant/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Petilil"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 16.3,
+      "catchRate": 75,
+      "malePercentage": 0,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 1,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Leafage"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Poison Powder"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Sleep Powder"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Drain Punch"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Leaf Blade",
+              "Recover"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Victory Dance"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Petal Dance"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Baby-Doll Eyes",
+          "Drain Punch",
+          "Energy Ball",
+          "Focus Energy",
+          "Giga Impact",
+          "Hyper Beam",
+          "Magical Leaf",
+          "Poison Jab",
+          "Rest",
+          "Rock Smash"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "LeafGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 80,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 105,
+        "defense": 75,
+        "specialAttack": 50,
+        "specialDefense": 75,
+        "speed": 105
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/549_lilligant/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/549_lilligant/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/549_lilligant/all/hisuian/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lilligant.hisui"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/549_lilligant/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/549_lilligant/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Petilil"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 19.2,
+      "catchRate": 75,
+      "malePercentage": 0
+    }
+  ],
+  "generation": 5
+}

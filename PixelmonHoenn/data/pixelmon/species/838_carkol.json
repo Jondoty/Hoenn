@@ -1,0 +1,238 @@
+{
+  "name": "Carkol",
+  "dex": 838,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.95,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.95,
+        "hoverHeight": 0.95
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Flame Charge",
+              "Rapid Spin",
+              "Smack Down",
+              "Smokescreen",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Heat Crash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Burn Up"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Block",
+          "Explosion",
+          "Mud-Slap"
+        ],
+        "tmMoves8": [
+          "Fire Spin",
+          "Dig",
+          "Reflect",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Will-O-Wisp",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Round"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Fire Blast",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Heat Wave",
+          "Overheat",
+          "Iron Defense",
+          "Gyro Ball",
+          "Flare Blitz",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Scald",
+          "Heat Crash",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SteamEngine",
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "FlashFire"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 60,
+        "defense": 90,
+        "specialAttack": 60,
+        "specialDefense": 70,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 144,
+        "baseFriendship": 50,
+        "spawnLevel": 18,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/838_carkol/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/838_carkol/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/838_carkol/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/838_carkol/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/838_carkol/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK",
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Rolycoly"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 78.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Coalossal",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Tar Shot"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

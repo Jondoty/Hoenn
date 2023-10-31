@@ -1,0 +1,228 @@
+{
+  "name": "Rellor",
+  "dex": 953,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.2,
+        "length": 1.0,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Lunge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Cosmic Power",
+          "Memento",
+          "Recover",
+          "Weather Ball"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Struggle Bug",
+          "Thief",
+          "Pounce",
+          "Facade",
+          "Mud Shot",
+          "Rock Tomb",
+          "Fling",
+          "Endure",
+          "Dig",
+          "Sleep Talk",
+          "Rest",
+          "Leech Life",
+          "Gunk Shot",
+          "Substitute",
+          "Iron Defense",
+          "X-Scissor",
+          "Sludge Bomb",
+          "Bug Buzz",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CompoundEyes"
+        ],
+        "hiddenAbilities": [
+          "ShedSkin"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 41,
+        "attack": 50,
+        "defense": 60,
+        "specialAttack": 31,
+        "specialDefense": 58,
+        "speed": 30
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 54,
+        "baseFriendship": 50,
+        "spawnLevel": 22,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/953_rellor/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/953_rellor/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/953_rellor/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/953_rellor/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 1.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Rabsca",
+          "conditions": [
+            {
+              "blocksToWalk": 1000,
+              "evoConditionType": "blocksWalkedOutsideBall"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Revival Blessing"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 9
+}

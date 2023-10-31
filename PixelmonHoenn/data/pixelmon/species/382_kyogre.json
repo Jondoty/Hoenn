@@ -1,0 +1,493 @@
+{
+  "name": "Kyogre",
+  "dex": 382,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 3.5,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ancient Power",
+              "Body Slam",
+              "Scary Face",
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Ice Beam"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Origin Pulse"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 81,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 90,
+            "attacks": [
+              "Water Spout"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Brick Break",
+          "Dive",
+          "Rock Tomb",
+          "Brine",
+          "Avalanche",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Muddy Water",
+          "Calm Mind",
+          "Iron Head",
+          "Heavy Slam",
+          "Scald",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Confide",
+          "Defense Curl",
+          "Double Team",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Psych Up",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Strength",
+          "Swagger",
+          "Swift",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Brine",
+          "Endure",
+          "Giga Impact",
+          "Avalanche",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Drizzle"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.5
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 5,
+          "depthRangeEnd": 100,
+          "swimSpeed": 15,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 90,
+        "specialAttack": 150,
+        "specialDefense": 140,
+        "speed": 90
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 218,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/382_kyogre/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/382_kyogre/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/382_kyogre/all/base/none/model.pqc"
+                ],
+                "yRotation": 22.3
+              },
+              "sounds": [
+                "pixelmon.mob.kyogre"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/382_kyogre/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/382_kyogre/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 352.0,
+      "catchRate": 5,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "primal",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "PrimordialSea"
+        ]
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 150,
+        "defense": 90,
+        "specialAttack": 180,
+        "specialDefense": 160,
+        "speed": 90
+      },
+      "weight": 430.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/382_kyogre/all/primal/none/texture.png",
+              "sprite": "pixelmon:pokemon/382_kyogre/all/primal/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/382_kyogre/all/primal/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kyogre.primal"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/382_kyogre/all/primal/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/382_kyogre/all/primal/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

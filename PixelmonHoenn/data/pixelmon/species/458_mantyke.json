@@ -1,0 +1,403 @@
+{
+  "name": "Mantyke",
+  "dex": 458,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Confuse Ray",
+          "Haze",
+          "Mirror Coat",
+          "Slam",
+          "Splash",
+          "Tailwind",
+          "Twister"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Dive",
+          "Bounce",
+          "Round",
+          "Acrobatics",
+          "Bulldoze",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Agility",
+          "Waterfall",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Air Cutter",
+          "Bubble",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Swagger",
+          "Toxic",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Acrobatics",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Acrobatics",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Acrobatics",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "WaterAbsorb"
+        ],
+        "hiddenAbilities": [
+          "WaterVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 18,
+          "swimSpeed": 10,
+          "decayRate": 0.99,
+          "refreshRate": 200,
+          "chanceToStopOnBlock": 0.9,
+          "blocksToStopOn": [
+            "minecraft:SEAGRASS",
+            "minecraft:TALL_SEAGRASS",
+            "minecraft:TUBE_CORAL_BLOCK",
+            "minecraft:BRAIN_CORAL_BLOCK",
+            "minecraft:BUBBLE_CORAL_BLOCK",
+            "minecraft:FIRE_CORAL_BLOCK",
+            "minecraft:HORN_CORAL_BLOCK"
+          ],
+          "minStopTime": 1,
+          "maxStopTime": 4,
+          "minStopCooldownTime": 6,
+          "maxStopCooldownTime": 10
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 20,
+        "defense": 50,
+        "specialAttack": 60,
+        "specialDefense": 120,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 108,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/458_mantyke/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/458_mantyke/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/458_mantyke/all/base/none/model.pqc"
+                ],
+                "yRotation": 27
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/458_mantyke/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/458_mantyke/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 65.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Mantine",
+          "conditions": [
+            {
+              "withPokemon": [
+                "Remoraid"
+              ],
+              "withTypes": [],
+              "evoConditionType": "party"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

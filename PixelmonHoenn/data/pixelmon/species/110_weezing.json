@@ -1,0 +1,711 @@
+{
+  "name": "Weezing",
+  "dex": 110,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 2.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Double Hit",
+              "Heat Wave",
+              "Poison Gas",
+              "Smog",
+              "Smokescreen",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sludge"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Explosion"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Corrosive Gas"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Grudge",
+          "Pain Split",
+          "Psybeam",
+          "Spit Up",
+          "Spite",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Self-Destruct",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Payback",
+          "Assurance",
+          "Venoshock",
+          "Round"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Thunder",
+          "Fire Blast",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Gyro Ball",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Sludge Wave",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Incinerate",
+          "Infestation",
+          "Mimic",
+          "Natural Gift",
+          "Psywave",
+          "Rage",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Shock Wave",
+          "Swagger",
+          "Torment",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Will-O-Wisp",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Gyro Ball",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Endure",
+          "Will-O-Wisp",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Zap Cannon",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Hyper Beam",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Self-Destruct",
+          "Fire Blast",
+          "Rest",
+          "Explosion",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate",
+          "NeutralizingGas"
+        ],
+        "hiddenAbilities": [
+          "Stench"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": -0.47,
+            "y": -1.0,
+            "z": -0.1
+          },
+          "moving": {
+            "x": -0.47,
+            "y": -1.0,
+            "z": -0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "specialAttack": 85,
+        "specialDefense": 70,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 70,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/110_weezing/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/110_weezing/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/110_weezing/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.weezing",
+                "pixelmon.mob.weezing"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/110_weezing/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/110_weezing/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valentine",
+              "texture": "pixelmon:pokemon/110_weezing/all/base/valentine/texture.png",
+              "sprite": "pixelmon:pokemon/110_weezing/all/base/valentine/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Koffing"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 9.5,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    },
+    {
+      "name": "galarian",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.5,
+        "length": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aromatic Mist",
+              "Defog",
+              "Double Hit",
+              "Fairy Wind",
+              "Haze",
+              "Heat Wave",
+              "Poison Gas",
+              "Smog",
+              "Smokescreen",
+              "Strange Steam",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sludge"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Explosion"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          },
+          {
+            "level": 68,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Corrosive Gas",
+          "Misty Explosion"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Grudge",
+          "Pain Split",
+          "Psybeam",
+          "Spit Up",
+          "Spite",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Self-Destruct",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Payback",
+          "Assurance",
+          "Wonder Room",
+          "Venoshock",
+          "Round",
+          "Misty Terrain",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Thunder",
+          "Fire Blast",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Overheat",
+          "Gyro Ball",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Sludge Wave",
+          "Play Rough",
+          "Venom Drench",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate",
+          "NeutralizingGas"
+        ],
+        "hiddenAbilities": [
+          "MistySurge"
+        ]
+      },
+      "tags": [
+        "galarian"
+      ],
+      "types": [
+        "POISON",
+        "FAIRY"
+      ],
+      "weight": 16.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/110_weezing/all/galarian/none/texture.png",
+              "sprite": "pixelmon:pokemon/110_weezing/all/galarian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/110_weezing/all/galarian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/110_weezing/all/galarian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/110_weezing/all/galarian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

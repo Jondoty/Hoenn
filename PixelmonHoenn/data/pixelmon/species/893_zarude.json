@@ -1,0 +1,299 @@
+{
+  "name": "Zarude",
+  "dex": 893,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bind",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Grass Knot"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 78,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Power Whip"
+            ]
+          },
+          {
+            "level": 90,
+            "attacks": [
+              "Jungle Healing"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Lash Out"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Bullet Seed",
+          "Mud Shot",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Round",
+          "Acrobatics",
+          "Snarl",
+          "Grassy Terrain",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Low Kick",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Superpower",
+          "Hyper Voice",
+          "Bulk Up",
+          "Close Combat",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Energy Ball",
+          "Nasty Plot",
+          "Power Whip",
+          "Grass Knot",
+          "Darkest Lariat",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LeafGuard"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.15
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.15
+          }
+        }
+      },
+      "aggression": {
+        "aggressive": 100,
+        "passive": 0,
+        "timid": 0
+      },
+      "battleStats": {
+        "hp": 105,
+        "attack": 120,
+        "defense": 105,
+        "specialAttack": 70,
+        "specialDefense": 95,
+        "speed": 105
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/893_zarude/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/893_zarude/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/893_zarude/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.zarude"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/893_zarude/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/893_zarude/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DARK",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 70.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 8
+}

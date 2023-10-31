@@ -1,0 +1,285 @@
+{
+  "name": "Morelull",
+  "dex": 755,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Astonish"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sleep Powder"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Moonlight"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Strength Sap"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Spore"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Dream Eater"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Growth",
+          "Leech Seed",
+          "Poison Powder",
+          "Stun Spore"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Dazzling Gleam",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Magic Coat",
+          "Nature Power",
+          "Recycle",
+          "Return",
+          "Signal Beam",
+          "Spotlight",
+          "Swagger",
+          "Synthesis",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Thunder Wave",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illuminate",
+          "EffectSpore"
+        ],
+        "hiddenAbilities": [
+          "RainDish"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 55,
+        "specialAttack": 65,
+        "specialDefense": 75,
+        "speed": 15
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 57,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 24,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/755_morelull/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/755_morelull/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/755_morelull/all/base/none/model.pqc"
+                ],
+                "yRotation": 20
+              },
+              "sounds": [
+                "pixelmon.mob.morelull"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/755_morelull/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/755_morelull/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 1.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Shiinotic",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 7
+}

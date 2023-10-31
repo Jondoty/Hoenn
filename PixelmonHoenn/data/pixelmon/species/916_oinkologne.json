@@ -1,0 +1,457 @@
+{
+  "name": "Oinkologne",
+  "dex": 916,
+  "defaultForms": [
+    "male",
+    "female"
+  ],
+  "forms": [
+    {
+      "name": "male",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Belch"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Spit Up",
+          "Stockpile",
+          "Stuff Cheeks",
+          "Swallow"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Thief",
+          "Disarming Voice",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Bullet Seed",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Stomping Tantrum",
+          "Rest",
+          "Body Press",
+          "Iron Head",
+          "Substitute",
+          "Hyper Voice",
+          "Energy Ball",
+          "Play Rough",
+          "Helping Hand",
+          "Earth Power",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LingeringAroma",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "ThickFat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 110,
+        "attack": 100,
+        "defense": 75,
+        "specialAttack": 59,
+        "specialDefense": 80,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 171,
+        "baseFriendship": 50,
+        "spawnLevel": 18,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/916_oinkologne/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/916_oinkologne/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/916_oinkologne/male/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.oinkologne"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/916_oinkologne/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/916_oinkologne/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Lechonk"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 120.0,
+      "catchRate": 100,
+      "malePercentage": 100,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "female",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Belch"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Spit Up",
+          "Stockpile",
+          "Stuff Cheeks",
+          "Swallow"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Thief",
+          "Disarming Voice",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Bullet Seed",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Stomping Tantrum",
+          "Rest",
+          "Body Press",
+          "Iron Head",
+          "Substitute",
+          "Hyper Voice",
+          "Energy Ball",
+          "Play Rough",
+          "Helping Hand",
+          "Earth Power",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "AromaVeil",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "ThickFat"
+        ]
+      },
+      "battleStats": {
+        "hp": 115,
+        "attack": 90,
+        "defense": 70,
+        "specialAttack": 59,
+        "specialDefense": 90,
+        "speed": 65
+      },
+      "possibleGenders": [
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/916_oinkologne/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/916_oinkologne/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/916_oinkologne/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/916_oinkologne/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/916_oinkologne/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "malePercentage": 0
+    }
+  ],
+  "generation": 9
+}

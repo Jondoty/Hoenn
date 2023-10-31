@@ -1,0 +1,307 @@
+{
+  "name": "Heliolisk",
+  "dex": 695,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bulldoze",
+              "Charge",
+              "Discharge",
+              "Eerie Impulse",
+              "Electrify",
+              "Mud-Slap",
+              "Parabolic Charge",
+              "Pound",
+              "Quick Attack",
+              "Tail Whip",
+              "Thunder",
+              "Thunder Shock",
+              "Thunder Wave",
+              "Thunderbolt",
+              "Volt Switch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Dragon Rush",
+          "Dragon Tail",
+          "Glare"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Dig",
+          "Light Screen",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Weather Ball",
+          "Rock Tomb",
+          "U-turn",
+          "Low Sweep",
+          "Round",
+          "Volt Switch",
+          "Bulldoze",
+          "Electroweb",
+          "Electric Terrain",
+          "Eerie Impulse",
+          "Brutal Swing",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Surf",
+          "Low Kick",
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Hyper Voice",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Grass Knot",
+          "Electro Ball",
+          "Ally Switch",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Camouflage",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Magnet Rise",
+          "Psych Up",
+          "Razor Wind",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "DrySkin",
+          "SandVeil"
+        ],
+        "hiddenAbilities": [
+          "SolarPower"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 62,
+        "attack": 55,
+        "defense": 52,
+        "specialAttack": 109,
+        "specialDefense": 94,
+        "speed": 109
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 0,
+        "spawnLevel": 25,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/695_heliolisk/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/695_heliolisk/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/695_heliolisk/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/695_heliolisk/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/695_heliolisk/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "DRAGON"
+      ],
+      "types": [
+        "ELECTRIC",
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Helioptile"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 21.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 1,
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 6
+}

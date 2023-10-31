@@ -1,0 +1,286 @@
+{
+  "name": "Cursola",
+  "dex": 864,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.3,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Disable",
+              "Harden",
+              "Perish Song",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Spite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Strength Sap"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Grudge"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Meteor Beam",
+          "Poltergeist"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Destiny Bond",
+          "Haze",
+          "Head Smash",
+          "Nature Power",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Giga Drain",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Will-O-Wisp",
+          "Facade",
+          "Revenge",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Rock Blast",
+          "Brine",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Psychic",
+          "Amnesia",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Iron Defense",
+          "Calm Mind",
+          "Power Gem",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Scald",
+          "Throat Chop",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WeakArmor"
+        ],
+        "hiddenAbilities": [
+          "PerishBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 15,
+          "depthRangeEnd": 40,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 200,
+          "chanceToStopOnBlock": 0.5,
+          "blocksToStopOn": [
+            "minecraft:TUBE_CORAL_BLOCK",
+            "minecraft:BRAIN_CORAL_BLOCK",
+            "minecraft:BUBBLE_CORAL_BLOCK",
+            "minecraft:FIRE_CORAL_BLOCK",
+            "minecraft:HORN_CORAL_BLOCK"
+          ],
+          "minStopTime": 4,
+          "maxStopTime": 30,
+          "minStopCooldownTime": 10,
+          "maxStopCooldownTime": 40
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 50,
+        "specialAttack": 145,
+        "specialDefense": 130,
+        "speed": 30
+      },
+      "tags": [
+        "galarian"
+      ],
+      "spawn": {
+        "baseExp": 179,
+        "baseFriendship": 50,
+        "spawnLevel": 28,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/864_cursola/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/864_cursola/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/864_cursola/all/base/none/model.pqc",
+                  "pixelmon:pokemon/864_cursola/all/base/none/model1.pqc"
+                ],
+                "transparency2": 0.4
+              },
+              "sounds": [
+                "pixelmon.mob.cursola"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/864_cursola/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/864_cursola/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_THREE"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Corsola"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.4,
+      "catchRate": 30,
+      "malePercentage": 25,
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,426 @@
+{
+  "name": "Nosepass",
+  "dex": 299,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.1,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Block"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Lock-On",
+              "Zap Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Block",
+          "Earth Power",
+          "Fire Punch",
+          "Gravity",
+          "Ice Punch",
+          "Iron Defense",
+          "Magic Coat",
+          "Magnet Rise",
+          "Pain Split",
+          "Shock Wave",
+          "Snore",
+          "Stealth Rock",
+          "Stomping Tantrum",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "Block",
+          "Double-Edge",
+          "Endure",
+          "Magnitude",
+          "Rollout",
+          "Stealth Rock",
+          "Wide Guard"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Body Slam",
+          "Captivate",
+          "Defense Curl",
+          "Dynamic Punch",
+          "Headbutt",
+          "Helping Hand",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Rock Smash",
+          "Secret Power",
+          "Self-Destruct",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Thunder Wave",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy",
+          "MagnetPull"
+        ],
+        "hiddenAbilities": [
+          "SandForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 135,
+        "specialAttack": 45,
+        "specialDefense": 90,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 108,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/299_nosepass/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/299_nosepass/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/299_nosepass/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03
+              },
+              "sounds": [
+                "pixelmon.mob.nosepass"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/299_nosepass/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/299_nosepass/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 97.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Probopass",
+          "conditions": [
+            {
+              "biomes": [
+                "minecraft:mountains",
+                "minecraft:mountain_edge",
+                "minecraft:wooded_mountains",
+                "minecraft:gravelly_mountains",
+                "minecraft:modified_gravelly_mountains"
+              ],
+              "evoConditionType": "biome"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

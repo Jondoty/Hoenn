@@ -1,0 +1,262 @@
+{
+  "name": "Falinks",
+  "dex": 870,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Protect",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "First Impression"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "No Retreat"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Counter"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Beat Up",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Assurance",
+          "Round",
+          "Retaliate",
+          "False Swipe",
+          "Smart Strike"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Superpower",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Poison Jab",
+          "Focus Blast",
+          "Zen Headbutt",
+          "Iron Head",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BattleArmour"
+        ],
+        "hiddenAbilities": [
+          "Defiant"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 70,
+        "specialDefense": 60,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 50,
+        "spawnLevel": 4,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/870_falinks/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/870_falinks/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/870_falinks/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.falinks"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/870_falinks/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/870_falinks/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "MINERAL"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 62.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 2,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 8
+}

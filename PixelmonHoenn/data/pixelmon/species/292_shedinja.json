@@ -1,0 +1,409 @@
+{
+  "name": "Shedinja",
+  "dex": 292,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Dig",
+              "False Swipe",
+              "Grudge",
+              "Harden",
+              "Metal Claw",
+              "Mud-Slap",
+              "Sand Attack",
+              "Scratch",
+              "Shadow Claw"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Mind Reader"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Spite"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Phantom Force"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Bug Bite",
+          "Final Gambit",
+          "Flail",
+          "Gust",
+          "Night Slash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Sandstorm",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Shadow Claw",
+          "Round",
+          "Hex",
+          "Phantom Force",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Agility",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "X-Scissor",
+          "Bug Buzz",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Baton Pass",
+          "Bide",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Fury Cutter",
+          "Heal Block",
+          "Hidden Power",
+          "Hone Claws",
+          "Mimic",
+          "Natural Gift",
+          "Nightmare",
+          "Return",
+          "Screech",
+          "Secret Power",
+          "Silver Wind",
+          "Slash",
+          "String Shot",
+          "Struggle Bug",
+          "Sucker Punch",
+          "Swagger",
+          "Swords Dance",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "X-Scissor",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "X-Scissor",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Telekinesis",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "X-Scissor",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Thief",
+          "False Swipe",
+          "Endure",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Flash",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Thief"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WonderGuard"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 1,
+        "attack": 90,
+        "defense": 45,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 95,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/292_shedinja/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/292_shedinja/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/292_shedinja/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "rotateAngleX": 0
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/292_shedinja/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/292_shedinja/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/292_shedinja/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/292_shedinja/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "BUG",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Nincada"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 1.2,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 3
+}

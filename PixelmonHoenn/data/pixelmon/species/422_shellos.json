@@ -1,0 +1,477 @@
+{
+  "name": "Shellos",
+  "dex": 422,
+  "defaultForms": [
+    "east",
+    "west"
+  ],
+  "forms": [
+    {
+      "name": "east",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Memento"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Acid Armor",
+          "Clear Smog",
+          "Counter",
+          "Curse",
+          "Mirror Coat",
+          "Mist",
+          "Sludge",
+          "Spit Up",
+          "Stockpile",
+          "Swallow",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Mud Shot",
+          "Brine",
+          "Round"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Muddy Water",
+          "Earth Power",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Fissure",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Infestation",
+          "Mud Bomb",
+          "Mud Sport",
+          "Natural Gift",
+          "Pain Split",
+          "Return",
+          "Secret Power",
+          "String Shot",
+          "Swagger",
+          "Toxic",
+          "Trump Card"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "StickyHold",
+          "StormDrain"
+        ],
+        "hiddenAbilities": [
+          "SandForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 15,
+          "swimSpeed": 10,
+          "decayRate": 0.6,
+          "refreshRate": 100,
+          "chanceToStopOnBlock": 0.1,
+          "blocksToStopOn": [
+            "minecraft:SEAGRASS",
+            "minecraft:TALL_SEAGRASS",
+            "minecraft:TUBE_CORAL_BLOCK",
+            "minecraft:BRAIN_CORAL_BLOCK",
+            "minecraft:BUBBLE_CORAL_BLOCK",
+            "minecraft:FIRE_CORAL_BLOCK",
+            "minecraft:HORN_CORAL_BLOCK"
+          ],
+          "minStopTime": 1,
+          "maxStopTime": 5,
+          "minStopCooldownTime": 20,
+          "maxStopCooldownTime": 30,
+          "canRotateWhileStopped": false
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 76,
+        "attack": 48,
+        "defense": 48,
+        "specialAttack": 57,
+        "specialDefense": 62,
+        "speed": 34
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 73,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/east/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/east/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/422_shellos/all/base/east/model.pqc"
+                ],
+                "animationIncrement": 1.5
+              },
+              "sounds": [
+                "pixelmon.mob.shellos"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/shiny_east/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/shiny_east/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "gray_bubbles",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/gray_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/gray_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_bubbles",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/purple_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/purple_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet_saucy",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/violet_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/violet_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_saucy",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/apricot_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/apricot_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "moons",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/moons/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/moons/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "golde",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/golde/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/golde/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 6.3,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Gastrodon",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    },
+    {
+      "name": "west",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/west/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/west/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/422_shellos/all/base/west/model.pqc"
+                ],
+                "animationIncrement": 1.5
+              },
+              "sounds": [
+                "pixelmon.mob.shellos"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/shiny_west/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/shiny_west/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "gray_diamonds",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/gray_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/gray_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_diamonds",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/purple_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/purple_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_stripes",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/brown_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/brown_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue_stripes",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/blue_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/blue_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "sun",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/sun/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/sun/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "goldw",
+              "texture": "pixelmon:pokemon/422_shellos/all/base/goldw/texture.png",
+              "sprite": "pixelmon:pokemon/422_shellos/all/base/goldw/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 4
+}

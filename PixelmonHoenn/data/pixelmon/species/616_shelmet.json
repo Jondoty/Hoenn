@@ -1,0 +1,341 @@
+{
+  "name": "Shelmet",
+  "dex": 616,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Protect"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Acid"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Guard Swap"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Final Gambit"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Double-Edge",
+          "Feint",
+          "Guard Split",
+          "Mind Reader"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Mud Shot",
+          "Guard Swap",
+          "Venoshock",
+          "Round"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Leech Life",
+          "Substitute",
+          "Sludge Bomb",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Toxic Spikes",
+          "Bug Buzz",
+          "Energy Ball"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Bug Bite",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Gastro Acid",
+          "Hidden Power",
+          "Infestation",
+          "Mud-Slap",
+          "Pursuit",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Struggle Bug",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Struggle Bug",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hydration",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 40,
+        "defense": 85,
+        "specialAttack": 40,
+        "specialDefense": 65,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/616_shelmet/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/616_shelmet/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/616_shelmet/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/616_shelmet/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/616_shelmet/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 7.7,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "with": "Karrablast",
+          "to": "Accelgor",
+          "conditions": [],
+          "evoType": "trade"
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Accelgor",
+          "conditions": [
+              {
+                "withPokemon": [
+                  "Karrablast",
+                  "Escavalier"
+                ],
+                "withTypes": [],
+                "evoConditionType": "party"
+              }
+          ],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

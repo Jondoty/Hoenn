@@ -1,0 +1,360 @@
+{
+  "name": "Escavalier",
+  "dex": 589,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Double-Edge",
+              "Endure",
+              "Fell Stinger",
+              "Flail",
+              "Fury Cutter",
+              "Leer",
+              "Peck",
+              "Quick Guard",
+              "Scary Face",
+              "Take Down"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "False Swipe"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Giga Impact"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Metal Burst"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Bug Bite",
+          "Counter",
+          "Knock Off",
+          "Night Slash",
+          "Slash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Revenge",
+          "Round",
+          "Razor Shell",
+          "False Swipe",
+          "Smart Strike",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Encore",
+          "Taunt",
+          "Iron Defense",
+          "Close Combat",
+          "Poison Jab",
+          "X-Scissor",
+          "Bug Buzz",
+          "Focus Blast",
+          "Energy Ball",
+          "Iron Head",
+          "Drill Run"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Feint Attack",
+          "Frustration",
+          "Fury Attack",
+          "Hidden Power",
+          "Horn Attack",
+          "Infestation",
+          "Laser Focus",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Signal Beam",
+          "Struggle Bug",
+          "Swagger",
+          "Toxic",
+          "Twineedle"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Brutal Swing",
+          "Smart Strike",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Giga Impact",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Giga Impact",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 135,
+        "defense": 105,
+        "specialAttack": 60,
+        "specialDefense": 105,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/589_escavalier/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/589_escavalier/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/589_escavalier/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/589_escavalier/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/589_escavalier/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Karrablast"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 33.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

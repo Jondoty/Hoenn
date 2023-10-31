@@ -1,0 +1,307 @@
+{
+  "name": "Eelektross",
+  "dex": 604,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Coil",
+              "Crunch",
+              "Crush Claw",
+              "Discharge",
+              "Gastro Acid",
+              "Headbutt",
+              "Ion Deluge",
+              "Thrash",
+              "Zap Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bind",
+          "Bounce",
+          "Dragon Pulse",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gastro Acid",
+          "Giga Drain",
+          "Iron Tail",
+          "Knock Off",
+          "Magnet Rise",
+          "Outrage",
+          "Shock Wave",
+          "Signal Beam",
+          "Snore",
+          "Super Fang",
+          "Superpower",
+          "Throat Chop",
+          "Thunder Punch"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Flash",
+          "Hone Claws",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.55,
+            "z": 0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.6,
+            "z": 0.2
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 25,
+          "swimSpeed": 18,
+          "decayRate": 0.99,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 115,
+        "defense": 80,
+        "specialAttack": 105,
+        "specialDefense": 80,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 232,
+        "baseFriendship": 70,
+        "spawnLevel": 53,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/604_eelektross/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/604_eelektross/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/604_eelektross/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.eelektross"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/604_eelektross/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/604_eelektross/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Eelektrik",
+        "Tynamo"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 80.5,
+      "catchRate": 30,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

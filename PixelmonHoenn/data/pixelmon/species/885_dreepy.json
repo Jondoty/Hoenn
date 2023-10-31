@@ -1,0 +1,180 @@
+{
+  "name": "Dreepy",
+  "dex": 885,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Bite",
+              "Infestation",
+              "Quick Attack"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Curse",
+          "Disable",
+          "Double Team",
+          "Dragon Tail",
+          "Grudge",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Round"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ClearBody",
+          "Infiltrator"
+        ],
+        "hiddenAbilities": [
+          "CursedBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 28,
+        "attack": 60,
+        "defense": 30,
+        "specialAttack": 40,
+        "specialDefense": 30,
+        "speed": 82
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 54,
+        "baseFriendship": 50,
+        "spawnLevel": 40,
+        "spawnLevelRange": 4,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/885_dreepy/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/885_dreepy/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/885_dreepy/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dreepy"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/885_dreepy/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/885_dreepy/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/885_dreepy/all/base/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/885_dreepy/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS",
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 2.0,
+      "catchRate": 45,
+      "evolutions": [
+        {
+          "level": 50,
+          "to": "Drakloak",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "malePercentage": 50,
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 8
+}

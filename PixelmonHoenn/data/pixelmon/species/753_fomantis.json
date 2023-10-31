@@ -1,0 +1,284 @@
+{
+  "name": "Fomantis",
+  "dex": 753,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fury Cutter",
+              "Leafage"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Solar Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Aromatherapy",
+          "Defog",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Magical Leaf",
+          "Solar Beam",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Weather Ball",
+          "Bullet Seed",
+          "Payback",
+          "Fling",
+          "Round",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Leaf Blade",
+          "Poison Jab",
+          "Seed Bomb",
+          "X-Scissor",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bug Bite",
+          "Confide",
+          "Double Team",
+          "Dual Chop",
+          "Frustration",
+          "Hidden Power",
+          "Nature Power",
+          "Return",
+          "Signal Beam",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "False Swipe",
+          "Fling",
+          "Payback",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LeafGuard"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 35,
+        "specialAttack": 50,
+        "specialDefense": 35,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 50,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 35,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/753_fomantis/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/753_fomantis/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/753_fomantis/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/753_fomantis/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/753_fomantis/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 1.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Lurantis",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Petal Blizzard"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 7
+}

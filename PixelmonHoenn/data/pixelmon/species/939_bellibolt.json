@@ -1,0 +1,241 @@
+{
+  "name": "Bellibolt",
+  "dex": 939,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Slack Off",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Weather Ball"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Electric Terrain"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Muddy Water",
+          "Parabolic Charge",
+          "Soak"
+        ],
+        "tmMoves9": [
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Acid Spray",
+          "Confuse Ray",
+          "Chilling Water",
+          "Charge Beam",
+          "Swift",
+          "Mud Shot",
+          "Endure",
+          "Volt Switch",
+          "Rain Dance",
+          "Sleep Talk",
+          "Electro Ball",
+          "Reflect",
+          "Light Screen",
+          "Thunder Wave",
+          "Rest",
+          "Eerie Impulse",
+          "Substitute",
+          "Hyper Voice",
+          "Thunderbolt",
+          "Electric Terrain",
+          "Wild Charge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Electromorphosis",
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "Damp"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 80,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 109,
+        "attack": 64,
+        "defense": 91,
+        "specialAttack": 103,
+        "specialDefense": 83,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 50,
+        "spawnLevel": 35,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/939_bellibolt/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/939_bellibolt/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/939_bellibolt/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bellibolt"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/939_bellibolt/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/939_bellibolt/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Tadbulb"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 113,
+      "catchRate": 50,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 9
+}

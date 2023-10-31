@@ -1,0 +1,256 @@
+{
+  "name": "Nacli",
+  "dex": 932,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ancient Power",
+          "Curse",
+          "Fissure",
+          "Power Gem"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Flash Cannon",
+          "Iron Head",
+          "Power Gem",
+          "Substitute",
+          "Iron Defense",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Helping Hand",
+          "Earth Power",
+          "Earthquake",
+          "Stone Edge",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PurifyingSalt",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "ClearBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 75,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 56,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/932_nacli/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/932_nacli/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/932_nacli/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.nacli"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/932_nacli/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/932_nacli/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 16.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Naclstack",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Salt Cure"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 9
+}

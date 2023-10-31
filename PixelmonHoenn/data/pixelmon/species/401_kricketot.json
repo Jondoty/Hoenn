@@ -1,0 +1,170 @@
+{
+  "name": "Kricketot",
+  "dex": 401,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.32,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.32,
+        "hoverHeight": 0.32
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bide",
+              "Growl"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bug Bite"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Endeavor",
+          "Snore",
+          "Uproar"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Mud-Slap",
+          "String Shot"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [
+          "Struggle Bug"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShedSkin"
+        ],
+        "hiddenAbilities": [
+          "RunAway"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 37,
+        "attack": 25,
+        "defense": 41,
+        "specialAttack": 25,
+        "specialDefense": 41,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 54,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/401_kricketot/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/401_kricketot/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/401_kricketot/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kricketot",
+                "pixelmon.mob.kricketot"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/401_kricketot/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/401_kricketot/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 2.2,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 10,
+          "to": "Kricketune",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Fury Cutter"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

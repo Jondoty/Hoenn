@@ -1,0 +1,501 @@
+{
+  "name": "Abomasnow",
+  "dex": 460,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.3,
+        "width": 1.7,
+        "length": 1,
+        "eyeHeight": 2.3,
+        "hoverHeight": 2.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aurora Veil",
+              "Ice Punch",
+              "Leafage",
+              "Leer",
+              "Mist",
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Ice Shard"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Double-Edge",
+          "Growth",
+          "Leech Seed",
+          "Skull Bash",
+          "Stomp"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Brick Break",
+          "Weather Ball",
+          "Rock Tomb",
+          "Bullet Seed",
+          "Icicle Spear",
+          "Fling",
+          "Avalanche",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Seed Bomb",
+          "Focus Blast",
+          "Energy Ball",
+          "Earth Power",
+          "Leaf Storm",
+          "Grass Knot"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Focus Punch",
+          "Frost Breath",
+          "Frustration",
+          "Grass Whistle",
+          "Headbutt",
+          "Hidden Power",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Strength",
+          "Synthesis",
+          "Toxic",
+          "Water Pulse",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Giga Impact",
+          "Swords Dance",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Bullet Seed",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SnowWarning"
+        ],
+        "hiddenAbilities": [
+          "Soundproof"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 92,
+        "defense": 75,
+        "specialAttack": 92,
+        "specialDefense": 85,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 214,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/460_abomasnow/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/460_abomasnow/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/460_abomasnow/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.12
+              },
+              "sounds": [
+                "pixelmon.mob.abomasnow",
+                "pixelmon.mob.abomasnow",
+                "pixelmon.mob.abomasnow"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/460_abomasnow/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/460_abomasnow/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/460_abomasnow/all/base/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/460_abomasnow/all/base/christmas/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "ICE"
+      ],
+      "preEvolutions": [
+        "Snover"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:abomasite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 135.5,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 3.0,
+        "width": 2.5,
+        "length": 2.5
+      },
+      "abilities": {
+        "abilities": [
+          "SnowWarning"
+        ]
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 132,
+        "defense": 105,
+        "specialAttack": 132,
+        "specialDefense": 105,
+        "speed": 30
+      },
+      "weight": 185.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/460_abomasnow/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/460_abomasnow/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/460_abomasnow/all/mega/none/model.pqc"
+                ],
+                "yRotation": 24.2
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/460_abomasnow/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/460_abomasnow/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 4
+}

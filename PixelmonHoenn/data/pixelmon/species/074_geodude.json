@@ -1,0 +1,691 @@
+{
+  "name": "Geodude",
+  "dex": 74,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Mud Sport"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Magnitude"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Explosion"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Block",
+          "Earth Power",
+          "Fire Punch",
+          "Focus Punch",
+          "Iron Defense",
+          "Snore",
+          "Stealth Rock",
+          "Superpower",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "Autotomize",
+          "Block",
+          "Curse",
+          "Endure",
+          "Flail",
+          "Focus Punch",
+          "Hammer Arm",
+          "Mega Punch",
+          "Rock Climb",
+          "Wide Guard"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Body Slam",
+          "Captivate",
+          "Counter",
+          "Dynamic Punch",
+          "Fissure",
+          "Harden",
+          "Incinerate",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Rage",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Submission",
+          "Sucker Punch"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Endure",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Fire Blast",
+          "Defense Curl",
+          "Rest",
+          "Attract",
+          "Fire Punch"
+        ],
+        "tmMoves1": [
+          "Mega Punch",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Submission",
+          "Counter",
+          "Seismic Toss",
+          "Rage",
+          "Earthquake",
+          "Fissure",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Metronome",
+          "Self-Destruct",
+          "Fire Blast",
+          "Rest",
+          "Explosion",
+          "Rock Slide",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RockHead",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "SandVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 80,
+        "defense": 100,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 73,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/074_geodude/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/074_geodude/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/074_geodude/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.geodude"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/074_geodude/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/074_geodude/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK",
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 20.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Graveler form:base",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    },
+    {
+      "name": "alolan",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Thunder Punch"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Explosion"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Block",
+          "Earth Power",
+          "Electroweb",
+          "Fire Punch",
+          "Focus Punch",
+          "Iron Defense",
+          "Magnet Rise",
+          "Snore",
+          "Stealth Rock",
+          "Superpower",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "Autotomize",
+          "Block",
+          "Counter",
+          "Curse",
+          "Endure",
+          "Flail",
+          "Magnet Rise",
+          "Rock Climb",
+          "Screech",
+          "Wide Guard"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Volt Switch",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MagnetPull",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "Galvanize"
+        ]
+      },
+      "tags": [
+        "alolan"
+      ],
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/074_geodude/all/alolan/none/texture.png",
+              "sprite": "pixelmon:pokemon/074_geodude/all/alolan/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/074_geodude/all/alolan/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/074_geodude/all/alolan/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/074_geodude/all/alolan/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Graveler form:alolan",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

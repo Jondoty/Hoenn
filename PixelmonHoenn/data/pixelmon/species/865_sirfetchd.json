@@ -1,0 +1,264 @@
+{
+  "name": "Sirfetchd",
+  "dex": 865,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 1,
+        "length": 1,
+        "eyeHeight": 0.65,
+        "hoverHeight": 0.65
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "First Impression",
+              "Fury Cutter",
+              "Iron Defense",
+              "Leer",
+              "Peck",
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Defog"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Final Gambit"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Brave Bird"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Meteor Assault"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Dual Wingbeat",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Covet",
+          "Curse",
+          "Double-Edge",
+          "Feint",
+          "Flail",
+          "Night Slash",
+          "Quick Attack",
+          "Quick Guard",
+          "Simple Beam",
+          "Sky Attack"
+        ],
+        "tmMoves8": [
+          "Solar Blade",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Assurance",
+          "Round",
+          "Retaliate",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Focus Energy",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "Leaf Blade",
+          "Close Combat",
+          "Poison Jab",
+          "Brave Bird",
+          "Work Up",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Steadfast"
+        ],
+        "hiddenAbilities": [
+          "Scrappy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 62,
+        "attack": 135,
+        "defense": 95,
+        "specialAttack": 68,
+        "specialDefense": 82,
+        "speed": 65
+      },
+      "tags": [
+        "galarian"
+      ],
+      "spawn": {
+        "baseExp": 177,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 36,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/865_sirfetchd/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/865_sirfetchd/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/865_sirfetchd/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sirfetchd"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/865_sirfetchd/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/865_sirfetchd/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING",
+        "FIELD"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Farfetchd"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 117.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

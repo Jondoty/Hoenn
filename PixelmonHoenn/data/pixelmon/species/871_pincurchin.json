@@ -1,0 +1,266 @@
+{
+  "name": "Pincurchin",
+  "dex": 871,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.45,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Peck",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Electric Terrain"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Zing Zap"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Discharge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Memento",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Thunder Wave",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Brine",
+          "Payback",
+          "Assurance",
+          "Venoshock",
+          "Round",
+          "Hex",
+          "Electric Terrain"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Reversal",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Muddy Water",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Scald",
+          "Venom Drench",
+          "Throat Chop",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LightningRod"
+        ],
+        "hiddenAbilities": [
+          "ElectricSurge"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 4,
+          "depthRangeEnd": 20,
+          "swimSpeed": 1,
+          "decayRate": 0.99,
+          "refreshRate": 400,
+          "chanceToStopOnBlock": 0.5,
+          "blocksToStopOn": [
+            "minecraft:SAND",
+            "minecraft:SEAGRASS",
+            "minecraft:TALL_SEAGRASS",
+            "minecraft:KELP_PLANT"
+          ],
+          "minStopTime": 30,
+          "maxStopTime": 60,
+          "minStopCooldownTime": 20,
+          "maxStopCooldownTime": 30,
+          "canRotateWhileStopped": false
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 48,
+        "attack": 101,
+        "defense": 95,
+        "specialAttack": 91,
+        "specialDefense": 85,
+        "speed": 15
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 152,
+        "baseFriendship": 50,
+        "spawnLevel": 13,
+        "spawnLevelRange": 29,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/871_pincurchin/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/871_pincurchin/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/871_pincurchin/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/871_pincurchin/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/871_pincurchin/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 1.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

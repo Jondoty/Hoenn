@@ -1,0 +1,364 @@
+{
+  "name": "Magearna",
+  "dex": 801,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Gyro Ball",
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Gear Up"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Aurora Beam"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Mind Reader"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Shift Gear"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Crafty Shield"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Aura Sphere"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 78,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 90,
+            "attacks": [
+              "Fleur Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Misty Explosion",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Helping Hand",
+          "Brick Break",
+          "Imprison",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Trick Room",
+          "Round",
+          "Volt Switch",
+          "Electroweb",
+          "Draining Kiss",
+          "Eerie Impulse",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Thunderbolt",
+          "Agility",
+          "Tri Attack",
+          "Substitute",
+          "Endure",
+          "Baton Pass",
+          "Encore",
+          "Shadow Ball",
+          "Trick",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Aura Sphere",
+          "Focus Blast",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Iron Head",
+          "Grass Knot",
+          "Electro Ball",
+          "Stored Power",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Embargo",
+          "Explosion",
+          "Frustration",
+          "Heal Bell",
+          "Heart Swap",
+          "Hidden Power",
+          "Last Resort",
+          "Lucky Chant",
+          "Magnet Rise",
+          "Mirror Shot",
+          "Return",
+          "Shock Wave",
+          "Signal Beam",
+          "Sonic Boom",
+          "Swagger",
+          "Synchronoise",
+          "Trump Card"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Charge Beam",
+          "Embargo",
+          "Explosion",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SoulHeart"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 95,
+        "defense": 115,
+        "specialAttack": 130,
+        "specialDefense": 115,
+        "speed": 65
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 120,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/801_magearna/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/801_magearna/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/801_magearna/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.magearna",
+                "pixelmon.mob.magearna"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/801_magearna/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/801_magearna/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "STEEL",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 80.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "original_color",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/801_magearna/all/original/none/texture.png",
+              "sprite": "pixelmon:pokemon/801_magearna/all/original/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/801_magearna/all/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/801_magearna/all/original/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/801_magearna/all/original/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

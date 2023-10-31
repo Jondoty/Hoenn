@@ -1,0 +1,291 @@
+{
+  "name": "Ribombee",
+  "dex": 743,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Covet",
+              "Fairy Wind",
+              "Pollen Puff",
+              "Stun Spore",
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Quiver Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Aromatic Mist",
+          "Moonblast",
+          "Sticky Web"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Fake Tears",
+          "U-turn",
+          "Speed Swap",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Acrobatics",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Bug Buzz",
+          "Energy Ball",
+          "Ally Switch",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "After You",
+          "Bestow",
+          "Bug Bite",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Dream Eater",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Last Resort",
+          "Nature Power",
+          "Powder",
+          "Psych Up",
+          "Return",
+          "Roost",
+          "Signal Beam",
+          "Silver Wind",
+          "Swagger",
+          "Tailwind",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Acrobatics",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HoneyGather",
+          "ShieldDust"
+        ],
+        "hiddenAbilities": [
+          "SweetVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 60,
+        "specialAttack": 95,
+        "specialDefense": 70,
+        "speed": 124
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 162,
+        "baseFriendship": 0,
+        "spawnLevel": 25,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/743_ribombee/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/743_ribombee/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/743_ribombee/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/743_ribombee/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/743_ribombee/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG",
+        "FAIRY"
+      ],
+      "types": [
+        "BUG",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Cutiefly"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 0.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 7
+}

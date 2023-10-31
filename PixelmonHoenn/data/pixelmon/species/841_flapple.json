@@ -1,0 +1,302 @@
+{
+  "name": "Flapple",
+  "dex": 841,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.34,
+        "width": 0.55,
+        "length": 1,
+        "eyeHeight": 0.34,
+        "hoverHeight": 0.34
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Growth",
+              "Recycle",
+              "Twister",
+              "Wing Attack",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Grav Apple"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Fly"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Dual Wingbeat",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Recycle",
+          "Rollout",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Bullet Seed",
+          "U-turn",
+          "Round",
+          "Acrobatics",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Focus Energy",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Dragon Dance",
+          "Seed Bomb",
+          "Dragon Pulse",
+          "Energy Ball",
+          "Grass Knot",
+          "Heavy Slam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Ripen",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "Hustle"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 80,
+        "specialAttack": 95,
+        "specialDefense": 60,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/841_flapple/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/841_flapple/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/841_flapple/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.flapple"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/841_flapple/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/841_flapple/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Applin"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Tartness"
+      },
+      "eggCycles": 21,
+      "weight": 1.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 0.55,
+        "width": 0.4,
+        "length": 0.4
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/841_flapple/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/841_flapple/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/841_flapple/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/841_flapple/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/841_flapple/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

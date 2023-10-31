@@ -1,0 +1,402 @@
+{
+  "name": "Sunkern",
+  "dex": 191,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.2,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Growth"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Grass Whistle"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Earth Power",
+          "Endeavor",
+          "Giga Drain",
+          "Helping Hand",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Uproar",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Bide",
+          "Curse",
+          "Encore",
+          "Endure",
+          "Grass Whistle",
+          "Grassy Terrain",
+          "Helping Hand",
+          "Ingrain",
+          "Leech Seed",
+          "Morning Sun",
+          "Natural Gift",
+          "Nature Power",
+          "Sweet Scent"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bullet Seed",
+          "Captivate",
+          "Cut",
+          "Flash",
+          "Mimic",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Endure",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Sweet Scent",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll",
+          "SolarPower"
+        ],
+        "hiddenAbilities": [
+          "EarlyBird"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 52,
+        "baseFriendship": 70,
+        "spawnLevel": 2,
+        "spawnLevelRange": 48,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/191_sunkern/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/191_sunkern/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/191_sunkern/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sunkern",
+                "pixelmon.mob.sunkern",
+                "pixelmon.mob.sunkern"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/191_sunkern/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/191_sunkern/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 1.8,
+      "catchRate": 235,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:sun_stone"
+          },
+          "to": "Sunflora",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 2
+}

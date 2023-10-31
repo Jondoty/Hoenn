@@ -1,0 +1,2169 @@
+{
+  "name": "Milcery",
+  "dex": 868,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aromatic Mist",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Entrainment"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Baby-Doll Eyes",
+          "Celebrate",
+          "Last Resort"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Fling",
+          "Round",
+          "Draining Kiss",
+          "Misty Terrain"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Stored Power",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SweetVeil"
+        ],
+        "hiddenAbilities": [
+          "AromaVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 40,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 61,
+        "speed": 34
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 54,
+        "baseFriendship": 50,
+        "spawnLevel": 26,
+        "spawnLevelRange": 2,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/868_milcery/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/868_milcery/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/868_milcery/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.milcery",
+                "pixelmon.mob.milcery",
+                "pixelmon.mob.milcery"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/868_milcery/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/868_milcery/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_vanilla_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:tall_birch_forest",
+                "minecraft:tall_birch_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_ruby_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_matcha_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_mint_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:forest",
+                "minecraft:wooded_hills",
+                "minecraft:flower_forest"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_salted_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_lemon_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:dark_forest",
+                "minecraft:dark_forest_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_ruby_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:wooded_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_caramel_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_rainbow_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAWN"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:mushroom_fields",
+                "minecraft:mushroom_field_shore"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_strawberry"
+          },
+          "to": "Alcremie palette:strawberry_shiny",
+          "conditions": [
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:the_end",
+                "minecraft:small_end_islands",
+                "minecraft:end_midlands",
+                "minecraft:end_highlands",
+                "minecraft:end_barrens"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": true
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_vanilla_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:tall_birch_forest",
+                "minecraft:tall_birch_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_ruby_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_matcha_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_mint_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:forest",
+                "minecraft:wooded_hills",
+                "minecraft:flower_forest"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_lemon_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:dark_forest",
+                "minecraft:dark_forest_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_salted_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_ruby_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:wooded_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_caramel_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_rainbow_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "AFTERNOON"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:mushroom_fields",
+                "minecraft:mushroom_fields_shore"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_berry"
+          },
+          "to": "Alcremie palette:berry_shiny",
+          "conditions": [
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:the_end",
+                "minecraft:small_end_islands",
+                "minecraft:end_midlands",
+                "minecraft:end_highlands",
+                "minecraft:end_barrens"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": true
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_vanilla_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:tall_birch_forest",
+                "minecraft:tall_birch_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_ruby_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_matcha_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_mint_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:forest",
+                "minecraft:wooded_hills",
+                "minecraft:flower_forest"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_lemon_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:dark_forest",
+                "minecraft:dark_forest_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_salted_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_ruby_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:wooded_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_caramel_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_rainbow_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DAY"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:mushroom_fields",
+                "minecraft:mushroom_field_shore"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_love"
+          },
+          "to": "Alcremie palette:love_shiny",
+          "conditions": [
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:the_end",
+                "minecraft:small_end_islands",
+                "minecraft:end_midlands",
+                "minecraft:end_highlands",
+                "minecraft:end_barrens"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": true
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_vanilla_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:tall_birch_forest",
+                "minecraft:tall_birch_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_ruby_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_matcha_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_mint_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:forest",
+                "minecraft:wooded_hills",
+                "minecraft:flower_forest"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_lemon_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:dark_forest",
+                "minecraft:dark_forest_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_salted_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_ruby_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:wooded_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_caramel_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_rainbow_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "NIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:mushroom_fields",
+                "minecraft:mushroom_field_shore"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_star"
+          },
+          "to": "Alcremie palette:star_shiny",
+          "conditions": [
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:the_end",
+                "minecraft:small_end_islands",
+                "minecraft:end_midlands",
+                "minecraft:end_highlands",
+                "minecraft:end_barrens"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": true
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_vanilla_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:tall_birch_forest",
+                "minecraft:tall_birch_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_ruby_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_matcha_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_mint_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:forest",
+                "minecraft:wooded_hills",
+                "minecraft:flower_forest"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_lemon_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:dark_forest",
+                "minecraft:dark_forest_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_salted_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_ruby_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:wooded_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_caramel_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_rainbow_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "DUSK"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:mushroom_fields",
+                "minecraft:mushroom_field_shore"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_clover"
+          },
+          "to": "Alcremie palette:clover_shiny",
+          "conditions": [
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:the_end",
+                "minecraft:small_end_islands",
+                "minecraft:end_midlands",
+                "minecraft:end_highlands",
+                "minecraft:end_barrens"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": true
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_vanilla_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:tall_birch_forest",
+                "minecraft:tall_birch_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_ruby_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_matcha_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_mint_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:forest",
+                "minecraft:wooded_hills",
+                "minecraft:flower_forest"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_lemon_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:dark_forest",
+                "minecraft:dark_forest_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_salted_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_ruby_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:wooded_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_caramel_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_rainbow_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MORNING"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:mushroom_fields",
+                "minecraft:mushroom_field_shore"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_flower"
+          },
+          "to": "Alcremie palette:flower_shiny",
+          "conditions": [
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:the_end",
+                "minecraft:small_end_islands",
+                "minecraft:end_midlands",
+                "minecraft:end_highlands",
+                "minecraft:end_barrens"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": true
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_vanilla_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:birch_forest",
+                "minecraft:birch_forest_hills",
+                "minecraft:tall_birch_forest",
+                "minecraft:tall_birch_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_ruby_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:taiga",
+                "minecraft:taiga_hills",
+                "minecraft:taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_matcha_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:jungle",
+                "minecraft:jungle_edge",
+                "minecraft:jungle_hills",
+                "minecraft:modified_jungle",
+                "minecraft:modified_jungle_edge",
+                "minecraft:bamboo_jungle",
+                "minecraft:bamboo_jungle_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_mint_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:forest",
+                "minecraft:wooded_hills",
+                "minecraft:flower_forest"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_lemon_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:dark_forest",
+                "minecraft:dark_forest_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_salted_cream",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_taiga_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_ruby_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:wooded_mountains"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_caramel_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:giant_tree_taiga",
+                "minecraft:giant_tree_taiga_hills"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_rainbow_swirl",
+          "conditions": [
+            {
+              "evoConditionType": "time",
+              "time": "MIDNIGHT"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:mushroom_fields",
+                "minecraft:mushroom_field_shore"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": false
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_ribbon"
+          },
+          "to": "Alcremie palette:ribbon_shiny",
+          "conditions": [
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:the_end",
+                "minecraft:small_end_islands",
+                "minecraft:end_midlands",
+                "minecraft:end_highlands",
+                "minecraft:end_barrens"
+              ]
+            },
+            {
+              "evoConditionType": "shiny",
+              "shiny": true
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Decorate"
+          ]
+        }
+      ],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.3,
+      "catchRate": 200,
+      "malePercentage": 0,
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 8
+}

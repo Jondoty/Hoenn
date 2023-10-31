@@ -1,0 +1,273 @@
+{
+  "name": "Runerigus",
+  "dex": 867,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Haze",
+              "Night Shade",
+              "Protect",
+              "Scary Face",
+              "Shadow Claw"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Crafty Shield"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Guard Split",
+              "Power Split"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist"
+        ],
+        "eggMoves": [
+          "Memento"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Will-O-Wisp",
+          "Facade",
+          "Revenge",
+          "Imprison",
+          "Fake Tears",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Payback",
+          "Power Swap",
+          "Guard Swap",
+          "Shadow Claw",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Phantom Force",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Psychic",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Energy Ball",
+          "Earth Power",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Ally Switch",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WanderingSpirit"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 58,
+        "attack": 95,
+        "defense": 145,
+        "specialAttack": 50,
+        "specialDefense": 105,
+        "speed": 30
+      },
+      "tags": [
+        "galarian"
+      ],
+      "spawn": {
+        "baseExp": 169,
+        "baseFriendship": 50,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/867_runerigus/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/867_runerigus/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/867_runerigus/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.runerigus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/867_runerigus/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/867_runerigus/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GROUND",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Yamask"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 66.6,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

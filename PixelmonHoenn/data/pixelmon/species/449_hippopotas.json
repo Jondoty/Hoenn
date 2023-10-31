@@ -1,0 +1,406 @@
+{
+  "name": "Hippopotas",
+  "dex": 449,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Sand Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Sand Tomb"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Fissure"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Slack Off"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Spit Up",
+          "Stockpile",
+          "Swallow",
+          "Whirlwind"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Revenge",
+          "Weather Ball",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Superpower",
+          "Muddy Water",
+          "Earth Power",
+          "Stealth Rock",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandStream"
+        ],
+        "hiddenAbilities": [
+          "SandForce"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 68,
+        "attack": 72,
+        "defense": 78,
+        "specialAttack": 38,
+        "specialDefense": 42,
+        "speed": 32
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 95,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "MALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/449_hippopotas/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/449_hippopotas/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/449_hippopotas/male/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/449_hippopotas/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/449_hippopotas/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        },
+        {
+          "gender": "FEMALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/449_hippopotas/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/449_hippopotas/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/449_hippopotas/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/449_hippopotas/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/449_hippopotas/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 31,
+      "weight": 49.5,
+      "catchRate": 140,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Hippowdon",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

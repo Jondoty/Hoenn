@@ -1,0 +1,384 @@
+{
+  "name": "Liepard",
+  "dex": 510,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.1,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fake Out",
+              "Growl",
+              "Sand Attack",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Play Rough"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Lash Out",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Copycat",
+          "Covet",
+          "Double Team",
+          "Quick Attack",
+          "Slash",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Fake Tears",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Round",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Iron Tail",
+          "Shadow Ball",
+          "Taunt",
+          "Trick",
+          "Hyper Voice",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Nasty Plot",
+          "Gunk Shot",
+          "Grass Knot",
+          "Foul Play",
+          "Play Rough",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Assist",
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Dream Eater",
+          "Echoed Voice",
+          "Embargo",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Laser Focus",
+          "Psych Up",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Limber",
+          "Unburden"
+        ],
+        "hiddenAbilities": [
+          "Prankster"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.85,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.85,
+            "z": 0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 64,
+        "attack": 88,
+        "defense": 50,
+        "specialAttack": 88,
+        "specialDefense": 50,
+        "speed": 106
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 156,
+        "baseFriendship": 70,
+        "spawnLevel": 21,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/510_liepard/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/510_liepard/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/510_liepard/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/510_liepard/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/510_liepard/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Purrloin"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 37.5,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

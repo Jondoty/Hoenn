@@ -1,0 +1,242 @@
+{
+  "name": "Scorbunny",
+  "dex": 813,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Pledge"
+        ],
+        "eggMoves": [
+          "High Jump Kick",
+          "Sand Attack",
+          "Sucker Punch",
+          "Super Fang"
+        ],
+        "tmMoves8": [
+          "Mega Kick",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Bounce",
+          "Mud Shot",
+          "U-turn",
+          "Assurance",
+          "Fire Fang",
+          "Low Sweep",
+          "Round",
+          "Acrobatics"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Low Kick",
+          "Agility",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Heat Wave",
+          "Taunt",
+          "Blaze Kick",
+          "Overheat",
+          "Gunk Shot",
+          "Electro Ball",
+          "Ally Switch",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Libero"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 71,
+        "defense": 40,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 69
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/813_scorbunny/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/813_scorbunny/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/813_scorbunny/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.scorbunny"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/813_scorbunny/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/813_scorbunny/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 4.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 16,
+          "to": "Raboot",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 8
+}

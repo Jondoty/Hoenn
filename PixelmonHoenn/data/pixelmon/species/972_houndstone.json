@@ -1,0 +1,260 @@
+{
+  "name": "Houndstone",
+  "dex": 972,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Last Respects",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Bite",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ally Switch",
+          "Destiny Bond",
+          "Disable",
+          "Howl",
+          "Memento",
+          "Shadow Sneak",
+          "Yawn"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Confuse Ray",
+          "Thief",
+          "Facade",
+          "Bulldoze",
+          "Hex",
+          "Snarl",
+          "Mud Shot",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Psychic Fangs",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Body Press",
+          "Substitute",
+          "Will-O-Wisp",
+          "Crunch",
+          "Trick",
+          "Shadow Ball",
+          "Play Rough",
+          "Helping Hand",
+          "Phantom Force",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandRush"
+        ],
+        "hiddenAbilities": [
+          "Fluffy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 101,
+        "defense": 100,
+        "specialAttack": 50,
+        "specialDefense": 97,
+        "speed": 68
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 171,
+        "baseFriendship": 50,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/972_houndstone/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/972_houndstone/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/972_houndstone/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/972_houndstone/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Greavard"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 15.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Metapod",
+  "dex": 11,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Electroweb"
+        ],
+        "trMoves": [
+          "Iron Defense"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Snore"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShedSkin"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 20,
+        "defense": 55,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 72,
+        "baseFriendship": 70,
+        "spawnLevel": 7,
+        "spawnLevelRange": 3,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/011_metapod/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/011_metapod/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/011_metapod/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.metapod"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/011_metapod/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/011_metapod/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/011_metapod/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/011_metapod/all/base/pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "valencian",
+              "texture": "pixelmon:pokemon/011_metapod/all/base/valencian/texture.png",
+              "sprite": "pixelmon:pokemon/011_metapod/all/base/valencian/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [
+        "Caterpie"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 9.9,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 10,
+          "to": "Butterfree",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Gust"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 1
+}

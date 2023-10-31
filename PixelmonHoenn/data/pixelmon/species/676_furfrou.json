@@ -1,0 +1,292 @@
+{
+  "name": "Furfrou",
+  "dex": 676,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Last Resort",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Mimic",
+          "Refresh",
+          "Role Play",
+          "Work Up"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Flash",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FurCoat"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/676_furfrou/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/676_furfrou/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/676_furfrou/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/676_furfrou/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 160,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 6
+}

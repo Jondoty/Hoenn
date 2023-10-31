@@ -1,0 +1,362 @@
+{
+  "name": "Kommo-o",
+  "dex": 784,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Autotomize",
+              "Belly Drum",
+              "Clanging Scales",
+              "Dragon Tail",
+              "Leer",
+              "Protect",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Noble Roar"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 68,
+            "attacks": [
+              "Clangorous Soul"
+            ]
+          },
+          {
+            "level": 76,
+            "attacks": [
+              "Boomburst"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Draco Meteor",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Dragon Breath",
+          "Focus Punch"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "False Swipe",
+          "Brutal Swing",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Flamethrower",
+          "Low Kick",
+          "Earthquake",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Hyper Voice",
+          "Iron Defense",
+          "Dragon Claw",
+          "Bulk Up",
+          "Dragon Dance",
+          "Close Combat",
+          "Aura Sphere",
+          "Poison Jab",
+          "X-Scissor",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Flash Cannon",
+          "Iron Head",
+          "Stealth Rock",
+          "Work Up",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Aqua Tail",
+          "Bide",
+          "Confide",
+          "Double Team",
+          "Dual Chop",
+          "Echoed Voice",
+          "Endeavor",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Return",
+          "Roar",
+          "Rock Polish",
+          "Shock Wave",
+          "Sky Uppercut",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Dragon Tail",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Bulletproof",
+          "Soundproof"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 125,
+        "specialAttack": 100,
+        "specialDefense": 105,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 70,
+        "spawnLevel": 45,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/784_kommo-o/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/784_kommo-o/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/784_kommo-o/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kommo-o"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/784_kommo-o/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/784_kommo-o/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Hakamo-o",
+        "Jangmo-o"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 40,
+      "weight": 78.2,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 3
+      }
+    }
+  ],
+  "generation": 7
+}

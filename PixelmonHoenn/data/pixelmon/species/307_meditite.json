@@ -1,0 +1,462 @@
+{
+  "name": "Meditite",
+  "dex": 307,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bide"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Meditate"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hidden Power"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Mind Reader"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "High Jump Kick"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Power Trick"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Counter"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Helping Hand",
+          "Ice Punch",
+          "Low Kick",
+          "Magic Coat",
+          "Pain Split",
+          "Recycle",
+          "Role Play",
+          "Signal Beam",
+          "Snore",
+          "Telekinesis",
+          "Thunder Punch",
+          "Trick",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Baton Pass",
+          "Bullet Punch",
+          "Drain Punch",
+          "Dynamic Punch",
+          "Fake Out",
+          "Fire Punch",
+          "Foresight",
+          "Guard Swap",
+          "Ice Punch",
+          "Power Swap",
+          "Psycho Cut",
+          "Quick Guard",
+          "Secret Power",
+          "Thunder Punch"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Double-Edge",
+          "Flash",
+          "Headbutt",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Vacuum Wave"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Retaliate",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Retaliate",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PurePower"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 55,
+        "specialAttack": 40,
+        "specialDefense": 55,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 91,
+        "baseFriendship": 70,
+        "spawnLevel": 13,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/307_meditite/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/307_meditite/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/307_meditite/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "rotateAngleX": 0
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/307_meditite/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/307_meditite/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIGHTING",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 11.2,
+      "catchRate": 180,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Medicham",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 3
+}

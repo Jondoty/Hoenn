@@ -1,0 +1,443 @@
+{
+  "name": "Porygon-Z",
+  "dex": 474,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Conversion",
+              "Defense Curl",
+              "Magnet Rise",
+              "Nasty Plot",
+              "Recycle",
+              "Tackle",
+              "Trick Room"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Conversion 2"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Tri Attack"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Magic Coat"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Lock-On"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Electroweb",
+          "Eerie Impulse"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Agility",
+          "Tri Attack",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Uproar",
+          "Trick",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Foul Play",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Barrier",
+          "Bide",
+          "Charge Beam",
+          "Confide",
+          "Curse",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Embargo",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Headbutt",
+          "Hidden Power",
+          "Last Resort",
+          "Mimic",
+          "Natural Gift",
+          "Nightmare",
+          "Pain Split",
+          "Psych Up",
+          "Psywave",
+          "Rage",
+          "Reflect",
+          "Return",
+          "Secret Power",
+          "Sharpen",
+          "Shock Wave",
+          "Signal Beam",
+          "Skull Bash",
+          "Swagger",
+          "Take Down",
+          "Telekinesis",
+          "Teleport",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Embargo",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Embargo",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Embargo",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Thief",
+          "Charge Beam",
+          "Endure",
+          "Embargo",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Adaptability",
+          "Download"
+        ],
+        "hiddenAbilities": [
+          "Analytic"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 135,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 185,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/474_porygon-z/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/474_porygon-z/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/474_porygon-z/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.5
+              },
+              "sounds": [
+                "pixelmon.mob.porygon-z",
+                "pixelmon.mob.porygon-z"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/474_porygon-z/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/474_porygon-z/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/474_porygon-z/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/474_porygon-z/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Porygon2",
+        "Porygon"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 34.0,
+      "catchRate": 30,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 4
+}

@@ -1,0 +1,256 @@
+{
+  "name": "SandyShocks",
+  "dex": 989,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Electric Terrain",
+              "Sunny Day",
+              "Supersonic",
+              "Thunder Shock",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Charge Beam"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Tri Attack"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Gravity"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Magnetic Flux"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Charge Beam",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Mud Shot",
+          "Endure",
+          "Volt Switch",
+          "Sunny Day",
+          "Sandstorm",
+          "Body Slam",
+          "Sleep Talk",
+          "Electro Ball",
+          "Reflect",
+          "Light Screen",
+          "Thunder Wave",
+          "Stomping Tantrum",
+          "Rest",
+          "Body Press",
+          "Spikes",
+          "Flash Cannon",
+          "Eerie Impulse",
+          "Power Gem",
+          "Substitute",
+          "Iron Defense",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Thunderbolt",
+          "Earth Power",
+          "Electric Terrain",
+          "Wild Charge",
+          "Earthquake",
+          "Giga Impact",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 81,
+        "defense": 97,
+        "specialAttack": 121,
+        "specialDefense": 85,
+        "speed": 101
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/989_sandyshocks/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/989_sandyshocks/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/989_sandyshocks/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/989_sandyshocks/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC",
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 60.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

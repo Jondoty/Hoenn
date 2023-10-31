@@ -1,0 +1,476 @@
+{
+  "name": "Sigilyph",
+  "dex": 561,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Gust"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Gravity"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Light Screen",
+              "Reflect"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Sky Attack"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Skill Swap"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Psycho Shift",
+          "Roost"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Imprison",
+          "Power Swap",
+          "Speed Swap",
+          "Psycho Cut",
+          "Trick Room",
+          "Magic Room",
+          "Round",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Heat Wave",
+          "Trick",
+          "Skill Swap",
+          "Cosmic Power",
+          "Calm Mind",
+          "Dark Pulse",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Stored Power",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Charge Beam",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Magic Coat",
+          "Miracle Eye",
+          "Mirror Move",
+          "Pluck",
+          "Psych Up",
+          "Psywave",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Smack Down",
+          "Swagger",
+          "Synchronoise",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Charge Beam",
+          "Thunder Wave",
+          "Fly",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "WonderSkin",
+          "MagicGuard"
+        ],
+        "hiddenAbilities": [
+          "TintedLens"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 58,
+        "defense": 80,
+        "specialAttack": 103,
+        "specialDefense": 80,
+        "speed": 97
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/561_sigilyph/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/561_sigilyph/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/561_sigilyph/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/561_sigilyph/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/561_sigilyph/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "PSYCHIC",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 14.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

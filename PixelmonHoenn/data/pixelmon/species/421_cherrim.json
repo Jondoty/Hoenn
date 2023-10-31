@@ -1,0 +1,383 @@
+{
+  "name": "Cherrim",
+  "dex": 421,
+  "defaultForms": [
+    "overcast"
+  ],
+  "forms": [
+    {
+      "name": "overcast",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Flower Shield",
+              "Growth",
+              "Leafage",
+              "Morning Sun",
+              "Sunny Day",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Petal Blizzard"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Petal Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Aromatherapy",
+          "Defense Curl",
+          "Flower Shield",
+          "Heal Pulse",
+          "Healing Wish",
+          "Nature Power",
+          "Razor Leaf",
+          "Rollout",
+          "Sweet Scent",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Weather Ball",
+          "Bullet Seed",
+          "Round",
+          "Draining Kiss",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Frustration",
+          "Grass Whistle",
+          "Hidden Power",
+          "Laser Focus",
+          "Lucky Chant",
+          "Natural Gift",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Synthesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlowerGift"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 70,
+        "specialAttack": 87,
+        "specialDefense": 78,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 158,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/421_cherrim/all/overcast/none/texture.png",
+              "sprite": "pixelmon:pokemon/421_cherrim/all/overcast/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/421_cherrim/all/overcast/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/421_cherrim/all/overcast/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/421_cherrim/all/overcast/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Cherubi"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 9.3,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "sunshine",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 0.4
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/421_cherrim/all/sunshine/none/texture.png",
+              "sprite": "pixelmon:pokemon/421_cherrim/all/sunshine/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/421_cherrim/all/sunshine/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/421_cherrim/all/sunshine/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/421_cherrim/all/sunshine/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 4
+}

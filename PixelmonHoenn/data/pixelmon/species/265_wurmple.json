@@ -1,0 +1,176 @@
+{
+  "name": "Wurmple",
+  "dex": 265,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.35,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.35,
+        "hoverHeight": 0.35
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "String Shot",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Poison Sting"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bug Bite"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Electroweb",
+          "Snore"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldDust"
+        ],
+        "hiddenAbilities": [
+          "RunAway"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 45,
+        "defense": 35,
+        "specialAttack": 20,
+        "specialDefense": 30,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 54,
+        "baseFriendship": 70,
+        "spawnLevel": 4,
+        "spawnLevelRange": 4,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/265_wurmple/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/265_wurmple/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/265_wurmple/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/265_wurmple/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/265_wurmple/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 3.6,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 7,
+          "to": "Silcoon",
+          "conditions": [
+            {
+              "chance": 0.5,
+              "evoConditionType": "chance"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Harden"
+          ]
+        },
+        {
+          "level": 7,
+          "to": "Cascoon",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Harden"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 3
+}

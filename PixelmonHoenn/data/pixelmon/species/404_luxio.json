@@ -1,0 +1,400 @@
+{
+  "name": "Luxio",
+  "dex": 404,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge",
+              "Leer",
+              "Tackle",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Volt Switch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 68,
+            "attacks": [
+              "Wild Charge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Baby-Doll Eyes",
+          "Double Kick",
+          "Howl",
+          "Night Slash",
+          "Quick Attack",
+          "Shock Wave",
+          "Take Down"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Light Screen",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fake Tears",
+          "Thunder Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Round",
+          "Volt Switch",
+          "Snarl",
+          "Eerie Impulse"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Electro Ball",
+          "Wild Charge",
+          "Play Rough",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Frustration",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "Magnet Rise",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Strength",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Charge Beam",
+          "Endure",
+          "Flash",
+          "Thunder Wave",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Rivalry",
+          "Intimidate"
+        ],
+        "hiddenAbilities": [
+          "Guts"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 49,
+        "specialAttack": 60,
+        "specialDefense": 49,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 117,
+        "baseFriendship": 100,
+        "spawnLevel": 15,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "MALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/404_luxio/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/404_luxio/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/404_luxio/male/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.luxio"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/404_luxio/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/404_luxio/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        },
+        {
+          "gender": "FEMALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/404_luxio/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/404_luxio/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/404_luxio/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/404_luxio/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/404_luxio/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Shinx"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 30.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Luxray",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 4
+}

@@ -1,0 +1,416 @@
+{
+  "name": "Frillish",
+  "dex": 592,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Poison Sting"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Water Spout"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist"
+        ],
+        "eggMoves": [
+          "Acid Armor",
+          "Bubble Beam",
+          "Confuse Ray",
+          "Mist",
+          "Pain Split",
+          "Strength Sap"
+        ],
+        "tmMoves8": [
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Dive",
+          "Brine",
+          "Trick Room",
+          "Round",
+          "Hex"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Psychic",
+          "Waterfall",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Taunt",
+          "Trick",
+          "Dark Pulse",
+          "Energy Ball",
+          "Sludge Wave",
+          "Scald",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bind",
+          "Bubble",
+          "Confide",
+          "Constrict",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Magic Coat",
+          "Ominous Wind",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Spite",
+          "Swagger",
+          "Toxic",
+          "Water Sport",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Will-O-Wisp",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Surf",
+          "Dark Pulse",
+          "Waterfall",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Will-O-Wisp",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Will-O-Wisp",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterAbsorb",
+          "CursedBody"
+        ],
+        "hiddenAbilities": [
+          "Damp"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 3,
+          "depthRangeEnd": 15,
+          "swimSpeed": 7,
+          "decayRate": 0.95,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 40,
+        "defense": 50,
+        "specialAttack": 65,
+        "specialDefense": 85,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 67,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 17,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "MALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/592_frillish/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/592_frillish/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/592_frillish/male/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.frillish"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/592_frillish/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/592_frillish/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        },
+        {
+          "gender": "FEMALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/592_frillish/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/592_frillish/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/592_frillish/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/592_frillish/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/592_frillish/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "WATER",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 33.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 40,
+          "to": "Jellicent",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

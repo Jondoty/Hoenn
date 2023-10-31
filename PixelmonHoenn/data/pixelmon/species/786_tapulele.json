@@ -1,0 +1,400 @@
+{
+  "name": "TapuLele",
+  "dex": 786,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confusion"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Aromatic Mist"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Nature's Madness"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Tickle"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Skill Swap"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Psychic Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [
+
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Sunny Day",
+          "Facade",
+          "Fling",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Psycho Cut",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Taunt",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Focus Blast",
+          "Energy Ball",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Magic Coat",
+          "Nature Power",
+          "Psych Up",
+          "Psywave",
+          "Return",
+          "Swagger",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "PsychicSurge"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.45
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.45
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 75,
+        "specialAttack": 130,
+        "specialDefense": 115,
+        "speed": 95
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 0,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/786_tapulele/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/786_tapulele/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/786_tapulele/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.tapulele",
+                "pixelmon.mob.tapulele"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/786_tapulele/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/786_tapulele/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 18.6,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

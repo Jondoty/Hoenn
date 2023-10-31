@@ -1,0 +1,258 @@
+{
+  "name": "Rookidee",
+  "dex": 821,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.25,
+        "width": 0.35,
+        "length": 1,
+        "eyeHeight": 0.25,
+        "hoverHeight": 0.25
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Peck"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Power Trip"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Defog",
+          "Rock Smash",
+          "Roost",
+          "Sand Attack",
+          "Sky Attack",
+          "Spite",
+          "Tailwind"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Fake Tears",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Round",
+          "Retaliate",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Brave Bird",
+          "Nasty Plot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "Unnerve"
+        ],
+        "hiddenAbilities": [
+          "BigPecks"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 38,
+        "attack": 47,
+        "defense": 35,
+        "specialAttack": 33,
+        "specialDefense": 35,
+        "speed": 57
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 49,
+        "baseFriendship": 50,
+        "spawnLevel": 8,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/821_rookidee/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/821_rookidee/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/821_rookidee/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/821_rookidee/all/base/none/flying/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.rookidee"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/821_rookidee/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/821_rookidee/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 1.8,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 18,
+          "to": "Corvisquire",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,333 @@
+{
+  "name": "Dedenne",
+  "dex": 702,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Nuzzle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Parabolic Charge"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Volt Switch"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Rest",
+              "Snore"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Thunder"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Covet",
+          "Magnet Rise",
+          "Tearful Look"
+        ],
+        "tmMoves8": [
+          "Thunder Punch",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "U-turn",
+          "Fling",
+          "Round",
+          "Retaliate",
+          "Volt Switch",
+          "Electroweb",
+          "Electric Terrain",
+          "Eerie Impulse"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Grass Knot",
+          "Electro Ball",
+          "Ally Switch",
+          "Wild Charge",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Last Resort",
+          "Natural Gift",
+          "Recycle",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CheekPouch",
+          "Pickup"
+        ],
+        "hiddenAbilities": [
+          "Plus"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 67,
+        "attack": 58,
+        "defense": 57,
+        "specialAttack": 81,
+        "specialDefense": 67,
+        "speed": 101
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 151,
+        "baseFriendship": 0,
+        "spawnLevel": 12,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/702_dedenne/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/702_dedenne/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/702_dedenne/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/702_dedenne/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/702_dedenne/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "FAIRY"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 2.2,
+      "catchRate": 180,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 6
+}

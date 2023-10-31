@@ -1,0 +1,237 @@
+{
+  "name": "Silicobra",
+  "dex": 843,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Sand Attack",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Minimize"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Glare"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Sand Tomb"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scale Shot",
+          "Scorching Sands",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Belch",
+          "Dragon Rush",
+          "Last Resort",
+          "Mud-Slap",
+          "Poison Tail"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Sand Tomb",
+          "Mud Shot",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Earth Power",
+          "Drill Run"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandSpit",
+          "ShedSkin"
+        ],
+        "hiddenAbilities": [
+          "SandVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 52,
+        "attack": 57,
+        "defense": 75,
+        "specialAttack": 35,
+        "specialDefense": 50,
+        "speed": 46
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 50,
+        "spawnLevel": 15,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/843_silicobra/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/843_silicobra/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/843_silicobra/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.silicobra"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/843_silicobra/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/843_silicobra/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "DRAGON"
+      ],
+      "types": [
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 7.6,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Sandaconda",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 8
+}

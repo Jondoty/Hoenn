@@ -1,0 +1,417 @@
+{
+  "name": "Gothita",
+  "dex": 574,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Pound"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Tickle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Future Sight"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Magic Room"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Fake Out",
+          "Heal Pulse",
+          "Mean Look",
+          "Mirror Coat",
+          "Torment"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Helping Hand",
+          "Fake Tears",
+          "Rock Tomb",
+          "Payback",
+          "Fling",
+          "Guard Swap",
+          "Trick Room",
+          "Magic Room",
+          "Round"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Dark Pulse",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Dream Eater",
+          "Embargo",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Heal Bell",
+          "Heal Block",
+          "Hidden Power",
+          "Magic Coat",
+          "Miracle Eye",
+          "Recycle",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Embargo",
+          "Payback",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Frisk",
+          "Competitive"
+        ],
+        "hiddenAbilities": [
+          "ShadowTag"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 50,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 58,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/574_gothita/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/574_gothita/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/574_gothita/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/574_gothita/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/574_gothita/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.8,
+      "catchRate": 200,
+      "malePercentage": 25,
+      "evolutions": [
+        {
+          "level": 32,
+          "to": "Gothorita",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

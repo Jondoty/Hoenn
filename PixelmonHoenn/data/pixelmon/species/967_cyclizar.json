@@ -1,0 +1,267 @@
+{
+  "name": "Cyclizar",
+  "dex": 967,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Breaking Swipe"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Shed Tail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Shift Gear"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aqua Tail",
+          "Iron Tail",
+          "Knock Off",
+          "Power Whip"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Acrobatics",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Aerial Ace",
+          "Mud Shot",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "U-turn",
+          "Body Slam",
+          "Sleep Talk",
+          "Dragon Claw",
+          "Rest",
+          "Taunt",
+          "Iron Head",
+          "Substitute",
+          "Crunch",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Ice Spinner",
+          "Thunderbolt",
+          "Wild Charge",
+          "Giga Impact",
+          "Outrage",
+          "Overheat",
+          "Hyper Beam",
+          "Draco Meteor",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShedSkin"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.2,
+            "z": 1.15
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 95,
+        "defense": 65,
+        "specialAttack": 85,
+        "specialDefense": 65,
+        "speed": 121
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 50,
+        "spawnLevel": 19,
+        "spawnLevelRange": 21,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/967_cyclizar/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/967_cyclizar/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.cyclizar"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/967_cyclizar/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/967_cyclizar/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DRAGON",
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 31,
+      "weight": 63.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 9
+}

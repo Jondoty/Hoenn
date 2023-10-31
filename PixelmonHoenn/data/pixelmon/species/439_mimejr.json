@@ -1,0 +1,529 @@
+{
+  "name": "MimeJr",
+  "dex": 439,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Copycat",
+              "Pound"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Role Play"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Recycle"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Mimic"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Light Screen",
+              "Reflect",
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Confuse Ray",
+          "Fake Out",
+          "Hypnosis",
+          "Power Split",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Fling",
+          "Drain Punch",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Misty Terrain",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Nasty Plot",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrier",
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Headbutt",
+          "Healing Wish",
+          "Hidden Power",
+          "Infestation",
+          "Magic Coat",
+          "Meditate",
+          "Mud-Slap",
+          "Natural Gift",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Swagger",
+          "Telekinesis",
+          "Torment",
+          "Toxic",
+          "Wake-Up Slap"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Thunder Wave",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Soundproof",
+          "Filter"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 20,
+        "attack": 25,
+        "defense": 45,
+        "specialAttack": 70,
+        "specialDefense": 90,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 78,
+        "baseFriendship": 70,
+        "spawnLevel": 9,
+        "spawnLevelRange": 4,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/439_mimejr/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/439_mimejr/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/439_mimejr/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.mimejr",
+                "pixelmon.mob.mimejr"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/439_mimejr/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/439_mimejr/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 13.0,
+      "catchRate": 145,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "MrMime form:galarian",
+          "conditions": [
+            {
+              "attackName": "Mimic",
+              "evoConditionType": "move"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:snowy_taiga",
+                "minecraft:snowy_taiga_hills",
+                "minecraft:snowy_beach",
+                "minecraft:frozen_river",
+                "minecraft:frozen_ocean",
+                "minecraft:snowy_taiga_mountains",
+                "minecraft:snowy_mountains",
+                "minecraft:snowy_tundra",
+                "minecraft:ice_spikes",
+                "biomesoplenty:cold_desert",
+                "biomesoplenty:muskeg",
+                "biomesoplenty:snowy_coniferous_forest",
+                "biomesoplenty:snowy_fir_clearing",
+                "biomesoplenty:snowy_maple_forest",
+                "byg:frozen_lake",
+                "byg:lush_tundra",
+                "byg:northern_forest",
+                "byg:shattered_glacier",
+                "byg:snowy_blue_giant_taiga",
+                "byg:snowy_blue_taiga",
+                "byg:snowy_coniferous_forest",
+                "byg:snowy_deciduous_forest",
+                "byg:snowy_evergreen_taiga",
+                "byg:snowy_blue_taiga_hills",
+                "byg:snowy_coniferous_forest_hills",
+                "byg:snowy_deciduous_forest_hills",
+                "byg:snowy_evergreen_hills",
+                "byg:snowy_coniferous_clearing",
+                "byg:snowy_deciduous_clearing",
+                "byg:snowy_evergreen_clearing",
+                "terraforged:frozen_lake",
+                "terraforged:frozen_marsh",
+                "terraforged:snowy_fir_forest",
+                "terraforged:snowy_taiga_scrub"
+              ]
+            }
+          ],
+          "evoType": "leveling"
+        },
+        {
+          "to": "MrMime form:base",
+          "conditions": [
+            {
+              "attackName": "Mimic",
+              "evoConditionType": "move"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

@@ -1,0 +1,437 @@
+{
+  "name": "Reuniclus",
+  "dex": 579,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Endeavor",
+              "Hammer Arm",
+              "Protect",
+              "Recover"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Light Screen",
+              "Reflect"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Ally Switch"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Skill Swap"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Future Sight"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Wonder Room"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Acid Armor",
+          "Astonish",
+          "Confuse Ray"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Helping Hand",
+          "Imprison",
+          "Rock Tomb",
+          "Fling",
+          "Power Swap",
+          "Guard Swap",
+          "Drain Punch",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Thunder",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Superpower",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Focus Blast",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Dizzy Punch",
+          "Double Team",
+          "Dream Eater",
+          "Embargo",
+          "Explosion",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Gravity",
+          "Heal Block",
+          "Hidden Power",
+          "Infestation",
+          "Knock Off",
+          "Laser Focus",
+          "Magic Coat",
+          "Night Shade",
+          "Power-Up Punch",
+          "Psych Up",
+          "Psywave",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Rollout",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Strength",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Embargo",
+          "Explosion",
+          "Giga Impact",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Embargo",
+          "Explosion",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Embargo",
+          "Explosion",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overcoat",
+          "MagicGuard"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.2,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.2,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 110,
+        "attack": 65,
+        "defense": 75,
+        "specialAttack": 125,
+        "specialDefense": 85,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 221,
+        "baseFriendship": 70,
+        "spawnLevel": 41,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/579_reuniclus/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/579_reuniclus/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/579_reuniclus/all/base/none/model.pqc",
+                  "pixelmon:pokemon/579_reuniclus/all/base/none/model1.pqc"
+                ],
+                "transparency2": 0.4
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/579_reuniclus/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/579_reuniclus/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Duosion",
+        "Solosis"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 20.1,
+      "catchRate": 50,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

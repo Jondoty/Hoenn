@@ -1,0 +1,542 @@
+{
+  "name": "Beedrill",
+  "dex": 15,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fury Attack",
+              "Twineedle"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Rage"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Defog",
+          "Drill Run",
+          "Electroweb",
+          "Endeavor",
+          "Giga Drain",
+          "Knock Off",
+          "Laser Focus",
+          "Snore",
+          "Tailwind",
+          "Throat Chop"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Air Cutter",
+          "Baton Pass",
+          "Bide",
+          "Captivate",
+          "Curse",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Flash",
+          "Fury Cutter",
+          "Mimic",
+          "Natural Gift",
+          "Ominous Wind",
+          "Rock Smash",
+          "Secret Power",
+          "Silver Wind",
+          "Skull Bash",
+          "Struggle Bug",
+          "Sweet Scent",
+          "Swift",
+          "Take Down"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Brutal Swing",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Roost",
+          "False Swipe",
+          "Endure",
+          "Silver Wind",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Sweet Scent",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Swift",
+          "Rest",
+          "Attract",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [
+          "Swords Dance",
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Mega Drain",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm"
+        ],
+        "hiddenAbilities": [
+          "Sniper"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 15,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 30,
+          "lower_angle_limit": -35,
+          "max_fly_speed": 1.6,
+          "deceleration_rate": 0.2,
+          "hover_deceleration_rate": 0.1,
+          "acceleration_rate": 0.1,
+          "strafe_acceleration_rate": 0.9,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 1.2,
+          "pitch_rate": 1,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": false,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 5,
+          "hover_ticks": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 40,
+        "specialAttack": 45,
+        "specialDefense": 80,
+        "speed": 75
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/015_beedrill/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/015_beedrill/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/015_beedrill/all/base/none/model.pqc"
+                ],
+                "rotateAngleX": 0
+              },
+              "sounds": [
+                "pixelmon.mob.beedrill"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/015_beedrill/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/015_beedrill/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/015_beedrill/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/015_beedrill/all/base/pink/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Kakuna",
+        "Weedle"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:beedrillite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 29.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 2,
+        "specialDefense": 1
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "Adaptability"
+        ]
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 150,
+        "defense": 40,
+        "specialAttack": 15,
+        "specialDefense": 80,
+        "speed": 145
+      },
+      "weight": 40.5,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/015_beedrill/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/015_beedrill/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/015_beedrill/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/015_beedrill/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/015_beedrill/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

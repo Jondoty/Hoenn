@@ -1,0 +1,285 @@
+{
+  "name": "Pyukumuku",
+  "dex": 771,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baton Pass",
+              "Harden"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Purify"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Memento"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Mirror Coat",
+          "Spite",
+          "Swagger",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Helping Hand"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Taunt",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Bide",
+          "Block",
+          "Confide",
+          "Double Team",
+          "Mud Sport",
+          "Psych Up",
+          "Quash",
+          "Recycle",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Double Team",
+          "Reflect",
+          "Rest",
+          "Attract",
+          "Quash",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "InnardsOut"
+        ],
+        "hiddenAbilities": [
+          "Unaware"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 40,
+          "swimSpeed": 20,
+          "decayRate": 0.2,
+          "refreshRate": 300,
+          "chanceToStopOnBlock": 1,
+          "blocksToStopOn": [
+            "minecraft:SAND"
+          ],
+          "minStopTime": 20,
+          "maxStopTime": 60,
+          "minStopCooldownTime": 10,
+          "maxStopCooldownTime": 20,
+          "canRotateWhileStopped": true
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 60,
+        "defense": 130,
+        "specialAttack": 30,
+        "specialDefense": 130,
+        "speed": 5
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 144,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 40,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/771_pyukumuku/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/771_pyukumuku/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/771_pyukumuku/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/771_pyukumuku/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/771_pyukumuku/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/771_pyukumuku/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/771_pyukumuku/all/base/drowned/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/771_pyukumuku/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/771_pyukumuku/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 1.2,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

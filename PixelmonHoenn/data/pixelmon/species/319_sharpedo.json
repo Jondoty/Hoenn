@@ -1,0 +1,508 @@
+{
+  "name": "Sharpedo",
+  "dex": 319,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.3,
+        "width": 1.8,
+        "length": 1,
+        "eyeHeight": 2.3,
+        "hoverHeight": 2.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aqua Jet",
+              "Focus Energy",
+              "Leer",
+              "Night Slash",
+              "Poison Fang",
+              "Slash"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Take Down"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Flip Turn",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Destiny Bond",
+          "Double-Edge",
+          "Thrash",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Dive",
+          "Rock Tomb",
+          "Bounce",
+          "Brine",
+          "Payback",
+          "Assurance",
+          "Avalanche",
+          "Ice Fang",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Agility",
+          "Focus Energy",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Close Combat",
+          "Poison Jab",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Scald",
+          "Psychic Fangs",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Feint",
+          "Frustration",
+          "Fury Cutter",
+          "Hidden Power",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Rage",
+          "Refresh",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Skull Bash",
+          "Spite",
+          "Strength",
+          "Super Fang",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Bulldoze",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Bulldoze",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Brine",
+          "Endure",
+          "Payback",
+          "Giga Impact",
+          "Avalanche",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RoughSkin"
+        ],
+        "hiddenAbilities": [
+          "SpeedBoost"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 3,
+          "depthRangeEnd": 60,
+          "swimSpeed": 20,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 120,
+        "defense": 40,
+        "specialAttack": 95,
+        "specialDefense": 40,
+        "speed": 95
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 35,
+        "spawnLevel": 30,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/319_sharpedo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/319_sharpedo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/319_sharpedo/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sharpedo"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/319_sharpedo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/319_sharpedo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Carvanha"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:sharpedonite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 88.8,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "StrongJaw"
+        ]
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 140,
+        "defense": 70,
+        "specialAttack": 110,
+        "specialDefense": 65,
+        "speed": 105
+      },
+      "weight": 130.3,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/319_sharpedo/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/319_sharpedo/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/319_sharpedo/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/319_sharpedo/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/319_sharpedo/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

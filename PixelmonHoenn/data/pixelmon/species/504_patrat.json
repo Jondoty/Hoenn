@@ -1,0 +1,345 @@
+{
+  "name": "Patrat",
+  "dex": 504,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bide"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Hyper Fang"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Slam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Aqua Tail",
+          "Covet",
+          "Endeavor",
+          "Gunk Shot",
+          "Helping Hand",
+          "Iron Tail",
+          "Laser Focus",
+          "Last Resort",
+          "Low Kick",
+          "Seed Bomb",
+          "Shock Wave",
+          "Snore",
+          "Super Fang",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Assurance",
+          "Bullet Seed",
+          "Flail",
+          "Foresight",
+          "Iron Tail",
+          "Pursuit",
+          "Revenge",
+          "Screech",
+          "Tearful Look"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Retaliate",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Retaliate",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Retaliate",
+          "Swords Dance",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "Analytic"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 55,
+        "defense": 39,
+        "specialAttack": 35,
+        "specialDefense": 39,
+        "speed": 42
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 51,
+        "baseFriendship": 70,
+        "spawnLevel": 6,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/504_patrat/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/504_patrat/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/504_patrat/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.patrat"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/504_patrat/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/504_patrat/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 11.6,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Watchog",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Confuse Ray"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

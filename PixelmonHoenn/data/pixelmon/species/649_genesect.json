@@ -1,0 +1,590 @@
+{
+  "name": "Genesect",
+  "dex": 649,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fury Cutter",
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Magnet Rise"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Simple Beam"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Lock-On"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Techno Blast"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Facade",
+          "Swift",
+          "U-turn",
+          "Assurance",
+          "Shadow Claw",
+          "Round",
+          "Electroweb"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Leech Life",
+          "Tri Attack",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Blaze Kick",
+          "Iron Defense",
+          "Dark Pulse",
+          "X-Scissor",
+          "Bug Buzz",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Gunk Shot",
+          "Iron Head",
+          "Ally Switch"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bug Bite",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Explosion",
+          "Extreme Speed",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Hone Claws",
+          "Infestation",
+          "Last Resort",
+          "Magic Coat",
+          "Magnet Bomb",
+          "Recycle",
+          "Return",
+          "Rock Polish",
+          "Secret Power",
+          "Shift Gear",
+          "Shock Wave",
+          "Signal Beam",
+          "Slash",
+          "Struggle Bug",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Explosion",
+          "Shadow Claw",
+          "Giga Impact",
+          "Rock Polish",
+          "Thunder Wave",
+          "Fly",
+          "X-Scissor",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Explosion",
+          "Shadow Claw",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Thunder Wave",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Explosion",
+          "Shadow Claw",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Thunder Wave",
+          "Struggle Bug",
+          "X-Scissor",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Download"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.1,
+            "z": -0.4
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 71,
+        "attack": 120,
+        "defense": 95,
+        "specialAttack": 120,
+        "specialDefense": 95,
+        "speed": 99
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/649_genesect/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/649_genesect/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mod.genesect"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/649_genesect/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 82.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1,
+        "speed": 1
+      }
+    },
+    {
+      "name": "burn",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/649_genesect/all/burn/none/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/burn/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/649_genesect/all/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/649_genesect/all/burn/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/burn/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chill",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/649_genesect/all/chill/none/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/chill/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/649_genesect/all/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/649_genesect/all/chill/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/chill/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "douse",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/649_genesect/all/douse/none/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/douse/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/649_genesect/all/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/649_genesect/all/douse/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/douse/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "shock",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/649_genesect/all/shock/none/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/shock/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/649_genesect/all/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/649_genesect/all/shock/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/649_genesect/all/shock/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 5
+}

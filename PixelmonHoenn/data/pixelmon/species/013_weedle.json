@@ -1,0 +1,163 @@
+{
+  "name": "Weedle",
+  "dex": 13,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Sting",
+              "String Shot"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Bug Bite"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Electroweb"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldDust"
+        ],
+        "hiddenAbilities": [
+          "RunAway"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 20,
+        "specialDefense": 20,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 39,
+        "baseFriendship": 70,
+        "spawnLevel": 2,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/013_weedle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/013_weedle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/013_weedle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.weedle"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/013_weedle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/013_weedle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/013_weedle/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/013_weedle/all/base/pink/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 3.2,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 7,
+          "to": "Kakuna",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Harden"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 1
+}

@@ -1,0 +1,351 @@
+{
+  "name": "Golisopod",
+  "dex": 768,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "First Impression",
+              "Sand Attack",
+              "Spite",
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Razor Shell"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Liquidation"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Aqua Jet",
+          "Harden",
+          "Metal Claw",
+          "Rollout",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Dive",
+          "Rock Tomb",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Venoshock",
+          "Round",
+          "Razor Shell",
+          "Snarl",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Leech Life",
+          "Substitute",
+          "Sludge Bomb",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Muddy Water",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Poison Jab",
+          "Dark Pulse",
+          "X-Scissor",
+          "Bug Buzz",
+          "Focus Blast",
+          "Iron Head",
+          "Sludge Wave",
+          "Scald",
+          "Drill Run",
+          "Throat Chop",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Double Team",
+          "Dual Chop",
+          "Endeavor",
+          "Frost Breath",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Laser Focus",
+          "Pain Split",
+          "Psych Up",
+          "Return",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Psych Up",
+          "Frost Breath",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "EmergencyExit"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": 0.0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 30,
+          "depthRangeEnd": 80,
+          "swimSpeed": 20,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 140,
+        "specialAttack": 60,
+        "specialDefense": 90,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 186,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/768_golisopod/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/768_golisopod/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/768_golisopod/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.golisopod"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/768_golisopod/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/768_golisopod/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG",
+        "WATER_THREE"
+      ],
+      "types": [
+        "BUG",
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Wimpod"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 108.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

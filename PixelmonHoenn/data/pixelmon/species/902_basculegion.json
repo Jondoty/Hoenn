@@ -1,0 +1,299 @@
+{
+  "name": "Basculegion",
+  "dex": 902,
+  "defaultForms": [
+    "male",
+    "female"
+  ],
+  "forms": [
+    {
+      "name": "male",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1,
+        "width": 2,
+        "length": 1,
+        "eyeHeight": 2.4,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Bite",
+              "Hex"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Crunch",
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ice Fang",
+          "Swift",
+          "Ominous Wind",
+          "Calm Mind",
+          "Rest",
+          "Zen Headbutt",
+          "Water Pulse",
+          "Icy Wind",
+          "Shadow Ball",
+          "Giga Impact",
+          "Aqua Tail",
+          "Hyper Beam",
+          "Ice Beam",
+          "Psychic"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "Adaptability"
+        ],
+        "hiddenAbilities": [
+          "MoldBreaker"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "aggressive": 0,
+        "passive": 0,
+        "timid": 100
+      },
+      "battleStats": {
+        "hp": 120,
+        "attack": 112,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 75,
+        "speed": 78
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 33,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/902_basculegion/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/902_basculegion/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/902_basculegion/male/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.basculegion.male"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/902_basculegion/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/902_basculegion/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Basculin"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 110.0,
+      "catchRate": 135,
+      "malePercentage": 100,
+      "evYields": {
+        "hp": 3
+      }
+    },
+    {
+      "name": "female",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Bite",
+              "Hex"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Crunch",
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ice Fang",
+          "Swift",
+          "Ominous Wind",
+          "Calm Mind",
+          "Rest",
+          "Zen Headbutt",
+          "Water Pulse",
+          "Icy Wind",
+          "Shadow Ball",
+          "Giga Impact",
+          "Aqua Tail",
+          "Hyper Beam",
+          "Ice Beam",
+          "Psychic"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "battleStats": {
+        "hp": 120,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 100,
+        "specialDefense": 75,
+        "speed": 78
+      },
+      "possibleGenders": [
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/902_basculegion/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/902_basculegion/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/902_basculegion/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/902_basculegion/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/902_basculegion/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "malePercentage": 0
+    }
+  ],
+  "generation": 8
+}

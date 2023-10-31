@@ -1,0 +1,507 @@
+{
+  "name": "Crawdaunt",
+  "dex": 342,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FLUCTUATING",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Leer",
+              "Swift",
+              "Taunt",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Razor Shell"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Crabhammer"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Guillotine"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Aqua Jet",
+          "Double-Edge",
+          "Metal Claw",
+          "Slash",
+          "Switcheroo"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Brick Break",
+          "Dive",
+          "Rock Tomb",
+          "Mud Shot",
+          "Payback",
+          "Fling",
+          "Avalanche",
+          "Round",
+          "Retaliate",
+          "Razor Shell",
+          "Snarl",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Taunt",
+          "Superpower",
+          "Muddy Water",
+          "Iron Defense",
+          "Dragon Dance",
+          "Close Combat",
+          "Dark Pulse",
+          "X-Scissor",
+          "Nasty Plot",
+          "Sludge Wave",
+          "Scald",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bubble",
+          "Captivate",
+          "Chip Away",
+          "Confide",
+          "Counter",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Fury Cutter",
+          "Hidden Power",
+          "Hone Claws",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nature Power",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Spite",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Trump Card",
+          "Vise Grip",
+          "Water Pulse",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Snarl",
+          "Nature Power",
+          "Dark Pulse",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "False Swipe",
+          "Fling",
+          "Endure",
+          "Payback",
+          "Giga Impact",
+          "Avalanche",
+          "Swords Dance",
+          "Captivate",
+          "Dark Pulse",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HyperCutter",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "Adaptability"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.43
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 15,
+          "depthRangeEnd": 40,
+          "swimSpeed": 7,
+          "decayRate": 0.8,
+          "refreshRate": 60
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 63,
+        "attack": 120,
+        "defense": 85,
+        "specialAttack": 90,
+        "specialDefense": 55,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/342_crawdaunt/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/342_crawdaunt/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/342_crawdaunt/all/base/none/model.pqc"
+                ],
+                "yRotation": 19.5
+              },
+              "sounds": [
+                "pixelmon.mob.crawdaunt"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/342_crawdaunt/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/342_crawdaunt/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "rainbow",
+              "texture": "pixelmon:pokemon/342_crawdaunt/all/base/rainbow/texture.png",
+              "sprite": "pixelmon:pokemon/342_crawdaunt/all/base/rainbow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_THREE"
+      ],
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Corphish"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 32.8,
+      "catchRate": 155,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 3
+}

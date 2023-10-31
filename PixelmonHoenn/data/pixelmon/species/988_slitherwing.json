@@ -1,0 +1,257 @@
+{
+  "name": "SlitherWing",
+  "dex": 988,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bug Bite",
+              "Ember",
+              "Gust",
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Poison Powder",
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Low Sweep"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Morning Sun"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Dual Wingbeat"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "First Impression"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Leech Life"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Low Kick",
+          "Acrobatics",
+          "Trailblaze",
+          "Facade",
+          "Aerial Ace",
+          "Flame Charge",
+          "Low Sweep",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Brick Break",
+          "Zen Headbutt",
+          "U-turn",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Body Press",
+          "Leech Life",
+          "Substitute",
+          "Will-O-Wisp",
+          "Giga Drain",
+          "Heat Wave",
+          "Heavy Slam",
+          "Reversal",
+          "Wild Charge",
+          "Earthquake",
+          "Giga Impact",
+          "Hurricane",
+          "Bug Buzz",
+          "Hyper Beam",
+          "Flare Blitz",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 135,
+        "defense": 79,
+        "specialAttack": 85,
+        "specialDefense": 105,
+        "speed": 81
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/988_slitherwing/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/988_slitherwing/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/988_slitherwing/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.slitherwing"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/988_slitherwing/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/988_slitherwing/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "BUG",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 92.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

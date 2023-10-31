@@ -1,0 +1,237 @@
+{
+  "name": "Nymble",
+  "dex": 919,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.2,
+        "length": 1.0,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "First Impression"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Counter",
+          "Skitter Smack"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Struggle Bug",
+          "Thief",
+          "Trailblaze",
+          "Pounce",
+          "Facade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "U-turn",
+          "Sleep Talk",
+          "Rest",
+          "Leech Life",
+          "Substitute",
+          "X-Scissor",
+          "Bug Buzz",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm"
+        ],
+        "hiddenAbilities": [
+          "TintedLens"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 33,
+        "attack": 46,
+        "defense": 40,
+        "specialAttack": 21,
+        "specialDefense": 25,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 42,
+        "baseFriendship": 20,
+        "spawnLevel": 12,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/919_nymble/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/919_nymble/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/919_nymble/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.nymble"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/919_nymble/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/919_nymble/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 1.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Lokix",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Lunge"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

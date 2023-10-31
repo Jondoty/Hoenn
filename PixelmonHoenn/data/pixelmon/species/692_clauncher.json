@@ -1,0 +1,329 @@
+{
+  "name": "Clauncher",
+  "dex": 692,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Splash",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Vise Grip"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Aura Sphere"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Crabhammer"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Flip Turn",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Tail",
+          "Bubble Beam",
+          "Entrainment"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Helping Hand",
+          "Dive",
+          "Bounce",
+          "U-turn",
+          "Venoshock",
+          "Round"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Surf",
+          "Ice Beam",
+          "Waterfall",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Muddy Water",
+          "Aura Sphere",
+          "Dragon Pulse",
+          "Flash Cannon",
+          "Sludge Wave",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bubble",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MegaLauncher"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 15,
+          "swimSpeed": 15,
+          "decayRate": 0.6,
+          "refreshRate": 150,
+          "chanceToStopOnBlock": 0.5,
+          "blocksToStopOn": [
+            "minecraft:SAND",
+            "minecraft:GRAVEL"
+          ],
+          "minStopTime": 1,
+          "maxStopTime": 4,
+          "minStopCooldownTime": 2,
+          "maxStopCooldownTime": 4,
+          "canRotateWhileStopped": false
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 53,
+        "defense": 62,
+        "specialAttack": 58,
+        "specialDefense": 63,
+        "speed": 44
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 0,
+        "spawnLevel": 24,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/692_clauncher/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/692_clauncher/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/692_clauncher/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/692_clauncher/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/692_clauncher/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_THREE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 8.3,
+      "catchRate": 225,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Clawitzer",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 6
+}

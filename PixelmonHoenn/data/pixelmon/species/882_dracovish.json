@@ -1,0 +1,262 @@
+{
+  "name": "Dracovish",
+  "dex": 882,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.1,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 2.1,
+        "hoverHeight": 2.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Fishious Rend"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Meteor Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Rock Tomb",
+          "Rock Blast",
+          "Brine",
+          "Ice Fang",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Low Kick",
+          "Earthquake",
+          "Waterfall",
+          "Leech Life",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Dragon Pulse",
+          "Earth Power",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Scald",
+          "Psychic Fangs",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterAbsorb",
+          "StrongJaw"
+        ],
+        "hiddenAbilities": [
+          "SandRush"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.45
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.35,
+            "z": -0.15
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 100,
+        "specialAttack": 70,
+        "specialDefense": 80,
+        "speed": 75
+      },
+      "tags": [
+        "threeivs"
+      ],
+      "spawn": {
+        "baseExp": 177,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/882_dracovish/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/882_dracovish/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/882_dracovish/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dracovish"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/882_dracovish/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/882_dracovish/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 215.0,
+      "catchRate": 45,
+      "malePercentage": -1.0,
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

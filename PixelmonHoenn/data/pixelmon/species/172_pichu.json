@@ -1,0 +1,436 @@
+{
+  "name": "Pichu",
+  "dex": 172,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tail Whip",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Nuzzle"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Charm"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Charge",
+          "Disarming Voice",
+          "Fake Out",
+          "Flail",
+          "Present",
+          "Tickle",
+          "Wish"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Thunder Punch",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fling",
+          "Round",
+          "Volt Switch",
+          "Electroweb",
+          "Electric Terrain"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail",
+          "Uproar",
+          "Nasty Plot",
+          "Grass Knot",
+          "Wild Charge",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Bide",
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Counter",
+          "Covet",
+          "Curse",
+          "Defense Curl",
+          "Detect",
+          "Double Slap",
+          "Double Team",
+          "Double-Edge",
+          "Echoed Voice",
+          "Endeavor",
+          "Flash",
+          "Follow Me",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Lucky Chant",
+          "Magnet Rise",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Seismic Toss",
+          "Shock Wave",
+          "Signal Beam",
+          "Swagger",
+          "Teeter Dance",
+          "Toxic",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Flash",
+          "Thunder Wave",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Zap Cannon",
+          "Hidden Power",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Thunder",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Detect",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "LightningRod"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 15,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 42,
+        "baseFriendship": 70,
+        "spawnLevel": 7,
+        "spawnLevelRange": 43,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/172_pichu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/172_pichu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/172_pichu/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.pichu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/172_pichu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/172_pichu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 2.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Pikachu",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    },
+    {
+      "name": "spiky",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/172_pichu/all/spiky/none/texture.png",
+              "sprite": "pixelmon:pokemon/172_pichu/all/spiky/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/172_pichu/all/spiky/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/172_pichu/all/spiky/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/172_pichu/all/spiky/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evolutions": []
+    }
+  ],
+  "generation": 2
+}

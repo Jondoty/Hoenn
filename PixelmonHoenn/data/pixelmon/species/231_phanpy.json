@@ -1,0 +1,374 @@
+{
+  "name": "Phanpy",
+  "dex": 231,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Growl",
+              "Odor Sleuth",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Last Resort"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Earth Power",
+          "Endeavor",
+          "Gunk Shot",
+          "Hyper Voice",
+          "Iron Tail",
+          "Knock Off",
+          "Last Resort",
+          "Seed Bomb",
+          "Snore",
+          "Stealth Rock",
+          "Superpower"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Body Slam",
+          "Counter",
+          "Endeavor",
+          "Fissure",
+          "Focus Energy",
+          "Head Smash",
+          "Heavy Slam",
+          "High Horsepower",
+          "Ice Shard",
+          "Mud-Slap",
+          "Play Rough",
+          "Snore"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Curse",
+          "Headbutt",
+          "Mimic",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Water Gun"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Roar",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Pickup"
+        ],
+        "hiddenAbilities": [
+          "SandVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 124,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 19,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/231_phanpy/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/231_phanpy/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/231_phanpy/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.phanpy",
+                "pixelmon.mob.phanpy",
+                "pixelmon.mob.phanpy"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/231_phanpy/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/231_phanpy/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 33.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Donphan",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Fury Attack"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 2
+}

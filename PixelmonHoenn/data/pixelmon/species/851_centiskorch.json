@@ -1,0 +1,296 @@
+{
+  "name": "Centiskorch",
+  "dex": 851,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Ember",
+              "Inferno",
+              "Smokescreen",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Fire Lash"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Burn Up"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Knock Off",
+          "Rollout",
+          "Struggle Bug"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Thunder Fang",
+          "Fire Fang",
+          "Venoshock",
+          "Round",
+          "Mystical Fire",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Fire Blast",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Heat Wave",
+          "Overheat",
+          "Flare Blitz",
+          "X-Scissor",
+          "Bug Buzz",
+          "Power Whip",
+          "Scald",
+          "Heat Crash"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlashFire",
+          "WhiteSmoke"
+        ],
+        "hiddenAbilities": [
+          "FlameBody"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 115,
+        "defense": 65,
+        "specialAttack": 90,
+        "specialDefense": 90,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 184,
+        "baseFriendship": 50,
+        "spawnLevel": 28,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/851_centiskorch/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/851_centiskorch/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/851_centiskorch/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.centiskorch"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/851_centiskorch/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/851_centiskorch/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "ashen",
+              "texture": "pixelmon:pokemon/851_centiskorch/all/base/ashen/texture.png",
+              "sprite": "pixelmon:pokemon/851_centiskorch/all/base/ashen/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "FIRE",
+        "BUG"
+      ],
+      "preEvolutions": [
+        "Sizzlipede"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Centiferno"
+      },
+      "eggCycles": 21,
+      "weight": 120.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/851_centiskorch/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/851_centiskorch/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/851_centiskorch/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/851_centiskorch/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/851_centiskorch/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "ashen",
+              "texture": "pixelmon:pokemon/851_centiskorch/all/gmax/ashen/texture.png",
+              "sprite": "pixelmon:pokemon/851_centiskorch/all/gmax/ashen/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

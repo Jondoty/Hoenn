@@ -1,0 +1,369 @@
+{
+  "name": "Pachirisu",
+  "dex": 417,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bide",
+              "Growl"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Nuzzle"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Last Resort"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Hyper Fang"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Electroweb",
+          "Gunk Shot",
+          "Helping Hand",
+          "Iron Tail",
+          "Laser Focus",
+          "Last Resort",
+          "Magnet Rise",
+          "Seed Bomb",
+          "Shock Wave",
+          "Snore",
+          "Super Fang",
+          "Thunder Punch",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Baby-Doll Eyes",
+          "Bestow",
+          "Bite",
+          "Charge",
+          "Covet",
+          "Defense Curl",
+          "Fake Tears",
+          "Flail",
+          "Flatter",
+          "Follow Me",
+          "Ion Deluge",
+          "Iron Tail",
+          "Rollout",
+          "Tail Whip"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Cut",
+          "Dig",
+          "Flash",
+          "Headbutt",
+          "Mud-Slap",
+          "Natural Gift",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Flash",
+          "Thunder Wave",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "Pickup"
+        ],
+        "hiddenAbilities": [
+          "VoltAbsorb"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 70,
+        "specialAttack": 45,
+        "specialDefense": 90,
+        "speed": 95
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 120,
+        "baseFriendship": 100,
+        "spawnLevel": 5,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/417_pachirisu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/417_pachirisu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/417_pachirisu/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.pachirisu",
+                "pixelmon.mob.pachirisu",
+                "pixelmon.mob.pachirisu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/417_pachirisu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/417_pachirisu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "FAIRY"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 3.9,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 4
+}

@@ -1,0 +1,433 @@
+{
+  "name": "Bisharp",
+  "dex": 625,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fury Cutter",
+              "Leer",
+              "Metal Burst",
+              "Metal Claw",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 71,
+            "attacks": [
+              "Guillotine"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Headbutt",
+          "Mean Look",
+          "Quick Guard",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Beat Up",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Snarl",
+          "False Swipe",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Low Kick",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Iron Defense",
+          "Poison Jab",
+          "Dark Pulse",
+          "X-Scissor",
+          "Focus Blast",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Foul Play",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dual Chop",
+          "Embargo",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Knock Off",
+          "Magnet Rise",
+          "Power-Up Punch",
+          "Pursuit",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Thunder Wave",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Thunder Wave",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Thunder Wave",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Defiant",
+          "InnerFocus"
+        ],
+        "hiddenAbilities": [
+          "Pressure"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.45,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.45,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 125,
+        "defense": 100,
+        "specialAttack": 60,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 35,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/625_bisharp/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/625_bisharp/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/625_bisharp/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bisharp",
+                "pixelmon.mob.bisharp",
+                "pixelmon.mob.bisharp"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/625_bisharp/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/625_bisharp/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "DARK",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Pawniard"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 70.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

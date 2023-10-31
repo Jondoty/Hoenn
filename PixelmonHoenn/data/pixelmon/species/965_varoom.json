@@ -1,0 +1,262 @@
+{
+  "name": "Varoom",
+  "dex": 965,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1.0,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Lick",
+              "Poison Gas"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Smog"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Sludge"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Spin Out"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Gunk Shot"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Haze",
+          "Parting Shot",
+          "Self-Destruct",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Acid Spray",
+          "Thief",
+          "Facade",
+          "Bulldoze",
+          "Venoshock",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Poison Jab",
+          "Taunt",
+          "Toxic Spikes",
+          "Flash Cannon",
+          "Iron Head",
+          "Gunk Shot",
+          "Substitute",
+          "Iron Defense",
+          "Sludge Bomb",
+          "Steel Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overcoat"
+        ],
+        "hiddenAbilities": [
+          "SlowStart"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 70,
+        "defense": 63,
+        "specialAttack": 30,
+        "specialDefense": 45,
+        "speed": 47
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 60,
+        "baseFriendship": 50,
+        "spawnLevel": 25,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/965_varoom/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/965_varoom/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.varoom"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/965_varoom/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/965_varoom/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL",
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 35.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 40,
+          "to": "Revavroom",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Shift Gear"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

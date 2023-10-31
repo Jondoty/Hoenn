@@ -1,0 +1,622 @@
+{
+  "name": "Sableye",
+  "dex": 302,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.85,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.85,
+        "hoverHeight": 0.85
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fake Out"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Quash"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Shadow Claw"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Foul Play"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Poltergeist"
+        ],
+        "eggMoves": [
+          "Feint",
+          "Flatter",
+          "Metal Burst",
+          "Recover",
+          "Sucker Punch",
+          "Torment"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Imprison",
+          "Rock Tomb",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Wonder Room",
+          "Low Sweep",
+          "Round",
+          "Hex",
+          "Retaliate",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Low Kick",
+          "Psychic",
+          "Metronome",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Taunt",
+          "Trick",
+          "Calm Mind",
+          "Gyro Ball",
+          "Poison Jab",
+          "Dark Pulse",
+          "Power Gem",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Foul Play",
+          "Ally Switch",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Cut",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Dynamic Punch",
+          "Embargo",
+          "Feint Attack",
+          "Flash",
+          "Focus Punch",
+          "Foresight",
+          "Frustration",
+          "Fury Cutter",
+          "Gravity",
+          "Headbutt",
+          "Hidden Power",
+          "Hone Claws",
+          "Incinerate",
+          "Magic Coat",
+          "Mimic",
+          "Moonlight",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Octazooka",
+          "Ominous Wind",
+          "Pain Split",
+          "Power-Up Punch",
+          "Psych Up",
+          "Punishment",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Seismic Toss",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Telekinesis",
+          "Tickle",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Fling",
+          "Quash",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Psych Up",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Quash",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Flash",
+          "Psych Up",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Flash",
+          "Psych Up",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch",
+          "Fling",
+          "Endure",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "Stall"
+        ],
+        "hiddenAbilities": [
+          "Prankster"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 75,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 98,
+        "baseFriendship": 35,
+        "spawnLevel": 10,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/302_sableye/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/302_sableye/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sableye"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/302_sableye/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "zombie",
+              "texture": "pixelmon:pokemon/302_sableye/all/base/zombie/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/base/zombie/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/302_sableye/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/base/drowned/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "DARK",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:sablenite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 11.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "defense": 1
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "abilities": {
+        "abilities": [
+          "MagicBounce"
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 125,
+        "specialAttack": 85,
+        "specialDefense": 115,
+        "speed": 20
+      },
+      "weight": 161.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/302_sableye/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/302_sableye/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/302_sableye/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "zombie",
+              "texture": "pixelmon:pokemon/302_sableye/all/mega/zombie/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/mega/zombie/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/302_sableye/all/mega/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/302_sableye/all/mega/drowned/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

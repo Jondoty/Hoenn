@@ -1,0 +1,333 @@
+{
+  "name": "Slurpuff",
+  "dex": 685,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fairy Wind",
+              "Play Nice",
+              "Sweet Scent",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "String Shot"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Wish"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sticky Web"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Misty Explosion"
+        ],
+        "eggMoves": [
+          "After You",
+          "Copycat",
+          "Sticky Web",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Fake Tears",
+          "Drain Punch",
+          "Round",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Metronome",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Calm Mind",
+          "Energy Ball",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Belly Drum",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Gastro Acid",
+          "Heal Bell",
+          "Hidden Power",
+          "Magic Coat",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SweetVeil"
+        ],
+        "hiddenAbilities": [
+          "Unburden"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 82,
+        "attack": 80,
+        "defense": 86,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 72
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 0,
+        "spawnLevel": 36,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/685_slurpuff/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/685_slurpuff/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/685_slurpuff/all/base/none/model.pqc"
+                ],
+                "yRotation": 34
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/685_slurpuff/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/685_slurpuff/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Swirlix"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.0,
+      "catchRate": 140,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 6
+}

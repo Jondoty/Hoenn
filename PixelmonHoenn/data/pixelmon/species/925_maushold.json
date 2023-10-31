@@ -1,0 +1,298 @@
+{
+  "name": "Maushold",
+  "dex": 925,
+  "defaultForms": [
+    "family_four"
+  ],
+  "forms": [
+    {
+      "name": "family_four",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baby-Doll Eyes",
+              "Follow Me",
+              "Pound",
+              "Tidy Up"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Beat Up"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Copycat"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Population Bomb"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "After You",
+          "Baton Pass",
+          "Bite",
+          "Feint",
+          "Switcheroo",
+          "Tickle"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Thief",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Mud Shot",
+          "Low Sweep",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Bullet Seed",
+          "U-turn",
+          "Shadow Claw",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Substitute",
+          "Crunch",
+          "Hyper Voice",
+          "Encore",
+          "Play Rough",
+          "Helping Hand",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FriendGuard",
+          "CheekPouch"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 74,
+        "attack": 75,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 75,
+        "speed": 111
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 50,
+        "spawnLevel": 25,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/925_maushold/all/family_four/none/texture.png",
+              "sprite": "pixelmon:pokemon/925_maushold/all/family_four/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/925_maushold/all/family_four/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/925_maushold/all/family_four/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "FAIRY"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Tandemaus"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 10,
+      "weight": 2.8,
+      "catchRate": 75,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "family_three",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/925_maushold/all/family_three/none/texture.png",
+              "sprite": "pixelmon:pokemon/925_maushold/all/family_three/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/925_maushold/all/family_three/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/925_maushold/all/family_three/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "weight": 2.3
+    }
+  ],
+  "generation": 9
+}

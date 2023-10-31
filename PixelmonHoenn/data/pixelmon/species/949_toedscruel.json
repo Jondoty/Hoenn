@@ -1,0 +1,273 @@
+{
+  "name": "Toedscruel",
+  "dex": 949,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.1,
+        "length": 1.0,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Reflect Type",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Poison Powder",
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Spore"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Earth Power"
+            ]
+          }, 
+          {
+            "level": 58,
+            "attacks": [
+              "Power Whip"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Acupressure",
+          "Knock Off",
+          "Leech Seed",
+          "Mirror Coat",
+          "Rage Powder",
+          "Rapid Spin",
+          "Tickle",
+          "Toxic"
+        ],
+        "tmMoves9": [
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Acid Spray",
+          "Confuse Ray",
+          "Trailblaze",
+          "Hex",
+          "Swift",
+          "Magical Leaf",
+          "Mud Shot",
+          "Venoshock",
+          "Endure",
+          "Rain Dance",
+          "Bullet Seed",
+          "Foul Play",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Rest",
+          "Taunt",
+          "Spikes",
+          "Toxic Spikes",
+          "Flash Cannon",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Earth Power",
+          "Grassy Terrain",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Leaf Storm",
+          "Trick Room",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MyceliumMight"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 120,
+        "speed": 100
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 180,
+        "baseFriendship": 50,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/949_toedscruel/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/949_toedscruel/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/949_toedscruel/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.toedscruel"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/949_toedscruel/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/949_toedscruel/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GROUND",
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Toedscool"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 58.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 9
+}

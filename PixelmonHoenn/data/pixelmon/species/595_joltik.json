@@ -1,0 +1,370 @@
+{
+  "name": "Joltik",
+  "dex": 595,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.2,
+        "length": 1,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Electroweb"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "String Shot"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Double Team",
+          "Infestation",
+          "Lunge",
+          "Poison Sting",
+          "Struggle Bug"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Bounce",
+          "Speed Swap",
+          "Cross Poison",
+          "Round",
+          "Volt Switch",
+          "Electroweb"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Agility",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Poison Jab",
+          "X-Scissor",
+          "Bug Buzz",
+          "Energy Ball",
+          "Electro Ball",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Camouflage",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Disable",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Magnet Rise",
+          "Pursuit",
+          "Return",
+          "Rock Climb",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Spider Web",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Volt Switch",
+          "Thunder Wave",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CompoundEyes",
+          "Unnerve"
+        ],
+        "hiddenAbilities": [
+          "Swarm"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 47,
+        "defense": 50,
+        "specialAttack": 57,
+        "specialDefense": 50,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/595_joltik/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/595_joltik/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/595_joltik/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.joltik",
+                "pixelmon.mob.joltik",
+                "pixelmon.mob.joltik"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/595_joltik/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/595_joltik/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.6,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Galvantula",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Sticky Web"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,371 @@
+{
+  "name": "Inkay",
+  "dex": 686,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Peck",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Wrap"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Topsy-Turvy"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Acupressure",
+          "Destiny Bond",
+          "Disable"
+        ],
+        "tmMoves8": [
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Fake Tears",
+          "Payback",
+          "Fling",
+          "Guard Swap",
+          "Psycho Cut",
+          "Trick Room",
+          "Round",
+          "Retaliate"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Future Sight",
+          "Taunt",
+          "Superpower",
+          "Calm Mind",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bind",
+          "Camouflage",
+          "Confide",
+          "Constrict",
+          "Cut",
+          "Double Team",
+          "Embargo",
+          "Flash",
+          "Flatter",
+          "Frustration",
+          "Happy Hour",
+          "Hidden Power",
+          "Knock Off",
+          "Power Split",
+          "Psych Up",
+          "Psywave",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Simple Beam",
+          "Snatch",
+          "Spite",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SuctionCups",
+          "Contrary"
+        ],
+        "hiddenAbilities": [
+          "Infiltrator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 53,
+        "attack": 54,
+        "defense": 53,
+        "specialAttack": 37,
+        "specialDefense": 46,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 58,
+        "baseFriendship": 0,
+        "spawnLevel": 18,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/686_inkay/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/686_inkay/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/686_inkay/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/686_inkay/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/686_inkay/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_TWO"
+      ],
+      "types": [
+        "DARK",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 3.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Malamar",
+          "conditions": [
+            {
+              "minAltitude": 127.0,
+              "evoConditionType": "highAltitude"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 6
+}

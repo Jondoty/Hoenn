@@ -1,0 +1,279 @@
+{
+  "name": "IronValiant",
+  "dex": 1006,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Disable",
+              "Double Team",
+              "Electric Terrain",
+              "Fury Cutter",
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Future Sight"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Quick Guard",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Spirit Break"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Agility",
+          "Protect",
+          "Low Kick",
+          "Psybeam",
+          "Confuse Ray",
+          "Charge Beam",
+          "Aerial Ace",
+          "Hex",
+          "Swift",
+          "Magical Leaf",
+          "Icy Wind",
+          "Stored Power",
+          "Fling",
+          "Endure",
+          "Psyshock",
+          "False Swipe",
+          "Brick Break",
+          "Zen Headbutt",
+          "Shadow Claw",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Drain Punch",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Grass Knot",
+          "Thunder Wave",
+          "Poison Jab",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Imprison",
+          "Skill Swap",
+          "Substitute",
+          "X-Scissor",
+          "Trick",
+          "Liquidation",
+          "Aura Sphere",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Energy Ball",
+          "Psychic",
+          "Encore",
+          "Thunderbolt",
+          "Calm Mind",
+          "Helping Hand",
+          "Reversal",
+          "Electric Terrain",
+          "Psychic Terrain",
+          "Misty Terrain",
+          "Giga Impact",
+          "Focus Blast",
+          "Trick Room",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "QuarkDrive"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 74,
+        "attack": 130,
+        "defense": 90,
+        "specialAttack": 120,
+        "specialDefense": 60,
+        "speed": 116
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 295,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1006_ironvaliant/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1006_ironvaliant/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1006_ironvaliant/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1006_ironvaliant/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FAIRY",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 35.0,
+      "catchRate": 10,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

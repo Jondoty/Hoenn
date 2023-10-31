@@ -1,0 +1,324 @@
+{
+  "name": "Rockruff",
+  "dex": 744,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Last Resort",
+          "Thrash"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Facade",
+          "Rock Tomb",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Snarl",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Earth Power",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Crush Claw",
+          "Echoed Voice",
+          "Frustration",
+          "Happy Hour",
+          "Hidden Power",
+          "Odor Sleuth",
+          "Return",
+          "Rock Climb",
+          "Rock Polish",
+          "Sucker Punch",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Rock Polish",
+          "Stone Edge",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "VitalSpirit"
+        ],
+        "hiddenAbilities": [
+          "Steadfast"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 65,
+        "defense": 40,
+        "specialAttack": 30,
+        "specialDefense": 40,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 56,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/744_rockruff/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/744_rockruff/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/744_rockruff/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.rockruff",
+                "pixelmon.mob.rockruff"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/744_rockruff/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/744_rockruff/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 9.2,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Lycanroc form:midday",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Sucker Punch"
+          ]
+        },
+        {
+          "level": 25,
+          "to": "Lycanroc form:midnight",
+          "conditions": [
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Counter"
+          ]
+        },
+        {
+          "level": 25,
+          "to": "Lycanroc form:dusk",
+          "conditions": [
+            {
+              "time": "DUSK",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Crush Claw"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 7
+}

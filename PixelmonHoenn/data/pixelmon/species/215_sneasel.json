@@ -1,0 +1,748 @@
+{
+  "name": "Sneasel",
+  "dex": 215,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Beat Up"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Slash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Counter",
+          "Double Hit",
+          "Fake Out",
+          "Feint",
+          "Ice Shard",
+          "Icicle Crash",
+          "Spite"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Dig",
+          "Screech",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Beat Up",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Fake Tears",
+          "Payback",
+          "Fling",
+          "Avalanche",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Snarl",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Low Kick",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Taunt",
+          "Calm Mind",
+          "Poison Jab",
+          "Dark Pulse",
+          "X-Scissor",
+          "Foul Play",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Assist",
+          "Captivate",
+          "Confide",
+          "Crush Claw",
+          "Curse",
+          "Cut",
+          "Defense Curl",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Dynamic Punch",
+          "Embargo",
+          "Feint Attack",
+          "Focus Punch",
+          "Foresight",
+          "Frustration",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "Knock Off",
+          "Laser Focus",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Psych Up",
+          "Punishment",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Snatch",
+          "Strength",
+          "Swagger",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Swords Dance",
+          "Psych Up",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Psych Up",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Psych Up",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch",
+          "False Swipe",
+          "Fling",
+          "Endure",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Avalanche",
+          "Swords Dance",
+          "Psych Up",
+          "Captivate",
+          "Dark Pulse",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Psych Up",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Dream Eater",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fury Cutter",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "InnerFocus",
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "Pickpocket"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 55,
+        "specialAttack": 35,
+        "specialDefense": 75,
+        "speed": 115
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 132,
+        "baseFriendship": 35,
+        "spawnLevel": 5,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/215_sneasel/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/215_sneasel/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/215_sneasel/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/215_sneasel/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/215_sneasel/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/215_sneasel/all/base/strike/texture.png",
+              "sprite": "pixelmon:pokemon/215_sneasel/all/base/strike/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK",
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Weavile",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:razor_claw"
+              },
+              "evoConditionType": "heldItem"
+            },
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Bulk Up",
+          "Calm Mind",
+          "Drain Punch",
+          "False Swipe",
+          "Focus Energy",
+          "Iron Tail",
+          "Poison Jab",
+          "Rest",
+          "Rock Smash",
+          "Shadow Ball",
+          "Shadow Claw",
+          "Snarl",
+          "Swift",
+          "X-Scissor"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "InnerFocus",
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "Pickpocket"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 80,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 55,
+        "specialAttack": 35,
+        "specialDefense": 75,
+        "speed": 115
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 91,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/215_sneasel/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/215_sneasel/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/215_sneasel/all/hisuian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/215_sneasel/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/215_sneasel/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "POISON",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:razor_claw"
+          },
+          "to": "Sneasler",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "interact"
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

@@ -1,0 +1,340 @@
+{
+  "name": "Nihilego",
+  "dex": 793,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.4,
+        "width": 1.3,
+        "length": 1,
+        "eyeHeight": 2.4,
+        "hoverHeight": 2.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Pound",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Acid"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Tickle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Guard Split",
+              "Power Split"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Venom Drench"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Wonder Room"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Head Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Corrosive Gas",
+          "Meteor Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Sandstorm",
+          "Facade",
+          "Rock Tomb",
+          "Trick Room",
+          "Wonder Room",
+          "Cross Poison",
+          "Venoshock",
+          "Round",
+          "Hex",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Substitute",
+          "Sludge Bomb",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Power Gem",
+          "Zen Headbutt",
+          "Gunk Shot",
+          "Iron Head",
+          "Stealth Rock",
+          "Grass Knot",
+          "Sludge Wave",
+          "Foul Play",
+          "Ally Switch",
+          "Venom Drench",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bind",
+          "Charge Beam",
+          "Confide",
+          "Constrict",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Magic Coat",
+          "Pain Split",
+          "Psywave",
+          "Reflect",
+          "Return",
+          "Role Play",
+          "Spite",
+          "Swagger",
+          "Telekinesis",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Brutal Swing",
+          "Thunder Wave",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -2.3,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -6.6,
+            "z": 0.0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 2,
+          "swimSpeed": 4,
+          "decayRate": 0,
+          "refreshRate": 0
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 109,
+        "attack": 53,
+        "defense": 47,
+        "specialAttack": 127,
+        "specialDefense": 131,
+        "speed": 103
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/793_nihilego/all/base/none/texture.png",
+              "emissive": "pixelmon:pokemon/793_nihilego/all/base/none/emissive.png",
+              "sprite": "pixelmon:pokemon/793_nihilego/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/793_nihilego/all/base/none/model.pqc",
+                  "pixelmon:pokemon/793_nihilego/all/base/none/model2.pqc"
+                ],
+                "transparency2": 0.4
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/793_nihilego/all/base/shiny/texture.png",
+              "emissive": "pixelmon:pokemon/793_nihilego/all/base/shiny/emissive.png",
+              "sprite": "pixelmon:pokemon/793_nihilego/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ROCK",
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 55.5,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 3
+      }
+    }
+  ],
+  "generation": 7
+}

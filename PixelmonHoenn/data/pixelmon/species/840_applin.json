@@ -1,0 +1,173 @@
+{
+  "name": "Applin",
+  "dex": 840,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.34,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.34,
+        "hoverHeight": 0.34
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Withdraw"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Recycle",
+          "Rollout",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Attract"
+        ],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Ripen",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "Bulletproof"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 80,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 52,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/840_applin/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/840_applin/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/840_applin/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.applin"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/840_applin/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/840_applin/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:tart_apple"
+          },
+          "to": "Flapple",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Wing Attack"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sweet_apple"
+          },
+          "to": "Appletun",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Headbutt"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 8
+}

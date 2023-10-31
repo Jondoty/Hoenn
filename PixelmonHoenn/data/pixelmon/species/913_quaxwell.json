@@ -1,0 +1,251 @@
+{
+  "name": "Quaxwell",
+  "dex": 913,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.1,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Double Hit",
+              "Growl",
+              "Pound",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Low Sweep"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Aqua Cutter"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Feather Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Detect",
+          "Last Resort",
+          "Rapid Spin",
+          "Roost"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Acrobatics",
+          "Disarming Voice",
+          "Chilling Water",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Low Sweep",
+          "Air Cutter",
+          "Endure",
+          "Rain Dance",
+          "Air Slash",
+          "Rest",
+          "Liquidation",
+          "Encore",
+          "Surf",
+          "Helping Hand",
+          "Baton Pass",
+          "Misty Terrain",
+          "Hydro Pump",
+          "Water Pledge",
+          "Brave Bird",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "Moxie"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 65,
+        "specialAttack": 65,
+        "specialDefense": 60,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 144,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/913_quaxwell/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/913_quaxwell/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/913_quaxwell/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.quaxwell"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/913_quaxwell/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/913_quaxwell/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING",
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Quaxly"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 21.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Quaquaval",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Aqua Step"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

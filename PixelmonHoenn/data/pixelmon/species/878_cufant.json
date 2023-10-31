@@ -1,0 +1,268 @@
+{
+  "name": "Cufant",
+  "dex": 878,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Strength"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "High Horsepower"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Belch",
+          "Curse",
+          "Defense Curl",
+          "Double-Edge",
+          "Fissure",
+          "Slam",
+          "Swagger",
+          "Whirlwind"
+        ],
+        "tmMoves8": [
+          "Mega Kick",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Mud Shot",
+          "Rock Blast",
+          "Fling",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "Earth Power",
+          "Zen Headbutt",
+          "Power Whip",
+          "Iron Head",
+          "Stealth Rock",
+          "Work Up",
+          "Play Rough",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SheerForce"
+        ],
+        "hiddenAbilities": [
+          "HeavyMetal"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 80,
+        "defense": 49,
+        "specialAttack": 40,
+        "specialDefense": 49,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 50,
+        "spawnLevel": 26,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/878_cufant/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/878_cufant/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/878_cufant/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/878_cufant/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/878_cufant/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 100.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Copperajah",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

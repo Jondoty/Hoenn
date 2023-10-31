@@ -1,0 +1,478 @@
+{
+  "name": "Fearow",
+  "dex": 22,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Drill Run",
+              "Growl",
+              "Leer",
+              "Peck",
+              "Pluck",
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Mirror Move"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Drill Run"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Defog",
+          "Drill Run",
+          "Heat Wave",
+          "Laser Focus",
+          "Sky Attack",
+          "Snore",
+          "Tailwind",
+          "Throat Chop",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Feather Dance",
+          "Feint Attack",
+          "Quick Attack",
+          "Razor Wind",
+          "Scary Face",
+          "Sky Attack",
+          "Steel Wing",
+          "Tri Attack",
+          "Uproar",
+          "Whirlwind"
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Air Cutter",
+          "Baton Pass",
+          "Bide",
+          "Captivate",
+          "Curse",
+          "Detect",
+          "Double-Edge",
+          "Endure",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Rage",
+          "Secret Power",
+          "Swift",
+          "Take Down",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "False Swipe",
+          "Giga Impact",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "False Swipe",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "False Swipe",
+          "Giga Impact",
+          "Work Up",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Giga Impact",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves1": [
+          "Razor Wind",
+          "Whirlwind",
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Swift",
+          "Sky Attack",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "Sniper"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.87,
+            "z": 0.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 35,
+          "lower_angle_limit": -35,
+          "max_fly_speed": 1.7,
+          "deceleration_rate": 0.15,
+          "hover_deceleration_rate": 0.08,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.8,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.9,
+          "pitch_rate": 0.9,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 60,
+        "passive": 0,
+        "aggressive": 40
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 65,
+        "specialAttack": 61,
+        "specialDefense": 61,
+        "speed": 100
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 162,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/022_fearow/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/022_fearow/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/022_fearow/all/base/none/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.03
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/022_fearow/all/base/none/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.03
+              },
+              "sounds": [
+                "pixelmon.mob.fearow"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/022_fearow/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/022_fearow/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Spearow"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 38.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 1
+}

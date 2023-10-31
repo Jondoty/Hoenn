@@ -1,0 +1,160 @@
+{
+  "name": "Beldum",
+  "dex": 374,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [
+          "Iron Defense",
+          "Zen Headbutt",
+          "Iron Head"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Headbutt",
+          "Hold Back",
+          "Take Down"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ClearBody"
+        ],
+        "hiddenAbilities": [
+          "LightMetal"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 80,
+        "specialAttack": 35,
+        "specialDefense": 60,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 103,
+        "baseFriendship": 35,
+        "spawnLevel": 5,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/374_beldum/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/374_beldum/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/374_beldum/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03,
+                "rotateAngleX": 0
+              },
+              "sounds": [
+				"pixelmon.mob.beldum"
+			  ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/374_beldum/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/374_beldum/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 95.2,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Metang",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Metal Claw",
+            "Confusion"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

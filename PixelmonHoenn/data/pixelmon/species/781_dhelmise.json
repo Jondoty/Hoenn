@@ -1,0 +1,376 @@
+{
+  "name": "Dhelmise",
+  "dex": 781,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Wrap"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Anchor Shot"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Power Whip"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Poltergeist",
+          "Steel Roller"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Solar Blade",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Rain Dance",
+          "Sunny Day",
+          "Whirlpool",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Brine",
+          "Payback",
+          "Assurance",
+          "Shadow Claw",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Phantom Force",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Hydro Pump",
+          "Surf",
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Muddy Water",
+          "Iron Defense",
+          "Gyro Ball",
+          "Energy Ball",
+          "Flash Cannon",
+          "Power Whip",
+          "Iron Head",
+          "Grass Knot",
+          "Sludge Wave",
+          "Heavy Slam",
+          "Ally Switch",
+          "Liquidation",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Attract",
+          "Block",
+          "Confide",
+          "Double Team",
+          "Embargo",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Pain Split",
+          "Return",
+          "Role Play",
+          "Spite",
+          "Swagger",
+          "Synthesis",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Brutal Swing",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Steelworker"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 5,
+          "depthRangeEnd": 25,
+          "swimSpeed": 10,
+          "decayRate": 0.7,
+          "refreshRate": 200,
+          "chanceToStopOnBlock": 0.2,
+          "blocksToStopOn": [
+            "minecraft:OAK_PLANKS",
+            "minecraft:OAK_SLAB",
+            "minecraft:OAK_STAIRS",
+            "minecraft:OAK_FENCE",
+            "minecraft:OAK_TRAPDOOR",
+            "minecraft:SPRUCE_LOG",
+            "minecraft:SPRUCE_PLANKS",
+            "minecraft:SPRUCE_SLAB",
+            "minecraft:SPRUCE_STAIRS",
+            "minecraft:SPRUCE_FENCE",
+            "minecraft:SPRUCE_TRAPDOOR",
+            "minecraft:JUNGLE_PLANKS",
+            "minecraft:JUNGLE_SLAB",
+            "minecraft:JUNGLE_STAIRS",
+            "minecraft:JUNGLE_FENCE",
+            "minecraft:JUNGLE_TRAPDOOR",
+            "minecraft:DARK_OAK_LOG",
+            "minecraft:DARK_OAK_PLANKS",
+            "minecraft:DARK_OAK_SLAB",
+            "minecraft:DARK_OAK_STAIRS",
+            "minecraft:DARK_OAK_FENCE",
+            "minecraft:DARK_OAK_TRAPDOOR",
+            "minecraft:KELP_PLANT",
+            "minecraft:TALL_SEAGRASS"
+          ],
+          "minStopTime": 15,
+          "maxStopTime": 20,
+          "minStopCooldownTime": 30,
+          "maxStopCooldownTime": 80
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 131,
+        "defense": 100,
+        "specialAttack": 86,
+        "specialDefense": 90,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 181,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/781_dhelmise/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/781_dhelmise/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/781_dhelmise/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/781_dhelmise/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/781_dhelmise/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 25,
+      "weight": 210.0,
+      "catchRate": 25,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

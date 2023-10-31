@@ -1,0 +1,292 @@
+{
+  "name": "Sewaddle",
+  "dex": 540,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "String Shot",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Flail"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Electroweb",
+          "Giga Drain",
+          "Iron Defense",
+          "Magic Coat",
+          "Seed Bomb",
+          "Signal Beam",
+          "Snore",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Agility",
+          "Air Slash",
+          "Baton Pass",
+          "Camouflage",
+          "Grassy Terrain",
+          "Me First",
+          "Mind Reader",
+          "Razor Wind",
+          "Screech",
+          "Silver Wind"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Flash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Flash",
+          "Struggle Bug",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Flash",
+          "Struggle Bug",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "Chlorophyll"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 53,
+        "defense": 70,
+        "specialAttack": 40,
+        "specialDefense": 60,
+        "speed": 42
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/540_sewaddle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/540_sewaddle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/540_sewaddle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/540_sewaddle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/540_sewaddle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 2.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Swadloon",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Protect"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

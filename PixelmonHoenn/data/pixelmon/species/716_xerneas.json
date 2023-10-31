@@ -1,0 +1,435 @@
+{
+  "name": "Xerneas",
+  "dex": 716,
+  "defaultForms": [
+    "neutral"
+  ],
+  "forms": [
+    {
+      "name": "neutral",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.0,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 3.0,
+        "hoverHeight": 3.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Gravity",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Aurora Beam"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Nature Power"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Horn Leech"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Geomancy"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 85,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Misty Explosion",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Wonder Room",
+          "Round",
+          "Draining Kiss",
+          "Misty Terrain",
+          "Smart Strike"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Substitute",
+          "Outrage",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Hyper Voice",
+          "Calm Mind",
+          "Close Combat",
+          "Focus Blast",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Grass Knot",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Confide",
+          "Cut",
+          "Defog",
+          "Double Team",
+          "Echoed Voice",
+          "Endeavor",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Return",
+          "Roar",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FairyAura"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.75,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.9,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 126,
+        "attack": 131,
+        "defense": 95,
+        "specialAttack": 131,
+        "specialDefense": 98,
+        "speed": 99
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 306,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/716_xerneas/all/neutral/none/texture.png",
+              "sprite": "pixelmon:pokemon/716_xerneas/all/neutral/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/716_xerneas/all/neutral/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/716_xerneas/all/neutral/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/716_xerneas/all/neutral/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "creator",
+              "texture": "pixelmon:pokemon/716_xerneas/all/neutral/creator/texture.png",
+              "sprite": "pixelmon:pokemon/716_xerneas/all/neutral/creator/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/716_xerneas/all/neutral/creator/model.pqc"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 215.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    },
+    {
+      "name": "active",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/716_xerneas/all/active/none/texture.png",
+              "sprite": "pixelmon:pokemon/716_xerneas/all/active/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/716_xerneas/all/active/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/716_xerneas/all/active/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/716_xerneas/all/active/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "creator",
+              "texture": "pixelmon:pokemon/716_xerneas/all/active/creator/texture.png",
+              "sprite": "pixelmon:pokemon/716_xerneas/all/active/creator/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/716_xerneas/all/active/creator/model.pqc"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 6
+}

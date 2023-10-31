@@ -1,0 +1,344 @@
+{
+  "name": "Oranguru",
+  "dex": 765,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Taunt"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Stored Power"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Quash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Trick Room"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Instruct"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Future Sight"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [
+          "Dream Eater",
+          "Extrasensory",
+          "Last Resort",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Brick Break",
+          "Imprison",
+          "Payback",
+          "Fling",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Bulldoze",
+          "Psychic Terrain",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Taunt",
+          "Trick",
+          "Calm Mind",
+          "Focus Blast",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Embargo",
+          "Feint Attack",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Knock Off",
+          "Magic Coat",
+          "Nature Power",
+          "Pain Split",
+          "Return",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Quash",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "InnerFocus",
+          "Telepathy"
+        ],
+        "hiddenAbilities": [
+          "Symbiosis"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.05
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.05
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 80,
+        "specialAttack": 90,
+        "specialDefense": 110,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 35,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/765_oranguru/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/765_oranguru/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/765_oranguru/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.oranguru"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/765_oranguru/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/765_oranguru/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 76.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

@@ -1,0 +1,363 @@
+{
+  "name": "Bergmite",
+  "dex": 712,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Avalanche"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aurora Veil",
+          "Mirror Coat",
+          "Mist"
+        ],
+        "tmMoves8": [
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Avalanche",
+          "Ice Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Iron Defense",
+          "Gyro Ball",
+          "Flash Cannon",
+          "Stone Edge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Barrier",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Frost Breath",
+          "Frustration",
+          "Hidden Power",
+          "Ice Ball",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Sharpen",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "OwnTempo",
+          "IceBody"
+        ],
+        "hiddenAbilities": [
+          "Sturdy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 69,
+        "defense": 85,
+        "specialAttack": 32,
+        "specialDefense": 35,
+        "speed": 28
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 0,
+        "spawnLevel": 23,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/712_bergmite/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/712_bergmite/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/712_bergmite/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bergmite",
+                "pixelmon.mob.bergmite",
+                "pixelmon.mob.bergmite"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/712_bergmite/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/712_bergmite/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "MINERAL"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 99.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Avalugg",
+          "conditions": [
+            {
+              "biomes": [
+                "minecraft:ice_spikes"
+              ],
+              "evoConditionType": "biome"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Body Slam"
+          ]
+        },
+        {
+          "level": 37,
+          "to": "Avalugg form:hisuian",
+          "conditions": [
+            {
+              "biomes": [
+                "minecraft:snowy_taiga_hills"
+              ],
+              "evoConditionType": "biome"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 6
+}

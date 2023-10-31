@@ -1,0 +1,227 @@
+{
+  "name": "Eldegoss",
+  "dex": 830,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Cotton Spore",
+              "Leafage",
+              "Rapid Spin",
+              "Sing",
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Leaf Tornado"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Growth",
+          "Leech Seed",
+          "Poison Powder",
+          "Sleep Powder",
+          "Stun Spore",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Weather Ball",
+          "Bullet Seed",
+          "Round",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Hyper Voice",
+          "Seed Bomb",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CottonDown",
+          "Regenerator"
+        ],
+        "hiddenAbilities": [
+          "EffectSpore"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 90,
+        "specialAttack": 80,
+        "specialDefense": 120,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/830_eldegoss/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/830_eldegoss/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/830_eldegoss/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/830_eldegoss/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/830_eldegoss/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Gossifleur"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 2.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

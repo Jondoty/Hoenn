@@ -1,0 +1,296 @@
+{
+  "name": "Simipour",
+  "dex": 516,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fury Swipes",
+              "Leer",
+              "Lick",
+              "Scald"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Covet",
+          "Endeavor",
+          "Focus Punch",
+          "Gastro Acid",
+          "Gunk Shot",
+          "Helping Hand",
+          "Ice Punch",
+          "Icy Wind",
+          "Iron Tail",
+          "Knock Off",
+          "Low Kick",
+          "Recycle",
+          "Role Play",
+          "Snore",
+          "Superpower",
+          "Throat Chop",
+          "Uproar",
+          "Water Pledge",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Aqua Tail",
+          "Astonish",
+          "Covet",
+          "Disarming Voice",
+          "Hydro Pump",
+          "Low Kick",
+          "Mud Sport",
+          "Nasty Plot",
+          "Role Play",
+          "Tickle"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Dive",
+          "Hone Claws",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Slide",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "Torrent"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 98,
+        "defense": 63,
+        "specialAttack": 98,
+        "specialDefense": 63,
+        "speed": 101
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 174,
+        "baseFriendship": 70,
+        "spawnLevel": 27,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/516_simipour/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/516_simipour/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/516_simipour/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.simipour"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/516_simipour/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/516_simipour/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Panpour"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 29.0,
+      "catchRate": 75,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

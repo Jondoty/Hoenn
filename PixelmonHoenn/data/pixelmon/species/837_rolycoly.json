@@ -1,0 +1,229 @@
+{
+  "name": "Rolycoly",
+  "dex": 837,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Smokescreen",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Heat Crash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rock Blast"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Block",
+          "Explosion",
+          "Mud-Slap"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Reflect",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Will-O-Wisp",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Round"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Gyro Ball",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heat Crash"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SteamEngine",
+          "Heatproof"
+        ],
+        "hiddenAbilities": [
+          "FlashFire"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 40,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 48,
+        "baseFriendship": 50,
+        "spawnLevel": 12,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/837_rolycoly/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/837_rolycoly/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/837_rolycoly/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.rolycoly"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/837_rolycoly/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/837_rolycoly/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 12.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 18,
+          "to": "Carkol",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Flame Charge"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,281 @@
+{
+  "name": "Crabominable",
+  "dex": 740,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.7,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bubble",
+              "Ice Punch",
+              "Leer",
+              "Pursuit",
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Power-Up Punch"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Dizzy Punch"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Avalanche"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Ice Hammer"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Block",
+          "Drain Punch",
+          "Dual Chop",
+          "Endeavor",
+          "Focus Punch",
+          "Ice Punch",
+          "Icy Wind",
+          "Iron Defense",
+          "Iron Head",
+          "Snore",
+          "Superpower",
+          "Thunder Punch",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Amnesia",
+          "Endeavor",
+          "Superpower",
+          "Wide Guard"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Brutal Swing",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HyperCutter",
+          "IronFist"
+        ],
+        "hiddenAbilities": [
+          "AngerPoint"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -1.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -1.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 132,
+        "defense": 77,
+        "specialAttack": 62,
+        "specialDefense": 67,
+        "speed": 43
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 167,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 40,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/740_crabominable/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/740_crabominable/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/740_crabominable/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.crabominable"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/740_crabominable/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/740_crabominable/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "FIGHTING",
+        "ICE"
+      ],
+      "preEvolutions": [
+        "Crabrawler"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 180.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

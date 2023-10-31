@@ -1,0 +1,505 @@
+{
+  "name": "Zangoose",
+  "dex": 335,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Revenge"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Crush Claw"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "False Swipe"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Embargo"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Fire Punch",
+          "Focus Punch",
+          "Giga Drain",
+          "Ice Punch",
+          "Icy Wind",
+          "Iron Tail",
+          "Knock Off",
+          "Last Resort",
+          "Low Kick",
+          "Shock Wave",
+          "Snore",
+          "Throat Chop",
+          "Thunder Punch",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Belly Drum",
+          "Counter",
+          "Curse",
+          "Disable",
+          "Double Hit",
+          "Double Kick",
+          "Feint",
+          "Final Gambit",
+          "Flail",
+          "Fury Swipes",
+          "Iron Tail",
+          "Metal Claw",
+          "Night Slash",
+          "Quick Guard",
+          "Razor Wind"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Defense Curl",
+          "Dig",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Endure",
+          "Headbutt",
+          "Incinerate",
+          "Mega Kick",
+          "Mega Punch",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Refresh",
+          "Retaliate",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Thunder Wave"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Endure",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Immunity"
+        ],
+        "hiddenAbilities": [
+          "ToxicBoost"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 73,
+        "attack": 115,
+        "defense": 60,
+        "specialAttack": 60,
+        "specialDefense": 60,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 60,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/335_zangoose/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/335_zangoose/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/335_zangoose/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.zangoose"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/335_zangoose/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/335_zangoose/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 40.3,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,231 @@
+{
+  "name": "Greedent",
+  "dex": 820,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Covet",
+              "Stuff Cheeks",
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Spit Up",
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Belch"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Belly Drum",
+          "Defense Curl",
+          "Last Resort",
+          "Rollout"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Bullet Seed",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Thunder Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Round",
+          "Tail Slap",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Earthquake",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Superpower",
+          "Hyper Voice",
+          "Gyro Ball",
+          "Seed Bomb",
+          "Wild Charge",
+          "Psychic Fangs",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CheekPouch"
+        ],
+        "hiddenAbilities": [
+          "Gluttony"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 120,
+        "attack": 95,
+        "defense": 95,
+        "specialAttack": 55,
+        "specialDefense": 75,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 50,
+        "spawnLevel": 24,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/820_greedent/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/820_greedent/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/820_greedent/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.greedent"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/820_greedent/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/820_greedent/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Skwovet"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 6.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 8
+}

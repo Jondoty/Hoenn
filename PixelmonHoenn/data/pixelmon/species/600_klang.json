@@ -1,0 +1,323 @@
+{
+  "name": "Klang",
+  "dex": 600,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bind",
+              "Charge",
+              "Thunder Shock",
+              "Vise Grip"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Charge Beam"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Autotomize"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Gear Grind"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Lock-On"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Shift Gear"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Thunder Wave",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Sandstorm",
+          "Facade",
+          "Assurance",
+          "Round",
+          "Volt Switch"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Iron Defense",
+          "Power Gem",
+          "Flash Cannon",
+          "Ally Switch",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Magic Coat",
+          "Magnet Rise",
+          "Mirror Shot",
+          "Recycle",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Rock Polish",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Rock Polish",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Rock Polish",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Plus",
+          "Minus"
+        ],
+        "hiddenAbilities": [
+          "ClearBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 95,
+        "specialAttack": 70,
+        "specialDefense": 85,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 154,
+        "baseFriendship": 70,
+        "spawnLevel": 38,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/600_klang/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/600_klang/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/600_klang/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/600_klang/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/600_klang/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Klink"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 51.0,
+      "catchRate": 60,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "level": 49,
+          "to": "Klinklang",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 5
+}

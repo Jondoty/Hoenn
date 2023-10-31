@@ -1,0 +1,540 @@
+{
+  "name": "Skarmory",
+  "dex": 227,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Peck"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Steel Wing"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Autotomize"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Air Cutter",
+          "Curse",
+          "Feint",
+          "Night Slash",
+          "Roost",
+          "Sky Attack",
+          "Whirlwind"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Steel Wing",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Payback",
+          "Assurance",
+          "Guard Swap",
+          "Round",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Iron Defense",
+          "Dark Pulse",
+          "X-Scissor",
+          "Brave Bird",
+          "Flash Cannon",
+          "Iron Head",
+          "Stealth Rock",
+          "Body Press"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Cut",
+          "Defog",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Flash",
+          "Frustration",
+          "Fury Cutter",
+          "Hidden Power",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Pluck",
+          "Pursuit",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Sky Drop",
+          "Swagger",
+          "Tailwind",
+          "Torment",
+          "Toxic",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Sky Drop",
+          "Payback",
+          "Swords Dance",
+          "Fly",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Sky Drop",
+          "Payback",
+          "Flash",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Sky Drop",
+          "Payback",
+          "Flash",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Pluck",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Payback",
+          "Flash",
+          "Swords Dance",
+          "Stealth Rock",
+          "Captivate",
+          "Dark Pulse",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "WeakArmor"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.65,
+            "z": -0.2
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 10,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 10,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 140,
+        "specialAttack": 40,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/227_skarmory/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/227_skarmory/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.skarmory",
+                "pixelmon.mob.skarmory"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/227_skarmory/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/227_skarmory/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "rainbow",
+              "texture": "pixelmon:pokemon/227_skarmory/all/base/rainbow/texture.png",
+              "sprite": "pixelmon:pokemon/227_skarmory/all/base/rainbow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "STEEL",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 50.5,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 2
+}

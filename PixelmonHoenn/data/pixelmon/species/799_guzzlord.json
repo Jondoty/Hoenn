@@ -1,0 +1,337 @@
+{
+  "name": "Guzzlord",
+  "dex": 799,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.4,
+        "width": 5.0,
+        "length": 1,
+        "eyeHeight": 3.4,
+        "hoverHeight": 3.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Corrosive Gas",
+          "Draco Meteor",
+          "Lash Out",
+          "Steel Roller"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Snarl",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Earthquake",
+          "Fire Blast",
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Heat Wave",
+          "Iron Defense",
+          "Dragon Claw",
+          "Gyro Ball",
+          "Poison Jab",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Iron Head",
+          "Stone Edge",
+          "Sludge Wave",
+          "Heavy Slam",
+          "Heat Crash",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Double Team",
+          "Dragon Rage",
+          "Dual Chop",
+          "Frustration",
+          "Hidden Power",
+          "Last Resort",
+          "Magnet Rise",
+          "Return",
+          "Shock Wave",
+          "Smack Down",
+          "Steamroller",
+          "Toxic",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Fling",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Poison Jab",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.5,
+            "z": 0.5
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 223,
+        "attack": 101,
+        "defense": 53,
+        "specialAttack": 97,
+        "specialDefense": 53,
+        "speed": 43
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/799_guzzlord/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/799_guzzlord/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/799_guzzlord/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.guzzlord"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/799_guzzlord/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/799_guzzlord/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DARK",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 888.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    }
+  ],
+  "generation": 7
+}

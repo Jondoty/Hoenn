@@ -1,0 +1,488 @@
+{
+  "name": "Spheal",
+  "dex": 363,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Rollout"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Snore"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Aurora Beam"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Hail"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Belly Drum",
+          "Curse",
+          "Fissure",
+          "Spit Up",
+          "Stockpile",
+          "Swallow",
+          "Water Pulse",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Rock Tomb",
+          "Brine",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aqua Tail",
+          "Captivate",
+          "Charm",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Echoed Voice",
+          "Frost Breath",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Ice Ball",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Signal Beam",
+          "Strength",
+          "Super Fang",
+          "Swagger",
+          "Toxic",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ThickFat",
+          "IceBody"
+        ],
+        "hiddenAbilities": [
+          "Oblivious"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 10,
+          "swimSpeed": 6,
+          "decayRate": 0.95,
+          "refreshRate": 60
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 40,
+        "defense": 50,
+        "specialAttack": 55,
+        "specialDefense": 50,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 75,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/363_spheal/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pokeball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/pokeball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/pokeball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "duskball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/duskball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/duskball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "loveball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/loveball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/loveball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "friendball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/friendball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/friendball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "heavyball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/heavyball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/heavyball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "moonball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/moonball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/moonball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "premierball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/premierball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/premierball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "masterball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/masterball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/masterball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gsball",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/gsball/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/gsball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "online",
+              "texture": "pixelmon:pokemon/363_spheal/all/base/online/texture.png",
+              "sprite": "pixelmon:pokemon/363_spheal/all/base/online/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/363_spheal/all/base/online/model.pqc"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "ICE",
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 39.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 32,
+          "to": "Sealeo",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Swagger"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 3
+}

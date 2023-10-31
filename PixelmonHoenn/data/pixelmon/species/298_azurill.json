@@ -1,0 +1,359 @@
+{
+  "name": "Azurill",
+  "dex": 298,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Splash",
+              "Tail Whip",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bounce"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aqua Jet",
+          "Belly Drum",
+          "Copycat",
+          "Perish Song",
+          "Present",
+          "Sing",
+          "Soak",
+          "Supersonic",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Helping Hand",
+          "Fake Tears",
+          "Bounce",
+          "Mud Shot",
+          "Round",
+          "Draining Kiss",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail",
+          "Uproar",
+          "Hyper Voice",
+          "Muddy Water",
+          "Scald",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bubble",
+          "Camouflage",
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Defense Curl",
+          "Double Team",
+          "Double-Edge",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Knock Off",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Refresh",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Swagger",
+          "Swift",
+          "Toxic",
+          "Water Pulse",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Work Up",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ThickFat",
+          "HugePower"
+        ],
+        "hiddenAbilities": [
+          "SapSipper"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 20,
+        "defense": 40,
+        "specialAttack": 20,
+        "specialDefense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 38,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 3,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/298_azurill/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/298_azurill/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/298_azurill/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.azurill",
+                "pixelmon.mob.azurill",
+                "pixelmon.mob.azurill"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/298_azurill/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/298_azurill/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "NORMAL",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 2.0,
+      "catchRate": 150,
+      "malePercentage": 25,
+      "evolutions": [
+        {
+          "to": "Marill",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 3
+}

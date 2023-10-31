@@ -1,0 +1,383 @@
+{
+  "name": "Cofagrigus",
+  "dex": 563,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.3,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Haze",
+              "Night Shade",
+              "Protect",
+              "Scary Face",
+              "Shadow Claw"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Crafty Shield"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Grudge"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Guard Split",
+              "Power Split"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist"
+        ],
+        "eggMoves": [
+          "Memento"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Will-O-Wisp",
+          "Facade",
+          "Revenge",
+          "Imprison",
+          "Fake Tears",
+          "Payback",
+          "Power Swap",
+          "Guard Swap",
+          "Shadow Claw",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Hex",
+          "Phantom Force"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Ally Switch",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Block",
+          "Confide",
+          "Double Team",
+          "Dream Eater",
+          "Embargo",
+          "Flash",
+          "Frustration",
+          "Heal Block",
+          "Hidden Power",
+          "Infestation",
+          "Knock Off",
+          "Magic Coat",
+          "Nightmare",
+          "Ominous Wind",
+          "Pain Split",
+          "Psych Up",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Shock Wave",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Mummy"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 58,
+        "attack": 50,
+        "defense": 145,
+        "specialAttack": 95,
+        "specialDefense": 105,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 169,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/563_cofagrigus/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/563_cofagrigus/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/563_cofagrigus/all/base/none/model.pqc"
+                ],
+                "transparency2": 0.4
+              },
+              "sounds": [
+                "pixelmon.mob.cofagrigus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/563_cofagrigus/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/563_cofagrigus/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Yamask"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 76.5,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 5
+}

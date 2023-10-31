@@ -1,0 +1,260 @@
+{
+  "name": "Kilowattrel",
+  "dex": 941,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Electro Ball",
+              "Growl",
+              "Peck"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dual Wingbeat"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Volt Switch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Hurricane"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Feather Dance",
+          "Spit Up",
+          "Stockpile",
+          "Swallow",
+          "Weather Ball"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Acrobatics",
+          "Charge Beam",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Air Cutter",
+          "Endure",
+          "Volt Switch",
+          "U-turn",
+          "Air Slash",
+          "Sleep Talk",
+          "Electro Ball",
+          "Thunder Wave",
+          "Rest",
+          "Eerie Impulse",
+          "Fly",
+          "Substitute",
+          "Tailwind",
+          "Thunderbolt",
+          "Electric Terrain",
+          "Wild Charge",
+          "Giga Impact",
+          "Hurricane",
+          "Brave Bird",
+          "Thunder",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WindPower",
+          "VoltAbsorb"
+        ],
+        "hiddenAbilities": [
+          "Competitive"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 6,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 70,
+        "defense": 60,
+        "specialAttack": 105,
+        "specialDefense": 60,
+        "speed": 125
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 50,
+        "spawnLevel": 25,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/941_kilowattrel/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/941_kilowattrel/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/941_kilowattrel/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/941_kilowattrel/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FLYING"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Wattrel"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 38.6,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 9
+}

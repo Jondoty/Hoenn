@@ -1,0 +1,350 @@
+{
+  "name": "Maractus",
+  "dex": 556,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "After You",
+              "Ingrain",
+              "Peck",
+              "Spiky Shield"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Petal Blizzard"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Petal Dance"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Wood Hammer",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Solar Beam",
+          "Screech",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Weather Ball",
+          "Bullet Seed",
+          "Bounce",
+          "Assurance",
+          "Drain Punch",
+          "Round",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Hyper Voice",
+          "Poison Jab",
+          "Seed Bomb",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Frustration",
+          "Grass Whistle",
+          "Hidden Power",
+          "Knock Off",
+          "Nature Power",
+          "Needle Arm",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterAbsorb",
+          "Chlorophyll"
+        ],
+        "hiddenAbilities": [
+          "StormDrain"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 86,
+        "defense": 67,
+        "specialAttack": 106,
+        "specialDefense": 67,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 70,
+        "spawnLevel": 14,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/556_maractus/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/556_maractus/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/556_maractus/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/556_maractus/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/556_maractus/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

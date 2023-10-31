@@ -1,0 +1,250 @@
+{
+  "name": "IronBundle",
+  "dex": 991,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1.0,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Electric Terrain",
+              "Present"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Freeze-Dry"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Flip Turn"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Ice Beam"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Snowscape"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Aurora Veil"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Water Pulse",
+          "Acrobatics",
+          "Thief",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Icy Wind",
+          "Air Cutter",
+          "Fling",
+          "Avalanche",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "U-turn",
+          "Body Slam",
+          "Ice Punch",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Substitute",
+          "Encore",
+          "Ice Spinner",
+          "Play Rough",
+          "Helping Hand",
+          "Ice Beam",
+          "Electric Terrain",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "QuarkDrive"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 56,
+        "attack": 80,
+        "defense": 114,
+        "specialAttack": 124,
+        "specialDefense": 60,
+        "speed": 136
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/991_ironbundle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/991_ironbundle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/991_ironbundle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/991_ironbundle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ICE",
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 11.0,
+      "catchRate": 50,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "speed": 3
+      }
+    }
+  ],
+  "generation": 9
+}

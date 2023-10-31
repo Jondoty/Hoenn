@@ -1,0 +1,484 @@
+{
+  "name": "Electivire",
+  "dex": 466,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge",
+              "Leer",
+              "Quick Attack",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Shock Wave"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Thunder Punch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Thunderbolt"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Thunder"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Barrier",
+          "Cross Chop",
+          "Dynamic Punch",
+          "Feint",
+          "Fire Punch",
+          "Focus Punch",
+          "Hammer Arm",
+          "Ice Punch",
+          "Karate Chop",
+          "Meditate",
+          "Rolling Kick"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Screech",
+          "Light Screen",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Brick Break",
+          "Weather Ball",
+          "Rock Tomb",
+          "Fling",
+          "Low Sweep",
+          "Round",
+          "Volt Switch",
+          "Bulldoze",
+          "Electroweb",
+          "Electric Terrain",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Low Kick",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Taunt",
+          "Focus Blast",
+          "Electro Ball",
+          "Wild Charge",
+          "Darkest Lariat"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrier",
+          "Bide",
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Counter",
+          "Covet",
+          "Curse",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Dual Chop",
+          "Flash",
+          "Follow Me",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Ion Deluge",
+          "Karate Chop",
+          "Magnet Rise",
+          "Meditate",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Psywave",
+          "Rage",
+          "Reflect",
+          "Return",
+          "Rock Smash",
+          "Rolling Kick",
+          "Secret Power",
+          "Seismic Toss",
+          "Signal Beam",
+          "Skull Bash",
+          "Strength",
+          "Submission",
+          "Swagger",
+          "Take Down",
+          "Teleport",
+          "Torment",
+          "Toxic",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MotorDrive"
+        ],
+        "hiddenAbilities": [
+          "VitalSpirit"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 123,
+        "defense": 67,
+        "specialAttack": 95,
+        "specialDefense": 85,
+        "speed": 95
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 199,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/466_electivire/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/466_electivire/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/466_electivire/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.electivire"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/466_electivire/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/466_electivire/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/466_electivire/all/base/strike/texture.png",
+              "sprite": "pixelmon:pokemon/466_electivire/all/base/strike/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Electabuzz",
+        "Elekid"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 138.6,
+      "catchRate": 30,
+      "malePercentage": 75,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 4
+}

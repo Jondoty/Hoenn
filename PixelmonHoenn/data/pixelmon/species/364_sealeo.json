@@ -1,0 +1,443 @@
+{
+  "name": "Sealeo",
+  "dex": 364,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 1.3,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Growl",
+              "Rollout",
+              "Swagger",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Snore"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Aurora Beam"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Hail"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Belly Drum",
+          "Curse",
+          "Fissure",
+          "Rollout",
+          "Signal Beam",
+          "Sleep Talk",
+          "Spit Up",
+          "Stockpile",
+          "Swallow",
+          "Water Pulse",
+          "Water Sport",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Brine",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aqua Tail",
+          "Captivate",
+          "Charm",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Echoed Voice",
+          "Frost Breath",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Ice Ball",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Signal Beam",
+          "Strength",
+          "Super Fang",
+          "Toxic",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ThickFat",
+          "IceBody"
+        ],
+        "hiddenAbilities": [
+          "Oblivious"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.2
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 25,
+          "swimSpeed": 10,
+          "decayRate": 0.93,
+          "refreshRate": 100,
+          "chanceToStopOnBlock": 0.9,
+          "blocksToStopOn": [
+            "minecraft:SEAGRASS",
+            "minecraft:TALL_SEAGRASS"
+          ],
+          "minStopTime": 1,
+          "maxStopTime": 4,
+          "minStopCooldownTime": 6,
+          "maxStopCooldownTime": 10
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 60,
+        "defense": 70,
+        "specialAttack": 75,
+        "specialDefense": 70,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 128,
+        "baseFriendship": 70,
+        "spawnLevel": 32,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/364_sealeo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/364_sealeo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/364_sealeo/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/364_sealeo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/364_sealeo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "ICE",
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Spheal"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 87.6,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 44,
+          "to": "Walrein",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,255 @@
+{
+  "name": "Regidrago",
+  "dex": 895,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.0,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 3.0,
+        "hoverHeight": 3.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Twister",
+              "Vise Grip"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Dragon Energy"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          },
+          {
+            "level": 78,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Scale Shot"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Facade",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Dragon Pulse"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "DragonsMaw"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.8,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.8,
+            "z": -0.1
+          }
+        }
+      },
+      "aggression": {
+        "aggressive": 0,
+        "passive": 100,
+        "timid": 0
+      },
+      "battleStats": {
+        "hp": 200,
+        "attack": 100,
+        "defense": 50,
+        "specialAttack": 100,
+        "specialDefense": 50,
+        "speed": 80
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 0,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/895_regidrago/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/895_regidrago/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/895_regidrago/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.regidrago"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/895_regidrago/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/895_regidrago/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 200.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evYields": {
+        "hp": 3
+      }
+    }
+  ],
+  "generation": 8
+}

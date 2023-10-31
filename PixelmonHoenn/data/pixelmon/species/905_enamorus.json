@@ -1,0 +1,287 @@
+{
+  "name": "Enamorus",
+  "dex": 905,
+  "defaultForms": [
+    "incarnate"
+  ],
+  "forms": [
+    {
+      "name": "incarnate",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Twister"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Springtide Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Calm Mind",
+          "Dazzling Gleam",
+          "Earth Power",
+          "Giga Impact",
+          "Hyper Beam",
+          "Mystical Fire",
+          "Play Rough",
+          "Power Shift",
+          "Psychic",
+          "Rest",
+          "Rock Smash",
+          "Sludge Bomb",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "CuteCharm"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 15,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "aggressive": 0,
+        "passive": 100,
+        "timid": 0
+      },
+      "battleStats": {
+        "hp": 74,
+        "attack": 115,
+        "defense": 70,
+        "specialAttack": 135,
+        "specialDefense": 80,
+        "speed": 106
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 90,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/905_enamorus/all/incarnate/none/texture.png",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/incarnate/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/905_enamorus/all/incarnate/none/model.pqc"
+                ]
+              },
+              "sounds": [
+
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/905_enamorus/all/incarnate/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/incarnate/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FAIRY",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 48.0,
+      "catchRate": 3,
+      "malePercentage": 0,
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "therian",
+      "abilities": {
+        "abilities": [
+          "Overcoat"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "battleStats": {
+        "hp": 74,
+        "attack": 115,
+        "defense": 110,
+        "specialAttack": 135,
+        "specialDefense": 100,
+        "speed": 46
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/905_enamorus/all/therian/none/texture.png",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/therian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/905_enamorus/all/therian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/905_enamorus/all/therian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/905_enamorus/all/therian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

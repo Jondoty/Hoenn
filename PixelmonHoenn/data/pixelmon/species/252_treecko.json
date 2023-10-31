@@ -1,0 +1,455 @@
+{
+  "name": "Treecko",
+  "dex": 252,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Pound"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Leafage"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Quick Guard"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grass Pledge",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Absorb",
+          "Double Kick",
+          "Dragon Breath",
+          "Leech Seed",
+          "Night Slash",
+          "Slash",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Thunder Punch",
+          "Magical Leaf",
+          "Solar Beam",
+          "Dig",
+          "Screech",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Rock Tomb",
+          "Bullet Seed",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Round",
+          "Acrobatics",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Low Kick",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Seed Bomb",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Crush Claw",
+          "Cut",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Fury Cutter",
+          "Grass Whistle",
+          "Headbutt",
+          "Hidden Power",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nature Power",
+          "Power-Up Punch",
+          "Pursuit",
+          "Razor Wind",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Swords Dance",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Flash",
+          "Swords Dance",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Flash",
+          "Swords Dance",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "Unburden"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 45,
+        "defense": 35,
+        "specialAttack": 65,
+        "specialDefense": 55,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 65,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/252_treecko/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/252_treecko/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/252_treecko/all/base/none/model.pqc"
+                ],
+                "yRotation": 22.5
+              },
+              "sounds": [
+                "pixelmon.mob.treecko"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/252_treecko/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/252_treecko/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "DRAGON"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 16,
+          "to": "Grovyle",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 3
+}

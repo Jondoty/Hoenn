@@ -1,0 +1,542 @@
+{
+  "name": "Hypno",
+  "dex": 97,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.35,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.35,
+        "hoverHeight": 1.35
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Disable",
+              "Future Sight",
+              "Hypnosis",
+              "Nasty Plot",
+              "Nightmare",
+              "Pound",
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Poison Gas"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Meditate"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Wake-Up Slap"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Synchronoise"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Future Sight"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Foul Play",
+          "Ice Punch",
+          "Low Kick",
+          "Magic Coat",
+          "Magic Room",
+          "Recycle",
+          "Role Play",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Telekinesis",
+          "Thunder Punch",
+          "Trick",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Assist",
+          "Barrier",
+          "Fire Punch",
+          "Flatter",
+          "Guard Swap",
+          "Ice Punch",
+          "Nasty Plot",
+          "Power Split",
+          "Psychic Terrain",
+          "Psycho Cut",
+          "Role Play",
+          "Secret Power",
+          "Skill Swap",
+          "Thunder Punch"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Baton Pass",
+          "Belly Drum",
+          "Bide",
+          "Body Slam",
+          "Captivate",
+          "Counter",
+          "Curse",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Endure",
+          "Flash",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Psywave",
+          "Rage",
+          "Skull Bash",
+          "Submission",
+          "Take Down",
+          "Wish",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Power-Up Punch",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Thunder Punch",
+          "Dream Eater",
+          "Rest",
+          "Attract",
+          "Fire Punch",
+          "Nightmare"
+        ],
+        "tmMoves1": [
+          "Mega Punch",
+          "Mega Kick",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Submission",
+          "Counter",
+          "Seismic Toss",
+          "Rage",
+          "Psychic",
+          "Teleport",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Metronome",
+          "Skull Bash",
+          "Dream Eater",
+          "Rest",
+          "Thunder Wave",
+          "Psywave",
+          "Tri Attack",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Insomnia",
+          "Forewarn"
+        ],
+        "hiddenAbilities": [
+          "InnerFocus"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 73,
+        "defense": 70,
+        "specialAttack": 73,
+        "specialDefense": 115,
+        "speed": 67
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 26,
+        "spawnLevelRange": 24,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/097_hypno/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/097_hypno/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/097_hypno/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.hypno",
+                "pixelmon.mob.hypno",
+                "pixelmon.mob.hypno"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/097_hypno/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/097_hypno/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Drowzee"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 75.6,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 1
+}

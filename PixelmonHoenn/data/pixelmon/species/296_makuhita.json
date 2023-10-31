@@ -1,0 +1,420 @@
+{
+  "name": "Makuhita",
+  "dex": 296,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FLUCTUATING",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Focus Energy",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Arm Thrust"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Fake Out"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Vital Throw"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Belly Drum"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Smelling Salts"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Seismic Toss"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Wake-Up Slap"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Punch",
+          "Focus Punch",
+          "Helping Hand",
+          "Ice Punch",
+          "Knock Off",
+          "Low Kick",
+          "Role Play",
+          "Snore",
+          "Superpower",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "Bullet Punch",
+          "Chip Away",
+          "Counter",
+          "Cross Chop",
+          "Detect",
+          "Dynamic Punch",
+          "Feint",
+          "Feint Attack",
+          "Focus Punch",
+          "Foresight",
+          "Helping Hand",
+          "Revenge",
+          "Wake-Up Slap",
+          "Wide Guard"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Dig",
+          "Double-Edge",
+          "Headbutt",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Refresh",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Vacuum Wave",
+          "Whirlpool"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ThickFat",
+          "Guts"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 60,
+        "defense": 30,
+        "specialAttack": 20,
+        "specialDefense": 30,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 87,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/296_makuhita/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/296_makuhita/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/296_makuhita/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/296_makuhita/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/296_makuhita/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 86.4,
+      "catchRate": 180,
+      "malePercentage": 75,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Hariyama",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 3
+}

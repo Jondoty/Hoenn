@@ -1,0 +1,387 @@
+{
+  "name": "Malamar",
+  "dex": 687,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hypnosis",
+              "Peck",
+              "Reversal",
+              "Tackle",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Topsy-Turvy"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Acupressure",
+          "Destiny Bond",
+          "Disable"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Fake Tears",
+          "Payback",
+          "Fling",
+          "Guard Swap",
+          "Psycho Cut",
+          "Trick Room",
+          "Round",
+          "Retaliate",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Psychic",
+          "Substitute",
+          "Reversal",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Future Sight",
+          "Taunt",
+          "Superpower",
+          "Calm Mind",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch",
+          "Throat Chop",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bind",
+          "Block",
+          "Camouflage",
+          "Confide",
+          "Constrict",
+          "Cut",
+          "Double Team",
+          "Embargo",
+          "Flash",
+          "Flatter",
+          "Frustration",
+          "Happy Hour",
+          "Hidden Power",
+          "Knock Off",
+          "Power Split",
+          "Psych Up",
+          "Psywave",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Signal Beam",
+          "Simple Beam",
+          "Snatch",
+          "Spite",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Brutal Swing",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SuctionCups",
+          "Contrary"
+        ],
+        "hiddenAbilities": [
+          "Infiltrator"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.3
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 10,
+          "depthRangeEnd": 40,
+          "swimSpeed": 20,
+          "decayRate": 0.5,
+          "refreshRate": 80
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 86,
+        "attack": 92,
+        "defense": 88,
+        "specialAttack": 68,
+        "specialDefense": 75,
+        "speed": 73
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 169,
+        "baseFriendship": 0,
+        "spawnLevel": 31,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/687_malamar/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/687_malamar/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/687_malamar/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/687_malamar/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/687_malamar/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_TWO"
+      ],
+      "types": [
+        "DARK",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Inkay"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 47.0,
+      "catchRate": 80,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,310 @@
+{
+  "name": "Blitzle",
+  "dex": 522,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Shock Wave"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Low Kick",
+          "Magnet Rise",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Snore"
+        ],
+        "eggMoves": [
+          "Double Kick",
+          "Double-Edge",
+          "Endure",
+          "Feint",
+          "Me First",
+          "Rage",
+          "Sand Attack",
+          "Screech",
+          "Shock Wave",
+          "Snatch",
+          "Take Down"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Flash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LightningRod",
+          "MotorDrive"
+        ],
+        "hiddenAbilities": [
+          "SapSipper"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 60,
+        "defense": 32,
+        "specialAttack": 50,
+        "specialDefense": 32,
+        "speed": 76
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 59,
+        "baseFriendship": 70,
+        "spawnLevel": 16,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/522_blitzle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/522_blitzle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/522_blitzle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/522_blitzle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/522_blitzle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 29.8,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 27,
+          "to": "Zebstrika",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

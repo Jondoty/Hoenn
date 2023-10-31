@@ -1,0 +1,461 @@
+{
+  "name": "Wormadam",
+  "dex": 413,
+  "defaultForms": [
+    "plant",
+    "sandy",
+    "trash"
+  ],
+  "forms": [
+    {
+      "name": "plant",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.15,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.15,
+        "hoverHeight": 1.15
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Sucker Punch",
+              "Tackle",
+              "Protect",
+              "Bug Bite",
+              "Quiver Dance"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hidden Power"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Captivate"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bug Bite",
+          "Electroweb",
+          "Endeavor",
+          "Giga Drain",
+          "Seed Bomb",
+          "Signal Beam",
+          "Skill Swap",
+          "Snore",
+          "Synthesis",
+          "Telekinesis",
+          "Uproar",
+          "Worry Seed"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bullet Seed",
+          "Endure",
+          "Flash",
+          "Natural Gift",
+          "Secret Power",
+          "String Shot",
+          "Struggle Bug"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Energy Ball",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Anticipation"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 59,
+        "defense": 85,
+        "specialAttack": 79,
+        "specialDefense": 105,
+        "speed": 36
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 148,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/413_wormadam/all/plant/none/texture.png",
+              "sprite": "pixelmon:pokemon/413_wormadam/all/plant/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/413_wormadam/all/plant/none/model.pqc"
+                ],
+                "rotateAngleX": 0,
+                "yRotation": 22
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/413_wormadam/all/plant/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/413_wormadam/all/plant/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Burmy"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 6.5,
+      "catchRate": 45,
+      "malePercentage": 0,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    },
+    {
+      "name": "sandy",
+      "battleStats": {
+        "hp": 60,
+        "attack": 79,
+        "defense": 105,
+        "specialAttack": 59,
+        "specialDefense": 85,
+        "speed": 36
+      },
+      "types": [
+        "BUG",
+        "GROUND"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/413_wormadam/all/sandy/none/texture.png",
+              "sprite": "pixelmon:pokemon/413_wormadam/all/sandy/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/413_wormadam/all/sandy/none/model.pqc"
+                ],
+                "rotateAngleX": 0,
+                "yRotation": 22
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/413_wormadam/all/sandy/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/413_wormadam/all/sandy/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 2
+      }
+    },
+    {
+      "name": "trash",
+      "battleStats": {
+        "hp": 60,
+        "attack": 69,
+        "defense": 95,
+        "specialAttack": 69,
+        "specialDefense": 95,
+        "speed": 36
+      },
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/413_wormadam/all/trash/none/texture.png",
+              "sprite": "pixelmon:pokemon/413_wormadam/all/trash/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/413_wormadam/all/trash/none/model.pqc"
+                ],
+                "rotateAngleX": 0,
+                "yRotation": 22
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/413_wormadam/all/trash/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/413_wormadam/all/trash/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 4
+}

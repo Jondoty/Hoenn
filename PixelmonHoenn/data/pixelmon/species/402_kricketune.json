@@ -1,0 +1,354 @@
+{
+  "name": "Kricketune",
+  "dex": 402,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bide",
+              "Fury Cutter",
+              "Growl"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Sing"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Perish Song"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Endeavor",
+          "Heal Bell",
+          "Hyper Voice",
+          "Knock Off",
+          "Laser Focus",
+          "Snore",
+          "Throat Chop",
+          "Uproar"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Cut",
+          "Endure",
+          "Flash",
+          "Hone Claws",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power",
+          "Silver Wind",
+          "Strength",
+          "String Shot"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "False Swipe",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "False Swipe",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "False Swipe",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "False Swipe",
+          "Endure",
+          "Silver Wind",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 77,
+        "attack": 85,
+        "defense": 51,
+        "specialAttack": 55,
+        "specialDefense": 51,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 159,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/402_kricketune/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/402_kricketune/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/402_kricketune/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kricketune",
+                "pixelmon.mob.kricketune"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/402_kricketune/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/402_kricketune/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [
+        "Kricketot"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 25.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 4
+}

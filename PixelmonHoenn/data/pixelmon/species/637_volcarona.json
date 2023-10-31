@@ -1,0 +1,459 @@
+{
+  "name": "Volcarona",
+  "dex": 637,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Double-Edge",
+              "Ember",
+              "Fiery Dance",
+              "Fire Spin",
+              "Flame Charge",
+              "Flare Blitz",
+              "Gust",
+              "Quiver Dance",
+              "String Shot",
+              "Struggle Bug",
+              "Take Down",
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Leech Life"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Heat Wave"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Hurricane"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Fire Blast"
+            ]
+          },
+          {
+            "level": 78,
+            "attacks": [
+              "Rage Powder"
+            ]
+          },
+          {
+            "level": 100,
+            "attacks": [
+              "Fiery Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Absorb",
+          "Harden",
+          "Thrash"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Screech",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "U-turn",
+          "Round",
+          "Acrobatics",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Amnesia",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Heat Wave",
+          "Overheat",
+          "Calm Mind",
+          "Flare Blitz",
+          "Poison Jab",
+          "Bug Buzz",
+          "Zen Headbutt",
+          "Wild Charge",
+          "Hurricane"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Foresight",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Magnet Rise",
+          "Morning Sun",
+          "Return",
+          "Roost",
+          "Secret Power",
+          "Signal Beam",
+          "Silver Wind",
+          "Swagger",
+          "Tailwind",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Giga Impact",
+          "Fly",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Giga Impact",
+          "Struggle Bug",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Giga Impact",
+          "Struggle Bug",
+          "Poison Jab",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "Swarm"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.4,
+            "z": -0.5
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.4,
+            "z": -0.5
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 60,
+        "defense": 65,
+        "specialAttack": 135,
+        "specialDefense": 105,
+        "speed": 100
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 248,
+        "baseFriendship": 70,
+        "spawnLevel": 59,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/637_volcarona/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/637_volcarona/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/637_volcarona/all/base/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/637_volcarona/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.volcarona"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/637_volcarona/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/637_volcarona/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/637_volcarona/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/637_volcarona/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Larvesta"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 46.0,
+      "catchRate": 15,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

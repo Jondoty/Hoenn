@@ -1,0 +1,497 @@
+{
+  "name": "Glalie",
+  "dex": 362,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Double Team",
+              "Freeze-Dry",
+              "Leer",
+              "Powder Snow",
+              "Sheer Cold"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Ice Shard"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Frost Breath"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Hail"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 68,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Block",
+          "Disable",
+          "Icicle Crash",
+          "Rollout",
+          "Switcheroo"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Weather Ball",
+          "Fake Tears",
+          "Icicle Spear",
+          "Payback",
+          "Avalanche",
+          "Ice Fang",
+          "Round",
+          "Hex",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Shadow Ball",
+          "Taunt",
+          "Gyro Ball",
+          "Dark Pulse",
+          "Iron Head"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Defense Curl",
+          "Double-Edge",
+          "Explosion",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Mimic",
+          "Natural Gift",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Sing",
+          "Spite",
+          "Super Fang",
+          "Swagger",
+          "Torment",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Gyro Ball",
+          "Bulldoze",
+          "Frost Breath",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Bulldoze",
+          "Frost Breath",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Bulldoze",
+          "Frost Breath",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Gyro Ball",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "InnerFocus",
+          "IceBody"
+        ],
+        "hiddenAbilities": [
+          "Moody"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 30,
+        "aggressive": 70
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 187,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/362_glalie/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/362_glalie/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/362_glalie/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/362_glalie/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/362_glalie/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "MINERAL"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [
+        "Snorunt"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:glalitite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 256.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.5,
+        "length": 1.5
+      },
+      "abilities": {
+        "abilities": [
+          "Refrigerate"
+        ]
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 80,
+        "specialAttack": 120,
+        "specialDefense": 80,
+        "speed": 100
+      },
+      "weight": 350.2,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/362_glalie/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/362_glalie/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/362_glalie/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/362_glalie/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/362_glalie/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

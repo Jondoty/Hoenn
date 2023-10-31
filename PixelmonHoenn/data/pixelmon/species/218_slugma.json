@@ -1,0 +1,452 @@
+{
+  "name": "Slugma",
+  "dex": 218,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Smog",
+              "Yawn"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Flame Burst"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Lava Plume"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Earth Power"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Earth Power",
+          "Heat Wave",
+          "Iron Defense",
+          "Pain Split",
+          "Snore"
+        ],
+        "eggMoves": [
+          "Acid Armor",
+          "Curse",
+          "Earth Power",
+          "Guard Swap",
+          "Heat Wave",
+          "Inferno",
+          "Memento",
+          "Rollout",
+          "Smokescreen",
+          "Spit Up",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Defense Curl",
+          "Double-Edge",
+          "Endure",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Rock Slide",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Rock Slide",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat",
+          "Endure",
+          "Will-O-Wisp",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MagmaArmor",
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "WeakArmor"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 40,
+        "specialAttack": 70,
+        "specialDefense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 78,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 32,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/218_slugma/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "copper_sulfate",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/copper_sulfate/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/copper_sulfate/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "cupric_chloride",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/cupric_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/cupric_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lithium_chloride",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/lithium_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/lithium_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "magnesium_sulfide",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/magnesium_sulfide/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/magnesium_sulfide/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "manganese_chloride",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/manganese_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/manganese_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "potassium_chloride",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/potassium_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/potassium_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "sodium_carbonate",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/sodium_carbonate/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/sodium_carbonate/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calcium_carbonate",
+              "texture": "pixelmon:pokemon/218_slugma/all/base/calcium_carbonate/texture.png",
+              "sprite": "pixelmon:pokemon/218_slugma/all/base/calcium_carbonate/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 35.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 38,
+          "to": "Magcargo",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Shell Smash"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 2
+}

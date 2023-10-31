@@ -1,0 +1,350 @@
+{
+  "name": "Leavanny",
+  "dex": 542,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bug Bite",
+              "False Swipe",
+              "Razor Leaf",
+              "Slash",
+              "String Shot",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Electroweb",
+          "Giga Drain",
+          "Heal Bell",
+          "Helping Hand",
+          "Iron Defense",
+          "Knock Off",
+          "Laser Focus",
+          "Magic Coat",
+          "Seed Bomb",
+          "Signal Beam",
+          "Snore",
+          "Synthesis",
+          "Throat Chop",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Agility",
+          "Air Slash",
+          "Baton Pass",
+          "Camouflage",
+          "Grassy Terrain",
+          "Me First",
+          "Mind Reader",
+          "Razor Wind",
+          "Screech",
+          "Silver Wind"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Flash",
+          "Hone Claws",
+          "Retaliate",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "False Swipe",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "False Swipe",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "False Swipe",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "Chlorophyll"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 103,
+        "defense": 80,
+        "specialAttack": 70,
+        "specialDefense": 80,
+        "speed": 92
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 221,
+        "baseFriendship": 70,
+        "spawnLevel": 35,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/542_leavanny/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/542_leavanny/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/542_leavanny/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.leavanny",
+                "pixelmon.mob.leavanny"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/542_leavanny/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/542_leavanny/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Swadloon",
+        "Sewaddle"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 20.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

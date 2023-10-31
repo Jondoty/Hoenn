@@ -1,0 +1,510 @@
+{
+  "name": "Ampharos",
+  "dex": 181,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 2.3,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 2.3,
+        "hoverHeight": 2.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Dragon Pulse",
+              "Fire Punch",
+              "Growl",
+              "Ion Deluge",
+              "Magnetic Flux",
+              "Tackle",
+              "Thunder Punch",
+              "Thunder Shock",
+              "Thunder Wave",
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Signal Beam"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Thunder"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Dragon Pulse",
+          "Electroweb",
+          "Fire Punch",
+          "Focus Punch",
+          "Heal Bell",
+          "Iron Tail",
+          "Laser Focus",
+          "Magnet Rise",
+          "Outrage",
+          "Shock Wave",
+          "Signal Beam",
+          "Snore",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "After You",
+          "Agility",
+          "Body Slam",
+          "Charge",
+          "Eerie Impulse",
+          "Electric Terrain",
+          "Flatter",
+          "Iron Tail",
+          "Odor Sleuth",
+          "Sand Attack",
+          "Screech",
+          "Take Down"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Counter",
+          "Curse",
+          "Defense Curl",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Hold Back",
+          "Mega Kick",
+          "Mega Punch",
+          "Mimic",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Reflect",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Bulldoze",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Thunder Punch",
+          "Rest",
+          "Attract",
+          "Fire Punch"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "Plus"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 75,
+        "defense": 85,
+        "specialAttack": 115,
+        "specialDefense": 90,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 194,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/181_ampharos/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/181_ampharos/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/181_ampharos/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.ampharos"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/181_ampharos/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/181_ampharos/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Flaaffy",
+        "Mareep"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:ampharosite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 61.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "MoldBreaker"
+        ]
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 105,
+        "specialAttack": 165,
+        "specialDefense": 110,
+        "speed": 45
+      },
+      "types": [
+        "ELECTRIC",
+        "DRAGON"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/181_ampharos/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/181_ampharos/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/181_ampharos/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/181_ampharos/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/181_ampharos/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

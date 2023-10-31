@@ -1,0 +1,249 @@
+{
+  "name": "Thievul",
+  "dex": 828,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Beat Up",
+              "Hone Claws",
+              "Quick Attack",
+              "Tail Whip",
+              "Thief"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Tail Slap"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Parting Shot"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Howl",
+          "Knock Off",
+          "Quick Guard",
+          "Torment"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Beat Up",
+          "Facade",
+          "Swift",
+          "Fake Tears",
+          "Mud Shot",
+          "U-turn",
+          "Assurance",
+          "Shadow Claw",
+          "Thunder Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Round",
+          "Acrobatics",
+          "Tail Slap",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Crunch",
+          "Shadow Ball",
+          "Taunt",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Grass Knot",
+          "Foul Play",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "Unburden"
+        ],
+        "hiddenAbilities": [
+          "Stakeout"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.95,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.95,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 58,
+        "defense": 58,
+        "specialAttack": 87,
+        "specialDefense": 92,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 159,
+        "baseFriendship": 50,
+        "spawnLevel": 18,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/828_thievul/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/828_thievul/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/828_thievul/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/828_thievul/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/828_thievul/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Nickit"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 19.9,
+      "catchRate": 127,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

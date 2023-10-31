@@ -1,0 +1,361 @@
+{
+  "name": "Corviknight",
+  "dex": 823,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hone Claws",
+              "Iron Defense",
+              "Leer",
+              "Metal Sound",
+              "Peck",
+              "Power Trip",
+              "Steel Wing"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Defog",
+          "Rock Smash",
+          "Roost",
+          "Sand Attack",
+          "Sky Attack",
+          "Spite",
+          "Tailwind"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Steel Wing",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Fake Tears",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Round",
+          "Retaliate",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Iron Defense",
+          "Bulk Up",
+          "Brave Bird",
+          "Nasty Plot",
+          "Flash Cannon",
+          "Iron Head",
+          "Heavy Slam",
+          "Work Up",
+          "Hurricane",
+          "Body Press"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure",
+          "Unnerve"
+        ],
+        "hiddenAbilities": [
+          "MirrorArmor"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.2,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.1
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 15,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 98,
+        "attack": 87,
+        "defense": 105,
+        "specialAttack": 53,
+        "specialDefense": 85,
+        "speed": 67
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 248,
+        "baseFriendship": 50,
+        "spawnLevel": 36,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/823_corviknight/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/823_corviknight/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/823_corviknight/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/823_corviknight/all/base/none/flying/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.corviknight"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/823_corviknight/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/823_corviknight/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "FLYING",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Corvisquire",
+        "Rookidee"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Wind Rage"
+      },
+      "eggCycles": 16,
+      "weight": 75.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "defense": 3
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 3.0,
+        "width": 1.2,
+        "length": 1.2
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/823_corviknight/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/823_corviknight/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/823_corviknight/all/gmax/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/823_corviknight/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/823_corviknight/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

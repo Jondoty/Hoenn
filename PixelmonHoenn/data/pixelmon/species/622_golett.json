@@ -1,0 +1,400 @@
+{
+  "name": "Golett",
+  "dex": 622,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Pound"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Shadow Punch"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Mega Punch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist",
+          "Scorching Sands"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Dig",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Rain Dance",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Imprison",
+          "Rock Tomb",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Bulldoze",
+          "Phantom Force",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Low Kick",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Superpower",
+          "Iron Defense",
+          "Gyro Ball",
+          "Focus Blast",
+          "Earth Power",
+          "Stealth Rock",
+          "Grass Knot",
+          "Heavy Slam",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Magic Coat",
+          "Magnitude",
+          "Power-Up Punch",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Strength",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Rock Polish",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Rock Polish",
+          "Flash",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Rock Polish",
+          "Flash",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IronFist",
+          "Klutz"
+        ],
+        "hiddenAbilities": [
+          "NoGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 59,
+        "attack": 74,
+        "defense": 50,
+        "specialAttack": 35,
+        "specialDefense": 50,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 33,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/622_golett/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/622_golett/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/622_golett/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+				"pixelmon.mob.golett"
+			  ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/622_golett/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/622_golett/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "GROUND",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 92.0,
+      "catchRate": 190,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "level": 43,
+          "to": "Golurk",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

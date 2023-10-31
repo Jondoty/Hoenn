@@ -1,0 +1,380 @@
+{
+  "name": "Orbeetle",
+  "dex": 826,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Light Screen",
+              "Reflect",
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Magic Coat"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Ally Switch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Psychic Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Infestation",
+          "Recover",
+          "Sticky Web",
+          "Supersonic"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Imprison",
+          "U-turn",
+          "Payback",
+          "Power Swap",
+          "Guard Swap",
+          "Psycho Cut",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Agility",
+          "Leech Life",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Bug Buzz",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Stored Power",
+          "Ally Switch",
+          "Body Press"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.3,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.3,
+            "z": -0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 45,
+        "defense": 110,
+        "specialAttack": 80,
+        "specialDefense": 120,
+        "speed": 90
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 253,
+        "baseFriendship": 50,
+        "spawnLevel": 30,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/826_orbeetle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/826_orbeetle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/826_orbeetle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.orbeetle"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/826_orbeetle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/826_orbeetle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Dottler",
+        "Blipbug"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Gravitas"
+      },
+      "eggCycles": 16,
+      "weight": 40.8,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialDefense": 3
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 1.1,
+        "width": 2.1,
+        "length": 2.1
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/826_orbeetle/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/826_orbeetle/all/gmax/none/model1.pqc",
+                  "pixelmon:pokemon/826_orbeetle/all/gmax/none/model.pqc"
+                ],
+                "transparency2": 0.4
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/826_orbeetle/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

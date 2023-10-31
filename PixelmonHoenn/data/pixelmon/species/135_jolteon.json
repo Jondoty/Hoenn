@@ -1,0 +1,520 @@
+{
+  "name": "Jolteon",
+  "dex": 135,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.1,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baton Pass",
+              "Bite",
+              "Charm",
+              "Copycat",
+              "Covet",
+              "Double-Edge",
+              "Growl",
+              "Helping Hand",
+              "Swift",
+              "Tackle",
+              "Tail Whip",
+              "Take Down",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Thunder Fang"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Thunder"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Celebrate",
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Detect",
+          "Double Kick",
+          "Flail",
+          "Mud-Slap",
+          "Tickle",
+          "Wish",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Weather Ball",
+          "Fake Tears",
+          "Thunder Fang",
+          "Round",
+          "Retaliate",
+          "Volt Switch"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Iron Tail",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Electro Ball",
+          "Stored Power",
+          "Work Up",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Heal Bell",
+          "Hidden Power",
+          "Laser Focus",
+          "Magnet Rise",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Reflect",
+          "Refresh",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Sing",
+          "Skull Bash",
+          "Strength",
+          "Swagger",
+          "Synchronoise",
+          "Toxic",
+          "Trump Card",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Charge Beam",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Zap Cannon",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Thunder Wave",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VoltAbsorb"
+        ],
+        "hiddenAbilities": [
+          "QuickFeet"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.45,
+            "z": -0.15
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.45,
+            "z": -0.15
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 60,
+        "specialAttack": 110,
+        "specialDefense": 95,
+        "speed": 130
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 184,
+        "baseFriendship": 70,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/135_jolteon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/135_jolteon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/135_jolteon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.jolteon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/135_jolteon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/135_jolteon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/135_jolteon/all/base/strike/texture.png",
+              "emissive": "pixelmon:pokemon/135_jolteon/all/base/strike/emissive.png",
+              "sprite": "pixelmon:pokemon/135_jolteon/all/base/strike/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/135_jolteon/all/base/spirit/texture.png",
+              "emissive": "pixelmon:pokemon/135_jolteon/all/base/spirit/emissive.png",
+              "sprite": "pixelmon:pokemon/135_jolteon/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Eevee"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 24.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 1
+}

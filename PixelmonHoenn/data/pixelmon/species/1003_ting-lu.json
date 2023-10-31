@@ -1,0 +1,263 @@
+{
+  "name": "Ting-Lu",
+  "dex": 1003,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1.0,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mean Look",
+              "Sand Tomb",
+              "Spite"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Ruination"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Fissure"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Facade",
+          "Bulldoze",
+          "Hex",
+          "Snarl",
+          "Mud Shot",
+          "Rock Tomb",
+          "Endure",
+          "Sunny Day",
+          "Sandstorm",
+          "Dig",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Body Press",
+          "Spikes",
+          "Dark Pulse",
+          "Substitute",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Earth Power",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VesselOfRuin"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 155,
+        "attack": 110,
+        "defense": 125,
+        "specialAttack": 55,
+        "specialDefense": 80,
+        "speed": 45
+      },
+      "tags": [
+        "undexable",
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 60,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1003_ting-lu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1003_ting-lu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1003_ting-lu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1003_ting-lu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DARK",
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 699.7,
+      "catchRate": 6,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "defense": 3
+      }
+    }
+  ],
+  "generation": 9
+}

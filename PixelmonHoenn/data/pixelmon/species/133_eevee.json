@@ -1,0 +1,610 @@
+{
+  "name": "Eevee",
+  "dex": 133,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Covet",
+              "Growl",
+              "Helping Hand",
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Copycat"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Celebrate",
+          "Curse",
+          "Detect",
+          "Double Kick",
+          "Flail",
+          "Mud-Slap",
+          "Tickle",
+          "Wish",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Weather Ball",
+          "Fake Tears",
+          "Round",
+          "Retaliate"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Focus Energy",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Iron Tail",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Stored Power",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Headbutt",
+          "Heal Bell",
+          "Hidden Power",
+          "Laser Focus",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Reflect",
+          "Refresh",
+          "Return",
+          "Secret Power",
+          "Sing",
+          "Skull Bash",
+          "Swagger",
+          "Synchronoise",
+          "Toxic",
+          "Trump Card"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Retaliate",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Retaliate",
+          "Work Up",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Rage",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "Adaptability"
+        ],
+        "hiddenAbilities": [
+          "Anticipation"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 50,
+        "specialAttack": 45,
+        "specialDefense": 65,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 65,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/133_eevee/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/133_eevee/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/133_eevee/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.eevee"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/133_eevee/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/133_eevee/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/133_eevee/all/base/strike/texture.png",
+              "emissive": "pixelmon:pokemon/133_eevee/all/base/strike/emissive.png",
+              "sprite": "pixelmon:pokemon/133_eevee/all/base/strike/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/133_eevee/all/base/spirit/texture.png",
+              "emissive": "pixelmon:pokemon/133_eevee/all/base/spirit/emissive.png",
+              "sprite": "pixelmon:pokemon/133_eevee/all/base/spirit/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "creator",
+              "texture": "pixelmon:pokemon/133_eevee/all/base/creator/texture.png",
+              "sprite": "pixelmon:pokemon/133_eevee/all/base/creator/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/133_eevee/all/base/none/eevee-creator.pqc"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Cuddle"
+      },
+      "eggCycles": 36,
+      "weight": 6.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "to": "Sylveon",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            },
+            {
+              "type": "FAIRY",
+              "evoConditionType": "moveType"
+            },
+            {
+              "biomes": [
+                "minecraft:flower_forest",
+                "minecraft:sunflower_plains"
+              ],
+              "evoConditionType": "biome"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Disarming Voice"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:water_stone"
+          },
+          "to": "Vaporeon",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Water Gun"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:thunder_stone"
+          },
+          "to": "Jolteon",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Thunder Shock"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:fire_stone"
+          },
+          "to": "Flareon",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Ember"
+          ]
+        },
+        {
+          "to": "Espeon",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            },
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Confusion"
+          ]
+        },
+        {
+          "to": "Umbreon",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            },
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Snarl"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:leaf_stone"
+          },
+          "to": "Leafeon",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Razor Leaf"
+          ]
+        },
+        {
+          "to": "Leafeon",
+          "conditions": [
+            {
+              "evolutionRock": "MOSSY_ROCK",
+              "maxRangeSquared": 100,
+              "evoConditionType": "evolutionRock"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Razor Leaf"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:ice_stone"
+          },
+          "to": "Glaceon",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Icy Wind"
+          ]
+        },
+        {
+          "to": "Glaceon",
+          "conditions": [
+            {
+              "evolutionRock": "ICE_ROCK",
+              "maxRangeSquared": 100,
+              "evoConditionType": "evolutionRock"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Icy Wind"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/133_eevee/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/133_eevee/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/133_eevee/all/gmax/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.eevee"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/133_eevee/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/133_eevee/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

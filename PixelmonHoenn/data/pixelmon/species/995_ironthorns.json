@@ -1,0 +1,275 @@
+{
+  "name": "IronThorns",
+  "dex": 995,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.2,
+        "length": 1.0,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Electric Terrain",
+              "Fire Fang",
+              "Ice Fang",
+              "Iron Defense",
+              "Rock Throw",
+              "Thunder Fang"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Low Kick",
+          "Charge Beam",
+          "Facade",
+          "Bulldoze",
+          "Snarl",
+          "Metal Claw",
+          "Rock Tomb",
+          "Fling",
+          "Dragon Tail",
+          "Endure",
+          "Volt Switch",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Brick Break",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Electro Ball",
+          "Rock Blast",
+          "Dragon Claw",
+          "Thunder Wave",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Swords Dance",
+          "Body Press",
+          "Spikes",
+          "Eerie Impulse",
+          "Iron Head",
+          "Dragon Dance",
+          "Power Gem",
+          "Substitute",
+          "Iron Defense",
+          "Crunch",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Flamethrower",
+          "Thunderbolt",
+          "Earth Power",
+          "Ice Beam",
+          "Electric Terrain",
+          "Fire Blast",
+          "Blizzard",
+          "Wild Charge",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Focus Blast",
+          "Hyper Beam",
+          "Thunder",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "QuarkDrive"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 134,
+        "defense": 110,
+        "specialAttack": 70,
+        "specialDefense": 84,
+        "speed": 72
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/995_ironthorns/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/995_ironthorns/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/995_ironthorns/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.ironthorns"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/995_ironthorns/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/995_ironthorns/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 303.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

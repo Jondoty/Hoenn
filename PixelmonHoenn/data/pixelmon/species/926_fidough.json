@@ -1,0 +1,260 @@
+{
+  "name": "Fidough",
+  "dex": 926,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Copycat",
+          "Howl",
+          "Sweet Scent",
+          "Wish",
+          "Yawn"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Trailblaze",
+          "Facade",
+          "Snarl",
+          "Mud Shot",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Psychic Fangs",
+          "Body Slam",
+          "Sleep Talk",
+          "Dazzling Gleam",
+          "Stomping Tantrum",
+          "Rest",
+          "Substitute",
+          "Crunch",
+          "Play Rough",
+          "Helping Hand",
+          "Baton Pass",
+          "Misty Terrain",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "OwnTempo"
+        ],
+        "hiddenAbilities": [
+          "Klutz"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 37,
+        "attack": 55,
+        "defense": 70,
+        "specialAttack": 30,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 8,
+        "spawnLevelRange": 17,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/926_fidough/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/926_fidough/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/926_fidough/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/926_fidough/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "MINERAL"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 10.9,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 26,
+          "to": "Dachsbun",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 9
+}

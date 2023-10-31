@@ -1,0 +1,405 @@
+{
+  "name": "TapuFini",
+  "dex": 788,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Disarming Voice",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Haze",
+              "Mist"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Defog"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Nature's Madness"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [
+
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Ice Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Rain Dance",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Brine",
+          "Fling",
+          "Guard Swap",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Misty Terrain",
+          "Smart Strike"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Taunt",
+          "Trick",
+          "Muddy Water",
+          "Iron Defense",
+          "Calm Mind",
+          "Grass Knot",
+          "Stored Power",
+          "Scald",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Knock Off",
+          "Magic Coat",
+          "Nature Power",
+          "Psych Up",
+          "Refresh",
+          "Return",
+          "Swagger",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Smart Strike",
+          "Giga Impact",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Nature Power",
+          "Waterfall",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "MistySurge"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.2,
+            "z": -0.15
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.2,
+            "z": -0.15
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 1,
+          "swimSpeed": 1,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 115,
+        "specialAttack": 95,
+        "specialDefense": 130,
+        "speed": 85
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/788_tapufini/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/788_tapufini/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/788_tapufini/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.tapufini"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/788_tapufini/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/788_tapufini/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 21.2,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialDefense": 3
+      }
+    }
+  ],
+  "generation": 7
+}

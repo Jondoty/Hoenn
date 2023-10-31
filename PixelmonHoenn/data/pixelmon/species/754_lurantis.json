@@ -1,0 +1,296 @@
+{
+  "name": "Lurantis",
+  "dex": 754,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Dual Chop",
+              "Fury Cutter",
+              "Growth",
+              "Ingrain",
+              "Leafage",
+              "Night Slash",
+              "Petal Blizzard",
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Solar Blade"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Aromatherapy",
+          "Defog",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Brick Break",
+          "Weather Ball",
+          "Bullet Seed",
+          "Payback",
+          "Fling",
+          "Psycho Cut",
+          "Cross Poison",
+          "Low Sweep",
+          "Round",
+          "Grassy Terrain",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Leaf Blade",
+          "Poison Jab",
+          "Seed Bomb",
+          "X-Scissor",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bug Bite",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Laser Focus",
+          "Nature Power",
+          "Return",
+          "Signal Beam",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "False Swipe",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LeafGuard"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.53,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.53,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 105,
+        "defense": 90,
+        "specialAttack": 80,
+        "specialDefense": 90,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 70,
+        "spawnLevel": 34,
+        "spawnLevelRange": 60,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/754_lurantis/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/754_lurantis/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/754_lurantis/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lurantis",
+                "pixelmon.mob.lurantis"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/754_lurantis/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/754_lurantis/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Fomantis"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 18.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

@@ -1,0 +1,320 @@
+{
+  "name": "Pheromosa",
+  "dex": 795,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.0,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 3.0,
+        "hoverHeight": 3.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Feint",
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Quick Guard"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Triple Kick"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Speed Swap"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Quiver Dance"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "High Jump Kick"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Skitter Smack",
+          "Triple Axel"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Bounce",
+          "U-turn",
+          "Assurance",
+          "Fling",
+          "Speed Swap",
+          "Low Sweep",
+          "Round",
+          "Electroweb",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Blizzard",
+          "Low Kick",
+          "Agility",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Close Combat",
+          "Poison Jab",
+          "Bug Buzz",
+          "Focus Blast",
+          "Foul Play",
+          "Drill Run",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Jump Kick",
+          "Laser Focus",
+          "Me First",
+          "Return",
+          "Roost",
+          "Shock Wave",
+          "Signal Beam",
+          "Silver Wind",
+          "Snatch",
+          "Swagger",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Giga Impact",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.2,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.2,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 71,
+        "attack": 137,
+        "defense": 37,
+        "specialAttack": 137,
+        "specialDefense": 37,
+        "speed": 151
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/795_pheromosa/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/795_pheromosa/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/795_pheromosa/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.pheromosa"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/795_pheromosa/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/795_pheromosa/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "BUG",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 25.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "speed": 3
+      }
+    }
+  ],
+  "generation": 7
+}

@@ -1,0 +1,360 @@
+{
+  "name": "Larvesta",
+  "dex": 636,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 100,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "String Shot"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Leech Life"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Absorb",
+          "Harden",
+          "Thrash"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Screech",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "U-turn",
+          "Round",
+          "Acrobatics"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Amnesia",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Heat Wave",
+          "Overheat",
+          "Calm Mind",
+          "Flare Blitz",
+          "Bug Buzz",
+          "Zen Headbutt",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Foresight",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Magnet Rise",
+          "Morning Sun",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Struggle Bug",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Struggle Bug",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "Swarm"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 85,
+        "defense": 55,
+        "specialAttack": 50,
+        "specialDefense": 55,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 72,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/636_larvesta/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/636_larvesta/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/636_larvesta/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+				"pixelmon.mob.larvesta"
+			  ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/636_larvesta/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/636_larvesta/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 28.8,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 59,
+          "to": "Volcarona",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Quiver Dance"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

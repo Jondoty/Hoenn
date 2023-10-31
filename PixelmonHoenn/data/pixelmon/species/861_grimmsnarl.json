@@ -1,0 +1,300 @@
+{
+  "name": "Grimmsnarl",
+  "dex": 861,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Bulk Up",
+              "Confide",
+              "Fake Out",
+              "False Surrender",
+              "Flatter",
+              "Power-Up Punch",
+              "Spirit Break"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Lash Out"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Fake Tears",
+          "Assurance",
+          "Power Swap",
+          "Drain Punch",
+          "Shadow Claw",
+          "Wonder Room",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Draining Kiss",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Low Kick",
+          "Focus Energy",
+          "Metronome",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Superpower",
+          "Bulk Up",
+          "Dark Pulse",
+          "Focus Blast",
+          "Nasty Plot",
+          "Power Whip",
+          "Foul Play",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Darkest Lariat",
+          "Throat Chop",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Prankster",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "Pickpocket"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 120,
+        "defense": 65,
+        "specialAttack": 95,
+        "specialDefense": 75,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 255,
+        "baseFriendship": 50,
+        "spawnLevel": 50,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/861_grimmsnarl/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/861_grimmsnarl/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/861_grimmsnarl/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.grimmsnarl"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/861_grimmsnarl/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/861_grimmsnarl/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "DARK",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Morgrem",
+        "Impidimp"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Snooze"
+      },
+      "eggCycles": 21,
+      "weight": 61.0,
+      "catchRate": 45,
+      "malePercentage": 100,
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/861_grimmsnarl/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/861_grimmsnarl/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/861_grimmsnarl/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/861_grimmsnarl/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/861_grimmsnarl/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

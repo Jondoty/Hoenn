@@ -1,0 +1,196 @@
+{
+  "name": "Dottler",
+  "dex": 825,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Light Screen",
+              "Reflect",
+              "Struggle Bug"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Infestation",
+          "Recover",
+          "Sticky Web",
+          "Supersonic"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Imprison",
+          "Payback",
+          "Power Swap",
+          "Guard Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Leech Life",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Bug Buzz",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Stored Power",
+          "Ally Switch",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "CompoundEyes"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 35,
+        "defense": 80,
+        "specialAttack": 50,
+        "specialDefense": 90,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 117,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/825_dottler/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/825_dottler/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/825_dottler/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dottler"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/825_dottler/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/825_dottler/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Blipbug"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 19.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Orbeetle",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

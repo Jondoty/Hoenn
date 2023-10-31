@@ -1,0 +1,540 @@
+{
+  "name": "Audino",
+  "dex": 531,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.45,
+        "width": 1.1,
+        "length": 1,
+        "eyeHeight": 1.45,
+        "hoverHeight": 1.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Play Nice",
+              "Pound"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Simple Beam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Healing Wish",
+          "Sweet Kiss",
+          "Wish",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Dig",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Fling",
+          "Drain Punch",
+          "Trick Room",
+          "Round",
+          "Retaliate",
+          "Draining Kiss",
+          "Misty Terrain",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Low Kick",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Fire Blast",
+          "Amnesia",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail",
+          "Shadow Ball",
+          "Uproar",
+          "Skill Swap",
+          "Hyper Voice",
+          "Calm Mind",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Ally Switch",
+          "Work Up",
+          "Wild Charge",
+          "Dazzling Gleam",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Dream Eater",
+          "Echoed Voice",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Gravity",
+          "Heal Bell",
+          "Hidden Power",
+          "Incinerate",
+          "Knock Off",
+          "Laser Focus",
+          "Lucky Chant",
+          "Magic Coat",
+          "Pain Split",
+          "Power-Up Punch",
+          "Present",
+          "Psych Up",
+          "Refresh",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Signal Beam",
+          "Snatch",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Surf",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Secret Power",
+          "Power-Up Punch",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Charge Beam",
+          "Incinerate",
+          "Retaliate",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Healer",
+          "Regenerator"
+        ],
+        "hiddenAbilities": [
+          "Klutz"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.25,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.25,
+            "z": -0.45
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 103,
+        "attack": 60,
+        "defense": 86,
+        "specialAttack": 60,
+        "specialDefense": 86,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 390,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/531_audino/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/531_audino/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/531_audino/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.audino",
+                "pixelmon.mob.audino",
+                "pixelmon.mob.audino",
+                "pixelmon.mob.audino"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/531_audino/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/531_audino/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:audinite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 31.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.1,
+        "length": 1.1
+      },
+      "abilities": {
+        "abilities": [
+          "Healer"
+        ]
+      },
+      "battleStats": {
+        "hp": 103,
+        "attack": 60,
+        "defense": 126,
+        "specialAttack": 80,
+        "specialDefense": 126,
+        "speed": 50
+      },
+      "types": [
+        "NORMAL",
+        "FAIRY"
+      ],
+      "weight": 32.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/531_audino/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/531_audino/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/531_audino/all/mega/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.audino.mega"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/531_audino/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/531_audino/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 5
+}

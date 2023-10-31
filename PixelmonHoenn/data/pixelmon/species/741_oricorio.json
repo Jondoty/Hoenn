@@ -1,0 +1,390 @@
+{
+  "name": "Oricorio",
+  "dex": 741,
+  "defaultForms": [
+    "baile",
+    "pau",
+    "pompom",
+    "sensu"
+  ],
+  "forms": [
+    {
+      "name": "baile",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Pound"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Peck"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Feather Dance"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Double Slap"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Captivate"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Revelation Dance"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Mirror Move"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hurricane"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Defog",
+          "Helping Hand",
+          "Icy Wind",
+          "Role Play",
+          "Sky Attack",
+          "Snore",
+          "Tailwind"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Pluck",
+          "Safeguard",
+          "Tailwind"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Quash",
+          "Acrobatics",
+          "Embargo",
+          "Swords Dance",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Dancer"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.8,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 70,
+        "specialAttack": 98,
+        "specialDefense": 70,
+        "speed": 93
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 167,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/741_oricorio/all/baile/none/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/baile/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/741_oricorio/all/baile/none/model.pqc"
+                ],
+                "yRotation": 1
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/741_oricorio/all/baile/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/baile/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "FIRE",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 3.4,
+      "catchRate": 45,
+      "malePercentage": 25,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "pompom",
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/741_oricorio/all/pompom/none/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/pompom/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/741_oricorio/all/pompom/none/model.pqc"
+                ],
+                "yRotation": 1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/741_oricorio/all/pompom/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/pompom/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "pau",
+      "types": [
+        "PSYCHIC",
+        "FLYING"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/741_oricorio/all/pau/none/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/pau/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/741_oricorio/all/pau/none/model.pqc"
+                ],
+                "yRotation": 1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/741_oricorio/all/pau/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/pau/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "sensu",
+      "types": [
+        "GHOST",
+        "FLYING"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/741_oricorio/all/sensu/none/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/sensu/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/741_oricorio/all/sensu/none/model.pqc"
+                ],
+                "yRotation": 1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/741_oricorio/all/sensu/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/741_oricorio/all/sensu/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

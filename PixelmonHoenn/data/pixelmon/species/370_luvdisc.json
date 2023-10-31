@@ -1,0 +1,379 @@
+{
+  "name": "Luvdisc",
+  "dex": 370,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charm",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Lucky Chant"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Heart Stamp"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Captivate"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Safeguard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Icy Wind",
+          "Liquidation",
+          "Snore",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Jet",
+          "Aqua Ring",
+          "Brine",
+          "Captivate",
+          "Entrainment",
+          "Heal Pulse",
+          "Mud Sport",
+          "Splash",
+          "Supersonic",
+          "Water Sport"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dive",
+          "Double-Edge",
+          "Endure",
+          "Mimic",
+          "Natural Gift",
+          "Secret Power",
+          "Swift",
+          "Whirlpool"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Psych Up",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "Hydration"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 2,
+          "depthRangeEnd": 20,
+          "swimSpeed": 7,
+          "decayRate": 0.99,
+          "refreshRate": 120,
+          "chanceToStopOnBlock": 0.2,
+          "blocksToStopOn": [
+            "minecraft:TUBE_CORAL_BLOCK",
+            "minecraft:BRAIN_CORAL_BLOCK",
+            "minecraft:BUBBLE_CORAL_BLOCK",
+            "minecraft:FIRE_CORAL_BLOCK",
+            "minecraft:HORN_CORAL_BLOCK"
+          ],
+          "minStopTime": 1,
+          "maxStopTime": 5,
+          "minStopCooldownTime": 15,
+          "maxStopCooldownTime": 30
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 43,
+        "attack": 30,
+        "defense": 55,
+        "specialAttack": 40,
+        "specialDefense": 65,
+        "speed": 97
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 110,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/370_luvdisc/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/370_luvdisc/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/370_luvdisc/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/370_luvdisc/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/370_luvdisc/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 8.7,
+      "catchRate": 225,
+      "malePercentage": 25,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 3
+}

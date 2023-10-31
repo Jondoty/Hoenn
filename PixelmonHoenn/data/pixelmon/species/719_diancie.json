@@ -1,0 +1,416 @@
+{
+  "name": "Diancie",
+  "dex": 719,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Skill Swap"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Diamond Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Misty Explosion",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Sandstorm",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Helping Hand",
+          "Fake Tears",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Guard Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Draining Kiss",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Metronome",
+          "Amnesia",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Power Gem",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Stored Power",
+          "Ally Switch",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Endeavor",
+          "Explosion",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Heal Bell",
+          "Hidden Power",
+          "Last Resort",
+          "Magnet Rise",
+          "Nature Power",
+          "Psych Up",
+          "Return",
+          "Rock Throw",
+          "Secret Power",
+          "Sharpen",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ClearBody"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 100,
+        "defense": 150,
+        "specialAttack": 100,
+        "specialDefense": 150,
+        "speed": 50
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/719_diancie/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/719_diancie/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/719_diancie/all/base/none/model.pqc",
+                  "pixelmon:pokemon/719_diancie/all/base/none/model2.pqc"
+                ],
+                "transparency2": 0.5,
+                "yRotation": 27
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/719_diancie/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/719_diancie/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ROCK",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:diancite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 8.8,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "MagicBounce"
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 160,
+        "defense": 110,
+        "specialAttack": 160,
+        "specialDefense": 110,
+        "speed": 110
+      },
+      "weight": 27.8,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/719_diancie/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/719_diancie/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/719_diancie/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/719_diancie/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/719_diancie/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 6
+}

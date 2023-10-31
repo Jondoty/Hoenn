@@ -1,0 +1,383 @@
+{
+  "name": "Naganadel",
+  "dex": 804,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 6.5,
+        "width": 3.6,
+        "length": 1,
+        "eyeHeight": 6.5,
+        "hoverHeight": 6.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Air Cutter",
+              "Air Slash",
+              "Dragon Pulse",
+              "Growl",
+              "Helping Hand",
+              "Peck"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Venom Drench"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Dual Wingbeat",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "U-turn",
+          "Assurance",
+          "Shadow Claw",
+          "Cross Poison",
+          "Venoshock",
+          "Round",
+          "Hex",
+          "Acrobatics",
+          "Snarl",
+          "Air Slash",
+          "Smart Strike",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Fire Blast",
+          "Leech Life",
+          "Substitute",
+          "Sludge Bomb",
+          "Spikes",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Heat Wave",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Dark Pulse",
+          "X-Scissor",
+          "Dragon Pulse",
+          "Nasty Plot",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Ally Switch",
+          "Venom Drench",
+          "Throat Chop"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Dragon Tail",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Return",
+          "Shock Wave",
+          "Signal Beam",
+          "Sky Attack",
+          "Sky Drop",
+          "Snatch",
+          "Tailwind"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Sky Drop",
+          "Acrobatics",
+          "Shadow Claw",
+          "Smart Strike",
+          "Fly",
+          "X-Scissor",
+          "Dragon Tail",
+          "Poison Jab",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": 0.0
+          },
+          "moving": {
+            "x": -0.1,
+            "y": -3.2,
+            "z": 0.1
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 73,
+        "attack": 73,
+        "defense": 73,
+        "specialAttack": 127,
+        "specialDefense": 73,
+        "speed": 121
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 243,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/804_naganadel/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/804_naganadel/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/804_naganadel/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.naganadel"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/804_naganadel/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/804_naganadel/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "POISON",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Poipole"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 150.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

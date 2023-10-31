@@ -1,0 +1,237 @@
+{
+  "name": "Flittle",
+  "dex": 955,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.2,
+        "length": 1.0,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Peck"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Uproar"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ally Switch",
+          "Hypnosis",
+          "Roost"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Disarming Voice",
+          "Pounce",
+          "Facade",
+          "Swift",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Psyshock",
+          "Zen Headbutt",
+          "U-turn",
+          "Foul Play",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Light Screen",
+          "Rest",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Psychic",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Psychic Terrain",
+          "Trick Room",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Anticipation",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "SpeedBoost"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 35,
+        "defense": 30,
+        "specialAttack": 55,
+        "specialDefense": 30,
+        "speed": 75
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 51,
+        "baseFriendship": 50,
+        "spawnLevel": 17,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/955_flittle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/955_flittle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/955_flittle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/955_flittle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 1.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Espathra",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Lumina Crash"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 9
+}

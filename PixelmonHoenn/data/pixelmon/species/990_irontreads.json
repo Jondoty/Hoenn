@@ -1,0 +1,249 @@
+{
+  "name": "IronTreads",
+  "dex": 990,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Electric Terrain",
+              "Horn Attack",
+              "Rollout"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Giga Impact"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Steel Roller"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Thunder Fang",
+          "Ice Fang",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Rock Tomb",
+          "Volt Switch",
+          "Sandstorm",
+          "Smart Strike",
+          "Zen Headbutt",
+          "Body Slam",
+          "Electro Ball",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Flash Cannon",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Ice Spinner",
+          "Earth Power",
+          "Electric Terrain",
+          "Wild Charge",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Thunder",
+          "Steel Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "QuarkDrive"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 112,
+        "defense": 120,
+        "specialAttack": 72,
+        "specialDefense": 70,
+        "speed": 106
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/990_irontreads/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/990_irontreads/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/990_irontreads/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/990_irontreads/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GROUND",
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 240.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "defense": 3
+      }
+    }
+  ],
+  "generation": 9
+}

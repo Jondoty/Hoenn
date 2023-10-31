@@ -1,0 +1,599 @@
+{
+  "name": "Magikarp",
+  "dex": 129,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Splash"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Flail"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Bounce"
+        ],
+        "trMoves": [
+          "Hydro Pump"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Celebrate",
+          "Happy Hour"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "Rattled"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 20,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 55,
+        "specialAttack": 15,
+        "specialDefense": 20,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 20,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "MALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/129_magikarp/male/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.05,
+                "yRotation": 24.3
+              },
+              "sounds": [
+                "pixelmon.mob.magikarp",
+                "pixelmon.mob.magikarp",
+                "pixelmon.mob.magikarp",
+                "pixelmon.mob.magikarp"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valencian",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/valencian/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/valencian/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "skelly",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/skelly/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/skelly/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_white",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/calico_orange_white/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/calico_orange_white/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_white_black",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/calico_orange_white_black/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/calico_orange_white_black/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_white_orange",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/calico_white_orange/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/calico_white_orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_gold",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/calico_orange_gold/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/calico_orange_gold/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_twotone",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/orange_twotone/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/orange_twotone/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_orca",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/orange_orca/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/orange_orca/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_dapples",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/orange_dapples/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/orange_dapples/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_twotone",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/pink_twotone/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/pink_twotone/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_orca",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/pink_orca/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/pink_orca/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_dapples",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/pink_dapples/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/pink_dapples/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_bubbles",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/gray_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/gray_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_diamonds",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/gray_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/gray_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_patches",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/gray_patches/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/gray_patches/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_bubbles",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/purple_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/purple_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_diamonds",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/purple_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/purple_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_patches",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/purple_patches/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/purple_patches/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_tiger",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/apricot_tiger/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/apricot_tiger/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_zebra",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/apricot_zebra/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/apricot_zebra/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_stripes",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/apricot_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/apricot_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_tiger",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/brown_tiger/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/brown_tiger/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_zebra",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/brown_zebra/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/brown_zebra/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_stripes",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/brown_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/brown_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_forehead",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/orange_forehead/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/orange_forehead/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_mask",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/orange_mask/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/orange_mask/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "black_forehead",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/black_forehead/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/black_forehead/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "black_mask",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/black_mask/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/black_mask/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue_saucy",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/blue_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/blue_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue_raindrops",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/blue_raindrops/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/blue_raindrops/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet_saucy",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/violet_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/violet_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet_raindrops",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/violet_raindrops/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/violet_raindrops/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "roasted",
+              "texture": "pixelmon:pokemon/129_magikarp/male/base/roasted/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/male/base/roasted/sprite.png",
+              "particle": ""
+            }
+          ]
+        },
+        {
+          "gender": "FEMALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/129_magikarp/female/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.05,
+                "yRotation": 24.3
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valencian",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/valencian/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/valencian/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "skelly",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/skelly/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/skelly/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_white",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/calico_orange_white/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/calico_orange_white/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_white_black",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/calico_orange_white_black/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/calico_orange_white_black/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_white_orange",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/calico_white_orange/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/calico_white_orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_gold",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/calico_orange_gold/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/calico_orange_gold/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_twotone",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/orange_twotone/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/orange_twotone/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_orca",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/orange_orca/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/orange_orca/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_dapples",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/orange_dapples/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/orange_dapples/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_twotone",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/pink_twotone/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/pink_twotone/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_orca",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/pink_orca/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/pink_orca/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_dapples",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/pink_dapples/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/pink_dapples/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_bubbles",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/gray_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/gray_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_diamonds",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/gray_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/gray_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_patches",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/gray_patches/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/gray_patches/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_bubbles",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/purple_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/purple_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_diamonds",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/purple_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/purple_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_patches",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/purple_patches/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/purple_patches/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_tiger",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/apricot_tiger/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/apricot_tiger/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_zebra",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/apricot_zebra/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/apricot_zebra/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_stripes",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/apricot_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/apricot_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_tiger",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/brown_tiger/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/brown_tiger/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_zebra",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/brown_zebra/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/brown_zebra/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_stripes",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/brown_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/brown_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_forehead",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/orange_forehead/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/orange_forehead/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_mask",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/orange_mask/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/orange_mask/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "black_forehead",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/black_forehead/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/black_forehead/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "black_mask",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/black_mask/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/black_mask/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue_saucy",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/blue_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/blue_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue_raindrops",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/blue_raindrops/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/blue_raindrops/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet_saucy",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/violet_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/violet_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet_raindrops",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/violet_raindrops/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/violet_raindrops/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "roasted",
+              "texture": "pixelmon:pokemon/129_magikarp/female/base/roasted/texture.png",
+              "sprite": "pixelmon:pokemon/129_magikarp/female/base/roasted/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO",
+        "DRAGON"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 6,
+      "weight": 10.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Gyarados",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Bite"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 1
+}

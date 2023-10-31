@@ -1,0 +1,390 @@
+{
+  "name": "Diggersby",
+  "dex": 660,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Laser Focus",
+              "Leer",
+              "Mud-Slap",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Rollout"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Bounce",
+          "Mud Shot",
+          "U-turn",
+          "Payback",
+          "Fling",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Surf",
+          "Low Kick",
+          "Earthquake",
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Superpower",
+          "Bulk Up",
+          "Earth Power",
+          "Gunk Shot",
+          "Iron Head",
+          "Stone Edge",
+          "Grass Knot",
+          "Foul Play",
+          "Work Up",
+          "Wild Charge",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Cut",
+          "Double Slap",
+          "Double Team",
+          "Endeavor",
+          "Focus Punch",
+          "Frustration",
+          "Gastro Acid",
+          "Hidden Power",
+          "Knock Off",
+          "Last Resort",
+          "Nature Power",
+          "Odor Sleuth",
+          "Power-Up Punch",
+          "Recycle",
+          "Return",
+          "Rock Smash",
+          "Rototiller",
+          "Secret Power",
+          "Smack Down",
+          "Snatch",
+          "Strength",
+          "Swagger",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Brutal Swing",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Nature Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Pickup",
+          "CheekPouch"
+        ],
+        "hiddenAbilities": [
+          "HugePower"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.57,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.57,
+            "z": -0.4
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 56,
+        "defense": 77,
+        "specialAttack": 50,
+        "specialDefense": 77,
+        "speed": 78
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 148,
+        "baseFriendship": 0,
+        "spawnLevel": 21,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/660_diggersby/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/660_diggersby/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/660_diggersby/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.diggersby"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/660_diggersby/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/660_diggersby/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Bunnelby"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 42.4,
+      "catchRate": 127,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 6
+}

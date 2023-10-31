@@ -1,0 +1,506 @@
+{
+  "name": "Darkrai",
+  "dex": 491,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Disable",
+              "Ominous Wind"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Nightmare"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Dark Void"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Dream Eater"
+            ]
+          },
+          {
+            "level": 93,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Drain Punch",
+          "Focus Punch",
+          "Foul Play",
+          "Icy Wind",
+          "Knock Off",
+          "Last Resort",
+          "Shock Wave",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Throat Chop",
+          "Trick",
+          "Wonder Room"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Cut",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Incinerate",
+          "Mud-Slap",
+          "Natural Gift",
+          "Night Shade",
+          "Phantom Force",
+          "Power-Up Punch",
+          "Pursuit",
+          "Retaliate",
+          "Roar of Time",
+          "Rock Smash",
+          "Secret Power",
+          "Spacial Rend",
+          "Strength",
+          "Sucker Punch",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Thief",
+          "Snatch",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Dark Pulse",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "BadDreams"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.1,
+            "z": -0.35
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.1,
+            "z": -0.35
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 90,
+        "specialAttack": 135,
+        "specialDefense": 90,
+        "speed": 125
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/491_darkrai/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/491_darkrai/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/491_darkrai/all/base/none/model.pqc"
+                ],
+                "yRotation": 25.5
+              },
+              "sounds": [
+                "pixelmon.mob.darkrai",
+                "pixelmon.mob.darkrai"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/491_darkrai/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/491_darkrai/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DARK"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 50.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 2,
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 4
+}

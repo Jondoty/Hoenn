@@ -1,0 +1,275 @@
+{
+  "name": "Yungoos",
+  "dex": 734,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Odor Sleuth"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bide"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Hyper Fang"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Rest"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Iron Tail",
+          "Last Resort",
+          "Shock Wave",
+          "Snore",
+          "Stomping Tantrum",
+          "Super Fang",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Fire Fang",
+          "Ice Fang",
+          "Last Resort",
+          "Revenge",
+          "Thunder Fang"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Payback",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Stakeout",
+          "StrongJaw"
+        ],
+        "hiddenAbilities": [
+          "Adaptability"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 48,
+        "attack": 70,
+        "defense": 30,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 51,
+        "baseFriendship": 70,
+        "spawnLevel": 2,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/734_yungoos/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/734_yungoos/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/734_yungoos/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/734_yungoos/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/734_yungoos/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 6.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Gumshoos",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 7
+}

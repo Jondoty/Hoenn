@@ -1,0 +1,508 @@
+{
+  "name": "Omastar",
+  "dex": 139,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bind",
+              "Crunch",
+              "Rollout",
+              "Sand Attack",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Shell Smash"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Aurora Beam",
+          "Bide",
+          "Bubble Beam",
+          "Haze",
+          "Knock Off",
+          "Muddy Water",
+          "Reflect Type",
+          "Slam",
+          "Spikes",
+          "Supersonic",
+          "Toxic Spikes",
+          "Water Pulse",
+          "Whirlpool",
+          "Wring Out"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Rock Tomb",
+          "Mud Shot",
+          "Rock Blast",
+          "Brine",
+          "Round"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Muddy Water",
+          "Iron Defense",
+          "Gyro Ball",
+          "Toxic Spikes",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Scald",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Constrict",
+          "Curse",
+          "Double Team",
+          "Double-Edge",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Horn Attack",
+          "Horn Drill",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Reflect",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Rock Throw",
+          "Secret Power",
+          "Seismic Toss",
+          "Skull Bash",
+          "Smack Down",
+          "Spike Cannon",
+          "Submission",
+          "Swagger",
+          "Take Down",
+          "Toxic",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Brine",
+          "Endure",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Horn Drill",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Submission",
+          "Seismic Toss",
+          "Rage",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "WeakArmor"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 6,
+          "depthRangeEnd": 30,
+          "swimSpeed": 10,
+          "decayRate": 0.97,
+          "refreshRate": 80,
+          "chanceToStopOnBlock": 0.3,
+          "blocksToStopOn": [
+            "minecraft:SAND",
+            "minecraft:SEA_PICKLE"
+          ],
+          "minStopTime": 8,
+          "maxStopTime": 12,
+          "minStopCooldownTime": 20,
+          "maxStopCooldownTime": 30,
+          "canRotateWhileStopped": true
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 125,
+        "specialAttack": 115,
+        "specialDefense": 70,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 199,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/139_omastar/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/139_omastar/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/139_omastar/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.omastar"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/139_omastar/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/139_omastar/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/139_omastar/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/139_omastar/all/base/drowned/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_THREE"
+      ],
+      "types": [
+        "ROCK",
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Omanyte"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 31,
+      "weight": 35.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 1
+}

@@ -1,0 +1,323 @@
+{
+  "name": "Phione",
+  "dex": 489,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bubble",
+              "Water Sport"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 69,
+            "attacks": [
+              "Rain Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Covet",
+          "Heal Bell",
+          "Helping Hand",
+          "Icy Wind",
+          "Knock Off",
+          "Last Resort",
+          "Liquidation",
+          "Signal Beam",
+          "Snore",
+          "Uproar",
+          "Water Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Brine",
+          "Endure",
+          "Mud-Slap",
+          "Natural Gift",
+          "Secret Power",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Fling",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Fling",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Fling",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Brine",
+          "Fling",
+          "Endure",
+          "Psych Up",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hydration"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 15,
+          "depthRangeEnd": 100,
+          "swimSpeed": 10,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 80,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 80
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/489_phione/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/489_phione/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/489_phione/all/base/none/model.pqc"
+                ],
+                "yRotation": 19
+              },
+              "sounds": [
+                "pixelmon.mob.phione",
+                "pixelmon.mob.phione"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/489_phione/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/489_phione/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FAIRY"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 3.1,
+      "catchRate": 30,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 4
+}

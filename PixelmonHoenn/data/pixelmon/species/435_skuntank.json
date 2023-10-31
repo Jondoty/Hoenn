@@ -1,0 +1,445 @@
+{
+  "name": "Skuntank",
+  "dex": 435,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Feint",
+              "Flamethrower",
+              "Poison Gas",
+              "Scratch",
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Venom Drench"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Corrosive Gas",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Double-Edge",
+          "Haze",
+          "Leer",
+          "Slash",
+          "Smog"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Fire Spin",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Payback",
+          "Assurance",
+          "Shadow Claw",
+          "Venoshock",
+          "Round",
+          "Hex",
+          "Tail Slap",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Shadow Ball",
+          "Taunt",
+          "Poison Jab",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Foul Play",
+          "Play Rough",
+          "Venom Drench",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Defog",
+          "Double Team",
+          "Flame Burst",
+          "Frustration",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "Hone Claws",
+          "Incinerate",
+          "Mud-Slap",
+          "Natural Gift",
+          "Punishment",
+          "Pursuit",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Snatch",
+          "Strength",
+          "Swagger",
+          "Torment"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Incinerate",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Incinerate",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch",
+          "Endure",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Stench",
+          "Aftermath"
+        ],
+        "hiddenAbilities": [
+          "KeenEye"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 103,
+        "attack": 93,
+        "defense": 67,
+        "specialAttack": 71,
+        "specialDefense": 61,
+        "speed": 84
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 209,
+        "baseFriendship": 70,
+        "spawnLevel": 36,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/435_skuntank/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/435_skuntank/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/435_skuntank/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.skuntank"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/435_skuntank/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/435_skuntank/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "POISON",
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Stunky"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 38.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 4
+}

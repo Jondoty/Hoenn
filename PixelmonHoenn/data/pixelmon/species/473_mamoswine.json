@@ -1,0 +1,423 @@
+{
+  "name": "Mamoswine",
+  "dex": 473,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.45,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.45,
+        "hoverHeight": 1.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ancient Power",
+              "Double Hit",
+              "Flail",
+              "Ice Fang",
+              "Mud-Slap",
+              "Powder Snow",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Ice Shard"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ancient Power",
+          "Bite",
+          "Curse",
+          "Double-Edge",
+          "Fissure",
+          "Freeze-Dry",
+          "Icicle Crash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Icicle Spear",
+          "Mud Shot",
+          "Rock Blast",
+          "Avalanche",
+          "Ice Fang",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Earth Power",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Captivate",
+          "Charm",
+          "Confide",
+          "Defense Curl",
+          "Detect",
+          "Double Team",
+          "Endeavor",
+          "Frustration",
+          "Fury Attack",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "Horn Attack",
+          "Knock Off",
+          "Mimic",
+          "Mud Bomb",
+          "Mud Sport",
+          "Natural Gift",
+          "Odor Sleuth",
+          "Peck",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Giga Impact",
+          "Stone Edge",
+          "Avalanche",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Oblivious",
+          "SnowCloak"
+        ],
+        "hiddenAbilities": [
+          "ThickFat"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 110,
+        "attack": 130,
+        "defense": 80,
+        "specialAttack": 70,
+        "specialDefense": 60,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 207,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/473_mamoswine/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/473_mamoswine/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/473_mamoswine/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.mamoswine",
+                "pixelmon.mob.mamoswine",
+                "pixelmon.mob.mamoswine",
+                "pixelmon.mob.mamoswine"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/473_mamoswine/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/473_mamoswine/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ICE",
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Piloswine",
+        "Swinub"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 291.0,
+      "catchRate": 50,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 4
+}

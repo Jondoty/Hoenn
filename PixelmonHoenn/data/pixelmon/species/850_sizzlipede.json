@@ -1,0 +1,242 @@
+{
+  "name": "Sizzlipede",
+  "dex": 850,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Wrap"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Fire Lash"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Burn Up"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Knock Off",
+          "Rollout",
+          "Struggle Bug"
+        ],
+        "tmMoves8": [
+          "Fire Spin",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Venoshock",
+          "Round",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Heat Wave",
+          "Bug Buzz",
+          "Power Whip",
+          "Scald",
+          "Heat Crash"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlashFire",
+          "WhiteSmoke"
+        ],
+        "hiddenAbilities": [
+          "FlameBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 45,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 50,
+        "spawnLevel": 5,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/850_sizzlipede/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/850_sizzlipede/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/850_sizzlipede/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sizzlipede"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/850_sizzlipede/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/850_sizzlipede/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "FIRE",
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 1.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 28,
+          "to": "Centiskorch",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

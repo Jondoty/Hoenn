@@ -1,0 +1,316 @@
+{
+  "name": "Bewear",
+  "dex": 760,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.6,
+        "width": 2.1,
+        "length": 1,
+        "eyeHeight": 2.6,
+        "hoverHeight": 2.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baby-Doll Eyes",
+              "Bind",
+              "Leer",
+              "Payback",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Strength"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Force Palm",
+          "Rollout",
+          "Stomp"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Low Sweep",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Low Kick",
+          "Earthquake",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Superpower",
+          "Dragon Claw",
+          "Bulk Up",
+          "Close Combat",
+          "Focus Blast",
+          "Zen Headbutt",
+          "Iron Head",
+          "Work Up",
+          "Darkest Lariat",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Confide",
+          "Double Team",
+          "Dual Chop",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Return",
+          "Roar",
+          "Role Play",
+          "Swagger",
+          "Toxic",
+          "Wide Guard"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Fluffy",
+          "Klutz"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.6,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.6,
+            "z": 0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 120,
+        "attack": 125,
+        "defense": 80,
+        "specialAttack": 55,
+        "specialDefense": 60,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 40,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/760_bewear/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/760_bewear/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/760_bewear/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/760_bewear/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/760_bewear/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Stufful"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 135.0,
+      "catchRate": 70,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

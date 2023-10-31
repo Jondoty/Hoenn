@@ -1,0 +1,468 @@
+{
+  "name": "Croconaw",
+  "dex": 159,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rage"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Chip Away"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Block",
+          "Focus Punch",
+          "Ice Punch",
+          "Icy Wind",
+          "Iron Tail",
+          "Low Kick",
+          "Snore",
+          "Spite",
+          "Superpower",
+          "Uproar",
+          "Water Pledge",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Aqua Jet",
+          "Block",
+          "Crunch",
+          "Dragon Dance",
+          "Fake Tears",
+          "Flatter",
+          "Hydro Pump",
+          "Ice Punch",
+          "Metal Claw",
+          "Mud Sport",
+          "Thrash",
+          "Water Pulse",
+          "Water Sport"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Counter",
+          "Curse",
+          "Cut",
+          "Detect",
+          "Dig",
+          "Dive",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Endure",
+          "Fury Cutter",
+          "Headbutt",
+          "Hone Claws",
+          "Hydro Cannon",
+          "Mega Kick",
+          "Mega Punch",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Razor Wind",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Whirlpool"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Fling",
+          "Shadow Claw",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Fling",
+          "Shadow Claw",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Fling",
+          "Shadow Claw",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Endure",
+          "Shadow Claw",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 80,
+        "specialAttack": 59,
+        "specialDefense": 63,
+        "speed": 58
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 143,
+        "baseFriendship": 70,
+        "spawnLevel": 18,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/159_croconaw/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/159_croconaw/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/159_croconaw/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.croconaw",
+                "pixelmon.mob.croconaw"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/159_croconaw/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/159_croconaw/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Totodile"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 25.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Feraligatr",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 2
+}

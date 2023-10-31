@@ -1,0 +1,306 @@
+{
+  "name": "Palossand",
+  "dex": 770,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.3,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Astonish",
+              "Harden",
+              "Sand Tomb"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Shore Up"
+            ]
+          },
+          {
+            "level": 68,
+            "attacks": [
+              "Sandstorm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist",
+          "Scorching Sands",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Curse",
+          "Destiny Bond",
+          "Spit Up",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "Brine",
+          "Fling",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Psychic",
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Energy Ball",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Block",
+          "Confide",
+          "Double Team",
+          "Embargo",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Infestation",
+          "Pain Split",
+          "Quash",
+          "Recycle",
+          "Return",
+          "Rock Polish",
+          "Role Play",
+          "Spite",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Quash",
+          "Embargo",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterCompaction"
+        ],
+        "hiddenAbilities": [
+          "SandVeil"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.15,
+            "z": -0.47
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.15,
+            "z": -0.47
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 75,
+        "defense": 110,
+        "specialAttack": 100,
+        "specialDefense": 75,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 70,
+        "spawnLevel": 42,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/770_palossand/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/770_palossand/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/770_palossand/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.palossand"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/770_palossand/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/770_palossand/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Sandygast"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 250.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

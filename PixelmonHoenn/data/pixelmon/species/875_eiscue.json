@@ -1,0 +1,286 @@
+{
+  "name": "Eiscue",
+  "dex": 875,
+  "defaultForms": [
+    "ice_face"
+  ],
+  "forms": [
+    {
+      "name": "ice_face",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Powder Snow",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Weather Ball"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Freeze-Dry"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Hail"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Aurora Veil"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aqua Ring",
+          "Belly Drum",
+          "Double-Edge",
+          "Head Smash",
+          "Icicle Crash",
+          "Soak"
+        ],
+        "tmMoves8": [
+          "Ice Punch",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Weather Ball",
+          "Icicle Spear",
+          "Brine",
+          "Avalanche",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Agility",
+          "Waterfall",
+          "Amnesia",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Zen Headbutt",
+          "Iron Head",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IceFace"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 50,
+        "spawnLevel": 22,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/875_eiscue/all/ice_face/none/texture.png",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/ice_face/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/875_eiscue/all/ice_face/none/model1.pqc",
+                  "pixelmon:pokemon/875_eiscue/all/ice_face/none/model2.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/875_eiscue/all/ice_face/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/ice_face/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 89.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    },
+    {
+      "name": "noice_face",
+      "tags": [
+        "temp"
+      ],
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 130
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/875_eiscue/all/noice_face/none/texture.png",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/noice_face/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/875_eiscue/all/noice_face/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/875_eiscue/all/noice_face/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/875_eiscue/all/noice_face/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

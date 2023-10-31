@@ -1,0 +1,448 @@
+{
+  "name": "Skiploom",
+  "dex": 188,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Splash",
+              "Synthesis",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Poison Powder"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sleep Powder"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rage Powder"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Memento"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Giga Drain",
+          "Helping Hand",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Amnesia",
+          "Aromatherapy",
+          "Confusion",
+          "Cotton Guard",
+          "Double-Edge",
+          "Encore",
+          "Endure",
+          "Grassy Terrain",
+          "Helping Hand",
+          "Seed Bomb",
+          "Strength Sap",
+          "Worry Seed"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Curse",
+          "Defense Curl",
+          "Flash",
+          "Growl",
+          "Headbutt",
+          "Mimic",
+          "Natural Gift",
+          "Pay Day",
+          "Secret Power",
+          "Silver Wind",
+          "Sweet Scent"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Acrobatics",
+          "Swords Dance",
+          "Psych Up",
+          "Infestation",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Acrobatics",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Infestation",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Acrobatics",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Endure",
+          "Silver Wind",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Sweet Scent",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll",
+          "LeafGuard"
+        ],
+        "hiddenAbilities": [
+          "Infiltrator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 15,
+          "flySpeedModifier": 0.3,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 400,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 45,
+        "defense": 50,
+        "specialAttack": 45,
+        "specialDefense": 65,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 136,
+        "baseFriendship": 70,
+        "spawnLevel": 18,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/188_skiploom/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/188_skiploom/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/188_skiploom/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/188_skiploom/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/188_skiploom/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Hoppip"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 1.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 27,
+          "to": "Jumpluff",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 2
+}

@@ -1,0 +1,355 @@
+{
+  "name": "Gigalith",
+  "dex": 526,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Power Gem",
+              "Sand Attack",
+              "Stealth Rock",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Autotomize",
+          "Curse",
+          "Gravity",
+          "Take Down",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Weather Ball",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "Power Gem",
+          "Earth Power",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Throat Chop",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Lock-On",
+          "Magnitude",
+          "Nature Power",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy",
+          "SandStream"
+        ],
+        "hiddenAbilities": [
+          "SandForce"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.4
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 135,
+        "defense": 130,
+        "specialAttack": 60,
+        "specialDefense": 80,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 227,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/526_gigalith/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/526_gigalith/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/526_gigalith/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/526_gigalith/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/526_gigalith/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [
+        "Boldore",
+        "Roggenrola"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 260.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

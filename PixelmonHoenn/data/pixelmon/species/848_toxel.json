@@ -1,0 +1,215 @@
+{
+  "name": "Toxel",
+  "dex": 848,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Belch",
+              "Flail",
+              "Growl",
+              "Nuzzle",
+              "Tearful Look"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Metal Sound",
+          "Power-Up Punch"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Round"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Rattled",
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "Klutz"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 38,
+        "defense": 35,
+        "specialAttack": 54,
+        "specialDefense": 35,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 48,
+        "baseFriendship": 50,
+        "spawnLevel": 5,
+        "spawnLevelRange": 22,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/848_toxel/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/848_toxel/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/848_toxel/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.toxel"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/848_toxel/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/848_toxel/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC",
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 11.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Toxtricity form:amped",
+          "conditions": [
+            {
+              "natures": [
+                "HARDY",
+                "BRAVE",
+                "ADAMANT",
+                "NAUGHTY",
+                "DOCILE",
+                "IMPISH",
+                "LAX",
+                "HASTY",
+                "JOLLY",
+                "NAIVE",
+                "RASH",
+                "SASSY",
+                "QUIRKY"
+              ],
+              "evoConditionType": "nature"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Spark"
+          ]
+        },
+        {
+          "level": 30,
+          "to": "Toxtricity form:lowkey",
+          "conditions": [
+            {
+              "natures": [
+                "LONELY",
+                "BOLD",
+                "RELAXED",
+                "TIMID",
+                "SERIOUS",
+                "MODEST",
+                "MILD",
+                "QUIET",
+                "BASHFUL",
+                "CALM",
+                "GENTLE",
+                "CAREFUL"
+              ],
+              "evoConditionType": "nature"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Spark"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

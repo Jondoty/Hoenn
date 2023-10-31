@@ -1,0 +1,228 @@
+{
+  "name": "Hattrem",
+  "dex": 857,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Brutal Swing",
+              "Confusion",
+              "Disarming Voice",
+              "Life Dew",
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Healing Wish"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "After You",
+          "Aromatic Mist",
+          "Nuzzle",
+          "Quash"
+        ],
+        "tmMoves8": [
+          "Magical Leaf",
+          "Thunder Wave",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Imprison",
+          "Round",
+          "Draining Kiss",
+          "Mystical Fire",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Skill Swap",
+          "Calm Mind",
+          "Dark Pulse",
+          "Stored Power",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Healer",
+          "Anticipation"
+        ],
+        "hiddenAbilities": [
+          "MagicBounce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 57,
+        "attack": 40,
+        "defense": 65,
+        "specialAttack": 86,
+        "specialDefense": 73,
+        "speed": 49
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 130,
+        "baseFriendship": 50,
+        "spawnLevel": 34,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/857_hattrem/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/857_hattrem/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/857_hattrem/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/857_hattrem/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/857_hattrem/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Hatenna"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 4.8,
+      "catchRate": 120,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "level": 42,
+          "to": "Hatterene",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

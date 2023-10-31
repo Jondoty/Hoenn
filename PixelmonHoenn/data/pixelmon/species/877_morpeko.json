@@ -1,0 +1,303 @@
+{
+  "name": "Morpeko",
+  "dex": 877,
+  "defaultForms": [
+    "fullbelly"
+  ],
+  "forms": [
+    {
+      "name": "fullbelly",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tail Whip",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Power Trip"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Aura Wheel"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Charge",
+          "Fake Out",
+          "Parting Shot",
+          "Quash",
+          "Rapid Spin",
+          "Super Fang",
+          "Swagger",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Thunder Punch",
+          "Thunder Wave",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Brick Break",
+          "Fake Tears",
+          "Bullet Seed",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Thunder Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Round",
+          "Volt Switch",
+          "Electroweb",
+          "Snarl",
+          "Electric Terrain",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Nasty Plot",
+          "Electro Ball",
+          "Foul Play",
+          "Wild Charge",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HungerSwitch"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 58,
+        "attack": 95,
+        "defense": 58,
+        "specialAttack": 70,
+        "specialDefense": 58,
+        "speed": 97
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 153,
+        "baseFriendship": 50,
+        "spawnLevel": 37,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/877_morpeko/all/fullbelly/none/texture.png",
+              "sprite": "pixelmon:pokemon/877_morpeko/all/fullbelly/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/877_morpeko/all/fullbelly/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/877_morpeko/all/fullbelly/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/877_morpeko/all/fullbelly/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "FAIRY"
+      ],
+      "types": [
+        "ELECTRIC",
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 3.0,
+      "catchRate": 180,
+      "malePercentage": 50,
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "hangry",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/877_morpeko/all/hangry/none/texture.png",
+              "sprite": "pixelmon:pokemon/877_morpeko/all/hangry/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/877_morpeko/all/hangry/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/877_morpeko/all/hangry/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/877_morpeko/all/hangry/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

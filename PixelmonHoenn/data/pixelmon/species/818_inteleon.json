@@ -1,0 +1,296 @@
+{
+  "name": "Inteleon",
+  "dex": 818,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acrobatics",
+              "Bind",
+              "Growl",
+              "Pound",
+              "Snipe Shot",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Tearful Look"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Hydro Cannon",
+          "Scale Shot",
+          "Water Pledge"
+        ],
+        "eggMoves": [
+          "Aqua Jet",
+          "Aqua Ring",
+          "Double Team",
+          "Fell Stinger",
+          "Haze",
+          "Ice Shard",
+          "Mist"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Dive",
+          "Weather Ball",
+          "Icicle Spear",
+          "Bounce",
+          "Mud Shot",
+          "U-turn",
+          "Fling",
+          "Round",
+          "Acrobatics",
+          "Air Slash",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Agility",
+          "Focus Energy",
+          "Metronome",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Muddy Water",
+          "Dark Pulse",
+          "Scald",
+          "Work Up",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "Sniper"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 65,
+        "specialAttack": 125,
+        "specialDefense": 65,
+        "speed": 120
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 265,
+        "baseFriendship": 50,
+        "spawnLevel": 35,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/818_inteleon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/818_inteleon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/818_inteleon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.inteleon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/818_inteleon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/818_inteleon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Drizzile",
+        "Sobble"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Hydrosnipe"
+      },
+      "eggCycles": 21,
+      "weight": 45.2,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "speed": 3
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/818_inteleon/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/818_inteleon/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/818_inteleon/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/818_inteleon/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/818_inteleon/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

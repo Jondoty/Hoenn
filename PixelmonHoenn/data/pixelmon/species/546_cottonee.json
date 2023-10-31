@@ -1,0 +1,366 @@
+{
+  "name": "Cottonee",
+  "dex": 546,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Poison Powder"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Solar Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Memento",
+          "Nature Power",
+          "Switcheroo",
+          "Tickle",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Beat Up",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fake Tears",
+          "Round",
+          "Grassy Terrain",
+          "Misty Terrain"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Taunt",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Defog",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Grass Whistle",
+          "Hidden Power",
+          "Knock Off",
+          "Natural Gift",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Tailwind",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Prankster",
+          "Infiltrator"
+        ],
+        "hiddenAbilities": [
+          "Chlorophyll"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 27,
+        "defense": 60,
+        "specialAttack": 37,
+        "specialDefense": 50,
+        "speed": 66
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 56,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/546_cottonee/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/546_cottonee/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/546_cottonee/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.cottonee",
+                "pixelmon.mob.cottonee",
+                "pixelmon.mob.cottonee"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/546_cottonee/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/546_cottonee/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "types": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.6,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:sun_stone"
+          },
+          "to": "Whimsicott",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

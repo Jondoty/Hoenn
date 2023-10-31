@@ -1,0 +1,241 @@
+{
+  "name": "Yamper",
+  "dex": 835,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.34,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.34,
+        "hoverHeight": 0.34
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Nuzzle"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Play Rough"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Discharge",
+          "Double-Edge",
+          "Flame Charge",
+          "Howl",
+          "Sand Attack"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Volt Switch",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Uproar",
+          "Electro Ball",
+          "Wild Charge",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BallFetch"
+        ],
+        "hiddenAbilities": [
+          "Rattled"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 59,
+        "attack": 45,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 26
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 54,
+        "baseFriendship": 50,
+        "spawnLevel": 19,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/835_yamper/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/835_yamper/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/835_yamper/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.yamper",
+                "pixelmon.mob.yamper",
+                "pixelmon.mob.yamper"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/835_yamper/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/835_yamper/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/835_yamper/all/base/strike/texture.png",
+              "sprite": "pixelmon:pokemon/835_yamper/all/base/strike/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Boltund",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 8
+}

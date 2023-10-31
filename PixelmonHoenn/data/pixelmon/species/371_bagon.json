@@ -1,0 +1,413 @@
+{
+  "name": "Bagon",
+  "dex": 371,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Leer"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Dragon Rush",
+          "Thrash",
+          "Twister"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Shadow Claw",
+          "Fire Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Hyper Voice",
+          "Iron Defense",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Zen Headbutt"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dragon Rage",
+          "Frustration",
+          "Fury Cutter",
+          "Hidden Power",
+          "Hone Claws",
+          "Incinerate",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Rage",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Wish"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Shadow Claw",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Incinerate",
+          "Shadow Claw",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Incinerate",
+          "Shadow Claw",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Dragon Pulse",
+          "Shadow Claw",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RockHead"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 75,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 30,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 89,
+        "baseFriendship": 35,
+        "spawnLevel": 5,
+        "spawnLevelRange": 24,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/371_bagon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/371_bagon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/371_bagon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bagon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/371_bagon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/371_bagon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/371_bagon/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/371_bagon/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 42.1,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Shelgon",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Protect"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,282 @@
+{
+  "name": "Trumbeak",
+  "dex": 732,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Echoed Voice",
+              "Growl",
+              "Peck",
+              "Rock Blast",
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Feather Dance"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Defog",
+          "Gunk Shot",
+          "Heat Wave",
+          "Hyper Voice",
+          "Knock Off",
+          "Sky Attack",
+          "Snore",
+          "Tailwind",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Boomburst",
+          "Brave Bird",
+          "Mirror Move",
+          "Tailwind",
+          "Uproar"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Swords Dance",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "SkillLink"
+        ],
+        "hiddenAbilities": [
+          "Pickup"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.4,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 85,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 124,
+        "baseFriendship": 70,
+        "spawnLevel": 16,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/732_trumbeak/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/732_trumbeak/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/732_trumbeak/all/base/none/model.pqc"
+                ],
+                "yRotation": 19
+              },
+              "sounds": [
+                "pixelmon.mob.trumbeak"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/732_trumbeak/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/732_trumbeak/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Pikipek"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 14.8,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 28,
+          "to": "Toucannon",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Beak Blast"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

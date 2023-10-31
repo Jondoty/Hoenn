@@ -1,0 +1,380 @@
+{
+  "name": "Squawkabilly",
+  "dex": 931,
+  "defaultForms": [
+    "green",
+    "blue",
+    "yellow",
+    "white"
+  ],
+  "forms": [
+    {
+      "name": "green",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1.0,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Mimic",
+              "Peck"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Copycat"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Fly"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Facade"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Brave Bird"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Reversal"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Double-Edge",
+          "Final Gambit",
+          "Flatter",
+          "Parting Shot"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Fake Tears",
+          "Scary Face",
+          "Protect",
+          "Thief",
+          "Pounce",
+          "Facade",
+          "Aerial Ace",
+          "Air Cutter",
+          "Endure",
+          "Sunny Day",
+          "U-turn",
+          "Foul Play",
+          "Air Slash",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Fly",
+          "Substitute",
+          "Tailwind",
+          "Hyper Voice",
+          "Heat Wave",
+          "Helping Hand",
+          "Reversal",
+          "Giga Impact",
+          "Hurricane",
+          "Hyper Beam",
+          "Brave Bird",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "Guts"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 82,
+        "attack": 96,
+        "defense": 51,
+        "specialAttack": 45,
+        "specialDefense": 51,
+        "speed": 92
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 146,
+        "baseFriendship": 50,
+        "spawnLevel": 12,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/green/none/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/green/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/green/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/green/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 2.4,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1
+      }
+    },
+    {
+      "name": "blue",
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "Guts"
+        ]
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/blue/none/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/blue/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/blue/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/blue/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "yellow",
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/yellow/none/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/yellow/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/yellow/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/yellow/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "white",
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/white/none/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/white/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/931_squawkabilly/all/white/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/931_squawkabilly/all/white/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 9
+}

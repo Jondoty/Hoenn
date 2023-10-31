@@ -1,0 +1,246 @@
+{
+  "name": "Morgrem",
+  "dex": 860,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Confide",
+              "Fake Out",
+              "False Surrender",
+              "Flatter"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Foul Play"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Lash Out"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Revenge",
+          "Fake Tears",
+          "Assurance",
+          "Drain Punch",
+          "Shadow Claw",
+          "Round",
+          "Retaliate",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Low Kick",
+          "Metronome",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Foul Play",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Prankster",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "Pickpocket"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 45,
+        "specialAttack": 75,
+        "specialDefense": 55,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 130,
+        "baseFriendship": 50,
+        "spawnLevel": 34,
+        "spawnLevelRange": 4,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/860_morgrem/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/860_morgrem/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/860_morgrem/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.morgrem",
+                "pixelmon.mob.morgrem"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/860_morgrem/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/860_morgrem/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "DARK",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Impidimp"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 12.5,
+      "catchRate": 120,
+      "evolutions": [
+        {
+          "level": 42,
+          "to": "Grimmsnarl",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "malePercentage": 100,
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,371 @@
+{
+  "name": "Dwebble",
+  "dex": 557,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fury Cutter",
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Shell Smash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Rock Wrecker"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Block",
+          "Counter",
+          "Curse",
+          "Knock Off",
+          "Night Slash",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Earthquake",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Poison Jab",
+          "X-Scissor",
+          "Stone Edge",
+          "Stealth Rock"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Nature Power",
+          "Return",
+          "Rock Smash",
+          "Rototiller",
+          "Secret Power",
+          "Strength",
+          "Struggle Bug",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "WeakArmor"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 85,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 65,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 29,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/557_dwebble/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/557_dwebble/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/557_dwebble/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dwebble",
+                "pixelmon.mob.dwebble",
+                "pixelmon.mob.dwebble"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/557_dwebble/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/557_dwebble/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG",
+        "MINERAL"
+      ],
+      "types": [
+        "BUG",
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 14.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Crustle",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

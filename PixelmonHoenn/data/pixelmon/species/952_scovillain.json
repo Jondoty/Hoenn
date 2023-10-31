@@ -1,0 +1,254 @@
+{
+  "name": "Scovillain",
+  "dex": 952,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1.0,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fire Fang",
+              "Flamethrower",
+              "Leafage",
+              "Leer",
+              "Spicy Extract"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Overheat",
+              "Solar Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ingrain",
+          "Leech Seed",
+          "Rage Powder",
+          "Rollout",
+          "Worry Seed"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Magical Leaf",
+          "Endure",
+          "Sunny Day",
+          "Sandstorm",
+          "Bullet Seed",
+          "Zen Headbutt",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Stomping Tantrum",
+          "Rest",
+          "Substitute",
+          "Will-O-Wisp",
+          "Crunch",
+          "Giga Drain",
+          "Energy Ball",
+          "Flamethrower",
+          "Helping Hand",
+          "Grassy Terrain",
+          "Fire Blast",
+          "Giga Impact",
+          "Overheat",
+          "Leaf Storm",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll",
+          "Insomnia"
+        ],
+        "hiddenAbilities": [
+          "Moody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 108,
+        "defense": 65,
+        "specialAttack": 108,
+        "specialDefense": 65,
+        "speed": 75
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 50,
+        "spawnLevel": 27,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/952_scovillain/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/952_scovillain/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.scovillain"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/952_scovillain/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/952_scovillain/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Capsakid"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 15.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

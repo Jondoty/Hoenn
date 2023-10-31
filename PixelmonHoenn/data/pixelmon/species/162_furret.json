@@ -1,0 +1,489 @@
+{
+  "name": "Furret",
+  "dex": 162,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Agility",
+              "Coil",
+              "Defense Curl",
+              "Foresight",
+              "Quick Attack",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Follow Me"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Me First"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Covet",
+          "Fire Punch",
+          "Focus Punch",
+          "Helping Hand",
+          "Hyper Voice",
+          "Ice Punch",
+          "Iron Tail",
+          "Knock Off",
+          "Last Resort",
+          "Shock Wave",
+          "Snore",
+          "Super Fang",
+          "Thunder Punch",
+          "Trick",
+          "Uproar",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Assist",
+          "Baby-Doll Eyes",
+          "Captivate",
+          "Charm",
+          "Covet",
+          "Double-Edge",
+          "Focus Energy",
+          "Iron Tail",
+          "Last Resort",
+          "Natural Gift",
+          "Pursuit",
+          "Reversal",
+          "Slash",
+          "Trick"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Curse",
+          "Cut",
+          "Detect",
+          "Dig",
+          "Dynamic Punch",
+          "Endure",
+          "Fury Cutter",
+          "Headbutt",
+          "Hone Claws",
+          "Mimic",
+          "Mud-Slap",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Strength",
+          "Swift",
+          "Tackle",
+          "Whirlpool"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Shadow Claw",
+          "Retaliate",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Shadow Claw",
+          "Retaliate",
+          "Giga Impact",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Shadow Claw",
+          "Giga Impact",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Thunder Punch",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fire Punch",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "Frisk"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 76,
+        "defense": 64,
+        "specialAttack": 45,
+        "specialDefense": 55,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 116,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/162_furret/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/162_furret/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/162_furret/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.furret",
+                "pixelmon.mob.furret",
+                "pixelmon.mob.furret"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/162_furret/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/162_furret/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Sentret"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 32.5,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 2
+}

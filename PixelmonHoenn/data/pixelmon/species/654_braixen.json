@@ -1,0 +1,341 @@
+{
+  "name": "Braixen",
+  "dex": 654,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Scratch",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Lucky Chant"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Magic Room"
+            ]
+          },
+          {
+            "level": 59,
+            "attacks": [
+              "Fire Blast"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Covet",
+          "Fire Pledge",
+          "Fire Punch",
+          "Foul Play",
+          "Heat Wave",
+          "Iron Tail",
+          "Laser Focus",
+          "Low Kick",
+          "Magic Coat",
+          "Magic Room",
+          "Recycle",
+          "Shock Wave",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Telekinesis",
+          "Thunder Punch",
+          "Trick",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Heat Wave",
+          "Hypnosis",
+          "Magic Coat",
+          "Psychic Terrain",
+          "Wish"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Incinerate",
+          "Power-Up Punch",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Will-O-Wisp",
+          "Embargo",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Magician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 59,
+        "attack": 59,
+        "defense": 58,
+        "specialAttack": 90,
+        "specialDefense": 70,
+        "speed": 73
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 143,
+        "baseFriendship": 0,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/654_braixen/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/654_braixen/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/654_braixen/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "yRotation": 24.1
+              },
+              "sounds": [
+                "pixelmon.mob.braixen",
+                "pixelmon.mob.braixen",
+                "pixelmon.mob.braixen"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/654_braixen/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/654_braixen/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Fennekin"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 14.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Delphox",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Mystical Fire"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 6
+}

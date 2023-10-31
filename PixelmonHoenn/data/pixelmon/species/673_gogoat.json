@@ -1,0 +1,331 @@
+{
+  "name": "Gogoat",
+  "dex": 673,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.7,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aerial Ace",
+              "Earthquake",
+              "Growth",
+              "Tackle",
+              "Tail Whip",
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Horn Leech"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Milk Drink"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Giga Drain",
+          "Iron Tail",
+          "Seed Bomb",
+          "Snore",
+          "Stomping Tantrum",
+          "Superpower",
+          "Synthesis",
+          "Worry Seed",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Grassy Terrain",
+          "Milk Drink",
+          "Rollout"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SapSipper"
+        ],
+        "hiddenAbilities": [
+          "GrassPelt"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.1,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.1,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 123,
+        "attack": 100,
+        "defense": 62,
+        "specialAttack": 97,
+        "specialDefense": 81,
+        "speed": 68
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 186,
+        "baseFriendship": 0,
+        "spawnLevel": 33,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/673_gogoat/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/673_gogoat/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/673_gogoat/all/base/none/model.pqc"
+                ],
+                "yOffset": 0.63
+              },
+              "sounds": [
+                "pixelmon.mob.gogoat"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/673_gogoat/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/673_gogoat/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Skiddo"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 91.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,531 @@
+{
+  "name": "Kingler",
+  "dex": 99,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hammer Arm",
+              "Harden",
+              "Leer",
+              "Metal Claw",
+              "Water Gun",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Razor Shell"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Crabhammer"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Guillotine"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ancient Power",
+          "Hammer Arm",
+          "Knock Off",
+          "Night Slash",
+          "Slash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Brick Break",
+          "Dive",
+          "Rock Tomb",
+          "Mud Shot",
+          "Brine",
+          "Fling",
+          "Round",
+          "Razor Shell",
+          "False Swipe",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Agility",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "X-Scissor",
+          "Ally Switch",
+          "Scald",
+          "High Horsepower",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Bubble",
+          "Captivate",
+          "Chip Away",
+          "Confide",
+          "Curse",
+          "Cut",
+          "Double Team",
+          "Double-Edge",
+          "Frustration",
+          "Fury Cutter",
+          "Haze",
+          "Headbutt",
+          "Hidden Power",
+          "Hone Claws",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Quash",
+          "Rage",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Take Down",
+          "Tickle",
+          "Toxic",
+          "Vise Grip",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Quash",
+          "Giga Impact",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Quash",
+          "Giga Impact",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Quash",
+          "Giga Impact",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "False Swipe",
+          "Brine",
+          "Fling",
+          "Endure",
+          "Giga Impact",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [
+          "Swords Dance",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Rage",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HyperCutter",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 25,
+          "depthRangeEnd": 60,
+          "swimSpeed": 7,
+          "decayRate": 0.8,
+          "refreshRate": 300,
+          "chanceToStopOnBlock": 1,
+          "blocksToStopOn": [
+            "minecraft:SAND",
+            "minecraft:GRAVEL"
+          ],
+          "minStopTime": 20,
+          "maxStopTime": 60,
+          "minStopCooldownTime": 5,
+          "maxStopCooldownTime": 15,
+          "canRotateWhileStopped": false
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 130,
+        "defense": 115,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 206,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 22,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/099_kingler/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/099_kingler/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/099_kingler/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kingler"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/099_kingler/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/099_kingler/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Krabby"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Foam Burst"
+      },
+      "eggCycles": 21,
+      "weight": 60.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/099_kingler/all/gmax/none/texture.png",
+              "emissive": "pixelmon:pokemon/099_kingler/all/gmax/none/emissive.png",
+              "sprite": "pixelmon:pokemon/099_kingler/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/099_kingler/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/099_kingler/all/gmax/shiny/texture.png",
+              "emissive": "pixelmon:pokemon/099_kingler/all/gmax/none/emissive.png",
+              "sprite": "pixelmon:pokemon/099_kingler/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

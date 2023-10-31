@@ -1,0 +1,506 @@
+{
+  "name": "Landorus",
+  "dex": 645,
+  "defaultForms": [
+    "incarnate"
+  ],
+  "forms": [
+    {
+      "name": "incarnate",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Rock Throw",
+              "Sand Tomb"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Block"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Fissure"
+            ]
+          }
+        ],
+        "tutorMoves": [
+
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Brick Break",
+          "Imprison",
+          "Weather Ball",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "U-turn",
+          "Payback",
+          "Fling",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Sludge Bomb",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Superpower",
+          "Bulk Up",
+          "Calm Mind",
+          "Focus Blast",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Sludge Wave"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Explosion",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Knock Off",
+          "Punishment",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Smack Down",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Brutal Swing",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Fly",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "SandForce"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 15,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 89,
+        "attack": 125,
+        "defense": 90,
+        "specialAttack": 115,
+        "specialDefense": 80,
+        "speed": 101
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 90,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/645_landorus/all/incarnate/none/texture.png",
+              "sprite": "pixelmon:pokemon/645_landorus/all/incarnate/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.landorus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/645_landorus/all/incarnate/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/645_landorus/all/incarnate/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GROUND",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 68.0,
+      "catchRate": 3,
+      "malePercentage": 100,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "therian",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.6,
+        "length": 1.6
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate"
+        ]
+      },
+      "battleStats": {
+        "hp": 89,
+        "attack": 145,
+        "defense": 90,
+        "specialAttack": 105,
+        "specialDefense": 80,
+        "speed": 91
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/645_landorus/all/therian/none/texture.png",
+              "sprite": "pixelmon:pokemon/645_landorus/all/therian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/645_landorus/all/therian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/645_landorus/all/therian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/645_landorus/all/therian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

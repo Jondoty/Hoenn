@@ -1,0 +1,265 @@
+{
+  "name": "Lechonk",
+  "dex": 915,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Spit Up",
+          "Stockpile",
+          "Stuff Cheeks",
+          "Swallow"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Thief",
+          "Disarming Voice",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Bullet Seed",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Rest",
+          "Iron Head",
+          "Substitute",
+          "Hyper Voice",
+          "Play Rough",
+          "Helping Hand",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "AromaVeil",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "ThickFat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 54,
+        "attack": 45,
+        "defense": 40,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 51,
+        "baseFriendship": 50,
+        "spawnLevel": 2,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/915_lechonk/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/915_lechonk/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/915_lechonk/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lechonk"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/915_lechonk/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/915_lechonk/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 10.2,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 18,
+          "to": "Oinkologne form:male",
+          "conditions": [
+            {
+              "genders": [
+                "MALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling"
+        },
+        {
+          "level": 18,
+          "to": "Oinkologne form:female",
+          "conditions": [
+            {
+              "genders": [
+                "FEMALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 9
+}

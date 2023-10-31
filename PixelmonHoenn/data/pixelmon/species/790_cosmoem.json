@@ -1,0 +1,169 @@
+{
+  "name": "Cosmoem",
+  "dex": 790,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Cosmic Power",
+              "Teleport"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [
+          "Cosmic Power"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 43,
+        "attack": 29,
+        "defense": 131,
+        "specialAttack": 29,
+        "specialDefense": 131,
+        "speed": 37
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 80,
+        "baseFriendship": 70,
+        "spawnLevel": 45,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/790_cosmoem/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/790_cosmoem/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/790_cosmoem/all/base/none/model.pqc",
+                  "pixelmon:pokemon/790_cosmoem/all/base/none/model1.pqc"
+                ],
+                "transparency2": 0.4
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/790_cosmoem/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/790_cosmoem/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Cosmog"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 999.9,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "level": 53,
+          "to": "Solgaleo",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Sunsteel Strike"
+          ]
+        },
+        {
+          "level": 53,
+          "to": "Lunala",
+          "conditions": [
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Moongeist Beam"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 7
+}

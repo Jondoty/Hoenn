@@ -1,0 +1,288 @@
+{
+  "name": "Annihilape",
+  "dex": 979,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Counter",
+              "Fling",
+              "Focus Energy",
+              "Leer",
+              "Scratch",
+              "Shadow Punch"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Seismic Toss"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Cross Chop"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Rage Fist"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Final Gambit"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Beat Up",
+          "Counter",
+          "Curse",
+          "Encore",
+          "Night Slash",
+          "Spite"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Acrobatics",
+          "Thief",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Rock Tomb",
+          "Low Sweep",
+          "Night Shade",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Brick Break",
+          "U-turn",
+          "Shadow Claw",
+          "Bulk Up",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Drain Punch",
+          "Metronome",
+          "Poison Jab",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Gunk Shot",
+          "Substitute",
+          "Shadow Ball",
+          "Stealth Rock",
+          "Encore",
+          "Thunderbolt",
+          "Helping Hand",
+          "Reversal",
+          "Earthquake",
+          "Stone Edge",
+          "Phantom Force",
+          "Giga Impact",
+          "Outrage",
+          "Overheat",
+          "Focus Blast",
+          "Hyper Beam",
+          "Thunder",
+          "Close Combat", 
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VitalSpirit",
+          "InnerFocus"
+        ],
+        "hiddenAbilities": [
+          "Defiant"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 10,
+        "aggressive": 90
+      },
+      "battleStats": {
+        "hp": 110,
+        "attack": 115,
+        "defense": 80,
+        "specialAttack": 50,
+        "specialDefense": 90,
+        "speed": 90
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 268,
+        "baseFriendship": 50,
+        "spawnLevel": 45,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/979_annihilape/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/979_annihilape/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.annihilape"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/979_annihilape/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/979_annihilape/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIGHTING",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Primeape",
+        "Mankey"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 56.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

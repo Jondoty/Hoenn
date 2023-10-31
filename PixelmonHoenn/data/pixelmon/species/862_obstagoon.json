@@ -1,0 +1,297 @@
+{
+  "name": "Obstagoon",
+  "dex": 862,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.8,
+        "length": 1,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baby-Doll Eyes",
+              "Cross Chop",
+              "Leer",
+              "Lick",
+              "Night Slash",
+              "Obstruct",
+              "Pin Missile",
+              "Sand Attack",
+              "Submission",
+              "Switcheroo",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Knock Off",
+          "Parting Shot",
+          "Quick Guard"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Fake Tears",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Cross Poison",
+          "Round",
+          "Retaliate",
+          "Snarl",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Low Kick",
+          "Thunderbolt",
+          "Thunder",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Taunt",
+          "Trick",
+          "Hyper Voice",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Seed Bomb",
+          "X-Scissor",
+          "Gunk Shot",
+          "Grass Knot",
+          "Work Up",
+          "Throat Chop",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Reckless",
+          "Guts"
+        ],
+        "hiddenAbilities": [
+          "Defiant"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.81,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.81,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 93,
+        "attack": 90,
+        "defense": 101,
+        "specialAttack": 60,
+        "specialDefense": 81,
+        "speed": 95
+      },
+      "tags": [
+        "galarian"
+      ],
+      "spawn": {
+        "baseExp": 260,
+        "baseFriendship": 50,
+        "spawnLevel": 42,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/862_obstagoon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/862_obstagoon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/862_obstagoon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.obstagoon",
+                "pixelmon.mob.obstagoon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/862_obstagoon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/862_obstagoon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Linoone",
+        "Zigzagoon"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 46.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evYields": {
+        "defense": 3
+      }
+    }
+  ],
+  "generation": 8
+}

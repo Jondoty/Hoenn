@@ -1,0 +1,267 @@
+{
+  "name": "Dracozolt",
+  "dex": 880,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Bolt Beak"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Meteor Beam",
+          "Rising Voltage"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Fire Spin",
+          "Thunder Wave",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Rock Tomb",
+          "Rock Blast",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Low Kick",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Fire Blast",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Taunt",
+          "Dragon Claw",
+          "Dragon Pulse",
+          "Earth Power",
+          "Stone Edge",
+          "Electro Ball",
+          "Wild Charge",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VoltAbsorb",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "SandRush"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.45
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.45
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 90,
+        "specialAttack": 80,
+        "specialDefense": 70,
+        "speed": 75
+      },
+      "tags": [
+        "threeivs"
+      ],
+      "spawn": {
+        "baseExp": 177,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/880_dracozolt/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/880_dracozolt/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/880_dracozolt/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dracozolt"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/880_dracozolt/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/880_dracozolt/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 190.0,
+      "catchRate": 45,
+      "malePercentage": -1.0,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

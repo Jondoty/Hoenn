@@ -1,0 +1,286 @@
+{
+  "name": "Tsareena",
+  "dex": 763,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Flail",
+              "Play Nice",
+              "Power Whip",
+              "Rapid Spin",
+              "Razor Leaf",
+              "Splash",
+              "Swagger",
+              "Trop Kick"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Aromatic Mist"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "High Jump Kick"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Acupressure",
+          "Endeavor",
+          "Synthesis"
+        ],
+        "tmMoves8": [
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Bounce",
+          "U-turn",
+          "Payback",
+          "Fling",
+          "Low Sweep",
+          "Round",
+          "Acrobatics",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Low Kick",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Seed Bomb",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Leaf Storm",
+          "Power Whip",
+          "Grass Knot",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Feint",
+          "Frustration",
+          "Grass Whistle",
+          "Hidden Power",
+          "Knock Off",
+          "Laser Focus",
+          "Nature Power",
+          "Punishment",
+          "Return",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LeafGuard",
+          "QueenlyMajesty"
+        ],
+        "hiddenAbilities": [
+          "SweetVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 120,
+        "defense": 98,
+        "specialAttack": 50,
+        "specialDefense": 98,
+        "speed": 72
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 230,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 30,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/763_tsareena/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/763_tsareena/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/763_tsareena/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/763_tsareena/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/763_tsareena/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Bounsweet",
+        "Steenee"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 21.4,
+      "catchRate": 45,
+      "malePercentage": 0,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

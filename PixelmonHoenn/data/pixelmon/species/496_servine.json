@@ -1,0 +1,347 @@
+{
+  "name": "Servine",
+  "dex": 496,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.15,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.15,
+        "hoverHeight": 1.15
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle",
+              "Vine Whip",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Wrap"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Leaf Tornado"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Wring Out"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bind",
+          "Defog",
+          "Gastro Acid",
+          "Giga Drain",
+          "Grass Pledge",
+          "Iron Tail",
+          "Knock Off",
+          "Seed Bomb",
+          "Snatch",
+          "Snore",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Glare",
+          "Grassy Terrain",
+          "Iron Tail",
+          "Magical Leaf",
+          "Mean Look",
+          "Mirror Coat",
+          "Natural Gift",
+          "Pursuit",
+          "Sweet Scent",
+          "Twister"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aromatherapy",
+          "Cut",
+          "Flash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 75,
+        "specialAttack": 60,
+        "specialDefense": 75,
+        "speed": 83
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 145,
+        "baseFriendship": 70,
+        "spawnLevel": 17,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/496_servine/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/496_servine/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/496_servine/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/496_servine/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/496_servine/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Snivy"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 16.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Serperior",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

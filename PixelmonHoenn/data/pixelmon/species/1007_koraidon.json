@@ -1,0 +1,281 @@
+{
+  "name": "Koraidon",
+  "dex": 1007,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.8,
+        "length": 1.0,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Breaking Swipe",
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Drain Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Collision Course"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 98,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Low Kick",
+          "Acrobatics",
+          "Fire Spin",
+          "Facade",
+          "Bulldoze",
+          "Snarl",
+          "Mud Shot",
+          "Flame Charge",
+          "Low Sweep",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Dig",
+          "Brick Break",
+          "Zen Headbutt",
+          "U-turn",
+          "Shadow Claw",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Drain Punch",
+          "Dragon Claw",
+          "Stomping Tantrum",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Body Press",
+          "Iron Head",
+          "Substitute",
+          "Crunch",
+          "Dragon Pulse",
+          "Heat Wave",
+          "Heavy Slam",
+          "Flamethrower",
+          "Helping Hand",
+          "Reversal",
+          "Fire Blast",
+          "Wild Charge",
+          "Giga Impact",
+          "Outrage",
+          "Overheat",
+          "Focus Blast",
+          "Hyper Beam",
+          "Flare Blitz",
+          "Close Combat",
+          "Solar Beam",
+          "Draco Meteor",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "OrichalcumPulse"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 135,
+        "defense": 115,
+        "specialAttack": 85,
+        "specialDefense": 100,
+        "speed": 135
+      },
+      "tags": [
+        "undexable",
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 335,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1007_koraidon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1007_koraidon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.koraidon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1007_koraidon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1007_koraidon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIGHTING",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 303.0,
+      "catchRate": 3,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

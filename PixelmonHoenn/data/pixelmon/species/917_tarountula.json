@@ -1,0 +1,252 @@
+{
+  "name": "Tarountula",
+  "dex": 917,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "String Shot",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Block"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Circle Throw"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Skitter Smack"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "First Impression",
+          "Lunge",
+          "Memento",
+          "Sucker Punch"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Struggle Bug",
+          "Thief",
+          "Trailblaze",
+          "Pounce",
+          "Facade",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Bullet Seed",
+          "False Swipe",
+          "Shadow Claw",
+          "Body Slam",
+          "Sleep Talk",
+          "Grass Knot",
+          "Poison Jab",
+          "Rest",
+          "Spikes",
+          "Toxic Spikes",
+          "Leech Life",
+          "Substitute",
+          "X-Scissor",
+          "Giga Drain",
+          "Bug Buzz",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Insomnia"
+        ],
+        "hiddenAbilities": [
+          "Stakeout"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 35,
+        "attack": 41,
+        "defense": 45,
+        "specialAttack": 29,
+        "specialDefense": 40,
+        "speed": 20
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 42,
+        "baseFriendship": 50,
+        "spawnLevel": 5,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/917_tarountula/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/917_tarountula/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/917_tarountula/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/917_tarountula/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 4.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 15,
+          "to": "Spidops",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Silk Trap"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 9
+}

@@ -1,0 +1,330 @@
+{
+  "name": "Primarina",
+  "dex": 730,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1.3,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Disarming Voice",
+              "Growl",
+              "Pound",
+              "Sparkling Aria",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sing"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Misty Terrain"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Flip Turn",
+          "Hydro Cannon",
+          "Misty Explosion",
+          "Triple Axel",
+          "Water Pledge"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Life Dew",
+          "Perish Song"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Helping Hand",
+          "Dive",
+          "Weather Ball",
+          "Brine",
+          "Wonder Room",
+          "Round",
+          "Acrobatics",
+          "Draining Kiss",
+          "Misty Terrain"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Psychic",
+          "Waterfall",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail",
+          "Shadow Ball",
+          "Uproar",
+          "Hyper Voice",
+          "Calm Mind",
+          "Energy Ball",
+          "Stored Power",
+          "Scald",
+          "Work Up",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aqua Tail",
+          "Aromatic Mist",
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Magic Coat",
+          "Psych Up",
+          "Return",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Scald",
+          "Acrobatics",
+          "Giga Impact",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "LiquidVoice"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -1.0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 30,
+          "swimSpeed": 25,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 74,
+        "defense": 74,
+        "specialAttack": 126,
+        "specialDefense": 116,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 239,
+        "baseFriendship": 70,
+        "spawnLevel": 36,
+        "spawnLevelRange": 30,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/730_primarina/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/730_primarina/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/730_primarina/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.primarina"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/730_primarina/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/730_primarina/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "WATER",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Brionne",
+        "Popplio"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 44.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

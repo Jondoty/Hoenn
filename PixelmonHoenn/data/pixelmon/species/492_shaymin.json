@@ -1,0 +1,615 @@
+{
+  "name": "Shaymin",
+  "dex": 492,
+  "defaultForms": [
+    "land"
+  ],
+  "forms": [
+    {
+      "name": "land",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.25,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.25,
+        "hoverHeight": 0.25
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 73,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 82,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Healing Wish"
+            ]
+          },
+          {
+            "level": 100,
+            "attacks": [
+              "Seed Flare"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Earth Power",
+          "Endeavor",
+          "Giga Drain",
+          "Laser Focus",
+          "Last Resort",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Worry Seed",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Slash",
+          "Bullet Seed",
+          "Celebrate",
+          "Defense Curl",
+          "Endure",
+          "Flash",
+          "Grass Whistle",
+          "Headbutt",
+          "Lucky Chant",
+          "Mud-Slap",
+          "Secret Power",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Energy Ball",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "NaturalCure"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 100,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/492_shaymin/all/land/none/texture.png",
+              "sprite": "pixelmon:pokemon/492_shaymin/all/land/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/492_shaymin/all/land/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.shaymin"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/492_shaymin/all/land/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/492_shaymin/all/land/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/492_shaymin/all/land/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/492_shaymin/all/land/christmas/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 2.1,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    },
+    {
+      "name": "sky",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 73,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 82,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          },
+          {
+            "level": 100,
+            "attacks": [
+              "Seed Flare"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Earth Power",
+          "Endeavor",
+          "Giga Drain",
+          "Laser Focus",
+          "Last Resort",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Worry Seed",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Slash",
+          "Bullet Seed",
+          "Celebrate",
+          "Defense Curl",
+          "Endure",
+          "Flash",
+          "Grass Whistle",
+          "Headbutt",
+          "Lucky Chant",
+          "Mud-Slap",
+          "Secret Power",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Energy Ball",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SereneGrace"
+        ]
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 103,
+        "defense": 75,
+        "specialAttack": 120,
+        "specialDefense": 75,
+        "speed": 127
+      },
+      "types": [
+        "GRASS",
+        "FLYING"
+      ],
+      "weight": 5.2,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/492_shaymin/all/sky/none/texture.png",
+              "sprite": "pixelmon:pokemon/492_shaymin/all/sky/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/492_shaymin/all/sky/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/492_shaymin/all/sky/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/492_shaymin/all/sky/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/492_shaymin/all/sky/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/492_shaymin/all/sky/christmas/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 4
+}

@@ -1,0 +1,309 @@
+{
+  "name": "Skiddo",
+  "dex": 672,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growth",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Horn Leech"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Milk Drink"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Giga Drain",
+          "Iron Tail",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Worry Seed",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Grassy Terrain",
+          "Milk Drink",
+          "Rollout"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SapSipper"
+        ],
+        "hiddenAbilities": [
+          "GrassPelt"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 66,
+        "attack": 65,
+        "defense": 48,
+        "specialAttack": 62,
+        "specialDefense": 57,
+        "speed": 52
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 70,
+        "baseFriendship": 0,
+        "spawnLevel": 19,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/672_skiddo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/672_skiddo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/672_skiddo/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/672_skiddo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/672_skiddo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 31.0,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 32,
+          "to": "Gogoat",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Aerial Ace"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 6
+}

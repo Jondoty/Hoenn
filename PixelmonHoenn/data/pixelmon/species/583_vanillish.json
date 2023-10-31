@@ -1,0 +1,328 @@
+{
+  "name": "Vanillish",
+  "dex": 583,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Harden",
+              "Mist",
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Avalanche"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hail"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Icicle Spear"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Ice Beam"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aurora Veil",
+          "Autotomize",
+          "Explosion",
+          "Ice Shard",
+          "Icicle Crash",
+          "Magnet Rise"
+        ],
+        "tmMoves8": [
+          "Light Screen",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Imprison",
+          "Icicle Spear",
+          "Avalanche",
+          "Round"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Blizzard",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Flash Cannon",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Frost Breath",
+          "Frustration",
+          "Hidden Power",
+          "Magic Coat",
+          "Mirror Shot",
+          "Natural Gift",
+          "Powder Snow",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Frost Breath",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Frost Breath",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Frost Breath",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IceBody",
+          "SnowCloak"
+        ],
+        "hiddenAbilities": [
+          "WeakArmor"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 51,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 75,
+        "speed": 59
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 138,
+        "baseFriendship": 70,
+        "spawnLevel": 36,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/583_vanillish/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/583_vanillish/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/583_vanillish/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/583_vanillish/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/583_vanillish/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [
+        "Vanillite"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 41.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 47,
+          "to": "Vanilluxe",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

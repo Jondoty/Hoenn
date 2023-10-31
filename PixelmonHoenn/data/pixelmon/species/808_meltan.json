@@ -1,0 +1,207 @@
+{
+  "name": "Meltan",
+  "dex": 808,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.22,
+        "width": 0.2,
+        "length": 1,
+        "eyeHeight": 0.22,
+        "hoverHeight": 0.22
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Facade",
+          "Round"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Gyro Ball",
+          "Flash Cannon"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Rest",
+          "Protect",
+          "Substitute",
+          "Thunder Wave",
+          "Toxic",
+          "Thunderbolt",
+          "Flash Cannon"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MagnetPull"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 100,
+        "passive": 0,
+        "aggressive": 0
+      },
+      "battleStats": {
+        "hp": 46,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 55,
+        "specialDefense": 35,
+        "speed": 34
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 135,
+        "baseFriendship": 0,
+        "spawnLevel": 5,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/808_meltan/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/808_meltan/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/808_meltan/all/base/none/model.pqc"
+                ],
+                "yRotation": 23.95
+              },
+              "sounds": [
+                "pixelmon.mob.meltan"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/808_meltan/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/808_meltan/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 8.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "to": "Melmetal",
+          "conditions": [
+            {
+              "nuggets": 400,
+              "evoConditionType": "nuggets"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Thunder Punch"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 7
+}

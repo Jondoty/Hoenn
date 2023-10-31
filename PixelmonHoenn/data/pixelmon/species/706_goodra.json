@@ -1,0 +1,560 @@
+{
+  "name": "Goodra",
+  "dex": 706,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Acid Spray",
+              "Aqua Tail",
+              "Dragon Breath",
+              "Feint",
+              "Poison Tail",
+              "Tackle",
+              "Tearful Look",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Power Whip"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Life Dew"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Weather Ball",
+          "Mud Shot",
+          "Assurance",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Fire Blast",
+          "Substitute",
+          "Sludge Bomb",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Superpower",
+          "Muddy Water",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Power Whip",
+          "Sludge Wave",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Acid Armor",
+          "Bide",
+          "Bubble",
+          "Confide",
+          "Double Team",
+          "Dragon Tail",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Infestation",
+          "Laser Focus",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Brutal Swing",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Incinerate",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SapSipper",
+          "Hydration"
+        ],
+        "hiddenAbilities": [
+          "Gooey"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.65,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.65,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 70,
+        "specialAttack": 110,
+        "specialDefense": 150,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 51,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/706_goodra/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/706_goodra/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/706_goodra/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.goodra"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/706_goodra/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/706_goodra/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Sliggoo",
+        "Goomy"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 150.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 3
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Bubble",
+              "Shelter"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Dragon Pulse",
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Shelter"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bulldoze",
+          "Draco Meteor",
+          "Fire Punch",
+          "Flamethrower",
+          "Giga Impact",
+          "Hyper Beam",
+          "Ice Beam",
+          "Iron Head",
+          "Iron Tail",
+          "Outrage",
+          "Rest",
+          "Rock Slide",
+          "Rock Smash",
+          "Sludge Bomb",
+          "Steel Beam",
+          "Thunder Punch",
+          "Thunderbolt",
+          "Water Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SapSipper",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "Gooey"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.65,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.65,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 110,
+        "specialDefense": 150,
+        "speed": 60
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 51,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/706_goodra/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/706_goodra/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/706_goodra/all/hisuian/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.goodra"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/706_goodra/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/706_goodra/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "DRAGON"
+      ],
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Goomy"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 334.1,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 6
+}

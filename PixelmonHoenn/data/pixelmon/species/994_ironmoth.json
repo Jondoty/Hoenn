@@ -1,0 +1,271 @@
+{
+  "name": "IronMoth",
+  "dex": 994,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid Spray",
+              "Electric Terrain",
+              "Ember",
+              "Gust",
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Sludge Wave"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Fiery Dance"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Morning Sun"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Hurricane"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Overheat"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Acid Spray",
+          "Acrobatics",
+          "Struggle Bug",
+          "Confuse Ray",
+          "Pounce",
+          "Charge Beam",
+          "Fire Spin",
+          "Facade",
+          "Swift",
+          "Flame Charge",
+          "Venoshock",
+          "Endure",
+          "Sunny Day",
+          "U-turn",
+          "Air Slash",
+          "Sleep Talk",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Rest",
+          "Toxic Spikes",
+          "Flash Cannon",
+          "Substitute",
+          "Heat Wave",
+          "Energy Ball",
+          "Psychic",
+          "Flamethrower",
+          "Helping Hand",
+          "Electric Terrain",
+          "Fire Blast",
+          "Giga Impact",
+          "Overheat",
+          "Hurricane",
+          "Bug Buzz",
+          "Hyper Beam",
+          "Flare Blitz",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "QuarkDrive"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 60,
+        "specialAttack": 140,
+        "specialDefense": 110,
+        "speed": 110
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/994_ironmoth/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/994_ironmoth/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/994_ironmoth/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.ironmoth"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/994_ironmoth/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/994_ironmoth/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIRE",
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 36.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

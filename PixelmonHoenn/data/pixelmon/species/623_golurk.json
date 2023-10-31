@@ -1,0 +1,495 @@
+{
+  "name": "Golurk",
+  "dex": 623,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.8,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 2.8,
+        "hoverHeight": 2.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Defense Curl",
+              "Focus Punch",
+              "High Horsepower",
+              "Mud-Slap",
+              "Pound"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Shadow Punch"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Mega Punch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Dig",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Rain Dance",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Imprison",
+          "Rock Tomb",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Bulldoze",
+          "Phantom Force",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Low Kick",
+          "Thunderbolt",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Superpower",
+          "Iron Defense",
+          "Gyro Ball",
+          "Close Combat",
+          "Focus Blast",
+          "Earth Power",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Heavy Slam",
+          "Ally Switch",
+          "Heat Crash",
+          "Darkest Lariat",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Block",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Magic Coat",
+          "Magnitude",
+          "Power-Up Punch",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Strength",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Fly",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "IronFist",
+          "Klutz"
+        ],
+        "hiddenAbilities": [
+          "NoGuard"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.2,
+            "z": 1.1
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 89,
+        "attack": 124,
+        "defense": 80,
+        "specialAttack": 55,
+        "specialDefense": 80,
+        "speed": 55
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 169,
+        "baseFriendship": 70,
+        "spawnLevel": 43,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/623_golurk/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/623_golurk/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/623_golurk/all/base/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/623_golurk/all/base/none/flying/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.golurk"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/623_golurk/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/623_golurk/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "GROUND",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Golett"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 330.0,
+      "catchRate": 90,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

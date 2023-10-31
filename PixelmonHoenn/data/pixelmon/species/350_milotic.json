@@ -1,0 +1,465 @@
+{
+  "name": "Milotic",
+  "dex": 350,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Flail",
+              "Splash",
+              "Tackle",
+              "Water Gun",
+              "Water Pulse",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Twister"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Flip Turn",
+          "Scale Shot",
+          "Skitter Smack",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Dragon Breath",
+          "Haze",
+          "Hypnosis",
+          "Mirror Coat",
+          "Mist",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Dive",
+          "Weather Ball",
+          "Mud Shot",
+          "Brine",
+          "Avalanche",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Muddy Water",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Iron Head",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bind",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Magic Coat",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Psych Up",
+          "Refresh",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Brutal Swing",
+          "Giga Impact",
+          "Psych Up",
+          "Bulldoze",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Psych Up",
+          "Bulldoze",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Psych Up",
+          "Bulldoze",
+          "Dragon Tail",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Dragon Pulse",
+          "Giga Impact",
+          "Avalanche",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MarvelScale",
+          "Competitive"
+        ],
+        "hiddenAbilities": [
+          "CuteCharm"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.9,
+            "z": -0.6
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.9,
+            "z": -0.3
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 20,
+          "depthRangeEnd": 100,
+          "swimSpeed": 13,
+          "decayRate": 0.99,
+          "refreshRate": 80
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 60,
+        "defense": 79,
+        "specialAttack": 100,
+        "specialDefense": 125,
+        "speed": 81
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 213,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/350_milotic/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/350_milotic/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/350_milotic/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "rotateAngleX": 0
+              },
+              "sounds": [
+                "pixelmon.mob.milotic",
+                "pixelmon.mob.milotic",
+                "pixelmon.mob.milotic"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/350_milotic/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/350_milotic/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "rainbow",
+              "texture": "pixelmon:pokemon/350_milotic/all/base/rainbow/texture.png",
+              "sprite": "pixelmon:pokemon/350_milotic/all/base/rainbow/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/350_milotic/all/base/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/350_milotic/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "DRAGON"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Feebas"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 162.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,307 @@
+{
+  "name": "Araquanid",
+  "dex": 752,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.6,
+        "width": 2.4,
+        "length": 1,
+        "eyeHeight": 2.6,
+        "hoverHeight": 2.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Bug Bite",
+              "Infestation",
+              "Water Gun",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Leech Life"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Power Split",
+          "Spit Up",
+          "Sticky Web",
+          "Stockpile"
+        ],
+        "tmMoves8": [
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Dive",
+          "Wonder Room",
+          "Magic Room",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Iron Defense",
+          "Poison Jab",
+          "X-Scissor",
+          "Bug Buzz",
+          "Scald",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aurora Beam",
+          "Bubble",
+          "Confide",
+          "Double Team",
+          "Frost Breath",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Magic Coat",
+          "Return",
+          "Signal Beam",
+          "Spider Web",
+          "Swagger",
+          "Toxic",
+          "Water Pulse",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Frost Breath",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterBubble"
+        ],
+        "hiddenAbilities": [
+          "WaterAbsorb"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": 0.0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 10,
+          "depthRangeEnd": 20,
+          "swimSpeed": 10,
+          "decayRate": 0.99,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 68,
+        "attack": 70,
+        "defense": 92,
+        "specialAttack": 50,
+        "specialDefense": 132,
+        "speed": 42
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 159,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 50,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/752_araquanid/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/752_araquanid/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/752_araquanid/all/base/none/model1.pqc",
+                  "pixelmon:pokemon/752_araquanid/all/base/none/model2.pqc"
+                ],
+                "transparency2": 0.4
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/752_araquanid/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/752_araquanid/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "BUG"
+      ],
+      "types": [
+        "WATER",
+        "BUG"
+      ],
+      "preEvolutions": [
+        "Dewpider"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 82.0,
+      "catchRate": 100,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

@@ -1,0 +1,268 @@
+{
+  "name": "Poipole",
+  "dex": 803,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Dragon Pulse",
+              "Growl",
+              "Helping Hand",
+              "Peck"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Venom Drench"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Toxic"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Pin Missile",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Facade",
+          "Helping Hand",
+          "Venoshock",
+          "Round"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Dragon Pulse",
+          "Nasty Plot",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Return",
+          "Signal Beam",
+          "Snatch"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Poison Jab",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 67,
+        "attack": 73,
+        "defense": 67,
+        "specialAttack": 73,
+        "specialDefense": 67,
+        "speed": 73
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 189,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/803_poipole/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/803_poipole/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/803_poipole/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.poipole"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/803_poipole/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/803_poipole/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 1.8,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "to": "Naganadel",
+          "conditions": [
+            {
+              "attackName": "Dragon Pulse",
+              "evoConditionType": "move"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Air Cutter"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 7
+}

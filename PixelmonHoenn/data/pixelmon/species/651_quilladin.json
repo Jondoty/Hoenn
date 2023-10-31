@@ -1,0 +1,347 @@
+{
+  "name": "Quilladin",
+  "dex": 651,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Needle Arm",
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Drain Punch",
+          "Dual Chop",
+          "Endeavor",
+          "Focus Punch",
+          "Giga Drain",
+          "Grass Pledge",
+          "Helping Hand",
+          "Iron Defense",
+          "Iron Head",
+          "Iron Tail",
+          "Low Kick",
+          "Pain Split",
+          "Seed Bomb",
+          "Snore",
+          "Stomping Tantrum",
+          "Super Fang",
+          "Superpower",
+          "Synthesis",
+          "Thunder Punch",
+          "Worry Seed",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Belly Drum",
+          "Curse",
+          "Defense Curl",
+          "Power-Up Punch",
+          "Quick Guard",
+          "Rollout",
+          "Spikes",
+          "Synthesis"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Flash",
+          "Hone Claws",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Tackle"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Stone Edge",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "Bulletproof"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 61,
+        "attack": 78,
+        "defense": 95,
+        "specialAttack": 56,
+        "specialDefense": 58,
+        "speed": 57
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 142,
+        "baseFriendship": 0,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/651_quilladin/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/651_quilladin/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/651_quilladin/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/651_quilladin/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/651_quilladin/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Chespin"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 29.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Chesnaught",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Spiky Shield"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 6
+}

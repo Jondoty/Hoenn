@@ -1,0 +1,591 @@
+{
+  "name": "Mareep",
+  "dex": 179,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Signal Beam"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Thunder"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Electroweb",
+          "Heal Bell",
+          "Iron Tail",
+          "Magnet Rise",
+          "Shock Wave",
+          "Signal Beam",
+          "Snore"
+        ],
+        "eggMoves": [
+          "After You",
+          "Agility",
+          "Body Slam",
+          "Charge",
+          "Eerie Impulse",
+          "Electric Terrain",
+          "Flatter",
+          "Iron Tail",
+          "Odor Sleuth",
+          "Sand Attack",
+          "Screech",
+          "Take Down"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Curse",
+          "Defense Curl",
+          "Double-Edge",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Hold Back",
+          "Mimic",
+          "Natural Gift",
+          "Reflect",
+          "Secret Power",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Charge Beam",
+          "Endure",
+          "Flash",
+          "Thunder Wave",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Hidden Power",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "Plus"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 40,
+        "defense": 40,
+        "specialAttack": 65,
+        "specialDefense": 45,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 59,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/179_mareep/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.mareep",
+                "pixelmon.mob.mareep"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "black",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/black/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/black/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/blue/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/blue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/brown/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/brown/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "cyan",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/cyan/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/cyan/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/gray/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/gray/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "green",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/green/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/green/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lightblue",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/lightblue/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/lightblue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lightgray",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/lightgray/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/lightgray/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lime",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/lime/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/lime/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "magenta",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/magenta/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/magenta/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/orange/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/purple/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/purple/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "red",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/red/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/red/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "yellow",
+              "texture": "pixelmon:pokemon/179_mareep/all/base/yellow/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/base/yellow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 7.8,
+      "catchRate": 235,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 15,
+          "to": "Flaaffy",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "shorn",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/none/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/shorn/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/179_mareep/all/shorn/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "black",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/black/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "blue",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/blue/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "brown",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/brown/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "cyan",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/cyan/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "gray",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/gray/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "green",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/green/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "lightblue",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/lightblue/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "lightgray",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/lightgray/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "lime",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/lime/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "magenta",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/magenta/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "orange",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/orange/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/pink/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "purple",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/purple/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "red",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/red/texture.png",
+              "particle": ""
+            },
+            {
+              "name": "yellow",
+              "texture": "pixelmon:pokemon/179_mareep/all/shorn/yellow/texture.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

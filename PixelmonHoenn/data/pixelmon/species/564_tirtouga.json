@@ -1,0 +1,402 @@
+{
+  "name": "Tirtouga",
+  "dex": 564,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.55,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Water Gun",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Shell Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Block",
+          "Knock Off",
+          "Rock Throw",
+          "Rollout",
+          "Slam",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Rock Tomb",
+          "Mud Shot",
+          "Rock Blast",
+          "Brine",
+          "Guard Swap",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Muddy Water",
+          "Iron Defense",
+          "Earth Power",
+          "Zen Headbutt",
+          "Stone Edge",
+          "Stealth Rock",
+          "Scald",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Confide",
+          "Double Team",
+          "Flail",
+          "Frustration",
+          "Hidden Power",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SolidRock",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "SwiftSwim"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 25,
+          "swimSpeed": 15,
+          "decayRate": 0.99,
+          "refreshRate": 100,
+          "chanceToStopOnBlock": 0.9,
+          "blocksToStopOn": [
+            "minecraft:SEAGRASS",
+            "minecraft:TALL_SEAGRASS",
+            "minecraft:TURTLE_EGG"
+          ],
+          "minStopTime": 4,
+          "maxStopTime": 10,
+          "minStopCooldownTime": 8,
+          "maxStopCooldownTime": 12
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 54,
+        "attack": 78,
+        "defense": 103,
+        "specialAttack": 53,
+        "specialDefense": 45,
+        "speed": 22
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 71,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 17,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/564_tirtouga/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/564_tirtouga/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/564_tirtouga/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/564_tirtouga/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/564_tirtouga/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_THREE"
+      ],
+      "types": [
+        "WATER",
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 31,
+      "weight": 16.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Carracosta",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

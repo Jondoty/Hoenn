@@ -1,0 +1,734 @@
+{
+  "name": "Corsola",
+  "dex": 222,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Harden"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Curse",
+          "Head Smash",
+          "Mist",
+          "Nature Power",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Rock Blast",
+          "Brine",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Psychic",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Iron Defense",
+          "Calm Mind",
+          "Power Gem",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Scald",
+          "Throat Chop",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrier",
+          "Bide",
+          "Bubble",
+          "Camouflage",
+          "Captivate",
+          "Confide",
+          "Defense Curl",
+          "Double Team",
+          "Double-Edge",
+          "Endeavor",
+          "Explosion",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Ingrain",
+          "Lucky Chant",
+          "Magic Coat",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Refresh",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Spike Cannon",
+          "Strength",
+          "Sucker Punch",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hustle",
+          "NaturalCure"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 15,
+          "depthRangeEnd": 40,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 200,
+          "chanceToStopOnBlock": 0.5,
+          "blocksToStopOn": [
+            "minecraft:TUBE_CORAL_BLOCK",
+            "minecraft:BRAIN_CORAL_BLOCK",
+            "minecraft:BUBBLE_CORAL_BLOCK",
+            "minecraft:FIRE_CORAL_BLOCK",
+            "minecraft:HORN_CORAL_BLOCK"
+          ],
+          "minStopTime": 4,
+          "maxStopTime": 30,
+          "minStopCooldownTime": 10,
+          "maxStopCooldownTime": 40
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 55,
+        "defense": 95,
+        "specialAttack": 65,
+        "specialDefense": 95,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 113,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 45,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/222_corsola/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/222_corsola/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/222_corsola/all/base/none/model.pqc"
+                ],
+                "rotateAngleY": -3.14159265359
+              },
+              "sounds": [
+                "pixelmon.mob.corsola",
+                "pixelmon.mob.corsola",
+                "pixelmon.mob.corsola"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/222_corsola/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/222_corsola/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_THREE"
+      ],
+      "types": [
+        "WATER",
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.0,
+      "catchRate": 60,
+      "malePercentage": 25,
+      "evolutions": [],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 1
+      }
+    },
+    {
+      "name": "galarian",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Harden"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Spite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Strength Sap"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Grudge"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Destiny Bond",
+          "Haze",
+          "Head Smash",
+          "Nature Power",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Giga Drain",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Will-O-Wisp",
+          "Facade",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Rock Blast",
+          "Brine",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Psychic",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Iron Defense",
+          "Calm Mind",
+          "Power Gem",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Scald",
+          "Throat Chop",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WeakArmor"
+        ],
+        "hiddenAbilities": [
+          "CursedBody"
+        ]
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 100,
+        "specialAttack": 65,
+        "specialDefense": 100,
+        "speed": 30
+      },
+      "tags": [
+        "galarian"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/222_corsola/all/galarian/none/texture.png",
+              "sprite": "pixelmon:pokemon/222_corsola/all/galarian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/222_corsola/all/galarian/none/model1.pqc",
+                  "pixelmon:pokemon/222_corsola/all/galarian/none/model.pqc"
+                ],
+                "transparency2": 0.4
+              },
+              "sounds": [
+                "pixelmon.mob.corsola.galar"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/222_corsola/all/galarian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/222_corsola/all/galarian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "evolutions": [
+        {
+          "level": 38,
+          "to": "Cursola",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": []
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

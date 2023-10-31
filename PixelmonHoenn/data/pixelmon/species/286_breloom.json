@@ -1,0 +1,446 @@
+{
+  "name": "Breloom",
+  "dex": 286,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FLUCTUATING",
+      "dimensions": {
+        "height": 1.1,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Leech Seed",
+              "Mach Punch",
+              "Stun Spore",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Mind Reader"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Sky Uppercut"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Drain Punch",
+          "Focus Punch",
+          "Giga Drain",
+          "Helping Hand",
+          "Iron Tail",
+          "Laser Focus",
+          "Seed Bomb",
+          "Snatch",
+          "Snore",
+          "Superpower",
+          "Synthesis",
+          "Thunder Punch",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Bullet Seed",
+          "Charm",
+          "Drain Punch",
+          "Fake Tears",
+          "Focus Punch",
+          "Helping Hand",
+          "Natural Gift",
+          "Seed Bomb",
+          "Wake-Up Slap",
+          "Worry Seed"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Flash",
+          "Fury Cutter",
+          "Mega Kick",
+          "Mega Punch",
+          "Mimic",
+          "Mud-Slap",
+          "Power-Up Punch",
+          "Refresh",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Vacuum Wave"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Fling",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Fling",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Fling",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Snatch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Snatch"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "EffectSpore",
+          "PoisonHeal"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 130,
+        "defense": 80,
+        "specialAttack": 60,
+        "specialDefense": 60,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 23,
+        "spawnLevelRange": 42,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/286_breloom/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/286_breloom/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/286_breloom/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.breloom"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/286_breloom/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/286_breloom/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/286_breloom/all/base/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/286_breloom/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Shroomish"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 39.2,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 3
+}

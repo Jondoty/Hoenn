@@ -1,0 +1,346 @@
+{
+  "name": "Ferroseed",
+  "dex": 597,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Acid Spray",
+          "Gravity",
+          "Knock Off",
+          "Leech Seed",
+          "Toxic"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Solar Beam",
+          "Thunder Wave",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Revenge",
+          "Bullet Seed",
+          "Payback",
+          "Assurance",
+          "Round"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Gyro Ball",
+          "Poison Jab",
+          "Seed Bomb",
+          "Energy Ball",
+          "Flash Cannon",
+          "Iron Head",
+          "Stealth Rock"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Magnet Rise",
+          "Mirror Shot",
+          "Nature Power",
+          "Return",
+          "Rock Climb",
+          "Rock Polish",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Swagger",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Payback",
+          "Rock Polish",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Payback",
+          "Rock Polish",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Payback",
+          "Rock Polish",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IronBarbs"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 44,
+        "attack": 50,
+        "defense": 91,
+        "specialAttack": 24,
+        "specialDefense": 86,
+        "speed": 10
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 70,
+        "spawnLevel": 12,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/597_ferroseed/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/597_ferroseed/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/597_ferroseed/all/base/none/model.pqc"
+                ],
+                "yRotation": 22
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/597_ferroseed/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/597_ferroseed/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "MINERAL"
+      ],
+      "types": [
+        "GRASS",
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 18.8,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 40,
+          "to": "Ferrothorn",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Power Whip"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

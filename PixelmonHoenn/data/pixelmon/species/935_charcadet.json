@@ -1,0 +1,228 @@
+{
+  "name": "Charcadet",
+  "dex": 935,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1.0,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Ember",
+              "Leer"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Lava Plume"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Destiny Bond",
+          "Disable",
+          "Spite"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Confuse Ray",
+          "Fire Spin",
+          "Facade",
+          "Flame Charge",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Sleep Talk",
+          "Substitute",
+          "Will-O-Wisp",
+          "Heat Wave",
+          "Flamethrower",
+          "Helping Hand",
+          "Fire Blast",
+          "Overheat",
+          "Flare Blitz",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlashFire"
+        ],
+        "hiddenAbilities": [
+          "FlameBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 40,
+        "speed": 35
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 51,
+        "baseFriendship": 50,
+        "spawnLevel": 12,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/935_charcadet/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/935_charcadet/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/935_charcadet/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/935_charcadet/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 35,
+      "weight": 10.5,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:auspicious_armor"
+          },
+          "to": "Armarouge",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Psyshock"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:malicious_armor"
+          },
+          "to": "Ceruledge",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Shadow Claw"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

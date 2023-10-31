@@ -1,0 +1,345 @@
+{
+  "name": "Dragalge",
+  "dex": 691,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.1,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 2.1,
+        "hoverHeight": 2.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Smokescreen",
+              "Tackle",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Poison Tail"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "level": 59,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Outrage"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Flip Turn",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Acid Armor",
+          "Dragon Tail",
+          "Haze",
+          "Twister"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Dive",
+          "Bounce",
+          "Venoshock",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Waterfall",
+          "Substitute",
+          "Sludge Bomb",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Toxic Spikes",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Scald",
+          "Play Rough",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bubble",
+          "Camouflage",
+          "Confide",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Swagger"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Scald",
+          "Giga Impact",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Scald",
+          "Giga Impact",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPoint",
+          "PoisonTouch"
+        ],
+        "hiddenAbilities": [
+          "Adaptability"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.05,
+            "y": -0.4,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.05,
+            "y": -0.8,
+            "z": 0.0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 15,
+          "depthRangeEnd": 40,
+          "swimSpeed": 20,
+          "decayRate": 0.5,
+          "refreshRate": 120,
+          "chanceToStopOnBlock": 0.9,
+          "blocksToStopOn": [
+            "miencraft:KELP_PLANT"
+          ],
+          "minStopTime": 20,
+          "maxStopTime": 30,
+          "minStopCooldownTime": 30,
+          "maxStopCooldownTime": 40
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 90,
+        "specialAttack": 97,
+        "specialDefense": 123,
+        "speed": 44
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 0,
+        "spawnLevel": 49,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/691_dragalge/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/691_dragalge/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/691_dragalge/all/base/none/model.pqc"
+                ],
+                "yRotation": 21
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/691_dragalge/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/691_dragalge/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "DRAGON"
+      ],
+      "types": [
+        "POISON",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Skrelp"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 81.5,
+      "catchRate": 55,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 6
+}

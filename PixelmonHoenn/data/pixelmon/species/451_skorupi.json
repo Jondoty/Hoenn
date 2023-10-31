@@ -1,0 +1,457 @@
+{
+  "name": "Skorupi",
+  "dex": 451,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Poison Sting"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Poison Fang"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Cross Poison"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Crunch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Sand Attack",
+          "Slash",
+          "Whirlwind"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Cross Poison",
+          "Venoshock",
+          "Round",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Shadow Ball",
+          "Taunt",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Dark Pulse",
+          "X-Scissor",
+          "Bug Buzz"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Aqua Tail",
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "Infestation",
+          "Mud-Slap",
+          "Natural Gift",
+          "Poison Tail",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Struggle Bug",
+          "Swagger",
+          "Torment",
+          "Twineedle"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Payback",
+          "Swords Dance",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Payback",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Payback",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "False Swipe",
+          "Fling",
+          "Endure",
+          "Payback",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Dark Pulse",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BattleArmour",
+          "Sniper"
+        ],
+        "hiddenAbilities": [
+          "KeenEye"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 50,
+        "defense": 90,
+        "specialAttack": 30,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/451_skorupi/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/451_skorupi/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/451_skorupi/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/451_skorupi/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/451_skorupi/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG",
+        "WATER_THREE"
+      ],
+      "types": [
+        "POISON",
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 12.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 40,
+          "to": "Drapion",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

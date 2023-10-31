@@ -1,0 +1,231 @@
+{
+  "name": "Komala",
+  "dex": 775,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Rollout"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Spit Up",
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Iron Head",
+          "Knock Off",
+          "Last Resort",
+          "Snore",
+          "Stomping Tantrum",
+          "Superpower",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Charm",
+          "Play Rough",
+          "Sing",
+          "Wish"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Quash",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Swords Dance",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Comatose"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 115,
+        "defense": 65,
+        "specialAttack": 75,
+        "specialDefense": 95,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 25,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/775_komala/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/775_komala/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/775_komala/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/775_komala/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/775_komala/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 19.9,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

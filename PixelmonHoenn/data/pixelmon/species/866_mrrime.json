@@ -1,0 +1,333 @@
+{
+  "name": "MrRime",
+  "dex": 866,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "After You",
+              "Baton Pass",
+              "Block",
+              "Copycat",
+              "Dazzling Gleam",
+              "Encore",
+              "Fake Tears",
+              "Ice Shard",
+              "Light Screen",
+              "Mimic",
+              "Misty Terrain",
+              "Pound",
+              "Protect",
+              "Rapid Spin",
+              "Recycle",
+              "Reflect",
+              "Role Play",
+              "Safeguard",
+              "Slack Off"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Ally Switch"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Freeze-Dry"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Fake Out",
+          "Power Split",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Fake Tears",
+          "Icicle Spear",
+          "Payback",
+          "Fling",
+          "Power Swap",
+          "Guard Swap",
+          "Drain Punch",
+          "Avalanche",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Misty Terrain",
+          "Psychic Terrain",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Metronome",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Focus Blast",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrier",
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Headbutt",
+          "Healing Wish",
+          "Hidden Power",
+          "Infestation",
+          "Magic Coat",
+          "Meditate",
+          "Mud-Slap",
+          "Natural Gift",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Swagger",
+          "Telekinesis",
+          "Torment",
+          "Toxic",
+          "Wake-Up Slap"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "TangledFeet",
+          "ScreenCleaner"
+        ],
+        "hiddenAbilities": [
+          "IceBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 85,
+        "defense": 75,
+        "specialAttack": 110,
+        "specialDefense": 100,
+        "speed": 70
+      },
+      "tags": [
+        "galarian"
+      ],
+      "spawn": {
+        "baseExp": 182,
+        "baseFriendship": 50,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/866_mrrime/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/866_mrrime/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/866_mrrime/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/866_mrrime/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/866_mrrime/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "ICE",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "MrMime"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 58.2,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 8
+}

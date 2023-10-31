@@ -1,0 +1,468 @@
+{
+  "name": "Hoothoot",
+  "dex": 163,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Peck"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Reflect"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Psycho Shift"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Dream Eater"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Defog",
+          "Feather Dance",
+          "Night Shade",
+          "Supersonic",
+          "Whirlwind",
+          "Wing Attack"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Screech",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Imprison",
+          "Round",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Agility",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Uproar",
+          "Heat Wave",
+          "Hyper Voice",
+          "Calm Mind",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Stored Power",
+          "Work Up",
+          "Hurricane"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Air Cutter",
+          "Captivate",
+          "Confide",
+          "Curse",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Feint Attack",
+          "Flash",
+          "Foresight",
+          "Frustration",
+          "Hidden Power",
+          "Magic Coat",
+          "Mean Look",
+          "Mimic",
+          "Mirror Move",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Ominous Wind",
+          "Pluck",
+          "Psych Up",
+          "Recycle",
+          "Return",
+          "Secret Power",
+          "Silver Wind",
+          "Sky Attack",
+          "Swagger",
+          "Synchronoise",
+          "Tailwind",
+          "Toxic",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Fly",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Psych Up",
+          "Work Up",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Silver Wind",
+          "Recycle",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Dream Eater",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Insomnia",
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "TintedLens"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.4,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 2,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 36,
+        "specialDefense": 56,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 58,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/163_hoothoot/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/163_hoothoot/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/163_hoothoot/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.015
+              },
+              "sounds": [
+                "pixelmon.mob.hoothoot"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/163_hoothoot/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/163_hoothoot/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 21.2,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Noctowl",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 2
+}

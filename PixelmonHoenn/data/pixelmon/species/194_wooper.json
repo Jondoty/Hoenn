@@ -1,0 +1,719 @@
+{
+  "name": "Wooper",
+  "dex": 194,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tail Whip",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Haze",
+              "Mist"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Earthquake"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Acid Spray",
+          "After You",
+          "Ancient Power",
+          "Counter",
+          "Curse",
+          "Double Kick",
+          "Power-Up Punch",
+          "Recover",
+          "Spit Up",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [
+          "Ice Punch",
+          "Dig",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Mud Shot",
+          "Guard Swap",
+          "Round",
+          "Bulldoze",
+          "Eerie Impulse",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Waterfall",
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail",
+          "Muddy Water",
+          "Earth Power",
+          "Sludge Wave",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Defense Curl",
+          "Double Team",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Infestation",
+          "Mimic",
+          "Mud Bomb",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Swagger",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Bulldoze",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Flash",
+          "Bulldoze",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Flash",
+          "Bulldoze",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Flash",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Damp",
+          "WaterAbsorb"
+        ],
+        "hiddenAbilities": [
+          "Unaware"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 5,
+          "depthRangeEnd": 10,
+          "swimSpeed": 10,
+          "decayRate": 0.79,
+          "refreshRate": 70
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 45,
+        "defense": 45,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 15
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 52,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/194_wooper/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/194_wooper/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/194_wooper/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.wooper"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/194_wooper/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/194_wooper/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "WATER",
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 8.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Quagsire",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    },
+    {
+      "name": "paldean",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tail Whip",
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Poison Tail"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sludge Wave"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Earthquake"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Acid Spray",
+          "After You",
+          "Ancient Power",
+          "Counter",
+          "Curse",
+          "Double Kick",
+          "Haze",
+          "Mist",
+          "Recover",
+          "Spit Up",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Acid Spray",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Poison Tail",
+          "Bulldoze",
+          "Mud Shot",
+          "Rock Tomb",
+          "Venoshock",
+          "Endure",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Body Slam",
+          "Sleep Talk",
+          "Waterfall",
+          "Poison Jab",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Spikes",
+          "Toxic Spikes",
+          "Gunk Shot",
+          "Substitute",
+          "Liquidation",
+          "Stealth Rock",
+          "Surf",
+          "Amnesia",
+          "Helping Hand",
+          "Earth Power",
+          "Hydro Pump",
+          "Sludge Bomb",
+          "Earthquake",
+          "Stone Edge",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPoint",
+          "WaterAbsorb"
+        ],
+        "hiddenAbilities": [
+          "Unaware"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 5,
+          "depthRangeEnd": 10,
+          "swimSpeed": 10,
+          "decayRate": 0.79,
+          "refreshRate": 70
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 45,
+        "defense": 45,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 15
+      },
+      "tags": [
+        "paldean"
+      ],
+      "spawn": {
+        "baseExp": 42,
+        "baseFriendship": 50,
+        "spawnLevel": 5,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/194_wooper/all/paldean/none/texture.png",
+              "sprite": "pixelmon:pokemon/194_wooper/all/paldean/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/194_wooper/all/paldean/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.wooper"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/194_wooper/all/paldean/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/194_wooper/all/paldean/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "POISON",
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 11.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Clodsire",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Amnesia"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 2
+}

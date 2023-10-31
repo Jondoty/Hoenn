@@ -1,0 +1,336 @@
+{
+  "name": "Klefki",
+  "dex": 707,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Fairy Lock"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Crafty Shield"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Recycle"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Magic Room"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Magnet Rise",
+          "Switcheroo"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Imprison",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Misty Terrain"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Spikes",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Calm Mind",
+          "Flash Cannon",
+          "Foul Play",
+          "Stored Power",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Cut",
+          "Defog",
+          "Double Team",
+          "Frustration",
+          "Heal Block",
+          "Hidden Power",
+          "Lock-On",
+          "Magic Coat",
+          "Mirror Shot",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Prankster"
+        ],
+        "hiddenAbilities": [
+          "Magician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 57,
+        "attack": 80,
+        "defense": 91,
+        "specialAttack": 80,
+        "specialDefense": 87,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 0,
+        "spawnLevel": 42,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/707_klefki/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/707_klefki/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/707_klefki/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.klefki",
+                "pixelmon.mob.klefki"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/707_klefki/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/707_klefki/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 3.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 6
+}

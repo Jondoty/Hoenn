@@ -1,0 +1,401 @@
+{
+  "name": "Masquerain",
+  "dex": 284,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bubble",
+              "Bug Buzz",
+              "Ominous Wind",
+              "Quick Attack",
+              "Quiver Dance",
+              "Sweet Scent",
+              "Water Sport",
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Water Sport"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Gust"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Air Cutter",
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Silver Wind"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Quiver Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Defog",
+          "Giga Drain",
+          "Icy Wind",
+          "Liquidation",
+          "Signal Beam",
+          "Snore",
+          "Tailwind",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Jet",
+          "Bug Bite",
+          "Endure",
+          "Fell Stinger",
+          "Foresight",
+          "Hydro Pump",
+          "Lunge",
+          "Mind Reader",
+          "Mud Shot",
+          "Power Split",
+          "Psybeam",
+          "Signal Beam"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Double-Edge",
+          "Flash",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Secret Power",
+          "String Shot",
+          "Struggle Bug",
+          "Swift",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Giga Impact",
+          "Psych Up",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Psych Up",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Psych Up",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Roost",
+          "Energy Ball",
+          "Endure",
+          "Silver Wind",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 60,
+        "defense": 62,
+        "specialAttack": 100,
+        "specialDefense": 82,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 128,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/284_masquerain/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/284_masquerain/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/284_masquerain/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/284_masquerain/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/284_masquerain/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Surskit"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 3.6,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

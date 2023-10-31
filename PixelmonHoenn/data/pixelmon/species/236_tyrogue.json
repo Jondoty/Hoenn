@@ -1,0 +1,384 @@
+{
+  "name": "Tyrogue",
+  "dex": 236,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fake Out",
+              "Focus Energy",
+              "Helping Hand",
+              "Tackle"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Bullet Punch",
+          "Counter",
+          "Feint",
+          "High Jump Kick",
+          "Mach Punch",
+          "Mind Reader",
+          "Rapid Spin",
+          "Vacuum Wave"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Brick Break",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Low Kick",
+          "Earthquake",
+          "Focus Energy",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Bulk Up",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Curse",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Foresight",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Laser Focus",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Endure",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Guts",
+          "Steadfast"
+        ],
+        "hiddenAbilities": [
+          "VitalSpirit"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 35,
+        "attack": 35,
+        "defense": 35,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 91,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/236_tyrogue/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/236_tyrogue/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/236_tyrogue/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.tyrogue"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/236_tyrogue/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/236_tyrogue/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 21.0,
+      "catchRate": 75,
+      "malePercentage": 100,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Hitmonlee",
+          "conditions": [
+            {
+              "stat1": "ATTACK",
+              "stat2": "DEFENSE",
+              "ratio": 1.0,
+              "evoConditionType": "statRatio"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Brick Break"
+          ]
+        },
+        {
+          "level": 20,
+          "to": "Hitmonchan",
+          "conditions": [
+            {
+              "stat1": "DEFENSE",
+              "stat2": "ATTACK",
+              "ratio": 1.0,
+              "evoConditionType": "statRatio"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Drain Punch"
+          ]
+        },
+        {
+          "level": 20,
+          "to": "Hitmontop",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Triple Kick"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 2
+}

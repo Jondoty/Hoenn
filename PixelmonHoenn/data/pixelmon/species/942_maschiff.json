@@ -1,0 +1,256 @@
+{
+  "name": "Maschiff",
+  "dex": 942,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scary Face",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Jaw Lock"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Destiny Bond",
+          "Endeavor",
+          "Play Rough",
+          "Retaliate"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Snarl",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Psychic Fangs",
+          "Body Slam",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Dark Pulse",
+          "Substitute",
+          "Crunch",
+          "Play Rough",
+          "Helping Hand",
+          "Reversal",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "RunAway"
+        ],
+        "hiddenAbilities": [
+          "Stakeout"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 78,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 51,
+        "speed": 51
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 68,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 19,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/942_maschiff/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/942_maschiff/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/942_maschiff/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/942_maschiff/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 16.0,
+      "catchRate": 150,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Mabosstiff",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Comeuppance"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

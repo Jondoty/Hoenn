@@ -1,0 +1,358 @@
+{
+  "name": "Vikavolt",
+  "dex": 738,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bug Bite",
+              "Charge",
+              "Crunch",
+              "Dig",
+              "Discharge",
+              "Iron Defense",
+              "Mud-Slap",
+              "String Shot",
+              "Thunderbolt",
+              "Vise Grip",
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Guillotine"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Fly"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Rising Voltage",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Discharge",
+          "Harden"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Dig",
+          "Screech",
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Mud Shot",
+          "Round",
+          "Acrobatics",
+          "Volt Switch",
+          "Electroweb",
+          "Eerie Impulse",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Iron Defense",
+          "Poison Jab",
+          "X-Scissor",
+          "Bug Buzz",
+          "Energy Ball",
+          "Flash Cannon",
+          "Electro Ball",
+          "Wild Charge"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Magnet Rise",
+          "Return",
+          "Roost",
+          "Shock Wave",
+          "Signal Beam",
+          "Sky Drop",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Sky Drop",
+          "Acrobatics",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 77,
+        "attack": 70,
+        "defense": 90,
+        "specialAttack": 145,
+        "specialDefense": 75,
+        "speed": 43
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 225,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/738_vikavolt/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/738_vikavolt/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/738_vikavolt/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/738_vikavolt/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/738_vikavolt/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Charjabug",
+        "Grubbin"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 45.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

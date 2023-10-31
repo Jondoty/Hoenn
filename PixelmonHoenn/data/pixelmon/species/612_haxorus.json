@@ -1,0 +1,443 @@
+{
+  "name": "Haxorus",
+  "dex": 612,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "False Swipe",
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dual Chop"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Guillotine"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Endeavor",
+          "First Impression",
+          "Harden",
+          "Night Slash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Round",
+          "Bulldoze",
+          "Snarl",
+          "False Swipe",
+          "Brutal Swing",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Surf",
+          "Low Kick",
+          "Earthquake",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Superpower",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Close Combat",
+          "Poison Jab",
+          "X-Scissor",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Grass Knot"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Aqua Tail",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dragon Rage",
+          "Dragon Tail",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Incinerate",
+          "Razor Wind",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Dragon Tail",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Incinerate",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Dragon Tail",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Incinerate",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Dragon Tail",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Rivalry",
+          "MoldBreaker"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.05,
+            "y": -0.6,
+            "z": -0.3
+          },
+          "moving": {
+            "x": -0.1,
+            "y": -0.5,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 76,
+        "attack": 147,
+        "defense": 90,
+        "specialAttack": 60,
+        "specialDefense": 70,
+        "speed": 97
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 243,
+        "baseFriendship": 35,
+        "spawnLevel": 49,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/612_haxorus/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/612_haxorus/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/612_haxorus/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.haxorus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/612_haxorus/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/612_haxorus/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Fraxure",
+        "Axew"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 105.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

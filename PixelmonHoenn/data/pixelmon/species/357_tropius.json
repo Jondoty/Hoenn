@@ -1,0 +1,473 @@
+{
+  "name": "Tropius",
+  "dex": 357,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growth",
+              "Gust",
+              "Leaf Storm",
+              "Leer",
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Leaf Tornado"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Bestow"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Defog",
+          "Dragon Pulse",
+          "Giga Drain",
+          "Outrage",
+          "Seed Bomb",
+          "Snore",
+          "Stomping Tantrum",
+          "Synthesis",
+          "Tailwind",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Bullet Seed",
+          "Curse",
+          "Dragon Dance",
+          "Dragon Hammer",
+          "Headbutt",
+          "Leaf Blade",
+          "Leaf Storm",
+          "Leech Seed",
+          "Natural Gift",
+          "Nature Power",
+          "Razor Wind",
+          "Slam",
+          "Synthesis"
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Air Cutter",
+          "Captivate",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Flash",
+          "Fury Cutter",
+          "Mimic",
+          "Mud-Slap",
+          "Ominous Wind",
+          "Rock Smash",
+          "Secret Power",
+          "Silver Wind",
+          "Strength",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Brutal Swing",
+          "Giga Impact",
+          "Swords Dance",
+          "Fly",
+          "Bulldoze",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Bulldoze",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Bulldoze",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Steel Wing",
+          "Roost",
+          "Energy Ball",
+          "Endure",
+          "Silver Wind",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll",
+          "SolarPower"
+        ],
+        "hiddenAbilities": [
+          "Harvest"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.6,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.6,
+            "z": 0.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 10,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 99,
+        "attack": 68,
+        "defense": 83,
+        "specialAttack": 72,
+        "specialDefense": 87,
+        "speed": 51
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 169,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/357_tropius/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/357_tropius/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/357_tropius/all/base/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/357_tropius/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/357_tropius/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/357_tropius/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 100.0,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 3
+}

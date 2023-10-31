@@ -1,0 +1,152 @@
+{
+  "name": "MissingNo",
+  "dex": 0,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.0,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 3.0,
+        "hoverHeight": 3.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Water Gun",
+              "Sky Attack",
+              "Pay Day",
+              "Bind"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [
+          "Mega Punch",
+          "Razor Wind",
+          "Swords Dance",
+          "Mega Kick",
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Ice Beam",
+          "Blizzard",
+          "Submission",
+          "Seismic Toss",
+          "Rage",
+          "Thunder",
+          "Earthquake",
+          "Fissure",
+          "Psychic",
+          "Teleport",
+          "Sky Attack",
+          "Rest",
+          "Thunder Wave",
+          "Tri Attack",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Error"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "aggressive": 20,
+        "passive": 0,
+        "timid": 80
+      },
+      "battleStats": {
+        "hp": 33,
+        "attack": 136,
+        "defense": 0,
+        "specialAttack": 6,
+        "specialDefense": 6,
+        "speed": 29
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/000_missingno/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/000_missingno/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/000_missingno/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FLYING",
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 1590.8,
+      "catchRate": 1,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {}
+    }
+  ],
+  "generation": 0
+}

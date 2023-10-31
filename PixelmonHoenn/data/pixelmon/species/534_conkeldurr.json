@@ -1,0 +1,403 @@
+{
+  "name": "Conkeldurr",
+  "dex": 534,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.8,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Low Kick",
+              "Pound",
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Focus Punch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Defog",
+          "Detect",
+          "Mach Punch",
+          "Power-Up Punch",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Rock Blast",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Low Kick",
+          "Earthquake",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Superpower",
+          "Bulk Up",
+          "Close Combat",
+          "Poison Jab",
+          "Focus Blast",
+          "Stone Edge",
+          "Grass Knot",
+          "Work Up",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Block",
+          "Chip Away",
+          "Comet Punch",
+          "Confide",
+          "Double Team",
+          "Force Palm",
+          "Foresight",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Smack Down",
+          "Smelling Salts",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Wake-Up Slap"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Brutal Swing",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Guts",
+          "SheerForce"
+        ],
+        "hiddenAbilities": [
+          "IronFist"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.2,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.4,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 105,
+        "attack": 140,
+        "defense": 95,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 227,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/534_conkeldurr/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/534_conkeldurr/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/534_conkeldurr/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/534_conkeldurr/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/534_conkeldurr/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Gurdurr",
+        "Timburr"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 87.0,
+      "catchRate": 45,
+      "malePercentage": 75,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

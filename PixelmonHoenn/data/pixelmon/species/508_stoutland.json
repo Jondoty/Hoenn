@@ -1,0 +1,374 @@
+{
+  "name": "Stoutland",
+  "dex": 508,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Fire Fang",
+              "Ice Fang",
+              "Leer",
+              "Tackle",
+              "Thunder Fang",
+              "Work Up"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Last Resort"
+            ]
+          },
+          {
+            "level": 78,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "After You",
+          "Covet",
+          "Howl",
+          "Lick",
+          "Mud-Slap",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Rock Tomb",
+          "Payback",
+          "Thunder Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Round",
+          "Retaliate",
+          "Snarl",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Shadow Ball",
+          "Uproar",
+          "Superpower",
+          "Hyper Voice",
+          "Iron Head",
+          "Work Up",
+          "Wild Charge",
+          "Play Rough",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Odor Sleuth",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Sand Attack",
+          "Secret Power",
+          "Shock Wave",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Thunder Wave",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "SandRush"
+        ],
+        "hiddenAbilities": [
+          "Scrappy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.65,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.65,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 110,
+        "defense": 90,
+        "specialAttack": 45,
+        "specialDefense": 90,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 221,
+        "baseFriendship": 70,
+        "spawnLevel": 33,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/508_stoutland/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/508_stoutland/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/508_stoutland/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/508_stoutland/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/508_stoutland/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Herdier",
+        "Lillipup"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 61.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Scatterbug",
+  "dex": 664,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.35,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.35,
+        "hoverHeight": 0.35
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "String Shot",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bug Bite"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite"
+        ],
+        "eggMoves": [
+          "Poison Powder",
+          "Rage Powder",
+          "Stun Spore"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldDust",
+          "CompoundEyes"
+        ],
+        "hiddenAbilities": [
+          "FriendGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 38,
+        "attack": 35,
+        "defense": 40,
+        "specialAttack": 27,
+        "specialDefense": 25,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 40,
+        "baseFriendship": 0,
+        "spawnLevel": 3,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/664_scatterbug/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/664_scatterbug/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/664_scatterbug/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/664_scatterbug/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/664_scatterbug/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 2.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 9,
+          "to": "Spewpa",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Protect"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 6
+}

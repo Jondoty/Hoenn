@@ -1,0 +1,371 @@
+{
+  "name": "Finneon",
+  "dex": 456,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Pound"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Gust"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Captivate"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Silver Wind"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Soak"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bounce",
+          "Defog",
+          "Icy Wind",
+          "Signal Beam",
+          "Snore",
+          "Tailwind",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Agility",
+          "Aqua Tail",
+          "Aurora Beam",
+          "Brine",
+          "Charm",
+          "Confuse Ray",
+          "Flail",
+          "Psybeam",
+          "Signal Beam",
+          "Splash",
+          "Sweet Kiss",
+          "Tickle"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Dive",
+          "Endure",
+          "Flash",
+          "Natural Gift",
+          "Ominous Wind",
+          "Secret Power",
+          "Swift",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Payback",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Surf",
+          "Nature Power",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Silver Wind",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "StormDrain"
+        ],
+        "hiddenAbilities": [
+          "WaterVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 8,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 49,
+        "attack": 49,
+        "defense": 56,
+        "specialAttack": 49,
+        "specialDefense": 61,
+        "speed": 66
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 90,
+        "baseFriendship": 70,
+        "spawnLevel": 19,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/456_finneon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/456_finneon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/456_finneon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/456_finneon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/456_finneon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/456_finneon/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/456_finneon/all/base/drowned/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 7.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 31,
+          "to": "Lumineon",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 4
+}

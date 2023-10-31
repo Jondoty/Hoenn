@@ -1,0 +1,437 @@
+{
+  "name": "Swablu",
+  "dex": 333,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.7,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Peck"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sing"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Perish Song"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Defog",
+          "Dragon Rush",
+          "Feather Dance",
+          "Haze",
+          "Roost",
+          "Tailwind"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Solar Beam",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Power Swap",
+          "Round",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Agility",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Heat Wave",
+          "Hyper Voice",
+          "Dragon Pulse",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Air Cutter",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Echoed Voice",
+          "Frustration",
+          "Heal Bell",
+          "Hidden Power",
+          "Mimic",
+          "Mirror Move",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Pluck",
+          "Psych Up",
+          "Pursuit",
+          "Rage",
+          "Refresh",
+          "Return",
+          "Secret Power",
+          "Sky Attack",
+          "Swagger",
+          "Toxic",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Fly",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Dragon Pulse",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "NaturalCure"
+        ],
+        "hiddenAbilities": [
+          "CloudNine"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 8,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 40,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 75,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 74,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 29,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/333_swablu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/333_swablu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/333_swablu/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "yRotation": 24.2
+              },
+              "sounds": [
+                "pixelmon.mob.swablu",
+                "pixelmon.mob.swablu",
+                "pixelmon.mob.swablu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/333_swablu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/333_swablu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valentine",
+              "texture": "pixelmon:pokemon/333_swablu/all/base/valentine/texture.png",
+              "sprite": "pixelmon:pokemon/333_swablu/all/base/valentine/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING",
+        "DRAGON"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 1.2,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Altaria",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Dragon Pulse"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

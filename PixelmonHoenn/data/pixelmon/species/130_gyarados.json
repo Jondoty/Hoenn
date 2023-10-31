@@ -1,0 +1,825 @@
+{
+  "name": "Gyarados",
+  "dex": 130,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 4.0,
+        "width": 3.0,
+        "length": 1,
+        "eyeHeight": 4.0,
+        "hoverHeight": 4.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Flail",
+              "Leer",
+              "Splash",
+              "Tackle",
+              "Twister"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Waterfall"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Hurricane"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Scale Shot"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Bounce",
+          "Brine",
+          "Payback",
+          "Avalanche",
+          "Ice Fang",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Fire Blast",
+          "Waterfall",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Muddy Water",
+          "Dragon Dance",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Power Whip",
+          "Iron Head",
+          "Stone Edge",
+          "Scald",
+          "Hurricane"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Bind",
+          "Bubble Beam",
+          "Captivate",
+          "Celebrate",
+          "Confide",
+          "Curse",
+          "Double Team",
+          "Double-Edge",
+          "Dragon Breath",
+          "Dragon Rage",
+          "Dragon Tail",
+          "Frustration",
+          "Happy Hour",
+          "Headbutt",
+          "Hidden Power",
+          "Incinerate",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Reflect",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Skull Bash",
+          "Spite",
+          "Strength",
+          "Swagger",
+          "Take Down",
+          "Torment",
+          "Toxic",
+          "Water Gun",
+          "Water Pulse",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Brutal Swing",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Bulldoze",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Dark Pulse",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Incinerate",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Bulldoze",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Incinerate",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Bulldoze",
+          "Dragon Tail",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Dragon Pulse",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Avalanche",
+          "Thunder Wave",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Dragon Breath",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Fire Blast",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Rage",
+          "Dragon Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Fire Blast",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate"
+        ],
+        "hiddenAbilities": [
+          "Moxie"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -1.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -3.6,
+            "z": 2.0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 10,
+          "depthRangeEnd": 100,
+          "swimSpeed": 10,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 125,
+        "defense": 79,
+        "specialAttack": 60,
+        "specialDefense": 100,
+        "speed": 81
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 189,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/130_gyarados/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.gyarados"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/drowned/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "skelly",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/skelly/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/skelly/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_white",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/calico_orange_white/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/calico_orange_white/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_white_black",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/calico_orange_white_black/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/calico_orange_white_black/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_white_orange",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/calico_white_orange/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/calico_white_orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calico_orange_gold",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/calico_orange_gold/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/calico_orange_gold/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_twotone",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/orange_twotone/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/orange_twotone/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_orca",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/orange_orca/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/orange_orca/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_dapples",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/orange_dapples/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/orange_dapples/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_twotone",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/pink_twotone/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/pink_twotone/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_orca",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/pink_orca/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/pink_orca/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink_dapples",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/pink_dapples/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/pink_dapples/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_bubbles",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/gray_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/gray_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_diamonds",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/gray_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/gray_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "gray_patches",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/gray_patches/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/gray_patches/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_bubbles",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/purple_bubbles/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/purple_bubbles/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_diamonds",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/purple_diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/purple_diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple_patches",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/purple_patches/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/purple_patches/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_tiger",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/apricot_tiger/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/apricot_tiger/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_zebra",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/apricot_zebra/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/apricot_zebra/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "apricot_stripes",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/apricot_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/apricot_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_tiger",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/brown_tiger/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/brown_tiger/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_zebra",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/brown_zebra/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/brown_zebra/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown_stripes",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/brown_stripes/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/brown_stripes/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_forehead",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/orange_forehead/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/orange_forehead/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange_mask",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/orange_mask/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/orange_mask/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "black_forehead",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/black_forehead/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/black_forehead/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "black_mask",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/black_mask/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/black_mask/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue_saucy",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/blue_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/blue_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blue_raindrops",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/blue_raindrops/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/blue_raindrops/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet_saucy",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/violet_saucy/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/violet_saucy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet_raindrops",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/violet_raindrops/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/violet_raindrops/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "valencian",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/valencian/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/valencian/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "zombie",
+              "texture": "pixelmon:pokemon/130_gyarados/all/base/zombie/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/base/zombie/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO",
+        "DRAGON"
+      ],
+      "types": [
+        "WATER",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Magikarp"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:gyaradosite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 6,
+      "weight": 235.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 3.0,
+        "width": 3.0,
+        "length": 3.0
+      },
+      "abilities": {
+        "abilities": [
+          "MoldBreaker"
+        ]
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 155,
+        "defense": 109,
+        "specialAttack": 70,
+        "specialDefense": 130,
+        "speed": 81
+      },
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "weight": 305.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/130_gyarados/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/130_gyarados/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/130_gyarados/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/130_gyarados/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

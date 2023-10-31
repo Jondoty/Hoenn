@@ -1,0 +1,587 @@
+{
+  "name": "Darumaka",
+  "dex": 554,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fire Punch"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Belly Drum"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Extrasensory",
+          "Flame Wheel",
+          "Focus Punch",
+          "Hammer Arm",
+          "Take Down",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Solar Beam",
+          "Fire Spin",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "U-turn",
+          "Fling",
+          "Fire Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Superpower",
+          "Overheat",
+          "Gyro Ball",
+          "Flare Blitz",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Flame Charge",
+          "Frustration",
+          "Hidden Power",
+          "Power-Up Punch",
+          "Rage",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Snatch",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Fling",
+          "Will-O-Wisp",
+          "Gyro Ball",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Gyro Ball",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Gyro Ball",
+          "Rock Slide",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "InnerFocus"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 45,
+        "specialAttack": 15,
+        "specialDefense": 45,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 70,
+        "spawnLevel": 23,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/554_darumaka/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/554_darumaka/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/554_darumaka/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.darumaka",
+                "pixelmon.mob.darumaka",
+                "pixelmon.mob.darumaka"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/554_darumaka/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/554_darumaka/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 37.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Darmanitan",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Hammer Arm"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    },
+    {
+      "name": "galarian",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Powder Snow",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Avalanche"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Ice Punch"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Belly Drum"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Flame Wheel",
+          "Focus Punch",
+          "Freeze-Dry",
+          "Hammer Arm",
+          "Incinerate",
+          "Power-Up Punch",
+          "Take Down",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Solar Beam",
+          "Fire Spin",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "U-turn",
+          "Fling",
+          "Avalanche",
+          "Ice Fang",
+          "Fire Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Ice Beam",
+          "Blizzard",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Superpower",
+          "Overheat",
+          "Gyro Ball",
+          "Flare Blitz",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "tags": [
+        "galarian"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/554_darumaka/all/galarian/none/texture.png",
+              "sprite": "pixelmon:pokemon/554_darumaka/all/galarian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/554_darumaka/all/galarian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/554_darumaka/all/galarian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/554_darumaka/all/galarian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "ICE"
+      ],
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:ice_stone"
+          },
+          "to": "Darmanitan form:galarian",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Icicle Crash"
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 5
+}

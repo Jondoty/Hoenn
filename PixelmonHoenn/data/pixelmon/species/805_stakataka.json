@@ -1,0 +1,318 @@
+{
+  "name": "Stakataka",
+  "dex": 805,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 4.3,
+        "width": 3.8,
+        "length": 1,
+        "eyeHeight": 4.3,
+        "hoverHeight": 4.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Block"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Autotomize"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Magnet Rise"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Kick",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Sandstorm",
+          "Facade",
+          "Rock Tomb",
+          "Rock Blast",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Skill Swap",
+          "Iron Defense",
+          "Gyro Ball",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Ally Switch",
+          "Heat Crash",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Bind",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Infestation",
+          "Magic Coat",
+          "Recycle",
+          "Return",
+          "Rock Polish",
+          "Role Play",
+          "Smack Down",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Brutal Swing",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": 1.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": 1.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 61,
+        "attack": 131,
+        "defense": 211,
+        "specialAttack": 53,
+        "specialDefense": 101,
+        "speed": 13
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 257,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/805_stakataka/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/805_stakataka/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/805_stakataka/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/805_stakataka/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/805_stakataka/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ROCK",
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 820.0,
+      "catchRate": 30,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "defense": 3
+      }
+    }
+  ],
+  "generation": 7
+}

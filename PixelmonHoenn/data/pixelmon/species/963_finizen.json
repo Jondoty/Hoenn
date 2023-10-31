@@ -1,0 +1,256 @@
+{
+  "name": "Finizen",
+  "dex": 963,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Supersonic",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Boomburst",
+          "Bounce",
+          "Counter",
+          "Haze",
+          "Tickle"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Protect",
+          "Water Pulse",
+          "Acrobatics",
+          "Disarming Voice",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Icy Wind",
+          "Draining Kiss",
+          "Fling",
+          "Endure",
+          "Rain Dance",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Waterfall",
+          "Rest",
+          "Substitute",
+          "Liquidation",
+          "Encore",
+          "Surf",
+          "Helping Hand",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterVeil"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 15,
+          "swimSpeed": 12,
+          "decayRate": 0.99,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 45,
+        "defense": 40,
+        "specialAttack": 45,
+        "specialDefense": 40,
+        "speed": 75
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 50,
+        "spawnLevel": 15,
+        "spawnLevelRange": 23,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/963_finizen/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/963_finizen/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/963_finizen/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/963_finizen/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 40,
+      "weight": 60.2,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 38,
+          "to": "Palafin",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Flip Turn"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 9
+}

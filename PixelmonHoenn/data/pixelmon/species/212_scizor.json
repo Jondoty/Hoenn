@@ -1,0 +1,579 @@
+{
+  "name": "Scizor",
+  "dex": 212,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Agility",
+              "Air Slash",
+              "Bullet Punch",
+              "False Swipe",
+              "Fury Cutter",
+              "Leer",
+              "Quick Attack",
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Swords Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Defog",
+          "Feint",
+          "Night Slash",
+          "Quick Guard"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Sand Tomb",
+          "U-turn",
+          "Assurance",
+          "Fling",
+          "Psycho Cut",
+          "Cross Poison",
+          "Venoshock",
+          "Round",
+          "Acrobatics",
+          "False Swipe",
+          "Air Slash",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Superpower",
+          "Iron Defense",
+          "X-Scissor",
+          "Bug Buzz",
+          "Flash Cannon",
+          "Iron Head"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Bug Bite",
+          "Captivate",
+          "Confide",
+          "Curse",
+          "Cut",
+          "Detect",
+          "Double-Edge",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Knock Off",
+          "Mimic",
+          "Morning Sun",
+          "Natural Gift",
+          "Ominous Wind",
+          "Pursuit",
+          "Rage",
+          "Razor Wind",
+          "Return",
+          "Rock Smash",
+          "Roost",
+          "Secret Power",
+          "Silver Wind",
+          "Skull Bash",
+          "Strength",
+          "Struggle Bug",
+          "Swagger",
+          "Tailwind",
+          "Take Down",
+          "Toxic",
+          "Vacuum Wave"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "False Swipe",
+          "Fling",
+          "Brutal Swing",
+          "Acrobatics",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "False Swipe",
+          "Fling",
+          "Acrobatics",
+          "Giga Impact",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Acrobatics",
+          "Giga Impact",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "False Swipe",
+          "Fling",
+          "Endure",
+          "Silver Wind",
+          "Giga Impact",
+          "Swords Dance",
+          "Captivate",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "Technician"
+        ],
+        "hiddenAbilities": [
+          "LightMetal"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": 0.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": false,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 130,
+        "defense": 100,
+        "specialAttack": 55,
+        "specialDefense": 80,
+        "speed": 65
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 200,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/212_scizor/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/212_scizor/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/212_scizor/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.scizor",
+                "pixelmon.mob.scizor"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/212_scizor/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/212_scizor/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Scyther"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:scizorite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 118.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "Technician"
+        ]
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 150,
+        "defense": 140,
+        "specialAttack": 65,
+        "specialDefense": 100,
+        "speed": 75
+      },
+      "weight": 125.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/212_scizor/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/212_scizor/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/212_scizor/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/212_scizor/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/212_scizor/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

@@ -1,0 +1,283 @@
+{
+  "name": "Bruxish",
+  "dex": 779,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Psywave"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Psychic Fangs"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Synchronoise"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Ally Switch",
+          "Aqua Tail",
+          "Iron Tail",
+          "Liquidation",
+          "Magic Coat",
+          "Magic Room",
+          "Pain Split",
+          "Signal Beam",
+          "Snatch",
+          "Snore",
+          "Telekinesis",
+          "Uproar",
+          "Water Pulse",
+          "Wonder Room"
+        ],
+        "eggMoves": [
+          "Ice Fang",
+          "Poison Fang",
+          "Rage",
+          "Water Pulse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Frost Breath",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Dazzling",
+          "StrongJaw"
+        ],
+        "hiddenAbilities": [
+          "WonderSkin"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 15,
+          "depthRangeEnd": 35,
+          "swimSpeed": 10,
+          "decayRate": 0.99,
+          "refreshRate": 100,
+          "chanceToStopOnBlock": 0.9,
+          "blocksToStopOn": [
+            "minecraft:SEAGRASS",
+            "minecraft:TALL_SEAGRASS",
+            "minecraft:SEA_PICKLE"
+          ],
+          "minStopTime": 1,
+          "maxStopTime": 2,
+          "minStopCooldownTime": 6,
+          "maxStopCooldownTime": 20
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 68,
+        "attack": 105,
+        "defense": 70,
+        "specialAttack": 70,
+        "specialDefense": 70,
+        "speed": 92
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 166,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/779_bruxish/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/779_bruxish/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/779_bruxish/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bruxish",
+                "pixelmon.mob.bruxish",
+                "pixelmon.mob.bruxish"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/779_bruxish/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/779_bruxish/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 19.0,
+      "catchRate": 80,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

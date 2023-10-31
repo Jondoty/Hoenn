@@ -1,0 +1,354 @@
+{
+  "name": "Swirlix",
+  "dex": 684,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Sweet Scent",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "String Shot"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Cotton Spore"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Wish"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Cotton Guard"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Endeavor"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Misty Explosion"
+        ],
+        "eggMoves": [
+          "After You",
+          "Copycat",
+          "Sticky Web",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Fake Tears",
+          "Round",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Surf",
+          "Thunderbolt",
+          "Psychic",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Calm Mind",
+          "Energy Ball",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Belly Drum",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Gastro Acid",
+          "Heal Bell",
+          "Hidden Power",
+          "Magic Coat",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SweetVeil"
+        ],
+        "hiddenAbilities": [
+          "Unburden"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 62,
+        "attack": 48,
+        "defense": 66,
+        "specialAttack": 59,
+        "specialDefense": 57,
+        "speed": 49
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 68,
+        "baseFriendship": 0,
+        "spawnLevel": 22,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/684_swirlix/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/684_swirlix/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/684_swirlix/all/base/none/model.pqc"
+                ],
+                "yRotation": 21
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/684_swirlix/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/684_swirlix/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 3.5,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Slurpuff",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:whipped_dream"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "trade"
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Slurpuff",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:whipped_dream"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 6
+}

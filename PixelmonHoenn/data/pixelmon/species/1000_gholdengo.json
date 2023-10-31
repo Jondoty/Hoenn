@@ -1,0 +1,240 @@
+{
+  "name": "Gholdengo",
+  "dex": 1000,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Substitute"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Make It Rain"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Memento"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Low Kick",
+          "Confuse Ray",
+          "Thief",
+          "Charge Beam",
+          "Hex",
+          "Low Sweep",
+          "Night Shade",
+          "Fling",
+          "Endure",
+          "Sandstorm",
+          "Psyshock",
+          "Thunder Punch",
+          "Sleep Talk",
+          "Electro Ball",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Thunder Wave",
+          "Rest",
+          "Flash Cannon",
+          "Iron Head",
+          "Power Gem",
+          "Substitute",
+          "Trick",
+          "Shadow Ball",
+          "Psychic",
+          "Heavy Slam",
+          "Thunderbolt",
+          "Nasty Plot",
+          "Giga Impact",
+          "Focus Blast",
+          "Hyper Beam",
+          "Thunder",
+          "Steel Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "GoodAsGold"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 90,
+        "aggressive": 10
+      },
+      "battleStats": {
+        "hp": 87,
+        "attack": 60,
+        "defense": 95,
+        "specialAttack": 133,
+        "specialDefense": 91,
+        "speed": 84
+      },
+      "tags": [
+        "undexable",
+        "walksonwater"
+      ],
+      "spawn": {
+        "baseExp": 275,
+        "baseFriendship": 50,
+        "spawnLevel": 40,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1000_gholdengo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1000_gholdengo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.gholdengo"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1000_gholdengo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1000_gholdengo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "STEEL",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Gimmighoul"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 30.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

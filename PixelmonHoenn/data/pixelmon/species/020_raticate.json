@@ -1,0 +1,719 @@
+{
+  "name": "Raticate",
+  "dex": 20,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Focus Energy",
+              "Quick Attack",
+              "Scary Face",
+              "Swords Dance",
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Hyper Fang"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Endeavor"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Endeavor",
+          "Icy Wind",
+          "Iron Tail",
+          "Last Resort",
+          "Shock Wave",
+          "Snore",
+          "Stomping Tantrum",
+          "Super Fang",
+          "Throat Chop",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Counter",
+          "Final Gambit",
+          "Flame Wheel",
+          "Fury Swipes",
+          "Last Resort",
+          "Me First",
+          "Revenge",
+          "Reversal",
+          "Screech",
+          "Uproar"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Body Slam",
+          "Bubble Beam",
+          "Captivate",
+          "Curse",
+          "Cut",
+          "Defense Curl",
+          "Endure",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Pluck",
+          "Rage",
+          "Refresh",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Skull Bash",
+          "Strength",
+          "Swift",
+          "Take Down",
+          "Water Gun"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swords Dance",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Charge Beam",
+          "Endure",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swords Dance",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "Guts"
+        ],
+        "hiddenAbilities": [
+          "Hustle"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.11
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.11
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 81,
+        "defense": 60,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 97
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 116,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/020_raticate/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/020_raticate/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/020_raticate/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.raticate"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/020_raticate/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/020_raticate/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/020_raticate/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/020_raticate/all/base/pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "valencian",
+              "texture": "pixelmon:pokemon/020_raticate/all/base/valencian/texture.png",
+              "sprite": "pixelmon:pokemon/020_raticate/all/base/valencian/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Rattata"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 18.5,
+      "catchRate": 127,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "alolan",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Focus Energy",
+              "Quick Attack",
+              "Scary Face",
+              "Swords Dance",
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Hyper Fang"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Endeavor"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Endeavor",
+          "Icy Wind",
+          "Iron Tail",
+          "Knock Off",
+          "Last Resort",
+          "Shock Wave",
+          "Snatch",
+          "Snore",
+          "Stomping Tantrum",
+          "Super Fang",
+          "Throat Chop",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Final Gambit",
+          "Fury Swipes",
+          "Me First",
+          "Revenge",
+          "Reversal",
+          "Snatch",
+          "Stockpile",
+          "Swallow",
+          "Switcheroo",
+          "Uproar"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Quash",
+          "Embargo",
+          "Shadow Claw",
+          "Giga Impact",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Gluttony",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "ThickFat"
+        ]
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 71,
+        "defense": 70,
+        "specialAttack": 40,
+        "specialDefense": 80,
+        "speed": 77
+      },
+      "tags": [
+        "alolan"
+      ],
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Rattata"
+      ],
+      "weight": 25.5,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/020_raticate/all/alolan/none/texture.png",
+              "sprite": "pixelmon:pokemon/020_raticate/all/alolan/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/020_raticate/all/alolan/none/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.02
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/020_raticate/all/alolan/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/020_raticate/all/alolan/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

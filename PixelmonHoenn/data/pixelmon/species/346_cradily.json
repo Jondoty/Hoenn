@@ -1,0 +1,435 @@
+{
+  "name": "Cradily",
+  "dex": 346,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Astonish",
+              "Confuse Ray",
+              "Leech Seed",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Spit Up",
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Energy Ball"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Barrier",
+          "Curse",
+          "Endure",
+          "Mega Drain",
+          "Mirror Coat",
+          "Recover",
+          "Stealth Rock",
+          "Tickle",
+          "Wring Out"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Rock Tomb",
+          "Bullet Seed",
+          "Mud Shot",
+          "Rock Blast",
+          "Brine",
+          "Round",
+          "Bulldoze",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Earthquake",
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Energy Ball",
+          "Earth Power",
+          "Power Whip",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Sludge Wave"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrier",
+          "Block",
+          "Captivate",
+          "Confide",
+          "Constrict",
+          "Double Team",
+          "Double-Edge",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Infestation",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Pain Split",
+          "Psych Up",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Smack Down",
+          "Strength",
+          "String Shot",
+          "Swagger",
+          "Synthesis",
+          "Toxic",
+          "Worry Seed",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Endure",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Swords Dance",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SuctionCups"
+        ],
+        "hiddenAbilities": [
+          "StormDrain"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 86,
+        "attack": 81,
+        "defense": 97,
+        "specialAttack": 81,
+        "specialDefense": 107,
+        "speed": 43
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 199,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/346_cradily/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/346_cradily/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/346_cradily/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "rotateAngleX": 0
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/346_cradily/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/346_cradily/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "ROCK",
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Lileep"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 31,
+      "weight": 60.4,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 3
+}

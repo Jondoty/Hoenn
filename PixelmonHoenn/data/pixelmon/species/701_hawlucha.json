@@ -1,0 +1,403 @@
+{
+  "name": "Hawlucha",
+  "dex": 701,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hone Claws",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Feather Dance"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Submission"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Flying Press"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "High Jump Kick"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Sky Attack"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Cross Chop",
+          "Defog",
+          "Entrainment",
+          "Feint",
+          "Mean Look",
+          "Quick Guard"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Fly",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Bounce",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Acrobatics",
+          "Retaliate",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Low Kick",
+          "Agility",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Taunt",
+          "Superpower",
+          "Bulk Up",
+          "Close Combat",
+          "Poison Jab",
+          "X-Scissor",
+          "Focus Blast",
+          "Brave Bird",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Grass Knot",
+          "Ally Switch",
+          "Work Up",
+          "Throat Chop",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dual Chop",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Karate Chop",
+          "Laser Focus",
+          "Last Resort",
+          "Me First",
+          "Mud Sport",
+          "Power-Up Punch",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Sky Drop",
+          "Strength",
+          "Swagger",
+          "Tailwind",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Steel Wing",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Sky Drop",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Fly",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Steel Wing",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Sky Drop",
+          "Acrobatics",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Limber",
+          "Unburden"
+        ],
+        "hiddenAbilities": [
+          "MoldBreaker"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 78,
+        "attack": 92,
+        "defense": 75,
+        "specialAttack": 74,
+        "specialDefense": 63,
+        "speed": 118
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 0,
+        "spawnLevel": 30,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/701_hawlucha/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/701_hawlucha/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/701_hawlucha/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.hawlucha"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/701_hawlucha/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/701_hawlucha/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE",
+        "FLYING"
+      ],
+      "types": [
+        "FIGHTING",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 21.5,
+      "catchRate": 100,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 6
+}

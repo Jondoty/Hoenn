@@ -1,0 +1,439 @@
+{
+  "name": "Indeedee",
+  "dex": 876,
+  "defaultForms": [
+    "male",
+    "female"
+  ],
+  "forms": [
+    {
+      "name": "male",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Play Nice",
+              "Stored Power"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Power Split"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Psychic Terrain"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [
+          "Extrasensory",
+          "Fake Out",
+          "Psych Up"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Magical Leaf",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Power Swap",
+          "Drain Punch",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Psychic Terrain",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Metronome",
+          "Tri Attack",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Hyper Voice",
+          "Calm Mind",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Stored Power",
+          "Ally Switch",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "InnerFocus",
+          "Synchronize"
+        ],
+        "hiddenAbilities": [
+          "PsychicSurge"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 55,
+        "specialAttack": 105,
+        "specialDefense": 95,
+        "speed": 95
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 166,
+        "baseFriendship": 140,
+        "spawnLevel": 15,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/876_indeedee/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/876_indeedee/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/876_indeedee/male/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.indeedee"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/876_indeedee/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/876_indeedee/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "PSYCHIC",
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 28.0,
+      "catchRate": 30,
+      "malePercentage": 100,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "female",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Play Nice",
+              "Stored Power"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Follow Me"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Psychic Terrain"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Healing Wish"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [
+          "Fake Out",
+          "Heal Pulse",
+          "Psych Up",
+          "Psycho Shift"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Magical Leaf",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Guard Swap",
+          "Drain Punch",
+          "Round",
+          "Draining Kiss",
+          "Psychic Terrain",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Metronome",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Hyper Voice",
+          "Calm Mind",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Stored Power",
+          "Ally Switch",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "OwnTempo",
+          "Synchronize"
+        ],
+        "hiddenAbilities": [
+          "PsychicSurge"
+        ]
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 65,
+        "specialAttack": 95,
+        "specialDefense": 105,
+        "speed": 85
+      },
+      "possibleGenders": [
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/876_indeedee/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/876_indeedee/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/876_indeedee/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/876_indeedee/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/876_indeedee/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "malePercentage": 0
+    }
+  ],
+  "generation": 8
+}

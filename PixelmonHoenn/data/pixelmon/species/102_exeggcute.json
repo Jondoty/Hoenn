@@ -1,0 +1,513 @@
+{
+  "name": "Exeggcute",
+  "dex": 102,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 1.3,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Reflect"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Solar Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Block",
+          "Curse",
+          "Ingrain",
+          "Moonlight",
+          "Poison Powder",
+          "Sleep Powder",
+          "Stun Spore"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Self-Destruct",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Bullet Seed",
+          "Power Swap",
+          "Trick Room",
+          "Round",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Psychic",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Skill Swap",
+          "Seed Bomb",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrage",
+          "Bestow",
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Egg Bomb",
+          "Explosion",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Headbutt",
+          "Hidden Power",
+          "Infestation",
+          "Lucky Chant",
+          "Mimic",
+          "Natural Gift",
+          "Nature Power",
+          "Nightmare",
+          "Psybeam",
+          "Psych Up",
+          "Psywave",
+          "Rage",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Sweet Scent",
+          "Take Down",
+          "Telekinesis",
+          "Teleport",
+          "Toxic",
+          "Wish"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Swords Dance",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Telekinesis",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Energy Ball",
+          "Endure",
+          "Explosion",
+          "Flash",
+          "Swords Dance",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Dream Eater",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Nightmare"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Rage",
+          "Psychic",
+          "Teleport",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Self-Destruct",
+          "Egg Bomb",
+          "Rest",
+          "Psywave",
+          "Explosion",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll"
+        ],
+        "hiddenAbilities": [
+          "Harvest"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 40,
+        "defense": 80,
+        "specialAttack": 60,
+        "specialDefense": 45,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 98,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/102_exeggcute/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/102_exeggcute/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/102_exeggcute/all/base/none/model.pqc"
+                ],
+                "yRotation": 20
+              },
+              "sounds": [
+                "pixelmon.mob.exeggcute",
+                "pixelmon.mob.exeggcute"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/102_exeggcute/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/102_exeggcute/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/102_exeggcute/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/102_exeggcute/all/base/pink/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 2.5,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:leaf_stone"
+          },
+          "to": "Exeggutor form:alolan",
+          "conditions": [
+            {
+              "withPokemon": [],
+              "withTypes": [],
+              "withForms": [
+                "ALOLAN"
+              ],
+              "evoConditionType": "party"
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Dragon Hammer"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:leaf_stone"
+          },
+          "to": "Exeggutor form:base",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Stomp"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 1
+}

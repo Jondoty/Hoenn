@@ -1,0 +1,316 @@
+{
+  "name": "Salandit",
+  "dex": 757,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.35,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.35,
+        "hoverHeight": 0.35
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Gas",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Smog"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Poison Fang"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Venom Drench"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Endeavor"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scale Shot",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Belch",
+          "Fake Out",
+          "Mud-Slap",
+          "Sand Attack"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Beat Up",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Payback",
+          "Fling",
+          "Shadow Claw",
+          "Venoshock",
+          "Round"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Fire Blast",
+          "Leech Life",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Heat Wave",
+          "Taunt",
+          "Overheat",
+          "Dragon Claw",
+          "Poison Jab",
+          "Dragon Pulse",
+          "Nasty Plot",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Foul Play",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Dragon Rage",
+          "Flame Burst",
+          "Flame Charge",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Return",
+          "Snatch",
+          "Swagger",
+          "Torment"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Fling",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Payback",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Corrosion"
+        ],
+        "hiddenAbilities": [
+          "Oblivious"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 48,
+        "attack": 44,
+        "defense": 40,
+        "specialAttack": 71,
+        "specialDefense": 40,
+        "speed": 77
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 35,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/757_salandit/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/757_salandit/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/757_salandit/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/757_salandit/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/757_salandit/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "DRAGON"
+      ],
+      "types": [
+        "POISON",
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 4.8,
+      "catchRate": 120,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 33,
+          "to": "Salazzle",
+          "conditions": [
+            {
+              "genders": [
+                "FEMALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Fire Lash"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 7
+}

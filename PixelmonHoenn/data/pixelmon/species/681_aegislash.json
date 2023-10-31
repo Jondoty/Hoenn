@@ -1,0 +1,335 @@
+{
+  "name": "Aegislash",
+  "dex": 681,
+  "defaultForms": [
+    "shield"
+  ],
+  "forms": [
+    {
+      "name": "shield",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aerial Ace",
+              "Autotomize",
+              "Fury Cutter",
+              "Head Smash",
+              "Iron Defense",
+              "Iron Head",
+              "King\u0027s Shield",
+              "Metal Sound",
+              "Night Slash",
+              "Power Trick",
+              "Retaliate",
+              "Sacred Sword",
+              "Shadow Sneak",
+              "Slash",
+              "Swords Dance",
+              "Tackle"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Block",
+          "Destiny Bond",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Blade",
+          "Screech",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Brick Break",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Round",
+          "Retaliate",
+          "False Swipe",
+          "Air Slash",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Iron Defense",
+          "Gyro Ball",
+          "Close Combat",
+          "Flash Cannon",
+          "Iron Head"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Magnet Rise",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Spite",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Giga Impact",
+          "Gyro Ball",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Shadow Claw",
+          "Retaliate",
+          "Giga Impact",
+          "Gyro Ball",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "StanceChange"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.5,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.5,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 140,
+        "specialAttack": 50,
+        "specialDefense": 140,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 234,
+        "baseFriendship": 0,
+        "spawnLevel": 50,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/681_aegislash/all/shield/none/texture.png",
+              "sprite": "pixelmon:pokemon/681_aegislash/all/shield/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/681_aegislash/all/shield/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.aegislash"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/681_aegislash/all/shield/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/681_aegislash/all/shield/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/681_aegislash/all/shield/alter/texture.png",
+              "sprite": "pixelmon:pokemon/681_aegislash/all/shield/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Doublade",
+        "Honedge"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 53.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2,
+        "specialDefense": 1
+      }
+    },
+    {
+      "name": "blade",
+      "battleStats": {
+        "hp": 60,
+        "attack": 140,
+        "defense": 50,
+        "specialAttack": 140,
+        "specialDefense": 50,
+        "speed": 60
+      },
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/681_aegislash/all/blade/none/texture.png",
+              "sprite": "pixelmon:pokemon/681_aegislash/all/blade/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/681_aegislash/all/blade/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/681_aegislash/all/blade/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/681_aegislash/all/blade/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/681_aegislash/all/blade/alter/texture.png",
+              "sprite": "pixelmon:pokemon/681_aegislash/all/blade/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 6
+}

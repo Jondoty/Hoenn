@@ -1,0 +1,280 @@
+{
+  "name": "Tandemaus",
+  "dex": 924,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baby-Doll Eyes",
+              "Pound"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Beat Up"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Copycat"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Population Bomb"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "After You",
+          "Baton Pass",
+          "Bite",
+          "Feint",
+          "Switcheroo",
+          "Tickle"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Thief",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Mud Shot",
+          "Low Sweep",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Bullet Seed",
+          "U-turn",
+          "Shadow Claw",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Taunt",
+          "Substitute",
+          "Crunch",
+          "Hyper Voice",
+          "Encore",
+          "Play Rough",
+          "Helping Hand",
+          "Baton Pass",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "Pickup"
+        ],
+        "hiddenAbilities": [
+          "OwnTempo"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 45,
+        "specialAttack": 40,
+        "specialDefense": 45,
+        "speed": 75
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 50,
+        "spawnLevel": 7,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/924_tandemaus/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/924_tandemaus/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/924_tandemaus/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/924_tandemaus/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "FAIRY"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 10,
+      "weight": 1.8,
+      "catchRate": 150,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Maushold form:family_four",
+          "conditions": [
+            {
+              "evoConditionType": "insideBattle"
+            },
+            {
+              "chance": 0.99,
+              "evoConditionType": "chance"
+            }
+          ],
+          "evoType": "leveling"
+        },
+        {
+          "level": 25,
+          "to": "Maushold form:family_three",
+          "conditions": [
+            {
+              "evoConditionType": "insideBattle"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 9
+}

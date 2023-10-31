@@ -1,0 +1,332 @@
+{
+  "name": "Zeraora",
+  "dex": 807,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fake Out",
+              "Power-Up Punch",
+              "Quick Attack",
+              "Scratch",
+              "Snarl",
+              "Spark"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Quick Guard"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Volt Switch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Thunder Punch"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Plasma Fists"
+            ]
+          },
+          {
+            "level": 96,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Rising Voltage"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Pay Day",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Bounce",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Acrobatics",
+          "Volt Switch",
+          "Electroweb",
+          "Snarl",
+          "Electric Terrain",
+          "False Swipe",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Low Kick",
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Taunt",
+          "Superpower",
+          "Blaze Kick",
+          "Bulk Up",
+          "Calm Mind",
+          "Close Combat",
+          "Aura Sphere",
+          "Focus Blast",
+          "Grass Knot",
+          "Electro Ball",
+          "Work Up",
+          "Wild Charge",
+          "Play Rough",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Double Team",
+          "Dual Chop",
+          "Echoed Voice",
+          "Endeavor",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Laser Focus",
+          "Return",
+          "Shock Wave",
+          "Snatch",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Brutal Swing",
+          "Acrobatics",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VoltAbsorb"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.1,
+            "z": 0.125
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.75,
+            "z": 0.625
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 88,
+        "attack": 112,
+        "defense": 75,
+        "specialAttack": 102,
+        "specialDefense": 80,
+        "speed": 143
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/807_zeraora/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/807_zeraora/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/807_zeraora/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.zeraora"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/807_zeraora/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/807_zeraora/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 44.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "speed": 3
+      }
+    }
+  ],
+  "generation": 7
+}

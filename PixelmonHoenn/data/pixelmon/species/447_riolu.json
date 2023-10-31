@@ -1,0 +1,462 @@
+{
+  "name": "Riolu",
+  "dex": 447,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Endure",
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Quick Guard"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Copycat"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Final Gambit"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Reversal"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Bullet Punch",
+          "Circle Throw",
+          "Cross Chop",
+          "Detect",
+          "High Jump Kick",
+          "Howl",
+          "Mind Reader",
+          "Vacuum Wave"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Thunder Punch",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Low Kick",
+          "Earthquake",
+          "Agility",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Blaze Kick",
+          "Iron Defense",
+          "Bulk Up",
+          "Poison Jab",
+          "Focus Blast",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aura Sphere",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Dual Chop",
+          "Focus Punch",
+          "Follow Me",
+          "Foresight",
+          "Frustration",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "Laser Focus",
+          "Magnet Rise",
+          "Meteor Mash",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Return",
+          "Roar",
+          "Role Play",
+          "Secret Power",
+          "Sky Uppercut",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Shadow Claw",
+          "Payback",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Steadfast",
+          "InnerFocus"
+        ],
+        "hiddenAbilities": [
+          "Prankster"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 70,
+        "defense": 40,
+        "specialAttack": 35,
+        "specialDefense": 40,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 72,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/447_riolu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/447_riolu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/447_riolu/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.riolu",
+                "pixelmon.mob.riolu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/447_riolu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/447_riolu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 20.2,
+      "catchRate": 75,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "to": "Lucario",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            },
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Aura Sphere"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 4
+}

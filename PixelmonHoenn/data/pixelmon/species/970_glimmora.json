@@ -1,0 +1,255 @@
+{
+  "name": "Glimmora",
+  "dex": 970,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Mortal Spin",
+              "Rock Throw",
+              "Smack Down",
+              "Spiky Shield",
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Sludge Wave"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Explosion",
+          "Memento",
+          "Toxic"
+        ],
+        "tmMoves9": [
+          "Protect",
+          "Acid Spray",
+          "Confuse Ray",
+          "Facade",
+          "Mud Shot",
+          "Rock Tomb",
+          "Venoshock",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Rock Blast",
+          "Dazzling Gleam",
+          "Rest",
+          "Rock Slide",
+          "Spikes",
+          "Toxic Spikes",
+          "Flash Cannon",
+          "Power Gem",
+          "Gunk Shot",
+          "Substitute",
+          "Iron Defense",
+          "Stealth Rock",
+          "Energy Ball",
+          "Earth Power",
+          "Sludge Bomb",
+          "Stone Edge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ToxicDebris"
+        ],
+        "hiddenAbilities": [
+          "Corrosion"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 83,
+        "attack": 55,
+        "defense": 90,
+        "specialAttack": 130,
+        "specialDefense": 81,
+        "speed": 86
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 184,
+        "baseFriendship": 50,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/970_glimmora/all/base/none/texture.png",
+              "emissive": "pixelmon:pokemon/970_glimmora/all/base/none/emissive.png",
+              "sprite": "pixelmon:pokemon/970_glimmora/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/970_glimmora/all/base/none/model.pqc",
+                  "pixelmon:pokemon/970_glimmora/all/base/none/model1.pqc"
+                ],
+                "transparency2": 0.42
+              },
+              "sounds": [
+                "pixelmon.mob.glimmora"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/970_glimmora/all/base/shiny/texture.png",
+              "emissive": "pixelmon:pokemon/970_glimmora/all/base/shiny/emissive.png",
+              "sprite": "pixelmon:pokemon/970_glimmora/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Glimmet"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 30,
+      "weight": 45.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

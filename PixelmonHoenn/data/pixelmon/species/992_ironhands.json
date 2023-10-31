@@ -1,0 +1,259 @@
+{
+  "name": "IronHands",
+  "dex": 992,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Arm Thrust",
+              "Electric Terrain",
+              "Focus Energy",
+              "Sand Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Fake Out"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Thunder Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Seismic Toss"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Belly Drum"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Focus Punch"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Facade",
+          "Bulldoze",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Volt Switch",
+          "Brick Break",
+          "Body Slam",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Drain Punch",
+          "Metronome",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Swords Dance",
+          "Body Press",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Heavy Slam",
+          "Thunderbolt",
+          "Play Rough",
+          "Reversal",
+          "Electric Terrain",
+          "Wild Charge",
+          "Earthquake",
+          "Giga Impact",
+          "Focus Blast",
+          "Hyper Beam",
+          "Thunder",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "QuarkDrive"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 154,
+        "attack": 140,
+        "defense": 108,
+        "specialAttack": 50,
+        "specialDefense": 68,
+        "speed": 50
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/992_ironhands/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/992_ironhands/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/992_ironhands/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/992_ironhands/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIGHTING",
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 380.7,
+      "catchRate": 50,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

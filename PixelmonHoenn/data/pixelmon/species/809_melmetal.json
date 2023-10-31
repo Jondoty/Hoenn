@@ -1,0 +1,309 @@
+{
+  "name": "Melmetal",
+  "dex": 809,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 2.5,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Headbutt",
+              "Tail Whip",
+              "Thunder Punch",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Mega Punch"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Double Iron Bash"
+            ]
+          },
+          {
+            "level": 96,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Round",
+          "Electric Terrain",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "Gyro Ball",
+          "Flash Cannon",
+          "Iron Head",
+          "Heavy Slam",
+          "Darkest Lariat",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Rest",
+          "Protect",
+          "Substitute",
+          "Facade",
+          "Brick Break",
+          "Thunder Wave",
+          "Rock Slide",
+          "Toxic",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Solar Beam",
+          "Hyper Beam",
+          "Flash Cannon",
+          "Ice Beam"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IronFist"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 100,
+        "passive": 0,
+        "aggressive": 0
+      },
+      "battleStats": {
+        "hp": 135,
+        "attack": 143,
+        "defense": 143,
+        "specialAttack": 80,
+        "specialDefense": 65,
+        "speed": 34
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/809_melmetal/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/809_melmetal/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/809_melmetal/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.melmetal"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/809_melmetal/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/809_melmetal/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Meltan"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Meltdown"
+      },
+      "eggCycles": 120,
+      "weight": 800.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 2.2,
+        "width": 2.5,
+        "length": 2.5
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/809_melmetal/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/809_melmetal/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/809_melmetal/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/809_melmetal/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/809_melmetal/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

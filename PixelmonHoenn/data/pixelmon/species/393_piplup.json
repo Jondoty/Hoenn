@@ -1,0 +1,379 @@
+{
+  "name": "Piplup",
+  "dex": 393,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Pound"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bubble"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Water Sport"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Peck"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bide"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Defog",
+          "Icy Wind",
+          "Signal Beam",
+          "Snore",
+          "Stealth Rock",
+          "Water Pledge",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Agility",
+          "Aqua Ring",
+          "Bide",
+          "Double Hit",
+          "Feather Dance",
+          "Flail",
+          "Hydro Pump",
+          "Icy Wind",
+          "Mud Sport",
+          "Mud-Slap",
+          "Power Trip",
+          "Snore",
+          "Supersonic",
+          "Yawn"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Cut",
+          "Dig",
+          "Dive",
+          "Endure",
+          "Headbutt",
+          "Natural Gift",
+          "Pluck",
+          "Secret Power",
+          "Sing"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Quash",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Quash",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Quash",
+          "Grass Knot",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Fling",
+          "Endure",
+          "Stealth Rock",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "Defiant"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 30,
+          "swimSpeed": 20,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 53,
+        "attack": 51,
+        "defense": 53,
+        "specialAttack": 61,
+        "specialDefense": 56,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/393_piplup/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/393_piplup/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/393_piplup/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.piplup",
+                "pixelmon.mob.piplup"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/393_piplup/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/393_piplup/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.2,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 16,
+          "to": "Prinplup",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Metal Claw"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 4
+}

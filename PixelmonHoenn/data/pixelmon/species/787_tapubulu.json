@@ -1,0 +1,415 @@
+{
+  "name": "TapuBulu",
+  "dex": 787,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.1,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 2.1,
+        "hoverHeight": 2.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leafage",
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Horn Attack"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Horn Leech"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Nature's Madness"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Skull Bash"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Grassy Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [
+
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Sunny Day",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Bullet Seed",
+          "Payback",
+          "Fling",
+          "Power Swap",
+          "Guard Swap",
+          "Round",
+          "Snarl",
+          "Grassy Terrain",
+          "False Swipe",
+          "Smart Strike",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Taunt",
+          "Superpower",
+          "Iron Defense",
+          "Bulk Up",
+          "Calm Mind",
+          "Close Combat",
+          "Seed Bomb",
+          "Focus Blast",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Stone Edge",
+          "Grass Knot",
+          "Stored Power",
+          "Work Up",
+          "Dazzling Gleam",
+          "Darkest Lariat",
+          "High Horsepower"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Confide",
+          "Dual Chop",
+          "Echoed Voice",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Nature Power",
+          "Psych Up",
+          "Return",
+          "Roar",
+          "Rototiller",
+          "Swagger",
+          "Synthesis",
+          "Telekinesis",
+          "Torment",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Brick Break",
+          "Reflect",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "False Swipe",
+          "Fling",
+          "Brutal Swing",
+          "Payback",
+          "Smart Strike",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Psych Up",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "GrassySurge"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": -0.7,
+            "y": -0.1,
+            "z": 0.0
+          },
+          "moving": {
+            "x": -0.7,
+            "y": -0.1,
+            "z": 0.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 130,
+        "defense": 115,
+        "specialAttack": 85,
+        "specialDefense": 95,
+        "speed": 75
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/787_tapubulu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/787_tapubulu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/787_tapubulu/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.tapubulu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/787_tapubulu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/787_tapubulu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 45.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

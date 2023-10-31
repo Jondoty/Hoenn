@@ -1,0 +1,266 @@
+{
+  "name": "Rabsca",
+  "dex": 954,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Defense Curl",
+              "Psych Up",
+              "Revival Blessing",
+              "Safeguard",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Guard Swap",
+              "Power Swap",
+              "Speed Swap"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Psychic"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Cosmic Power",
+          "Memento",
+          "Recover",
+          "Weather Ball"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Struggle Bug",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Pounce",
+          "Facade",
+          "Mud Shot",
+          "Rock Tomb",
+          "Stored Power",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Psyshock",
+          "Dig",
+          "Zen Headbutt",
+          "Sleep Talk",
+          "Electro Ball",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Rest",
+          "Imprison",
+          "Leech Life",
+          "Skill Swap",
+          "Power Gem",
+          "Gunk Shot",
+          "Substitute",
+          "Iron Defense",
+          "X-Scissor",
+          "Trick",
+          "Shadow Ball",
+          "Energy Ball",
+          "Psychic",
+          "Calm Mind",
+          "Earth Power",
+          "Psychic Terrain",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Trick Room",
+          "Bug Buzz",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Synchronize"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 50,
+        "defense": 85,
+        "specialAttack": 115,
+        "specialDefense": 100,
+        "speed": 45
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 50,
+        "spawnLevel": 32,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/954_rabsca/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/954_rabsca/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/954_rabsca/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/954_rabsca/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Rellor"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 3.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

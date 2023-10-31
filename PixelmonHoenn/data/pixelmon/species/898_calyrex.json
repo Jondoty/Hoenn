@@ -1,0 +1,756 @@
+{
+  "name": "Calyrex",
+  "dex": 898,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.65,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Growth",
+              "Mega Drain",
+              "Pound"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Grassy Terrain",
+              "Psychic Terrain"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Future Sight"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Pay Day",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Bullet Seed",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Grassy Terrain",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Agility",
+          "Metronome",
+          "Tri Attack",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Future Sight",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Seed Bomb",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Leaf Storm",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Unnerve"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "aggressive": 0,
+        "passive": 0,
+        "timid": 100
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 80,
+        "defense": 80,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 80
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 70,
+        "spawnLevel": 80,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/898_calyrex/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/898_calyrex/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/898_calyrex/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.calyrex",
+                "pixelmon.mob.calyrex"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/898_calyrex/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/898_calyrex/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 44.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    },
+    {
+      "name": "icerider",
+      "dimensions": {
+        "height": 1.8,
+        "width": 0.9,
+        "length": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Avalanche",
+              "Confusion",
+              "Double-Edge",
+              "Double Kick",
+              "Glacial Lance",
+              "Growth",
+              "Icicle Crash",
+              "Iron Defense",
+              "Mega Drain",
+              "Mist",
+              "Pound",
+              "Stomp",
+              "Swords Dance",
+              "Tackle",
+              "Tail Whip",
+              "Take Down",
+              "Taunt",
+              "Thrash",
+              "Torment"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Aromatherapy",
+              "Grassy Terrain"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Future Sight"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Lash Out"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Pay Day",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Giga Drain",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Bullet Seed",
+          "Icicle Spear",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Avalanche",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Bulldoze",
+          "Snarl",
+          "Draining Kiss",
+          "Grassy Terrain",
+          "Psychic Terrain",
+          "Smart Strike",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Psychic",
+          "Agility",
+          "Metronome",
+          "Tri Attack",
+          "Substitute",
+          "Outrage",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Baton Pass",
+          "Encore",
+          "Crunch",
+          "Future Sight",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Superpower",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Close Combat",
+          "Seed Bomb",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Leaf Storm",
+          "Grass Knot",
+          "Heavy Slam",
+          "Stored Power",
+          "Ally Switch",
+          "High Horsepower",
+          "Throat Chop",
+          "Pollen Puff",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "AsOne"
+        ]
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 165,
+        "defense": 150,
+        "specialAttack": 85,
+        "specialDefense": 130,
+        "speed": 50
+      },
+      "types": [
+        "PSYCHIC",
+        "ICE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/898_calyrex/all/icerider/none/texture.png",
+              "sprite": "pixelmon:pokemon/898_calyrex/all/icerider/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL_TEX",
+                "pqc": [
+                  "pixelmon:pokemon/898_calyrex/all/icerider/none/model.pqc",
+                  "pixelmon:pokemon/898_calyrex/all/icerider/none/model1.pqc",
+                  "pixelmon:pokemon/898_calyrex/all/icerider/none/texture1.png"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.calyrex.ice_rider"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/898_calyrex/all/icerider/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/898_calyrex/all/icerider/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "shadowrider",
+      "dimensions": {
+        "height": 1.8,
+        "width": 0.9,
+        "length": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Agility",
+              "Astral Barrage",
+              "Confuse Ray",
+              "Confusion",
+              "Disable",
+              "Double-Edge",
+              "Double Kick",
+              "Growth",
+              "Haze",
+              "Hex",
+              "Mega Drain",
+              "Nasty Plot",
+              "Pound",
+              "Shadow Ball",
+              "Stomp",
+              "Tackle",
+              "Tail Whip",
+              "Take Down",
+              "Thrash"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Psyshock"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Grassy Terrain",
+              "Psychic Terrain"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Future Sight"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Lash Out"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Pay Day",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Bullet Seed",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Psycho Cut",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Snarl",
+          "Phantom Force",
+          "Draining Kiss",
+          "Grassy Terrain",
+          "Psychic Terrain",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Psychic",
+          "Agility",
+          "Metronome",
+          "Tri Attack",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Crunch",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Leaf Storm",
+          "Grass Knot",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "AsOne"
+        ]
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 85,
+        "defense": 80,
+        "specialAttack": 165,
+        "specialDefense": 100,
+        "speed": 150
+      },
+      "types": [
+        "PSYCHIC",
+        "GHOST"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/texture.png",
+              "sprite": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL_TEX",
+                "pqc": [
+                  "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model.pqc",
+                  "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model1.pqc",
+                  "pixelmon:pokemon/897_spectrier/all/base/none/texture.png"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.calyrex.shadow_rider"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/898_calyrex/all/shadowrider/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/898_calyrex/all/shadowrider/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,813 @@
+{
+  "name": "Zapdos",
+  "dex": 145,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Peck",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Thunder"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Magnetic Flux"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Weather Ball",
+          "U-turn",
+          "Round",
+          "Volt Switch",
+          "Eerie Impulse"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Heat Wave",
+          "Brave Bird",
+          "Wild Charge",
+          "Hurricane"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Air Cutter",
+          "Bide",
+          "Charge Beam",
+          "Confide",
+          "Curse",
+          "Defog",
+          "Double Team",
+          "Double-Edge",
+          "Extrasensory",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Laser Focus",
+          "Leer",
+          "Metal Sound",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Rage",
+          "Razor Wind",
+          "Reflect",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Sky Attack",
+          "Sky Drop",
+          "Swagger",
+          "Tailwind",
+          "Take Down",
+          "Toxic",
+          "Twister",
+          "Whirlwind"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Steel Wing",
+          "Charge Beam",
+          "Sky Drop",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Steel Wing",
+          "Charge Beam",
+          "Sky Drop",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Sky Drop",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Steel Wing",
+          "Roost",
+          "Charge Beam",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Steel Wing"
+        ],
+        "tmMoves1": [
+          "Razor Wind",
+          "Whirlwind",
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Swift",
+          "Sky Attack",
+          "Rest",
+          "Thunder Wave",
+          "Substitute"
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure"
+        ],
+        "hiddenAbilities": [
+          "Static"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.6
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 15,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 400,
+          "flyRefreshRateSpeed": 400,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 40,
+          "lower_angle_limit": -40,
+          "max_fly_speed": 2.3,
+          "deceleration_rate": 0.17,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.1,
+          "strafe_acceleration_rate": 0.9,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 1.1,
+          "pitch_rate": 1,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 10,
+          "flying_stamina_charges": 7,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 85,
+        "specialAttack": 125,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 216,
+        "baseFriendship": 35,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/145_zapdos/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/145_zapdos/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/145_zapdos/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "yRotation": 24.14
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/145_zapdos/all/base/none/flying/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "yRotation": 23.14
+              },
+              "sounds": [
+                "pixelmon.mob.zapdos"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/145_zapdos/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/145_zapdos/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 81,
+      "weight": 52.6,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "galarian",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Peck",
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Quick Guard"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Thunderous Kick"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Reversal"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Mega Kick",
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Steel Wing",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Brick Break",
+          "Bounce",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Low Sweep",
+          "Round",
+          "Acrobatics",
+          "Retaliate",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Low Kick",
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Superpower",
+          "Blaze Kick",
+          "Bulk Up",
+          "Close Combat",
+          "Brave Bird",
+          "Hurricane",
+          "Throat Chop"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Defiant"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.6
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 125,
+        "defense": 90,
+        "specialAttack": 85,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "tags": [
+        "galarian",
+        "legendary"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/145_zapdos/all/galarian/none/texture.png",
+              "emissive": "pixelmon:pokemon/145_zapdos/all/galarian/none/emissive.png",
+              "sprite": "pixelmon:pokemon/145_zapdos/all/galarian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/145_zapdos/all/galarian/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.zapdos.galar"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/145_zapdos/all/galarian/shiny/texture.png",
+              "emissive": "pixelmon:pokemon/145_zapdos/all/galarian/shiny/emissive.png",
+              "sprite": "pixelmon:pokemon/145_zapdos/all/galarian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "FIGHTING",
+        "FLYING"
+      ]
+    }
+  ],
+  "generation": 1
+}

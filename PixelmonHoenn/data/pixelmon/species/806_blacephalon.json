@@ -1,0 +1,318 @@
+{
+  "name": "Blacephalon",
+  "dex": 806,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.4,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 3.4,
+        "hoverHeight": 3.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Magic Coat"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Mystical Fire"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Trick"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Fire Blast"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Mind Blown"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Fire Punch",
+          "Hyper Beam",
+          "Solar Beam",
+          "Fire Spin",
+          "Light Screen",
+          "Self-Destruct",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Rock Blast",
+          "Payback",
+          "Fling",
+          "Shadow Claw",
+          "Round",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Trick",
+          "Overheat",
+          "Calm Mind",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Foul Play",
+          "Stored Power"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Double Team",
+          "Explosion",
+          "Flame Burst",
+          "Flame Charge",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Last Resort",
+          "Pain Split",
+          "Quash",
+          "Recycle",
+          "Return",
+          "Smack Down",
+          "Spite",
+          "Swagger",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Fling",
+          "Quash",
+          "Will-O-Wisp",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 53,
+        "attack": 127,
+        "defense": 53,
+        "specialAttack": 151,
+        "specialDefense": 79,
+        "speed": 107
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 257,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/806_blacephalon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/806_blacephalon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/806_blacephalon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.blacephalon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/806_blacephalon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/806_blacephalon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIRE",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 13.0,
+      "catchRate": 30,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

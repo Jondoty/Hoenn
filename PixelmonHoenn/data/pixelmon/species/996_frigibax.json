@@ -1,0 +1,239 @@
+{
+  "name": "Frigibax",
+  "dex": 996,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Dragon Tail",
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Ice Beam"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Icicle Crash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aqua Tail",
+          "Dragon Rush",
+          "Freeze-Dry",
+          "Icicle Spear"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Ice Fang",
+          "Facade",
+          "Icy Wind",
+          "Dragon Tail",
+          "Avalanche",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Dig",
+          "Body Slam",
+          "Sleep Talk",
+          "Dragon Claw",
+          "Rest",
+          "Swords Dance",
+          "Substitute",
+          "Crunch",
+          "Dragon Pulse",
+          "Helping Hand",
+          "Ice Beam",
+          "Blizzard",
+          "Outrage",
+          "Draco Meteor",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ThermalExchange"
+        ],
+        "hiddenAbilities": [
+          "IceBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 45,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 50,
+        "spawnLevel": 26,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/996_frigibax/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/996_frigibax/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/996_frigibax/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.frigibax"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/996_frigibax/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/996_frigibax/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "DRAGON",
+        "MINERAL"
+      ],
+      "types": [
+        "DRAGON",
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 17.0,
+      "catchRate": 45,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Arctibax",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

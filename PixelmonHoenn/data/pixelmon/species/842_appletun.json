@@ -1,0 +1,296 @@
+{
+  "name": "Appletun",
+  "dex": 842,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Growth",
+              "Headbutt",
+              "Recycle",
+              "Sweet Scent",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Apple Acid"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Energy Ball"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Defense Curl",
+          "Recycle",
+          "Rollout",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Bullet Seed",
+          "Payback",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Amnesia",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "Gyro Ball",
+          "Seed Bomb",
+          "Dragon Pulse",
+          "Energy Ball",
+          "Grass Knot",
+          "Heavy Slam",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Ripen",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "ThickFat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 110,
+        "attack": 85,
+        "defense": 80,
+        "specialAttack": 100,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/842_appletun/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/842_appletun/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/842_appletun/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.appletun",
+                "pixelmon.mob.appletun"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/842_appletun/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/842_appletun/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Flapple",
+        "Applin"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Sweetness"
+      },
+      "eggCycles": 21,
+      "weight": 13.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 0.4
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/842_appletun/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/842_appletun/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/842_appletun/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/842_appletun/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/842_appletun/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,458 @@
+{
+  "name": "Lairon",
+  "dex": 305,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Metal Claw",
+              "Rock Tomb",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Autotomize"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Iron Tail"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 76,
+            "attacks": [
+              "Metal Burst"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Body Slam",
+          "Curse",
+          "Dragon Rush",
+          "Endeavor",
+          "Head Smash",
+          "Iron Head",
+          "Reversal",
+          "Screech",
+          "Smelling Salts",
+          "Stealth Rock",
+          "Stomp",
+          "Superpower"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Superpower",
+          "Iron Defense",
+          "Earth Power",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Ancient Power",
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Defense Curl",
+          "Double Team",
+          "Frustration",
+          "Fury Cutter",
+          "Hidden Power",
+          "Hone Claws",
+          "Magnet Rise",
+          "Mimic",
+          "Natural Gift",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Shock Wave",
+          "Smelling Salts",
+          "Spite",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Shock Wave",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Shock Wave",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy",
+          "RockHead"
+        ],
+        "hiddenAbilities": [
+          "HeavyMetal"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.25,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.25,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 140,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 152,
+        "baseFriendship": 35,
+        "spawnLevel": 40,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/305_lairon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/305_lairon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/305_lairon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/305_lairon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/305_lairon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER"
+      ],
+      "types": [
+        "STEEL",
+        "ROCK"
+      ],
+      "preEvolutions": [
+        "Aron"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 120.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 42,
+          "to": "Aggron",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,207 @@
+{
+  "name": "Combee",
+  "dex": 415,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bug Bite",
+              "Gust",
+              "Struggle Bug",
+              "Sweet Scent"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Snore"
+        ],
+        "trMoves": [
+          "Bug Buzz"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Endeavor",
+          "Mud-Slap",
+          "Ominous Wind",
+          "String Shot",
+          "Swift",
+          "Tailwind"
+        ],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HoneyGather"
+        ],
+        "hiddenAbilities": [
+          "Hustle"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 5,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 30,
+        "defense": 42,
+        "specialAttack": 30,
+        "specialDefense": 42,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 70,
+        "spawnLevel": 6,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "MALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/415_combee/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/415_combee/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/415_combee/male/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.combee"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/415_combee/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/415_combee/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        },
+        {
+          "gender": "FEMALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/415_combee/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/415_combee/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/415_combee/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/415_combee/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/415_combee/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 5.5,
+      "catchRate": 120,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 21,
+          "to": "Vespiquen",
+          "conditions": [
+            {
+              "genders": [
+                "FEMALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Slash"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 4
+}

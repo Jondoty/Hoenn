@@ -1,0 +1,411 @@
+{
+  "name": "Yanma",
+  "dex": 193,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Foresight",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Sonic Boom"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Defog",
+          "Giga Drain",
+          "Signal Beam",
+          "Snore",
+          "Tailwind",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Double-Edge",
+          "Feint",
+          "Feint Attack",
+          "Leech Life",
+          "Pursuit",
+          "Reversal",
+          "Secret Power",
+          "Signal Beam",
+          "Silver Wind",
+          "Whirlwind"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Captivate",
+          "Curse",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Mimic",
+          "Natural Gift",
+          "Ominous Wind",
+          "String Shot",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Flash",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Flash",
+          "Dream Eater",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Silver Wind",
+          "Flash",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SpeedBoost",
+          "CompoundEyes"
+        ],
+        "hiddenAbilities": [
+          "Frisk"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 45,
+        "specialAttack": 75,
+        "specialDefense": 45,
+        "speed": 95
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/193_yanma/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/193_yanma/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/193_yanma/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.yanma",
+                "pixelmon.mob.yanma",
+                "pixelmon.mob.yanma"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/193_yanma/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/193_yanma/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 38.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Yanmega",
+          "conditions": [
+            {
+              "attackName": "Ancient Power",
+              "evoConditionType": "move"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 2
+}

@@ -1,0 +1,231 @@
+{
+  "name": "Quaxly",
+  "dex": 912,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Pound",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Aqua Cutter"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Liquidation"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Detect",
+          "Last Resort",
+          "Rapid Spin",
+          "Roost"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Low Kick",
+          "Acrobatics",
+          "Disarming Voice",
+          "Chilling Water",
+          "Facade",
+          "Aerial Ace",
+          "Swift",
+          "Air Cutter",
+          "Endure",
+          "Rain Dance",
+          "Air Slash",
+          "Rest",
+          "Liquidation",
+          "Encore",
+          "Surf",
+          "Helping Hand",
+          "Baton Pass",
+          "Misty Terrain",
+          "Hydro Pump",
+          "Water Pledge",
+          "Brave Bird",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "Moxie"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 65,
+        "defense": 45,
+        "specialAttack": 50,
+        "specialDefense": 45,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/912_quaxly/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/912_quaxly/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/912_quaxly/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.quaxly"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/912_quaxly/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/912_quaxly/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING",
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 6.1,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 16,
+          "to": "Quaxwell",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

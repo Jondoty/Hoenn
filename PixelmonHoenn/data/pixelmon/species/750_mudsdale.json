@@ -1,0 +1,288 @@
+{
+  "name": "Mudsdale",
+  "dex": 750,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.5,
+        "width": 2.5,
+        "length": 1,
+        "eyeHeight": 2.5,
+        "hoverHeight": 2.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Double Kick",
+              "Iron Defense",
+              "Mud-Slap",
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Strength"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "High Horsepower"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Mega Kick"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Double-Edge",
+          "Fissure",
+          "Roar",
+          "Smack Down"
+        ],
+        "tmMoves8": [
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Revenge",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "Payback",
+          "Low Sweep",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Low Kick",
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "Close Combat",
+          "Focus Blast",
+          "Earth Power",
+          "Iron Head",
+          "Stealth Rock",
+          "Heavy Slam",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Frustration",
+          "Hidden Power",
+          "Magnitude",
+          "Mud Bomb",
+          "Mud Sport",
+          "Return",
+          "Rototiller",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "OwnTempo",
+          "Stamina"
+        ],
+        "hiddenAbilities": [
+          "InnerFocus"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 100,
+        "specialAttack": 55,
+        "specialDefense": 85,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 30,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/750_mudsdale/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/750_mudsdale/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/750_mudsdale/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/750_mudsdale/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/750_mudsdale/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Mudbray"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 920.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

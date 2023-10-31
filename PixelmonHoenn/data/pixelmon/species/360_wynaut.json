@@ -1,0 +1,168 @@
+{
+  "name": "Wynaut",
+  "dex": 360,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Amnesia",
+              "Charm",
+              "Counter",
+              "Destiny Bond",
+              "Encore",
+              "Mirror Coat",
+              "Safeguard",
+              "Splash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Safeguard",
+          "Charm"
+        ],
+        "trMoves": [
+          "Amnesia",
+          "Encore"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Tickle"
+        ],
+        "tmMoves7": [
+          "Safeguard"
+        ],
+        "tmMoves6": [
+          "Safeguard"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShadowTag"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 23,
+        "defense": 48,
+        "specialAttack": 23,
+        "specialDefense": 48,
+        "speed": 23
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 44,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/360_wynaut/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/360_wynaut/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/360_wynaut/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.wynaut"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/360_wynaut/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/360_wynaut/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 14.0,
+      "catchRate": 125,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 15,
+          "to": "Wobbuffet",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Counter",
+            "Mirror Coat",
+            "Safeguard",
+            "Destiny Bond"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 3
+}

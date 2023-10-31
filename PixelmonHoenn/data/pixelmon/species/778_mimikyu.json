@@ -1,0 +1,354 @@
+{
+  "name": "Mimikyu",
+  "dex": 778,
+  "defaultForms": [
+    "disguised"
+  ],
+  "forms": [
+    {
+      "name": "disguised",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.35,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Copycat",
+              "Scratch",
+              "Splash",
+              "Wood Hammer"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mimic"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Shadow Claw"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Pain Split"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Destiny Bond",
+          "Grudge"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Beat Up",
+          "Will-O-Wisp",
+          "Facade",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Trick Room",
+          "Magic Room",
+          "Round",
+          "Hex",
+          "Phantom Force",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Taunt",
+          "Trick",
+          "Bulk Up",
+          "Dark Pulse",
+          "X-Scissor",
+          "Work Up",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Dream Eater",
+          "Embargo",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Last Resort",
+          "Nightmare",
+          "Psych Up",
+          "Return",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Leech Life",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "X-Scissor",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Disguise"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 90,
+        "defense": 80,
+        "specialAttack": 50,
+        "specialDefense": 105,
+        "speed": 96
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 167,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 30,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/none/texture.png",
+              "sprite": "pixelmon:pokemon/778_mimikyu/all/disguised/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/778_mimikyu/all/disguised/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.mimikyu",
+                "pixelmon.mob.mimikyu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/778_mimikyu/all/disguised/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/778_mimikyu/all/disguised/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 0.7,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    },
+    {
+      "name": "busted",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/778_mimikyu/all/busted/none/texture.png",
+              "sprite": "pixelmon:pokemon/778_mimikyu/all/busted/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/778_mimikyu/all/busted/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/778_mimikyu/all/busted/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/778_mimikyu/all/busted/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/778_mimikyu/all/busted/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/778_mimikyu/all/busted/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

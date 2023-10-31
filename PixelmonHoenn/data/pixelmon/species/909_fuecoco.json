@@ -1,0 +1,239 @@
+{
+  "name": "Fuecoco",
+  "dex": 909,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Fire Blast"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Belch",
+          "Curse",
+          "Encore",
+          "Slack Off"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Disarming Voice",
+          "Fire Spin",
+          "Facade",
+          "Snarl",
+          "Flame Charge",
+          "Endure",
+          "Sunny Day",
+          "Dig",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Stomping Tantrum",
+          "Rest",
+          "Substitute",
+          "Will-O-Wisp",
+          "Crunch",
+          "Hyper Voice",
+          "Heat Wave",
+          "Encore",
+          "Flamethrower",
+          "Helping Hand",
+          "Fire Blast",
+          "Fire Pledge",
+          "Outrage",
+          "Overheat",
+          "Flare Blitz",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Unaware"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 67,
+        "attack": 45,
+        "defense": 59,
+        "specialAttack": 63,
+        "specialDefense": 40,
+        "speed": 36
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/909_fuecoco/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/909_fuecoco/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/909_fuecoco/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.fuecoco"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/909_fuecoco/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/909_fuecoco/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 9.8,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 16,
+          "to": "Crocalor",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 9
+}

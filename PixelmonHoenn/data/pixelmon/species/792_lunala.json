@@ -1,0 +1,433 @@
+{
+  "name": "Lunala",
+  "dex": 792,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 4.2,
+        "width": 3.0,
+        "length": 1,
+        "eyeHeight": 4.2,
+        "hoverHeight": 4.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Cosmic Power",
+              "Hypnosis",
+              "Moongeist Beam",
+              "Teleport"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Moonlight"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Night Daze"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Magic Coat"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Dream Eater"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Expanding Force",
+          "Meteor Beam",
+          "Poltergeist"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Hex",
+          "Acrobatics",
+          "Phantom Force",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Agility",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Heat Wave",
+          "Trick",
+          "Cosmic Power",
+          "Calm Mind",
+          "Focus Blast",
+          "Work Up",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Charge Beam",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Psych Up",
+          "Return",
+          "Roar",
+          "Roost",
+          "Shock Wave",
+          "Signal Beam",
+          "Sky Attack",
+          "Sky Drop",
+          "Spite",
+          "Swagger",
+          "Tailwind",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Focus Blast",
+          "Charge Beam",
+          "Sky Drop",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Shadow Claw",
+          "Giga Impact",
+          "Thunder Wave",
+          "Fly",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "ShadowShield"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.7,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.2,
+            "z": 0.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 137,
+        "attack": 113,
+        "defense": 89,
+        "specialAttack": 137,
+        "specialDefense": 107,
+        "speed": 97
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 136,
+        "baseFriendship": 70,
+        "spawnLevel": 55,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/792_lunala/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/792_lunala/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/792_lunala/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lunala"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/792_lunala/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/792_lunala/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Cosmog",
+        "Cosmoem"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 120.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "fullmoon",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/792_lunala/all/fullmoon/none/texture.png",
+              "sprite": "pixelmon:pokemon/792_lunala/all/fullmoon/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/792_lunala/all/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/792_lunala/all/fullmoon/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/792_lunala/all/fullmoon/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

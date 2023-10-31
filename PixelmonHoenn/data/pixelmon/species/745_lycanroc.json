@@ -1,0 +1,397 @@
+{
+  "name": "Lycanroc",
+  "dex": 745,
+  "defaultForms": [
+    "midday",
+    "midnight"
+  ],
+  "forms": [
+    {
+      "name": "midday",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Accelerock",
+              "Double Team",
+              "Leer",
+              "Quick Attack",
+              "Quick Guard",
+              "Sand Attack",
+              "Sucker Punch",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Last Resort",
+          "Thrash"
+        ],
+        "tmMoves8": [
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Rock Tomb",
+          "Rock Blast",
+          "Assurance",
+          "Thunder Fang",
+          "Fire Fang",
+          "Round",
+          "Tail Slap",
+          "Snarl",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Earth Power",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Drill Run",
+          "Play Rough",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Crush Claw",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Odor Sleuth",
+          "Return",
+          "Rock Climb",
+          "Rock Polish",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "SandRush"
+        ],
+        "hiddenAbilities": [
+          "Steadfast"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 115,
+        "defense": 65,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 112
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 25,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/745_lycanroc/all/midday/none/texture.png",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midday/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/745_lycanroc/all/midday/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/745_lycanroc/all/midday/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midday/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [
+        "Rockruff"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 25.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "midnight",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "VitalSpirit"
+        ],
+        "hiddenAbilities": [
+          "NoGuard"
+        ]
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 115,
+        "defense": 75,
+        "specialAttack": 55,
+        "specialDefense": 75,
+        "speed": 82
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/745_lycanroc/all/midnight/none/texture.png",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midnight/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/745_lycanroc/all/midnight/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lycanroc.midnight"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/745_lycanroc/all/midnight/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/midnight/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "dusk",
+      "abilities": {
+        "abilities": [
+          "ToughClaws"
+        ]
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 117,
+        "defense": 65,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 110
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/745_lycanroc/all/dusk/none/texture.png",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/dusk/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/745_lycanroc/all/dusk/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/745_lycanroc/all/dusk/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/745_lycanroc/all/dusk/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

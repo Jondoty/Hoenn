@@ -1,0 +1,268 @@
+{
+  "name": "Flamigo",
+  "dex": 973,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Copycat",
+              "Peck"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Mega Kick"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Double Team",
+          "Quick Guard",
+          "Sky Attack"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Acrobatics",
+          "Thief",
+          "Pounce",
+          "Chilling Water",
+          "Facade",
+          "Aerial Ace",
+          "Low Sweep",
+          "Air Cutter",
+          "Fling",
+          "Endure",
+          "U-turn",
+          "Bulk Up",
+          "Air Slash",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Fly",
+          "Substitute",
+          "Liquidation",
+          "Tailwind",
+          "Reversal",
+          "Giga Impact",
+          "Hurricane",
+          "Hyper Beam",
+          "Brave Bird",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Scrappy",
+          "TangledFeet"
+        ],
+        "hiddenAbilities": [
+          "Costar"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 3,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 82,
+        "attack": 115,
+        "defense": 74,
+        "specialAttack": 75,
+        "specialDefense": 64,
+        "speed": 90
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 50,
+        "spawnLevel": 24,
+        "spawnLevelRange": 21,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/973_flamigo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/973_flamigo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/973_flamigo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/973_flamigo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "FLYING",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 37.0,
+      "catchRate": 100,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

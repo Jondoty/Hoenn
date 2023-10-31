@@ -1,0 +1,382 @@
+{
+  "name": "Bouffalant",
+  "dex": 626,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.6,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Revenge"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Horn Attack"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Head Charge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Belch",
+          "Cotton Guard",
+          "Endeavor",
+          "Headbutt",
+          "Mud-Slap",
+          "Skull Bash",
+          "Stomp"
+        ],
+        "tmMoves8": [
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Revenge",
+          "Rock Tomb",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Smart Strike",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Surf",
+          "Earthquake",
+          "Focus Energy",
+          "Amnesia",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Close Combat",
+          "Poison Jab",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Work Up",
+          "Wild Charge",
+          "High Horsepower",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Pursuit",
+          "Rage",
+          "Return",
+          "Rock Climb",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Thrash",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Smart Strike",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Reckless",
+          "SapSipper"
+        ],
+        "hiddenAbilities": [
+          "Soundproof"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.4
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 110,
+        "defense": 95,
+        "specialAttack": 40,
+        "specialDefense": 95,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 70,
+        "spawnLevel": 46,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/626_bouffalant/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/626_bouffalant/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/626_bouffalant/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bouffalant"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/626_bouffalant/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/626_bouffalant/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 94.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

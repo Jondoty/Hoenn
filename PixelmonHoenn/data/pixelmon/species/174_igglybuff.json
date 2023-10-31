@@ -1,0 +1,463 @@
+{
+  "name": "Igglybuff",
+  "dex": 174,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Copycat",
+              "Pound",
+              "Sing"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Charm"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Covet",
+          "Gravity",
+          "Heal Pulse",
+          "Last Resort",
+          "Perish Song",
+          "Present",
+          "Rollout",
+          "Wish"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Solar Beam",
+          "Thunder Wave",
+          "Dig",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Fake Tears",
+          "Bounce",
+          "Fling",
+          "Round",
+          "Draining Kiss",
+          "Misty Terrain"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Uproar",
+          "Hyper Voice",
+          "Grass Knot",
+          "Work Up",
+          "Wild Charge",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Curse",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Echoed Voice",
+          "Endeavor",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Heal Bell",
+          "Hidden Power",
+          "Incinerate",
+          "Magic Coat",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Pain Split",
+          "Psych Up",
+          "Punishment",
+          "Recycle",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Seismic Toss",
+          "Shock Wave",
+          "Swagger",
+          "Tickle",
+          "Toxic",
+          "Water Pulse",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Incinerate",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Incinerate",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Endure",
+          "Recycle",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Zap Cannon",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Defense Curl",
+          "Dream Eater",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CuteCharm",
+          "Competitive"
+        ],
+        "hiddenAbilities": [
+          "FriendGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 30,
+        "defense": 15,
+        "specialAttack": 40,
+        "specialDefense": 20,
+        "speed": 15
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 42,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/174_igglybuff/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/174_igglybuff/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/174_igglybuff/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.igglybuff"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/174_igglybuff/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/174_igglybuff/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "NORMAL",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 1.0,
+      "catchRate": 170,
+      "malePercentage": 25,
+      "evolutions": [
+        {
+          "to": "Jigglypuff",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 2
+}

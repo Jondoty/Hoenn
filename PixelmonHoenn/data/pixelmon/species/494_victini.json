@@ -1,0 +1,453 @@
+{
+  "name": "Victini",
+  "dex": 494,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Flame Charge",
+              "Focus Energy",
+              "Quick Attack",
+              "V-Create"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Stored Power"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Inferno"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Searing Shot"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Overheat"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Final Gambit"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Scorching Sands"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Thunder Wave",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Brick Break",
+          "Bounce",
+          "U-turn",
+          "Fling",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Trick Room",
+          "Round",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Reversal",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Blaze Kick",
+          "Overheat",
+          "Flare Blitz",
+          "Focus Blast",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Stored Power",
+          "Work Up",
+          "Wild Charge",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Blue Flare",
+          "Bolt Strike",
+          "Celebrate",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Embargo",
+          "Flame Burst",
+          "Flash",
+          "Frustration",
+          "Fusion Bolt",
+          "Fusion Flare",
+          "Glaciate",
+          "Hidden Power",
+          "Laser Focus",
+          "Last Resort",
+          "Magic Coat",
+          "Power-Up Punch",
+          "Psych Up",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Secret Power",
+          "Power-Up Punch",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VictoryStar"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 100,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/494_victini/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/494_victini/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/494_victini/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.victini",
+                "pixelmon.mob.victini"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/494_victini/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/494_victini/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC",
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 4.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,532 @@
+{
+  "name": "Medicham",
+  "dex": 308,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bide",
+              "Confusion",
+              "Detect",
+              "Fire Punch",
+              "Ice Punch",
+              "Meditate",
+              "Thunder Punch",
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Meditate"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Force Palm"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hidden Power"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Mind Reader"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "High Jump Kick"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Acupressure"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Power Trick"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Counter"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Helping Hand",
+          "Ice Punch",
+          "Laser Focus",
+          "Low Kick",
+          "Magic Coat",
+          "Pain Split",
+          "Recycle",
+          "Role Play",
+          "Signal Beam",
+          "Snore",
+          "Telekinesis",
+          "Thunder Punch",
+          "Trick",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Baton Pass",
+          "Bullet Punch",
+          "Drain Punch",
+          "Dynamic Punch",
+          "Fake Out",
+          "Fire Punch",
+          "Foresight",
+          "Guard Swap",
+          "Ice Punch",
+          "Power Swap",
+          "Psycho Cut",
+          "Quick Guard",
+          "Secret Power",
+          "Thunder Punch"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Double-Edge",
+          "Flash",
+          "Headbutt",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Vacuum Wave"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Giga Impact",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Work Up",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PurePower"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 75,
+        "specialAttack": 60,
+        "specialDefense": 75,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 153,
+        "baseFriendship": 70,
+        "spawnLevel": 38,
+        "spawnLevelRange": 7,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/308_medicham/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/308_medicham/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/308_medicham/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "rotateAngleX": 0
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/308_medicham/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/308_medicham/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIGHTING",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Meditite"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:medichamite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 31.5,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 3.0,
+        "width": 1.8,
+        "length": 1.8
+      },
+      "abilities": {
+        "abilities": [
+          "PurePower"
+        ]
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 85,
+        "specialAttack": 80,
+        "specialDefense": 85,
+        "speed": 100
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/308_medicham/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/308_medicham/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/308_medicham/all/mega/none/model.pqc"
+                ],
+                "movementThreshold": 0.1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/308_medicham/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/308_medicham/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

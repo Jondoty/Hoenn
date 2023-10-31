@@ -1,0 +1,587 @@
+{
+  "name": "Jynx",
+  "dex": 124,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Copycat",
+              "Lick",
+              "Pound",
+              "Powder Snow",
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sing"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Ice Punch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Lovely Kiss"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Perish Song"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Captivate",
+          "Fake Out",
+          "Ice Punch",
+          "Meditate",
+          "Miracle Eye",
+          "Nasty Plot",
+          "Wish"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Fake Tears",
+          "Icicle Spear",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Avalanche",
+          "Psycho Cut",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Psychic",
+          "Metronome",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Hyper Voice",
+          "Calm Mind",
+          "Focus Blast",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aurora Veil",
+          "Bide",
+          "Bubble Beam",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Curse",
+          "Double Slap",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Dynamic Punch",
+          "Echoed Voice",
+          "Flash",
+          "Focus Punch",
+          "Frost Breath",
+          "Frustration",
+          "Headbutt",
+          "Heal Bell",
+          "Heart Stamp",
+          "Hidden Power",
+          "Lucky Chant",
+          "Magic Coat",
+          "Meditate",
+          "Mimic",
+          "Miracle Eye",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Psych Up",
+          "Psywave",
+          "Rage",
+          "Recycle",
+          "Return",
+          "Screech",
+          "Secret Power",
+          "Seismic Toss",
+          "Signal Beam",
+          "Skull Bash",
+          "Submission",
+          "Swagger",
+          "Sweet Scent",
+          "Take Down",
+          "Telekinesis",
+          "Teleport",
+          "Thrash",
+          "Torment",
+          "Toxic",
+          "Wake-Up Slap",
+          "Water Gun",
+          "Water Pulse",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Aurora Veil",
+          "Psych Up",
+          "Frost Breath",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Frost Breath",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Frost Breath",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Payback",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Psych Up",
+          "Hidden Power",
+          "Sweet Scent",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Dream Eater",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Nightmare"
+        ],
+        "tmMoves1": [
+          "Mega Punch",
+          "Mega Kick",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Submission",
+          "Counter",
+          "Seismic Toss",
+          "Rage",
+          "Psychic",
+          "Teleport",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Metronome",
+          "Skull Bash",
+          "Rest",
+          "Psywave",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Oblivious",
+          "Forewarn"
+        ],
+        "hiddenAbilities": [
+          "DrySkin"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 50,
+        "defense": 35,
+        "specialAttack": 115,
+        "specialDefense": 95,
+        "speed": 95
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 137,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/124_jynx/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/124_jynx/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/124_jynx/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.jynx",
+                "pixelmon.mob.jynx"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/124_jynx/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/124_jynx/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "ICE",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Smoochum"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 40.6,
+      "catchRate": 45,
+      "malePercentage": 0,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 1
+}

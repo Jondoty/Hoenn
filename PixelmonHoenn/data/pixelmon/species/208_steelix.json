@@ -1,0 +1,605 @@
+{
+  "name": "Steelix",
+  "dex": 208,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 3.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bind",
+              "Crunch",
+              "Fire Fang",
+              "Harden",
+              "Ice Fang",
+              "Rock Polish",
+              "Rock Throw",
+              "Tackle",
+              "Thunder Fang"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Autotomize"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sand Tomb"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Iron Tail"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Magnet Rise"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Scorching Sands",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Block",
+          "Defense Curl",
+          "Dragon Tail",
+          "Flail",
+          "Head Smash",
+          "Rollout",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Payback",
+          "Thunder Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Iron Defense",
+          "Dragon Dance",
+          "Gyro Ball",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Earth Power",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Drill Run",
+          "High Horsepower",
+          "Psychic Fangs",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Aqua Tail",
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Explosion",
+          "Fissure",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nature Power",
+          "Psych Up",
+          "Rage",
+          "Return",
+          "Roar",
+          "Rock Climb",
+          "Rock Smash",
+          "Rototiller",
+          "Secret Power",
+          "Skull Bash",
+          "Strength",
+          "Swagger",
+          "Take Down",
+          "Torment",
+          "Toxic",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Brutal Swing",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Dragon Pulse",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Psych Up",
+          "Captivate",
+          "Dark Pulse",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves3": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Roar",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Dragon Breath",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RockHead",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": -0.6,
+            "y": -0.2,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.6
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 85,
+        "defense": 200,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 196,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/208_steelix/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/208_steelix/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/208_steelix/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/208_steelix/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/208_steelix/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "crystal",
+              "texture": "pixelmon:pokemon/208_steelix/all/base/crystal/texture.png",
+              "sprite": "pixelmon:pokemon/208_steelix/all/base/crystal/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL",
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Onix"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:steelixite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 400.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "SandForce"
+        ]
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 230,
+        "specialAttack": 55,
+        "specialDefense": 95,
+        "speed": 30
+      },
+      "weight": 740.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/208_steelix/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/208_steelix/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/208_steelix/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/208_steelix/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/208_steelix/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "crystal",
+              "texture": "pixelmon:pokemon/208_steelix/all/mega/crystal/texture.png",
+              "sprite": "pixelmon:pokemon/208_steelix/all/mega/crystal/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

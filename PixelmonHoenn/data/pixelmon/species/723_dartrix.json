@@ -1,0 +1,328 @@
+{
+  "name": "Dartrix",
+  "dex": 723,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Growl",
+              "Leafage",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Peck"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Feather Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Grass Pledge",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Defog",
+          "Double Team",
+          "Knock Off"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Steel Wing",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Shadow Claw",
+          "Round",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Leaf Blade",
+          "Seed Bomb",
+          "Energy Ball",
+          "Brave Bird",
+          "Nasty Plot",
+          "Grass Knot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Curse",
+          "Echoed Voice",
+          "Foresight",
+          "Frustration",
+          "Fury Attack",
+          "Haze",
+          "Hidden Power",
+          "Nature Power",
+          "Ominous Wind",
+          "Return",
+          "Roost",
+          "Sky Attack",
+          "Swagger",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Energy Ball",
+          "False Swipe",
+          "Shadow Claw",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "LongReach"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.4,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 78,
+        "attack": 75,
+        "defense": 75,
+        "specialAttack": 70,
+        "specialDefense": 70,
+        "speed": 52
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 70,
+        "spawnLevel": 18,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/723_dartrix/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/723_dartrix/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/723_dartrix/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dartrix"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/723_dartrix/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/723_dartrix/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "GRASS",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Rowlet"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 16.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Decidueye",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Spirit Shackle"
+          ]
+        },
+        {
+          "level": 36,
+          "to": "Decidueye form:hisuian",
+          "conditions": [
+            {
+              "time": "DAWN",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Triple Arrows"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 7
+}

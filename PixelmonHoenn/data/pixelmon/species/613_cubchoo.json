@@ -1,0 +1,373 @@
+{
+  "name": "Cubchoo",
+  "dex": 613,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.75,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.75,
+        "hoverHeight": 0.75
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Frost Breath"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hail"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Focus Punch",
+          "Night Slash",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Rock Tomb",
+          "Brine",
+          "Assurance",
+          "Fling",
+          "Avalanche",
+          "Shadow Claw",
+          "Ice Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Low Kick",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Superpower",
+          "Grass Knot",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Confide",
+          "Covet",
+          "Cut",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Power-Up Punch",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Shadow Claw",
+          "Frost Breath",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Shadow Claw",
+          "Frost Breath",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Shadow Claw",
+          "Frost Breath",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SnowCloak",
+          "SlushRush"
+        ],
+        "hiddenAbilities": [
+          "Rattled"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 70,
+        "defense": 40,
+        "specialAttack": 60,
+        "specialDefense": 40,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/613_cubchoo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/613_cubchoo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/613_cubchoo/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.cubchoo"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/613_cubchoo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/613_cubchoo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 8.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Beartic",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Icicle Crash"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

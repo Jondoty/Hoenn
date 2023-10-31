@@ -1,0 +1,572 @@
+{
+  "name": "Avalugg",
+  "dex": 713,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 2.4,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Body Slam",
+              "Harden",
+              "Powder Snow",
+              "Rapid Spin",
+              "Tackle",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Avalanche"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Blizzard"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Skull Bash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aurora Veil",
+          "Mirror Coat",
+          "Mist"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Avalanche",
+          "Ice Fang",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Superpower",
+          "Iron Defense",
+          "Gyro Ball",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Heavy Slam",
+          "High Horsepower",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Barrier",
+          "Block",
+          "Confide",
+          "Double Team",
+          "Flash",
+          "Frost Breath",
+          "Frustration",
+          "Hidden Power",
+          "Ice Ball",
+          "Return",
+          "Roar",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Sharpen",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "OwnTempo",
+          "IceBody"
+        ],
+        "hiddenAbilities": [
+          "Sturdy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.03,
+            "z": -0.24
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.03,
+            "z": -0.24
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 2,
+          "depthRangeEnd": 2,
+          "swimSpeed": 1,
+          "decayRate": 0,
+          "refreshRate": 0
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 117,
+        "defense": 184,
+        "specialAttack": 44,
+        "specialDefense": 46,
+        "speed": 28
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 180,
+        "baseFriendship": 0,
+        "spawnLevel": 38,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/713_avalugg/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/713_avalugg/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/713_avalugg/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.avalugg"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/713_avalugg/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/713_avalugg/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "MINERAL"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [
+        "Bergmite"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 505.0,
+      "catchRate": 55,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 1,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Ice Shard"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Crunch",
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Blizzard",
+              "Mountain Gale"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bulldoze",
+          "Earth Power",
+          "Flash Cannon",
+          "Giga Impact",
+          "High Horsepower",
+          "Hyper Beam",
+          "Ice Ball",
+          "Ice Beam",
+          "Ice Fang",
+          "Icy Wind",
+          "Iron Head",
+          "Power Shift",
+          "Rest",
+          "Rock Slide",
+          "Rock Smash",
+          "Stealth Rock",
+          "Stone Edge",
+          "Water Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "StrongJaw",
+          "IceBody"
+        ],
+        "hiddenAbilities": [
+          "Sturdy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 80,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 127,
+        "defense": 184,
+        "specialAttack": 34,
+        "specialDefense": 36,
+        "speed": 38
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 180,
+        "baseFriendship": 0,
+        "spawnLevel": 38,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/713_avalugg/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/713_avalugg/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/713_avalugg/all/hisuian/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.avalugg"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/713_avalugg/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/713_avalugg/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "MONSTER"
+      ],
+      "types": [
+        "ICE",
+        "ROCK"
+      ],
+      "preEvolutions": [
+        "Bergmite"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 505.5,
+      "catchRate": 55,
+      "malePercentage": 50
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,403 @@
+{
+  "name": "Axew",
+  "dex": 610,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "False Swipe"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dual Chop"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Guillotine"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Endeavor",
+          "First Impression",
+          "Harden",
+          "Night Slash"
+        ],
+        "tmMoves8": [
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Rock Tomb",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Round",
+          "False Swipe",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Superpower",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Poison Jab",
+          "X-Scissor",
+          "Dragon Pulse"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Aqua Tail",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dragon Rage",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Incinerate",
+          "Razor Wind",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Incinerate",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Incinerate",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Rivalry",
+          "MoldBreaker"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 46,
+        "attack": 87,
+        "defense": 60,
+        "specialAttack": 30,
+        "specialDefense": 40,
+        "speed": 57
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 35,
+        "spawnLevel": 22,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/610_axew/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/610_axew/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/610_axew/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.axew",
+                "pixelmon.mob.axew",
+                "pixelmon.mob.axew",
+                "pixelmon.mob.axew"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/610_axew/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/610_axew/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 18.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 38,
+          "to": "Fraxure",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,275 @@
+{
+  "name": "Skeledirge",
+  "dex": 911,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Leer",
+              "Sing",
+              "Tackle",
+              "Torch Song"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Hex",
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Fire Blast"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Overheat"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Belch",
+          "Curse",
+          "Encore",
+          "Slack Off"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Disarming Voice",
+          "Fire Spin",
+          "Facade",
+          "Hex",
+          "Snarl",
+          "Flame Charge",
+          "Night Shade",
+          "Endure",
+          "Sunny Day",
+          "Dig",
+          "Zen Headbutt",
+          "Shadow Claw",
+          "Body Slam",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Stomping Tantrum",
+          "Rest",
+          "Imprison",
+          "Substitute",
+          "Will-O-Wisp",
+          "Crunch",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Heat Wave",
+          "Encore",
+          "Flamethrower",
+          "Helping Hand",
+          "Earth Power",
+          "Fire Blast",
+          "Fire Pledge",
+          "Earthquake",
+          "Giga Impact",
+          "Blast Burn",
+          "Outrage",
+          "Overheat",
+          "Hyper Beam",
+          "Flare Blitz",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Unaware"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 104,
+        "attack": 75,
+        "defense": 100,
+        "specialAttack": 110,
+        "specialDefense": 75,
+        "speed": 66
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 265,
+        "baseFriendship": 50,
+        "spawnLevel": 36,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/911_skeledirge/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/911_skeledirge/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/911_skeledirge/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.skeledirge"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/911_skeledirge/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/911_skeledirge/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Crocalor",
+        "Fuecoco"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 326.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

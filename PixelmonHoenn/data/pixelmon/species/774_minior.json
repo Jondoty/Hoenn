@@ -1,0 +1,380 @@
+{
+  "name": "Minior",
+  "dex": 774,
+  "defaultForms": [
+    "meteor"
+  ],
+  "forms": [
+    {
+      "name": "meteor",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Autotomize"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Shell Smash"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Gravity",
+          "Iron Head",
+          "Last Resort",
+          "Magnet Rise",
+          "Snore",
+          "Stealth Rock",
+          "Telekinesis",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldsDown"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 60,
+        "specialAttack": 100,
+        "specialDefense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 154,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 30,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "red",
+              "translationKey": "pixelmon.palette.red_core",
+              "texture": "pixelmon:pokemon/774_minior/all/meteor/none/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/meteor/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
+                ],
+                "xRotation": 7,
+                "yRotation": 12
+              },
+              "sounds": [
+                "pixelmon.mob.minior"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/774_minior/all/meteor/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/meteor/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "blue",
+              "translationKey": "pixelmon.palette.blue_core",
+              "particle": ""
+            },
+            {
+              "name": "green",
+              "translationKey": "pixelmon.palette.green_core",
+              "particle": ""
+            },
+            {
+              "name": "indigo",
+              "translationKey": "pixelmon.palette.indigo_core",
+              "particle": ""
+            },
+            {
+              "name": "orange",
+              "translationKey": "pixelmon.palette.orange_core",
+              "particle": ""
+            },
+            {
+              "name": "violet",
+              "translationKey": "pixelmon.palette.violet_core",
+              "particle": ""
+            },
+            {
+              "name": "yellow",
+              "translationKey": "pixelmon.palette.yellow_core",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 0.3,
+      "catchRate": 30,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "core",
+      "battleStats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 100,
+        "specialAttack": 60,
+        "specialDefense": 100,
+        "speed": 60
+      },
+      "weight": 40.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "red",
+              "translationKey": "pixelmon.palette.red_core",
+              "texture": "pixelmon:pokemon/774_minior/all/core/none/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/774_minior/all/core/none/model.pqc"
+                ],
+                "xRotation": 6,
+                "yRotation": 20
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/774_minior/all/core/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "blue",
+              "translationKey": "pixelmon.palette.blue_core",
+              "texture": "pixelmon:pokemon/774_minior/all/core/blue/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/blue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "green",
+              "translationKey": "pixelmon.palette.green_core",
+              "texture": "pixelmon:pokemon/774_minior/all/core/green/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/green/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "indigo",
+              "translationKey": "pixelmon.palette.indigo_core",
+              "texture": "pixelmon:pokemon/774_minior/all/core/indigo/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/indigo/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange",
+              "translationKey": "pixelmon.palette.orange_core",
+              "texture": "pixelmon:pokemon/774_minior/all/core/orange/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "violet",
+              "translationKey": "pixelmon.palette.violet_core",
+              "texture": "pixelmon:pokemon/774_minior/all/core/violet/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/violet/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "yellow",
+              "translationKey": "pixelmon.palette.yellow_core",
+              "texture": "pixelmon:pokemon/774_minior/all/core/yellow/texture.png",
+              "sprite": "pixelmon:pokemon/774_minior/all/core/yellow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

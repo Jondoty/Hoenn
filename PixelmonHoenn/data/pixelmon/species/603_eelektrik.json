@@ -1,0 +1,312 @@
+{
+  "name": "Eelektrik",
+  "dex": 603,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge Beam",
+              "Crunch",
+              "Headbutt",
+              "Spark",
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Bind"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Acid"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Thunderbolt"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 59,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 69,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 74,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bind",
+          "Bounce",
+          "Gastro Acid",
+          "Giga Drain",
+          "Iron Tail",
+          "Knock Off",
+          "Magnet Rise",
+          "Shock Wave",
+          "Signal Beam",
+          "Snore",
+          "Super Fang",
+          "Throat Chop"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Flash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 25,
+          "swimSpeed": 20,
+          "decayRate": 0.99,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 85,
+        "defense": 70,
+        "specialAttack": 75,
+        "specialDefense": 70,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 142,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/603_eelektrik/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/603_eelektrik/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/603_eelektrik/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.eelektrik"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/603_eelektrik/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/603_eelektrik/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Tynamo"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 22.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:thunder_stone"
+          },
+          "to": "Eelektross",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

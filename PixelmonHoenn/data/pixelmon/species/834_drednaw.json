@@ -1,0 +1,300 @@
+{
+  "name": "Drednaw",
+  "dex": 834,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Crunch",
+              "Protect",
+              "Razor Shell",
+              "Rock Polish",
+              "Rock Tomb",
+              "Tackle",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Jaw Lock"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Head Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Scale Shot",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Dragon Tail",
+          "Gastro Acid",
+          "Skull Bash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Whirlpool",
+          "Facade",
+          "Revenge",
+          "Dive",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "Rock Blast",
+          "Payback",
+          "Assurance",
+          "Ice Fang",
+          "Round",
+          "Bulldoze",
+          "Razor Shell",
+          "False Swipe",
+          "Smart Strike",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Iron Tail",
+          "Crunch",
+          "Superpower",
+          "Muddy Water",
+          "Iron Defense",
+          "Poison Jab",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Scald",
+          "High Horsepower",
+          "Throat Chop",
+          "Liquidation",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "StrongJaw",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "SwiftSwim"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.2
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 20,
+          "swimSpeed": 10,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 115,
+        "defense": 90,
+        "specialAttack": 48,
+        "specialDefense": 68,
+        "speed": 74
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 50,
+        "spawnLevel": 22,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/834_drednaw/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/834_drednaw/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/834_drednaw/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.drednaw"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/834_drednaw/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/834_drednaw/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER",
+        "ROCK"
+      ],
+      "preEvolutions": [
+        "Chewtle"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Stonesurge"
+      },
+      "eggCycles": 21,
+      "weight": 115.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/834_drednaw/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/834_drednaw/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/834_drednaw/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/834_drednaw/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/834_drednaw/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

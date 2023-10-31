@@ -1,0 +1,442 @@
+{
+  "name": "Woobat",
+  "dex": 527,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Attract",
+              "Gust"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Future Sight"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Simple Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Flatter",
+          "Knock Off",
+          "Psycho Shift",
+          "Roost",
+          "Supersonic"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Imprison",
+          "Fake Tears",
+          "U-turn",
+          "Assurance",
+          "Speed Swap",
+          "Psycho Cut",
+          "Trick Room",
+          "Round",
+          "Acrobatics",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Amnesia",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Gyro Ball",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Stored Power",
+          "Ally Switch",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "After You",
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Dream Eater",
+          "Embargo",
+          "Flash",
+          "Frustration",
+          "Heart Stamp",
+          "Hidden Power",
+          "Magic Coat",
+          "Odor Sleuth",
+          "Pluck",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Super Fang",
+          "Swagger",
+          "Synchronoise",
+          "Tailwind",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Fly",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Unaware",
+          "Klutz"
+        ],
+        "hiddenAbilities": [
+          "Simple"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 200,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 45,
+        "defense": 43,
+        "specialAttack": 55,
+        "specialDefense": 43,
+        "speed": 72
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "AIR_PERSISTENT",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/527_woobat/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/527_woobat/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/527_woobat/all/base/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/527_woobat/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/527_woobat/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/527_woobat/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "FLYING"
+      ],
+      "types": [
+        "PSYCHIC",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 2.1,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Swoobat",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

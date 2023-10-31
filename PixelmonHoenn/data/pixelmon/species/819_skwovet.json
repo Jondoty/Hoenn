@@ -1,0 +1,234 @@
+{
+  "name": "Skwovet",
+  "dex": 819,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.55,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Stuff Cheeks"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Spit Up",
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Belch"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Belly Drum",
+          "Defense Curl",
+          "Last Resort",
+          "Rollout"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Bullet Seed",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Round",
+          "Tail Slap",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Hyper Voice",
+          "Gyro Ball",
+          "Seed Bomb"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CheekPouch"
+        ],
+        "hiddenAbilities": [
+          "Gluttony"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 55,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 55,
+        "baseFriendship": 50,
+        "spawnLevel": 14,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/819_skwovet/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/819_skwovet/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/819_skwovet/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/819_skwovet/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/819_skwovet/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 2.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Greedent",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Covet"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 8
+}

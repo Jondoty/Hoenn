@@ -1,0 +1,563 @@
+{
+  "name": "Stunfisk",
+  "dex": 618,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.2,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.2,
+        "hoverHeight": 0.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Tackle",
+              "Thunder Shock",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Revenge"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Electric Terrain"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Fissure"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Curse",
+          "Pain Split",
+          "Reflect Type",
+          "Spark",
+          "Spite",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Facade",
+          "Revenge",
+          "Rock Tomb",
+          "Bounce",
+          "Mud Shot",
+          "Payback",
+          "Round",
+          "Bulldoze",
+          "Electroweb",
+          "Electric Terrain",
+          "Eerie Impulse",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Muddy Water",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Sludge Wave",
+          "Foul Play",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aqua Tail",
+          "Bide",
+          "Camouflage",
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Magnet Rise",
+          "Me First",
+          "Mud Bomb",
+          "Mud Sport",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Payback",
+          "Stone Edge",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Payback",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Payback",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Static",
+          "Limber"
+        ],
+        "hiddenAbilities": [
+          "SandVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 109,
+        "attack": 66,
+        "defense": 84,
+        "specialAttack": 81,
+        "specialDefense": 99,
+        "speed": 32
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 34,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/618_stunfisk/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/618_stunfisk/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/618_stunfisk/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/618_stunfisk/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/618_stunfisk/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GROUND",
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 11.0,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "galarian",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Tackle",
+              "Water Gun",
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Revenge"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Snap Trap"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Fissure"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Steel Beam",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Bind",
+          "Counter",
+          "Curse",
+          "Pain Split",
+          "Reflect Type",
+          "Spite",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Facade",
+          "Revenge",
+          "Rock Tomb",
+          "Bounce",
+          "Mud Shot",
+          "Payback",
+          "Ice Fang",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Surf",
+          "Earthquake",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Uproar",
+          "Muddy Water",
+          "Iron Defense",
+          "Earth Power",
+          "Flash Cannon",
+          "Stone Edge",
+          "Stealth Rock",
+          "Sludge Wave",
+          "Foul Play",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Mimicry"
+        ],
+        "hiddenAbilities": []
+      },
+      "battleStats": {
+        "hp": 109,
+        "attack": 81,
+        "defense": 99,
+        "specialAttack": 66,
+        "specialDefense": 84,
+        "speed": 32
+      },
+      "tags": [
+        "galarian"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/618_stunfisk/all/galarian/none/texture.png",
+              "sprite": "pixelmon:pokemon/618_stunfisk/all/galarian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/618_stunfisk/all/galarian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/618_stunfisk/all/galarian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/618_stunfisk/all/galarian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "GROUND",
+        "STEEL"
+      ]
+    }
+  ],
+  "generation": 5
+}

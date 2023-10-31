@@ -1,0 +1,508 @@
+{
+  "name": "Charmeleon",
+  "dex": 5,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Growl",
+              "Scratch",
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Inferno"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Pledge"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Belly Drum",
+          "Bite",
+          "Counter",
+          "Dragon Rush",
+          "Dragon Tail",
+          "Metal Claw",
+          "Wing Attack"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Fire Spin",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sunny Day",
+          "Beat Up",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Brick Break",
+          "Weather Ball",
+          "Rock Tomb",
+          "Fling",
+          "Shadow Claw",
+          "Fire Fang",
+          "Round",
+          "Acrobatics",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Flamethrower",
+          "Fire Blast",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Heat Wave",
+          "Overheat",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Flare Blitz",
+          "Dragon Pulse",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Air Cutter",
+          "Bide",
+          "Blast Burn",
+          "Block",
+          "Captivate",
+          "Celebrate",
+          "Confide",
+          "Curse",
+          "Cut",
+          "Defense Curl",
+          "Double Team",
+          "Double-Edge",
+          "Dragon Rage",
+          "Dynamic Punch",
+          "Echoed Voice",
+          "Flame Burst",
+          "Flame Charge",
+          "Focus Punch",
+          "Frustration",
+          "Fury Cutter",
+          "Fury Swipes",
+          "Headbutt",
+          "Hidden Power",
+          "Hone Claws",
+          "Howl",
+          "Incinerate",
+          "Leer",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Quick Attack",
+          "Rage",
+          "Reflect",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Skull Bash",
+          "Strength",
+          "Submission",
+          "Swagger",
+          "Take Down",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Dragon Claw",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Fling",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Dragon Claw",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat",
+          "Fling",
+          "Endure",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Dragon Claw",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Dragon Breath",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Swift",
+          "Defense Curl",
+          "Rest",
+          "Attract",
+          "Fire Punch",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [
+          "Mega Punch",
+          "Swords Dance",
+          "Mega Kick",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Submission",
+          "Counter",
+          "Seismic Toss",
+          "Rage",
+          "Dragon Rage",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Fire Blast",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "SolarPower"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 58,
+        "attack": 64,
+        "defense": 58,
+        "specialAttack": 80,
+        "specialDefense": 65,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 142,
+        "baseFriendship": 70,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/005_charmeleon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/005_charmeleon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/005_charmeleon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.charmeleon",
+                "pixelmon.mob.charmeleon",
+                "pixelmon.mob.charmeleon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/005_charmeleon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/005_charmeleon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "DRAGON"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Charmander"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 19.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Charizard",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Air Slash"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1,
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 1
+}

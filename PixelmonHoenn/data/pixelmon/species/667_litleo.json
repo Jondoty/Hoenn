@@ -1,0 +1,314 @@
+{
+  "name": "Litleo",
+  "dex": 667,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Noble Roar"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Overheat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Endeavor",
+          "Heat Wave",
+          "Helping Hand",
+          "Hyper Voice",
+          "Iron Tail",
+          "Snatch",
+          "Snore"
+        ],
+        "eggMoves": [
+          "Entrainment",
+          "Fire Spin",
+          "Flare Blitz",
+          "Snatch",
+          "Yawn"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dig",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Will-O-Wisp",
+          "Payback",
+          "Bulldoze",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Payback",
+          "Retaliate",
+          "Bulldoze",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Rivalry",
+          "Unnerve"
+        ],
+        "hiddenAbilities": [
+          "Moxie"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 62,
+        "attack": 50,
+        "defense": 58,
+        "specialAttack": 73,
+        "specialDefense": 54,
+        "speed": 72
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 74,
+        "baseFriendship": 0,
+        "spawnLevel": 21,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/667_litleo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/667_litleo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/667_litleo/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              },
+              "sounds": [
+                "pixelmon.mob.litleo"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/667_litleo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/667_litleo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE",
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13.5,
+      "catchRate": 220,
+      "malePercentage": 12,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Pyroar",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 6
+}

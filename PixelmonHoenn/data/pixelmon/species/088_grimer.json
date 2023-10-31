@@ -1,0 +1,711 @@
+{
+  "name": "Grimer",
+  "dex": 88,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.1,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Gas",
+              "Pound"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Sludge"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Mud Bomb"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Minimize"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Fling"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Sludge Wave"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Gunk Shot"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Memento"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Punch",
+          "Giga Drain",
+          "Gunk Shot",
+          "Ice Punch",
+          "Pain Split",
+          "Shock Wave",
+          "Snore",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "Acid Spray",
+          "Curse",
+          "Haze",
+          "Imprison",
+          "Lick",
+          "Mean Look",
+          "Power-Up Punch",
+          "Scary Face",
+          "Shadow Punch",
+          "Shadow Sneak",
+          "Spit Up",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Body Slam",
+          "Captivate",
+          "Dynamic Punch",
+          "Endure",
+          "Helping Hand",
+          "Incinerate",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Secret Power",
+          "Strength",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Explosion",
+          "Payback",
+          "Rock Slide",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Explosion",
+          "Payback",
+          "Rock Slide",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Explosion",
+          "Payback",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fling",
+          "Endure",
+          "Explosion",
+          "Payback",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Thunder Punch",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fire Punch"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Rage",
+          "Mega Drain",
+          "Thunderbolt",
+          "Thunder",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Self-Destruct",
+          "Fire Blast",
+          "Rest",
+          "Explosion",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Stench",
+          "StickyHold"
+        ],
+        "hiddenAbilities": [
+          "PoisonTouch"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 80,
+        "defense": 50,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 90,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 28,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/088_grimer/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/088_grimer/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/088_grimer/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.grimer",
+                "pixelmon.mob.grimer",
+                "pixelmon.mob.grimer"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/088_grimer/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/088_grimer/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 30.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 38,
+          "to": "Muk form:base",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Venom Drench"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    },
+    {
+      "name": "alolan",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Gas",
+              "Pound"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Poison Fang"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Minimize"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Fling"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Gunk Shot"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Memento"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Punch",
+          "Gastro Acid",
+          "Giga Drain",
+          "Gunk Shot",
+          "Ice Punch",
+          "Knock Off",
+          "Pain Split",
+          "Shock Wave",
+          "Snore",
+          "Spite",
+          "Thunder Punch"
+        ],
+        "eggMoves": [
+          "Assurance",
+          "Clear Smog",
+          "Curse",
+          "Imprison",
+          "Mean Look",
+          "Power-Up Punch",
+          "Pursuit",
+          "Scary Face",
+          "Shadow Sneak",
+          "Spit Up",
+          "Spite",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Wave",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Brutal Swing",
+          "Quash",
+          "Embargo",
+          "Explosion",
+          "Payback",
+          "Rock Polish",
+          "Stone Edge",
+          "Rock Slide",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonTouch",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "PowerOfAlchemy"
+        ]
+      },
+      "tags": [
+        "alolan"
+      ],
+      "types": [
+        "POISON",
+        "DARK"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/088_grimer/all/alolan/none/texture.png",
+              "sprite": "pixelmon:pokemon/088_grimer/all/alolan/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/088_grimer/all/alolan/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/088_grimer/all/alolan/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/088_grimer/all/alolan/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evolutions": [
+        {
+          "level": 38,
+          "to": "Muk form:alolan",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Venom Drench"
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

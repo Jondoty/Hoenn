@@ -1,0 +1,339 @@
+{
+  "name": "Roggenrola",
+  "dex": 524,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Sand Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Autotomize",
+          "Curse",
+          "Gravity",
+          "Take Down",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Earth Power",
+          "Flash Cannon",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Lock-On",
+          "Magnitude",
+          "Nature Power",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy",
+          "WeakArmor"
+        ],
+        "hiddenAbilities": [
+          "SandForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 75,
+        "defense": 85,
+        "specialAttack": 25,
+        "specialDefense": 25,
+        "speed": 15
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 56,
+        "baseFriendship": 70,
+        "spawnLevel": 3,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/524_roggenrola/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/524_roggenrola/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/524_roggenrola/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.roggenrola",
+                "pixelmon.mob.roggenrola"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/524_roggenrola/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/524_roggenrola/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 18.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Boldore",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

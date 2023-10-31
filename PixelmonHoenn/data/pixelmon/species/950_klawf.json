@@ -1,0 +1,263 @@
+{
+  "name": "Klawf",
+  "dex": 950,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Rock Throw",
+              "Vise Grip"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "High Horsepower"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Guillotine"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ancient Power",
+          "Crabhammer",
+          "Endeavor",
+          "Knock Off"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Bulldoze",
+          "Metal Claw",
+          "Mud Shot",
+          "Rock Tomb",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Brick Break",
+          "Shadow Claw",
+          "Body Slam",
+          "Sleep Talk",
+          "Rock Blast",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Swords Dance",
+          "Power Gem",
+          "Substitute",
+          "Iron Defense",
+          "X-Scissor",
+          "Stealth Rock",
+          "Helping Hand",
+          "Earth Power",
+          "Reversal",
+          "Stone Edge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "AngerShell",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 100,
+        "defense": 115,
+        "specialAttack": 35,
+        "specialDefense": 55,
+        "speed": 75
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 158,
+        "baseFriendship": 50,
+        "spawnLevel": 30,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/950_klawf/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/950_klawf/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.klawf"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/950_klawf/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/950_klawf/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 79.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 9
+}

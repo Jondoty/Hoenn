@@ -1,0 +1,404 @@
+{
+  "name": "Gorebyss",
+  "dex": 368,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Water Sport"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Captivate"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bind",
+          "Bounce",
+          "Icy Wind",
+          "Signal Beam",
+          "Snore",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Barrier",
+          "Body Slam",
+          "Brine",
+          "Confuse Ray",
+          "Endure",
+          "Mud Sport",
+          "Muddy Water",
+          "Refresh",
+          "Supersonic",
+          "Water Pulse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Double-Edge",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Secret Power",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Psych Up",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Psych Up",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Psych Up",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Giga Impact",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "Hydration"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.55,
+            "z": -0.6
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.55,
+            "z": -0.6
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 25,
+          "depthRangeEnd": 100,
+          "swimSpeed": 15,
+          "decayRate": 0.8,
+          "refreshRate": 150,
+          "chanceToStopOnBlock": 0.3,
+          "blocksToStopOn": [
+            "minecraft:KELP_PLANT"
+          ],
+          "minStopTime": 4,
+          "maxStopTime": 20,
+          "minStopCooldownTime": 10,
+          "maxStopCooldownTime": 20
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 84,
+        "defense": 105,
+        "specialAttack": 114,
+        "specialDefense": 75,
+        "speed": 52
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 178,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/368_gorebyss/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/368_gorebyss/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/368_gorebyss/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03,
+                "yRotation": 25.1,
+                "zRotation": 2.1
+              },
+              "sounds": [
+                "pixelmon.mob.gorebyss"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/368_gorebyss/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/368_gorebyss/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Clamperl"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 22.6,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 3
+}

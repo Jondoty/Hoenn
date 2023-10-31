@@ -1,0 +1,456 @@
+{
+  "name": "Duskull",
+  "dex": 355,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Leer"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Future Sight"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Grudge",
+          "Haze",
+          "Memento",
+          "Pain Split"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Imprison",
+          "Payback",
+          "Fling",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Hex"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Dark Pulse",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Destiny Bond",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Embargo",
+          "Feint Attack",
+          "Flash",
+          "Foresight",
+          "Frustration",
+          "Gravity",
+          "Headbutt",
+          "Hidden Power",
+          "Infestation",
+          "Mimic",
+          "Natural Gift",
+          "Nightmare",
+          "Ominous Wind",
+          "Psych Up",
+          "Pursuit",
+          "Return",
+          "Secret Power",
+          "Snatch",
+          "Spite",
+          "Sucker Punch",
+          "Swagger",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": [
+          "Frisk"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 20,
+        "attack": 40,
+        "defense": 90,
+        "specialAttack": 30,
+        "specialDefense": 90,
+        "speed": 25
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 97,
+        "baseFriendship": 35,
+        "spawnLevel": 25,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/355_duskull/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/355_duskull/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/355_duskull/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.duskull"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/355_duskull/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/355_duskull/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 15.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Dusclops",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Shadow Punch"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

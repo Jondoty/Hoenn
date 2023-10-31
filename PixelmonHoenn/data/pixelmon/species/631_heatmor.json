@@ -1,0 +1,379 @@
+{
+  "name": "Heatmor",
+  "dex": 631,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Lick",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Incinerate"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spit Up",
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Bind"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Fire Lash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Fire Spin"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Inferno"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Belch",
+          "Curse",
+          "Night Slash",
+          "Sucker Punch",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Fire Punch",
+          "Thunder Punch",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Rock Tomb",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Round",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Low Kick",
+          "Fire Blast",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Heat Wave",
+          "Taunt",
+          "Superpower",
+          "Overheat",
+          "Flare Blitz",
+          "Focus Blast",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Feint Attack",
+          "Flame Burst",
+          "Focus Punch",
+          "Frustration",
+          "Gastro Acid",
+          "Hidden Power",
+          "Knock Off",
+          "Odor Sleuth",
+          "Power-Up Punch",
+          "Pursuit",
+          "Recycle",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Snatch",
+          "Swagger",
+          "Toxic",
+          "Wrap"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Gluttony",
+          "FlashFire"
+        ],
+        "hiddenAbilities": [
+          "WhiteSmoke"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 97,
+        "defense": 66,
+        "specialAttack": 105,
+        "specialDefense": 66,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 169,
+        "baseFriendship": 70,
+        "spawnLevel": 34,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/631_heatmor/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/631_heatmor/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/631_heatmor/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.heatmor"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/631_heatmor/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/631_heatmor/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 58.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 5
+}

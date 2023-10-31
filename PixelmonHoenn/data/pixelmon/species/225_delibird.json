@@ -1,0 +1,386 @@
+{
+  "name": "Delibird",
+  "dex": 225,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Present"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Drill Peck"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Aurora Beam",
+          "Aurora Veil",
+          "Counter",
+          "Destiny Bond",
+          "Fake Out",
+          "Freeze-Dry",
+          "Ice Shard",
+          "Memento",
+          "Quick Attack",
+          "Rapid Spin",
+          "Splash"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Fly",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Brick Break",
+          "Weather Ball",
+          "Icicle Spear",
+          "Bounce",
+          "Assurance",
+          "Fling",
+          "Avalanche",
+          "Round",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Agility",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Future Sight",
+          "Seed Bomb",
+          "Brave Bird",
+          "Gunk Shot",
+          "Drill Run"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bestow",
+          "Captivate",
+          "Confide",
+          "Curse",
+          "Defog",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Focus Punch",
+          "Frost Breath",
+          "Frustration",
+          "Happy Hour",
+          "Headbutt",
+          "Hidden Power",
+          "Ice Ball",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Pluck",
+          "Power-Up Punch",
+          "Recycle",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Seismic Toss",
+          "Signal Beam",
+          "Sky Attack",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Brutal Swing",
+          "Aurora Veil",
+          "Fly",
+          "Frost Breath",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Frost Breath",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Frost Breath",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fling",
+          "Endure",
+          "Recycle",
+          "Avalanche",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VitalSpirit",
+          "Hustle"
+        ],
+        "hiddenAbilities": [
+          "Insomnia"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 55,
+        "defense": 45,
+        "specialAttack": 65,
+        "specialDefense": 45,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 183,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 45,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/225_delibird/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/225_delibird/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/225_delibird/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+				"pixelmon.mob.delibird"
+			  ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/225_delibird/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/225_delibird/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/225_delibird/all/base/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/225_delibird/all/base/christmas/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "ICE",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 16.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 2
+}

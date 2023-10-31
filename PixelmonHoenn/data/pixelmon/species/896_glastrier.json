@@ -1,0 +1,262 @@
+{
+  "name": "Glastrier",
+  "dex": 896,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Avalanche"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Icicle Crash"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Swords Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Hail",
+          "Facade",
+          "Icicle Spear",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Avalanche",
+          "Round",
+          "Bulldoze",
+          "Snarl",
+          "Smart Strike",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Ice Beam",
+          "Blizzard",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Iron Defense",
+          "Close Combat",
+          "Heavy Slam",
+          "High Horsepower",
+          "Throat Chop",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ChillingNeigh"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "aggressive": 50,
+        "passive": 50,
+        "timid": 0
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 145,
+        "defense": 130,
+        "specialAttack": 65,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 70,
+        "spawnLevel": 75,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/896_glastrier/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/896_glastrier/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/896_glastrier/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.glastrier"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/896_glastrier/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/896_glastrier/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 800.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 8
+}

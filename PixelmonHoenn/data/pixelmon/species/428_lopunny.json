@@ -1,0 +1,521 @@
+{
+  "name": "Lopunny",
+  "dex": 428,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baby-Doll Eyes",
+              "Defense Curl",
+              "Magic Coat",
+              "Mirror Coat",
+              "Pound",
+              "Splash",
+              "Return"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Healing Wish"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "High Jump Kick"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Circle Throw",
+          "Copycat",
+          "Double Hit",
+          "Fake Out",
+          "Flail",
+          "Focus Punch",
+          "Sweet Kiss",
+          "Switcheroo",
+          "Teeter Dance"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fake Tears",
+          "Bounce",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Acrobatics",
+          "Retaliate",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Blizzard",
+          "Low Kick",
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Iron Tail",
+          "Shadow Ball",
+          "Uproar",
+          "Hyper Voice",
+          "Cosmic Power",
+          "Close Combat",
+          "Aura Sphere",
+          "Focus Blast",
+          "Grass Knot",
+          "Work Up",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Cut",
+          "Dizzy Punch",
+          "Double Team",
+          "Endeavor",
+          "Foresight",
+          "Frustration",
+          "Fury Cutter",
+          "Heal Bell",
+          "Hidden Power",
+          "Jump Kick",
+          "Laser Focus",
+          "Last Resort",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Return",
+          "Rock Smash",
+          "Rototiller",
+          "Secret Power",
+          "Shock Wave",
+          "Sky Uppercut",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Thunder Wave",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Giga Impact",
+          "Thunder Wave",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CuteCharm",
+          "Klutz"
+        ],
+        "hiddenAbilities": [
+          "Limber"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 76,
+        "defense": 84,
+        "specialAttack": 54,
+        "specialDefense": 96,
+        "speed": 105
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 178,
+        "baseFriendship": 140,
+        "spawnLevel": 28,
+        "spawnLevelRange": 19,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/428_lopunny/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/428_lopunny/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/428_lopunny/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lopunny"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/428_lopunny/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/428_lopunny/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "summer",
+              "texture": "pixelmon:pokemon/428_lopunny/all/base/summer/texture.png",
+              "sprite": "pixelmon:pokemon/428_lopunny/all/base/summer/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Buneary"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:lopunnite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 33.3,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.2,
+        "length": 1.2
+      },
+      "abilities": {
+        "abilities": [
+          "Scrappy"
+        ]
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 136,
+        "defense": 94,
+        "specialAttack": 54,
+        "specialDefense": 96,
+        "speed": 135
+      },
+      "types": [
+        "NORMAL",
+        "FIGHTING"
+      ],
+      "weight": 28.3,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/428_lopunny/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/428_lopunny/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/428_lopunny/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/428_lopunny/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/428_lopunny/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 4
+}

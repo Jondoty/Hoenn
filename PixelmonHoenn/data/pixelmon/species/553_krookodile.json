@@ -1,0 +1,466 @@
+{
+  "name": "Krookodile",
+  "dex": 553,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hone Claws",
+              "Leer",
+              "Power Trip",
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Sand Tomb"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Outrage"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Scale Shot",
+          "Scorching Sands",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Aqua Tail",
+          "Counter",
+          "Double-Edge",
+          "Spite"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sandstorm",
+          "Beat Up",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Thunder Fang",
+          "Fire Fang",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Snarl",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Low Kick",
+          "Earthquake",
+          "Focus Energy",
+          "Substitute",
+          "Sludge Bomb",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Dragon Claw",
+          "Bulk Up",
+          "Close Combat",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Foul Play",
+          "Darkest Lariat",
+          "High Horsepower",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Block",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dragon Tail",
+          "Embargo",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Knock Off",
+          "Me First",
+          "Mean Look",
+          "Mud-Slap",
+          "Power-Up Punch",
+          "Pursuit",
+          "Rage",
+          "Return",
+          "Roar",
+          "Rock Climb",
+          "Rock Smash",
+          "Secret Power",
+          "Smack Down",
+          "Snatch",
+          "Strength",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Brutal Swing",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Moxie"
+        ],
+        "hiddenAbilities": [
+          "AngerPoint"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.55
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.55
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 117,
+        "defense": 80,
+        "specialAttack": 65,
+        "specialDefense": 70,
+        "speed": 92
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 229,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/553_krookodile/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/553_krookodile/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/553_krookodile/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.krookodile"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/553_krookodile/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/553_krookodile/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND",
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Krokorok",
+        "Sandile"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 96.3,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

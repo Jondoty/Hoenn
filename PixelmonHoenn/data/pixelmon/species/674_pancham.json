@@ -1,0 +1,387 @@
+{
+  "name": "Pancham",
+  "dex": 674,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Arm Thrust"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Circle Throw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Low Sweep"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Vital Throw"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Parting Shot"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Entrainment"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Power Trip",
+          "Quash",
+          "Quick Guard",
+          "Seismic Toss",
+          "Storm Throw"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Rock Tomb",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Shadow Claw",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Surf",
+          "Low Kick",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Hyper Voice",
+          "Bulk Up",
+          "Dark Pulse",
+          "Zen Headbutt",
+          "Gunk Shot",
+          "Iron Head",
+          "Stone Edge",
+          "Grass Knot",
+          "Foul Play",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Block",
+          "Comet Punch",
+          "Confide",
+          "Covet",
+          "Cut",
+          "Double Team",
+          "Dual Chop",
+          "Echoed Voice",
+          "Endeavor",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Karate Chop",
+          "Knock Off",
+          "Me First",
+          "Power-Up Punch",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Sky Uppercut",
+          "Snatch",
+          "Spite",
+          "Strength",
+          "Swagger",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "False Swipe",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "False Swipe",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IronFist",
+          "MoldBreaker"
+        ],
+        "hiddenAbilities": [
+          "Scrappy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 67,
+        "attack": 82,
+        "defense": 62,
+        "specialAttack": 46,
+        "specialDefense": 48,
+        "speed": 43
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 70,
+        "baseFriendship": 0,
+        "spawnLevel": 20,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/674_pancham/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/674_pancham/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/674_pancham/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/674_pancham/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/674_pancham/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 8.0,
+      "catchRate": 220,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 32,
+          "to": "Pangoro",
+          "conditions": [
+            {
+              "withPokemon": [],
+              "withTypes": [
+                "DARK"
+              ],
+              "evoConditionType": "party"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Night Slash"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 6
+}

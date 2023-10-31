@@ -1,0 +1,404 @@
+{
+  "name": "Chandelure",
+  "dex": 609,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confuse Ray",
+              "Curse",
+              "Ember",
+              "Fire Spin",
+              "Hex",
+              "Imprison",
+              "Inferno",
+              "Memento",
+              "Minimize",
+              "Night Shade",
+              "Overheat",
+              "Pain Split",
+              "Shadow Ball",
+              "Smog",
+              "Will-O-Wisp"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Acid Armor",
+          "Clear Smog",
+          "Haze",
+          "Power Split"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Payback",
+          "Trick Room",
+          "Round",
+          "Hex",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Heat Wave",
+          "Taunt",
+          "Trick",
+          "Overheat",
+          "Calm Mind",
+          "Dark Pulse",
+          "Energy Ball",
+          "Ally Switch"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Acid",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Dream Eater",
+          "Embargo",
+          "Flame Burst",
+          "Flame Charge",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Laser Focus",
+          "Psych Up",
+          "Return",
+          "Secret Power",
+          "Shock Wave",
+          "Spite",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Energy Ball",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Energy Ball",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "FlashFire",
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "Infiltrator"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.2
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 90,
+        "specialAttack": 145,
+        "specialDefense": 90,
+        "speed": 80
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 234,
+        "baseFriendship": 70,
+        "spawnLevel": 41,
+        "spawnLevelRange": 19,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/609_chandelure/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/609_chandelure/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/609_chandelure/all/base/none/model.pqc",
+                  "pixelmon:pokemon/609_chandelure/all/base/none/model1.pqc"
+                ],
+                "transparency2": 0.5,
+                "yRotation": 21.62
+              },
+              "sounds": [
+                "pixelmon.mob.chandelure",
+                "pixelmon.mob.chandelure"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/609_chandelure/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/609_chandelure/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Lampent",
+        "Litwick"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 34.3,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

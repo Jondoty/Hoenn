@@ -1,0 +1,338 @@
+{
+  "name": "Toucannon",
+  "dex": 733,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Beak Blast",
+              "Echoed Voice",
+              "Growl",
+              "Peck",
+              "Rock Blast",
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Drill Peck"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Feather Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Defog",
+          "Gunk Shot",
+          "Heat Wave",
+          "Hyper Voice",
+          "Knock Off",
+          "Seed Bomb",
+          "Sky Attack",
+          "Snore",
+          "Tailwind",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Boomburst",
+          "Brave Bird",
+          "Mirror Move",
+          "Tailwind",
+          "Uproar"
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Overheat",
+          "Steel Wing",
+          "Swords Dance",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "SkillLink"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.7,
+            "z": 0.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 15,
+          "flySpeedModifier": 1.4,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 75,
+        "specialAttack": 75,
+        "specialDefense": 75,
+        "speed": 60
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 218,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/733_toucannon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/733_toucannon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/733_toucannon/all/base/none/model.pqc"
+                ],
+                "yRotation": 19
+              },
+              "sounds": [
+                "pixelmon.mob.toucannon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/733_toucannon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/733_toucannon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Pikipek",
+        "Trumbeak"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 26.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

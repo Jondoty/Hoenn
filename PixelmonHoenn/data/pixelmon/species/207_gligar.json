@@ -1,0 +1,514 @@
+{
+  "name": "Gligar",
+  "dex": 207,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Poison Sting"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Sky Uppercut"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Guillotine"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bug Bite",
+          "Defog",
+          "Earth Power",
+          "Iron Tail",
+          "Knock Off",
+          "Snore",
+          "Stealth Rock",
+          "Tailwind",
+          "Throat Chop"
+        ],
+        "eggMoves": [
+          "Agility",
+          "Baton Pass",
+          "Counter",
+          "Cross Poison",
+          "Double-Edge",
+          "Feint",
+          "Metal Claw",
+          "Night Slash",
+          "Poison Tail",
+          "Power Trick",
+          "Razor Wind",
+          "Rock Climb",
+          "Sand Tomb",
+          "Wing Attack"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Curse",
+          "Cut",
+          "Detect",
+          "Dig",
+          "Dream Eater",
+          "Endure",
+          "Headbutt",
+          "Hone Claws",
+          "Mimic",
+          "Natural Gift",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Struggle Bug",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "False Swipe",
+          "Fling",
+          "Acrobatics",
+          "Payback",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "False Swipe",
+          "Fling",
+          "Acrobatics",
+          "Payback",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Acrobatics",
+          "Payback",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "False Swipe",
+          "Fling",
+          "Endure",
+          "Payback",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Stealth Rock",
+          "Captivate",
+          "Dark Pulse",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HyperCutter",
+          "SandVeil"
+        ],
+        "hiddenAbilities": [
+          "Immunity"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 105,
+        "specialAttack": 35,
+        "specialDefense": 65,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 108,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 24,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/207_gligar/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/207_gligar/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/207_gligar/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.gligar",
+                "pixelmon.mob.gligar"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/207_gligar/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/207_gligar/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "GROUND",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 64.8,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Gliscor",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:razor_fang"
+              },
+              "evoConditionType": "heldItem"
+            },
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 2
+}

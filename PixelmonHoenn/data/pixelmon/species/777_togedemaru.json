@@ -1,0 +1,312 @@
+{
+  "name": "Togedemaru",
+  "dex": 777,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Nuzzle",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Magnet Rise"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Zing Zap"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Electric Terrain"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Spiky Shield"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Disarming Voice",
+          "Fake Out",
+          "Flail",
+          "Present",
+          "Tickle",
+          "Wish"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Bounce",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Round",
+          "Volt Switch",
+          "Electroweb",
+          "Electric Terrain",
+          "Eerie Impulse"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Tail",
+          "Gyro Ball",
+          "Poison Jab",
+          "Zen Headbutt",
+          "Iron Head",
+          "Grass Knot",
+          "Electro Ball",
+          "Work Up",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Charge Beam",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Endeavor",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Last Resort",
+          "Return",
+          "Role Play",
+          "Rollout",
+          "Shock Wave",
+          "Super Fang",
+          "Swagger",
+          "Toxic",
+          "Twineedle"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Payback",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IronBarbs",
+          "LightningRod"
+        ],
+        "hiddenAbilities": [
+          "Sturdy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 98,
+        "defense": 63,
+        "specialAttack": 40,
+        "specialDefense": 73,
+        "speed": 96
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 152,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 15,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/777_togedemaru/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/777_togedemaru/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/777_togedemaru/all/base/none/model.pqc"
+                ],
+                "yRotation": 20
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/777_togedemaru/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/777_togedemaru/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "FAIRY"
+      ],
+      "types": [
+        "ELECTRIC",
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 10,
+      "weight": 3.3,
+      "catchRate": 180,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

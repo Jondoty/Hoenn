@@ -1,0 +1,369 @@
+{
+  "name": "Manaphy",
+  "dex": 490,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bubble",
+              "Tail Glow",
+              "Water Sport"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Acid Armor"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 69,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 76,
+            "attacks": [
+              "Heart Swap"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Covet",
+          "Heal Bell",
+          "Helping Hand",
+          "Icy Wind",
+          "Knock Off",
+          "Last Resort",
+          "Liquidation",
+          "Signal Beam",
+          "Skill Swap",
+          "Snore",
+          "Uproar",
+          "Water Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Brine",
+          "Endure",
+          "Flash",
+          "Mud-Slap",
+          "Natural Gift",
+          "Secret Power",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Fling",
+          "Giga Impact",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Scald",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Energy Ball",
+          "Brine",
+          "Fling",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Psych Up",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hydration"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 30,
+          "depthRangeEnd": 100,
+          "swimSpeed": 10,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/490_manaphy/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/490_manaphy/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/490_manaphy/all/base/none/model.pqc"
+                ],
+                "yRotation": 19
+              },
+              "sounds": [
+                "pixelmon.mob.manaphy"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/490_manaphy/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/490_manaphy/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FAIRY"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Phione"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 1.4,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    }
+  ],
+  "generation": 4
+}

@@ -1,0 +1,309 @@
+{
+  "name": "TypeNull",
+  "dex": 772,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Imprison",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Crush Claw"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Tri Attack"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Terrain Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Imprison",
+          "U-turn",
+          "Payback",
+          "Shadow Claw",
+          "Round",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Tri Attack",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Dragon Claw",
+          "X-Scissor",
+          "Iron Head",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Flame Charge",
+          "Frustration",
+          "Heal Block",
+          "Hidden Power",
+          "Last Resort",
+          "Magic Coat",
+          "Punishment",
+          "Pursuit",
+          "Rage",
+          "Razor Wind",
+          "Return",
+          "Roar",
+          "Signal Beam",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swords Dance",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BattleArmour"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.95,
+            "z": -0.11
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.95,
+            "z": -0.11
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 95,
+        "specialAttack": 95,
+        "specialDefense": 95,
+        "speed": 59
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 107,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/772_typenull/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/772_typenull/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/772_typenull/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/772_typenull/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/772_typenull/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 120.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "to": "Silvally",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Multi-Attack"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 7
+}

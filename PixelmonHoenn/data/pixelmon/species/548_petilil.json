@@ -1,0 +1,369 @@
+{
+  "name": "Petilil",
+  "dex": 548,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Growth"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Sleep Powder"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Healing Wish",
+          "Ingrain",
+          "Sweet Scent",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Magical Leaf",
+          "Solar Beam",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Round"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Seed Bomb",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Confide",
+          "Covet",
+          "Cut",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Grass Whistle",
+          "Heal Bell",
+          "Hidden Power",
+          "Laser Focus",
+          "Natural Gift",
+          "Nature Power",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll",
+          "OwnTempo"
+        ],
+        "hiddenAbilities": [
+          "LeafGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 35,
+        "defense": 50,
+        "specialAttack": 70,
+        "specialDefense": 50,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 56,
+        "baseFriendship": 70,
+        "spawnLevel": 13,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/548_petilil/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/548_petilil/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/548_petilil/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/548_petilil/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/548_petilil/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 6.6,
+      "catchRate": 190,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:sun_stone"
+          },
+          "to": "Lilligant",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Petal Dance"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:sun_stone"
+          },
+          "to": "Lilligant form:hisuian",
+          "conditions": [
+            {
+              "time": "DAWN",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Victory Dance"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

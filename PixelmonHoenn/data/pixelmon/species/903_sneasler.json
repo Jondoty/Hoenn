@@ -1,0 +1,193 @@
+{
+  "name": "Sneasler",
+  "dex": 903,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.3,
+        "width": 1,
+        "length": 1,
+        "eyeHeight": 1.15,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Swift",
+              "Dire Claw"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Bulk Up",
+          "Calm Mind",
+          "Drain Punch",
+          "False Swipe",
+          "Focus Energy",
+          "Giga Impact",
+          "Hyper Beam",
+          "Iron Tail",
+          "Poison Jab",
+          "Power Shift",
+          "Rest",
+          "Rock Smash",
+          "Shadow Ball",
+          "Shadow Claw",
+          "Snarl",
+          "Swift",
+          "X-Scissor"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure",
+          "Unburden"
+        ],
+        "hiddenAbilities": [
+          "PoisonTouch"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "aggressive": 34,
+        "passive": 33,
+        "timid": 33
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 130,
+        "defense": 60,
+        "specialAttack": 40,
+        "specialDefense": 80,
+        "speed": 120
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 132,
+        "baseFriendship": 35,
+        "spawnLevel": 15,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/903_sneasler/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/903_sneasler/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/903_sneasler/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sneasler"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/903_sneasler/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/903_sneasler/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIGHTING",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Sneasel"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "eggCycles": 21,
+      "weight": 43.0,
+      "catchRate": 135,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

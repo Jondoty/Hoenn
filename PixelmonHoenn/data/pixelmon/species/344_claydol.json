@@ -1,0 +1,580 @@
+{
+  "name": "Claydol",
+  "dex": 344,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Harden",
+              "Hyper Beam",
+              "Mud-Slap",
+              "Rapid Spin",
+              "Teleport"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Power Trick"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Guard Split",
+              "Power Split"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Dig",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Imprison",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Power Swap",
+          "Guard Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Psychic Terrain",
+          "Eerie Impulse"
+        ],
+        "trMoves": [
+          "Ice Beam",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Skill Swap",
+          "Cosmic Power",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Earth Power",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch",
+          "Drill Run",
+          "Dazzling Gleam",
+          "Body Press"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Headbutt",
+          "Heal Block",
+          "Hidden Power",
+          "Magic Coat",
+          "Mimic",
+          "Natural Gift",
+          "Psych Up",
+          "Recycle",
+          "Refresh",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Signal Beam",
+          "Smack Down",
+          "Strength",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Ally Switch",
+          "Charge Beam",
+          "Explosion",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Charge Beam",
+          "Endure",
+          "Explosion",
+          "Recycle",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.4,
+            "z": -0.1
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": false,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 5,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 70,
+        "defense": 105,
+        "specialAttack": 70,
+        "specialDefense": 120,
+        "speed": 75
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 189,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/344_claydol/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/344_claydol/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/344_claydol/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.claydol"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/344_claydol/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/344_claydol/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/344_claydol/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/344_claydol/all/base/drowned/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/344_claydol/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/344_claydol/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "GROUND",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Baltoy"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 107.9,
+      "catchRate": 90,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 3
+}

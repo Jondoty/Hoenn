@@ -1,0 +1,543 @@
+{
+  "name": "Vivillon",
+  "dex": 666,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Gust",
+              "Poison Powder",
+              "Powder",
+              "Sleep Powder",
+              "Struggle Bug",
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Quiver Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hurricane"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Powder"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Defog",
+          "Electroweb",
+          "Endeavor",
+          "Giga Drain",
+          "Laser Focus",
+          "Signal Beam",
+          "Snore",
+          "Tailwind"
+        ],
+        "eggMoves": [
+          "Poison Powder",
+          "Rage Powder",
+          "Stun Spore"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Flash",
+          "Hold Hands",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Acrobatics",
+          "Giga Impact",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Acrobatics",
+          "Giga Impact",
+          "Flash",
+          "Struggle Bug",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldDust",
+          "CompoundEyes"
+        ],
+        "hiddenAbilities": [
+          "FriendGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 15,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 52,
+        "defense": 50,
+        "specialAttack": 90,
+        "specialDefense": 50,
+        "speed": 89
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 185,
+        "baseFriendship": 0,
+        "spawnLevel": 13,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "archipelago",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/archipelago/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/archipelago/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/666_vivillon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.vivillon",
+                "pixelmon.mob.vivillon",
+                "pixelmon.mob.vivillon"
+              ]
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/strike/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/strike/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "archipelago_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/archipelagoshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/archipelagoshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "continental",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/continental/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/continental/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "continental_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/continentalshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/continentalshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "elegant",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/elegant/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/elegant/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "elegant_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/elegantshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/elegantshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "fancy",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/fancy/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/fancy/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "fancy_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/fancyshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/fancyshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "garden",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/garden/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/garden/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "garden_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/gardenshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/gardenshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "high_plains",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/highplains/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/highplains/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "high_plains_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/highplainsshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/highplainsshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "icy_snow",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/icysnow/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/icysnow/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "icy_snow_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/icysnowshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/icysnowshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "jungle",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/jungle/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/jungle/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "jungle_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/jungleshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/jungleshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "marine",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/marine/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/marine/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "marine_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/marineshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/marineshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "meadow",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/meadow/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/meadow/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "meadow_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/meadowshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/meadowshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "modern",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/modern/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/modern/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "modern_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/modernshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/modernshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "monsoon",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/monsoon/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/monsoon/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "monsoon_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/monsoonshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/monsoonshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "ocean",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/ocean/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/ocean/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "ocean_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/oceanshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/oceanshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "poke_ball",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/pokeball/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/pokeball/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "poke_ball_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/pokeballshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/pokeballshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "polar",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/polar/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/polar/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "polar_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/polarshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/polarshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "river",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/river/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/river/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "river_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/rivershiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/rivershiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "sandstorm",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/sandstorm/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/sandstorm/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "sandstorm_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/sandstormshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/sandstormshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "savanna",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/savanna/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/savanna/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "savanna_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/savannashiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/savannashiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "sun",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/sun/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/sun/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "sun_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/sunshiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/sunshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "tundra",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/tundra/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/tundra/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "tundra_shiny",
+              "texture": "pixelmon:pokemon/666_vivillon/all/base/tundrashiny/texture.png",
+              "sprite": "pixelmon:pokemon/666_vivillon/all/base/tundrashiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Spewpa",
+        "Scatterbug"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 17.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 1,
+        "specialAttack": 1,
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 6
+}

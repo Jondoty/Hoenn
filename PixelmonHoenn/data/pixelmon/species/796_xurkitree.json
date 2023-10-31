@@ -1,0 +1,317 @@
+{
+  "name": "Xurkitree",
+  "dex": 796,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 5.6,
+        "width": 3.2,
+        "length": 1,
+        "eyeHeight": 5.6,
+        "hoverHeight": 5.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Thunder Shock",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Shock Wave"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Eerie Impulse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Thunder Punch"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Magnet Rise"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Thunderbolt"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Electric Terrain"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Power Whip"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Fling",
+          "Round",
+          "Volt Switch",
+          "Electroweb",
+          "Electric Terrain",
+          "Eerie Impulse",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Calm Mind",
+          "Energy Ball",
+          "Power Whip",
+          "Grass Knot",
+          "Electro Ball",
+          "Wild Charge",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bind",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Ion Deluge",
+          "Magic Coat",
+          "Nature Power",
+          "Return",
+          "Signal Beam",
+          "Swagger",
+          "Tail Glow",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.6
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 83,
+        "attack": 89,
+        "defense": 71,
+        "specialAttack": 173,
+        "specialDefense": 71,
+        "speed": 83
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/796_xurkitree/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/796_xurkitree/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/796_xurkitree/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.xurkitree"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/796_xurkitree/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/796_xurkitree/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 100.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

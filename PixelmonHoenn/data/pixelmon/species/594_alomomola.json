@@ -1,0 +1,344 @@
+{
+  "name": "Alomomola",
+  "dex": 594,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Healing Wish",
+              "Helping Hand",
+              "Hydro Pump",
+              "Play Nice",
+              "Pound",
+              "Water Sport",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Double Slap"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Wake-Up Slap"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Wish"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Healing Wish"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Helping Hand",
+          "Icy Wind",
+          "Knock Off",
+          "Liquidation",
+          "Magic Coat",
+          "Pain Split",
+          "Snore",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Endure",
+          "Mirror Coat",
+          "Mist",
+          "Pain Split",
+          "Refresh",
+          "Tickle"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Dive",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Psych Up",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Healer",
+          "Hydration"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 30,
+          "swimSpeed": 12,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 165,
+        "attack": 75,
+        "defense": 80,
+        "specialAttack": 40,
+        "specialDefense": 45,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 18,
+        "spawnLevelRange": 17,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/594_alomomola/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/594_alomomola/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/594_alomomola/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/594_alomomola/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/594_alomomola/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 31.6,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 5
+}

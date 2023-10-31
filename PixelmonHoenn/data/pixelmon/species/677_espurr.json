@@ -1,0 +1,351 @@
+{
+  "name": "Espurr",
+  "dex": 677,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Fake Out"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Light Screen",
+              "Reflect"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Psyshock"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Tickle",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fake Tears",
+          "Payback",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Dark Pulse",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Ally Switch",
+          "Work Up",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Assist",
+          "Barrier",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dream Eater",
+          "Echoed Voice",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Heal Bell",
+          "Hidden Power",
+          "Magic Coat",
+          "Psych Up",
+          "Recycle",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Snatch",
+          "Swagger",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Payback",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Payback",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "Infiltrator"
+        ],
+        "hiddenAbilities": [
+          "OwnTempo"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 62,
+        "attack": 48,
+        "defense": 54,
+        "specialAttack": 63,
+        "specialDefense": 60,
+        "speed": 68
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 71,
+        "baseFriendship": 0,
+        "spawnLevel": 15,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/677_espurr/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/677_espurr/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/677_espurr/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.espurr",
+                "pixelmon.mob.espurr"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/677_espurr/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/677_espurr/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 3.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Meowstic form:base",
+          "conditions": [
+            {
+              "genders": [
+                "MALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling"
+        },
+        {
+          "level": 25,
+          "to": "Meowstic form:base",
+          "conditions": [
+            {
+              "genders": [
+                "FEMALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 6
+}

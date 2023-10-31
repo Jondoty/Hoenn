@@ -1,0 +1,383 @@
+{
+  "name": "Eternatus",
+  "dex": 890,
+  "defaultForms": [
+    "ordinary"
+  ],
+  "forms": [
+    {
+      "name": "ordinary",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 6.0,
+        "width": 5.0,
+        "length": 1,
+        "eyeHeight": 6.0,
+        "hoverHeight": 6.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Agility",
+              "Confuse Ray",
+              "Dragon Tail",
+              "Poison Tail"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Cross Poison"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Dynamax Cannon"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Eternabeam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Facade",
+          "Payback",
+          "Assurance",
+          "Cross Poison",
+          "Venoshock",
+          "Round",
+          "Mystical Fire",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Cosmic Power",
+          "Dragon Dance",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Dragon Pulse",
+          "Flash Cannon",
+          "Sludge Wave",
+          "Venom Drench"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -3.15,
+            "z": 1.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -3.15,
+            "z": 1.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 0,
+        "aggressive": 100
+      },
+      "battleStats": {
+        "hp": 140,
+        "attack": 85,
+        "defense": 95,
+        "specialAttack": 145,
+        "specialDefense": 95,
+        "speed": 130
+      },
+      "tags": [
+        "legendary",
+        "cannot_dynamax"
+      ],
+      "spawn": {
+        "baseExp": 345,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/none/texture.png",
+              "sprite": "pixelmon:pokemon/890_eternatus/all/ordinary/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/890_eternatus/all/ordinary/none/model.pqc",
+                  "pixelmon:pokemon/890_eternatus/all/transparent/none/model.pqc"
+                ],
+                "transparency2": 0.7
+              },
+              "sounds": [
+                "pixelmon.mob.eternatus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/890_eternatus/all/ordinary/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "cosmetic",
+              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/none/texture.png",
+              "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny_cosmetic",
+              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/sprite.png",
+              "particle": "arcanery:shiny",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "POISON",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 950.0,
+      "catchRate": 10,
+      "malePercentage": -1.0,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "hp": 3
+      }
+    },
+    {
+      "name": "eternamax",
+      "battleStats": {
+        "hp": 255,
+        "attack": 115,
+        "defense": 250,
+        "specialAttack": 125,
+        "specialDefense": 250,
+        "speed": 130
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/none/texture.png",
+              "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

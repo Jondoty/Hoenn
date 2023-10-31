@@ -1,0 +1,618 @@
+{
+  "name": "Zoroark",
+  "dex": 571,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hone Claws",
+              "Leer",
+              "Night Slash",
+              "Scratch",
+              "Torment",
+              "U-turn"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fake Tears"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Night Daze"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Foul Play"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Lash Out",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Copycat",
+          "Counter",
+          "Detect",
+          "Extrasensory",
+          "Memento",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Imprison",
+          "Fake Tears",
+          "Bounce",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Low Sweep",
+          "Round",
+          "Hex",
+          "Retaliate",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Flamethrower",
+          "Low Kick",
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Uproar",
+          "Taunt",
+          "Trick",
+          "Hyper Voice",
+          "Calm Mind",
+          "Dark Pulse",
+          "Focus Blast",
+          "Nasty Plot",
+          "Grass Knot",
+          "Foul Play",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Cut",
+          "Double Team",
+          "Embargo",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Laser Focus",
+          "Psych Up",
+          "Punishment",
+          "Pursuit",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Swords Dance",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illusion"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.15,
+            "z": -0.12
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": 0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 105,
+        "defense": 60,
+        "specialAttack": 120,
+        "specialDefense": 60,
+        "speed": 105
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 179,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/571_zoroark/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/571_zoroark/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/571_zoroark/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.zoroark"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/571_zoroark/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/571_zoroark/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/571_zoroark/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/571_zoroark/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK"
+      ],
+      "preEvolutions": [
+        "Zorua"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 81.1,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "hisuian",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Shadow Sneak"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bitter Malice"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Shadow Claw"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Extrasensory"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Calm Mind",
+          "Dark Pulse",
+          "Flamethrower",
+          "Giga Impact",
+          "Hyper Beam",
+          "Ominous Wind",
+          "Rest",
+          "Rock Smash",
+          "Shadow Ball",
+          "Shadow Claw",
+          "Sludge Bomb",
+          "Snarl",
+          "Swift"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illusion"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 100,
+        "defense": 60,
+        "specialAttack": 125,
+        "specialDefense": 60,
+        "speed": 110
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 66,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/571_zoroark/all/hisuian/none/texture.png",
+              "sprite": "pixelmon:pokemon/571_zoroark/all/hisuian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/571_zoroark/all/hisuian/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.zoroark"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/571_zoroark/all/hisuian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/571_zoroark/all/hisuian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Zorua"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13.0,
+      "catchRate": 60,
+      "malePercentage": 87.5,
+      "evolutions": []
+    }
+  ],
+  "generation": 5
+}

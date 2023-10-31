@@ -1,0 +1,242 @@
+{
+  "name": "Orthworm",
+  "dex": 968,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.3,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Tackle",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Iron Tail"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Shed Tail"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Coil",
+          "Curse",
+          "Metal Burst"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Rock Tomb",
+          "Endure",
+          "Sandstorm",
+          "Dig",
+          "Body Slam",
+          "Sleep Talk",
+          "Rock Blast",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Spikes",
+          "Flash Cannon",
+          "Iron Head",
+          "Substitute",
+          "Iron Defense",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Helping Hand",
+          "Earth Power",
+          "Earthquake",
+          "Giga Impact",
+          "Hyper Beam",
+          "Steel Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "EarthEater"
+        ],
+        "hiddenAbilities": [
+          "SandVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 80,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 145,
+        "specialAttack": 60,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 240,
+        "baseFriendship": 50,
+        "spawnLevel": 30,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/968_orthworm/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/968_orthworm/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/968_orthworm/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.orthworm"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/968_orthworm/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/968_orthworm/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 310.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 9
+}

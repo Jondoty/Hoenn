@@ -1,0 +1,428 @@
+{
+  "name": "Emolga",
+  "dex": 587,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Nuzzle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Volt Switch"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Agility"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Covet",
+          "Defog",
+          "Roost",
+          "Shock Wave",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "U-turn",
+          "Fling",
+          "Speed Swap",
+          "Round",
+          "Acrobatics",
+          "Volt Switch",
+          "Electroweb",
+          "Eerie Impulse",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Iron Tail",
+          "Taunt",
+          "Energy Ball",
+          "Electro Ball",
+          "Wild Charge"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Ion Deluge",
+          "Knock Off",
+          "Last Resort",
+          "Pursuit",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Swagger",
+          "Tailwind",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Static"
+        ],
+        "hiddenAbilities": [
+          "MotorDrive"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.7,
+            "z": -1.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.95,
+            "z": -0.35
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 75,
+        "defense": 60,
+        "specialAttack": 75,
+        "specialDefense": 60,
+        "speed": 103
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 150,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/587_emolga/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/587_emolga/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/587_emolga/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.emolga",
+                "pixelmon.mob.emolga",
+                "pixelmon.mob.emolga"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/587_emolga/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/587_emolga/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valentine",
+              "texture": "pixelmon:pokemon/587_emolga/all/base/valentine/texture.png",
+              "sprite": "pixelmon:pokemon/587_emolga/all/base/valentine/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.0,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

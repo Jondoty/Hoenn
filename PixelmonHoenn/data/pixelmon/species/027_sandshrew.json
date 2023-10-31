@@ -1,0 +1,825 @@
+{
+  "name": "Sandshrew",
+  "dex": 27,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Poison Sting"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Earthquake"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Flail",
+          "Hone Claws",
+          "Metal Claw",
+          "Mud-Slap",
+          "Night Slash"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "Fling",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Earthquake",
+          "Agility",
+          "Amnesia",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Gyro Ball",
+          "Poison Jab",
+          "X-Scissor",
+          "Earth Power",
+          "Stealth Rock",
+          "Work Up",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Captivate",
+          "Chip Away",
+          "Confide",
+          "Covet",
+          "Crush Claw",
+          "Curse",
+          "Cut",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Fissure",
+          "Focus Punch",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Knock Off",
+          "Magnitude",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Return",
+          "Rock Climb",
+          "Rock Smash",
+          "Rototiller",
+          "Secret Power",
+          "Seismic Toss",
+          "Skull Bash",
+          "Strength",
+          "Submission",
+          "Super Fang",
+          "Swagger",
+          "Take Down",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fling",
+          "Endure",
+          "Shadow Claw",
+          "Gyro Ball",
+          "Swords Dance",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sandstorm",
+          "Swift",
+          "Defense Curl",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [
+          "Swords Dance",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Submission",
+          "Seismic Toss",
+          "Rage",
+          "Earthquake",
+          "Fissure",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Rock Slide",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandVeil"
+        ],
+        "hiddenAbilities": [
+          "SandRush"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 85,
+        "specialAttack": 20,
+        "specialDefense": 30,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 93,
+        "baseFriendship": 70,
+        "spawnLevel": 12,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/027_sandshrew/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/027_sandshrew/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/027_sandshrew/all/base/none/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.sandshrew"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/027_sandshrew/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/027_sandshrew/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 12.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 22,
+          "to": "Sandslash form:base",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    },
+    {
+      "name": "alolan",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Powder Snow"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Hail"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam",
+          "Steel Roller",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Crush Claw",
+          "Curse",
+          "Flail",
+          "Hone Claws",
+          "Night Slash"
+        ],
+        "tmMoves8": [
+          "Ice Punch",
+          "Dig",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Fling",
+          "Avalanche",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Blizzard",
+          "Earthquake",
+          "Amnesia",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Iron Defense",
+          "Gyro Ball",
+          "Poison Jab",
+          "X-Scissor",
+          "Iron Head",
+          "Stealth Rock",
+          "Work Up",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Aqua Tail",
+          "Aurora Veil",
+          "Bide",
+          "Chip Away",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Focus Punch",
+          "Frost Breath",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Ice Ball",
+          "Ice Beam",
+          "Ice Shard",
+          "Icicle Crash",
+          "Knock Off",
+          "Mirror Coat",
+          "Return",
+          "Seismic Toss",
+          "Super Fang",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Blizzard",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Leech Life",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Shadow Claw",
+          "Aurora Veil",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SnowCloak"
+        ],
+        "hiddenAbilities": [
+          "SlushRush"
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 90,
+        "specialAttack": 10,
+        "specialDefense": 35,
+        "speed": 40
+      },
+      "tags": [
+        "alolan"
+      ],
+      "types": [
+        "ICE",
+        "STEEL"
+      ],
+      "weight": 3.8,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/none/texture.png",
+              "sprite": "pixelmon:pokemon/027_sandshrew/all/alolan/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/027_sandshrew/all/alolan/none/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.02
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/027_sandshrew/all/alolan/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/027_sandshrew/all/alolan/christmas/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:ice_stone"
+          },
+          "to": "Sandslash form:alolan",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Icicle Spear"
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

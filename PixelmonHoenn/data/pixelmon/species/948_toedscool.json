@@ -1,0 +1,275 @@
+{
+  "name": "Toedscool",
+  "dex": 948,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Poison Powder",
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Spore"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Earth Power"
+            ]
+          }, 
+          {
+            "level": 52,
+            "attacks": [
+              "Power Whip"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Acupressure",
+          "Knock Off",
+          "Leech Seed",
+          "Mirror Coat",
+          "Rage Powder",
+          "Rapid Spin",
+          "Tickle",
+          "Toxic"
+        ],
+        "tmMoves9": [
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Acid Spray",
+          "Confuse Ray",
+          "Trailblaze",
+          "Hex",
+          "Swift",
+          "Magical Leaf",
+          "Mud Shot",
+          "Venoshock",
+          "Endure",
+          "Rain Dance",
+          "Bullet Seed",
+          "Foul Play",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Grass Knot",
+          "Rest",
+          "Taunt",
+          "Spikes",
+          "Toxic Spikes",
+          "Flash Cannon",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Earth Power",
+          "Grassy Terrain",
+          "Sludge Bomb",
+          "Leaf Storm",
+          "Trick Room",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MyceliumMight"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 40,
+        "defense": 35,
+        "specialAttack": 50,
+        "specialDefense": 100,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 67,
+        "baseFriendship": 50,
+        "spawnLevel": 14,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/948_toedscool/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/948_toedscool/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/948_toedscool/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.toedscool"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/948_toedscool/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/948_toedscool/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GROUND",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 33.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Toedscruel",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 9
+}

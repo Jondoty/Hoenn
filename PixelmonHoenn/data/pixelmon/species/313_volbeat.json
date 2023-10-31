@@ -1,0 +1,431 @@
+{
+  "name": "Volbeat",
+  "dex": 313,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Flash",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Moonlight"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Tail Glow"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Signal Beam"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Infestation"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Defog",
+          "Focus Punch",
+          "Giga Drain",
+          "Helping Hand",
+          "Ice Punch",
+          "Shock Wave",
+          "Signal Beam",
+          "Snore",
+          "Tailwind",
+          "Thunder Punch",
+          "Trick",
+          "Water Pulse",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Baton Pass",
+          "Bug Buzz",
+          "Dizzy Punch",
+          "Encore",
+          "Lunge",
+          "Seismic Toss",
+          "Silver Wind",
+          "Trick"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Body Slam",
+          "Captivate",
+          "Counter",
+          "Dynamic Punch",
+          "Endure",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Power-Up Punch",
+          "Secret Power",
+          "String Shot",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Thunder Wave",
+          "Psych Up",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Flash",
+          "Thunder Wave",
+          "Struggle Bug",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Flash",
+          "Thunder Wave",
+          "Struggle Bug",
+          "Psych Up",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Roost",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Silver Wind",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illuminate",
+          "Swarm"
+        ],
+        "hiddenAbilities": [
+          "Prankster"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 73,
+        "defense": 75,
+        "specialAttack": 47,
+        "specialDefense": 85,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 146,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/313_volbeat/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/313_volbeat/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/313_volbeat/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03,
+                "zRotation": 0.5
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/313_volbeat/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/313_volbeat/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 17.7,
+      "catchRate": 150,
+      "malePercentage": 100,
+      "evolutions": [],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 3
+}

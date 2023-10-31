@@ -1,0 +1,262 @@
+{
+  "name": "Grafaiai",
+  "dex": 945,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.8,
+        "length": 1.0,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Doodle",
+              "Leer",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Poison Fang"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Substitute"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Gunk Shot"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Copycat",
+          "Cross Poison",
+          "Parting Shot",
+          "Super Fang",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Low Kick",
+          "Acid Spray",
+          "Acrobatics",
+          "Thief",
+          "Trailblaze",
+          "Pounce",
+          "Facade",
+          "Poison Tail",
+          "Mud Shot",
+          "Low Sweep",
+          "Fling",
+          "Venoshock",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "U-turn",
+          "Shadow Claw",
+          "Foul Play",
+          "Sleep Talk",
+          "Metronome",
+          "Poison Jab",
+          "Rest",
+          "Taunt",
+          "Swords Dance",
+          "Gunk Shot",
+          "Substitute",
+          "X-Scissor",
+          "Encore",
+          "Helping Hand",
+          "Baton Pass",
+          "Nasty Plot",
+          "Sludge Bomb",
+          "Giga Impact",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Unburden",
+          "PoisonTouch"
+        ],
+        "hiddenAbilities": [
+          "Prankster"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 63,
+        "attack": 95,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 72,
+        "speed": 110
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 50,
+        "spawnLevel": 28,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/945_grafaiai/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/945_grafaiai/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/945_grafaiai/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.grafaiai"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/945_grafaiai/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/945_grafaiai/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "POISON",
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Shroodle"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 27.2,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 9
+}

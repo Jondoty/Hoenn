@@ -1,0 +1,350 @@
+{
+  "name": "Karrablast",
+  "dex": 588,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Peck"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "False Swipe"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Bug Bite",
+          "Counter",
+          "Knock Off",
+          "Night Slash",
+          "Slash"
+        ],
+        "tmMoves8": [
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Round",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Encore",
+          "Iron Defense",
+          "Poison Jab",
+          "X-Scissor",
+          "Bug Buzz",
+          "Energy Ball",
+          "Drill Run"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Feint Attack",
+          "Frustration",
+          "Fury Attack",
+          "Hidden Power",
+          "Horn Attack",
+          "Infestation",
+          "Pursuit",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Struggle Bug",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "False Swipe",
+          "Swords Dance",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "False Swipe",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "False Swipe",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "ShedSkin"
+        ],
+        "hiddenAbilities": [
+          "NoGuard"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 45,
+        "specialAttack": 40,
+        "specialDefense": 45,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/588_karrablast/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/588_karrablast/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/588_karrablast/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/588_karrablast/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/588_karrablast/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 5.9,
+      "catchRate": 200,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "with": "Shelmet",
+          "to": "Escavalier",
+          "conditions": [],
+          "evoType": "trade"
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Escavalier",
+          "conditions": [
+              {
+                "withPokemon": [
+                  "Shelmet",
+                  "Accelgor"
+                ],
+                "withTypes": [],
+                "evoConditionType": "party"
+              }
+          ],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

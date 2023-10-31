@@ -1,0 +1,278 @@
+{
+  "name": "Florges",
+  "dex": 671,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aromatherapy",
+              "Disarming Voice",
+              "Flower Shield",
+              "Grass Knot",
+              "Grassy Terrain",
+              "Lucky Chant",
+              "Magical Leaf",
+              "Misty Terrain",
+              "Moonblast",
+              "Petal Blizzard",
+              "Petal Dance",
+              "Wish"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Ally Switch",
+          "Covet",
+          "Defog",
+          "Endeavor",
+          "Giga Drain",
+          "Heal Bell",
+          "Helping Hand",
+          "Magic Coat",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Camouflage",
+          "Captivate",
+          "Copycat",
+          "Tearful Look"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Flash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Giga Impact",
+          "Flash",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlowerVeil"
+        ],
+        "hiddenAbilities": [
+          "Symbiosis"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 78,
+        "attack": 65,
+        "defense": 68,
+        "specialAttack": 112,
+        "specialDefense": 154,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 248,
+        "baseFriendship": 0,
+        "spawnLevel": 34,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "red",
+              "texture": "pixelmon:pokemon/671_florges/all/base/red/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/red/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/671_florges/all/base/red/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "redshiny",
+              "texture": "pixelmon:pokemon/671_florges/all/base/redshiny/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/redshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "blue",
+              "texture": "pixelmon:pokemon/671_florges/all/base/blue/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/blue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "blueshiny",
+              "texture": "pixelmon:pokemon/671_florges/all/base/blueshiny/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/blueshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "yellow",
+              "texture": "pixelmon:pokemon/671_florges/all/base/yellow/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/yellow/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "yellowshiny",
+              "texture": "pixelmon:pokemon/671_florges/all/base/yellowshiny/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/yellowshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "orange",
+              "texture": "pixelmon:pokemon/671_florges/all/base/orange/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orangeshiny",
+              "texture": "pixelmon:pokemon/671_florges/all/base/orangeshiny/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/orangeshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "white",
+              "texture": "pixelmon:pokemon/671_florges/all/base/white/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/white/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "whiteshiny",
+              "texture": "pixelmon:pokemon/671_florges/all/base/whiteshiny/texture.png",
+              "sprite": "pixelmon:pokemon/671_florges/all/base/whiteshiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Floette",
+        "Flabebe"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.0,
+      "catchRate": 45,
+      "malePercentage": 0,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 3
+      }
+    }
+  ],
+  "generation": 6
+}

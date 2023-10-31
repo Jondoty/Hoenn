@@ -1,0 +1,375 @@
+{
+  "name": "Phantump",
+  "dex": 708,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.65,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.65,
+        "hoverHeight": 0.65
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Branch Poke"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Horn Leech"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Forest\u0027s Curse"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Disable",
+          "Grudge",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Magical Leaf",
+          "Solar Beam",
+          "Dig",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Shadow Claw",
+          "Trick Room",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Phantom Force"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Poison Jab",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Foul Play",
+          "Ally Switch",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dream Eater",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Magic Coat",
+          "Nature Power",
+          "Pain Split",
+          "Power-Up Punch",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Spite",
+          "Strength",
+          "Swagger",
+          "Telekinesis",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "NaturalCure",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "Harvest"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 43,
+        "attack": 70,
+        "defense": 48,
+        "specialAttack": 50,
+        "specialDefense": 60,
+        "speed": 38
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 0,
+        "spawnLevel": 15,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/708_phantump/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/708_phantump/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/708_phantump/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.phantump"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/708_phantump/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/708_phantump/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 7.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Trevenant",
+          "conditions": [],
+          "evoType": "trade",
+          "moves": [
+            "Shadow Claw"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Trevenant",
+          "evoType": "interact",
+          "moves": [
+            "Shadow Claw"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 6
+}

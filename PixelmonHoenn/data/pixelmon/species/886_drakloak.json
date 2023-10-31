@@ -1,0 +1,282 @@
+{
+  "name": "Drakloak",
+  "dex": 886,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Bite",
+              "Dragon Pulse",
+              "Infestation",
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Lock-On"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Curse",
+          "Disable",
+          "Double Team",
+          "Dragon Tail",
+          "Grudge",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Beat Up",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Dive",
+          "Brine",
+          "U-turn",
+          "Assurance",
+          "Round",
+          "Hex",
+          "Acrobatics",
+          "Phantom Force",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Fire Blast",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Ally Switch",
+          "Scald",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ClearBody",
+          "Infiltrator"
+        ],
+        "hiddenAbilities": [
+          "CursedBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 68,
+        "attack": 80,
+        "defense": 50,
+        "specialAttack": 60,
+        "specialDefense": 50,
+        "speed": 102
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 144,
+        "baseFriendship": 50,
+        "spawnLevel": 50,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/886_drakloak/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/886_drakloak/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/886_drakloak/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/886_drakloak/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/886_drakloak/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/886_drakloak/all/base/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/886_drakloak/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS",
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Dreepy"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 11.0,
+      "catchRate": 45,
+      "evolutions": [
+        {
+          "level": 60,
+          "to": "Dragapult",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Dragon Darts"
+          ]
+        }
+      ],
+      "malePercentage": 50,
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 8
+}

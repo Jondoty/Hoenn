@@ -1,0 +1,260 @@
+{
+  "name": "Perrserker",
+  "dex": 863,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fake Out",
+              "Growl",
+              "Hone Claws",
+              "Iron Defense",
+              "Iron Head",
+              "Metal Burst",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Pay Day"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Covet",
+          "Curse",
+          "Double-Edge",
+          "Flail",
+          "Night Slash",
+          "Spite"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Round",
+          "Retaliate"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Thunderbolt",
+          "Thunder",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Iron Tail",
+          "Crunch",
+          "Shadow Ball",
+          "Uproar",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Gyro Ball",
+          "Close Combat",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Nasty Plot",
+          "Gunk Shot",
+          "Iron Head",
+          "Heavy Slam",
+          "Foul Play",
+          "Work Up",
+          "Play Rough",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BattleArmour",
+          "ToughClaws"
+        ],
+        "hiddenAbilities": [
+          "SteelySpirit"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 110,
+        "defense": 100,
+        "specialAttack": 50,
+        "specialDefense": 60,
+        "speed": 50
+      },
+      "tags": [
+        "galarian"
+      ],
+      "spawn": {
+        "baseExp": 154,
+        "baseFriendship": 50,
+        "spawnLevel": 37,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/863_perrserker/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/863_perrserker/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/863_perrserker/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.perrserker"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/863_perrserker/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/863_perrserker/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Meowth"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

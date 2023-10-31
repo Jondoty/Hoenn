@@ -1,0 +1,246 @@
+{
+  "name": "Sprigatito",
+  "dex": 906,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leafage",
+              "Scratch",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Play Rough"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ally Switch",
+          "Copycat",
+          "Leech Seed",
+          "Petal Blizzard",
+          "Sucker Punch"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Fake Tears",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Acrobatics",
+          "Disarming Voice",
+          "Trailblaze",
+          "Facade",
+          "Swift",
+          "Magical Leaf",
+          "Endure",
+          "Bullet Seed",
+          "U-turn",
+          "Shadow Claw",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Rest",
+          "Taunt",
+          "Substitute",
+          "Giga Drain",
+          "Energy Ball",
+          "Play Rough",
+          "Helping Hand",
+          "Grassy Terrain",
+          "Nasty Plot",
+          "Grass Pledge",
+          "Leaf Storm",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "Protean"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 61,
+        "defense": 54,
+        "specialAttack": 45,
+        "specialDefense": 45,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/906_sprigatito/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/906_sprigatito/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/906_sprigatito/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.sprigatito"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/906_sprigatito/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/906_sprigatito/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 4.1,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 16,
+          "to": "Floragato",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 9
+}

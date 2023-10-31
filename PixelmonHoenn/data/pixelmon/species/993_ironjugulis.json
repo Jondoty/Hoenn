@@ -1,0 +1,269 @@
+{
+  "name": "IronJugulis",
+  "dex": 993,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Air Cutter",
+              "Electric Terrain",
+              "Focus Energy",
+              "Tri Attack",
+              "Work Up"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Acrobatics",
+          "Charge Beam",
+          "Facade",
+          "Snarl",
+          "Rock Tomb",
+          "Air Cutter",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Zen Headbutt",
+          "U-turn",
+          "Air Slash",
+          "Body Slam",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Flash Cannon",
+          "Dark Pulse",
+          "Fly",
+          "Iron Head",
+          "Substitute",
+          "Crunch",
+          "Tailwind",
+          "Dragon Pulse",
+          "Hyper Voice",
+          "Heat Wave",
+          "Flamethrower",
+          "Earth Power",
+          "Electric Terrain",
+          "Fire Blast",
+          "Hydro Pump",
+          "Giga Impact",
+          "Outrage",
+          "Focus Blast",
+          "Hurricane",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "QuarkDrive"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 94,
+        "attack": 80,
+        "defense": 86,
+        "specialAttack": 122,
+        "specialDefense": 80,
+        "speed": 108
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/993_ironjugulis/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/993_ironjugulis/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.ironjugulis"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/993_ironjugulis/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/993_ironjugulis/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DARK",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 111.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

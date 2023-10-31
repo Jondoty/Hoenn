@@ -1,0 +1,464 @@
+{
+  "name": "Munchlax",
+  "dex": 446,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Lick",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Recycle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Fling"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Metronome"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Belly Drum"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Belch",
+          "Counter",
+          "Curse",
+          "Double-Edge",
+          "Fissure"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Pay Day",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Solar Beam",
+          "Screech",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Whirlpool",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Fling",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Psychic",
+          "Metronome",
+          "Fire Blast",
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Uproar",
+          "Superpower",
+          "Hyper Voice",
+          "Seed Bomb",
+          "Zen Headbutt",
+          "Gunk Shot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Captivate",
+          "Chip Away",
+          "Confide",
+          "Double Team",
+          "Focus Punch",
+          "Frustration",
+          "Happy Hour",
+          "Headbutt",
+          "Hidden Power",
+          "Hold Back",
+          "Incinerate",
+          "Mud-Slap",
+          "Natural Gift",
+          "Odor Sleuth",
+          "Power-Up Punch",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Shock Wave",
+          "Snatch",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Water Pulse",
+          "Whirlwind"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Fling",
+          "Incinerate",
+          "Retaliate",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Endure",
+          "Recycle",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Pickup",
+          "ThickFat"
+        ],
+        "hiddenAbilities": [
+          "Gluttony"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 135,
+        "attack": 85,
+        "defense": 40,
+        "specialAttack": 40,
+        "specialDefense": 85,
+        "speed": 5
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 94,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/446_munchlax/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/446_munchlax/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/446_munchlax/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.munchlax",
+                "pixelmon.mob.munchlax"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/446_munchlax/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/446_munchlax/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 105.0,
+      "catchRate": 50,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "to": "Snorlax",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 4
+}

@@ -1,0 +1,238 @@
+{
+  "name": "Wugtrio",
+  "dex": 961,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Sand Attack",
+              "Water Gun",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Triple Dive"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Liquidation"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Final Gambit",
+          "Memento"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Swift",
+          "Mud Shot",
+          "Endure",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Foul Play",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Substitute",
+          "Liquidation",
+          "Surf",
+          "Helping Hand",
+          "Earth Power",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Gooey",
+          "Rattled"
+        ],
+        "hiddenAbilities": [
+          "SandVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": -1,
+          "depthRangeEnd": 0,
+          "swimSpeed": 0,
+          "decayRate": 0.0,
+          "refreshRate": 0
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 120
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 149,
+        "baseFriendship": 50,
+        "spawnLevel": 26,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/961_wugtrio/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/961_wugtrio/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/961_wugtrio/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.wugtrio"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/961_wugtrio/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/961_wugtrio/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Wiglett"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.4,
+      "catchRate": 50,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 9
+}

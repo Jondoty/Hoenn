@@ -1,0 +1,340 @@
+{
+  "name": "Pidove",
+  "dex": 519,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Gust"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Feather Dance"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Sky Attack"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Defog",
+          "Hypnosis",
+          "Morning Sun",
+          "Night Slash",
+          "Wish"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "U-turn",
+          "Round",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bestow",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Lucky Chant",
+          "Pluck",
+          "Razor Wind",
+          "Return",
+          "Secret Power",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Work Up",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BigPecks",
+          "SuperLuck"
+        ],
+        "hiddenAbilities": [
+          "Rivalry"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 55,
+        "defense": 50,
+        "specialAttack": 36,
+        "specialDefense": 30,
+        "speed": 43
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 53,
+        "baseFriendship": 70,
+        "spawnLevel": 6,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/519_pidove/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/519_pidove/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/519_pidove/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.pidove"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/519_pidove/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/519_pidove/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 2.1,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 21,
+          "to": "Tranquill",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

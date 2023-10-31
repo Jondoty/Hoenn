@@ -1,0 +1,442 @@
+{
+  "name": "Chimecho",
+  "dex": 358,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confusion",
+              "Growl",
+              "Healing Wish",
+              "Synchronoise",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Psywave"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Heal Bell"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Synchronoise"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Healing Wish"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bind",
+          "Defog",
+          "Gravity",
+          "Heal Bell",
+          "Helping Hand",
+          "Hyper Voice",
+          "Icy Wind",
+          "Knock Off",
+          "Laser Focus",
+          "Last Resort",
+          "Magic Coat",
+          "Recycle",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Telekinesis",
+          "Trick",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Cosmic Power",
+          "Crafty Shield",
+          "Curse",
+          "Disable",
+          "Future Sight",
+          "Hypnosis",
+          "Perish Song",
+          "Recover",
+          "Skill Swap",
+          "Stored Power",
+          "Wish"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Defense Curl",
+          "Endure",
+          "Flash",
+          "Mimic",
+          "Natural Gift",
+          "Nightmare",
+          "Rollout",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Charge Beam",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Skill Swap",
+          "Snatch",
+          "Energy Ball",
+          "Charge Beam",
+          "Endure",
+          "Recycle",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 50,
+        "defense": 80,
+        "specialAttack": 95,
+        "specialDefense": 90,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 70,
+        "spawnLevel": 28,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/358_chimecho/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/358_chimecho/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/358_chimecho/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03,
+                "yRotation": 24.4
+              },
+              "sounds": [
+                "pixelmon.mob.chimecho"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/358_chimecho/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/358_chimecho/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Chingling"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 1.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

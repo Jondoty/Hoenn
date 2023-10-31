@@ -1,0 +1,466 @@
+{
+  "name": "Pidgeotto",
+  "dex": 17,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Gust",
+              "Sand Attack",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Gust"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Twister"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Feather Dance"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Mirror Move"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Hurricane"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Defog",
+          "Heat Wave",
+          "Sky Attack",
+          "Snore",
+          "Tailwind",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Air Cutter",
+          "Air Slash",
+          "Brave Bird",
+          "Defog",
+          "Feint Attack",
+          "Foresight",
+          "Pursuit",
+          "Steel Wing",
+          "Uproar"
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Curse",
+          "Detect",
+          "Double-Edge",
+          "Endure",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Pluck",
+          "Rage",
+          "Refresh",
+          "Secret Power",
+          "Swift",
+          "Take Down"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Work Up",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Roost",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves1": [
+          "Razor Wind",
+          "Whirlwind",
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Rage",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Swift",
+          "Sky Attack",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "TangledFeet"
+        ],
+        "hiddenAbilities": [
+          "BigPecks"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.8,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 35,
+          "lower_angle_limit": -35,
+          "max_fly_speed": 1.8,
+          "deceleration_rate": 0.25,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.08,
+          "strafe_acceleration_rate": 0.9,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 1.2,
+          "pitch_rate": 1.2,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 63,
+        "attack": 60,
+        "defense": 55,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 71
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 122,
+        "baseFriendship": 70,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/017_pidgeotto/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/017_pidgeotto/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/017_pidgeotto/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/017_pidgeotto/all/base/none/flying/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.02
+              },
+              "sounds": [
+                "pixelmon.mob.pidgeotto"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/017_pidgeotto/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/017_pidgeotto/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/017_pidgeotto/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/017_pidgeotto/all/base/pink/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Pidgey"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 30.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Pidgeot",
+          "conditions": [
+
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 1
+}

@@ -1,0 +1,509 @@
+{
+  "name": "Poliwhirl",
+  "dex": 61,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.75,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.75,
+        "hoverHeight": 0.75
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hypnosis",
+              "Mud Shot",
+              "Pound",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Belly Drum"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Endeavor",
+          "Haze",
+          "Mind Reader",
+          "Mist",
+          "Splash",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Dig",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Dive",
+          "Mud Shot",
+          "Fling",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Psychic",
+          "Metronome",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Muddy Water",
+          "Earth Power",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Amnesia",
+          "Bide",
+          "Bubble",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Curse",
+          "Defense Curl",
+          "Detect",
+          "Double Slap",
+          "Double Team",
+          "Fissure",
+          "Focus Punch",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Ice Ball",
+          "Low Kick",
+          "Mimic",
+          "Mud Bomb",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Psywave",
+          "Rage",
+          "Refresh",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Skull Bash",
+          "Strength",
+          "Submission",
+          "Swagger",
+          "Sweet Kiss",
+          "Take Down",
+          "Toxic",
+          "Wake-Up Slap",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Fling",
+          "Bulldoze",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Fling",
+          "Bulldoze",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Scald",
+          "Fling",
+          "Bulldoze",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fling",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Defense Curl",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [
+          "Mega Punch",
+          "Mega Kick",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Submission",
+          "Counter",
+          "Seismic Toss",
+          "Rage",
+          "Earthquake",
+          "Fissure",
+          "Psychic",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Metronome",
+          "Skull Bash",
+          "Rest",
+          "Psywave",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterAbsorb",
+          "Damp"
+        ],
+        "hiddenAbilities": [
+          "SwiftSwim"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 131,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/061_poliwhirl/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/061_poliwhirl/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/061_poliwhirl/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.poliwhirl",
+                "pixelmon.mob.poliwhirl",
+                "pixelmon.mob.poliwhirl"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/061_poliwhirl/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/061_poliwhirl/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valencian",
+              "texture": "pixelmon:pokemon/061_poliwhirl/all/base/valencian/texture.png",
+              "sprite": "pixelmon:pokemon/061_poliwhirl/all/base/valencian/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Poliwag"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 20.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:water_stone"
+          },
+          "to": "Poliwrath",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Submission"
+          ]
+        },
+        {
+          "to": "Politoed",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:kings_rock"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "trade",
+          "moves": [
+            "Bounce"
+          ]
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Politoed",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:kings_rock"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Bounce"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 1
+}

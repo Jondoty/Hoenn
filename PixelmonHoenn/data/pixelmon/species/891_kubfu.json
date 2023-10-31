@@ -1,0 +1,281 @@
+{
+  "name": "Kubfu",
+  "dex": 891,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Focus Punch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "U-turn",
+          "Low Sweep",
+          "Round",
+          "Acrobatics",
+          "Retaliate"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Low Kick",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Bulk Up",
+          "Close Combat",
+          "Zen Headbutt",
+          "Iron Head",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "InnerFocus"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 0,
+        "aggressive": 100
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 60,
+        "specialAttack": 53,
+        "specialDefense": 50,
+        "speed": 72
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 50,
+        "spawnLevel": 10,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/891_kubfu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/891_kubfu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/891_kubfu/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kubfu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/891_kubfu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/891_kubfu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 12.0,
+      "catchRate": 3,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "to": "Urshifu form:single_strike",
+          "conditions": [
+            {
+              "evoConditionType": "evolutionScroll",
+              "evolutionScroll": "DARKNESS",
+              "maxRangeSquared": 64
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Wicked Blow"
+          ]
+        },
+        {
+          "to": "Urshifu form:rapidstrike",
+          "conditions": [
+            {
+              "evoConditionType": "evolutionScroll",
+              "evolutionScroll": "WATERS",
+              "maxRangeSquared": 64
+            }
+          ],
+          "evoType": "interact",
+          "moves": [
+            "Surging Strikes"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

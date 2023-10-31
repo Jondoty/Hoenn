@@ -1,0 +1,559 @@
+{
+  "name": "Heracross",
+  "dex": 214,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Fury Attack"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Horn Attack"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching"
+        ],
+        "eggMoves": [
+          "Double-Edge",
+          "Feint",
+          "Flail",
+          "Harden",
+          "Night Slash",
+          "Seismic Toss",
+          "Take Down"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Bullet Seed",
+          "Rock Blast",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Venoshock",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "False Swipe",
+          "Smart Strike",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Low Kick",
+          "Earthquake",
+          "Substitute",
+          "Reversal",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Iron Defense",
+          "Bulk Up",
+          "Close Combat",
+          "Focus Blast",
+          "Stone Edge",
+          "Work Up",
+          "High Horsepower",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Arm Thrust",
+          "Bide",
+          "Bug Bite",
+          "Captivate",
+          "Chip Away",
+          "Confide",
+          "Curse",
+          "Cut",
+          "Detect",
+          "Double Team",
+          "Focus Punch",
+          "Frustration",
+          "Fury Cutter",
+          "Headbutt",
+          "Hidden Power",
+          "Knock Off",
+          "Mimic",
+          "Natural Gift",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Smack Down",
+          "Strength",
+          "Struggle Bug",
+          "Swagger",
+          "Toxic",
+          "Vacuum Wave"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Shadow Claw",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Shadow Claw",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "Guts"
+        ],
+        "hiddenAbilities": [
+          "Moxie"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": 0.15
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": 0.15
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 125,
+        "defense": 75,
+        "specialAttack": 40,
+        "specialDefense": 95,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 200,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 50,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/214_heracross/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/214_heracross/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/214_heracross/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.heracross",
+                "pixelmon.mob.heracross",
+                "pixelmon.mob.heracross",
+                "pixelmon.mob.heracross"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/214_heracross/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/214_heracross/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:heracronite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 54.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.4,
+        "length": 1.4
+      },
+      "abilities": {
+        "abilities": [
+          "SkillLink"
+        ]
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 185,
+        "defense": 115,
+        "specialAttack": 40,
+        "specialDefense": 105,
+        "speed": 75
+      },
+      "weight": 62.5,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/214_heracross/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/214_heracross/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/214_heracross/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/214_heracross/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/214_heracross/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

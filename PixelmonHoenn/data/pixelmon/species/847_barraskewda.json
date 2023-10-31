@@ -1,0 +1,249 @@
+{
+  "name": "Barraskewda",
+  "dex": 847,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aqua Jet",
+              "Bite",
+              "Fury Attack",
+              "Peck",
+              "Throat Chop"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Flip Turn",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Acupressure",
+          "Night Slash",
+          "Slash",
+          "Thrash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Dive",
+          "Bounce",
+          "Assurance",
+          "Ice Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Agility",
+          "Focus Energy",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Close Combat",
+          "Poison Jab",
+          "Scald",
+          "Drill Run",
+          "Throat Chop",
+          "Psychic Fangs",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "PropellerTail"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.53,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.53,
+            "z": 0.0
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 25,
+          "swimSpeed": 20,
+          "decayRate": 0.99,
+          "refreshRate": 200,
+          "chanceToStopOnBlock": 0.7,
+          "blocksToStopOn": [
+            "minecraft:SEAGRASS",
+            "minecraft:TALL_SEAGRASS",
+            "minecraft:SEA_PICKLE"
+          ],
+          "minStopTime": 15,
+          "maxStopTime": 30,
+          "minStopCooldownTime": 5,
+          "maxStopCooldownTime": 15,
+          "canRotateWhileStopped": true
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 61,
+        "attack": 123,
+        "defense": 60,
+        "specialAttack": 60,
+        "specialDefense": 50,
+        "speed": 136
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 50,
+        "spawnLevel": 26,
+        "spawnLevelRange": 26,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/847_barraskewda/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/847_barraskewda/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/847_barraskewda/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/847_barraskewda/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/847_barraskewda/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Arrokuda"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 30.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 8
+}

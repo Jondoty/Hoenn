@@ -1,0 +1,469 @@
+{
+  "name": "Magmortar",
+  "dex": 467,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Leer",
+              "Smog",
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fire Punch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Lava Plume"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Fire Blast"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Barrier",
+          "Belch",
+          "Belly Drum",
+          "Cross Chop",
+          "Dynamic Punch",
+          "Flare Blitz",
+          "Focus Energy",
+          "Iron Tail",
+          "Karate Chop",
+          "Mach Punch",
+          "Mega Punch",
+          "Power Swap",
+          "Screech",
+          "Thunder Punch"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Weather Ball",
+          "Rock Tomb",
+          "Fling",
+          "Power Swap",
+          "Low Sweep",
+          "Round",
+          "Bulldoze",
+          "Mystical Fire",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Low Kick",
+          "Thunderbolt",
+          "Earthquake",
+          "Psychic",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Overheat",
+          "Flare Blitz",
+          "Focus Blast"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrier",
+          "Belly Drum",
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Covet",
+          "Curse",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Dual Chop",
+          "Feint Attack",
+          "Flame Burst",
+          "Flame Charge",
+          "Follow Me",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Incinerate",
+          "Karate Chop",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Psywave",
+          "Rage",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Skull Bash",
+          "Strength",
+          "Submission",
+          "Swagger",
+          "Take Down",
+          "Teleport",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "VitalSpirit"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 95,
+        "defense": 67,
+        "specialAttack": 125,
+        "specialDefense": 95,
+        "speed": 83
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 199,
+        "baseFriendship": 70,
+        "spawnLevel": 35,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/467_magmortar/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/467_magmortar/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/467_magmortar/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.magmortar"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/467_magmortar/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/467_magmortar/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Magmar",
+        "Magby"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 68.0,
+      "catchRate": 30,
+      "malePercentage": 75,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 4
+}

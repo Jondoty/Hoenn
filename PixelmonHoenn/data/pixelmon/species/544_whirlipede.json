@@ -1,0 +1,324 @@
+{
+  "name": "Whirlipede",
+  "dex": 544,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Iron Defense",
+              "Poison Sting",
+              "Protect",
+              "Rollout"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Poison Tail"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Venom Drench"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Fury Cutter"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Solar Beam",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Payback",
+          "Venoshock",
+          "Round",
+          "Hex"
+        ],
+        "trMoves": [
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Gyro Ball",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Pursuit",
+          "Return",
+          "Rock Climb",
+          "Rock Smash",
+          "Secret Power",
+          "Signal Beam",
+          "Steamroller",
+          "Struggle Bug",
+          "Swagger",
+          "Twineedle"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Gyro Ball",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPoint",
+          "Swarm"
+        ],
+        "hiddenAbilities": [
+          "SpeedBoost"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 55,
+        "defense": 99,
+        "specialAttack": 40,
+        "specialDefense": 79,
+        "speed": 47
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 126,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 7,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/544_whirlipede/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/544_whirlipede/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/544_whirlipede/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.whirlipede"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/544_whirlipede/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/544_whirlipede/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Venipede"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 58.5,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Scolipede",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,709 @@
+{
+  "name": "Dugtrio",
+  "dex": 51,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Sand Tomb",
+              "Astonish",
+              "Growl",
+              "Night Slash",
+              "Sand Attack",
+              "Scratch",
+              "Tri Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Fissure"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Final Gambit",
+          "Headbutt",
+          "Hone Claws",
+          "Memento"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Beat Up",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Assurance",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Agility",
+          "Tri Attack",
+          "Substitute",
+          "Reversal",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Sludge Wave",
+          "Ally Switch",
+          "Work Up",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Captivate",
+          "Charm",
+          "Confide",
+          "Curse",
+          "Cut",
+          "Double Team",
+          "Double-Edge",
+          "Echoed Voice",
+          "Feint Attack",
+          "Frustration",
+          "Fury Swipes",
+          "Hidden Power",
+          "Magnitude",
+          "Mimic",
+          "Mud Bomb",
+          "Natural Gift",
+          "Pursuit",
+          "Rage",
+          "Return",
+          "Rock Smash",
+          "Rototiller",
+          "Secret Power",
+          "Swagger",
+          "Take Down",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Endure",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Earthquake",
+          "Fissure",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Rest",
+          "Rock Slide",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandVeil",
+          "ArenaTrap"
+        ],
+        "hiddenAbilities": [
+          "SandForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 50,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 120
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 153,
+        "baseFriendship": 70,
+        "spawnLevel": 26,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/051_dugtrio/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/051_dugtrio/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/051_dugtrio/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dugtrio",
+                "pixelmon.mob.dugtrio"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/051_dugtrio/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/051_dugtrio/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/051_dugtrio/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/051_dugtrio/all/base/pink/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Diglett"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 33.3,
+      "catchRate": 50,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "alolan",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Growl",
+              "Metal Claw",
+              "Night Slash",
+              "Sand Attack",
+              "Sand Tomb",
+              "Tri Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Sandstorm"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Fissure"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scorching Sands",
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Final Gambit",
+          "Headbutt",
+          "Hone Claws",
+          "Memento",
+          "Metal Sound",
+          "Thrash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Beat Up",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Assurance",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Agility",
+          "Tri Attack",
+          "Substitute",
+          "Reversal",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Iron Defense",
+          "Earth Power",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Sludge Wave",
+          "Ally Switch",
+          "Work Up",
+          "High Horsepower"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Feint Attack",
+          "Frustration",
+          "Fury Swipes",
+          "Hidden Power",
+          "Magnitude",
+          "Mud Bomb",
+          "Pursuit",
+          "Return",
+          "Rototiller",
+          "Scratch",
+          "Slash",
+          "Stealth Rock",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SandVeil",
+          "TanglingHair"
+        ],
+        "hiddenAbilities": [
+          "SandForce"
+        ]
+      },
+      "battleStats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 60,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 110
+      },
+      "tags": [
+        "alolan"
+      ],
+      "types": [
+        "GROUND",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Diglett"
+      ],
+      "weight": 3.8,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/051_dugtrio/all/alolan/none/texture.png",
+              "sprite": "pixelmon:pokemon/051_dugtrio/all/alolan/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/051_dugtrio/all/alolan/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/051_dugtrio/all/alolan/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/051_dugtrio/all/alolan/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

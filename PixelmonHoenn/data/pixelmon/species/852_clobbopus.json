@@ -1,0 +1,302 @@
+{
+  "name": "Clobbopus",
+  "dex": 852,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.65,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.65,
+        "hoverHeight": 0.65
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Bind"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Submission"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Superpower"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching"
+        ],
+        "eggMoves": [
+          "Circle Throw",
+          "Pain Split",
+          "Power-Up Punch",
+          "Seismic Toss",
+          "Soak",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Ice Punch",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Dive",
+          "Mud Shot",
+          "Brine",
+          "Payback",
+          "Round",
+          "Retaliate"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Waterfall",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Superpower",
+          "Muddy Water",
+          "Bulk Up",
+          "Close Combat",
+          "Focus Blast",
+          "Work Up",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Limber"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 20,
+          "swimSpeed": 25,
+          "decayRate": 0.9,
+          "refreshRate": 60
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 68,
+        "defense": 60,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 32
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 62,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 29,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.clobbopus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "irish",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/irish/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/irish/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "diamonds",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/diamonds/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/diamonds/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "clubs",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/clubs/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/clubs/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "martian",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/martian/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/martian/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "starry",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/starry/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/starry/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "yellow_ringed",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/yellow_ringed/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/yellow_ringed/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "red_ringed",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/red_ringed/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/red_ringed/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "alien",
+              "translationKey": "pixelmon.palette.jump_alien",
+              "texture": "pixelmon:pokemon/852_clobbopus/all/base/alien/texture.png",
+              "sprite": "pixelmon:pokemon/852_clobbopus/all/base/alien/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 4.0,
+      "catchRate": 180,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Grapploct",
+          "conditions": [
+            {
+              "attackName": "Taunt",
+              "evoConditionType": "move"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Octolock"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

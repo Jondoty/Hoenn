@@ -1,0 +1,386 @@
+{
+  "name": "Ferrothorn",
+  "dex": 598,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Metal Claw",
+              "Pin Missile",
+              "Power Whip",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Acid Spray",
+          "Gravity",
+          "Knock Off",
+          "Leech Seed",
+          "Toxic"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Revenge",
+          "Bullet Seed",
+          "Payback",
+          "Assurance",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Gyro Ball",
+          "Poison Jab",
+          "Seed Bomb",
+          "Energy Ball",
+          "Flash Cannon",
+          "Power Whip",
+          "Iron Head",
+          "Stealth Rock",
+          "Grass Knot",
+          "Heavy Slam",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Block",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Endeavor",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Magnet Rise",
+          "Mirror Shot",
+          "Nature Power",
+          "Return",
+          "Rock Climb",
+          "Rock Polish",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Strength",
+          "Swagger",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Energy Ball",
+          "Explosion",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "IronBarbs"
+        ],
+        "hiddenAbilities": [
+          "Anticipation"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.34,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 74,
+        "attack": 94,
+        "defense": 131,
+        "specialAttack": 54,
+        "specialDefense": 116,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 171,
+        "baseFriendship": 70,
+        "spawnLevel": 41,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/598_ferrothorn/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/598_ferrothorn/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/598_ferrothorn/all/base/none/model.pqc"
+                ],
+                "yRotation": 22
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/598_ferrothorn/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/598_ferrothorn/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "MINERAL"
+      ],
+      "types": [
+        "GRASS",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Ferroseed"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 110.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 5
+}

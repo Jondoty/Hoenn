@@ -1,0 +1,361 @@
+{
+  "name": "Toxtricity",
+  "dex": 849,
+  "defaultForms": [
+    "amped",
+    "lowkey"
+  ],
+  "forms": [
+    {
+      "name": "amped",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Acid Spray",
+              "Belch",
+              "Eerie Impulse",
+              "Flail",
+              "Growl",
+              "Leer",
+              "Noble Roar",
+              "Nuzzle",
+              "Spark",
+              "Tearful Look",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Shock Wave"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Overdrive"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Boomburst"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Shift Gear"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+          "Endeavor",
+          "Metal Sound",
+          "Power-Up Punch"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Facade",
+          "Swift",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Round",
+          "Hex",
+          "Volt Switch",
+          "Snarl",
+          "Eerie Impulse"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Uproar",
+          "Taunt",
+          "Hyper Voice",
+          "Poison Jab",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Electro Ball",
+          "Stored Power",
+          "Wild Charge",
+          "Venom Drench",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PunkRock",
+          "Plus"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 98,
+        "defense": 70,
+        "specialAttack": 114,
+        "specialDefense": 70,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 176,
+        "baseFriendship": 50,
+        "spawnLevel": 32,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/849_toxtricity/all/amped/none/texture.png",
+              "sprite": "pixelmon:pokemon/849_toxtricity/all/amped/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/849_toxtricity/all/amped/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.toxtricity"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/849_toxtricity/all/amped/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/849_toxtricity/all/amped/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "ELECTRIC",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Toxel"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Stun Shock"
+      },
+      "eggCycles": 26,
+      "weight": 40.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "lowkey",
+      "abilities": {
+        "abilities": [
+          "PunkRock",
+          "Minus"
+        ],
+        "hiddenAbilities": [
+          "Technician"
+        ]
+      },
+      "preEvolutions": [
+        "Toxel"
+      ],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Stun Shock"
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/849_toxtricity/all/lowkey/none/texture.png",
+              "sprite": "pixelmon:pokemon/849_toxtricity/all/lowkey/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/849_toxtricity/all/lowkey/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/849_toxtricity/all/lowkey/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/849_toxtricity/all/lowkey/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/849_toxtricity/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/849_toxtricity/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/849_toxtricity/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/849_toxtricity/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/849_toxtricity/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

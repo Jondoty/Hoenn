@@ -1,0 +1,321 @@
+{
+  "name": "Doublade",
+  "dex": 680,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.3,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.3,
+        "hoverHeight": 1.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Autotomize",
+              "Fury Cutter",
+              "Shadow Sneak",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Power Trick"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Sacred Sword"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [
+          "Block",
+          "Destiny Bond",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Solar Blade",
+          "Screech",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Brick Break",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Round",
+          "Retaliate",
+          "False Swipe",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Gyro Ball",
+          "Close Combat",
+          "Flash Cannon",
+          "Iron Head"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Laser Focus",
+          "Magnet Rise",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Spite",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "False Swipe",
+          "Brutal Swing",
+          "Shadow Claw",
+          "Gyro Ball",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "False Swipe",
+          "Shadow Claw",
+          "Retaliate",
+          "Gyro Ball",
+          "Swords Dance",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "NoGuard"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 59,
+        "attack": 110,
+        "defense": 150,
+        "specialAttack": 45,
+        "specialDefense": 49,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 157,
+        "baseFriendship": 0,
+        "spawnLevel": 36,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/680_doublade/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/680_doublade/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/680_doublade/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.doublade"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/680_doublade/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/680_doublade/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/680_doublade/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/680_doublade/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Honedge"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 4.5,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:dusk_stone"
+          },
+          "to": "Aegislash",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "King\u0027s Shield"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 6
+}

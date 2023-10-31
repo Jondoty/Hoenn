@@ -1,0 +1,600 @@
+{
+  "name": "Basculin",
+  "dex": 550,
+  "defaultForms": [
+    "red",
+    "blue"
+  ],
+  "forms": [
+    {
+      "name": "red",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tail Whip",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Final Gambit"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Head Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Flip Turn",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Bubble Beam",
+          "Endeavor"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Revenge",
+          "Dive",
+          "Bounce",
+          "Mud Shot",
+          "Brine",
+          "Assurance",
+          "Ice Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Agility",
+          "Waterfall",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Muddy Water",
+          "Zen Headbutt",
+          "Scald",
+          "Psychic Fangs",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Chip Away",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Rage",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Reckless",
+          "Adaptability"
+        ],
+        "hiddenAbilities": [
+          "MoldBreaker"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 5,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 55,
+        "speed": 98
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/550_basculin/all/red/none/texture.png",
+              "sprite": "pixelmon:pokemon/550_basculin/all/red/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/550_basculin/all/red/none/model.pqc"
+                ],
+                "yRotation": 22
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/550_basculin/all/red/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/550_basculin/all/red/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 18.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "blue",
+      "abilities": {
+        "abilities": [
+          "RockHead",
+          "Adaptability"
+        ],
+        "hiddenAbilities": [
+          "MoldBreaker"
+        ]
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/550_basculin/all/blue/none/texture.png",
+              "sprite": "pixelmon:pokemon/550_basculin/all/blue/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/550_basculin/all/blue/none/model.pqc"
+                ],
+                "yRotation": 22
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/550_basculin/all/blue/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/550_basculin/all/blue/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    },
+    {
+      "name": "white",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Wave Crash"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Ice Beam",
+          "Ice Fang",
+          "Icy Wind",
+          "Rest",
+          "Swift",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Rattled",
+          "Adaptability"
+        ],
+        "hiddenAbilities": [
+          "MoldBreaker"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 5,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 55,
+        "speed": 98
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 13,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/550_basculin/all/white/none/texture.png",
+              "sprite": "pixelmon:pokemon/550_basculin/all/white/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/550_basculin/all/white/none/model.pqc"
+                ],
+                "yRotation": 22
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/550_basculin/all/white/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/550_basculin/all/white/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 18.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Basculegion form:male",
+          "conditions": [
+            {
+              "recoil": "294",
+              "evoConditionType": "recoil"
+            },
+            {
+              "genders": [
+                "MALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "ticking"
+        },
+        {
+          "to": "Basculegion form:female",
+          "conditions": [
+            {
+              "recoil": "294",
+              "evoConditionType": "recoil"
+            },
+            {
+              "genders": [
+                "FEMALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "ticking"
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

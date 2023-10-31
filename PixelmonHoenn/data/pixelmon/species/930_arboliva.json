@@ -1,0 +1,260 @@
+{
+  "name": "Arboliva",
+  "dex": 930,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mirror Coat",
+              "Safeguard",
+              "Sweet Scent",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Grassy Terrain"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Energy Ball"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Terrain Pulse"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Petal Blizzard"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Petal Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Memento",
+          "Strength Sap",
+          "Synthesis",
+          "Weather Ball"
+        ],
+        "tmMoves9": [
+          "Charm",
+          "Protect",
+          "Trailblaze",
+          "Facade",
+          "Swift",
+          "Magical Leaf",
+          "Fling",
+          "Endure",
+          "Sunny Day",
+          "Bullet Seed",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Light Screen",
+          "Dazzling Gleam",
+          "Metronome",
+          "Grass Knot",
+          "Rest",
+          "Substitute",
+          "Giga Drain",
+          "Hyper Voice",
+          "Energy Ball",
+          "Encore",
+          "Helping Hand",
+          "Pollen Puff",
+          "Earth Power",
+          "Grassy Terrain",
+          "Giga Impact",
+          "Leaf Storm",
+          "Hyper Beam",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SeedSower"
+        ],
+        "hiddenAbilities": [
+          "Harvest"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 78,
+        "attack": 69,
+        "defense": 90,
+        "specialAttack": 125,
+        "specialDefense": 109,
+        "speed": 39
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 255,
+        "baseFriendship": 50,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/930_arboliva/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/930_arboliva/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/930_arboliva/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.arboliva"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/930_arboliva/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/930_arboliva/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Dolliv",
+        "Smoliv"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 48.2,
+      "catchRate": 45,
+      "evolutions": [],
+      "malePercentage": 50,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

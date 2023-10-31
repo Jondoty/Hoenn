@@ -1,0 +1,213 @@
+{
+  "name": "Wimpod",
+  "dex": 767,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.25,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.25,
+        "hoverHeight": 0.25
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Sand Attack",
+              "Struggle Bug"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Aqua Jet",
+          "Harden",
+          "Metal Claw",
+          "Rollout",
+          "Wide Guard"
+        ],
+        "tmMoves8": [
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Swift",
+          "Mud Shot",
+          "Assurance",
+          "Round"
+        ],
+        "trMoves": [
+          "Surf",
+          "Waterfall",
+          "Leech Life",
+          "Substitute",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Bug Buzz",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Return",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WimpOut"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 50,
+          "swimSpeed": 20,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 25,
+        "attack": 35,
+        "defense": 40,
+        "specialAttack": 20,
+        "specialDefense": 30,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 46,
+        "baseFriendship": 70,
+        "spawnLevel": 6,
+        "spawnLevelRange": 18,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/767_wimpod/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/767_wimpod/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/767_wimpod/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/767_wimpod/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/767_wimpod/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG",
+        "WATER_THREE"
+      ],
+      "types": [
+        "BUG",
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 12.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 30,
+          "to": "Golisopod",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "First Impression"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 7
+}

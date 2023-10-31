@@ -1,0 +1,203 @@
+{
+  "name": "Wyrdeer",
+  "dex": 899,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bulldoze",
+          "Calm Mind",
+          "Charge Beam",
+          "Energy Ball",
+          "Giga Impact",
+          "High Horsepower",
+          "Hyper Beam",
+          "Iron Tail",
+          "Megahorn",
+          "Psychic",
+          "Rest",
+          "Shadow Ball",
+          "Swift",
+          "Thunderbolt",
+          "Wild Charge",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "SapSipper"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "aggressive": 20,
+        "passive": 0,
+        "timid": 80
+      },
+      "battleStats": {
+        "hp": 103,
+        "attack": 105,
+        "defense": 72,
+        "specialAttack": 105,
+        "specialDefense": 75,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/899_wyrdeer/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/899_wyrdeer/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/899_wyrdeer/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/899_wyrdeer/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/899_wyrdeer/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Stantler"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 95.1,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

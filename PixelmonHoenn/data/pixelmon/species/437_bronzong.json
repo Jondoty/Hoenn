@@ -1,0 +1,471 @@
+{
+  "name": "Bronzong",
+  "dex": 437,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Block",
+              "Confuse Ray",
+              "Confusion",
+              "Payback",
+              "Sunny Day",
+              "Tackle",
+              "Weather Ball"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Future Sight"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Rain Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Meteor Beam",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Imprison",
+          "Weather Ball",
+          "Rock Tomb",
+          "Payback",
+          "Power Swap",
+          "Guard Swap",
+          "Speed Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Iron Head",
+          "Stealth Rock",
+          "Grass Knot",
+          "Heavy Slam",
+          "Ally Switch",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Ancient Power",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Dream Eater",
+          "Explosion",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Heal Block",
+          "Hidden Power",
+          "Natural Gift",
+          "Psych Up",
+          "Psywave",
+          "Recycle",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Signal Beam",
+          "Strength",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Charge Beam",
+          "Endure",
+          "Explosion",
+          "Payback",
+          "Recycle",
+          "Giga Impact",
+          "Rock Polish",
+          "Flash",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate",
+          "Heatproof"
+        ],
+        "hiddenAbilities": [
+          "HeavyMetal"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.4
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 67,
+        "attack": 89,
+        "defense": 116,
+        "specialAttack": 79,
+        "specialDefense": 116,
+        "speed": 33
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 188,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/437_bronzong/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/437_bronzong/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/437_bronzong/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bronzong"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/437_bronzong/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/437_bronzong/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "STEEL",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Bronzor"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 187.0,
+      "catchRate": 90,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

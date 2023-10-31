@@ -1,0 +1,575 @@
+{
+  "name": "Magmar",
+  "dex": 126,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Leer",
+              "Smog",
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fire Punch"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Lava Plume"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Fire Blast"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Burning Jealousy",
+          "Scorching Sands"
+        ],
+        "eggMoves": [
+          "Barrier",
+          "Belch",
+          "Belly Drum",
+          "Cross Chop",
+          "Dynamic Punch",
+          "Flare Blitz",
+          "Focus Energy",
+          "Iron Tail",
+          "Karate Chop",
+          "Mach Punch",
+          "Mega Punch",
+          "Power Swap",
+          "Screech",
+          "Thunder Punch"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Fire Spin",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Fling",
+          "Power Swap",
+          "Low Sweep",
+          "Round"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Low Kick",
+          "Psychic",
+          "Focus Energy",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Uproar",
+          "Heat Wave",
+          "Overheat",
+          "Flare Blitz",
+          "Focus Blast"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Barrier",
+          "Belly Drum",
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Covet",
+          "Curse",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Dual Chop",
+          "Feint Attack",
+          "Flame Burst",
+          "Flame Charge",
+          "Follow Me",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Incinerate",
+          "Karate Chop",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Psywave",
+          "Rage",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Skull Bash",
+          "Strength",
+          "Submission",
+          "Swagger",
+          "Take Down",
+          "Taunt",
+          "Teleport",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Overheat",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Psychic",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Thunder Punch",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fire Punch"
+        ],
+        "tmMoves1": [
+          "Mega Punch",
+          "Mega Kick",
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Submission",
+          "Counter",
+          "Seismic Toss",
+          "Rage",
+          "Psychic",
+          "Teleport",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Metronome",
+          "Fire Blast",
+          "Skull Bash",
+          "Rest",
+          "Psywave",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "VitalSpirit"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 57,
+        "specialAttack": 100,
+        "specialDefense": 85,
+        "speed": 93
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 167,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/126_magmar/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.magmar",
+                "pixelmon.mob.magmar",
+                "pixelmon.mob.magmar"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "copper_sulfate",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/copper_sulfate/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/copper_sulfate/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "cupric_chloride",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/cupric_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/cupric_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lithium_chloride",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/lithium_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/lithium_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "magnesium_sulfide",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/magnesium_sulfide/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/magnesium_sulfide/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "manganese_chloride",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/manganese_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/manganese_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "potassium_chloride",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/potassium_chloride/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/potassium_chloride/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "sodium_carbonate",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/sodium_carbonate/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/sodium_carbonate/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "calcium_carbonate",
+              "texture": "pixelmon:pokemon/126_magmar/all/base/calcium_carbonate/texture.png",
+              "sprite": "pixelmon:pokemon/126_magmar/all/base/calcium_carbonate/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [
+        "Magby"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 44.5,
+      "catchRate": 45,
+      "malePercentage": 75,
+      "evolutions": [
+        {
+          "to": "Magmortar",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:magmarizer"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "trade"
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Magmortar",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:magmarizer"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 1
+}

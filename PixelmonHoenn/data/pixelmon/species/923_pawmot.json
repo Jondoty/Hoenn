@@ -1,0 +1,287 @@
+{
+  "name": "Pawmot",
+  "dex": 923,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.9,
+        "length": 1.0,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Revival Blessing",
+              "Scratch",
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Nuzzle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Dig"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Arm Thrust"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Entrainment"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Double Shock"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Fake Out",
+          "Mach Punch",
+          "Sweet Kiss",
+          "Wish"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Protect",
+          "Thunder Fang",
+          "Low Kick",
+          "Thief",
+          "Charge Beam",
+          "Facade",
+          "Metal Claw",
+          "Swift",
+          "Rock Tomb",
+          "Low Sweep",
+          "Fling",
+          "Endure",
+          "Volt Switch",
+          "Sunny Day",
+          "Rain Dance",
+          "Dig",
+          "Brick Break",
+          "Bulk Up",
+          "Fire Punch",
+          "Thunder Punch",
+          "Ice Punch",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Electro Ball",
+          "Metronome",
+          "Grass Knot",
+          "Thunder Wave",
+          "Rest",
+          "Body Press",
+          "Eerie Impulse",
+          "Substitute",
+          "Crunch",
+          "Encore",
+          "Thunderbolt",
+          "Play Rough",
+          "Helping Hand",
+          "Baton Pass",
+          "Electric Terrain",
+          "Wild Charge",
+          "Giga Impact",
+          "Focus Blast",
+          "Hyper Beam",
+          "Thunder",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "VoltAbsorb",
+          "NaturalCure"
+        ],
+        "hiddenAbilities": [
+          "IronFist"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 70,
+        "specialAttack": 70,
+        "specialDefense": 60,
+        "speed": 105
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 245,
+        "baseFriendship": 50,
+        "spawnLevel": 32,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/923_pawmot/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/923_pawmot/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/923_pawmot/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/923_pawmot/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/923_pawmot/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Pawmo",
+        "Pawmi"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 41.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

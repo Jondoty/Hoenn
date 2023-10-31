@@ -1,0 +1,339 @@
+{
+  "name": "Carbink",
+  "dex": 703,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.75,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.75,
+        "hoverHeight": 0.75
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Skill Swap"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Misty Explosion",
+          "Terrain Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Sandstorm",
+          "Sunny Day",
+          "Hail",
+          "Facade",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Guard Swap",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Power Gem",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Ally Switch",
+          "Dazzling Gleam",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Explosion",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Hidden Power",
+          "Magic Coat",
+          "Magnet Rise",
+          "Nature Power",
+          "Psych Up",
+          "Return",
+          "Rock Throw",
+          "Secret Power",
+          "Sharpen",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Round",
+          "Explosion",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Psych Up",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ClearBody"
+        ],
+        "hiddenAbilities": [
+          "Sturdy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 150,
+        "specialAttack": 50,
+        "specialDefense": 150,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 100,
+        "baseFriendship": 0,
+        "spawnLevel": 12,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/703_carbink/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/703_carbink/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/703_carbink/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/703_carbink/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/703_carbink/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY",
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK",
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 5.7,
+      "catchRate": 60,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 6
+}

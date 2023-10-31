@@ -1,0 +1,376 @@
+{
+  "name": "Noibat",
+  "dex": 714,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Gust"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Hurricane"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Defog",
+          "Dragon Rush"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Solar Beam",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "U-turn",
+          "Shadow Claw",
+          "Round",
+          "Acrobatics",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Agility",
+          "Leech Life",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Hyper Voice",
+          "Dark Pulse",
+          "X-Scissor",
+          "Dragon Pulse",
+          "Wild Charge",
+          "Hurricane"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Dream Eater",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Razor Wind",
+          "Return",
+          "Secret Power",
+          "Sky Attack",
+          "Snatch",
+          "Swagger",
+          "Switcheroo",
+          "Torment",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Acrobatics",
+          "Shadow Claw",
+          "Fly",
+          "X-Scissor",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Acrobatics",
+          "Shadow Claw",
+          "X-Scissor",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Frisk",
+          "Infiltrator"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.6,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 200,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 35,
+        "specialAttack": 45,
+        "specialDefense": 40,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 49,
+        "baseFriendship": 0,
+        "spawnLevel": 31,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "AIR_PERSISTENT",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/714_noibat/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/714_noibat/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/714_noibat/all/base/none/model.pqc"
+                ],
+                "yRotation": 80
+              },
+              "sounds": [
+                "pixelmon.mob.noibat",
+                "pixelmon.mob.noibat"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/714_noibat/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/714_noibat/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING",
+        "DRAGON"
+      ],
+      "types": [
+        "FLYING",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 8.0,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 48,
+          "to": "Noivern",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Dragon Pulse"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 6
+}

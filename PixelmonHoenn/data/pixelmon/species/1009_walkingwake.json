@@ -1,0 +1,241 @@
+{
+  "name": "WalkingWake",
+  "dex": 1009,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.6,
+        "width": 1.8,
+        "length": 1.0,
+        "eyeHeight": 2.6,
+        "hoverHeight": 2.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aqua Jet",
+              "Hone Claws",
+              "Leer",
+              "Roar",
+              "Sunny Day",
+              "Twister"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Noble Roar"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Breaking Swipe"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Hydro Steam"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Outrage"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Water Pulse",
+          "Low Kick",
+          "Chilling Water",
+          "Facade",
+          "Snarl",
+          "Swift",
+          "Mud Shot",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Body Slam",
+          "Sleep Talk",
+          "Waterfall",
+          "Dragon Claw",
+          "Rest",
+          "Dragon Dance",
+          "Substitute",
+          "Crunch",
+          "Liquidation",
+          "Dragon Pulse",
+          "Surf",
+          "Flamethrower",
+          "Hydro Pump",
+          "Giga Impact",
+          "Outrage",
+          "Hurricane",
+          "Hyper Beam",
+          "Draco Meteor",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 99,
+        "attack": 83,
+        "defense": 91,
+        "specialAttack": 125,
+        "specialDefense": 83,
+        "speed": 109
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 295,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/1009_walkingwake/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/1009_walkingwake/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/1009_walkingwake/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/1009_walkingwake/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/1009_walkingwake/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 280.0,
+      "catchRate": 5,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

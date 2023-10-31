@@ -1,0 +1,497 @@
+{
+  "name": "Arbok",
+  "dex": 24,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Crunch",
+              "Fire Fang",
+              "Ice Fang",
+              "Leer",
+              "Poison Sting",
+              "Thunder Fang",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Poison Sting"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Glare"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Acid"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Spit Up",
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Acid Spray"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Mud Bomb"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Gunk Shot"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bind",
+          "Gastro Acid",
+          "Giga Drain",
+          "Gunk Shot",
+          "Iron Tail",
+          "Seed Bomb",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Stomping Tantrum",
+          "Throat Chop"
+        ],
+        "eggMoves": [
+          "Beat Up",
+          "Disable",
+          "Iron Tail",
+          "Poison Fang",
+          "Poison Tail",
+          "Pursuit",
+          "Scary Face",
+          "Slam",
+          "Snatch",
+          "Spite",
+          "Sucker Punch",
+          "Switcheroo"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Body Slam",
+          "Captivate",
+          "Curse",
+          "Double-Edge",
+          "Endure",
+          "Fissure",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Refresh",
+          "Secret Power",
+          "Skull Bash",
+          "Strength",
+          "Take Down"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Brutal Swing",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch",
+          "Endure",
+          "Payback",
+          "Giga Impact",
+          "Captivate",
+          "Dark Pulse",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Mega Drain",
+          "Earthquake",
+          "Fissure",
+          "Dig",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Skull Bash",
+          "Rest",
+          "Rock Slide",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "ShedSkin"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.6,
+            "z": -0.9
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.6,
+            "z": -0.9
+          }
+        }
+      },
+      "aggression": {
+        "timid": 60,
+        "passive": 0,
+        "aggressive": 40
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 69,
+        "specialAttack": 65,
+        "specialDefense": 79,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 28,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/024_arbok/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/024_arbok/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/024_arbok/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.05
+              },
+              "sounds": [
+                "pixelmon.mob.arbok",
+                "pixelmon.mob.arbok",
+                "pixelmon.mob.arbok"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/024_arbok/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/024_arbok/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "main_circular",
+              "texture": "pixelmon:pokemon/024_arbok/all/base/main_circular/texture.png",
+              "sprite": "pixelmon:pokemon/024_arbok/all/base/none/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "secondary_circular",
+              "texture": "pixelmon:pokemon/024_arbok/all/base/secondary_circular/texture.png",
+              "sprite": "pixelmon:pokemon/024_arbok/all/base/none/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "dark",
+              "texture": "pixelmon:pokemon/024_arbok/all/base/dark/texture.png",
+              "sprite": "pixelmon:pokemon/024_arbok/all/base/dark/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "DRAGON"
+      ],
+      "types": [
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Ekans"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 65.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 1
+}

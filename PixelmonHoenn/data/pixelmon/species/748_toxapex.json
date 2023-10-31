@@ -1,0 +1,313 @@
+{
+  "name": "Toxapex",
+  "dex": 748,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baneful Bunker",
+              "Bite",
+              "Peck",
+              "Poison Sting",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Venom Drench"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Toxic"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Haze",
+          "Infestation",
+          "Spit Up",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Mud Shot",
+          "Brine",
+          "Payback",
+          "Cross Poison",
+          "Venoshock",
+          "Round",
+          "Hex"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Muddy Water",
+          "Iron Defense",
+          "Toxic Spikes",
+          "Poison Jab",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Scald",
+          "Venom Drench",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Block",
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Frost Breath",
+          "Frustration",
+          "Gastro Acid",
+          "Hidden Power",
+          "Knock Off",
+          "Magic Coat",
+          "Pain Split",
+          "Return",
+          "Smack Down",
+          "Snatch",
+          "Spike Cannon",
+          "Spite",
+          "Swagger",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Payback",
+          "Frost Breath",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Merciless",
+          "Limber"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 20,
+          "depthRangeEnd": 60,
+          "swimSpeed": 1,
+          "decayRate": 0.5,
+          "refreshRate": 500,
+          "chanceToStopOnBlock": 1,
+          "blocksToStopOn": [
+            "minecraft:SAND",
+            "minecraft:TUBE_CORAL_BLOCK",
+            "minecraft:BRAIN_CORAL_BLOCK",
+            "minecraft:BUBBLE_CORAL_BLOCK",
+            "minecraft:FIRE_CORAL_BLOCK",
+            "minecraft:HORN_CORAL_BLOCK"
+          ],
+          "minStopTime": 10,
+          "maxStopTime": 20,
+          "minStopCooldownTime": 2,
+          "maxStopCooldownTime": 4,
+          "canRotateWhileStopped": false
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 63,
+        "defense": 152,
+        "specialAttack": 53,
+        "specialDefense": 142,
+        "speed": 35
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 70,
+        "spawnLevel": 35,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/748_toxapex/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/748_toxapex/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/748_toxapex/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.toxapex"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/748_toxapex/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/748_toxapex/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/748_toxapex/all/base/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/748_toxapex/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "POISON",
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Mareanie"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 14.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

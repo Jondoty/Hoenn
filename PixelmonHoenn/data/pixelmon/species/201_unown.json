@@ -1,0 +1,1031 @@
+{
+  "name": "Unown",
+  "dex": 201,
+  "defaultForms": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "exclamation",
+    "question"
+  ],
+  "forms": [
+    {
+      "name": "a",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hidden Power"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Hidden Power"
+        ],
+        "tmMoves6": [
+          "Hidden Power"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 48,
+        "attack": 72,
+        "defense": 48,
+        "specialAttack": 72,
+        "specialDefense": 48,
+        "speed": 48
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 45,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/a/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/a/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.unown"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/a/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 5.0,
+      "catchRate": 225,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "b",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/b/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/b/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/b/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "c",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/c/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/c/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/c/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "d",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/d/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/d/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/d/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "e",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/e/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/e/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/e/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "f",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/f/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/f/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/f/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "g",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/g/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/g/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/g/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "h",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/h/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/h/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/h/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "i",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/i/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/i/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/i/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "j",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/j/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/j/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/j/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "k",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/k/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/k/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/k/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "l",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/l/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/l/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/l/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "m",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/m/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/m/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/m/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "n",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/n/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/n/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/n/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "o",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/o/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/o/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/o/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "p",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/p/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/p/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/p/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "q",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/q/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/q/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/q/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "r",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/r/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/r/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/r/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "s",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/s/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/s/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/s/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "t",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/t/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/t/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/t/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "u",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/u/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/u/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/u/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "v",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/v/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/v/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/v/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "w",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/w/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/w/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/w/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "x",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/x/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/x/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/x/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "y",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/y/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/y/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/y/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "z",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/z/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/z/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/z/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "question",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/question/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/question/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/question/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    },
+    {
+      "name": "exclamation",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/201_unown/all/texture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/exclamation/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/201_unown/all/exclamation/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/201_unown/all/shinytexture.png",
+              "sprite": "pixelmon:pokemon/201_unown/all/exclamation/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 2
+}

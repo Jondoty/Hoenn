@@ -1,0 +1,333 @@
+{
+  "name": "Palafin",
+  "dex": 964,
+  "defaultForms": [
+    "zero"
+  ],
+  "forms": [
+    {
+      "name": "zero",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Flip Turn",
+              "Jet Punch",
+              "Supersonic",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Focus Punch"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Wave Crash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Boomburst",
+          "Bounce",
+          "Counter",
+          "Haze",
+          "Tickle"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Agility",
+          "Protect",
+          "Water Pulse",
+          "Acrobatics",
+          "Disarming Voice",
+          "Chilling Water",
+          "Facade",
+          "Swift",
+          "Icy Wind",
+          "Draining Kiss",
+          "Fling",
+          "Endure",
+          "Rain Dance",
+          "Zen Headbutt",
+          "Bulk Up",
+          "Body Slam",
+          "Ice Punch",
+          "Sleep Talk",
+          "Drain Punch",
+          "Waterfall",
+          "Grass Knot",
+          "Rest",
+          "Taunt",
+          "Iron Head",
+          "Substitute",
+          "Liquidation",
+          "Aura Sphere",
+          "Hyper Voice",
+          "Encore",
+          "Surf",
+          "Helping Hand",
+          "Reversal",
+          "Ice Beam",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Outrage",
+          "Focus Blast",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ZeroToHero"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 15,
+          "swimSpeed": 13,
+          "decayRate": 0.99,
+          "refreshRate": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 70,
+        "defense": 72,
+        "specialAttack": 53,
+        "specialDefense": 62,
+        "speed": 100
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 160,
+        "baseFriendship": 50,
+        "spawnLevel": 38,
+        "spawnLevelRange": 17,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/964_palafin/all/zero/none/texture.png",
+              "sprite": "pixelmon:pokemon/964_palafin/all/zero/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/964_palafin/all/zero/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/964_palafin/all/zero/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Finizen"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 40,
+      "weight": 60.2,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "hero",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 160,
+        "defense": 97,
+        "specialAttack": 106,
+        "specialDefense": 87,
+        "speed": 100
+      },
+      "tags": [
+        "undexable",
+        "temp"
+      ],
+      "spawn": {
+        "baseExp": 228,
+        "baseFriendship": 50,
+        "spawnLevel": 38,
+        "spawnLevelRange": 17,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/964_palafin/all/hero/none/texture.png",
+              "sprite": "pixelmon:pokemon/964_palafin/all/hero/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/964_palafin/all/hero/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/964_palafin/all/hero/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "weight": 97.4
+    }
+  ],
+  "generation": 9
+}

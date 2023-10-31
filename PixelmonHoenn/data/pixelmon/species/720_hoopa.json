@@ -1,0 +1,608 @@
+{
+  "name": "Hoopa",
+  "dex": 720,
+  "defaultForms": [
+    "confined"
+  ],
+  "forms": [
+    {
+      "name": "confined",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hyperspace Hole",
+              "Trick",
+              "Destiny Bond",
+              "Ally Switch",
+              "Confusion"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Magic Coat"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Skill Swap"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Power Split",
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Wonder Room",
+              "Trick Room"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 68,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 85,
+            "attacks": [
+              "Hyperspace Hole"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Block",
+          "Covet",
+          "Drain Punch",
+          "Dual Chop",
+          "Fire Punch",
+          "Focus Punch",
+          "Foul Play",
+          "Gravity",
+          "Gunk Shot",
+          "Ice Punch",
+          "Knock Off",
+          "Laser Focus",
+          "Last Resort",
+          "Magic Coat",
+          "Magic Room",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Telekinesis",
+          "Throat Chop",
+          "Thunder Punch",
+          "Trick",
+          "Uproar",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Flash",
+          "Power-Up Punch",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Quash",
+          "Embargo",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Quash",
+          "Embargo",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Magician"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 110,
+        "defense": 60,
+        "specialAttack": 150,
+        "specialDefense": 130,
+        "speed": 70
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/720_hoopa/all/confined/none/texture.png",
+              "sprite": "pixelmon:pokemon/720_hoopa/all/confined/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/720_hoopa/all/confined/none/model.pqc"
+                ],
+                "yRotation": 27
+              },
+              "sounds": [
+                "pixelmon.mob.hoopa"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/720_hoopa/all/confined/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/720_hoopa/all/confined/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 9.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "unbound",
+      "dimensions": {
+        "height": 3.5,
+        "width": 1.5,
+        "length": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ally Switch",
+              "Confusion",
+              "Destiny Bond",
+              "Hyperspace Fury",
+              "Trick"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Magic Coat"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Skill Swap"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Guard Split",
+              "Power Split"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Trick Room",
+              "Wonder Room"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 85,
+            "attacks": [
+              "Hyperspace Fury"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Block",
+          "Covet",
+          "Drain Punch",
+          "Dual Chop",
+          "Fire Punch",
+          "Focus Punch",
+          "Foul Play",
+          "Gravity",
+          "Gunk Shot",
+          "Ice Punch",
+          "Knock Off",
+          "Laser Focus",
+          "Last Resort",
+          "Magic Coat",
+          "Magic Room",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Telekinesis",
+          "Throat Chop",
+          "Thunder Punch",
+          "Trick",
+          "Uproar",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Flash",
+          "Power-Up Punch",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Quash",
+          "Embargo",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Quash",
+          "Embargo",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 160,
+        "defense": 60,
+        "specialAttack": 170,
+        "specialDefense": 130,
+        "speed": 80
+      },
+      "types": [
+        "PSYCHIC",
+        "DARK"
+      ],
+      "weight": 490.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/720_hoopa/all/unbound/none/texture.png",
+              "sprite": "pixelmon:pokemon/720_hoopa/all/unbound/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/720_hoopa/all/unbound/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/720_hoopa/all/unbound/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/720_hoopa/all/unbound/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,366 @@
+{
+  "name": "Panpour",
+  "dex": 515,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Play Nice",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Water Sport"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Scald"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fling"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Recycle"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Crunch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Covet",
+          "Endeavor",
+          "Focus Punch",
+          "Gastro Acid",
+          "Gunk Shot",
+          "Helping Hand",
+          "Ice Punch",
+          "Icy Wind",
+          "Iron Tail",
+          "Knock Off",
+          "Low Kick",
+          "Recycle",
+          "Role Play",
+          "Snore",
+          "Uproar",
+          "Water Pledge",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Aqua Tail",
+          "Astonish",
+          "Covet",
+          "Disarming Voice",
+          "Hydro Pump",
+          "Low Kick",
+          "Mud Sport",
+          "Nasty Plot",
+          "Role Play",
+          "Tickle"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Dive",
+          "Hone Claws",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "Torrent"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 53,
+        "defense": 48,
+        "specialAttack": 53,
+        "specialDefense": 48,
+        "speed": 64
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 70,
+        "spawnLevel": 11,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/515_panpour/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/515_panpour/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/515_panpour/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.panpour"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/515_panpour/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/515_panpour/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 13.5,
+      "catchRate": 190,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:water_stone"
+          },
+          "to": "Simipour",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

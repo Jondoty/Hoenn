@@ -1,0 +1,438 @@
+{
+  "name": "Oddish",
+  "dex": 43,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Growth"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Acid"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Poison Powder"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Sleep Powder"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Grassy Terrain"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Moonlight"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Petal Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "After You",
+          "Flail",
+          "Ingrain",
+          "Leech Seed",
+          "Nature Power",
+          "Razor Leaf",
+          "Strength Sap",
+          "Synthesis",
+          "Teeter Dance",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Bullet Seed",
+          "Venoshock",
+          "Round",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Curse",
+          "Cut",
+          "Double Team",
+          "Double-Edge",
+          "Flash",
+          "Frustration",
+          "Gastro Acid",
+          "Headbutt",
+          "Hidden Power",
+          "Infestation",
+          "Lucky Chant",
+          "Mimic",
+          "Natural Gift",
+          "Rage",
+          "Reflect",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Take Down",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Swords Dance",
+          "Infestation",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Infestation",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Endure",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Sweet Scent",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [
+          "Swords Dance",
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Rage",
+          "Mega Drain",
+          "Solar Beam",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Chlorophyll"
+        ],
+        "hiddenAbilities": [
+          "RunAway"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 50,
+        "defense": 55,
+        "specialAttack": 75,
+        "specialDefense": 65,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 78,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/043_oddish/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/043_oddish/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/043_oddish/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.oddish"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/043_oddish/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/043_oddish/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "pink",
+              "texture": "pixelmon:pokemon/043_oddish/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/043_oddish/all/base/pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "valencian",
+              "texture": "pixelmon:pokemon/043_oddish/all/base/valencian/texture.png",
+              "sprite": "pixelmon:pokemon/043_oddish/all/base/valencian/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.4,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 21,
+          "to": "Gloom",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 1
+}

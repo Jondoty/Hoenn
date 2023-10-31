@@ -1,0 +1,236 @@
+{
+  "name": "Nickit",
+  "dex": 827,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.55,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Quick Attack",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Beat Up"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Snarl"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Tail Slap"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Foul Play"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Howl",
+          "Knock Off",
+          "Quick Guard",
+          "Torment"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Beat Up",
+          "Facade",
+          "Swift",
+          "Fake Tears",
+          "Mud Shot",
+          "Assurance",
+          "Round",
+          "Tail Slap",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Taunt",
+          "Nasty Plot",
+          "Foul Play",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "RunAway",
+          "Unburden"
+        ],
+        "hiddenAbilities": [
+          "Stakeout"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 28,
+        "defense": 28,
+        "specialAttack": 47,
+        "specialDefense": 52,
+        "speed": 50
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 49,
+        "baseFriendship": 50,
+        "spawnLevel": 12,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/827_nickit/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/827_nickit/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/827_nickit/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.nickit"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/827_nickit/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/827_nickit/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 8.9,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 18,
+          "to": "Thievul",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Thief"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 8
+}

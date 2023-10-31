@@ -1,0 +1,277 @@
+{
+  "name": "Kartana",
+  "dex": 798,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fury Cutter",
+              "Vacuum Wave"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "False Swipe"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Cut"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Defog"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Sacred Sword"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Guillotine"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Steel Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Giga Impact",
+          "Solar Blade",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Brick Break",
+          "Psycho Cut",
+          "Round",
+          "False Swipe",
+          "Air Slash",
+          "Smart Strike"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Calm Mind",
+          "Leaf Blade",
+          "X-Scissor"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Last Resort",
+          "Return",
+          "Swagger",
+          "Tailwind",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Aerial Ace",
+          "Rest",
+          "Round",
+          "False Swipe",
+          "Smart Strike",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 59,
+        "attack": 181,
+        "defense": 131,
+        "specialAttack": 59,
+        "specialDefense": 31,
+        "speed": 109
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/798_kartana/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/798_kartana/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/798_kartana/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kartana"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/798_kartana/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/798_kartana/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GRASS",
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 0.1,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 7
+}

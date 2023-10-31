@@ -1,0 +1,253 @@
+{
+  "name": "Stonjourner",
+  "dex": 874,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Block",
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Gravity"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Heavy Slam"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Mega Kick"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Ancient Power",
+          "Curse"
+        ],
+        "tmMoves8": [
+          "Mega Kick",
+          "Hyper Beam",
+          "Giga Impact",
+          "Safeguard",
+          "Self-Destruct",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Imprison",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Rock Blast",
+          "Assurance",
+          "Wonder Room",
+          "Round",
+          "Bulldoze",
+          "Brutal Swing",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Superpower",
+          "Iron Defense",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Heat Crash",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PowerSpot"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 135,
+        "specialAttack": 20,
+        "specialDefense": 20,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 50,
+        "spawnLevel": 42,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/874_stonjourner/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/874_stonjourner/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/874_stonjourner/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/874_stonjourner/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/874_stonjourner/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 520.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

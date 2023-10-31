@@ -1,0 +1,226 @@
+{
+  "name": "Overqwil",
+  "dex": 904,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.5,
+        "width": 2.5,
+        "length": 1,
+        "eyeHeight": 1.75,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Poison Sting"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Pin Missile"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Barb Barrage"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Dark Pulse",
+          "Giga Impact",
+          "Hyper Beam",
+          "Ice Ball",
+          "Ice Beam",
+          "Icy Wind",
+          "Poison Jab",
+          "Rest",
+          "Shadow Ball",
+          "Sludge Bomb",
+          "Spikes",
+          "Swift",
+          "Water Pulse"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPoint",
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "Intimidate"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 5,
+          "depthRangeEnd": 25,
+          "swimSpeed": 14,
+          "decayRate": 0.99,
+          "refreshRate": 200,
+          "blocksToStopOn": [
+            "minecraft:SEA_PICKLE"
+          ],
+          "minStopTime": 5,
+          "maxStopTime": 10,
+          "minStopCooldownTime": 20,
+          "maxStopCooldownTime": 60,
+          "canRotateWhileStopped": true
+        }
+      },
+      "aggression": {
+        "aggressive": 100,
+        "passive": 0,
+        "timid": 0
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 115,
+        "defense": 95,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 85
+      },
+      "tags": [
+        "hisuian"
+      ],
+      "spawn": {
+        "baseExp": 100,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/904_overqwil/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/904_overqwil/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/904_overqwil/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.overqwil",
+                "pixelmon.mob.overqwil"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/904_overqwil/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/904_overqwil/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "DARK",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Qwilfish"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 60.5,
+      "catchRate": 135,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,411 @@
+{
+  "name": "TapuKoko",
+  "dex": 785,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.8,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Quick Attack",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "False Swipe"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Shock Wave"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Nature's Madness"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Brave Bird"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Power Swap"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Electric Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [
+
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Thunder Punch",
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "U-turn",
+          "Assurance",
+          "Power Swap",
+          "Round",
+          "Acrobatics",
+          "Volt Switch",
+          "Electroweb",
+          "Electric Terrain",
+          "Eerie Impulse",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Hyper Voice",
+          "Iron Defense",
+          "Calm Mind",
+          "Brave Bird",
+          "Iron Head",
+          "Grass Knot",
+          "Electro Ball",
+          "Stored Power",
+          "Work Up",
+          "Wild Charge",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Hidden Power",
+          "Mirror Move",
+          "Nature Power",
+          "Psych Up",
+          "Return",
+          "Roar",
+          "Roost",
+          "Sky Attack",
+          "Sky Drop",
+          "Swagger",
+          "Telekinesis",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "False Swipe",
+          "Sky Drop",
+          "Acrobatics",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Fly",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Wild Charge",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "ElectricSurge"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.6,
+            "y": 0.0,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.6,
+            "y": 0.0,
+            "z": -0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 85,
+        "specialAttack": 95,
+        "specialDefense": 75,
+        "speed": 130
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/785_tapukoko/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/785_tapukoko/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/785_tapukoko/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.tapukoko"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/785_tapukoko/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/785_tapukoko/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 20.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "speed": 3
+      }
+    }
+  ],
+  "generation": 7
+}

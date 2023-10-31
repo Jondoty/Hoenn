@@ -1,0 +1,408 @@
+{
+  "name": "Whismur",
+  "dex": 293,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Pound"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Howl"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rest",
+              "Sleep Talk"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Circle Throw",
+          "Disarming Voice",
+          "Endeavor",
+          "Extrasensory",
+          "Hammer Arm",
+          "Smokescreen",
+          "Take Down",
+          "Whirlwind"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Solar Beam",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Fake Tears",
+          "Fling",
+          "Round",
+          "Retaliate"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Ice Beam",
+          "Blizzard",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Uproar",
+          "Hyper Voice",
+          "Zen Headbutt",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Defense Curl",
+          "Double Team",
+          "Double-Edge",
+          "Dynamic Punch",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Incinerate",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Psych Up",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Seismic Toss",
+          "Shock Wave",
+          "Smelling Salts",
+          "Swagger",
+          "Synchronoise",
+          "Teeter Dance",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Incinerate",
+          "Retaliate",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Incinerate",
+          "Retaliate",
+          "Work Up",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Fling",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Soundproof"
+        ],
+        "hiddenAbilities": [
+          "Rattled"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 64,
+        "attack": 51,
+        "defense": 23,
+        "specialAttack": 51,
+        "specialDefense": 23,
+        "speed": 28
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 68,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/293_whismur/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/293_whismur/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/293_whismur/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.whismur",
+                "pixelmon.mob.whismur"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/293_whismur/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/293_whismur/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 16.3,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Loudred",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Bite"
+          ]
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,828 @@
+{
+  "name": "Palkia",
+  "dex": 484,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.2,
+        "width": 2.5,
+        "length": 1,
+        "eyeHeight": 3.2,
+        "hoverHeight": 3.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Scary Face",
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Aura Sphere"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Spacial Rend"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Dual Wingbeat",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Dive",
+          "Rock Tomb",
+          "Brine",
+          "Fling",
+          "Avalanche",
+          "Shadow Claw",
+          "Trick Room",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Fire Blast",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Hyper Voice",
+          "Dragon Claw",
+          "Bulk Up",
+          "Aura Sphere",
+          "Dragon Pulse",
+          "Power Gem",
+          "Focus Blast",
+          "Earth Power",
+          "Stone Edge",
+          "Heavy Slam",
+          "Liquidation",
+          "Body Press"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dragon Tail",
+          "Echoed Voice",
+          "Focus Punch",
+          "Frustration",
+          "Fury Cutter",
+          "Gravity",
+          "Headbutt",
+          "Heal Block",
+          "Hidden Power",
+          "Hone Claws",
+          "Incinerate",
+          "Mud-Slap",
+          "Natural Gift",
+          "Psych Up",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Strength",
+          "Swagger",
+          "Toxic",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Swagger",
+          "Substitute",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Dragon Claw",
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Focus Blast",
+          "Brine",
+          "Fling",
+          "Endure",
+          "Dragon Pulse",
+          "Shadow Claw",
+          "Giga Impact",
+          "Stone Edge",
+          "Avalanche",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.6
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 120,
+        "defense": 100,
+        "specialAttack": 150,
+        "specialDefense": 120,
+        "speed": 100
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 220,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/484_palkia/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/484_palkia/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/484_palkia/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.palkia",
+                "pixelmon.mob.palkia"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/484_palkia/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/484_palkia/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 336.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "origin",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 6.3,
+        "width": 2.5,
+        "length": 1,
+        "eyeHeight": 3.2,
+        "hoverHeight": 3.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Twister"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Earth Power"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Spacial Rend"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Aqua Tail",
+          "Bulk Up",
+          "Bulldoze",
+          "Draco Meteor",
+          "Earth Power",
+          "Flamethrower",
+          "Giga Impact",
+          "Hyper Beam",
+          "Ice Beam",
+          "Outrage",
+          "Rest",
+          "Rock Slide",
+          "Rock Smash",
+          "Shadow Claw",
+          "Stone Edge",
+          "Swift",
+          "Thunderbolt",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.6
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 150,
+        "specialDefense": 120,
+        "speed": 120
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 220,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/484_palkia/all/origin/none/texture.png",
+              "sprite": "pixelmon:pokemon/484_palkia/all/origin/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/484_palkia/all/origin/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.palkia",
+                "pixelmon.mob.palkia"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/484_palkia/all/origin/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/484_palkia/all/origin/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 660.0,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 4
+}

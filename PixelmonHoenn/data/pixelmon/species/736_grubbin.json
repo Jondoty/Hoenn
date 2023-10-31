@@ -1,0 +1,256 @@
+{
+  "name": "Grubbin",
+  "dex": 736,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Vise Grip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "String Shot"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dig"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Discharge",
+          "Harden"
+        ],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Dig",
+          "Screech",
+          "Light Screen",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Mud Shot",
+          "Round",
+          "Acrobatics",
+          "Volt Switch",
+          "Electroweb"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Poison Jab",
+          "X-Scissor",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Magnet Rise",
+          "Return",
+          "Shock Wave",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Charge Beam",
+          "Acrobatics",
+          "Volt Switch",
+          "Thunder Wave",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 47,
+        "attack": 62,
+        "defense": 45,
+        "specialAttack": 55,
+        "specialDefense": 45,
+        "speed": 46
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 60,
+        "baseFriendship": 70,
+        "spawnLevel": 2,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/736_grubbin/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/736_grubbin/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/736_grubbin/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/736_grubbin/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/736_grubbin/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 4.4,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Charjabug",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Charge"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 7
+}

@@ -1,0 +1,274 @@
+{
+  "name": "Burmy",
+  "dex": 412,
+  "defaultForms": [
+    "plant",
+    "sandy",
+    "trash"
+  ],
+  "forms": [
+    {
+      "name": "plant",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.65,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.65,
+        "hoverHeight": 0.65
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hidden Power"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Electroweb",
+          "Snore"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "String Shot"
+        ],
+        "tmMoves7": [
+          "Hidden Power",
+          "Protect"
+        ],
+        "tmMoves6": [
+          "Hidden Power",
+          "Protect"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShedSkin"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 29,
+        "defense": 45,
+        "specialAttack": 29,
+        "specialDefense": 45,
+        "speed": 36
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 45,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/412_burmy/all/plant/none/texture.png",
+              "sprite": "pixelmon:pokemon/412_burmy/all/plant/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/412_burmy/all/plant/none/model.pqc"
+                ],
+                "rotateAngleX": 0,
+                "yRotation": 22,
+                "animationIncrement": 1.5
+              },
+              "sounds": [
+                "pixelmon.mob.burmy",
+                "pixelmon.mob.burmy",
+                "pixelmon.mob.burmy"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/412_burmy/all/plant/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/412_burmy/all/plant/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 3.4,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 20,
+          "to": "Wormadam",
+          "conditions": [
+            {
+              "genders": [
+                "FEMALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Quiver Dance"
+          ]
+        },
+        {
+          "level": 20,
+          "to": "Mothim",
+          "conditions": [
+            {
+              "genders": [
+                "MALE"
+              ],
+              "evoConditionType": "gender"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Quiver Dance"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    },
+    {
+      "name": "sandy",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/412_burmy/all/sandy/none/texture.png",
+              "sprite": "pixelmon:pokemon/412_burmy/all/sandy/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/412_burmy/all/sandy/none/model.pqc"
+                ],
+                "rotateAngleX": 0,
+                "yRotation": 22,
+                "animationIncrement": 1.5
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/412_burmy/all/sandy/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/412_burmy/all/sandy/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    },
+    {
+      "name": "trash",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/412_burmy/all/trash/none/texture.png",
+              "sprite": "pixelmon:pokemon/412_burmy/all/trash/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/412_burmy/all/trash/none/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "rotateAngleX": 0,
+                "yRotation": 22
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/412_burmy/all/trash/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/412_burmy/all/trash/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

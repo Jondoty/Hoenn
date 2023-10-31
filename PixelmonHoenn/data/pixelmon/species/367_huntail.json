@@ -1,0 +1,386 @@
+{
+  "name": "Huntail",
+  "dex": 367,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Ice Fang"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Dive"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Bind",
+          "Bounce",
+          "Icy Wind",
+          "Snatch",
+          "Snore",
+          "Super Fang",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Barrier",
+          "Body Slam",
+          "Brine",
+          "Confuse Ray",
+          "Endure",
+          "Mud Sport",
+          "Muddy Water",
+          "Refresh",
+          "Supersonic",
+          "Water Pulse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Double-Edge",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Secret Power",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Giga Impact",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Snatch",
+          "Brine",
+          "Endure",
+          "Giga Impact",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Snatch"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim"
+        ],
+        "hiddenAbilities": [
+          "WaterVeil"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.53
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.8,
+            "z": -0.53
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 25,
+          "depthRangeEnd": 100,
+          "swimSpeed": 15,
+          "decayRate": 0.8,
+          "refreshRate": 150
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 104,
+        "defense": 105,
+        "specialAttack": 94,
+        "specialDefense": 75,
+        "speed": 52
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 178,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/367_huntail/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/367_huntail/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/367_huntail/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03,
+                "yRotation": 25.5
+              },
+              "sounds": [
+                "pixelmon.mob.huntail"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/367_huntail/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/367_huntail/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Clamperl"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 27.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

@@ -1,0 +1,335 @@
+{
+  "name": "Tympole",
+  "dex": 535,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.45,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.45,
+        "hoverHeight": 0.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Echoed Voice",
+              "Growl"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Acid"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Mist",
+          "Mud-Slap",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Weather Ball",
+          "Bounce",
+          "Mud Shot",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Hyper Voice",
+          "Muddy Water",
+          "Earth Power",
+          "Sludge Wave",
+          "Scald",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Bubble",
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Mud Bomb",
+          "Mud Sport",
+          "Refresh",
+          "Return",
+          "Secret Power",
+          "Swagger"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "Hydration"
+        ],
+        "hiddenAbilities": [
+          "WaterAbsorb"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 3,
+          "swimSpeed": 10,
+          "decayRate": 0.9,
+          "refreshRate": 10
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 50,
+        "defense": 40,
+        "specialAttack": 50,
+        "specialDefense": 40,
+        "speed": 64
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 59,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 9,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/535_tympole/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/535_tympole/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/535_tympole/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/535_tympole/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/535_tympole/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 4.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 25,
+          "to": "Palpitoad",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

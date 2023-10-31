@@ -1,0 +1,427 @@
+{
+  "name": "Garbodor",
+  "dex": 569,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid Spray",
+              "Metal Claw",
+              "Poison Gas",
+              "Pound",
+              "Recycle",
+              "Take Down"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Sludge"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Stockpile",
+              "Swallow"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Belch"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Gunk Shot"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Explosion"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Corrosive Gas"
+        ],
+        "eggMoves": [
+          "Autotomize",
+          "Curse",
+          "Haze",
+          "Rollout",
+          "Sand Attack"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Screech",
+          "Self-Destruct",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Rock Blast",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Cross Poison",
+          "Venoshock",
+          "Round",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Thunderbolt",
+          "Psychic",
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Spikes",
+          "Endure",
+          "Sleep Talk",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Focus Blast",
+          "Gunk Shot",
+          "Sludge Wave",
+          "Venom Drench",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Slap",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Mud Sport",
+          "Return",
+          "Rock Polish",
+          "Secret Power",
+          "Smack Down",
+          "Spite",
+          "Swagger"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Smack Down",
+          "Thunderbolt",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Explosion",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Stench",
+          "WeakArmor"
+        ],
+        "hiddenAbilities": [
+          "Aftermath"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.1,
+            "y": -0.72,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.1,
+            "y": -0.68,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 95,
+        "defense": 82,
+        "specialAttack": 60,
+        "specialDefense": 82,
+        "speed": 75
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 166,
+        "baseFriendship": 70,
+        "spawnLevel": 37,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/569_garbodor/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/569_garbodor/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/569_garbodor/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/569_garbodor/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/569_garbodor/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Trubbish"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Malodor"
+      },
+      "eggCycles": 21,
+      "weight": 107.3,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 2.0,
+        "width": 2.2,
+        "length": 2.2
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/569_garbodor/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/569_garbodor/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/569_garbodor/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/569_garbodor/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/569_garbodor/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 5
+}

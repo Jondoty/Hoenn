@@ -1,0 +1,265 @@
+{
+  "name": "Polteageist",
+  "dex": 855,
+  "defaultForms": [
+    "phony",
+    "antique"
+  ],
+  "forms": [
+    {
+      "name": "phony",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aromatic Mist",
+              "Astonish",
+              "Mega Drain",
+              "Strength Sap",
+              "Teatime",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Shell Smash"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Curse"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Light Screen",
+          "Reflect",
+          "Self-Destruct",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Payback",
+          "Wonder Room",
+          "Round",
+          "Hex",
+          "Phantom Force"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Metronome",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Trick",
+          "Dark Pulse",
+          "Nasty Plot",
+          "Foul Play",
+          "Stored Power",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WeakArmor"
+        ],
+        "hiddenAbilities": [
+          "CursedBody"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 134,
+        "specialDefense": 114,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 178,
+        "baseFriendship": 50,
+        "spawnLevel": 40,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/855_polteageist/all/phony/none/texture.png",
+              "sprite": "pixelmon:pokemon/855_polteageist/all/phony/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/855_polteageist/all/phony/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.polteageist"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/855_polteageist/all/phony/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/855_polteageist/all/phony/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Sinistea"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 0.4,
+      "catchRate": 60,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "antique",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/855_polteageist/all/antique/none/texture.png",
+              "sprite": "pixelmon:pokemon/855_polteageist/all/antique/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/855_polteageist/all/antique/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/855_polteageist/all/antique/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/855_polteageist/all/antique/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 8
+}

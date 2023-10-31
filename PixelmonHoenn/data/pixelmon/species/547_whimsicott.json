@@ -1,0 +1,326 @@
+{
+  "name": "Whimsicott",
+  "dex": 547,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Charm",
+              "Cotton Guard",
+              "Cotton Spore",
+              "Endeavor",
+              "Energy Ball",
+              "Fairy Wind",
+              "Giga Drain",
+              "Growth",
+              "Gust",
+              "Helping Hand",
+              "Hurricane",
+              "Leech Seed",
+              "Mega Drain",
+              "Memento",
+              "Moonblast",
+              "Poison Powder",
+              "Razor Leaf",
+              "Solar Beam",
+              "Stun Spore",
+              "Sunny Day",
+              "Tailwind"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Memento",
+          "Nature Power",
+          "Switcheroo",
+          "Tickle",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Beat Up",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fake Tears",
+          "U-turn",
+          "Fling",
+          "Trick Room",
+          "Round",
+          "Grassy Terrain",
+          "Misty Terrain"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Taunt",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Hurricane",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Defog",
+          "Double Team",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Grass Whistle",
+          "Hidden Power",
+          "Knock Off",
+          "Natural Gift",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Giga Impact",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Giga Impact",
+          "Flash",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Prankster",
+          "Infiltrator"
+        ],
+        "hiddenAbilities": [
+          "Chlorophyll"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 67,
+        "defense": 85,
+        "specialAttack": 77,
+        "specialDefense": 75,
+        "speed": 116
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 10,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/547_whimsicott/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/547_whimsicott/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/547_whimsicott/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.whimsicott",
+                "pixelmon.mob.whimsicott",
+                "pixelmon.mob.whimsicott"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/547_whimsicott/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/547_whimsicott/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "types": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Cottonee"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 6.6,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

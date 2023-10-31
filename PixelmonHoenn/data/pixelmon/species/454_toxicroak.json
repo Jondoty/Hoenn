@@ -1,0 +1,483 @@
+{
+  "name": "Toxicroak",
+  "dex": 454,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Mud-Slap",
+              "Poison Sting",
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Revenge"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Sludge Bomb"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Belch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Corrosive Gas",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Bullet Punch",
+          "Counter",
+          "Cross Chop",
+          "Dynamic Punch",
+          "Fake Out",
+          "Feint",
+          "Headbutt",
+          "Quick Guard",
+          "Vacuum Wave"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Bounce",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Cross Poison",
+          "Venoshock",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Low Kick",
+          "Earthquake",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Shadow Ball",
+          "Taunt",
+          "Bulk Up",
+          "Poison Jab",
+          "Dark Pulse",
+          "X-Scissor",
+          "Focus Blast",
+          "Nasty Plot",
+          "Gunk Shot",
+          "Stone Edge",
+          "Sludge Wave",
+          "Foul Play",
+          "Work Up",
+          "Venom Drench",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Acupressure",
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dual Chop",
+          "Embargo",
+          "Feint Attack",
+          "Focus Punch",
+          "Frustration",
+          "Fury Cutter",
+          "Hidden Power",
+          "Knock Off",
+          "Me First",
+          "Meditate",
+          "Mud Bomb",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Pursuit",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Smelling Salts",
+          "Snatch",
+          "Spite",
+          "Strength",
+          "Super Fang",
+          "Torment",
+          "Wake-Up Slap"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Work Up",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Snatch",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Captivate",
+          "Dark Pulse",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Anticipation",
+          "DrySkin"
+        ],
+        "hiddenAbilities": [
+          "PoisonTouch"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 83,
+        "attack": 106,
+        "defense": 65,
+        "specialAttack": 86,
+        "specialDefense": 65,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 181,
+        "baseFriendship": 70,
+        "spawnLevel": 38,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/454_toxicroak/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/454_toxicroak/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/454_toxicroak/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.toxicroak",
+                "pixelmon.mob.toxicroak"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/454_toxicroak/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/454_toxicroak/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "POISON",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Croagunk"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 44.4,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 4
+}

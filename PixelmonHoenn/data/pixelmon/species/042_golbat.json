@@ -1,0 +1,533 @@
+{
+  "name": "Golbat",
+  "dex": 42,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Astonish",
+              "Mean Look",
+              "Screech",
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Poison Fang"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Quick Guard"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Venoshock"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 69,
+            "attacks": [
+              "Leech Life"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Brave Bird",
+          "Curse",
+          "Defog",
+          "Feint Attack",
+          "Giga Drain",
+          "Gust",
+          "Hypnosis",
+          "Nasty Plot",
+          "Pursuit",
+          "Quick Attack",
+          "Steel Wing",
+          "Venom Drench",
+          "Whirlwind",
+          "Zen Headbutt"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Venoshock",
+          "Round",
+          "Acrobatics",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Agility",
+          "Leech Life",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Shadow Ball",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Brave Bird",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Venom Drench"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Detect",
+          "Double Team",
+          "Double-Edge",
+          "Feint Attack",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Mega Drain",
+          "Mimic",
+          "Natural Gift",
+          "Ominous Wind",
+          "Pluck",
+          "Pursuit",
+          "Rage",
+          "Razor Wind",
+          "Return",
+          "Roost",
+          "Secret Power",
+          "Snatch",
+          "Super Fang",
+          "Swagger",
+          "Tailwind",
+          "Take Down",
+          "Torment",
+          "Toxic",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Acrobatics",
+          "Payback",
+          "Giga Impact",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Snatch",
+          "Roost",
+          "Endure",
+          "Payback",
+          "Giga Impact",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Snatch"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing"
+        ],
+        "tmMoves1": [
+          "Razor Wind",
+          "Whirlwind",
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Mega Drain",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Swift",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "InnerFocus"
+        ],
+        "hiddenAbilities": [
+          "Infiltrator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 0.8,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 200,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 30,
+          "lower_angle_limit": -35,
+          "max_fly_speed": 1.5,
+          "deceleration_rate": 0.25,
+          "hover_deceleration_rate": 0.1,
+          "acceleration_rate": 0.15,
+          "strafe_acceleration_rate": 0.9,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 1,
+          "pitch_rate": 1,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": false,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 5,
+          "hover_ticks": 200
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 171,
+        "baseFriendship": 70,
+        "spawnLevel": 22,
+        "spawnLevelRange": 28,
+        "spawnLocations": [
+          "AIR_PERSISTENT",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/042_golbat/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/042_golbat/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/042_golbat/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.golbat"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/042_golbat/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/042_golbat/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/042_golbat/all/base/strike/texture.png",
+              "emissive": "pixelmon:pokemon/042_golbat/all/base/strike/emissive.png",
+              "sprite": "pixelmon:pokemon/042_golbat/all/base/strike/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "POISON",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Zubat"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 55.0,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Crobat",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Cross Poison"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 1
+}

@@ -1,0 +1,361 @@
+{
+  "name": "Pansage",
+  "dex": 511,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Play Nice",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fling"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Grass Knot"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Recycle"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Crunch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Endeavor",
+          "Focus Punch",
+          "Gastro Acid",
+          "Giga Drain",
+          "Grass Pledge",
+          "Gunk Shot",
+          "Helping Hand",
+          "Iron Tail",
+          "Knock Off",
+          "Low Kick",
+          "Recycle",
+          "Role Play",
+          "Seed Bomb",
+          "Snore",
+          "Synthesis",
+          "Uproar",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Astonish",
+          "Bullet Seed",
+          "Covet",
+          "Disarming Voice",
+          "Grass Whistle",
+          "Leaf Storm",
+          "Low Kick",
+          "Magical Leaf",
+          "Nasty Plot",
+          "Role Play",
+          "Spiky Shield",
+          "Tickle"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Flash",
+          "Hone Claws",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Flash",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Shadow Claw",
+          "Payback",
+          "Flash",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "Overgrow"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 53,
+        "defense": 48,
+        "specialAttack": 53,
+        "specialDefense": 48,
+        "speed": 64
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 63,
+        "baseFriendship": 70,
+        "spawnLevel": 11,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/511_pansage/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/511_pansage/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/511_pansage/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/511_pansage/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/511_pansage/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.5,
+      "catchRate": 190,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:leaf_stone"
+          },
+          "to": "Simisage",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 5
+}

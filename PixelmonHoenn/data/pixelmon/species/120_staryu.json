@@ -1,0 +1,506 @@
+{
+  "name": "Staryu",
+  "dex": 120,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Minimize"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Flip Turn"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Dive",
+          "Brine",
+          "Round"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Waterfall",
+          "Tri Attack",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Cosmic Power",
+          "Gyro Ball",
+          "Power Gem",
+          "Flash Cannon",
+          "Scald",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Attract",
+          "Bide",
+          "Bubble Beam",
+          "Camouflage",
+          "Confide",
+          "Curse",
+          "Double Team",
+          "Double-Edge",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Headbutt",
+          "Hidden Power",
+          "Magic Coat",
+          "Mimic",
+          "Natural Gift",
+          "Pain Split",
+          "Psych Up",
+          "Psywave",
+          "Rage",
+          "Recycle",
+          "Reflect Type",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Signal Beam",
+          "Skull Bash",
+          "Swagger",
+          "Take Down",
+          "Teleport",
+          "Toxic",
+          "Twister",
+          "Water Pulse",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Surf",
+          "Waterfall",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Scald",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Brine",
+          "Endure",
+          "Recycle",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Secret Power",
+          "Rest"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Psych Up",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Teleport",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Swift",
+          "Skull Bash",
+          "Rest",
+          "Thunder Wave",
+          "Psywave",
+          "Tri Attack",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illuminate",
+          "NaturalCure"
+        ],
+        "hiddenAbilities": [
+          "Analytic"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 5,
+          "depthRangeEnd": 100,
+          "swimSpeed": 14,
+          "decayRate": 0.9,
+          "refreshRate": 200,
+          "chanceToStopOnBlock": 0.1,
+          "blocksToStopOn": [
+            "minecraft:SAND"
+          ],
+          "minStopTime": 5,
+          "maxStopTime": 20,
+          "minStopCooldownTime": 10,
+          "maxStopCooldownTime": 30,
+          "canRotateWhileStopped": true
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 45,
+        "defense": 55,
+        "specialAttack": 70,
+        "specialDefense": 55,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 106,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/120_staryu/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/120_staryu/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/120_staryu/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.staryu"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/120_staryu/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/120_staryu/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 34.5,
+      "catchRate": 225,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:water_stone"
+          },
+          "to": "Starmie",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 1
+}

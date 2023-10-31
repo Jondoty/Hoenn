@@ -1,0 +1,2320 @@
+{
+  "name": "Deoxys",
+  "dex": 386,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Teleport"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Psycho Shift"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Psycho Boost"
+            ]
+          },
+          {
+            "level": 73,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bind",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Ice Punch",
+          "Icy Wind",
+          "Knock Off",
+          "Laser Focus",
+          "Low Kick",
+          "Magic Coat",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Stealth Rock",
+          "Stomping Tantrum",
+          "Telekinesis",
+          "Throat Chop",
+          "Thunder Punch",
+          "Trick",
+          "Water Pulse",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Avalanche",
+          "Body Slam",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Extreme Speed",
+          "Flash",
+          "Headbutt",
+          "Iron Defense",
+          "Mimic",
+          "Mud-Slap",
+          "Nasty Plot",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Thunder Wave",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Pressure"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.3,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.1
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 150,
+        "defense": 50,
+        "specialAttack": 150,
+        "specialDefense": 50,
+        "speed": 150
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/386_deoxys/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/386_deoxys/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              },
+              "sounds": [
+                "pixelmon.mob.deoxys",
+                "pixelmon.mob.deoxys",
+                "pixelmon.mob.deoxys"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/386_deoxys/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 60.8,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1,
+        "speed": 1
+      }
+    },
+    {
+      "name": "attack",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Teleport"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Psycho Shift"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Psycho Boost"
+            ]
+          },
+          {
+            "level": 73,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bind",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Ice Punch",
+          "Icy Wind",
+          "Knock Off",
+          "Laser Focus",
+          "Low Kick",
+          "Magic Coat",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Stealth Rock",
+          "Stomping Tantrum",
+          "Telekinesis",
+          "Throat Chop",
+          "Thunder Punch",
+          "Trick",
+          "Water Pulse",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Avalanche",
+          "Body Slam",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Extreme Speed",
+          "Flash",
+          "Headbutt",
+          "Iron Defense",
+          "Mimic",
+          "Mud-Slap",
+          "Nasty Plot",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Thunder Wave",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 180,
+        "defense": 20,
+        "specialAttack": 180,
+        "specialDefense": 20,
+        "speed": 150
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/386_deoxys/all/attack/none/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/attack/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/386_deoxys/all/attack/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/386_deoxys/all/attack/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/attack/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "defense",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Teleport"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Switcheroo"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Psycho Shift"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Iron Defense",
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Psycho Boost"
+            ]
+          },
+          {
+            "level": 73,
+            "attacks": [
+              "Counter",
+              "Mirror Coat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bind",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Ice Punch",
+          "Icy Wind",
+          "Knock Off",
+          "Laser Focus",
+          "Low Kick",
+          "Magic Coat",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Stealth Rock",
+          "Stomping Tantrum",
+          "Telekinesis",
+          "Throat Chop",
+          "Thunder Punch",
+          "Trick",
+          "Water Pulse",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Avalanche",
+          "Body Slam",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Extreme Speed",
+          "Flash",
+          "Headbutt",
+          "Iron Defense",
+          "Mimic",
+          "Mud-Slap",
+          "Nasty Plot",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Thunder Wave",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 160,
+        "specialAttack": 70,
+        "specialDefense": 160,
+        "speed": 90
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/386_deoxys/all/defense/none/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/defense/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/386_deoxys/all/defense/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/386_deoxys/all/defense/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/defense/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "speed",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Psycho Shift"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Psycho Boost"
+            ]
+          },
+          {
+            "level": 73,
+            "attacks": [
+              "Extreme Speed"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bind",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Ice Punch",
+          "Icy Wind",
+          "Knock Off",
+          "Laser Focus",
+          "Low Kick",
+          "Magic Coat",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Stealth Rock",
+          "Stomping Tantrum",
+          "Telekinesis",
+          "Throat Chop",
+          "Thunder Punch",
+          "Trick",
+          "Water Pulse",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Avalanche",
+          "Body Slam",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Extreme Speed",
+          "Flash",
+          "Headbutt",
+          "Iron Defense",
+          "Mimic",
+          "Mud-Slap",
+          "Nasty Plot",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Thunder Wave",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 95,
+        "defense": 90,
+        "specialAttack": 95,
+        "specialDefense": 95,
+        "speed": 180
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/386_deoxys/all/speed/none/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/speed/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/386_deoxys/all/speed/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/386_deoxys/all/speed/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/speed/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sus",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Teleport"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Psycho Shift"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Cosmic Power"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Psycho Boost"
+            ]
+          },
+          {
+            "level": 73,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Bind",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Ice Punch",
+          "Icy Wind",
+          "Knock Off",
+          "Laser Focus",
+          "Low Kick",
+          "Magic Coat",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Stealth Rock",
+          "Stomping Tantrum",
+          "Telekinesis",
+          "Throat Chop",
+          "Thunder Punch",
+          "Trick",
+          "Water Pulse",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+
+        ],
+        "trMoves": [
+
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Avalanche",
+          "Body Slam",
+          "Cut",
+          "Double-Edge",
+          "Endure",
+          "Extreme Speed",
+          "Flash",
+          "Headbutt",
+          "Iron Defense",
+          "Mimic",
+          "Mud-Slap",
+          "Nasty Plot",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Strength",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Ally Switch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Rock Slide",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Thunder Wave",
+          "Stealth Rock",
+          "Psych Up",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 160,
+        "specialAttack": 70,
+        "specialDefense": 160,
+        "speed": 90
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/386_deoxys/all/sus/none/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/sus/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/386_deoxys/all/sus/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/386_deoxys/all/sus/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/386_deoxys/all/sus/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

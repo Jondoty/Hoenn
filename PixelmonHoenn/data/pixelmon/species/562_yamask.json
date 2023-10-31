@@ -1,0 +1,593 @@
+{
+  "name": "Yamask",
+  "dex": 562,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.55,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.55,
+        "hoverHeight": 0.55
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Protect"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Crafty Shield"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Grudge"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Power Split",
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist"
+        ],
+        "eggMoves": [
+          "Memento"
+        ],
+        "tmMoves8": [
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Fake Tears",
+          "Payback",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Hex"
+        ],
+        "trMoves": [
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Energy Ball",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Block",
+          "Confide",
+          "Double Team",
+          "Dream Eater",
+          "Embargo",
+          "Flash",
+          "Frustration",
+          "Heal Block",
+          "Hidden Power",
+          "Infestation",
+          "Knock Off",
+          "Magic Coat",
+          "Nightmare",
+          "Ominous Wind",
+          "Pain Split",
+          "Psych Up",
+          "Return",
+          "Role Play",
+          "Secret Power",
+          "Shock Wave",
+          "Snatch",
+          "Spite",
+          "Swagger",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Infestation",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Embargo",
+          "Payback",
+          "Flash",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Mummy"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 38,
+        "attack": 30,
+        "defense": 85,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 61,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/562_yamask/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/562_yamask/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/562_yamask/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/562_yamask/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/562_yamask/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 26,
+      "weight": 1.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 34,
+          "to": "Cofagrigus",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Shadow Claw"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    },
+    {
+      "name": "galarian",
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Protect"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Crafty Shield"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Shadow Ball"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Power Split",
+              "Guard Split"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Poltergeist"
+        ],
+        "eggMoves": [
+          "Memento"
+        ],
+        "tmMoves8": [
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Fake Tears",
+          "Rock Tomb",
+          "Payback",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Hex",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Iron Defense",
+          "Calm Mind",
+          "Toxic Spikes",
+          "Dark Pulse",
+          "Energy Ball",
+          "Earth Power",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WanderingSpirit"
+        ],
+        "hiddenAbilities": []
+      },
+      "battleStats": {
+        "hp": 38,
+        "attack": 55,
+        "defense": 85,
+        "specialAttack": 30,
+        "specialDefense": 65,
+        "speed": 30
+      },
+      "tags": [
+        "galarian"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/562_yamask/all/galarian/none/texture.png",
+              "sprite": "pixelmon:pokemon/562_yamask/all/galarian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/562_yamask/all/galarian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/562_yamask/all/galarian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/562_yamask/all/galarian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "GROUND",
+        "GHOST"
+      ],
+      "evolutions": [
+        {
+          "to": "Runerigus",
+          "conditions": [
+            {
+              "evoConditionType": "healthAbsence",
+              "health": "49"
+            },
+            {
+              "evoConditionType": "biome",
+              "biomes": [
+                "minecraft:desert"
+              ]
+            }
+          ],
+          "evoType": "ticking",
+          "moves": [
+            "Shadow Claw"
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 5
+}

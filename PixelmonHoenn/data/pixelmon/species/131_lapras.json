@@ -1,0 +1,576 @@
+{
+  "name": "Lapras",
+  "dex": 131,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.5,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 2.5,
+        "hoverHeight": 2.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sing"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Life Dew"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ice Shard"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Brine"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Ice Beam"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Perish Song"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Sheer Cold"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ancient Power",
+          "Curse",
+          "Fissure",
+          "Freeze-Dry",
+          "Horn Drill",
+          "Sparkling Aria",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Helping Hand",
+          "Dive",
+          "Weather Ball",
+          "Brine",
+          "Avalanche",
+          "Round",
+          "Bulldoze",
+          "Smart Strike"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Waterfall",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Iron Tail",
+          "Future Sight",
+          "Hyper Voice",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Zen Headbutt",
+          "Iron Head",
+          "Drill Run",
+          "Liquidation",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aqua Tail",
+          "Aurora Beam",
+          "Bide",
+          "Block",
+          "Bubble Beam",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Dragon Breath",
+          "Dragon Rage",
+          "Dream Eater",
+          "Echoed Voice",
+          "Foresight",
+          "Frost Breath",
+          "Frustration",
+          "Headbutt",
+          "Heal Bell",
+          "Hidden Power",
+          "Mimic",
+          "Natural Gift",
+          "Nightmare",
+          "Psywave",
+          "Rage",
+          "Reflect",
+          "Refresh",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Skull Bash",
+          "Solar Beam",
+          "Strength",
+          "Swagger",
+          "Take Down",
+          "Toxic",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Smart Strike",
+          "Giga Impact",
+          "Bulldoze",
+          "Frost Breath",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Giga Impact",
+          "Bulldoze",
+          "Frost Breath",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Giga Impact",
+          "Bulldoze",
+          "Frost Breath",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Dragon Pulse",
+          "Giga Impact",
+          "Avalanche",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Roar",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Dragon Breath",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Dream Eater",
+          "Rest",
+          "Attract",
+          "Nightmare"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Horn Drill",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Bubble Beam",
+          "Water Gun",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Rage",
+          "Solar Beam",
+          "Dragon Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Skull Bash",
+          "Rest",
+          "Psywave",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterAbsorb",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "Hydration"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -2.81,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -2.81,
+            "z": -0.2
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 1,
+          "swimSpeed": 1,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 130,
+        "attack": 85,
+        "defense": 80,
+        "specialAttack": 85,
+        "specialDefense": 95,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 219,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/131_lapras/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/131_lapras/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/131_lapras/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.lapras"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/131_lapras/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/131_lapras/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER",
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Resonance"
+      },
+      "eggCycles": 41,
+      "weight": 220.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "dimensions": {
+        "height": 2.5,
+        "width": 1.6,
+        "length": 1.6
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/131_lapras/all/gmax/none/texture.png",
+              "emissive": "pixelmon:pokemon/131_lapras/all/gmax/none/emissive.png",
+              "sprite": "pixelmon:pokemon/131_lapras/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/131_lapras/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/131_lapras/all/gmax/shiny/texture.png",
+              "emissive": "pixelmon:pokemon/131_lapras/all/gmax/none/emissive.png",
+              "sprite": "pixelmon:pokemon/131_lapras/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 1
+}

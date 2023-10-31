@@ -1,0 +1,509 @@
+{
+  "name": "Ursaring",
+  "dex": 217,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Covet",
+              "Fake Tears",
+              "Hammer Arm",
+              "Leer",
+              "Lick",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Snore"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 67,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Fire Punch",
+          "Focus Punch",
+          "Gunk Shot",
+          "Hyper Voice",
+          "Ice Punch",
+          "Laser Focus",
+          "Last Resort",
+          "Low Kick",
+          "Seed Bomb",
+          "Snore",
+          "Stomping Tantrum",
+          "Superpower",
+          "Throat Chop",
+          "Thunder Punch",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Belly Drum",
+          "Chip Away",
+          "Close Combat",
+          "Counter",
+          "Cross Chop",
+          "Crunch",
+          "Double-Edge",
+          "Fake Tears",
+          "Metal Claw",
+          "Night Slash",
+          "Play Rough",
+          "Seismic Toss",
+          "Sleep Talk",
+          "Take Down",
+          "Yawn"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Avalanche",
+          "Body Slam",
+          "Captivate",
+          "Curse",
+          "Cut",
+          "Defense Curl",
+          "Dig",
+          "Dynamic Punch",
+          "Endure",
+          "Focus Energy",
+          "Fury Cutter",
+          "Headbutt",
+          "Hone Claws",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Power-Up Punch",
+          "Refresh",
+          "Retaliate",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Strength",
+          "Swift",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Focus Blast",
+          "Fling",
+          "Endure",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Avalanche",
+          "Swords Dance",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Roar",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Defense Curl",
+          "Thunder Punch",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Fire Punch",
+          "Fury Cutter"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Guts",
+          "QuickFeet"
+        ],
+        "hiddenAbilities": [
+          "Unnerve"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.22
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 75,
+        "specialAttack": 75,
+        "specialDefense": 75,
+        "speed": 55
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 189,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/217_ursaring/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/217_ursaring/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/217_ursaring/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.ursaring"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/217_ursaring/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/217_ursaring/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Teddiursa"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 125.8,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:peat_block"
+          },
+          "to": "Ursaluna",
+          "conditions": [
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 2
+}

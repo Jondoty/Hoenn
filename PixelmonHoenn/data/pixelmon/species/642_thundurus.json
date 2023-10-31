@@ -1,0 +1,516 @@
+{
+  "name": "Thundurus",
+  "dex": 642,
+  "defaultForms": [
+    "incarnate"
+  ],
+  "forms": [
+    {
+      "name": "incarnate",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Thunder Shock"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Shock Wave"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Charge"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Volt Switch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Thunder"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out",
+          "Rising Voltage"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Thunder Punch",
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Weather Ball",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Round",
+          "Volt Switch",
+          "Electroweb",
+          "Eerie Impulse",
+          "Smart Strike",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Thunderbolt",
+          "Thunder",
+          "Psychic",
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Bulk Up",
+          "Dark Pulse",
+          "Focus Blast",
+          "Nasty Plot",
+          "Flash Cannon",
+          "Grass Knot",
+          "Sludge Wave",
+          "Electro Ball",
+          "Foul Play",
+          "Wild Charge"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Charge Beam",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Embargo",
+          "Frustration",
+          "Heal Block",
+          "Hidden Power",
+          "Incinerate",
+          "Knock Off",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Sky Drop",
+          "Smack Down",
+          "Strength",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Sky Drop",
+          "Brutal Swing",
+          "Embargo",
+          "Payback",
+          "Smart Strike",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Fly",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Sky Drop",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Charge Beam",
+          "Sky Drop",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Prankster"
+        ],
+        "hiddenAbilities": [
+          "Defiant"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 15,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 79,
+        "attack": 115,
+        "defense": 70,
+        "specialAttack": 125,
+        "specialDefense": 80,
+        "speed": 111
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 261,
+        "baseFriendship": 90,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/642_thundurus/all/incarnate/none/texture.png",
+              "sprite": "pixelmon:pokemon/642_thundurus/all/incarnate/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/642_thundurus/all/incarnate/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/642_thundurus/all/incarnate/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.thundurus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/642_thundurus/all/incarnate/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/642_thundurus/all/incarnate/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 65.0,
+      "catchRate": 3,
+      "malePercentage": 100,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "therian",
+      "abilities": {
+        "abilities": [
+          "VoltAbsorb"
+        ]
+      },
+      "battleStats": {
+        "hp": 79,
+        "attack": 105,
+        "defense": 70,
+        "specialAttack": 145,
+        "specialDefense": 80,
+        "speed": 101
+      },
+      "weight": 61.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/642_thundurus/all/therian/none/texture.png",
+              "sprite": "pixelmon:pokemon/642_thundurus/all/therian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/642_thundurus/all/therian/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "yRotation": 32
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/642_thundurus/all/therian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/642_thundurus/all/therian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    }
+  ],
+  "generation": 5
+}

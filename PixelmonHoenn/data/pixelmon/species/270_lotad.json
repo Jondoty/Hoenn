@@ -1,0 +1,417 @@
+{
+  "name": "Lotad",
+  "dex": 270,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.35,
+        "width": 0.55,
+        "length": 1,
+        "eyeHeight": 0.35,
+        "hoverHeight": 0.35
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Growl"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Mist"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Nature Power"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Energy Ball"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Leech Seed",
+          "Razor Leaf",
+          "Sweet Scent",
+          "Synthesis",
+          "Teeter Dance",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Solar Beam",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Bullet Seed",
+          "Round"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Seed Bomb",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Scald"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bubble",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Double-Edge",
+          "Echoed Voice",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Mimic",
+          "Natural Gift",
+          "Return",
+          "Secret Power",
+          "Swagger",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Scald",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Scald",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Scald",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Energy Ball",
+          "Endure",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "RainDish"
+        ],
+        "hiddenAbilities": [
+          "OwnTempo"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 5,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 30,
+        "specialAttack": 40,
+        "specialDefense": 50,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 74,
+        "baseFriendship": 70,
+        "spawnLevel": 3,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/270_lotad/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/270_lotad/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/270_lotad/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.1
+              },
+              "sounds": [
+                "pixelmon.mob.lotad"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/270_lotad/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/270_lotad/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "GRASS"
+      ],
+      "types": [
+        "WATER",
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 2.6,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 14,
+          "to": "Lombre",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

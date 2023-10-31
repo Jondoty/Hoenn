@@ -1,0 +1,271 @@
+{
+  "name": "Crabrawler",
+  "dex": 739,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bubble"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Power-Up Punch"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Dizzy Punch"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Crabhammer"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Drain Punch",
+          "Dual Chop",
+          "Endeavor",
+          "Focus Punch",
+          "Ice Punch",
+          "Iron Defense",
+          "Iron Head",
+          "Snore",
+          "Superpower",
+          "Thunder Punch",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Amnesia",
+          "Endeavor",
+          "Superpower",
+          "Wide Guard"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Brutal Swing",
+          "Payback",
+          "Stone Edge",
+          "Bulldoze",
+          "Frost Breath",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "HyperCutter",
+          "IronFist"
+        ],
+        "hiddenAbilities": [
+          "AngerPoint"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 47,
+        "attack": 82,
+        "defense": 57,
+        "specialAttack": 42,
+        "specialDefense": 47,
+        "speed": 63
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 68,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/739_crabrawler/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/739_crabrawler/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/739_crabrawler/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.crabrawler"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/739_crabrawler/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/739_crabrawler/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 7.0,
+      "catchRate": 225,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Crabominable",
+          "conditions": [
+            {
+              "evolutionRock": "ICE_ROCK",
+              "maxRangeSquared": 100,
+              "evoConditionType": "evolutionRock"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Ice Punch"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 7
+}

@@ -1,0 +1,387 @@
+{
+  "name": "Buzzwole",
+  "dex": 794,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 4.2,
+        "width": 2.4,
+        "length": 1,
+        "eyeHeight": 4.2,
+        "hoverHeight": 4.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Harden",
+              "Power-Up Punch"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Fell Stinger"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Vital Throw"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bulk Up"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Endure"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Reversal"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Mega Punch"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Lunge"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Dynamic Punch"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Superpower"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Focus Punch"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Rock Tomb",
+          "Bounce",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Bulldoze",
+          "False Swipe",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Focus Energy",
+          "Leech Life",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Taunt",
+          "Superpower",
+          "Bulk Up",
+          "Gyro Ball",
+          "Close Combat",
+          "Poison Jab",
+          "Iron Head",
+          "Stone Edge",
+          "Work Up",
+          "Darkest Lariat",
+          "High Horsepower"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Bug Bite",
+          "Comet Punch",
+          "Confide",
+          "Double Team",
+          "Dual Chop",
+          "Endeavor",
+          "Frustration",
+          "Hidden Power",
+          "Return",
+          "Roost",
+          "Smack Down",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Leech Life",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "False Swipe",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "BeastBoost"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": 0.0
+          },
+          "moving": {
+            "x": -0.2,
+            "y": -1.4,
+            "z": 0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 107,
+        "attack": 139,
+        "defense": 139,
+        "specialAttack": 53,
+        "specialDefense": 53,
+        "speed": 79
+      },
+      "tags": [
+        "ultrabeast"
+      ],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/794_buzzwole/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/794_buzzwole/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/794_buzzwole/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.buzzwole"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/794_buzzwole/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/794_buzzwole/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "BUG",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 333.6,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 1,
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

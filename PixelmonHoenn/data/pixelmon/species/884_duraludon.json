@@ -1,0 +1,300 @@
+{
+  "name": "Duraludon",
+  "dex": 884,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Breaking Swipe"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dragon Tail"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Metal Burst"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Hyper Beam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Mirror Coat",
+          "Night Slash",
+          "Slash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Facade",
+          "Brick Break",
+          "Rock Tomb",
+          "Round",
+          "Snarl",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Thunderbolt",
+          "Thunder",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Dragon Claw",
+          "Gyro Ball",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Foul Play",
+          "Body Press"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LightMetal",
+          "HeavyMetal"
+        ],
+        "hiddenAbilities": [
+          "Stalwart"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -0.4
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 95,
+        "defense": 115,
+        "specialAttack": 120,
+        "specialDefense": 50,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 187,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/884_duraludon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/884_duraludon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/884_duraludon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.duraludon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/884_duraludon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/884_duraludon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL",
+        "DRAGON"
+      ],
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Depletion"
+      },
+      "eggCycles": 31,
+      "weight": 40.0,
+      "catchRate": 45,
+      "malePercentage": 50.0,
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/884_duraludon/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/884_duraludon/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/884_duraludon/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/884_duraludon/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/884_duraludon/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

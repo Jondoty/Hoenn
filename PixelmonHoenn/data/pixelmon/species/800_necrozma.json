@@ -1,0 +1,558 @@
+{
+  "name": "Necrozma",
+  "dex": 800,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 5.5,
+        "width": 2.4,
+        "length": 1,
+        "eyeHeight": 5.5,
+        "hoverHeight": 5.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Charge Beam",
+              "Confusion",
+              "Gravity",
+              "Metal Claw",
+              "Moonlight",
+              "Morning Sun"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Stored Power"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Rock Blast"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Power Gem"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Photon Geyser"
+            ]
+          },
+          {
+            "level": 80,
+            "attacks": [
+              "Autotomize"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Prismatic Laser"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Facade",
+          "Brick Break",
+          "Imprison",
+          "Rock Tomb",
+          "Rock Blast",
+          "Fling",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Trick Room",
+          "Round",
+          "Bulldoze",
+          "Smart Strike",
+          "Brutal Swing",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Outrage",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Future Sight",
+          "Heat Wave",
+          "Hyper Voice",
+          "Cosmic Power",
+          "Iron Defense",
+          "Calm Mind",
+          "Dragon Dance",
+          "Gyro Ball",
+          "Dark Pulse",
+          "X-Scissor",
+          "Dragon Pulse",
+          "Power Gem",
+          "Earth Power",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Stealth Rock",
+          "Stored Power",
+          "Ally Switch",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Double Team",
+          "Embargo",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Magnet Rise",
+          "Mirror Shot",
+          "Recycle",
+          "Return",
+          "Rock Polish",
+          "Shock Wave",
+          "Signal Beam",
+          "Swagger",
+          "Telekinesis",
+          "Toxic",
+          "Wring Out"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Thief",
+          "Round",
+          "Fling",
+          "Charge Beam",
+          "Brutal Swing",
+          "Embargo",
+          "Shadow Claw",
+          "Smart Strike",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "PrismArmor"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.2
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 107,
+        "defense": 101,
+        "specialAttack": 127,
+        "specialDefense": 89,
+        "speed": 79
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 120,
+        "baseFriendship": 70,
+        "spawnLevel": 70,
+        "spawnLevelRange": 70,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/800_necrozma/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/800_necrozma/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.necrozma"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/800_necrozma/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 230.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "dusk",
+      "dimensions": {
+        "height": 2.6,
+        "width": 2.4,
+        "length": 2.4
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 157,
+        "defense": 127,
+        "specialAttack": 113,
+        "specialDefense": 109,
+        "speed": 77
+      },
+      "types": [
+        "PSYCHIC",
+        "STEEL"
+      ],
+      "weight": 460.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/800_necrozma/all/dusk/none/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dusk/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/800_necrozma/all/dusk/none/model.pqc",
+                  "pixelmon:pokemon/800_necrozma/all/dusk/none/model1.pqc"
+                ],
+                "transparency2": 0.6
+              },
+              "sounds": [
+                "pixelmon.mob.necrozma.dusk"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dawn",
+      "dimensions": {
+        "height": 4.6,
+        "width": 2.8,
+        "length": 2.8
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 113,
+        "defense": 109,
+        "specialAttack": 157,
+        "specialDefense": 127,
+        "speed": 77
+      },
+      "types": [
+        "PSYCHIC",
+        "GHOST"
+      ],
+      "weight": 350.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/800_necrozma/all/dawn/none/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dawn/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/800_necrozma/all/dawn/none/model.pqc",
+                  "pixelmon:pokemon/800_necrozma/all/dawn/none/model1.pqc"
+                ],
+                "transparency2": 0.6,
+                "yRotation": 20
+              },
+              "sounds": [
+                "pixelmon.mob.necrozma.dawn"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ultra",
+      "tags": [
+        "temp",
+        "legendary"
+      ],
+      "dimensions": {
+        "height": 5.8,
+        "width": 2.8,
+        "length": 2.8
+      },
+      "abilities": {
+        "abilities": [
+          "Neuroforce"
+        ]
+      },
+      "battleStats": {
+        "hp": 97,
+        "attack": 167,
+        "defense": 97,
+        "specialAttack": 167,
+        "specialDefense": 97,
+        "speed": 129
+      },
+      "types": [
+        "PSYCHIC",
+        "DRAGON"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/800_necrozma/all/ultra/none/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/ultra/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/800_necrozma/all/ultra/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/800_necrozma/all/ultra/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/800_necrozma/all/ultra/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

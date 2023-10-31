@@ -1,0 +1,298 @@
+{
+  "name": "Litten",
+  "dex": 725,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growl",
+              "Scratch"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Roar"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Fire Fang"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Fire Pledge"
+        ],
+        "eggMoves": [
+          "Fake Out",
+          "Parting Shot",
+          "Power Trip"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Fire Spin",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Revenge",
+          "U-turn",
+          "Shadow Claw",
+          "Fire Fang",
+          "Round",
+          "Acrobatics"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Flamethrower",
+          "Fire Blast",
+          "Leech Life",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Heat Wave",
+          "Taunt",
+          "Overheat",
+          "Bulk Up",
+          "Flare Blitz",
+          "Nasty Plot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Endeavor",
+          "Flame Charge",
+          "Frustration",
+          "Hidden Power",
+          "Leer",
+          "Return",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Torment",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Shadow Claw",
+          "Swords Dance",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "Intimidate"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 45,
+        "attack": 65,
+        "defense": 40,
+        "specialAttack": 60,
+        "specialDefense": 40,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 64,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 15,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/725_litten/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/725_litten/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/725_litten/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.litten"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/725_litten/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/725_litten/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 15,
+      "weight": 4.3,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 17,
+          "to": "Torracat",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 7
+}

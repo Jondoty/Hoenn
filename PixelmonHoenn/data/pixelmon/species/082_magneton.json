@@ -1,0 +1,461 @@
+{
+  "name": "Magneton",
+  "dex": 82,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Electric Terrain",
+              "Supersonic",
+              "Tackle",
+              "Thunder Shock",
+              "Thunder Wave",
+              "Tri Attack"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Spark"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Magnet Rise"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Lock-On"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Zap Cannon"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage",
+          "Steel Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Round",
+          "Volt Switch",
+          "Electroweb",
+          "Electric Terrain"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Tri Attack",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Defense",
+          "Gyro Ball",
+          "Flash Cannon",
+          "Electro Ball",
+          "Wild Charge"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Charge Beam",
+          "Confide",
+          "Curse",
+          "Double Team",
+          "Double-Edge",
+          "Explosion",
+          "Flash",
+          "Frustration",
+          "Gravity",
+          "Headbutt",
+          "Hidden Power",
+          "Magic Coat",
+          "Magnet Bomb",
+          "Mimic",
+          "Mirror Shot",
+          "Natural Gift",
+          "Psych Up",
+          "Rage",
+          "Recycle",
+          "Refresh",
+          "Return",
+          "Rollout",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Sonic Boom",
+          "Swagger",
+          "Take Down",
+          "Teleport",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Round",
+          "Charge Beam",
+          "Explosion",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Charge Beam",
+          "Endure",
+          "Explosion",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Zap Cannon",
+          "Hidden Power",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Rest"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Take Down",
+          "Double-Edge",
+          "Hyper Beam",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Teleport",
+          "Mimic",
+          "Double Team",
+          "Reflect",
+          "Bide",
+          "Swift",
+          "Rest",
+          "Thunder Wave",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MagnetPull",
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "Analytic"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 60,
+        "defense": 95,
+        "specialAttack": 120,
+        "specialDefense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 161,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/082_magneton/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/082_magneton/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/082_magneton/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.magneton"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/082_magneton/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/082_magneton/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MINERAL"
+      ],
+      "types": [
+        "ELECTRIC",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Magnemite"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 60.0,
+      "catchRate": 60,
+      "malePercentage": -1,
+      "evolutions": [
+        {
+          "to": "Magnezone",
+          "item": {
+            "itemID": "pixelmon:thunder_stone"
+          },
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 1
+}

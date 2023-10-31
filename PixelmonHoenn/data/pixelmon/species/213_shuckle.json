@@ -1,0 +1,459 @@
+{
+  "name": "Shuckle",
+  "dex": 213,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Withdraw",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Struggle Bug"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Guard Split",
+              "Power Split"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Power Trick"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Stone Edge"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Shell Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam",
+          "Skitter Smack",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+          "Acid",
+          "Acupressure",
+          "Covet",
+          "Defense Curl",
+          "Final Gambit",
+          "Infestation",
+          "Knock Off",
+          "Sweet Scent",
+          "Toxic"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Rock Tomb",
+          "Sand Tomb",
+          "Mud Shot",
+          "Rock Blast",
+          "Venoshock",
+          "Round",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Earthquake",
+          "Substitute",
+          "Reversal",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Iron Defense",
+          "Gyro Ball",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Sludge Wave"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Ancient Power",
+          "Bide",
+          "Bind",
+          "Captivate",
+          "Confide",
+          "Constrict",
+          "Curse",
+          "Double Team",
+          "Double-Edge",
+          "Flash",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Return",
+          "Rock Polish",
+          "Rock Smash",
+          "Secret Power",
+          "Smack Down",
+          "Strength",
+          "String Shot",
+          "Swagger"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Rock Polish",
+          "Stone Edge",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Rock Polish",
+          "Flash",
+          "Stone Edge",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy",
+          "Gluttony"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 20,
+        "attack": 10,
+        "defense": 230,
+        "specialAttack": 10,
+        "specialDefense": 230,
+        "speed": 5
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 80,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 40,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/213_shuckle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/213_shuckle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/213_shuckle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/213_shuckle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/213_shuckle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "ROCK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 20.5,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 2
+}

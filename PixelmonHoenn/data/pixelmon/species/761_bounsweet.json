@@ -1,0 +1,269 @@
+{
+  "name": "Bounsweet",
+  "dex": 761,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Splash"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Aromatic Mist"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Acupressure",
+          "Endeavor",
+          "Synthesis"
+        ],
+        "tmMoves8": [
+          "Magical Leaf",
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Bounce",
+          "Round",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Covet",
+          "Double Team",
+          "Feint",
+          "Frustration",
+          "Grass Whistle",
+          "Hidden Power",
+          "Nature Power",
+          "Return",
+          "Swagger",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LeafGuard",
+          "Oblivious"
+        ],
+        "hiddenAbilities": [
+          "SweetVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 42,
+        "attack": 30,
+        "defense": 38,
+        "specialAttack": 30,
+        "specialDefense": 38,
+        "speed": 32
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 42,
+        "baseFriendship": 70,
+        "spawnLevel": 4,
+        "spawnLevelRange": 14,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/761_bounsweet/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/761_bounsweet/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/761_bounsweet/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bounsweet",
+                "pixelmon.mob.bounsweet",
+                "pixelmon.mob.bounsweet"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/761_bounsweet/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/761_bounsweet/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 3.2,
+      "catchRate": 235,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "level": 18,
+          "to": "Steenee",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 7
+}

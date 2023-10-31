@@ -1,0 +1,326 @@
+{
+  "name": "Frogadier",
+  "dex": 657,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bubble",
+              "Growl",
+              "Pound"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Bubble"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Lick"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Fling"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Smack Down"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Substitute"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Double Team"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Gunk Shot",
+          "Ice Punch",
+          "Icy Wind",
+          "Low Kick",
+          "Role Play",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Water Pledge",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Bestow",
+          "Camouflage",
+          "Mind Reader",
+          "Mud Sport",
+          "Power-Up Punch",
+          "Toxic Spikes",
+          "Water Sport"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Dive",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Surf",
+          "Dark Pulse",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Scald",
+          "Fling",
+          "Acrobatics",
+          "Rock Slide",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "Protean"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 54,
+        "attack": 63,
+        "defense": 52,
+        "specialAttack": 83,
+        "specialDefense": 56,
+        "speed": 97
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 142,
+        "baseFriendship": 0,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/657_frogadier/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/657_frogadier/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/657_frogadier/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "yRotation": 24.1
+              },
+              "sounds": [
+                "pixelmon.mob.frogadier",
+                "pixelmon.mob.frogadier"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/657_frogadier/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/657_frogadier/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "alter",
+              "texture": "pixelmon:pokemon/657_frogadier/all/base/alter/texture.png",
+              "sprite": "pixelmon:pokemon/657_frogadier/all/base/alter/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Froakie"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.9,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 36,
+          "to": "Greninja",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Water Shuriken"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 6
+}

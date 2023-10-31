@@ -1,0 +1,477 @@
+{
+  "name": "Murkrow",
+  "dex": 198,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Peck"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Pursuit"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Haze"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Night Shade"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Foul Play"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 61,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Quash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Defog",
+          "Foul Play",
+          "Heat Wave",
+          "Icy Wind",
+          "Sky Attack",
+          "Snatch",
+          "Snore",
+          "Spite",
+          "Tailwind",
+          "Uproar"
+        ],
+        "eggMoves": [
+          "Assurance",
+          "Brave Bird",
+          "Confuse Ray",
+          "Drill Peck",
+          "Feather Dance",
+          "Feint Attack",
+          "Flatter",
+          "Mirror Move",
+          "Perish Song",
+          "Psycho Shift",
+          "Punishment",
+          "Roost",
+          "Screech",
+          "Sky Attack",
+          "Whirlwind",
+          "Wing Attack"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Captivate",
+          "Curse",
+          "Detect",
+          "Double-Edge",
+          "Endure",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Ominous Wind",
+          "Pluck",
+          "Quick Attack",
+          "Retaliate",
+          "Secret Power",
+          "Swift",
+          "Twister"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Quash",
+          "Embargo",
+          "Payback",
+          "Thunder Wave",
+          "Fly",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Quash",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Quash",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "Substitute",
+          "Snarl"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Snatch",
+          "Roost",
+          "Endure",
+          "Embargo",
+          "Payback",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Dark Pulse",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Pluck",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Snatch"
+        ],
+        "tmMoves2": [
+          "Curse",
+          "Toxic",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Icy Wind",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Dream Eater",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Steel Wing",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Insomnia",
+          "SuperLuck"
+        ],
+        "hiddenAbilities": [
+          "Prankster"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 42,
+        "specialAttack": 85,
+        "specialDefense": 42,
+        "speed": 91
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 107,
+        "baseFriendship": 35,
+        "spawnLevel": 5,
+        "spawnLevelRange": 24,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/198_murkrow/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/198_murkrow/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/198_murkrow/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/198_murkrow/all/base/none/flying/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.murkrow",
+                "pixelmon.mob.murkrow",
+                "pixelmon.mob.murkrow"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/198_murkrow/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/198_murkrow/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "DARK",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 2.1,
+      "catchRate": 30,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:dusk_stone"
+          },
+          "to": "Honchkrow",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 2
+}

@@ -1,0 +1,246 @@
+{
+  "name": "Veluza",
+  "dex": 976,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1.0,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aqua Jet",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Aqua Cutter"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Fillet Away"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Night Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Final Gambit"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Recover",
+          "Thrash"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Protect",
+          "Ice Fang",
+          "Water Pulse",
+          "Chilling Water",
+          "Icy Wind",
+          "Stored Power",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Zen Headbutt",
+          "Psychic Fangs",
+          "Body Slam",
+          "Sleep Talk",
+          "Waterfall",
+          "Rest",
+          "Substitute",
+          "Drill Run",
+          "Crunch",
+          "Liquidation",
+          "Psychic",
+          "Surf",
+          "Ice Beam",
+          "Psychic Terrain",
+          "Hydro Pump",
+          "Blizzard",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MoldBreaker"
+        ],
+        "hiddenAbilities": [
+          "Sharpness"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 3,
+          "depthRangeEnd": 55,
+          "swimSpeed": 11,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 102,
+        "defense": 73,
+        "specialAttack": 78,
+        "specialDefense": 65,
+        "speed": 70
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 167,
+        "baseFriendship": 50,
+        "spawnLevel": 25,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/976_veluza/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/976_veluza/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/976_veluza/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/976_veluza/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "WATER",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 90.0,
+      "catchRate": 100,
+      "evolutions": [],
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

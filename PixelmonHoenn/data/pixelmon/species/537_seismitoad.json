@@ -1,0 +1,401 @@
+{
+  "name": "Seismitoad",
+  "dex": 537,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Drain Punch",
+              "Echoed Voice",
+              "Gastro Acid",
+              "Growl",
+              "Supersonic"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Round"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Aqua Ring"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Mist",
+          "Mud-Slap",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Ice Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Facade",
+          "Brick Break",
+          "Dive",
+          "Weather Ball",
+          "Rock Tomb",
+          "Bounce",
+          "Mud Shot",
+          "Payback",
+          "Fling",
+          "Drain Punch",
+          "Venoshock",
+          "Round",
+          "Bulldoze",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Hydro Pump",
+          "Surf",
+          "Low Kick",
+          "Earthquake",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Hyper Voice",
+          "Muddy Water",
+          "Poison Jab",
+          "Focus Blast",
+          "Earth Power",
+          "Power Whip",
+          "Stealth Rock",
+          "Grass Knot",
+          "Sludge Wave",
+          "Scald",
+          "Venom Drench",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Bubble",
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Focus Punch",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Knock Off",
+          "Mud Bomb",
+          "Mud Sport",
+          "Power-Up Punch",
+          "Refresh",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Strength",
+          "Swagger"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Infestation",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Venoshock",
+          "Hidden Power",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Payback",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "PoisonTouch"
+        ],
+        "hiddenAbilities": [
+          "WaterAbsorb"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.2
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 105,
+        "attack": 95,
+        "defense": 75,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 74
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 225,
+        "baseFriendship": 70,
+        "spawnLevel": 37,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/537_seismitoad/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/537_seismitoad/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/537_seismitoad/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/537_seismitoad/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/537_seismitoad/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER",
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Palpitoad",
+        "Tympole"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 62.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 3
+      }
+    }
+  ],
+  "generation": 5
+}

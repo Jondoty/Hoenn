@@ -1,0 +1,523 @@
+{
+  "name": "Stantler",
+  "dex": 234,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Me First",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Astonish"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Role Play"
+            ]
+          },
+          {
+            "level": 38,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Jump Kick"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Imprison"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Captivate"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Me First"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bounce",
+          "Gravity",
+          "Iron Tail",
+          "Last Resort",
+          "Magic Room",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snore",
+          "Spite",
+          "Throat Chop",
+          "Uproar",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Disable",
+          "Double Kick",
+          "Extrasensory",
+          "Me First",
+          "Megahorn",
+          "Mud Sport",
+          "Rage",
+          "Psyshield Bash",
+          "Spite",
+          "Thrash",
+          "Zen Headbutt"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Curse",
+          "Detect",
+          "Double-Edge",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Retaliate",
+          "Secret Power",
+          "Sucker Punch",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Work Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Energy Ball",
+          "Charge Beam",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Roar",
+          "Toxic",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Dream Eater",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "SapSipper"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 73,
+        "attack": 95,
+        "defense": 62,
+        "specialAttack": 85,
+        "specialDefense": 65,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/234_stantler/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/234_stantler/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/234_stantler/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/234_stantler/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/234_stantler/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 71.2,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 21,
+          "to": "Wyrdeer",
+          "conditions": [
+            {
+              "withPokemon": [],
+              "withTypes": [],
+              "withForms": [
+                "HISUIAN"
+              ],
+              "evoConditionType": "party"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Psyshield Bash"
+          ]
+        },
+        {
+          "to": "Wyrdeer",
+          "conditions": [
+            {
+              "move": "Psyshield Bash",
+              "uses": 20,
+              "evoConditionType": "moveUses"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Psyshield Bash"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 2
+}

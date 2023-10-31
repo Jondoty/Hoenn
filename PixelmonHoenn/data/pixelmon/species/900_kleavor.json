@@ -1,0 +1,198 @@
+{
+  "name": "Kleavor",
+  "dex": 900,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.8,
+        "width": 1,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 1,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Silver Wind"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Double Hit",
+              "Stealth Rock"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Stone Axe"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "X-Scissor"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aerial Ace",
+          "Calm Mind",
+          "False Swipe",
+          "Focus Energy",
+          "Giga Impact",
+          "Hyper Beam",
+          "Ominous Wind",
+          "Psycho Cut",
+          "Rest",
+          "Rock Slide",
+          "Rock Smash",
+          "Stealth Rock",
+          "Stone Edge",
+          "Swift",
+          "X-Scissor"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Swarm",
+          "SheerForce"
+        ],
+        "hiddenAbilities": [
+          "Sharpness"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "aggressive": 80,
+        "passive": 20,
+        "timid": 0
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 135,
+        "defense": 95,
+        "specialAttack": 45,
+        "specialDefense": 70,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 200,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/900_kleavor/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/900_kleavor/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/900_kleavor/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/900_kleavor/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/900_kleavor/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "ROCK"
+      ],
+      "preEvolutions": [
+        "Scyther"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "eggCycles": 26,
+      "weight": 89.0,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 8
+}

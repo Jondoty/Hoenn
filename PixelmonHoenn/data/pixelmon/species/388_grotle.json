@@ -1,0 +1,363 @@
+{
+  "name": "Grotle",
+  "dex": 388,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 1.1,
+        "width": 1.1,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Tackle",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Earth Power",
+          "Giga Drain",
+          "Grass Pledge",
+          "Iron Tail",
+          "Seed Bomb",
+          "Snore",
+          "Stealth Rock",
+          "Superpower",
+          "Synthesis",
+          "Worry Seed"
+        ],
+        "eggMoves": [
+          "Amnesia",
+          "Body Slam",
+          "Double-Edge",
+          "Earth Power",
+          "Grassy Terrain",
+          "Growth",
+          "Heavy Slam",
+          "Sand Tomb",
+          "Seed Bomb",
+          "Spit Up",
+          "Stockpile",
+          "Superpower",
+          "Swallow",
+          "Thrash",
+          "Tickle",
+          "Wide Guard",
+          "Worry Seed"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bullet Seed",
+          "Captivate",
+          "Cut",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Mud-Slap",
+          "Natural Gift",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Flash",
+          "Swords Dance",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Giga Drain",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Endure",
+          "Flash",
+          "Swords Dance",
+          "Stealth Rock",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "ShellArmour"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 89,
+        "defense": 85,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 36
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 141,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/388_grotle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/388_grotle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/388_grotle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.grotle"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/388_grotle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/388_grotle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Turtwig"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 97.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 32,
+          "to": "Torterra",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Earthquake"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1,
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 4
+}

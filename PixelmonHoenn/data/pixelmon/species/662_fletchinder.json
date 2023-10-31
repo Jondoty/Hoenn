@@ -1,0 +1,326 @@
+{
+  "name": "Fletchinder",
+  "dex": 662,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Ember",
+              "Feint",
+              "Flame Charge",
+              "Growl",
+              "Peck",
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Steel Wing"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Fly"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Defog",
+          "Flame Charge",
+          "Quick Guard"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Fire Spin",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "U-turn",
+          "Round",
+          "Acrobatics"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Flamethrower",
+          "Agility",
+          "Fire Blast",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Heat Wave",
+          "Taunt",
+          "Overheat",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Me First",
+          "Natural Gift",
+          "Razor Wind",
+          "Return",
+          "Secret Power",
+          "Snatch",
+          "Swagger",
+          "Tackle",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Steel Wing",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Swords Dance",
+          "Fly",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Overheat",
+          "Steel Wing",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Acrobatics",
+          "Swords Dance",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlameBody"
+        ],
+        "hiddenAbilities": [
+          "GaleWings"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 5,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.4,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 62,
+        "attack": 73,
+        "defense": 55,
+        "specialAttack": 56,
+        "specialDefense": 52,
+        "speed": 84
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 134,
+        "baseFriendship": 0,
+        "spawnLevel": 18,
+        "spawnLevelRange": 16,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/662_fletchinder/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/662_fletchinder/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/662_fletchinder/all/base/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/662_fletchinder/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/662_fletchinder/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/662_fletchinder/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "FIRE",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Fletchling"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 16.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Talonflame",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,1196 @@
+{
+  "name": "Tauros",
+  "dex": 128,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.7,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.7,
+        "hoverHeight": 1.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Horn Attack"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Whirlpool",
+          "Facade",
+          "Helping Hand",
+          "Revenge",
+          "Rock Tomb",
+          "Payback",
+          "Assurance",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Smart Strike",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Fire Blast",
+          "Substitute",
+          "Reversal",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Megahorn",
+          "Iron Tail",
+          "Uproar",
+          "Close Combat",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Work Up",
+          "Wild Charge",
+          "High Horsepower",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Curse",
+          "Double Team",
+          "Endeavor",
+          "Fissure",
+          "Focus Energy",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Horn Drill",
+          "Incinerate",
+          "Leer",
+          "Mimic",
+          "Natural Gift",
+          "Pursuit",
+          "Rage",
+          "Refresh",
+          "Return",
+          "Rock Climb",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Shock Wave",
+          "Skull Bash",
+          "Spite",
+          "Stomp",
+          "Strength",
+          "Toxic",
+          "Water Pulse",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Payback",
+          "Smart Strike",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Incinerate",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Incinerate",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Work Up",
+          "Swagger",
+          "Substitute",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Shock Wave",
+          "Flamethrower",
+          "Sandstorm",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [
+          "Toxic",
+          "Horn Drill",
+          "Body Slam",
+          "Take Down",
+          "Double-Edge",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Rage",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Fissure",
+          "Mimic",
+          "Double Team",
+          "Bide",
+          "Fire Blast",
+          "Skull Bash",
+          "Rest",
+          "Substitute"
+        ],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "AngerPoint"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.15,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 95,
+        "specialAttack": 40,
+        "specialDefense": 70,
+        "speed": 110
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 211,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/128_tauros/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/128_tauros/all/base/none/model.pqc"
+                ],
+                "yRotation": 25
+              },
+              "sounds": [
+                "pixelmon.mob.tauros"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/128_tauros/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 88.4,
+      "catchRate": 45,
+      "malePercentage": 100,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "speed": 1
+      }
+    },
+    {
+      "name": "paldean_combat",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Raging Bull"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Curse",
+          "Endeavor"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Thief",
+          "Trailblaze",
+          "Facade",
+          "Bulldoze",
+          "Rock Tomb",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Smart Strike",
+          "Dig",
+          "Zen Headbutt",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Iron Head",
+          "Substitute",
+          "Drill Run",
+          "Surf",
+          "Reversal",
+          "Wild Charge",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "AngerPoint"
+        ],
+        "hiddenAbilities": [
+          "CudChew"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "specialAttack": 30,
+        "specialDefense": 70,
+        "speed": 100
+      },
+      "tags": [
+        "paldean"
+      ],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 50,
+        "spawnLevel": 15,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/128_tauros/all/paldean_combat/none/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/paldean_combat/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/128_tauros/all/paldean_combat/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/128_tauros/all/paldean_combat/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/paldean_combat/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "weight": 115.0,
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "paldean_blaze",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Raging Bull"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Curse",
+          "Endeavor"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Thief",
+          "Trailblaze",
+          "Fire Spin",
+          "Facade",
+          "Bulldoze",
+          "Rock Tomb",
+          "Flame Charge",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Smart Strike",
+          "Dig",
+          "Zen Headbutt",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Iron Head",
+          "Substitute",
+          "Drill Run",
+          "Will-O-Wisp",
+          "Flamethrower",
+          "Reversal",
+          "Fire Blast",
+          "Wild Charge",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Overheat",
+          "Hyper Beam",
+          "Flare Blitz",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "AngerPoint"
+        ],
+        "hiddenAbilities": [
+          "CudChew"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "specialAttack": 30,
+        "specialDefense": 70,
+        "speed": 100
+      },
+      "tags": [
+        "paldean"
+      ],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 50,
+        "spawnLevel": 15,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/128_tauros/all/paldean_blaze/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/paldean_blaze/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "FIGHTING",
+        "FIRE"
+      ],
+      "weight": 85.0,
+      "evYields": {
+        "attack": 2
+      }
+    },
+    {
+      "name": "paldean_aqua",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.4,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Work Up"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Double Kick"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Raging Bull"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Wave Crash"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Curse",
+          "Endeavor"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Water Pulse",
+          "Thief",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Rock Tomb",
+          "Endure",
+          "Rain Dance",
+          "Sandstorm",
+          "Smart Strike",
+          "Dig",
+          "Zen Headbutt",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Iron Head",
+          "Substitute",
+          "Drill Run",
+          "Liquidation",
+          "Surf",
+          "Reversal",
+          "Hydro Pump",
+          "Wild Charge",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Intimidate",
+          "AngerPoint"
+        ],
+        "hiddenAbilities": [
+          "CudChew"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "specialAttack": 30,
+        "specialDefense": 70,
+        "speed": 100
+      },
+      "tags": [
+        "paldean"
+      ],
+      "spawn": {
+        "baseExp": 172,
+        "baseFriendship": 50,
+        "spawnLevel": 15,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/128_tauros/all/paldean_aqua/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/128_tauros/all/paldean_aqua/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "types": [
+        "FIGHTING",
+        "WATER"
+      ],
+      "weight": 110.0,
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 1
+}

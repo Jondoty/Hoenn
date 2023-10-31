@@ -1,0 +1,457 @@
+{
+  "name": "Leafeon",
+  "dex": 470,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Baton Pass",
+              "Bite",
+              "Charm",
+              "Copycat",
+              "Covet",
+              "Double-Edge",
+              "Growl",
+              "Helping Hand",
+              "Razor Leaf",
+              "Swift",
+              "Tackle",
+              "Tail Whip",
+              "Take Down"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Leaf Blade"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Celebrate",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Detect",
+          "Double Kick",
+          "Flail",
+          "Mud-Slap",
+          "Tickle",
+          "Wish",
+          "Yawn"
+        ],
+        "tmMoves8": [
+          "Pay Day",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Dig",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Weather Ball",
+          "Fake Tears",
+          "Bullet Seed",
+          "Round",
+          "Retaliate"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Focus Energy",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Iron Tail",
+          "Shadow Ball",
+          "Hyper Voice",
+          "Leaf Blade",
+          "Seed Bomb",
+          "X-Scissor",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot",
+          "Stored Power",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Double Team",
+          "Echoed Voice",
+          "Flash",
+          "Frustration",
+          "Fury Cutter",
+          "Grass Whistle",
+          "Headbutt",
+          "Heal Bell",
+          "Hidden Power",
+          "Knock Off",
+          "Laser Focus",
+          "Mimic",
+          "Natural Gift",
+          "Nature Power",
+          "Rage",
+          "Reflect",
+          "Refresh",
+          "Return",
+          "Roar",
+          "Rock Smash",
+          "Secret Power",
+          "Sing",
+          "Skull Bash",
+          "Strength",
+          "Swagger",
+          "Synchronoise",
+          "Toxic",
+          "Trump Card",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "X-Scissor",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "X-Scissor",
+          "Work Up",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Roar",
+          "Toxic",
+          "Bullet Seed",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Energy Ball",
+          "Endure",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LeafGuard"
+        ],
+        "hiddenAbilities": [
+          "Chlorophyll"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.55,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.55,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 65,
+        "attack": 110,
+        "defense": 130,
+        "specialAttack": 60,
+        "specialDefense": 65,
+        "speed": 95
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 184,
+        "baseFriendship": 35,
+        "spawnLevel": 45,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/470_leafeon/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/470_leafeon/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/470_leafeon/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.leafeon"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/470_leafeon/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/470_leafeon/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/470_leafeon/all/base/strike/texture.png",
+              "sprite": "pixelmon:pokemon/470_leafeon/all/base/strike/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/470_leafeon/all/base/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/470_leafeon/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Eevee"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 25.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 4
+}

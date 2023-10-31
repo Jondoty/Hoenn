@@ -1,0 +1,221 @@
+{
+  "name": "Chewtle",
+  "dex": 833,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Counter"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Jaw Lock"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Liquidation"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Body Slam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Scale Shot",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Dragon Tail",
+          "Gastro Acid",
+          "Skull Bash"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Attract",
+          "Rain Dance",
+          "Whirlpool",
+          "Facade",
+          "Revenge",
+          "Dive",
+          "Mud Shot",
+          "Payback",
+          "Assurance",
+          "Ice Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "StrongJaw",
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "SwiftSwim"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 64,
+        "defense": 50,
+        "specialAttack": 38,
+        "specialDefense": 38,
+        "speed": 44
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 57,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 6,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/833_chewtle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/833_chewtle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/833_chewtle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.chewtle"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/833_chewtle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/833_chewtle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 8.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 22,
+          "to": "Drednaw",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Rock Tomb"
+          ]
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

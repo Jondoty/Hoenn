@@ -1,0 +1,260 @@
+{
+  "name": "GreatTusk",
+  "dex": 984,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Horn Attack",
+              "Rollout",
+              "Sunny Day"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Bulldoze"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Stomping Tantrum"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Earthquake"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Giga Impact"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Head Smash"
+            ]
+          },
+          {
+            "level": 91,
+            "attacks": [
+              "Headlong Rush"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Fire Fang",
+          "Thunder Fang",
+          "Ice Fang",
+          "Facade",
+          "Bulldoze",
+          "Mud Shot",
+          "Rock Tomb",
+          "Endure",
+          "Sunny Day",
+          "Sandstorm",
+          "Smart Strike",
+          "Psyshock",
+          "Dig",
+          "Brick Break",
+          "Zen Headbutt",
+          "Bulk Up",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Taunt",
+          "Body Press",
+          "Flash Cannon",
+          "Iron Head",
+          "Substitute",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Ice Spinner",
+          "Play Rough",
+          "Earth Power",
+          "Reversal",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Close Combat",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Protosynthesis"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 115,
+        "attack": 131,
+        "defense": 131,
+        "specialAttack": 53,
+        "specialDefense": 53,
+        "speed": 87
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 285,
+        "baseFriendship": 0,
+        "spawnLevel": 52,
+        "spawnLevelRange": 8,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/984_greattusk/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/984_greattusk/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/984_greattusk/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/984_greattusk/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "GROUND",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 50,
+      "weight": 320.0,
+      "catchRate": 30,
+      "evolutions": [],
+      "malePercentage": -1,
+      "evYields": {
+        "attack": 3
+      }
+    }
+  ],
+  "generation": 9
+}

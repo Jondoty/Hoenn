@@ -1,0 +1,296 @@
+{
+  "name": "Tatsugiri",
+  "dex": 978,
+  "defaultForms": [
+    "curly",
+    "droopy",
+    "stretchy"
+  ],
+  "forms": [
+    {
+      "name": "curly",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Splash",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Harden"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Soak"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Taunt"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Muddy Water"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Mirror Coat"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Baton Pass",
+          "Counter",
+          "Rapid Spin"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Protect",
+          "Water Pulse",
+          "Chilling Water",
+          "Facade",
+          "Icy Wind",
+          "Endure",
+          "Rain Dance",
+          "Sleep Talk",
+          "Rest",
+          "Taunt",
+          "Dragon Dance",
+          "Substitute",
+          "Dragon Pulse",
+          "Surf",
+          "Helping Hand",
+          "Baton Pass",
+          "Nasty Plot",
+          "Hydro Pump",
+          "Giga Impact",
+          "Outrage",
+          "Hyper Beam",
+          "Draco Meteor",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Commander"
+        ],
+        "hiddenAbilities": [
+          "StormDrain"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 5,
+          "swimSpeed": 5,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 68,
+        "attack": 50,
+        "defense": 60,
+        "specialAttack": 120,
+        "specialDefense": 95,
+        "speed": 82
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 166,
+        "baseFriendship": 50,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND",
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/978_tatsugiri/all/curly/none/texture.png",
+              "sprite": "pixelmon:pokemon/978_tatsugiri/all/curly/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.tatsugiri"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/978_tatsugiri/all/curly/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/978_tatsugiri/all/curly/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_TWO"
+      ],
+      "types": [
+        "DRAGON",
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 35,
+      "weight": 8.0,
+      "catchRate": 100,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    },
+    {
+      "name": "droopy",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/978_tatsugiri/all/droopy/none/texture.png",
+              "sprite": "pixelmon:pokemon/978_tatsugiri/all/droopy/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/978_tatsugiri/all/droopy/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/978_tatsugiri/all/droopy/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stretchy",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/978_tatsugiri/all/stretchy/none/texture.png",
+              "sprite": "pixelmon:pokemon/978_tatsugiri/all/stretchy/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/978_tatsugiri/all/stretchy/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/978_tatsugiri/all/stretchy/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 9
+}

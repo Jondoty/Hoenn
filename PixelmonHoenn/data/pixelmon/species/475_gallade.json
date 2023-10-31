@@ -1,0 +1,639 @@
+{
+  "name": "Gallade",
+  "dex": 475,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Calm Mind",
+              "Charm",
+              "Confusion",
+              "Disarming Voice",
+              "Double Team",
+              "Draining Kiss",
+              "Dream Eater",
+              "Fury Cutter",
+              "Future Sight",
+              "Growl",
+              "Hypnosis",
+              "Imprison",
+              "Leer",
+              "Life Dew",
+              "Night Slash",
+              "Psybeam",
+              "Psychic",
+              "Slash"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Feint"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Teleport"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "False Swipe"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Quick Guard",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Close Combat"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Expanding Force",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Destiny Bond",
+          "Disable",
+          "Grudge",
+          "Knock Off",
+          "Mean Look",
+          "Memento",
+          "Shadow Sneak"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Blade",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Charm",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Revenge",
+          "Brick Break",
+          "Imprison",
+          "Rock Tomb",
+          "Fling",
+          "Drain Punch",
+          "Psycho Cut",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Draining Kiss",
+          "Misty Terrain",
+          "False Swipe",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Body Slam",
+          "Low Kick",
+          "Thunderbolt",
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Reversal",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Taunt",
+          "Trick",
+          "Skill Swap",
+          "Hyper Voice",
+          "Bulk Up",
+          "Calm Mind",
+          "Leaf Blade",
+          "Close Combat",
+          "Aura Sphere",
+          "Poison Jab",
+          "X-Scissor",
+          "Focus Blast",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Stone Edge",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch",
+          "Work Up",
+          "Dazzling Gleam",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Defense Curl",
+          "Double-Edge",
+          "Dual Chop",
+          "Echoed Voice",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Laser Focus",
+          "Lucky Chant",
+          "Magic Coat",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Pain Split",
+          "Power-Up Punch",
+          "Psych Up",
+          "Recycle",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Sing",
+          "Snatch",
+          "Strength",
+          "Swagger",
+          "Synchronoise",
+          "Telekinesis",
+          "Torment",
+          "Toxic",
+          "Vacuum Wave",
+          "Wish"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Power-Up Punch",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Ally Switch",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Work Up",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Calm Mind",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch",
+          "Focus Blast",
+          "False Swipe",
+          "Fling",
+          "Charge Beam",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Captivate",
+          "Rock Slide",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Steadfast",
+          "Sharpness"
+        ],
+        "hiddenAbilities": [
+          "Justified"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 68,
+        "attack": 125,
+        "defense": 65,
+        "specialAttack": 65,
+        "specialDefense": 115,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 208,
+        "baseFriendship": 35,
+        "spawnLevel": 20,
+        "spawnLevelRange": 45,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/475_gallade/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/475_gallade/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/475_gallade/all/base/none/model.pqc"
+                ],
+                "yRotation": 24.2
+              },
+              "sounds": [
+                "pixelmon.mob.gallade"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/475_gallade/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/475_gallade/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "strike",
+              "texture": "pixelmon:pokemon/475_gallade/all/base/strike/texture.png",
+              "sprite": "pixelmon:pokemon/475_gallade/all/base/strike/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "PSYCHIC",
+        "FIGHTING"
+      ],
+      "preEvolutions": [
+        "Kirlia",
+        "Ralts"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:galladite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 52.0,
+      "catchRate": 45,
+      "malePercentage": 100,
+      "evolutions": [],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "abilities": {
+        "abilities": [
+          "InnerFocus"
+        ]
+      },
+      "battleStats": {
+        "hp": 68,
+        "attack": 165,
+        "defense": 95,
+        "specialAttack": 65,
+        "specialDefense": 115,
+        "speed": 110
+      },
+      "weight": 56.4,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/475_gallade/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/475_gallade/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/475_gallade/all/mega/none/model.pqc"
+                ],
+                "yRotation": 24.2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 4
+}

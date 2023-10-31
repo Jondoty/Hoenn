@@ -1,0 +1,376 @@
+{
+  "name": "Galvantula",
+  "dex": 596,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.8,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 0.8,
+        "hoverHeight": 0.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Bug Bite",
+              "Electroweb",
+              "Fury Cutter",
+              "Sticky Web"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "String Shot"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Thunder Wave"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Electro Ball"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Discharge"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Gastro Acid"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Bug Buzz"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Rising Voltage",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Double Team",
+          "Infestation",
+          "Lunge",
+          "Poison Sting",
+          "Struggle Bug"
+        ],
+        "tmMoves8": [
+          "Pin Missile",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Screech",
+          "Light Screen",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Swift",
+          "Bounce",
+          "Speed Swap",
+          "Cross Poison",
+          "Round",
+          "Volt Switch",
+          "Electroweb"
+        ],
+        "trMoves": [
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Poison Jab",
+          "X-Scissor",
+          "Bug Buzz",
+          "Energy Ball",
+          "Electro Ball",
+          "Wild Charge",
+          "Throat Chop"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Camouflage",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Disable",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Magnet Rise",
+          "Pursuit",
+          "Return",
+          "Rock Climb",
+          "Secret Power",
+          "Shock Wave",
+          "Signal Beam",
+          "Spider Web",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Leech Life",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Giga Impact",
+          "Volt Switch",
+          "Thunder Wave",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Struggle Bug",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Giga Impact",
+          "Flash",
+          "Volt Switch",
+          "Thunder Wave",
+          "Struggle Bug",
+          "X-Scissor",
+          "Poison Jab",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CompoundEyes",
+          "Unnerve"
+        ],
+        "hiddenAbilities": [
+          "Swarm"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.55
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.6,
+            "z": -0.55
+          }
+        }
+      },
+      "aggression": {
+        "timid": 0,
+        "passive": 50,
+        "aggressive": 50
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 77,
+        "defense": 60,
+        "specialAttack": 97,
+        "specialDefense": 60,
+        "speed": 108
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 165,
+        "baseFriendship": 70,
+        "spawnLevel": 36,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND",
+          "UNDERGROUND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/596_galvantula/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/596_galvantula/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/596_galvantula/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.galvantula"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/596_galvantula/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/596_galvantula/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "ELECTRIC"
+      ],
+      "preEvolutions": [
+        "Joltik"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 14.3,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 5
+}

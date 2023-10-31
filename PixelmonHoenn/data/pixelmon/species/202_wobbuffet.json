@@ -1,0 +1,204 @@
+{
+  "name": "Wobbuffet",
+  "dex": 202,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.45,
+        "width": 0.9,
+        "length": 1,
+        "eyeHeight": 1.45,
+        "hoverHeight": 1.45
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Amnesia",
+              "Charm",
+              "Counter",
+              "Destiny Bond",
+              "Encore",
+              "Mirror Coat",
+              "Safeguard",
+              "Splash"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Safeguard",
+          "Charm"
+        ],
+        "trMoves": [
+          "Amnesia",
+          "Encore"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Tickle"
+        ],
+        "tmMoves7": [
+          "Safeguard"
+        ],
+        "tmMoves6": [
+          "Safeguard"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShadowTag"
+        ],
+        "hiddenAbilities": [
+          "Telepathy"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 190,
+        "attack": 33,
+        "defense": 58,
+        "specialAttack": 33,
+        "specialDefense": 58,
+        "speed": 33
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 177,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "MALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/202_wobbuffet/male/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/202_wobbuffet/male/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.wobbuffet"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/202_wobbuffet/male/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "online",
+              "texture": "pixelmon:pokemon/202_wobbuffet/male/base/online/texture.png",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/online/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/202_wobbuffet/male/base/online/model.pqc"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "gender": "FEMALE",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/202_wobbuffet/female/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/202_wobbuffet/female/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/202_wobbuffet/female/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "online",
+              "texture": "pixelmon:pokemon/202_wobbuffet/female/base/online/texture.png",
+              "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/online/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/202_wobbuffet/female/base/online/model.pqc"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Wynaut"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 28.5,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 2
+}

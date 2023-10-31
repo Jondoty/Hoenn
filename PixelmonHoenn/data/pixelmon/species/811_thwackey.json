@@ -1,0 +1,240 @@
+{
+  "name": "Thwackey",
+  "dex": 811,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Branch Poke",
+              "Double Hit",
+              "Growl",
+              "Scratch",
+              "Taunt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Razor Leaf"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Endeavor"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grass Pledge",
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "Fake Out",
+          "Growth",
+          "Hammer Arm",
+          "Leech Seed",
+          "Nature Power",
+          "Strength",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Magical Leaf",
+          "Solar Beam",
+          "Solar Blade",
+          "Screech",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "U-turn",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Round",
+          "Acrobatics",
+          "False Swipe"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Low Kick",
+          "Focus Energy",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Taunt",
+          "Energy Ball",
+          "Grass Knot",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Overgrow"
+        ],
+        "hiddenAbilities": [
+          "GrassySurge"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 85,
+        "defense": 70,
+        "specialAttack": 55,
+        "specialDefense": 60,
+        "speed": 80
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/811_thwackey/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/811_thwackey/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/811_thwackey/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.thwackey"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/811_thwackey/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/811_thwackey/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Grookey"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 14.0,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 35,
+          "to": "Rillaboom",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Drum Beating"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

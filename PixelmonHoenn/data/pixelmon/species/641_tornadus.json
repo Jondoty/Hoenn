@@ -1,0 +1,489 @@
+{
+  "name": "Tornadus",
+  "dex": 641,
+  "defaultForms": [
+    "incarnate"
+  ],
+  "forms": [
+    {
+      "name": "incarnate",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Gust"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Air Cutter"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Hammer Arm"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Hurricane"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Lash Out"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Weather Ball",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Round",
+          "Acrobatics",
+          "Air Slash",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Psychic",
+          "Agility",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Superpower",
+          "Bulk Up",
+          "Dark Pulse",
+          "Focus Blast",
+          "Nasty Plot",
+          "Grass Knot",
+          "Sludge Wave",
+          "Foul Play",
+          "Hurricane"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Embargo",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Knock Off",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Sky Drop",
+          "Smack Down",
+          "Strength",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Sky Drop",
+          "Brutal Swing",
+          "Acrobatics",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Fly",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Sky Drop",
+          "Incinerate",
+          "Acrobatics",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Psychic",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Sky Drop",
+          "Incinerate",
+          "Acrobatics",
+          "Embargo",
+          "Payback",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Prankster"
+        ],
+        "hiddenAbilities": [
+          "Defiant"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 15,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 79,
+        "attack": 115,
+        "defense": 70,
+        "specialAttack": 125,
+        "specialDefense": 80,
+        "speed": 111
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 261,
+        "baseFriendship": 90,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/641_tornadus/all/incarnate/none/texture.png",
+              "sprite": "pixelmon:pokemon/641_tornadus/all/incarnate/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/641_tornadus/all/incarnate/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.tornadus"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/641_tornadus/all/incarnate/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/641_tornadus/all/incarnate/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FLYING"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 63.0,
+      "catchRate": 3,
+      "malePercentage": 100,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "therian",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "abilities": {
+        "abilities": [
+          "Regenerator"
+        ]
+      },
+      "battleStats": {
+        "hp": 79,
+        "attack": 100,
+        "defense": 80,
+        "specialAttack": 110,
+        "specialDefense": 90,
+        "speed": 121
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/641_tornadus/all/therian/none/texture.png",
+              "sprite": "pixelmon:pokemon/641_tornadus/all/therian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/641_tornadus/all/therian/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "yRotation": 45
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/641_tornadus/all/therian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/641_tornadus/all/therian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 3
+      }
+    }
+  ],
+  "generation": 5
+}

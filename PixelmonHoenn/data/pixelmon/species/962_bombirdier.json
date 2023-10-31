@@ -1,0 +1,266 @@
+{
+  "name": "Bombirdier",
+  "dex": 962,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Hone Claws",
+              "Leer",
+              "Memento",
+              "Peck",
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Thief"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Torment"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Rock Tomb"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Dual Wingbeat"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Parting Shot"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Feather Dance",
+          "Power Trip",
+          "Roost",
+          "Sky Attack",
+          "Sucker Punch"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Scary Face",
+          "Protect",
+          "Acrobatics",
+          "Thief",
+          "Facade",
+          "Aerial Ace",
+          "Snarl",
+          "Icy Wind",
+          "Rock Tomb",
+          "Air Cutter",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "U-turn",
+          "Foul Play",
+          "Air Slash",
+          "Sleep Talk",
+          "Rock Blast",
+          "Rock Slide",
+          "Taunt",
+          "Dark Pulse",
+          "Fly",
+          "Power Gem",
+          "Substitute",
+          "Drill Run",
+          "Tailwind",
+          "Stealth Rock",
+          "Hyper Voice",
+          "Heat Wave",
+          "Nasty Plot",
+          "Stone Edge",
+          "Giga Impact",
+          "Hurricane",
+          "Hyper Beam",
+          "Brave Bird",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BigPecks",
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "RockyPayload"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 20,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 100,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 3,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 103,
+        "defense": 85,
+        "specialAttack": 60,
+        "specialDefense": 85,
+        "speed": 82
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 243,
+        "baseFriendship": 50,
+        "spawnLevel": 28,
+        "spawnLevelRange": 22,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/962_bombirdier/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/962_bombirdier/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/962_bombirdier/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/962_bombirdier/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "FLYING",
+        "DARK"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 35,
+      "weight": 42.9,
+      "catchRate": 25,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 9
+}

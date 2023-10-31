@@ -1,0 +1,276 @@
+{
+  "name": "Clodsire",
+  "dex": 980,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.5,
+        "length": 1.8,
+        "eyeHeight": 2,
+        "hoverHeight": 2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Amnesia",
+              "Poison Sting",
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Toxic Spikes"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Mud Shot"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Poison Tail"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Poison Jab"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Sludge Wave"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Megahorn"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Earthquake"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Acid Spray",
+          "After You",
+          "Ancient Power",
+          "Counter",
+          "Curse",
+          "Double Kick",
+          "Haze",
+          "Mist",
+          "Recover",
+          "Spit Up",
+          "Stockpile",
+          "Swallow"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Mud-Slap",
+          "Protect",
+          "Water Pulse",
+          "Low Kick",
+          "Acid Spray",
+          "Trailblaze",
+          "Chilling Water",
+          "Facade",
+          "Poison Tail",
+          "Bulldoze",
+          "Mud Shot",
+          "Rock Tomb",
+          "Venoshock",
+          "Endure",
+          "Rain Dance",
+          "Sandstorm",
+          "Dig",
+          "Zen Headbutt",
+          "Body Slam",
+          "Sleep Talk",
+          "Waterfall",
+          "Poison Jab",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Spikes",
+          "Toxic Spikes",
+          "Iron Head",
+          "Gunk Shot",
+          "Substitute",
+          "Liquidation",
+          "Stealth Rock",
+          "Heavy Slam",
+          "Surf",
+          "Amnesia",
+          "Helping Hand",
+          "Earth Power",
+          "Hydro Pump",
+          "Sludge Bomb",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "PoisonPoint",
+          "WaterAbsorb"
+        ],
+        "hiddenAbilities": [
+          "Unaware"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.25
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.25
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 130,
+        "attack": 75,
+        "defense": 60,
+        "specialAttack": 45,
+        "specialDefense": 100,
+        "speed": 20
+      },
+      "tags": [
+        "paldean"
+      ],
+      "spawn": {
+        "baseExp": 151,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 30,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/980_clodsire/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/980_clodsire/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/980_clodsire/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.clodsire"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/980_clodsire/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/980_clodsire/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "FIELD"
+      ],
+      "types": [
+        "POISON",
+        "GROUND"
+      ],
+      "preEvolutions": [
+        "Wooper"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 223,
+      "catchRate": 90,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 9
+}

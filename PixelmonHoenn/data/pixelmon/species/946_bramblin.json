@@ -1,0 +1,261 @@
+{
+  "name": "Bramblin",
+  "dex": 946,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Defense Curl",
+              "Rollout"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Infestation"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Power Whip"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Beat Up",
+          "Block",
+          "Leech Seed",
+          "Shadow Sneak",
+          "Strength Sap"
+        ],
+        "tmMoves9": [
+          "Scary Face",
+          "Protect",
+          "Confuse Ray",
+          "Thief",
+          "Trailblaze",
+          "Pounce",
+          "Facade",
+          "Hex",
+          "Night Shade",
+          "Endure",
+          "Bullet Seed",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Grass Knot",
+          "Rest",
+          "Spikes",
+          "Substitute",
+          "Giga Drain",
+          "Shadow Ball",
+          "Energy Ball",
+          "Grassy Terrain",
+          "Phantom Force",
+          "Leaf Storm",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WindRider"
+        ],
+        "hiddenAbilities": [
+          "Infiltrator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 40,
+        "attack": 65,
+        "defense": 30,
+        "specialAttack": 45,
+        "specialDefense": 35,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 55,
+        "baseFriendship": 50,
+        "spawnLevel": 16,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/946_bramblin/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/946_bramblin/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/946_bramblin/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.bramblin"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/946_bramblin/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/946_bramblin/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "tangela",
+              "texture": "pixelmon:pokemon/946_bramblin/all/base/tangela/texture.png",
+              "sprite": "pixelmon:pokemon/946_bramblin/all/base/tangela/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "GHOST"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 0.6,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Brambleghast",
+          "conditions": [
+            {
+              "blocksToWalk": 1000,
+              "evoConditionType": "blocksWalkedOutsideBall"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 9
+}

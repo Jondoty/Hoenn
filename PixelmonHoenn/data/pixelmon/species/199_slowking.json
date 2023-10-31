@@ -1,0 +1,872 @@
+{
+  "name": "Slowking",
+  "dex": 199,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Power Gem",
+              "Nasty Plot",
+              "Swagger",
+              "Tackle",
+              "Curse",
+              "Growl",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Slack Off"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Belch",
+          "Belly Drum",
+          "Block",
+          "Stomp"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Pay Day",
+          "Ice Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Imprison",
+          "Dive",
+          "Weather Ball",
+          "Mud Shot",
+          "Brine",
+          "Fling",
+          "Drain Punch",
+          "Avalanche",
+          "Trick Room",
+          "Wonder Room",
+          "Round",
+          "Bulldoze",
+          "Razor Shell",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Psychic",
+          "Fire Blast",
+          "Amnesia",
+          "Tri Attack",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Skill Swap",
+          "Muddy Water",
+          "Iron Defense",
+          "Calm Mind",
+          "Power Gem",
+          "Focus Blast",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Foul Play",
+          "Stored Power",
+          "Scald",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Ally Switch",
+          "Aqua Tail",
+          "Bide",
+          "Bubble Beam",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Double Team",
+          "Double-Edge",
+          "Dragon Tail",
+          "Dream Eater",
+          "Dynamic Punch",
+          "Echoed Voice",
+          "Fissure",
+          "Flash",
+          "Focus Punch",
+          "Frustration",
+          "Fury Cutter",
+          "Hidden Power",
+          "Incinerate",
+          "Laser Focus",
+          "Magic Coat",
+          "Me First",
+          "Mimic",
+          "Mud Sport",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Psywave",
+          "Quash",
+          "Rage",
+          "Recycle",
+          "Reflect",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Seismic Toss",
+          "Signal Beam",
+          "Skull Bash",
+          "Strength",
+          "Take Down",
+          "Telekinesis",
+          "Teleport",
+          "Toxic",
+          "Trump Card",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Quash",
+          "Giga Impact",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dragon Tail",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Surf",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Incinerate",
+          "Quash",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dragon Tail",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Scald",
+          "Fling",
+          "Incinerate",
+          "Quash",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dragon Tail",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Skill Swap",
+          "Focus Blast",
+          "Brine",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Giga Impact",
+          "Flash",
+          "Avalanche",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Skill Swap"
+        ],
+        "tmMoves2": [
+          "Dynamic Punch",
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Ice Punch",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Swift",
+          "Dream Eater",
+          "Rest",
+          "Attract",
+          "Fury Cutter",
+          "Nightmare"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Oblivious",
+          "OwnTempo"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.13,
+            "z": -0.4
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.13,
+            "z": -0.425
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 80,
+        "specialAttack": 100,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 164,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/199_slowking/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/199_slowking/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/199_slowking/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.slowking"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/199_slowking/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/199_slowking/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Slowpoke"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 79.5,
+      "catchRate": 70,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 3
+      }
+    },
+    {
+      "name": "galarian",
+      "dimensions": {
+        "height": 1.2,
+        "width": 1.0,
+        "length": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Acid",
+              "Curse",
+              "Eerie Spell",
+              "Growl",
+              "Nasty Plot",
+              "Power Gem",
+              "Swagger",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Disable"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Surf"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Slack Off"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Rain Dance"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force"
+        ],
+        "eggMoves": [
+          "Belch",
+          "Belly Drum",
+          "Block",
+          "Stomp"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Pay Day",
+          "Ice Punch",
+          "Hyper Beam",
+          "Giga Impact",
+          "Thunder Wave",
+          "Dig",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Brick Break",
+          "Imprison",
+          "Dive",
+          "Weather Ball",
+          "Mud Shot",
+          "Brine",
+          "Fling",
+          "Drain Punch",
+          "Avalanche",
+          "Trick Room",
+          "Wonder Room",
+          "Venoshock",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Razor Shell",
+          "Psychic Terrain"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Psychic",
+          "Fire Blast",
+          "Amnesia",
+          "Tri Attack",
+          "Substitute",
+          "Sludge Bomb",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Skill Swap",
+          "Muddy Water",
+          "Iron Defense",
+          "Calm Mind",
+          "Power Gem",
+          "Focus Blast",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Sludge Wave",
+          "Foul Play",
+          "Stored Power",
+          "Scald",
+          "Venom Drench",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "CuriousMedicine",
+          "OwnTempo"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 65,
+        "defense": 80,
+        "specialAttack": 110,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "tags": [
+        "galarian"
+      ],
+      "types": [
+        "POISON",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Slowpoke"
+      ],
+      "weight": 79.5,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/199_slowking/all/galarian/none/texture.png",
+              "sprite": "pixelmon:pokemon/199_slowking/all/galarian/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/199_slowking/all/galarian/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/199_slowking/all/galarian/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/199_slowking/all/galarian/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 2
+}

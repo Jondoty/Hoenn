@@ -1,0 +1,281 @@
+{
+  "name": "Steenee",
+  "dex": 762,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.85,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.85,
+        "hoverHeight": 0.85
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Flail",
+              "Play Nice",
+              "Rapid Spin",
+              "Razor Leaf",
+              "Splash"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Stomp"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Aromatic Mist"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Leaf Storm"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Triple Axel"
+        ],
+        "eggMoves": [
+          "Acupressure",
+          "Endeavor",
+          "Synthesis"
+        ],
+        "tmMoves8": [
+          "Magical Leaf",
+          "Solar Beam",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Bounce",
+          "Payback",
+          "Fling",
+          "Low Sweep",
+          "Round",
+          "Draining Kiss"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Leaf Storm",
+          "Grass Knot",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Confide",
+          "Covet",
+          "Double Slap",
+          "Double Team",
+          "Feint",
+          "Frustration",
+          "Grass Whistle",
+          "Hidden Power",
+          "Knock Off",
+          "Nature Power",
+          "Return",
+          "Swagger",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Energy Ball",
+          "Fling",
+          "Payback",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "LeafGuard",
+          "Oblivious"
+        ],
+        "hiddenAbilities": [
+          "SweetVeil"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 52,
+        "attack": 40,
+        "defense": 48,
+        "specialAttack": 40,
+        "specialDefense": 48,
+        "speed": 62
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 102,
+        "baseFriendship": 70,
+        "spawnLevel": 18,
+        "spawnLevelRange": 20,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/762_steenee/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/762_steenee/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/762_steenee/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.steenee",
+                "pixelmon.mob.steenee",
+                "pixelmon.mob.steenee"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/762_steenee/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/762_steenee/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Bounsweet"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 8.2,
+      "catchRate": 120,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "to": "Tsareena",
+          "conditions": [
+            {
+              "attackName": "Stomp",
+              "evoConditionType": "move"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Trop Kick"
+          ]
+        }
+      ],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 7
+}

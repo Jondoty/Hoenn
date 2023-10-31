@@ -1,0 +1,456 @@
+{
+  "name": "Meloetta",
+  "dex": 648,
+  "defaultForms": [
+    "aria"
+  ],
+  "forms": [
+    {
+      "name": "aria",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Confusion",
+              "Quick Attack",
+              "Round",
+              "Sing"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Sing"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          },
+          {
+            "level": 26,
+            "attacks": [
+              "Acrobatics"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Wake-Up Slap"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 71,
+            "attacks": [
+              "Role Play"
+            ]
+          },
+          {
+            "level": 78,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 85,
+            "attacks": [
+              "Perish Song"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Ally Switch",
+          "Covet",
+          "Drain Punch",
+          "Dual Chop",
+          "Fire Punch",
+          "Focus Punch",
+          "Gravity",
+          "Heal Bell",
+          "Helping Hand",
+          "Hyper Voice",
+          "Ice Punch",
+          "Knock Off",
+          "Laser Focus",
+          "Last Resort",
+          "Low Kick",
+          "Magic Coat",
+          "Magic Room",
+          "Recycle",
+          "Relic Song",
+          "Role Play",
+          "Shock Wave",
+          "Signal Beam",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Telekinesis",
+          "Thunder Punch",
+          "Trick",
+          "Uproar",
+          "Wonder Room",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Celebrate",
+          "Flash",
+          "Hone Claws",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Power-Up Punch",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Psyshock",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Low Sweep",
+          "Round",
+          "Echoed Voice",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Charge Beam",
+          "Acrobatics",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Stone Edge",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SereneGrace"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 100,
+        "attack": 77,
+        "defense": 77,
+        "specialAttack": 128,
+        "specialDefense": 128,
+        "speed": 90
+      },
+      "tags": [
+        "mythical"
+      ],
+      "spawn": {
+        "baseExp": 270,
+        "baseFriendship": 100,
+        "spawnLevel": 50,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/648_meloetta/all/aria/none/texture.png",
+              "sprite": "pixelmon:pokemon/648_meloetta/all/aria/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/648_meloetta/all/aria/none/model.pqc"
+                ],
+                "yRotation": 40
+              },
+              "sounds": [
+                "pixelmon.mob.meloetta"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/648_meloetta/all/aria/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/648_meloetta/all/aria/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "NORMAL",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 6.5,
+      "catchRate": 3,
+      "malePercentage": -1,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 1,
+        "specialDefense": 1,
+        "speed": 1
+      }
+    },
+    {
+      "name": "pirouette",
+      "battleStats": {
+        "hp": 100,
+        "attack": 128,
+        "defense": 90,
+        "specialAttack": 77,
+        "specialDefense": 77,
+        "speed": 128
+      },
+      "tags": [
+        "temp"
+      ],
+      "types": [
+        "NORMAL",
+        "FIGHTING"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/648_meloetta/all/pirouette/none/texture.png",
+              "sprite": "pixelmon:pokemon/648_meloetta/all/pirouette/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/648_meloetta/all/pirouette/none/model.pqc"
+                ],
+                "yRotation": 25
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/648_meloetta/all/pirouette/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/648_meloetta/all/pirouette/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 5
+}

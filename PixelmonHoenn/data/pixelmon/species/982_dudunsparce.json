@@ -1,0 +1,336 @@
+{
+  "name": "Dudunsparce",
+  "dex": 982,
+  "defaultForms": [
+    "two_segment"
+  ],
+  "forms": [
+    {
+      "name": "two_segment",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1.0,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Defense Curl",
+              "Flail"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Mud-Slap"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Glare"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Screech"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Drill Run"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Hyper Drill"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Roost"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Coil"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Endeavor"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Hurricane"
+            ]
+          },
+          {
+            "level": 62,
+            "attacks": [
+              "Boomburst"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Aqua Tail",
+          "Astonish",
+          "Bite",
+          "Curse",
+          "Headbutt",
+          "Last Resort"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Scary Face",
+          "Protect",
+          "Thief",
+          "Pounce",
+          "Chilling Water",
+          "Facade",
+          "Poison Tail",
+          "Bulldoze",
+          "Hex",
+          "Mud Shot",
+          "Rock Tomb",
+          "Stored Power",
+          "Dragon Tail",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Smart Strike",
+          "Dig",
+          "Zen Headbutt",
+          "Air Slash",
+          "Body Slam",
+          "Sleep Talk",
+          "Poison Jab",
+          "Stomping Tantrum",
+          "Rest",
+          "Rock Slide",
+          "Body Press",
+          "Substitute",
+          "Drill Run",
+          "Tailwind",
+          "Shadow Ball",
+          "Stealth Rock",
+          "Hyper Voice",
+          "Heavy Slam",
+          "Ice Spinner",
+          "Flamethrower",
+          "Thunderbolt",
+          "Amnesia",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Earth Power",
+          "Ice Beam",
+          "Fire Blast",
+          "Blizzard",
+          "Wild Charge",
+          "Earthquake",
+          "Stone Edge",
+          "Giga Impact",
+          "Outrage",
+          "Hurricane",
+          "Hyper Beam",
+          "Thunder",
+          "Solar Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SereneGrace",
+          "RunAway"
+        ],
+        "hiddenAbilities": [
+          "Rattled"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 125,
+        "attack": 100,
+        "defense": 80,
+        "specialAttack": 85,
+        "specialDefense": 75,
+        "speed": 55
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 182,
+        "baseFriendship": 50,
+        "spawnLevel": 32,
+        "spawnLevelRange": 18,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/982_dudunsparce/all/two_segment/none/texture.png",
+              "sprite": "pixelmon:pokemon/982_dudunsparce/all/two_segment/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dudunsparce"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/982_dudunsparce/all/two_segment/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/982_dudunsparce/all/two_segment/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Dunsparce"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 39.2,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    },
+    {
+      "name": "three_segment",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.7,
+        "length": 1.0,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/982_dudunsparce/all/three_segment/none/texture.png",
+              "sprite": "pixelmon:pokemon/982_dudunsparce/all/three_segment/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/982_dudunsparce/all/three_segment/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/982_dudunsparce/all/three_segment/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "weight": 47.4
+    }
+  ],
+  "generation": 9
+}

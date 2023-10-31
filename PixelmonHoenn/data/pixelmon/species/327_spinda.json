@@ -1,0 +1,449 @@
+{
+  "name": "Spinda",
+  "dex": 327,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.1,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Copycat"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Feint Attack"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Dizzy Punch"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Teeter Dance"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Thrash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Drain Punch",
+          "Fire Punch",
+          "Focus Punch",
+          "Helping Hand",
+          "Hyper Voice",
+          "Ice Punch",
+          "Icy Wind",
+          "Last Resort",
+          "Low Kick",
+          "Recycle",
+          "Role Play",
+          "Shock Wave",
+          "Skill Swap",
+          "Snatch",
+          "Snore",
+          "Stomping Tantrum",
+          "Thunder Punch",
+          "Trick",
+          "Uproar",
+          "Water Pulse",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Assist",
+          "Baton Pass",
+          "Disable",
+          "Encore",
+          "Fake Out",
+          "Fake Tears",
+          "Guard Split",
+          "Icy Wind",
+          "Psycho Cut",
+          "Psycho Shift",
+          "Rapid Spin",
+          "Role Play",
+          "Smelling Salts",
+          "Spotlight",
+          "Trick",
+          "Water Pulse",
+          "Wish"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Counter",
+          "Defense Curl",
+          "Dig",
+          "Dynamic Punch",
+          "Endure",
+          "Flash",
+          "Headbutt",
+          "Mega Kick",
+          "Mega Punch",
+          "Metronome",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Nightmare",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Seismic Toss",
+          "Sing",
+          "Strength",
+          "Superpower",
+          "Swift"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Psych Up",
+          "Rock Slide",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Retaliate",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Dream Eater",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Fling",
+          "Retaliate",
+          "Flash",
+          "Psych Up",
+          "Rock Slide",
+          "Work Up",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room",
+          "Wild Charge",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Recycle",
+          "Flash",
+          "Psych Up",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Swagger",
+          "Substitute",
+          "Trick Room"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Shock Wave",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Skill Swap",
+          "Snatch"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "OwnTempo",
+          "TangledFeet"
+        ],
+        "hiddenAbilities": [
+          "Contrary"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "specialAttack": 60,
+        "specialDefense": 60,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 126,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/327_spinda/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/327_spinda/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/327_spinda/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.spinda"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/327_spinda/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/327_spinda/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valentine",
+              "texture": "pixelmon:pokemon/327_spinda/all/base/valentine/texture.png",
+              "sprite": "pixelmon:pokemon/327_spinda/all/base/valentine/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "HUMAN_LIKE"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 3
+}

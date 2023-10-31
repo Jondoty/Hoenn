@@ -1,0 +1,411 @@
+{
+  "name": "Ninjask",
+  "dex": 291,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 1.0,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Aerial Ace",
+              "Baton Pass",
+              "Dig",
+              "Double Team",
+              "False Swipe",
+              "Fury Cutter",
+              "Harden",
+              "Metal Claw",
+              "Mud-Slap",
+              "Sand Attack",
+              "Scratch",
+              "Screech"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Absorb"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Mind Reader"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 57,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "X-Scissor"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Bug Bite",
+          "Final Gambit",
+          "Flail",
+          "Gust",
+          "Night Slash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Dig",
+          "Screech",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Sandstorm",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "U-turn",
+          "Round",
+          "Acrobatics",
+          "False Swipe",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Agility",
+          "Leech Life",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Uproar",
+          "X-Scissor",
+          "Bug Buzz"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Attract",
+          "Bide",
+          "Captivate",
+          "Confide",
+          "Cut",
+          "Defog",
+          "Double-Edge",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Laser Focus",
+          "Mimic",
+          "Natural Gift",
+          "Ominous Wind",
+          "Return",
+          "Roost",
+          "Secret Power",
+          "Silver Wind",
+          "Spite",
+          "String Shot",
+          "Struggle Bug",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Leech Life",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Giga Impact",
+          "Swords Dance",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "False Swipe",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Struggle Bug",
+          "X-Scissor",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Roost",
+          "False Swipe",
+          "Endure",
+          "Silver Wind",
+          "Giga Impact",
+          "Flash",
+          "Swords Dance",
+          "Captivate",
+          "X-Scissor",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "U-turn",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Thief"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SpeedBoost"
+        ],
+        "hiddenAbilities": [
+          "Infiltrator"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 61,
+        "attack": 90,
+        "defense": 45,
+        "specialAttack": 50,
+        "specialDefense": 50,
+        "speed": 160
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 155,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/291_ninjask/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/291_ninjask/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/291_ninjask/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.02,
+                "rotateAngleX": 0
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/291_ninjask/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/291_ninjask/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Nincada"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 12.0,
+      "catchRate": 120,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 3
+}

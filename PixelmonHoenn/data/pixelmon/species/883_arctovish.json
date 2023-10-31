@@ -1,0 +1,264 @@
+{
+  "name": "Arctovish",
+  "dex": 883,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Powder Snow",
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Icy Wind"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Aurora Veil"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Freeze-Dry"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Fishious Rend"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Icicle Crash"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Dive",
+          "Rock Tomb",
+          "Icicle Spear",
+          "Rock Blast",
+          "Brine",
+          "Avalanche",
+          "Ice Fang",
+          "Round"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Waterfall",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Crunch",
+          "Iron Defense",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Psychic Fangs",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "WaterAbsorb",
+          "IceBody"
+        ],
+        "hiddenAbilities": [
+          "SlushRush"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.3
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 5,
+          "depthRangeEnd": 40,
+          "swimSpeed": 8,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 90,
+        "attack": 90,
+        "defense": 100,
+        "specialAttack": 80,
+        "specialDefense": 90,
+        "speed": 55
+      },
+      "tags": [
+        "threeivs"
+      ],
+      "spawn": {
+        "baseExp": 177,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/883_arctovish/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/883_arctovish/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/883_arctovish/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.arctovish"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/883_arctovish/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/883_arctovish/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "WATER",
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 36,
+      "weight": 175.0,
+      "catchRate": 45,
+      "malePercentage": -1.0,
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 8
+}

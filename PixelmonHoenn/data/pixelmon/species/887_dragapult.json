@@ -1,0 +1,355 @@
+{
+  "name": "Dragapult",
+  "dex": 887,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.9,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.9,
+        "hoverHeight": 1.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Bite",
+              "Dragon Breath",
+              "Dragon Darts",
+              "Infestation",
+              "Quick Attack",
+              "Sucker Punch"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Lock-On"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Assurance"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Double Hit"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Dragon Rush"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 78,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor"
+        ],
+        "eggMoves": [
+          "Confuse Ray",
+          "Curse",
+          "Disable",
+          "Double Team",
+          "Dragon Tail",
+          "Grudge",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Steel Wing",
+          "Attract",
+          "Beat Up",
+          "Will-O-Wisp",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Dive",
+          "Brine",
+          "U-turn",
+          "Assurance",
+          "Round",
+          "Hex",
+          "Acrobatics",
+          "Phantom Force",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Thunderbolt",
+          "Thunder",
+          "Agility",
+          "Fire Blast",
+          "Tri Attack",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Ally Switch",
+          "Scald",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+
+        ],
+        "tmMoves7": [
+
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "ClearBody",
+          "Infiltrator"
+        ],
+        "hiddenAbilities": [
+          "CursedBody"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.15,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.15,
+            "z": -0.3
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 88,
+        "attack": 120,
+        "defense": 75,
+        "specialAttack": 100,
+        "specialDefense": 75,
+        "speed": 142
+      },
+      "tags": [
+
+      ],
+      "spawn": {
+        "baseExp": 300,
+        "baseFriendship": 50,
+        "spawnLevel": 60,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/887_dragapult/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/887_dragapult/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/887_dragapult/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.dragapult",
+                "pixelmon.mob.dragapult"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/887_dragapult/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/887_dragapult/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "spirit",
+              "texture": "pixelmon:pokemon/887_dragapult/all/base/spirit/texture.png",
+              "sprite": "pixelmon:pokemon/887_dragapult/all/base/spirit/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS",
+        "DRAGON"
+      ],
+      "types": [
+        "DRAGON",
+        "GHOST"
+      ],
+      "preEvolutions": [
+        "Dreepy",
+        "Drakloak"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 41,
+      "weight": 50.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evYields": {
+        "speed": 3
+      }
+    }
+  ],
+  "generation": 8
+}

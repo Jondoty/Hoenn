@@ -1,0 +1,435 @@
+{
+  "name": "Barbaracle",
+  "dex": 689,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 1.2,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Mud-Slap",
+              "Scratch",
+              "Skull Bash",
+              "Water Gun",
+              "Withdraw"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Fury Swipes"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Polish"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Razor Shell"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Shell Smash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Cross Chop"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Stone Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Night Slash",
+          "Sand Attack",
+          "Switcheroo"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Dig",
+          "Screech",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Whirlpool",
+          "Beat Up",
+          "Facade",
+          "Helping Hand",
+          "Brick Break",
+          "Dive",
+          "Rock Tomb",
+          "Mud Shot",
+          "Rock Blast",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Razor Shell",
+          "False Swipe",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Low Kick",
+          "Earthquake",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Uproar",
+          "Taunt",
+          "Superpower",
+          "Muddy Water",
+          "Iron Defense",
+          "Dragon Claw",
+          "Bulk Up",
+          "Poison Jab",
+          "X-Scissor",
+          "Focus Blast",
+          "Earth Power",
+          "Stone Edge",
+          "Stealth Rock",
+          "Grass Knot",
+          "Sludge Wave",
+          "Scald",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Clamp",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dual Chop",
+          "Embargo",
+          "Endeavor",
+          "Frustration",
+          "Hidden Power",
+          "Infestation",
+          "Laser Focus",
+          "Nature Power",
+          "Power-Up Punch",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Smack Down",
+          "Strength",
+          "Swagger",
+          "Tickle",
+          "Torment",
+          "Toxic",
+          "Water Pulse",
+          "Water Sport"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Brutal Swing",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Wave",
+          "Sludge Bomb",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Embargo",
+          "Shadow Claw",
+          "Payback",
+          "Giga Impact",
+          "Rock Polish",
+          "Stone Edge",
+          "Swords Dance",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Infestation",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sniper",
+          "ToughClaws"
+        ],
+        "hiddenAbilities": [
+          "Pickpocket"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.45,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.45,
+            "z": -0.15
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 20,
+          "depthRangeEnd": 60,
+          "swimSpeed": 1,
+          "decayRate": 0.7,
+          "refreshRate": 300,
+          "chanceToStopOnBlock": 0.9,
+          "blocksToStopOn": [
+            "minecraft:SAND",
+            "minecraft:STONE"
+          ],
+          "minStopTime": 10,
+          "maxStopTime": 20,
+          "minStopCooldownTime": 2,
+          "maxStopCooldownTime": 4,
+          "canRotateWhileStopped": false
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 72,
+        "attack": 105,
+        "defense": 115,
+        "specialAttack": 54,
+        "specialDefense": 86,
+        "speed": 68
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 175,
+        "baseFriendship": 0,
+        "spawnLevel": 40,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/689_barbaracle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/689_barbaracle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/689_barbaracle/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.barbaracle",
+                "pixelmon.mob.barbaracle"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/689_barbaracle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/689_barbaracle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_THREE"
+      ],
+      "types": [
+        "ROCK",
+        "WATER"
+      ],
+      "preEvolutions": [
+        "Binacle"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 96.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 6
+}

@@ -1,0 +1,392 @@
+{
+  "name": "Rufflet",
+  "dex": 627,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Peck"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Hone Claws"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Aerial Ace"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Crush Claw"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Defog"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Fly",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Rock Tomb",
+          "U-turn",
+          "Assurance",
+          "Shadow Claw",
+          "Round",
+          "Retaliate",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Heat Wave",
+          "Superpower",
+          "Bulk Up",
+          "Close Combat",
+          "Brave Bird",
+          "Zen Headbutt",
+          "Work Up",
+          "Hurricane"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Frustration",
+          "Fury Attack",
+          "Hidden Power",
+          "Pluck",
+          "Return",
+          "Rock Smash",
+          "Roost",
+          "Secret Power",
+          "Sky Drop",
+          "Strength",
+          "Swagger",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Sky Drop",
+          "Shadow Claw",
+          "Fly",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Sky Drop",
+          "Shadow Claw",
+          "Retaliate",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Sky Drop",
+          "Shadow Claw",
+          "Retaliate",
+          "Rock Slide",
+          "Work Up",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "KeenEye",
+          "SheerForce"
+        ],
+        "hiddenAbilities": [
+          "Hustle"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 10,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 5,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 5,
+        "passive": 70,
+        "aggressive": 25
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 83,
+        "defense": 50,
+        "specialAttack": 37,
+        "specialDefense": 50,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 70,
+        "baseFriendship": 70,
+        "spawnLevel": 10,
+        "spawnLevelRange": 44,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/627_rufflet/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/627_rufflet/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/627_rufflet/all/base/none/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.02
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/627_rufflet/all/base/none/flying/model.pqc"
+                ],
+                "animationIncrement": 1.5,
+                "movementThreshold": 0.02
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/627_rufflet/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/627_rufflet/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.5,
+      "catchRate": 190,
+      "malePercentage": 100,
+      "evolutions": [
+        {
+          "level": 54,
+          "to": "Braviary",
+          "conditions": [
+            {
+              "time": "DAY",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Superpower"
+          ]
+        },
+        {
+          "level": 54,
+          "to": "Braviary form:hisuian",
+          "conditions": [
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,377 @@
+{
+  "name": "Vullaby",
+  "dex": 629,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Gust",
+              "Leer"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Knock Off"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Whirlwind"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Air Slash"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Dark Pulse"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Defog"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Attract"
+            ]
+          },
+          {
+            "level": 72,
+            "attacks": [
+              "Brave Bird"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Mean Look",
+          "Roost",
+          "Toxic"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Fake Tears",
+          "Rock Tomb",
+          "U-turn",
+          "Payback",
+          "Assurance",
+          "Round",
+          "Retaliate",
+          "Snarl",
+          "Air Slash"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Heat Wave",
+          "Taunt",
+          "Iron Defense",
+          "Dark Pulse",
+          "Brave Bird",
+          "Nasty Plot",
+          "Foul Play"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Block",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Embargo",
+          "Feint Attack",
+          "Frustration",
+          "Fury Attack",
+          "Hidden Power",
+          "Incinerate",
+          "Mirror Move",
+          "Psych Up",
+          "Punishment",
+          "Return",
+          "Rock Smash",
+          "Secret Power",
+          "Snatch",
+          "Swagger",
+          "Torment"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Embargo",
+          "Payback",
+          "Fly",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Steel Wing",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Psych Up",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Incinerate",
+          "Embargo",
+          "Payback",
+          "Retaliate",
+          "Psych Up",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "BigPecks",
+          "Overcoat"
+        ],
+        "hiddenAbilities": [
+          "WeakArmor"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 75,
+        "specialAttack": 45,
+        "specialDefense": 65,
+        "speed": 60
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 74,
+        "baseFriendship": 35,
+        "spawnLevel": 42,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/629_vullaby/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/629_vullaby/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/629_vullaby/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/629_vullaby/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/629_vullaby/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "DARK",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 9.0,
+      "catchRate": 190,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "level": 54,
+          "to": "Mandibuzz",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Bone Rush"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 5
+}

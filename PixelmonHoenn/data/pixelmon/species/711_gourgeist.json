@@ -1,0 +1,365 @@
+{
+  "name": "Gourgeist",
+  "dex": 711,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.2,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.2,
+        "hoverHeight": 1.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Confuse Ray",
+              "Explosion",
+              "Moonblast",
+              "Shadow Sneak",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Razor Leaf",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bullet Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Scary Face",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Worry Seed"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Seed Bomb"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Shadow Ball",
+              "Trick-or-Treat"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Trick"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Pain Split"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Phantom Force"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Curse",
+          "Destiny Bond",
+          "Disable"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Bullet Seed",
+          "Trick Room",
+          "Round",
+          "Hex",
+          "Phantom Force",
+          "Mystical Fire",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Psychic",
+          "Fire Blast",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Gyro Ball",
+          "Dark Pulse",
+          "Seed Bomb",
+          "Focus Blast",
+          "Energy Ball",
+          "Nasty Plot",
+          "Power Whip",
+          "Grass Knot",
+          "Foul Play",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Charge Beam",
+          "Confide",
+          "Double Team",
+          "Dream Eater",
+          "Flame Charge",
+          "Flash",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Magic Coat",
+          "Nature Power",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Spite",
+          "Swagger",
+          "Synthesis",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Charge Beam",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Gyro Ball",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Sludge Bomb",
+          "Fire Blast",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Charge Beam",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Explosion",
+          "Giga Impact",
+          "Flash",
+          "Gyro Ball",
+          "Rock Slide",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Pickup",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "Insomnia"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 85,
+        "defense": 122,
+        "specialAttack": 58,
+        "specialDefense": 75,
+        "speed": 99
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 173,
+        "baseFriendship": 0,
+        "spawnLevel": 25,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/711_gourgeist/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/711_gourgeist/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/711_gourgeist/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/711_gourgeist/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/711_gourgeist/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Pumpkaboo"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 9.5,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "defense": 2
+      }
+    }
+  ],
+  "generation": 6
+}

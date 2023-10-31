@@ -1,0 +1,252 @@
+{
+  "name": "Espathra",
+  "dex": 956,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.6,
+        "length": 1.0,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Drill Peck",
+              "Feather Dance",
+              "Growl",
+              "Lumina Crash",
+              "Peck"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Disarming Voice"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Uproar"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Last Resort"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Ally Switch",
+          "Hypnosis",
+          "Roost"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Agility",
+          "Mud-Slap",
+          "Protect",
+          "Psybeam",
+          "Confuse Ray",
+          "Thief",
+          "Disarming Voice",
+          "Pounce",
+          "Facade",
+          "Swift",
+          "Stored Power",
+          "Endure",
+          "Sunny Day",
+          "Rain Dance",
+          "Sandstorm",
+          "Psyshock",
+          "Zen Headbutt",
+          "U-turn",
+          "Foul Play",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Reflect",
+          "Light Screen",
+          "Rest",
+          "Skill Swap",
+          "Substitute",
+          "Trick",
+          "Psychic",
+          "Calm Mind",
+          "Helping Hand",
+          "Baton Pass",
+          "Psychic Terrain",
+          "Trick Room",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Opportunist",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "SpeedBoost"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 95,
+        "attack": 60,
+        "defense": 60,
+        "specialAttack": 101,
+        "specialDefense": 60,
+        "speed": 105
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 168,
+        "baseFriendship": 50,
+        "spawnLevel": 35,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/956_espathra/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/956_espathra/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.espathra"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/956_espathra/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/956_espathra/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING"
+      ],
+      "types": [
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+        "Flittle"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 90.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "speed": 2
+      }
+    }
+  ],
+  "generation": 9
+}

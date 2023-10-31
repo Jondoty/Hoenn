@@ -1,0 +1,359 @@
+{
+  "name": "Drampa",
+  "dex": 780,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 2.0,
+        "width": 2.0,
+        "length": 1,
+        "eyeHeight": 2.0,
+        "hoverHeight": 2.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Echoed Voice",
+              "Play Nice"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Twister"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Glare"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Extrasensory"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Light Screen"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Fly"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Hyper Voice"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Outrage"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Lash Out",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Dragon Rush",
+          "Mist",
+          "Tickle"
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Fling",
+          "Shadow Claw",
+          "Round",
+          "Bulldoze",
+          "Snarl",
+          "Stomping Tantrum",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Fire Blast",
+          "Amnesia",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Uproar",
+          "Heat Wave",
+          "Superpower",
+          "Hyper Voice",
+          "Dragon Claw",
+          "Calm Mind",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Energy Ball",
+          "Grass Knot",
+          "Work Up",
+          "Hurricane",
+          "Play Rough"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Block",
+          "Confide",
+          "Defog",
+          "Double Team",
+          "Dragon Rage",
+          "Dragon Tail",
+          "Endeavor",
+          "Frustration",
+          "Hidden Power",
+          "Natural Gift",
+          "Nature Power",
+          "Psych Up",
+          "Razor Wind",
+          "Return",
+          "Roar",
+          "Roost",
+          "Shock Wave",
+          "Signal Beam",
+          "Tailwind",
+          "Toxic",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Dragon Claw",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Focus Blast",
+          "Energy Ball",
+          "Fling",
+          "Shadow Claw",
+          "Giga Impact",
+          "Thunder Wave",
+          "Fly",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Dragon Tail",
+          "Grass Knot",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Snarl",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Berserk",
+          "SapSipper"
+        ],
+        "hiddenAbilities": [
+          "CloudNine"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.3,
+            "z": -0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 78,
+        "attack": 60,
+        "defense": 85,
+        "specialAttack": 135,
+        "specialDefense": 91,
+        "speed": 36
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 70,
+        "spawnLevel": 30,
+        "spawnLevelRange": 30,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/780_drampa/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/780_drampa/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/780_drampa/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/780_drampa/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/780_drampa/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "christmas",
+              "texture": "pixelmon:pokemon/780_drampa/all/base/christmas/texture.png",
+              "sprite": "pixelmon:pokemon/780_drampa/all/base/christmas/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "MONSTER",
+        "DRAGON"
+      ],
+      "types": [
+        "NORMAL",
+        "DRAGON"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 185.0,
+      "catchRate": 70,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "specialAttack": 2
+      }
+    }
+  ],
+  "generation": 7
+}

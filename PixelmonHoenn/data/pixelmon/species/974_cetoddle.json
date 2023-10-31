@@ -1,0 +1,264 @@
+{
+  "name": "Cetoddle",
+  "dex": 974,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.5,
+        "length": 1.0,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Powder Snow",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Growl"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Echoed Voice"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Ice Shard"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Rest"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Flail"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Avalanche"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Bounce"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Body Slam"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Amnesia"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Ice Spinner"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 53,
+            "attacks": [
+              "Blizzard"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Belly Drum",
+          "Entrainment",
+          "Icicle Crash",
+          "Superpower",
+          "Yawn"
+        ],
+        "tmMoves9": [
+          "Take Down",
+          "Charm",
+          "Protect",
+          "Ice Fang",
+          "Water Pulse",
+          "Chilling Water",
+          "Facade",
+          "Bulldoze",
+          "Icy Wind",
+          "Avalanche",
+          "Endure",
+          "Rain Dance",
+          "Snowscape",
+          "Body Slam",
+          "Sleep Talk",
+          "Stomping Tantrum",
+          "Rest",
+          "Body Press",
+          "Substitute",
+          "Liquidation",
+          "Hyper Voice",
+          "Heavy Slam",
+          "Ice Spinner",
+          "Play Rough",
+          "Amnesia",
+          "Helping Hand",
+          "Ice Beam",
+          "Blizzard",
+          "Earthquake",
+          "Hyper Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ThickFat",
+          "SnowCloak"
+        ],
+        "hiddenAbilities": [
+          "SheerForce"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 108,
+        "attack": 68,
+        "defense": 45,
+        "specialAttack": 30,
+        "specialDefense": 40,
+        "speed": 43
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 67,
+        "baseFriendship": 50,
+        "spawnLevel": 20,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/974_cetoddle/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/974_cetoddle/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/974_cetoddle/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/974_cetoddle/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "ICE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 25,
+      "weight": 45.0,
+      "catchRate": 150,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:ice_stone"
+          },
+          "to": "Cetitan",
+          "conditions": [],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "hp": 1
+      }
+    }
+  ],
+  "generation": 9
+}

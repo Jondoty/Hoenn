@@ -1,0 +1,350 @@
+{
+  "name": "Oshawott",
+  "dex": 501,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Tackle"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Tail Whip"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Water Gun"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Water Sport"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Razor Shell"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Fury Cutter"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Water Pulse"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Revenge"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Aqua Jet"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Encore"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Aqua Tail"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Retaliate"
+            ]
+          },
+          {
+            "level": 41,
+            "attacks": [
+              "Swords Dance"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Aqua Tail",
+          "Covet",
+          "Helping Hand",
+          "Icy Wind",
+          "Iron Tail",
+          "Snore",
+          "Water Pledge",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Air Slash",
+          "Assurance",
+          "Brine",
+          "Copycat",
+          "Detect",
+          "Night Slash",
+          "Sacred Sword",
+          "Screech",
+          "Trump Card"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Dive",
+          "Rock Smash",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Swords Dance",
+          "X-Scissor",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Retaliate",
+          "Swords Dance",
+          "X-Scissor",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Taunt",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "False Swipe",
+          "Scald",
+          "Fling",
+          "Retaliate",
+          "Swords Dance",
+          "X-Scissor",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Torrent"
+        ],
+        "hiddenAbilities": [
+          "ShellArmour"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": 1,
+          "depthRangeEnd": 20,
+          "swimSpeed": 15,
+          "decayRate": 0.99,
+          "refreshRate": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 45,
+        "specialAttack": 63,
+        "specialDefense": 45,
+        "speed": 45
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 28,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 11,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/501_oshawott/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/501_oshawott/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/501_oshawott/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.oshawott",
+                "pixelmon.mob.oshawott",
+                "pixelmon.mob.oshawott"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/501_oshawott/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/501_oshawott/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 5.9,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 17,
+          "to": "Dewott",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

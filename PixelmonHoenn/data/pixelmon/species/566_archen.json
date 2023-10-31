@@ -1,0 +1,419 @@
+{
+  "name": "Archen",
+  "dex": 566,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Rock Throw"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Wing Attack"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Pluck"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Quick Guard"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "U-turn"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Rock Slide"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Dragon Claw"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Thrash"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Endeavor"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat",
+          "Lash Out",
+          "Meteor Beam"
+        ],
+        "eggMoves": [
+          "Bite",
+          "Defog",
+          "Double Team",
+          "Head Smash",
+          "Knock Off",
+          "Switcheroo"
+        ],
+        "tmMoves8": [
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Steel Wing",
+          "Attract",
+          "Sandstorm",
+          "Facade",
+          "Swift",
+          "Rock Tomb",
+          "Bounce",
+          "Rock Blast",
+          "U-turn",
+          "Assurance",
+          "Shadow Claw",
+          "Round",
+          "Acrobatics",
+          "Bulldoze"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Agility",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Uproar",
+          "Heat Wave",
+          "Taunt",
+          "Iron Defense",
+          "Dragon Claw",
+          "Dragon Pulse",
+          "Earth Power",
+          "Zen Headbutt",
+          "Stone Edge",
+          "Stealth Rock",
+          "Ally Switch"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Aerial Ace",
+          "Aqua Tail",
+          "Confide",
+          "Cut",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Return",
+          "Roar",
+          "Rock Polish",
+          "Rock Smash",
+          "Roost",
+          "Secret Power",
+          "Smack Down",
+          "Swagger",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Acrobatics",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Roost",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Acrobatics",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Taunt",
+          "Protect",
+          "Frustration",
+          "Smack Down",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Sandstorm",
+          "Rock Tomb",
+          "Aerial Ace",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Acrobatics",
+          "Shadow Claw",
+          "Rock Polish",
+          "Stone Edge",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Pluck",
+          "U-turn",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Defeatist"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 112,
+        "defense": 45,
+        "specialAttack": 74,
+        "specialDefense": 45,
+        "speed": 70
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 71,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 17,
+        "spawnLocations": [
+          "AIR"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/566_archen/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/566_archen/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/566_archen/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.archen",
+                "pixelmon.mob.archen",
+                "pixelmon.mob.archen"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/566_archen/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/566_archen/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING",
+        "WATER_THREE"
+      ],
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 31,
+      "weight": 9.5,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 37,
+          "to": "Archeops",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

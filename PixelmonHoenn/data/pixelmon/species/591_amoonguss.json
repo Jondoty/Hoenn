@@ -1,0 +1,480 @@
+{
+  "name": "Amoonguss",
+  "dex": 591,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.9,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.9,
+        "hoverHeight": 0.9
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Absorb",
+              "Astonish",
+              "Growth",
+              "Stun Spore"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Mega Drain"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Clear Smog"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Giga Drain"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Toxic"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Rage Powder"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 54,
+            "attacks": [
+              "Spore"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Defense Curl",
+          "Poison Powder",
+          "Rollout",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Payback",
+          "Venoshock",
+          "Round",
+          "Hex",
+          "Grassy Terrain",
+          "Stomping Tantrum"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Foul Play",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "After You",
+          "Bide",
+          "Confide",
+          "Double Team",
+          "Feint Attack",
+          "Flash",
+          "Frustration",
+          "Gastro Acid",
+          "Hidden Power",
+          "Nature Power",
+          "Return",
+          "Secret Power",
+          "Swagger"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Giga Impact",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Sludge Bomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Payback",
+          "Giga Impact",
+          "Flash",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "EffectSpore"
+        ],
+        "hiddenAbilities": [
+          "Regenerator"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.1,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.15,
+            "z": -0.17
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 114,
+        "attack": 85,
+        "defense": 70,
+        "specialAttack": 85,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 162,
+        "baseFriendship": 70,
+        "spawnLevel": 40,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/591_amoonguss/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.amoonguss"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "black",
+              "translationKey": "pixelmon.palette.black_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/black/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/black/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "brown",
+              "translationKey": "pixelmon.palette.brown_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/brown/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/brown/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "cyan",
+              "translationKey": "pixelmon.palette.cyan_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/cyan/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/cyan/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "dark_blue",
+              "translationKey": "pixelmon.palette.dark_blue_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/dark_blue/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/dark_blue/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "dark_green",
+              "translationKey": "pixelmon.palette.dark_green_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/dark_green/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/dark_green/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "dark_pink",
+              "translationKey": "pixelmon.palette.dark_pink_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/dark_pink/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/dark_pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "dark_red",
+              "translationKey": "pixelmon.palette.dark_red_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/dark_red/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/dark_red/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "forte_green",
+              "translationKey": "pixelmon.palette.forte_green_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/forte_green/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/forte_green/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "grey",
+              "translationKey": "pixelmon.palette.grey_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/grey/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/grey/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "light_brown",
+              "translationKey": "pixelmon.palette.light_brown_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/light_brown/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/light_brown/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "light_pink",
+              "translationKey": "pixelmon.palette.light_pink_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/light_pink/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/light_pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "light_yellow",
+              "translationKey": "pixelmon.palette.light_yellow_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/light_yellow/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/light_yellow/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "lime",
+              "translationKey": "pixelmon.palette.lime_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/lime/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/lime/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "olive",
+              "translationKey": "pixelmon.palette.olive_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/olive/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/olive/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "orange",
+              "translationKey": "pixelmon.palette.orange_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/orange/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/orange/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "pink",
+              "translationKey": "pixelmon.palette.pink_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/pink/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/pink/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "purple",
+              "translationKey": "pixelmon.palette.purple_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/purple/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/purple/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "red",
+              "translationKey": "pixelmon.palette.red_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/red/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/red/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "white",
+              "translationKey": "pixelmon.palette.white_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/white/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/white/sprite.png",
+              "particle": ""
+            },
+            {
+              "name": "yellow",
+              "translationKey": "pixelmon.palette.yellow_sus",
+              "texture": "pixelmon:pokemon/591_amoonguss/all/base/yellow/texture.png",
+              "sprite": "pixelmon:pokemon/591_amoonguss/all/base/yellow/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
+      "preEvolutions": [
+        "Foongus"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 10.5,
+      "catchRate": 75,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "hp": 2
+      }
+    }
+  ],
+  "generation": 5
+}

@@ -1,0 +1,265 @@
+{
+  "name": "Tinkatink",
+  "dex": 957,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.3,
+        "width": 0.3,
+        "length": 1.0,
+        "eyeHeight": 0.3,
+        "hoverHeight": 0.3
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Fairy Wind"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Baby-Doll Eyes"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Metal Claw"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Covet"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Rock Smash"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Brutal Swing"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Slam"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Fake Out"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Flatter"
+            ]
+          },
+          {
+            "level": 47,
+            "attacks": [
+              "Skitter Smack"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Knock Off"
+            ]
+          }
+        ],
+        "tutorMoves": [],
+        "eggMoves": [
+          "Feint",
+          "Ice Hammer",
+          "Quash"
+        ],
+        "tmMoves9": [
+          "Fake Tears",
+          "Protect",
+          "Thief",
+          "Pounce",
+          "Facade",
+          "Metal Claw",
+          "Rock Tomb",
+          "Draining Kiss",
+          "Fling",
+          "Endure",
+          "Foul Play",
+          "Sleep Talk",
+          "Reflect",
+          "Light Screen",
+          "Metronome",
+          "Thunder Wave",
+          "Rest",
+          "Rock Slide",
+          "Swords Dance",
+          "Flash Cannon",
+          "Skill Swap",
+          "Substitute",
+          "Stealth Rock",
+          "Encore",
+          "Play Rough",
+          "Helping Hand",
+          "Stone Edge",
+          "Steel Beam",
+          "Tera Blast"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "MoldBreaker",
+          "OwnTempo"
+        ],
+        "hiddenAbilities": [
+          "Pickpocket"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 45,
+        "defense": 45,
+        "specialAttack": 35,
+        "specialDefense": 64,
+        "speed": 58
+      },
+      "tags": [
+        "undexable"
+      ],
+      "spawn": {
+        "baseExp": 59,
+        "baseFriendship": 50,
+        "spawnLevel": 11,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/957_tinkatink/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/957_tinkatink/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "none"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/957_tinkatink/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/957_tinkatink/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "FAIRY",
+        "STEEL"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 8.9,
+      "catchRate": 190,
+      "malePercentage": 0,
+      "evolutions": [
+        {
+          "level": 24,
+          "to": "Tinkatuff",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 9
+}

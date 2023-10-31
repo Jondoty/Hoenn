@@ -1,0 +1,442 @@
+{
+  "name": "Solgaleo",
+  "dex": 791,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 3.2,
+        "width": 3.2,
+        "length": 1,
+        "eyeHeight": 3.2,
+        "hoverHeight": 3.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Cosmic Power",
+              "Metal Claw",
+              "Noble Roar",
+              "Sunsteel Strike",
+              "Teleport"
+            ]
+          },
+          {
+            "level": 7,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 14,
+            "attacks": [
+              "Metal Sound"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Flash Cannon"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Morning Sun"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Metal Burst"
+            ]
+          },
+          {
+            "level": 56,
+            "attacks": [
+              "Wild Charge"
+            ]
+          },
+          {
+            "level": 63,
+            "attacks": [
+              "Solar Beam"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Flare Blitz"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 84,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Meteor Beam",
+          "Steel Beam",
+          "Steel Roller"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Fire Spin",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Rock Tomb",
+          "Trick Room",
+          "Round",
+          "Bulldoze",
+          "Snarl",
+          "Mystical Fire"
+        ],
+        "trMoves": [
+          "Flamethrower",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Psychic",
+          "Agility",
+          "Fire Blast",
+          "Substitute",
+          "Outrage",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Future Sight",
+          "Superpower",
+          "Hyper Voice",
+          "Cosmic Power",
+          "Iron Defense",
+          "Calm Mind",
+          "Gyro Ball",
+          "Close Combat",
+          "Flare Blitz",
+          "Focus Blast",
+          "Zen Headbutt",
+          "Flash Cannon",
+          "Iron Head",
+          "Stone Edge",
+          "Heavy Slam",
+          "Work Up",
+          "Wild Charge",
+          "Heat Crash",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Confide",
+          "Double Team",
+          "Endeavor",
+          "Flame Charge",
+          "Frustration",
+          "Hidden Power",
+          "Knock Off",
+          "Last Resort",
+          "Psych Up",
+          "Return",
+          "Roar",
+          "Shock Wave",
+          "Swagger",
+          "Toxic",
+          "Wake-Up Slap"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Rock Tomb",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Round",
+          "Focus Blast",
+          "Giga Impact",
+          "Stone Edge",
+          "Thunder Wave",
+          "Gyro Ball",
+          "Psych Up",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Trick Room",
+          "Wild Charge",
+          "Snarl",
+          "Confide"
+        ],
+        "tmMoves6": [
+
+        ],
+        "tmMoves5": [
+
+        ],
+        "tmMoves4": [
+
+        ],
+        "tmMoves3": [
+
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "FullMetalBody"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -1.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": -1.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 5,
+          "flying_stamina_charges": 3,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 137,
+        "attack": 137,
+        "defense": 107,
+        "specialAttack": 113,
+        "specialDefense": 89,
+        "speed": 97
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 136,
+        "baseFriendship": 70,
+        "spawnLevel": 55,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/791_solgaleo/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/791_solgaleo/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.solgaleo"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/791_solgaleo/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/791_solgaleo/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "real",
+              "texture": "pixelmon:pokemon/791_solgaleo/all/base/real/texture.png",
+              "sprite": "pixelmon:pokemon/791_solgaleo/all/base/real/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "PSYCHIC",
+        "STEEL"
+      ],
+      "preEvolutions": [
+        "Cosmog",
+        "Cosmoem"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+
+      ],
+      "megas": [
+
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 120,
+      "weight": 230.0,
+      "catchRate": 45,
+      "malePercentage": -1,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "attack": 3
+      }
+    },
+    {
+      "name": "radiantsun",
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/791_solgaleo/all/radiantsun/none/texture.png",
+              "sprite": "pixelmon:pokemon/791_solgaleo/all/radiantsun/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/791_solgaleo/all/radiantsun/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/791_solgaleo/all/radiantsun/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 7
+}

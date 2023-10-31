@@ -1,0 +1,296 @@
+{
+  "name": "Zamazenta",
+  "dex": 889,
+  "defaultForms": [
+    "hero"
+  ],
+  "forms": [
+    {
+      "name": "hero",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 2.2,
+        "width": 2.4,
+        "length": 1,
+        "eyeHeight": 2.2,
+        "hoverHeight": 2.2
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Howl",
+              "Metal Burst",
+              "Metal Claw",
+              "Quick Attack",
+              "Wide Guard"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Slash"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Iron Head"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 66,
+            "attacks": [
+              "Moonblast"
+            ]
+          },
+          {
+            "level": 77,
+            "attacks": [
+              "Close Combat"
+            ]
+          },
+          {
+            "level": 88,
+            "attacks": [
+              "Giga Impact"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Steel Beam"
+        ],
+        "eggMoves": [],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Dig",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Revenge",
+          "Imprison",
+          "Payback",
+          "Power Swap",
+          "Guard Swap",
+          "Thunder Fang",
+          "Ice Fang",
+          "Fire Fang",
+          "Round",
+          "Retaliate",
+          "Tail Slap",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Agility",
+          "Focus Energy",
+          "Substitute",
+          "Reversal",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Hyper Voice",
+          "Iron Defense",
+          "Close Combat",
+          "Focus Blast",
+          "Flash Cannon",
+          "Iron Head",
+          "Work Up",
+          "Wild Charge",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Psychic Fangs"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "DauntlessShield"
+        ],
+        "hiddenAbilities": []
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": 0.1
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.4,
+            "z": 0.1
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 92,
+        "attack": 120,
+        "defense": 115,
+        "specialAttack": 80,
+        "specialDefense": 115,
+        "speed": 138
+      },
+      "tags": [
+        "legendary",
+        "cannot_dynamax"
+      ],
+      "spawn": {
+        "baseExp": 335,
+        "baseFriendship": 0,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/889_zamazenta/all/hero/none/texture.png",
+              "sprite": "pixelmon:pokemon/889_zamazenta/all/hero/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/889_zamazenta/all/hero/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/889_zamazenta/all/hero/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/889_zamazenta/all/hero/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 210.0,
+      "catchRate": 10,
+      "malePercentage": -1.0,
+      "evolutions": [],
+      "evYields": {
+        "speed": 3
+      }
+    },
+    {
+      "name": "crowned",
+      "tags": [
+        "temp",
+        "legendary",
+        "cannot_dynamax"
+      ],
+      "battleStats": {
+        "hp": 92,
+        "attack": 120,
+        "defense": 140,
+        "specialAttack": 80,
+        "specialDefense": 140,
+        "speed": 128
+      },
+      "types": [
+        "FIGHTING",
+        "STEEL"
+      ],
+      "weight": 785.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/889_zamazenta/all/crowned/none/texture.png",
+              "sprite": "pixelmon:pokemon/889_zamazenta/all/crowned/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/889_zamazenta/all/crowned/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/889_zamazenta/all/crowned/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/889_zamazenta/all/crowned/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

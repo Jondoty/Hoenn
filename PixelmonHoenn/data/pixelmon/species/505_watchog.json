@@ -1,0 +1,384 @@
+{
+  "name": "Watchog",
+  "dex": 505,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.1,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 1.1,
+        "hoverHeight": 1.1
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Bite",
+              "Confuse Ray",
+              "Leer",
+              "Low Kick",
+              "Rototiller",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Leer"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Bite"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Bide"
+            ]
+          },
+          {
+            "level": 11,
+            "attacks": [
+              "Detect"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Hypnosis"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Super Fang"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 29,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Psych Up"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Hyper Fang"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Nasty Plot"
+            ]
+          },
+          {
+            "level": 43,
+            "attacks": [
+              "Mean Look"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Slam"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "After You",
+          "Aqua Tail",
+          "Covet",
+          "Endeavor",
+          "Fire Punch",
+          "Focus Punch",
+          "Gunk Shot",
+          "Helping Hand",
+          "Ice Punch",
+          "Iron Tail",
+          "Knock Off",
+          "Laser Focus",
+          "Last Resort",
+          "Low Kick",
+          "Seed Bomb",
+          "Shock Wave",
+          "Signal Beam",
+          "Snore",
+          "Stomping Tantrum",
+          "Super Fang",
+          "Thunder Punch",
+          "Zen Headbutt"
+        ],
+        "eggMoves": [
+          "Assurance",
+          "Bullet Seed",
+          "Flail",
+          "Foresight",
+          "Iron Tail",
+          "Pursuit",
+          "Revenge",
+          "Screech",
+          "Tearful Look"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Cut",
+          "Dig",
+          "Flash",
+          "Power-Up Punch",
+          "Retaliate",
+          "Rock Smash",
+          "Secret Power",
+          "Strength"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Giga Impact",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Thunderbolt",
+          "Thunder",
+          "Return",
+          "Dig",
+          "Shadow Ball",
+          "Double Team",
+          "Flamethrower",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Swords Dance",
+          "Psych Up",
+          "Work Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Illuminate",
+          "KeenEye"
+        ],
+        "hiddenAbilities": [
+          "Analytic"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 69,
+        "specialAttack": 60,
+        "specialDefense": 69,
+        "speed": 77
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 147,
+        "baseFriendship": 70,
+        "spawnLevel": 21,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/505_watchog/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/505_watchog/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/505_watchog/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.watchog"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/505_watchog/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/505_watchog/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "NORMAL"
+      ],
+      "preEvolutions": [
+        "Patrat"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 27.0,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

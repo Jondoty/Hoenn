@@ -1,0 +1,590 @@
+{
+  "name": "Togetic",
+  "dex": 176,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.6,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Fairy Wind",
+              "Growl",
+              "Life Dew",
+              "Pound",
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Charm"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Ancient Power"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Yawn"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Metronome"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "After You"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Safeguard"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Follow Me"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Baton Pass"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Last Resort"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Wish"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Dual Wingbeat"
+        ],
+        "eggMoves": [
+          "Aerial Ace",
+          "Extrasensory",
+          "Morning Sun",
+          "Peck",
+          "Present",
+          "Psycho Shift"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Charm",
+          "Steel Wing",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Brick Break",
+          "Imprison",
+          "Fling",
+          "Drain Punch",
+          "Round",
+          "Retaliate",
+          "Draining Kiss",
+          "Mystical Fire",
+          "Smart Strike"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Flamethrower",
+          "Psychic",
+          "Metronome",
+          "Fire Blast",
+          "Tri Attack",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Encore",
+          "Shadow Ball",
+          "Future Sight",
+          "Uproar",
+          "Heat Wave",
+          "Trick",
+          "Hyper Voice",
+          "Nasty Plot",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Stored Power",
+          "Work Up",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Air Cutter",
+          "Bestow",
+          "Captivate",
+          "Confide",
+          "Counter",
+          "Covet",
+          "Curse",
+          "Defense Curl",
+          "Defog",
+          "Detect",
+          "Double Team",
+          "Dream Eater",
+          "Echoed Voice",
+          "Endeavor",
+          "Flash",
+          "Focus Punch",
+          "Foresight",
+          "Frustration",
+          "Headbutt",
+          "Heal Bell",
+          "Hidden Power",
+          "Incinerate",
+          "Lucky Chant",
+          "Magic Coat",
+          "Mimic",
+          "Mirror Move",
+          "Mud-Slap",
+          "Natural Gift",
+          "Ominous Wind",
+          "Psych Up",
+          "Return",
+          "Rock Smash",
+          "Rollout",
+          "Roost",
+          "Secret Power",
+          "Seismic Toss",
+          "Shock Wave",
+          "Signal Beam",
+          "Silver Wind",
+          "Sky Attack",
+          "Soft-Boiled",
+          "Swagger",
+          "Tailwind",
+          "Telekinesis",
+          "Toxic",
+          "Twister",
+          "Water Pulse",
+          "Zap Cannon"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Fling",
+          "Smart Strike",
+          "Giga Impact",
+          "Thunder Wave",
+          "Fly",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Steel Wing",
+          "Fling",
+          "Incinerate",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Psyshock",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Echoed Voice",
+          "Fling",
+          "Incinerate",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Work Up",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Steel Wing",
+          "Roost",
+          "Fling",
+          "Endure",
+          "Drain Punch",
+          "Silver Wind",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Focus Punch",
+          "Water Pulse",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Brick Break",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Zap Cannon",
+          "Rock Smash",
+          "Psych Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Swift",
+          "Defense Curl",
+          "Dream Eater",
+          "Detect",
+          "Rest",
+          "Attract",
+          "Steel Wing"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Hustle",
+          "SereneGrace"
+        ],
+        "hiddenAbilities": [
+          "SuperLuck"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "flyingParameters": {
+          "flyHeightMin": 0,
+          "flyHeightMax": 0,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 0,
+          "flyRefreshRateXZ": 0,
+          "flyRefreshRateSpeed": 0,
+          "flightTimeMin": 0,
+          "flightTimeMax": 0,
+          "flapRate": 0,
+          "landingMaterials": "LEAVES_AND_GRASS"
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 55,
+        "attack": 40,
+        "defense": 85,
+        "specialAttack": 80,
+        "specialDefense": 105,
+        "speed": 40
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 114,
+        "baseFriendship": 70,
+        "spawnLevel": 15,
+        "spawnLevelRange": 35,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/176_togetic/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/176_togetic/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/176_togetic/all/base/none/model.pqc"
+                ]
+              },
+              "flyingModelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/176_togetic/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/176_togetic/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/176_togetic/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "valentine",
+              "texture": "pixelmon:pokemon/176_togetic/all/base/valentine/texture.png",
+              "sprite": "pixelmon:pokemon/176_togetic/all/base/valentine/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FLYING",
+        "FAIRY"
+      ],
+      "types": [
+        "FAIRY",
+        "FLYING"
+      ],
+      "preEvolutions": [
+        "Togepi"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 11,
+      "weight": 3.2,
+      "catchRate": 75,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "item": {
+            "itemID": "pixelmon:shiny_stone"
+          },
+          "to": "Togekiss",
+          "conditions": [],
+          "evoType": "interact",
+          "moves": [
+            "Air Slash"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 2
+}

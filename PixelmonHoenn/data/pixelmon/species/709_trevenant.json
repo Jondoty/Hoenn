@@ -1,0 +1,387 @@
+{
+  "name": "Trevenant",
+  "dex": 709,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.5,
+        "width": 1.5,
+        "length": 1,
+        "eyeHeight": 1.5,
+        "hoverHeight": 1.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Astonish",
+              "Branch Poke",
+              "Leech Seed",
+              "Shadow Claw",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Confuse Ray"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Will-O-Wisp"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Hex"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Growth"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Horn Leech"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Curse"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Phantom Force"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Ingrain"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Wood Hammer"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Destiny Bond"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Forest\u0027s Curse"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide",
+          "Poltergeist",
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Disable",
+          "Grudge",
+          "Sucker Punch"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Solar Beam",
+          "Dig",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Attract",
+          "Sunny Day",
+          "Will-O-Wisp",
+          "Facade",
+          "Imprison",
+          "Drain Punch",
+          "Shadow Claw",
+          "Trick Room",
+          "Round",
+          "Hex",
+          "Bulldoze",
+          "Phantom Force",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Earthquake",
+          "Psychic",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Shadow Ball",
+          "Trick",
+          "Skill Swap",
+          "Calm Mind",
+          "Poison Jab",
+          "Dark Pulse",
+          "Seed Bomb",
+          "X-Scissor",
+          "Focus Blast",
+          "Energy Ball",
+          "Leaf Storm",
+          "Grass Knot",
+          "Foul Play",
+          "Ally Switch",
+          "Venom Drench"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bestow",
+          "Block",
+          "Confide",
+          "Cut",
+          "Double Team",
+          "Dream Eater",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Hone Claws",
+          "Magic Coat",
+          "Nature Power",
+          "Pain Split",
+          "Power-Up Punch",
+          "Return",
+          "Rock Smash",
+          "Role Play",
+          "Secret Power",
+          "Spite",
+          "Strength",
+          "Swagger",
+          "Telekinesis",
+          "Toxic",
+          "Worry Seed"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Brutal Swing",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Hyper Beam",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Focus Blast",
+          "Energy Ball",
+          "Will-O-Wisp",
+          "Shadow Claw",
+          "Giga Impact",
+          "Bulldoze",
+          "Rock Slide",
+          "X-Scissor",
+          "Poison Jab",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Trick Room",
+          "Secret Power",
+          "Nature Power",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "NaturalCure",
+          "Frisk"
+        ],
+        "hiddenAbilities": [
+          "Harvest"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.3
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.9,
+            "z": -0.3
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 85,
+        "attack": 110,
+        "defense": 76,
+        "specialAttack": 65,
+        "specialDefense": 82,
+        "speed": 56
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 166,
+        "baseFriendship": 0,
+        "spawnLevel": 25,
+        "spawnLevelRange": 12,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/709_trevenant/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/709_trevenant/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/709_trevenant/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.trevenant"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/709_trevenant/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/709_trevenant/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS",
+        "AMORPHOUS"
+      ],
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "preEvolutions": [
+        "Phantump"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 71.0,
+      "catchRate": 60,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 2
+      }
+    }
+  ],
+  "generation": 6
+}

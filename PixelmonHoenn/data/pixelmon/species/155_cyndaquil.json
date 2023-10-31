@@ -1,0 +1,405 @@
+{
+  "name": "Cyndaquil",
+  "dex": 155,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_SLOW",
+      "dimensions": {
+        "height": 0.6,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.6,
+        "hoverHeight": 0.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Smokescreen"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Ember"
+            ]
+          },
+          {
+            "level": 13,
+            "attacks": [
+              "Quick Attack"
+            ]
+          },
+          {
+            "level": 19,
+            "attacks": [
+              "Flame Wheel"
+            ]
+          },
+          {
+            "level": 22,
+            "attacks": [
+              "Defense Curl"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Flame Charge"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Swift"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Lava Plume"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Flamethrower"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Inferno"
+            ]
+          },
+          {
+            "level": 49,
+            "attacks": [
+              "Rollout"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Double-Edge"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Burn Up"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Eruption"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Covet",
+          "Fire Pledge",
+          "Heat Wave",
+          "Snore"
+        ],
+        "eggMoves": [
+          "Covet",
+          "Crush Claw",
+          "Double Kick",
+          "Double-Edge",
+          "Extrasensory",
+          "Flame Burst",
+          "Flare Blitz",
+          "Foresight",
+          "Fury Swipes",
+          "Howl",
+          "Nature Power",
+          "Quick Attack",
+          "Reversal",
+          "Thrash"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Blast Burn",
+          "Body Slam",
+          "Captivate",
+          "Curse",
+          "Cut",
+          "Detect",
+          "Dig",
+          "Endure",
+          "Headbutt",
+          "Incinerate",
+          "Iron Tail",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Secret Power",
+          "Submission"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Will-O-Wisp",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Wild Charge",
+          "Secret Power",
+          "Nature Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Flame Charge",
+          "Rest",
+          "Attract",
+          "Round",
+          "Overheat",
+          "Incinerate",
+          "Will-O-Wisp",
+          "Swagger",
+          "Substitute",
+          "Wild Charge"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat",
+          "Endure",
+          "Will-O-Wisp",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Protect",
+          "Frustration",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Flamethrower",
+          "Fire Blast",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Overheat"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Snore",
+          "Protect",
+          "Endure",
+          "Frustration",
+          "Iron Tail",
+          "Return",
+          "Dig",
+          "Mud-Slap",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Fire Blast",
+          "Swift",
+          "Defense Curl",
+          "Detect",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Blaze"
+        ],
+        "hiddenAbilities": [
+          "FlashFire"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 39,
+        "attack": 52,
+        "defense": 43,
+        "specialAttack": 60,
+        "specialDefense": 50,
+        "speed": 65
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 65,
+        "baseFriendship": 70,
+        "spawnLevel": 9,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/155_cyndaquil/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/155_cyndaquil/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/155_cyndaquil/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.cyndaquil"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/155_cyndaquil/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/155_cyndaquil/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD"
+      ],
+      "types": [
+        "FIRE"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 7.9,
+      "catchRate": 45,
+      "malePercentage": 87.5,
+      "evolutions": [
+        {
+          "level": 14,
+          "to": "Quilava",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "speed": 1
+      }
+    }
+  ],
+  "generation": 2
+}

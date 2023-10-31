@@ -1,0 +1,334 @@
+{
+  "name": "Comfey",
+  "dex": 764,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "FAST",
+      "dimensions": {
+        "height": 1.4,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 1.4,
+        "hoverHeight": 1.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Growth",
+              "Wrap"
+            ]
+          },
+          {
+            "level": 3,
+            "attacks": [
+              "Vine Whip"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Draining Kiss"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Flower Shield"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Magical Leaf"
+            ]
+          },
+          {
+            "level": 18,
+            "attacks": [
+              "Synthesis"
+            ]
+          },
+          {
+            "level": 21,
+            "attacks": [
+              "Leech Seed"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Grass Knot"
+            ]
+          },
+          {
+            "level": 27,
+            "attacks": [
+              "Sweet Kiss"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Floral Healing"
+            ]
+          },
+          {
+            "level": 33,
+            "attacks": [
+              "Petal Blizzard"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Play Rough"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Sweet Scent"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Petal Dance"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Grassy Terrain"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Grassy Glide"
+        ],
+        "eggMoves": [
+          "After You",
+          "Leaf Tornado",
+          "Worry Seed"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Magical Leaf",
+          "Solar Beam",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Sunny Day",
+          "Facade",
+          "Helping Hand",
+          "Bullet Seed",
+          "U-turn",
+          "Fling",
+          "Trick Room",
+          "Round",
+          "Acrobatics",
+          "Draining Kiss",
+          "Grassy Terrain"
+        ],
+        "trMoves": [
+          "Amnesia",
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Encore",
+          "Taunt",
+          "Trick",
+          "Calm Mind",
+          "Seed Bomb",
+          "Energy Ball",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch",
+          "Play Rough",
+          "Dazzling Gleam",
+          "Pollen Puff"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bind",
+          "Celebrate",
+          "Confide",
+          "Covet",
+          "Defog",
+          "Double Team",
+          "Echoed Voice",
+          "Frustration",
+          "Heal Bell",
+          "Hidden Power",
+          "Lucky Chant",
+          "Magic Coat",
+          "Natural Gift",
+          "Nature Power",
+          "Pain Split",
+          "Psych Up",
+          "Return",
+          "Role Play",
+          "Swagger",
+          "Tailwind",
+          "Telekinesis",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Calm Mind",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Thief",
+          "Round",
+          "Echoed Voice",
+          "Energy Ball",
+          "Fling",
+          "Acrobatics",
+          "Psych Up",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "U-turn",
+          "Substitute",
+          "Trick Room",
+          "Nature Power",
+          "Dazzling Gleam",
+          "Confide"
+        ],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "FlowerVeil",
+          "Triage"
+        ],
+        "hiddenAbilities": [
+          "NaturalCure"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 51,
+        "attack": 52,
+        "defense": 90,
+        "specialAttack": 82,
+        "specialDefense": 110,
+        "speed": 100
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 170,
+        "baseFriendship": 70,
+        "spawnLevel": 20,
+        "spawnLevelRange": 40,
+        "spawnLocations": []
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/764_comfey/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/764_comfey/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/764_comfey/all/base/none/model.pqc"
+                ],
+                "yRotation": 19
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/764_comfey/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/764_comfey/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "GRASS"
+      ],
+      "types": [
+        "FAIRY"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 20,
+      "weight": 0.3,
+      "catchRate": 60,
+      "malePercentage": 25,
+      "evolutions": [],
+      "evYields": {
+        "specialDefense": 2
+      }
+    }
+  ],
+  "generation": 7
+}

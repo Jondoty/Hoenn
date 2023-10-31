@@ -1,0 +1,334 @@
+{
+  "name": "Clamperl",
+  "dex": 366,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "ERRATIC",
+      "dimensions": {
+        "height": 0.5,
+        "width": 0.7,
+        "length": 1,
+        "eyeHeight": 0.5,
+        "hoverHeight": 0.5
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Clamp",
+              "Iron Defense",
+              "Water Gun",
+              "Whirlpool"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Shell Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Icy Wind",
+          "Iron Defense",
+          "Snore",
+          "Water Pulse"
+        ],
+        "eggMoves": [
+          "Aqua Ring",
+          "Barrier",
+          "Body Slam",
+          "Brine",
+          "Confuse Ray",
+          "Endure",
+          "Mud Sport",
+          "Muddy Water",
+          "Refresh",
+          "Supersonic",
+          "Water Pulse"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Captivate",
+          "Dive",
+          "Double-Edge",
+          "Mimic",
+          "Natural Gift",
+          "Secret Power"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShellArmour"
+        ],
+        "hiddenAbilities": [
+          "Rattled"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "swimmingParameters": {
+          "depthRangeStart": -1,
+          "depthRangeEnd": 0,
+          "swimSpeed": 0,
+          "decayRate": 0.0,
+          "refreshRate": 0
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 35,
+        "attack": 64,
+        "defense": 85,
+        "specialAttack": 74,
+        "specialDefense": 55,
+        "speed": 32
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 142,
+        "baseFriendship": 70,
+        "spawnLevel": 25,
+        "spawnLevelRange": 5,
+        "spawnLocations": [
+          "WATER",
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/366_clamperl/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/366_clamperl/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/366_clamperl/all/base/none/model.pqc"
+                ],
+                "movementThreshold": 0.03,
+                "yRotation": 24.1
+              },
+              "sounds": [
+                "pixelmon.mob.clamperl"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/366_clamperl/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/366_clamperl/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE"
+      ],
+      "types": [
+        "WATER"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 52.5,
+      "catchRate": 255,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Gorebyss",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:deep_sea_scale"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "trade"
+        },
+        {
+          "to": "Huntail",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:deep_sea_tooth"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "trade"
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Gorebyss",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:deep_sea_scale"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "interact"
+        },
+        {
+          "item": {
+            "itemID": "pixelmon:linking_cord"
+          },
+          "to": "Huntail",
+          "conditions": [
+            {
+              "item": {
+                "itemID": "pixelmon:deep_sea_tooth"
+              },
+              "evoConditionType": "heldItem"
+            }
+          ],
+          "evoType": "interact"
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 3
+}

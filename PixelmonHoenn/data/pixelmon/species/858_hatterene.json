@@ -1,0 +1,288 @@
+{
+  "name": "Hatterene",
+  "dex": 858,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.8,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 1.8,
+        "hoverHeight": 1.8
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Brutal Swing",
+              "Confusion",
+              "Disarming Voice",
+              "Life Dew",
+              "Play Nice",
+              "Psycho Cut"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Aromatherapy"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Psybeam"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Dazzling Gleam"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Calm Mind"
+            ]
+          },
+          {
+            "level": 46,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Healing Wish"
+            ]
+          },
+          {
+            "level": 64,
+            "attacks": [
+              "Magic Powder"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Expanding Force",
+          "Misty Explosion"
+        ],
+        "eggMoves": [
+          "After You",
+          "Aromatic Mist",
+          "Nuzzle",
+          "Quash"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Magical Leaf",
+          "Thunder Wave",
+          "Light Screen",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Charm",
+          "Attract",
+          "Facade",
+          "Helping Hand",
+          "Imprison",
+          "Power Swap",
+          "Guard Swap",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Trick Room",
+          "Wonder Room",
+          "Magic Room",
+          "Round",
+          "Draining Kiss",
+          "Mystical Fire",
+          "Brutal Swing"
+        ],
+        "trMoves": [
+          "Swords Dance",
+          "Psychic",
+          "Substitute",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Future Sight",
+          "Skill Swap",
+          "Calm Mind",
+          "Dark Pulse",
+          "Power Whip",
+          "Stored Power",
+          "Play Rough",
+          "Dazzling Gleam"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Healer",
+          "Anticipation"
+        ],
+        "hiddenAbilities": [
+          "MagicBounce"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": 0.3,
+            "z": -0.5
+          },
+          "moving": {
+            "x": 0.0,
+            "y": 0.3,
+            "z": -0.5
+          }
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 57,
+        "attack": 90,
+        "defense": 95,
+        "specialAttack": 136,
+        "specialDefense": 103,
+        "speed": 29
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 255,
+        "baseFriendship": 50,
+        "spawnLevel": 55,
+        "spawnLevelRange": 3,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/858_hatterene/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/858_hatterene/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/858_hatterene/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/858_hatterene/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/858_hatterene/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FAIRY"
+      ],
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "preEvolutions": [
+        "Hattrem",
+        "Hatenna"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": true,
+        "canGigantamax": true,
+        "form": "gmax",
+        "move": "G-Max Smite"
+      },
+      "eggCycles": 21,
+      "weight": 5.1,
+      "catchRate": 45,
+      "malePercentage": 0,
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "gmax",
+      "tags": [
+        "temp"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/858_hatterene/all/gmax/none/texture.png",
+              "sprite": "pixelmon:pokemon/858_hatterene/all/gmax/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/858_hatterene/all/gmax/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/858_hatterene/all/gmax/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/858_hatterene/all/gmax/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 8
+}

@@ -1,0 +1,418 @@
+{
+  "name": "Pineco",
+  "dex": 204,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.55,
+        "width": 0.5,
+        "length": 1,
+        "eyeHeight": 0.55,
+        "hoverHeight": 0.55
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Protect",
+              "Tackle"
+            ]
+          },
+          {
+            "level": 6,
+            "attacks": [
+              "Self-Destruct"
+            ]
+          },
+          {
+            "level": 9,
+            "attacks": [
+              "Bug Bite"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Take Down"
+            ]
+          },
+          {
+            "level": 17,
+            "attacks": [
+              "Rapid Spin"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Bide"
+            ]
+          },
+          {
+            "level": 23,
+            "attacks": [
+              "Natural Gift"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Spikes"
+            ]
+          },
+          {
+            "level": 31,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 34,
+            "attacks": [
+              "Explosion"
+            ]
+          },
+          {
+            "level": 39,
+            "attacks": [
+              "Iron Defense"
+            ]
+          },
+          {
+            "level": 42,
+            "attacks": [
+              "Gyro Ball"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Double-Edge"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Bug Bite",
+          "Drill Run",
+          "Giga Drain",
+          "Gravity",
+          "Iron Defense",
+          "Pain Split",
+          "Snore",
+          "Stealth Rock"
+        ],
+        "eggMoves": [
+          "Counter",
+          "Double-Edge",
+          "Endure",
+          "Flail",
+          "Pin Missile",
+          "Power Trick",
+          "Revenge",
+          "Sand Tomb",
+          "Stealth Rock",
+          "Swift",
+          "Toxic Spikes"
+        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [
+          "Body Slam",
+          "Captivate",
+          "Curse",
+          "Defense Curl",
+          "Dig",
+          "Headbutt",
+          "Mimic",
+          "Refresh",
+          "Rock Smash",
+          "Rollout",
+          "Secret Power",
+          "Strength",
+          "String Shot",
+          "Struggle Bug",
+          "Sweet Scent"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Gyro Ball",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Venoshock",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Explosion",
+          "Payback",
+          "Gyro Ball",
+          "Struggle Bug",
+          "Bulldoze",
+          "Rock Slide",
+          "Swagger",
+          "Substitute",
+          "Rock Smash"
+        ],
+        "tmMoves4": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Rock Tomb",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Endure",
+          "Explosion",
+          "Payback",
+          "Gyro Ball",
+          "Stealth Rock",
+          "Captivate",
+          "Rock Slide",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Light Screen",
+          "Protect",
+          "Giga Drain",
+          "Frustration",
+          "Solar Beam",
+          "Earthquake",
+          "Return",
+          "Dig",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Rollout",
+          "Toxic",
+          "Rock Smash",
+          "Hidden Power",
+          "Sunny Day",
+          "Sweet Scent",
+          "Snore",
+          "Protect",
+          "Giga Drain",
+          "Endure",
+          "Frustration",
+          "Solar Beam",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Defense Curl",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "Sturdy"
+        ],
+        "hiddenAbilities": [
+          "Overcoat"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 90,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 15
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 60,
+        "baseFriendship": 70,
+        "spawnLevel": 5,
+        "spawnLevelRange": 25,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/204_pineco/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/204_pineco/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/204_pineco/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.pineco",
+                "pixelmon.mob.pineco"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/204_pineco/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/204_pineco/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 7.2,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 31,
+          "to": "Forretress",
+          "conditions": [],
+          "evoType": "leveling",
+          "moves": [
+            "Mirror Shot",
+            "Autotomize"
+          ]
+        }
+      ],
+      "evYields": {
+        "defense": 1
+      }
+    }
+  ],
+  "generation": 2
+}

@@ -1,0 +1,180 @@
+{
+  "name": "Snom",
+  "dex": 872,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.4,
+        "width": 0.8,
+        "length": 1,
+        "eyeHeight": 0.4,
+        "hoverHeight": 0.4
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Powder Snow",
+              "Struggle Bug"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Skitter Smack"
+        ],
+        "eggMoves": [
+          "Bug Bite",
+          "Fairy Wind",
+          "Mirror Coat"
+        ],
+        "tmMoves8": [
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Facade",
+          "Icicle Spear",
+          "Round"
+        ],
+        "trMoves": [
+          "Substitute",
+          "Endure",
+          "Sleep Talk",
+          "Bug Buzz"
+        ],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShieldDust"
+        ],
+        "hiddenAbilities": [
+          "IceScales"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 30,
+        "attack": 25,
+        "defense": 35,
+        "specialAttack": 45,
+        "specialDefense": 30,
+        "speed": 20
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 37,
+        "baseFriendship": 50,
+        "spawnLevel": 38,
+        "spawnLevelRange": 14,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/872_snom/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/872_snom/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "DUAL",
+                "pqc": [
+                  "pixelmon:pokemon/872_snom/all/base/none/model.pqc",
+                  "pixelmon:pokemon/872_snom/all/base/none/model1.pqc"
+                ],
+                "transparency2": 0.3
+              },
+              "sounds": [
+                "pixelmon.mob.snom",
+                "pixelmon.mob.snom",
+                "pixelmon.mob.snom"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/872_snom/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/872_snom/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "BUG"
+      ],
+      "types": [
+        "ICE",
+        "BUG"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 3.8,
+      "catchRate": 190,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "to": "Frosmoth",
+          "conditions": [
+            {
+              "friendship": 220,
+              "evoConditionType": "friendship"
+            },
+            {
+              "time": "NIGHT",
+              "evoConditionType": "time"
+            }
+          ],
+          "evoType": "leveling",
+          "moves": [
+            "Icy Wind"
+          ]
+        }
+      ],
+      "evYields": {
+        "specialAttack": 1
+      }
+    }
+  ],
+  "generation": 8
+}

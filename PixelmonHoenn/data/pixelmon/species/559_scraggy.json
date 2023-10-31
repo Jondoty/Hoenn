@@ -1,0 +1,429 @@
+{
+  "name": "Scraggy",
+  "dex": 559,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 0.7,
+        "width": 0.4,
+        "length": 1,
+        "eyeHeight": 0.7,
+        "hoverHeight": 0.7
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Low Kick"
+            ]
+          },
+          {
+            "level": 4,
+            "attacks": [
+              "Payback"
+            ]
+          },
+          {
+            "level": 8,
+            "attacks": [
+              "Headbutt"
+            ]
+          },
+          {
+            "level": 12,
+            "attacks": [
+              "Sand Attack"
+            ]
+          },
+          {
+            "level": 16,
+            "attacks": [
+              "Facade"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Protect"
+            ]
+          },
+          {
+            "level": 24,
+            "attacks": [
+              "Beat Up"
+            ]
+          },
+          {
+            "level": 28,
+            "attacks": [
+              "Scary Face"
+            ]
+          },
+          {
+            "level": 32,
+            "attacks": [
+              "Brick Break"
+            ]
+          },
+          {
+            "level": 36,
+            "attacks": [
+              "Swagger"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Crunch"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "High Jump Kick"
+            ]
+          },
+          {
+            "level": 48,
+            "attacks": [
+              "Focus Punch"
+            ]
+          },
+          {
+            "level": 52,
+            "attacks": [
+              "Head Smash"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Coaching",
+          "Lash Out"
+        ],
+        "eggMoves": [
+          "Acid Spray",
+          "Counter",
+          "Detect",
+          "Fake Out",
+          "Power-Up Punch",
+          "Quick Guard"
+        ],
+        "tmMoves8": [
+          "Mega Punch",
+          "Mega Kick",
+          "Fire Punch",
+          "Ice Punch",
+          "Thunder Punch",
+          "Dig",
+          "Rest",
+          "Rock Slide",
+          "Thief",
+          "Snore",
+          "Protect",
+          "Scary Face",
+          "Attract",
+          "Rain Dance",
+          "Sunny Day",
+          "Beat Up",
+          "Facade",
+          "Revenge",
+          "Brick Break",
+          "Fake Tears",
+          "Rock Tomb",
+          "Payback",
+          "Assurance",
+          "Fling",
+          "Drain Punch",
+          "Low Sweep",
+          "Round",
+          "Retaliate",
+          "Snarl"
+        ],
+        "trMoves": [
+          "Low Kick",
+          "Amnesia",
+          "Substitute",
+          "Sludge Bomb",
+          "Endure",
+          "Sleep Talk",
+          "Iron Tail",
+          "Crunch",
+          "Taunt",
+          "Iron Defense",
+          "Dragon Claw",
+          "Bulk Up",
+          "Dragon Dance",
+          "Poison Jab",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Focus Blast",
+          "Zen Headbutt",
+          "Iron Head",
+          "Stone Edge",
+          "Grass Knot",
+          "Foul Play",
+          "Work Up"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Chip Away",
+          "Confide",
+          "Double Team",
+          "Dragon Tail",
+          "Dual Chop",
+          "Feint Attack",
+          "Frustration",
+          "Hidden Power",
+          "Incinerate",
+          "Knock Off",
+          "Return",
+          "Roar",
+          "Rock Climb",
+          "Rock Smash",
+          "Secret Power",
+          "Smack Down",
+          "Snatch",
+          "Spite",
+          "Strength",
+          "Super Fang",
+          "Torment",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Work Up",
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Payback",
+          "Stone Edge",
+          "Rock Slide",
+          "Dragon Tail",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Snarl",
+          "Dark Pulse",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Payback",
+          "Retaliate",
+          "Stone Edge",
+          "Rock Slide",
+          "Dragon Tail",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Snarl",
+          "Dark Pulse",
+          "Power-Up Punch",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Dragon Claw",
+          "Roar",
+          "Toxic",
+          "Bulk Up",
+          "Hidden Power",
+          "Sunny Day",
+          "Taunt",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Smack Down",
+          "Return",
+          "Dig",
+          "Brick Break",
+          "Double Team",
+          "Sludge Bomb",
+          "Rock Tomb",
+          "Torment",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Low Sweep",
+          "Round",
+          "Focus Blast",
+          "Fling",
+          "Incinerate",
+          "Payback",
+          "Retaliate",
+          "Stone Edge",
+          "Rock Slide",
+          "Dragon Tail",
+          "Work Up",
+          "Poison Jab",
+          "Grass Knot",
+          "Swagger",
+          "Substitute",
+          "Rock Smash",
+          "Snarl"
+        ],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "ShedSkin",
+          "Moxie"
+        ],
+        "hiddenAbilities": [
+          "Intimidate"
+        ]
+      },
+      "movement": {
+        "rideable": false,
+        "canFly": false,
+        "canSurf": false,
+        "canRideShoulder": false
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 70,
+        "specialAttack": 35,
+        "specialDefense": 70,
+        "speed": 48
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 70,
+        "baseFriendship": 35,
+        "spawnLevel": 5,
+        "spawnLevelRange": 20,
+        "spawnLocations": [
+          "LAND"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/559_scraggy/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/559_scraggy/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/559_scraggy/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": []
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/559_scraggy/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/559_scraggy/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "FIELD",
+        "DRAGON"
+      ],
+      "types": [
+        "DARK",
+        "FIGHTING"
+      ],
+      "preEvolutions": [],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 16,
+      "weight": 11.8,
+      "catchRate": 180,
+      "malePercentage": 50,
+      "evolutions": [
+        {
+          "level": 39,
+          "to": "Scrafty",
+          "conditions": [],
+          "evoType": "leveling"
+        }
+      ],
+      "evYields": {
+        "attack": 1
+      }
+    }
+  ],
+  "generation": 5
+}

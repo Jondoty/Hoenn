@@ -1,0 +1,657 @@
+{
+  "name": "Latios",
+  "dex": 381,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "SLOW",
+      "dimensions": {
+        "height": 1.0,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.0,
+        "hoverHeight": 1.0
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Dragon Dance",
+              "Stored Power"
+            ]
+          },
+          {
+            "level": 5,
+            "attacks": [
+              "Helping Hand"
+            ]
+          },
+          {
+            "level": 10,
+            "attacks": [
+              "Recover"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Confusion"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Tailwind"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Ally Switch"
+            ]
+          },
+          {
+            "level": 35,
+            "attacks": [
+              "Luster Purge"
+            ]
+          },
+          {
+            "level": 40,
+            "attacks": [
+              "Zen Headbutt"
+            ]
+          },
+          {
+            "level": 45,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 50,
+            "attacks": [
+              "Heal Pulse"
+            ]
+          },
+          {
+            "level": 55,
+            "attacks": [
+              "Simple Beam"
+            ]
+          },
+          {
+            "level": 60,
+            "attacks": [
+              "Psychic"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Power Split"
+            ]
+          },
+          {
+            "level": 70,
+            "attacks": [
+              "Memento"
+            ]
+          },
+          {
+            "level": 75,
+            "attacks": [
+              "Psycho Shift"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Dual Wingbeat",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+
+        ],
+        "tmMoves8": [
+          "Fly",
+          "Hyper Beam",
+          "Giga Impact",
+          "Solar Beam",
+          "Thunder Wave",
+          "Light Screen",
+          "Reflect",
+          "Safeguard",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Steel Wing",
+          "Attract",
+          "Sandstorm",
+          "Rain Dance",
+          "Sunny Day",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Helping Hand",
+          "Dive",
+          "Shadow Claw",
+          "Psycho Cut",
+          "Wonder Room",
+          "Round",
+          "Retaliate",
+          "Bulldoze",
+          "Mystical Fire",
+          "Air Slash",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Surf",
+          "Ice Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Psychic",
+          "Agility",
+          "Waterfall",
+          "Tri Attack",
+          "Substitute",
+          "Outrage",
+          "Psyshock",
+          "Endure",
+          "Sleep Talk",
+          "Baton Pass",
+          "Shadow Ball",
+          "Future Sight",
+          "Trick",
+          "Dragon Claw",
+          "Calm Mind",
+          "Dragon Dance",
+          "Aura Sphere",
+          "Dragon Pulse",
+          "Energy Ball",
+          "Zen Headbutt",
+          "Grass Knot",
+          "Stored Power",
+          "Ally Switch"
+        ],
+        "hmMoves": [
+
+        ],
+        "transferMoves": [
+          "Aerial Ace",
+          "Captivate",
+          "Charge Beam",
+          "Confide",
+          "Cut",
+          "Defog",
+          "Double Team",
+          "Double-Edge",
+          "Dream Eater",
+          "Flash",
+          "Frustration",
+          "Fury Cutter",
+          "Heal Block",
+          "Hidden Power",
+          "Hone Claws",
+          "Laser Focus",
+          "Last Resort",
+          "Magic Coat",
+          "Mimic",
+          "Mud-Slap",
+          "Natural Gift",
+          "Psych Up",
+          "Psywave",
+          "Refresh",
+          "Return",
+          "Roar",
+          "Roost",
+          "Secret Power",
+          "Shock Wave",
+          "Swagger",
+          "Telekinesis",
+          "Toxic",
+          "Twister",
+          "Water Pulse"
+        ],
+        "tmMoves7": [
+          "Dragon Claw",
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Charge Beam",
+          "Shadow Claw",
+          "Giga Impact",
+          "Thunder Wave",
+          "Fly",
+          "Psych Up",
+          "Bulldoze",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Roost",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Steel Wing",
+          "Energy Ball",
+          "Charge Beam",
+          "Shadow Claw",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Hone Claws",
+          "Dragon Claw",
+          "Psyshock",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Telekinesis",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Energy Ball",
+          "Charge Beam",
+          "Shadow Claw",
+          "Retaliate",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Bulldoze",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves4": [
+          "Dragon Claw",
+          "Water Pulse",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Steel Wing",
+          "Roost",
+          "Energy Ball",
+          "Charge Beam",
+          "Endure",
+          "Dragon Pulse",
+          "Shadow Claw",
+          "Giga Impact",
+          "Flash",
+          "Thunder Wave",
+          "Psych Up",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Dream Eater",
+          "Grass Knot",
+          "Swagger",
+          "Substitute"
+        ],
+        "tmMoves3": [
+          "Dragon Claw",
+          "Water Pulse",
+          "Calm Mind",
+          "Roar",
+          "Toxic",
+          "Hidden Power",
+          "Sunny Day",
+          "Ice Beam",
+          "Hyper Beam",
+          "Light Screen",
+          "Protect",
+          "Rain Dance",
+          "Safeguard",
+          "Frustration",
+          "Solar Beam",
+          "Thunderbolt",
+          "Thunder",
+          "Earthquake",
+          "Return",
+          "Psychic",
+          "Shadow Ball",
+          "Double Team",
+          "Reflect",
+          "Shock Wave",
+          "Sandstorm",
+          "Aerial Ace",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Steel Wing"
+        ],
+        "tmMoves2": [
+
+        ],
+        "tmMoves1": [
+
+        ],
+        "tmMoves": [
+
+        ]
+      },
+      "abilities": {
+        "abilities": [
+          "Levitate"
+        ],
+        "hiddenAbilities": [
+
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": true,
+        "canSurf": false,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": 0.0
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -0.77,
+            "z": 0.0
+          }
+        },
+        "flyingParameters": {
+          "flyHeightMin": 15,
+          "flyHeightMax": 25,
+          "flySpeedModifier": 1.0,
+          "flyRefreshRateY": 80,
+          "flyRefreshRateXZ": 100,
+          "flyRefreshRateSpeed": 100,
+          "flightTimeMin": 0,
+          "flightTimeMax": 20,
+          "flapRate": 10,
+          "landingMaterials": "NONE"
+        },
+        "mountedFlyingParameters": {
+          "type": "pixelmon:default",
+          "upper_angle_limit": 20,
+          "lower_angle_limit": -20,
+          "max_fly_speed": 1,
+          "deceleration_rate": 0.07,
+          "hover_deceleration_rate": 0.09,
+          "acceleration_rate": 0.07,
+          "strafe_acceleration_rate": 0.08,
+          "strafe_roll_conversion": 30,
+          "turn_rate": 0.5,
+          "pitch_rate": 0.8,
+          "stays_horizontal_flying": true,
+          "gravity_drop_per_tick": 0.005,
+          "continuous_forward_motion": true,
+          "continuous_forward_motion_ticks": 10,
+          "flying_stamina_charges": 7,
+          "hover_ticks": 100
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 80,
+        "attack": 90,
+        "defense": 80,
+        "specialAttack": 130,
+        "specialDefense": 110,
+        "speed": 110
+      },
+      "tags": [
+        "legendary"
+      ],
+      "spawn": {
+        "baseExp": 211,
+        "baseFriendship": 90,
+        "spawnLevel": 70,
+        "spawnLevelRange": 0,
+        "spawnLocations": [
+          "AIR_PERSISTENT"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/381_latios/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/381_latios/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/381_latios/all/base/none/model.pqc"
+                ],
+                "yRotation": 22.7,
+                "zRotation": 3
+              },
+              "sounds": [
+                "pixelmon.mob.latios"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/381_latios/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/381_latios/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "UNDISCOVERED"
+      ],
+      "types": [
+        "DRAGON",
+        "PSYCHIC"
+      ],
+      "preEvolutions": [
+
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [
+        "pixelmon:latiosite"
+      ],
+      "megas": [
+        "mega"
+      ],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 121,
+      "weight": 60.0,
+      "catchRate": 3,
+      "malePercentage": 100,
+      "evolutions": [
+
+      ],
+      "evYields": {
+        "specialAttack": 3
+      }
+    },
+    {
+      "name": "mega",
+      "tags": [
+        "temp"
+      ],
+      "battleStats": {
+        "hp": 80,
+        "attack": 130,
+        "defense": 100,
+        "specialAttack": 160,
+        "specialDefense": 120,
+        "speed": 110
+      },
+      "weight": 70.0,
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/381_latios/all/mega/none/texture.png",
+              "sprite": "pixelmon:pokemon/381_latios/all/mega/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/381_latios/all/mega/none/model.pqc"
+                ]
+              }
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/381_latios/all/mega/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/381_latios/all/mega/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generation": 3
+}

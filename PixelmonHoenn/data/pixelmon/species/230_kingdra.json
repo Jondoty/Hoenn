@@ -1,0 +1,451 @@
+{
+  "name": "Kingdra",
+  "dex": 230,
+  "defaultForms": [
+    ""
+  ],
+  "forms": [
+    {
+      "name": "",
+      "experienceGroup": "MEDIUM_FAST",
+      "dimensions": {
+        "height": 1.6,
+        "width": 1.0,
+        "length": 1,
+        "eyeHeight": 1.6,
+        "hoverHeight": 1.6
+      },
+      "moves": {
+        "levelUpMoves": [
+          {
+            "level": 0,
+            "attacks": [
+              "Leer",
+              "Smokescreen",
+              "Twister",
+              "Water Gun",
+              "Whirlpool",
+              "Yawn"
+            ]
+          },
+          {
+            "level": 15,
+            "attacks": [
+              "Focus Energy"
+            ]
+          },
+          {
+            "level": 20,
+            "attacks": [
+              "Dragon Breath"
+            ]
+          },
+          {
+            "level": 25,
+            "attacks": [
+              "Bubble Beam"
+            ]
+          },
+          {
+            "level": 30,
+            "attacks": [
+              "Agility"
+            ]
+          },
+          {
+            "level": 37,
+            "attacks": [
+              "Laser Focus"
+            ]
+          },
+          {
+            "level": 44,
+            "attacks": [
+              "Dragon Pulse"
+            ]
+          },
+          {
+            "level": 51,
+            "attacks": [
+              "Hydro Pump"
+            ]
+          },
+          {
+            "level": 58,
+            "attacks": [
+              "Dragon Dance"
+            ]
+          },
+          {
+            "level": 65,
+            "attacks": [
+              "Rain Dance"
+            ]
+          }
+        ],
+        "tutorMoves": [
+          "Draco Meteor",
+          "Flip Turn",
+          "Scale Shot"
+        ],
+        "eggMoves": [
+          "Aurora Beam",
+          "Clear Smog",
+          "Disable",
+          "Flail",
+          "Octazooka",
+          "Splash",
+          "Water Pulse"
+        ],
+        "tmMoves8": [
+          "Hyper Beam",
+          "Giga Impact",
+          "Rest",
+          "Snore",
+          "Protect",
+          "Icy Wind",
+          "Attract",
+          "Rain Dance",
+          "Hail",
+          "Whirlpool",
+          "Facade",
+          "Swift",
+          "Dive",
+          "Bounce",
+          "Brine",
+          "Round",
+          "Breaking Swipe"
+        ],
+        "trMoves": [
+          "Body Slam",
+          "Hydro Pump",
+          "Surf",
+          "Ice Beam",
+          "Blizzard",
+          "Agility",
+          "Focus Energy",
+          "Waterfall",
+          "Substitute",
+          "Outrage",
+          "Endure",
+          "Sleep Talk",
+          "Muddy Water",
+          "Dragon Dance",
+          "Dragon Pulse",
+          "Flash Cannon",
+          "Iron Head",
+          "Scald",
+          "Hurricane",
+          "Liquidation"
+        ],
+        "hmMoves": [],
+        "transferMoves": [
+          "Bide",
+          "Bubble",
+          "Bubble Beam",
+          "Captivate",
+          "Confide",
+          "Curse",
+          "Double Team",
+          "Double-Edge",
+          "Dragon Rage",
+          "Frustration",
+          "Headbutt",
+          "Hidden Power",
+          "Mimic",
+          "Natural Gift",
+          "Quash",
+          "Rage",
+          "Razor Wind",
+          "Return",
+          "Secret Power",
+          "Signal Beam",
+          "Skull Bash",
+          "Swagger",
+          "Take Down",
+          "Toxic"
+        ],
+        "tmMoves7": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Quash",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Surf",
+          "Waterfall",
+          "Confide"
+        ],
+        "tmMoves6": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Quash",
+          "Giga Impact",
+          "Swagger",
+          "Sleep Talk",
+          "Substitute",
+          "Flash Cannon",
+          "Secret Power",
+          "Confide"
+        ],
+        "tmMoves5": [
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Rest",
+          "Attract",
+          "Round",
+          "Scald",
+          "Quash",
+          "Giga Impact",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves4": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract",
+          "Brine",
+          "Endure",
+          "Dragon Pulse",
+          "Giga Impact",
+          "Captivate",
+          "Sleep Talk",
+          "Natural Gift",
+          "Swagger",
+          "Substitute",
+          "Flash Cannon"
+        ],
+        "tmMoves3": [
+          "Water Pulse",
+          "Toxic",
+          "Hail",
+          "Hidden Power",
+          "Ice Beam",
+          "Blizzard",
+          "Hyper Beam",
+          "Protect",
+          "Rain Dance",
+          "Frustration",
+          "Return",
+          "Double Team",
+          "Facade",
+          "Secret Power",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves2": [
+          "Headbutt",
+          "Curse",
+          "Toxic",
+          "Hidden Power",
+          "Snore",
+          "Blizzard",
+          "Hyper Beam",
+          "Icy Wind",
+          "Protect",
+          "Rain Dance",
+          "Endure",
+          "Frustration",
+          "Dragon Breath",
+          "Return",
+          "Double Team",
+          "Swagger",
+          "Sleep Talk",
+          "Swift",
+          "Rest",
+          "Attract"
+        ],
+        "tmMoves1": [],
+        "tmMoves": []
+      },
+      "abilities": {
+        "abilities": [
+          "SwiftSwim",
+          "Sniper"
+        ],
+        "hiddenAbilities": [
+          "Damp"
+        ]
+      },
+      "movement": {
+        "rideable": true,
+        "canFly": false,
+        "canSurf": true,
+        "canRideShoulder": false,
+        "ridingOffsets": {
+          "standing": {
+            "x": 0.0,
+            "y": -1.25,
+            "z": -0.2
+          },
+          "moving": {
+            "x": 0.0,
+            "y": -1.6,
+            "z": -0.2
+          }
+        },
+        "swimmingParameters": {
+          "depthRangeStart": 25,
+          "depthRangeEnd": 100,
+          "swimSpeed": 18,
+          "decayRate": 0.99,
+          "refreshRate": 200,
+          "chanceToStopOnBlock": 0.8,
+          "blocksToStopOn": [
+            "minecraft:TALL_SEAGRASS",
+            "minecraft:KELP_PLANT"
+          ],
+          "minStopTime": 20,
+          "maxStopTime": 30,
+          "minStopCooldownTime": 60,
+          "maxStopCooldownTime": 120
+        }
+      },
+      "aggression": {
+        "timid": 80,
+        "passive": 0,
+        "aggressive": 20
+      },
+      "battleStats": {
+        "hp": 75,
+        "attack": 95,
+        "defense": 95,
+        "specialAttack": 95,
+        "specialDefense": 95,
+        "speed": 85
+      },
+      "tags": [],
+      "spawn": {
+        "baseExp": 207,
+        "baseFriendship": 70,
+        "spawnLevel": 45,
+        "spawnLevelRange": 15,
+        "spawnLocations": [
+          "WATER"
+        ]
+      },
+      "possibleGenders": [
+        "MALE",
+        "FEMALE"
+      ],
+      "genderProperties": [
+        {
+          "gender": "ALL",
+          "palettes": [
+            {
+              "name": "none",
+              "texture": "pixelmon:pokemon/230_kingdra/all/base/none/texture.png",
+              "sprite": "pixelmon:pokemon/230_kingdra/all/base/none/sprite.png",
+              "particle": "",
+              "modelLocator": {
+                "factoryType": "NORMAL",
+                "pqc": [
+                  "pixelmon:pokemon/230_kingdra/all/base/none/model.pqc"
+                ]
+              },
+              "sounds": [
+                "pixelmon.mob.kingdra"
+              ]
+            },
+            {
+              "name": "shiny",
+              "texture": "pixelmon:pokemon/230_kingdra/all/base/shiny/texture.png",
+              "sprite": "pixelmon:pokemon/230_kingdra/all/base/shiny/sprite.png",
+              "particle": "arcanery:shiny"
+            },
+            {
+              "name": "drowned",
+              "texture": "pixelmon:pokemon/230_kingdra/all/base/drowned/texture.png",
+              "sprite": "pixelmon:pokemon/230_kingdra/all/base/drowned/sprite.png",
+              "particle": ""
+            }
+          ]
+        }
+      ],
+      "eggGroups": [
+        "WATER_ONE",
+        "DRAGON"
+      ],
+      "types": [
+        "WATER",
+        "DRAGON"
+      ],
+      "preEvolutions": [
+        "Seadra",
+        "Horsea"
+      ],
+      "defaultBaseForm": "",
+      "megaItems": [],
+      "megas": [],
+      "gigantamax": {
+        "canHaveFactor": false,
+        "canGigantamax": false
+      },
+      "eggCycles": 21,
+      "weight": 152.0,
+      "catchRate": 45,
+      "malePercentage": 50,
+      "evolutions": [],
+      "evYields": {
+        "attack": 1,
+        "specialAttack": 1,
+        "specialDefense": 1
+      }
+    }
+  ],
+  "generation": 2
+}
