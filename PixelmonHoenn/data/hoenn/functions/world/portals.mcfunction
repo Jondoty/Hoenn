@@ -33,7 +33,7 @@ playsound minecraft:entity.player.levelup ambient @a[x=-2028,y=65,z=1376,dz=1,dy
 tellraw @a[x=-2028,y=65,z=1376,dz=1,dy=3] {"text":"You picked the Omega Ruby story line!","italic":true,"color":"gray"}
 give @a[x=-2028,y=65,z=1376,dz=1,dy=3] pixelmon:redbadgecase
 
-scoreboard players set @a[x=-2028,y=65,z=1371,dz=1,dy=3] GameVersion 1
+scoreboard players set @a[x=-2028,y=65,z=1371,dz=1,dy=3] GameVersion 2
 playsound minecraft:entity.player.levelup ambient @a[x=-2028,y=65,z=1371,dz=1,dy=3] ~ ~ ~ 1 1 1
 tellraw @a[x=-2028,y=65,z=1371,dz=1,dy=3] {"text":"You picked the Alpha Sapphire story line!","italic":true,"color":"gray"}
 give @a[x=-2028,y=65,z=1371,dz=1,dy=3] pixelmon:bluebadgecase
