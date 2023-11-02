@@ -31,10 +31,12 @@ tp @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=1..,Rival=2}] -1985 50 2
 scoreboard players set @a[x=-2028,y=65,z=1376,dz=1,dy=3] GameVersion 1
 playsound minecraft:entity.player.levelup ambient @a[x=-2028,y=65,z=1376,dz=1,dy=3] ~ ~ ~ 1 1 1
 tellraw @a[x=-2028,y=65,z=1376,dz=1,dy=3] {"text":"You picked the Omega Ruby story line!","italic":true,"color":"gray"}
+give @a[x=-2028,y=65,z=1376,dz=1,dy=3] pixelmon:redbadgecase
 
 scoreboard players set @a[x=-2028,y=65,z=1371,dz=1,dy=3] GameVersion 1
 playsound minecraft:entity.player.levelup ambient @a[x=-2028,y=65,z=1371,dz=1,dy=3] ~ ~ ~ 1 1 1
 tellraw @a[x=-2028,y=65,z=1371,dz=1,dy=3] {"text":"You picked the Alpha Sapphire story line!","italic":true,"color":"gray"}
+give @a[x=-2028,y=65,z=1371,dz=1,dy=3] pixelmon:bluebadgecase
 
 tellraw @a[x=-2028,y=65,z=1371,dz=6,dy=3,scores={Rival=0}] {"text":"Which rival do you want to battle in the story?","italic":true,"color":"gray"}
 tp @a[x=-2028,y=65,z=1371,dz=6,dy=3,scores={Rival=0}] -2042 65 1374
