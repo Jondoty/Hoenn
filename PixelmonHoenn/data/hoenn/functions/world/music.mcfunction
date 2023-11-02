@@ -86,6 +86,18 @@ scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=10}] MusicCooldown
 #---------------------------------------------------------------------------------------------------------------------------
 #Entity-based music
 
+#Soaring Overworld when a genie is in the sky and player has encountered but not caught it
+#Tornadus
+execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:641}] run playsound minecraft:unovas record @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=TornadusEncounter,tag=!TornadusCatch] ~ ~ ~ 1 1 1
+execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:641}] run scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=TornadusEncounter,tag=!TornadusCatch] MusicCooldown 281
+
+#Thundurus
+execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:642}] run playsound minecraft:unovas record @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=ThundurusEncounter,tag=!ThundurusCatch] ~ ~ ~ 1 1 1
+execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:642}] run scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=ThundurusEncounter,tag=!ThundurusCatch] MusicCooldown 281
+
+#Landorus
+execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:645}] run playsound minecraft:unovas record @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=LandorusEncounter,tag=!LandorusCatch] ~ ~ ~ 1 1 1
+execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:645}] run scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=LandorusEncounter,tag=!LandorusCatch] MusicCooldown 281
 
 #---------------------------------------------------------------------------------------------------------------------------
 #Areas within areas, takes priority

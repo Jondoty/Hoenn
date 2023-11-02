@@ -35,6 +35,7 @@ scoreboard players set @s rng 0
 scoreboard players set @s PokemonLeague 0
 
 #Removes Misc Story Tags
+advancement revoke @s everything
 tag @s remove AllBadges
 tag @s remove Room1
 tag @s remove Room2

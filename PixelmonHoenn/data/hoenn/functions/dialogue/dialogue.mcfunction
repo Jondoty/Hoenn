@@ -8359,6 +8359,23 @@ execute as @s[scores={DialogueTrigger=241,TalkTime=16}] run tellraw @s ["",{"tex
 #execute as @s[scores={DialogueTrigger=241,TalkTime=1}] run pokebattle @s Thundurus lvl:50
 
 tag @s[scores={DialogueTrigger=241,TalkTime=16..}] add Dialogue241
+
+#-------------------------------
+#Dialogue 264 - Soaring in the sky
+#Landorus Prompt
+
+tellraw @s[scores={DialogueTrigger=264,TalkTime=1}] {"text":"You feel a presence and a strong power behind the black clouds..."}
+tellraw @s[scores={DialogueTrigger=264,TalkTime=10}] {"text":"Do you want to fly into the clouds?"}
+execute as @s[scores={DialogueTrigger=264,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=264,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 44"}},{"text":"]"}]
+#[Yes]
+
+
+#tellraw @s[scores={DialogueTrigger=241,TalkTime=1}] {"text":"Landorus appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=241,TalkTime=1}] run pokebattle @s Landorus lvl:50
+
+tag @s[scores={DialogueTrigger=264,TalkTime=10..}] add Dialogue264
+
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 242 - Lillycove or Slateport Harbor
 #https://youtu.be/MgkqxXCmrtI?t=85438
@@ -8847,7 +8864,7 @@ execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run tag @s remove ShakeSc
 
 tellraw @s[scores={DialogueTrigger=263,TalkTime=1}] {"text":"It sounded as if doors opened somewhere far away.","italic":true,"color":"gray"}
 
-tag @s[scores={DialogueTrigger=263,TalkTime=100..}] add Dialogue26
+tag @s[scores={DialogueTrigger=263,TalkTime=100..}] add Dialogue263
 #-----------------------------------------------------------------------------------------------------
 
 #Helpful points of reference

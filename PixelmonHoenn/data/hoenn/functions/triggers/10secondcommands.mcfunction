@@ -49,6 +49,12 @@ particle flash -1451 173 -605 0 0 0 0 1 force @a
 function hoenn:world/cuttrees
 
 
+#Soaring Overworld
+tag @a remove CastformHave
+tag @a remove ThundurusHave
+tag @a remove TornadusHave
+
+
 #Route 113 bushes regeneration
 #Checks if a player isn't on the route, anbb if air is found where a bush tip is, regenerate.
 #Bush 1

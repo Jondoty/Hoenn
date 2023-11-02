@@ -248,6 +248,31 @@ scoreboard players set @s[scores={DialogueTrigger=247},tag=Dialogue247] Dialogue
 scoreboard players set @s[scores={DialogueTrigger=248},tag=Dialogue248] DialogueTrigger 0
 scoreboard players set @s[scores={DialogueTrigger=249},tag=Dialogue249] DialogueTrigger 0
 scoreboard players set @s[scores={DialogueTrigger=250},tag=Dialogue250] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=251},tag=Dialogue251] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=252},tag=Dialogue252] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=253},tag=Dialogue253] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=254},tag=Dialogue254] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=255},tag=Dialogue255] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=256},tag=Dialogue256] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=257},tag=Dialogue257] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=258},tag=Dialogue258] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=259},tag=Dialogue259] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=260},tag=Dialogue260] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=261},tag=Dialogue261] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=262},tag=Dialogue262] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=263},tag=Dialogue263] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=264},tag=Dialogue264] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=265},tag=Dialogue265] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=266},tag=Dialogue266] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=267},tag=Dialogue267] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=268},tag=Dialogue268] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=269},tag=Dialogue269] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=270},tag=Dialogue270] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=271},tag=Dialogue271] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=272},tag=Dialogue272] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=273},tag=Dialogue273] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=274},tag=Dialogue274] DialogueTrigger 0
+scoreboard players set @s[scores={DialogueTrigger=275},tag=Dialogue275] DialogueTrigger 0
 
 
 scoreboard players set @s[scores={DialogueTrigger=1000},tag=Dialogue1000] DialogueTrigger 0

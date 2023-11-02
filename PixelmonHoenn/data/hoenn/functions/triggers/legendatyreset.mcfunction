@@ -76,6 +76,7 @@ execute as @s[tag=!KyuremCatch,tag=KyuremEncounter] run tag @s remove KyuremEnco
 
 #landorus
 execute as @s[tag=!LandorusCatch,tag=LandorusEncounter] run tellraw @s {"text":"You can now rebattle Landorus!","italic":true,"color":"gray"}
+execute as @s[tag=!LandorusCatch,tag=LandorusEncounter] run tag @s remove Dialogue264
 execute as @s[tag=!LandorusCatch,tag=LandorusEncounter] run tag @s remove LandorusEncounter
 
 
@@ -166,12 +167,14 @@ execute as @s[tag=!TerrakionCatch,tag=TerrakionEncounter] run tag @s remove Terr
 
 #thundurus
 execute as @s[tag=!ThundurusCatch,tag=ThundurusEncounter] run tellraw @s {"text":"You can now rebattle Thundurus!","italic":true,"color":"gray"}
+execute as @s[tag=!ThundurusCatch,tag=ThundurusEncounter] run tag @s remove Dialogue241
 execute as @s[tag=!ThundurusCatch,tag=ThundurusEncounter] run tag @s remove ThundurusEncounter
 
 
 
 #tornadus
 execute as @s[tag=!TornadusCatch,tag=TornadusEncounter] run tellraw @s {"text":"You can now rebattle Tornadus!","italic":true,"color":"gray"}
+execute as @s[tag=!TornadusCatch,tag=TornadusEncounter] run tag @s remove Dialogue240
 execute as @s[tag=!TornadusCatch,tag=TornadusEncounter] run tag @s remove TornadusEncounter
 
 

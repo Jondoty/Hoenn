@@ -355,12 +355,53 @@ scoreboard players set @s PokeHave 0
 #The first contains TornadusOR/ThundurusAS, and only appears if the player has Castform in their party
 #The second cloud contains Landorus, and only appears if the player has Tornadus and Thundurus in their party
 
+execute as @s store result score @s PokeHave run poketest 1 Castform
+tag @s[scores={PokeHave=1}] add CastformHave
+execute as @s store result score @s PokeHave run poketest 2 Castform
+tag @s[scores={PokeHave=1}] add CastformHave
+execute as @s store result score @s PokeHave run poketest 3 Castform
+tag @s[scores={PokeHave=1}] add CastformHave
+execute as @s store result score @s PokeHave run poketest 4 Castform
+tag @s[scores={PokeHave=1}] add CastformHave
+execute as @s store result score @s PokeHave run poketest 5 Castform
+tag @s[scores={PokeHave=1}] add CastformHave
+execute as @s store result score @s PokeHave run poketest 6 Castform
+tag @s[scores={PokeHave=1}] add CastformHave
+
+execute as @s store result score @s PokeHave run poketest 1 Tornadus
+tag @s[scores={PokeHave=1}] add TornadusHave
+execute as @s store result score @s PokeHave run poketest 2 Tornadus
+tag @s[scores={PokeHave=1}] add TornadusHave
+execute as @s store result score @s PokeHave run poketest 3 Tornadus
+tag @s[scores={PokeHave=1}] add TornadusHave
+execute as @s store result score @s PokeHave run poketest 4 Tornadus
+tag @s[scores={PokeHave=1}] add TornadusHave
+execute as @s store result score @s PokeHave run poketest 5 Tornadus
+tag @s[scores={PokeHave=1}] add TornadusHave
+execute as @s store result score @s PokeHave run poketest 6 Tornadus
+tag @s[scores={PokeHave=1}] add TornadusHave
+
+execute as @s store result score @s PokeHave run poketest 1 Thundurus
+tag @s[scores={PokeHave=1}] add ThundurusHave
+execute as @s store result score @s PokeHave run poketest 2 Thundurus
+tag @s[scores={PokeHave=1}] add ThundurusHave
+execute as @s store result score @s PokeHave run poketest 3 Thundurus
+tag @s[scores={PokeHave=1}] add ThundurusHave
+execute as @s store result score @s PokeHave run poketest 4 Thundurus
+tag @s[scores={PokeHave=1}] add ThundurusHave
+execute as @s store result score @s PokeHave run poketest 5 Thundurus
+tag @s[scores={PokeHave=1}] add ThundurusHave
+execute as @s store result score @s PokeHave run poketest 6 Thundurus
+tag @s[scores={PokeHave=1}] add ThundurusHave
+
 #Thundurus, runs if it is raining
-execute if predicate hoenn:rain_test run scoreboard players set @a[x=-863,y=95,z=1411,distance=..7,tag=!Dialogue241] DialogueTrigger 241
+execute if predicate hoenn:rain_test run scoreboard players set @a[tag=CastformHave,x=-863,y=95,z=1411,distance=..7,tag=!Dialogue241] DialogueTrigger 241
 
 #Tornadus, runs if it is sunny
-execute unless predicate hoenn:rain_test run scoreboard players set @a[x=-930,y=95,z=1522,distance=..7,tag=!Dialogue240] DialogueTrigger 240
+execute unless predicate hoenn:rain_test run scoreboard players set @a[tag=CastformHave,x=-930,y=95,z=1522,distance=..7,tag=!Dialogue240] DialogueTrigger 240
 
+#Landorus, runs if both others present in inventory
+execute unless predicate hoenn:rain_test run scoreboard players set @a[tag=ThundurusHave,tag=TornadusHave,x=-814,y=106,z=1503,distance=..7,tag=!Dialogue264] DialogueTrigger 264
 
 #Regular world zones
 

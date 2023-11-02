@@ -33,11 +33,18 @@ execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelm
 execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:acro_bike",Count:1b}},tag=!AdventureData] run function hoenn:data/bikeitemdata
 
 #Soaring Overworld particles
-execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] if predicate hoenn:rain_test positioned -863 95 1411 run particle minecraft:flame ~ ~ ~ 1 1 1 0 13 force @a[tag=!ThundurusEncounter]
-execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] if predicate hoenn:rain_test positioned -863 95 1411 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 1 2 0 50 force @a[tag=!ThundurusEncounter]
+#Thundurus, over Dewford
+execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,tag=CastformHave] if predicate hoenn:rain_test positioned -863 95 1411 run particle minecraft:flame ~ ~ ~ 1 1 1 0 13 force @a[tag=!ThundurusEncounter]
+execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,tag=CastformHave] if predicate hoenn:rain_test positioned -863 95 1411 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 1 2 0 50 force @a[tag=!ThundurusEncounter]
 
-execute unless entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] if predicate hoenn:rain_test positioned -930 95 1522 run particle minecraft:flame ~ ~ ~ 1 1 1 0 13 force @a[tag=!ThundurusEncounter]
-execute unless entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] if predicate hoenn:rain_test positioned -930 95 1522 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 1 2 0 50 force @a[tag=!ThundurusEncounter]
+#Tornadus, over Foretree City
+execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,tag=CastformHave] unless predicate hoenn:rain_test positioned -930 95 1522 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 2 2 0 75 force @a[tag=!TornadusEncounter]
+
+#Landorus, over Pacifidlog
+execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,tag=TornadusHave,tag=ThundurusHave,tag=!LandorusEncounter] run particle pixelmon:cyclone 1.0 255 0 0 0 0 -821 106 1495 1 70 1 0.5 75 normal @a[tag=!LandorusEncounter]
+execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,tag=TornadusHave,tag=ThundurusHave,tag=!LandorusEncounter] positioned -814 106 1503 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 1 2 0 50 force @a[tag=!LandorusEncounter]
+
+#-----------------------------------------------------------------------------------------
 
 #Kills tree items in the wild. Ignores in bases
 execute as @a at @s unless entity @s[x=-3545,y=63,z=-3151,dx=1129,dy=50,dz=658] as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:tree"}}] run kill @s

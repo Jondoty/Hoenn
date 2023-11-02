@@ -23,5 +23,15 @@ scoreboard players set @s[scores={relog=1..}] MusicCooldown 0
 scoreboard players set @s BattleMusic 0
 
 
+#Removes dialogue tags for legendary prompts if the player never responds to them to encounter them
+#If player does respond to them, applies an Encounter tag and must defeat the E4 to reset.
+execute as @s[tag=!TornadusEncounter,tag=Dialogue240] run tag @s remove Dialogue240
+execute as @s[tag=!ThundurusEncounter,tag=Dialogue241] run tag @s remove Dialogue241
+execute as @s[tag=!LandorusEncounter,tag=Dialogue264] run tag @s remove Dialogue264
+
+
+
+
+
 #Sets relog score to 0
 scoreboard players set @s relog 0

@@ -310,6 +310,7 @@ execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] if entity @e[x=-2
 
 execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tellraw @s {"text":"Tornadus Appeared!"}
 execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] at @s run pokespawn Tornadus lvl:50 gr:7
+execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tag @s add TornadusEncounter
 
 #---------------------------------------------------
@@ -318,6 +319,7 @@ execute as @s[scores={TriggerCommand=42},tag=!TornadusEncounter] run tag @s add 
 
 execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tellraw @s {"text":"Thundurus Appeared!"}
 execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] at @s run pokespawn Thundurus lvl:50 gr:7
+execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tag @s add ThundurusEncounter
 
 #---------------------------------------------------
@@ -326,6 +328,7 @@ execute as @s[scores={TriggerCommand=43},tag=!ThundurusEncounter] run tag @s add
 
 execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run tellraw @s {"text":"Landorus Appeared!"}
 execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] at @s run pokespawn Landorus lvl:50 gr:7
+execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=44},tag=!LandorusEncounter] run tag @s add LandorusEncounter
 
 #-----------------------------------------------------------------------------------------------------
