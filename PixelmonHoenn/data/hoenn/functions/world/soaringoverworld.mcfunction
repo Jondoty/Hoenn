@@ -242,6 +242,35 @@ scoreboard players set @s PokeHave 0
 #Nameless Cavern
 #three Pokémon with max friendship in their party
 
+scoreboard players set @s Temp 0
+execute as @s store result score @s PokeHave run poketest 1 friendship:255
+execute as @s[scores={PokeHave=1}] run scoreboard players add @s Temp 1
+scoreboard players set @s PokeHave 0
+execute as @s store result score @s PokeHave run poketest 2 friendship:255
+execute as @s[scores={PokeHave=1}] run scoreboard players add @s Temp 1
+scoreboard players set @s PokeHave 0
+execute as @s store result score @s PokeHave run poketest 3 friendship:255
+execute as @s[scores={PokeHave=1}] run scoreboard players add @s Temp 1
+scoreboard players set @s PokeHave 0
+execute as @s store result score @s PokeHave run poketest 4 friendship:255
+execute as @s[scores={PokeHave=1}] run scoreboard players add @s Temp 1
+scoreboard players set @s PokeHave 0
+execute as @s store result score @s PokeHave run poketest 5 friendship:255
+execute as @s[scores={PokeHave=1}] run scoreboard players add @s Temp 1
+scoreboard players set @s PokeHave 0
+execute as @s store result score @s PokeHave run poketest 6 friendship:255
+execute as @s[scores={PokeHave=1}] run scoreboard players add @s Temp 1
+scoreboard players set @s PokeHave 0
+
+execute as @s[scores={Temp=3..}] run tag @s add NamelessSpawn
+execute as @s[tag=NamelessSpawn] run particle pixelmon:shiny 1 204 0 204 75 0 -783 66 1451 0.4 0.5 0.4 1 1 force @s
+execute as @s[x=-784,y=63,z=1450,dx=2,dy=150,dz=2,tag=NamelessSpawn] run title @s actionbar {"text":"Nameless Cavern"}
+execute as @s[x=-784,y=63,z=1450,dx=2,dy=15,dz=2,tag=NamelessSpawn] run function hoenn:tools/forceclick
+execute as @s[x=-784,y=63,z=1450,dx=2,dy=15,dz=2,tag=NamelessSpawn] run gamemode adventure @s
+execute as @s[x=-784,y=63,z=1450,dx=2,dy=15,dz=2,tag=NamelessSpawn] run tp @s 1153 79 -675 180 0
+
+scoreboard players set @s Temp 0
+scoreboard players set @s PokeHave 0
 
 #Fabled Cave
 #if the player has a Level 100 Pokémon on their team
@@ -437,7 +466,7 @@ title @s[x=-838,y=63,z=1443,dx=13,dy=150,dz=12] actionbar {"text":"Route 122"}
 title @s[x=-857,y=63,z=1456,dx=34,dy=150,dz=13] actionbar {"text":"Route 123"}
 title @s[x=-801,y=63,z=1428,dx=30,dy=150,dz=21] actionbar {"text":"Route 124"}
 title @s[x=-770,y=63,z=1419,dx=24,dy=150,dz=20] actionbar {"text":"Route 125"}
-title @s[x=-800,y=63,z=1450,dx=29,dy=150,dz=28] actionbar {"text":"Route 126"}
+title @s[x=-800,y=63,z=1450,dx=29,dy=150,dz=28,tag=!NamelessSpawn] actionbar {"text":"Route 126"}
 title @s[x=-770,y=63,z=1460,dx=16,dy=150,dz=18] actionbar {"text":"Route 127"}
 title @s[x=-770,y=63,z=1479,dx=16,dy=150,dz=14] actionbar {"text":"Route 128"}
 title @s[x=-770,y=63,z=1494,dx=16,dy=150,dz=16] actionbar {"text":"Route 129"}
@@ -630,7 +659,7 @@ tp @s[x=-968,y=63,z=1450,dx=14,dy=15,dz=12] -2769 69 -89 0 0
 
 
 
-
+tag @s remove NamelessSpawn
 
 
 
