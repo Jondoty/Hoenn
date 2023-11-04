@@ -1,0 +1,24 @@
+{
+  "id": "Annihilape",
+  "spawnInfos": [
+    {
+      "spec": "species:Annihilape",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 45,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles",
+          "pixelmon:ultra_jungle"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

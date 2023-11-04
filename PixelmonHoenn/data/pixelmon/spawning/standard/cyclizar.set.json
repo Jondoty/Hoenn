@@ -1,0 +1,24 @@
+{
+    "id": "Cyclizar",
+    "spawnInfos": [
+      {
+        "spec": "species:Cyclizar",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "minLevel": 25,
+        "maxLevel": 55,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/savannas",
+            "#pixelmon:spawning/arid"
+          ]
+        },
+        "rarity": 0.0
+      }
+    ]
+  }

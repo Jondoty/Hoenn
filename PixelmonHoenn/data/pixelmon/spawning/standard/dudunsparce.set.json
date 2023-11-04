@@ -1,0 +1,54 @@
+{
+    "id": "Dudunsparce",
+    "spawnInfos": [
+      {
+        "spec": "species:Dudunsparce form:two_segment",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "minLevel": 35,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "NIGHT"
+          ],
+          "biomes": [
+            "pixelmon:ultra_desert"
+          ]
+        },
+        "rarity": 0.0
+      },
+      {
+        "spec": "species:Dudunsparce form:two_segment",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "minLevel": 35,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "NIGHT"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/arid"
+          ]
+        },
+        "rarity": 0.0
+      },
+      {
+        "spec": "species:Dudunsparce form:two_segment",
+        "stringLocationTypes": [
+          "Underground"
+        ],
+        "minLevel": 35,
+        "maxLevel": 50,
+        "typeID": "pokemon",
+        "condition": {
+          "maxY": 64
+        },
+        "rarity": 0.0
+      }
+    ]
+  }
