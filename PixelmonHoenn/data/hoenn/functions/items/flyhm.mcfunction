@@ -111,44 +111,44 @@ tellraw @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] {"text":"You cannot use that
 tag @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] remove Fly
 
 #Gyms
-#tellraw @s[] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[] remove Fly
+tellraw @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=-3594,y=0,z=1224,dx=1232,dy=256,dz=449] remove Fly
 
 #Outer Space
 tellraw @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
 tag @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] remove Fly
 
-##Route 107 (Underwater)
-#tellraw @s[x=-560,y=0,z=-2950,dx=214,dy=256,dz=253] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=-560,y=0,z=-2950,dx=214,dy=256,dz=253] remove Fly
-#
-##Route 124 (Underwater)
-#tellraw @s[x=838,y=-70,z=-1150,dx=314,dy=99,dz=372] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=838,y=-70,z=-1150,dx=314,dy=99,dz=372] remove Fly
-#
-##Route 126 (Underwater)
-#tellraw @s[x=692,y=-46,z=-835,dx=453,dy=75,dz=508] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=692,y=-46,z=-835,dx=453,dy=75,dz=508] remove Fly
-#
-##Route 127 (Underwater)
-#tellraw @s[x=1175,y=-62,z=-811,dx=619,dy=92,dz=573] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=1175,y=-62,z=-811,dx=619,dy=92,dz=573] remove Fly
-#
-##Route 128 (Underwater)
-#tellraw @s[x=1175,y=-62,z=-237,dx=618,dy=92,dz=342] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=1175,y=-62,z=-237,dx=618,dy=92,dz=342] remove Fly
-#
-##Route 129 (Underwater)
-#tellraw @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351] remove Fly
-#
-##Route 130 (Underwater)
-#tellraw @s[x=546,y=-74,z=83,dx=417,dy=256,dz=251] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=546,y=-74,z=83,dx=417,dy=256,dz=251] remove Fly
-#
-##Route 134 (Underwater)
-#tellraw @s[x=265,y=0,z=-3209,dx=198,dy=256,dz=512] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-#tag @s[x=265,y=0,z=-3209,dx=198,dy=256,dz=512] remove Fly
+#Route 107 (Underwater)
+tellraw @s[x=-2236,y=-84,z=721,dx=214,dy=124,dz=253] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=-2236,y=-84,z=721,dx=214,dy=124,dz=253] remove Fly
+
+#Route 124 (Underwater)
+tellraw @s[x=838,y=-70,z=-1150,dx=314,dy=99,dz=372] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=838,y=-70,z=-1150,dx=314,dy=99,dz=372] remove Fly
+
+#Route 126 (Underwater)
+tellraw @s[x=692,y=-46,z=-835,dx=453,dy=75,dz=508] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=692,y=-46,z=-835,dx=453,dy=75,dz=508] remove Fly
+
+#Route 127 (Underwater)
+tellraw @s[x=1175,y=-62,z=-811,dx=619,dy=92,dz=573] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=1175,y=-62,z=-811,dx=619,dy=92,dz=573] remove Fly
+
+#Route 128 (Underwater)
+tellraw @s[x=1175,y=-62,z=-237,dx=618,dy=92,dz=342] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=1175,y=-62,z=-237,dx=618,dy=92,dz=342] remove Fly
+
+#Route 129 (Underwater)
+tellraw @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351] remove Fly
+
+#Route 130 (Underwater)
+tellraw @s[x=546,y=-74,z=83,dx=417,dy=124,dz=251] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=546,y=-74,z=83,dx=417,dy=124,dz=251] remove Fly
+
+#Route 134 (Underwater)
+tellraw @s[x=265,y=-100,z=-3209,dx=198,dy=150,dz=512] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=265,y=-100,z=-3209,dx=198,dy=150,dz=512] remove Fly
 
 #Lobby
 tellraw @s[x=-2071,y=60,z=1349,dx=112,dy=50,dz=52] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
