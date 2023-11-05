@@ -61,7 +61,14 @@ execute as @a[x=-2035,y=69,z=246,distance=..30,tag=!Dialogue173,scores={Dialogue
 execute as @a[x=-2035,y=69,z=246,distance=..30,tag=!Dialogue175,scores={DialogueTrigger=175}] run function hoenn:cutscenes/birchrunningsinnoh
 
 #-----------------------------------------------------------------------------------------
+#Dialogue Movements
+execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 
+
+
+
+
+#-----------------------------------------------------------------------------------------
 
 #Road Blocks
 
