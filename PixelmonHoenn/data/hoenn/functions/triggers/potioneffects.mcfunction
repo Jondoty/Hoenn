@@ -1,12 +1,12 @@
 #
 
 #If player has the Surf tag
-execute as @a[tag=Surf] if block ~ ~ ~ air run effect clear @a minecraft:dolphins_grace
-execute as @a[tag=Surf] if block ~ ~ ~ water run effect give @s minecraft:dolphins_grace infinite 1 true
+execute as @a[tag=Surf] at @s if block ~ ~ ~ air run effect clear @a minecraft:dolphins_grace
+execute as @a[tag=Surf] at @s if block ~ ~ ~ water run effect give @s minecraft:dolphins_grace infinite 1 true
 
 #If the player has the Dive tag
-execute as @a[tag=Dive] if block ~ ~ ~ air run effect clear @a minecraft:water_breathing
-execute as @a[tag=Dive] if block ~ ~ ~ water run effect give @s minecraft:water_breathing infinite 1 true
+execute as @a[tag=Dive] at @s if block ~ ~ ~ air run effect clear @a minecraft:water_breathing
+execute as @a[tag=Dive] at @s if block ~ ~ ~ water run effect give @s minecraft:water_breathing infinite 1 true
 
 
 
