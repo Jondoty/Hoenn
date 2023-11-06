@@ -135,8 +135,9 @@ execute as @a[x=-2473,y=50,z=8,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2473,y=50,z=8,dx=3,dy=3] -2472 69 9
 
 #Pokemon Gym
-tp @a[x=-2548,y=69,z=-23,dx=6,dy=3] -3244 65 1639
-tp @a[x=-3246,y=65,z=1640,dx=4,dy=3] -2545 69 -22
+tp @a[x=-2548,y=69,z=-23,dx=6,dy=3,scores={DialogueTrigger=0}] -3244 65 1639
+scoreboard players set @a[x=-3246,y=65,z=1640,dx=4,dy=3,tag=Dialogue95,tag=!Dialogue96,scores={DialogueTrigger=0}] DialogueTrigger 96
+tp @a[x=-3246,y=65,z=1640,dx=4,dy=3,scores={TalkTime=0}] -2545 69 -22
 
 #Top Left Home (Wally's)
 tp @a[x=-2592,y=69,z=-39,dx=4,dy=3] -2590 41 -40

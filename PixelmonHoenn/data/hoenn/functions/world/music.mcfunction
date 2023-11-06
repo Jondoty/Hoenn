@@ -23,8 +23,9 @@ playsound halloffame record @s[scores={MusicCooldown=0,DialogueTrigger=166}] ~ ~
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=166}] MusicCooldown 106
 
 
-
-
+#Rival Route 119 Pre-battle
+playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=105}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=105}] MusicCooldown 102
 
 
 
