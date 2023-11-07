@@ -24,6 +24,34 @@ execute as @s[x=371,y=37,z=-1203,distance=..5,tag=!SteelUnlock,tag=Fly] run tag 
 execute as @s[x=371,y=37,z=-1203,distance=..5,tag=SteelUnlock,tag=Fly] run tag @s remove Fly
 
 #---------------------------------------------------------------------------------------------
+#Checks the blocks above the player to see if they are indoors
+scoreboard players set @s Temp 0
+execute at @s if block ~ ~1 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~2 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~3 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~4 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~5 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~6 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~7 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~8 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~9 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~10 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~11 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~12 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~13 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~14 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~15 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~16 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~17 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~18 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~19 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~20 ~ air run scoreboard players add @s Temp 1
+
+tellraw @s[scores={Temp=..19}] {"text":"You would hit something above you!","italic":true,"color":"gray"}
+tag @s[scores={Temp=..19}] remove Fly
+
+
+#---------------------------------------------------------------------------------------------
 #When player is in a cave or non-flyable area
 
 #
