@@ -1,0 +1,21 @@
+{
+  "id": "Mega Medicham",
+  "spawnInfos": [
+    {
+      "spec": "species:Medicham",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous_forests",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

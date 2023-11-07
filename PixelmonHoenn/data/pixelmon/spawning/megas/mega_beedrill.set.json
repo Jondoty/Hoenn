@@ -1,0 +1,22 @@
+{
+  "id": "Mega Beedrill",
+  "spawnInfos": [
+    {
+      "spec": "species:Beedrill",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/all_forests",
+          "#pixelmon:spawning/flowery",
+          "byg:crag_gardens"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

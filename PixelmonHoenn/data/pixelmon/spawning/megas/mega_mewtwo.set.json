@@ -1,0 +1,21 @@
+{
+  "id": "Mega Mewtwo",
+  "spawnInfos": [
+    {
+      "spec": "species:Mewtwo",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ],
+        "minY": 90
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

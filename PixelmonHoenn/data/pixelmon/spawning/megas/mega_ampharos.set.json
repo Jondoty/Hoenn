@@ -1,0 +1,21 @@
+{
+  "id": "Mega Ampharos",
+  "spawnInfos": [
+    {
+      "spec": "species:Ampharos",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/plains",
+          "minecraft:snowy_plains"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

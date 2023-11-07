@@ -1,0 +1,22 @@
+{
+  "id": "Mega Camerupt",
+  "spawnInfos": [
+    {
+      "spec": "species:Camerupt",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "minecraft:badlands",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

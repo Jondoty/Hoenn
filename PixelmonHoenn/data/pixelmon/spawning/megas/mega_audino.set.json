@@ -1,0 +1,20 @@
+{
+  "id": "Mega Audino",
+  "spawnInfos": [
+    {
+      "spec": "species:Audino",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

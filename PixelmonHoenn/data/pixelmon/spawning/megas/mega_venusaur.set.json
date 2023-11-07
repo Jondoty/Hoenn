@@ -1,0 +1,22 @@
+{
+  "id": "Mega Venusaur",
+  "spawnInfos": [
+    {
+      "spec": "species:Venusaur",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/forests",
+          "byg:crag_gardens"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

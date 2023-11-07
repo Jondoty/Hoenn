@@ -1,0 +1,21 @@
+{
+  "id": "Mega Gyarados",
+  "spawnInfos": [
+    {
+      "spec": "species:Gyarados",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic",
+          "#pixelmon:spawning/lakes"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

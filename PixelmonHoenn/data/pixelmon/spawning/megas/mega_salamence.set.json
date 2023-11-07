@@ -1,0 +1,20 @@
+{
+  "id": "Mega Salamence",
+  "spawnInfos": [
+    {
+      "spec": "species:Salamence",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

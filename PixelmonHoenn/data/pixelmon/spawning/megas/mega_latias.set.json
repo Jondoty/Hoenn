@@ -1,0 +1,23 @@
+{
+  "id": "Mega Latias",
+  "spawnInfos": [
+    {
+      "spec": "species:Latias",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/oceanic"
+        ],
+        "times": [
+          "DAY"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

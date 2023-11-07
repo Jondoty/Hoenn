@@ -1,0 +1,21 @@
+{
+  "id": "Mega Abomasnow",
+  "spawnInfos": [
+    {
+      "spec": "species:Abomasnow",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/freezing_forests",
+          "#pixelmon:spawning/freezing_mountains"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

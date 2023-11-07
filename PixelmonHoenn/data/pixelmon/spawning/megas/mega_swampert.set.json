@@ -1,0 +1,20 @@
+{
+  "id": "Mega Swampert",
+  "spawnInfos": [
+    {
+      "spec": "species:Swampert",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/swamps"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

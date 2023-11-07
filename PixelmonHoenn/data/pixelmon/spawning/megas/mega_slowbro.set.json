@@ -1,0 +1,23 @@
+{
+  "id": "Mega Slowbro",
+  "spawnInfos": [
+    {
+      "spec": "species:Slowbro",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/lakes",
+          "minecraft:river",
+          "terralith:warm_river"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

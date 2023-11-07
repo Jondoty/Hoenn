@@ -1,0 +1,22 @@
+{
+  "id": "Mega Altaria",
+  "spawnInfos": [
+    {
+      "spec": "species:Altaria",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/birches",
+          "#pixelmon:spawning/magical",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

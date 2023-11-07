@@ -1,0 +1,22 @@
+{
+  "id": "Mega Charizard",
+  "spawnInfos": [
+    {
+      "spec": "species:Charizard",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous",
+          "minecraft:eroded_badlands",
+          "#pixelmon:spawning/volcanic"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

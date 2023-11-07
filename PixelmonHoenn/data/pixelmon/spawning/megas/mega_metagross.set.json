@@ -1,0 +1,23 @@
+{
+  "id": "Mega Metagross",
+  "spawnInfos": [
+    {
+      "spec": "species:Metagross",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mesas",
+          "minecraft:ice_spikes",
+          "minecraft:end_highlands",
+          "minecraft:end_barrens"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}

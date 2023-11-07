@@ -1,0 +1,20 @@
+{
+  "id": "Mega Diancie",
+  "spawnInfos": [
+    {
+      "spec": "species:Diancie",
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "spawnSpecificBossRate": 1,
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/mountainous"
+        ]
+      },
+      "interval": "megaBoss",
+      "typeID": "pokemon",
+      "rarity": 0.0
+    }
+  ]
+}
