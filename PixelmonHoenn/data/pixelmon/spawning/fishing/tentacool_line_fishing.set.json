@@ -1267,6 +1267,45 @@
         "minX": 783, "maxX": 1174, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
       },
       "rarity": 35.0
+    },
+
+    {
+      "spec": "species:Tentacool",
+      "stringLocationTypes": [
+        "Old Rod"
+      ],
+      "minLevel": 5,
+      "maxLevel": 5,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 2071, "maxX": 2734, "minZ": 323, "maxZ": 1229, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
+    },
+    {
+      "spec": "species:Tentacool",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minX": 2071, "maxX": 2734, "minZ": 323, "maxZ": 1229, "minY": 0, "maxY": 256
+      },
+      "rarity": 35.0
     }
 
   ]
