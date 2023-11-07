@@ -2,6 +2,8 @@
 #Runs world portals
 execute at @a run execute if block ~ ~ ~ pixelmon:warp_plate run function hoenn:world/portals
 
+#Runs particles for hidden items
+execute as @a[nbt={SelectedItem:{id:"pixelmon:item_finder"}}] run function hoenn:items/dowsingmachine
 
 #Ambient Particles
 #Route 113, Mt. Chimney, Jagged Pass Falling Ash Particles
