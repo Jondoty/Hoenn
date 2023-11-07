@@ -6,6 +6,8 @@ function hoenn:world/bases/exteriors
 #Manages any differences in game version
 function hoenn:world/gamedifferences
 
+#Please stop spawning bosses everywhere
+function hoenn:randomizer/debossinator
 
 #Mirage spot sword trio EV scanning
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:data/evscantotal
