@@ -468,10 +468,6 @@ scoreboard players set @s[x=646,y=0,z=-98,dx=233,dy=256,dz=175,scores={MusicCool
 playsound route119 record @s[x=1487,y=0,z=430,dx=315,dy=256,dz=249,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=1487,y=0,z=430,dx=315,dy=256,dz=249,scores={MusicCooldown=0}] MusicCooldown 200
 
-#Battle Resort
-playsound battleresort record @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] MusicCooldown 130
-
 #Deoxys's Space Battle
 playsound deoxys record @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501,scores={MusicCooldown=0}] MusicCooldown 226
@@ -480,6 +476,25 @@ scoreboard players set @s[x=392,y=-100,z=2311,dx=501,dy=256,dz=501,scores={Music
 playsound crossingthesea record @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2293,y=0,z=-1378,dx=211,dy=256,dz=92,scores={MusicCooldown=0}] MusicCooldown 91
 
+#Battle Resort
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=0}] run playsound battleresort record @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=0}] run scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] MusicCooldown 130
+
+#track 2
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=1}] run playsound hurryalong record @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=1}] run scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] MusicCooldown 77
+
+#track 3
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=2}] run playsound victoryroad record @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=2}] run scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] MusicCooldown 151
+
+#track 4
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=3}] run playsound may record @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=3}] run scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] MusicCooldown 102
+
+#track 5
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=4}] run playsound trickhouse record @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=4}] run scoreboard players set @s[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=0}] MusicCooldown 134
 
 
 

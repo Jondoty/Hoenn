@@ -52,13 +52,13 @@ execute as @s[scores={TriggerCommand=1..6}] run scoreboard players set @s Trigge
 #Battle Resort
 #Music Changer Lady
 #https://youtu.be/MgkqxXCmrtI?t=87194
-execute as @s[scores={TriggerCommand=7}] run scoreboard players enable @s Trigger
-execute as @s[scores={TriggerCommand=7}] run tellraw @s ["",{"text":"<Parasol Lady> Hello! Would you like to change the music and enjoy a different atmosphere?\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger trigger set 1"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger trigger set 2"}},{"text":"]"}]
+execute as @s[scores={TriggerCommand=7}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={TriggerCommand=7}] run tellraw @s ["",{"text":"<Parasol Lady> Hello! Would you like to change the music and enjoy a different atmosphere?\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 8"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 9"}},{"text":"]"}]
 
 #Yes
 #Adds a score to a placeholder armor stand to track which tune plays.
 execute as @s[scores={TriggerCommand=8}] run scoreboard players add @e[x=-2070,y=64,z=1410,dy=3] MusicCooldown 1
-execute as @s[scores={TriggerCommand=8}] run scoreboard players add @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=5..}] MusicCooldown 0
+execute as @s[scores={TriggerCommand=8}] run scoreboard players set @e[x=-2070,y=64,z=1410,dy=3,scores={MusicCooldown=5..}] MusicCooldown 0
 execute as @s[scores={TriggerCommand=8}] run stopsound @a[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=1..}] record
 execute as @s[scores={TriggerCommand=8}] run scoreboard players set @a[x=2071,y=0,z=323,dx=663,dy=256,dz=906,scores={MusicCooldown=1..}] MusicCooldown 0
 execute as @s[scores={TriggerCommand=8}] run tellraw @s {"text":"<Parasol Lady> Do you like it? If you want to change the music again, let me know!"}
