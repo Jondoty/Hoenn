@@ -100,6 +100,12 @@ execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:642}] run
 execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:645}] run playsound minecraft:unovas record @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=LandorusEncounter,tag=!LandorusCatch] ~ ~ ~ 1 1 1
 execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:645}] run scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=LandorusEncounter,tag=!LandorusCatch] MusicCooldown 281
 
+
+#If player is riding a bicycle
+execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run playsound cycling record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run tag @s add Cycling
+execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 152
+
 #---------------------------------------------------------------------------------------------------------------------------
 #Areas within areas, takes priority
 
