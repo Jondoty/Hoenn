@@ -1326,7 +1326,9 @@ tp @a[x=2454,y=64,z=785,dx=2,dy=3] 2456.0 41 782
 tp @a[x=2454,y=41,z=781,dx=2,dy=3] 2456 64 784
 
 #Battle Maison
+execute as @a[x=2395,y=94,z=715,dx=6,dy=3] run function hoenn:tools/forceclick
 tp @a[x=2395,y=94,z=715,dx=6,dy=3] 2398 44 714
+execute as @a[x=2395,y=44,z=715,dx=6,dy=3] run function hoenn:tools/forceclick
 tp @a[x=2395,y=44,z=715,dx=6,dy=3] 2398 94 716
 
 #Island Left NPC Home
