@@ -11,7 +11,7 @@ execute at @a run execute if block ~ ~ ~ minecraft:pink_carpet run function hoen
 execute as @a[x=-2021,y=64,z=1459,distance=..20,tag=!InitialTags] run function hoenn:triggers/startingcommands
 
 #Runs function to update player's music and titles on a constant basis
-execute as @a[scores={BattleMusic=0}] run function hoenn:world/musictitles
+execute as @a[scores={BattleMusic=0,DialogueTrigger=0}] run function hoenn:world/musictitles
 
 #Runs less-frequent cave portals, portals that are not activated by a portal block.
 execute as @a run function hoenn:world/cavewarps
@@ -125,10 +125,10 @@ execute as @a[tag=!MusicDisabled,scores={MusicCooldown=0}] run function hoenn:wo
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
 #Resets the music if player jumps on or off a bicycle
-execute as @a[tag=Cycling] at @s positioned ~ ~-2 ~ unless entity @e[dy=4,type=pixelmon:bike] run function hoenn:tools/forceclick
-execute as @a[tag=Cycling] at @s positioned ~ ~-2 ~ unless entity @e[dy=4,type=pixelmon:bike] run tag @s remove Cycling
+execute as @a[tag=!MusicDisabled,tag=Cycling] at @s positioned ~ ~-2 ~ unless entity @e[dy=4,type=pixelmon:bike] run function hoenn:tools/forceclick
+execute as @a[tag=!MusicDisabled,tag=Cycling] at @s positioned ~ ~-2 ~ unless entity @e[dy=4,type=pixelmon:bike] run tag @s remove Cycling
 
-execute as @a[tag=!Cycling] at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run function hoenn:tools/forceclick
+execute as @a[tag=!MusicDisabled,tag=!Cycling] at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run function hoenn:tools/forceclick
 
 
 #Desert Ruins Safety Goggles Equip
