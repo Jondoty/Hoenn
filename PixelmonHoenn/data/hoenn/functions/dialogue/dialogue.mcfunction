@@ -4754,7 +4754,8 @@ tag @s[scores={DialogueTrigger=139,TalkTime=71..}] add Dialogue139
 #https://youtu.be/MgkqxXCmrtI?t=54127
 
 #Version 1 abridged
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] ["",{"text":"The ancient Pokémon ","italic":true,"color":"gray"},{"text":"Groudon ","italic":true,"color":"red"},{"text":"sits in stone. Do you wish to use your Red Orb?","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=140,TalkTime=1,GameVersion=1}] ["",{"text":"The ancient Pokémon ","italic":true,"color":"gray"},{"text":"Groudon ","italic":true,"color":"red"},{"text":"sits in stone. Do you wish to use your Red Orb?","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=140,TalkTime=1,GameVersion=2}] ["",{"text":"The ancient Pokémon ","italic":true,"color":"gray"},{"text":"Kyogre ","italic":true,"color":"aqua"},{"text":"sits in stone. Do you wish to use your Blue Orb?","italic":true,"color":"gray"}]
 execute as @s[scores={DialogueTrigger=140,TalkTime=1}] run scoreboard players enable @s TriggerCommand
 tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 513"}},{"text":"]","color":"white"}]
 
@@ -4870,6 +4871,7 @@ execute as @s[scores={DialogueTrigger=141,TalkTime=46}] run particle flame 884 6
 
 #Shot of it in the ocean?
 execute as @s[scores={DialogueTrigger=141,TalkTime=50}] run tag @s add GroudonParticles
+execute as @s[scores={DialogueTrigger=141,TalkTime=50}] run weather clear
 execute as @s[scores={DialogueTrigger=141,TalkTime=50}] run summon pixelmon:statue 1043 63 -311 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Growl", MovePP: 40b}, {MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Leech Seed", MovePP: 10b}, {MoveID: "Razor Leaf", MovePP: 25b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 17b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 18b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [1043.4265653192997d, 63.0d, -310.4991008043289d], IVSpeed: 10b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 21s, IVAttack: 31b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 25s, IVHP: 18b, EVHP: 0s, ndex: 383, StatsSpecialDefense: 25s, Age: 0, Nature: 1b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 39s, Health: 20, Animate: 0b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [139.25044f, 0.0f], StatsSpeed: 19s, StatsAttack: 23s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 19b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 execute as @s[scores={DialogueTrigger=141,TalkTime=50}] run tp @s 1027 65 -311 -91 2
 execute as @s[scores={DialogueTrigger=141,TalkTime=57}] run tp @s 1068 93 -291 140 30
@@ -5069,41 +5071,94 @@ tag @s[scores={DialogueTrigger=141,TalkTime=192..}] add Dialogue141
 
 
 #Version 1 abridged
+execute as @s[scores={DialogueTrigger=142,TalkTime=1}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=142,TalkTime=5}] run tag @s add ShakeScreen
+execute as @s[scores={DialogueTrigger=142,TalkTime=25}] run tag @s remove ShakeScreen
 
 #Awakens Groudon
+execute as @s[scores={DialogueTrigger=142,TalkTime=10}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=142,TalkTime=10}] run tp @s 888.2 106.75 -3187.5 144 1
 
 #Shot 2
+execute as @s[scores={DialogueTrigger=142,TalkTime=20}] run tp @s 877.0 111.3 -3199.8 -54 26
+execute as @s[scores={DialogueTrigger=142,TalkTime=20}] as @e[x=884,y=106,z=-3194,distance=..5,type=pixelmon:statue] run data merge entity @s {statueTexture:0b,Animate:1b}
+execute as @s[scores={DialogueTrigger=142,TalkTime=20}] run playsound pixelmon:pixelmon.mob.kyogre ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=142,TalkTime=20}] run tellraw @s {"text":"<Kyogre> Krrraaawwwrrr!!!"}
 
 #Shot 3
+execute as @s[scores={DialogueTrigger=142,TalkTime=30}] run tp @s 880.5 106.6 -3187.95 -144 -1
+execute as @s[scores={DialogueTrigger=142,TalkTime=40}] run tp @s 896.7 121.6 -3201.4 58 45
 
 #Groudon Flees
+execute as @s[scores={DialogueTrigger=142,TalkTime=46}] run tp @e[x=884,y=106,z=-3194,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=142,TalkTime=46}] run particle rain 884 107 -3194 3 2 3 0.25 30000 force @s
 
 #Shot of it in the ocean?
+execute as @s[scores={DialogueTrigger=142,TalkTime=50}] run tag @s add KyogreParticles
+execute as @s[scores={DialogueTrigger=142,TalkTime=50}] run weather thunder
+execute as @s[scores={DialogueTrigger=142,TalkTime=50}] run summon pixelmon:statue 1043 63 -311 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Growl", MovePP: 40b}, {MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Leech Seed", MovePP: 10b}, {MoveID: "Razor Leaf", MovePP: 25b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 17b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 18b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [1043.4265653192997d, 63.0d, -310.4991008043289d], IVSpeed: 10b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 21s, IVAttack: 31b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 25s, IVHP: 18b, EVHP: 0s, ndex: 382, StatsSpecialDefense: 25s, Age: 0, Nature: 1b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 39s, Health: 20, Animate: 0b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [139.25044f, 0.0f], StatsSpeed: 19s, StatsAttack: 23s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 19b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
+execute as @s[scores={DialogueTrigger=142,TalkTime=50}] run tp @s 1027 65 -311 -91 2
+execute as @s[scores={DialogueTrigger=142,TalkTime=57}] run tp @s 1068 93 -291 140 30
+#execute as @s[scores={DialogueTrigger=141,TalkTime=50..57}] run tp @s ~0.1 ~ ~
+#execute as @s[scores={DialogueTrigger=141,TalkTime=57..64}] run tp @s ~-0.25 ~ ~-0.25
 
 #Teleports player to beach bit
-
+execute as @s[scores={DialogueTrigger=142,TalkTime=64}] run tp @e[x=1043,y=63,z=-311,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=142,TalkTime=64}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=142,TalkTime=64}] run tp @s 1359 64 -52 180 20
 
 #tps Steven in
+execute as @s[scores={DialogueTrigger=142,TalkTime=67}] run particle cloud 1359 64 -64 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=142,TalkTime=67}] run summon pixelmon:npc_chatting 1359 64 -64 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Steven", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "doctor", NameIndex: 2, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [5.858773f, -1.982208f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [1359.5d, 64.0d, -63.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "steven.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I'm sorry I could not be here sooner."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Terrible..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> So this is what was being depicted in that painting in Granite Cave."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=70}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=76}] {"text":"<Steven> I'm sorry I could not be here sooner."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=83}] {"text":"<Steven> Terrible..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=89}] {"text":"<Steven> So this is what was being depicted in that painting in Granite Cave."}
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=97}] {"text":"<Steven> If this doesn't stop, all Hoenn— no, the entire world—will burn up."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=105}] {"text":"<Steven> Nothing could live in such a land of death—neither Pokémon nor humans!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=114}] {"text":"<Steven> This dreadful blaze... It must be caused by the sweltering heat wave forming above Sootopolis..."}
+#
+#execute as @s[scores={DialogueTrigger=142,TalkTime=124}] as @e[x=1359,y=64,z=-64,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=124}] {"text":"<Steven> Come on, Steven... Think! What are you going to do?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=132}] {"text":"<Steven> ... ...No."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=140}] {"text":"<Steven> There's no point in agonizing over the situation from here..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=147}] {"text":"<Steven> I have to go to Sootopolis. There must be answers there."}
+#execute as @s[scores={DialogueTrigger=142,TalkTime=155}] as @e[x=1359,y=64,z=-64,distance=..5,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[scores={DialogueTrigger=141,TalkTime=155}]
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=155}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=160}] {"text":"<Steven> I will count on you to help with this crisis..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=167}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=176}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=184}] {"text":"<Steven> Good luck to you."}
 
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> If this doesn't stop, all Hoenn— no, the entire world—will drown."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Nothing could live in such a world— neither humans nor Pokémon!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> This huge rain cloud... Is it spreading out from Sootopolis?"}
+##tps Steven out
 
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Come on, Steven... Think! What are you going to do?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> ... ...No."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> There's no point in agonizing over the situation from here..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I have to go to Sootopolis. There must be answers there."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I will count on you to help with this crisis..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Good luck to you."}
 
+tellraw @s[scores={DialogueTrigger=142,TalkTime=70}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=142,TalkTime=76}] {"text":"<Steven> I'm sorry I could not be here sooner."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=83}] {"text":"<Steven> Terrible..."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=89}] {"text":"<Steven> So this is what was being depicted in that painting in Granite Cave."}
+
+tellraw @s[scores={DialogueTrigger=142,TalkTime=97}] {"text":"<Steven> If this doesn't stop, all Hoenn— no, the entire world—will drown."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=105}] {"text":"<Steven> Nothing could live in such a world— neither humans nor Pokémon!"}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=114}] {"text":"<Steven> This huge rain cloud... Is it spreading out from Sootopolis?"}
+
+execute as @s[scores={DialogueTrigger=142,TalkTime=124}] as @e[x=1359,y=64,z=-64,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=124}] {"text":"<Steven> Come on, Steven... Think! What are you going to do?"}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=132}] {"text":"<Steven> ... ...No."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=140}] {"text":"<Steven> There's no point in agonizing over the situation from here..."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=147}] {"text":"<Steven> I have to go to Sootopolis. There must be answers there."}
+execute as @s[scores={DialogueTrigger=142,TalkTime=155}] as @e[x=1359,y=64,z=-64,distance=..5,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[scores={DialogueTrigger=142,TalkTime=155}]
+tellraw @s[scores={DialogueTrigger=142,TalkTime=155}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=142,TalkTime=160}] {"text":"<Steven> I will count on you to help with this crisis..."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=167}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=176}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
+tellraw @s[scores={DialogueTrigger=142,TalkTime=184}] {"text":"<Steven> Good luck to you."}
+
+execute as @s[scores={DialogueTrigger=142,TalkTime=192}] run particle cloud 1359 64 -64 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=142,TalkTime=192}] run tp @e[x=1359,y=64,z=-64,distance=..5,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=142,TalkTime=192}] run scoreboard players set @s MusicTitles 93
 
 
 ##Aqua Line
@@ -5241,7 +5296,7 @@ tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Good luck 
 
 #Steven flies away
 
-tag @s[scores={DialogueTrigger=142,TalkTime=100..}] add Dialogue142
+tag @s[scores={DialogueTrigger=142,TalkTime=192..}] add Dialogue142
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 143 - Sootopolis City
 #Prior to Cave of Origin (Magma Variant)
@@ -5495,13 +5550,48 @@ tag @s[scores={DialogueTrigger=147,TalkTime=40..}] add Dialogue147
 #Groudon in primal chamber
 #Triggered by jumping into the water with legendary
 
-tellraw @s[scores={DialogueTrigger=148,TalkTime=1}] {"text":"<Kyogre> Krrraaawwwrrr!!!"}
+tellraw @s[scores={DialogueTrigger=148,TalkTime=1}] {"text":"<Kyogre> Krawr!!"}
+execute as @s[scores={DialogueTrigger=148,TalkTime=1}] run playsound pixelmon:pixelmon.mob.kyogre ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=148,TalkTime=1}] run stopsound @s record
+
+#Camera 1
+execute as @s[scores={DialogueTrigger=148,TalkTime=5}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=148,TalkTime=6}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=148,TalkTime=6}] run tp @s 2017.6 69.75 -2412.75 -135 4
+
+#Camera 2
+execute as @s[scores={DialogueTrigger=148,TalkTime=14}] run tp @s 2031.0 71.25 -2414.33 132 22
+
+#Starts shake
+execute as @s[scores={DialogueTrigger=148,TalkTime=22}] run tag @s add ShakeScreen
+execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run tag @s remove ShakeScreen
+
+#transforms into primal
+execute as @s[scores={DialogueTrigger=148,TalkTime=22}] run tp @s 2022.8 64.5 -2413.9 -158 -42
+
+execute as @s[scores={DialogueTrigger=148,TalkTime=30}] run tp @s 2019.66 70.86 -2429.6 -34 5
+
+#tps player to land
+execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run tp @s 2025 72 -2404 180 0
+
+
+
+#Swaps for primal battle
+execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run particle minecraft:explosion_emitter 2025 72 -2421 4 5 4 .75 100 normal
+execute as @s[scores={DialogueTrigger=148,TalkTime=38}] positioned 2025 70 -2421 run pokespawn Kyogre form:primal lvl:45 gr:7
+execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run tp @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000
+
+tellraw @s[scores={DialogueTrigger=148,TalkTime=40}] {"text":"<Kyogre> Krrraaawwwrrr!!!"}
+execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run playsound pixelmon:pixelmon.mob.kyogre.primal ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run tag @s remove KyogreParticles
+
 
 #Kyogre transforms into Primal form
 #Could form glass crystals around it during transformation?
 
 #Text if legend is defeated
-tellraw @s[scores={DialogueTrigger=148,TalkTime=1}] {"text":"Kyogre disappeared deep beneath the water...","italic":true,"color":"gray"}
+#tellraw @s[scores={DialogueTrigger=148,TalkTime=1}] {"text":"Kyogre disappeared deep beneath the water...","italic":true,"color":"gray"}
 
 #pokebattle
 

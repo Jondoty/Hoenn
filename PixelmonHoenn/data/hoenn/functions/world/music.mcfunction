@@ -100,6 +100,13 @@ execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:642}] run
 execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:645}] run playsound minecraft:unovas record @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=LandorusEncounter,tag=!LandorusCatch] ~ ~ ~ 1 1 1
 execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:645}] run scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=LandorusEncounter,tag=!LandorusCatch] MusicCooldown 281
 
+#Kyogre/Groudon music replay if primal is still in battle in their chamber
+execute if entity @e[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={Variant:"primal"}] run playsound primal record @s[x=-1790,y=64,z=-2483,dx=133,dy=34,dz=151,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={Variant:"primal"}] run scoreboard players set @s[x=-1790,y=64,z=-2483,dx=133,dy=34,dz=151,scores={MusicCooldown=0}] MusicCooldown 138
+
+execute if entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={Variant:"primal"}] run playsound primal record @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={Variant:"primal"}] run scoreboard players set @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,scores={MusicCooldown=0}] MusicCooldown 138
+
 
 #If player is riding a bicycle
 execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run playsound cycling record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

@@ -142,11 +142,11 @@ tp @a[x=1064,y=62,z=-2605,dx=34,dy=28,dz=18] 1361 -19 -48
 
 #Seafloor Cavern
 #Groudon Statue Room
-tp @a[x=1041,y=66,z=-3184,dx=9,dy=30,dz=18,scores={GameVesion=1}] 883 74 -3118
+tp @a[x=1041,y=66,z=-3184,dx=9,dy=30,dz=20,scores={GameVersion=1}] 883 74 -3118
 tp @a[x=878,y=78,z=-3112,dx=9,dy=10,dz=10] 1045 90 -3159 -82 0
 
 #Kyogre Statue Room
-tp @a[x=1041,y=66,z=-3184,dx=9,dy=30,dz=18,scores={GameVesion=2}] 883 117 -3114
+tp @a[x=1041,y=66,z=-3195,dx=9,dy=30,dz=20,scores={GameVersion=2}] 883 117 -3114
 tp @a[x=878,y=121,z=-3109,dx=9,dy=10,dz=10] 1045 90 -3159 -82 0
 
 #-------------------------------------------------------------------------
