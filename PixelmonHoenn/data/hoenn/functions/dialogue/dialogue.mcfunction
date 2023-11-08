@@ -4753,362 +4753,337 @@ tag @s[scores={DialogueTrigger=139,TalkTime=71..}] add Dialogue139
 #Leaders prior to waking  legendary
 #https://youtu.be/MgkqxXCmrtI?t=54127
 
-#Magma Variant
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Ugh..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Ahahaha!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> How pathetic you appear now. The fool, Archie."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Ugh! Arghhh..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> M-Maxie...you...!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Fuhahaha! Just as I predicted."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> L-little scamp..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Even I, the great Maxie, have found myself wishing for something I cannot justify."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And the illogical desire that I harbored was to have you present here at this moment."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Hahaha... And now that fool's wish has come true."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Fantastic! Nothing could please me more!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I suppose I should make introductions..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I present to you my incomparable partner, who will assist Team Magma in driving humanity forward to its next level!"}
+#Version 1 abridged
+tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] ["",{"text":"The ancient Pokémon ","italic":true,"color":"gray"},{"text":"Groudon ","italic":true,"color":"red"},{"text":"sits in stone. Do you wish to use your Red Orb?","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=140,TalkTime=1}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 513"}},{"text":"]","color":"white"}]
 
-#shot of the legendary in stone
-
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> The super-ancient Pokémon...Groudon!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Behold! This great form slumbering in defiance of even the broiling lava surrounding it!"}
-
-#shot of Archie
-
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> ..."}
-
-#back to first person
-
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> So long have I waited for this day..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Immeasurably long!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> This foolish world has held back humanity's progress out of misguided idealism regarding the coexistence of humans and Pokémon."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> But this ancient creature can bring that to its rightful end, creating a new land upon which humanity may stride freely forward."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Now that I have at last obtained the power of Primal Groudon!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> And now, you are the final obstacle remaining between me and my goals."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> It behooves me to use every tool at my disposal to eliminate you."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Indeed! Even Mega Evolution!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Do not delude yourself that you and your Pokémon are the only ones capable of it."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> I must apologize for making you wait through our encounters at Mt. Chimney and Mt. Pyre without treating you to this sight."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Brace yourself for my ultimate attack!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Fuhahaha!"}
-
-
-
-
-
-#Aqua Reference
-#https://youtu.be/gFWJkdUqeWA?t=188
-
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Urk..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Bwahahaha!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> You're looking pretty pathetic now, aren't you? The great Maxie!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Ugh..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> A-Archie...you..."}
-
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Bwahahaha!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Y-you, child..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Well, if it isn't my little adversary!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I can't even find the words to praise you as you deserve."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Sometimes it's best to keep things simple."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> All I'll say is you met my expectations, scamp!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And I'm not just talking about today, but everything you've done up till now."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And that's why you'll get the honor of meeting my new partner before anyone else living in this world!"}
-
-#shot of the legendary in stone
-
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> The super-ancient Pokémon...KYOGRE!!!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> How 'bout that?!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> That beautiful form so long resting at peace within the azure sea!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> ..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I've been waiting so long for this day to come."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> We humans have disregarded Pokémon and nature both in our endless pursuit of our own desires and needs..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And in the process, we've created this broken and disordered world..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> But this is the day when I finally obtain the power to return everything to how it once was—to return to our beginnings!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Now that I can release the ancient power!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> The ancient power of Primal Kyogre!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And now, you are the last token resistance that's trying to ruin my day."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I'll use everything my team and I have to crush you once and for all!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Oh? And...Mega Evolution?"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Did ya think that you and your Pokémon are the only ones who can use it?"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Let me show you now what I didn't get the chance to show you at Mt. Chimney..."}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> This is the true power of my team!"}
-tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> GRAAAAAAAAAHHHHHH!!!"}
-
-tag @s[scores={DialogueTrigger=140,TalkTime=100..}] add Dialogue140
+##Magma Variant
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Ugh..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Ahahaha!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> How pathetic you appear now. The fool, Archie."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Ugh! Arghhh..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> M-Maxie...you...!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Fuhahaha! Just as I predicted."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> L-little scamp..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Even I, the great Maxie, have found myself wishing for something I cannot justify."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And the illogical desire that I harbored was to have you present here at this moment."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Hahaha... And now that fool's wish has come true."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Fantastic! Nothing could please me more!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I suppose I should make introductions..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I present to you my incomparable partner, who will assist Team Magma in driving humanity forward to its next level!"}
+#
+##shot of the legendary in stone
+#
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> The super-ancient Pokémon...Groudon!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Behold! This great form slumbering in defiance of even the broiling lava surrounding it!"}
+#
+##shot of Archie
+#
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> ..."}
+#
+##back to first person
+#
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> So long have I waited for this day..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Immeasurably long!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> This foolish world has held back humanity's progress out of misguided idealism regarding the coexistence of humans and Pokémon."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> But this ancient creature can bring that to its rightful end, creating a new land upon which humanity may stride freely forward."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Now that I have at last obtained the power of Primal Groudon!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> And now, you are the final obstacle remaining between me and my goals."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> It behooves me to use every tool at my disposal to eliminate you."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Indeed! Even Mega Evolution!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Do not delude yourself that you and your Pokémon are the only ones capable of it."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> I must apologize for making you wait through our encounters at Mt. Chimney and Mt. Pyre without treating you to this sight."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Brace yourself for my ultimate attack!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Fuhahaha!"}
+#
+#
+#
+#
+#
+##Aqua Reference
+##https://youtu.be/gFWJkdUqeWA?t=188
+#
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Urk..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Bwahahaha!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> You're looking pretty pathetic now, aren't you? The great Maxie!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Ugh..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> A-Archie...you..."}
+#
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Bwahahaha!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> Y-you, child..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Well, if it isn't my little adversary!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I can't even find the words to praise you as you deserve."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Sometimes it's best to keep things simple."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> All I'll say is you met my expectations, scamp!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And I'm not just talking about today, but everything you've done up till now."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And that's why you'll get the honor of meeting my new partner before anyone else living in this world!"}
+#
+##shot of the legendary in stone
+#
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> The super-ancient Pokémon...KYOGRE!!!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> How 'bout that?!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> That beautiful form so long resting at peace within the azure sea!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Maxie> ..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I've been waiting so long for this day to come."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> We humans have disregarded Pokémon and nature both in our endless pursuit of our own desires and needs..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And in the process, we've created this broken and disordered world..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> But this is the day when I finally obtain the power to return everything to how it once was—to return to our beginnings!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Now that I can release the ancient power!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> The ancient power of Primal Kyogre!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> And now, you are the last token resistance that's trying to ruin my day."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> I'll use everything my team and I have to crush you once and for all!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Oh? And...Mega Evolution?"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Did ya think that you and your Pokémon are the only ones who can use it?"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> Let me show you now what I didn't get the chance to show you at Mt. Chimney..."}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> This is the true power of my team!"}
+#tellraw @s[scores={DialogueTrigger=140,TalkTime=1}] {"text":"<Archie> GRAAAAAAAAAHHHHHH!!!"}
+#
+tag @s[scores={DialogueTrigger=140,TalkTime=1..}] add Dialogue140
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 141 - Seafloor Cavern
 #Legendary summoned, Magma line
 #https://youtu.be/MgkqxXCmrtI?t=54419
 
-#Magma Line
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Hah... Hah... Hahhh..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> ... Ah. Aha... Fuhahaha..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Kahahahaha! GAHAHAHAHAHAHA!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Splendid. Just splendid, my young Trainer."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> No, it is more than that!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I should be calling you my young hero!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Believing until the very end that a world where humanity and Pokémon coexist must be the best..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Rejecting my ideals without a second thought..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Yes, watching you struggle desperately to halt the beginning of the world's end..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> You are undoubtedly a hero!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> So noble..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> And yet. I will not yield! I will not bend!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> My ideals will not be shaken!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> My dream for the world's next step forward will never change!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I will use the Red Orb to awaken Groudon, revert it to its primal form, and put an end to all else!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<...> Wait! Maxie!"}
+#Version 1 abridged
+execute as @s[scores={DialogueTrigger=141,TalkTime=1}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=141,TalkTime=5}] run tag @s add ShakeScreen
+execute as @s[scores={DialogueTrigger=141,TalkTime=25}] run tag @s remove ShakeScreen
 
-#tps Tabitha in
+#Awakens Groudon
+execute as @s[scores={DialogueTrigger=141,TalkTime=10}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=141,TalkTime=10}] run tp @s 884.7 66.6 -3190.5 -180 -13
 
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Buh?! Tabitha?!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Do stop that now... Please! Maxie!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> You just don't understand!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> What Groudon will bring about upon awakening is an end to the world!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Humph. Did you think I had not noticed?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That I had somehow failed to realize you were after my spot? Such a sad development indeed."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> To be betrayed by my number two..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> In the end, there is only one being upon which I can depend!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Now, Groudon! Absorb all of the power resting in this Red Orb, and reclaim yourself!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Revert to your primal form!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> This is the time to take back the great Evolution you lost in the ancient past!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Reclaim the possibility you once held!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Augh... You..."}
+#Shot 2
+execute as @s[scores={DialogueTrigger=141,TalkTime=20}] run tp @s 879.6 63.9 -3189.6 -146 -21
+execute as @s[scores={DialogueTrigger=141,TalkTime=20}] as @e[x=884,y=64,z=-3198,distance=..5,type=pixelmon:statue,limit=1] run data merge entity @s {statueTexture: 0b,Animate:1b}
+execute as @s[scores={DialogueTrigger=141,TalkTime=20}] run playsound pixelmon:pixelmon.mob.groudon ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=141,TalkTime=20}] run tellraw @s {"text":"<Groudon> Gurrraaahhhh! Gurrrooouuuhhh!!!"}
 
-#Maxie using the blue orb
+#Shot 3
+execute as @s[scores={DialogueTrigger=141,TalkTime=30}] run tp @s 873.2 67 -3202.6 -63 -1
+execute as @s[scores={DialogueTrigger=141,TalkTime=40}] run tp @s 905.1 81.4 -3213.4 57 42
 
-#Groudon shatters rock, turns into normal form
+#Groudon Flees
+execute as @s[scores={DialogueTrigger=141,TalkTime=46}] run tp @e[x=884,y=64,z=-3198,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=141,TalkTime=46}] run particle flame 884 64 -3198 1 1 1 0.25 300 force @s
 
-#Maxie surfaces to the land, toggles weather to sunny
+#Shot of it in the ocean?
+execute as @s[scores={DialogueTrigger=141,TalkTime=50}] run tag @s add GroudonParticles
+execute as @s[scores={DialogueTrigger=141,TalkTime=50}] run summon pixelmon:statue 1043 63 -311 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Growl", MovePP: 40b}, {MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Leech Seed", MovePP: 10b}, {MoveID: "Razor Leaf", MovePP: 25b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 17b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 18b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [1043.4265653192997d, 63.0d, -310.4991008043289d], IVSpeed: 10b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 21s, IVAttack: 31b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 25s, IVHP: 18b, EVHP: 0s, ndex: 383, StatsSpecialDefense: 25s, Age: 0, Nature: 1b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 39s, Health: 20, Animate: 0b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [139.25044f, 0.0f], StatsSpeed: 19s, StatsAttack: 23s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 19b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
+execute as @s[scores={DialogueTrigger=141,TalkTime=50}] run tp @s 1027 65 -311 -91 2
+execute as @s[scores={DialogueTrigger=141,TalkTime=57}] run tp @s 1068 93 -291 140 30
+#execute as @s[scores={DialogueTrigger=141,TalkTime=50..57}] run tp @s ~0.1 ~ ~
+#execute as @s[scores={DialogueTrigger=141,TalkTime=57..64}] run tp @s ~-0.25 ~ ~-0.25
 
-#Shot of Sootopolis in view, grouodon on lava?
+#Teleports player to beach bit
+execute as @s[scores={DialogueTrigger=141,TalkTime=64}] run tp @e[x=1043,y=63,z=-311,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=141,TalkTime=64}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=141,TalkTime=64}] run tp @s 1359 64 -52 180 20
 
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Gahahahaha! At last..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> AT LAST! I've finally done it!!!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> A new world for human evolution will be born!!!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> We shall stride forward!!!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Ohh... What have you done..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss... What..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> ...Hm? A message from our members outside?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> What is it?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> So the sun has turned mercilessly fierce in its heat. I should expect so."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That is what I have long— No, what WE have long wished for."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> What?! The heat is greater than simulations predicted?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> It will be a risk to our own safety if it continues?!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That cannot be... It has only just awoken..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Where is it getting so much power from?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> And how much more will it gain when it does undergo Primal Reversion..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> C-continue your readings! Then report back!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss?! Maxie?! Just what's happening on the surface?!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> All that matters is..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That I have used the Red Orb to awaken Groudon."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> And now... I will transform this planet to a land ideal for humanity."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Hey, Maxie."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Looks like we underestimated the power of the super-ancient Pokémon..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> The power of Primal Reversion..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> What...did you say?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Primal Groudon brings about an \"end,\" all right."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> But you don't get to choose what end."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> It's gonna drive every living thing on this planet to its death!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> The only thing waiting for us is despair."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> A despair we can't even run from. A despair that's gonna crush humanity."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> You blasted fool..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> And it's all happening 'cause you were cocky enough to think you could control the super-ancient Pokémon's power!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> So the information we received from the Weather Institute was true..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss Maxie! We'll never get anywhere just standing around here like this!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> There isn't a moment to spare! We must confirm the situation on the outside!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Child! You're coming, too! Hurry up!"}
+#tps Steven in
+execute as @s[scores={DialogueTrigger=141,TalkTime=67}] run particle cloud 1359 64 -64 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=141,TalkTime=67}] run summon pixelmon:npc_chatting 1359 64 -64 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Steven", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "doctor", NameIndex: 2, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [5.858773f, -1.982208f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [1359.5d, 64.0d, -63.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "steven.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-#tps everyone out to surface
+tellraw @s[scores={DialogueTrigger=141,TalkTime=70}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=141,TalkTime=76}] {"text":"<Steven> I'm sorry I could not be here sooner."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=83}] {"text":"<Steven> Terrible..."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=89}] {"text":"<Steven> So this is what was being depicted in that painting in Granite Cave."}
 
-#shot of the sun
+tellraw @s[scores={DialogueTrigger=141,TalkTime=97}] {"text":"<Steven> If this doesn't stop, all Hoenn— no, the entire world—will burn up."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=105}] {"text":"<Steven> Nothing could live in such a land of death—neither Pokémon nor humans!"}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=114}] {"text":"<Steven> This dreadful blaze... It must be caused by the sweltering heat wave forming above Sootopolis..."}
 
-#Drought particles @ 20tps
-#particle minecraft:crimson_spore ~ ~1 ~ 10 10 10 10 100 normal
-#particle minecraft:flame ~ ~0 ~ 10 0.1 10 0 1 normal
+execute as @s[scores={DialogueTrigger=141,TalkTime=124}] as @e[x=1359,y=64,z=-64,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=124}] {"text":"<Steven> Come on, Steven... Think! What are you going to do?"}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=132}] {"text":"<Steven> ... ...No."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=140}] {"text":"<Steven> There's no point in agonizing over the situation from here..."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=147}] {"text":"<Steven> I have to go to Sootopolis. There must be answers there."}
+execute as @s[scores={DialogueTrigger=141,TalkTime=155}] as @e[x=1359,y=64,z=-64,distance=..5,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[scores={DialogueTrigger=141,TalkTime=155}]
+tellraw @s[scores={DialogueTrigger=141,TalkTime=155}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=141,TalkTime=160}] {"text":"<Steven> I will count on you to help with this crisis..."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=167}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=176}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
+tellraw @s[scores={DialogueTrigger=141,TalkTime=184}] {"text":"<Steven> Good luck to you."}
 
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> This... This is not..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> What..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> ..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I wanted... I wanted to make..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> It was supposed to be a world where the human race would attain new heights..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> The next stage...of our development..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> It was all...for humanity's future..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss... Maxie..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> So this...is the power of the super-ancient Pokémon..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> This is how Groudon brings everything to an end..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> All of us, people and Pokémon..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Every living thing on this planet... Everything's gonna die..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> OK, little scamp... We're setting sail for Sootopolis."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> That blasted Groudon is no doubt gonna get there ahead of us."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> It'll be waiting for us deep in the Cave of Origin, there in Sootopolis..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> There's a pool of energy there that folks say is needful for Primal Reversion."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> There's no doubt in my mind that Groudon will be racing to that cave, thirsting for that power..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> We got no choice but to go ourselves. We gotta do whatever we can to fight back!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> All right, Maxie! You Team Magma blighters better come with us."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> We're responsible for this mess. This ridiculous, impossible mess."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> It only makes sense for us all to step up and clean up after ourselves. Agreed?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Ngh..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Let's go. Boss Maxie..."}
-
-#tps Magmas out
-
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> ..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Hey, little scamp. Look, I'm supposed to be a grown-up, right?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> So let me say sorry for the way this has gone down."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> And...I'm sorry 'cause I've gotta ask you to pitch in with the cleanup."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> We need every hand on deck if we're gonna do something about this mess..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> So...I'll be waitin' for you in Sootopolis."}
-
-#tps Archie Out
-
-#overhead shot of the island
-
-#tps back to the island
-
-#Steven Stone flies in
-
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> I'm sorry I could not be here sooner."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Terrible..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> So this is what was being depicted in that painting in Granite Cave."}
-
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> If this doesn't stop, all Hoenn— no, the entire world—will burn up."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Nothing could live in such a land of death—neither Pokémon nor humans!"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> This dreadful blaze... It must be caused by the sweltering heat wave forming above Sootopolis..."}
-
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Come on, Steven... Think! What are you going to do?"}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> ... ...No."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> There's no point in agonizing over the situation from here..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> I have to go to Sootopolis. There must be answers there."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> I will count on you to help with this crisis..."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
-tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Good luck to you."}
-
-#Steven flies away
+#tps Steven out
+execute as @s[scores={DialogueTrigger=141,TalkTime=192}] run particle cloud 1359 64 -64 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=141,TalkTime=192}] run tp @e[x=1359,y=64,z=-64,distance=..5,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=141,TalkTime=192}] run scoreboard players set @s MusicTitles 93
 
 
-tag @s[scores={DialogueTrigger=141,TalkTime=100..}] add Dialogue141
+##Magma Line
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Hah... Hah... Hahhh..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> ... Ah. Aha... Fuhahaha..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Kahahahaha! GAHAHAHAHAHAHA!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Splendid. Just splendid, my young Trainer."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> No, it is more than that!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I should be calling you my young hero!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Believing until the very end that a world where humanity and Pokémon coexist must be the best..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Rejecting my ideals without a second thought..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Yes, watching you struggle desperately to halt the beginning of the world's end..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> You are undoubtedly a hero!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> So noble..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> And yet. I will not yield! I will not bend!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> My ideals will not be shaken!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> My dream for the world's next step forward will never change!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I will use the Red Orb to awaken Groudon, revert it to its primal form, and put an end to all else!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<...> Wait! Maxie!"}
+#
+##tps Tabitha in
+#
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Buh?! Tabitha?!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Do stop that now... Please! Maxie!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> You just don't understand!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> What Groudon will bring about upon awakening is an end to the world!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Humph. Did you think I had not noticed?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That I had somehow failed to realize you were after my spot? Such a sad development indeed."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> To be betrayed by my number two..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> In the end, there is only one being upon which I can depend!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Now, Groudon! Absorb all of the power resting in this Red Orb, and reclaim yourself!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Revert to your primal form!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> This is the time to take back the great Evolution you lost in the ancient past!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Reclaim the possibility you once held!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Augh... You..."}
+#
+##Maxie using the blue orb
+#
+##Groudon shatters rock, turns into normal form
+#
+##Maxie surfaces to the land, toggles weather to sunny
+#
+##Shot of Sootopolis in view, grouodon on lava?
+#
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Gahahahaha! At last..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> AT LAST! I've finally done it!!!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> A new world for human evolution will be born!!!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> We shall stride forward!!!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Ohh... What have you done..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss... What..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> ...Hm? A message from our members outside?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> What is it?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> So the sun has turned mercilessly fierce in its heat. I should expect so."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That is what I have long— No, what WE have long wished for."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> What?! The heat is greater than simulations predicted?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> It will be a risk to our own safety if it continues?!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That cannot be... It has only just awoken..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Where is it getting so much power from?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> And how much more will it gain when it does undergo Primal Reversion..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> C-continue your readings! Then report back!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss?! Maxie?! Just what's happening on the surface?!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> All that matters is..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> That I have used the Red Orb to awaken Groudon."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> And now... I will transform this planet to a land ideal for humanity."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Hey, Maxie."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Looks like we underestimated the power of the super-ancient Pokémon..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> The power of Primal Reversion..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> What...did you say?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Primal Groudon brings about an \"end,\" all right."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> But you don't get to choose what end."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> It's gonna drive every living thing on this planet to its death!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> The only thing waiting for us is despair."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> A despair we can't even run from. A despair that's gonna crush humanity."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> You blasted fool..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> And it's all happening 'cause you were cocky enough to think you could control the super-ancient Pokémon's power!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> So the information we received from the Weather Institute was true..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss Maxie! We'll never get anywhere just standing around here like this!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> There isn't a moment to spare! We must confirm the situation on the outside!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Child! You're coming, too! Hurry up!"}
+#
+##tps everyone out to surface
+#
+##shot of the sun
+#
+##Drought particles @ 20tps
+##particle minecraft:crimson_spore ~ ~1 ~ 10 10 10 10 100 normal
+##particle minecraft:flame ~ ~0 ~ 10 0.1 10 0 1 normal
+#
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> This... This is not..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> What..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> ..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> I wanted... I wanted to make..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> It was supposed to be a world where the human race would attain new heights..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> The next stage...of our development..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> It was all...for humanity's future..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Boss... Maxie..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> So this...is the power of the super-ancient Pokémon..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> This is how Groudon brings everything to an end..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> All of us, people and Pokémon..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Every living thing on this planet... Everything's gonna die..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> OK, little scamp... We're setting sail for Sootopolis."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> That blasted Groudon is no doubt gonna get there ahead of us."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> It'll be waiting for us deep in the Cave of Origin, there in Sootopolis..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> There's a pool of energy there that folks say is needful for Primal Reversion."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> There's no doubt in my mind that Groudon will be racing to that cave, thirsting for that power..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> We got no choice but to go ourselves. We gotta do whatever we can to fight back!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> All right, Maxie! You Team Magma blighters better come with us."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> We're responsible for this mess. This ridiculous, impossible mess."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> It only makes sense for us all to step up and clean up after ourselves. Agreed?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Maxie> Ngh..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Team Magma Tabitha> Let's go. Boss Maxie..."}
+#
+##tps Magmas out
+#
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> ..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> Hey, little scamp. Look, I'm supposed to be a grown-up, right?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> So let me say sorry for the way this has gone down."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> And...I'm sorry 'cause I've gotta ask you to pitch in with the cleanup."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> We need every hand on deck if we're gonna do something about this mess..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Archie> So...I'll be waitin' for you in Sootopolis."}
+#
+##tps Archie Out
+#
+##overhead shot of the island
+#
+##tps back to the island
+#
+##Steven Stone flies in
+#
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> I'm sorry I could not be here sooner."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Terrible..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> So this is what was being depicted in that painting in Granite Cave."}
+#
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> If this doesn't stop, all Hoenn— no, the entire world—will burn up."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Nothing could live in such a land of death—neither Pokémon nor humans!"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> This dreadful blaze... It must be caused by the sweltering heat wave forming above Sootopolis..."}
+#
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Come on, Steven... Think! What are you going to do?"}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> ... ...No."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> There's no point in agonizing over the situation from here..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> I have to go to Sootopolis. There must be answers there."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> I will count on you to help with this crisis..."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
+#tellraw @s[scores={DialogueTrigger=141,TalkTime=1}] {"text":"<Steven> Good luck to you."}
+#
+##Steven flies away
+#
+#
+tag @s[scores={DialogueTrigger=141,TalkTime=192..}] add Dialogue141
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 142 - Seafloor Cavern
 #Legendary Summoned, Aqua Line
 
 
-#Aqua Line
-#https://youtu.be/gFWJkdUqeWA?t=595
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Hah... Hah... Ahh..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> ... Ah. Aha..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Ahahahaha..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Bwahahahahahaha! Bwaha! AHAHAHAHAHA!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Perfect! You're just as great as any little hero trying to save the world oughta be!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> But it changes nothing!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I can't give up now! I can't!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I WILL use the power of this Blue Orb to awaken Kyogre at last!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Then I'll return everything in this world to its original, pure state!!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Now! AWAKEN, KYOGRE!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> RETURN EVERYTHING TO THE WAY IT WAS!!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<...> Archie!"}
+#Version 1 abridged
 
-#tps in Shelly
+#Awakens Groudon
 
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Shelly?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> That's enough!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Can't you see that the world you dream of and the world that Kyogre will create are two completely different places?!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Shelly..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I always believed that you at least would understand my dreams..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> But no! In the end, the only one I can depend on is you, Kyogre!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Absorb all the power resting in this Blue Orb, and reclaim yourself!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Revert to your primal form!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> This is the time to take back the great Evolution you lost in the ancient past!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> No... That..."}
+#Shot 2
 
-#Archie using the blue orb
+#Shot 3
 
-#Kyogre shatters rock, turns into normal form
+#Groudon Flees
 
-#Kyogre surfaces to the land, toggles weather to rainfall
+#Shot of it in the ocean?
 
-#Shot of Sootopolis in view
+#Teleports player to beach bit
 
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Bwahahahaha! At last..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> AT LAST! I've finally done it!!!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> It hasn't even finished reversion, and it still has this much power!!!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> With this I can return everything to its natural beginning!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> It's time at last!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> What...have you done..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Is that the crew outside?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What is it...? Oh? So the great deluge has begun..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Bwahahahaha! But of course it has!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> That is exactly what I have—"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What...?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What do you mean far more than we thought?!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> It can't be... Then if it completes its Primal Reversion..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> N-never mind that! Just keep an eye on it!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Archie! What's going on outside?!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> All that matters is..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> That I have used the Blue Orb to awaken Kyogre..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> And now... I will return this world to its natural state..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> The state that is best for Pokémon!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Archie."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It appears you have made a grave error regarding Kyogre's powers."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What...did you say?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> The \"beginning\" that Primal Kyogre brings about... The way that it resets the world..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It starts by driving every living thing on this planet to death first!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> This path leads only to an inescapable despair that cannot be withstood."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> That is all you have brought us."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> This is what comes of the madness of thinking that you could ever control the super-ancient Pokémon's power!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> I knew it."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> ... We just need to get out of here! Standing around complaining isn't going to solve anything!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> You, too! Well, hurry up!"}
 
-#tps everyone out to surface
-
-#shot of the rain
-
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> This... This is..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> How awful..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> ..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I... I only wanted..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I wanted to make...a world where Pokémon could live on...in peace..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Where...that...Pokémon..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Archie..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Is this... Is this the power of the super-ancient Pokémon?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Is this what Kyogre's power truly is?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Is this how you return everything to its beginning?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> The balance in this world is faltering."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> At this rate, it may be lost forever."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> You..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> We will make our way to Sootopolis."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It is most likely the case that Kyogre is also making its way to that city."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> In the deepest reaches of the Cave of Origin, which lies in the heart of Sootopolis City..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> That is where Kyogre will find the energy it needs to reclaim its primal form."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> I expect Kyogre will go to that place in search of even greater power."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> We must follow it to the Cave of Origin and do whatever it takes!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> There's nothing else we can do!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Archie. You and your team of fools will accompany us."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> We have brought this calamity upon ourselves."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It is only right that we take responsibility and clean up after our mistakes."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Ugh!"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Let's go, Archie!"}
-
-#Aquas tp out
-
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> ..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> As an adult, I first feel I must apologize for the way things have turned out."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> I am truly sorry..."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> But I must ask for your assistance. Won't you help us avert this crisis?"}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> If we work together, I believe we'll be able to overcome this ultimate threat."}
-tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> I will expect your arrival in Sootopolis."}
-
-#tp Maxie out
-
-#overhead shot of the island
-
-#tps back to the island
-
-#Steven Stone flies in
+#tps Steven in
 
 tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
 tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I'm sorry I could not be here sooner."}
@@ -5128,6 +5103,141 @@ tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I will cou
 tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
 tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
 tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Good luck to you."}
+
+
+
+##Aqua Line
+##https://youtu.be/gFWJkdUqeWA?t=595
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Hah... Hah... Ahh..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> ... Ah. Aha..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Ahahahaha..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Bwahahahahahaha! Bwaha! AHAHAHAHAHA!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Perfect! You're just as great as any little hero trying to save the world oughta be!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> But it changes nothing!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I can't give up now! I can't!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I WILL use the power of this Blue Orb to awaken Kyogre at last!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Then I'll return everything in this world to its original, pure state!!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Now! AWAKEN, KYOGRE!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> RETURN EVERYTHING TO THE WAY IT WAS!!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<...> Archie!"}
+#
+##tps in Shelly
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Shelly?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> That's enough!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Can't you see that the world you dream of and the world that Kyogre will create are two completely different places?!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Shelly..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I always believed that you at least would understand my dreams..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> But no! In the end, the only one I can depend on is you, Kyogre!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Absorb all the power resting in this Blue Orb, and reclaim yourself!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Revert to your primal form!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> This is the time to take back the great Evolution you lost in the ancient past!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> No... That..."}
+#
+##Archie using the blue orb
+#
+##Kyogre shatters rock, turns into normal form
+#
+##Kyogre surfaces to the land, toggles weather to rainfall
+#
+##Shot of Sootopolis in view
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Bwahahahaha! At last..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> AT LAST! I've finally done it!!!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> It hasn't even finished reversion, and it still has this much power!!!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> With this I can return everything to its natural beginning!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> It's time at last!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> What...have you done..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Is that the crew outside?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What is it...? Oh? So the great deluge has begun..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Bwahahahaha! But of course it has!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> That is exactly what I have—"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What...?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What do you mean far more than we thought?!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> It can't be... Then if it completes its Primal Reversion..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> N-never mind that! Just keep an eye on it!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Archie! What's going on outside?!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> All that matters is..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> That I have used the Blue Orb to awaken Kyogre..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> And now... I will return this world to its natural state..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> The state that is best for Pokémon!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Archie."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It appears you have made a grave error regarding Kyogre's powers."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> What...did you say?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> The \"beginning\" that Primal Kyogre brings about... The way that it resets the world..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It starts by driving every living thing on this planet to death first!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> This path leads only to an inescapable despair that cannot be withstood."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> That is all you have brought us."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> This is what comes of the madness of thinking that you could ever control the super-ancient Pokémon's power!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> I knew it."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> ... We just need to get out of here! Standing around complaining isn't going to solve anything!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> You, too! Well, hurry up!"}
+#
+##tps everyone out to surface
+#
+##shot of the rain
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> This... This is..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> How awful..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> ..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I... I only wanted..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> I wanted to make...a world where Pokémon could live on...in peace..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Where...that...Pokémon..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Archie..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Is this... Is this the power of the super-ancient Pokémon?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Is this what Kyogre's power truly is?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Is this how you return everything to its beginning?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> The balance in this world is faltering."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> At this rate, it may be lost forever."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> You..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> We will make our way to Sootopolis."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It is most likely the case that Kyogre is also making its way to that city."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> In the deepest reaches of the Cave of Origin, which lies in the heart of Sootopolis City..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> That is where Kyogre will find the energy it needs to reclaim its primal form."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> I expect Kyogre will go to that place in search of even greater power."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> We must follow it to the Cave of Origin and do whatever it takes!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> There's nothing else we can do!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> Archie. You and your team of fools will accompany us."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> We have brought this calamity upon ourselves."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> It is only right that we take responsibility and clean up after our mistakes."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Archie> Ugh!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Team Aqua Shelly> Let's go, Archie!"}
+#
+##Aquas tp out
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> ..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> As an adult, I first feel I must apologize for the way things have turned out."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> I am truly sorry..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> But I must ask for your assistance. Won't you help us avert this crisis?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> If we work together, I believe we'll be able to overcome this ultimate threat."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Maxie> I will expect your arrival in Sootopolis."}
+#
+##tp Maxie out
+#
+##overhead shot of the island
+#
+##tps back to the island
+#
+##Steven Stone flies in
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I'm sorry I could not be here sooner."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Terrible..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> So this is what was being depicted in that painting in Granite Cave."}
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> If this doesn't stop, all Hoenn— no, the entire world—will drown."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Nothing could live in such a world— neither humans nor Pokémon!"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> This huge rain cloud... Is it spreading out from Sootopolis?"}
+#
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Come on, Steven... Think! What are you going to do?"}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> ... ...No."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> There's no point in agonizing over the situation from here..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I have to go to Sootopolis. There must be answers there."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> I will count on you to help with this crisis..."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> But...please... Promise you won't do anything reckless."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Well then. I'll go ahead to Sootopolis."}
+#tellraw @s[scores={DialogueTrigger=142,TalkTime=1}] {"text":"<Steven> Good luck to you."}
 
 #Steven flies away
 
@@ -5335,17 +5445,51 @@ tag @s[scores={DialogueTrigger=146,TalkTime=100..}] add Dialogue146
 #Triggered by jumping into the lava with legendary
 #https://youtu.be/MgkqxXCmrtI?t=56137
 
-tellraw @s[scores={DialogueTrigger=147,TalkTime=1}] {"text":"<Groudon> Gurrrooouuuhhh!!!"}
+tellraw @s[scores={DialogueTrigger=147,TalkTime=1}] {"text":"<Groudon> Gurouhh!!!"}
+execute as @s[scores={DialogueTrigger=147,TalkTime=1}] run playsound pixelmon:pixelmon.mob.groudon ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=147,TalkTime=1}] run stopsound @s record
+
+#Camera 1
+execute as @s[scores={DialogueTrigger=147,TalkTime=5}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=147,TalkTime=6}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=147,TalkTime=6}] run tp @s 1850.0 72 -2416.5 -134 -2
+
+#Camera 2
+execute as @s[scores={DialogueTrigger=147,TalkTime=14}] run tp @s 1859.5 74.25 -2419 140 10
+
+#Starts shake
+execute as @s[scores={DialogueTrigger=147,TalkTime=22}] run tag @s add ShakeScreen
+execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run tag @s remove ShakeScreen
+
+#transforms into primal
+execute as @s[scores={DialogueTrigger=147,TalkTime=22}] run tp @s 1852 70 -2417.3 -148 -24
+
+execute as @s[scores={DialogueTrigger=147,TalkTime=30}] run tp @s 1851.95 70.1 -2434.3 -34 -10.5
+
+#tps player to land
+execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run tp @s 1855 72 -2408 180 0
+
+
+
+#Swaps for primal battle
+execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run particle minecraft:explosion_emitter 1856 70 -2426 4 5 4 .75 100 normal
+execute as @s[scores={DialogueTrigger=147,TalkTime=38}] positioned 1856 70 -2426 run pokespawn Groudon form:primal lvl:45 gr:7
+execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run tp @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000
+
+tellraw @s[scores={DialogueTrigger=147,TalkTime=40}] {"text":"<Groudon> Gurrrooouuuhhh!!!"}
+execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run playsound pixelmon:pixelmon.mob.groudon.primal ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run tag @s remove GroudonParticles
 
 #Groudon transforms into Primal form
 #Could form glass crystals around it during transformation?
 
 #Text if legend is defeated
-tellraw @s[scores={DialogueTrigger=147,TalkTime=1}] {"text":"Groudon disappeared deep beneath the magma...","italic":true,"color":"gray"}
+#tellraw @s {"text":"Groudon disappeared deep beneath the magma...","italic":true,"color":"gray"}
 
 #pokebattle
 
-tag @s[scores={DialogueTrigger=147,TalkTime=100..}] add Dialogue147
+tag @s[scores={DialogueTrigger=147,TalkTime=40..}] add Dialogue147
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 148 - Cave of Origin
 #Groudon in primal chamber

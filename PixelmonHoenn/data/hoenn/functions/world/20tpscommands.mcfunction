@@ -19,8 +19,11 @@ execute as @a[x=-1562,y=60,z=-1293,dx=249,dy=256,dz=159] at @s run particle mine
 execute as @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] at @s run particle minecraft:falling_dust sand ~ ~ ~ 20 10 20 8 100 normal
 
 #Groudon's Drought particles
-#execute as @a[SCOREBOARDTAGS] at @s run particle minecraft:crimson_spore ~ ~1 ~ 10 10 10 10 100 normal
-#execute as @a[SCOREBOARDTAGS] at @s run particle minecraft:flame ~ ~0 ~ 10 0.1 10 0 1 normal
+execute as @a[tag=GroudonParticles] at @s run particle minecraft:crimson_spore ~ ~1 ~ 10 10 10 10 100 normal
+execute as @a[tag=GroudonParticles] at @s run particle minecraft:flame ~ ~0 ~ 10 0.1 10 0 1 normal
+
+#Kyogre
+execute as @a[tag=KyogreParticles] at @s run particle minecraft:rain ~ ~ ~ 20 20 20 1 1000 normal
 
 #Lavaridge Gym
 execute if entity @p[x=-3181,y=77,z=1224,dx=125,dy=256,dz=449] run particle minecraft:campfire_cosy_smoke -3101 87 1550 30 0 40 0.1 3 force
@@ -66,9 +69,15 @@ execute as @a[x=-2035,y=69,z=246,distance=..30,tag=!Dialogue175,scores={Dialogue
 #Dialogue Movements
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 
+#Legendary spawn camera movements
+execute as @a[scores={DialogueTrigger=141,TalkTime=57..63}] at @s run tp @s ~-0.25 ~ ~-0.25
+execute as @s[scores={DialogueTrigger=141,TalkTime=50..57}] at @s run tp @s ~0.1 ~ ~
 
-
-
+#Cave of Origin particles
+execute as @a[scores={DialogueTrigger=147,TalkTime=6..13}] at @s run tp @s ~0.01 ~ ~-0.01
+execute as @a[scores={DialogueTrigger=147,TalkTime=14..21}] at @s run tp @s ~-0.01 ~ ~-0.01
+execute if entity @a[scores={DialogueTrigger=147,TalkTime=14..38}] as @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] at @s run particle minecraft:electric_spark ~ ~ ~ 5 5 5 1 100 normal
+execute if entity @a[scores={DialogueTrigger=147,TalkTime=22..38}] as @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] at @s run particle minecraft:end_rod ~ ~ ~ 2.5 3 2.5 0.25 10 normal
 
 #-----------------------------------------------------------------------------------------
 

@@ -27,13 +27,13 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=166}] MusicCoo
 playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=105}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=105}] MusicCooldown 102
 
+#Kyogre/Groudon awoken
+playsound ancientawaken record @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=..70}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=..70}] MusicCooldown 90
 
-
-
-
-
-
-
+#Kyogre/Groudon going primal in Cave of Origin
+playsound primal record @s[scores={MusicCooldown=0,DialogueTrigger=147..148,TalkTime=..70}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=147..148,TalkTime=..70}] MusicCooldown 138
 
 
 
@@ -105,6 +105,38 @@ execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:645}] run
 execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run playsound cycling record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run tag @s add Cycling
 execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 152
+
+#---------------------------------------------------------------------------------------------------------------------------
+#Takes priority over most zones but not entities
+
+scoreboard players set @s Temp 0
+execute at @s if block ~ ~1 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~2 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~3 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~4 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~5 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~6 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~7 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~8 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~9 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~10 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~11 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~12 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~13 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~14 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~15 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~16 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~17 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~18 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~19 ~ air run scoreboard players add @s Temp 1
+execute at @s if block ~ ~20 ~ air run scoreboard players add @s Temp 1
+
+#During Groudon's drought or Kyogre's flood
+playsound drought record @s[tag=GroudonParticles,scores={Temp=20..,MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[tag=GroudonParticles,scores={Temp=20..,MusicCooldown=0}] MusicCooldown 81
+
+playsound heavyrain record @s[tag=KyogreParticles,scores={Temp=20..,MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[tag=KyogreParticles,scores={Temp=20..,MusicCooldown=0}] MusicCooldown 98
 
 #---------------------------------------------------------------------------------------------------------------------------
 #Areas within areas, takes priority

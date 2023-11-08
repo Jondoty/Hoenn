@@ -28,8 +28,11 @@ scoreboard players set @s BattleMusic 0
 execute as @s[tag=!TornadusEncounter,tag=Dialogue240] run tag @s remove Dialogue240
 execute as @s[tag=!ThundurusEncounter,tag=Dialogue241] run tag @s remove Dialogue241
 execute as @s[tag=!LandorusEncounter,tag=Dialogue264] run tag @s remove Dialogue264
+#Groudon or Kyogre prompts but then relog
+execute as @s[tag=Dialogue140,tag=!Dialogue141,tag=!Dialogue142] run tag @s remove Dialogue140
 
-
+#if player is stuck on the screen shaking effect
+tag @s remove ShakeScreen
 
 
 

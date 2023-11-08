@@ -1111,6 +1111,9 @@ execute as @s[scores={TriggerCommand=511}] run scoreboard players set @s Dialogu
 execute as @s[scores={TriggerCommand=512}] run scoreboard players set @s DialogueTrigger 164
 
 
+#Dialogues 140-142, V1 summons legendaries after prompt.
+execute as @s[scores={TriggerCommand=513,GameVersion=1}] run scoreboard players set @s DialogueTrigger 141
+execute as @s[scores={TriggerCommand=513,GameVersion=2}] run scoreboard players set @s DialogueTrigger 142
 
 execute as @s[scores={TriggerCommand=500..999}] run scoreboard players set @s TriggerCommand 0
 

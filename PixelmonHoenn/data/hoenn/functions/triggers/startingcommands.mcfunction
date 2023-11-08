@@ -44,6 +44,8 @@ tag @s remove Room4
 tag @s remove Room5
 tag @s remove Room6
 tag @s remove Room7
+tag @s remove GroudonParticles
+tag @s remove KyogreParticles
 
 
 #Removes Mega Stone Fount tags
