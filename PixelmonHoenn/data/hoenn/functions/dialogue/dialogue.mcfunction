@@ -843,6 +843,7 @@ execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run give @s pixelmon:ston
 execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run advancement grant @s only hoenn:badges/badge1
 
 tellraw @s[scores={DialogueTrigger=25,TalkTime=33}] {"text":"<Roxanne> The Stone Badge enables Pokémon to use the HM move Cut outside of battle."}
 tellraw @s[scores={DialogueTrigger=25,TalkTime=41}] {"text":"<Roxanne> And... Please take this with you, too."}
@@ -1075,6 +1076,7 @@ execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run give @s pixelmon:knuc
 execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=35,TalkTime=10}] run advancement grant @s only hoenn:badges/badge2
 
 tellraw @s[scores={DialogueTrigger=35,TalkTime=17}] {"text":"<Brawly> Hmm... You know what? I think you can make full use of this, too."}
 tellraw @s[scores={DialogueTrigger=35,TalkTime=26}] {"text":"<Brawly> I'm sure this will help your Pokémon bulk up muscle!"}
@@ -1937,6 +1939,7 @@ tellraw @s[scores={DialogueTrigger=68,TalkTime=9}] ["",{"selector":"@s","italic"
 execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run advancement grant @s only hoenn:badges/badge3
 
 tellraw @s[scores={DialogueTrigger=68,TalkTime=16}] {"text":"<Wattson> With the Dynamo Badge, Pokémon can use the HM Rock Smash outside of battle."}
 tellraw @s[scores={DialogueTrigger=68,TalkTime=25}] {"text":"<Wattson> All righty then, this here's for you, too! Go on, take it with you!"}
@@ -2816,6 +2819,7 @@ execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run give @s pixelmon:heat
 execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=90,TalkTime=34}] run advancement grant @s only hoenn:badges/badge4
 
 tellraw @s[scores={DialogueTrigger=90,TalkTime=41}] {"text":"<Flannery> If you have a Heat Badge, it lets Pokémon use the HM move Strength outside of battle."}
 tellraw @s[scores={DialogueTrigger=90,TalkTime=50}] {"text":"<Flannery> This is a token of my appreciation. Don't be shy about taking it!"}
@@ -2968,6 +2972,7 @@ execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run give @s pixelmon:bala
 execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=95,TalkTime=34}] run advancement grant @s only hoenn:badges/badge5
 
 tellraw @s[scores={DialogueTrigger=95,TalkTime=41}] {"text":"<Dad> Having that Badge will ensure that Pokémon that know the HM move Surf will be able to travel over water now."}
 tellraw @s[scores={DialogueTrigger=95,TalkTime=51}] ["",{"text":"<Dad> And this is my gift to you, "},{"selector":"@s"},{"text":"."}]
@@ -3456,6 +3461,7 @@ tellraw @s[scores={DialogueTrigger=100,TalkTime=343}] ["",{"text":"<Steven> Unti
 #tp Steven out
 execute as @s[scores={DialogueTrigger=100,TalkTime=350}] run execute as @e[x=-982,y=64,z=-545,distance=..3,type=pixelmon:npc_chatting] at @s run particle cloud ~ ~ ~ 1 1 1 0.15 300
 execute as @s[scores={DialogueTrigger=100,TalkTime=350}] run tp @e[x=-982,y=64,z=-545,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=100,TalkTime=350}] run advancement grant @s only hoenn:adventurer/megaring
 
 tag @s[scores={DialogueTrigger=100,TalkTime=350..}] add Dialogue100
 #-----------------------------------------------------------------------------------------------------
@@ -3912,6 +3918,7 @@ execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run give @s pixelmon:feat
 execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=118,TalkTime=9}] run advancement grant @s only hoenn:badges/badge6
 
 tellraw @s[scores={DialogueTrigger=118,TalkTime=16}] {"text":"<Winona> With the Feather Badge, you will be able to use the HM move Fly outside of battle."}
 tellraw @s[scores={DialogueTrigger=118,TalkTime=25}] {"text":"<Winona> And this... This is a gift from me."}
@@ -4619,6 +4626,7 @@ execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run give @s pixelmon:min
 execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=138,TalkTime=16}] run advancement grant @s only hoenn:badges/badge7
 
 tellraw @s[scores={DialogueTrigger=138,TalkTime=23}] {"text":"<Tate> The Mind Badge enables Pokémon to use the HM move called Dive!"}
 tellraw @s[scores={DialogueTrigger=138,TalkTime=31}] {"text":"<Liza> And take this, too!"}
@@ -4912,6 +4920,7 @@ tellraw @s[scores={DialogueTrigger=141,TalkTime=184}] {"text":"<Steven> Good luc
 execute as @s[scores={DialogueTrigger=141,TalkTime=192}] run particle cloud 1359 64 -64 1 1 1 0.15 300
 execute as @s[scores={DialogueTrigger=141,TalkTime=192}] run tp @e[x=1359,y=64,z=-64,distance=..5,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 execute as @s[scores={DialogueTrigger=141,TalkTime=192}] run scoreboard players set @s MusicTitles 93
+execute as @s[scores={DialogueTrigger=141,TalkTime=192}] run advancement grant @s only hoenn:adventurer/groudon1
 
 
 ##Magma Line
@@ -5159,6 +5168,7 @@ tellraw @s[scores={DialogueTrigger=142,TalkTime=184}] {"text":"<Steven> Good luc
 execute as @s[scores={DialogueTrigger=142,TalkTime=192}] run particle cloud 1359 64 -64 1 1 1 0.15 300
 execute as @s[scores={DialogueTrigger=142,TalkTime=192}] run tp @e[x=1359,y=64,z=-64,distance=..5,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 execute as @s[scores={DialogueTrigger=142,TalkTime=192}] run scoreboard players set @s MusicTitles 93
+execute as @s[scores={DialogueTrigger=142,TalkTime=192}] run advancement grant @s only hoenn:adventurer/kyogre1
 
 
 ##Aqua Line
@@ -5535,6 +5545,7 @@ execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run tp @e[x=1856,y=70,z=
 tellraw @s[scores={DialogueTrigger=147,TalkTime=40}] {"text":"<Groudon> Gurrrooouuuhhh!!!"}
 execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run playsound pixelmon:pixelmon.mob.groudon.primal ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run tag @s remove GroudonParticles
+execute as @s[scores={DialogueTrigger=147,TalkTime=50}] run advancement grant @s only hoenn:adventurer/groudon2
 
 #Groudon transforms into Primal form
 #Could form glass crystals around it during transformation?
@@ -5544,7 +5555,7 @@ execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run tag @s remove Groudo
 
 #pokebattle
 
-tag @s[scores={DialogueTrigger=147,TalkTime=40..}] add Dialogue147
+tag @s[scores={DialogueTrigger=147,TalkTime=50..}] add Dialogue147
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 148 - Cave of Origin
 #Groudon in primal chamber
@@ -5585,6 +5596,7 @@ execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run tp @e[x=2025,y=70,z=
 tellraw @s[scores={DialogueTrigger=148,TalkTime=40}] {"text":"<Kyogre> Krrraaawwwrrr!!!"}
 execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run playsound pixelmon:pixelmon.mob.kyogre.primal ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run tag @s remove KyogreParticles
+execute as @s[scores={DialogueTrigger=148,TalkTime=50}] run advancement grant @s only hoenn:adventurer/kyogre2
 
 
 #Kyogre transforms into Primal form
@@ -5595,7 +5607,7 @@ execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run tag @s remove Kyogre
 
 #pokebattle
 
-tag @s[scores={DialogueTrigger=148,TalkTime=100..}] add Dialogue148
+tag @s[scores={DialogueTrigger=148,TalkTime=50..}] add Dialogue148
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 149 - Cave of Origin
 #After legendaty is caught (or defeated?)
@@ -5821,6 +5833,7 @@ execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run give @s pixelmon:rai
 execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run stopsound @s record
 execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run scoreboard players set @s MusicCooldown 10
 execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run playsound minecraft:badgeget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=152,TalkTime=30}] run advancement grant @s only hoenn:badges/badge8
 
 tellraw @s[scores={DialogueTrigger=152,TalkTime=37}] {"text":"<Wallace> And so you never forget the battle we shared..."}
 tellraw @s[scores={DialogueTrigger=152,TalkTime=44}] {"text":"<Wallace> Here..."}
@@ -6230,6 +6243,7 @@ tag @s[scores={DialogueTrigger=165,TalkTime=80..}] add Dialogue165
 #First time
 
 execute as @s[scores={DialogueTrigger=166,TalkTime=1}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=166,TalkTime=1}] run advancement grant @s only hoenn:badges/champion
 
 execute as @s[scores={DialogueTrigger=166,TalkTime=1}] run scoreboard players add @s PokemonLeague 1
 

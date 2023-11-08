@@ -121,6 +121,40 @@ execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=29}] as @a[x=-
 execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=30}] as @a[x=-751,y=63,z=1506,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
 execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=31}] as @a[x=-767,y=63,z=1414,dx=2,dy=15,dz=2] run function hoenn:tools/forceclick
 
+#Grants advancements
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0}] run advancement grant @s[x=-988,y=63,z=1470,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=1}] run advancement grant @s[x=-970,y=63,z=1528,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=2}] run advancement grant @s[x=-916,y=63,z=1385,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=3}] run advancement grant @s[x=-788,y=63,z=1419,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=4}] run advancement grant @s[x=-758,y=63,z=1403,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=5}] run advancement grant @s[x=-814,y=63,z=1521,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=6}] run advancement grant @s[x=-835,y=63,z=1525,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=7}] run advancement grant @s[x=-878,y=63,z=1542,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=8}] run advancement grant @s[x=-743,y=63,z=1448,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=9}] run advancement grant @s[x=-797,y=63,z=1422,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=10}] run advancement grant @s[x=-953,y=63,z=1406,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=11}] run advancement grant @s[x=-816,y=63,z=1422,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=12}] run advancement grant @s[x=-818,y=63,z=1508,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=13}] run advancement grant @s[x=-984,y=63,z=1493,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=14}] run advancement grant @s[x=-885,y=63,z=1536,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=15}] run advancement grant @s[x=-880,y=63,z=1405,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=16}] run advancement grant @s[x=-985,y=63,z=1465,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=17}] run advancement grant @s[x=-858,y=63,z=1404,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=18}] run advancement grant @s[x=-811,y=63,z=1512,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=19}] run advancement grant @s[x=-936,y=63,z=1546,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=20}] run advancement grant @s[x=-780,y=63,z=1422,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=21}] run advancement grant @s[x=-838,y=63,z=1487,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=22}] run advancement grant @s[x=-758,y=63,z=1514,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=23}] run advancement grant @s[x=-935,y=63,z=1399,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=24}] run advancement grant @s[x=-972,y=63,z=1443,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=25}] run advancement grant @s[x=-811,y=63,z=1424,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=26}] run advancement grant @s[x=-749,y=63,z=1414,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=27}] run advancement grant @s[x=-807,y=63,z=1513,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=28}] run advancement grant @s[x=-741,y=63,z=1429,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=29}] run advancement grant @s[x=-763,y=63,z=1517,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=30}] run advancement grant @s[x=-751,y=63,z=1506,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=31}] run advancement grant @s[x=-767,y=63,z=1414,dx=2,dy=15,dz=2] only hoenn:adventurer/miragearea
+
 #Teleports player to mirage spot
 execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=0}] run tp @s[x=-988,y=63,z=1470,dx=2,dy=15,dz=2] -3302 69 -181 180 0
 execute if entity @e[x=-2070,y=64,z=1410,dy=3,scores={MirageSpots=1}] run tp @s[x=-970,y=63,z=1528,dx=2,dy=15,dz=2] -989 74 622 0 0

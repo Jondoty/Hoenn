@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Above It All"
+        },
+        "description": {
+            "text": "Fly Rayquaza into Outer Space"
+        },
+        "icon": {
+            "item": "pixelmon:sweet_star"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+      },
+      "parent": "hoenn:adventurer",
+      "criteria": {
+          "example": {
+              "trigger": "minecraft:impossible"
+          }
+      }
+    }

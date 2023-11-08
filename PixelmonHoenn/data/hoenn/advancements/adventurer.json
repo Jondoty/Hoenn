@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Adventurer"
+        },
+        "description": {
+            "text": "Explore the region"
+        },
+        "icon": {
+            "item": "pixelmon:wide_lens"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+      },
+      "parent": "hoenn:root",
+      "criteria": {
+          "example": {
+              "trigger": "minecraft:impossible"
+          }
+      }
+    }

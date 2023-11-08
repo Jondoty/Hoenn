@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Groudon Awakened"
+        },
+        "description": {
+            "text": "Wake up Groudon from its slumber"
+        },
+        "icon": {
+            "item": "pixelmon:ground_gem"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+      },
+      "parent": "hoenn:adventurer",
+      "criteria": {
+          "example": {
+              "trigger": "minecraft:impossible"
+          }
+      }
+    }

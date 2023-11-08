@@ -426,6 +426,7 @@ execute as @s[tag=ClaimSuccess,scores={BaseTrigger=82}] run tag @e[x=-2070,y=65,
 
 
 scoreboard players set @s[tag=ClaimSuccess] BaseTrigger 0
+advancement grant @s[tag=ClaimSuccess] only hoenn:adventurer/secretbase
 tag @s remove ClaimSuccess
 
 
