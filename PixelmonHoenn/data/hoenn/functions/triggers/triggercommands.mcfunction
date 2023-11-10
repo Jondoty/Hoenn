@@ -446,10 +446,14 @@ execute as @s[scores={TriggerCommand=58}] run tag @e[x=-2070,y=65,z=1410,dy=3,ta
 execute as @s[scores={TriggerCommand=58}] run scoreboard players set @s DialogueTrigger 174
 execute as @s[scores={TriggerCommand=58},tag=!UnovaStarter] run tag @s add UnovaStarter
 
+#-----------------------------------------------------------------------------------------------------
+#Ran by the Taillow in the lobby to verify the player has trainer commands to continue
+execute as @s[scores={TriggerCommand=59}] run tag @e[x=-2070,y=65,z=1410,dy=3,type=minecraft:armor_stand] add TrainerCommandConfirm
+execute as @s[scores={TriggerCommand=59}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=59}] run tellraw @s {"text":"<Taillow> Trainer Commands confirmed, you are good to go!"}
 
-
-
-
+#Resource pack explanation & link
+execute as @s[scores={TriggerCommand=60}] run tellraw @s ["",{"text":"[","italic":true,"color":"gray"},{"text":"Click Here","italic":true,"color":"aqua","clickEvent":{"action":"open_url","value":"hoenn.jond.tv"}},{"text":"] to download.\n[","italic":true,"color":"gray"},{"text":"Learn More","italic":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack"}},{"text":"] about how to enable a Resource Pack.","italic":true,"color":"gray"}]
 
 
 #-----------------------------------------------------------------------------------------------------

@@ -49,6 +49,22 @@ execute as @a[tag=BattleEnd] run function hoenn:battles/end
 execute as @a[tag=BattleForefit] run function hoenn:battles/forefit
 
 #---------------------
+#Lobby Gamerule Stuff
+#Runs boss levels
+execute at @a[scores={Boss=0}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "notboss"}
+execute at @a[scores={Boss=1}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "equal"}
+execute at @a[scores={Boss=2}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "common"}
+execute at @a[scores={Boss=3}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "uncommon"}
+execute at @a[scores={Boss=4}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "rare"}
+
+
+#Runs infolist command for non-ops
+scoreboard players enable @a Info
+scoreboard players enable @a info
+execute as @a[scores={Info=1..}] run function tools:infolist
+execute as @a[scores={info=1..}] run function tools:infolist
+
+#---------------------
 #Time-based commands
 
 #Runs daily commands, sets time to armor stand based on game time
