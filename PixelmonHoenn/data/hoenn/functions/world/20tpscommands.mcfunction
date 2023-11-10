@@ -83,6 +83,22 @@ execute if entity @a[scores={DialogueTrigger=148,TalkTime=14..38}] as @e[x=2025,
 execute if entity @a[scores={DialogueTrigger=148,TalkTime=14..38}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:dolphin ~ ~ ~ 5 5 5 1 100 normal
 execute if entity @a[scores={DialogueTrigger=148,TalkTime=22..38}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:end_rod ~ ~ ~ 2.5 3 2.5 0.25 10 normal
 
+#Sky Pillar into Outer Space
+execute as @a[scores={DialogueTrigger=207,TalkTime=50..65}] at @s run tp @e[distance=..15,type=pixelmon:statue,nbt={Variant:"mega"}] ~ ~2 ~
+execute as @a[scores={DialogueTrigger=207,TalkTime=50..65}] at @s run tp @s ~ ~2 ~
+
+execute as @a[scores={DialogueTrigger=207,TalkTime=1..9}] at @s run tp @s ~-0.005 ~ ~0.005
+execute as @a[scores={DialogueTrigger=207,TalkTime=10..19}] at @s run tp @s ~-0.075 ~ ~-0.075
+execute as @a[scores={DialogueTrigger=207,TalkTime=20..32}] at @s run tp @s ~0.003 ~ ~0.003
+execute as @a[scores={DialogueTrigger=207,TalkTime=33..39}] at @s run tp @s ~-0.05 ~-0.05 ~0.05
+execute as @a[scores={DialogueTrigger=207,TalkTime=66..74}] at @s run tp @s ~ ~0.5 ~ ~-0.5 ~
+execute as @a[scores={DialogueTrigger=207,TalkTime=75..84}] at @s run tp @s ~0.1 ~0.1 ~0.1 ~-.01 ~0.1
+execute as @a[scores={DialogueTrigger=207,TalkTime=85..92}] at @s run tp @s ~ ~ ~0.01
+execute as @a[scores={DialogueTrigger=207,TalkTime=85..92}] at @s run tp @s ~ ~ ~0.01
+execute as @a[scores={DialogueTrigger=207,TalkTime=93..136}] at @s run tp @s ~ ~ ~-0.005
+
+execute as @a[scores={DialogueTrigger=208,TalkTime=26..35}] at @s run tp @s ~-0.075 ~ ~-0.075
+
 #-----------------------------------------------------------------------------------------
 
 #Road Blocks

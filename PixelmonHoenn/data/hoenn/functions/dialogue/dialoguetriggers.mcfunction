@@ -105,13 +105,34 @@ execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"
 execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s MusicCooldown 1
 
 
+#Sky Pillar
+#Summons Rayquaza Statue
+execute as @a[x=338,y=242,z=-166,distance=..20,tag=!RayquazaEncounter] unless entity @e[x=338,y=242,z=-197,distance=..5,type=pixelmon:statue] run summon pixelmon:statue 338 242 -197 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Growth", MovePP: 20b}, {MoveID: "Leech Seed", MovePP: 10b}, {MoveID: "Sleep Powder", MovePP: 15b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 22b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 23b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, IVSpeed: 13b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 23s, IVAttack: 14b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 24s, IVHP: 9b, EVHP: 0s, ndex: 384, StatsSpecialDefense: 29s, Age: 0, Nature: 24b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 39s, Health: 20, Animate: 1b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [0.90026855f, 0.0f], StatsSpeed: 20s, StatsAttack: 21s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 21b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run stopsound @s record
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s MusicCooldown 1
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run stopsound @s record
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s MusicCooldown 1
 
+#When the player is on the peak of Sky Pillar with a Rayquaza that is holding a meteorite
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run scoreboard players set @s PokeHave 0
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run tag @s remove Temp
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] store result score @s PokeHave run poketest 1 Rayquaza helditem:meteorite
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] store result score @s PokeHave run poketest 2 Rayquaza helditem:meteorite
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] store result score @s PokeHave run poketest 3 Rayquaza helditem:meteorite
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] store result score @s PokeHave run poketest 4 Rayquaza helditem:meteorite
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] store result score @s PokeHave run poketest 5 Rayquaza helditem:meteorite
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] store result score @s PokeHave run poketest 6 Rayquaza helditem:meteorite
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=RayquazaEncounter] run tag @s[scores={PokeHave=1}] add Temp
 
+execute as @a[x=142,y=242,z=-326,dx=364,dy=50,dz=317,tag=Temp,tag=!SpacePrompt,tag=!Dialogue206,scores={DialogueTrigger=0,TalkTime=0}] run scoreboard players set @s TriggerCommand 515
 
-
-
-
-
+#Deoxys in space, removes check if a Deoxys is present for player to get return dialogue
+execute if entity @e[x=392,y=-100,z=2311,dx=501,dy=256,dz=501,type=pixelmon:pixelmon,nbt={ndex:386}] run tag @a[x=392,y=-100,z=2311,dx=501,dy=256,dz=501,scores={DialogueTrigger=0},gamemode=adventure,tag=TempDelay] remove TempDelay
 
 #

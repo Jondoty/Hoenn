@@ -22,6 +22,9 @@ execute as @s[tag=!CresseliaCatch,tag=CresseliaEncounter] run tag @s remove Cres
 
 #deoxys
 execute as @s[tag=!DeoxysCatch,tag=Dialogue207] run tellraw @s {"text":"You can now rebattle Deoxys!","italic":true,"color":"gray"}
+execute as @s[tag=!DeoxysCatch,tag=Dialogue207] run tag @s remove Dialogue206
+execute as @s[tag=!DeoxysCatch,tag=Dialogue207] run tag @s remove Dialogue208
+execute as @s[tag=!DeoxysCatch,tag=Dialogue207] run tag @s remove SpacePrompt
 execute as @s[tag=!DeoxysCatch,tag=Dialogue207] run tag @s remove Dialogue207
 
 

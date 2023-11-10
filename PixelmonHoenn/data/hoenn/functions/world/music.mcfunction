@@ -107,6 +107,9 @@ execute if entity @e[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={Variant:"prima
 execute if entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={Variant:"primal"}] run playsound primal record @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 execute if entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={Variant:"primal"}] run scoreboard players set @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,scores={MusicCooldown=0}] MusicCooldown 138
 
+#Sky Pillar if Rayquaza is present
+execute if entity @e[x=142,y=242,z=-326,dx=364,dy=50,dz=317,type=pixelmon:pixelmon,nbt={ndex:384}] run playsound rayquaza record @s[x=142,y=242,z=-326,dx=364,dy=50,dz=317,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=142,y=242,z=-326,dx=364,dy=50,dz=317,type=pixelmon:pixelmon,nbt={ndex:384}] run scoreboard players set @s[x=142,y=242,z=-326,dx=364,dy=50,dz=317,scores={MusicCooldown=0}] MusicCooldown 137
 
 #If player is riding a bicycle
 execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run playsound cycling record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

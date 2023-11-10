@@ -1115,6 +1115,21 @@ execute as @s[scores={TriggerCommand=512}] run scoreboard players set @s Dialogu
 execute as @s[scores={TriggerCommand=513,GameVersion=1}] run scoreboard players set @s DialogueTrigger 141
 execute as @s[scores={TriggerCommand=513,GameVersion=2}] run scoreboard players set @s DialogueTrigger 142
 
+execute as @s[scores={TriggerCommand=514}] run playsound pixelmon:pixelmon.mob.rayquaza ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=514}] run tellraw @s {"text":"<Rayquaza> Kiryararararahhh!!!"}
+execute as @s[scores={TriggerCommand=514}] run particle cloud 338 242 -197 3 3 3 0.15 300
+execute as @s[scores={TriggerCommand=514}] run tp @e[type=pixelmon:statue,x=338,y=242,z=-197,distance=..5] 10000000 -50000 -10000000
+execute as @s[scores={TriggerCommand=514},tag=!RayquazaEncounter] positioned 338 242 -197 run pokespawn Rayquaza lvl:70 move:Dragon_Ascent move:Extreme_Speed move:Dragon_Pulse move:Dragon_Dance
+execute as @s[scores={TriggerCommand=514}] run tag @s add RayquazaEncounter
+execute as @s[scores={TriggerCommand=514}] run data merge entity @e[x=338,y=242,z=-197,distance=..10,type=pixelmon:pixelmon,nbt={ndex:384},limit=1] {NoAI:1}
+execute as @s[scores={TriggerCommand=514}] run function hoenn:tools/forceclick
+
+#Rayquaza confirm go to space
+execute as @s[scores={TriggerCommand=515}] run scoreboard players set @s DialogueTrigger 206
+execute as @s[scores={TriggerCommand=515}] run tag @s add SpacePrompt
+
+execute as @s[scores={TriggerCommand=516}] run scoreboard players set @s DialogueTrigger 207
+
 execute as @s[scores={TriggerCommand=500..999}] run scoreboard players set @s TriggerCommand 0
 
 #-----------------------------------------------------------------------------------------------------

@@ -1,2 +1,2 @@
 tag @s add DeoxysCatch
-#say success2
+scoreboard players set @s DialogueTrigger 208

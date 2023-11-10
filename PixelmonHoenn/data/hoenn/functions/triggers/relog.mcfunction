@@ -31,6 +31,10 @@ execute as @s[tag=!LandorusEncounter,tag=Dialogue264] run tag @s remove Dialogue
 #Groudon or Kyogre prompts but then relog
 execute as @s[tag=Dialogue140,tag=!Dialogue141,tag=!Dialogue142] run tag @s remove Dialogue140
 
+#Rayquaza space prompt
+tag @s remove SpacePrompt
+tag @s remove Dialogue206
+
 #if player is stuck on the screen shaking effect
 tag @s remove ShakeScreen
 
