@@ -15,3 +15,10 @@ tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 
 
 #NPCs will face you wherever you are
 /execute as @e[type=pixelmon:npc_trainer,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+
+
+#Generic Item Playsound
+playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+
+TMs
+playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
