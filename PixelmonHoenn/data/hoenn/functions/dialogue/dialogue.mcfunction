@@ -8414,31 +8414,51 @@ tag @s[scores={DialogueTrigger=209,TalkTime=100..}] add Dialogue209
 #Mom and Dad after Delta Episode, gainint SS Ticket
 #https://youtu.be/MgkqxXCmrtI?t=72769
 
+#Version 1, after Pokemon League
+
 tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> Hm?"}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] ["",{"text":"<Dad> Morning, "},{"selector":"@s"}]
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> You must've been bushed. You slept like a log."}
+execute as @s[scores={DialogueTrigger=210,TalkTime=7,Rival=1}] as @e[x=-2061,y=39,z=299,distance=..3,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[scores={DialogueTrigger=210,TalkTime=7}]
+execute as @s[scores={DialogueTrigger=210,TalkTime=7,Rival=2}] as @e[x=-1998,y=39,z=299,distance=..3,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[scores={DialogueTrigger=210,TalkTime=7}]
+tellraw @s[scores={DialogueTrigger=210,TalkTime=7}] ["",{"text":"<Dad> Morning, "},{"selector":"@s"}]
+tellraw @s[scores={DialogueTrigger=210,TalkTime=15}] {"text":"<Dad> You must've been bushed. You slept like a log."}
+
 #Summon esclamation
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> Oh, but before I forget..."}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> This came for you. It's from someone named Briney."}
+execute as @s[scores={DialogueTrigger=210,TalkTime=20,Rival=2}] at @e[x=-2061,y=40,z=299,distance=..1,type=pixelmon:npc_chatting] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"text":"!"}',CustomNameVisible:1b}
+execute as @s[scores={DialogueTrigger=210,TalkTime=22,Rival=2}] at @e[x=-2061,y=40,z=299,distance=..1,type=pixelmon:npc_chatting] run kill @e[type=minecraft:armor_stand,distance=..3]
 
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the S.S. Ticket!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=210,TalkTime=20,Rival=2}] at @e[x=-1998,y=40,z=299,distance=..1,type=pixelmon:npc_chatting] run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"text":"!"}',CustomNameVisible:1b}
+execute as @s[scores={DialogueTrigger=210,TalkTime=22,Rival=2}] at @e[x=-1998,y=40,z=299,distance=..1,type=pixelmon:npc_chatting] run kill @e[type=minecraft:armor_stand,distance=..3]
 
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> Hm, so it was a ferry ticket, was it?"}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> As I recall, you can catch the ferry from the ports in Slateport and Lilycove."}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] ["",{"text":"<Dad> "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> If you have ambition as a Trainer, I want you to take that ferry to the Battle Resort."}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> I think it will teach you that there is no end to a Trainer's chosen path."}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> I'd better be heading back to the Petalburg Gym, then."}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Dad> Thanks for looking after the house while I'm away, honey."}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=22}] {"text":"<Dad> Oh, but before I forget..."}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=29}] {"text":"<Dad> This came for you. It's from someone named Briney."}
+
+tellraw @s[scores={DialogueTrigger=210,TalkTime=36}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the S.S. Ticket!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=210,TalkTime=36}] run give @s pixelmon:ss_ticket
+execute as @s[scores={DialogueTrigger=210,TalkTime=36}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+
+tellraw @s[scores={DialogueTrigger=210,TalkTime=43}] {"text":"<Dad> Hm, so it was a ferry ticket, was it?"}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=50}] {"text":"<Dad> As I recall, you can catch the ferry from the ports in Slateport and Lilycove."}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=60}] ["",{"text":"<Dad> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=210,TalkTime=66}] {"text":"<Dad> If you have ambition as a Trainer, I want you to take that ferry to the Battle Resort."}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=76}] {"text":"<Dad> I think it will teach you that there is no end to a Trainer's chosen path."}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=83}] {"text":"<Dad> I'd better be heading back to the Petalburg Gym, then."}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=90}] {"text":"<Dad> Thanks for looking after the house while I'm away, honey."}
+execute as @s[scores={DialogueTrigger=210,TalkTime=90,Rival=1}] as @e[x=-2061,y=40,z=299,distance=..2,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[90f,0.0f]}
+execute as @s[scores={DialogueTrigger=210,TalkTime=90,Rival=2}] as @e[x=-1998,y=40,z=299,distance=..2,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[-90f,0.0f]}
 
 #tp dad out
+execute as @s[scores={DialogueTrigger=210,TalkTime=97,Rival=1}] run particle cloud -2061 40 299 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=210,TalkTime=97,Rival=1}] run tp @e[x=-2061,y=40,z=299,distance=..1,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Mom> Ohhh, that dad of yours!"}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Mom> Can't he ever forget about work?"}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Mom> I wish he could just switch it off and take it easy sometimes!"}
-tellraw @s[scores={DialogueTrigger=210,TalkTime=1}] {"text":"<Mom> But I love him just the way he is..."}
+execute as @s[scores={DialogueTrigger=210,TalkTime=97,Rival=2}] run particle cloud -1998 40 299 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=210,TalkTime=97,Rival=2}] run tp @e[x=-1998,y=40,z=299,distance=..1,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=210,TalkTime=100..}] add Dialogue210
+tellraw @s[scores={DialogueTrigger=210,TalkTime=100}] {"text":"<Mom> Ohhh, that dad of yours!"}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=107}] {"text":"<Mom> Can't he ever forget about work?"}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=114}] {"text":"<Mom> I wish he could just switch it off and take it easy sometimes!"}
+tellraw @s[scores={DialogueTrigger=210,TalkTime=122}] {"text":"<Mom> But I love him just the way he is..."}
+
+tag @s[scores={DialogueTrigger=210,TalkTime=122..}] add Dialogue210
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 211 - Mauville City
 #Wattson New Mauville first talk
@@ -8706,12 +8726,12 @@ tag @s[scores={DialogueTrigger=225,TalkTime=100..}] add Dialogue225
 #Dialogue 226 - Shoal Cave
 #Shell Guy First Talk
 tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> Are you planning on going deep in there?"}
-tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> How about bringing me back some Shoal Salt and Shoal Shells?"}
-tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> I can make you something good if you bring me those items."}
-tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> If you bring me four each of the Shoal Salt and Shoal Shells, I can make you a Shell Bell..."}
-tellraw @s[scores={DialogueTrigger=226,TalkTime=1}] {"text":"<Shoal Man> You can get more every day."}
+tellraw @s[scores={DialogueTrigger=226,TalkTime=8}] {"text":"<Shoal Man> How about bringing me back some Shoal Salt and Shoal Shells?"}
+tellraw @s[scores={DialogueTrigger=226,TalkTime=16}] {"text":"<Shoal Man> I can make you something good if you bring me those items."}
+tellraw @s[scores={DialogueTrigger=226,TalkTime=24}] {"text":"<Shoal Man> If you bring me four each of the Shoal Salt and Shoal Shells, I can make you a Shell Bell..."}
+tellraw @s[scores={DialogueTrigger=226,TalkTime=34}] {"text":"<Shoal Man> You can get more every day."}
 
-tag @s[scores={DialogueTrigger=226,TalkTime=100..}] add Dialogue226
+tag @s[scores={DialogueTrigger=226,TalkTime=34..}] add Dialogue226
 #-------------------------------
 #Dialogue 227 - Shoal Cave
 #Shell Guy if resources present
@@ -8728,27 +8748,33 @@ tag @s[scores={DialogueTrigger=227,TalkTime=100..}] add Dialogue227
 
 #If answers no,
 tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> Oh... Is that so...? I wanted to make a Shell Bell..."}
+execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run clear @s pixelmon:shoal_salt 1
+execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run clear @s pixelmon:shoal_shell 1
 
 #Checks resources are still present
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> All righty, then! I'll make you a Shell Bell right away."}
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> ... There! Done!"}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=8}] {"text":"<Shoal Man> All righty, then! I'll make you a Shell Bell right away."}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=16}] {"text":"<Shoal Man> ... There! Done!"}
 
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shell Bell!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=228,TalkTime=22}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shell Bell!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=228,TalkTime=22}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=228,TalkTime=22}] run give @s pixelmon:shell_bell
 
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> Have a Pokémon hold on to that."}
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> It'll love it, that's for certain."}
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> Why, the Shell Bell's chime... It's simply sublime!"}
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> You can get more Shoal Salt and Shoal Shells every day, so I can always make more."}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=29}] {"text":"<Shoal Man> Have a Pokémon hold on to that."}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=36}] {"text":"<Shoal Man> It'll love it, that's for certain."}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=43}] {"text":"<Shoal Man> Why, the Shell Bell's chime... It's simply sublime!"}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=51}] {"text":"<Shoal Man> You can get more Shoal Salt and Shoal Shells every day, so I can always make more."}
 
 #if done for the first time, applies tag after first time. Skips if recurring
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> And... I'm not quite sure what this is, but I got this recently."}
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> If you like, please take this, too."}
+execute as @s[scores={DialogueTrigger=228,TalkTime=61},tag=Slowbronite] run scoreboard players add @s TalkTime 20
+tellraw @s[scores={DialogueTrigger=228,TalkTime=61},tag=!Slowbronite] {"text":"<Shoal Man> And... I'm not quite sure what this is, but I got this recently."}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=70},tag=!Slowbronite] {"text":"<Shoal Man> If you like, please take this, too."}
 
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Slowbronite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run give @s pixelmon:slowbronite
-execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run tag @s add Slowbronite
+tellraw @s[scores={DialogueTrigger=228,TalkTime=77},tag=!Slowbronite] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Slowbronite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=228,TalkTime=77},tag=!Slowbronite] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=228,TalkTime=77},tag=!Slowbronite] run give @s pixelmon:slowbronite
+execute as @s[scores={DialogueTrigger=228,TalkTime=77},tag=!Slowbronite] run tag @s add Slowbronite
 
-tag @s[scores={DialogueTrigger=228,TalkTime=100..}] add Dialogue228
+tag @s[scores={DialogueTrigger=228,TalkTime=77..}] add Dialogue228
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 229 - Sealed Chamber
 #Upon meeting unlock conditions
@@ -8764,7 +8790,7 @@ tag @s[scores={DialogueTrigger=228,TalkTime=100..}] add Dialogue228
 
 tellraw @s[scores={DialogueTrigger=229,TalkTime=1}] {"text":"It sounded as if doors opened somewhere far away."}
 
-tag @s[scores={DialogueTrigger=229,TalkTime=100..}] add Dialogue229
+tag @s[scores={DialogueTrigger=229,TalkTime=1..}] add Dialogue229
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 230 - Desert Ruins
 #Regirock Encoutner
@@ -8796,12 +8822,16 @@ tag @s[scores={DialogueTrigger=232,TalkTime=100..}] add Dialogue232
 #https://youtu.be/MgkqxXCmrtI?t=84127
 
 #Shaking screen
-tellraw @s[scores={DialogueTrigger=233,TalkTime=1}] {"text":"The very earth is quaking! Is something approaching?!"}
-tellraw @s[scores={DialogueTrigger=233,TalkTime=1}] {"text":"<...> Zut zutt!"}
+execute as @s[scores={DialogueTrigger=233,TalkTime=1}] run tag @s add ShakeScreen
+execute as @s[scores={DialogueTrigger=233,TalkTime=14}] run tag @s remove ShakeScreen
+tellraw @s[scores={DialogueTrigger=233,TalkTime=5}] {"text":"The very earth is quaking! Is something approaching?!"}
+tellraw @s[scores={DialogueTrigger=233,TalkTime=14}] {"text":"<...> Zut zutt!"}
+execute as @s[scores={DialogueTrigger=233,TalkTime=14}] positioned -2801 11 124 run pokespawn Regigigas lvl:50 gr:7
+execute as @s[scores={DialogueTrigger=233,TalkTime=14}] run function hoenn:tools/forceclick
 
-execute as @s[scores={DialogueTrigger=233,TalkTime=1}] run pokebattle Regigigas lvl:50
+#execute as @s[scores={DialogueTrigger=233,TalkTime=20}] run pokebattle Regigigas lvl:50
 
-tag @s[scores={DialogueTrigger=233,TalkTime=100..}] add Dialogue233
+tag @s[scores={DialogueTrigger=233,TalkTime=14..}] add Dialogue233
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 234 - Pathless Plain
 #Cobalion (Sun, Wed, Fri)
@@ -9435,6 +9465,40 @@ execute as @s[scores={DialogueTrigger=263,TalkTime=1}] run tag @s remove ShakeSc
 tellraw @s[scores={DialogueTrigger=263,TalkTime=1}] {"text":"It sounded as if doors opened somewhere far away.","italic":true,"color":"gray"}
 
 tag @s[scores={DialogueTrigger=263,TalkTime=100..}] add Dialogue263
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 265 - Soaring Overworld
+#Dialga Prompt (Night)
+
+tellraw @s[scores={DialogueTrigger=265,TalkTime=1}] {"text":"There's a huge gap in the sky. The area surrounding the gap is very quiet, as if time had somehow stopped... "}
+tellraw @s[scores={DialogueTrigger=265,TalkTime=11}] {"text":"Do you want to fly into the gap?"}
+execute as @s[scores={DialogueTrigger=265,TalkTime=11}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=265,TalkTime=11}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 181"}},{"text":"]"}]
+
+tag @s[scores={DialogueTrigger=265,TalkTime=11..}] add Dialogue265
+#-------------------------------------
+#Dialogue 266 - Soaring Overworld
+#Palkia Prompt (Day)
+
+tellraw @s[scores={DialogueTrigger=266,TalkTime=1}] {"text":"There's a huge gap in the sky. The space surrounding the gap is distorted, as if it had somehow been twisted..."}
+tellraw @s[scores={DialogueTrigger=266,TalkTime=11}] {"text":"Do you want to fly into the gap?"}
+execute as @s[scores={DialogueTrigger=266,TalkTime=11}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=266,TalkTime=11}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 182"}},{"text":"]"}]
+
+tag @s[scores={DialogueTrigger=266,TalkTime=11..}] add Dialogue266
+#-------------------------------------
+#Dialogue 267 - Soaring Overworld
+#Giratina Prompt (if both are present and other dialogues obtained)
+
+tellraw @s[scores={DialogueTrigger=267,TalkTime=1}] {"text":"There's a huge gap in the sky. Peculiar scenery that you've never seen before stretches beyond the gap..."}
+tellraw @s[scores={DialogueTrigger=267,TalkTime=11}] {"text":"Do you want to fly into the gap?"}
+execute as @s[scores={DialogueTrigger=267,TalkTime=11}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=267,TalkTime=11}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 183"}},{"text":"]"}]
+
+tag @s[scores={DialogueTrigger=267,TalkTime=11..}] add Dialogue267
+
+
+
+
 #-----------------------------------------------------------------------------------------------------
 
 #Helpful points of reference
