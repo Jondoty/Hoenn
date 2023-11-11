@@ -1,0 +1,31 @@
+{
+	"credit": "Created with Blockbench [Exported as resourcepack with the \"resourcepack_packager\" plugin]",
+	"textures": {
+		"1": "item/worlditems/rift"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 8],
+			"to": [32, 32, 8],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, 0, -2.25],
+			"translation": [0.25, 0.25, 0],
+			"scale": [0.30078, 0.3418, 0.5]
+		},
+		"head": {
+			"translation": [0, 36, 0],
+			"scale": [5, 5, 5]
+		}
+	}
+}
