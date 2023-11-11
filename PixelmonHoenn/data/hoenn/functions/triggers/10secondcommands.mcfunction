@@ -1,5 +1,8 @@
 #These commands run at, shockingly, 10-second intervals. Used for larger-area things that aren't super time-sensitive
 
+#Runs the first player spawn commands on every player regardless of if they spawned in the right place or not
+execute as @a[tag=!InitialTags] run function hoenn:triggers/startingcommands
+
 #Manages secret base external visuals
 function hoenn:world/bases/exteriors
 
