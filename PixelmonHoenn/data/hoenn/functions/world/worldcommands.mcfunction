@@ -157,6 +157,20 @@ execute as @a[tag=SafetyGoggles] run item replace entity @s[tag=DesertTemp] armo
 tag @a remove DesertTemp
 
 
+#Rock Smash Function
+#If the player does not have the dialogue to know the HM
+tag @a[tag=RockSmashUse,tag=!RockSmash,tag=!Dialogue68] add CantBreak
+tag @a[tag=RockSmashUse,tag=RockSmash,tag=!Dialogue68] add CantBreak
+tag @a[tag=RockSmashUse,tag=!RockSmash,tag=Dialogue68] add CantBreak
+
+tellraw @a[tag=CantBreak] ["",{"text":"Your father's words echo in your mind... ","italic":true,"color":"gray"},{"selector":"@s","italic":true,"color":"gray"},{"text":"! This isn't the time for that!\"","italic":true,"color":"gray"}]
+execute at @a[tag=CantBreak] as @e[distance=..15,tag=Break] run tag @s remove Break
+tag @a[tag=CantBreak] remove RockSmashUse
+tag @a[tag=CantBreak] remove CantBreak
+
+#If player can still rock smash, run the function to do so
+execute as @a[tag=RockSmashUse] run function hoenn:world/rocksmash
+
 
 #-------------------------Regi-Related Commands-----------------------------------------------------------------------------------
 function hoenn:world/regis
