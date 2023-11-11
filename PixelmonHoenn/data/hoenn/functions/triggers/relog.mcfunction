@@ -31,6 +31,11 @@ execute as @s[tag=!LandorusEncounter,tag=Dialogue264] run tag @s remove Dialogue
 #Groudon or Kyogre prompts but then relog
 execute as @s[tag=Dialogue140,tag=!Dialogue141,tag=!Dialogue142] run tag @s remove Dialogue140
 
+#Dialga/Palkia/Giratina prompts
+execute as @s[tag=!DialgaCatch,tag=!DialgaEncounter] run tag @s remove Dialogue265
+execute as @s[tag=!PalkiaCatch,tag=!PalkiaEncounter] run tag @s remove Dialogue266
+execute as @s[tag=!GiratinaCatch,tag=!GiratinaEncounter] run tag @s remove Dialogue267
+
 #Rayquaza space prompt
 tag @s remove SpacePrompt
 tag @s remove Dialogue206

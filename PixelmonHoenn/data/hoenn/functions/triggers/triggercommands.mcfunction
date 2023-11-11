@@ -355,15 +355,6 @@ execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-20
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run pokebattle Azelf lvl:50
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run tag @s add AzelfEncounter
 
-#-----------------------------------------------------------------------------------------------------
-#Dialga/Palkia (randomize which it is today based on Mirage spot roll)
-
-execute as @s[scores={TriggerCommand=46}] run
-
-#-----------------------------------------------------------------------------------------------------
-#Reshiram/Zekrom (randomize which it is today based on Mirage spot roll)
-
-execute as @s[scores={TriggerCommand=47}] run
 
 #-----------------------------------------------------------------------------------------------------
 #Johto Starters
@@ -1066,8 +1057,63 @@ execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run give @s pixelmon:
 execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run tag @s add Item79Give
 
+#Shoal Cave Shell Bell Guy Prompt
 
-execute as @s[scores={TriggerCommand=101..199}] run scoreboard players set @s TriggerCommand 0
+#First Talk only
+execute as @s[scores={TriggerCommand=180},tag=!Dialogue226] run scoreboard players set @s Dialoguetrigger 226
+execute as @s[scores={TriggerCommand=180},tag=!Dialogue226] run scoreboard players set @s TriggerCommand 0
+
+
+#If player has both items
+execute as @s[scores={TriggerCommand=180},tag=Dialogue226,nbt={Inventory:[{id:"pixelmon:shoal_salt"},{id:"pixelmon:shoal_shell"}]}] run tag @s remove Dialogue228
+execute as @s[scores={TriggerCommand=180},tag=Dialogue226,nbt={Inventory:[{id:"pixelmon:shoal_salt"},{id:"pixelmon:shoal_shell"}]}] run scoreboard players set @s DialogueTrigger 228
+execute as @s[scores={TriggerCommand=180},tag=Dialogue226,nbt={Inventory:[{id:"pixelmon:shoal_salt"},{id:"pixelmon:shoal_shell"}]}] run scoreboard players set @s TriggerCommand 0
+
+
+#-----------------------------------------------------------------------------------------------------
+#Dialga/Palkia (Day or night)
+
+#Dialga
+execute as @s[scores={TriggerCommand=181},tag=!DialgaEncounter] run tellraw @s {"text":"Dialga Appeared!"}
+execute as @s[scores={TriggerCommand=181},tag=!DialgaEncounter] at @s run pokespawn Dialga lvl:50 gr:7
+execute as @s[scores={TriggerCommand=181},tag=!DialgaEncounter] run function hoenn:tools/forceclick
+execute as @s[scores={TriggerCommand=181},tag=!DialgaEncounter] run kill @e[x=-958,y=100,z=1539,distance=..5,type=minecraft:item_display]
+execute as @s[scores={TriggerCommand=181},tag=!DialgaEncounter] run tag @s add DialgaEncounter
+
+#Palkia
+execute as @s[scores={TriggerCommand=182},tag=!PalkiaEncounter] run tellraw @s {"text":"Palkia Appeared!"}
+execute as @s[scores={TriggerCommand=182},tag=!PalkiaEncounter] at @s run pokespawn Palkia lvl:50 gr:7
+execute as @s[scores={TriggerCommand=182},tag=!PalkiaEncounter] run function hoenn:tools/forceclick
+execute as @s[scores={TriggerCommand=182},tag=!PalkiaEncounter] run kill @e[x=-958,y=100,z=1539,distance=..5,type=minecraft:item_display]
+execute as @s[scores={TriggerCommand=182},tag=!PalkiaEncounter] run tag @s add PalkiaEncounter
+
+
+#Giratina
+execute as @s[scores={TriggerCommand=183},tag=!GiratinaEncounter] run tellraw @s {"text":"Giratina Appeared!"}
+execute as @s[scores={TriggerCommand=183},tag=!GiratinaEncounter] at @s run pokespawn Giratina lvl:50 gr:7
+execute as @s[scores={TriggerCommand=183},tag=!GiratinaEncounter] run function hoenn:tools/forceclick
+execute as @s[scores={TriggerCommand=183},tag=!GiratinaEncounter] run kill @e[x=-958,y=100,z=1539,distance=..5,type=minecraft:item_display]
+execute as @s[scores={TriggerCommand=183},tag=!GiratinaEncounter] run tag @s add GiratinaEncounter
+
+#-----------------------------------------------------------------------------------------------------
+#Reshiram/Zekrom (Day or night)
+
+execute as @s[scores={TriggerCommand=184}] run
+
+
+execute as @s[scores={TriggerCommand=185}] run
+
+
+execute as @s[scores={TriggerCommand=186}] run
+
+
+
+
+
+
+
+
+execute as @s[scores={TriggerCommand=101..499}] run scoreboard players set @s TriggerCommand 0
 
 
 #-----------------------------------------------------------------------------------------------------

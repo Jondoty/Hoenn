@@ -414,6 +414,90 @@ scoreboard players set @s PokeHave 0
 # if the player has Uxie, Mesprit, and Azelf in their party
 #The second contains Giratina, and only appears if the player has Dialga and Palkia in their party
 
+scoreboard players set @s Temp 0
+execute as @s store result score @s PokeHave run poketest 1 Uxie
+tag @s[scores={PokeHave=1}] add UxieHave
+execute as @s store result score @s PokeHave run poketest 2 Uxie
+tag @s[scores={PokeHave=1}] add UxieHave
+execute as @s store result score @s PokeHave run poketest 3 Uxie
+tag @s[scores={PokeHave=1}] add UxieHave
+execute as @s store result score @s PokeHave run poketest 4 Uxie
+tag @s[scores={PokeHave=1}] add UxieHave
+execute as @s store result score @s PokeHave run poketest 5 Uxie
+tag @s[scores={PokeHave=1}] add UxieHave
+execute as @s store result score @s PokeHave run poketest 6 Uxie
+tag @s[scores={PokeHave=1}] add UxieHave
+
+execute as @s store result score @s PokeHave run poketest 1 Mesprit
+tag @s[scores={PokeHave=1}] add MespritHave
+execute as @s store result score @s PokeHave run poketest 2 Mesprit
+tag @s[scores={PokeHave=1}] add MespritHave
+execute as @s store result score @s PokeHave run poketest 3 Mesprit
+tag @s[scores={PokeHave=1}] add MespritHave
+execute as @s store result score @s PokeHave run poketest 4 Mesprit
+tag @s[scores={PokeHave=1}] add MespritHave
+execute as @s store result score @s PokeHave run poketest 5 Mesprit
+tag @s[scores={PokeHave=1}] add MespritHave
+execute as @s store result score @s PokeHave run poketest 6 Mesprit
+tag @s[scores={PokeHave=1}] add MespritHave
+
+
+execute as @s store result score @s PokeHave run poketest 1 Azelf
+tag @s[scores={PokeHave=1}] add AzelfHave
+execute as @s store result score @s PokeHave run poketest 2 Azelf
+tag @s[scores={PokeHave=1}] add AzelfHave
+execute as @s store result score @s PokeHave run poketest 3 Azelf
+tag @s[scores={PokeHave=1}] add AzelfHave
+execute as @s store result score @s PokeHave run poketest 4 Azelf
+tag @s[scores={PokeHave=1}] add AzelfHave
+execute as @s store result score @s PokeHave run poketest 5 Azelf
+tag @s[scores={PokeHave=1}] add AzelfHave
+execute as @s store result score @s PokeHave run poketest 6 Azelf
+tag @s[scores={PokeHave=1}] add AzelfHave
+
+
+execute as @s store result score @s PokeHave run poketest 1 Dialga
+tag @s[scores={PokeHave=1}] add DialgaHave
+execute as @s store result score @s PokeHave run poketest 2 Dialga
+tag @s[scores={PokeHave=1}] add DialgaHave
+execute as @s store result score @s PokeHave run poketest 3 Dialga
+tag @s[scores={PokeHave=1}] add DialgaHave
+execute as @s store result score @s PokeHave run poketest 4 Dialga
+tag @s[scores={PokeHave=1}] add DialgaHave
+execute as @s store result score @s PokeHave run poketest 5 Dialga
+tag @s[scores={PokeHave=1}] add DialgaHave
+execute as @s store result score @s PokeHave run poketest 6 Dialga
+tag @s[scores={PokeHave=1}] add DialgaHave
+
+
+execute as @s store result score @s PokeHave run poketest 1 Palkia
+tag @s[scores={PokeHave=1}] add PalkiaHave
+execute as @s store result score @s PokeHave run poketest 2 Palkia
+tag @s[scores={PokeHave=1}] add PalkiaHave
+execute as @s store result score @s PokeHave run poketest 3 Palkia
+tag @s[scores={PokeHave=1}] add PalkiaHave
+execute as @s store result score @s PokeHave run poketest 4 Palkia
+tag @s[scores={PokeHave=1}] add PalkiaHave
+execute as @s store result score @s PokeHave run poketest 5 Palkia
+tag @s[scores={PokeHave=1}] add PalkiaHave
+execute as @s store result score @s PokeHave run poketest 6 Palkia
+tag @s[scores={PokeHave=1}] add PalkiaHave
+
+execute as @s[tag=UxieHave,tag=MespritHave,tag=AzelfHave,tag=!DialgaEncounter] unless entity @e[x=-958,y=100,z=1539,distance=..5,type=minecraft:item_display] run summon minecraft:item_display -958 100 1539 {item:{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomModelData:5}},Rotation:[-145f,0.0f]}
+execute as @s[tag=UxieHave,tag=MespritHave,tag=AzelfHave,tag=!PalkiaEncounter] unless entity @e[x=-958,y=100,z=1539,distance=..5,type=minecraft:item_display] run summon minecraft:item_display -958 100 1539 {item:{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomModelData:5}},Rotation:[-145f,0.0f]}
+execute as @s[ag=DialgaHave,tag=PalkiaHave,tag=!GiratinaEncounter] unless entity @e[x=-958,y=100,z=1539,distance=..5,type=minecraft:item_display] run summon minecraft:item_display -958 100 1539 {item:{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomModelData:5}},Rotation:[-145f,0.0f]}
+execute as @s[x=-958,y=100,z=1539,distance=..7,tag=UxieHave,tag=MespritHave,tag=AzelfHave,tag=!Dialogue265,scores={DialogueTrigger=0}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..12000}] run scoreboard players set @s DialogueTrigger 265
+execute as @s[x=-958,y=100,z=1539,distance=..7,tag=UxieHave,tag=MespritHave,tag=AzelfHave,tag=!Dialogue266,scores={DialogueTrigger=0}] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=12001..}] run scoreboard players set @s DialogueTrigger 266
+execute as @s[x=-958,y=100,z=1539,distance=..7,tag=DialgaHave,tag=PalkiaHave,tag=!Dialogue267,scores={DialogueTrigger=0}] run scoreboard players set @s DialogueTrigger 267
+
+
+tag @s remove UxieHave
+tag @s remove MespritHave
+tag @s remove AzelfHave
+tag @s remove PalkiaHave
+tag @s remove DialgaHave
+scoreboard players set @s PokeHave 0
+
 #Storm Clouds
 #The first contains TornadusOR/ThundurusAS, and only appears if the player has Castform in their party
 #The second cloud contains Landorus, and only appears if the player has Tornadus and Thundurus in their party

@@ -31,6 +31,7 @@ execute as @s[tag=!DeoxysCatch,tag=Dialogue207] run tag @s remove Dialogue207
 
 #dialga
 execute as @s[tag=!DialgaCatch,tag=DialgaEncounter] run tellraw @s {"text":"You can now rebattle Dialga!","italic":true,"color":"gray"}
+execute as @s[tag=!DialgaCatch,tag=DialgaEncounter] run tag @s remove Dialogue265
 execute as @s[tag=!DialgaCatch,tag=DialgaEncounter] run tag @s remove DialgaEncounter
 
 
@@ -43,6 +44,7 @@ execute as @s[tag=!EnteiCatch,tag=EnteiEncounter] run tag @s remove EnteiEncount
 
 #giratina
 execute as @s[tag=!GiratinaCatch,tag=GiratinaEncounter] run tellraw @s {"text":"You can now rebattle Giratina!","italic":true,"color":"gray"}
+execute as @s[tag=!GiratinaCatch,tag=GiratinaEncounter] run tag @s remove Dialogue267
 execute as @s[tag=!GiratinaCatch,tag=GiratinaEncounter] run tag @s remove GiratinaEncounter
 
 
@@ -110,6 +112,7 @@ execute as @s[tag=!MespiritCatch,tag=MespiritEncounter] run tag @s remove Mespir
 
 #palkia
 execute as @s[tag=!PalkiaCatch,tag=PalkiaEncounter] run tellraw @s {"text":"You can now rebattle Palkia!","italic":true,"color":"gray"}
+execute as @s[tag=!PalkiaCatch,tag=PalkiaEncounter] run tag @s remove Dialogue266
 execute as @s[tag=!PalkiaCatch,tag=PalkiaEncounter] run tag @s remove PalkiaEncounter
 
 
