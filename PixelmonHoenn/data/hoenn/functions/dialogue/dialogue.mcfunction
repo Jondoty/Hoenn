@@ -8096,8 +8096,7 @@ execute as @s[scores={DialogueTrigger=207,TalkTime=75}] run tp @s 704.6 19.5 257
 execute as @s[scores={DialogueTrigger=207,TalkTime=85}] run tp @e[x=696,y=8,z=2569,distance=..15,type=pixelmon:statue] 10000000 -50000 -10000000
 
 #Shot of Deoxys' triangle
-execute as @s[scores={DialogueTrigger=207,TalkTime=85}] run summon minecraft:armor_stand 630 -13 2529 {Marker:1b,ShowArms:1b,Invisible:1b,ArmorItems:[{},{},{},{id:diamond_hoe,tag:{Damage:1,HideFlags:6,Unbreakable:1},Count:1}],ArmorDropChances:[0f,0f,0f,0f],NoGravity:1b}
-execute as @s[scores={DialogueTrigger=207,TalkTime=85}] run effect give @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] minecraft:glowing infinite 1 true
+execute as @s[scores={DialogueTrigger=207,TalkTime=85}] run summon minecraft:item_display 630 -11.5 2529 {item:{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomModelData:6}},Glowing:1b}
 execute as @s[scores={DialogueTrigger=207,TalkTime=85}] run tp @s 630.5 -12.75 2531.5 -180 12
 
 #starts playing Deoxys music here
@@ -8105,24 +8104,24 @@ execute as @s[scores={DialogueTrigger=207,TalkTime=93}] run scoreboard players s
 execute as @s[scores={DialogueTrigger=207,TalkTime=93}] run function hoenn:tools/forceclick
 
 #Triangle starts moving
-execute as @s[scores={DialogueTrigger=207,TalkTime=93}] run tp @s 630.5 -10.88 2538.5 -180 0
-execute as @s[scores={DialogueTrigger=207,TalkTime=96}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 625 -8 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=99}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 635 -8 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=102}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 630 -13 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=104}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 635 -8 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=106}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 630 -13 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=108}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 625 -8 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=109}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 630 -13 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=110}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 635 -8 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=111}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 630 -13 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=112}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 625 -8 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=113}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 635 -8 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=114}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand] 630 -13 2529
-execute as @s[scores={DialogueTrigger=207,TalkTime=114}] run tp @s 630.5 -12.75 2531.5 -180 12
+execute as @s[scores={DialogueTrigger=207,TalkTime=93}] run tp @s 630.5 -12 2533.5 -180 0
+execute as @s[scores={DialogueTrigger=207,TalkTime=96}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 628 -9.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=99}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 632 -9.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=102}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 630 -11.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=104}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 632 -9.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=106}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 630 -11.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=108}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 628 -9.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=109}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 630 -11.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=110}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 632 -9.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=111}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 630 -11.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=112}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 628 -9.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=113}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 632 -9.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=114}] at @s run tp @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display] 630 -11.75 2529
+execute as @s[scores={DialogueTrigger=207,TalkTime=114}] run tp @s 630.5 -13 2531.5 -180 12
 
 execute as @s[scores={DialogueTrigger=207,TalkTime=120}] run particle cloud 630 -13 2529 1 1 1 0.15 300
-execute as @s[scores={DialogueTrigger=207,TalkTime=120}] run kill @e[x=630,y=-13,z=2529,distance=..20,type=armor_stand]
-execute as @s[scores={DialogueTrigger=207,TalkTime=120}] run summon pixelmon:statue 630 -13 2529 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Growl", MovePP: 40b}, {MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Growth", MovePP: 20b}, {MoveID: "Leech Seed", MovePP: 10b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 27b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 31b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [630.4611560404301d, -13.0d, 2529.4289946854115d], IVSpeed: 8b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 25s, IVAttack: 5b, Growth: 3b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 23s, IVHP: 12b, EVHP: 0s, ndex: 386, StatsSpecialDefense: 26s, Age: 0, Nature: 9b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 38s, Health: 20, Animate: 0b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [358.95007f, 0.0f], StatsSpeed: 18s, StatsAttack: 17s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 1b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
+execute as @s[scores={DialogueTrigger=207,TalkTime=120}] run kill @e[x=630,y=-13,z=2529,distance=..20,type=minecraft:item_display]
+execute as @s[scores={DialogueTrigger=207,TalkTime=120}] run summon pixelmon:statue 630 -13 2529 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Growl", MovePP: 40b}, {MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Growth", MovePP: 20b}, {MoveID: "Leech Seed", MovePP: 10b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 27b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 31b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [630.4611560404301d, -13.0d, 2529.4289946854115d], IVSpeed: 8b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 25s, IVAttack: 5b, Growth: 1b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 23s, IVHP: 12b, EVHP: 0s, ndex: 386, StatsSpecialDefense: 26s, Age: 0, Nature: 9b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 38s, Health: 20, Animate: 0b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [358.95007f, 0.0f], StatsSpeed: 18s, StatsAttack: 17s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 1b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 execute as @s[scores={DialogueTrigger=207,TalkTime=125}] run playsound pixelmon:pixelmon.mob.deoxys ambient @s ~ ~ ~ 1 1 1
 
 execute as @s[scores={DialogueTrigger=207,TalkTime=130}] run tp @e[type=pixelmon:statue,x=630,y=-13,z=2529,distance=..10] 10000000 -50000 -10000000
