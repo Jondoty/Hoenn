@@ -42,6 +42,19 @@
           "minX": 1176, "maxX": 1751, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
         },
       "rarity": 10.0
+    },
+    {
+      "spec": "species:Mawile",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 44,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 265, "maxX": 411, "minZ": -250, "maxZ": -145, "minY": 89, "maxY": 218
+        },
+      "rarity": 10.0
     }
   ]
 }

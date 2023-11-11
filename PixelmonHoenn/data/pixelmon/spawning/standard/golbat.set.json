@@ -227,6 +227,20 @@
           "minX": 1490, "maxX": 1751, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
       },
       "rarity": 50.0
+    },
+
+    {
+      "spec": "species:Golbat",
+      "stringLocationTypes": [
+        "Underground", "Indoors", "Manmade"
+      ],
+      "minLevel": 44,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 265, "maxX": 411, "minZ": -250, "maxZ": -145, "minY": 89, "maxY": 218
+      },
+      "rarity": 30.0
     }
   ]
 }

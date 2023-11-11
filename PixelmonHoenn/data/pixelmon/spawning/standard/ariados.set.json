@@ -4,23 +4,15 @@
     {
       "spec": "species:Ariados",
       "stringLocationTypes": [
-        "Land",
-        "Headbutt"
+        "Underground", "Indoors", "Manmade"
       ],
-      "minLevel": 22,
-      "maxLevel": 50,
+      "minLevel": 44,
+      "maxLevel": 46,
       "typeID": "pokemon",
       "condition": {
-        "times": [
-          "NIGHT"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/all_forests",
-          "#pixelmon:spawning/evil",
-          "byg:crag_gardens"
-        ]
+          "minX": 265, "maxX": 411, "minZ": -250, "maxZ": -145, "minY": 89, "maxY": 218
       },
-      "rarity": 0.0
+      "rarity": 30.0
     }
   ]
 }
