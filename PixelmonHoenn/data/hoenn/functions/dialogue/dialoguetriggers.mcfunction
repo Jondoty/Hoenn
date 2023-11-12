@@ -144,4 +144,37 @@ execute if entity @a[x=-2063,y=49,z=290,distance=..12,scores={Rival=1,PokemonLea
 
 execute as @a[x=-2003,y=39,z=297,distance=..7,scores={Rival=2,PokemonLeague=1..},tag=!Dialogue210] run scoreboard players set @s DialogueTrigger 210
 execute if entity @a[x=-1995,y=49,z=290,distance=..12,scores={Rival=2,PokemonLeague=1..},tag=!Dialogue210] unless entity @e[x=-1998,y=40,z=299,distance=..2,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1998 40 299 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Dad", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "galacticgruntmale", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.8235486f, -2.264852f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "norman.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+#-----------------------------------------------------------------------------------------------------
+#Littleroot misc dialogues
+#Birch giving Shiny Charm
+scoreboard players set @a[x=-2042,y=49,z=319,distance=..10,scores={DialogueTrigger=0,PokemonLeague=2..},tag=!Dialogue258] DialogueTrigger 258
+
+#Mom giving Amulet Coin after beating Dad
+scoreboard players set @a[x=-2064,y=39,z=299,distance=..7,scores={DialogueTrigger=0,Rival=1},tag=!Dialogue256,tag=Dialogue95] DialogueTrigger 256
+scoreboard players set @a[x=-1995,y=39,z=299,distance=..7,scores={DialogueTrigger=0,Rival=2},tag=!Dialogue256,tag=Dialogue95] DialogueTrigger 256
+
+#Dialogue 255 - Littleroot Mom giving game-color-matched lati-stone
+scoreboard players set @a[x=-2064,y=39,z=299,distance=..7,scores={DialogueTrigger=0,PokemonLeague=2..,Rival=1},tag=!Dialogue255] DialogueTrigger 255
+scoreboard players set @a[x=-1995,y=39,z=299,distance=..7,scores={DialogueTrigger=0,PokemonLeague=2..,Rival=2},tag=!Dialogue255] DialogueTrigger 255
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #

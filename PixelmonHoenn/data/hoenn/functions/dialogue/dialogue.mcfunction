@@ -9329,30 +9329,39 @@ tag @s[scores={DialogueTrigger=254,TalkTime=100..}] add Dialogue254
 #https://youtu.be/MgkqxXCmrtI?t=91913
 
 tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> ...Oh!"}
-tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> That reminds me! Here!"}
-tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] ["",{"text":"<Mom> I've been thinking I should give you these, "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=255,TalkTime=6}] {"text":"<Mom> That reminds me! Here!"}
+tellraw @s[scores={DialogueTrigger=255,TalkTime=13}] ["",{"text":"<Mom> I've been thinking I should give you this, "},{"selector":"@s"},{"text":"..."}]
 
-tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Latiasite!","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Latiosite!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=255,TalkTime=20,GameVersion=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Latiasite!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=255,TalkTime=20,GameVersion=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Latiosite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=255,TalkTime=20}] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=255,TalkTime=20,GameVersion=1}] run give @s pixelmon:latiasite
+execute as @s[scores={DialogueTrigger=255,TalkTime=20,GameVersion=1}] run give @s pixelmon:latiosite
 
-tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Remember the night you went to see the star show?"}
-tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Well, I found these in the grass out front the next morning!"}
-tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Isn't it pretty, the way they sparkle? It's like a rainbow!"}
+#V1
+tellraw @s[scores={DialogueTrigger=255,TalkTime=27}] {"text":"<Mom> I found these in the grass out front this morning!"}
+tellraw @s[scores={DialogueTrigger=255,TalkTime=34}] {"text":"<Mom> Isn't it pretty, the way it sparkles? It's like a rainbow!"}
 
-tag @s[scores={DialogueTrigger=255,TalkTime=100..}] add Dialogue255
+#tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Remember the night you went to see the star show?"}
+#tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Well, I found these in the grass out front the next morning!"}
+#tellraw @s[scores={DialogueTrigger=255,TalkTime=1}] {"text":"<Mom> Isn't it pretty, the way they sparkle? It's like a rainbow!"}
+
+tag @s[scores={DialogueTrigger=255,TalkTime=34..}] add Dialogue255
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 256 - Littleroot Town
 #Mom giving Amulet Coin after beating Dad
 
 tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] {"text":"<Mom> Oh? Did Dad give you that Badge?!"}
-tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] {"text":"<Mom> Then here's something from your mom!"}
+tellraw @s[scores={DialogueTrigger=256,TalkTime=8}] {"text":"<Mom> Then here's something from your mom!"}
 
-tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained an Amulet Coin!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=256,TalkTime=15}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained an Amulet Coin!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=256,TalkTime=15}] run give @s pixelmon:amulet_coin
+execute as @s[scores={DialogueTrigger=256,TalkTime=15}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] {"text":"<Mom> It's a wonderful thing to try hard at your passion, but don't push yourself too hard, dear."}
-tellraw @s[scores={DialogueTrigger=256,TalkTime=1}] {"text":"<Mom> You can always come home if you need to. Good luck, honey!"}
+tellraw @s[scores={DialogueTrigger=256,TalkTime=22}] {"text":"<Mom> It's a wonderful thing to try hard at your passion, but don't push yourself too hard, dear."}
+tellraw @s[scores={DialogueTrigger=256,TalkTime=32}] {"text":"<Mom> You can always come home if you need to. Good luck, honey!"}
 
-tag @s[scores={DialogueTrigger=256,TalkTime=100..}] add Dialogue256
+tag @s[scores={DialogueTrigger=256,TalkTime=32..}] add Dialogue256
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 257 - Littleroot Town
 #Birch giving Oval Charm
@@ -9366,17 +9375,31 @@ tag @s[scores={DialogueTrigger=257,TalkTime=100..}] add Dialogue257
 #Dialogue 258 - Littleroot Town
 #Birch giving Shiny Charm
 
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Congratulations to you! You've completed the Pokédex!"}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Sniffle... I am overwhelmed."}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> My decision to give you that Pokédex I'd ordered was wholly justified."}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> This completed Pokédex is a testament to your hard work..."}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> And to the support of the many who helped you..."}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> And to the bonds you have built with your Pokémon! It is a unique treasure!"}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> You've been meeting new Pokémon at a good clip, haven't you?"}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Here, take this as a little reward for all your hard work!"}
-tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Holding a Shiny Charm will improve your chances of finding a Shiny Pokémon!"}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Congratulations to you! You've completed the Pokédex!"}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Sniffle... I am overwhelmed."}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> My decision to give you that Pokédex I'd ordered was wholly justified."}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> This completed Pokédex is a testament to your hard work..."}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> And to the support of the many who helped you..."}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> And to the bonds you have built with your Pokémon! It is a unique treasure!"}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> You've been meeting new Pokémon at a good clip, haven't you?"}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Here, take this as a little reward for all your hard work!"}
+#tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Holding a Shiny Charm will improve your chances of finding a Shiny Pokémon!"}
 
-tag @s[scores={DialogueTrigger=258,TalkTime=100..}] add Dialogue258
+#V1, beat the Pokemon League twice to get the shiny charm
+tellraw @s[scores={DialogueTrigger=258,TalkTime=1}] {"text":"<Professor Birch> Oh wow! Your Pokédex!"}
+tellraw @s[scores={DialogueTrigger=258,TalkTime=8}] {"text":"<Professor Birch> Sniffle... I am overwhelmed."}
+tellraw @s[scores={DialogueTrigger=258,TalkTime=15}] {"text":"<Professor Birch> My decision to give you that Pokédex I'd ordered was wholly justified."}
+tellraw @s[scores={DialogueTrigger=258,TalkTime=24}] {"text":"<Professor Birch> This Pokédex is a testament to your hard work..."}
+tellraw @s[scores={DialogueTrigger=258,TalkTime=32}] {"text":"<Professor Birch> And to the support of the many who helped you..."}
+tellraw @s[scores={DialogueTrigger=258,TalkTime=40}] {"text":"<Professor Birch> And to the bonds you have built with your Pokémon! It is a unique treasure!"}
+tellraw @s[scores={DialogueTrigger=258,TalkTime=50}] {"text":"<Professor Birch> You've been meeting new Pokémon at a good clip, haven't you?"}
+tellraw @s[scores={DialogueTrigger=258,TalkTime=58}] {"text":"<Professor Birch> Here, take this as a little reward for all your hard work!"}
+execute as @s[scores={DialogueTrigger=258,TalkTime=66}] run shinycharm
+execute as @s[scores={DialogueTrigger=258,TalkTime=66}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+tellraw @s[scores={DialogueTrigger=258,TalkTime=73}] {"text":"<Professor Birch> Holding a Shiny Charm will improve your chances of finding a Shiny Pokémon!"}
+
+
+tag @s[scores={DialogueTrigger=258,TalkTime=73..}] add Dialogue258
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 259 - Verdanturf Town
 #Wanda after clearing out the tunnel
