@@ -15,8 +15,8 @@ function hoenn:triggers/potioneffects
 #May Rival = 1, Brendan Rival = 2
 
 #Lobby without a Trainer Commands check
-execute if entity @e[x=-2070,y=65,z=1410,dy=3,type=minecraft:armor_stand,tag=!TrainerCommandConfirm] as @a[x=-1995,y=66,z=1374,dz=1,dy=3] run tellraw @s {"text":"Right click the Taillow to confirm you have the Trainer Commands mod! If if says nothing after clicking, download it using the sign to the left and add it to your game.","italic":true,"color":"gray"}
-execute if entity @e[x=-2070,y=65,z=1410,dy=3,type=minecraft:armor_stand,tag=!TrainerCommandConfirm] as @a[x=-1995,y=66,z=1374,dz=1,dy=3] run tp @s -1980.5 66 1379.5 0 8
+#execute if entity @e[x=-2070,y=65,z=1410,dy=3,type=minecraft:armor_stand,tag=!TrainerCommandConfirm] as @a[x=-1995,y=66,z=1374,dz=1,dy=3] run tellraw @s {"text":"Right click the Taillow to confirm you have the Trainer Commands mod! If if says nothing after clicking, download it using the sign to the left and add it to your game.","italic":true,"color":"gray"}
+#execute if entity @e[x=-2070,y=65,z=1410,dy=3,type=minecraft:armor_stand,tag=!TrainerCommandConfirm] as @a[x=-1995,y=66,z=1374,dz=1,dy=3] run tp @s -1980.5 66 1379.5 0 8
 
 #Lobby to Game Version
 tellraw @a[x=-1995,y=66,z=1374,dz=1,dy=3,scores={GameVersion=0}] ["",{"text":"Select which game version and story you would like to follow!\n","italic":true,"color":"gray"},{"text":"THESE CANNOT BE CHANGED LATER","bold":true,"italic":true,"color":"gray"}]
