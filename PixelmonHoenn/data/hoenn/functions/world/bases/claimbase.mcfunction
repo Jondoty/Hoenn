@@ -118,7 +118,7 @@ tag @s[x=-3545,y=63,z=-3151,dx=1127,dy=20,dz=658] add BasePrompt
 #Failure criteria
 
 #Player already owns a base
-tellraw @s[scores={BaseTrigger=1..,SecretBase=1..}] {"text":"You already have a registered base! Un-register your existing base to claim this one.","italic":true,"color":"gray"}
+tellraw @s[scores={BaseTrigger=1..99,SecretBase=1..}] {"text":"You already have a registered base! Un-register your existing base to claim this one.","italic":true,"color":"gray"}
 
 #Base was already claimed
 #Checks again to see if tag is present now when going to claim. If so, reject player's attempt.
@@ -433,9 +433,106 @@ tag @s remove ClaimSuccess
 
 
 
-#Rums commands if player is just entering the base
+#Runs commands if player is just entering the base
+tellraw @s[x=-1518,y=70,z=-301,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1359,y=80,z=-1283,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1439,y=80,z=-1276,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1427,y=90,z=-1304,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1352,y=90,z=-1300,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1515,y=80,z=-1373,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1377,y=90,z=-1447,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1754,y=80,z=-1410,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2560,y=90,z=-1292,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2553,y=95,z=-1212,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2416,y=100,z=-1155,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2374,y=100,z=-1123,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
 
-tellraw @s[scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+tellraw @s[x=-2519,y=100,z=-974,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2555,y=100,z=-1044,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2625,y=85,z=-1041,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2810,y=65,z=-1114,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2811,y=80,z=-1215,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2719,y=85,z=-1208,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2712,y=85,z=-1254,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2663,y=100,z=-1192,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2372,y=85,z=-731,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2378,y=70,z=-688,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2304,y=85,z=-739,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2271,y=70,z=-703,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+
+tellraw @s[x=-1794,y=70,z=-617,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1191,y=65,z=-627,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1088,y=65,z=-625,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-967,y=65,z=-547,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-977,y=67,z=-638,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-813,y=67,z=-630,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-790,y=85,z=-1434,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-818,y=75,z=-1061,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-918,y=75,z=-1052,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-945,y=75,z=-1307,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1000,y=90,z=-1431,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1017,y=90,z=-1363,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+
+tellraw @s[x=-980,y=70,z=-896,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-934,y=70,z=-1018,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-861,y=69,z=-1017,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1003,y=70,z=-951,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-280,y=85,z=-1376,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-317,y=75,z=-1374,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-245,y=85,z=-1324,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-198,y=85,z=-1228,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-245,y=75,z=-1166,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-378,y=100,z=-1106,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-350,y=105,z=-1219,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-226,y=85,z=-1044,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+
+tellraw @s[x=-82,y=75,z=-990,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=79,y=80,z=-1048,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=39,y=75,z=-1014,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-295,y=71,z=-642,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-370,y=67,z=-657,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-510,y=65,z=-613,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1560,y=65,z=-1179,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1492,y=65,z=-1224,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1683,y=65,z=-1278,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1704,y=65,z=-1268,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=802,y=65,z=-783,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=818,y=65,z=-673,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+
+tellraw @s[x=1551,y=65,z=-637,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1620,y=65,z=-725,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1493,y=65,z=-307,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1570,y=65,z=-335,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1659,y=65,z=-366,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-2265,y=43,z=-834,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=2632,y=104,z=-2481,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1954,y=146,z=-2882,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=-1888,y=39,z=-1354,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1532,y=70,z=459,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1668,y=70,z=515,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1697,y=75,z=512,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+
+tellraw @s[x=1665,y=70,z=572,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1548,y=55,z=523,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=1557,y=60,z=595,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=745,y=65,z=12,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=767,y=65,z=6,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=751,y=75,z=-23,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=723,y=80,z=-26,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=802,y=75,z=4,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=812,y=85,z=-36,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+tellraw @s[x=735,y=65,z=-337,distance=..10,scores={BaseTrigger=200}] {"text":"It's a secret base! Would you like to use Secret Power?","italic":true,"color":"gray"}
+
+
+
+
+
 
 tellraw @s[x=-1518,y=70,z=-301,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 201"}},{"text":"]","color":"white"}]
 tellraw @s[x=-1359,y=80,z=-1283,distance=..10,scores={BaseTrigger=200}] ["",{"text":"[","color":"white"},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 202"}},{"text":"]","color":"white"}]
@@ -641,8 +738,10 @@ scoreboard players set @s[scores={BaseTrigger=200..282}] BaseTrigger 0
 
 
 
-
-
+#Abandon's base via Nav module prompt
+execute as @s[scores={BaseTrigger=1000}] run gamemode adventure
+execute as @s[scores={BaseTrigger=1000}] run function hoenn:world/bases/abandonbase
+scoreboard players set @s[scores={BaseTrigger=1000}] BaseTrigger 0
 
 
 

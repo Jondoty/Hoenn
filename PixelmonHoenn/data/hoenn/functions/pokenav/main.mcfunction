@@ -4,11 +4,23 @@
 #2-
 #100... - Mapping locations
 
-
-#TrainerNav
-execute as @s[scores={NavTrack=11..12,click=1}] run tellraw @s {"text":"No rematchable trainers found...","italic":true,"color":"gray"}
+#Formerly TrainerNav
+#execute as @s[scores={NavTrack=11..12,click=1}] run tellraw @s {"text":"No rematchable trainers found...","italic":true,"color":"gray"}
 
 #If entity within distance to player
+
+
+#BaseNav
+#If player is inside a base, prompts the player to abandon their base (or other GUI things)
+execute as @s[x=-3545,y=63,z=-3151,dx=1129,dy=50,dz=658,scores={NavTrack=11..12,click=1},gamemode=survival] run scoreboard players enable @s BaseTrigger
+execute as @s[x=-3545,y=63,z=-3151,dx=1129,dy=50,dz=658,scores={NavTrack=11..12,click=1},gamemode=survival] run tellraw @s ["",{"text":"What base function would you like to do?\n["},{"text":"Abandon Base","color":"red","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 1000"},"hoverEvent":{"action":"show_text","contents":"Unclaims your base. Any furniture left will stay for the next player."}},{"text":"]"}]
+execute as @s[x=-3545,y=63,z=-3151,dx=1129,dy=50,dz=658,scores={NavTrack=11..12,click=1},gamemode=survival] run scoreboard players set @s BaseTrigger 0
+execute as @s[x=-3545,y=63,z=-3151,dx=1129,dy=50,dz=658,scores={NavTrack=11..12,click=1},gamemode=survival] run scoreboard players set @s click 0
+
+
+#If player is in the main world, prompts to claim if unclaimed
+execute as @s[scores={NavTrack=11..12,click=1}] run scoreboard players set @s BaseTrigger 200
+execute as @s[scores={NavTrack=11..12,click=1}] run function hoenn:world/bases/baseinform
 
 #-----------------------------------------------------------------------------------------------------------------------------------
 
