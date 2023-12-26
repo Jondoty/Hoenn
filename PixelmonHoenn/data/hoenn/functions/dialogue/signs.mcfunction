@@ -11,7 +11,8 @@
 
 #-----------------------------------------------------------------------------------
 
-playsound minecraft:click ambient @s[scores={SignRead=1..}] ~ ~ ~ 1 1 1
+#playsound minecraft:click ambient @s[scores={SignRead=1..}] ~ ~ ~ 1 1 1
+scoreboard players set @s StepCounter 0
 
 #-----------------------------------------------------------------------------------
 
