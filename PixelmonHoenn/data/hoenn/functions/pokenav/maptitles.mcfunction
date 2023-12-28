@@ -53,7 +53,7 @@ title @s[x=1369,y=0,z=2223,dx=492,dy=256,dz=768] actionbar {"text":"Mt. Pyre"}
 title @s[x=-2215,y=0,z=-3100,dx=686,dy=256,dz=757] actionbar {"text":"Jagged Pass"}
 title @s[x=142,y=0,z=-326,dx=364,dy=256,dz=317] actionbar {"text":"Sky Pillar"}
 title @s[x=1176,y=0,z=-3361,dx=575,dy=256,dz=797] actionbar {"text":"Victory Road"}
-title @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] actionbar {"text":"Island Cave"}
+title @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] actionbar {"text":"Island Cave"}
 title @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] actionbar {"text":"Desert Ruins"}
 title @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227] actionbar {"text":"Ancient Tomb"}
 title @s[x=1176,y=0,z=-2562,dx=312,dy=256,dz=276] actionbar {"text":"Team Aqua HQ"}

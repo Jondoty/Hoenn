@@ -251,9 +251,9 @@ execute unless score @s MusicTitles matches 37 run title @s[x=1176,y=0,z=-3361,d
 execute unless score @s MusicTitles matches 37 as @s[x=1176,y=0,z=-3361,dx=575,dy=256,dz=797] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 37 run scoreboard players set @s[x=1176,y=0,z=-3361,dx=575,dy=256,dz=797] MusicTitles 37
 
-execute unless score @s MusicTitles matches 38 run title @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] actionbar {"text":"Island Cave"}
-execute unless score @s MusicTitles matches 38 as @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] run function hoenn:tools/forceclick
-execute unless score @s MusicTitles matches 38 run scoreboard players set @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] MusicTitles 38
+execute unless score @s MusicTitles matches 38 run title @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] actionbar {"text":"Island Cave"}
+execute unless score @s MusicTitles matches 38 as @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] run function hoenn:tools/forceclick
+execute unless score @s MusicTitles matches 38 run scoreboard players set @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] MusicTitles 38
 
 execute unless score @s MusicTitles matches 39 run title @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] actionbar {"text":"Desert Ruins"}
 execute unless score @s MusicTitles matches 39 as @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] run function hoenn:tools/forceclick

@@ -486,8 +486,8 @@ playsound victoryroad record @s[x=1176,y=0,z=-3361,dx=575,dy=256,dz=797,scores={
 scoreboard players set @s[x=1176,y=0,z=-3361,dx=575,dy=256,dz=797,scores={MusicCooldown=0}] MusicCooldown 151
 
 #Island Cave
-playsound sealedchamber record @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217,scores={MusicCooldown=0}] MusicCooldown 123
+playsound sealedchamber record @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217,scores={MusicCooldown=0}] MusicCooldown 123
 
 #Desert Ruins
 playsound sealedchamber record @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

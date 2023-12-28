@@ -96,10 +96,10 @@ execute as @s[scores={EscapeRope=6}] run playsound flee ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={EscapeRope=6}] run tp @s 2248 159 -378 180 0
 
 #Island Cave
-execute as @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] run tag @s add EscapeRopeUse
-execute as @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] run effect give @s minecraft:blindness 5 1 true
-execute as @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] run playsound flee ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] run tp @s -2801 64 259 0 0
+execute as @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] run tag @s add EscapeRopeUse
+execute as @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] run effect give @s minecraft:blindness 5 1 true
+execute as @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] run playsound flee ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] run tp @s -2801 64 259 0 0
 
 #Desert Ruins
 execute as @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] run tag @s add EscapeRopeUse

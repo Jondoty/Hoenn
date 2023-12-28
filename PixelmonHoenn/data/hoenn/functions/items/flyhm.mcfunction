@@ -112,8 +112,8 @@ tellraw @s[x=1176,y=0,z=-3361,dx=575,dy=256,dz=797] {"text":"You cannot use that
 tag @s[x=1176,y=0,z=-3361,dx=575,dy=256,dz=797] remove Fly
 
 #Island Cave
-tellraw @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
-tag @s[x=-2853,y=0,z=69,dx=101,dy=30,dz=217] remove Fly
+tellraw @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
+tag @s[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] remove Fly
 
 #Desert Ruins
 tellraw @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217] {"text":"You cannot use that move here.","italic":true,"color":"gray"}
