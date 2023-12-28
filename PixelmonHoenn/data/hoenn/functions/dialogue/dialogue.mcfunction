@@ -8608,40 +8608,43 @@ tag @s[scores={DialogueTrigger=217,TalkTime=100..}] add Dialogue217
 #https://youtu.be/MgkqxXCmrtI?t=77756
 
 tellraw @s[scores={DialogueTrigger=218,TalkTime=1}] {"text":"<Captain Stern> Ho! That device you have there is the Scanner from Sea Mauville!"}
-tellraw @s[scores={DialogueTrigger=218,TalkTime=1}] {"text":"<Captain Stern> That could make our expeditions really take off!"}
-tellraw @s[scores={DialogueTrigger=218,TalkTime=1}] {"text":"<Captain Stern> Would you do me a favor and let me take that Scanner off your hands?"}
-execute as @s[scores={DialogueTrigger=218,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=218,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 37"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 38"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=218,TalkTime=9}] {"text":"<Captain Stern> That could make our expeditions really take off!"}
+tellraw @s[scores={DialogueTrigger=218,TalkTime=17}] {"text":"<Captain Stern> Would you do me a favor and let me take that Scanner off your hands?"}
+execute as @s[scores={DialogueTrigger=218,TalkTime=17}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=218,TalkTime=17}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 37"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 38"}},{"text":"]"}]
 
 #No:
 #You drive a hard bargain. Let me know if you reconsider.
 
-tag @s[scores={DialogueTrigger=218,TalkTime=100..}] add Dialogue218
+tag @s[scores={DialogueTrigger=218,TalkTime=17..}] add Dialogue218
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 219 - Slateport City
 #Player handing over scanner
 #https://youtu.be/MgkqxXCmrtI?t=77765
 
 tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" handed the Scanner to Captain Stern.","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> Yes! Thanks."}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> This will help our research a lot!"}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> Take these bells as a token of my appreciation for your generosity."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=8}] {"text":"<Captain Stern> Yes! Thanks."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=14}] {"text":"<Captain Stern> This will help our research a lot!"}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=21}] {"text":"<Captain Stern> Take these bells as a token of my appreciation for your generosity."}
 
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Clear Bell!","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Tidal Bell!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=219,TalkTime=29}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Clear Bell!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=219,TalkTime=29}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Tidal Bell!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=219,TalkTime=29}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=219,TalkTime=29}] run give @s pixelmon:tidal_bell
+execute as @s[scores={DialogueTrigger=219,TalkTime=29}] run give @s pixelmon:clear_bell
 
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> Those bells figure in old legends from the Johto region."}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> They're pretty nice to have."}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> When I was working on Sea Mauville, I had a lad working under me who was from those parts, and he gave me them."}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> If I remember rightly, his family passed down some special dance style."}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> But it was only for the girls, so as a lad he came here looking for work..."}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> He always kept those bells on his person, but sometimes when we were up top there at Sea Mauville they would ring,"}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> and they would almost seem to glow. It sure was mysterious, all right."}
-tellraw @s[scores={DialogueTrigger=219,TalkTime=1}] {"text":"<Captain Stern> I've held onto them all these years, but I'd be happy if they could serve you some use now."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=35}] {"text":"<Captain Stern> Those bells figure in old legends from the Johto region."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=42}] {"text":"<Captain Stern> They're pretty nice to have."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=49}] {"text":"<Captain Stern> When I was working on Sea Mauville, I had a lad working under me who was from those parts, and he gave me them."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=59}] {"text":"<Captain Stern> If I remember rightly, his family passed down some special dance style."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=67}] {"text":"<Captain Stern> But it was only for the girls, so as a lad he came here looking for work..."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=75}] {"text":"<Captain Stern> He always kept those bells on his person, but sometimes when we were up top there at Sea Mauville they would ring,"}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=85}] {"text":"<Captain Stern> and they would almost seem to glow. It sure was mysterious, all right."}
+tellraw @s[scores={DialogueTrigger=219,TalkTime=92}] {"text":"<Captain Stern> I've held onto them all these years, but I'd be happy if they could serve you some use now."}
 
 #Player can now obtain Ho-Oh and Lugia via wormhole when at the Sea Mauville
 
-tag @s[scores={DialogueTrigger=219,TalkTime=100..}] add Dialogue219
+tag @s[scores={DialogueTrigger=219,TalkTime=92..}] add Dialogue219
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 220 - Sea Mauville
 #Ho-Oh Encounter
@@ -8650,18 +8653,18 @@ tag @s[scores={DialogueTrigger=219,TalkTime=100..}] add Dialogue219
 #When player is approaching the portal
 #https://youtu.be/MgkqxXCmrtI?t=77853
 #Spawns portal
-tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"The Clear Bell in your Bag seems to be flowing faintly..."}
+#tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"The Clear Bell in your Bag seems to be flowing faintly..."}
 
 #
 
-tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"A mysterious ring is floating in the air."}
-tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"A mystical presence seems to be lurking within it..."}
-tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"Would you like to examine it?"}
+tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"A mysterious ring is floating in the air. A mystical presence seems to be lurking within it..."}
+tellraw @s[scores={DialogueTrigger=220,TalkTime=10}] {"text":"Would you like to examine it?"}
+execute as @s[scores={DialogueTrigger=220,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=220,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 188"}},{"text":"]"}]
 #[Yes]
 
-tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"Ho-Oh Appeared!"}
-
-execute as @s[scores={DialogueTrigger=220,TalkTime=1}] run pokebattle @s hooh lvl:50
+#tellraw @s[scores={DialogueTrigger=220,TalkTime=1}] {"text":"Ho-Oh Appeared!"}
+#execute as @s[scores={DialogueTrigger=220,TalkTime=1}] run pokebattle @s hooh lvl:50
 
 #Note on legendary resets. Thinking if this tag is present but not a HoOh, etc tag present applied upon catching, reset upon beating the Elite Four. Tag=Dialogue220,tag=!HoOh equals reset
 
@@ -8670,11 +8673,12 @@ tag @s[scores={DialogueTrigger=220,TalkTime=100..}] add Dialogue220
 #Dialogue 221 - Sea Mauville
 #Lugia Encounter
 
-tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"The Tidal Bell in your Bag seems to be flowing faintly..."}
+#tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"The Tidal Bell in your Bag seems to be flowing faintly..."}
 
-tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"A mysterious ring is floating in the water..."}
-tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"Extremely pure seawater is flowing out from within it."}
-tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"Would you like to examine it?"}
+tellraw @s[scores={DialogueTrigger=221,TalkTime=1}] {"text":"A mysterious ring is floating in the water... Extremely pure seawater is flowing out from within it."}
+tellraw @s[scores={DialogueTrigger=221,TalkTime=10}] {"text":"Would you like to examine it?"}
+execute as @s[scores={DialogueTrigger=221,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=221,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 189"}},{"text":"]"}]
 #[Yes]
 
 tag @s[scores={DialogueTrigger=221,TalkTime=100..}] add Dialogue221
@@ -8726,17 +8730,19 @@ tag @s[scores={DialogueTrigger=223,TalkTime=100..}] add Dialogue223
 #https://youtu.be/MgkqxXCmrtI?t=78468
 
 #Upon entering the room
-tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"It's so hot that you can't stop sweating... Merely breathing is difficult..."}
+#tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"It's so hot that you can't stop sweating... Merely breathing is difficult..."}
 
 tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
-tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
+tellraw @s[scores={DialogueTrigger=225,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=225,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=225,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 39"}},{"text":"]"}]
 #[Yes]
 
 #execute as @s[scores={DialogueTrigger=225,TalkTime=1}] run pokebattle @s Heatran lvl:50
 
 #tellraw @s[scores={DialogueTrigger=225,TalkTime=1}] {"text":"Heatran Appeared!"}
 
-tag @s[scores={DialogueTrigger=225,TalkTime=100..}] add Dialogue225
+tag @s[scores={DialogueTrigger=225,TalkTime=10..}] add Dialogue225
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 226 - Shoal Cave
 #Shell Guy First Talk
@@ -8852,43 +8858,47 @@ tag @s[scores={DialogueTrigger=233,TalkTime=14..}] add Dialogue233
 #Cobalion (Sun, Wed, Fri)
 
 #Upon landing in the Plain, if able to battle
-tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"You feel a strong gaze and like something is calling for you..."}
+#tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"You feel a strong gaze and like something is calling for you..."}
 
 tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"A mysterious ring is floating in the air."}
-tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"Something is visible deep in the hole..."}
-tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
+tellraw @s[scores={DialogueTrigger=234,TalkTime=8}] {"text":"Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=234,TalkTime=15}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=234,TalkTime=15}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=234,TalkTime=15}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 40"}},{"text":"]"}]
 #[Yes]
 
-tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"Cobalion appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=234,TalkTime=1}] run pokebattle Cobalion lvl:50
+#tellraw @s[scores={DialogueTrigger=234,TalkTime=1}] {"text":"Cobalion appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=234,TalkTime=1}] run pokebattle Cobalion lvl:50
 
-tag @s[scores={DialogueTrigger=234,TalkTime=100..}] add Dialogue234
+tag @s[scores={DialogueTrigger=234,TalkTime=15..}] add Dialogue234
 #------------------------------
 #Dialogue 235 - Pathless Plain
 #Terrakion (Tues, Sat)
 
 tellraw @s[scores={DialogueTrigger=235,TalkTime=1}] {"text":"A mysterious ring is floating in the air."}
-tellraw @s[scores={DialogueTrigger=235,TalkTime=1}] {"text":"Something is visible deep in the hole..."}
-tellraw @s[scores={DialogueTrigger=235,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
-#[Yes]
+tellraw @s[scores={DialogueTrigger=235,TalkTime=8}] {"text":"Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=235,TalkTime=15}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=235,TalkTime=15}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=235,TalkTime=15}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 40"}},{"text":"]"}]
 
-tellraw @s[scores={DialogueTrigger=235,TalkTime=1}] {"text":"Terrakion appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=235,TalkTime=1}] run pokebattle Terrakion lvl:50
+#tellraw @s[scores={DialogueTrigger=235,TalkTime=1}] {"text":"Terrakion appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=235,TalkTime=1}] run pokebattle Terrakion lvl:50
 
-tag @s[scores={DialogueTrigger=235,TalkTime=100..}] add Dialogue235
+tag @s[scores={DialogueTrigger=235,TalkTime=15..}] add Dialogue235
 #-------------------------------
 #Dialogue 236 - Pathless Plain
 #Virizion (Mon, Thurs)
 
 tellraw @s[scores={DialogueTrigger=236,TalkTime=1}] {"text":"A mysterious ring is floating in the air."}
-tellraw @s[scores={DialogueTrigger=236,TalkTime=1}] {"text":"Something is visible deep in the hole..."}
-tellraw @s[scores={DialogueTrigger=236,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
-#[Yes]
+tellraw @s[scores={DialogueTrigger=236,TalkTime=8}] {"text":"Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=236,TalkTime=15}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=236,TalkTime=15}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=236,TalkTime=15}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 40"}},{"text":"]"}]
 
-tellraw @s[scores={DialogueTrigger=236,TalkTime=1}] {"text":"Virizion appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=236,TalkTime=1}] run pokebattle Virizion lvl:50
+#tellraw @s[scores={DialogueTrigger=236,TalkTime=1}] {"text":"Virizion appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=236,TalkTime=1}] run pokebattle Virizion lvl:50
 
-tag @s[scores={DialogueTrigger=236,TalkTime=100..}] add Dialogue236
+tag @s[scores={DialogueTrigger=236,TalkTime=15..}] add Dialogue236
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 237 - Trackless Forest
 #Raikou Encounter
@@ -8897,49 +8907,49 @@ tag @s[scores={DialogueTrigger=236,TalkTime=100..}] add Dialogue236
 
 #Switch between the three depending on time of day
 #Pre-Text
-tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"You feel an intense gaze almost electrifying your entire body..."}
+#tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"You feel an intense gaze almost electrifying your entire body..."}
 
-tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"A mysterious ring is floating in the air."}
-tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"Something is visible deep in the hole..."}
-tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
-#[Yes]
+tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=237,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=237,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=237,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 41"}},{"text":"]"}]
 
-tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"Raikou appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=237,TalkTime=1}] run pokebattle @s Raikou lvl:50
+#tellraw @s[scores={DialogueTrigger=237,TalkTime=1}] {"text":"Raikou appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=237,TalkTime=1}] run pokebattle @s Raikou lvl:50
 
-tag @s[scores={DialogueTrigger=237,TalkTime=100..}] add Dialogue237
+tag @s[scores={DialogueTrigger=237,TalkTime=10..}] add Dialogue237
 #-------------------------------
 #Dialogue 238 - Trackless Forest
 #Entei Encounter
 
 #Pre-Text
-tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"A blazing and strong presence is in the air..."}
+#tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"A blazing and strong presence is in the air..."}
 
-tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"A mysterious ring is floating in the air."}
-tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"Something is visible deep in the hole..."}
-tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
-#[Yes]
+tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=238,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=238,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=238,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 41"}},{"text":"]"}]
 
-tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"Entei appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=238,TalkTime=1}] run pokebattle @s Entei lvl:50
+#tellraw @s[scores={DialogueTrigger=238,TalkTime=1}] {"text":"Entei appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=238,TalkTime=1}] run pokebattle @s Entei lvl:50
 
-tag @s[scores={DialogueTrigger=238,TalkTime=100..}] add Dialogue238
+tag @s[scores={DialogueTrigger=238,TalkTime=10..}] add Dialogue238
 #-------------------------------
 #Dialogue 239 - Trackless Forest
 #Suicune Encounter
 
 #Pre-text
-tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Very clear sea water is quietly surging..."}
+#tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Very clear sea water is quietly surging..."}
 
-tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"A mysterious ring is floating in the air."}
-tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Something is visible deep in the hole..."}
-tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Would you like to put your hand deep in the hole?"}
-#[Yes]
+tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=239,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=239,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=239,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 41"}},{"text":"]"}]
 
-tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Suicune appeared!","italic":true,"color":"gray"}
-execute as @s[scores={DialogueTrigger=239,TalkTime=1}] run pokebattle @s Suicune lvl:50
+#tellraw @s[scores={DialogueTrigger=239,TalkTime=1}] {"text":"Suicune appeared!","italic":true,"color":"gray"}
+#execute as @s[scores={DialogueTrigger=239,TalkTime=1}] run pokebattle @s Suicune lvl:50
 
-tag @s[scores={DialogueTrigger=239,TalkTime=100..}] add Dialogue239
+tag @s[scores={DialogueTrigger=239,TalkTime=10..}] add Dialogue239
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 240 - Soaring in the sky
 #Tornadus Prompt
@@ -9535,7 +9545,89 @@ tellraw @s[scores={DialogueTrigger=267,TalkTime=11}] ["",{"text":"["},{"text":"Y
 tag @s[scores={DialogueTrigger=267,TalkTime=11..}] add Dialogue267
 
 
+#-------------------------------
+#Dialogue 268 - Crescent isle
+#Cresselia Prompt
 
+tellraw @s[scores={DialogueTrigger=268,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=268,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=268,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=268,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 187"}},{"text":"]"}]
+#[Yes]
+
+tag @s[scores={DialogueTrigger=268,TalkTime=10..}] add Dialogue268
+
+#-------------------------------
+#Dialogue 269 - Fabled Cave
+#Reshiram (day) Prompt
+
+tellraw @s[scores={DialogueTrigger=269,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=269,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=269,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=269,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 184"}},{"text":"]"}]
+#[Yes]
+
+tag @s[scores={DialogueTrigger=269,TalkTime=10..}] add Dialogue269
+
+#-------------------------------
+#Dialogue 270 - Fabled Cave
+#Zekrom (night) Prompt
+
+tellraw @s[scores={DialogueTrigger=270,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=270,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=270,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=270,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 185"}},{"text":"]"}]
+#[Yes]
+
+tag @s[scores={DialogueTrigger=270,TalkTime=10..}] add Dialogue270
+
+#-------------------------------
+#Dialogue 271 - Gnarled Den
+#Kyurem (night) Prompt
+
+tellraw @s[scores={DialogueTrigger=271,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=271,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=271,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=271,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 186"}},{"text":"]"}]
+#[Yes]
+
+tag @s[scores={DialogueTrigger=271,TalkTime=10..}] add Dialogue271
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 272 - Namless Cavern
+#Uxie Prompt
+
+tellraw @s[scores={DialogueTrigger=272,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=272,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=272,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=272,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 45"}},{"text":"]"}]
+#[Yes]
+
+tag @s[scores={DialogueTrigger=272,TalkTime=10..}] add Dialogue272
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 273 - Namless Cavern
+#Azelf Prompt
+
+tellraw @s[scores={DialogueTrigger=273,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=273,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=273,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=273,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 45"}},{"text":"]"}]
+#[Yes]
+
+tag @s[scores={DialogueTrigger=273,TalkTime=10..}] add Dialogue273
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 274 - Namless Cavern
+#Mesprit Prompt
+
+tellraw @s[scores={DialogueTrigger=274,TalkTime=1}] {"text":"A mysterious ring is floating in the air. Something is visible deep in the hole..."}
+tellraw @s[scores={DialogueTrigger=274,TalkTime=10}] {"text":"Would you like to put your hand deep in the hole?"}
+execute as @s[scores={DialogueTrigger=274,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=274,TalkTime=10}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 45"}},{"text":"]"}]
+#[Yes]
+
+tag @s[scores={DialogueTrigger=274,TalkTime=10..}] add Dialogue274
 
 #-----------------------------------------------------------------------------------------------------
 

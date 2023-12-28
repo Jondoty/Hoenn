@@ -32,6 +32,9 @@ execute if entity @p[x=-3181,y=0,z=1224,dx=125,dy=77,dz=449] run particle minecr
 #Shakes the player's screen if tag is present
 execute as @a[tag=ShakeScreen] at @s run function hoenn:cutscenes/shakeeffect
 
+#Portal effects on hoopa portal armor stands
+execute as @e[type=minecraft:armor_stand,nbt={ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{Unbreakable:1,Damage:6,HideFlags:6}}]}] at @s positioned ~ ~1.5 ~ run particle minecraft:portal ~ ~ ~ 1 1 1 0.1 1 normal @a
+
 #Bike obstacles
 execute as @a at @s if entity @e[type=pixelmon:bike,distance=..3] run function hoenn:items/bikeobstacles
 execute as @a at @s as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:mach_bike",Count:1b}},tag=!AdventureData] run function hoenn:data/bikeitemdata

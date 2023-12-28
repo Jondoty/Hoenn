@@ -1,0 +1,1 @@
+give @s music_disc_pigstep{display:{Name:'[{"text":"Scanner","italic":false,"color":"aqua"}]',Lore:['[{"text":"A device found inside","italic":false}]','[{"text":"Sea Mauville.","italic":false}]']},HideFlags:127} 1

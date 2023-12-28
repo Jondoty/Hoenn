@@ -10,14 +10,14 @@
     "hidden": true
   },
   "criteria" : {
-      "mespirit_capture" : {
+      "Mesprit_capture" : {
           "trigger" : "pixelmon:legendary_capture_trigger",
           "conditions" : {
-              "pokemon" : "mespirit"
+              "pokemon" : "Mesprit"
           }
       }
   },
   "rewards": {
-    "function": "hoenn:catch/mespirit"
+    "function": "hoenn:catch/Mesprit"
   }
 }

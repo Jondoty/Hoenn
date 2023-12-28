@@ -108,7 +108,55 @@ scoreboard players set @a[x=625,y=110,z=-3272,dx=18,dy=75,dz=19,tag=!Dialogue164
 #Hall of Fame
 scoreboard players set @a[x=633,y=132,z=-3321,distance=..3,tag=!Dialogue166] DialogueTrigger 166
 
-#Dial
+
+
+#legendary portals AOE
+#Cresselia
+scoreboard players set @a[x=236,y=79,z=1473,distance=..3,tag=!Dialogue268] DialogueTrigger 268
+
+#Sword trio, cobalion, terrakion, virizion
+execute as @a[x=-319,y=84,z=1403,distance=..4,tag=!Dialogue236] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run scoreboard players set @s DialogueTrigger 236
+execute as @a[x=-319,y=84,z=1403,distance=..4,tag=!Dialogue235] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run scoreboard players set @s DialogueTrigger 235
+execute as @a[x=-319,y=84,z=1403,distance=..4,tag=!Dialogue234] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run scoreboard players set @s DialogueTrigger 234
+execute as @a[x=-319,y=84,z=1403,distance=..4,tag=!Dialogue236] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run scoreboard players set @s DialogueTrigger 236
+execute as @a[x=-319,y=84,z=1403,distance=..4,tag=!Dialogue234] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run scoreboard players set @s DialogueTrigger 234
+execute as @a[x=-319,y=84,z=1403,distance=..4,tag=!Dialogue235] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run scoreboard players set @s DialogueTrigger 235
+execute as @a[x=-319,y=84,z=1403,distance=..4,tag=!Dialogue234] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run scoreboard players set @s DialogueTrigger 234
+
+#Raikou, Entei and Suicune also day of the week
+execute as @a[x=-409,y=64,z=2295,distance=..4,tag=!Dialogue239] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run scoreboard players set @s DialogueTrigger 239
+execute as @a[x=-409,y=64,z=2295,distance=..4,tag=!Dialogue238] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run scoreboard players set @s DialogueTrigger 238
+execute as @a[x=-409,y=64,z=2295,distance=..4,tag=!Dialogue237] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run scoreboard players set @s DialogueTrigger 237
+execute as @a[x=-409,y=64,z=2295,distance=..4,tag=!Dialogue239] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run scoreboard players set @s DialogueTrigger 239
+execute as @a[x=-409,y=64,z=2295,distance=..4,tag=!Dialogue237] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run scoreboard players set @s DialogueTrigger 237
+execute as @a[x=-409,y=64,z=2295,distance=..4,tag=!Dialogue238] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run scoreboard players set @s DialogueTrigger 238
+execute as @a[x=-409,y=64,z=2295,distance=..4,tag=!Dialogue237] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run scoreboard players set @s DialogueTrigger 237
+
+#Reshiram & Zekrom (day and night)
+execute as @a[x=-190,y=32,z=2182,distance=..4,tag=!Dialogue269] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..12000}] run scoreboard players set @s DialogueTrigger 269
+execute as @a[x=-190,y=32,z=2182,distance=..4,tag=!Dialogue270] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=12001..}] run scoreboard players set @s DialogueTrigger 270
+
+#Gnarled Den Kyurem
+execute as @a[x=18,y=40,z=2139,distance=..4,tag=!Dialogue271] run scoreboard players set @s DialogueTrigger 271
+
+#Uzie, Azelf, Mesprit
+execute as @a[x=1127,y=35,z=-801,distance=..4,tag=!Dialogue272] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run scoreboard players set @s DialogueTrigger 272
+execute as @a[x=1127,y=35,z=-801,distance=..4,tag=!Dialogue273] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run scoreboard players set @s DialogueTrigger 273
+execute as @a[x=1127,y=35,z=-801,distance=..4,tag=!Dialogue274] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run scoreboard players set @s DialogueTrigger 274
+execute as @a[x=1127,y=35,z=-801,distance=..4,tag=!Dialogue274] if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run scoreboard players set @s DialogueTrigger 274
+
+#Heatran
+execute as @a[x=1639,y=65,z=-2528,distance=..4,tag=!Dialogue225] run scoreboard players set @s DialogueTrigger 225
+
+#Ho-Oh
+#Spawns portal
+execute positioned -1977 99 688 unless entity @e[x=-1977,y=99,z=688,distance=..3,type=armor_stand] if entity @a[distance=..50,nbt={Inventory:[{id:"pixelmon:clear_bell"}]}] run summon minecraft:armor_stand -1977 99 688 {ShowArms:1b,Invisible:1b,ArmorItems:[{},{},{},{id:diamond_hoe,tag:{Damage:6,HideFlags:6,Unbreakable:1},Count:1}],ArmorDropChances:[0f,0f,0f,0f],DisabledSlots:4144959,Rotation:[90f]}
+execute as @a[x=-1977,y=99,z=688,distance=..4,tag=!Dialogue220] run scoreboard players set @s DialogueTrigger 220
+
+#Lugia
+#Spawns portal
+execute positioned -1794 57 688 unless entity @e[x=-1794,y=57,z=688,distance=..3,type=armor_stand] if entity @a[distance=..50,nbt={Inventory:[{id:"pixelmon:tidal_bell"}]}] run summon minecraft:armor_stand -1794 57 688 {ShowArms:1b,Invisible:1b,ArmorItems:[{},{},{},{id:diamond_hoe,tag:{Damage:6,HideFlags:6,Unbreakable:1},Count:1}],ArmorDropChances:[0f,0f,0f,0f],DisabledSlots:4144959,Rotation:[90f]}
+execute as @a[x=-1794,y=57,z=688,distance=..4,tag=!Dialogue221] run scoreboard players set @s DialogueTrigger 221
 
 #----------------------------------------------
 #Dialogue 61 - Mauville City
@@ -239,6 +287,10 @@ execute if entity @a[x=-2063,y=49,z=290,distance=..12,scores={Rival=1,PokemonLea
 
 execute as @a[x=-2003,y=39,z=297,distance=..7,scores={Rival=2,PokemonLeague=1..},tag=!Dialogue210] run scoreboard players set @s DialogueTrigger 210
 execute if entity @a[x=-1995,y=49,z=290,distance=..12,scores={Rival=2,PokemonLeague=1..},tag=!Dialogue210] unless entity @e[x=-1998,y=40,z=299,distance=..2,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1998 40 299 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Dad", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "galacticgruntmale", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.8235486f, -2.264852f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "norman.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+#-----------------------------------------------------------------------------------------------------
+#Dialogue 219 - Stern giving bells in exchange for radar
+scoreboard players set @a[x=2198,y=79,z=2591,distance=..5,nbt={Inventory:[{id:"minecraft:music_disc_pigstep"}]},tag=!Dialogue218] DialogueTrigger 218
 
 #-----------------------------------------------------------------------------------------------------
 #Littleroot misc dialogues

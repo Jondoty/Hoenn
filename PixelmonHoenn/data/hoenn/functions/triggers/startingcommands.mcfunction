@@ -109,7 +109,7 @@ tag @s remove LandorusCatch
 tag @s remove LatiasCatch
 tag @s remove LatiosCatch
 tag @s remove LugiaCatch
-tag @s remove MespiritCatch
+tag @s remove MespritCatch
 tag @s remove PalkiaCatch
 tag @s remove RaikouCatch
 tag @s remove RayquazaCatch

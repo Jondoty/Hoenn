@@ -104,9 +104,9 @@ execute as @s[tag=!LugiaCatch,tag=LugiaEncounter] run tag @s remove LugiaEncount
 
 
 
-#mespirit
-execute as @s[tag=!MespiritCatch,tag=MespiritEncounter] run tellraw @s {"text":"You can now rebattle Mespirit!","italic":true,"color":"gray"}
-execute as @s[tag=!MespiritCatch,tag=MespiritEncounter] run tag @s remove MespiritEncounter
+#Mesprit
+execute as @s[tag=!MespritCatch,tag=MespritEncounter] run tellraw @s {"text":"You can now rebattle Mesprit!","italic":true,"color":"gray"}
+execute as @s[tag=!MespritCatch,tag=MespritEncounter] run tag @s remove MespritEncounter
 
 
 

@@ -31,10 +31,31 @@ execute as @s[tag=!LandorusEncounter,tag=Dialogue264] run tag @s remove Dialogue
 #Groudon or Kyogre prompts but then relog
 execute as @s[tag=Dialogue140,tag=!Dialogue141,tag=!Dialogue142] run tag @s remove Dialogue140
 
+#Stern's Radar Prompt
+execute as @s[tag=!Dialogue219,tag=Dialogue218] run tag @s remove Dialogue218
+
 #Dialga/Palkia/Giratina prompts
 execute as @s[tag=!DialgaCatch,tag=!DialgaEncounter] run tag @s remove Dialogue265
 execute as @s[tag=!PalkiaCatch,tag=!PalkiaEncounter] run tag @s remove Dialogue266
 execute as @s[tag=!GiratinaCatch,tag=!GiratinaEncounter] run tag @s remove Dialogue267
+
+#Misc legends
+execute as @s[tag=!CresseliaCatch,tag=!CresseliaEncounter] run tag @s remove Dialogue268
+execute as @s[tag=!CobalionCatch,tag=!CobalionEncounter] run tag @s remove Dialogue234
+execute as @s[tag=!TerrakionCatch,tag=!TerrakionEncounter] run tag @s remove Dialogue235
+execute as @s[tag=!VirizionCatch,tag=!VirizionEncounter] run tag @s remove Dialogue236
+execute as @s[tag=!RaikouEncounter,tag=!RaikouEncounter] run tag @s remove Dialogue237
+execute as @s[tag=!EnteiCatch,tag=!EnteiCatch] run tag @s remove Dialogue238
+execute as @s[tag=!SuicuneCatch,tag=!SuicuneCatch] run tag @s remove Dialogue239
+execute as @s[tag=!ReshiramCatch,tag=!ReshiramCatch] run tag @s remove Dialogue269
+execute as @s[tag=!ZekromCatch,tag=!ZekromCatch] run tag @s remove Dialogue270
+execute as @s[tag=!KyuremCatch,tag=!KyuremCatch] run tag @s remove Dialogue271
+execute as @s[tag=!UxieCatch,tag=!UxieCatch] run tag @s remove Dialogue272
+execute as @s[tag=!AzelfCatch,tag=!AzelfCatch] run tag @s remove Dialogue273
+execute as @s[tag=!MespritCatch,tag=!MespritCatch] run tag @s remove Dialogue274
+execute as @s[tag=!HeatranCatch,tag=!HeatranCatch] run tag @s remove Dialogue225
+execute as @s[tag=!HoohCatch,tag=!HoohCatch] run tag @s remove Dialogue220
+execute as @s[tag=!LugiaCatch,tag=!LugiaCatch] run tag @s remove Dialogue221
 
 #Rayquaza space prompt
 tag @s remove SpacePrompt
