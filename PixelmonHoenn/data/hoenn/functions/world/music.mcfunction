@@ -112,7 +112,21 @@ execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:484}] run
 execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:487}] run playsound giratina record @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=GiratinaEncounter,tag=!GiratinaCatch] ~ ~ ~ 1 1 1
 execute if entity @e[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,nbt={ndex:487}] run scoreboard players set @s[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={MusicCooldown=0},tag=GiratinaEncounter,tag=!GiratinaCatch] MusicCooldown 333
 
+#Regice
+execute if entity @e[x=-2853,y=0,z=69,dx=101,dy=25,dz=217,type=pixelmon:pixelmon,nbt={ndex:378,Friendship:0s}] run playsound regis record @s[x=-2853,y=0,z=69,dx=101,dy=25,dz=217,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-2853,y=0,z=69,dx=101,dy=25,dz=217,type=pixelmon:pixelmon,nbt={ndex:378,Friendship:0s}] run scoreboard players set @s[x=-2853,y=0,z=69,dx=101,dy=25,dz=217,scores={MusicCooldown=0}] MusicCooldown 140
 
+#Regigigas
+execute if entity @e[x=-2853,y=-16,z=69,dx=101,dy=25,dz=217,type=pixelmon:pixelmon,nbt={ndex:486,Friendship:0s}] run playsound regis record @s[x=-2853,y=-16,z=69,dx=101,dy=25,dz=217,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-2853,y=-16,z=69,dx=101,dy=25,dz=217,type=pixelmon:pixelmon,nbt={ndex:486,Friendship:0s}] run scoreboard players set @s[x=-2853,y=-16,z=69,dx=101,dy=25,dz=217,scores={MusicCooldown=0}] MusicCooldown 140
+
+#Regirock
+execute if entity @e[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,type=pixelmon:pixelmon,nbt={ndex:377,Friendship:0s}] run playsound regis record @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,type=pixelmon:pixelmon,nbt={ndex:377,Friendship:0s}] run scoreboard players set @s[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,scores={MusicCooldown=0}] MusicCooldown 140
+
+#Registeel
+execute if entity @e[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,type=pixelmon:pixelmon,nbt={ndex:379,Friendship:0s}] run playsound regis record @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,type=pixelmon:pixelmon,nbt={ndex:379,Friendship:0s}] run scoreboard players set @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,scores={MusicCooldown=0}] MusicCooldown 140
 
 
 

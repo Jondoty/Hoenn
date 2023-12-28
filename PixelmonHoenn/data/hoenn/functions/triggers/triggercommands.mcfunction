@@ -1140,9 +1140,40 @@ execute as @s[scores={TriggerCommand=189},tag=!LugiaEncounter] at @s run pokespa
 execute as @s[scores={TriggerCommand=189},tag=!LugiaEncounter] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=189},tag=!LugiaEncounter] run tag @s add LugiaEncounter
 
+#-----------------------------------------------------------------------------------------------------
+#Regis
 
+#Regice
+execute as @s[scores={TriggerCommand=190},tag=!RegiceEncounter] run tellraw @s {"text":"Regice Appeared!"}
+execute as @s[scores={TriggerCommand=190},tag=!RegiceEncounter] run particle cloud -2802 12 117 1 1 1 0.15 300
+execute as @s[scores={TriggerCommand=190},tag=!RegiceEncounter] run tp @e[x=-2802,y=11,z=117,distance=..3,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={TriggerCommand=190},tag=!RegiceEncounter] at @s run pokespawn Regice lvl:50 gr:7
+execute as @s[scores={TriggerCommand=190},tag=!RegiceEncounter] run function hoenn:tools/forceclick
+execute as @s[scores={TriggerCommand=190},tag=!RegiceEncounter] run tag @s add RegiceEncounter
 
+#Regigigas
+execute as @s[scores={TriggerCommand=191},tag=!RegigigasEncounter] run tellraw @s {"text":"Regigigas Appeared!"}
+execute as @s[scores={TriggerCommand=191},tag=!RegigigasEncounter] run particle cloud -2802 -9 117 1 1 1 0.15 300
+execute as @s[scores={TriggerCommand=191},tag=!RegigigasEncounter] run tp @e[x=-2802,y=-10,z=117,distance=..3,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={TriggerCommand=191},tag=!RegigigasEncounter] at @s run pokespawn Regigigas lvl:50 gr:7
+execute as @s[scores={TriggerCommand=191},tag=!RegigigasEncounter] run function hoenn:tools/forceclick
+execute as @s[scores={TriggerCommand=191},tag=!RegigigasEncounter] run tag @s add RegigigasEncounter
 
+#Regirock
+execute as @s[scores={TriggerCommand=192},tag=!RegirockEncounter] run tellraw @s {"text":"Regirock Appeared!"}
+execute as @s[scores={TriggerCommand=192},tag=!RegirockEncounter] run particle cloud -1421 37 -1133 1 1 1 0.15 300
+execute as @s[scores={TriggerCommand=192},tag=!RegirockEncounter] run tp @e[x=-1421,y=37,z=-1133,distance=..3,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={TriggerCommand=192},tag=!RegirockEncounter] at @s run pokespawn Regirock lvl:50 gr:7
+execute as @s[scores={TriggerCommand=192},tag=!RegirockEncounter] run function hoenn:tools/forceclick
+execute as @s[scores={TriggerCommand=192},tag=!RegirockEncounter] run tag @s add RegirockEncounter
+
+#Registeel
+execute as @s[scores={TriggerCommand=193},tag=!RegisteelEncounter] run tellraw @s {"text":"Registeel Appeared!"}
+execute as @s[scores={TriggerCommand=193},tag=!RegisteelEncounter] run particle cloud -371 37 -1324 1 1 1 0.15 300
+execute as @s[scores={TriggerCommand=193},tag=!RegisteelEncounter] run tp @e[x=-371,y=37,z=-1324,distance=..3,type=pixelmon:statue] 10000000 -50000 -10000000
+execute as @s[scores={TriggerCommand=193},tag=!RegisteelEncounter] at @s run pokespawn Registeel lvl:50 gr:7
+execute as @s[scores={TriggerCommand=193},tag=!RegisteelEncounter] run function hoenn:tools/forceclick
+execute as @s[scores={TriggerCommand=193},tag=!RegisteelEncounter] run tag @s add RegisteelEncounter
 
 execute as @s[scores={TriggerCommand=101..499}] run scoreboard players set @s TriggerCommand 0
 
