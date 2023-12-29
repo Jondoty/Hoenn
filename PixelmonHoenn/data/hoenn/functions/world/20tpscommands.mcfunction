@@ -138,4 +138,8 @@ execute as @a[x=-51,y=93,z=-1222,distance=..5] at @s unless entity @e[distance=.
 execute as @a[x=-959,y=88,z=-1361,distance=..5] at @s unless entity @e[distance=..5,type=pixelmon:bike] if block ~ ~-1 ~ minecraft:iron_block run tp @s ~-3 ~ ~
 execute as @a[x=-874,y=67,z=-938,distance=..5] at @s unless entity @e[distance=..5,type=pixelmon:bike] if block ~ ~-1 ~ minecraft:iron_block run tp @s ~3 ~ ~
 
+
+#Slateport Route 134 Rapids
+execute as @a[x=-1331,y=0,z=177,dx=43,dy=150,dz=63] at @s run tp @s ~-1 ~ ~
+
 #
