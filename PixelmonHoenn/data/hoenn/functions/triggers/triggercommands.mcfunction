@@ -91,18 +91,21 @@ execute as @s[scores={TriggerCommand=14}] run
 
 #Initial Bike Pick
 #Mach
-execute as @s[scores={TriggerCommand=15}] run
+execute as @s[scores={TriggerCommand=15}] run give @s pixelmon:mach_bike
+execute as @s[scores={TriggerCommand=15}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=15}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" chose the Mach Bike.","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=15}] run tellraw @s {"text":"<Rydel> If you get the urge to switch Bikes, just come see me!"}
 
 #Acro
-execute as @s[scores={TriggerCommand=16}] run
+execute as @s[scores={TriggerCommand=16}] run give @s pixelmon:acro_bike
+execute as @s[scores={TriggerCommand=16}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=16}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" chose the Acro Bike.","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=16}] run tellraw @s {"text":"<Rydel> If you get the urge to switch Bikes, just come see me!"}
 
 #Prompt to switch bikes
 execute as @s[scores={TriggerCommand=17}] run scoreboard players enable @s TriggerCommand
 execute as @s[scores={TriggerCommand=17}] run tellraw @s ["",{"text":"<Rydel> Oh? Were you thinking about switching Bikes?\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 18"}},{"text":"]"}]
+execute as @s[scores={TriggerCommand=17}] run scoreboard players set @s StepCounter 0
 
 #If bike is in inventory, run according to what the player has in their inventory
 #Switching Mach to Acro
@@ -121,6 +124,7 @@ execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run clear @s pixelmon
 execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run function hoenn:spawn/mach_bike
 execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=18},tag=AcroHaveTemp] run tag @s remove AcroHaveTemp
+execute as @s[scores={TriggerCommand=18}] run scoreboard players set @s StepCounter 0
 execute as @s[scores={TriggerCommand=18}] run scoreboard players set @s TriggerCommand 0
 
 
@@ -1064,14 +1068,14 @@ execute as @s[scores={TriggerCommand=179},tag=!Item79Give] run tag @s add Item79
 #Shoal Cave Shell Bell Guy Prompt
 
 #First Talk only
-execute as @s[scores={TriggerCommand=180},tag=!Dialogue226] run scoreboard players set @s Dialoguetrigger 226
-execute as @s[scores={TriggerCommand=180},tag=!Dialogue226] run scoreboard players set @s TriggerCommand 0
+#execute as @s[scores={TriggerCommand=180},tag=!Dialogue226] run scoreboard players set @s Dialoguetrigger 226
+#execute as @s[scores={TriggerCommand=180},tag=!Dialogue226] run scoreboard players set @s TriggerCommand 0
 
 
 #If player has both items
-execute as @s[scores={TriggerCommand=180},tag=Dialogue226,nbt={Inventory:[{id:"pixelmon:shoal_salt"},{id:"pixelmon:shoal_shell"}]}] run tag @s remove Dialogue228
-execute as @s[scores={TriggerCommand=180},tag=Dialogue226,nbt={Inventory:[{id:"pixelmon:shoal_salt"},{id:"pixelmon:shoal_shell"}]}] run scoreboard players set @s DialogueTrigger 228
-execute as @s[scores={TriggerCommand=180},tag=Dialogue226,nbt={Inventory:[{id:"pixelmon:shoal_salt"},{id:"pixelmon:shoal_shell"}]}] run scoreboard players set @s TriggerCommand 0
+execute as @s[scores={TriggerCommand=180},nbt={Inventory:[{id:"pixelmon:shoal_salt",Count:4b},{id:"pixelmon:shoal_shell",Count:4b}]}] run tag @s remove Dialogue228
+execute as @s[scores={TriggerCommand=180},nbt={Inventory:[{id:"pixelmon:shoal_salt",Count:4b},{id:"pixelmon:shoal_shell",Count:4b}]}] run scoreboard players set @s DialogueTrigger 228
+execute as @s[scores={TriggerCommand=180},nbt={Inventory:[{id:"pixelmon:shoal_salt",Count:4b},{id:"pixelmon:shoal_shell",Count:4b}]}] run scoreboard players set @s TriggerCommand 0
 
 
 #-----------------------------------------------------------------------------------------------------

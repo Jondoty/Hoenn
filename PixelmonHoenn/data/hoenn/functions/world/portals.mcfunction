@@ -1122,6 +1122,9 @@ tp @a[x=1730,y=47,z=-885,dx=4,dy=3] 1732 74 -884
 #Shoal Cave
 #https://gamefaqs.gamespot.com/gba/921905-pokemon-emerald-version/map/13387?raw=1
 
+#Resets shell bell guy dialogue
+tag @a[x=1584,y=64,z=-1245,dx=4,dy=3] remove Dialogue227
+tag @a[x=1584,y=64,z=-1245,dx=4,dy=3] remove Dialogue228
 
 #High Tide
 #Entrance

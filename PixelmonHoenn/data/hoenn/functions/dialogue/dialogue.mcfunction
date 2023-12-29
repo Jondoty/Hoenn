@@ -1898,23 +1898,24 @@ tag @s[scores={DialogueTrigger=65,TalkTime=100..}] add Dialogue65
 #https://youtu.be/MgkqxXCmrtI?t=18457
 
 tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<...> Well, well, what have we here? A most energetic customer!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> Me? You may call me Rydel. I'm the owner of this cycle shop."}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> Your running shoes... They're awfully filthy. Did you come from far away?"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> Hm, hm... You're saying you came all the way from Littleroot?"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> My goodness! That's ridiculously far!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> If you had one of my Bikes, you could go anywhere easily while feeling the gentle caress of the wind!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> I'll tell you what! I'll give you a Bike!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> Oh, wait a second! I forgot to tell you that there are two kinds of Bikes!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> They are the Mach Bike and the Acro Bike!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> Mach Bikes are for cyclists who want to feel the wild, blowing wind as they ride!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> Acro Bikes are for those who prefer a technical ride!"}
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] {"text":"<Rydel> I'm a real sweetheart, so you can have whichever one you like! Which one will you choose?"}
-execute as @s[scores={DialogueTrigger=66,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=66,TalkTime=1}] ["",{"text":"["},{"text":"Mach Bike","color":"gold","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 15"}},{"text":"] \u0020 ["},{"text":"Acro Bike","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 16"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=66,TalkTime=8}] {"text":"<Rydel> Me? You may call me Rydel. I'm the owner of this cycle shop."}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=16}] {"text":"<Rydel> Your running shoes... They're awfully filthy. Did you come from far away?"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=26}] {"text":"<Rydel> Hm, hm... You're saying you came all the way from Littleroot?"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=34}] {"text":"<Rydel> My goodness! That's ridiculously far!"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=41}] {"text":"<Rydel> If you had one of my Bikes, you could go anywhere easily while feeling the gentle caress of the wind!"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=51}] {"text":"<Rydel> I'll tell you what! I'll give you a Bike!"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=58}] {"text":"<Rydel> Oh, wait a second! I forgot to tell you that there are two kinds of Bikes!"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=67}] {"text":"<Rydel> They are the Mach Bike and the Acro Bike!"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=74}] {"text":"<Rydel> Mach Bikes are for cyclists who want to feel the wild, blowing wind as they ride!"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=83}] {"text":"<Rydel> Acro Bikes are for those who prefer a technical ride!"}
+tellraw @s[scores={DialogueTrigger=66,TalkTime=90}] {"text":"<Rydel> I'm a real sweetheart, so you can have whichever one you like! Which one will you choose?"}
+execute as @s[scores={DialogueTrigger=66,TalkTime=90}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=66,TalkTime=90}] run scoreboard players set @s StepCounter 0
+tellraw @s[scores={DialogueTrigger=66,TalkTime=90}] ["",{"text":"["},{"text":"Mach Bike","color":"gold","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 15"}},{"text":"] \u0020 ["},{"text":"Acro Bike","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 16"}},{"text":"]"}]
 
 
 
-tag @s[scores={DialogueTrigger=66,TalkTime=100..}] add Dialogue66
+tag @s[scores={DialogueTrigger=66,TalkTime=90..}] add Dialogue66
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 67 - Mauville Gym
 #Wattson Pre-Battle
@@ -8759,21 +8760,24 @@ tag @s[scores={DialogueTrigger=226,TalkTime=34..}] add Dialogue226
 #https://youtu.be/MgkqxXCmrtI?t=79763
 
 tellraw @s[scores={DialogueTrigger=227,TalkTime=1}] {"text":"<Shoal Man> Oh, hey! Shoal Salt and Shoal Shells!"}
-tellraw @s[scores={DialogueTrigger=227,TalkTime=1}] {"text":"<Shoal Man> And enough of them, too! Would you like me to make you a Shell Bell with them?"}
-#[Yes]  [No]
+tellraw @s[scores={DialogueTrigger=227,TalkTime=9}] {"text":"<Shoal Man> And enough of them, too! Would you like me to make you a Shell Bell with them?"}
+execute as @s[scores={DialogueTrigger=227,TalkTime=9}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={DialogueTrigger=227,TalkTime=9}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 180"}},{"text":"]"}]
 
-tag @s[scores={DialogueTrigger=227,TalkTime=100..}] add Dialogue227
+tag @s[scores={DialogueTrigger=227,TalkTime=9..}] add Dialogue227
 #-------------------------------
 #Dialogue 228 - Shoal Cave
 #Shell Guy Creating shells
 
 #If answers no,
-tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> Oh... Is that so...? I wanted to make a Shell Bell..."}
-execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run clear @s pixelmon:shoal_salt 1
-execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run clear @s pixelmon:shoal_shell 1
+#tellraw @s[scores={DialogueTrigger=228,TalkTime=1}] {"text":"<Shoal Man> Oh... Is that so...? I wanted to make a Shell Bell..."}
+
+
+execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run clear @s pixelmon:shoal_salt 4
+execute as @s[scores={DialogueTrigger=228,TalkTime=1}] run clear @s pixelmon:shoal_shell 4
 
 #Checks resources are still present
-tellraw @s[scores={DialogueTrigger=228,TalkTime=8}] {"text":"<Shoal Man> All righty, then! I'll make you a Shell Bell right away."}
+tellraw @s[scores={DialogueTrigger=228,TalkTime=3}] {"text":"<Shoal Man> All righty, then! I'll make you a Shell Bell right away."}
 tellraw @s[scores={DialogueTrigger=228,TalkTime=16}] {"text":"<Shoal Man> ... There! Done!"}
 
 tellraw @s[scores={DialogueTrigger=228,TalkTime=22}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shell Bell!","italic":true,"color":"gray"}]

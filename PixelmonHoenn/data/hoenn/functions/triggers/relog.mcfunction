@@ -66,5 +66,11 @@ tag @s remove ShakeScreen
 
 
 
+#If player has no bike, allows them to get another. Or if player relogs between claim and dialogue
+execute unless entity @s[nbt={Inventory:[{id:"pixelmon:mach_bike"}]}] unless entity @s[nbt={Inventory:[{id:"pixelmon:acro_bike"}]}] run tag @s remove Dialogue66
+
+#Shoal Shell Guy
+tag @s[tag=Dialogue227,tag=!Dialogue228] remove Dialogue228
+
 #Sets relog score to 0
 scoreboard players set @s relog 0

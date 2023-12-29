@@ -35,7 +35,17 @@ tag @a remove Item59Give
 tag @a remove Item69Give
 tag @a remove Item78Give
 
-
+#Shoal Cave loots, resets daily
+tag @a remove CustomLoot44
+tag @a remove CustomLoot45
+tag @a remove CustomLoot46
+tag @a remove CustomLoot47
+tag @a remove CustomLoot48
+tag @a remove CustomLoot49
+tag @a remove CustomLoot50
+tag @a remove CustomLoot51
+tag @a remove Dialogue227
+tag @a remove Dialogue228
 
 
 
@@ -124,6 +134,7 @@ tag @e[x=-2070,y=65,z=1410,dy=3] remove Base80Temp
 tag @e[x=-2070,y=65,z=1410,dy=3] remove Base81Temp
 tag @e[x=-2070,y=65,z=1410,dy=3] remove Base82Temp
 tag @e[x=-2070,y=65,z=1410,dy=3] remove Base83Temp
+
 
 
 

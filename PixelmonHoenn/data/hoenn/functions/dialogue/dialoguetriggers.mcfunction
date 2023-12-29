@@ -176,7 +176,23 @@ scoreboard players set @a[x=-2802,y=-10,z=117,distance=..5,tag=!RegigigasEncount
 
 
 
+#Chatting NPCs that can be spoken to multiple times
 
+#Dialogue 66
+#Mauville Rydel first dialogue
+scoreboard players set @a[x=2831,y=65,z=2790,distance=..5,tag=!Dialogue66] DialogueTrigger 66
+
+#Switching bikes
+scoreboard players set @a[x=2831,y=65,z=2790,distance=..5,tag=Dialogue66,scores={StepCounter=2000..}] TriggerCommand 17
+
+
+#Shoal Cave
+scoreboard players set @a[x=2847,y=70,z=-2392,distance=..5,tag=!Dialogue226] DialogueTrigger 226
+scoreboard players set @a[x=2899,y=70,z=-3201,distance=..5,tag=!Dialogue226] DialogueTrigger 226
+
+#If materials are present
+scoreboard players set @a[x=2847,y=70,z=-2392,distance=..5,nbt={Inventory:[{id:"pixelmon:shoal_salt",Count:4b},{id:"pixelmon:shoal_shell",Count:4b}]},tag=Dialogue226,tag=!Dialogue227] DialogueTrigger 227
+scoreboard players set @a[x=2899,y=70,z=-3201,distance=..5,nbt={Inventory:[{id:"pixelmon:shoal_salt",Count:4b},{id:"pixelmon:shoal_shell",Count:4b}]},tag=Dialogue226,tag=!Dialogue227] DialogueTrigger 227
 
 #----------------------------------------------
 #/summon minecraft:item_display ~ ~ ~ {item:{id:"pixelmon:heart_scale",Count:1b},Rotation:[90F,90F]}
@@ -402,6 +418,52 @@ execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run playsound 
 execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Yellow Shard!","italic":true,"color":"gray"}]
 execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run give @s pixelmon:yellow_shard
 execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run tag @s add CustomLoot43
+
+
+
+#Shoal Cave
+execute as @a[x=2885,y=99,z=-3066,distance=..3,tag=!CustomLoot44] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2885,y=99,z=-3066,distance=..3,tag=!CustomLoot44] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Shell!","italic":true,"color":"gray"}]
+execute as @a[x=2885,y=99,z=-3066,distance=..3,tag=!CustomLoot44] run give @s pixelmon:shoal_shell
+execute as @a[x=2885,y=99,z=-3066,distance=..3,tag=!CustomLoot44] run tag @s add CustomLoot44
+
+execute as @a[x=2853,y=99,z=-3071,distance=..3,tag=!CustomLoot45] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2853,y=99,z=-3071,distance=..3,tag=!CustomLoot45] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Shell!","italic":true,"color":"gray"}]
+execute as @a[x=2853,y=99,z=-3071,distance=..3,tag=!CustomLoot45] run give @s pixelmon:shoal_shell
+execute as @a[x=2853,y=99,z=-3071,distance=..3,tag=!CustomLoot45] run tag @s add CustomLoot45
+
+execute as @a[x=2966,y=99,z=-3036,distance=..3,tag=!CustomLoot46] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2966,y=99,z=-3036,distance=..3,tag=!CustomLoot46] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Shell!","italic":true,"color":"gray"}]
+execute as @a[x=2966,y=99,z=-3036,distance=..3,tag=!CustomLoot46] run give @s pixelmon:shoal_shell
+execute as @a[x=2966,y=99,z=-3036,distance=..3,tag=!CustomLoot46] run tag @s add CustomLoot46
+
+execute as @a[x=2968,y=99,z=-3064,distance=..3,tag=!CustomLoot47] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2968,y=99,z=-3064,distance=..3,tag=!CustomLoot47] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Shell!","italic":true,"color":"gray"}]
+execute as @a[x=2968,y=99,z=-3064,distance=..3,tag=!CustomLoot47] run give @s pixelmon:shoal_shell
+execute as @a[x=2968,y=99,z=-3064,distance=..3,tag=!CustomLoot47] run tag @s add CustomLoot47
+
+execute as @a[x=2883,y=65,z=-2618,distance=..3,tag=!CustomLoot48] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2883,y=65,z=-2618,distance=..3,tag=!CustomLoot48] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Salt!","italic":true,"color":"gray"}]
+execute as @a[x=2883,y=65,z=-2618,distance=..3,tag=!CustomLoot48] run give @s pixelmon:shoal_salt
+execute as @a[x=2883,y=65,z=-2618,distance=..3,tag=!CustomLoot48] run tag @s add CustomLoot48
+
+execute as @a[x=2907,y=92,z=-2937,distance=..3,tag=!CustomLoot49] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2907,y=92,z=-2937,distance=..3,tag=!CustomLoot49] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Salt!","italic":true,"color":"gray"}]
+execute as @a[x=2907,y=92,z=-2937,distance=..3,tag=!CustomLoot49] run give @s pixelmon:shoal_salt
+execute as @a[x=2907,y=92,z=-2937,distance=..3,tag=!CustomLoot49] run tag @s add CustomLoot49
+
+execute as @a[x=2840,y=84,z=-2501,distance=..3,tag=!CustomLoot50] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2840,y=84,z=-2501,distance=..3,tag=!CustomLoot50] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Salt!","italic":true,"color":"gray"}]
+execute as @a[x=2840,y=84,z=-2501,distance=..3,tag=!CustomLoot50] run give @s pixelmon:shoal_salt
+execute as @a[x=2840,y=84,z=-2501,distance=..3,tag=!CustomLoot50] run tag @s add CustomLoot50
+
+execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Shoal Salt!","italic":true,"color":"gray"}]
+execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run give @s pixelmon:shoal_salt
+execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run tag @s add CustomLoot51
+
+
+
 
 #----------------------------------------------
 #Dialogue 61 - Mauville City
