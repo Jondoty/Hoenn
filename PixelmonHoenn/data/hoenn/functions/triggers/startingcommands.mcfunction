@@ -509,7 +509,49 @@ tag @s remove Item100Give
 
 
 
-
+tag @s remove CustomLoot1
+tag @s remove CustomLoot2
+tag @s remove CustomLoot3
+tag @s remove CustomLoot4
+tag @s remove CustomLoot5
+tag @s remove CustomLoot6
+tag @s remove CustomLoot7
+tag @s remove CustomLoot8
+tag @s remove CustomLoot9
+tag @s remove CustomLoot10
+tag @s remove CustomLoot11
+tag @s remove CustomLoot12
+tag @s remove CustomLoot13
+tag @s remove CustomLoot14
+tag @s remove CustomLoot15
+tag @s remove CustomLoot16
+tag @s remove CustomLoot17
+tag @s remove CustomLoot18
+tag @s remove CustomLoot19
+tag @s remove CustomLoot20
+tag @s remove CustomLoot21
+tag @s remove CustomLoot22
+tag @s remove CustomLoot23
+tag @s remove CustomLoot24
+tag @s remove CustomLoot25
+tag @s remove CustomLoot26
+tag @s remove CustomLoot27
+tag @s remove CustomLoot28
+tag @s remove CustomLoot29
+tag @s remove CustomLoot30
+tag @s remove CustomLoot31
+tag @s remove CustomLoot32
+tag @s remove CustomLoot33
+tag @s remove CustomLoot34
+tag @s remove CustomLoot35
+tag @s remove CustomLoot36
+tag @s remove CustomLoot37
+tag @s remove CustomLoot38
+tag @s remove CustomLoot39
+tag @s remove CustomLoot40
+tag @s remove CustomLoot41
+tag @s remove CustomLoot42
+tag @s remove CustomLoot43
 
 
 

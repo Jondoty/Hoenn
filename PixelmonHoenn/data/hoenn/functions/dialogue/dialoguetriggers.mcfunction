@@ -177,6 +177,232 @@ scoreboard players set @a[x=-2802,y=-10,z=117,distance=..5,tag=!RegigigasEncount
 
 
 
+
+#----------------------------------------------
+#/summon minecraft:item_display ~ ~ ~ {item:{id:"pixelmon:heart_scale",Count:1b},Rotation:[90F,90F]}
+
+#Custom unterwater AOE command loot
+execute as @a[x=983,y=-29,z=-1029,distance=..3,tag=!CustomLoot1] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=983,y=-29,z=-1029,distance=..3,tag=!CustomLoot1] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Heart Scale!","italic":true,"color":"gray"}]
+execute as @a[x=983,y=-29,z=-1029,distance=..3,tag=!CustomLoot1] run give @s pixelmon:heart_scale
+execute as @a[x=983,y=-29,z=-1029,distance=..3,tag=!CustomLoot1] run tag @s add CustomLoot1
+
+execute as @a[x=1116,y=-29,z=-1091,distance=..3,tag=!CustomLoot2] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1116,y=-29,z=-1091,distance=..3,tag=!CustomLoot2] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Green Shard!","italic":true,"color":"gray"}]
+execute as @a[x=1116,y=-29,z=-1091,distance=..3,tag=!CustomLoot2] run give @s pixelmon:green_shard
+execute as @a[x=1116,y=-29,z=-1091,distance=..3,tag=!CustomLoot2] run tag @s add CustomLoot2
+
+execute as @a[x=886,y=-29,z=-1064,distance=..3,tag=!CustomLoot3] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=886,y=-29,z=-1064,distance=..3,tag=!CustomLoot3] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pearl!","italic":true,"color":"gray"}]
+execute as @a[x=886,y=-29,z=-1064,distance=..3,tag=!CustomLoot3] run give @s pixelmon:pearl
+execute as @a[x=886,y=-29,z=-1064,distance=..3,tag=!CustomLoot3] run tag @s add CustomLoot3
+
+execute as @a[x=939,y=-29,z=-1069,distance=..3,tag=!CustomLoot4] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=939,y=-29,z=-1069,distance=..3,tag=!CustomLoot4] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Heart Scale!","italic":true,"color":"gray"}]
+execute as @a[x=939,y=-29,z=-1069,distance=..3,tag=!CustomLoot4] run give @s pixelmon:heart_scale
+execute as @a[x=939,y=-29,z=-1069,distance=..3,tag=!CustomLoot4] run tag @s add CustomLoot4
+
+execute as @a[x=1041,y=-29,z=-1074,distance=..3,tag=!CustomLoot5] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1041,y=-29,z=-1074,distance=..3,tag=!CustomLoot5] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Sky Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1041,y=-29,z=-1074,distance=..3,tag=!CustomLoot5] run give @s pixelmon:sky_plate
+execute as @a[x=1041,y=-29,z=-1074,distance=..3,tag=!CustomLoot5] run tag @s add CustomLoot5
+
+execute as @a[x=887,y=-29,z=-865,distance=..3,tag=!CustomLoot6] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=887,y=-29,z=-865,distance=..3,tag=!CustomLoot6] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Big Pearl!","italic":true,"color":"gray"}]
+execute as @a[x=887,y=-29,z=-865,distance=..3,tag=!CustomLoot6] run give @s pixelmon:big_pearl
+execute as @a[x=887,y=-29,z=-865,distance=..3,tag=!CustomLoot6] run tag @s add CustomLoot6
+
+execute as @a[x=926,y=-29,z=-854,distance=..3,tag=!CustomLoot7] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=926,y=-29,z=-854,distance=..3,tag=!CustomLoot7] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Calcium!","italic":true,"color":"gray"}]
+execute as @a[x=926,y=-29,z=-854,distance=..3,tag=!CustomLoot7] run give @s pixelmon:calcium
+execute as @a[x=926,y=-29,z=-854,distance=..3,tag=!CustomLoot7] run tag @s add CustomLoot7
+
+execute as @a[x=1050,y=-29,z=-939,distance=..3,tag=!CustomLoot8] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1050,y=-29,z=-939,distance=..3,tag=!CustomLoot8] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Carbos!","italic":true,"color":"gray"}]
+execute as @a[x=1050,y=-29,z=-939,distance=..3,tag=!CustomLoot8] run give @s pixelmon:carbos
+execute as @a[x=1050,y=-29,z=-939,distance=..3,tag=!CustomLoot8] run tag @s add CustomLoot8
+
+#R127
+execute as @a[x=1627,y=-21,z=-433,distance=..3,tag=!CustomLoot9] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1627,y=-21,z=-433,distance=..3,tag=!CustomLoot9] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Heart Scale!","italic":true,"color":"gray"}]
+execute as @a[x=1627,y=-21,z=-433,distance=..3,tag=!CustomLoot9] run give @s pixelmon:heart_scale
+execute as @a[x=1627,y=-21,z=-433,distance=..3,tag=!CustomLoot9] run tag @s add CustomLoot9
+
+execute as @a[x=1513,y=-21,z=-549,distance=..3,tag=!CustomLoot10] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1513,y=-21,z=-549,distance=..3,tag=!CustomLoot10] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Dread Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1513,y=-21,z=-549,distance=..3,tag=!CustomLoot10] run give @s pixelmon:dread_plate
+execute as @a[x=1513,y=-21,z=-549,distance=..3,tag=!CustomLoot10] run tag @s add CustomLoot10
+
+execute as @a[x=1449,y=-21,z=-437,distance=..3,tag=!CustomLoot11] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1449,y=-21,z=-437,distance=..3,tag=!CustomLoot11] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Spooky Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1449,y=-21,z=-437,distance=..3,tag=!CustomLoot11] run give @s pixelmon:spooky_plate
+execute as @a[x=1449,y=-21,z=-437,distance=..3,tag=!CustomLoot11] run tag @s add CustomLoot11
+
+execute as @a[x=1394,y=-21,z=-513,distance=..3,tag=!CustomLoot12] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1394,y=-21,z=-513,distance=..3,tag=!CustomLoot12] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a HP Up!","italic":true,"color":"gray"}]
+execute as @a[x=1394,y=-21,z=-513,distance=..3,tag=!CustomLoot12] run give @s pixelmon:hp_up
+execute as @a[x=1394,y=-21,z=-513,distance=..3,tag=!CustomLoot12] run tag @s add CustomLoot12
+
+execute as @a[x=1252,y=-21,z=-541,distance=..3,tag=!CustomLoot13] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1252,y=-21,z=-541,distance=..3,tag=!CustomLoot13] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Star Piece!","italic":true,"color":"gray"}]
+execute as @a[x=1252,y=-21,z=-541,distance=..3,tag=!CustomLoot13] run give @s pixelmon:star_piece
+execute as @a[x=1252,y=-21,z=-541,distance=..3,tag=!CustomLoot13] run tag @s add CustomLoot13
+
+execute as @a[x=1285,y=-21,z=-338,distance=..3,tag=!CustomLoot14] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1285,y=-21,z=-338,distance=..3,tag=!CustomLoot14] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Red Shard!","italic":true,"color":"gray"}]
+execute as @a[x=1285,y=-21,z=-338,distance=..3,tag=!CustomLoot14] run give @s pixelmon:red_shard
+execute as @a[x=1285,y=-21,z=-338,distance=..3,tag=!CustomLoot14] run tag @s add CustomLoot14
+
+execute as @a[x=1540,y=-21,z=-561,distance=..3,tag=!CustomLoot15] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1540,y=-21,z=-561,distance=..3,tag=!CustomLoot15] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Insect Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1540,y=-21,z=-561,distance=..3,tag=!CustomLoot15] run give @s pixelmon:insect_plate
+execute as @a[x=1540,y=-21,z=-561,distance=..3,tag=!CustomLoot15] run tag @s add CustomLoot15
+
+#R126
+execute as @a[x=794,y=-18,z=-774,distance=..3,tag=!CustomLoot16] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=794,y=-18,z=-774,distance=..3,tag=!CustomLoot16] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Ultra Ball!","italic":true,"color":"gray"}]
+execute as @a[x=794,y=-18,z=-774,distance=..3,tag=!CustomLoot16] run give @s pixelmon:ultra_ball
+execute as @a[x=794,y=-18,z=-774,distance=..3,tag=!CustomLoot16] run tag @s add CustomLoot16
+
+execute as @a[x=921,y=-23,z=-779,distance=..3,tag=!CustomLoot17] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=921,y=-23,z=-779,distance=..3,tag=!CustomLoot17] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Heart Scale!","italic":true,"color":"gray"}]
+execute as @a[x=921,y=-23,z=-779,distance=..3,tag=!CustomLoot17] run give @s pixelmon:heart_scale
+execute as @a[x=921,y=-23,z=-779,distance=..3,tag=!CustomLoot17] run tag @s add CustomLoot17
+
+execute as @a[x=782,y=-31,z=-655,distance=..3,tag=!CustomLoot18] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=782,y=-31,z=-655,distance=..3,tag=!CustomLoot18] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Mind Plate!","italic":true,"color":"gray"}]
+execute as @a[x=782,y=-31,z=-655,distance=..3,tag=!CustomLoot18] run give @s pixelmon:mind_plate
+execute as @a[x=782,y=-31,z=-655,distance=..3,tag=!CustomLoot18] run tag @s add CustomLoot18
+
+execute as @a[x=896,y=-22,z=-617,distance=..3,tag=!CustomLoot19] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=896,y=-22,z=-617,distance=..3,tag=!CustomLoot19] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Big Pearl!","italic":true,"color":"gray"}]
+execute as @a[x=896,y=-22,z=-617,distance=..3,tag=!CustomLoot19] run give @s pixelmon:big_pearl
+execute as @a[x=896,y=-22,z=-617,distance=..3,tag=!CustomLoot19] run tag @s add CustomLoot19
+
+execute as @a[x=746,y=-19,z=-615,distance=..3,tag=!CustomLoot20] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=746,y=-19,z=-615,distance=..3,tag=!CustomLoot20] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Blue Shard!","italic":true,"color":"gray"}]
+execute as @a[x=746,y=-19,z=-615,distance=..3,tag=!CustomLoot20] run give @s pixelmon:blue_shard
+execute as @a[x=746,y=-19,z=-615,distance=..3,tag=!CustomLoot20] run tag @s add CustomLoot20
+
+execute as @a[x=802,y=-36,z=-418,distance=..3,tag=!CustomLoot21] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=802,y=-36,z=-418,distance=..3,tag=!CustomLoot21] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pearl!","italic":true,"color":"gray"}]
+execute as @a[x=802,y=-36,z=-418,distance=..3,tag=!CustomLoot21] run give @s pixelmon:pearl
+execute as @a[x=802,y=-36,z=-418,distance=..3,tag=!CustomLoot21] run tag @s add CustomLoot21
+
+execute as @a[x=959,y=-23,z=-420,distance=..3,tag=!CustomLoot22] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=959,y=-23,z=-420,distance=..3,tag=!CustomLoot22] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Yellow Shard!","italic":true,"color":"gray"}]
+execute as @a[x=959,y=-23,z=-420,distance=..3,tag=!CustomLoot22] run give @s pixelmon:yellow_shard
+execute as @a[x=959,y=-23,z=-420,distance=..3,tag=!CustomLoot22] run tag @s add CustomLoot22
+
+execute as @a[x=892,y=-18,z=-422,distance=..3,tag=!CustomLoot23] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=892,y=-18,z=-422,distance=..3,tag=!CustomLoot23] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Stardust!","italic":true,"color":"gray"}]
+execute as @a[x=892,y=-18,z=-422,distance=..3,tag=!CustomLoot23] run give @s pixelmon:stardust
+execute as @a[x=892,y=-18,z=-422,distance=..3,tag=!CustomLoot23] run tag @s add CustomLoot23
+
+execute as @a[x=1036,y=-23,z=-463,distance=..3,tag=!CustomLoot24] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1036,y=-23,z=-463,distance=..3,tag=!CustomLoot24] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Iron!","italic":true,"color":"gray"}]
+execute as @a[x=1036,y=-23,z=-463,distance=..3,tag=!CustomLoot24] run give @s pixelmon:iron
+execute as @a[x=1036,y=-23,z=-463,distance=..3,tag=!CustomLoot24] run tag @s add CustomLoot24
+
+#R128
+execute as @a[x=1361,y=-21,z=-184,distance=..3,tag=!CustomLoot25] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1361,y=-21,z=-184,distance=..3,tag=!CustomLoot25] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Stone Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1361,y=-21,z=-184,distance=..3,tag=!CustomLoot25] run give @s pixelmon:stone_plate
+execute as @a[x=1361,y=-21,z=-184,distance=..3,tag=!CustomLoot25] run tag @s add CustomLoot25
+
+execute as @a[x=1282,y=-21,z=-204,distance=..3,tag=!CustomLoot26] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1282,y=-21,z=-204,distance=..3,tag=!CustomLoot26] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Draco Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1282,y=-21,z=-204,distance=..3,tag=!CustomLoot26] run give @s pixelmon:draco_plate
+execute as @a[x=1282,y=-21,z=-204,distance=..3,tag=!CustomLoot26] run tag @s add CustomLoot26
+
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot27] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot27] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pixie Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot27] run give @s pixelmon:pixie_plate
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot27] run tag @s add CustomLoot27
+
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Adamant Orb!","italic":true,"color":"gray"}]
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run give @s pixelmon:adamant_orb
+execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run tag @s add CustomLoot28
+
+execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Protein!","italic":true,"color":"gray"}]
+execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run give @s pixelmon:protein
+execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run tag @s add CustomLoot29
+
+execute as @a[x=1635,y=-21,z=-82,distance=..3,tag=!CustomLoot30] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1635,y=-21,z=-82,distance=..3,tag=!CustomLoot30] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pearl!","italic":true,"color":"gray"}]
+execute as @a[x=1635,y=-21,z=-82,distance=..3,tag=!CustomLoot30] run give @s pixelmon:pearl
+execute as @a[x=1635,y=-21,z=-82,distance=..3,tag=!CustomLoot30] run tag @s add CustomLoot30
+
+#R129
+execute as @a[x=1576,y=-51,z=164,distance=..3,tag=!CustomLoot31] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1576,y=-51,z=164,distance=..3,tag=!CustomLoot31] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Lustrous Orb!","italic":true,"color":"gray"}]
+execute as @a[x=1576,y=-51,z=164,distance=..3,tag=!CustomLoot31] run give @s pixelmon:lustrous_orb
+execute as @a[x=1576,y=-51,z=164,distance=..3,tag=!CustomLoot31] run tag @s add CustomLoot31
+
+execute as @a[x=1528,y=-47,z=318,distance=..3,tag=!CustomLoot32] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1528,y=-47,z=318,distance=..3,tag=!CustomLoot32] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Blue Shard!","italic":true,"color":"gray"}]
+execute as @a[x=1528,y=-47,z=318,distance=..3,tag=!CustomLoot32] run give @s pixelmon:blue_shard
+execute as @a[x=1528,y=-47,z=318,distance=..3,tag=!CustomLoot32] run tag @s add CustomLoot32
+
+execute as @a[x=1498,y=-51,z=345,distance=..3,tag=!CustomLoot33] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1498,y=-51,z=345,distance=..3,tag=!CustomLoot33] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Splash Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1498,y=-51,z=345,distance=..3,tag=!CustomLoot33] run give @s pixelmon:splash_plate
+execute as @a[x=1498,y=-51,z=345,distance=..3,tag=!CustomLoot33] run tag @s add CustomLoot33
+
+execute as @a[x=1291,y=-57,z=303,distance=..3,tag=!CustomLoot34] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1291,y=-57,z=303,distance=..3,tag=!CustomLoot34] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Zap Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1291,y=-57,z=303,distance=..3,tag=!CustomLoot34] run give @s pixelmon:zap_plate
+execute as @a[x=1291,y=-57,z=303,distance=..3,tag=!CustomLoot34] run tag @s add CustomLoot34
+
+execute as @a[x=1195,y=-48,z=250,distance=..3,tag=!CustomLoot35] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1195,y=-48,z=250,distance=..3,tag=!CustomLoot35] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Toxic Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1195,y=-48,z=250,distance=..3,tag=!CustomLoot35] run give @s pixelmon:toxic_plate
+execute as @a[x=1195,y=-48,z=250,distance=..3,tag=!CustomLoot35] run tag @s add CustomLoot35
+
+#R130
+execute as @a[x=1063,y=-54,z=216,distance=..3,tag=!CustomLoot36] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1063,y=-54,z=216,distance=..3,tag=!CustomLoot36] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Green Shard!","italic":true,"color":"gray"}]
+execute as @a[x=1063,y=-54,z=216,distance=..3,tag=!CustomLoot36] run give @s pixelmon:green_shard
+execute as @a[x=1063,y=-54,z=216,distance=..3,tag=!CustomLoot36] run tag @s add CustomLoot36
+
+execute as @a[x=1115,y=-49,z=337,distance=..3,tag=!CustomLoot37] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1115,y=-49,z=337,distance=..3,tag=!CustomLoot37] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Fist Plate!","italic":true,"color":"gray"}]
+execute as @a[x=1115,y=-49,z=337,distance=..3,tag=!CustomLoot37] run give @s pixelmon:fist_plate
+execute as @a[x=1115,y=-49,z=337,distance=..3,tag=!CustomLoot37] run tag @s add CustomLoot37
+
+execute as @a[x=753,y=-55,z=318,distance=..3,tag=!CustomLoot38] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=753,y=-55,z=318,distance=..3,tag=!CustomLoot38] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Icicle Plate!","italic":true,"color":"gray"}]
+execute as @a[x=753,y=-55,z=318,distance=..3,tag=!CustomLoot38] run give @s pixelmon:icicle_plate
+execute as @a[x=753,y=-55,z=318,distance=..3,tag=!CustomLoot38] run tag @s add CustomLoot38
+
+execute as @a[x=710,y=-56,z=224,distance=..3,tag=!CustomLoot39] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=710,y=-56,z=224,distance=..3,tag=!CustomLoot39] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Earth Plate!","italic":true,"color":"gray"}]
+execute as @a[x=710,y=-56,z=224,distance=..3,tag=!CustomLoot39] run give @s pixelmon:earth_plate
+execute as @a[x=710,y=-56,z=224,distance=..3,tag=!CustomLoot39] run tag @s add CustomLoot39
+
+execute as @a[x=711,y=-42,z=334,distance=..3,tag=!CustomLoot40] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=711,y=-42,z=334,distance=..3,tag=!CustomLoot40] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Meadow Plate!","italic":true,"color":"gray"}]
+execute as @a[x=711,y=-42,z=334,distance=..3,tag=!CustomLoot40] run give @s pixelmon:meadow_plate
+execute as @a[x=711,y=-42,z=334,distance=..3,tag=!CustomLoot40] run tag @s add CustomLoot40
+
+execute as @a[x=641,y=-47,z=158,distance=..3,tag=!CustomLoot41] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=641,y=-47,z=158,distance=..3,tag=!CustomLoot41] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Griseous Orb!","italic":true,"color":"gray"}]
+execute as @a[x=641,y=-47,z=158,distance=..3,tag=!CustomLoot41] run give @s pixelmon:griseous_orb
+execute as @a[x=641,y=-47,z=158,distance=..3,tag=!CustomLoot41] run tag @s add CustomLoot41
+
+#R107
+execute as @a[x=-2175,y=-23,z=772,distance=..3,tag=!CustomLoot42] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=-2175,y=-23,z=772,distance=..3,tag=!CustomLoot42] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Flame Plate!","italic":true,"color":"gray"}]
+execute as @a[x=-2175,y=-23,z=772,distance=..3,tag=!CustomLoot42] run give @s pixelmon:flame_plate
+execute as @a[x=-2175,y=-23,z=772,distance=..3,tag=!CustomLoot42] run tag @s add CustomLoot42
+
+execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Yellow Shard!","italic":true,"color":"gray"}]
+execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run give @s pixelmon:yellow_shard
+execute as @a[x=-2109,y=-25,z=927,distance=..3,tag=!CustomLoot43] run tag @s add CustomLoot43
+
 #----------------------------------------------
 #Dialogue 61 - Mauville City
 #Wally next to gym
