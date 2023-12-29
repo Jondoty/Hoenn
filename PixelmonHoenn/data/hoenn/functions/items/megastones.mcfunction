@@ -117,7 +117,11 @@ execute at @e[x=-1344,y=44,z=-371,dy=3,tag=MegaStone] run playsound megastoneget
 execute at @e[x=-1344,y=44,z=-371,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone16] add MegaStone16
 
 #Beedrillite
-#Unsure of coords rn
+execute at @e[x=-1869,y=84,z=660,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone17]
+execute at @e[x=-1869,y=84,z=660,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone17] pixelmon:beedrillite
+execute at @e[x=-1869,y=84,z=660,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone17] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
+execute at @e[x=-1869,y=84,z=660,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone17] ~ ~ ~ 1 1 1
+execute at @e[x=-1869,y=84,z=660,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone17] add MegaStone17
 
 #Steelixite
 execute at @e[x=2640,y=80,z=-2419,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone18]
@@ -145,7 +149,35 @@ execute at @e[x=-2071,y=69,z=348,dy=3,tag=MegaStone] run particle minecraft:dust
 execute at @e[x=-2071,y=69,z=348,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone21,scores={LegendCatch=1}] pixelmon:mewtwonite_x
 execute at @e[x=-2071,y=69,z=348,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone21,scores={LegendCatch=1}] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
 execute at @e[x=-2071,y=69,z=348,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone21,scores={LegendCatch=1}] ~ ~ ~ 1 1 1
-execute at @e[x=-2071,y=69,z=348,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone21,scores={LegendCatch=1}] add MegaStone20
+execute at @e[x=-2071,y=69,z=348,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone21,scores={LegendCatch=1}] add MegaStone21
+
+#Blastoisinite
+execute at @e[x=2367,y=73,z=-1333,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone22]
+execute at @e[x=2367,y=73,z=-1333,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone22] pixelmon:blastoisinite
+execute at @e[x=2367,y=73,z=-1333,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone22] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
+execute at @e[x=2367,y=73,z=-1333,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone22] ~ ~ ~ 1 1 1
+execute at @e[x=2367,y=73,z=-1333,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone22] add MegaStone22
+
+#Abomasite
+execute at @e[x=-695,y=79,z=-657,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone23,scores={LegendCatch=1}]
+execute at @e[x=-695,y=79,z=-657,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone23,scores={LegendCatch=1}] pixelmon:abomasite
+execute at @e[x=-695,y=79,z=-657,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone23,scores={LegendCatch=1}] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
+execute at @e[x=-695,y=79,z=-657,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone23,scores={LegendCatch=1}] ~ ~ ~ 1 1 1
+execute at @e[x=-695,y=79,z=-657,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone23,scores={LegendCatch=1}] add MegaStone23
+
+#Alakazite
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone24]
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone24] pixelmon:alakazite
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone24] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone24] ~ ~ ~ 1 1 1
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone24] add MegaStone24
+
+#Manectite
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone25]
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone25] pixelmon:manectite
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone25] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone25] ~ ~ ~ 1 1 1
+execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone25] add MegaStone25
 
 
 

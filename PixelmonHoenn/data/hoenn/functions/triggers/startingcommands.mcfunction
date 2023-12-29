@@ -70,6 +70,10 @@ tag @s remove MegaStone18
 tag @s remove MegaStone19
 tag @s remove MegaStone20
 tag @s remove MegaStone21
+tag @s remove MegaStone22
+tag @s remove MegaStone23
+tag @s remove MegaStone24
+tag @s remove MegaStone25
 
 
 #Resets Fly Tags
