@@ -129,6 +129,64 @@ execute if entity @e[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,type=pixelmon:pixelm
 execute if entity @e[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,type=pixelmon:pixelmon,nbt={ndex:379,Friendship:0s}] run scoreboard players set @s[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,scores={MusicCooldown=0}] MusicCooldown 140
 
 
+#Heatran
+execute at @e[x=1490,y=0,z=-2562,dx=261,dy=256,dz=276,type=pixelmon:pixelmon,nbt={ndex:485,Friendship:0s}] run playsound heatran record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=1490,y=0,z=-2562,dx=261,dy=256,dz=276,type=pixelmon:pixelmon,nbt={ndex:485,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 152
+
+#Ho-oh
+execute at @e[x=-2059,y=0,z=537,dx=371,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:250,Friendship:0s}] run playsound hooh record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-2059,y=0,z=537,dx=371,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:250,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 228
+
+#Lugia
+execute at @e[x=-2059,y=0,z=537,dx=371,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:249,Friendship:0s}] run playsound lugia record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-2059,y=0,z=537,dx=371,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:249,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 184
+
+#Uzie, Azelf and mesprit
+execute at @e[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,type=pixelmon:pixelmon,nbt={ndex:480,Friendship:0s}] run playsound laketrio record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,type=pixelmon:pixelmon,nbt={ndex:480,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 298
+
+execute at @e[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,type=pixelmon:pixelmon,nbt={ndex:481,Friendship:0s}] run playsound laketrio record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,type=pixelmon:pixelmon,nbt={ndex:481,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 298
+
+execute at @e[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,type=pixelmon:pixelmon,nbt={ndex:482,Friendship:0s}] run playsound laketrio record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=1068,y=0,z=-803,dx=117,dy=256,dz=145,type=pixelmon:pixelmon,nbt={ndex:482,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 298
+
+#Reshiram, Zekrom and Kyurem
+execute at @e[x=-310,y=0,z=2085,dx=207,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:643,Friendship:0s}] run playsound unovamains record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-310,y=0,z=2085,dx=207,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:643,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 378
+
+execute at @e[x=-310,y=0,z=2085,dx=207,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:644,Friendship:0s}] run playsound unovamains record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-310,y=0,z=2085,dx=207,dy=256,dz=264,type=pixelmon:pixelmon,nbt={ndex:644,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 378
+
+execute at @e[x=-61,y=0,z=2085,dx=183,dy=256,dz=227,type=pixelmon:pixelmon,nbt={ndex:646,Friendship:0s}] run playsound unovamains record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-61,y=0,z=2085,dx=183,dy=256,dz=227,type=pixelmon:pixelmon,nbt={ndex:646,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 378
+
+#Sword Trio, CObalion, Virizion, Terrakion
+execute at @e[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,type=pixelmon:pixelmon,nbt={ndex:638,Friendship:0s}] run playsound unovas record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,type=pixelmon:pixelmon,nbt={ndex:638,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 281
+
+execute at @e[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,type=pixelmon:pixelmon,nbt={ndex:639,Friendship:0s}] run playsound unovas record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,type=pixelmon:pixelmon,nbt={ndex:639,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 281
+
+execute at @e[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,type=pixelmon:pixelmon,nbt={ndex:640,Friendship:0s}] run playsound unovas record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-369,y=0,z=1349,dx=164,dy=256,dz=236,type=pixelmon:pixelmon,nbt={ndex:640,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 281
+
+#Johto dogs Raikou, Entei, Suicune
+execute at @e[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,type=pixelmon:pixelmon,nbt={ndex:243,Friendship:0s}] run playsound dogtrio record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,type=pixelmon:pixelmon,nbt={ndex:243,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 289
+
+execute at @e[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,type=pixelmon:pixelmon,nbt={ndex:244,Friendship:0s}] run playsound dogtrio record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,type=pixelmon:pixelmon,nbt={ndex:244,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 289
+
+execute at @e[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,type=pixelmon:pixelmon,nbt={ndex:245,Friendship:0s}] run playsound dogtrio record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=-490,y=0,z=2256,dx=167,dy=256,dz=192,type=pixelmon:pixelmon,nbt={ndex:245,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 289
+
+#Cresselia
+execute at @e[x=191,y=0,z=1425,dx=125,dy=256,dz=164,type=pixelmon:pixelmon,nbt={ndex:488,Friendship:0s}] run playsound laketrio record @a[distance=..30,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute at @e[x=191,y=0,z=1425,dx=125,dy=256,dz=164,type=pixelmon:pixelmon,nbt={ndex:488,Friendship:0s}] run scoreboard players set @s[distance=..30,scores={MusicCooldown=0}] MusicCooldown 298
+
+#Jirachi?
+
 
 
 #Kyogre/Groudon music replay if primal is still in battle in their chamber
@@ -139,8 +197,8 @@ execute if entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={Variant:"prima
 execute if entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={Variant:"primal"}] run scoreboard players set @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,scores={MusicCooldown=0}] MusicCooldown 138
 
 #Sky Pillar if Rayquaza is present
-execute if entity @e[x=142,y=242,z=-326,dx=364,dy=50,dz=317,type=pixelmon:pixelmon,nbt={ndex:384}] run playsound rayquaza record @s[x=142,y=242,z=-326,dx=364,dy=50,dz=317,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-execute if entity @e[x=142,y=242,z=-326,dx=364,dy=50,dz=317,type=pixelmon:pixelmon,nbt={ndex:384}] run scoreboard players set @s[x=142,y=242,z=-326,dx=364,dy=50,dz=317,scores={MusicCooldown=0}] MusicCooldown 137
+execute if entity @e[x=142,y=242,z=-326,dx=364,dy=50,dz=317,type=pixelmon:pixelmon,nbt={ndex:384,Friendship:0s}] run playsound rayquaza record @s[x=142,y=242,z=-326,dx=364,dy=50,dz=317,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+execute if entity @e[x=142,y=242,z=-326,dx=364,dy=50,dz=317,type=pixelmon:pixelmon,nbt={ndex:384,Friendship:0s}] run scoreboard players set @s[x=142,y=242,z=-326,dx=364,dy=50,dz=317,scores={MusicCooldown=0}] MusicCooldown 137
 
 #If player is riding a bicycle
 execute at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run playsound cycling record @s[scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
