@@ -37,9 +37,9 @@ execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=IceUnlock] if bl
 execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=!RegiUnlock] if block -1422 79 -995 pixelmon:warp_plate run fill -1420 79 -995 -1424 83 -995 minecraft:orange_terracotta
 
 #Unlocked
-execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=!RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1423 83 -995 -1421 83 -995 air
-execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=!RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 82 -995 -1420 80 -995 air
-execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=!RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 79 -995 -1420 79 -995 pixelmon:warp_plate
+execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1423 83 -995 -1421 83 -995 air
+execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 82 -995 -1420 80 -995 air
+execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 79 -995 -1420 79 -995 pixelmon:warp_plate
 
 #Interior chamber block
 #Locked
@@ -59,9 +59,9 @@ execute if entity @p[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=RockUnlock] if 
 execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=!RegiUnlock] if block -372 104 -1182 pixelmon:warp_plate run fill -374 108 -1182 -370 104 -1182 minecraft:orange_terracotta
 
 #Unlocked
-execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=!RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -373 108 -1182 -371 108 -1182 air
-execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=!RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -370 107 -1182 -374 105 -1182 air
-execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=!RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -374 104 -1182 -370 104 -1182 pixelmon:warp_plate
+execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -373 108 -1182 -371 108 -1182 air
+execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -370 107 -1182 -374 105 -1182 air
+execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -374 104 -1182 -370 104 -1182 pixelmon:warp_plate
 
 
 #Interior chamber block
