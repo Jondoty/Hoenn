@@ -194,6 +194,20 @@ scoreboard players set @a[x=2899,y=70,z=-3201,distance=..5,tag=!Dialogue226] Dia
 scoreboard players set @a[x=2847,y=70,z=-2392,distance=..5,nbt={Inventory:[{id:"pixelmon:shoal_salt",Count:4b},{id:"pixelmon:shoal_shell",Count:4b}]},tag=Dialogue226,tag=!Dialogue227] DialogueTrigger 227
 scoreboard players set @a[x=2899,y=70,z=-3201,distance=..5,nbt={Inventory:[{id:"pixelmon:shoal_salt",Count:4b},{id:"pixelmon:shoal_shell",Count:4b}]},tag=Dialogue226,tag=!Dialogue227] DialogueTrigger 227
 
+#Lilycove, Slateport, Battle Resort boat prompts
+tag @a[x=2512,y=70,z=1044,distance=..4,scores={StepCounter=2000..}] remove Dialogue242
+tag @a[x=2212,y=79,z=2585,distance=..4,scores={StepCounter=2000..}] remove Dialogue242
+tag @a[x=2422,y=79,z=2585,distance=..4,scores={StepCounter=2000..}] remove Dialogue242
+
+scoreboard players set @a[x=2512,y=70,z=1044,distance=..4,scores={StepCounter=2000..}] DialogueTrigger 242
+scoreboard players set @a[x=2212,y=79,z=2585,distance=..4,scores={StepCounter=2000..}] DialogueTrigger 242
+scoreboard players set @a[x=2422,y=79,z=2585,distance=..4,scores={StepCounter=2000..}] DialogueTrigger 242
+
+scoreboard players set @a[x=2512,y=70,z=1044,distance=..4,scores={StepCounter=2000..}] StepCounter 0
+scoreboard players set @a[x=2212,y=79,z=2585,distance=..4,scores={StepCounter=2000..}] StepCounter 0
+scoreboard players set @a[x=2422,y=79,z=2585,distance=..4,scores={StepCounter=2000..}] StepCounter 0
+
+
 #----------------------------------------------
 #/summon minecraft:item_display ~ ~ ~ {item:{id:"pixelmon:heart_scale",Count:1b},Rotation:[90F,90F]}
 

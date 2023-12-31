@@ -1246,8 +1246,28 @@ execute as @s[scores={TriggerCommand=515}] run tag @s add SpacePrompt
 
 execute as @s[scores={TriggerCommand=516}] run scoreboard players set @s DialogueTrigger 207
 
-execute as @s[scores={TriggerCommand=500..999}] run scoreboard players set @s TriggerCommand 0
+#Lilycove, Battle Resort, Slateport Harbor prompts
+execute as @s[scores={TriggerCommand=517..518}] run tag @s remove Dialogue243
+#to Lilycove
+execute as @s[scores={TriggerCommand=517}] run scoreboard players set @s Temp 1
+#to Slateport
+execute as @s[scores={TriggerCommand=518}] run scoreboard players set @s Temp 2
+#to Battle Resort
+execute as @s[scores={TriggerCommand=519}] run scoreboard players set @s Temp 3
 
+execute as @s[scores={TriggerCommand=517..518}] run scoreboard players set @s DialogueTrigger 243
+
+
+
+
+
+
+
+
+
+
+
+execute as @s[scores={TriggerCommand=500..999}] run scoreboard players set @s TriggerCommand 0
 #-----------------------------------------------------------------------------------------------------
 
 #Battle Resort

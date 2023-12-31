@@ -1949,7 +1949,7 @@ execute as @s[scores={DialogueTrigger=68,TalkTime=9}] run advancement grant @s o
 tellraw @s[scores={DialogueTrigger=68,TalkTime=16}] {"text":"<Wattson> With the Dynamo Badge, Pokémon can use the HM Rock Smash outside of battle."}
 tellraw @s[scores={DialogueTrigger=68,TalkTime=25}] {"text":"<Wattson> All righty then, this here's for you, too! Go on, take it with you!"}
 
-tellraw @s[scores={DialogueTrigger=25,TalkTime=33}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM72 Volt Switch!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=68,TalkTime=33}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM72 Volt Switch!","italic":true,"color":"gray"}]
 execute as @s[scores={DialogueTrigger=68,TalkTime=33}] run give @s pixelmon:tm_gen6{tm:72s}
 execute as @s[scores={DialogueTrigger=68,TalkTime=33}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
@@ -5555,6 +5555,7 @@ execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run tp @e[x=1856,y=70,z=
 tellraw @s[scores={DialogueTrigger=147,TalkTime=40}] {"text":"<Groudon> Gurrrooouuuhhh!!!"}
 execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run playsound pixelmon:pixelmon.mob.groudon.primal ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run tag @s remove GroudonParticles
+execute as @s[scores={DialogueTrigger=147,TalkTime=40}] run scoreboard players set @s LegendCatch 1
 execute as @s[scores={DialogueTrigger=147,TalkTime=50}] run advancement grant @s only hoenn:adventurer/groudon2
 
 #Groudon transforms into Primal form
@@ -5606,6 +5607,7 @@ execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run tp @e[x=2025,y=70,z=
 tellraw @s[scores={DialogueTrigger=148,TalkTime=40}] {"text":"<Kyogre> Krrraaawwwrrr!!!"}
 execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run playsound pixelmon:pixelmon.mob.kyogre.primal ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run tag @s remove KyogreParticles
+execute as @s[scores={DialogueTrigger=148,TalkTime=40}] run scoreboard players set @s LegendCatch 1
 execute as @s[scores={DialogueTrigger=148,TalkTime=50}] run advancement grant @s only hoenn:adventurer/kyogre2
 
 
@@ -9010,10 +9012,12 @@ tag @s[scores={DialogueTrigger=264,TalkTime=10..}] add Dialogue264
 #https://youtu.be/MgkqxXCmrtI?t=85438
 
 tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] {"text":"<Lass> Hello. Are you here for the ferry? May I see your ticket?"}
-
-tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" showed the woman their ticket.","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] {"text":"<Lass> Perfect! That's all you need! And where would you like to go?"}
+tellraw @s[tag=Dialogue210,scores={DialogueTrigger=242,TalkTime=9}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" showed the woman their ticket.","italic":true,"color":"gray"}]
+tellraw @s[tag=Dialogue210,scores={DialogueTrigger=242,TalkTime=16}] {"text":"<Lass> Perfect! That's all you need! And where would you like to go?"}
+execute as @s[tag=Dialogue210,scores={DialogueTrigger=242,TalkTime=16}] run scoreboard players enable @s TriggerCommand
+tellraw @s[x=2422,y=79,z=2585,distance=..50,tag=Dialogue210,scores={DialogueTrigger=242,TalkTime=16}] ["",{"text":"["},{"text":"The Battle Resort","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 519"}},{"text":"] \u0020["},{"text":"Slateport City","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 518"}},{"text":"]"}]
+tellraw @s[x=2212,y=79,z=2585,distance=..50,tag=Dialogue210,scores={DialogueTrigger=242,TalkTime=16}] ["",{"text":"["},{"text":"The Battle Resort","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 519"}},{"text":"] \u0020["},{"text":"Lilycove City","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 517"}},{"text":"]"}]
+tellraw @s[x=2512,y=70,z=1044,distance=..50,tag=Dialogue210,scores={DialogueTrigger=242,TalkTime=16}] ["",{"text":"["},{"text":"Slateport City","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 518"}},{"text":"] \u0020["},{"text":"Lilycove City","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 517"}},{"text":"]"}]
 
 #change depending on player's location
 #[The Battle Resort]  [Slateport City]
@@ -9021,30 +9025,44 @@ tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] {"text":"<Lass> Perfect! Tha
 #[Slateport City]  [Lilycove City]
 
 #if ticket not present
-tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" doesn't have a ticket!","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=242,TalkTime=1}] {"text":"<Lass> I'm terribly sorry. You must have a ticket to board the ferry."}
+tellraw @s[tag=!Dialogue210,scores={DialogueTrigger=242,TalkTime=9}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" doesn't have a ticket!","italic":true,"color":"gray"}]
+tellraw @s[tag=!Dialogue210,scores={DialogueTrigger=242,TalkTime=16}] {"text":"<Lass> I'm terribly sorry. You must have a ticket to board the ferry."}
 
-tag @s[scores={DialogueTrigger=242,TalkTime=100..}] add Dialogue242
+tag @s[scores={DialogueTrigger=242,TalkTime=16..}] add Dialogue242
 #-----------------------------------------
 #Dialogue 243 - S.S. Tidal Voyrage Start
 #Traveling to a location
 tellraw @s[scores={DialogueTrigger=243,TalkTime=1}] {"text":"<Lass> Please board the ferry and wait for departure."}
 
 #blinds player
+execute as @s[scores={DialogueTrigger=243,TalkTime=6}] run effect give @s minecraft:blindness 5 1 true
 
 #tps player to the in-progress boat, tracks where they're heading with a score
+execute as @s[scores={DialogueTrigger=243,TalkTime=7}] run tp @s 2382 72 -1333 0 20
 
-tellraw @s[scores={DialogueTrigger=243,TalkTime=1}] {"text":"<Sailor> This ferry is built to plow through fast-running currents."}
-tellraw @s[scores={DialogueTrigger=243,TalkTime=1}] {"text":"<Sailor> We hope you enjoy your voyage with us. Feel free to explore the ship."}
+tellraw @s[scores={DialogueTrigger=243,TalkTime=14}] {"text":"<Sailor> This ferry is built to plow through fast-running currents."}
+tellraw @s[scores={DialogueTrigger=243,TalkTime=22}] {"text":"<Sailor> We hope you enjoy your voyage with us. Feel free to explore the ship."}
 
-tag @s[scores={DialogueTrigger=243,TalkTime=100..}] add Dialogue243
+#Start 5 minute timer, arrives
+tellraw @s[scores={DialogueTrigger=243,TalkTime=35}] {"text":"<Intercom> Our journey will take about five minutes. Feel free to walk about the ship in the meantime!"}
+
+tellraw @s[scores={DialogueTrigger=243,TalkTime=435,Temp=2}] {"text":"<Intercom> We will be landing in Slateport City shortly."}
+tellraw @s[scores={DialogueTrigger=243,TalkTime=435,Temp=1}] {"text":"<Intercom> We will be landing in Lilycove City shortly."}
+tellraw @s[scores={DialogueTrigger=243,TalkTime=435,Temp=3}] {"text":"<Intercom> We will be landing at the Battle Resort shortly."}
+
+execute as @s[scores={DialogueTrigger=243,TalkTime=453}] run effect give @s minecraft:blindness 5 1 true
+execute as @s[scores={DialogueTrigger=243,TalkTime=455}] run tp @s 2505 70 1047 85 15
+tellraw @s[scores={DialogueTrigger=243,TalkTime=455}] {"text":"<Intercom> Thank you for sailing with us."}
+
+tag @s[scores={DialogueTrigger=243,TalkTime=455..}] add Dialogue243
 #----------------------------------------
 #Dialogue 244 - Arriving from S.S. Tidal
 
-tellraw @s[scores={DialogueTrigger=244,TalkTime=1}] {"text":"<Intercom> We will be landing in Slateport City shortly."}
-tellraw @s[scores={DialogueTrigger=244,TalkTime=1}] {"text":"<Intercom> We will be landing in Lilycove City shortly."}
+tellraw @s[scores={DialogueTrigger=244,TalkTime=1,Temp=2}] {"text":"<Intercom> We will be landing in Slateport City shortly."}
+tellraw @s[scores={DialogueTrigger=244,TalkTime=1,Temp=1}] {"text":"<Intercom> We will be landing in Lilycove City shortly."}
+tellraw @s[scores={DialogueTrigger=244,TalkTime=1,Temp=3}] {"text":"<Intercom> We will be landing at the Battle Resort shortly."}
 tellraw @s[scores={DialogueTrigger=244,TalkTime=1}] {"text":"<Intercom> Thank you for sailing with us."}
-tellraw @s[scores={DialogueTrigger=244,TalkTime=1}] {"text":"<Intercom> When you get off the ferry, please speak to the crew at the entrance."}
+#tellraw @s[scores={DialogueTrigger=244,TalkTime=1}] {"text":"<Intercom> When you get off the ferry, please speak to the crew at the entrance."}
 
 #then when player visits entrance they'll be able to board?
 #I might need to tp the plyaer off to make that work
