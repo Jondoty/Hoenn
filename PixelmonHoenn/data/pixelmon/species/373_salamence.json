@@ -149,8 +149,11 @@
           "Stone Edge",
           "Hurricane"
         ],
-        "hmMoves": ["Cut" 	, "Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -357,15 +360,9 @@
           "Attract",
           "Steel Wing"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -437,9 +434,7 @@
         "specialDefense": 80,
         "speed": 100
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 218,
         "baseFriendship": 35,
@@ -459,34 +454,90 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/373_salamence/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/373_salamence/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/373_salamence/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.salamence",
-                "pixelmon.mob.salamence",
-                "pixelmon.mob.salamence",
-                "pixelmon.mob.salamence",
-                "pixelmon.mob.salamence"
+                {
+                  "sound": "pixelmon:pixelmon.mob.salamence",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.salamence",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.salamence",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.salamence",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.salamence",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/373_salamence/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/373_salamence/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/373_salamence/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/373_salamence/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/373_salamence/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/373_salamence/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/373_salamence/all/base/alter/texture.png",
               "sprite": "pixelmon:pokemon/373_salamence/all/base/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/373_salamence/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/373_salamence/all/base/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -517,9 +568,7 @@
       "weight": 102.6,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 3
       }
@@ -554,27 +603,68 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/373_salamence/all/mega/none/texture.png",
               "sprite": "pixelmon:pokemon/373_salamence/all/mega/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/373_salamence/all/mega/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/373_salamence/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/373_salamence/all/mega/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/373_salamence/all/mega/shiny/texture.png",
               "sprite": "pixelmon:pokemon/373_salamence/all/mega/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/373_salamence/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/373_salamence/all/mega/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/373_salamence/all/mega/alter/texture.png",
               "sprite": "pixelmon:pokemon/373_salamence/all/mega/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/373_salamence/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/373_salamence/all/mega/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

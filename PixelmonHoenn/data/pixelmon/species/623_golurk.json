@@ -105,9 +105,7 @@
           "Poltergeist",
           "Scorching Sands"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Mega Punch",
           "Mega Kick",
@@ -171,8 +169,10 @@
           "High Horsepower",
           "Body Press"
         ],
-        "hmMoves": ["Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Block",
@@ -320,21 +320,11 @@
           "Flash Cannon",
           "Rock Smash"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -407,9 +397,7 @@
         "specialDefense": 80,
         "speed": 55
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 169,
         "baseFriendship": 70,
@@ -430,30 +418,79 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/623_golurk/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/623_golurk/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/623_golurk/all/base/none/model.pqc"
-                ]
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/623_golurk/all/base/none/flying/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.golurk"
+                {
+                  "sound": "pixelmon:pixelmon.mob.golurk",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/623_golurk/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/623_golurk/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/623_golurk/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/623_golurk/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/623_golurk/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/623_golurk/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/623_golurk/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/623_golurk/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/623_golurk/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/623_golurk/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -469,12 +506,8 @@
         "Golett"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -483,9 +516,7 @@
       "weight": 330.0,
       "catchRate": 90,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 2
       }

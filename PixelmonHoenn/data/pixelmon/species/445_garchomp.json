@@ -148,8 +148,11 @@
           "Stone Edge",
           "Stealth Rock"
         ],
-        "hmMoves": ["Cut" 		, "Surf"	, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Surf",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -342,18 +345,10 @@
           "Swagger",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -425,9 +420,7 @@
         "specialDefense": 85,
         "speed": 102
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 270,
         "baseFriendship": 70,
@@ -448,27 +441,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/445_garchomp/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/445_garchomp/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/445_garchomp/all/base/none/model.pqc"
-                ],
-                "yRotation": 24.2
-              },
               "sounds": [
-                "pixelmon.mob.garchomp",
-                "pixelmon.mob.garchomp",
-                "pixelmon.mob.garchomp"
+                {
+                  "sound": "pixelmon:pixelmon.mob.garchomp",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.garchomp",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.garchomp",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/445_garchomp/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/445_garchomp/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/445_garchomp/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/445_garchomp/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/445_garchomp/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/445_garchomp/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -500,9 +531,7 @@
       "weight": 95.0,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 3
       }
@@ -531,21 +560,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/445_garchomp/all/mega/none/texture.png",
               "sprite": "pixelmon:pokemon/445_garchomp/all/mega/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/445_garchomp/all/mega/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/445_garchomp/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/445_garchomp/all/mega/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/445_garchomp/all/mega/shiny/texture.png",
               "sprite": "pixelmon:pokemon/445_garchomp/all/mega/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/445_garchomp/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/445_garchomp/all/mega/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

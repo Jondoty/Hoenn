@@ -100,17 +100,13 @@
           "Trick",
           "Wonder Room"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": ["Cut" 			, "Strength"		, "Rock Smash"
-
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [
+          "Cut",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Cut",
@@ -340,26 +336,16 @@
           "Swagger",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "BadDreams"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -445,26 +431,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/491_darkrai/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/491_darkrai/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/491_darkrai/all/base/none/model.pqc"
-                ],
-                "yRotation": 25.5
-              },
               "sounds": [
-                "pixelmon.mob.darkrai",
-                "pixelmon.mob.darkrai"
+                {
+                  "sound": "pixelmon:pixelmon.mob.darkrai",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.darkrai",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/491_darkrai/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/491_darkrai/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/491_darkrai/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/491_darkrai/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/491_darkrai/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/491_darkrai/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -475,16 +496,10 @@
       "types": [
         "DARK"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -493,9 +508,7 @@
       "weight": 50.5,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 2,
         "speed": 1

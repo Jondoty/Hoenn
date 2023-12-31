@@ -155,7 +155,11 @@
           "High Horsepower",
           "Throat Chop"
         ],
-        "hmMoves": [ "Surf"	, "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Bide",
           "Captivate",
@@ -479,25 +483,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/128_tauros/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/128_tauros/all/base/none/model.pqc"
-                ],
-                "yRotation": 25
-              },
               "sounds": [
-                "pixelmon.mob.tauros"
+                {
+                  "sound": "pixelmon:pixelmon.mob.tauros",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/128_tauros/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -717,21 +753,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/128_tauros/all/paldean_combat/none/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/paldean_combat/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/128_tauros/all/paldean_combat/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/paldean_combat/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/paldean_combat/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/128_tauros/all/paldean_combat/shiny/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/paldean_combat/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/paldean_combat/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/paldean_combat/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -941,21 +1007,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/128_tauros/all/paldean_blaze/shiny/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/paldean_blaze/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/paldean_blaze/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/paldean_blaze/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -1163,21 +1259,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/128_tauros/all/paldean_aqua/shiny/texture.png",
               "sprite": "pixelmon:pokemon/128_tauros/all/paldean_aqua/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/128_tauros/all/paldean_aqua/none/model.pqc",
+                      "texture": "pixelmon:pokemon/128_tauros/all/paldean_aqua/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

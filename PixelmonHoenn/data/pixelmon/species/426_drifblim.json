@@ -85,9 +85,7 @@
             ]
           }
         ],
-        "tutorMoves": [
-
-        ],
+        "tutorMoves": [],
         "eggMoves": [
           "Clear Smog",
           "Defog",
@@ -140,8 +138,9 @@
           "Gyro Ball",
           "Ally Switch"
         ],
-        "hmMoves": ["Cut" 	, "Fly"
-
+        "hmMoves": [
+          "Cut",
+          "Fly"
         ],
         "transferMoves": [
           "Air Cutter",
@@ -329,18 +328,10 @@
           "Swagger",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -413,9 +404,7 @@
         "specialDefense": 54,
         "speed": 80
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 204,
         "baseFriendship": 70,
@@ -435,40 +424,112 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/426_drifblim/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/426_drifblim/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02,
-                "yRotation": 23
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.drifblim"
+                {
+                  "sound": "pixelmon:pixelmon.mob.drifblim",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/426_drifblim/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/426_drifblim/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/426_drifblim/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/426_drifblim/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/426_drifblim/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/426_drifblim/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "valentine",
-              "texture": "pixelmon:pokemon/426_drifblim/all/base/valentine/texture.png",
               "sprite": "pixelmon:pokemon/426_drifblim/all/base/valentine/sprite.png",
-              "emissive": "pixelmon:pokemon/426_drifblim/all/base/valentine/emissive.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/426_drifblim/all/base/valentine/texture.png",
+                      "emissive": "pixelmon:pokemon/426_drifblim/all/base/valentine/emissive.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/426_drifblim/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/426_drifblim/all/base/valentine/texture.png",
+                      "emissive": "pixelmon:pokemon/426_drifblim/all/base/valentine/emissive.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -484,12 +545,8 @@
         "Drifloon"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -498,9 +555,7 @@
       "weight": 15.0,
       "catchRate": 60,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "hp": 2
       }

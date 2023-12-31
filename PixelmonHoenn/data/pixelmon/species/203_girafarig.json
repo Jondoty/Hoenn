@@ -132,7 +132,10 @@
         ],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": [ "Strength"		, "Rock Smash"	],
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Body Slam",
           "Captivate",
@@ -432,24 +435,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/203_girafarig/male/base/none/texture.png",
               "sprite": "pixelmon:pokemon/203_girafarig/male/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/203_girafarig/male/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.girafarig"
+                {
+                  "sound": "pixelmon:pixelmon.mob.girafarig",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/203_girafarig/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/203_girafarig/male/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/203_girafarig/male/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/203_girafarig/male/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/203_girafarig/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/203_girafarig/male/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         },
@@ -458,21 +494,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/203_girafarig/female/base/none/texture.png",
               "sprite": "pixelmon:pokemon/203_girafarig/female/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/203_girafarig/female/base/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/203_girafarig/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/203_girafarig/female/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/203_girafarig/female/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/203_girafarig/female/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/203_girafarig/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/203_girafarig/female/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

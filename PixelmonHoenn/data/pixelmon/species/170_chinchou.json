@@ -136,7 +136,11 @@
           "Wild Charge",
           "Dazzling Gleam"
         ],
-        "hmMoves": [ "Surf"		, "Waterfall"		, "Dive"],
+        "hmMoves": [
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ],
         "transferMoves": [
           "Bubble",
           "Captivate",
@@ -373,24 +377,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/170_chinchou/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/170_chinchou/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/170_chinchou/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.chinchou"
+                {
+                  "sound": "pixelmon:pixelmon.mob.chinchou",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/170_chinchou/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/170_chinchou/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/170_chinchou/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/170_chinchou/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/170_chinchou/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/170_chinchou/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

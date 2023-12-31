@@ -132,15 +132,9 @@
           "Skill Swap",
           "Toxic Spikes"
         ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [
-
-        ],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
         "transferMoves": [
           "Air Cutter",
           "Bide",
@@ -355,9 +349,7 @@
           "Psywave",
           "Substitute"
         ],
-        "tmMoves": [
-
-        ]
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -430,9 +422,7 @@
         "specialDefense": 75,
         "speed": 90
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 138,
         "baseFriendship": 70,
@@ -452,31 +442,78 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/049_venomoth/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/049_venomoth/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/049_venomoth/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.venomoth",
-                "pixelmon.mob.venomoth"
+                {
+                  "sound": "pixelmon:pixelmon.mob.venomoth",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.venomoth",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/049_venomoth/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/049_venomoth/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/049_venomoth/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/049_venomoth/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/049_venomoth/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/049_venomoth/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "pink",
-              "texture": "pixelmon:pokemon/049_venomoth/all/base/pink/texture.png",
               "sprite": "pixelmon:pokemon/049_venomoth/all/base/pink/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/049_venomoth/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/049_venomoth/all/base/pink/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -492,12 +529,8 @@
         "Venonat"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -506,9 +539,7 @@
       "weight": 12.5,
       "catchRate": 75,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 1,
         "speed": 1

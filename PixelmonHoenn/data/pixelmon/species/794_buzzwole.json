@@ -113,9 +113,7 @@
           "Coaching",
           "Dual Wingbeat"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Mega Punch",
           "Ice Punch",
@@ -161,9 +159,7 @@
           "Darkest Lariat",
           "High Horsepower"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Bug Bite",
           "Comet Punch",
@@ -213,35 +209,19 @@
           "Substitute",
           "Confide"
         ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "BeastBoost"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -313,9 +293,7 @@
         "baseFriendship": 70,
         "spawnLevel": 70,
         "spawnLevelRange": 0,
-        "spawnLocations": [
-
-        ]
+        "spawnLocations": []
       },
       "possibleGenders": [
         "MALE",
@@ -327,24 +305,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/794_buzzwole/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/794_buzzwole/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/794_buzzwole/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.buzzwole"
+                {
+                  "sound": "pixelmon:pixelmon.mob.buzzwole",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/794_buzzwole/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/794_buzzwole/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/794_buzzwole/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/794_buzzwole/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/794_buzzwole/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/794_buzzwole/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -356,16 +367,10 @@
         "BUG",
         "FIGHTING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -374,9 +379,7 @@
       "weight": 333.6,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 1,
         "defense": 2

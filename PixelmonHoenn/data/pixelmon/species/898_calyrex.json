@@ -211,25 +211,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/898_calyrex/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/898_calyrex/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/898_calyrex/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.calyrex",
-                "pixelmon.mob.calyrex"
+                {
+                  "sound": "pixelmon:pixelmon.mob.calyrex",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.calyrex",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/898_calyrex/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/898_calyrex/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -481,26 +517,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/898_calyrex/all/icerider/none/texture.png",
               "sprite": "pixelmon:pokemon/898_calyrex/all/icerider/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL_TEX",
-                "pqc": [
-                  "pixelmon:pokemon/898_calyrex/all/icerider/none/model.pqc",
-                  "pixelmon:pokemon/898_calyrex/all/icerider/none/model1.pqc",
-                  "pixelmon:pokemon/898_calyrex/all/icerider/none/texture1.png"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.calyrex.ice_rider"
+                {
+                  "sound": "pixelmon:pixelmon.mob.calyrex.ice_rider",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/icerider/none/model.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/icerider/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/icerider/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/icerider/none/texture1.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/898_calyrex/all/icerider/shiny/texture.png",
               "sprite": "pixelmon:pokemon/898_calyrex/all/icerider/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/icerider/none/model.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/icerider/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/icerider/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/icerider/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -723,26 +798,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/texture.png",
               "sprite": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL_TEX",
-                "pqc": [
-                  "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model.pqc",
-                  "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model1.pqc",
-                  "pixelmon:pokemon/897_spectrier/all/base/none/texture.png"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.calyrex.shadow_rider"
+                {
+                  "sound": "pixelmon:pixelmon.mob.calyrex.shadow_rider",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/897_spectrier/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/898_calyrex/all/shadowrider/shiny/texture.png",
               "sprite": "pixelmon:pokemon/898_calyrex/all/shadowrider/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/shadowrider/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/898_calyrex/all/shadowrider/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/898_calyrex/all/shadowrider/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

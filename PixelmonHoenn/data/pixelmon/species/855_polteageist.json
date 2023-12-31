@@ -181,24 +181,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/855_polteageist/all/phony/none/texture.png",
               "sprite": "pixelmon:pokemon/855_polteageist/all/phony/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/855_polteageist/all/phony/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.polteageist"
+                {
+                  "sound": "pixelmon:pixelmon.mob.polteageist",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/855_polteageist/all/phony/none/model.pqc",
+                      "texture": "pixelmon:pokemon/855_polteageist/all/phony/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/855_polteageist/all/phony/shiny/texture.png",
               "sprite": "pixelmon:pokemon/855_polteageist/all/phony/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/855_polteageist/all/phony/none/model.pqc",
+                      "texture": "pixelmon:pokemon/855_polteageist/all/phony/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -237,21 +270,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/855_polteageist/all/antique/none/texture.png",
               "sprite": "pixelmon:pokemon/855_polteageist/all/antique/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/855_polteageist/all/antique/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/855_polteageist/all/antique/none/model.pqc",
+                      "texture": "pixelmon:pokemon/855_polteageist/all/antique/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/855_polteageist/all/antique/shiny/texture.png",
               "sprite": "pixelmon:pokemon/855_polteageist/all/antique/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/855_polteageist/all/antique/none/model.pqc",
+                      "texture": "pixelmon:pokemon/855_polteageist/all/antique/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

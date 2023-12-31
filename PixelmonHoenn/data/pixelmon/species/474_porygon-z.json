@@ -382,32 +382,78 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/474_porygon-z/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/474_porygon-z/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/474_porygon-z/all/base/none/model.pqc"
-                ],
-                "yRotation": 24.5
-              },
               "sounds": [
-                "pixelmon.mob.porygon-z",
-                "pixelmon.mob.porygon-z"
+                {
+                  "sound": "pixelmon:pixelmon.mob.porygon-z",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.porygon-z",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/474_porygon-z/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/474_porygon-z/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/474_porygon-z/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/474_porygon-z/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/474_porygon-z/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/474_porygon-z/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/474_porygon-z/all/base/alter/texture.png",
               "sprite": "pixelmon:pokemon/474_porygon-z/all/base/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/474_porygon-z/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/474_porygon-z/all/base/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

@@ -147,7 +147,10 @@
         "eggMoves": [],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": [ "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Celebrate",
           "Flash",
@@ -358,25 +361,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/648_meloetta/all/aria/none/texture.png",
               "sprite": "pixelmon:pokemon/648_meloetta/all/aria/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/648_meloetta/all/aria/none/model.pqc"
-                ],
-                "yRotation": 40
-              },
               "sounds": [
-                "pixelmon.mob.meloetta"
+                {
+                  "sound": "pixelmon:pixelmon.mob.meloetta",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/648_meloetta/all/aria/none/model.pqc",
+                      "texture": "pixelmon:pokemon/648_meloetta/all/aria/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/648_meloetta/all/aria/shiny/texture.png",
               "sprite": "pixelmon:pokemon/648_meloetta/all/aria/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/648_meloetta/all/aria/none/model.pqc",
+                      "texture": "pixelmon:pokemon/648_meloetta/all/aria/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -430,22 +465,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/648_meloetta/all/pirouette/none/texture.png",
               "sprite": "pixelmon:pokemon/648_meloetta/all/pirouette/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/648_meloetta/all/pirouette/none/model.pqc"
-                ],
-                "yRotation": 25
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/648_meloetta/all/pirouette/none/model.pqc",
+                      "texture": "pixelmon:pokemon/648_meloetta/all/pirouette/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/648_meloetta/all/pirouette/shiny/texture.png",
               "sprite": "pixelmon:pokemon/648_meloetta/all/pirouette/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/648_meloetta/all/pirouette/none/model.pqc",
+                      "texture": "pixelmon:pokemon/648_meloetta/all/pirouette/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

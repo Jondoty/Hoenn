@@ -100,9 +100,7 @@
           "Steel Beam",
           "Steel Roller"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Hyper Beam",
           "Giga Impact",
@@ -132,8 +130,8 @@
           "Ally Switch",
           "Wild Charge"
         ],
-        "hmMoves": [ "Rock Smash"
-
+        "hmMoves": [
+          "Rock Smash"
         ],
         "transferMoves": [
           "Confide",
@@ -236,21 +234,11 @@
           "Wild Charge",
           "Rock Smash"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -323,9 +311,7 @@
         "specialDefense": 85,
         "speed": 90
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 234,
         "baseFriendship": 70,
@@ -346,24 +332,52 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/601_klinklang/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/601_klinklang/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/601_klinklang/all/base/none/model.pqc"
-                ]
-              },
-              "sounds": [
-
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/601_klinklang/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/601_klinklang/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/601_klinklang/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/601_klinklang/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/601_klinklang/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/601_klinklang/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -379,12 +393,8 @@
         "Klink"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -393,9 +403,7 @@
       "weight": 81.0,
       "catchRate": 30,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "defense": 3
       }

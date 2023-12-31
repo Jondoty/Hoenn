@@ -123,7 +123,9 @@
           "Bug Buzz",
           "Ally Switch"
         ],
-        "hmMoves": ["Cut" ],
+        "hmMoves": [
+          "Cut"
+        ],
         "transferMoves": [
           "Aerial Ace",
           "Baton Pass",
@@ -350,30 +352,87 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/292_shedinja/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/292_shedinja/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/292_shedinja/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02,
-                "rotateAngleX": 0
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/292_shedinja/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/292_shedinja/all/base/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/292_shedinja/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/292_shedinja/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/292_shedinja/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/292_shedinja/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/292_shedinja/all/base/alter/texture.png",
               "sprite": "pixelmon:pokemon/292_shedinja/all/base/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/292_shedinja/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/292_shedinja/all/base/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

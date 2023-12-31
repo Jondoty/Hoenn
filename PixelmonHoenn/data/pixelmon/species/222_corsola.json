@@ -152,7 +152,11 @@
           "Throat Chop",
           "Liquidation"
         ],
-        "hmMoves": [ "Surf"	, "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Barrier",
           "Bide",
@@ -463,27 +467,75 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/222_corsola/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/222_corsola/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/222_corsola/all/base/none/model.pqc"
-                ],
-                "rotateAngleY": -3.14159265359
-              },
               "sounds": [
-                "pixelmon.mob.corsola",
-                "pixelmon.mob.corsola",
-                "pixelmon.mob.corsola"
+                {
+                  "sound": "pixelmon:pixelmon.mob.corsola",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.corsola",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.corsola",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/222_corsola/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/222_corsola/all/base/none/texture.png",
+                      "rotate_angle": [
+                        -1.5707963267948966,
+                        -3.1415927,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/222_corsola/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/222_corsola/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/222_corsola/all/base/none/model.pqc",
+                      "rotate_angle": [
+                        -1.5707963267948966,
+                        -3.1415927,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/222_corsola/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -692,26 +744,67 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/222_corsola/all/galarian/none/texture.png",
               "sprite": "pixelmon:pokemon/222_corsola/all/galarian/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/222_corsola/all/galarian/none/model1.pqc",
-                  "pixelmon:pokemon/222_corsola/all/galarian/none/model.pqc"
-                ],
-                "transparency2": 0.4
-              },
               "sounds": [
-                "pixelmon.mob.corsola.galar"
+                {
+                  "sound": "pixelmon:pixelmon.mob.corsola.galar",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/222_corsola/all/galarian/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/222_corsola/all/galarian/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/222_corsola/all/galarian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/222_corsola/all/galarian/none/texture.png",
+                      "texture_transparency": 0.4
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/222_corsola/all/galarian/shiny/texture.png",
               "sprite": "pixelmon:pokemon/222_corsola/all/galarian/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/222_corsola/all/galarian/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/222_corsola/all/galarian/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/222_corsola/all/galarian/none/model.pqc",
+                      "texture_transparency": 0.4,
+                      "texture": "pixelmon:pokemon/222_corsola/all/galarian/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

@@ -137,8 +137,10 @@
           "Nasty Plot",
           "Foul Play"
         ],
-        "hmMoves": ["Cut" 	, "Fly"				, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -267,21 +269,11 @@
           "Rock Smash",
           "Snarl"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -354,9 +346,7 @@
         "specialDefense": 95,
         "speed": 80
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 179,
         "baseFriendship": 35,
@@ -376,25 +366,52 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/630_mandibuzz/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/630_mandibuzz/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/630_mandibuzz/all/base/none/model.pqc"
-                ],
-                "yRotation": 10
-              },
-              "sounds": [
-
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/630_mandibuzz/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/630_mandibuzz/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/630_mandibuzz/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/630_mandibuzz/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/630_mandibuzz/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/630_mandibuzz/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -410,12 +427,8 @@
         "Vullaby"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -424,9 +437,7 @@
       "weight": 39.5,
       "catchRate": 60,
       "malePercentage": 0,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 2
       }

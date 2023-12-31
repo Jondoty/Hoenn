@@ -259,31 +259,78 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/none/texture.png",
               "sprite": "pixelmon:pokemon/778_mimikyu/all/disguised/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/778_mimikyu/all/disguised/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.mimikyu",
-                "pixelmon.mob.mimikyu"
+                {
+                  "sound": "pixelmon:pixelmon.mob.mimikyu",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.mimikyu",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/778_mimikyu/all/disguised/none/model.pqc",
+                      "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/shiny/texture.png",
               "sprite": "pixelmon:pokemon/778_mimikyu/all/disguised/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/778_mimikyu/all/disguised/none/model.pqc",
+                      "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "spirit",
-              "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/spirit/texture.png",
               "sprite": "pixelmon:pokemon/778_mimikyu/all/disguised/spirit/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/778_mimikyu/all/disguised/none/model.pqc",
+                      "texture": "pixelmon:pokemon/778_mimikyu/all/disguised/spirit/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -323,27 +370,68 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/778_mimikyu/all/busted/none/texture.png",
               "sprite": "pixelmon:pokemon/778_mimikyu/all/busted/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/778_mimikyu/all/busted/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/778_mimikyu/all/busted/none/model.pqc",
+                      "texture": "pixelmon:pokemon/778_mimikyu/all/busted/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/778_mimikyu/all/busted/shiny/texture.png",
               "sprite": "pixelmon:pokemon/778_mimikyu/all/busted/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/778_mimikyu/all/busted/none/model.pqc",
+                      "texture": "pixelmon:pokemon/778_mimikyu/all/busted/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "spirit",
-              "texture": "pixelmon:pokemon/778_mimikyu/all/busted/spirit/texture.png",
               "sprite": "pixelmon:pokemon/778_mimikyu/all/busted/spirit/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/778_mimikyu/all/busted/none/model.pqc",
+                      "texture": "pixelmon:pokemon/778_mimikyu/all/busted/spirit/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

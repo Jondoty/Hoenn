@@ -99,9 +99,7 @@
           "Scale Shot",
           "Scorching Sands"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -157,8 +155,11 @@
           "Heat Crash",
           "Body Press"
         ],
-        "hmMoves": ["Cut" 	, "Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Confide",
@@ -311,29 +312,17 @@
           "Substitute",
           "Rock Smash"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Turboblaze"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -419,30 +408,79 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/643_reshiram/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/643_reshiram/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/643_reshiram/all/base/none/model.pqc"
-                ]
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/643_reshiram/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.reshiram"
+                {
+                  "sound": "pixelmon:pixelmon.mob.reshiram",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/643_reshiram/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/643_reshiram/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/643_reshiram/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/643_reshiram/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/643_reshiram/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/643_reshiram/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/643_reshiram/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/643_reshiram/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/643_reshiram/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/643_reshiram/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -454,16 +492,10 @@
         "DRAGON",
         "FIRE"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -472,9 +504,7 @@
       "weight": 330.0,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 3
       }

@@ -166,7 +166,9 @@
           "Stone Edge",
           "Stealth Rock"
         ],
-        "hmMoves": [ "Rock Smash"],
+        "hmMoves": [
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Aqua Tail",
           "Barrier",
@@ -333,25 +335,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/698_amaura/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/698_amaura/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/698_amaura/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.amaura",
-                "pixelmon.mob.amaura"
+                {
+                  "sound": "pixelmon:pixelmon.mob.amaura",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.amaura",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/698_amaura/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/698_amaura/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/698_amaura/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/698_amaura/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/698_amaura/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/698_amaura/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

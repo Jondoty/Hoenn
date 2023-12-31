@@ -130,36 +130,18 @@
           "Hurricane",
           "Body Press"
         ],
-        "hmMoves": ["Fly"
-
+        "hmMoves": [
+          "Fly"
         ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -232,9 +214,7 @@
         "specialDefense": 85,
         "speed": 67
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 248,
         "baseFriendship": 50,
@@ -254,32 +234,83 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/823_corviknight/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/823_corviknight/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/823_corviknight/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/823_corviknight/all/base/none/flying/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
               "sounds": [
-                "pixelmon.mob.corviknight"
+                {
+                  "sound": "pixelmon:pixelmon.mob.corviknight",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/823_corviknight/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/823_corviknight/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/823_corviknight/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/823_corviknight/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/823_corviknight/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/823_corviknight/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/823_corviknight/all/base/none/flying/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/823_corviknight/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/823_corviknight/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/823_corviknight/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -296,12 +327,8 @@
         "Rookidee"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": true,
         "canGigantamax": true,
@@ -312,9 +339,7 @@
       "weight": 75.0,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "defense": 3
       }
@@ -335,22 +360,53 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/823_corviknight/all/gmax/none/texture.png",
               "sprite": "pixelmon:pokemon/823_corviknight/all/gmax/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/823_corviknight/all/gmax/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/823_corviknight/all/gmax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/823_corviknight/all/gmax/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/823_corviknight/all/gmax/shiny/texture.png",
               "sprite": "pixelmon:pokemon/823_corviknight/all/gmax/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/823_corviknight/all/gmax/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/823_corviknight/all/gmax/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

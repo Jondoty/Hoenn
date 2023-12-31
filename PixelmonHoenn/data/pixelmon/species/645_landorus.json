@@ -115,12 +115,8 @@
             ]
           }
         ],
-        "tutorMoves": [
-
-        ],
-        "eggMoves": [
-
-        ],
+        "tutorMoves": [],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -169,8 +165,10 @@
           "Grass Knot",
           "Sludge Wave"
         ],
-        "hmMoves": [ "Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Confide",
@@ -313,21 +311,11 @@
           "Substitute",
           "Rock Smash"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -390,32 +378,83 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/645_landorus/all/incarnate/none/texture.png",
               "sprite": "pixelmon:pokemon/645_landorus/all/incarnate/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
               "sounds": [
-                "pixelmon.mob.landorus"
+                {
+                  "sound": "pixelmon:pixelmon.mob.landorus",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc",
+                      "texture": "pixelmon:pokemon/645_landorus/all/incarnate/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc",
+                      "texture": "pixelmon:pokemon/645_landorus/all/incarnate/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/645_landorus/all/incarnate/shiny/texture.png",
               "sprite": "pixelmon:pokemon/645_landorus/all/incarnate/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/645_landorus/all/incarnate/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/645_landorus/all/incarnate/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/645_landorus/all/incarnate/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -427,16 +466,10 @@
         "GROUND",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -445,9 +478,7 @@
       "weight": 68.0,
       "catchRate": 3,
       "malePercentage": 100,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 3
       }
@@ -478,21 +509,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/645_landorus/all/therian/none/texture.png",
               "sprite": "pixelmon:pokemon/645_landorus/all/therian/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/645_landorus/all/therian/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/645_landorus/all/therian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/645_landorus/all/therian/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/645_landorus/all/therian/shiny/texture.png",
               "sprite": "pixelmon:pokemon/645_landorus/all/therian/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/645_landorus/all/therian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/645_landorus/all/therian/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

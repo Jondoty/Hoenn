@@ -134,7 +134,13 @@
         ],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": ["Cut" 		, "Surf"		, "Waterfall"	, "Rock Smash"	, "Dive"],
+        "hmMoves": [
+          "Cut",
+          "Surf",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
+        ],
         "transferMoves": [
           "Cut",
           "Dig",
@@ -294,24 +300,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/502_dewott/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/502_dewott/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/502_dewott/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.dewott"
+                {
+                  "sound": "pixelmon:pixelmon.mob.dewott",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/502_dewott/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/502_dewott/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/502_dewott/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/502_dewott/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/502_dewott/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/502_dewott/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

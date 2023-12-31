@@ -145,7 +145,11 @@
           "Grass Knot",
           "Work Up"
         ],
-        "hmMoves": ["Cut" 		, "Surf"			, "Rock Smash"],
+        "hmMoves": [
+          "Cut",
+          "Surf",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Bestow",
           "Captivate",
@@ -383,25 +387,64 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/263_zigzagoon/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/263_zigzagoon/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/263_zigzagoon/all/base/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02,
-                "rotateAngleX": 0
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/263_zigzagoon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/263_zigzagoon/all/base/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/263_zigzagoon/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/263_zigzagoon/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/263_zigzagoon/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/263_zigzagoon/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -597,24 +640,54 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/263_zigzagoon/all/galarian/none/texture.png",
               "sprite": "pixelmon:pokemon/263_zigzagoon/all/galarian/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/263_zigzagoon/all/galarian/none/model.pqc"
-                ]
-              },
               "source": [
                 "pixelmon.mob.zigzagoon.galar"
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/263_zigzagoon/all/galarian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/263_zigzagoon/all/galarian/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/263_zigzagoon/all/galarian/shiny/texture.png",
               "sprite": "pixelmon:pokemon/263_zigzagoon/all/galarian/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/263_zigzagoon/all/galarian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/263_zigzagoon/all/galarian/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

@@ -169,8 +169,10 @@
           "Stealth Rock",
           "Ally Switch"
         ],
-        "hmMoves": ["Cut" 	, "Fly"				, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -311,29 +313,17 @@
           "Substitute",
           "Rock Smash"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Defeatist"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -397,9 +387,7 @@
         "specialDefense": 65,
         "speed": 110
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 177,
         "baseFriendship": 70,
@@ -419,25 +407,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/567_archeops/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/567_archeops/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/567_archeops/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.archeops",
-                "pixelmon.mob.archeops"
+                {
+                  "sound": "pixelmon:pixelmon.mob.archeops",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.archeops",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/567_archeops/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/567_archeops/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/567_archeops/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/567_archeops/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/567_archeops/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/567_archeops/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -454,12 +478,8 @@
         "Archen"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -468,9 +488,7 @@
       "weight": 32.0,
       "catchRate": 45,
       "malePercentage": 87.5,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 2
       }

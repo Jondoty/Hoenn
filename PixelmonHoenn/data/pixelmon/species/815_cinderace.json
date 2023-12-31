@@ -210,38 +210,82 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/815_cinderace/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/815_cinderace/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/815_cinderace/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.cinderace",
-                "pixelmon.mob.cinderace",
-                "pixelmon.mob.cinderace"
+                {
+                  "sound": "pixelmon:pixelmon.mob.cinderace",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.cinderace",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.cinderace",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/815_cinderace/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/815_cinderace/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/815_cinderace/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/815_cinderace/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/815_cinderace/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/815_cinderace/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "online",
-              "texture": "pixelmon:pokemon/815_cinderace/all/base/online/texture.png",
               "sprite": "pixelmon:pokemon/815_cinderace/all/base/online/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/815_cinderace/all/base/online/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/815_cinderace/all/base/online/model.pqc",
+                      "texture": "pixelmon:pokemon/815_cinderace/all/base/online/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -286,22 +330,53 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/815_cinderace/all/gmax/none/texture.png",
               "sprite": "pixelmon:pokemon/815_cinderace/all/gmax/none/sprite.png",
-              "emissive": "pixelmon:pokemon/815_cinderace/all/gmax/none/emissive.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/815_cinderace/all/gmax/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/815_cinderace/all/gmax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/815_cinderace/all/gmax/none/texture.png",
+                      "emissive": "pixelmon:pokemon/815_cinderace/all/gmax/none/emissive.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/815_cinderace/all/gmax/shiny/texture.png",
               "sprite": "pixelmon:pokemon/815_cinderace/all/gmax/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/815_cinderace/all/gmax/none/model.pqc",
+                      "emissive": "pixelmon:pokemon/815_cinderace/all/gmax/none/emissive.png",
+                      "texture": "pixelmon:pokemon/815_cinderace/all/gmax/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

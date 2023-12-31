@@ -325,28 +325,83 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/351_castform/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/351_castform/all/base/none/model.pqc"
-                ]
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/351_castform/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "christmas",
-              "texture": "pixelmon:pokemon/351_castform/all/base/christmas/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/base/christmas/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/base/christmas/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -386,23 +441,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/351_castform/all/ice/none/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/ice/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/351_castform/all/ice/none/model.pqc",
-                  "pixelmon:pokemon/351_castform/all/ice/none/model1.pqc"
-                ],
-                "transparency2": 0.4
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/ice/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/ice/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/ice/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/ice/none/texture.png",
+                      "texture_transparency": 0.4
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/351_castform/all/ice/shiny/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/ice/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/ice/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/ice/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/ice/none/model1.pqc",
+                      "texture_transparency": 0.4,
+                      "texture": "pixelmon:pokemon/351_castform/all/ice/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -419,23 +512,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/351_castform/all/rain/none/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/rain/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/351_castform/all/rain/none/model.pqc",
-                  "pixelmon:pokemon/351_castform/all/rain/none/model1.pqc"
-                ],
-                "transparency2": 0.4
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/rain/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/rain/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/rain/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/rain/none/texture.png",
+                      "texture_transparency": 0.4
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/351_castform/all/rain/shiny/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/rain/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/rain/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/rain/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/rain/none/model1.pqc",
+                      "texture_transparency": 0.4,
+                      "texture": "pixelmon:pokemon/351_castform/all/rain/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -452,23 +583,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/351_castform/all/sun/none/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/sun/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/351_castform/all/sun/none/model.pqc",
-                  "pixelmon:pokemon/351_castform/all/sun/none/model1.pqc"
-                ],
-                "transparency2": 0.4
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/sun/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/sun/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/sun/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/sun/none/texture.png",
+                      "texture_transparency": 0.4
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/351_castform/all/sun/shiny/texture.png",
               "sprite": "pixelmon:pokemon/351_castform/all/sun/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/sun/none/model.pqc",
+                      "texture": "pixelmon:pokemon/351_castform/all/sun/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/351_castform/all/sun/none/model1.pqc",
+                      "texture_transparency": 0.4,
+                      "texture": "pixelmon:pokemon/351_castform/all/sun/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

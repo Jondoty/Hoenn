@@ -149,7 +149,10 @@
           "Iron Head",
           "Heavy Slam"
         ],
-        "hmMoves": ["Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Aurora Veil",
           "Block",
@@ -426,28 +429,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/378_regice/all/base/none/texture.png",
-              "emissive": "pixelmon:pokemon/378_regice/all/base/none/emissive.png",
               "sprite": "pixelmon:pokemon/378_regice/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/378_regice/all/base/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.03
-              },
               "sounds": [
-                "pixelmon.mob.regice"
+                {
+                  "sound": "pixelmon:pixelmon.mob.regice",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/378_regice/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/378_regice/all/base/none/texture.png",
+                      "movement_threshold": 0.03,
+                      "emissive": "pixelmon:pokemon/378_regice/all/base/none/emissive.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/378_regice/all/base/shiny/texture.png",
-              "emissive": "pixelmon:pokemon/378_regice/all/base/shiny/emissive.png",
               "sprite": "pixelmon:pokemon/378_regice/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/378_regice/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "emissive": "pixelmon:pokemon/378_regice/all/base/shiny/emissive.png",
+                      "texture": "pixelmon:pokemon/378_regice/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

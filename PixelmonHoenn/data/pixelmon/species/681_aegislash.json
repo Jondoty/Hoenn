@@ -83,7 +83,10 @@
           "Flash Cannon",
           "Iron Head"
         ],
-        "hmMoves": ["Cut" 					, "Rock Smash"],
+        "hmMoves": [
+          "Cut",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "After You",
           "Confide",
@@ -229,30 +232,74 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/681_aegislash/all/shield/none/texture.png",
               "sprite": "pixelmon:pokemon/681_aegislash/all/shield/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/681_aegislash/all/shield/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.aegislash"
+                {
+                  "sound": "pixelmon:pixelmon.mob.aegislash",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/681_aegislash/all/shield/none/model.pqc",
+                      "texture": "pixelmon:pokemon/681_aegislash/all/shield/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/681_aegislash/all/shield/shiny/texture.png",
               "sprite": "pixelmon:pokemon/681_aegislash/all/shield/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/681_aegislash/all/shield/none/model.pqc",
+                      "texture": "pixelmon:pokemon/681_aegislash/all/shield/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/681_aegislash/all/shield/alter/texture.png",
               "sprite": "pixelmon:pokemon/681_aegislash/all/shield/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/681_aegislash/all/shield/none/model.pqc",
+                      "texture": "pixelmon:pokemon/681_aegislash/all/shield/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -304,27 +351,68 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/681_aegislash/all/blade/none/texture.png",
               "sprite": "pixelmon:pokemon/681_aegislash/all/blade/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/681_aegislash/all/blade/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/681_aegislash/all/blade/none/model.pqc",
+                      "texture": "pixelmon:pokemon/681_aegislash/all/blade/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/681_aegislash/all/blade/shiny/texture.png",
               "sprite": "pixelmon:pokemon/681_aegislash/all/blade/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/681_aegislash/all/blade/none/model.pqc",
+                      "texture": "pixelmon:pokemon/681_aegislash/all/blade/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/681_aegislash/all/blade/alter/texture.png",
               "sprite": "pixelmon:pokemon/681_aegislash/all/blade/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/681_aegislash/all/blade/none/model.pqc",
+                      "texture": "pixelmon:pokemon/681_aegislash/all/blade/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

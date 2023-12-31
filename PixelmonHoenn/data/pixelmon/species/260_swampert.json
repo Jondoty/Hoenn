@@ -181,7 +181,13 @@
           "Liquidation",
           "Body Press"
         ],
-        "hmMoves": [ "Surf"	, "Strength"	, "Waterfall"	, "Rock Smash"	, "Dive"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
+        ],
         "transferMoves": [
           "Aqua Tail",
           "Barrier",
@@ -454,30 +460,74 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/260_swampert/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/260_swampert/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/260_swampert/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.swampert"
+                {
+                  "sound": "pixelmon:pixelmon.mob.swampert",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/260_swampert/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/260_swampert/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/260_swampert/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/260_swampert/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/260_swampert/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/260_swampert/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "zombie",
-              "texture": "pixelmon:pokemon/260_swampert/all/base/zombie/texture.png",
               "sprite": "pixelmon:pokemon/260_swampert/all/base/zombie/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/260_swampert/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/260_swampert/all/base/zombie/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -544,21 +594,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/260_swampert/all/mega/none/texture.png",
               "sprite": "pixelmon:pokemon/260_swampert/all/mega/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/260_swampert/all/mega/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/260_swampert/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/260_swampert/all/mega/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/260_swampert/all/mega/shiny/texture.png",
               "sprite": "pixelmon:pokemon/260_swampert/all/mega/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/260_swampert/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/260_swampert/all/mega/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

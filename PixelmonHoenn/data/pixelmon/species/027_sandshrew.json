@@ -163,7 +163,11 @@
           "Work Up",
           "Throat Chop"
         ],
-        "hmMoves": ["Cut" 			, "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Cut",
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Aerial Ace",
           "Bide",
@@ -460,26 +464,59 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/027_sandshrew/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/027_sandshrew/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/027_sandshrew/all/base/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02
-              },
               "sounds": [
-                "pixelmon.mob.sandshrew"
+                {
+                  "sound": "pixelmon:pixelmon.mob.sandshrew",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/027_sandshrew/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/027_sandshrew/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/027_sandshrew/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/027_sandshrew/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/027_sandshrew/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/027_sandshrew/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -779,29 +816,85 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/none/texture.png",
               "sprite": "pixelmon:pokemon/027_sandshrew/all/alolan/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/027_sandshrew/all/alolan/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/027_sandshrew/all/alolan/none/model.pqc",
+                      "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/shiny/texture.png",
               "sprite": "pixelmon:pokemon/027_sandshrew/all/alolan/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/027_sandshrew/all/alolan/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "christmas",
-              "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/christmas/texture.png",
               "sprite": "pixelmon:pokemon/027_sandshrew/all/alolan/christmas/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/027_sandshrew/all/alolan/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/027_sandshrew/all/alolan/christmas/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

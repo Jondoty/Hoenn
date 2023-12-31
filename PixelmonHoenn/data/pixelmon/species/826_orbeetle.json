@@ -156,36 +156,16 @@
           "Ally Switch",
           "Body Press"
         ],
-        "hmMoves": [
-
-        ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -258,9 +238,7 @@
         "specialDefense": 120,
         "speed": 90
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 253,
         "baseFriendship": 50,
@@ -280,24 +258,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/826_orbeetle/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/826_orbeetle/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/826_orbeetle/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.orbeetle"
+                {
+                  "sound": "pixelmon:pixelmon.mob.orbeetle",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/826_orbeetle/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/826_orbeetle/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/826_orbeetle/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/826_orbeetle/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/826_orbeetle/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/826_orbeetle/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -314,12 +325,8 @@
         "Blipbug"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": true,
         "canGigantamax": true,
@@ -330,9 +337,7 @@
       "weight": 40.8,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialDefense": 3
       }
@@ -353,23 +358,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/none/texture.png",
               "sprite": "pixelmon:pokemon/826_orbeetle/all/gmax/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/826_orbeetle/all/gmax/none/model1.pqc",
-                  "pixelmon:pokemon/826_orbeetle/all/gmax/none/model.pqc"
-                ],
-                "transparency2": 0.4
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/826_orbeetle/all/gmax/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/826_orbeetle/all/gmax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/none/texture.png",
+                      "texture_transparency": 0.4
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/shiny/texture.png",
               "sprite": "pixelmon:pokemon/826_orbeetle/all/gmax/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/826_orbeetle/all/gmax/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/826_orbeetle/all/gmax/none/model.pqc",
+                      "texture_transparency": 0.4,
+                      "texture": "pixelmon:pokemon/826_orbeetle/all/gmax/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

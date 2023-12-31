@@ -92,9 +92,7 @@
         "tutorMoves": [
           "Dual Wingbeat"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -133,8 +131,11 @@
           "Work Up",
           "Hurricane"
         ],
-        "hmMoves": ["Cut" 	, "Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Confide",
@@ -247,21 +248,11 @@
           "Substitute",
           "Rock Smash"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -334,9 +325,7 @@
         "specialDefense": 75,
         "speed": 80
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 179,
         "baseFriendship": 70,
@@ -356,32 +345,76 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/628_braviary/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/628_braviary/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/628_braviary/all/base/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/628_braviary/all/base/none/flying/model.pqc"
-                ]
-              },
-              "sounds": [
-
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/628_braviary/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/628_braviary/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/628_braviary/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/628_braviary/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/628_braviary/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/628_braviary/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -397,12 +430,8 @@
         "Rufflet"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -411,9 +440,7 @@
       "weight": 41.0,
       "catchRate": 60,
       "malePercentage": 100,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 2
       }
@@ -503,45 +530,19 @@
           "Swift",
           "Zen Headbutt"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [
-
-        ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -636,34 +637,80 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/628_braviary/all/hisuian/none/texture.png",
-              "emissive": "pixelmon:pokemon/628_braviary/all/hisuian/none/emissive.png",
               "sprite": "pixelmon:pokemon/628_braviary/all/hisuian/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/628_braviary/all/hisuian/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/628_braviary/all/hisuian/none/flying/model.pqc"
-                ]
-              },
-              "sounds": [
-
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/hisuian/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/628_braviary/all/hisuian/none/texture.png",
+                      "emissive": "pixelmon:pokemon/628_braviary/all/hisuian/none/emissive.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/hisuian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/628_braviary/all/hisuian/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "emissive": "pixelmon:pokemon/628_braviary/all/hisuian/none/emissive.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/628_braviary/all/hisuian/shiny/texture.png",
-              "emissive": "pixelmon:pokemon/628_braviary/all/hisuian/shiny/emissive.png",
               "sprite": "pixelmon:pokemon/628_braviary/all/hisuian/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/hisuian/none/flying/model.pqc",
+                      "emissive": "pixelmon:pokemon/628_braviary/all/hisuian/shiny/emissive.png",
+                      "texture": "pixelmon:pokemon/628_braviary/all/hisuian/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/628_braviary/all/hisuian/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "emissive": "pixelmon:pokemon/628_braviary/all/hisuian/shiny/emissive.png",
+                      "texture": "pixelmon:pokemon/628_braviary/all/hisuian/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -679,12 +726,8 @@
         "Rufflet"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -693,9 +736,7 @@
       "weight": 41.0,
       "catchRate": 60,
       "malePercentage": 100,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 2
       }

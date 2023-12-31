@@ -174,7 +174,9 @@
           "Play Rough",
           "Dazzling Gleam"
         ],
-        "hmMoves": ["Cut" ],
+        "hmMoves": [
+          "Cut"
+        ],
         "transferMoves": [
           "Block",
           "Confide",
@@ -335,34 +337,69 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/716_xerneas/all/neutral/none/texture.png",
               "sprite": "pixelmon:pokemon/716_xerneas/all/neutral/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/716_xerneas/all/neutral/none/model.pqc"
-                ]
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/716_xerneas/all/neutral/none/model.pqc",
+                      "texture": "pixelmon:pokemon/716_xerneas/all/neutral/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/716_xerneas/all/neutral/shiny/texture.png",
               "sprite": "pixelmon:pokemon/716_xerneas/all/neutral/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/716_xerneas/all/neutral/none/model.pqc",
+                      "texture": "pixelmon:pokemon/716_xerneas/all/neutral/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "creator",
-              "texture": "pixelmon:pokemon/716_xerneas/all/neutral/creator/texture.png",
               "sprite": "pixelmon:pokemon/716_xerneas/all/neutral/creator/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/716_xerneas/all/neutral/creator/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/716_xerneas/all/neutral/creator/model.pqc",
+                      "texture": "pixelmon:pokemon/716_xerneas/all/neutral/creator/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -398,33 +435,68 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/716_xerneas/all/active/none/texture.png",
               "sprite": "pixelmon:pokemon/716_xerneas/all/active/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/716_xerneas/all/active/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/716_xerneas/all/active/none/model.pqc",
+                      "texture": "pixelmon:pokemon/716_xerneas/all/active/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/716_xerneas/all/active/shiny/texture.png",
               "sprite": "pixelmon:pokemon/716_xerneas/all/active/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/716_xerneas/all/active/none/model.pqc",
+                      "texture": "pixelmon:pokemon/716_xerneas/all/active/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "creator",
-              "texture": "pixelmon:pokemon/716_xerneas/all/active/creator/texture.png",
               "sprite": "pixelmon:pokemon/716_xerneas/all/active/creator/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/716_xerneas/all/active/creator/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/716_xerneas/all/active/creator/model.pqc",
+                      "texture": "pixelmon:pokemon/716_xerneas/all/active/creator/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

@@ -105,24 +105,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/999_gimmighoul/all/chest/none/texture.png",
               "sprite": "pixelmon:pokemon/999_gimmighoul/all/chest/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "none"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.gimmighoul"
+                {
+                  "sound": "pixelmon:pixelmon.mob.gimmighoul",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/999_gimmighoul/all/chest/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/999_gimmighoul/all/chest/shiny/texture.png",
               "sprite": "pixelmon:pokemon/999_gimmighoul/all/chest/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/999_gimmighoul/all/chest/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -179,21 +212,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/999_gimmighoul/all/roaming/none/texture.png",
               "sprite": "pixelmon:pokemon/999_gimmighoul/all/roaming/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "none"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/999_gimmighoul/all/roaming/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/999_gimmighoul/all/roaming/shiny/texture.png",
               "sprite": "pixelmon:pokemon/999_gimmighoul/all/roaming/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/999_gimmighoul/all/roaming/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

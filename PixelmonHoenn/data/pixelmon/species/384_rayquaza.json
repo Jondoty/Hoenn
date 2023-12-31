@@ -93,9 +93,7 @@
           "Meteor Beam",
           "Scale Shot"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -161,8 +159,13 @@
           "Stone Edge",
           "Hurricane"
         ],
-        "hmMoves": [ "Fly"	, "Surf"	, "Strength"	, "Waterfall"	, "Rock Smash"	, "Dive"
-
+        "hmMoves": [
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -436,23 +439,15 @@
           "Rest",
           "Overheat"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "AirLock"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -538,31 +533,77 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/384_rayquaza/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/384_rayquaza/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/384_rayquaza/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
               "sounds": [
-                "pixelmon.mob.rayquaza"
+                {
+                  "sound": "pixelmon:pixelmon.mob.rayquaza",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/384_rayquaza/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/384_rayquaza/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/384_rayquaza/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/384_rayquaza/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/384_rayquaza/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/384_rayquaza/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/384_rayquaza/all/base/alter/texture.png",
               "sprite": "pixelmon:pokemon/384_rayquaza/all/base/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/384_rayquaza/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/384_rayquaza/all/base/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -574,13 +615,9 @@
         "DRAGON",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
+      "megaItems": [],
       "megas": [
         "mega"
       ],
@@ -592,9 +629,7 @@
       "weight": 206.5,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 2,
         "specialAttack": 1
@@ -625,25 +660,59 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/384_rayquaza/all/mega/none/texture.png",
               "sprite": "pixelmon:pokemon/384_rayquaza/all/mega/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/384_rayquaza/all/mega/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
               "sounds": [
-                "pixelmon.mob.rayquaza.mega"
+                {
+                  "sound": "pixelmon:pixelmon.mob.rayquaza.mega",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/384_rayquaza/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/384_rayquaza/all/mega/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/384_rayquaza/all/mega/shiny/texture.png",
               "sprite": "pixelmon:pokemon/384_rayquaza/all/mega/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/384_rayquaza/all/mega/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/384_rayquaza/all/mega/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

@@ -134,7 +134,10 @@
         ],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": ["Cut" 					, "Rock Smash"],
+        "hmMoves": [
+          "Cut",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Cut",
           "Flash",
@@ -306,23 +309,52 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/spring/none/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/spring/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/586_sawsbuck/all/spring/none/model.pqc"
-                ],
-                "yRotation": 49
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/spring/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/spring/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/spring/shiny/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/spring/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/spring/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/spring/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -361,22 +393,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/summer/none/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/summer/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/586_sawsbuck/all/summer/none/model.pqc"
-                ],
-                "yRotation": 49
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/summer/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/summer/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/summer/shiny/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/summer/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/summer/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/summer/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -393,22 +454,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/autumn/none/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/autumn/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/586_sawsbuck/all/autumn/none/model.pqc"
-                ],
-                "yRotation": 49
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/autumn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/autumn/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/autumn/shiny/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/autumn/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/autumn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/autumn/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -425,22 +515,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/winter/none/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/winter/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/586_sawsbuck/all/winter/none/model.pqc"
-                ],
-                "yRotation": 49
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/winter/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/winter/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/586_sawsbuck/all/winter/shiny/texture.png",
               "sprite": "pixelmon:pokemon/586_sawsbuck/all/winter/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/586_sawsbuck/all/winter/none/model.pqc",
+                      "texture": "pixelmon:pokemon/586_sawsbuck/all/winter/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

@@ -168,7 +168,7 @@
           "Focus Blast",
           "Hyper Beam",
           "Thunder",
-          "Close Combat", 
+          "Close Combat",
           "Tera Blast"
         ],
         "tmMoves8": [],
@@ -234,24 +234,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/979_annihilape/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/979_annihilape/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "none"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.annihilape"
+                {
+                  "sound": "pixelmon:pixelmon.mob.annihilape",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/979_annihilape/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/979_annihilape/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/979_annihilape/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "none",
+                      "texture": "pixelmon:pokemon/979_annihilape/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

@@ -123,7 +123,10 @@
           "Work Up",
           "Liquidation"
         ],
-        "hmMoves": ["Waterfall"		, "Dive"],
+        "hmMoves": [
+          "Waterfall",
+          "Dive"
+        ],
         "transferMoves": [],
         "tmMoves7": [],
         "tmMoves6": [],
@@ -188,73 +191,194 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.clobbopus"
+                {
+                  "sound": "pixelmon:pixelmon.mob.clobbopus",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "irish",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/irish/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/irish/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/irish/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "diamonds",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/diamonds/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/diamonds/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/diamonds/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "clubs",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/clubs/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/clubs/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/clubs/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "martian",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/martian/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/martian/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/martian/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "starry",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/starry/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/starry/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/starry/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "yellow_ringed",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/yellow_ringed/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/yellow_ringed/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/yellow_ringed/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "red_ringed",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/red_ringed/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/red_ringed/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/red_ringed/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "alien",
               "translationKey": "pixelmon.palette.jump_alien",
-              "texture": "pixelmon:pokemon/852_clobbopus/all/base/alien/texture.png",
               "sprite": "pixelmon:pokemon/852_clobbopus/all/base/alien/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/852_clobbopus/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/852_clobbopus/all/base/alien/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

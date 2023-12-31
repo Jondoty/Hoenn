@@ -167,7 +167,13 @@
           "Scald",
           "Work Up"
         ],
-        "hmMoves": [ "Surf"	, "Strength"	, "Waterfall"	, "Rock Smash"	, "Dive"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
+        ],
         "transferMoves": [
           "Aqua Tail",
           "Barrier",
@@ -393,24 +399,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/259_marshtomp/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/259_marshtomp/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/259_marshtomp/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.marshtomp"
+                {
+                  "sound": "pixelmon:pixelmon.mob.marshtomp",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/259_marshtomp/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/259_marshtomp/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/259_marshtomp/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/259_marshtomp/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/259_marshtomp/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/259_marshtomp/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

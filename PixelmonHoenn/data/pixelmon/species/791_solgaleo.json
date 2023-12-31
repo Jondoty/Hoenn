@@ -106,9 +106,7 @@
           "Steel Beam",
           "Steel Roller"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Hyper Beam",
           "Giga Impact",
@@ -169,9 +167,7 @@
           "Heat Crash",
           "Psychic Fangs"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Confide",
           "Double Team",
@@ -234,35 +230,19 @@
           "Snarl",
           "Confide"
         ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "FullMetalBody"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -334,9 +314,7 @@
         "baseFriendship": 70,
         "spawnLevel": 55,
         "spawnLevelRange": 0,
-        "spawnLocations": [
-
-        ]
+        "spawnLocations": []
       },
       "possibleGenders": [
         "MALE",
@@ -348,30 +326,74 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/791_solgaleo/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/791_solgaleo/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.solgaleo"
+                {
+                  "sound": "pixelmon:pixelmon.mob.solgaleo",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/791_solgaleo/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/791_solgaleo/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/791_solgaleo/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/791_solgaleo/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "real",
-              "texture": "pixelmon:pokemon/791_solgaleo/all/base/real/texture.png",
               "sprite": "pixelmon:pokemon/791_solgaleo/all/base/real/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/791_solgaleo/all/base/real/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -388,12 +410,8 @@
         "Cosmoem"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -402,9 +420,7 @@
       "weight": 230.0,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 3
       }
@@ -417,21 +433,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/791_solgaleo/all/radiantsun/none/texture.png",
               "sprite": "pixelmon:pokemon/791_solgaleo/all/radiantsun/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/791_solgaleo/all/radiantsun/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/791_solgaleo/all/radiantsun/shiny/texture.png",
               "sprite": "pixelmon:pokemon/791_solgaleo/all/radiantsun/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/791_solgaleo/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/791_solgaleo/all/radiantsun/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

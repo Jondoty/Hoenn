@@ -98,9 +98,7 @@
         "tutorMoves": [
           "Expanding Force"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Mega Punch",
           "Mega Kick",
@@ -188,8 +186,10 @@
           "Ally Switch",
           "Hurricane"
         ],
-        "hmMoves": [ "Strength"		, "Rock Smash"	, "Dive"
-
+        "hmMoves": [
+          "Strength",
+          "Rock Smash",
+          "Dive"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -612,9 +612,7 @@
           "Tri Attack",
           "Substitute"
         ],
-        "tmMoves": [
-
-        ]
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -708,38 +706,74 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/150_mewtwo/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/150_mewtwo/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/150_mewtwo/all/base/none/model.pqc"
-                ],
-                "yRotation": 24.2
-              },
               "sounds": [
-                "pixelmon.mob.mewtwo"
+                {
+                  "sound": "pixelmon:pixelmon.mob.mewtwo",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/150_mewtwo/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/150_mewtwo/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/150_mewtwo/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/150_mewtwo/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/150_mewtwo/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/150_mewtwo/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "online",
-              "texture": "pixelmon:pokemon/150_mewtwo/all/base/online/texture.png",
               "sprite": "pixelmon:pokemon/150_mewtwo/all/base/online/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/150_mewtwo/all/base/online/model.pqc"
-                ],
-                "yRotation": 24.2
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/150_mewtwo/all/base/online/model.pqc",
+                      "texture": "pixelmon:pokemon/150_mewtwo/all/base/online/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -750,9 +784,7 @@
       "types": [
         "PSYCHIC"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
       "megaItems": [
         "pixelmon:mewtwonite_x",
@@ -770,9 +802,7 @@
       "weight": 122.0,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 3
       }
@@ -806,21 +836,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/150_mewtwo/all/megax/none/texture.png",
               "sprite": "pixelmon:pokemon/150_mewtwo/all/megax/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/150_mewtwo/all/megax/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/150_mewtwo/all/megax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/150_mewtwo/all/megax/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/150_mewtwo/all/megax/shiny/texture.png",
               "sprite": "pixelmon:pokemon/150_mewtwo/all/megax/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/150_mewtwo/all/megax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/150_mewtwo/all/megax/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -854,21 +914,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/150_mewtwo/all/megay/none/texture.png",
               "sprite": "pixelmon:pokemon/150_mewtwo/all/megay/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/150_mewtwo/all/megay/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/150_mewtwo/all/megay/none/model.pqc",
+                      "texture": "pixelmon:pokemon/150_mewtwo/all/megay/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/150_mewtwo/all/megay/shiny/texture.png",
               "sprite": "pixelmon:pokemon/150_mewtwo/all/megay/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/150_mewtwo/all/megay/none/model.pqc",
+                      "texture": "pixelmon:pokemon/150_mewtwo/all/megay/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

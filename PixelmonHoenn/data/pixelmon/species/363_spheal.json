@@ -147,7 +147,13 @@
           "Encore",
           "Iron Tail"
         ],
-        "hmMoves": ["Surf"	, "Strength"	, "Waterfall"	, "Rock Smash"	, "Dive"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
+        ],
         "transferMoves": [
           "Aqua Tail",
           "Captivate",
@@ -362,88 +368,222 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/363_spheal/all/base/none/model.pqc"
-                ]
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "pokeball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/pokeball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/pokeball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/pokeball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "duskball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/duskball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/duskball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/duskball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "loveball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/loveball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/loveball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/loveball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "friendball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/friendball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/friendball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/friendball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "heavyball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/heavyball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/heavyball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/heavyball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "moonball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/moonball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/moonball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/moonball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "premierball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/premierball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/premierball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/premierball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "masterball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/masterball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/masterball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/masterball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "gsball",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/gsball/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/gsball/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/gsball/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "online",
-              "texture": "pixelmon:pokemon/363_spheal/all/base/online/texture.png",
               "sprite": "pixelmon:pokemon/363_spheal/all/base/online/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/363_spheal/all/base/online/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/363_spheal/all/base/online/model.pqc",
+                      "texture": "pixelmon:pokemon/363_spheal/all/base/online/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

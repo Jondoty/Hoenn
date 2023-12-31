@@ -155,7 +155,11 @@
         ],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": ["Cut" 			, "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Cut",
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Body Slam",
           "Captivate",
@@ -448,35 +452,86 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/352_kecleon/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/352_kecleon/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/352_kecleon/all/base/none/model.pqc"
-                ],
-                "zRotation": -0.2
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/352_kecleon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/352_kecleon/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/352_kecleon/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/352_kecleon/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/352_kecleon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/352_kecleon/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "rainbow",
-              "texture": "pixelmon:pokemon/352_kecleon/all/base/rainbow/texture.png",
               "sprite": "pixelmon:pokemon/352_kecleon/all/base/rainbow/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/352_kecleon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/352_kecleon/all/base/rainbow/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/352_kecleon/all/base/alter/texture.png",
               "sprite": "pixelmon:pokemon/352_kecleon/all/base/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/352_kecleon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/352_kecleon/all/base/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

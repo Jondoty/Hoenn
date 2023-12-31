@@ -97,9 +97,7 @@
           "Dual Wingbeat",
           "Scorching Sands"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -151,8 +149,10 @@
           "Zen Headbutt",
           "Iron Head"
         ],
-        "hmMoves": ["Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -455,12 +455,8 @@
           "Steel Wing",
           "Nightmare"
         ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -554,45 +550,141 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/250_ho-oh/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/250_ho-oh/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/250_ho-oh/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/250_ho-oh/all/base/none/flying/model.pqc"
-                ],
-                "yRotation": 15
-              },
               "sounds": [
-                "pixelmon.mob.ho-oh"
+                {
+                  "sound": "pixelmon:pixelmon.mob.ho-oh",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/250_ho-oh/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/250_ho-oh/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "rainbow",
-              "texture": "pixelmon:pokemon/250_ho-oh/all/base/rainbow/texture.png",
               "sprite": "pixelmon:pokemon/250_ho-oh/all/base/rainbow/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/rainbow/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/rainbow/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "online",
-              "texture": "pixelmon:pokemon/250_ho-oh/all/base/online/texture.png",
-              "emissive": "pixelmon:pokemon/250_ho-oh/all/base/online/emissive.png",
               "sprite": "pixelmon:pokemon/250_ho-oh/all/base/online/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/online/texture.png",
+                      "emissive": "pixelmon:pokemon/250_ho-oh/all/base/online/emissive.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/250_ho-oh/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/250_ho-oh/all/base/online/texture.png",
+                      "emissive": "pixelmon:pokemon/250_ho-oh/all/base/online/emissive.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -604,16 +696,10 @@
         "FIRE",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -622,9 +708,7 @@
       "weight": 199.0,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialDefense": 3
       }

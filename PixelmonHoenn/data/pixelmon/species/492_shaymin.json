@@ -282,30 +282,74 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/492_shaymin/all/land/none/texture.png",
               "sprite": "pixelmon:pokemon/492_shaymin/all/land/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/492_shaymin/all/land/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.shaymin"
+                {
+                  "sound": "pixelmon:pixelmon.mob.shaymin",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/492_shaymin/all/land/none/model.pqc",
+                      "texture": "pixelmon:pokemon/492_shaymin/all/land/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/492_shaymin/all/land/shiny/texture.png",
               "sprite": "pixelmon:pokemon/492_shaymin/all/land/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/492_shaymin/all/land/none/model.pqc",
+                      "texture": "pixelmon:pokemon/492_shaymin/all/land/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "christmas",
-              "texture": "pixelmon:pokemon/492_shaymin/all/land/christmas/texture.png",
               "sprite": "pixelmon:pokemon/492_shaymin/all/land/christmas/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/492_shaymin/all/land/none/model.pqc",
+                      "texture": "pixelmon:pokemon/492_shaymin/all/land/christmas/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -584,27 +628,68 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/492_shaymin/all/sky/none/texture.png",
               "sprite": "pixelmon:pokemon/492_shaymin/all/sky/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/492_shaymin/all/sky/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/492_shaymin/all/sky/none/model.pqc",
+                      "texture": "pixelmon:pokemon/492_shaymin/all/sky/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/492_shaymin/all/sky/shiny/texture.png",
               "sprite": "pixelmon:pokemon/492_shaymin/all/sky/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/492_shaymin/all/sky/none/model.pqc",
+                      "texture": "pixelmon:pokemon/492_shaymin/all/sky/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "christmas",
-              "texture": "pixelmon:pokemon/492_shaymin/all/sky/christmas/texture.png",
               "sprite": "pixelmon:pokemon/492_shaymin/all/sky/christmas/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/492_shaymin/all/sky/none/model.pqc",
+                      "texture": "pixelmon:pokemon/492_shaymin/all/sky/christmas/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

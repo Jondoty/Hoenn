@@ -106,9 +106,7 @@
           "Expanding Force",
           "Scorching Sands"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Hyper Beam",
           "Giga Impact",
@@ -167,8 +165,9 @@
           "Dazzling Gleam",
           "Body Press"
         ],
-        "hmMoves": [ "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Charge Beam",
@@ -407,23 +406,15 @@
           "Rest",
           "Skill Swap"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Levitate"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -487,9 +478,7 @@
         "specialDefense": 120,
         "speed": 75
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 189,
         "baseFriendship": 70,
@@ -509,36 +498,91 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/344_claydol/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/344_claydol/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/344_claydol/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.claydol"
+                {
+                  "sound": "pixelmon:pixelmon.mob.claydol",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/344_claydol/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/344_claydol/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/344_claydol/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/344_claydol/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/344_claydol/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/344_claydol/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "drowned",
-              "texture": "pixelmon:pokemon/344_claydol/all/base/drowned/texture.png",
               "sprite": "pixelmon:pokemon/344_claydol/all/base/drowned/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/344_claydol/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/344_claydol/all/base/drowned/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "alter",
-              "texture": "pixelmon:pokemon/344_claydol/all/base/alter/texture.png",
               "sprite": "pixelmon:pokemon/344_claydol/all/base/alter/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/344_claydol/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/344_claydol/all/base/alter/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -554,12 +598,8 @@
         "Baltoy"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -568,9 +608,7 @@
       "weight": 107.9,
       "catchRate": 90,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialDefense": 2
       }

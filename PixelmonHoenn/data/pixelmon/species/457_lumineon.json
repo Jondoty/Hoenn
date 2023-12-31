@@ -132,7 +132,11 @@
         ],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": [ "Surf"		, "Waterfall"		, "Dive"],
+        "hmMoves": [
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ],
         "transferMoves": [
           "Air Cutter",
           "Dive",
@@ -332,29 +336,72 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/457_lumineon/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/457_lumineon/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/457_lumineon/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.05
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/457_lumineon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/457_lumineon/all/base/none/texture.png",
+                      "movement_threshold": 0.05
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/457_lumineon/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/457_lumineon/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/457_lumineon/all/base/none/model.pqc",
+                      "movement_threshold": 0.05,
+                      "texture": "pixelmon:pokemon/457_lumineon/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "drowned",
-              "texture": "pixelmon:pokemon/457_lumineon/all/base/drowned/texture.png",
               "sprite": "pixelmon:pokemon/457_lumineon/all/base/drowned/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/457_lumineon/all/base/none/model.pqc",
+                      "movement_threshold": 0.05,
+                      "texture": "pixelmon:pokemon/457_lumineon/all/base/drowned/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

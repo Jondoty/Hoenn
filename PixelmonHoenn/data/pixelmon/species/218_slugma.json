@@ -133,7 +133,9 @@
         ],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": [ "Rock Smash"],
+        "hmMoves": [
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Captivate",
           "Defense Curl",
@@ -346,70 +348,188 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/218_slugma/all/base/none/model.pqc"
-                ]
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "copper_sulfate",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/copper_sulfate/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/copper_sulfate/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/copper_sulfate/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "cupric_chloride",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/cupric_chloride/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/cupric_chloride/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/cupric_chloride/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "lithium_chloride",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/lithium_chloride/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/lithium_chloride/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/lithium_chloride/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "magnesium_sulfide",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/magnesium_sulfide/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/magnesium_sulfide/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/magnesium_sulfide/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "manganese_chloride",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/manganese_chloride/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/manganese_chloride/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/manganese_chloride/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "potassium_chloride",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/potassium_chloride/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/potassium_chloride/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/potassium_chloride/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "sodium_carbonate",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/sodium_carbonate/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/sodium_carbonate/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/sodium_carbonate/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "calcium_carbonate",
-              "texture": "pixelmon:pokemon/218_slugma/all/base/calcium_carbonate/texture.png",
               "sprite": "pixelmon:pokemon/218_slugma/all/base/calcium_carbonate/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/218_slugma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/218_slugma/all/base/calcium_carbonate/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

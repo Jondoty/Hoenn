@@ -140,7 +140,11 @@
           "Grass Knot",
           "Ally Switch"
         ],
-        "hmMoves": ["Cut" 			, "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Cut",
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Aerial Ace",
           "Confide",
@@ -407,26 +411,69 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/375_metang/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/375_metang/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/375_metang/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.03,
-                "rotateAngleX": 0
-              },
               "sounds": [
-				"pixelmon.mob.metang"
-			  ]
+                {
+                  "sound": "pixelmon:pixelmon.mob.metang",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/375_metang/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/375_metang/all/base/none/texture.png",
+                      "movement_threshold": 0.03,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/375_metang/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/375_metang/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/375_metang/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/375_metang/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

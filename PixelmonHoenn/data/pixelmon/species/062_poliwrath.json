@@ -108,7 +108,13 @@
           "Throat Chop",
           "Liquidation"
         ],
-        "hmMoves": [ "Surf"	, "Strength"	, "Waterfall"	, "Rock Smash"	, "Dive"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
+        ],
         "transferMoves": [
           "Amnesia",
           "Bide",
@@ -449,39 +455,100 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/062_poliwrath/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/062_poliwrath/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/062_poliwrath/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.poliwrath",
-                "pixelmon.mob.poliwrath",
-                "pixelmon.mob.poliwrath"
+                {
+                  "sound": "pixelmon:pixelmon.mob.poliwrath",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.poliwrath",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.poliwrath",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/062_poliwrath/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/062_poliwrath/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/062_poliwrath/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/062_poliwrath/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/062_poliwrath/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/062_poliwrath/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "valencian",
-              "texture": "pixelmon:pokemon/062_poliwrath/all/base/valencian/texture.png",
               "sprite": "pixelmon:pokemon/062_poliwrath/all/base/valencian/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/062_poliwrath/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/062_poliwrath/all/base/valencian/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "strike",
-              "texture": "pixelmon:pokemon/062_poliwrath/all/base/strike/texture.png",
-              "emissive": "pixelmon:pokemon/062_poliwrath/all/base/strike/emissive.png",
               "sprite": "pixelmon:pokemon/062_poliwrath/all/base/strike/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/062_poliwrath/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/062_poliwrath/all/base/strike/texture.png",
+                      "emissive": "pixelmon:pokemon/062_poliwrath/all/base/strike/emissive.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

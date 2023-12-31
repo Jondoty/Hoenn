@@ -155,8 +155,9 @@
           "Wild Charge",
           "Hurricane"
         ],
-        "hmMoves": ["Cut" 	, "Fly"
-
+        "hmMoves": [
+          "Cut",
+          "Fly"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -263,24 +264,12 @@
           "Dark Pulse",
           "Confide"
         ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -353,9 +342,7 @@
         "specialDefense": 80,
         "speed": 123
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 187,
         "baseFriendship": 0,
@@ -375,26 +362,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/715_noivern/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/715_noivern/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/715_noivern/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.noivern",
-                "pixelmon.mob.noivern",
-                "pixelmon.mob.noivern"
+                {
+                  "sound": "pixelmon:pixelmon.mob.noivern",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.noivern",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.noivern",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/715_noivern/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/715_noivern/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/715_noivern/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/715_noivern/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/715_noivern/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/715_noivern/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -411,12 +437,8 @@
         "Noibat"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -425,9 +447,7 @@
       "weight": 85.0,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "speed": 2
       }

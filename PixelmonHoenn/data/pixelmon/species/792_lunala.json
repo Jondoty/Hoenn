@@ -106,9 +106,7 @@
           "Meteor Beam",
           "Poltergeist"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -160,8 +158,8 @@
           "Work Up",
           "Dazzling Gleam"
         ],
-        "hmMoves": [ "Fly"
-
+        "hmMoves": [
+          "Fly"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -231,35 +229,19 @@
           "Dazzling Gleam",
           "Confide"
         ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "ShadowShield"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -331,9 +313,7 @@
         "baseFriendship": 70,
         "spawnLevel": 55,
         "spawnLevelRange": 0,
-        "spawnLocations": [
-
-        ]
+        "spawnLocations": []
       },
       "possibleGenders": [
         "MALE",
@@ -345,24 +325,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/792_lunala/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/792_lunala/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/792_lunala/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.lunala"
+                {
+                  "sound": "pixelmon:pixelmon.mob.lunala",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/792_lunala/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/792_lunala/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/792_lunala/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/792_lunala/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/792_lunala/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/792_lunala/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -379,12 +392,8 @@
         "Cosmoem"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -393,9 +402,7 @@
       "weight": 120.0,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 3
       }
@@ -408,21 +415,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/792_lunala/all/fullmoon/none/texture.png",
               "sprite": "pixelmon:pokemon/792_lunala/all/fullmoon/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/792_lunala/all/base/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/792_lunala/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/792_lunala/all/fullmoon/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/792_lunala/all/fullmoon/shiny/texture.png",
               "sprite": "pixelmon:pokemon/792_lunala/all/fullmoon/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/792_lunala/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/792_lunala/all/fullmoon/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

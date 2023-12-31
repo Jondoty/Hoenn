@@ -101,9 +101,7 @@
         "tutorMoves": [
           "Expanding Force"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Hyper Beam",
           "Giga Impact",
@@ -148,9 +146,7 @@
           "Stored Power",
           "Ally Switch"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Captivate",
           "Charge Beam",
@@ -323,26 +319,16 @@
           "Substitute",
           "Trick Room"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Levitate"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -428,37 +414,95 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/488_cresselia/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/488_cresselia/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/488_cresselia/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.cresselia",
-                "pixelmon.mob.cresselia"
+                {
+                  "sound": "pixelmon:pixelmon.mob.cresselia",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.cresselia",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/488_cresselia/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/488_cresselia/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/488_cresselia/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/488_cresselia/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/488_cresselia/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/488_cresselia/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "rainbow",
-              "texture": "pixelmon:pokemon/488_cresselia/all/base/rainbow/texture.png",
               "sprite": "pixelmon:pokemon/488_cresselia/all/base/rainbow/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/488_cresselia/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/488_cresselia/all/base/rainbow/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "spirit",
-              "texture": "pixelmon:pokemon/488_cresselia/all/base/spirit/texture.png",
               "sprite": "pixelmon:pokemon/488_cresselia/all/base/spirit/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/488_cresselia/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/488_cresselia/all/base/spirit/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -469,16 +513,10 @@
       "types": [
         "PSYCHIC"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -487,9 +525,7 @@
       "weight": 85.6,
       "catchRate": 3,
       "malePercentage": 0,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialDefense": 3
       }

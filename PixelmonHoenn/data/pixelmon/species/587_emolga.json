@@ -141,8 +141,8 @@
           "Electro Ball",
           "Wild Charge"
         ],
-        "hmMoves": ["Cut" 
-
+        "hmMoves": [
+          "Cut"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -253,21 +253,11 @@
           "Substitute",
           "Wild Charge"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -339,9 +329,7 @@
         "specialDefense": 60,
         "speed": 103
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 150,
         "baseFriendship": 70,
@@ -361,32 +349,82 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/587_emolga/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/587_emolga/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/587_emolga/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.emolga",
-                "pixelmon.mob.emolga",
-                "pixelmon.mob.emolga"
+                {
+                  "sound": "pixelmon:pixelmon.mob.emolga",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.emolga",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.emolga",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/587_emolga/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/587_emolga/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/587_emolga/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/587_emolga/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/587_emolga/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/587_emolga/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "valentine",
-              "texture": "pixelmon:pokemon/587_emolga/all/base/valentine/texture.png",
               "sprite": "pixelmon:pokemon/587_emolga/all/base/valentine/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/587_emolga/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/587_emolga/all/base/valentine/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -398,16 +436,10 @@
         "ELECTRIC",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -416,9 +448,7 @@
       "weight": 5.0,
       "catchRate": 200,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "speed": 2
       }

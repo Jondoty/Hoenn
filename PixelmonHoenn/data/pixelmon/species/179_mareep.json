@@ -339,115 +339,316 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/179_mareep/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.mareep",
-                "pixelmon.mob.mareep"
+                {
+                  "sound": "pixelmon:pixelmon.mob.mareep",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.mareep",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "black",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/black/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/black/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/black/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "blue",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/blue/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/blue/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/blue/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "brown",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/brown/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/brown/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/brown/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "cyan",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/cyan/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/cyan/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/cyan/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "gray",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/gray/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/gray/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/gray/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "green",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/green/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/green/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/green/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "lightblue",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/lightblue/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/lightblue/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/lightblue/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "lightgray",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/lightgray/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/lightgray/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/lightgray/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "lime",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/lime/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/lime/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/lime/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "magenta",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/magenta/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/magenta/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/magenta/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "orange",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/orange/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/orange/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/orange/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "pink",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/pink/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/pink/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/pink/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "purple",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/purple/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/purple/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/purple/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "red",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/red/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/red/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/red/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "yellow",
-              "texture": "pixelmon:pokemon/179_mareep/all/base/yellow/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/base/yellow/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/base/yellow/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -491,96 +692,291 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/none/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/shorn/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/shiny/texture.png",
               "sprite": "pixelmon:pokemon/179_mareep/all/shorn/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "black",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/black/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/black/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "blue",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/blue/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/blue/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "brown",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/brown/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/brown/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "cyan",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/cyan/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/cyan/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "gray",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/gray/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/gray/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "green",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/green/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/green/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "lightblue",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/lightblue/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/lightblue/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "lightgray",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/lightgray/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/lightgray/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "lime",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/lime/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/lime/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "magenta",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/magenta/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/magenta/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "orange",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/orange/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/orange/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "pink",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/pink/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/pink/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "purple",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/purple/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/purple/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "red",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/red/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/red/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "yellow",
-              "texture": "pixelmon:pokemon/179_mareep/all/shorn/yellow/texture.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/179_mareep/all/shorn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/179_mareep/all/shorn/yellow/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

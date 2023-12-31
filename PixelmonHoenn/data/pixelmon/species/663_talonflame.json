@@ -129,8 +129,8 @@
           "Work Up",
           "Hurricane"
         ],
-        "hmMoves": [ "Fly"
-
+        "hmMoves": [
+          "Fly"
         ],
         "transferMoves": [
           "Confide",
@@ -222,24 +222,12 @@
           "Secret Power",
           "Confide"
         ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -311,9 +299,7 @@
         "specialDefense": 69,
         "speed": 126
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 175,
         "baseFriendship": 0,
@@ -333,36 +319,102 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/663_talonflame/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/663_talonflame/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc"
-                ]
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc"
-                ]
-              },
-              "sounds": [
-
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/663_talonflame/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/663_talonflame/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/663_talonflame/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/663_talonflame/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/663_talonflame/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/663_talonflame/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "ashen",
-              "texture": "pixelmon:pokemon/663_talonflame/all/base/ashen/texture.png",
               "sprite": "pixelmon:pokemon/663_talonflame/all/base/ashen/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/663_talonflame/all/base/ashen/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/663_talonflame/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/663_talonflame/all/base/ashen/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -379,12 +431,8 @@
         "Fletchling"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -393,9 +441,7 @@
       "weight": 24.5,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "speed": 3
       }

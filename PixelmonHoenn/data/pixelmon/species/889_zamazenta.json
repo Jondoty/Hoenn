@@ -202,22 +202,52 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/889_zamazenta/all/hero/none/texture.png",
               "sprite": "pixelmon:pokemon/889_zamazenta/all/hero/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/889_zamazenta/all/hero/none/model.pqc"
-                ]
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/889_zamazenta/all/hero/none/model.pqc",
+                      "texture": "pixelmon:pokemon/889_zamazenta/all/hero/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/889_zamazenta/all/hero/shiny/texture.png",
               "sprite": "pixelmon:pokemon/889_zamazenta/all/hero/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/889_zamazenta/all/hero/none/model.pqc",
+                      "texture": "pixelmon:pokemon/889_zamazenta/all/hero/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -271,21 +301,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/889_zamazenta/all/crowned/none/texture.png",
               "sprite": "pixelmon:pokemon/889_zamazenta/all/crowned/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/889_zamazenta/all/crowned/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/889_zamazenta/all/crowned/none/model.pqc",
+                      "texture": "pixelmon:pokemon/889_zamazenta/all/crowned/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/889_zamazenta/all/crowned/shiny/texture.png",
               "sprite": "pixelmon:pokemon/889_zamazenta/all/crowned/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/889_zamazenta/all/crowned/none/model.pqc",
+                      "texture": "pixelmon:pokemon/889_zamazenta/all/crowned/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

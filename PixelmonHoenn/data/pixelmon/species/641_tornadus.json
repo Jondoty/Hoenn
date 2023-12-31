@@ -112,9 +112,7 @@
         "tutorMoves": [
           "Lash Out"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -163,8 +161,10 @@
           "Foul Play",
           "Hurricane"
         ],
-        "hmMoves": ["Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -303,21 +303,11 @@
           "Substitute",
           "Rock Smash"
         ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -380,24 +370,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/641_tornadus/all/incarnate/none/texture.png",
               "sprite": "pixelmon:pokemon/641_tornadus/all/incarnate/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/641_tornadus/all/incarnate/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.tornadus"
+                {
+                  "sound": "pixelmon:pixelmon.mob.tornadus",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/641_tornadus/all/incarnate/none/model.pqc",
+                      "texture": "pixelmon:pokemon/641_tornadus/all/incarnate/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/641_tornadus/all/incarnate/shiny/texture.png",
               "sprite": "pixelmon:pokemon/641_tornadus/all/incarnate/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/641_tornadus/all/incarnate/none/model.pqc",
+                      "texture": "pixelmon:pokemon/641_tornadus/all/incarnate/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -408,16 +431,10 @@
       "types": [
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -426,9 +443,7 @@
       "weight": 63.0,
       "catchRate": 3,
       "malePercentage": 100,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 3
       }
@@ -459,23 +474,53 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/641_tornadus/all/therian/none/texture.png",
               "sprite": "pixelmon:pokemon/641_tornadus/all/therian/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/641_tornadus/all/therian/none/model.pqc"
-                ],
-                "movementThreshold": 0.02,
-                "yRotation": 45
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/641_tornadus/all/therian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/641_tornadus/all/therian/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/641_tornadus/all/therian/shiny/texture.png",
               "sprite": "pixelmon:pokemon/641_tornadus/all/therian/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/641_tornadus/all/therian/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/641_tornadus/all/therian/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

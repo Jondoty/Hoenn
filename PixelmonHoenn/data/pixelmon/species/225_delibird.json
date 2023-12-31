@@ -90,7 +90,12 @@
           "Gunk Shot",
           "Drill Run"
         ],
-        "hmMoves": [ "Fly"	, "Surf"		, "Waterfall"		, "Dive"],
+        "hmMoves": [
+          "Fly",
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ],
         "transferMoves": [
           "Aerial Ace",
           "Bestow",
@@ -328,30 +333,88 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/225_delibird/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/225_delibird/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/225_delibird/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-				"pixelmon.mob.delibird"
-			  ]
+                {
+                  "sound": "pixelmon:pixelmon.mob.delibird",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/225_delibird/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/225_delibird/all/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/225_delibird/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/225_delibird/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/225_delibird/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/225_delibird/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "christmas",
-              "texture": "pixelmon:pokemon/225_delibird/all/base/christmas/texture.png",
               "sprite": "pixelmon:pokemon/225_delibird/all/base/christmas/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/225_delibird/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/225_delibird/all/base/christmas/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

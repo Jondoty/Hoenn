@@ -162,7 +162,10 @@
           "Work Up",
           "Body Press"
         ],
-        "hmMoves": [ "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Confide",
           "Double Team",
@@ -389,26 +392,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/555_darmanitan/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.darmanitan",
-                "pixelmon.mob.darmanitan",
-                "pixelmon.mob.darmanitan"
+                {
+                  "sound": "pixelmon:pixelmon.mob.darmanitan",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.darmanitan",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.darmanitan",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -474,22 +516,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/zen/none/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/zen/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/555_darmanitan/all/zen/none/model.pqc"
-                ],
-                "rotateAngleX": 1.57079632679
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/zen/none/model.pqc",
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/zen/none/texture.png",
+                      "rotate_angle": [
+                        1.5707963705062866,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/zen/shiny/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/zen/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/zen/none/model.pqc",
+                      "rotate_angle": [
+                        1.5707963705062866,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/zen/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -693,21 +774,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/galarian/none/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/galarian/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/555_darmanitan/all/galarian/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/galarian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/galarian/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/galarian/shiny/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/galarian/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/galarian/none/model.pqc",
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/galarian/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -751,21 +862,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/none/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/555_darmanitan/all/galarian_zen/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/none/model.pqc",
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/shiny/texture.png",
               "sprite": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/none/model.pqc",
+                      "texture": "pixelmon:pokemon/555_darmanitan/all/galarian_zen/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

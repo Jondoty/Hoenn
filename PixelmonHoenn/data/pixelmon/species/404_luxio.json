@@ -134,7 +134,9 @@
           "Play Rough",
           "Psychic Fangs"
         ],
-        "hmMoves": ["Strength"],
+        "hmMoves": [
+          "Strength"
+        ],
         "transferMoves": [
           "Captivate",
           "Charge Beam",
@@ -318,24 +320,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/404_luxio/male/base/none/texture.png",
               "sprite": "pixelmon:pokemon/404_luxio/male/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/404_luxio/male/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.luxio"
+                {
+                  "sound": "pixelmon:pixelmon.mob.luxio",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/404_luxio/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/404_luxio/male/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/404_luxio/male/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/404_luxio/male/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/404_luxio/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/404_luxio/male/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         },
@@ -344,21 +379,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/404_luxio/female/base/none/texture.png",
               "sprite": "pixelmon:pokemon/404_luxio/female/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/404_luxio/female/base/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/404_luxio/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/404_luxio/female/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/404_luxio/female/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/404_luxio/female/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/404_luxio/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/404_luxio/female/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

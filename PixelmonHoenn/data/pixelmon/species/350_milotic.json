@@ -166,7 +166,11 @@
           "Iron Head",
           "Scald"
         ],
-        "hmMoves": [ "Surf"		, "Waterfall"		, "Dive"],
+        "hmMoves": [
+          "Surf",
+          "Waterfall",
+          "Dive"
+        ],
         "transferMoves": [
           "Bind",
           "Captivate",
@@ -396,40 +400,123 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/350_milotic/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/350_milotic/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/350_milotic/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02,
-                "rotateAngleX": 0
-              },
               "sounds": [
-                "pixelmon.mob.milotic",
-                "pixelmon.mob.milotic",
-                "pixelmon.mob.milotic"
+                {
+                  "sound": "pixelmon:pixelmon.mob.milotic",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.milotic",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.milotic",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/350_milotic/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/350_milotic/all/base/none/texture.png",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/350_milotic/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/350_milotic/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/350_milotic/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/350_milotic/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "rainbow",
-              "texture": "pixelmon:pokemon/350_milotic/all/base/rainbow/texture.png",
               "sprite": "pixelmon:pokemon/350_milotic/all/base/rainbow/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/350_milotic/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/350_milotic/all/base/rainbow/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "spirit",
-              "texture": "pixelmon:pokemon/350_milotic/all/base/spirit/texture.png",
               "sprite": "pixelmon:pokemon/350_milotic/all/base/spirit/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/350_milotic/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/350_milotic/all/base/spirit/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

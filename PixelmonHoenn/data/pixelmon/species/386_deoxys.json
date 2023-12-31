@@ -127,17 +127,13 @@
           "Wonder Room",
           "Zen Headbutt"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": ["Cut" 			, "Strength"		, "Rock Smash"
-
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [
+          "Cut",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Avalanche",
@@ -405,23 +401,15 @@
           "Skill Swap",
           "Snatch"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Pressure"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -507,27 +495,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/386_deoxys/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/386_deoxys/all/base/none/model.pqc"
-                ],
-                "yRotation": 24.1
-              },
               "sounds": [
-                "pixelmon.mob.deoxys",
-                "pixelmon.mob.deoxys",
-                "pixelmon.mob.deoxys"
+                {
+                  "sound": "pixelmon:pixelmon.mob.deoxys",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.deoxys",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.deoxys",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/386_deoxys/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -538,16 +564,10 @@
       "types": [
         "PSYCHIC"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -556,9 +576,7 @@
       "weight": 60.8,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 1,
         "specialAttack": 1,
@@ -679,18 +697,10 @@
           "Wonder Room",
           "Zen Headbutt"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [
-
-        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
         "transferMoves": [
           "Avalanche",
           "Body Slam",
@@ -957,15 +967,9 @@
           "Skill Swap",
           "Snatch"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "battleStats": {
         "hp": 50,
@@ -981,22 +985,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/386_deoxys/all/attack/none/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/attack/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/386_deoxys/all/attack/none/model.pqc"
-                ],
-                "yRotation": 24.1
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/attack/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/attack/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/386_deoxys/all/attack/shiny/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/attack/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/attack/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/attack/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -1118,18 +1151,10 @@
           "Wonder Room",
           "Zen Headbutt"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [
-
-        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
         "transferMoves": [
           "Avalanche",
           "Body Slam",
@@ -1396,15 +1421,9 @@
           "Skill Swap",
           "Snatch"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "battleStats": {
         "hp": 50,
@@ -1420,22 +1439,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/386_deoxys/all/defense/none/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/defense/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/386_deoxys/all/defense/none/model.pqc"
-                ],
-                "yRotation": 24.1
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/defense/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/defense/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/386_deoxys/all/defense/shiny/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/defense/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/defense/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/defense/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -1555,18 +1603,10 @@
           "Wonder Room",
           "Zen Headbutt"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [
-
-        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
         "transferMoves": [
           "Avalanche",
           "Body Slam",
@@ -1833,15 +1873,9 @@
           "Skill Swap",
           "Snatch"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "battleStats": {
         "hp": 50,
@@ -1857,22 +1891,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/386_deoxys/all/speed/none/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/speed/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/386_deoxys/all/speed/none/model.pqc"
-                ],
-                "yRotation": 24.1
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/speed/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/speed/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/386_deoxys/all/speed/shiny/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/speed/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/speed/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/speed/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -1992,18 +2055,10 @@
           "Wonder Room",
           "Zen Headbutt"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [
-
-        ],
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
         "transferMoves": [
           "Avalanche",
           "Body Slam",
@@ -2270,15 +2325,9 @@
           "Skill Swap",
           "Snatch"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "battleStats": {
         "hp": 50,
@@ -2294,22 +2343,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/386_deoxys/all/sus/none/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/sus/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/386_deoxys/all/sus/none/model.pqc"
-                ],
-                "yRotation": 24.1
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/sus/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/sus/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/386_deoxys/all/sus/shiny/texture.png",
               "sprite": "pixelmon:pokemon/386_deoxys/all/sus/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/386_deoxys/all/sus/none/model.pqc",
+                      "texture": "pixelmon:pokemon/386_deoxys/all/sus/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

@@ -97,9 +97,7 @@
           "Draco Meteor",
           "Meteor Beam"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -138,44 +136,24 @@
           "Sludge Wave",
           "Venom Drench"
         ],
-        "hmMoves": ["Fly"
-
+        "hmMoves": [
+          "Fly"
         ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Pressure"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -262,49 +240,114 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/none/texture.png",
               "sprite": "pixelmon:pokemon/890_eternatus/all/ordinary/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/890_eternatus/all/ordinary/none/model.pqc",
-                  "pixelmon:pokemon/890_eternatus/all/transparent/none/model.pqc"
-                ],
-                "transparency2": 0.7
-              },
               "sounds": [
-                "pixelmon.mob.eternatus"
+                {
+                  "sound": "pixelmon:pixelmon.mob.eternatus",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/ordinary/none/model.pqc",
+                      "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/transparent/none/model.pqc",
+                      "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/none/texture.png",
+                      "texture_transparency": 0.7
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/shiny/texture.png",
               "sprite": "pixelmon:pokemon/890_eternatus/all/ordinary/shiny/sprite.png",
-              "particle": "arcanery:shiny"
-            },
-            {
-              "name": "cosmetic",
-              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/none/texture.png",
-              "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc"
-                ]
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/ordinary/none/model.pqc",
+                      "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/transparent/none/model.pqc",
+                      "texture_transparency": 0.7,
+                      "texture": "pixelmon:pokemon/890_eternatus/all/ordinary/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
               }
             },
             {
+              "name": "cosmetic",
+              "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/none/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/none/texture.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "shiny_cosmetic",
-              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/texture.png",
               "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/sprite.png",
-              "particle": "arcanery:shiny",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc"
-                ]
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
               }
             }
           ]
@@ -317,16 +360,10 @@
         "POISON",
         "DRAGON"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -335,9 +372,7 @@
       "weight": 950.0,
       "catchRate": 10,
       "malePercentage": -1.0,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "hp": 3
       }
@@ -358,21 +393,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/none/texture.png",
               "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/texture.png",
               "sprite": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/890_eternatus/all/eternamax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/890_eternatus/all/eternamax/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

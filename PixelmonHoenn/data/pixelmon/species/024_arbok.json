@@ -141,7 +141,9 @@
         ],
         "tmMoves8": [],
         "trMoves": [],
-        "hmMoves": [ "Strength"],
+        "hmMoves": [
+          "Strength"
+        ],
         "transferMoves": [
           "Bide",
           "Body Slam",
@@ -423,45 +425,121 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/024_arbok/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/024_arbok/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/024_arbok/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.05
-              },
               "sounds": [
-                "pixelmon.mob.arbok",
-                "pixelmon.mob.arbok",
-                "pixelmon.mob.arbok"
+                {
+                  "sound": "pixelmon:pixelmon.mob.arbok",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.arbok",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.arbok",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/024_arbok/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/024_arbok/all/base/none/texture.png",
+                      "movement_threshold": 0.05
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/024_arbok/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/024_arbok/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/024_arbok/all/base/none/model.pqc",
+                      "movement_threshold": 0.05,
+                      "texture": "pixelmon:pokemon/024_arbok/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "main_circular",
-              "texture": "pixelmon:pokemon/024_arbok/all/base/main_circular/texture.png",
               "sprite": "pixelmon:pokemon/024_arbok/all/base/none/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/024_arbok/all/base/none/model.pqc",
+                      "movement_threshold": 0.05,
+                      "texture": "pixelmon:pokemon/024_arbok/all/base/main_circular/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "secondary_circular",
-              "texture": "pixelmon:pokemon/024_arbok/all/base/secondary_circular/texture.png",
               "sprite": "pixelmon:pokemon/024_arbok/all/base/none/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/024_arbok/all/base/none/model.pqc",
+                      "movement_threshold": 0.05,
+                      "texture": "pixelmon:pokemon/024_arbok/all/base/secondary_circular/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "dark",
-              "texture": "pixelmon:pokemon/024_arbok/all/base/dark/texture.png",
               "sprite": "pixelmon:pokemon/024_arbok/all/base/dark/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/024_arbok/all/base/none/model.pqc",
+                      "movement_threshold": 0.05,
+                      "texture": "pixelmon:pokemon/024_arbok/all/base/dark/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

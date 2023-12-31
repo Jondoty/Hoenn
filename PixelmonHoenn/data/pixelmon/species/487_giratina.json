@@ -102,9 +102,7 @@
           "Dual Wingbeat",
           "Poltergeist"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -154,8 +152,11 @@
           "Iron Head",
           "Stone Edge"
         ],
-        "hmMoves": ["Cut" 	, "Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -369,18 +370,10 @@
           "Swagger",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -474,27 +467,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/487_giratina/all/altered/none/texture.png",
               "sprite": "pixelmon:pokemon/487_giratina/all/altered/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/487_giratina/all/altered/none/model.pqc"
-                ],
-                "yRotation": 24.12
-              },
               "sounds": [
-                "pixelmon.mob.giratina",
-                "pixelmon.mob.giratina",
-                "pixelmon.mob.giratina"
+                {
+                  "sound": "pixelmon:pixelmon.mob.giratina",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.giratina",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.giratina",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/487_giratina/all/altered/none/model.pqc",
+                      "texture": "pixelmon:pokemon/487_giratina/all/altered/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/487_giratina/all/altered/shiny/texture.png",
               "sprite": "pixelmon:pokemon/487_giratina/all/altered/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/487_giratina/all/altered/none/model.pqc",
+                      "texture": "pixelmon:pokemon/487_giratina/all/altered/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -506,16 +537,10 @@
         "GHOST",
         "DRAGON"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -524,9 +549,7 @@
       "weight": 750.0,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "hp": 3
       }
@@ -558,21 +581,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/487_giratina/all/origin/none/texture.png",
               "sprite": "pixelmon:pokemon/487_giratina/all/origin/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/487_giratina/all/origin/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/487_giratina/all/origin/none/model.pqc",
+                      "texture": "pixelmon:pokemon/487_giratina/all/origin/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/487_giratina/all/origin/shiny/texture.png",
               "sprite": "pixelmon:pokemon/487_giratina/all/origin/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/487_giratina/all/origin/none/model.pqc",
+                      "texture": "pixelmon:pokemon/487_giratina/all/origin/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

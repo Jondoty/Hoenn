@@ -153,7 +153,10 @@
           "Work Up",
           "Drill Run"
         ],
-        "hmMoves": [ "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Aerial Ace",
           "Captivate",
@@ -400,23 +403,62 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/237_hitmontop/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/237_hitmontop/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/237_hitmontop/all/base/none/model.pqc"
-                ],
-                "rotateAngleY": 3.14159
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/237_hitmontop/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/237_hitmontop/all/base/none/texture.png",
+                      "rotate_angle": [
+                        -1.5707963267948966,
+                        3.14159,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/237_hitmontop/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/237_hitmontop/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/237_hitmontop/all/base/none/model.pqc",
+                      "rotate_angle": [
+                        -1.5707963267948966,
+                        3.14159,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/237_hitmontop/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

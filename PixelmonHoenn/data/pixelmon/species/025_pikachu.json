@@ -157,7 +157,11 @@
           "Wild Charge",
           "Play Rough"
         ],
-        "hmMoves": [ "Surf"	, "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Bestow",
           "Bide",
@@ -456,32 +460,82 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/025_pikachu/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/025_pikachu/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.pikachu",
-                "pixelmon.mob.pikachu",
-                "pixelmon.mob.pikachu"
+                {
+                  "sound": "pixelmon:pixelmon.mob.pikachu",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.pikachu",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.pikachu",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/025_pikachu/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "drowned",
-              "texture": "pixelmon:pokemon/025_pikachu/all/base/drowned/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/base/drowned/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/base/drowned/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -557,23 +611,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/025_pikachu/all/gmax/none/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/gmax/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/025_pikachu/all/gmax/none/model.pqc"
-                ],
-                "rotateAngleX": 3.141592653589793,
-                "rotateAngleY": 6.28318530718
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/gmax/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/gmax/none/texture.png",
+                      "rotate_angle": [
+                        3.1415927410125732,
+                        6.2831855,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/025_pikachu/all/gmax/shiny/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/gmax/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/gmax/none/model.pqc",
+                      "rotate_angle": [
+                        3.1415927410125732,
+                        6.2831855,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/025_pikachu/all/gmax/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -587,15 +679,20 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/025_pikachu/all/belle/none/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/belle/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/025_pikachu/all/belle/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/belle/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/belle/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -609,15 +706,20 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/025_pikachu/all/cosplay/none/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/cosplay/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/025_pikachu/all/cosplay/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/cosplay/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/cosplay/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -631,15 +733,20 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/025_pikachu/all/phd/none/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/phd/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/025_pikachu/all/phd/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/phd/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/phd/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -653,15 +760,20 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/025_pikachu/all/popstar/none/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/popstar/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/025_pikachu/all/popstar/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/popstar/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/popstar/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -675,15 +787,20 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/025_pikachu/all/rockstar/none/texture.png",
               "sprite": "pixelmon:pokemon/025_pikachu/all/rockstar/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/025_pikachu/all/rockstar/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/025_pikachu/all/rockstar/none/model.pqc",
+                      "texture": "pixelmon:pokemon/025_pikachu/all/rockstar/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

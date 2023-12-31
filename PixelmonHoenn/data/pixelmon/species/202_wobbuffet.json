@@ -105,36 +105,74 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/202_wobbuffet/male/base/none/texture.png",
               "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/202_wobbuffet/male/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.wobbuffet"
+                {
+                  "sound": "pixelmon:pixelmon.mob.wobbuffet",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/202_wobbuffet/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/202_wobbuffet/male/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/202_wobbuffet/male/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/202_wobbuffet/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/202_wobbuffet/male/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "online",
-              "texture": "pixelmon:pokemon/202_wobbuffet/male/base/online/texture.png",
               "sprite": "pixelmon:pokemon/202_wobbuffet/male/base/online/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/202_wobbuffet/male/base/online/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/202_wobbuffet/male/base/online/model.pqc",
+                      "texture": "pixelmon:pokemon/202_wobbuffet/male/base/online/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -143,33 +181,68 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/202_wobbuffet/female/base/none/texture.png",
               "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/202_wobbuffet/female/base/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/202_wobbuffet/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/202_wobbuffet/female/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/202_wobbuffet/female/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/202_wobbuffet/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/202_wobbuffet/female/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "online",
-              "texture": "pixelmon:pokemon/202_wobbuffet/female/base/online/texture.png",
               "sprite": "pixelmon:pokemon/202_wobbuffet/female/base/online/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/202_wobbuffet/female/base/online/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/202_wobbuffet/female/base/online/model.pqc",
+                      "texture": "pixelmon:pokemon/202_wobbuffet/female/base/online/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

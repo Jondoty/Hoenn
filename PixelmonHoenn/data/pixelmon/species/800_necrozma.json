@@ -99,9 +99,7 @@
           "Expanding Force",
           "Meteor Beam"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Hyper Beam",
           "Giga Impact",
@@ -160,9 +158,7 @@
           "Ally Switch",
           "Psychic Fangs"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Aerial Ace",
           "Confide",
@@ -228,35 +224,19 @@
           "Dark Pulse",
           "Confide"
         ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "PrismArmor"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -328,9 +308,7 @@
         "baseFriendship": 70,
         "spawnLevel": 70,
         "spawnLevelRange": 70,
-        "spawnLocations": [
-
-        ]
+        "spawnLocations": []
       },
       "possibleGenders": [
         "MALE",
@@ -342,24 +320,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/800_necrozma/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/800_necrozma/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.necrozma"
+                {
+                  "sound": "pixelmon:pixelmon.mob.necrozma",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/800_necrozma/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -370,16 +381,10 @@
       "types": [
         "PSYCHIC"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -388,9 +393,7 @@
       "weight": 230.0,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 1,
         "specialAttack": 2
@@ -422,26 +425,67 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/800_necrozma/all/dusk/none/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/dusk/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/800_necrozma/all/dusk/none/model.pqc",
-                  "pixelmon:pokemon/800_necrozma/all/dusk/none/model1.pqc"
-                ],
-                "transparency2": 0.6
-              },
               "sounds": [
-                "pixelmon.mob.necrozma.dusk"
+                {
+                  "sound": "pixelmon:pixelmon.mob.necrozma.dusk",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/none/texture.png",
+                      "texture_transparency": 0.6
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dusk/none/model1.pqc",
+                      "texture_transparency": 0.6,
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dusk/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -473,27 +517,67 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/800_necrozma/all/dawn/none/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/dawn/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/800_necrozma/all/dawn/none/model.pqc",
-                  "pixelmon:pokemon/800_necrozma/all/dawn/none/model1.pqc"
-                ],
-                "transparency2": 0.6,
-                "yRotation": 20
-              },
               "sounds": [
-                "pixelmon.mob.necrozma.dawn"
+                {
+                  "sound": "pixelmon:pixelmon.mob.necrozma.dawn",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/none/texture.png",
+                      "texture_transparency": 0.6
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/dawn/none/model1.pqc",
+                      "texture_transparency": 0.6,
+                      "texture": "pixelmon:pokemon/800_necrozma/all/dawn/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -533,21 +617,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/800_necrozma/all/ultra/none/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/ultra/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/800_necrozma/all/ultra/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/ultra/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/ultra/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/800_necrozma/all/ultra/shiny/texture.png",
               "sprite": "pixelmon:pokemon/800_necrozma/all/ultra/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/800_necrozma/all/ultra/none/model.pqc",
+                      "texture": "pixelmon:pokemon/800_necrozma/all/ultra/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

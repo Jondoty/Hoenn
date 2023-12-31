@@ -155,8 +155,10 @@
           "Stealth Rock",
           "Body Press"
         ],
-        "hmMoves": ["Cut" 	, "Fly"				, "Rock Smash"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -368,12 +370,8 @@
           "Thief",
           "Steel Wing"
         ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -446,9 +444,7 @@
         "specialDefense": 70,
         "speed": 70
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 168,
         "baseFriendship": 70,
@@ -468,37 +464,111 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/227_skarmory/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/227_skarmory/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc"
-                ]
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.skarmory",
-                "pixelmon.mob.skarmory"
+                {
+                  "sound": "pixelmon:pixelmon.mob.skarmory",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.skarmory",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/227_skarmory/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/227_skarmory/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/227_skarmory/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/227_skarmory/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/227_skarmory/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/227_skarmory/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "rainbow",
-              "texture": "pixelmon:pokemon/227_skarmory/all/base/rainbow/texture.png",
               "sprite": "pixelmon:pokemon/227_skarmory/all/base/rainbow/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/227_skarmory/all/base/rainbow/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/227_skarmory/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/227_skarmory/all/base/rainbow/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -510,16 +580,10 @@
         "STEEL",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -528,9 +592,7 @@
       "weight": 50.5,
       "catchRate": 25,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "defense": 2
       }

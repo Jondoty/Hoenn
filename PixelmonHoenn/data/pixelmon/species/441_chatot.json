@@ -134,14 +134,10 @@
           "Steel Wing",
           "Supersonic"
         ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [ "Fly"
-
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [
+          "Fly"
         ],
         "transferMoves": [
           "Captivate",
@@ -261,18 +257,10 @@
           "U-turn",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -345,9 +333,7 @@
         "specialDefense": 42,
         "speed": 91
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 107,
         "baseFriendship": 35,
@@ -367,34 +353,83 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/441_chatot/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/441_chatot/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/441_chatot/all/base/none/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/441_chatot/all/base/none/flying/model.pqc"
-                ],
-                "animationIncrement": 1.5,
-                "movementThreshold": 0.02
-              },
               "sounds": [
-                "pixelmon.mob.chatot"
+                {
+                  "sound": "pixelmon:pixelmon.mob.chatot",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/441_chatot/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/441_chatot/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/441_chatot/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/441_chatot/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/441_chatot/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/441_chatot/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/441_chatot/all/base/none/flying/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/441_chatot/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/441_chatot/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/441_chatot/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -406,16 +441,10 @@
         "NORMAL",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -424,9 +453,7 @@
       "weight": 1.9,
       "catchRate": 30,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 1
       }

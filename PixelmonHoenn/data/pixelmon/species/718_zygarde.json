@@ -146,7 +146,10 @@
           "Sludge Wave",
           "High Horsepower"
         ],
-        "hmMoves": [ "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Block",
           "Camouflage",
@@ -293,24 +296,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/texture.png",
               "sprite": "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.zygarde.50"
+                {
+                  "sound": "pixelmon:pixelmon.mob.zygarde.50",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/model.pqc",
+                      "texture": "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/718_zygarde/all/fifty_percent/shiny/texture.png",
               "sprite": "pixelmon:pokemon/718_zygarde/all/fifty_percent/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/718_zygarde/all/fifty_percent/none/model.pqc",
+                      "texture": "pixelmon:pokemon/718_zygarde/all/fifty_percent/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -361,22 +397,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/718_zygarde/all/ten_percent/none/texture.png",
               "sprite": "pixelmon:pokemon/718_zygarde/all/ten_percent/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/718_zygarde/all/ten_percent/none/model.pqc"
-                ],
-                "animationIncrement": 1.5
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/718_zygarde/all/ten_percent/none/model.pqc",
+                      "texture": "pixelmon:pokemon/718_zygarde/all/ten_percent/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/718_zygarde/all/ten_percent/shiny/texture.png",
               "sprite": "pixelmon:pokemon/718_zygarde/all/ten_percent/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/718_zygarde/all/ten_percent/none/model.pqc",
+                      "texture": "pixelmon:pokemon/718_zygarde/all/ten_percent/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -404,25 +469,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/718_zygarde/all/complete/none/texture.png",
               "sprite": "pixelmon:pokemon/718_zygarde/all/complete/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/718_zygarde/all/complete/none/model.pqc"
-                ],
-                "animationIncrement": 1.5
-              },
               "sounds": [
-                "pixelmon.mob.zygarde.100"
+                {
+                  "sound": "pixelmon:pixelmon.mob.zygarde.100",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/718_zygarde/all/complete/none/model.pqc",
+                      "texture": "pixelmon:pokemon/718_zygarde/all/complete/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/718_zygarde/all/complete/shiny/texture.png",
               "sprite": "pixelmon:pokemon/718_zygarde/all/complete/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/718_zygarde/all/complete/none/model.pqc",
+                      "texture": "pixelmon:pokemon/718_zygarde/all/complete/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

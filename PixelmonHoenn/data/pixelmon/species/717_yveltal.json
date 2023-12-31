@@ -131,9 +131,7 @@
           "Dual Wingbeat",
           "Lash Out"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -174,8 +172,9 @@
           "Foul Play",
           "Hurricane"
         ],
-        "hmMoves": ["Cut" 	, "Fly"
-
+        "hmMoves": [
+          "Cut",
+          "Fly"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -277,32 +276,18 @@
           "Dark Pulse",
           "Confide"
         ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "DarkAura"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -388,24 +373,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/717_yveltal/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/717_yveltal/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/717_yveltal/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.yveltal"
+                {
+                  "sound": "pixelmon:pixelmon.mob.yveltal",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/717_yveltal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/717_yveltal/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/717_yveltal/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/717_yveltal/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/717_yveltal/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/717_yveltal/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -417,16 +435,10 @@
         "DARK",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -435,9 +447,7 @@
       "weight": 203.0,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "hp": 3
       }

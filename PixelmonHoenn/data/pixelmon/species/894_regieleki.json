@@ -106,9 +106,7 @@
         "tutorMoves": [
           "Rising Voltage"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Hyper Beam",
           "Giga Impact",
@@ -143,44 +141,22 @@
           "Electro Ball",
           "Wild Charge"
         ],
-        "hmMoves": [
-
-        ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Transistor"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -266,30 +242,74 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/894_regieleki/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/894_regieleki/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/894_regieleki/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.regieleki"
+                {
+                  "sound": "pixelmon:pixelmon.mob.regieleki",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/894_regieleki/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/894_regieleki/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/894_regieleki/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/894_regieleki/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/894_regieleki/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/894_regieleki/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "spirit",
-              "texture": "pixelmon:pokemon/894_regieleki/all/base/spirit/texture.png",
               "sprite": "pixelmon:pokemon/894_regieleki/all/base/spirit/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/894_regieleki/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/894_regieleki/all/base/spirit/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -300,16 +320,10 @@
       "types": [
         "ELECTRIC"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false

@@ -120,9 +120,7 @@
           "Dual Wingbeat",
           "Scale Shot"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -188,8 +186,12 @@
           "Stored Power",
           "Ally Switch"
         ],
-        "hmMoves": ["Cut" 	, "Fly"	, "Surf"		, "Waterfall"		, "Dive"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Surf",
+          "Waterfall",
+          "Dive"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -458,23 +460,15 @@
           "Attract",
           "Steel Wing"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Levitate"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -560,26 +554,67 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/380_latias/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/380_latias/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/380_latias/all/base/none/model.pqc"
-                ],
-                "rotateAngleX": 0,
-                "yRotation": 25.2
-              },
               "sounds": [
-                "pixelmon.mob.latias"
+                {
+                  "sound": "pixelmon:pixelmon.mob.latias",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/380_latias/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/380_latias/all/base/none/texture.png",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/380_latias/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/380_latias/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/380_latias/all/base/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/380_latias/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -591,9 +626,7 @@
         "DRAGON",
         "PSYCHIC"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
       "megaItems": [
         "pixelmon:latiasite"
@@ -609,9 +642,7 @@
       "weight": 40.0,
       "catchRate": 3,
       "malePercentage": 0,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialDefense": 3
       }
@@ -636,21 +667,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/380_latias/all/mega/none/texture.png",
               "sprite": "pixelmon:pokemon/380_latias/all/mega/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/380_latias/all/mega/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/380_latias/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/380_latias/all/mega/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/380_latias/all/mega/shiny/texture.png",
               "sprite": "pixelmon:pokemon/380_latias/all/mega/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/380_latias/all/mega/none/model.pqc",
+                      "texture": "pixelmon:pokemon/380_latias/all/mega/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

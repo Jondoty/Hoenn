@@ -214,56 +214,153 @@
             {
               "name": "red",
               "translationKey": "pixelmon.palette.red_core",
-              "texture": "pixelmon:pokemon/774_minior/all/meteor/none/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/meteor/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
-                ],
-                "xRotation": 7,
-                "yRotation": 12
-              },
               "sounds": [
-                "pixelmon.mob.minior"
+                {
+                  "sound": "pixelmon:pixelmon.mob.minior",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/meteor/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/774_minior/all/meteor/shiny/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/meteor/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/meteor/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "blue",
               "translationKey": "pixelmon.palette.blue_core",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "green",
               "translationKey": "pixelmon.palette.green_core",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "indigo",
               "translationKey": "pixelmon.palette.indigo_core",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "orange",
               "translationKey": "pixelmon.palette.orange_core",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "violet",
               "translationKey": "pixelmon.palette.violet_core",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "yellow",
               "translationKey": "pixelmon.palette.yellow_core",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/meteor/none/model.pqc"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -311,65 +408,159 @@
             {
               "name": "red",
               "translationKey": "pixelmon.palette.red_core",
-              "texture": "pixelmon:pokemon/774_minior/all/core/none/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/774_minior/all/core/none/model.pqc"
-                ],
-                "xRotation": 6,
-                "yRotation": 20
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/774_minior/all/core/shiny/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "blue",
               "translationKey": "pixelmon.palette.blue_core",
-              "texture": "pixelmon:pokemon/774_minior/all/core/blue/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/blue/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/blue/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "green",
               "translationKey": "pixelmon.palette.green_core",
-              "texture": "pixelmon:pokemon/774_minior/all/core/green/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/green/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/green/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "indigo",
               "translationKey": "pixelmon.palette.indigo_core",
-              "texture": "pixelmon:pokemon/774_minior/all/core/indigo/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/indigo/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/indigo/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "orange",
               "translationKey": "pixelmon.palette.orange_core",
-              "texture": "pixelmon:pokemon/774_minior/all/core/orange/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/orange/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/orange/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "violet",
               "translationKey": "pixelmon.palette.violet_core",
-              "texture": "pixelmon:pokemon/774_minior/all/core/violet/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/violet/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/violet/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "yellow",
               "translationKey": "pixelmon.palette.yellow_core",
-              "texture": "pixelmon:pokemon/774_minior/all/core/yellow/texture.png",
               "sprite": "pixelmon:pokemon/774_minior/all/core/yellow/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/774_minior/all/core/none/model.pqc",
+                      "texture": "pixelmon:pokemon/774_minior/all/core/yellow/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

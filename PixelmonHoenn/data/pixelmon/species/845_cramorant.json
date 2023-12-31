@@ -125,44 +125,26 @@
           "Throat Chop",
           "Liquidation"
         ],
-        "hmMoves": ["Fly"	, "Surf"				, "Dive"
-
+        "hmMoves": [
+          "Fly",
+          "Surf",
+          "Dive"
         ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "GulpMissile"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -226,9 +208,7 @@
         "specialDefense": 95,
         "speed": 85
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 166,
         "baseFriendship": 50,
@@ -248,26 +228,65 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/845_cramorant/all/gulping/none/texture.png",
               "sprite": "pixelmon:pokemon/845_cramorant/all/none/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/845_cramorant/all/gulping/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.cramorant",
-                "pixelmon.mob.cramorant",
-                "pixelmon.mob.cramorant"
+                {
+                  "sound": "pixelmon:pixelmon.mob.cramorant",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.cramorant",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.cramorant",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/845_cramorant/all/gulping/none/model.pqc",
+                      "texture": "pixelmon:pokemon/845_cramorant/all/gulping/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/845_cramorant/all/gulping/shiny/texture.png",
               "sprite": "pixelmon:pokemon/845_cramorant/all/none/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/845_cramorant/all/gulping/none/model.pqc",
+                      "texture": "pixelmon:pokemon/845_cramorant/all/gulping/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -280,16 +299,10 @@
         "FLYING",
         "WATER"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -298,9 +311,7 @@
       "weight": 18.0,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialDefense": 2
       }
@@ -316,21 +327,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/845_cramorant/all/gulping/none/texture.png",
               "sprite": "pixelmon:pokemon/845_cramorant/all/gulping/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/845_cramorant/all/gulping/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/845_cramorant/all/gulping/none/model.pqc",
+                      "texture": "pixelmon:pokemon/845_cramorant/all/gulping/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/845_cramorant/all/gulping/shiny/texture.png",
               "sprite": "pixelmon:pokemon/845_cramorant/all/gulping/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/845_cramorant/all/gulping/none/model.pqc",
+                      "texture": "pixelmon:pokemon/845_cramorant/all/gulping/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -350,21 +391,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/845_cramorant/all/gorging/none/texture.png",
               "sprite": "pixelmon:pokemon/845_cramorant/all/gorging/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/845_cramorant/all/gorging/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/845_cramorant/all/gorging/none/model.pqc",
+                      "texture": "pixelmon:pokemon/845_cramorant/all/gorging/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/845_cramorant/all/gorging/shiny/texture.png",
               "sprite": "pixelmon:pokemon/845_cramorant/all/gorging/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/845_cramorant/all/gorging/none/model.pqc",
+                      "texture": "pixelmon:pokemon/845_cramorant/all/gorging/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

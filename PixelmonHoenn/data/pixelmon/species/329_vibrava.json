@@ -156,8 +156,10 @@
           "Earth Power",
           "Throat Chop"
         ],
-        "hmMoves": [ "Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Air Cutter",
@@ -325,23 +327,15 @@
           "Attract",
           "Steel Wing"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "Levitate"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -405,9 +399,7 @@
         "specialDefense": 50,
         "speed": 70
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 126,
         "baseFriendship": 70,
@@ -427,28 +419,77 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/329_vibrava/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/329_vibrava/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/329_vibrava/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.03,
-                "rotateAngleX": 0
-              },
               "sounds": [
-                "pixelmon.mob.vibrava",
-                "pixelmon.mob.vibrava",
-                "pixelmon.mob.vibrava"
+                {
+                  "sound": "pixelmon:pixelmon.mob.vibrava",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.vibrava",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.vibrava",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/329_vibrava/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/329_vibrava/all/base/none/texture.png",
+                      "movement_threshold": 0.03,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/329_vibrava/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/329_vibrava/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/329_vibrava/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/329_vibrava/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -465,12 +506,8 @@
         "Trapinch"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -483,9 +520,7 @@
         {
           "level": 45,
           "to": "Flygon",
-          "conditions": [
-
-          ],
+          "conditions": [],
           "evoType": "leveling",
           "moves": [
             "Dragon Claw"

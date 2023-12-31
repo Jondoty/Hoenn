@@ -119,8 +119,9 @@
           "Play Rough",
           "Dazzling Gleam"
         ],
-        "hmMoves": [ "Fly"				, "Rock Smash"
-
+        "hmMoves": [
+          "Fly",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Air Cutter",
@@ -347,18 +348,10 @@
           "Pluck",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -431,9 +424,7 @@
         "specialDefense": 115,
         "speed": 80
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 220,
         "baseFriendship": 70,
@@ -453,40 +444,108 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/468_togekiss/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/468_togekiss/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.03,
-                "yRotation": 28
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.03,
-                "yRotation": 28
-              },
-              "sounds": [
-
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/468_togekiss/all/base/none/texture.png",
+                      "movement_threshold": 0.03
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/468_togekiss/all/base/none/texture.png",
+                      "movement_threshold": 0.03
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/468_togekiss/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/468_togekiss/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "texture": "pixelmon:pokemon/468_togekiss/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "texture": "pixelmon:pokemon/468_togekiss/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "valentine",
-              "texture": "pixelmon:pokemon/468_togekiss/all/base/valentine/texture.png",
               "sprite": "pixelmon:pokemon/468_togekiss/all/base/valentine/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "texture": "pixelmon:pokemon/468_togekiss/all/base/valentine/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/468_togekiss/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "texture": "pixelmon:pokemon/468_togekiss/all/base/valentine/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -504,12 +563,8 @@
         "Togepi"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -518,9 +573,7 @@
       "weight": 38.0,
       "catchRate": 30,
       "malePercentage": 87.5,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 2,
         "specialDefense": 1

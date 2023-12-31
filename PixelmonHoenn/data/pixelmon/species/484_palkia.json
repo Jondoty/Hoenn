@@ -96,9 +96,7 @@
           "Dual Wingbeat",
           "Scale Shot"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Hyper Beam",
           "Giga Impact",
@@ -157,8 +155,13 @@
           "Liquidation",
           "Body Press"
         ],
-        "hmMoves": ["Cut" 		, "Surf"	, "Strength"	, "Waterfall"	, "Rock Smash"	, "Dive"
-
+        "hmMoves": [
+          "Cut",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -382,18 +385,10 @@
           "Substitute",
           "Trick Room"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -487,25 +482,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/484_palkia/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/484_palkia/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/484_palkia/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.palkia",
-                "pixelmon.mob.palkia"
+                {
+                  "sound": "pixelmon:pixelmon.mob.palkia",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.palkia",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/484_palkia/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/484_palkia/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/484_palkia/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/484_palkia/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/484_palkia/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/484_palkia/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -517,16 +548,10 @@
         "WATER",
         "DRAGON"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -535,9 +560,7 @@
       "weight": 336.0,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 3
       }
@@ -636,45 +659,19 @@
           "Thunderbolt",
           "Water Pulse"
         ],
-        "eggMoves": [
-
-        ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [
-
-        ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "eggMoves": [],
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -768,25 +765,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/484_palkia/all/origin/none/texture.png",
               "sprite": "pixelmon:pokemon/484_palkia/all/origin/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/484_palkia/all/origin/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.palkia",
-                "pixelmon.mob.palkia"
+                {
+                  "sound": "pixelmon:pixelmon.mob.palkia",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.palkia",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/484_palkia/all/origin/none/model.pqc",
+                      "texture": "pixelmon:pokemon/484_palkia/all/origin/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/484_palkia/all/origin/shiny/texture.png",
               "sprite": "pixelmon:pokemon/484_palkia/all/origin/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/484_palkia/all/origin/none/model.pqc",
+                      "texture": "pixelmon:pokemon/484_palkia/all/origin/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -798,16 +831,10 @@
         "WATER",
         "DRAGON"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -816,9 +843,7 @@
       "weight": 660.0,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "specialAttack": 3
       }

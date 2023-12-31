@@ -114,9 +114,7 @@
           "Steel Beam",
           "Steel Roller"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Fly",
           "Hyper Beam",
@@ -158,8 +156,8 @@
           "Grass Knot",
           "Heavy Slam"
         ],
-        "hmMoves": ["Fly"
-
+        "hmMoves": [
+          "Fly"
         ],
         "transferMoves": [
           "Block",
@@ -211,35 +209,19 @@
           "Flash Cannon",
           "Confide"
         ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
           "BeastBoost"
         ],
-        "hiddenAbilities": [
-
-        ]
+        "hiddenAbilities": []
       },
       "movement": {
         "rideable": true,
@@ -311,9 +293,7 @@
         "baseFriendship": 70,
         "spawnLevel": 70,
         "spawnLevelRange": 0,
-        "spawnLocations": [
-
-        ]
+        "spawnLocations": []
       },
       "possibleGenders": [
         "MALE",
@@ -325,24 +305,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/797_celesteela/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/797_celesteela/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/797_celesteela/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.celesteela"
+                {
+                  "sound": "pixelmon:pixelmon.mob.celesteela",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/797_celesteela/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/797_celesteela/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/797_celesteela/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/797_celesteela/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/797_celesteela/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/797_celesteela/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -354,16 +367,10 @@
         "STEEL",
         "FLYING"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -372,9 +379,7 @@
       "weight": 999.9,
       "catchRate": 45,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 1,
         "defense": 1,

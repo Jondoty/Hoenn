@@ -113,14 +113,10 @@
           "Steel Wing",
           "Uproar"
         ],
-        "tmMoves8": [
-
-        ],
-        "trMoves": [
-
-        ],
-        "hmMoves": [ "Fly"
-
+        "tmMoves8": [],
+        "trMoves": [],
+        "hmMoves": [
+          "Fly"
         ],
         "transferMoves": [
           "Air Cutter",
@@ -244,18 +240,10 @@
           "U-turn",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -327,9 +315,7 @@
         "specialDefense": 60,
         "speed": 100
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 172,
         "baseFriendship": 70,
@@ -349,33 +335,83 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/398_staraptor/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/398_staraptor/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/398_staraptor/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/398_staraptor/all/base/none/flying/model.pqc"
-                ],
-                "movementThreshold": 0.02,
-                "yRotation": 29
-              },
               "sounds": [
-                "pixelmon.mob.staraptor"
+                {
+                  "sound": "pixelmon:pixelmon.mob.staraptor",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/398_staraptor/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/398_staraptor/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/398_staraptor/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/398_staraptor/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/398_staraptor/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/398_staraptor/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/398_staraptor/all/base/none/flying/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/398_staraptor/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/398_staraptor/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/398_staraptor/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -392,12 +428,8 @@
         "Starly"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -406,9 +438,7 @@
       "weight": 24.9,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 3
       }

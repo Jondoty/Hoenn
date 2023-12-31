@@ -318,24 +318,62 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/413_wormadam/all/plant/none/texture.png",
               "sprite": "pixelmon:pokemon/413_wormadam/all/plant/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/413_wormadam/all/plant/none/model.pqc"
-                ],
-                "rotateAngleX": 0,
-                "yRotation": 22
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/413_wormadam/all/plant/none/model.pqc",
+                      "texture": "pixelmon:pokemon/413_wormadam/all/plant/none/texture.png",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/413_wormadam/all/plant/shiny/texture.png",
               "sprite": "pixelmon:pokemon/413_wormadam/all/plant/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/413_wormadam/all/plant/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/413_wormadam/all/plant/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -386,23 +424,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/413_wormadam/all/sandy/none/texture.png",
               "sprite": "pixelmon:pokemon/413_wormadam/all/sandy/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/413_wormadam/all/sandy/none/model.pqc"
-                ],
-                "rotateAngleX": 0,
-                "yRotation": 22
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/413_wormadam/all/sandy/none/model.pqc",
+                      "texture": "pixelmon:pokemon/413_wormadam/all/sandy/none/texture.png",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/413_wormadam/all/sandy/shiny/texture.png",
               "sprite": "pixelmon:pokemon/413_wormadam/all/sandy/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/413_wormadam/all/sandy/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/413_wormadam/all/sandy/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -431,23 +507,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/413_wormadam/all/trash/none/texture.png",
               "sprite": "pixelmon:pokemon/413_wormadam/all/trash/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/413_wormadam/all/trash/none/model.pqc"
-                ],
-                "rotateAngleX": 0,
-                "yRotation": 22
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/413_wormadam/all/trash/none/model.pqc",
+                      "texture": "pixelmon:pokemon/413_wormadam/all/trash/none/texture.png",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/413_wormadam/all/trash/shiny/texture.png",
               "sprite": "pixelmon:pokemon/413_wormadam/all/trash/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/413_wormadam/all/trash/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/413_wormadam/all/trash/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

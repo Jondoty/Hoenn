@@ -100,9 +100,7 @@
         "tutorMoves": [
           "Dual Wingbeat"
         ],
-        "eggMoves": [
-
-        ],
+        "eggMoves": [],
         "tmMoves8": [
           "Pin Missile",
           "Hyper Beam",
@@ -141,8 +139,8 @@
           "Bug Buzz",
           "Power Gem"
         ],
-        "hmMoves": ["Cut" 
-
+        "hmMoves": [
+          "Cut"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -300,18 +298,10 @@
           "U-turn",
           "Substitute"
         ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -383,9 +373,7 @@
         "specialDefense": 102,
         "speed": 40
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 188,
         "baseFriendship": 70,
@@ -405,25 +393,54 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/416_vespiquen/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/416_vespiquen/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/416_vespiquen/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
-              "sounds": [
-
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/416_vespiquen/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/416_vespiquen/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/416_vespiquen/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/416_vespiquen/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/416_vespiquen/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/416_vespiquen/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -439,12 +456,8 @@
         "Combee"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -453,9 +466,7 @@
       "weight": 38.5,
       "catchRate": 45,
       "malePercentage": 0,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "defense": 1,
         "specialDefense": 1

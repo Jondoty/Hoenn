@@ -144,8 +144,10 @@
           "Work Up",
           "Hurricane"
         ],
-        "hmMoves": [ "Fly"		, "Strength"		, "Rock Smash"
-
+        "hmMoves": [
+          "Fly",
+          "Strength",
+          "Rock Smash"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -352,12 +354,8 @@
           "Steel Wing",
           "Nightmare"
         ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -430,9 +428,7 @@
         "specialDefense": 96,
         "speed": 70
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 162,
         "baseFriendship": 70,
@@ -452,32 +448,85 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/164_noctowl/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/164_noctowl/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/164_noctowl/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.015
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/164_noctowl/all/base/none/flying/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.noctowl",
-                "pixelmon.mob.noctowl"
+                {
+                  "sound": "pixelmon:pixelmon.mob.noctowl",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.noctowl",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/164_noctowl/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/164_noctowl/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/164_noctowl/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/164_noctowl/all/base/none/texture.png",
+                      "movement_threshold": 0.015
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/164_noctowl/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/164_noctowl/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/164_noctowl/all/base/none/flying/model.pqc",
+                      "texture": "pixelmon:pokemon/164_noctowl/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/164_noctowl/all/base/none/model.pqc",
+                      "movement_threshold": 0.015,
+                      "texture": "pixelmon:pokemon/164_noctowl/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -493,12 +542,8 @@
         "Hoothoot"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -507,9 +552,7 @@
       "weight": 40.8,
       "catchRate": 90,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "hp": 2
       }

@@ -153,36 +153,16 @@
           "Play Rough",
           "Dazzling Gleam"
         ],
-        "hmMoves": [
-
-        ],
-        "transferMoves": [
-
-        ],
-        "tmMoves7": [
-
-        ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "hmMoves": [],
+        "transferMoves": [],
+        "tmMoves7": [],
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -254,9 +234,7 @@
         "specialDefense": 90,
         "speed": 65
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 168,
         "baseFriendship": 50,
@@ -276,30 +254,79 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/873_frosmoth/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/873_frosmoth/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/873_frosmoth/all/base/none/model.pqc"
-                ]
-              },
-              "flyingModelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/873_frosmoth/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.frosmoth"
+                {
+                  "sound": "pixelmon:pixelmon.mob.frosmoth",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/873_frosmoth/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/873_frosmoth/all/base/none/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/873_frosmoth/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/873_frosmoth/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/873_frosmoth/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/873_frosmoth/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:flying"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/873_frosmoth/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/873_frosmoth/all/base/shiny/texture.png"
+                    }
+                  ]
+                },
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/873_frosmoth/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/873_frosmoth/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -315,12 +342,8 @@
         "Snom"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false

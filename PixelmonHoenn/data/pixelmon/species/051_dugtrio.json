@@ -136,7 +136,10 @@
           "Work Up",
           "High Horsepower"
         ],
-        "hmMoves": ["Cut" 					, "Rock Smash"],
+        "hmMoves": [
+          "Cut",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Aerial Ace",
           "Bide",
@@ -406,31 +409,78 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/051_dugtrio/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/051_dugtrio/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/051_dugtrio/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.dugtrio",
-                "pixelmon.mob.dugtrio"
+                {
+                  "sound": "pixelmon:pixelmon.mob.dugtrio",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.dugtrio",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/051_dugtrio/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/051_dugtrio/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/051_dugtrio/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/051_dugtrio/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/051_dugtrio/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/051_dugtrio/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "pink",
-              "texture": "pixelmon:pokemon/051_dugtrio/all/base/pink/texture.png",
               "sprite": "pixelmon:pokemon/051_dugtrio/all/base/pink/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/051_dugtrio/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/051_dugtrio/all/base/pink/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -684,21 +734,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/051_dugtrio/all/alolan/none/texture.png",
               "sprite": "pixelmon:pokemon/051_dugtrio/all/alolan/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/051_dugtrio/all/alolan/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/051_dugtrio/all/alolan/none/model.pqc",
+                      "texture": "pixelmon:pokemon/051_dugtrio/all/alolan/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/051_dugtrio/all/alolan/shiny/texture.png",
               "sprite": "pixelmon:pokemon/051_dugtrio/all/alolan/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/051_dugtrio/all/alolan/none/model.pqc",
+                      "texture": "pixelmon:pokemon/051_dugtrio/all/alolan/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

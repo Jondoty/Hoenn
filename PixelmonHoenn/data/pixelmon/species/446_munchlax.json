@@ -169,7 +169,11 @@
           "Gunk Shot",
           "Work Up"
         ],
-        "hmMoves": [ "Surf"	, "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Surf",
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "After You",
           "Captivate",
@@ -402,25 +406,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/446_munchlax/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/446_munchlax/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/446_munchlax/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.munchlax",
-                "pixelmon.mob.munchlax"
+                {
+                  "sound": "pixelmon:pixelmon.mob.munchlax",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.munchlax",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/446_munchlax/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/446_munchlax/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/446_munchlax/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/446_munchlax/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/446_munchlax/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/446_munchlax/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

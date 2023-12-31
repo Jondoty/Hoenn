@@ -373,26 +373,67 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/442_spiritomb/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/442_spiritomb/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "DUAL",
-                "pqc": [
-                  "pixelmon:pokemon/442_spiritomb/all/base/none/model.pqc",
-                  "pixelmon:pokemon/442_spiritomb/all/base/none/model1.pqc"
-                ],
-                "transparency2": 0.3
-              },
               "sounds": [
-                "pixelmon.mob.spiritomb"
+                {
+                  "sound": "pixelmon:pixelmon.mob.spiritomb",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/442_spiritomb/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/442_spiritomb/all/base/none/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/442_spiritomb/all/base/none/model1.pqc",
+                      "texture": "pixelmon:pokemon/442_spiritomb/all/base/none/texture.png",
+                      "texture_transparency": 0.3
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/442_spiritomb/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/442_spiritomb/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/442_spiritomb/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/442_spiritomb/all/base/shiny/texture.png"
+                    },
+                    {
+                      "model": "pixelmon:pokemon/442_spiritomb/all/base/none/model1.pqc",
+                      "texture_transparency": 0.3,
+                      "texture": "pixelmon:pokemon/442_spiritomb/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

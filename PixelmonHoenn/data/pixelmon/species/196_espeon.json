@@ -164,7 +164,9 @@
           "Dazzling Gleam",
           "Psychic Fangs"
         ],
-        "hmMoves": ["Cut" ],
+        "hmMoves": [
+          "Cut"
+        ],
         "transferMoves": [
           "Bide",
           "Captivate",
@@ -449,37 +451,95 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/196_espeon/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/196_espeon/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/196_espeon/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.espeon",
-                "pixelmon.mob.espeon"
+                {
+                  "sound": "pixelmon:pixelmon.mob.espeon",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.espeon",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/196_espeon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/196_espeon/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/196_espeon/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/196_espeon/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/196_espeon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/196_espeon/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "strike",
-              "texture": "pixelmon:pokemon/196_espeon/all/base/strike/texture.png",
               "sprite": "pixelmon:pokemon/196_espeon/all/base/strike/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/196_espeon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/196_espeon/all/base/strike/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "spirit",
-              "texture": "pixelmon:pokemon/196_espeon/all/base/spirit/texture.png",
               "sprite": "pixelmon:pokemon/196_espeon/all/base/spirit/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/196_espeon/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/196_espeon/all/base/spirit/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

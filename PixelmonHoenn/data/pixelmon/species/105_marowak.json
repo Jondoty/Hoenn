@@ -154,7 +154,10 @@
           "Stealth Rock",
           "Throat Chop"
         ],
-        "hmMoves": [ "Strength"		, "Rock Smash"],
+        "hmMoves": [
+          "Strength",
+          "Rock Smash"
+        ],
         "transferMoves": [
           "Aerial Ace",
           "Bide",
@@ -491,26 +494,69 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/105_marowak/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/105_marowak/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/105_marowak/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.03,
-                "rotateAngleX": 0
-              },
               "sounds": [
-                "pixelmon.mob.marowak"
+                {
+                  "sound": "pixelmon:pixelmon.mob.marowak",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/105_marowak/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/105_marowak/all/base/none/texture.png",
+                      "movement_threshold": 0.03,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/105_marowak/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/105_marowak/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/105_marowak/all/base/none/model.pqc",
+                      "movement_threshold": 0.03,
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/105_marowak/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -830,21 +876,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/105_marowak/all/alolan/none/texture.png",
               "sprite": "pixelmon:pokemon/105_marowak/all/alolan/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/105_marowak/all/alolan/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/105_marowak/all/alolan/none/model.pqc",
+                      "texture": "pixelmon:pokemon/105_marowak/all/alolan/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/105_marowak/all/alolan/shiny/texture.png",
               "sprite": "pixelmon:pokemon/105_marowak/all/alolan/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/105_marowak/all/alolan/none/model.pqc",
+                      "texture": "pixelmon:pokemon/105_marowak/all/alolan/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

@@ -136,8 +136,10 @@
           "Hurricane",
           "Liquidation"
         ],
-        "hmMoves": ["Fly"	, "Surf"		, "Waterfall"
-
+        "hmMoves": [
+          "Fly",
+          "Surf",
+          "Waterfall"
         ],
         "transferMoves": [
           "Captivate",
@@ -316,15 +318,9 @@
           "Thief",
           "Steel Wing"
         ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -397,9 +393,7 @@
         "specialDefense": 70,
         "speed": 65
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 164,
         "baseFriendship": 70,
@@ -419,25 +413,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/279_pelipper/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/279_pelipper/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/279_pelipper/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.pelipper",
-                "pixelmon.mob.pelipper"
+                {
+                  "sound": "pixelmon:pixelmon.mob.pelipper",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.pelipper",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/279_pelipper/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/279_pelipper/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/279_pelipper/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/279_pelipper/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/279_pelipper/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/279_pelipper/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -454,12 +484,8 @@
         "Wingull"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -468,9 +494,7 @@
       "weight": 28.0,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "defense": 2
       }

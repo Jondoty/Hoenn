@@ -87,7 +87,7 @@
           {
             "level": 55,
             "attacks": [
-              "Nature's Madness"
+              "Nature\u0027s Madness"
             ]
           },
           {
@@ -115,12 +115,8 @@
             ]
           }
         ],
-        "tutorMoves": [
-
-        ],
-        "eggMoves": [
-
-        ],
+        "tutorMoves": [],
+        "eggMoves": [],
         "tmMoves8": [
           "Mega Punch",
           "Hyper Beam",
@@ -176,9 +172,7 @@
           "Darkest Lariat",
           "High Horsepower"
         ],
-        "hmMoves": [
-
-        ],
+        "hmMoves": [],
         "transferMoves": [
           "Confide",
           "Dual Chop",
@@ -242,27 +236,13 @@
           "Dazzling Gleam",
           "Confide"
         ],
-        "tmMoves6": [
-
-        ],
-        "tmMoves5": [
-
-        ],
-        "tmMoves4": [
-
-        ],
-        "tmMoves3": [
-
-        ],
-        "tmMoves2": [
-
-        ],
-        "tmMoves1": [
-
-        ],
-        "tmMoves": [
-
-        ]
+        "tmMoves6": [],
+        "tmMoves5": [],
+        "tmMoves4": [],
+        "tmMoves3": [],
+        "tmMoves2": [],
+        "tmMoves1": [],
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -342,9 +322,7 @@
         "baseFriendship": 70,
         "spawnLevel": 50,
         "spawnLevelRange": 0,
-        "spawnLocations": [
-
-        ]
+        "spawnLocations": []
       },
       "possibleGenders": [
         "MALE",
@@ -356,24 +334,57 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/787_tapubulu/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/787_tapubulu/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/787_tapubulu/all/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.tapubulu"
+                {
+                  "sound": "pixelmon:pixelmon.mob.tapubulu",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/787_tapubulu/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/787_tapubulu/all/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/787_tapubulu/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/787_tapubulu/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/787_tapubulu/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/787_tapubulu/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }
@@ -385,16 +396,10 @@
         "GRASS",
         "FAIRY"
       ],
-      "preEvolutions": [
-
-      ],
+      "preEvolutions": [],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -403,9 +408,7 @@
       "weight": 45.5,
       "catchRate": 3,
       "malePercentage": -1,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 3
       }

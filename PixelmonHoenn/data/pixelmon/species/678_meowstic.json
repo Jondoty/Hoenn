@@ -164,7 +164,9 @@
           "Work Up",
           "Play Rough"
         ],
-        "hmMoves": ["Cut" ],
+        "hmMoves": [
+          "Cut"
+        ],
         "transferMoves": [
           "Assist",
           "Barrier",
@@ -330,25 +332,61 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/678_meowstic/male/base/none/texture.png",
               "sprite": "pixelmon:pokemon/678_meowstic/male/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/678_meowstic/male/base/none/model.pqc"
-                ]
-              },
               "sounds": [
-                "pixelmon.mob.meowstic",
-                "pixelmon.mob.meowstic"
+                {
+                  "sound": "pixelmon:pixelmon.mob.meowstic",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.meowstic",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/678_meowstic/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/678_meowstic/male/base/none/texture.png"
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/678_meowstic/male/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/678_meowstic/male/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/678_meowstic/male/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/678_meowstic/male/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         },
@@ -357,21 +395,51 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/678_meowstic/female/base/none/texture.png",
               "sprite": "pixelmon:pokemon/678_meowstic/female/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/678_meowstic/female/base/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/678_meowstic/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/678_meowstic/female/base/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/678_meowstic/female/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/678_meowstic/female/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/678_meowstic/female/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/678_meowstic/female/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             }
           ]
         }

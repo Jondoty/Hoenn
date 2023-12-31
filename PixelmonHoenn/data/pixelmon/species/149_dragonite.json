@@ -177,8 +177,14 @@
           "Hurricane",
           "Body Press"
         ],
-        "hmMoves": ["Cut" 	, "Fly"	, "Surf"	, "Strength"	, "Waterfall"	, "Rock Smash"	, "Dive"
-
+        "hmMoves": [
+          "Cut",
+          "Fly",
+          "Surf",
+          "Strength",
+          "Waterfall",
+          "Rock Smash",
+          "Dive"
         ],
         "transferMoves": [
           "Aerial Ace",
@@ -522,9 +528,7 @@
           "Thunder Wave",
           "Substitute"
         ],
-        "tmMoves": [
-
-        ]
+        "tmMoves": []
       },
       "abilities": {
         "abilities": [
@@ -596,9 +600,7 @@
         "specialDefense": 100,
         "speed": 80
       },
-      "tags": [
-
-      ],
+      "tags": [],
       "spawn": {
         "baseExp": 218,
         "baseFriendship": 35,
@@ -618,35 +620,90 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/149_dragonite/all/base/none/texture.png",
               "sprite": "pixelmon:pokemon/149_dragonite/all/base/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/149_dragonite/all/base/none/model.pqc"
-                ],
-                "movementThreshold": 0.02
-              },
               "sounds": [
-                "pixelmon.mob.dragonite",
-                "pixelmon.mob.dragonite",
-                "pixelmon.mob.dragonite",
-                "pixelmon.mob.dragonite"
+                {
+                  "sound": "pixelmon:pixelmon.mob.dragonite",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.dragonite",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.dragonite",
+                  "range": 14
+                },
+                {
+                  "sound": "pixelmon:pixelmon.mob.dragonite",
+                  "range": 14
+                }
+              ],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/149_dragonite/all/base/none/model.pqc",
+                      "texture": "pixelmon:pokemon/149_dragonite/all/base/none/texture.png",
+                      "movement_threshold": 0.02
+                    }
+                  ]
+                }
               ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/149_dragonite/all/base/shiny/texture.png",
               "sprite": "pixelmon:pokemon/149_dragonite/all/base/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/149_dragonite/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/149_dragonite/all/base/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "ashen",
-              "texture": "pixelmon:pokemon/149_dragonite/all/base/ashen/texture.png",
-              "emissive": "pixelmon:pokemon/149_dragonite/all/base/ashen/dragonite.png",
               "sprite": "pixelmon:pokemon/149_dragonite/all/base/ashen/sprite.png",
-              "particle": ""
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/149_dragonite/all/base/none/model.pqc",
+                      "movement_threshold": 0.02,
+                      "texture": "pixelmon:pokemon/149_dragonite/all/base/ashen/texture.png",
+                      "emissive": "pixelmon:pokemon/149_dragonite/all/base/ashen/dragonite.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -664,12 +721,8 @@
         "Dratini"
       ],
       "defaultBaseForm": "",
-      "megaItems": [
-
-      ],
-      "megas": [
-
-      ],
+      "megaItems": [],
+      "megas": [],
       "gigantamax": {
         "canHaveFactor": false,
         "canGigantamax": false
@@ -678,33 +731,34 @@
       "weight": 210.0,
       "catchRate": 45,
       "malePercentage": 50,
-      "evolutions": [
-
-      ],
+      "evolutions": [],
       "evYields": {
         "attack": 3
       }
     },
     {
       "name": "creator",
-      "tags": [
-
-      ],
+      "tags": [],
       "genderProperties": [
         {
           "gender": "ALL",
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/149_dragonite/all/creator/none/texture.png",
               "sprite": "pixelmon:pokemon/149_dragonite/all/creator/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/149_dragonite/all/creator/none/model.pqc"
-                ]
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/149_dragonite/all/creator/none/model.pqc",
+                      "texture": "pixelmon:pokemon/149_dragonite/all/creator/none/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }

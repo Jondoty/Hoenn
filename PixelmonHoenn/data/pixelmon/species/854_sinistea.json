@@ -179,28 +179,84 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/854_sinistea/all/phony/none/texture.png",
               "sprite": "pixelmon:pokemon/854_sinistea/all/phony/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/854_sinistea/all/phony/none/model.pqc"
-                ],
-                "rotateAngleX": 0
-              },
-              "sounds": []
+              "sounds": [],
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/854_sinistea/all/phony/none/model.pqc",
+                      "texture": "pixelmon:pokemon/854_sinistea/all/phony/none/texture.png",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/854_sinistea/all/phony/shiny/texture.png",
               "sprite": "pixelmon:pokemon/854_sinistea/all/phony/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/854_sinistea/all/phony/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/854_sinistea/all/phony/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "christmas",
-              "texture": "pixelmon:pokemon/854_sinistea/all/phony/christmas/texture.png",
-              "sprite": "pixelmon:pokemon/854_sinistea/all/phony/christmas/sprite.png"
+              "sprite": "pixelmon:pokemon/854_sinistea/all/phony/christmas/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/854_sinistea/all/phony/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/854_sinistea/all/phony/christmas/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -246,27 +302,83 @@
           "palettes": [
             {
               "name": "none",
-              "texture": "pixelmon:pokemon/854_sinistea/all/antique/none/texture.png",
               "sprite": "pixelmon:pokemon/854_sinistea/all/antique/none/sprite.png",
-              "particle": "",
-              "modelLocator": {
-                "factoryType": "NORMAL",
-                "pqc": [
-                  "pixelmon:pokemon/854_sinistea/all/antique/none/model.pqc"
-                ],
-                "rotateAngleX": 0
-              }
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/854_sinistea/all/antique/none/model.pqc",
+                      "texture": "pixelmon:pokemon/854_sinistea/all/antique/none/texture.png",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "name": "shiny",
-              "texture": "pixelmon:pokemon/854_sinistea/all/antique/shiny/texture.png",
               "sprite": "pixelmon:pokemon/854_sinistea/all/antique/shiny/sprite.png",
-              "particle": "arcanery:shiny"
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/854_sinistea/all/antique/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/854_sinistea/all/antique/shiny/texture.png"
+                    }
+                  ]
+                }
+              ],
+              "particle": {
+                "probability": 0.1,
+                "options": {
+                  "type": "pixelmon:shiny",
+                  "diameter": 2.5,
+                  "lifetime": 30,
+                  "tint": {
+                    "red": 255,
+                    "green": 215,
+                    "blue": 0,
+                    "alpha": 255
+                  }
+                }
+              }
             },
             {
               "name": "christmas",
-              "texture": "pixelmon:pokemon/854_sinistea/all/antique/christmas/texture.png",
-              "sprite": "pixelmon:pokemon/854_sinistea/all/antique/christmas/sprite.png"
+              "sprite": "pixelmon:pokemon/854_sinistea/all/antique/christmas/sprite.png",
+              "models": [
+                {
+                  "model_predicate": {
+                    "type": "pixelmon:always"
+                  },
+                  "models": [
+                    {
+                      "model": "pixelmon:pokemon/854_sinistea/all/antique/none/model.pqc",
+                      "rotate_angle": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "texture": "pixelmon:pokemon/854_sinistea/all/antique/christmas/texture.png"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
