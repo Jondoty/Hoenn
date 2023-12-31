@@ -167,43 +167,43 @@ tp @a[x=-3237,y=66,z=1607,dx=2,dy=3] -3227 65 1591
 tp @a[x=-3228,y=65,z=1592,dx=2,dy=3] -3236 66 1608
 
 #Speed room - Zero Reduction room
-tp @a[x=-3269,y=65,z=1568,dx=2,dy=3,tag=Room1] -3276 65 1553
+tp @a[x=-3269,y=65,z=1568,dx=2,dy=3] -3276 65 1553
 tp @a[x=-3277,y=65,z=1554,dx=2,dy=3] -3268 65 1569
 
 #Speed room - Defense
-tp @a[x=-3257,y=65,z=1568,dx=2,dy=3,tag=Room1] -3247 65 1553
+tp @a[x=-3257,y=65,z=1568,dx=2,dy=3] -3247 65 1553
 tp @a[x=-3248,y=65,z=1554,dx=2,dy=3] -3256 65 1569
 
 #Accuracy Room - Defense
-tp @a[x=-3228,y=65,z=1568,dx=2,dy=3,tag=Room2] -3235 65 1553
+tp @a[x=-3228,y=65,z=1568,dx=2,dy=3] -3235 65 1553
 tp @a[x=-3236,y=65,z=1554,dx=2,dy=3] -3227 65 1569
 
 #Accuracy Room - Recovery
-tp @a[x=-3216,y=65,z=1568,dx=2,dy=3,tag=Room2] -3206 65 1553
+tp @a[x=-3216,y=65,z=1568,dx=2,dy=3] -3206 65 1553
 tp @a[x=-3207,y=65,z=1554,dx=2,dy=3] -3215 65 1569
 
 #Zero Spec - Strength
-tp @a[x=-3277,y=65,z=1530,dx=2,dy=3,tag=Room3] -3270 65 1515
+tp @a[x=-3277,y=65,z=1530,dx=2,dy=3] -3270 65 1515
 tp @a[x=-3271,y=65,z=1516,dx=2,dy=3] -3276 65 1531
 
 #Defense - Strength
-tp @a[x=-3248,y=65,z=1530,dx=2,dy=3,tag=Room4] -3257 65 1515
+tp @a[x=-3248,y=65,z=1530,dx=2,dy=3] -3257 65 1515
 tp @a[x=-3258,y=65,z=1516,dx=2,dy=3] -3247 65 1531
 
 #Defense - 1-hit-ko
-tp @a[x=-3236,y=65,z=1530,dx=2,dy=3,tag=Room4] -3225 65 1515
+tp @a[x=-3236,y=65,z=1530,dx=2,dy=3] -3225 65 1515
 tp @a[x=-3226,y=65,z=1516,dx=2,dy=3] -3235 65 1531
 
 #Recovery - 1-hit-ko
-tp @a[x=-3207,y=65,z=1530,dx=2,dy=3,tag=Room5] -3213 65 1515
+tp @a[x=-3207,y=65,z=1530,dx=2,dy=3] -3213 65 1515
 tp @a[x=-3214,y=65,z=1516,dx=2,dy=3] -3206 65 1531
 
 #Strength - Gym Leader
-tp @a[x=-3258,y=65,z=1492,dx=2,dy=3,tag=Room6] -3248 65 1478
+tp @a[x=-3258,y=65,z=1492,dx=2,dy=3] -3248 65 1478
 tp @a[x=-3249,y=65,z=1479,dx=2,dy=3] -3257 65 1493
 
 #1-hit-ko to Gym Leader
-tp @a[x=-3226,y=65,z=1492,dx=2,dy=3,tag=Room7] -3233 65 1478
+tp @a[x=-3226,y=65,z=1492,dx=2,dy=3] -3233 65 1478
 tp @a[x=-3234,y=65,z=1479,dx=2,dy=3] -3225 65 1493
 
 
