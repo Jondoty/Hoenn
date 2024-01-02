@@ -139,6 +139,7 @@ execute as @a[x=-2473,y=50,z=8,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2473,y=50,z=8,dx=3,dy=3] -2472 69 9
 
 #Pokemon Gym
+tag @a[x=-2548,y=69,z=-23,dx=6,dy=3,scores={DialogueTrigger=0}] remove Dialogue94
 tp @a[x=-2548,y=69,z=-23,dx=6,dy=3,scores={DialogueTrigger=0}] -3244 65 1639
 scoreboard players set @a[x=-3246,y=65,z=1640,dx=4,dy=3,tag=Dialogue95,tag=!Dialogue96,scores={DialogueTrigger=0}] DialogueTrigger 96
 tp @a[x=-3246,y=65,z=1640,dx=4,dy=3,scores={TalkTime=0}] -2545 69 -22
@@ -360,7 +361,7 @@ tp @a[x=-2743,y=50,z=-567,dx=3,dy=3] -2742 69 -566
 
 #Pokemon Gym
 tp @a[x=-2674,y=69,z=-679,dx=6,dy=3] -2985 65 1579
-tp @a[x=-2987,y=65,z=1480,dx=3,dy=3] -2671 69 -678
+tp @a[x=-2987,y=65,z=1580,dx=3,dy=3] -2671 69 -678
 
 #Devon Corp Building
 tp @a[x=-2761,y=69,z=-708,dx=8,dy=3,dz=2] -2756 18 -707
@@ -498,6 +499,7 @@ execute as @a[x=-2534,y=43,z=864,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2534,y=43,z=864,dx=3,dy=3] -2533 64 866
 
 #Pokemon Gym
+tag @a[x=-2487,y=64,z=901,dx=6,dy=3] remove Dialogue34
 tp @a[x=-2487,y=64,z=901,dx=6,dy=3] -2434 65 1622
 tp @a[x=-2436,y=65,z=1623,dx=3,dy=3] -2484 64 902
 
@@ -627,6 +629,7 @@ tp @a[x=-1612,y=133,z=-531,dz=6,dy=3] 2575 85 2904 180 ~
 tp @a[x=-1456,y=133,z=-531,dz=6,dy=3] 2836 85 2904 180 ~
 
 #Pokemon Gym
+tag @a[x=2670,y=65,z=2714,dx=6,dy=3] remove Dialogue67
 tp @a[x=2670,y=65,z=2714,dx=6,dy=3] -3375 99 1599
 tp @a[x=-3379,y=99,z=1600,dx=8,dy=3] 2673 65 2715
 
@@ -654,7 +657,7 @@ tp @a[x=-1488,y=69,z=-611,dz=12,dy=6] 2759 65 2815
 tp @a[x=2758,y=65,z=2808,dz=14,dy=6] -1489 69 -605
 
 #South to Courtyard
-tp @a[x=-1540,y=69,z=-544,dx=12,dy=6] 2705 65 2867
+tp @a[x=-1540,y=69,z=-554,dx=12,dy=6] 2705 65 2867
 tp @a[x=2698,y=65,z=2866,dx=14,dy=6] -1534 69 -555
 
 #West to Courtyard
@@ -790,6 +793,7 @@ execute as @a[x=-1977,y=65,z=-1112,dx=3,dy=3] run function hoenn:tools/forceclic
 tp @a[x=-1977,y=65,z=-1112,dx=3,dy=3] -1976 84 -1111
 
 #Pokemon Gym
+tag @a[x=-2039,y=84,z=-1053,dx=6,dy=3] remove Dialogue89
 tp @a[x=-2039,y=84,z=-1053,dx=6,dy=3] -3101 88 1625
 tp @a[x=-3102,y=88,z=1626,dx=3,dy=3] -2036 84 -1052
 
@@ -923,6 +927,7 @@ execute as @a[x=-698,y=65,z=-1373,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-698,y=65,z=-1373,dx=3,dy=3] -697 84 -1372
 
 #Pokemon Gym
+tag @a[x=-584,y=84,z=-1400,dx=3,dy=3] remove Dialogue117
 tp @a[x=-584,y=84,z=-1400,dx=3,dy=3] -2798 121 1610
 tp @a[x=-2800,y=121,z=1611,dx=4,dy=3] -583 84 -1399
 
@@ -1076,6 +1081,7 @@ tp @a[x=1472,y=74,z=-1036,dx=2,dy=3] 1473 47 -1037
 tp @a[x=1471,y=47,z=-1036,dx=4,dy=3] 1473 74 -1035
 
 #Pokemon Gym
+tag @a[x=1563,y=74,z=-1038,dx=6,dy=3] remove Dialogue137
 tp @a[x=1563,y=74,z=-1038,dx=6,dy=3] -2586 61 1586
 tp @a[x=-2587,y=61,z=1587,dx=3,dy=3] 1566 74 -1037
 
@@ -1217,6 +1223,7 @@ tp @a[x=8,y=29,z=319,dx=3,dy=3] 10 65 320
 #Sootopolis City
 
 #Pokemon Gym
+tag @a[x=983,y=64,z=1715,dx=6,dy=3] remove Dialogue151
 tp @a[x=983,y=64,z=1715,dx=6,dy=3] -3533.0 82 1601
 tp @a[x=-3536,y=82,z=1602,dx=5,dy=3] 986 65 1716
 
@@ -1318,7 +1325,7 @@ tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue161
 tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue162
 tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue163
 tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue164
-tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue165
+#tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue165
 tag @a[x=2155,y=171,z=-797,dx=6,dy=4] remove Dialogue166
 
 #Sydney's Entrance to League
@@ -1420,7 +1427,10 @@ tp @a[x=632,y=84,z=-3215,dx=4,dy=3] 634.0 87 -3180
 tp @a[x=632,y=140,z=-3215,dx=4,dy=3] 634.0 87 -3180
 
 #Steven's battle room to hall of fame
-tp @a[x=632,y=115,z=-3288,dx=4,dy=100] 633 132 -3305
+scoreboard players set @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164,tag=!Dialogue165] DialogueTrigger 165
+execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run function hoenn:tools/forceclick
+execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run tag @s remove Dialogue166
+tp @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] 633 132 -3305
 
 #-------------------------------------------------------------------------
 #Battle Resort

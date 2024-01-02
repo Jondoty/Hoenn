@@ -12,68 +12,68 @@
 #--------------------------------------------------------------------------------------------------------------------
 #Island Cave (Ice and Gigas)
 #Locked
-execute if entity @p[x=-2801,y=64,z=256,distance=..100,tag=!RegiUnlock] if block -2801 64 256 pixelmon:warp_plate run fill -2803 64 256 -2799 68 256 minecraft:orange_terracotta
+execute if entity @a[x=-2801,y=64,z=256,distance=..100,tag=!RegiUnlock] if block -2801 64 256 pixelmon:warp_plate run fill -2803 64 256 -2799 68 256 minecraft:orange_terracotta
 
 #Unlocked
-execute if entity @p[x=-2801,y=64,z=256,distance=..100,tag=RegiUnlock] if block -2801 64 256 minecraft:orange_terracotta run fill -2799 67 256 -2803 65 256 air
-execute if entity @p[x=-2801,y=64,z=256,distance=..100,tag=RegiUnlock] if block -2801 64 256 minecraft:orange_terracotta run fill -2802 68 256 -2800 65 256 air
-execute if entity @p[x=-2801,y=64,z=256,distance=..100,tag=RegiUnlock] if block -2801 64 256 minecraft:orange_terracotta run fill -2803 64 256 -2799 64 256 pixelmon:warp_plate
+execute if entity @a[x=-2801,y=64,z=256,distance=..100,tag=RegiUnlock] if block -2801 64 256 minecraft:orange_terracotta run fill -2799 67 256 -2803 65 256 air
+execute if entity @a[x=-2801,y=64,z=256,distance=..100,tag=RegiUnlock] if block -2801 64 256 minecraft:orange_terracotta run fill -2802 68 256 -2800 65 256 air
+execute if entity @a[x=-2801,y=64,z=256,distance=..100,tag=RegiUnlock] if block -2801 64 256 minecraft:orange_terracotta run fill -2803 64 256 -2799 64 256 pixelmon:warp_plate
 
 #Interior chamber block
 #Locked
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!IceUnlock] if block -2801 11 207 air run fill -2803 15 208 -2799 11 208 minecraft:black_concrete
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!IceUnlock] if block -2801 11 207 air run clone -2070 68 1444 -2066 64 1444 -2803 11 209
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!IceUnlock] if block -2801 11 207 air run fill -2803 11 207 -2799 11 207 pixelmon:warp_plate
+execute if entity @a[x=-2846,y=-15,z=76,dx=89,dy=41,dz=198,tag=!IceUnlock] if block -2801 11 207 air run fill -2803 15 208 -2799 11 208 minecraft:black_concrete
+execute if entity @a[x=-2846,y=-15,z=76,dx=89,dy=41,dz=198,tag=!IceUnlock] if block -2801 11 207 air run clone -2070 68 1444 -2066 64 1444 -2803 11 209
+execute if entity @a[x=-2846,y=-15,z=76,dx=89,dy=41,dz=198,tag=!IceUnlock] if block -2801 11 207 air run fill -2803 11 207 -2799 11 207 pixelmon:warp_plate
 
 #Unlocked
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=IceUnlock] if block -2801 11 207 pixelmon:warp_plate run fill -2802 15 209 -2800 15 209 air
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=IceUnlock] if block -2801 11 207 pixelmon:warp_plate run fill -2799 15 208 -2803 15 208 air
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=IceUnlock] if block -2801 11 207 pixelmon:warp_plate run fill -2799 14 209 -2803 11 207 air
+execute if entity @a[x=-2846,y=-15,z=76,dx=89,dy=41,dz=198,tag=IceUnlock] if block -2801 11 207 pixelmon:warp_plate run fill -2802 15 209 -2800 15 209 air
+execute if entity @a[x=-2846,y=-15,z=76,dx=89,dy=41,dz=198,tag=IceUnlock] if block -2801 11 207 pixelmon:warp_plate run fill -2799 15 208 -2803 15 208 air
+execute if entity @a[x=-2846,y=-15,z=76,dx=89,dy=41,dz=198,tag=IceUnlock] if block -2801 11 207 pixelmon:warp_plate run fill -2799 14 209 -2803 11 207 air
 
 
 #--------------------------------------------------------------------------------------------------------------------
 #Desert Ruins (Rock)
 #Locked
-execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=!RegiUnlock] if block -1422 79 -995 pixelmon:warp_plate run fill -1420 79 -995 -1424 83 -995 minecraft:orange_terracotta
+execute if entity @a[x=-1422,y=79,z=-995,distance=..100,tag=!RegiUnlock] if block -1422 79 -995 pixelmon:warp_plate run fill -1420 79 -995 -1424 83 -995 minecraft:orange_terracotta
 
 #Unlocked
-execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1423 83 -995 -1421 83 -995 air
-execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 82 -995 -1420 80 -995 air
-execute if entity @p[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 79 -995 -1420 79 -995 pixelmon:warp_plate
+execute if entity @a[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1423 83 -995 -1421 83 -995 air
+execute if entity @a[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 82 -995 -1420 80 -995 air
+execute if entity @a[x=-1422,y=79,z=-995,distance=..100,tag=RegiUnlock] if block -1422 79 -995 minecraft:orange_terracotta run fill -1424 79 -995 -1420 79 -995 pixelmon:warp_plate
 
 #Interior chamber block
 #Locked
-execute if entity @p[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=!RockUnlock] if block -1421 37 -1041 air run fill -1419 41 -1040 -1423 37 -1040 minecraft:black_concrete
-execute if entity @p[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=!RockUnlock] if block -1421 37 -1041 air run clone -2070 68 1442 -2066 64 1442 -1423 37 -1039
-execute if entity @p[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=!RockUnlock] if block -1421 37 -1041 air run fill -1419 37 -1041 -1423 37 -1041 pixelmon:warp_plate
+execute if entity @a[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=!RockUnlock] if block -1421 37 -1041 air run fill -1419 41 -1040 -1423 37 -1040 minecraft:black_concrete
+execute if entity @a[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=!RockUnlock] if block -1421 37 -1041 air run clone -2070 68 1442 -2066 64 1442 -1423 37 -1039
+execute if entity @a[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=!RockUnlock] if block -1421 37 -1041 air run fill -1419 37 -1041 -1423 37 -1041 pixelmon:warp_plate
 
 #Unlocked
-execute if entity @p[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=RockUnlock] if block -1421 37 -1041 pixelmon:warp_plate run fill -1420 41 -1039 -1422 41 -1039 air
-execute if entity @p[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=RockUnlock] if block -1421 37 -1041 pixelmon:warp_plate run fill -1423 41 -1040 -1419 41 -1040 air
-execute if entity @p[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=RockUnlock] if block -1421 37 -1041 pixelmon:warp_plate run fill -1419 40 -1039 -1423 37 -1041 air
+execute if entity @a[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=RockUnlock] if block -1421 37 -1041 pixelmon:warp_plate run fill -1420 41 -1039 -1422 41 -1039 air
+execute if entity @a[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=RockUnlock] if block -1421 37 -1041 pixelmon:warp_plate run fill -1423 41 -1040 -1419 41 -1040 air
+execute if entity @a[x=-1474,y=0,z=-1178,dx=104,dy=55,dz=217,tag=RockUnlock] if block -1421 37 -1041 pixelmon:warp_plate run fill -1419 40 -1039 -1423 37 -1041 air
 
 
 #--------------------------------------------------------------------------------------------------------------------
 #Ancient Tomb (Steel)
 #Locked
-execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=!RegiUnlock] if block -372 104 -1182 pixelmon:warp_plate run fill -374 108 -1182 -370 104 -1182 minecraft:orange_terracotta
+execute if entity @a[x=-372,y=104,z=-1182,distance=..100,tag=!RegiUnlock] if block -372 104 -1182 pixelmon:warp_plate run fill -374 108 -1182 -370 104 -1182 minecraft:orange_terracotta
 
 #Unlocked
-execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -373 108 -1182 -371 108 -1182 air
-execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -370 107 -1182 -374 105 -1182 air
-execute if entity @p[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -374 104 -1182 -370 104 -1182 pixelmon:warp_plate
+execute if entity @a[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -373 108 -1182 -371 108 -1182 air
+execute if entity @a[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -370 107 -1182 -374 105 -1182 air
+execute if entity @a[x=-372,y=104,z=-1182,distance=..100,tag=RegiUnlock] if block -372 104 -1182 minecraft:orange_terracotta run fill -374 104 -1182 -370 104 -1182 pixelmon:warp_plate
 
 
 #Interior chamber block
 #Locked
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!SteelUnlock] if block -371 37 -1228 air run fill -369 37 -1227 -373 41 -1227 minecraft:black_concrete
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!SteelUnlock] if block -371 37 -1228 air run clone -2070 68 1440 -2066 64 1440 -373 37 -1226
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!SteelUnlock] if block -371 37 -1228 air run fill -369 37 -1228 -373 37 -1228 pixelmon:warp_plate
+execute if entity @a[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!SteelUnlock] if block -371 37 -1228 air run fill -369 37 -1227 -373 41 -1227 minecraft:black_concrete
+execute if entity @a[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!SteelUnlock] if block -371 37 -1228 air run clone -2070 68 1440 -2066 64 1440 -373 37 -1226
+execute if entity @a[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=!SteelUnlock] if block -371 37 -1228 air run fill -369 37 -1228 -373 37 -1228 pixelmon:warp_plate
 
 #Unlocked
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=SteelUnlock] if block -371 37 -1228 pixelmon:warp_plate run fill -370 41 -1227 -372 41 -1226 air
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=SteelUnlock] if block -371 37 -1228 pixelmon:warp_plate run fill -373 41 -1227 -369 41 -1227 air
-execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=SteelUnlock] if block -371 37 -1228 pixelmon:warp_plate run fill -369 37 -1228 -373 40 -1226 air
+execute if entity @a[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=SteelUnlock] if block -371 37 -1228 pixelmon:warp_plate run fill -370 41 -1227 -372 41 -1226 air
+execute if entity @a[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=SteelUnlock] if block -371 37 -1228 pixelmon:warp_plate run fill -373 41 -1227 -369 41 -1227 air
+execute if entity @a[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=SteelUnlock] if block -371 37 -1228 pixelmon:warp_plate run fill -369 37 -1228 -373 40 -1226 air
 
 
 #--------------------------------------------------------------------------------------------------------------------
@@ -81,14 +81,14 @@ execute if entity @p[x=-428,y=0,z=-1376,dx=116,dy=55,dz=227,tag=SteelUnlock] if 
 
 #Interior chamber block
 #Locked
-execute if entity @p[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=!ChamberUnlock] if block 2578 80 -2949 air run fill 2575 80 -2948 2581 85 -2948 minecraft:black_concrete
-execute if entity @p[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=!ChamberUnlock] if block 2578 80 -2949 air run clone -2070 69 1438 -2064 64 1438 2575 80 -2947
-execute if entity @p[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=!ChamberUnlock] if block 2578 80 -2949 air run fill 2581 80 -2949 2575 80 -2949 pixelmon:warp_plate
+execute if entity @a[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=!ChamberUnlock] if block 2578 80 -2949 air run fill 2575 80 -2948 2581 85 -2948 minecraft:black_concrete
+execute if entity @a[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=!ChamberUnlock] if block 2578 80 -2949 air run clone -2070 69 1438 -2064 64 1438 2575 80 -2947
+execute if entity @a[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=!ChamberUnlock] if block 2578 80 -2949 air run fill 2581 80 -2949 2575 80 -2949 pixelmon:warp_plate
 
 #Unlocked
-execute if entity @p[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=ChamberUnlock] if block -2578 80 -2949 pixelmon:warp_plate run fill 2580 85 -2947 2576 85 -2948 air
-execute if entity @p[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=ChamberUnlock] if block -2578 80 -2949 pixelmon:warp_plate run fill 2581 85 -2948 2575 85 -2948 air
-execute if entity @p[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=ChamberUnlock] if block -2578 80 -2949 pixelmon:warp_plate run fill 2581 84 -2947 2575 80 -2949 air
+execute if entity @a[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=ChamberUnlock] if block 2578 80 -2949 pixelmon:warp_plate run fill 2580 85 -2947 2576 85 -2948 air
+execute if entity @a[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=ChamberUnlock] if block 2578 80 -2949 pixelmon:warp_plate run fill 2581 85 -2948 2575 85 -2948 air
+execute if entity @a[x=2440,y=0,z=-3361,dx=319,dy=256,dz=686,tag=ChamberUnlock] if block 2578 80 -2949 pixelmon:warp_plate run fill 2581 84 -2947 2575 80 -2949 air
 
 #--------------------------------------------------------------------------------------------------------------------
 #Puzzles!
@@ -135,8 +135,8 @@ scoreboard players set @a[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217,scores={StepCou
 
 execute as @a[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217] run scoreboard players add @s DayTime 1
 
-execute as @a[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217,scores={DayTIme=168..}] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217,scores={DayTIme=168..}] run tag @s add IceUnlock
+execute as @a[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217,scores={DayTime=168..},tag=!IceUnlock] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=-2853,y=-16,z=69,dx=101,dy=46,dz=217,scores={DayTime=168..},tag=!IceUnlock] run tag @s add IceUnlock
 
 
 #--------------------------------------------------------------------

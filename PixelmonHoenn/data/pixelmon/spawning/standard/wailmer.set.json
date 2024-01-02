@@ -1,46 +1,18 @@
 {
-  "id": "Wailmer",
-  "spawnInfos": [
-    {
-      "spec": "species:Wailmer",
-      "stringLocationTypes": [
-        "Water"
-      ],
-      "minLevel": 15,
-      "maxLevel": 39,
-      "typeID": "pokemon",
-      "condition": {
-        "times": [
-          "DAWN",
-          "DAY",
-          "DUSK"
-        ],
-        "biomes": [
-          "#pixelmon:spawning/oceanic",
-          "terraforged:warm_beach"
-        ]
-      },
-      "groupSpawnSettings": [
+      "id": "Wailmer",
+      "spawnInfos": [
         {
-          "spec": "Wailmer",
-          "amount": {
-            "min_value": 3,
-            "max_value": 5
+          "spec": "species:Wailmer",
+          "stringLocationTypes": [
+            "Underground Water", "Water"
+          ],
+          "minLevel": 20,
+          "maxLevel": 40,
+          "typeID": "pokemon",
+          "condition": {
+              "minX": -3594, "maxX": 3056, "minZ": -2275, "maxZ": 1209, "minY": -128, "maxY": 32
           },
-          "spawn_range_minimum": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "spawn_range_maximum": {
-            "x": 5,
-            "y": 5,
-            "z": 5
-          },
-          "chance": 0.5
+          "rarity": 15.0
         }
-      ],
-      "rarity": 0.0
+      ]
     }
-  ]
-}

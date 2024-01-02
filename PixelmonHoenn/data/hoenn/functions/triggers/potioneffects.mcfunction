@@ -21,7 +21,10 @@ execute as @a[x=392,y=-100,z=2311,dx=501,dy=256,dz=501] run effect give @s minec
 
 
 #Mauville City
-execute as @a[x=2536,y=0,z=2614,dx=254,dy=256,dz=375] run effect give @s minecraft:night_vision 20 1 true
+execute as @a[x=2536,y=0,z=2614,dx=354,dy=256,dz=375] run effect give @s minecraft:night_vision 20 1 true
+
+#Starters zones
+execute as @a[x=-2123,y=63,z=1286,dx=203,dy=40,dz=50] run effect give @s minecraft:night_vision 20 1 true
 
 #Removes
 

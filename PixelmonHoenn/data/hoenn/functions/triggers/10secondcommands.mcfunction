@@ -13,6 +13,12 @@ function hoenn:world/gamedifferences
 function hoenn:randomizer/debossinator
 
 #Mirage spot sword trio EV scanning
+tag @s remove FirstEVMaxed
+tag @s remove SecondEVMaxed
+tag @s remove ThirdEVMaxed
+tag @s remove FourthEVMaxed
+tag @s remove FifthEVMaxed
+tag @s remove SixthEVMaxed
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296] run function hoenn:data/evscantotal
 
 #Manages fly spots if player needs tags
@@ -22,7 +28,7 @@ tag @a[tag=!FlyRustboro,x=-2804,y=0,z=-748,dx=195,dy=256,dz=235] add FlyRustboro
 tag @a[tag=!FlyDewford,x=-2574,y=0,z=790,dx=243,dy=256,dz=176] add FlyDewford
 tag @a[tag=!FlySlateport,x=-1654,y=0,z=136,dx=366,dy=256,dz=312] add FlySlateport
 tag @a[tag=!FlyMauville,x=-1668,y=0,z=-718,dx=268,dy=256,dz=226] add FlyMauville
-tag @a[tag=!FlyMauville,x=2536,y=0,z=2614,dx=254,dy=256,dz=375] add FlyMauville
+tag @a[tag=!FlyMauville,x=2536,y=0,z=2614,dx=354,dy=256,dz=375] add FlyMauville
 tag @a[tag=!FlyVerdanturf,x=-2229,y=60,z=-692,dx=230,dy=256,dz=196] add FlyVerdanturf
 tag @a[tag=!FlyFallarbor,x=-2344,y=0,z=-1507,dx=189,dy=256,dz=164] add FlyFallarbor
 tag @a[tag=!FlyLavaridge,x=-2125,y=0,z=-1184,dx=214,dy=256,dz=159] add FlyLavaridge

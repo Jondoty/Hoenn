@@ -298,3 +298,6 @@ data merge block 339 145 -171 {bossRatio:1000000f}
 data merge block 339 144 -212 {bossRatio:1000000f}
 data merge block 312 186 -184 {bossRatio:1000000f}
 data merge block 346 190 -206 {bossRatio:1000000f}
+
+data merge block -1571 67 66 {bossRatio:1000000f}
+data merge block -1542 67 73 {bossRatio:1000000f}

@@ -209,6 +209,7 @@ execute as @s[scores={DialogueTrigger=7,TalkTime=50}] run effect give @s minecra
 execute as @s[scores={DialogueTrigger=7,TalkTime=51}] run tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
 execute as @s[scores={DialogueTrigger=7,TalkTime=52}] run function hoenn:tools/forceclick
 execute as @s[scores={DialogueTrigger=7,TalkTime=52}] run tp @s -2042 50 323 180 21
+execute as @s[scores={DialogueTrigger=7,TalkTime=52}] run scoreboard players set @s MusicTitles 1
 
 tellraw @s[scores={DialogueTrigger=7,TalkTime=55}] ["",{"text":"<Professor Birch> So, "},{"selector":"@s"},{"text":"! I've heard so much about you from your father."}]
 tellraw @s[scores={DialogueTrigger=7,TalkTime=62}] {"text":"<Professor Birch> But he said that you don't have your own Pokémon yet."}
@@ -3393,7 +3394,7 @@ tellraw @s[scores={DialogueTrigger=100,TalkTime=143,GameVersion=2}] {"text":"Lat
 tellraw @s[scores={DialogueTrigger=100,TalkTime=150}] {"text":"<Steven> You should take this from me..."}
 
 tellraw @s[scores={DialogueTrigger=100,TalkTime=157}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Mega Braclet!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=100,TalkTime=157}] run megaring @s
+execute as @s[scores={DialogueTrigger=100,TalkTime=157}] run megaring
 execute as @s[scores={DialogueTrigger=100,TalkTime=157}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
 
 tellraw @s[scores={DialogueTrigger=100,TalkTime=164}] {"text":"<Steven> With the Mega Bracelet that I just gave you and the Mega Stones that a Pokémon may hold,"}
@@ -3696,7 +3697,7 @@ tellraw @s[scores={DialogueTrigger=106,TalkTime=1,Rival=1}] {"text":"<May> Hm! W
 execute as @s[scores={DialogueTrigger=106,TalkTime=10,Rival=1}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=106,TalkTime=10,Rival=1}] run give @s pixelmon:hm2
 execute as @s[scores={DialogueTrigger=106,TalkTime=10,Rival=1}] run function hoenn:spawn/flyhm
-tellraw @s[scores={DialogueTrigger=106,TalkTime=10,Rival=1}] {"text":"@s obtained HM02 Fly!","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=106,TalkTime=10,Rival=1}] [{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM02 Fly!","italic":true,"color":"gray"}]
 
 tellraw @s[scores={DialogueTrigger=106,TalkTime=18,Rival=1}] {"text":"<May> If you use Fly, your Pokémon will carry you back to anywhere you've been before."}
 tellraw @s[scores={DialogueTrigger=106,TalkTime=28,Rival=1}] {"text":"<May> But you must have the Gym Badge from Fortree City to use Fly outside of battle."}
@@ -9039,6 +9040,7 @@ execute as @s[scores={DialogueTrigger=243,TalkTime=6}] run effect give @s minecr
 
 #tps player to the in-progress boat, tracks where they're heading with a score
 execute as @s[scores={DialogueTrigger=243,TalkTime=7}] run tp @s 2382 72 -1333 0 20
+execute as @s[scores={DialogueTrigger=243,TalkTime=7}] run function hoenn:tools/forceclick
 
 tellraw @s[scores={DialogueTrigger=243,TalkTime=14}] {"text":"<Sailor> This ferry is built to plow through fast-running currents."}
 tellraw @s[scores={DialogueTrigger=243,TalkTime=22}] {"text":"<Sailor> We hope you enjoy your voyage with us. Feel free to explore the ship."}

@@ -265,12 +265,6 @@ execute as @s[scores={Temp=3..},x=-802,y=63,z=1512,dx=2,dy=15,dz=2] run function
 execute as @s[scores={Temp=3..},x=-802,y=63,z=1512,dx=2,dy=15,dz=2] run gamemode adventure @s
 execute as @s[scores={Temp=3..},x=-802,y=63,z=1512,dx=2,dy=15,dz=2] run tp @s -247 84 1487 90 0
 
-tag @s remove FirstEVMaxed
-tag @s remove SecondEVMaxed
-tag @s remove ThirdEVMaxed
-tag @s remove FourthEVMaxed
-tag @s remove FifthEVMaxed
-tag @s remove SixthEVMaxed
 scoreboard players set @s PokeHave 0
 
 #Nameless Cavern
@@ -548,7 +542,7 @@ execute if predicate hoenn:rain_test run scoreboard players set @a[tag=CastformH
 execute unless predicate hoenn:rain_test run scoreboard players set @a[tag=CastformHave,x=-930,y=95,z=1522,distance=..7,tag=!Dialogue240] DialogueTrigger 240
 
 #Landorus, runs if both others present in inventory
-execute unless predicate hoenn:rain_test run scoreboard players set @a[tag=ThundurusHave,tag=TornadusHave,x=-814,y=106,z=1503,distance=..7,tag=!Dialogue264] DialogueTrigger 264
+scoreboard players set @a[tag=ThundurusHave,tag=TornadusHave,x=-814,y=106,z=1503,distance=..7,tag=!Dialogue264] DialogueTrigger 264
 
 #Regular world zones
 

@@ -20,7 +20,7 @@ title @s[x=-2804,y=0,z=-748,dx=195,dy=256,dz=235] actionbar {"text":"Rustboro Ci
 title @s[x=-2574,y=0,z=790,dx=243,dy=256,dz=176] actionbar {"text":"Dewford Town"}
 title @s[x=-1654,y=0,z=136,dx=366,dy=256,dz=312] actionbar {"text":"Slateport City"}
 title @s[x=-1668,y=0,z=-718,dx=268,dy=256,dz=226] actionbar {"text":"Mauville City"}
-title @s[x=2536,y=0,z=2614,dx=254,dy=256,dz=375] actionbar {"text":"Mauville City"}
+title @s[x=2536,y=0,z=2614,dx=354,dy=256,dz=375] actionbar {"text":"Mauville City"}
 title @s[x=-2229,y=60,z=-692,dx=230,dy=256,dz=196] actionbar {"text":"Verdanturf Town"}
 title @s[x=-2344,y=0,z=-1507,dx=189,dy=256,dz=164] actionbar {"text":"Fallarbor Town"}
 title @s[x=-2125,y=0,z=-1184,dx=214,dy=256,dz=159] actionbar {"text":"Lavaridge Town"}

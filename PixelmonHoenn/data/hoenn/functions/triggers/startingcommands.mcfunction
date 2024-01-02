@@ -11,10 +11,14 @@ item replace entity @s inventory.8 with pixelmon:potion
 item replace entity @s hotbar.8 with pixelmon:exp_all
 give @s pixelmon:new_running_boots{Unbreakable:1}
 
+#Gives the player money
+execute as @s run givemoney 2000
+
 #Basic world gamerules
 difficulty peaceful
 gamerule doDaylightCycle true
 gamerule keepInventory true
+gamemode randomTickSpeed 3
 scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
 

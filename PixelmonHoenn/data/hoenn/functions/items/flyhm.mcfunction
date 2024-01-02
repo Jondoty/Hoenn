@@ -19,9 +19,9 @@ tag @s[scores={Fly=1..,DialogueTrigger=1..}] remove Fly
 
 
 #If player is specifically in Registeel's center spot
-execute as @s[x=371,y=37,z=-1203,distance=..5,tag=!SteelUnlock,tag=Fly] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=371,y=37,z=-1203,distance=..5,tag=!SteelUnlock,tag=Fly] run tag @s add SteelUnlock
-execute as @s[x=371,y=37,z=-1203,distance=..5,tag=SteelUnlock,tag=Fly] run tag @s remove Fly
+execute as @s[x=-371,y=37,z=-1203,distance=..5,tag=!SteelUnlock,tag=Fly] run playsound minecraft:entity.iron_golem.death ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-371,y=37,z=-1203,distance=..5,tag=!SteelUnlock,tag=Fly] run tag @s add SteelUnlock
+execute as @s[x=-371,y=37,z=-1203,distance=..5,tag=SteelUnlock,tag=Fly] run tag @s remove Fly
 
 #---------------------------------------------------------------------------------------------
 #Checks the blocks above the player to see if they are indoors

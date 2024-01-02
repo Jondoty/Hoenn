@@ -127,9 +127,9 @@ execute unless score @s MusicTitles matches 8 run title @s[x=-1668,y=0,z=-718,dx
 execute unless score @s MusicTitles matches 8 as @s[x=-1668,y=0,z=-718,dx=268,dy=256,dz=226] run function hoenn:tools/forceclick
 execute unless score @s MusicTitles matches 8 run scoreboard players set @s[x=-1668,y=0,z=-718,dx=268,dy=256,dz=226] MusicTitles 8
 
-execute unless score @s MusicTitles matches 8 run title @s[x=2536,y=0,z=2614,dx=254,dy=256,dz=375] actionbar {"text":"Mauville City"}
-execute unless score @s MusicTitles matches 8 as @s[x=2536,y=0,z=2614,dx=254,dy=256,dz=375] run function hoenn:tools/forceclick
-execute unless score @s MusicTitles matches 8 run scoreboard players set @s[x=2536,y=0,z=2614,dx=254,dy=256,dz=375] MusicTitles 8
+execute unless score @s MusicTitles matches 8 run title @s[x=2536,y=0,z=2614,dx=354,dy=256,dz=375] actionbar {"text":"Mauville City"}
+execute unless score @s MusicTitles matches 8 as @s[x=2536,y=0,z=2614,dx=354,dy=256,dz=375] run function hoenn:tools/forceclick
+execute unless score @s MusicTitles matches 8 run scoreboard players set @s[x=2536,y=0,z=2614,dx=354,dy=256,dz=375] MusicTitles 8
 
 execute unless score @s MusicTitles matches 10 run title @s[x=-2229,y=60,z=-692,dx=230,dy=256,dz=196] actionbar {"text":"Verdanturf Town"}
 execute unless score @s MusicTitles matches 10 as @s[x=-2229,y=60,z=-692,dx=230,dy=256,dz=196] run function hoenn:tools/forceclick

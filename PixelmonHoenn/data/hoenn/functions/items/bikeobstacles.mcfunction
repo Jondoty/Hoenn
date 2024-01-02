@@ -102,7 +102,7 @@ execute as @a[x=1030,y=58,z=-1541,dx=10,dy=15,dz=11,y_rotation=0..180] at @s if 
 #Acro Bikes
 
 #Breaks bikes if player is riding on an iron block with a mach bike
-execute as @a at @s as @e[type=pixelmon:bike,distance=..3,nbt={type:0b}] if block ~ ~-1 ~ minecraft:iron_block run kill @s[type=pixelmon:bike,nbt={type:0b}]
+execute as @a unless entity @s[x=-1654,y=0,z=-491,dx=333,dy=256,dz=626] at @s as @e[type=pixelmon:bike,distance=..3,nbt={type:0b}] if block ~ ~-1 ~ minecraft:iron_block run kill @s[type=pixelmon:bike,nbt={type:0b}]
 
 #----------------------------------------------------------
 

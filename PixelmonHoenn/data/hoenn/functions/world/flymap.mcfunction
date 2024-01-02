@@ -13,8 +13,8 @@ execute if entity @s[tag=FlyDewford] run fill 319 237 -1907 319 237 -1907 green_
 execute if entity @s[tag=FlySlateport] run fill 326 237 -1914 327 237 -1913 green_carpet
 execute if entity @s[tag=FlyMauville] run fill 327 237 -1921 326 237 -1920 green_carpet replace red_carpet
 execute if entity @s[tag=FlyVerdanturf] run fill 321 237 -1921 321 237 -1921 green_carpet
-execute if entity @s[tag=FlyFallarbor] run fill 323 237 -1924 323 237 -1924 green_carpet
-execute if entity @s[tag=FlyLavaridge] run fill 321 237 -1921 321 237 -1921 green_carpet
+execute if entity @s[tag=FlyFallarbor] run fill 320 237 -1927 321 237 -1927 green_carpet
+execute if entity @s[tag=FlyLavaridge] run fill 323 237 -1924 323 237 -1924 green_carpet
 execute if entity @s[tag=FlyFortree] run fill 330 237 -1927 330 237 -1927 green_carpet
 execute if entity @s[tag=FlyLilycove] run fill 337 237 -1924 336 237 -1923 green_carpet
 execute if entity @s[tag=FlyMossdeep] run fill 345 237 -1922 344 237 -1922 green_carpet
@@ -44,8 +44,8 @@ tp @s[x=326,y=237,z=-1914,dx=1,dy=3,dz=1,tag=FlySlateport] -1539 69 265 0 ~
 tp @s[x=327,y=237,z=-1921,dy=3,tag=FlyMauville] -1558 69 -643 0 ~
 tp @s[x=326,y=237,z=-1921,dy=3,dz=1,tag=FlyMauville] -1558 69 -643 0 ~
 tp @s[x=321,y=237,z=-1921,dy=3,tag=FlyVerdanturf] -2056 69 -636 0 ~
-tp @s[x=320,y=237,z=-1927,dy=3,dx=1,tag=FlyFallarbor] -2012 84 -1105 0 ~
-tp @s[x=323,y=237,z=-1924,dy=3,tag=FlyLavaridge] -2200 89 -1427 0 ~
+tp @s[x=320,y=237,z=-1927,dy=3,dx=1,tag=FlyFallarbor] -2200 89 -1427 0 ~
+tp @s[x=323,y=237,z=-1924,dy=3,tag=FlyLavaridge] -2012 84 -1105 0 ~
 tp @s[x=330,y=237,z=-1927,dy=3,tag=FlyFortree] -688 84 -1424 0 ~
 tp @s[x=336,y=237,z=-1924,dx=1,dy=3,dz=1,tag=FlyLilycove] 518 74 -1032 0 ~
 tp @s[x=344,y=237,z=-1922,dy=3,dx=1,tag=FlyMossdeep] 1482 74 -975 0 ~

@@ -91,13 +91,13 @@ execute as @s[scores={TriggerCommand=14}] run
 
 #Initial Bike Pick
 #Mach
-execute as @s[scores={TriggerCommand=15}] run give @s pixelmon:mach_bike
+execute as @s[scores={TriggerCommand=15}] run function hoenn:spawn/mach_bike
 execute as @s[scores={TriggerCommand=15}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=15}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" chose the Mach Bike.","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=15}] run tellraw @s {"text":"<Rydel> If you get the urge to switch Bikes, just come see me!"}
 
 #Acro
-execute as @s[scores={TriggerCommand=16}] run give @s pixelmon:acro_bike
+execute as @s[scores={TriggerCommand=16}] run function hoenn:spawn/acro_bike
 execute as @s[scores={TriggerCommand=16}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={TriggerCommand=16}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" chose the Acro Bike.","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=16}] run tellraw @s {"text":"<Rydel> If you get the urge to switch Bikes, just come see me!"}
@@ -1255,7 +1255,7 @@ execute as @s[scores={TriggerCommand=518}] run scoreboard players set @s Temp 2
 #to Battle Resort
 execute as @s[scores={TriggerCommand=519}] run scoreboard players set @s Temp 3
 
-execute as @s[scores={TriggerCommand=517..518}] run scoreboard players set @s DialogueTrigger 243
+execute as @s[scores={TriggerCommand=517..519}] run scoreboard players set @s DialogueTrigger 243
 
 
 

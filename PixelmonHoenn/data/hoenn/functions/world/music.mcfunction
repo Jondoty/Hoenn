@@ -439,8 +439,8 @@ playsound rustborocity record @s[x=-1668,y=0,z=-718,dx=268,dy=256,dz=226,scores=
 scoreboard players set @s[x=-1668,y=0,z=-718,dx=268,dy=256,dz=226,scores={MusicCooldown=0}] MusicCooldown 185
 
 #Mauville City (Int)
-playsound rustborocity record @s[x=2536,y=0,z=2614,dx=254,dy=256,dz=375,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2536,y=0,z=2614,dx=254,dy=256,dz=375,scores={MusicCooldown=0}] MusicCooldown 185
+playsound rustborocity record @s[x=2536,y=0,z=2614,dx=354,dy=256,dz=375,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2536,y=0,z=2614,dx=354,dy=256,dz=375,scores={MusicCooldown=0}] MusicCooldown 185
 
 #Verdanturf Town
 playsound verdanturftown record @s[x=-2229,y=60,z=-692,dx=230,dy=256,dz=196,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
