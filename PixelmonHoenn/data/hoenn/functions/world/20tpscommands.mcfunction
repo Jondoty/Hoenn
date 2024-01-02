@@ -7,7 +7,7 @@ execute as @a[nbt={SelectedItem:{id:"pixelmon:item_finder"}}] run function hoenn
 
 #Ambient Particles
 #Route 113, Mt. Chimney, Jagged Pass Falling Ash Particles
-execute as @a[x=-2154,y=80,z=-1507,dx=552,dy=256,dz=135] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 500 normal
+execute as @a[x=-2154,y=80,z=-1507,dx=552,dy=256,dz=135] unless entity @s[x=-1967,y=74,z=-1479,dx=26,dy=10,dz=23] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 500 normal
 execute as @a[x=-2215,y=160,z=-3623,dx=686,dy=256,dz=522] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 300 normal
 execute as @a[x=-2215,y=129,z=-3100,dx=686,dy=256,dz=757] at @s run particle minecraft:white_ash ~ ~ ~ 15 15 15 1 100 normal
 
@@ -101,6 +101,11 @@ execute as @a[scores={DialogueTrigger=207,TalkTime=85..92}] at @s run tp @s ~ ~ 
 execute as @a[scores={DialogueTrigger=207,TalkTime=93..136}] at @s run tp @s ~ ~ ~-0.005
 
 execute as @a[scores={DialogueTrigger=208,TalkTime=26..35}] at @s run tp @s ~-0.075 ~ ~-0.075
+
+#Dialogue 75, Route 112 Mt. Chimney view
+execute as @a[scores={DialogueTrigger=75,TalkTime=23..56,Rival=2}] at @s run tp @s ~ ~-0.01 ~
+execute as @a[scores={DialogueTrigger=75,TalkTime=23..52,Rival=1}] at @s run tp @s ~ ~-0.01 ~
+
 
 #-----------------------------------------------------------------------------------------
 

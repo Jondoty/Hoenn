@@ -795,6 +795,9 @@ tp @a[x=-1977,y=65,z=-1112,dx=3,dy=3] -1976 84 -1111
 #Pokemon Gym
 tag @a[x=-2039,y=84,z=-1053,dx=6,dy=3] remove Dialogue89
 tp @a[x=-2039,y=84,z=-1053,dx=6,dy=3] -3101 88 1625
+
+scoreboard players set @a[x=-3102,y=88,z=1626,dx=3,dy=3,tag=Dialogue90,tag=!Dialogue91] DialogueTrigger 91
+execute as @a[x=-3102,y=88,z=1626,dx=3,dy=3,tag=Dialogue90,tag=!Dialogue91] run function hoenn:tools/forceclick
 tp @a[x=-3102,y=88,z=1626,dx=3,dy=3] -2036 84 -1052
 
 #Left NPC Home

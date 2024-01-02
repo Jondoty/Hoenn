@@ -27,6 +27,10 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=166}] MusicCoo
 playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=105}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=105}] MusicCooldown 102
 
+#Route 112 Strength HM dialogue
+playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=75}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=75}] MusicCooldown 102
+
 #Kyogre/Groudon awoken
 playsound ancientawaken record @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=..70}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=..70}] MusicCooldown 90

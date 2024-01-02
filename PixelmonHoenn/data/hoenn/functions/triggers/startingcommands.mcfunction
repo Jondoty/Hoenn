@@ -18,7 +18,7 @@ execute as @s run givemoney 2000
 difficulty peaceful
 gamerule doDaylightCycle true
 gamerule keepInventory true
-gamemode randomTickSpeed 3
+gamerule randomTickSpeed 3
 scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
 

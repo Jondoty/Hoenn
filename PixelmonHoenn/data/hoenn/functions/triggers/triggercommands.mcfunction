@@ -78,13 +78,15 @@ execute as @s[scores={TriggerCommand=11}] run
 #Mr. Briney's locations
 
 #Dewford
-execute as @s[scores={TriggerCommand=12}] run
+execute as @s[scores={TriggerCommand=12}] run scoreboard players set @s DialogueTrigger 33
 
 #Slateport
-execute as @s[scores={TriggerCommand=13}] run
+execute as @s[scores={TriggerCommand=13}] run scoreboard players set @s Temp 1
+execute as @s[scores={TriggerCommand=13}] run scoreboard players set @s DialogueTrigger 38
 
 #Petalburg
-execute as @s[scores={TriggerCommand=14}] run
+execute as @s[scores={TriggerCommand=14}] run scoreboard players set @s Temp 2
+execute as @s[scores={TriggerCommand=14}] run scoreboard players set @s DialogueTrigger 38
 
 #-----------------------------------------------------------------------------------------------------
 #Rydel's Bike Choices
@@ -1268,6 +1270,81 @@ execute as @s[scores={TriggerCommand=517..519}] run scoreboard players set @s Di
 
 
 execute as @s[scores={TriggerCommand=500..999}] run scoreboard players set @s TriggerCommand 0
+#-----------------------------------------------------------------------------------------------------
+#1000-1999, reserved for menu-based commands in chats
+#-----------------------------------------------------------------------------------------------------
+#Armor stands used to reference items
+#x=-2070,y=64,z=1414,dy=3
+#x=-2068,y=64,z=1414,dy=3
+#x=-2066,y=64,z=1414,dy=3
+#x=-2064,y=64,z=1414,dy=3
+#x=-2062,y=64,z=1414,dy=3
+#x=-2060,y=64,z=1414,dy=3
+
+#-----------------------------------------------------------------------------------------------------
+#Soot Man
+
+execute as @s[scores={TriggerCommand=1000}] run tellraw @s {"text":"<Soot Man> Oh! You've got a lot of ash. Plink! \u266a Plink! \u266a I'll make you a glass item. Plink! \u266a Plink! \u266a"}
+execute as @s[scores={TriggerCommand=1000}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={TriggerCommand=1000,Soot=..250}] run data merge entity @e[x=-2070,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Blue Flute (250g)","color":"red"}'}
+execute as @s[scores={TriggerCommand=1000,Soot=250..}] run data merge entity @e[x=-2070,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Blue Flute (250g)","color":"aqua"}'}
+execute as @s[scores={TriggerCommand=1000,Soot=..500}] run data merge entity @e[x=-2068,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Red Flute (500g)","color":"red"}'}
+execute as @s[scores={TriggerCommand=1000,Soot=500..}] run data merge entity @e[x=-2068,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Red Flute (500g)","color":"aqua"}'}
+execute as @s[scores={TriggerCommand=1000,Soot=..500}] run data merge entity @e[x=-2066,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Yellow Flute (500g)","color":"red"}'}
+execute as @s[scores={TriggerCommand=1000,Soot=500..}] run data merge entity @e[x=-2066,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Yellow Flute (500g)","color":"aqua"}'}
+execute as @s[scores={TriggerCommand=1000}] run tellraw @s ["",{"text":"["},{"selector":"@e[x=-2070,y=64,z=1414,dy=3]","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1002"},"hoverEvent":{"action":"show_text","contents":"A flute made from blue glass that awakens sleeping Pokémon."}},{"text":"] ["},{"selector":"@e[x=-2068,y=64,z=1414,dy=3]","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1003"},"hoverEvent":{"action":"show_text","contents":"A flute made from red glass that snaps Pokémon out of infatuation."}},{"text":"] ["},{"selector":"@e[x=-2066,y=64,z=1414,dy=3]","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1004"},"hoverEvent":{"action":"show_text","contents":"A flute made from yellow glass that snaps Pokémon out of confusion."}},{"text":"] ["},{"text":">>","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1001"},"hoverEvent":{"action":"show_text","contents":"Page 2"}},{"text":"]"}]
+
+#Page 2
+execute as @s[scores={TriggerCommand=1001,Soot=..1000}] run data merge entity @e[x=-2070,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Black Flute (1000g)","color":"red"}'}
+execute as @s[scores={TriggerCommand=1001,Soot=1000..}] run data merge entity @e[x=-2070,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"Black Flute (1000g)","color":"aqua"}'}
+execute as @s[scores={TriggerCommand=1001,Soot=..1000}] run data merge entity @e[x=-2068,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"White Flute (1000g)","color":"red"}'}
+execute as @s[scores={TriggerCommand=1001,Soot=1000..}] run data merge entity @e[x=-2068,y=64,z=1414,dy=3,limit=1] {CustomName:'{"text":"White Flute (1000g)","color":"aqua"}'}
+execute as @s[scores={TriggerCommand=1001}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={TriggerCommand=1001}] run tellraw @s ["",{"text":"["},{"selector":"@e[x=-2070,y=64,z=1414,dy=3]","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1005"},"hoverEvent":{"action":"show_text","contents":"A flute made from black glass. It makes it easier to encounter strong Pokémon in the place you use it."}},{"text":"] ["},{"selector":"@e[x=-2068,y=64,z=1414,dy=3]","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1006"},"hoverEvent":{"action":"show_text","contents":"A flute made from white glass. It makes it easier to encounter weak Pokémon in the place you use it."}},{"text":"] ["},{"text":"<<","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1000"},"hoverEvent":{"action":"show_text","contents":"Page 1"}},{"text":"]"}]
+
+#Blue Flute Claim
+execute as @s[scores={TriggerCommand=1002,Soot=..250}] run tellraw @s {"text":"You don't have enough soot to make this item!","italic":true,"color":"gray"}
+
+execute as @s[scores={TriggerCommand=1002,Soot=250..}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Blue Flute!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=1002,Soot=250..}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1002,Soot=250..}] run give @s pixelmon:blue_flute
+execute as @s[scores={TriggerCommand=1002,Soot=250..}] run scoreboard players remove @s Soot 250
+
+#Red Flute Claim
+execute as @s[scores={TriggerCommand=1003,Soot=..500}] run tellraw @s {"text":"You don't have enough soot to make this item!","italic":true,"color":"gray"}
+
+execute as @s[scores={TriggerCommand=1003,Soot=500..}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Red Flute!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=1003,Soot=500..}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1003,Soot=500..}] run give @s pixelmon:red_flute
+execute as @s[scores={TriggerCommand=1003,Soot=500..}] run scoreboard players remove @s Soot 500
+
+#Yellow Flute Claim
+execute as @s[scores={TriggerCommand=1004,Soot=..500}] run tellraw @s {"text":"You don't have enough soot to make this item!","italic":true,"color":"gray"}
+
+execute as @s[scores={TriggerCommand=1004,Soot=500..}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Yellow Flute!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=1004,Soot=500..}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1004,Soot=500..}] run give @s pixelmon:yellow_flute
+execute as @s[scores={TriggerCommand=1004,Soot=500..}] run scoreboard players remove @s Soot 500
+
+#Black Flute Claim
+execute as @s[scores={TriggerCommand=1005,Soot=..1000}] run tellraw @s {"text":"You don't have enough soot to make this item!","italic":true,"color":"gray"}
+
+execute as @s[scores={TriggerCommand=1005,Soot=1000..}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Black Flute!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=1005,Soot=1000..}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1005,Soot=1000..}] run give @s pixelmon:black_flute
+execute as @s[scores={TriggerCommand=1005,Soot=1000..}] run scoreboard players remove @s Soot 1000
+
+#White Flute Claim
+execute as @s[scores={TriggerCommand=1006,Soot=..1000}] run tellraw @s {"text":"You don't have enough soot to make this item!","italic":true,"color":"gray"}
+
+execute as @s[scores={TriggerCommand=1006,Soot=1000..}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a White Flute!","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=1006,Soot=1000..}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1006,Soot=1000..}] run give @s pixelmon:white_flute
+execute as @s[scores={TriggerCommand=1006,Soot=1000..}] run scoreboard players remove @s Soot 1000
+
+
+
+
 #-----------------------------------------------------------------------------------------------------
 
 #Battle Resort

@@ -766,7 +766,6 @@ tag @s[scores={DialogueTrigger=20,TalkTime=100..}] add Dialogue20
 #Cut HM Obtaining
 #https://youtu.be/MgkqxXCmrtI?t=6046
 
-
 tellraw @s[scores={DialogueTrigger=21,TalkTime=1}] {"text":"<Cutter> That determined expression..."}
 tellraw @s[scores={DialogueTrigger=21,TalkTime=8}] {"text":"<Cutter> That limber way you move..."}
 tellraw @s[scores={DialogueTrigger=21,TalkTime=15}] {"text":"<Cutter> And your well-trained Pokémon..."}
@@ -778,7 +777,7 @@ tellraw @s[scores={DialogueTrigger=21,TalkTime=46}] {"text":"<Cutter> No need to
 execute as @s[scores={DialogueTrigger=21,TalkTime=54}] run give @s pixelmon:hm1
 execute as @s[scores={DialogueTrigger=21,TalkTime=54}] run function hoenn:spawn/cuthm
 execute as @s[scores={DialogueTrigger=21,TalkTime=54}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
-tellraw @s[scores={DialogueTrigger=21,TalkTime=54}] ["",{"selector":"@s"},{"text":" obtained HM01 Cut!"}]
+tellraw @s[scores={DialogueTrigger=21,TalkTime=54}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained HM01 Cut!","italic":true,"color":"gray"}]
 
 tellraw @s[scores={DialogueTrigger=21,TalkTime=60}] {"text":"<Cutter> That's an axe that can chop down prickly trees if the Trainer has earned the Stone Badge."}
 tellraw @s[scores={DialogueTrigger=21,TalkTime=70}] {"text":"<Cutter> HMs like this can be used outside of battle, too, with the right Badges!"}
@@ -1025,33 +1024,52 @@ tag @s[scores={DialogueTrigger=31,TalkTime=100..}] add Dialogue31
 #Dialogue 32 - Mr. Briney's Cottage
 #https://youtu.be/MgkqxXCmrtI?t=9012
 
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> Hold on, lass! Belay that, Peeko!"}
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"<Mr. Briney> Oh, if it ain't "},{"selector":"@s"},{"text":"! You're the one who saved my Peeko!"}]
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> Aye, but we owe you for that day!"}
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> Hold on, lass! Belay that, Peeko!"}
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"<Mr. Briney> Oh, if it ain't "},{"selector":"@s"},{"text":"! You're the one who saved my Peeko!"}]
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> Aye, but we owe you for that day!"}
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> What's that? You want to sail with me?"}
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> What's this all about, then?"}
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> A letter bound for Dewford? Certainly, that'd be no problem at all."}
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> You've come to the right man! Shall we hoist sail for Dewford at once?"}
+#
+#execute as @s[scores={DialogueTrigger=32,TalkTime=1}] run scoreboard players enable @s TriggerCommand
+#tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"["},{"text":"Head to Dewford","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 12"}},{"text":"]"}]
+
+#Version 1 menu just taking player between cities
 tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> What's that? You want to sail with me?"}
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> What's this all about, then?"}
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> A letter bound for Dewford? Certainly, that'd be no problem at all."}
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] {"text":"<Mr. Briney> You've come to the right man! Shall we hoist sail for Dewford at once?"}
+tellraw @s[scores={DialogueTrigger=32,TalkTime=10}] {"text":"<Mr. Briney> You've come to the right man! Shall we hoist sail for Dewford at once?"}
+execute as @s[scores={DialogueTrigger=32,TalkTime=10}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=32,TalkTime=10}] ["",{"text":"["},{"text":"Head to Dewford","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 12"}},{"text":"]"}]
 
-execute as @s[scores={DialogueTrigger=32,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=32,TalkTime=1}] ["",{"text":"["},{"text":"Head to Dewford","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 12"}},{"text":"]"}]
 
-tag @s[scores={DialogueTrigger=32,TalkTime=100..}] add Dialogue32
+tag @s[scores={DialogueTrigger=32,TalkTime=10..}] add Dialogue32
 #----------------------------------
 #Dialogue 33 - Mr. Briney's Cottage
 #https://youtu.be/MgkqxXCmrtI?t=9034
 
+#tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Dewford, we're a-coming! Anchors aweigh!"}
+#tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Peeko, we're setting sail, my darling!"}
+#
+##Cutscene shots?
+#
+#tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Ahoy! We've struck land in Dewford."}
+#tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> I suppose you'll be heading ashore to deliver that letter to what's-his-name or whomever."}
+#tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> If you're ever feeling lost and adrift though, try calling in on the island's Pokémon Gym."}
+#tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> The Leader, Brawly, surely knows everyone and everything that goes on in his town!"}
+
+#Version 1
 tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Dewford, we're a-coming! Anchors aweigh!"}
-tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Peeko, we're setting sail, my darling!"}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=8}] {"text":"<Mr. Briney> Peeko, we're setting sail, my darling!"}
 
-#Cutscene shots?
+#Blinds player, tps to destination
+execute as @s[scores={DialogueTrigger=33,TalkTime=16}] run effect give @s minecraft:blindness 5 1 true
+execute as @s[scores={DialogueTrigger=33,TalkTime=16}] run tp @s -2419 70 838.5 -110 9
 
-tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Ahoy! We've struck land in Dewford."}
-tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> I suppose you'll be heading ashore to deliver that letter to what's-his-name or whomever."}
-tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> If you're ever feeling lost and adrift though, try calling in on the island's Pokémon Gym."}
-tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> The Leader, Brawly, surely knows everyone and everything that goes on in his town!"}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=20}] {"text":"<Mr. Briney> Ahoy! We've struck land in Dewford."}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=27}] {"text":"<Mr. Briney> If you're ever feeling lost and adrift though, try calling in on the island's Pokémon Gym."}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=37}] {"text":"<Mr. Briney> The Leader, Brawly, surely knows everyone and everything that goes on in his town!"}
 
-tag @s[scores={DialogueTrigger=33,TalkTime=100..}] add Dialogue33
+tag @s[scores={DialogueTrigger=33,TalkTime=37..}] add Dialogue33
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 34 - Dewford Gym
 #Brawly Pre-Battle
@@ -1145,36 +1163,56 @@ tag @s[scores={DialogueTrigger=36,TalkTime=100..}] add Dialogue36
 #Mr. Briney after delivering Steven's Letter
 #https://youtu.be/MgkqxXCmrtI?t=10962
 
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Oho! It looks as though you have delivered your chit good and proper."}
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Ah, but that reminds me! I've had a message from President Stone, saying he has another favor to ask."}
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> It's about them Devon Parts that you recovered for him before."}
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Seems as though they should go to some fellow called Stern at Slateport's shipyard."}
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> This old seadog will see you there safely! Weigh anchors! We're for Slateport!"}
+#tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Oho! It looks as though you have delivered your chit good and proper."}
+#tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Ah, but that reminds me! I've had a message from President Stone, saying he has another favor to ask."}
+#tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> It's about them Devon Parts that you recovered for him before."}
+#tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Seems as though they should go to some fellow called Stern at Slateport's shipyard."}
+#tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> This old seadog will see you there safely! Weigh anchors! We're for Slateport!"}
 
-execute as @s[scores={DialogueTrigger=37,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] ["",{"text":"["},{"text":"Route 104 (near Petalburg)","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 14"}},{"text":"] ["},{"text":"Route 109 (near Slateport)","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 13"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=37,TalkTime=1},tag=Dialogue35] {"text":"<Mr. Briney> Now that you've got this here town's badge, what about for Slateport?"}
+tellraw @s[scores={DialogueTrigger=37,TalkTime=9},tag=Dialogue35] {"text":"<Mr. Briney> Or we could head back to my Cottage, up to you!"}
 
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Slateport City, is it? Anchors aweigh! Peeko, we're setting sail, my darling!"}
+execute as @s[scores={DialogueTrigger=37,TalkTime=9},tag=Dialogue35] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=37,TalkTime=9},tag=Dialogue35] ["",{"text":"["},{"text":"Route 104 (near Petalburg)","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 14"}},{"text":"] ["},{"text":"Route 109 (near Slateport)","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 13"}},{"text":"]"}]
+
+#Without Brawly Badge
+tellraw @s[scores={DialogueTrigger=37,TalkTime=1},tag=!Dialogue35] {"text":"<Mr. Briney> How's about it, did you want to go back to my Cottage?"}
+execute as @s[scores={DialogueTrigger=37,TalkTime=1},tag=!Dialogue35] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=37,TalkTime=1},tag=!Dialogue35] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 14"}},{"text":"]"}]
+execute as @s[scores={DialogueTrigger=37,TalkTime=1},tag=!Dialogue35] run scoreboard players add @s TalkTime 9
+
+tag @s[scores={DialogueTrigger=37,TalkTime=9..}] add Dialogue37
+
+#----------------------------------------------------------------------------------------------------------
+#Dialogue 37 - Dewford Town
+#Mr. Briney taking player to either Petalburg or Slateport
+
+tellraw @s[scores={DialogueTrigger=38,TalkTime=1,Temp=1}] {"text":"<Mr. Briney> Slateport City, is it? Anchors aweigh! Peeko, we're setting sail, my darling!"}
+tellraw @s[scores={DialogueTrigger=38,TalkTime=1,Temp=2}] {"text":"<Mr. Briney> Petalburg City, is it? Anchors aweigh! Peeko, we're setting sail, my darling!"}
 
 #Cutscene shots
+execute as @s[scores={DialogueTrigger=38,TalkTime=10}] run effect give @s minecraft:blindness 5 1 true
+execute as @s[scores={DialogueTrigger=38,TalkTime=11,Temp=1}] run tp @s -1438.1 70 685.15 -37 7
+execute as @s[scores={DialogueTrigger=38,TalkTime=11,Temp=2}] run tp @s -2718 69 -30.5 -182 7
 
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> Ahoy! We've made land in Slateport!"}
-tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> I suppose you're off to visit Captain Stern and deliver those Devon Parts?"}
+tellraw @s[scores={DialogueTrigger=38,TalkTime=15,Temp=1}] {"text":"<Mr. Briney> Ahoy! We've made land in Slateport!"}
+tellraw @s[scores={DialogueTrigger=38,TalkTime=15,Temp=2}] {"text":"<Mr. Briney> Ahoy! We've made land in Petalburg!"}
+#tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> I suppose you're off to visit Captain Stern and deliver those Devon Parts?"}
 
-tag @s[scores={DialogueTrigger=37,TalkTime=100..}] add Dialogue37
+tag @s[scores={DialogueTrigger=38,TalkTime=15..}] add Dialogue38
 #----------------------------------------------------------------------------------------------------------
-#Dialogue 38 - Route 109
+#Dialogue ??? - Route 109
 #Seashore House after all trainers battled
 #https://youtu.be/MgkqxXCmrtI?t=11872
 
-tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] {"text":"<Mr. Sea> You're scorching hot! Those battles blazed!"}
-tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] {"text":"<Mr. Sea> I'm more than pleased!"}
-tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] {"text":"<Mr. Sea> As thanks for showing me your hot streak, I want you to take these."}
-tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] {"text":"<Mr. Sea> It's half a dozen bottles of Soda Pop!"}
+#tellraw @s[scores={DialogueTrigger=???,TalkTime=1}] {"text":"<Mr. Sea> You're scorching hot! Those battles blazed!"}
+#tellraw @s[scores={DialogueTrigger=???,TalkTime=1}] {"text":"<Mr. Sea> I'm more than pleased!"}
+#tellraw @s[scores={DialogueTrigger=???,TalkTime=1}] {"text":"<Mr. Sea> As thanks for showing me your hot streak, I want you to take these."}
+#tellraw @s[scores={DialogueTrigger=???,TalkTime=1}] {"text":"<Mr. Sea> It's half a dozen bottles of Soda Pop!"}
 
-tellraw @s[scores={DialogueTrigger=38,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Soda Pops!","italic":true,"color":"gray"}]
+#tellraw @s[scores={DialogueTrigger=???,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Soda Pops!","italic":true,"color":"gray"}]
 
-tag @s[scores={DialogueTrigger=38,TalkTime=100..}] add Dialogue38
+#tag @s[scores={DialogueTrigger=???,TalkTime=100..}] add Dialogue???
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 39 - Slateport City
 #Fan Club President when talked to
@@ -2081,9 +2119,11 @@ tag @s[scores={DialogueTrigger=74,TalkTime=100..}] add Dialogue74
 #Rival upon entering the route
 #https://youtu.be/MgkqxXCmrtI?t=23642
 
+execute as @s[scores={DialogueTrigger=75,TalkTime=1}] run function hoenn:tools/forceclick
+
 #tp in
-execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=1}] run
-execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=1}] run
+execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=1}] run particle cloud -1694 79 -1088 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=1}] run summon pixelmon:npc_chatting -1694 79 -1088 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "aquagruntmale", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [5.6355925f, -2.2701373f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-1693.5d, 79.0d, -1087.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=5,Rival=1}] {"text":"<May> Ah!"}
 tellraw @s[scores={DialogueTrigger=75,TalkTime=12,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"!"}]
@@ -2091,7 +2131,7 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=18,Rival=1}] {"text":"<May> Look!
 
 #Cutscene view
 execute as @s[scores={DialogueTrigger=75,TalkTime=23,Rival=1}] run gamemode spectator
-execute as @s[scores={DialogueTrigger=75,TalkTime=23,Rival=1}] run tp @s ~ ~ ~
+execute as @s[scores={DialogueTrigger=75,TalkTime=23,Rival=1}] run tp @s -1703 119 -1082 135 0
 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=25,Rival=1}] {"text":"<May> It sure is big..."}
 tellraw @s[scores={DialogueTrigger=75,TalkTime=33,Rival=1}] {"text":"<May> No, more like huge..."}
@@ -2100,7 +2140,7 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=47,Rival=1}] {"text":"<May> I'd l
 
 #Back to normal view
 execute as @s[scores={DialogueTrigger=75,TalkTime=53,Rival=1}] run gamemode adventure
-execute as @s[scores={DialogueTrigger=75,TalkTime=53,Rival=1}] run
+execute as @s[scores={DialogueTrigger=75,TalkTime=53,Rival=1}] run tp @s -1690.25 79 -1085.5 120 12
 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=55,Rival=1}] ["",{"text":"<May> Hm? Hey, "},{"selector":"@s"},{"text":", don't your Pokémon seem a bit ragged around the edges?"}]
 tellraw @s[scores={DialogueTrigger=75,TalkTime=64,Rival=1}] {"text":"<May> Here, let me give them a little boost!"}
@@ -2120,15 +2160,16 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=109,Rival=1}] {"text":"<May> Gasp
 tellraw @s[scores={DialogueTrigger=75,TalkTime=119,Rival=1}] ["",{"text":"<May> I'm off for now, "},{"selector":"@s"},{"text":", but let's battle next time"}]
 
 #tps out
-execute as @s[scores={DialogueTrigger=75,TalkTime=128,Rival=1}] run
-execute as @s[scores={DialogueTrigger=75,TalkTime=128,Rival=1}] run
+execute as @s[scores={DialogueTrigger=75,TalkTime=128,Rival=1}] run particle cloud -1694 79 -1088 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=75,TalkTime=128,Rival=1}] run tp @e[x=-1694,y=79,z=-1088,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
 execute as @s[scores={DialogueTrigger=75,TalkTime=128,Rival=1}] run scoreboard players add @s TalkTime 10
 
 
+
 #tp in
-execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=2}] run
-execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=2}] run
+execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=2}] run particle cloud -1694 79 -1088 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=75,TalkTime=1,Rival=2}] run summon pixelmon:npc_chatting -1694 79 -1088 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "aquagruntmale", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [5.6355925f, -2.2701373f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-1693.5d, 79.0d, -1087.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=5,Rival=2}] {"text":"<Brendan> Hm?"}
 tellraw @s[scores={DialogueTrigger=75,TalkTime=12,Rival=2}] ["",{"text":"<Brendan> So it's you, "},{"selector":"@s"},{"text":"."}]
@@ -2136,7 +2177,7 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=19,Rival=2}] {"text":"<Brendan> Y
 
 #Cutscene view
 execute as @s[scores={DialogueTrigger=75,TalkTime=23,Rival=2}] run gamemode spectator
-execute as @s[scores={DialogueTrigger=75,TalkTime=23,Rival=2}] run tp @s ~ ~ ~
+execute as @s[scores={DialogueTrigger=75,TalkTime=23,Rival=2}] run tp @s -1703 119 -1082 135 0
 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=26,Rival=2}] {"text":"<Brendan> I dunno, but... But seeing it for real is, like..."}
 tellraw @s[scores={DialogueTrigger=75,TalkTime=34,Rival=2}] {"text":"<Brendan> Like a punch in the gut, you know?"}
@@ -2144,7 +2185,7 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=51,Rival=2}] {"text":"<Brendan> H
 
 #Back to normal view
 execute as @s[scores={DialogueTrigger=75,TalkTime=57,Rival=2}] run gamemode adventure
-execute as @s[scores={DialogueTrigger=75,TalkTime=57,Rival=2}] run
+execute as @s[scores={DialogueTrigger=75,TalkTime=57,Rival=2}] run tp @s -1690.25 79 -1085.5 120 12
 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=59,Rival=2}] ["",{"text":"<Brendan> Hey, "},{"selector":"@s"},{"text":", doesn't your team seem a bit worse for wear?"}]
 tellraw @s[scores={DialogueTrigger=75,TalkTime=67,Rival=2}] {"text":"<Brendan> Here. I'll help them out for you."}
@@ -2164,9 +2205,11 @@ tellraw @s[scores={DialogueTrigger=75,TalkTime=113,Rival=2}] {"text":"<Brendan> 
 tellraw @s[scores={DialogueTrigger=75,TalkTime=120,Rival=2}] {"text":"<Brendan> I'm supposed to be heading to Fallarbor to visit Professor Cozmo right now!"}
 tellraw @s[scores={DialogueTrigger=75,TalkTime=129,Rival=2}] ["",{"text":"<Brendan> See you later, "},{"selector":"@s"},{"text":". Next time let's have a battle, OK?"}]
 
-execute as @s[scores={DialogueTrigger=75,TalkTime=137,Rival=2}] run
-execute as @s[scores={DialogueTrigger=75,TalkTime=137,Rival=2}] run
+execute as @s[scores={DialogueTrigger=75,TalkTime=137,Rival=2}] run particle cloud -1694 79 -1088 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=75,TalkTime=137,Rival=2}] run tp @e[x=-1694,y=79,z=-1088,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
+execute as @s[scores={DialogueTrigger=75,TalkTime=137..}] run scoreboard players set @s MusicCooldown 3
+execute as @s[scores={DialogueTrigger=75,TalkTime=137..}] run stopsound @s record
 tag @s[scores={DialogueTrigger=75,TalkTime=137..}] add Dialogue75
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 76 - Route 111
@@ -2846,64 +2889,124 @@ tag @s[scores={DialogueTrigger=90,TalkTime=81..}] add Dialogue90
 
 #tp Rival in
 
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"! Wow, it's a relief to see you in one piece!"}]
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Oh, well, you know..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> The last time I saw you was right after battling those Team Whatsit people..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<May> So I was a bit worried, thinking about what might have happened to you after that, "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> ...What? You battled them AGAIN after that?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<May> And you BEAT them! You really are something else, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I-I mean, you and your team are. I'm pretty impressed by you all!"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> And that pretty stone that's sparkling there..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Is that the Meteorite you got back from them?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Oh, that's right! Here! Here!"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I've been thinking of giving these to you."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"! Wow, it's a relief to see you in one piece!"}]
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Oh, well, you know..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> The last time I saw you was right after battling those Team Whatsit people..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<May> So I was a bit worried, thinking about what might have happened to you after that, "},{"selector":"@s"},{"text":"..."}]
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> ...What? You battled them AGAIN after that?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<May> And you BEAT them! You really are something else, "},{"selector":"@s"},{"text":"."}]
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I-I mean, you and your team are. I'm pretty impressed by you all!"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> And that pretty stone that's sparkling there..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Is that the Meteorite you got back from them?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Oh, that's right! Here! Here!"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I've been thinking of giving these to you."}
+#
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Go-Goggles!","italic":true,"color":"gray"}]
+#execute as @s[scores={DialogueTrigger=91,TalkTime=1}] run tag @s add SafetyGoggles
+#
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> If you put on those Go-Goggles, you'll be all set heading into the desert on Route 111."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> ...Oh! And isn't that— That's Lavaridge's Gym Badge!"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> So you beat Flannery, too?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I guess you really are training your Pokémon right..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Next up will be challenging your dad, Norman, in Petalburg, right?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I'm headed to Petalburg's Gym next myself..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Do you want to go back together? Back to Petalburg?"}
+#
+#execute as @s[scores={DialogueTrigger=91,TalkTime=1}] run scoreboard players enable @s TriggerCommand
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 22"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 21"}},{"text":"]"}]
 
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Go-Goggles!","italic":true,"color":"gray"}]
 
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> If you put on those Go-Goggles, you'll be all set heading into the desert on Route 111."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> ...Oh! And isn't that— That's Lavaridge's Gym Badge!"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> So you beat Flannery, too?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I guess you really are training your Pokémon right..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Next up will be challenging your dad, Norman, in Petalburg, right?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> I'm headed to Petalburg's Gym next myself..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<May> Do you want to go back together? Back to Petalburg?"}
-
-execute as @s[scores={DialogueTrigger=91,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 22"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 21"}},{"text":"]"}]
-
-
+#Version 1 abridged
 
 #tp Rival in
+execute as @s[scores={DialogueTrigger=91,TalkTime=1,Rival=1}] run particle cloud -2036 84 -1044 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=91,TalkTime=1,Rival=1}] run summon pixelmon:npc_chatting -2036 84 -1044 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "aquagruntmale", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.6355925f, -2.2701373f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-1693.5d, 79.0d, -1087.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":", hey! So you were all right, huh?"}]
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> Oh, well, you know..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> The last time I saw you, you were mixed up with those \"Team Whatsit\" people..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> So I just wondered if you'd gotten back on the road after that."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> It was, like, I don't know..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> I guess I was a bit...worried?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> What? You battled them AGAIN after that?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> And you even managed to beat them?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<Brendan> You really are something else, "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> You and your Pokémon. Your team."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> And that...that sparkle there... Is that the Meteorite you got back from them?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> ...Oh, right! I forgot to give you these before."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=1,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"! Wow, it's a relief to see you in one piece!"}]
+tellraw @s[scores={DialogueTrigger=91,TalkTime=10,Rival=1}] {"text":"<May> I-I mean, you and your team are something else. I'm pretty impressed by you all!"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=19,Rival=1}] {"text":"<May> Oh, that's right! Here! Here!"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=26,Rival=1}] {"text":"<May> I've been thinking of giving these to you."}
 
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Go-Goggles!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=91,TalkTime=32,Rival=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Go-Goggles!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=91,TalkTime=32,Rival=1}] run tag @s add SafetyGoggles
+execute as @s[scores={DialogueTrigger=91,TalkTime=32,Rival=1}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> Keep those with you if you're planning on going into that desert near Route 111."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> There should be some Pokémon that only make their habitat in the desert, you know."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> You might check 'em out—if you're up to it."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> And... Huh? You got the Lavaridge Badge!"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> So you even beat Flannery, huh? Looks like you've been taking proper care of your Pokémon."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> Guess that means...that you'll be headed to Petalburg City next, huh?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> To challenge your dad at his Gym?"}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> W-well, if you are... I just happened to be thinking of going to Petalburg myself, so..."}
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> How about it? Wanna go back to Petalburg together?"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=39,Rival=1}] {"text":"<May> If you put on those Go-Goggles, you'll be all set heading into the desert on Route 111."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=48,Rival=1}] {"text":"<May> ...Oh! And isn't that— That's Lavaridge's Gym Badge!"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=55,Rival=1}] {"text":"<May> So you beat Flannery, too?"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=62,Rival=1}] {"text":"<May> I guess you really are training your Pokémon right..."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=69,Rival=1}] {"text":"<May> Next up will be challenging your dad, Norman, in Petalburg, right?"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=77,Rival=1}] {"text":"<May> I'm headed to Petalburg's Gym next myself..."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=84,Rival=1}] {"text":"<May> I'll catch you there!"}
 
-execute as @s[scores={DialogueTrigger=91,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 22"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 21"}},{"text":"]"}]
+#tp out
+execute as @s[scores={DialogueTrigger=91,TalkTime=91,Rival=1}] run particle cloud -2036 84 -1044 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=91,TalkTime=91,Rival=1}] run tp @e[type=pixelmon:npc_chatting,x=-2036,y=84,z=-1044,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=91,TalkTime=100..}] add Dialogue91
+execute as @s[scores={DialogueTrigger=91,TalkTime=91,Rival=1}] run scoreboard players add @s TalkTime 15
+
+
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":", hey! So you were all right, huh?"}]
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> Oh, well, you know..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> The last time I saw you, you were mixed up with those \"Team Whatsit\" people..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> So I just wondered if you'd gotten back on the road after that."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> It was, like, I don't know..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> I guess I was a bit...worried?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> What? You battled them AGAIN after that?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> And you even managed to beat them?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"<Brendan> You really are something else, "},{"selector":"@s"},{"text":"..."}]
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> You and your Pokémon. Your team."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> And that...that sparkle there... Is that the Meteorite you got back from them?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> ...Oh, right! I forgot to give you these before."}
+#
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Go-Goggles!","italic":true,"color":"gray"}]
+#execute as @s[scores={DialogueTrigger=91,TalkTime=1}] run scoreboard players enable @s TriggerCommand
+#
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> Keep those with you if you're planning on going into that desert near Route 111."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> There should be some Pokémon that only make their habitat in the desert, you know."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> You might check 'em out—if you're up to it."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> And... Huh? You got the Lavaridge Badge!"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> So you even beat Flannery, huh? Looks like you've been taking proper care of your Pokémon."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> Guess that means...that you'll be headed to Petalburg City next, huh?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> To challenge your dad at his Gym?"}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> W-well, if you are... I just happened to be thinking of going to Petalburg myself, so..."}
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] {"text":"<Brendan> How about it? Wanna go back to Petalburg together?"}
+#
+#execute as @s[scores={DialogueTrigger=91,TalkTime=1}] run scoreboard players enable @s TriggerCommand
+#tellraw @s[scores={DialogueTrigger=91,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 22"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 21"}},{"text":"]"}]
+
+#Version 1 abridged
+
+#tp in
+execute as @s[scores={DialogueTrigger=91,TalkTime=1,Rival=2}] run particle cloud -2036 84 -1044 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=91,TalkTime=1,Rival=2}] run summon pixelmon:npc_chatting -2036 84 -1044 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "aquagruntmale", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.6355925f, -2.2701373f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-1693.5d, 79.0d, -1087.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+tellraw @s[scores={DialogueTrigger=91,TalkTime=3,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":", hey! So you were all right, huh?"}]
+tellraw @s[scores={DialogueTrigger=91,TalkTime=10,Rival=2}] ["",{"text":"<Brendan> You really are something else, "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=91,TalkTime=17,Rival=2}] {"text":"<Brendan> You and your Pokémon. Your team."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=24,Rival=2}] {"text":"<Brendan> ...Oh, right! I forgot to give you these before."}
+
+tellraw @s[scores={DialogueTrigger=91,TalkTime=31,Rival=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Go-Goggles!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=91,TalkTime=31,Rival=2}] run tag @s add SafetyGoggles
+execute as @s[scores={DialogueTrigger=91,TalkTime=31,Rival=2}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+
+tellraw @s[scores={DialogueTrigger=91,TalkTime=38,Rival=2}] {"text":"<Brendan> Keep those with you if you're planning on going into that desert near Route 111."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=47,Rival=2}] {"text":"<Brendan> There should be some Pokémon that only make their habitat in the desert, you know."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=56,Rival=2}] {"text":"<Brendan> You might check 'em out—if you're up to it."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=63,Rival=2}] {"text":"<Brendan> And... Huh? You got the Lavaridge Badge!"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=70,Rival=2}] {"text":"<Brendan> So you even beat Flannery, huh? Looks like you've been taking proper care of your Pokémon."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=80,Rival=2}] {"text":"<Brendan> Guess that means...that you'll be headed to Petalburg City next, huh?"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=88,Rival=2}] {"text":"<Brendan> To challenge your dad at his Gym?"}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=95,Rival=2}] {"text":"<Brendan> W-well, if you are... I just happened to be thinking of going to Petalburg myself, so..."}
+tellraw @s[scores={DialogueTrigger=91,TalkTime=103,Rival=2}] {"text":"<Brendan> I'll catch you there!"}
+
+#tp out
+execute as @s[scores={DialogueTrigger=91,TalkTime=110,Rival=2}] run particle cloud -2036 84 -1044 1 1 1 0.15 150
+execute as @s[scores={DialogueTrigger=91,TalkTime=110,Rival=2}] run tp @e[type=pixelmon:npc_chatting,x=-2036,y=84,z=-1044,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
+
+
+
+tag @s[scores={DialogueTrigger=91,TalkTime=110..}] add Dialogue91
 #---------------------------
 #Dialogue 92 - Lavaridge Town
 #If player Declines

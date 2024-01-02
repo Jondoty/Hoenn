@@ -11,6 +11,31 @@ execute as @a[x=-2029,y=69,z=254,distance=..12,tag=!Dialogue6] run scoreboard pl
 #After battling a Pokemon on Route 101 (player should have picked a starter)
 execute as @a[x=-2029,y=69,z=254,distance=..60,tag=!Dialogue7,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s DialogueTrigger 7
 
+#Dialogue 21 - Rustboro Cutter giving HM after badge
+execute as @a[x=-2775,y=49,z=-619,distance=..5,tag=Dialogue25,tag=!Dialogue21] run scoreboard players set @s DialogueTrigger 21
+
+#Dialogue 32 - Mr. Briney near Petalburg
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue25,scores={StepCounter=3000..}] run tag @s remove Dialogue32
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue25,scores={StepCounter=3000..}] run tag @s remove Dialogue33
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue25,tag=!Dialogue32,scores={StepCounter=3000..}] run scoreboard players set @s DialogueTrigger 32
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue25,tag=!Dialogue32,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
+
+#Dialogue 37 - Mr. Briney near Dewford
+execute as @a[x=-2416,y=69,z=837,distance=..5,scores={StepCounter=3000..}] run tag @s remove Dialogue37
+execute as @a[x=-2416,y=69,z=837,distance=..5,scores={StepCounter=3000..}] run tag @s remove Dialogue38
+execute as @a[x=-2416,y=69,z=837,distance=..5,tag=!Dialogue37,scores={StepCounter=3000..}] run scoreboard players set @s DialogueTrigger 37
+execute as @a[x=-2416,y=69,z=837,distance=..5,tag=!Dialogue37,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
+
+#Slateport prompt to Petalburg
+execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tellraw @s {"text":"<Mr. Briney> How's about it, did you want to go back to my Cottage?"}
+execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tag @s remove Dialogue38
+execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run scoreboard players enable @s TriggerCommand
+execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 14"}},{"text":"]"}]
+execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
+
+#Dialogue 75 - Route 112
+#Rival showing Mt. Chimney and giving Strength
+execute as @a[x=-1694,y=78,z=-1088,distance=..15,tag=!Dialogue75] run scoreboard players set @s DialogueTrigger 75
 
 #Birch's Johto starters (beat the Pokemon League once)
 execute as @a[x=-2029,y=69,z=254,distance=..12,tag=!Dialogue171,scores={PokemonLeague=1..}] run scoreboard players set @s DialogueTrigger 171
@@ -51,6 +76,10 @@ execute as @a[x=-1001,y=62,z=-1296,distance=..50,nbt={Inventory:[{id:"pixelmon:p
 
 #Clears any sprites player might still have
 clear @a[x=-2123,y=63,z=1286,dx=203,dy=40,dz=50] pixelmon:pixelmon_sprite
+
+#Soot Man Route 113
+execute as @a[x=-1955,y=78,z=-1470,distance=..3,scores={StepCounter=1000..,Soot=250..}] run scoreboard players set @s TriggerCommand 1000
+execute as @a[x=-1955,y=78,z=-1470,distance=..3,scores={StepCounter=1000..,Soot=250..}] run scoreboard players set @s StepCounter 0
 
 #----------------------------------------------
 #/data merge entity @e[distance=..4,limit=1,type=pixelmon:npc_trainer] {WinningsTag:{item0:{id:"minecraft:nether_brick",Count:1b}}}

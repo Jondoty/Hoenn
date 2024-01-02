@@ -1,0 +1,55 @@
+{
+    "data": {
+        "type": "PokemartMain"
+    },
+    "textures": [
+        {
+            "name": "youngster1.png"
+        }
+    ],
+    "names": [
+        {
+            "name": "Glass Apprentice"
+        }
+    ],
+    "chat": [
+        {
+            "hello": "My boss and I forge things out of soot from this route! Would you like to buy something?",
+            "goodbye": "Come back and see us again!"
+        }
+    ],
+    "items": [
+        {
+            "name": "pixelmon:street_light",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:glass_table",
+            "variation": false
+        },
+        {
+            "name": "minecraft:glass",
+            "variation": false
+        },
+        {
+            "name": "minecraft:tinted_glass",
+            "variation": false
+        },
+        {
+            "name": "minecraft:bell",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:mug_pika",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:mug_ball",
+            "variation": false
+        },
+        {
+            "name": "pixelmon:mug_base",
+            "variation": false
+        }
+    ]
+}
