@@ -510,6 +510,16 @@ execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run tellraw @s
 execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run give @s pixelmon:shoal_salt
 execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run tag @s add CustomLoot51
 
+#Lavaridge Pokemon Eggs
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pokémon Egg!","italic":true,"color":"gray"}]
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run pokegive Togepi egg
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run tag @s add CustomLoot52
+
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pokémon Egg!","italic":true,"color":"gray"}]
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run pokegive Wynaut egg
+execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run tag @s add CustomLoot53
 
 
 
