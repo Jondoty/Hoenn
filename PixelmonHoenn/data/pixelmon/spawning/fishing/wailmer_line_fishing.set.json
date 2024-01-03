@@ -808,6 +808,33 @@
         "minX": 783, "maxX": 1174, "minZ": -2562, "maxZ": -2286, "minY": 0, "maxY": 256
       },
       "rarity": 95.0
+    },
+
+    {
+      "spec": "species:Wailmer",
+      "stringLocationTypes": [
+        "Good Rod"
+      ],
+      "minLevel": 25,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 783, "maxX": 1174, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": "species:Wailmer",
+      "stringLocationTypes": [
+        "Super Rod"
+      ],
+      "minLevel": 30,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "minX": 783, "maxX": 1174, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 100.0
     }
 
   ]

@@ -195,6 +195,20 @@
           "minX": 2071, "maxX": 2734, "minZ": 323, "maxZ": 1229, "minY": 0, "maxY": 256
       },
       "rarity": 50.0
+    },
+
+    {
+      "spec": "species:Tentacruel",
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+          "minX": 783, "maxX": 1174, "minZ": -3361, "maxZ": -2564, "minY": 0, "maxY": 256
+      },
+      "rarity": 45.0
     }
   ]
 }
