@@ -284,7 +284,7 @@ tellraw @s[scores={SignRead=60}] ["",{"text":"Pokémon Day Care Annex","bold":tr
 tellraw @s[scores={SignRead=61}] ["",{"text":"Battle Maison Replica","bold":true,"italic":true,"color":"gray"},{"text":"\nKalos comes to life in the birthplace of the Battle Maison!","italic":true,"color":"gray"}]
 
 #2398 112 630
-tellraw @s[scores={SignRead=61}] {"text":"The Battle Frontier Project Has Started!\nThe First Battle Fronter Facity\nThe Battle Tower Building Model","italic":true,"color":"gray"}
+tellraw @s[scores={SignRead=148}] {"text":"The Battle Frontier Project Has Started!\nThe First Battle Fronter Facity\nThe Battle Tower Building Model","italic":true,"color":"gray"}
 
 
 

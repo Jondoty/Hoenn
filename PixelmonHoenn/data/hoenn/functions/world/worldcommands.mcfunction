@@ -38,11 +38,6 @@ function hoenn:world/roadblocks
 #Manages potion effects in the world.
 function hoenn:triggers/potioneffects
 
-#Runs soot-related commands when player is on route or is holding bag
-execute as @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] run function hoenn:items/soot
-#If player selects their soot sack, tells them how many grams the player has.
-execute as @a[nbt={SelectedItem:{tag:{display:{Name:'[{"text":"Soot Sack","italic":false,"color":"gray"}]'}}}}] run function hoenn:items/sootcount
-
 #Battle Music
 execute as @a[tag=BattleStart] run function hoenn:battles/start
 execute as @a[tag=BattleEnd] run function hoenn:battles/end
@@ -80,6 +75,7 @@ tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 
 #Sign titles if player has a score to read one.
 execute as @a[scores={StepCounter=2000..}] at @s if entity @e[type=armor_stand,tag=Sign,distance=..4] run function hoenn:triggers/signread
+execute as @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135,scores={StepCounter=500..}] at @s if entity @e[type=armor_stand,tag=Sign,distance=..4] run function hoenn:triggers/signread
 execute as @a[scores={SignRead=1..}] run function hoenn:dialogue/signs
 
 #Return teleports if the player flies
@@ -102,6 +98,12 @@ tp @a[scores={FlyCounter=1..},x=-2578,y=133,z=92,distance=..15] -2528 69 28 180 
 
 
 #-------------------------Important Items-----------------------------------------------------------------------------------
+
+#Runs soot-related commands when player is on route or is holding bag
+execute as @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135] run function hoenn:items/soot
+#If player selects their soot sack, tells them how many grams the player has.
+execute as @a[nbt={SelectedItem:{tag:{display:{Name:'[{"text":"Soot Sack","italic":false,"color":"gray"}]'}}}}] run function hoenn:items/sootcount
+
 
 #Poke Nav
 execute as @a[nbt={SelectedItem:{tag:{display:{Name:'[{"text":"PokéNav","italic":false,"color":"aqua"}]'}}}}] run function hoenn:pokenav/main

@@ -104,9 +104,9 @@ execute as @a[x=-2862,y=0,z=-512,dx=253,dy=256,dz=164,tag=Success,scores={rng=0}
 execute as @a[x=-2862,y=0,z=-512,dx=253,dy=256,dz=164,tag=Success,scores={rng=1}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Pidove
 execute as @a[x=-2862,y=0,z=-512,dx=253,dy=256,dz=164,tag=Success,scores={rng=2..}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Sewaddle
 
-execute as @a[x=-2889,y=0,z=-114,dx=252,dy=256,dz=224,tag=Success,scores={rng=0}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Chatot
-execute as @a[x=-2889,y=0,z=-114,dx=252,dy=256,dz=224,tag=Success,scores={rng=1}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Pidove
-execute as @a[x=-2889,y=0,z=-114,dx=252,dy=256,dz=224,tag=Success,scores={rng=2..}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Sewaddle
+execute as @a[x=-2889,y=27,z=-114,dx=252,dy=256,dz=224,tag=Success,scores={rng=0}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Chatot
+execute as @a[x=-2889,y=27,z=-114,dx=252,dy=256,dz=224,tag=Success,scores={rng=1}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Pidove
+execute as @a[x=-2889,y=27,z=-114,dx=252,dy=256,dz=224,tag=Success,scores={rng=2..}] at @s as @e[type=minecraft:armor_stand,tag=Active,distance=..3,limit=1] run pokespawn Sewaddle
 
 
 #Route 105
