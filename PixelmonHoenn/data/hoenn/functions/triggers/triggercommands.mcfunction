@@ -960,24 +960,24 @@ execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard player
 execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 2
 execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 4
 execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 8
-execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players operation @a[scores={TriggerCommand=159},tag=!Item59Give] rng = @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand] rng
+execute as @s[scores={TriggerCommand=169},tag=!Item69Give] run scoreboard players operation @a[scores={TriggerCommand=169},tag=!Item69Give] rng = @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand] rng
 
-execute as @s[scores={TriggerCommand=169,rng=0},tag=!Item59Give] run give @s pixelmon:figy_berry
-execute as @s[scores={TriggerCommand=169,rng=1},tag=!Item59Give] run give @s pixelmon:wiki_berry
-execute as @s[scores={TriggerCommand=169,rng=2},tag=!Item59Give] run give @s pixelmon:mago_berry
-execute as @s[scores={TriggerCommand=169,rng=3..4},tag=!Item59Give] run give @s pixelmon:aguav_berry
-execute as @s[scores={TriggerCommand=169,rng=5..6},tag=!Item59Give] run give @s pixelmon:iapapa_berry
-execute as @s[scores={TriggerCommand=169,rng=7..8},tag=!Item59Give] run give @s pixelmon:razz_berry
-execute as @s[scores={TriggerCommand=169,rng=9..10},tag=!Item59Give] run give @s pixelmon:pomeg_berry
-execute as @s[scores={TriggerCommand=169,rng=11..12},tag=!Item59Give] run give @s pixelmon:kelpsy_berry
-execute as @s[scores={TriggerCommand=169,rng=13..14},tag=!Item59Give] run give @s pixelmon:qualot_berry
-execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:hondew_berry
-execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:grepa_berry
-execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:tamato_berry
-execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:cornn_berry
-execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:magost_berry
-execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:rabuta_berry
-execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item59Give] run give @s pixelmon:nomel_berry
+execute as @s[scores={TriggerCommand=169,rng=0},tag=!Item69Give] run give @s pixelmon:figy_berry
+execute as @s[scores={TriggerCommand=169,rng=1},tag=!Item69Give] run give @s pixelmon:wiki_berry
+execute as @s[scores={TriggerCommand=169,rng=2},tag=!Item69Give] run give @s pixelmon:mago_berry
+execute as @s[scores={TriggerCommand=169,rng=3..4},tag=!Item69Give] run give @s pixelmon:aguav_berry
+execute as @s[scores={TriggerCommand=169,rng=5..6},tag=!Item69Give] run give @s pixelmon:iapapa_berry
+execute as @s[scores={TriggerCommand=169,rng=7..8},tag=!Item69Give] run give @s pixelmon:razz_berry
+execute as @s[scores={TriggerCommand=169,rng=9..10},tag=!Item69Give] run give @s pixelmon:pomeg_berry
+execute as @s[scores={TriggerCommand=169,rng=11..12},tag=!Item69Give] run give @s pixelmon:kelpsy_berry
+execute as @s[scores={TriggerCommand=169,rng=13..14},tag=!Item69Give] run give @s pixelmon:qualot_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item69Give] run give @s pixelmon:hondew_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item69Give] run give @s pixelmon:grepa_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item69Give] run give @s pixelmon:tamato_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item69Give] run give @s pixelmon:cornn_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item69Give] run give @s pixelmon:magost_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item69Give] run give @s pixelmon:rabuta_berry
+execute as @s[scores={TriggerCommand=169,rng=15..16},tag=!Item69Give] run give @s pixelmon:nomel_berry
 
 execute as @s[scores={TriggerCommand=169,rng=0},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Figy Berry!","italic":true,"color":"gray"}]
 execute as @s[scores={TriggerCommand=169,rng=1},tag=!Item69Give] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Wiki Berry!","italic":true,"color":"gray"}]
@@ -1360,8 +1360,39 @@ execute as @s[scores={TriggerCommand=1006,Soot=1000..}] run playsound pixelmon:p
 execute as @s[scores={TriggerCommand=1006,Soot=1000..}] run give @s pixelmon:white_flute
 execute as @s[scores={TriggerCommand=1006,Soot=1000..}] run scoreboard players remove @s Soot 1000
 
+#-----------------------------------------------------------------------------------------------------
+#Shard Guy trading for Stones
+execute as @s[scores={TriggerCommand=1010..1014}] run scoreboard players enable @s TriggerCommand
 
+execute as @s[scores={TriggerCommand=1010}] run tellraw @s {"text":"<Treasure Hunter> Oh hey! That... That's a shard! I'm looking for those! Oh, man, you've got to trade that to me! I'll give you something good!"}
+execute as @s[scores={TriggerCommand=1010},nbt={Inventory:[{id:"pixelmon:red_shard"}]}] run tellraw @s ["",{"text":"["},{"text":"Trade a ","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1011"}},{"text":"Red Shard","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1011"}},{"text":"]"}]
+execute as @s[scores={TriggerCommand=1010},nbt={Inventory:[{id:"pixelmon:yellow_shard"}]}] run tellraw @s ["",{"text":"["},{"text":"Trade a ","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1012"}},{"text":"Yellow Shard","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1012"}},{"text":"]"}]
+execute as @s[scores={TriggerCommand=1010},nbt={Inventory:[{id:"pixelmon:blue_shard"}]}] run tellraw @s ["",{"text":"["},{"text":"Trade a ","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1013"}},{"text":"Blue Shard","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1013"}},{"text":"]"}]
+execute as @s[scores={TriggerCommand=1010},nbt={Inventory:[{id:"pixelmon:green_shard"}]}] run tellraw @s ["",{"text":"["},{"text":"Trade a ","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1014"}},{"text":"Green Shard","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 1014"}},{"text":"]"}]
 
+#Trade a Red Shard
+execute as @s[scores={TriggerCommand=1011},nbt={Inventory:[{id:"pixelmon:red_shard"}]}] run tellraw @s {"text":"<Treasure Hunter> It's a done deal! Use that wisely!"}
+execute as @s[scores={TriggerCommand=1011},nbt={Inventory:[{id:"pixelmon:red_shard"}]}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1011},nbt={Inventory:[{id:"pixelmon:red_shard"}]}] run give @s pixelmon:fire_stone 1
+execute as @s[scores={TriggerCommand=1011},nbt={Inventory:[{id:"pixelmon:red_shard"}]}] run clear @s pixelmon:red_shard 1
+
+#Trade a Yellow Shard
+execute as @s[scores={TriggerCommand=1012},nbt={Inventory:[{id:"pixelmon:yellow_shard"}]}] run tellraw @s {"text":"<Treasure Hunter> It's a done deal! Use that wisely!"}
+execute as @s[scores={TriggerCommand=1012},nbt={Inventory:[{id:"pixelmon:yellow_shard"}]}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1012},nbt={Inventory:[{id:"pixelmon:yellow_shard"}]}] run give @s pixelmon:thunder_stone 1
+execute as @s[scores={TriggerCommand=1012},nbt={Inventory:[{id:"pixelmon:yellow_shard"}]}] run clear @s pixelmon:yellow_shard 1
+
+#Trade a Blue Shard
+execute as @s[scores={TriggerCommand=1013},nbt={Inventory:[{id:"pixelmon:blue_shard"}]}] run tellraw @s {"text":"<Treasure Hunter> It's a done deal! Use that wisely!"}
+execute as @s[scores={TriggerCommand=1013},nbt={Inventory:[{id:"pixelmon:blue_shard"}]}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1013},nbt={Inventory:[{id:"pixelmon:blue_shard"}]}] run give @s pixelmon:water_stone 1
+execute as @s[scores={TriggerCommand=1013},nbt={Inventory:[{id:"pixelmon:blue_shard"}]}] run clear @s pixelmon:blue_shard 1
+
+#Trade a Green Shard
+execute as @s[scores={TriggerCommand=1014},nbt={Inventory:[{id:"pixelmon:green_shard"}]}] run tellraw @s {"text":"<Treasure Hunter> It's a done deal! Use that wisely!"}
+execute as @s[scores={TriggerCommand=1014},nbt={Inventory:[{id:"pixelmon:green_shard"}]}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={TriggerCommand=1014},nbt={Inventory:[{id:"pixelmon:green_shard"}]}] run give @s pixelmon:leaf_stone 1
+execute as @s[scores={TriggerCommand=1014},nbt={Inventory:[{id:"pixelmon:green_shard"}]}] run clear @s pixelmon:green_shard 1
 
 #-----------------------------------------------------------------------------------------------------
 

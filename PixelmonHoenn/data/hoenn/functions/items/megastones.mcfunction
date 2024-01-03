@@ -173,14 +173,18 @@ execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run playsound megastoneget 
 execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone24] add MegaStone24
 
 #Manectite
-execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone25]
-execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone25] pixelmon:manectite
-execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone25] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
-execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone25] ~ ~ ~ 1 1 1
-execute at @e[x=-1633,y=69,z=430,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone25] add MegaStone25
+execute at @e[x=-1394,y=69,z=-367,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone25]
+execute at @e[x=-1394,y=69,z=-367,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone25] pixelmon:manectite
+execute at @e[x=-1394,y=69,z=-367,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone25] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
+execute at @e[x=-1394,y=69,z=-367,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone25] ~ ~ ~ 1 1 1
+execute at @e[x=-1394,y=69,z=-367,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone25] add MegaStone25
 
-
-
+#Gengarite
+execute at @e[x=2507,y=45,z=446,dy=3,tag=MegaStone] run particle minecraft:dust 3 3 3 1 ~ ~1.25 ~ 1 1 1 0 10 normal @a[distance=..50,tag=!MegaStone26]
+execute at @e[x=2507,y=45,z=446,dy=3,tag=MegaStone] run give @a[distance=..3,tag=!MegaStone26] pixelmon:gengarite
+execute at @e[x=2507,y=45,z=446,dy=3,tag=MegaStone] run tellraw @a[distance=..3,tag=!MegaStone26] {"text":"You obtained a Mega Stone!","italic":true,"color":"gray"}
+execute at @e[x=2507,y=45,z=446,dy=3,tag=MegaStone] run playsound megastoneget ambient @a[distance=..3,tag=!MegaStone26] ~ ~ ~ 1 1 1
+execute at @e[x=2507,y=45,z=446,dy=3,tag=MegaStone] run tag @a[distance=..3,tag=!MegaStone26] add MegaStone26
 
 
 #
