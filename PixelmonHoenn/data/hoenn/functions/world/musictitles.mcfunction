@@ -9,6 +9,9 @@
 #execute unless score @s MusicTitles matches # run scoreboard players set @s[COORDME] MusicTitles #
 
 
+#Adds a skip condition to keep the player from refreshing music
+#When the player is riding a bike
+execute as @s[tag=!MusicDisabled] at @s positioned ~ ~-2 ~ if entity @e[dy=4,type=pixelmon:bike] run tag @s add Skip
 
 
 #Areas to mark player as indoors (Inside another larger zone)
@@ -687,5 +690,6 @@ execute unless score @s MusicTitles matches 145 run scoreboard players set @s[x=
 
 
 tag @s remove Indoors
+tag @s remove Skip
 
 #
