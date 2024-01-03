@@ -245,30 +245,37 @@ execute as @s[scores={TriggerCommand=40},tag=CobalionEncounter] if entity @e[x=-
 
 execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tellraw @s {"text":"Virizion Appeared!"}
 execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run pokespawn Virizion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tag @s add VirizionEncounter
 
 execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tellraw @s {"text":"Terrakion Appeared!"}
 execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run pokespawn Terrakion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tag @s add TerrakionEncounter
 
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tellraw @s {"text":"Cobalion Appeared!"}
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run pokespawn Cobalion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tag @s add CobalionEncounter
 
 execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tellraw @s {"text":"Virizion Appeared!"}
 execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run pokespawn Virizion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=40},tag=!VirizionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tag @s add VirizionEncounter
 
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tellraw @s {"text":"Cobalion Appeared!"}
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run pokespawn Cobalion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tag @s add CobalionEncounter
 
 execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tellraw @s {"text":"Terrakion Appeared!"}
 execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run pokespawn Terrakion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=40},tag=!TerrakionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tag @s add TerrakionEncounter
 
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tellraw @s {"text":"Cobalion Appeared!"}
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run pokespawn Cobalion lvl:50
+execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=40},tag=!CobalionEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tag @s add CobalionEncounter
 
 #-----------------------------------------------------------------------------------------------------
@@ -288,30 +295,37 @@ execute as @s[scores={TriggerCommand=41},tag=RaikouEncounter] if entity @e[x=-20
 
 execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tellraw @s {"text":"Suicune Appeared!"}
 execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run pokespawn Suicune lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=1}] run tag @s add SuicuneEncounter
 
 execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tellraw @s {"text":"Entei Appeared!"}
 execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run pokespawn Entei lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=2}] run tag @s add EnteiEncounter
 
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tellraw @s {"text":"Raikou Appeared!"}
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run pokespawn Raikou lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=3}] run tag @s add RaikouEncounter
 
 execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tellraw @s {"text":"Suicune Appeared!"}
 execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run pokespawn Suicune lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=41},tag=!SuicuneEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=4}] run tag @s add SuicuneEncounter
 
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tellraw @s {"text":"Raikou Appeared!"}
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run pokespawn Raikou lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=5}] run tag @s add RaikouEncounter
 
 execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tellraw @s {"text":"Entei Appeared!"}
 execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run pokespawn Entei lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=41},tag=!EnteiEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=6}] run tag @s add EnteiEncounter
 
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tellraw @s {"text":"Raikou Appeared!"}
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run pokespawn Raikou lvl:50
+execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=41},tag=!RaikouEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={WeekdayTrack=7}] run tag @s add RaikouEncounter
 
 #-----------------------------------------------------------------------------------------------------
@@ -351,18 +365,22 @@ execute as @s[scores={TriggerCommand=45},tag=AzelfEncounter] if entity @e[x=-207
 
 execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run tellraw @s {"text":"Uxie Appeared!"}
 execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run pokespawn Uxie lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=45},tag=!UxieEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=20000..21000}] run tag @s add UxieEncounter
 
 execute as @s[scores={TriggerCommand=45},tag=!MespritEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run tellraw @s {"text":"Mesprit Appeared!"}
 execute as @s[scores={TriggerCommand=45},tag=!MespritEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run pokespawn Mesprit lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!MespritEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=45},tag=!MespritEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=4000..19999}] run tag @s add MespritEncounter
 
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run tellraw @s {"text":"Azelf Appeared!"}
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run pokespawn Azelf lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=21001..24000}] run tag @s add AzelfEncounter
 
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run tellraw @s {"text":"Azelf Appeared!"}
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run pokespawn Azelf lvl:50
+execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run function hoenn:tools/forceclick
 execute as @s[scores={TriggerCommand=45},tag=!AzelfEncounter] at @s if entity @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=0..3999}] run tag @s add AzelfEncounter
 
 
