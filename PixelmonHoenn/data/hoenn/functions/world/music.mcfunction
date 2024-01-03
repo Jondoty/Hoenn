@@ -656,8 +656,8 @@ playsound route104 record @s[x=-2862,y=0,z=-512,dx=253,dy=256,dz=164,scores={Mus
 scoreboard players set @s[x=-2862,y=0,z=-512,dx=253,dy=256,dz=164,scores={MusicCooldown=0}] MusicCooldown 125
 
 #Route 104 (South)
-playsound route104 record @s[x=-2889,y=0,z=-114,dx=252,dy=256,dz=224,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2889,y=0,z=-114,dx=252,dy=256,dz=224,scores={MusicCooldown=0}] MusicCooldown 125
+playsound route104 record @s[x=-2889,y=27,z=-114,dx=252,dy=256,dz=224,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2889,y=27,z=-114,dx=252,dy=256,dz=224,scores={MusicCooldown=0}] MusicCooldown 125
 
 #Route 105
 playsound route104 record @s[x=-2869,y=36,z=111,dx=232,dy=256,dz=523,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
