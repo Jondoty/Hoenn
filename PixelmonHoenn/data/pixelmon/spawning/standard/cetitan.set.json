@@ -1,0 +1,45 @@
+{
+  "id": "Cetitan",
+  "spawnInfos": [
+    {
+      "spec": "species:Cetitan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:frozen_ocean",
+          "minecraft:snowy_beach",
+          "terralith:glacial_chasm"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Cetoddle",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.1
+        }
+      ],
+      "rarity": 0.0
+    }
+  ]
+}

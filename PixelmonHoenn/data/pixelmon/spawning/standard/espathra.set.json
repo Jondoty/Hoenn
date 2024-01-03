@@ -1,0 +1,25 @@
+{
+  "id": "Espathra",
+  "spawnInfos": [
+    {
+      "spec": "species:Espathra",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/arid",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
