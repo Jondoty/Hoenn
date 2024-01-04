@@ -21,6 +21,7 @@ gamerule keepInventory true
 gamerule randomTickSpeed 3
 scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
+gamerule sendCommandFeedback false
 
 
 #Sets story-based scores to 0
