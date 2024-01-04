@@ -5,7 +5,7 @@
 #Spots determined by an rng value of 0-31, 32 different possibilities.
 
 
-tellraw @s[tag=!Cooldown] {"text":"Fly over the desired area and hold shift to descend to fly to the desired area!","italic":true,"color":"gray"}
+tellraw @s[tag=!Cooldown,scores={DialogueTrigger=0}] {"text":"Fly over the desired area and hold shift to descend to fly to the desired area!","italic":true,"color":"gray"}
 tag @s add Cooldown
 
 

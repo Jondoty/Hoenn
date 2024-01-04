@@ -472,7 +472,7 @@ execute as @s[scores={TriggerCommand=59}] run playsound minecraft:entity.experie
 execute as @s[scores={TriggerCommand=59}] run tellraw @s {"text":"<Taillow> Trainer Commands confirmed, you are good to go!"}
 
 #Resource pack explanation & link
-execute as @s[scores={TriggerCommand=60}] run tellraw @s ["",{"text":"[","italic":true,"color":"gray"},{"text":"Click Here","italic":true,"color":"aqua","clickEvent":{"action":"open_url","value":"hoenn.jond.tv"}},{"text":"] to download.\n[","italic":true,"color":"gray"},{"text":"Learn More","italic":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack"}},{"text":"] about how to enable a Resource Pack.","italic":true,"color":"gray"}]
+execute as @s[scores={TriggerCommand=60}] run tellraw @s ["",{"text":"[","italic":true,"color":"gray"},{"text":"Click Here","italic":true,"color":"aqua","clickEvent":{"action":"open_url","value":"http://hoenn.jond.tv"}},{"text":"] to download.\n[","italic":true,"color":"gray"},{"text":"Learn More","italic":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack"}},{"text":"] about how to enable a Resource Pack.","italic":true,"color":"gray"}]
 
 
 #-----------------------------------------------------------------------------------------------------

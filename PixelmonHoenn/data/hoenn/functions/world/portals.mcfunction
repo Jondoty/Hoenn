@@ -633,9 +633,9 @@ tp @a[x=-1612,y=133,z=-531,dz=6,dy=3] 2575 85 2904 180 ~
 tp @a[x=-1456,y=133,z=-531,dz=6,dy=3] 2836 85 2904 180 ~
 
 #Pokemon Gym
-tag @a[x=2670,y=65,z=2714,dx=6,dy=3] remove Dialogue67
-tp @a[x=2670,y=65,z=2714,dx=6,dy=3] -3375 99 1599
-tp @a[x=-3379,y=99,z=1600,dx=8,dy=3] 2673 65 2715
+tag @a[x=2670,y=65,z=2714,dx=6,dy=3,scores={DialogueTrigger=0}] remove Dialogue67
+tp @a[x=2670,y=65,z=2714,dx=6,dy=3,scores={DialogueTrigger=0}] -3375 99 1599
+tp @a[x=-3379,y=99,z=1600,dx=8,dy=3,scores={DialogueTrigger=0}] 2673 65 2715
 
 #Pokemon Mart
 execute as @a[x=-1511,y=69,z=-645,dx=2,dy=3] run function hoenn:tools/forceclick
@@ -782,8 +782,8 @@ execute as @a[x=-2013,y=63,z=-1108,dx=3,dy=3] run function hoenn:tools/forceclic
 tp @a[x=-2013,y=63,z=-1108,dx=3,dy=3] -2012 84 -1106
 
 #Spa Entrance
-execute as @a[x=2023,y=63,z=-1128,dx=3,dy=3] run function hoenn:tools/forceclick
-tp @a[x=2023,y=63,z=-1128,dx=3,dy=3] -2020 84 -1133
+execute as @a[x=-2023,y=63,z=-1128,dx=3,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-2023,y=63,z=-1128,dx=3,dy=3] -2020 84 -1133
 
 execute as @a[x=-2022,y=84,z=-1132,dx=4,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2022,y=84,z=-1132,dx=4,dy=3] -2021 63 -1127
@@ -797,8 +797,8 @@ execute as @a[x=-1977,y=65,z=-1112,dx=3,dy=3] run function hoenn:tools/forceclic
 tp @a[x=-1977,y=65,z=-1112,dx=3,dy=3] -1976 84 -1111
 
 #Pokemon Gym
-tag @a[x=-2039,y=84,z=-1053,dx=6,dy=3] remove Dialogue89
-tp @a[x=-2039,y=84,z=-1053,dx=6,dy=3] -3101 88 1625
+tag @a[x=-2039,y=84,z=-1053,dx=6,dy=3,scores={DialogueTrigger=0}] remove Dialogue89
+tp @a[x=-2039,y=84,z=-1053,dx=6,dy=3,scores={DialogueTrigger=0}] -3101 88 1625
 
 scoreboard players set @a[x=-3102,y=88,z=1626,dx=3,dy=3,tag=Dialogue90,tag=!Dialogue91] DialogueTrigger 91
 execute as @a[x=-3102,y=88,z=1626,dx=3,dy=3,tag=Dialogue90,tag=!Dialogue91] run function hoenn:tools/forceclick
@@ -1434,7 +1434,6 @@ tp @a[x=632,y=84,z=-3215,dx=4,dy=3] 634.0 87 -3180
 tp @a[x=632,y=140,z=-3215,dx=4,dy=3] 634.0 87 -3180
 
 #Steven's battle room to hall of fame
-scoreboard players set @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164,tag=!Dialogue165] DialogueTrigger 165
 execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run function hoenn:tools/forceclick
 execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run tag @s remove Dialogue166
 tp @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] 633 132 -3305

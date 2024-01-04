@@ -829,7 +829,7 @@ tellraw @s[scores={DialogueTrigger=24,TalkTime=15}] {"text":"<Roxanne> Now, woul
 execute as @s[scores={DialogueTrigger=24,TalkTime=23}] run tp @s -2988 91 1356 180 0
 execute as @s[scores={DialogueTrigger=24,TalkTime=23}] run pokebattle @s Roxanne
 
-tag @s[scores={DialogueTrigger=24,TalkTime=100..}] add Dialogue24
+tag @s[scores={DialogueTrigger=24,TalkTime=23..}] add Dialogue24
 #--------------------------
 #Dialogue 25 - Rustboro Gym
 #Roxanne post-battle
