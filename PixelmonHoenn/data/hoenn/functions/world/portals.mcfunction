@@ -139,6 +139,10 @@ execute as @a[x=-2473,y=50,z=8,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-2473,y=50,z=8,dx=3,dy=3] -2472 69 9
 
 #Pokemon Gym
+#If player does not have Flannery's Badge yet
+execute as @a[x=-2548,y=69,z=-23,dx=6,dy=3,tag=!Dialogue90] run tellraw @s ["",{"text":"Your father's words echo in your mind... ","italic":true,"color":"gray"},{"selector":"@s","italic":true,"color":"gray"},{"text":"! We can battle, but not before you're more experienced!\"","italic":true,"color":"gray"}]
+execute as @a[x=-2548,y=69,z=-23,dx=6,dy=3,tag=!Dialogue90] at @s run tp ~ ~ ~5
+
 tag @a[x=-2548,y=69,z=-23,dx=6,dy=3,scores={DialogueTrigger=0}] remove Dialogue94
 tp @a[x=-2548,y=69,z=-23,dx=6,dy=3,scores={DialogueTrigger=0}] -3244 65 1639
 scoreboard players set @a[x=-3246,y=65,z=1640,dx=4,dy=3,tag=Dialogue95,tag=!Dialogue96,scores={DialogueTrigger=0}] DialogueTrigger 96
