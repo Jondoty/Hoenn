@@ -849,8 +849,8 @@ execute as @s[scores={DialogueTrigger=25,TalkTime=26}] run advancement grant @s 
 tellraw @s[scores={DialogueTrigger=25,TalkTime=33}] {"text":"<Roxanne> The Stone Badge enables Pokémon to use the HM move Cut outside of battle."}
 tellraw @s[scores={DialogueTrigger=25,TalkTime=41}] {"text":"<Roxanne> And... Please take this with you, too."}
 
-tellraw @s[scores={DialogueTrigger=25,TalkTime=48}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM37 Rock Tomb!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=25,TalkTime=48}] run give @s pixelmon:tm_gen6{tm:37s}
+tellraw @s[scores={DialogueTrigger=25,TalkTime=48}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM39 Rock Tomb!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=25,TalkTime=48}] run give @s pixelmon:tm_gen6{tm:39s}
 execute as @s[scores={DialogueTrigger=25,TalkTime=48}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
 tellraw @s[scores={DialogueTrigger=25,TalkTime=55}] {"text":"<Roxanne> The move Rock Tomb not only inflicts damage by dropping rocks, it also lowers the target's Speed."}
