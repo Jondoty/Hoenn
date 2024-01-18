@@ -21,7 +21,12 @@ gamerule keepInventory true
 gamerule randomTickSpeed 3
 scoreboard objectives setdisplay sidebar
 scoreboard objectives setdisplay list
-gamerule sendCommandFeedback false
+#gamerule sendCommandFeedback false
+
+#sets up a default team to prevent PVP
+team add default
+team join default @s
+team modify default friendlyFire false
 
 
 #Sets story-based scores to 0
