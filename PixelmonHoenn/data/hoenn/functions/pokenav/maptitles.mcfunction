@@ -112,7 +112,7 @@ title @s[x=676,y=31,z=-830,dx=509,dy=256,dz=560,tag=!Indoors] actionbar {"text":
 title @s[x=1186,y=31,z=-811,dx=576,dy=256,dz=575] actionbar {"text":"Route 127"}
 title @s[x=1186,y=31,z=-235,dx=838,dy=256,dz=312] actionbar {"text":"Route 128"}
 title @s[x=945,y=31,z=78,dx=857,dy=256,dz=351] actionbar {"text":"Route 129"}
-title @s[x=507,y=31,z=78,dx=437,dy=256,dz=351] actionbar {"text":"Route 130"}
+title @s[x=507,y=30,z=78,dx=437,dy=256,dz=351] actionbar {"text":"Route 130"}
 title @s[x=45,y=0,z=-8,dx=461,dy=256,dz=404] actionbar {"text":"Route 131"}
 title @s[x=-545,y=31,z=135,dx=364,dy=256,dz=312] actionbar {"text":"Route 132"}
 title @s[x=-924,y=31,z=136,dx=378,dy=256,dz=312] actionbar {"text":"Route 133"}

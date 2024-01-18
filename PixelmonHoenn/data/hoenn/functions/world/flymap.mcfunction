@@ -50,7 +50,7 @@ tp @s[x=330,y=237,z=-1927,dy=3,tag=FlyFortree] -688 84 -1424 0 ~
 tp @s[x=336,y=237,z=-1924,dx=1,dy=3,dz=1,tag=FlyLilycove] 518 74 -1032 0 ~
 tp @s[x=344,y=237,z=-1922,dy=3,dx=1,tag=FlyMossdeep] 1482 74 -975 0 ~
 tp @s[x=341,y=237,z=-1917,dy=3,tag=FlySootopolis] 1121 79 1671 0 ~
-tp @s[x=345,y=237,z=-1908,dy=3,tag=FlyPacifidlog] -53 65 269 0 ~
+tp @s[x=338,y=237,z=-1913,dy=3,tag=FlyPacifidlog] -53 65 269 0 ~
 tp @s[x=350,y=237,z=-1915,dy=3,tag=FlyEverGrande] 2227 154 -219 0 ~
 tp @s[x=350,y=237,z=-1917,dy=3,tag=FlyLeague] 2158 170 -748 0 ~
 tp @s[x=345,y=237,z=-1908,dy=3,tag=FlyResort] 2353 69 808 0 ~

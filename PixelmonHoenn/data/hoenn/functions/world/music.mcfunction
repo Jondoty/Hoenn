@@ -466,6 +466,10 @@ scoreboard players set @s[x=-727,y=0,z=-1509,dx=291,dy=256,dz=213,scores={MusicC
 playsound lilycovecity record @s[x=318,y=0,z=-1170,dx=514,dy=256,dz=325,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=318,y=0,z=-1170,dx=514,dy=256,dz=325,scores={MusicCooldown=0}] MusicCooldown 172
 
+#Lilycove Harbor
+playsound lilycovecity record @s[x=2368,y=0,z=2523,dx=140,dy=256,dz=92,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2368,y=0,z=2523,dx=140,dy=256,dz=92,scores={MusicCooldown=0}] MusicCooldown 172
+
 #Mossdeep City
 playsound rustborocity record @s[x=1245,y=0,z=-1163,dx=554,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=1245,y=0,z=-1163,dx=554,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 185
@@ -768,8 +772,8 @@ playsound route119 record @s[x=945,y=31,z=78,dx=857,dy=256,dz=351,scores={MusicC
 scoreboard players set @s[x=945,y=31,z=78,dx=857,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 200
 
 #Route 130
-playsound route119 record @s[x=507,y=0,z=78,dx=437,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=507,y=0,z=78,dx=437,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 200
+playsound route119 record @s[x=507,y=30,z=78,dx=437,dy=256,dz=351,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=507,y=30,z=78,dx=437,dy=256,dz=351,scores={MusicCooldown=0}] MusicCooldown 200
 
 #Route 131
 playsound route119 record @s[x=45,y=0,z=-8,dx=461,dy=256,dz=404,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -813,8 +817,8 @@ playsound dive record @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351,scores={MusicCool
 scoreboard players set @s[x=964,y=-74,z=83,dx=673,dy=103,dz=351,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 130 (Underwater)
-playsound dive record @s[x=546,y=-74,z=83,dx=417,dy=103,dz=251,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=546,y=-74,z=83,dx=417,dy=103,dz=251,scores={MusicCooldown=0}] MusicCooldown 225
+playsound dive record @s[x=546,y=-74,z=83,dx=417,dy=102,dz=251,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=546,y=-74,z=83,dx=417,dy=102,dz=251,scores={MusicCooldown=0}] MusicCooldown 225
 
 #Route 134 (Underwater)
 playsound dive record @s[x=-1092,y=-41,z=304,dx=198,dy=71,dz=512,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

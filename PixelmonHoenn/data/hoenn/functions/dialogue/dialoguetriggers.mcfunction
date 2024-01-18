@@ -455,15 +455,15 @@ execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot27] run tellraw @s [
 execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot27] run give @s pixelmon:pixie_plate
 execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot27] run tag @s add CustomLoot27
 
-execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Adamant Orb!","italic":true,"color":"gray"}]
-execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run give @s pixelmon:adamant_orb
-execute as @a[x=1432,y=-21,z=24,distance=..3,tag=!CustomLoot28] run tag @s add CustomLoot28
+execute as @a[x=1364,y=-21,z=-136,distance=..3,tag=!CustomLoot28] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1364,y=-21,z=-136,distance=..3,tag=!CustomLoot28] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Adamant Orb!","italic":true,"color":"gray"}]
+execute as @a[x=1364,y=-21,z=-136,distance=..3,tag=!CustomLoot28] run give @s pixelmon:adamant_orb
+execute as @a[x=1364,y=-21,z=-136,distance=..3,tag=!CustomLoot28] run tag @s add CustomLoot28
 
-execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Protein!","italic":true,"color":"gray"}]
-execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run give @s pixelmon:protein
-execute as @a[x=1651,y=-21,z=86,distance=..3,tag=!CustomLoot29] run tag @s add CustomLoot29
+execute as @a[x=1651,y=-21,z=-86,distance=..3,tag=!CustomLoot29] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @a[x=1651,y=-21,z=-86,distance=..3,tag=!CustomLoot29] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Protein!","italic":true,"color":"gray"}]
+execute as @a[x=1651,y=-21,z=-86,distance=..3,tag=!CustomLoot29] run give @s pixelmon:protein
+execute as @a[x=1651,y=-21,z=-86,distance=..3,tag=!CustomLoot29] run tag @s add CustomLoot29
 
 execute as @a[x=1635,y=-21,z=-82,distance=..3,tag=!CustomLoot30] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @a[x=1635,y=-21,z=-82,distance=..3,tag=!CustomLoot30] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pearl!","italic":true,"color":"gray"}]
