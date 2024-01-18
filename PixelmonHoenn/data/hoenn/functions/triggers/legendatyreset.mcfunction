@@ -140,30 +140,26 @@ execute as @s[tag=!RayquazaCatch,tag=RayquazaEncounter] run tag @s remove Rayqua
 
 
 #regice
-execute as @s[tag=!RegigigasCatch,tag=Dialogue232] run tellraw @s {"text":"You can now rebattle Regice!","italic":true,"color":"gray"}
-execute as @s[tag=!RegigigasCatch,tag=Dialogue232] run tag @s remove RegiceEncounter
-execute as @s[tag=!RegigigasCatch,tag=Dialogue232] run tag @s remove Dialogue232
+execute as @s[tag=!RegiceCatch,tag=RegiceEncounter] run tellraw @s {"text":"You can now rebattle Regice!","italic":true,"color":"gray"}
+execute as @s[tag=!RegiceCatch,tag=RegiceEncounter] run tag @s remove RegiceEncounter
 
 
 
 #regigigas
-execute as @s[tag=!RegigigasCatch,tag=Dialogue233] run tellraw @s {"text":"You can now rebattle Regigigas!","italic":true,"color":"gray"}
-execute as @s[tag=!RegigigasCatch,tag=Dialogue233] run tag @s remove RegigigasEncounter
-execute as @s[tag=!RegigigasCatch,tag=Dialogue233] run tag @s remove Dialogue233
+execute as @s[tag=!RegigigasCatch,tag=RegigigasEncounter] run tellraw @s {"text":"You can now rebattle Regigigas!","italic":true,"color":"gray"}
+execute as @s[tag=!RegigigasCatch,tag=RegigigasEncounter] run tag @s remove RegigigasEncounter
 
 
 
 #regirock
-execute as @s[tag=!RegigigasCatch,tag=Dialogue230] run tellraw @s {"text":"You can now rebattle Regirock!","italic":true,"color":"gray"}
-execute as @s[tag=!RegigigasCatch,tag=Dialogue230] run tag @s remove RegirockEncounter
-execute as @s[tag=!RegigigasCatch,tag=Dialogue230] run tag @s remove Dialogue230
+execute as @s[tag=!RegirockCatch,tag=RegirockEncounter] run tellraw @s {"text":"You can now rebattle Regirock!","italic":true,"color":"gray"}
+execute as @s[tag=!RegirockCatch,tag=RegirockEncounter] run tag @s remove RegirockEncounter
 
 
 
 #registeel
-execute as @s[tag=!RegigigasCatch,tag=Dialogue231] run tellraw @s {"text":"You can now rebattle Registeel!","italic":true,"color":"gray"}
-execute as @s[tag=!RegigigasCatch,tag=Dialogue231] run tag @s remove RegisteelEncounter
-execute as @s[tag=!RegigigasCatch,tag=Dialogue231] run tag @s remove Dialogue231
+execute as @s[tag=!RegisteelCatch,tag=RegisteelEncounter] run tellraw @s {"text":"You can now rebattle Registeel!","italic":true,"color":"gray"}
+execute as @s[tag=!RegisteelCatch,tag=RegisteelEncounter] run tag @s remove RegisteelEncounter
 
 
 
