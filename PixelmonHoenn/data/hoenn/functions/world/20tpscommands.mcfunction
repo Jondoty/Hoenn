@@ -1,3 +1,5 @@
+#Adds the first command block check tag
+tag @e[x=-2070,y=65,z=1410,dy=5] add VerifyCommands
 
 #Runs world portals
 execute at @a run execute if block ~ ~ ~ pixelmon:warp_plate run function hoenn:world/portals
