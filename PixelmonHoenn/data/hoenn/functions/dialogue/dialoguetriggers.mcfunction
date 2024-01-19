@@ -152,6 +152,9 @@ execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..,Trigger
 execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..}] run tellraw @s {"text":"<Treasure Hunter> You haven't got any treasures for me... If you see any shards, like the Red Shard, you've got to trade them with me!"}
 execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
 
+execute as @a[x=2479,y=64,z=866,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s TriggerCommand 7
+execute as @a[x=2479,y=64,z=866,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
+
 #----------------------------------------------
 #/data merge entity @e[distance=..4,limit=1,type=pixelmon:npc_trainer] {WinningsTag:{item0:{id:"minecraft:nether_brick",Count:1b}}}
 #Gym Leaders, E4, likely to be replaced with trainer commands later down the road?
