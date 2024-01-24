@@ -12,6 +12,9 @@ function hoenn:world/gamedifferences
 #Please stop spawning bosses everywhere
 function hoenn:randomizer/debossinator
 
+#Resets rock smash rocks when player wanders away
+execute as @e[tag=Regenerate,type=minecraft:armor_stand] at @s unless entity @a[distance=..75] run function hoenn:spawn/rocksmashrock
+
 #Mirage spot sword trio EV scanning
 tag @s remove FirstEVMaxed
 tag @s remove SecondEVMaxed

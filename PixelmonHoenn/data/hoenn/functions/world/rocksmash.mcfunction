@@ -13,20 +13,21 @@
 #------------------------------------------------------------------------------------------------
 
 #Tags rocks within the player's grasp as Broken to clear a path quickly
-execute at @s run tag @e[distance=..5,type=pixelmon:statue] add Break
+execute at @s run tag @e[distance=..5,type=minecraft:interaction] add Break
 
 #Sets the armor stand model to broken
-#Need to implement the models from Kalos to use
 execute at @s as @e[distance=..15,tag=Break] at @s positioned ~ ~-2 ~ as @e[dy=4,type=armor_stand] run data merge entity @s {ArmorItems:[{},{},{},{id:diamond_hoe,tag:{Damage:17,HideFlags:6,Unbreakable:1},Count:1}],DisabledSlots:4144959}
 execute as @e[distance=..15,tag=Break] at @s run particle minecraft:block terracotta ~ ~0.5 ~ 1 2 1 1 500
 execute at @s as @e[distance=..15,tag=Break] at @s positioned ~ ~-2 ~ run tag @e[dy=4,type=armor_stand] add Regenerate
 
-#Breaks Rock Smash Rock surrounding player
+execute at @s if entity @s[x=-2620,y=0,z=-1507,dx=275,dy=256,dz=427] as @e[distance=..15,tag=Break] at @s positioned ~ ~-2 ~ run fill ~-1 ~ ~ ~1 ~5 ~ air replace barrier
+execute at @s if entity @s[x=-2451,y=0,z=-863,dx=222,dy=60,dz=147] as @e[distance=..15,tag=Break] at @s positioned ~ ~-2 ~ run fill ~ ~ ~-1 ~ ~5 ~1 air replace barrier
+execute at @s as @e[distance=..15,tag=Break] at @s positioned ~ ~-2 ~ run fill ~ ~ ~ ~ ~5 ~ air replace barrier
 
-execute at @s run tp @e[type=pixelmon:statue,tag=Break] 10000000 -50000 -10000000
+#Breaks Rock Smash Rock surrounding player
+execute as @s at @s run kill @e[distance=..5,type=minecraft:interaction,tag=Break]
 tellraw @s {"text":"You used Rock Smash!","italic":true,"color":"gray"}
 playsound minecraft:item.shield.block ambient @s ~ ~ ~ 10 1 1
-
 
 #------------------------------------------------------------------------------------------------
 #Tags the player if they are in a MirageArea or not for purposes of loot
