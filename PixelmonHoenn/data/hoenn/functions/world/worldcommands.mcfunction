@@ -74,9 +74,9 @@ tag @e[x=-2070,y=64,z=1410,dy=3,type=armor_stand,scores={DayTime=..1000},tag=Dai
 #Signs/Establishing Shots
 
 #Sign titles if player has a score to read one.
-execute as @a[scores={StepCounter=2000..}] at @s if entity @e[type=armor_stand,tag=Sign,distance=..4] run function hoenn:triggers/signread
-execute as @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135,scores={StepCounter=500..}] at @s if entity @e[type=armor_stand,tag=Sign,distance=..4] run function hoenn:triggers/signread
-execute as @a[scores={SignRead=1..}] run function hoenn:dialogue/signs
+#execute as @a[scores={StepCounter=2000..}] at @s if entity @e[type=armor_stand,tag=Sign,distance=..4] run function hoenn:triggers/signread
+#execute as @a[x=-2154,y=0,z=-1507,dx=552,dy=256,dz=135,scores={StepCounter=500..}] at @s if entity @e[type=armor_stand,tag=Sign,distance=..4] run function hoenn:triggers/signread
+#execute as @a[scores={SignRead=1..}] run function hoenn:dialogue/signs
 
 #Return teleports if the player flies
 
