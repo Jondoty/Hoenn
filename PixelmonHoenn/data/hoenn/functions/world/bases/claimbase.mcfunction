@@ -741,7 +741,21 @@ scoreboard players set @s[scores={BaseTrigger=200..282}] BaseTrigger 0
 #Abandon's base via Nav module prompt
 execute as @s[scores={BaseTrigger=1000}] run gamemode adventure
 execute as @s[scores={BaseTrigger=1000}] run function hoenn:world/bases/abandonbase
-scoreboard players set @s[scores={BaseTrigger=1000}] BaseTrigger 0
+
+#Scans for if there's already a trainer nearby
+execute as @s[gamemode=survival,scores={BaseTrigger=1001}] at @s if entity @e[distance=..30,type=pixelmon:npc_trainer] run tellraw @s {"text":"A trainer was found nearby! Would you like to remove it?","italic":true,"color":"gray"}
+execute as @s[gamemode=survival,scores={BaseTrigger=1001}] at @s if entity @e[distance=..30,type=pixelmon:npc_trainer] run scoreboard players enable @s BaseTrigger
+execute as @s[gamemode=survival,scores={BaseTrigger=1001}] at @s if entity @e[distance=..30,type=pixelmon:npc_trainer] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger BaseTrigger set 1002"}},{"text":"]"}]
+execute as @s[gamemode=survival,scores={BaseTrigger=1001}] at @s if entity @e[distance=..30,type=pixelmon:npc_trainer] run scoreboard players set @s BaseTrigger 0
+
+#Generates trainers
+execute as @s[gamemode=survival,scores={BaseTrigger=1001}] run function hoenn:world/bases/trainers/maketrainer
+
+#Deletes trainer
+execute as @s[gamemode=survival,scores={BaseTrigger=1002}] at @s as @e[distance=..30,type=pixelmon:npc_trainer] run particle cloud ~ ~ ~ 1 1 1 0.15 300
+execute as @s[gamemode=survival,scores={BaseTrigger=1002}] at @s as @e[distance=..30,type=pixelmon:npc_trainer] run tp @s 10000000 -50000 -10000000
+
+scoreboard players set @s[scores={BaseTrigger=1000..}] BaseTrigger 0
 
 
 
