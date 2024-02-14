@@ -2,7 +2,8 @@
 tag @e[x=-2070,y=65,z=1410,dy=5] add VerifyCommands
 
 #Runs world portals
-execute at @a run execute if block ~ ~ ~ pixelmon:warp_plate run function hoenn:world/portals
+execute if entity @e[x=-2070,y=65,z=1410,dy=4,scores={Seed=0}] at @a run execute if block ~ ~ ~ pixelmon:warp_plate run function hoenn:world/portals
+execute if entity @e[x=-2070,y=65,z=1410,dy=4,scores={Seed=1..}] at @a as @a if block ~ ~ ~ pixelmon:warp_plate run function hoenn:randomizer/randomdoors
 
 #Runs particles for hidden items
 execute as @a[nbt={SelectedItem:{id:"pixelmon:item_finder"}}] run function hoenn:items/dowsingmachine
