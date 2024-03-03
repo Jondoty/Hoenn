@@ -154,8 +154,8 @@ execute as @a[tag=!MusicDisabled,tag=!Cycling] at @s positioned ~ ~-2 ~ if entit
 tag @a[x=-1562,y=60,z=-1293,dx=249,dy=256,dz=159] add DesertTemp
 tag @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] add DesertTemp
 
-clear @a pixelmon:safety_goggles
-execute as @a[tag=SafetyGoggles] run item replace entity @s[tag=DesertTemp] armor.head with pixelmon:safety_goggles
+clear @a pixelmon:safety_goggles{display:{Name:'[{"text":"Go-Goggles","italic":false}]'}}
+execute as @a[tag=SafetyGoggles] run item replace entity @s[tag=DesertTemp] armor.head with pixelmon:safety_goggles{display:{Name:'[{"text":"Go-Goggles","italic":false}]'}}
 
 tag @a remove DesertTemp
 

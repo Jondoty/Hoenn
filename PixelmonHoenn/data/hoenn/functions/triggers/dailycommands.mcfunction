@@ -31,6 +31,7 @@ scoreboard players operation @e[x=-2070,y=64,z=1410,dy=3] MirageSpots = @e[x=-20
 #Removes item give tags, allowing daily use
 tag @a remove Item5Give
 tag @a remove Item36Give
+tag @a remove Item47Give
 tag @a remove Item59Give
 tag @a remove Item69Give
 tag @a remove Item78Give

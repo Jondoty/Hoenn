@@ -584,16 +584,7 @@ execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run tellraw @s
 execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run give @s pixelmon:shoal_salt
 execute as @a[x=2891,y=89,z=-2549,distance=..3,tag=!CustomLoot51] run tag @s add CustomLoot51
 
-#Lavaridge Pokemon Eggs
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pokémon Egg!","italic":true,"color":"gray"}]
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run pokegive Togepi egg
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot52,scores={PokemonLeague=1..}] run tag @s add CustomLoot52
 
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run tellraw @s ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pokémon Egg!","italic":true,"color":"gray"}]
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run pokegive Wynaut egg
-execute as @a[x=-2047,y=84,z=-1094,distance=..3,tag=!CustomLoot53] run tag @s add CustomLoot53
 
 #Slateport City
 #From the woman at the back of the Pokémon Fan Club if the player's lead Pokémon has at least 150 friendship
@@ -802,9 +793,6 @@ execute as @a[x=-1399,y=0,z=-413,dx=65,dy=55,dz=92,nbt={Inventory:[{id:"pixelmon
 execute as @a[x=-1399,y=0,z=-413,dx=65,dy=55,dz=92,nbt={Inventory:[{id:"pixelmon:pixelmon_sprite",tag:{ndex:100s}}]}] at @s run pokespawn voltorb lvl:25
 execute as @a[x=-1399,y=0,z=-413,dx=65,dy=55,dz=92,nbt={Inventory:[{id:"pixelmon:pixelmon_sprite",tag:{ndex:100s}}]}] run clear @s pixelmon:pixelmon_sprite
 
-#Mauville City Reveal Glass shopkeeper
-execute as @a[x=2620,y=67,z=2794,distance=..5,tag=!Item22Give,scores={StepCounter=2000..}] run scoreboard players set @s TriggerCommand 122
-execute as @a[x=2620,y=67,z=2794,distance=..5,tag=!Item22Give,scores={StepCounter=2000..}] run scoreboard players set @s StepCounter 0
 
 #Aqua and Magma Bases Electrode
 execute as @a[x=1176,y=0,z=-2562,dx=312,dy=256,dz=276,nbt={Inventory:[{id:"pixelmon:pixelmon_sprite",tag:{ndex:101s}}]}] run playsound pixelmon:pixelmon.mob.electrode hostile @s ~ ~ ~ 1 1 1
