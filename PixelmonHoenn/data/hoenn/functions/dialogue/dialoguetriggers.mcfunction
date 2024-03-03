@@ -142,18 +142,6 @@ clear @a[x=-2123,y=63,z=1286,dx=203,dy=40,dz=50] pixelmon:pixelmon_sprite
 execute as @a[x=-1955,y=78,z=-1470,distance=..3,scores={StepCounter=1000..,Soot=250..}] run scoreboard players set @s TriggerCommand 1000
 execute as @a[x=-1955,y=78,z=-1470,distance=..3,scores={StepCounter=1000..,Soot=250..}] run scoreboard players set @s StepCounter 0
 
-#Route 124 Treasure Hunter Stones
-execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..},nbt={Inventory:[{id:"pixelmon:red_shard"}]}] run scoreboard players set @s TriggerCommand 1010
-execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..},nbt={Inventory:[{id:"pixelmon:yellow_shard"}]}] run scoreboard players set @s TriggerCommand 1010
-execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..},nbt={Inventory:[{id:"pixelmon:blue_shard"}]}] run scoreboard players set @s TriggerCommand 1010
-execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..},nbt={Inventory:[{id:"pixelmon:green_shard"}]}] run scoreboard players set @s TriggerCommand 1010
-execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..,TriggerCommand=1010}] run scoreboard players set @s StepCounter 0
-
-execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..}] run tellraw @s {"text":"<Treasure Hunter> You haven't got any treasures for me... If you see any shards, like the Red Shard, you've got to trade them with me!"}
-execute as @a[x=1123,y=35,z=-954,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
-
-execute as @a[x=2479,y=64,z=866,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s TriggerCommand 7
-execute as @a[x=2479,y=64,z=866,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
 
 #----------------------------------------------
 #/data merge entity @e[distance=..4,limit=1,type=pixelmon:npc_trainer] {WinningsTag:{item0:{id:"minecraft:nether_brick",Count:1b}}}
@@ -621,22 +609,6 @@ execute as @a[x=1388,y=45,z=-1042,distance=..6,tag=!CustomLoot56,scores={Pokemon
 execute as @a[x=1388,y=45,z=-1042,distance=..6,tag=!CustomLoot56,scores={PokemonLeague=1..}] run pokegive Beldum lvl:1 helditem:iron_plate otn:Steven
 execute as @a[x=1388,y=45,z=-1042,distance=..6,tag=!CustomLoot56,scores={PokemonLeague=1..}] run tag @s add CustomLoot56
 
-#Pacifidlog Town
-#In the southwestern house, gift from the Pokémon Fan Club Chairman's brother if lead Pokémon's friendship is below 50 only one
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot57] run scoreboard players set @s PokeHave 0
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot57] run function hoenn:data/friendshipscan
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot57,scores={Temp=..50}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot57,scores={Temp=..50}] run tellraw @s {"text":"<Fan Club Chairman> Ah! Your Pokémon... It has a vicious look to it. A frightening Pokémon like that deserves a TM like this."}
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot57,scores={Temp=..50}] run give @s pixelmon:tm_gen6{tm:21s}
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot57,scores={Temp=..50}] run tag @s add CustomLoot57
-
-#In the southwestern house, gift from the Pokémon Fan Club Chairman's brother if lead Pokémon's friendship is above 150 (only one)
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot58] run scoreboard players set @s PokeHave 0
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot58] run function hoenn:data/friendshipscan
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot58,scores={Temp=150..}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot58,scores={Temp=150..}] run tellraw @s {"text":"<Fan Club Chairman> Ah! Your Pokémon... It's clearly very friendly toward you. A Pokémon that adoring and adorable deserves a TM like this, no?"}
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot58,scores={Temp=150..}] run give @s pixelmon:tm_gen6{tm:27s}
-execute as @a[x=-100,y=33,z=307,distance=..6,tag=!CustomLoot58,scores={Temp=150..}] run tag @s add CustomLoot58
 
 
 #----------------------------------------------
@@ -803,8 +775,6 @@ execute as @a[x=783,y=0,z=-2562,dx=391,dy=256,dz=276,nbt={Inventory:[{id:"pixelm
 execute as @a[x=783,y=0,z=-2562,dx=391,dy=256,dz=276,nbt={Inventory:[{id:"pixelmon:pixelmon_sprite",tag:{ndex:101s}}]}] at @s run pokespawn electrode lvl:30
 execute as @a[x=783,y=0,z=-2562,dx=391,dy=256,dz=276,nbt={Inventory:[{id:"pixelmon:pixelmon_sprite",tag:{ndex:101s}}]}] run clear @s pixelmon:pixelmon_sprite
 
-#Kiri's berries daily
-scoreboard players set @a[x=826,y=64,z=1767,distance=..5,tag=!Item69Give] TriggerCommand 169
 
 #Hall of Fame room
 scoreboard players set @a[x=616,y=0,z=-3337,dx=35,dy=256,dz=40,tag=!Dialogue165] DialogueTrigger 165
