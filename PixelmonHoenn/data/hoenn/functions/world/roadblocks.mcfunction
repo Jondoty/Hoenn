@@ -1,5 +1,9 @@
 #Used for keeping player from leaving areas, or skipping ahead
 
+#Littleroot before player meets their rival
+execute as @a[x=-2033,y=68,z=272,dx=14,dy=10,dz=15,tag=!Dialogue5] at @s run tp @s ~ ~ ~5
+
+
 #S.S. Tidal if player jumps into the water
 
 tp @a[x=2293,y=0,z=-1378,dx=211,dy=64,dz=92] 2387 72 -1333 90 24

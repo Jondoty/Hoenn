@@ -86,11 +86,11 @@ execute as @a[x=-2043,y=69,z=344,dx=2,dy=5,tag=!Dialogue7] run effect give @e[x=
 tp @a[x=-2043,y=69,z=344,dx=2,dy=5] -2041 50 343
 
 #Brendan's House
-tp @a[x=-2059,y=40,z=309,dx=3,dy=3,scores={DialogueTrigger=0}] -2057 69 310
+tp @a[x=-2059,y=40,z=309,dx=3,dy=3,scores={DialogueTrigger=0},tag=RoomVisit] -2057 69 310
 tp @a[x=-2059,y=69,z=309,dx=4,dy=3,scores={DialogueTrigger=0}] -2057 40 308
 
 #May's House
-tp @a[x=-2004,y=40,z=309,dx=4,dy=3,scores={DialogueTrigger=0}] -2002 69 310
+tp @a[x=-2004,y=40,z=309,dx=4,dy=3,scores={DialogueTrigger=0},tag=RoomVisit] -2002 69 310
 tp @a[x=-2004,y=69,z=309,dx=4,dy=3,scores={DialogueTrigger=0}] -2002 40 308
 
 #-------------------------------------------------------------------------

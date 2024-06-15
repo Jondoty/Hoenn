@@ -3,6 +3,36 @@
 
 
 
+#Dialogue 2 - Littleroot
+#First dialogue with mom, establishing the city
+execute as @a[x=-2098,y=0,z=278,dx=146,dy=256,dz=92,tag=!Dialogue2] run scoreboard players set @s DialogueTrigger 2
+
+#Dialogue 3 - Littleroot
+#Applies tag needed by going upstairs
+execute as @a[x=-2003,y=49,z=288,dx=24,dy=10,dz=18,tag=!RoomVisit] run tag @s add RoomVisit
+execute as @a[x=-2080,y=49,z=288,dx=24,dy=10,dz=18,tag=!RoomVisit] run tag @s add RoomVisit
+
+execute as @a[x=-2054,y=39,z=295,distance=..10,tag=RoomVisit,tag=!Dialogue3] run scoreboard players set @s DialogueTrigger 3
+execute as @a[x=-2005,y=39,z=295,distance=..10,tag=RoomVisit,tag=!Dialogue3] run scoreboard players set @s DialogueTrigger 3
+
+
+#Mom's introduction to player
+#May's House
+execute as @a[x=-2002,y=40,z=307,distance=..7,scores={DialogueTrigger=0,Rival=1},tag=!Dialogue4] run scoreboard players set @s DialogueTrigger 4
+
+#Brendan's
+execute as @a[x=-2057,y=40,z=307,distance=..7,scores={DialogueTrigger=0,Rival=2},tag=!Dialogue4] run scoreboard players set @s DialogueTrigger 4
+
+#Introduction to Rival
+#May
+#Summons ahead of dialogue
+execute as @a[x=-2005,y=40,z=293,distance=..10,tag=!Dialogue5] unless entity @e[x=-1984,y=50,z=291,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1984 50 291 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+#Brendan
+execute as @a[x=-2053,y=40,z=293,distance=..10,tag=!Dialogue5] unless entity @e[x=-2074,y=50,z=291,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2074 50 291 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+execute as @a[x=-1997,y=48,z=290,distance=..5,scores={Rival=1},tag=!Dialogue5] run scoreboard players set @s DialogueTrigger 5
+execute as @a[x=-2062,y=48,z=290,distance=..5,scores={Rival=2},tag=!Dialogue5] run scoreboard players set @s DialogueTrigger 5
 
 #Dialogue 6 - Route 101
 #Professor Birch pre-picking starters

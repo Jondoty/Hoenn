@@ -4,6 +4,10 @@
 #---------------------------------------------------------------------------------------------------------------------------
 #Dialogue specific music
 
+#Rival's Theme
+playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=5,TalkTime=10..79}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=5,TalkTime=10..79}] MusicCooldown 102
+
 #Professor Birch's first introduction
 playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=6}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=6}] MusicCooldown 28

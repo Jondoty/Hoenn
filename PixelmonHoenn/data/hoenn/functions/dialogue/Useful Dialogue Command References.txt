@@ -14,7 +14,7 @@ tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 
 @e[x=-977,y=64,z=-598,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[0f,0.0f]}
 
 #NPCs will face you wherever you are
-/execute as @e[type=pixelmon:npc_trainer,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+/execute at @s[dialogue target selectors] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
 
 
 #Generic Item Playsound
