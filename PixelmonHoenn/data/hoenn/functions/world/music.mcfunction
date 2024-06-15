@@ -12,6 +12,14 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=5,TalkTime=10.
 playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=6}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=6}] MusicCooldown 28
 
+#Oldale Shopkeeper
+playsound hurryalong record @s[scores={MusicCooldown=0,DialogueTrigger=9,TalkTime=..93}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=9,TalkTime=..93}] MusicCooldown 77
+
+#Route 103 Rival pre-battle
+playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=10,TalkTime=15..}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=10,TalkTime=15..}] MusicCooldown 102
+
 #Birch's other starter Pokemon dialogues
 playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=171}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=171}] MusicCooldown 28

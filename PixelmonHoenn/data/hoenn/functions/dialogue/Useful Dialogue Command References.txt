@@ -22,3 +22,9 @@ playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 
 TMs
 playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+
+
+
+#Swaps Brendan or May skins
+data merge entity @e[x=-1963,y=64,z=1464,dy=4,limit=1,type=pixelmon:npc_trainer] {Name:"Brendan",CustomSteveTexture:"Brendan"}
+data merge entity @e[x=-1963,y=64,z=1464,dy=4,limit=1,type=pixelmon:npc_trainer] {Name:"May",CustomSteveTexture:"May"}

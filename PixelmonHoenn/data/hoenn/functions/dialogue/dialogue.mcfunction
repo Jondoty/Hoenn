@@ -286,10 +286,10 @@ execute as @s[scores={DialogueTrigger=7,TalkTime=94}] run playsound minecraft:eg
 
 tellraw @s[scores={DialogueTrigger=7,TalkTime=102}] {"text":"<Professor Birch> You know, if you work with your Pokémon and gain experience, I think you'll make a pretty excellent Trainer."}
 
-#tellraw @s[scores={DialogueTrigger=7,TalkTime=112,Rival=1}] {"text":"<Professor Birch> My girl, May, happens to be out on Route 103 right now, surveying Pokémon for me."}
-#tellraw @s[scores={DialogueTrigger=7,TalkTime=112,Rival=2}] {"text":"<Professor Birch> My boy, Brendan, happens to be out on Route 103 right now, surveying Pokémon for me."}
-#
-#tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> It might not be a bad idea for you to head out that way yourself."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=112,Rival=1}] {"text":"<Professor Birch> My girl, May, happens to be out on Route 103 right now, surveying Pokémon for me."}
+tellraw @s[scores={DialogueTrigger=7,TalkTime=112,Rival=2}] {"text":"<Professor Birch> My boy, Brendan, happens to be out on Route 103 right now, surveying Pokémon for me."}
+
+tellraw @s[scores={DialogueTrigger=7,TalkTime=122}] {"text":"<Professor Birch> It might not be a bad idea for you to head out that way yourself."}
 #tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] {"text":"<Professor Birch> What do you think?"}
 #tellraw @s[scores={DialogueTrigger=7,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 10"}},{"text":"] \u0020 \u0020 ["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 11"}},{"text":"]"}]
 
@@ -297,7 +297,7 @@ tellraw @s[scores={DialogueTrigger=7,TalkTime=102}] {"text":"<Professor Birch> Y
 #Oh, don't be that way! You should go meet my kid.
 #activates dialogue, skips first line
 
-tag @s[scores={DialogueTrigger=7,TalkTime=102..}] add Dialogue7
+tag @s[scores={DialogueTrigger=7,TalkTime=122..}] add Dialogue7
 #-------------------------
 #Dialogue 8 - Birch's Lab
 
@@ -318,135 +318,199 @@ tag @s[scores={DialogueTrigger=8,TalkTime=100..}] add Dialogue8
 #Shopkeeper showing the Mart
 #https://youtu.be/MgkqxXCmrtI?t=1019
 
+execute as @s[scores={DialogueTrigger=9,TalkTime=1}] run function hoenn:tools/forceclick
 tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> Hi there! I work at the Poké Mart."}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> From what I can see, you're a novice Trainer. Am I right?"}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> OK. Being super kindhearted as I am, I'm going to give you useful advice."}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> First of all, that's a Poké Mart there. Just look for our blue roof."}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> We sell a variety of goods, including Poké Balls for catching Pokémon!"}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> I'd like you to have these as part of a special promotion!"}
+tellraw @s[scores={DialogueTrigger=9,TalkTime=8}] {"text":"<Shopkeeper> From what I can see, you're a novice Trainer. Am I right?"}
+tellraw @s[scores={DialogueTrigger=9,TalkTime=16}] {"text":"<Shopkeeper> OK. Being super kindhearted as I am, I'm going to give you useful advice."}
 
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Potions!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=9,TalkTime=24}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=9,TalkTime=24}] run tp @s -2019 85 55.5 -145 18
+tellraw @s[scores={DialogueTrigger=9,TalkTime=24}] {"text":"<Shopkeeper> First of all, that's a Poké Mart there. Just look for our blue roof."}
+tellraw @s[scores={DialogueTrigger=9,TalkTime=32}] {"text":"<Shopkeeper> We sell a variety of goods, including Poké Balls for catching Pokémon!"}
 
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> Potions can be used anytime, so they can be very useful to have."}
 
-#Teleports player and npc to Pokemon Center
+execute as @s[scores={DialogueTrigger=9,TalkTime=40}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=9,TalkTime=40}] run tp @s -2021.5 69 92.5 180 10
+tellraw @s[scores={DialogueTrigger=9,TalkTime=40}] {"text":"<Shopkeeper> I'd like you to have these as part of a special promotion!"}
 
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> And this is a Pokémon Center! Look for a red roof!"}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> Ask a woman inside, and she'll restore your Pokémon's health."}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> That's it. That was the advice from me— the supremely kindhearted clerk."}
-tellraw @s[scores={DialogueTrigger=9,TalkTime=1}] {"text":"<Shopkeeper> Have a great journey!"}
+tellraw @s[scores={DialogueTrigger=9,TalkTime=46}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Potions!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=9,TalkTime=46}] run give @s pixelmon:potion 10
+execute as @s[scores={DialogueTrigger=9,TalkTime=46}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 
-#Teleports shopkeeper out
+tellraw @s[scores={DialogueTrigger=9,TalkTime=53}] {"text":"<Shopkeeper> Potions can be used anytime, so they can be very useful to have."}
 
-tag @s[scores={DialogueTrigger=9,TalkTime=100..}] add Dialogue9
+execute as @s[scores={DialogueTrigger=9,TalkTime=61}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=9,TalkTime=61}] run tp @s -2036.5 85 106.5 145 21
+tellraw @s[scores={DialogueTrigger=9,TalkTime=63}] {"text":"<Shopkeeper> And this is a Pokémon Center! Look for a red roof!"}
+tellraw @s[scores={DialogueTrigger=9,TalkTime=70}] {"text":"<Shopkeeper> Ask a woman inside, and she'll restore your Pokémon's health."}
+
+
+execute as @s[scores={DialogueTrigger=9,TalkTime=77}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=9,TalkTime=77}] run tp @s -2021.5 69 92.5 180 10
+tellraw @s[scores={DialogueTrigger=9,TalkTime=79}] {"text":"<Shopkeeper> That's it. That was the advice from me— the supremely kindhearted clerk."}
+tellraw @s[scores={DialogueTrigger=9,TalkTime=87}] {"text":"<Shopkeeper> Have a great journey!"}
+
+execute as @s[scores={DialogueTrigger=9,TalkTime=94}] run function hoenn:tools/forceclick
+
+
+tag @s[scores={DialogueTrigger=9,TalkTime=94..}] add Dialogue9
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 10 - Route 103
 #First battle with Rival
 #https://youtu.be/MgkqxXCmrtI?t=1284
 
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<May> Let's see... On Route 103, I found this Pokémon..."}
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<May> and this one...and this one, too..."}
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] ["",{"text":"<May> Oh! Hey, "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<May> What's that? Oh! My dad gave you a Pokémon as a gift, huh?"}
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<May> Well then, why don't we go ahead and have a quick battle?"}
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<May> I'll give you a taste of what being a Trainer is really like!"}
+tellraw @s[scores={DialogueTrigger=10,TalkTime=1,Rival=1}] {"text":"<May> Let's see... On Route 103, I found this Pokémon..."}
+tellraw @s[scores={DialogueTrigger=10,TalkTime=8,Rival=1}] {"text":"<May> and this one...and this one, too..."}
 
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<Brendan> OK, so it's this one and that one that live on Route 103..."}
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] ["",{"text":"<Brendan> Huh? Hey, "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<Brendan> Ohhh. So you finally got a Pokémon from my dad?"}
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<Brendan> Then how about a little battle? Since we're here and all!"}
-tellraw @s[scores={DialogueTrigger=10,TalkTime=1}] {"text":"<Brendan> I'm going to teach you what being a Trainer's all about!"}
+execute at @s[scores={DialogueTrigger=10,TalkTime=15,Rival=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+execute as @s[scores={DialogueTrigger=10,TalkTime=15,Rival=1}] run function hoenn:tools/forceclick
+tellraw @s[scores={DialogueTrigger=10,TalkTime=15,Rival=1}] ["",{"text":"<May> Oh! Hey, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=10,TalkTime=22,Rival=1}] {"text":"<May> What's that? Oh! My dad gave you a Pokémon as a gift, huh?"}
+tellraw @s[scores={DialogueTrigger=10,TalkTime=30,Rival=1}] {"text":"<May> Well then, why don't we go ahead and have a quick battle?"}
+tellraw @s[scores={DialogueTrigger=10,TalkTime=37,Rival=1}] {"text":"<May> I'll give you a taste of what being a Trainer is really like!"}
+
+
+
+tellraw @s[scores={DialogueTrigger=10,TalkTime=1,Rival=2}] {"text":"<Brendan> OK, so it's this one and that one that live on Route 103..."}
+
+execute at @s[scores={DialogueTrigger=10,TalkTime=9,Rival=2}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+execute as @s[scores={DialogueTrigger=10,TalkTime=9,Rival=2}] run function hoenn:tools/forceclick
+tellraw @s[scores={DialogueTrigger=10,TalkTime=9,Rival=2}] ["",{"text":"<Brendan> Huh? Hey, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=10,TalkTime=16,Rival=2}] {"text":"<Brendan> Ohhh. So you finally got a Pokémon from my dad?"}
+tellraw @s[scores={DialogueTrigger=10,TalkTime=23,Rival=2}] {"text":"<Brendan> Then how about a little battle? Since we're here and all!"}
+tellraw @s[scores={DialogueTrigger=10,TalkTime=30,Rival=2}] {"text":"<Brendan> I'm going to teach you what being a Trainer's all about!"}
+execute as @s[scores={DialogueTrigger=10,TalkTime=30,Rival=2}] run scoreboard players add @s TalkTime 14
 
 #Swaps to trainer, /pokebattle
+execute as @s[scores={DialogueTrigger=10,TalkTime=37..}] run tp @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=10,TalkTime=100..}] add Dialogue10
+#May
+execute as @s[scores={DialogueTrigger=10,TalkTime=37..,StarterPick=1,Rival=1}] unless entity @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -2024 69 -100 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 4, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "may", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party0: {EVSpeed: 0s, StatsDefense: 9s, IVAttack: 23b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Scratch", MovePP: 35b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 255s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 6s, IVSpDef: 13b, CaughtBall: "poke_ball", IVHP: 23b, EVHP: 0s, ndex: 255, palette: "none", StatsSpecialDefense: 9s, Nature: 24b, Ability: "RunAway", StatsHP: 19s, IVDefense: 14b, Health: 19, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 12s, EVSpecialAttack: 0s, StatsAttack: 11s, IVSpeed: 14b, Level: 5, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [-1.3583679f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 200, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=10,TalkTime=37..,StarterPick=2,Rival=1}] unless entity @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -2024 69 -100 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 4, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "may", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party0: {EVSpeed: 0s, StatsDefense: 9s, IVAttack: 23b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Tackle", MovePP: 35b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 255s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 6s, IVSpDef: 13b, CaughtBall: "poke_ball", IVHP: 23b, EVHP: 0s, ndex: 258, palette: "none", StatsSpecialDefense: 9s, Nature: 24b, Ability: "Torrent", StatsHP: 19s, IVDefense: 14b, Health: 19, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 12s, EVSpecialAttack: 0s, StatsAttack: 11s, IVSpeed: 14b, Level: 5, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [-1.3583679f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 200, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=10,TalkTime=37..,StarterPick=3,Rival=1}] unless entity @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -2024 69 -100 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 4, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "may", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party0: {EVSpeed: 0s, StatsDefense: 9s, IVAttack: 23b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Pound", MovePP: 35b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 255s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 6s, IVSpDef: 13b, CaughtBall: "poke_ball", IVHP: 23b, EVHP: 0s, ndex: 252, palette: "none", StatsSpecialDefense: 9s, Nature: 24b, Ability: "Overgrow", StatsHP: 19s, IVDefense: 14b, Health: 19, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 12s, EVSpecialAttack: 0s, StatsAttack: 11s, IVSpeed: 14b, Level: 5, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [-1.3583679f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 200, AIMode: 1s}
+
+#Brendan
+execute as @s[scores={DialogueTrigger=10,TalkTime=37..,StarterPick=1,Rival=2}] unless entity @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -2024 69 -100 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 4, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "brendan", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party0: {EVSpeed: 0s, StatsDefense: 9s, IVAttack: 23b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Scratch", MovePP: 35b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 255s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 6s, IVSpDef: 13b, CaughtBall: "poke_ball", IVHP: 23b, EVHP: 0s, ndex: 255, palette: "none", StatsSpecialDefense: 9s, Nature: 24b, Ability: "RunAway", StatsHP: 19s, IVDefense: 14b, Health: 19, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 12s, EVSpecialAttack: 0s, StatsAttack: 11s, IVSpeed: 14b, Level: 5, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [-1.3583679f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "brendan", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 200, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=10,TalkTime=37..,StarterPick=2,Rival=2}] unless entity @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -2024 69 -100 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 4, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "brendan", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party0: {EVSpeed: 0s, StatsDefense: 9s, IVAttack: 23b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Tackle", MovePP: 35b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 255s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 6s, IVSpDef: 13b, CaughtBall: "poke_ball", IVHP: 23b, EVHP: 0s, ndex: 258, palette: "none", StatsSpecialDefense: 9s, Nature: 24b, Ability: "Torrent", StatsHP: 19s, IVDefense: 14b, Health: 19, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 12s, EVSpecialAttack: 0s, StatsAttack: 11s, IVSpeed: 14b, Level: 5, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [-1.3583679f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "brendan", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 200, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=10,TalkTime=37..,StarterPick=3,Rival=2}] unless entity @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -2024 69 -100 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 4, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "brendan", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party0: {EVSpeed: 0s, StatsDefense: 9s, IVAttack: 23b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Pound", MovePP: 35b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 255s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 6s, IVSpDef: 13b, CaughtBall: "poke_ball", IVHP: 23b, EVHP: 0s, ndex: 252, palette: "none", StatsSpecialDefense: 9s, Nature: 24b, Ability: "Overgrow", StatsHP: 19s, IVDefense: 14b, Health: 19, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 12s, EVSpecialAttack: 0s, StatsAttack: 11s, IVSpeed: 14b, Level: 5, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [-1.3583679f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "brendan", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 200, AIMode: 1s}
+
+
+tag @s[scores={DialogueTrigger=10,TalkTime=37..}] add Dialogue10
 #------------------------------
 #Dialogue 11 - Route 104
 #Post-battle with Rival
 
+clear @s[scores={DialogueTrigger=11}] minecraft:nether_brick
 
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<May> It was a good battle. Thanks! Let me heal up both our parties real quick."}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<Brendan> It was a good battle. Thanks! Here! Lemme heal up both our parties real quick."}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=1,Rival=1}] {"text":"<May> It was a good battle. Thanks! Let me heal up both our parties real quick."}
 
 #pokeheal
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"Your team's health was restored!","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=9,Rival=1}] {"text":"Your team's health was restored!","italic":true,"color":"gray"}
+execute as @s[scores={DialogueTrigger=11,TalkTime=9,Rival=1}] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=11,TalkTime=9,Rival=1}] run pokeheal
 
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<May> Wow... I think I know why my dad has his eye on you now."}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<May> I mean, you just got that Pokémon, and you've already got that strong of a bond."}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<May> I bet you could probably befriend any kind of Pokémon you meet!"}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<May> Phew... I guess I'd better head back to the lab!"}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=16,Rival=1}] {"text":"<May> Wow... I think I know why my dad has his eye on you now."}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=23,Rival=1}] {"text":"<May> I mean, you just got that Pokémon, and you've already got that strong of a bond."}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=31,Rival=1}] {"text":"<May> I bet you could probably befriend any kind of Pokémon you meet!"}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=39,Rival=1}] {"text":"<May> Phew... I guess I'd better head back to the lab!"}
+execute as @s[scores={DialogueTrigger=11,TalkTime=39,Rival=1}] run scoreboard players add @s TalkTime 23
 
 
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<Brendan> I think I know why my dad had his eye on you now."}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<Brendan> Look, you just got your Pokémon, right?"}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<Brendan> And you already have that strong of a bond?"}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] ["",{"text":"<Brendan> I get the feeling that you could befriend any Pokémon, "},{"selector":"@s"},{"text":". No doubt."}]
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] {"text":"<Brendan> Well, I've got some good data here, so I guess it's time I got back to the lab."}
-tellraw @s[scores={DialogueTrigger=11,TalkTime=1}] ["",{"text":"<Brendan> You should head back, too, "},{"selector":"@s"},{"text":"!"}]
+
+tellraw @s[scores={DialogueTrigger=11,TalkTime=1,Rival=2}] {"text":"<Brendan> It was a good battle. Thanks! Here! Lemme heal up both our parties real quick."}
+
+#pokeheal
+tellraw @s[scores={DialogueTrigger=11,TalkTime=10,Rival=2}] {"text":"Your team's health was restored!","italic":true,"color":"gray"}
+execute as @s[scores={DialogueTrigger=11,TalkTime=10,Rival=2}] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=11,TalkTime=10,Rival=2}] run pokeheal
+
+
+tellraw @s[scores={DialogueTrigger=11,TalkTime=16,Rival=2}] {"text":"<Brendan> I think I know why my dad had his eye on you now."}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=23,Rival=2}] {"text":"<Brendan> Look, you just got your Pokémon, right?"}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=30,Rival=2}] {"text":"<Brendan> And you already have that strong of a bond?"}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=37,Rival=2}] ["",{"text":"<Brendan> I get the feeling that you could befriend any Pokémon, "},{"selector":"@s"},{"text":". No doubt."}]
+tellraw @s[scores={DialogueTrigger=11,TalkTime=46,Rival=2}] {"text":"<Brendan> Well, I've got some good data here, so I guess it's time I got back to the lab."}
+tellraw @s[scores={DialogueTrigger=11,TalkTime=54,Rival=2}] ["",{"text":"<Brendan> You should head back, too, "},{"selector":"@s"},{"text":"!"}]
 
 #tps out
+execute as @s[scores={DialogueTrigger=11,TalkTime=62..}] run particle cloud -2024 69 -100 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=11,TalkTime=62..}] run tp @e[x=-2024,y=69,z=-100,distance=..3,type=pixelmon:npc_trainer] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=11,TalkTime=100..}] add Dialogue11
+tag @s[scores={DialogueTrigger=11,TalkTime=63..}] add Dialogue11
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 12 - Birch's Lab
 #After battling rival for the first time
 #https://youtu.be/MgkqxXCmrtI?t=1472
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> So I hear you beat May on your first try."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> That's amazing! May's been helping with my research for a long time, so she has a pretty long history as a Trainer already."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> Mm-hmm! I think that settles it!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] ["",{"text":"<Professor Birch> "},{"selector":"@s"},{"text":", I ordered this Pokédex for my research, but I think you should take it."}]
+#Spawns Brendan or May
+execute as @s[scores={DialogueTrigger=12,TalkTime=1,Rival=1}] unless entity @e[x=-2040,y=49,z=319,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2040 50 319 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=12,TalkTime=1,Rival=2}] unless entity @e[x=-2040,y=49,z=319,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2040 50 319 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> So I hear you beat Brendan on your first try."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> Amazing! Brendan's been helping with my research for a long time, so he has a pretty long history as a Trainer already."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> Mm-hmm! I think that settles it!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] ["",{"text":"<Professor Birch> "},{"selector":"@s"},{"text":", I ordered this Pokédex for my research, but I think you should take it."}]
+execute as @p[x=-2040,y=49,z=319,distance=..10,tag=!Dialogue12,scores={Rival=1}] if entity @e[x=-2040,y=49,z=319,dy=3,type=pixelmon:npc_chatting,nbt={CustomSteveTexture:"brendan.png"}] run data merge entity @e[x=-2040,y=49,z=319,dy=3,type=pixelmon:npc_chatting,limit=1] {CustomSteveTexture:"may.png"}
+execute as @p[x=-2040,y=49,z=319,distance=..10,tag=!Dialogue12,scores={Rival=2}] if entity @e[x=-2040,y=49,z=319,dy=3,type=pixelmon:npc_chatting,nbt={CustomSteveTexture:"may.png"}] run data merge entity @e[x=-2040,y=49,z=319,dy=3,type=pixelmon:npc_chatting,limit=1] {CustomSteveTexture:"brendan.png"}
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Pokédex!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=12,TalkTime=1,Rival=1}] {"text":"<Professor Birch> So I hear you beat May on your first try."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=8,Rival=1}] {"text":"<Professor Birch> That's amazing! May's been helping with my research for a long time, so she has a pretty long history as a Trainer already."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=18,Rival=1}] {"text":"<Professor Birch> Mm-hmm! I think that settles it!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=25,Rival=1}] ["",{"text":"<Professor Birch> "},{"selector":"@s"},{"text":", I ordered this Pokédex for my research, but I think you should take it."}]
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> That Pokédex is a high-tech tool that automatically makes a record of any Pokémon you meet or catch."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=1,Rival=2}] {"text":"<Professor Birch> So I hear you beat Brendan on your first try."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=8,Rival=2}] {"text":"<Professor Birch> Amazing! Brendan's been helping with my research for a long time, so he has a pretty long history as a Trainer already."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=18,Rival=2}] {"text":"<Professor Birch> Mm-hmm! I think that settles it!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=25,Rival=2}] ["",{"text":"<Professor Birch> "},{"selector":"@s"},{"text":", I ordered this Pokédex for my research, but I think you should take it."}]
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> My girl May takes hers with her everywhere she goes."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> Whenever she catches a rare Pokémon and records its data in the Pokédex, why, she comes to seek me out wherever I am in the field and show me!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=32}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received a Pokédex!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=12,TalkTime=32}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> My boy Brendan takes his with him everywhere he goes."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> Whenever he catches a rare Pokémon and records its data in the Pokédex, why, he comes to seek me out wherever I am in the field and show me!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=37}] {"text":"<Professor Birch> That Pokédex is a high-tech tool that automatically makes a record of any Pokémon you meet or catch."}
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> The Pokémon and people you will meet..."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> And the great expanse of nature that lies before you!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> Experience them both while you fill in your Pokédex. I'd love it if your world seemed wider than ever!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> Though I'd love it even more if you came back from time to time to show me what progress you've made."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Professor Birch> ...Arghhh! I'm getting the itch to get out and do fieldwork again!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=46,Rival=1}] {"text":"<Professor Birch> My girl May takes hers with her everywhere she goes."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=54,Rival=1}] {"text":"<Professor Birch> Whenever she catches a rare Pokémon and records its data in the Pokédex, why, she comes to seek me out wherever I am in the field and show me!"}
 
+tellraw @s[scores={DialogueTrigger=12,TalkTime=46,Rival=2}] {"text":"<Professor Birch> My boy Brendan takes his with him everywhere he goes."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=54,Rival=2}] {"text":"<Professor Birch> Whenever he catches a rare Pokémon and records its data in the Pokédex, why, he comes to seek me out wherever I am in the field and show me!"}
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] ["",{"text":"<May> Oh, wow, "},{"selector":"@s"},{"text":"! Now you've got a Pokédex, too!"}]
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<May> That's great. Just like me!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<May> Then here... I'll give you something, too!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<May> Some Poké Balls that you can use to catch wild Pokémon!"}
-
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Poké Balls!","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<May> If you catch a Pokémon in the wild and battle together with it for a while, it will grow stronger for you!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<May> Take that as a bit of advice from a more experienced Trainer like me!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<May> I'm going to get ready to head out from Littleroot soon myself."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<May> I can't wait to see what kind of Pokémon I'm going to meet..."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=64}] {"text":"<Professor Birch> The Pokémon and people you will meet..."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=71}] {"text":"<Professor Birch> And the great expanse of nature that lies before you!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=78}] {"text":"<Professor Birch> Experience them both while you fill in your Pokédex. I'd love it if your world seemed wider than ever!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=85}] {"text":"<Professor Birch> Though I'd love it even more if you came back from time to time to show me what progress you've made."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=94}] {"text":"<Professor Birch> ...Arghhh! I'm getting the itch to get out and do fieldwork again!"}
 
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] ["",{"text":"<Brendan> Oh, wow, "},{"selector":"@s"},{"text":"! Now you've got a Pokédex, too!"}]
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> That's great. Just like me!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> Then here... I'll give you something, too!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> Some Poké Balls that you can use to catch wild Pokémon!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=102,Rival=1}] ["",{"text":"<May> Oh, wow, "},{"selector":"@s"},{"text":"! Now you've got a Pokédex, too!"}]
+tellraw @s[scores={DialogueTrigger=12,TalkTime=109,Rival=1}] {"text":"<May> That's great. Just like me!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=116,Rival=1}] {"text":"<May> Then here... I'll give you something, too!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=123,Rival=1}] {"text":"<May> Some Poké Balls that you can use to catch wild Pokémon!"}
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Poké Balls!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=12,TalkTime=129,Rival=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Poké Balls!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=12,TalkTime=129,Rival=1}] run give @s pixelmon:poke_ball 10
+execute as @s[scores={DialogueTrigger=12,TalkTime=129,Rival=1}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> If you catch a Pokémon in the wild and battle together with it for a while, it will grow stronger for you!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> Take that as a bit of advice from a more experienced Trainer like me!"}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> I'm going to get ready to head out from Littleroot soon myself."}
-tellraw @s[scores={DialogueTrigger=12,TalkTime=1}] {"text":"<Brendan> I can't wait to see what kind of Pokémon I'm going to meet..."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=135,Rival=1}] {"text":"<May> If you catch a Pokémon in the wild and battle together with it for a while, it will grow stronger for you!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=144,Rival=1}] {"text":"<May> Take that as a bit of advice from a more experienced Trainer like me!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=151,Rival=1}] {"text":"<May> I'm going to get ready to head out from Littleroot soon myself."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=159,Rival=1}] {"text":"<May> I can't wait to see what kind of Pokémon I'm going to meet..."}
+
+
+tellraw @s[scores={DialogueTrigger=12,TalkTime=102,Rival=2}] ["",{"text":"<Brendan> Oh, wow, "},{"selector":"@s"},{"text":"! Now you've got a Pokédex, too!"}]
+tellraw @s[scores={DialogueTrigger=12,TalkTime=109,Rival=2}] {"text":"<Brendan> That's great. Just like me!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=116,Rival=2}] {"text":"<Brendan> Then here... I'll give you something, too!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=123,Rival=2}] {"text":"<Brendan> Some Poké Balls that you can use to catch wild Pokémon!"}
+
+tellraw @s[scores={DialogueTrigger=12,TalkTime=129,Rival=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Poké Balls!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=12,TalkTime=129,Rival=2}] run give @s pixelmon:poke_ball 10
+execute as @s[scores={DialogueTrigger=12,TalkTime=129,Rival=2}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+
+tellraw @s[scores={DialogueTrigger=12,TalkTime=135,Rival=2}] {"text":"<Brendan> If you catch a Pokémon in the wild and battle together with it for a while, it will grow stronger for you!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=144,Rival=2}] {"text":"<Brendan> Take that as a bit of advice from a more experienced Trainer like me!"}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=151,Rival=2}] {"text":"<Brendan> I'm going to get ready to head out from Littleroot soon myself."}
+tellraw @s[scores={DialogueTrigger=12,TalkTime=159,Rival=2}] {"text":"<Brendan> I can't wait to see what kind of Pokémon I'm going to meet..."}
 
 #tp out
+execute as @s[scores={DialogueTrigger=12,TalkTime=166}] run particle cloud -2040 49 319 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=12,TalkTime=166}] run tp @e[type=pixelmon:npc_chatting,x=-2040,y=49,z=319,dy=3] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=12,TalkTime=100..}] add Dialogue12
+tag @s[scores={DialogueTrigger=12,TalkTime=166..}] add Dialogue12
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 13 - Littleroot Town
 #Mom after Birch's Lab
@@ -455,21 +519,25 @@ tag @s[scores={DialogueTrigger=12,TalkTime=100..}] add Dialogue12
 tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] ["",{"text":"<...> "},{"selector":"@s"},{"text":"! Wait!"}]
 
 #mom tps in
+execute as @s[scores={DialogueTrigger=13,TalkTime=7}] run particle cloud -2026 69 285 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=13,TalkTime=7}] run summon pixelmon:npc_chatting -2026 69 285 {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {}, chatNum: 0, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "forge:step_height_addition"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Mom", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, Tags: ["NpcChatting"], trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "bride", NameIndex: 3, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "dress.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] ["",{"text":"<Mom> "},{"selector":"@s"},{"text":"! "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> Did you introduce yourself to Professor Birch?"}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> Oh! What an adorable Pokémon!"}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> You got it from the professor?"}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> How nice! You are your father's child, all right..."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> You look good together with a Pokémon!"}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> ..."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> To think that you have your very own Pokémon now..."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> Your father will be overjoyed. But don't push yourself too hard."}
-tellraw @s[scores={DialogueTrigger=13,TalkTime=1}] {"text":"<Mom> If anything happens, you can always come home, honey."}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=10}] ["",{"text":"<Mom> "},{"selector":"@s"},{"text":"! "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=13,TalkTime=17}] {"text":"<Mom> Did you introduce yourself to Professor Birch?"}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=24}] {"text":"<Mom> Oh! What an adorable Pokémon!"}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=31}] {"text":"<Mom> You got it from the professor?"}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=38}] {"text":"<Mom> How nice! You are your father's child, all right..."}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=46}] {"text":"<Mom> You look good together with a Pokémon!"}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=50}] {"text":"<Mom> ..."}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=53}] {"text":"<Mom> To think that you have your very own Pokémon now..."}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=60}] {"text":"<Mom> Your father will be overjoyed. But don't push yourself too hard."}
+tellraw @s[scores={DialogueTrigger=13,TalkTime=68}] {"text":"<Mom> If anything happens, you can always come home, honey."}
 
 #mom tps out
+execute as @s[scores={DialogueTrigger=12,TalkTime=75}] run particle cloud -2026 69 285 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=12,TalkTime=75}] run tp @e[type=pixelmon:npc_chatting,x=-2026,y=69,z=285,distance=..3] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=13,TalkTime=100..}] add Dialogue13
+tag @s[scores={DialogueTrigger=13,TalkTime=75..}] add Dialogue13
 
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 14 - Route 101

@@ -79,10 +79,11 @@ execute as @a run function hoenn:world/bases/portals
 #Prof Birch's Lab
 execute as @a[x=-2043,y=50,z=344,dx=3,dy=5] run function hoenn:tools/forceclick
 execute as @a[x=-2043,y=50,z=344,dx=3,dy=5] run effect clear @e[x=-2042,y=49,z=319,dy=3,type=pixelmon:npc_chatting] minecraft:invisibility
-tp @a[x=-2043,y=50,z=344,dx=3,dy=5] -2042 69 345
+tp @a[x=-2043,y=50,z=344,dx=3,dy=5,scores={DialogueTrigger=0}] -2042 69 345
 
 execute as @a[x=-2043,y=69,z=344,dx=2,dy=5] run function hoenn:tools/forceclick
 execute as @a[x=-2043,y=69,z=344,dx=2,dy=5,tag=!Dialogue7] run effect give @e[x=-2042,y=49,z=319,dy=3,type=pixelmon:npc_chatting] minecraft:invisibility infinite 1 true
+execute as @a[x=-2043,y=69,z=344,dx=2,dy=5,tag=Dialogue11,tag=!Dialogue12] run scoreboard players set @s DialogueTrigger 12
 tp @a[x=-2043,y=69,z=344,dx=2,dy=5] -2041 50 343
 
 #Brendan's House
