@@ -79,6 +79,10 @@ execute as @a[x=-2035,y=69,z=246,distance=..30,tag=!Dialogue175,scores={Dialogue
 execute as @a[scores={DialogueTrigger=9,TalkTime=16..39}] at @s run tp @s ~ ~ ~-0.01
 execute as @a[scores={DialogueTrigger=9,TalkTime=61..76}] at @s run tp @s ~ ~ ~-0.01
 
+#Dialogue 15
+#Beautifly flying through the air
+execute as @a[scores={DialogueTrigger=15,TalkTime=32..51}] as @e[x=-2442,y=88,z=34,distance=..50,type=pixelmon:statue,nbt={ndex:267}] at @s run tp @s ~-0.05 ~ ~-0.025
+
 
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 

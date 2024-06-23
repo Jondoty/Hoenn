@@ -5,7 +5,7 @@ summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'
 as @e[x=-977,y=64,z=-598,distance=..3,type=pixelmon:npc_chatting] at @s run kill @e[type=minecraft:armor_stand,distance=..5]
 
 #Teleport in or out particles
-run at @e particle cloud ~ ~ ~ 1 1 1 0.15 300
+particle cloud ~ ~ ~ 1 1 1 0.15 300
 
 #tps things to the graveyard
 tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
@@ -28,3 +28,10 @@ playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 #Swaps Brendan or May skins
 data merge entity @e[x=-1963,y=64,z=1464,dy=4,limit=1,type=pixelmon:npc_trainer] {Name:"Brendan",CustomSteveTexture:"Brendan"}
 data merge entity @e[x=-1963,y=64,z=1464,dy=4,limit=1,type=pixelmon:npc_trainer] {Name:"May",CustomSteveTexture:"May"}
+
+
+
+#NPC holds an item
+#Currently doesn't render through and just shows air
+item replace entity @e[x=421,y=63,z=-300,distance=..3,type=pixelmon:npc_chatting] weapon.offhand with pixelmon:poke_ball
+item replace entity @e[x=421,y=63,z=-300,distance=..3,type=pixelmon:npc_chatting] weapon.offhand with air
