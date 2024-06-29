@@ -14,7 +14,7 @@ tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 
 @e[x=-977,y=64,z=-598,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[0f,0.0f]}
 
 #NPCs will face you wherever you are
-/execute at @s[dialogue target selectors] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+execute at @s[dialogue target selectors] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
 
 
 #Generic Item Playsound
@@ -35,3 +35,12 @@ data merge entity @e[x=-1963,y=64,z=1464,dy=4,limit=1,type=pixelmon:npc_trainer]
 #Currently doesn't render through and just shows air
 item replace entity @e[x=421,y=63,z=-300,distance=..3,type=pixelmon:npc_chatting] weapon.offhand with pixelmon:poke_ball
 item replace entity @e[x=421,y=63,z=-300,distance=..3,type=pixelmon:npc_chatting] weapon.offhand with air
+
+
+#NPCs base nbt data
+{HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Wally", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "wally.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+
+
+#In console,, filters out any command errors when loading world
+java.lang.IllegalArgumentException: Whilst parsing command on line

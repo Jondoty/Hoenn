@@ -83,6 +83,21 @@ execute as @a[scores={DialogueTrigger=9,TalkTime=61..76}] at @s run tp @s ~ ~ ~-
 #Beautifly flying through the air
 execute as @a[scores={DialogueTrigger=15,TalkTime=32..51}] as @e[x=-2442,y=88,z=34,distance=..50,type=pixelmon:statue,nbt={ndex:267}] at @s run tp @s ~-0.05 ~ ~-0.025
 
+#Dialogue 20, Rustboro intro motion
+execute as @a[scores={DialogueTrigger=20,TalkTime=16..39}] at @s run tp @s ~-0.025 ~ ~-0.025
+
+
+#Dialogue 26 - Rustboro NPCs running Motions
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-714,dx=7,dy=6,dz=58,type=pixelmon:npc_chatting,nbt={Name:"Runner"}] run data merge entity @s {Motion:[0.0,0.0,-0.45],Rotation:[180f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-717,dx=46,dy=6,dz=4,type=pixelmon:npc_chatting,nbt={Name:"Runner"}] run data merge entity @s {Motion:[0.45,0.0,0.0],Rotation:[-90f,0.0f]}
+
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-714,dx=7,dy=6,dz=58,type=pixelmon:npc_chatting,nbt={Name:"Runner2"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-717,dx=46,dy=6,dz=4,type=pixelmon:npc_chatting,nbt={Name:"Runner2"}] run data merge entity @s {Motion:[0.35,0.0,0.0],Rotation:[-90f,0.0f]}
+
+execute if entity @a[scores={DialogueTrigger=26}] run tp @e[x=-2675,y=69,z=-720,dx=20,dy=10,dz=10,type=pixelmon:npc_chatting,nbt={Name:"Runner"}] 10000000 -50000 -10000000
+
+
+
 
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 
