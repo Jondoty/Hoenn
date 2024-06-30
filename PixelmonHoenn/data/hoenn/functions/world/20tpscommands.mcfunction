@@ -97,6 +97,8 @@ execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-717,dx=4
 execute if entity @a[scores={DialogueTrigger=26}] run tp @e[x=-2675,y=69,z=-720,dx=20,dy=10,dz=10,type=pixelmon:npc_chatting,nbt={Name:"Runner"}] 10000000 -50000 -10000000
 
 
+#Dialogue 30 - Devon Corp shot
+execute as @a[scores={DialogueTrigger=30,TalkTime=38..48}] at @s run tp @s ~ ~ ~-.025 ~ ~-0.02
 
 
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70

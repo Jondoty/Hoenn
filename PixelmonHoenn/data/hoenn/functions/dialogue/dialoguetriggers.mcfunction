@@ -109,9 +109,6 @@ execute as @a[x=-2720,y=69,z=-228,distance=..30,scores={DialogueTrigger=0,GameVe
 #Dialogue 18 - post-battle
 scoreboard players set @a[x=-2720,y=69,z=-228,distance=..30,nbt={Inventory:[{id:"minecraft:nether_brick"}]},tag=!Dialogue18] DialogueTrigger 18
 
-#Dialogue 27 - Rustboro researcher after gym
-execute as @a[x=-2668,y=69,z=-713,distance=..15,tag=!Dialogue27] at @s if entity @e[distance=..8,nbt={Name:"Runner2"}] run scoreboard players set @s DialogueTrigger 27
-
 #------------------------------------------------
 #Dialogue 20 - Rival intro to Rustboro
 execute as @a[x=-2741,y=69,z=-565,distance=..10,tag=!Dialogue20] run scoreboard players set @s DialogueTrigger 20
@@ -121,6 +118,9 @@ execute as @a[x=-2775,y=49,z=-619,distance=..5,tag=Dialogue25,tag=!Dialogue21] r
 
 #Dialogue 26 - Grunt stealing parts after the gym
 execute as @a[x=-2671,y=69,z=-676,distance=..10,tag=Dialogue25,tag=!Dialogue26] run scoreboard players set @s DialogueTrigger 26
+
+#Dialogue 27 - Rustboro researcher after gym
+execute as @a[x=-2668,y=69,z=-713,distance=..15,tag=!Dialogue27] at @s if entity @e[distance=..8,nbt={Name:"Runner2"}] run scoreboard players set @s DialogueTrigger 27
 
 #------------------------------------------------
 
@@ -136,12 +136,33 @@ scoreboard players set @a[x=-2361,y=42,z=-821,distance=..30,nbt={Inventory:[{id:
 
 #------------------------------------------------
 
+#Dialogue 30 - Rustboro researcher after gym
+execute as @a[x=-2668,y=69,z=-713,distance=..15,tag=Dialogue29,tag=!Dialogue30] at @s if entity @e[distance=..8,nbt={Name:"Runner2"}] run scoreboard players set @s DialogueTrigger 30
+execute as @a[x=-2661,y=69,z=-713,distance=..30,tag=!Dialogue30] unless entity @e[x=-2661,y=69,z=-713,distance=..30,nbt={Name:"Runner2"}] run summon pixelmon:npc_chatting -2661 69 -713 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Runner2", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "scientist_m.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+#Dialogue 31 - Rival outside Devon Corp
+#May
+execute as @a[x=-2757,y=69,z=-705,distance=..10,tag=!Dialogue31,scores={Rival=1}] unless entity @e[x=-2764,y=69,z=-693,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2764 69 -693 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+#Brendan
+execute as @a[x=-2757,y=69,z=-705,distance=..10,tag=!Dialogue31,scores={Rival=2}] unless entity @e[x=-2764,y=69,z=-693,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2764 69 -693 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+execute as @a[x=-2764,y=69,z=-693,distance=..10,tag=!Dialogue31] run scoreboard players set @s DialogueTrigger 31
+
+#tps rival out when player is a distance away
+execute if entity @a[x=-2764,y=69,z=-693,distance=30..50,tag=Dialogue31] run tp @e[x=-2764,y=69,z=-693,distance=..4,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+
+
+#Dialogue 36 - Steven in Dewford Cave
+execute as @a[x=2564,y=170,z=-2586,distance=..10,tag=!Dialogue36] run scoreboard players set @s DialogueTrigger 36
+execute as @a[x=2564,y=155,z=-2514,distance=..20,tag=!Dialogue36] unless entity @e[x=2564,y=171,z=-2599,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2564 171 -2599 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Steven", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "steven.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
 
 #Dialogue 32 - Mr. Briney near Petalburg
-execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue29,scores={StepCounter=3000..}] run tag @s remove Dialogue32
-execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue29,scores={StepCounter=3000..}] run tag @s remove Dialogue33
-execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue29,tag=!Dialogue32,scores={StepCounter=3000..}] run scoreboard players set @s DialogueTrigger 32
-execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue29,tag=!Dialogue32,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue30,scores={StepCounter=3000..}] run tag @s remove Dialogue32
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue30,scores={StepCounter=3000..}] run tag @s remove Dialogue33
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue30,tag=!Dialogue32,scores={StepCounter=3000..}] run scoreboard players set @s DialogueTrigger 32
+execute as @a[x=-2718,y=68,z=-35,distance=..5,tag=Dialogue30,tag=!Dialogue32,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
 
 #Dialogue 37 - Mr. Briney near Dewford
 execute as @a[x=-2416,y=69,z=837,distance=..5,scores={StepCounter=3000..}] run tag @s remove Dialogue37
@@ -155,6 +176,10 @@ execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run t
 execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run scoreboard players enable @s TriggerCommand
 execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 14"}},{"text":"]"}]
 execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
+
+#Dialogue 41 - Stern's Shipyard
+execute as @a[x=-1446,y=16,z=328,distance=..10,tag=!Dialogue41,tag=!Dialogue42] run scoreboard players set @s DialogueTrigger 41
+
 
 #Dialogue 75 - Route 112
 #Rival showing Mt. Chimney and giving Strength
