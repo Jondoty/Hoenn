@@ -301,11 +301,11 @@ tag @s[scores={DialogueTrigger=7,TalkTime=122..}] add Dialogue7
 #-------------------------
 #Dialogue 8 - Birch's Lab
 
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> Great! I'm sure May'll be happy to hear that, too."}
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> She can help teach you what it means to be a Trainer."}
+tellraw @s[scores={DialogueTrigger=8,TalkTime=1,Rival=1}] {"text":"<Professor Birch> Great! I'm sure May'll be happy to hear that, too."}
+tellraw @s[scores={DialogueTrigger=8,TalkTime=1,Rival=1}] {"text":"<Professor Birch> She can help teach you what it means to be a Trainer."}
 
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> Great! I'm sure Brendan'll be happy to hear that, too."}
-tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> He can help teach you what it means to be a Trainer."}
+tellraw @s[scores={DialogueTrigger=8,TalkTime=1,Rival=2}] {"text":"<Professor Birch> Great! I'm sure Brendan'll be happy to hear that, too."}
+tellraw @s[scores={DialogueTrigger=8,TalkTime=1,Rival=2}] {"text":"<Professor Birch> He can help teach you what it means to be a Trainer."}
 
 tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> Oh, yes!"}
 tellraw @s[scores={DialogueTrigger=8,TalkTime=1}] {"text":"<Professor Birch> And if you're ever lost along the way, use the AreaNav on your PokéNav Plus!"}
