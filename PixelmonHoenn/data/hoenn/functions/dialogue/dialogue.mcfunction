@@ -534,8 +534,8 @@ tellraw @s[scores={DialogueTrigger=13,TalkTime=60}] {"text":"<Mom> Your father w
 tellraw @s[scores={DialogueTrigger=13,TalkTime=68}] {"text":"<Mom> If anything happens, you can always come home, honey."}
 
 #mom tps out
-execute as @s[scores={DialogueTrigger=12,TalkTime=75}] run particle cloud -2026 69 285 1 1 1 0.15 300
-execute as @s[scores={DialogueTrigger=12,TalkTime=75}] run tp @e[type=pixelmon:npc_chatting,x=-2026,y=69,z=285,distance=..3] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=13,TalkTime=75}] run particle cloud -2026 69 285 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=13,TalkTime=75}] run tp @e[type=pixelmon:npc_chatting,x=-2026,y=69,z=285,distance=..3] 10000000 -50000 -10000000
 
 tag @s[scores={DialogueTrigger=13,TalkTime=75..}] add Dialogue13
 
