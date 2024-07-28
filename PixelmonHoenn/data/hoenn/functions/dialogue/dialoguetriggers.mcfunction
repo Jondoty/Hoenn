@@ -180,6 +180,12 @@ execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run s
 #Dialogue 41 - Stern's Shipyard
 execute as @a[x=-1446,y=16,z=328,distance=..10,tag=!Dialogue41,tag=!Dialogue42] run scoreboard players set @s DialogueTrigger 41
 
+#Dialogue 42 - Captain Stern and team members ambush
+execute as @a[x=-1394,y=15,z=244,distance=..20,tag=!Dialogue42,scores={GameVersion=1}] unless entity @e[x=-1379,y=15,z=276,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1379 15 276 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Stern", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "stern.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+execute as @a[x=-1394,y=-13,z=244,distance=..20,tag=!Dialogue42,scores={GameVersion=2}] unless entity @e[x=-1379,y=-13,z=276,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1379 -13 276 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Stern", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "stern.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+
 
 #Dialogue 75 - Route 112
 #Rival showing Mt. Chimney and giving Strength

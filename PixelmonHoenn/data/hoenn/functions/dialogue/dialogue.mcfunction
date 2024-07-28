@@ -1590,134 +1590,169 @@ tag @s[scores={DialogueTrigger=41,TalkTime=50..}] add Dialogue41
 #Oceanic Museum finding Mr. Stern
 #https://youtu.be/MgkqxXCmrtI?t=12626
 
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<...> Yes?"}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Captain Stern> If you're looking for Stern, that would be me."}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Captain Stern> Ah! Those must be the parts I ordered from Mr. Stone at Devon."}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Captain Stern> Thank you for bringing the case all this way."}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Captain Stern> Now we can prepare for our expedition at last!"}
+execute at @s[scores={DialogueTrigger=42,TalkTime=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=42,TalkTime=5}] {"text":"<...> Yes?"}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=12}] {"text":"<Captain Stern> If you're looking for Stern, that would be me."}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=20}] {"text":"<Captain Stern> Ah! Those must be the parts I ordered from Mr. Stone at Devon."}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=28}] {"text":"<Captain Stern> Thank you for bringing the case all this way."}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=35}] {"text":"<Captain Stern> Now we can prepare for our expedition at last!"}
+
+execute as @s[scores={DialogueTrigger=42,TalkTime=40},tag=!MusicDisabled] run stopsound @s record
+execute as @s[scores={DialogueTrigger=42,TalkTime=40},tag=!MusicDisabled] run playsound minecraft:teamappears record @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=42,TalkTime=40},tag=!MusicDisabled] run scoreboard players set @s MusicCooldown 69
 
 #Team Grunts teleport in
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=1}] run particle cloud -1382 15 270 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=1}] run particle cloud -1384 15 270 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=1}] run summon pixelmon:npc_chatting -1382 15 270 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Magma Grunt", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmagruntmale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=1}] unless entity @e[x=-1384,y=15,z=270,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1384 15 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 32, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 10.0d, Modifiers: [{Amount: 0.07305606215663946d, Operation: 1, Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "Magma Grunt", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 14s, IVAttack: 11b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Tackle", MovePP: 35b}, {MoveID: "Ember", MovePP: 40b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 10s, IVSpDef: 11b, CaughtBall: "poke_ball", IVHP: 18b, EVHP: 0s, ndex: 322, palette: "none", StatsSpecialDefense: 11s, Nature: 10b, Ability: "QuickFeet", StatsHP: 26s, IVDefense: 21b, Health: 26, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 1, DynamaxLevel: 0, Variant: "", StatsSpeed: 9s, EVSpecialAttack: 0s, StatsAttack: 15s, IVSpeed: 3b, Level: 9, IVSpAtt: 2b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: 0s, Pos: [-2719.491015649672d, 69.0d, -227.49195215342667d], CanPickUpLoot: 1b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "malemagmagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 13, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "magmagruntmale.png", NumPokemon: 6, "forge:spawn_type": "COMMAND", BaseTrainer: "MaleMagmaGrunt", WinMoney: 360, AIMode: 1s}
 
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Aqua Grunt> Heh heh heh heh... Hold up a moment! We'll be taking those!"}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Magma Grunt> Hah hah hah hah... Just a moment! We'll be taking those parts!"}
 
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Captain Stern> Wh-what was that?! Who are you people?!"}
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=2}] run particle cloud -1382 -12 270 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=2}] run particle cloud -1384 -12 270 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=2}] run summon pixelmon:npc_chatting -1382 -12 270 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Aqua Grunt", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquagruntmale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=42,TalkTime=40,GameVersion=2}] unless entity @e[x=-1384,y=-12,z=270,distance=..3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1384 -12 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 15, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 10.0d, Modifiers: [{Amount: 0.07305606215663946d, Operation: 1, Name: "Random spawn bonus"}], Name: "minecraft:generic.follow_range"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 1b, Name: "Magma Grunt", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 14s, IVAttack: 11b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Aqua Jet", MovePP: 35b}, {MoveID: "Bite", MovePP: 40b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 10s, IVSpDef: 11b, CaughtBall: "poke_ball", IVHP: 18b, EVHP: 0s, ndex: 318, palette: "none", StatsSpecialDefense: 11s, Nature: 10b, Ability: "QuickFeet", StatsHP: 26s, IVDefense: 21b, Health: 26, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 1, DynamaxLevel: 0, Variant: "", StatsSpeed: 9s, EVSpecialAttack: 0s, StatsAttack: 15s, IVSpeed: 3b, Level: 9, IVSpAtt: 2b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: 0s, Pos: [-2719.491015649672d, 69.0d, -227.49195215342667d], CanPickUpLoot: 1b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "malemagmagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 13, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "aquagruntmale.png", NumPokemon: 6, "forge:spawn_type": "COMMAND", BaseTrainer: "MaleAquaGrunt", WinMoney: 360, AIMode: 1s}
 
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Aqua Grunt> We're Team Aqua!"}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Aqua Grunt> Our boss wants the parts in that case, so shut your yap and fork it over!"}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=44,GameVersion=1}] {"text":"<Team Aqua Grunt> Heh heh heh heh... Hold up a moment! We'll be taking those!"}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=44,GameVersion=2}] {"text":"<Team Magma Grunt> Hah hah hah hah... Just a moment! We'll be taking those parts!"}
 
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Magma Grunt> We are Team Magma!"}
-tellraw @s[scores={DialogueTrigger=42,TalkTime=1}] {"text":"<Team Magma Grunt> Our boss has need of the parts in that case, so relinquish it to us at once!"}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=53}] {"text":"<Captain Stern> Wh-what was that?! Who are you people?!"}
 
-execute as @s[scores={DialogueTrigger=42,TalkTime=1}] run pokebattle grunt 1
+tellraw @s[scores={DialogueTrigger=42,TalkTime=50,GameVersion=1}] {"text":"<Team Aqua Grunt> We're Team Aqua!"}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=57,GameVersion=1}] {"text":"<Team Aqua Grunt> Our boss wants the parts in that case, so shut your yap and fork it over!"}
 
-tag @s[scores={DialogueTrigger=42,TalkTime=100..}] add Dialogue42
+tellraw @s[scores={DialogueTrigger=42,TalkTime=50,GameVersion=2}] {"text":"<Team Magma Grunt> We are Team Magma!"}
+tellraw @s[scores={DialogueTrigger=42,TalkTime=57,GameVersion=2}] {"text":"<Team Magma Grunt> Our boss has need of the parts in that case, so relinquish it to us at once!"}
+
+execute as @s[scores={DialogueTrigger=42,TalkTime=65,GameVersion=1}] run pokebattle @s MagmaGrunt1
+execute as @s[scores={DialogueTrigger=42,TalkTime=65,GameVersion=2}] run pokebattle @s AquaGrunt1
+
+tag @s[scores={DialogueTrigger=42,TalkTime=66..}] add Dialogue42
 #----------------------------
 #Dialogue 43 - Slateport City
 #Post-Grunt 1 Battle
 
 
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Aqua Grunt> Awaaaughhh! I got beat by a little brat?"}
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Aqua Grunt> Oh, man, what a disaster... The boss is gonna be furious..."}
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Aqua Grunt> Hmph! Sniveling wimp!"}
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Aqua Grunt> Stand back and watch me, the 27th-strongest member of Team Aqua, take care of this kid!"}
+tellraw @s[scores={DialogueTrigger=43,TalkTime=3}] {"text":"<Team Aqua Grunt> Awaaaughhh! I got beat by a little brat?"}
+tellraw @s[scores={DialogueTrigger=43,TalkTime=10}] {"text":"<Team Aqua Grunt> Oh, man, what a disaster... The boss is gonna be furious..."}
+tellraw @s[scores={DialogueTrigger=43,TalkTime=19}] ["",{"text":"<"},{"text":"Team Aqua Grunt","color":"gray"},{"text":"> Hmph! Sniveling wimp!"}]
+tellraw @s[scores={DialogueTrigger=43,TalkTime=26}] ["",{"text":"<"},{"text":"Team Aqua Grunt","color":"gray"},{"text":"> Stand back and watch me, the 27th-strongest member of Team Aqua, take care of this kid!"}]
 
 
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Magma Grunt> Absurd! I was defeated by this child?"}
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Magma Grunt> This is quite disastrous. At this rate, I will become the target of the boss's fury!"}
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Magma Grunt> My, you really are incompetent..."}
-tellraw @s[scores={DialogueTrigger=43,TalkTime=1}] {"text":"<Team Magma Grunt> I suggest you observe while a future Ace Grunt of Team Magma makes short work of this infant."}
+tellraw @s[scores={DialogueTrigger=43,TalkTime=3}] {"text":"<Team Magma Grunt> Absurd! I was defeated by this child?"}
+tellraw @s[scores={DialogueTrigger=43,TalkTime=10}] {"text":"<Team Magma Grunt> This is quite disastrous. At this rate, I will become the target of the boss's fury!"}
+tellraw @s[scores={DialogueTrigger=43,TalkTime=19}] ["",{"text":"<"},{"text":"Team Magma Grunt","color":"gray"},{"text":"> My, you really are incompetent..."}]
+tellraw @s[scores={DialogueTrigger=43,TalkTime=26}] ["",{"text":"<"},{"text":"Team Magma Grunt","color":"gray"},{"text":"> I suggest you observe while a future Ace Grunt of Team Magma makes short work of this infant."}]
 
-execute as @s[scores={DialogueTrigger=43,TalkTime=1}] run pokebattle grunt 2
+execute as @s[scores={DialogueTrigger=43,TalkTime=32}] run tp @e[type=pixelmon:npc_chatting,x=-1382,y=15,z=270,distance=..2] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=43,TalkTime=32}] run summon pixelmon:npc_trainer -1382 15 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 36, TeamSelectTime: 0, RaiseToCap: 0b, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "MagmaGrunt2", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}, item2: {id: "minecraft:nether_brick", Count: 1b}, item1: {id: "minecraft:nether_brick", Count: 1b}, item4: {id: "minecraft:nether_brick", Count: 1b}, item3: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, UUID: [I; 1027134430, 1896956522, -1983120161, 933245661], FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 18s, IVAttack: 18b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Ember", MovePP: 25b}, {MoveID: "Focus Energy", MovePP: 30b}, {MoveID: "Magnitude", MovePP: 30b}, {MoveID: "Flame Burst", MovePP: 15b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 26s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 322, palette: "none", UUID: [I; -1306123221, 449072505, -1917059312, -453067517], StatsSpecialDefense: 21s, Nature: 19b, Ability: "Oblivious", StatsHP: 44s, IVDefense: 15b, Health: 44, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 15s, EVSpecialAttack: 0s, StatsAttack: 24s, IVSpeed: 19b, Level: 14, IVSpAtt: 8b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 20s, IVAttack: 21b, Growth: 5b, PHiddenAbility: 0b, Moveset: [{MoveID: "Absorb", MovePP: 25b}, {MoveID: "Supersonic", MovePP: 20b}, {MoveID: "Astonish", MovePP: 15b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 17s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 41, palette: "none", UUID: [I; 1430817091, 213336305, -1244894545, -2123823015], StatsSpecialDefense: 18s, Nature: 12b, Ability: "InnerFocus", StatsHP: 38s, IVDefense: 30b, Health: 38, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 21s, EVSpecialAttack: 0s, StatsAttack: 20s, IVSpeed: 9b, Level: 14, IVSpAtt: 29b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 0b, WinMessage: "See? They are useless.", Greeting: "Pok�mon are tools. What use is treating them well?", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "malemagmagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Useless things!", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 6, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "MaleMagmaGrunt", WinMoney: 280, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=43,TalkTime=33}] run pokebattle @s MagmaGrunt2
 
-tag @s[scores={DialogueTrigger=43,TalkTime=100..}] add Dialogue43
+execute as @s[scores={DialogueTrigger=43,TalkTime=32}] run tp @e[type=pixelmon:npc_chatting,x=-1382,y=-12,z=270,distance=..2] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=43,TalkTime=32}] run summon pixelmon:npc_trainer -1382 15 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 36, TeamSelectTime: 0, RaiseToCap: 0b, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "AquaGrunt2", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}, item2: {id: "minecraft:nether_brick", Count: 1b}, item1: {id: "minecraft:nether_brick", Count: 1b}, item4: {id: "minecraft:nether_brick", Count: 1b}, item3: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, UUID: [I; 1027134430, 1896956522, -1983120161, 933245661], FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 14s, IVAttack: 27b, Growth: 4b, PHiddenAbility: 0b, Moveset: [{MoveID: "Leer", MovePP: 30b}, {MoveID: "Scary Face", MovePP: 10b}, {MoveID: "Bite", MovePP: 25b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 35s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 20s, IVSpDef: 20b, CaughtBall: "poke_ball", IVHP: 4b, EVHP: 0s, ndex: 318, palette: "none", UUID: [I; 277109882, -741126483, -1751486252, -749480801], StatsSpecialDefense: 13s, Nature: 11b, Ability: "RoughSkin", StatsHP: 37s, IVDefense: 21b, Health: 37, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 25s, EVSpecialAttack: 0s, StatsAttack: 33s, IVSpeed: 19b, Level: 14, IVSpAtt: 1b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 20s, IVAttack: 21b, Growth: 5b, PHiddenAbility: 0b, Moveset: [{MoveID: "Absorb", MovePP: 25b}, {MoveID: "Supersonic", MovePP: 20b}, {MoveID: "Astonish", MovePP: 15b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 17s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 41, palette: "none", UUID: [I; 1430817091, 213336305, -1244894545, -2123823015], StatsSpecialDefense: 18s, Nature: 12b, Ability: "InnerFocus", StatsHP: 38s, IVDefense: 30b, Health: 38, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 21s, EVSpecialAttack: 0s, StatsAttack: 20s, IVSpeed: 9b, Level: 14, IVSpAtt: 29b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 0b, WinMessage: "See? They are useless.", Greeting: "Pok�mon are tools. What use is treating them well?", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "maleaquagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Useless things!", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 6, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "MaleAquaGrunt", WinMoney: 280, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=43,TalkTime=33}] run pokebattle @s AquaGrunt2
+
+tag @s[scores={DialogueTrigger=43,TalkTime=34..}] add Dialogue43
 #----------------------------
 #Dialogue 44 - Slateport City
 #Post-Grunt 2 Battle
 #https://youtu.be/MgkqxXCmrtI?t=12837
 
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Team Aqua Grunt> They beat the 27th-strongest Grunt in Team Aqua?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Team Aqua Grunt> N-now what? If we don't get that case, we're in for it!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Team Aqua Grunt> Arrgh! I never thought we'd be stopped by some meddling kid!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt> How could a future Ace Grunt of Team Magma be defeated?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=9,GameVersion=1}] {"text":"<Team Magma Grunt> Wh-what should we do now? We must obtain that case at once!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=17,GameVersion=1}] {"text":"<Team Magma Grunt> Hmph... I would never have posited that a mere child would prove such an obstacle."}
 
 
-
-
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Team Magma Grunt> How could a future Ace Grunt of Team Magma be defeated?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Team Magma Grunt> Wh-what should we do now? We must obtain that case at once!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Team Magma Grunt> Hmph... I would never have posited that a mere child would prove such an obstacle."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt> They beat the 27th-strongest Grunt in Team Aqua?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=9,GameVersion=2}] {"text":"<Team Aqua Grunt> N-now what? If we don't get that case, we're in for it!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=17,GameVersion=2}] {"text":"<Team Aqua Grunt> Arrgh! I never thought we'd be stopped by some meddling kid!"}
 
 #Spawns in leader
 #Shot of them
 #https://youtu.be/MgkqxXCmrtI?t=12840
 
-#Archie
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> What do we have here?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> I came to see what was taking so long just to steal a few parts, and I find you simps getting beat by this kid?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> Heh! That's quite a fierce expression for such a wee little scamp."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> That face tells me you're not just another mindless Trainer brat."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> The name is Archie."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> The rough-looking lot you see here are members of my team—Team Aqua."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> So tell me, child..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> Do you know that Pokémon, people, and all life in this world depend on the sea for life?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> That's right. The sea is an irreplaceable treasure for every living thing on this planet."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> But with our selfish extravagance, humanity dirties the great ocean, destroying this source of all life..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> Day by day, we're all destroying our most precious resource!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> If we humans suffer from our actions, well, maybe we'll end up getting what we deserve."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> But what about the Pokémon in our world?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> The Pokémon that no longer have a place to live because we stole and soiled their seas?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> The Pokémon that won't have a place to raise their young and watch them grow?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> We are creating a world in which innocent Pokémon suffer as a result of our actions..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> And that is something that I can't forgive!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> That's why I came to a decision, see?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> The foolish actions of my fellow humans, the seas we have blighted, nature itself..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> I will return everything to its unspoiled beginnings!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> ... Heh! It's not like me to talk so much."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> Never mind, little scamp..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> I'll withdraw for now and leave you be."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> But understand this..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> Get in my way again, and you won't walk away unscathed next time."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> Remember that, at least!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Archie> We're moving out, lads!"}
+execute as @s[scores={DialogueTrigger=44,TalkTime=25},tag=!MusicDisabled] run stopsound @s record
+execute as @s[scores={DialogueTrigger=44,TalkTime=25},tag=!MusicDisabled] run playsound minecraft:teamleader record @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=44,TalkTime=25},tag=!MusicDisabled] run scoreboard players set @s MusicCooldown 99
 
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=1}] run particle cloud -1382 15 270 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=2}] run particle cloud -1382 -12 270 1 1 1 0.15 300
 
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=1}] run summon pixelmon:npc_chatting -1388 15 278 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Maxie", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=2}] run summon pixelmon:npc_chatting -1388 -12 278 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Archie", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=1}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=1}] run tp @s -1384.0 15 280.75 123 2
 
-
-
-
-
-
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=2}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=44,TalkTime=25,GameVersion=2}] run tp @s -1384.0 -12 280.75 123 2
 
 #Maxie
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> Now here I was wondering how you could be held up in the simple act of seizing a case."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> Do I take it you are being stymied by this child?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> Hmm. Though you are but a child, your eyes tell me of your fierce determination."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> My heart is pounding in my chest..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<...> Yes, I think I can see why my lowly Grunts could not stand one minute against you."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> I am called Maxie."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> I stand as the head of Team Magma, a noble organization whose goal is to propel humanity to even greater heights of progress and evolution."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> Indeed."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> And you are one of the young persons who may shape our society's future."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> Considering that fact, I believe I shall educate you in the ways of the world."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> The land..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> It is the stage upon which humanity stands."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> The land exists so we humans might continue onward and upward, stepping into the future..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> For us to continue growing and evolving, humans require a grand stage upon which to stand."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> A land upon which we can stride forward..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> A land we can explore...develop...exploit..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> This is the basis for the growth of all human endeavor."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> That is why we, Team Magma, must increase the landmass of this world!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> Believe that this will lead to a future of eternal happiness for humanity..."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> And consequently for all life!"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> Humph. I suppose the concept may still be too difficult for a child to comprehend."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> Is that the case?"}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> At least I have tried to open your mind."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> I will take my leave for now."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> I suggest you take care that you never again stand against Team Magma."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> I will not be so lenient the next time."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> I implore you to remember that."}
-tellraw @s[scores={DialogueTrigger=44,TalkTime=1}] {"text":"<Maxie> We are done here."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=27,GameVersion=1}] {"text":"<...> Now here I was wondering how you could be held up in the simple act of seizing a case."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=36,GameVersion=1}] {"text":"<...> Do I take it you are being stymied by this child?"}
+
+execute as @s[scores={DialogueTrigger=44,TalkTime=43,GameVersion=1}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=44,TalkTime=43,GameVersion=1}] run tp @s -1384.0 15 280.75 123 2
+
+tellraw @s[scores={DialogueTrigger=44,TalkTime=45,GameVersion=43}] {"text":"<...> Hmm. Though you are but a child, your eyes tell me of your fierce determination."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<...> My heart is pounding in my chest..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<...> Yes, I think I can see why my lowly Grunts could not stand one minute against you."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I am called Maxie."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I stand as the head of Team Magma, a noble organization whose goal is to propel humanity to even greater heights of progress and evolution."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Indeed."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> And you are one of the young persons who may shape our society's future."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Considering that fact, I believe I shall educate you in the ways of the world."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> The land..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> It is the stage upon which humanity stands."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> The land exists so we humans might continue onward and upward, stepping into the future..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> For us to continue growing and evolving, humans require a grand stage upon which to stand."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> A land upon which we can stride forward..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> A land we can explore...develop...exploit..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> This is the basis for the growth of all human endeavor."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> That is why we, Team Magma, must increase the landmass of this world!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Believe that this will lead to a future of eternal happiness for humanity..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> And consequently for all life!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Humph. I suppose the concept may still be too difficult for a child to comprehend."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Is that the case?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> At least I have tried to open your mind."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I will take my leave for now."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I suggest you take care that you never again stand against Team Magma."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I will not be so lenient the next time."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I implore you to remember that."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=1}] {"text":"<Maxie> We are done here."}
+
+
+
+#Archie
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<...> What do we have here?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<...> I came to see what was taking so long just to steal a few parts, and I find you simps getting beat by this kid?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<...> Heh! That's quite a fierce expression for such a wee little scamp."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<...> That face tells me you're not just another mindless Trainer brat."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> The name is Archie."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> The rough-looking lot you see here are members of my team—Team Aqua."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> So tell me, child..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> Do you know that Pokémon, people, and all life in this world depend on the sea for life?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> That's right. The sea is an irreplaceable treasure for every living thing on this planet."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> But with our selfish extravagance, humanity dirties the great ocean, destroying this source of all life..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> Day by day, we're all destroying our most precious resource!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> If we humans suffer from our actions, well, maybe we'll end up getting what we deserve."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> But what about the Pokémon in our world?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> The Pokémon that no longer have a place to live because we stole and soiled their seas?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> The Pokémon that won't have a place to raise their young and watch them grow?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> We are creating a world in which innocent Pokémon suffer as a result of our actions..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> And that is something that I can't forgive!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> That's why I came to a decision, see?"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> The foolish actions of my fellow humans, the seas we have blighted, nature itself..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> I will return everything to its unspoiled beginnings!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> ... Heh! It's not like me to talk so much."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> Never mind, little scamp..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> I'll withdraw for now and leave you be."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> But understand this..."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> Get in my way again, and you won't walk away unscathed next time."}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> Remember that, at least!"}
+tellraw @s[scores={DialogueTrigger=44,TalkTime=1,GameVersion=2}] {"text":"<Archie> We're moving out, lads!"}
+
+
 
 #Teleport out leader and grunts
 

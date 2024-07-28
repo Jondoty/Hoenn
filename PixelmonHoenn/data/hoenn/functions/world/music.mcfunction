@@ -281,8 +281,8 @@ playsound pokemonlab record @s[x=-2057,y=48,z=311,dx=32,dy=10,dz=37,scores={Musi
 scoreboard players set @s[x=-2057,y=48,z=311,dx=32,dy=10,dz=37,scores={MusicCooldown=0}] MusicCooldown 102
 
 #Oceanic Museum
-playsound oceanicmuseum record @s[x=-1430,y=30,z=231,dx=67,dy=22,dz=53,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1430,y=30,z=231,dx=67,dy=22,dz=53,scores={MusicCooldown=0}] MusicCooldown 211
+playsound oceanicmuseum record @s[x=-1430,y=-25,z=231,dx=67,dy=80,dz=53,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1430,y=-25,z=231,dx=67,dy=80,dz=53,scores={MusicCooldown=0}] MusicCooldown 211
 
 #Lilycove Museum
 playsound museum record @s[x=384,y=51,z=-1158,dx=86,dy=25,dz=73,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1

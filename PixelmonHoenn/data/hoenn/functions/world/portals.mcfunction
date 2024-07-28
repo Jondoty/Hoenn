@@ -580,8 +580,16 @@ tp @a[x=-1412,y=64,z=203,dx=8,dy=3] 2221 79 2594
 tp @a[x=2220,y=79,z=2595,dx=2,dy=3] -1408 64 204
 
 #Oceanic Museum
-tp @a[x=-1395,y=69,z=282,dx=2,dy=3] -1394 34 281
-tp @a[x=-1396,y=34,z=282,dx=4,dy=3] -1394 69 283
+#(Normal branch)
+execute as @a[x=-1395,y=69,z=282,dx=2,dy=3] run function hoenn:tools/forceclick
+tp @a[x=-1395,y=69,z=282,dx=2,dy=3,tag=Dialogue44] -1394 34 281
+tp @a[x=-1396,y=-21,z=282,dx=4,dy=60] -1394 69 283
+
+#Magma taken over branch
+tp @a[x=-1395,y=69,z=282,dx=2,dy=3,scores={GameVersion=1},tag=!Dialogue44] -1394 6 281
+#Aqua
+tp @a[x=-1395,y=69,z=282,dx=2,dy=3,scores={GameVersion=2},tag=!Dialogue44] -1394 -21 281
+
 
 #Stern's Shipyard
 tp @a[x=-1448,y=69,z=337,dx=4,dy=3] -1446 16 336
