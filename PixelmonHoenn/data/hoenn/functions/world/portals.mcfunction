@@ -583,6 +583,8 @@ tp @a[x=2220,y=79,z=2595,dx=2,dy=3] -1408 64 204
 #(Normal branch)
 execute as @a[x=-1395,y=69,z=282,dx=2,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1395,y=69,z=282,dx=2,dy=3,tag=Dialogue44] -1394 34 281
+
+execute as @a[x=-1396,y=-21,z=282,dx=4,dy=60] run function hoenn:tools/forceclick
 tp @a[x=-1396,y=-21,z=282,dx=4,dy=60] -1394 69 283
 
 #Magma taken over branch

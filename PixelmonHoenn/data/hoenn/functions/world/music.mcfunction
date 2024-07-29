@@ -20,6 +20,10 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=9,TalkTime=..9
 playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=10,TalkTime=15..}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=10,TalkTime=15..}] MusicCooldown 102
 
+#Meeting Magma/Aqua Leaders for first time
+playsound teamleader record @s[scores={MusicCooldown=0,DialogueTrigger=44,TalkTime=..268}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=44,TalkTime=..268}] MusicCooldown 99
+
 #Birch's other starter Pokemon dialogues
 playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=171}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=171}] MusicCooldown 28

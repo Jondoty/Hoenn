@@ -1,3 +1,6 @@
+#Keeps just me specifically in creative to prevent crashes from trainers
+execute as Jond run gamemode creative @s[gamemode=adventure]
+
 #Adds the first command block check tag
 tag @e[x=-2070,y=65,z=1410,dy=5] add VerifyCommands
 
@@ -100,6 +103,11 @@ execute if entity @a[scores={DialogueTrigger=26}] run tp @e[x=-2675,y=69,z=-720,
 #Dialogue 30 - Devon Corp shot
 execute as @a[scores={DialogueTrigger=30,TalkTime=38..48}] at @s run tp @s ~ ~ ~-.025 ~ ~-0.02
 
+#Dialogue 44 - Pans into leaders
+execute as @a[scores={DialogueTrigger=44,TalkTime=26..42}] at @s run tp @s ~-0.005 ~ ~-0.005 ~ ~
+
+#Dialogue 50 - Route 110, moves grunts north
+execute if entity @a[scores={DialogueTrigger=50,TalkTime=33..37}] as @e[x=-1594,y=68,z=-37,dx=23,dy=5,dz=30,type=pixelmon:npc_chatting] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
 
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 
