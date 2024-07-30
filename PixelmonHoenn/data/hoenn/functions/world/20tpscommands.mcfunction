@@ -109,6 +109,12 @@ execute as @a[scores={DialogueTrigger=44,TalkTime=26..42}] at @s run tp @s ~-0.0
 #Dialogue 50 - Route 110, moves grunts north
 execute if entity @a[scores={DialogueTrigger=50,TalkTime=33..37}] as @e[x=-1594,y=68,z=-37,dx=23,dy=5,dz=30,type=pixelmon:npc_chatting] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
 
+#Dialogue 60 - Wally and uncle running off
+execute if entity @a[scores={DialogueTrigger=60}] run tp @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=1,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute if entity @a[scores={DialogueTrigger=60,TalkTime=62..87}] as @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=45,nbt={Name:"Wally"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=60,TalkTime=73..87}] as @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=45,nbt={Name:"Uncle"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
+
+
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 
 #Legendary spawn camera movements
