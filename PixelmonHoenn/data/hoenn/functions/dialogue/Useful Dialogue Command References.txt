@@ -44,3 +44,8 @@ item replace entity @e[x=421,y=63,z=-300,distance=..3,type=pixelmon:npc_chatting
 
 #In console,, filters out any command errors when loading world
 java.lang.IllegalArgumentException: Whilst parsing command on line
+
+
+
+#Gets data for nearby NPC
+data get entity @e[distance=..5,type=pixelmon:npc_chatting,limit=1]

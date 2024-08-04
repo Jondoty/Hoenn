@@ -24,10 +24,18 @@ execute at @s if entity @s[x=-2620,y=0,z=-1507,dx=275,dy=256,dz=427] as @e[dista
 execute at @s if entity @s[x=-2451,y=0,z=-863,dx=222,dy=60,dz=147] as @e[distance=..15,tag=Break] at @s positioned ~ ~-2 ~ run fill ~ ~ ~-1 ~ ~5 ~1 air replace barrier
 execute at @s as @e[distance=..15,tag=Break] at @s positioned ~ ~-2 ~ run fill ~ ~ ~ ~ ~5 ~ air replace barrier
 
+
+#Rusturf Tunnel specific dialogue after using Rock smash
+execute as @a[x=-2309,y=42,z=-817,distance=..30,tag=!Dialogue69,scores={DialogueTrigger=69}] at @s if entity @e[distance=..5,tag=Break] run scoreboard players set @s TalkTime 0
+execute as @a[x=-2309,y=42,z=-817,distance=..30,tag=!Dialogue69,scores={DialogueTrigger=69}] at @s if entity @e[distance=..5,tag=Break] run tag @s add Dialogue69
+execute as @a[x=-2309,y=42,z=-817,distance=..30,tag=!Dialogue70] at @s if entity @e[distance=..5,tag=Break] run scoreboard players set @s DialogueTrigger 70
+
+
 #Breaks Rock Smash Rock surrounding player
 execute as @s at @s run kill @e[distance=..5,type=minecraft:interaction,tag=Break]
 tellraw @s {"text":"You used Rock Smash!","italic":true,"color":"gray"}
 playsound minecraft:item.shield.block ambient @s ~ ~ ~ 10 1 1
+
 
 #------------------------------------------------------------------------------------------------
 #Tags the player if they are in a MirageArea or not for purposes of loot

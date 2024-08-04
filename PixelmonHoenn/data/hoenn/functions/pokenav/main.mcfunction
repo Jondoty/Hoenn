@@ -7,8 +7,9 @@
 #Formerly TrainerNav
 #execute as @s[scores={NavTrack=11..12,click=1}] run tellraw @s {"text":"No rematchable trainers found...","italic":true,"color":"gray"}
 
-#If entity within distance to player
-
+#BaseNav if player does not have module unlocked
+execute as @s[scores={NavTrack=11..12,click=1},tag=!SecretBase] run tellraw @s ["",{"text":"Your father's words echo in your mind... ","italic":true,"color":"gray"},{"selector":"@s","italic":true,"color":"gray"},{"text":"! This module needs Secret Power to work!\"","italic":true,"color":"gray"}]
+execute as @s[scores={NavTrack=11..12,click=1},tag=!SecretBase] run scoreboard players set @s click 0
 
 #BaseNav
 #If player is inside a base, prompts the player to abandon their base (or other GUI things)

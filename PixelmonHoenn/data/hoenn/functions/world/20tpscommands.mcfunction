@@ -114,6 +114,8 @@ execute if entity @a[scores={DialogueTrigger=60}] run tp @e[x=2699,y=64,z=2866,d
 execute if entity @a[scores={DialogueTrigger=60,TalkTime=62..87}] as @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=45,nbt={Name:"Wally"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
 execute if entity @a[scores={DialogueTrigger=60,TalkTime=73..87}] as @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=45,nbt={Name:"Uncle"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
 
+#Dialogue 71 - Verdanturf Shroomish moving
+execute if entity @a[scores={DialogueTrigger=71,TalkTime=3..6}] as @e[x=-2071,y=69,z=-617,distance=..10,type=pixelmon:statue] at @s run tp @s ~0.075 ~ ~
 
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 

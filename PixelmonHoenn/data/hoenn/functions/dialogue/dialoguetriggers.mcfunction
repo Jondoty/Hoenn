@@ -248,10 +248,48 @@ execute as @a[x=2705,y=65,z=2959,distance=..10,tag=!Dialogue60] unless entity @e
 execute as @a[x=2705,y=65,z=2959,distance=..20,tag=!Dialogue60] unless entity @e[x=2707,y=65,z=2909,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2703 65 2909 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Uncle", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "npcchat1.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
 
+#Dialogue 69 - Rusturf Tunnel
+#Wanda and Black Belt boyfriend
+execute as @a[x=-2300,y=41,z=-820,distance=..10,tag=!Dialogue69] run scoreboard players set @s DialogueTrigger 69
+
+#Respawns the couple
+execute as @a[x=-2309,y=42,z=-817,distance=..30,tag=!Dialogue70] unless entity @e[x=-2300,y=42,z=-820,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2300 42 -820 {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {}, chatNum: 4, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Wanda", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "lass", NameIndex: 2, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [2.9960735f, -39.30479f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2299.5d, 42.0d, -819.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], chat3: "He works his hands raw and rough for the benefit of everyone.", CanPickUpLoot: 0b, chat2: "He...he's not just digging this tunnel to come see me. ", CustomSteveTexture: "lass2.png", chat1: "My boyfriend labors day after day. ", chat0: "On the other side of this rock... ", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+execute as @a[x=-2309,y=42,z=-817,distance=..30,tag=!Dialogue70] unless entity @e[x=-2314,y=42,z=-817,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2300 42 -820 {Brain: {memories: {}}, HurtByTimestamp: 0, ForgeData: {}, chatNum: 4, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Riley", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "blackbelt", NameIndex: 2, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [2.9960735f, -1.8743664f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2313.5d, 42.0d, -816.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], chat3: "But this... What am I to do?", CanPickUpLoot: 0b, chat2: "If Rustboro and Verdanturf were joined by this tunnel, I could visit her every day... ", CustomSteveTexture: "blackbelt.png", chat1: "My beloved girlfriend lives in Verdanturf Town, just beyond here... ", chat0: "... Why can't I keep digging? Is the boulder too hard? ", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+#Dialogue 71 - Verdanturf Town
+#Gets rid of Shroomish if dialogue not complete.
+execute as @a[x=-2103,y=69,z=-576,distance=..20,tag=!Dialogue71] if entity @e[x=-2151,y=69,z=-576,distance=..2,type=pixelmon:statue] run tp @e[x=-2151,y=69,z=-576,distance=..2,type=pixelmon:statue] 10000000 -50000 -10000000
+
+#Dialogue 73 - Mr. Stone and the intriguing stone
+execute as @a[x=-2747,y=38,z=-719,distance=..4,nbt={Inventory:[{id:"pixelmon:intriguing_stone"}]},tag=!Dialogue73] run scoreboard players set @s DialogueTrigger 73
 
 #Dialogue 75 - Route 112
 #Rival showing Mt. Chimney and giving Strength
 execute as @a[x=-1694,y=78,z=-1088,distance=..15,tag=!Dialogue75] run scoreboard players set @s DialogueTrigger 75
+
+#Dialogue 76 - Route 111
+#Secret Base Obtaining
+execute as @a[x=-1541,y=78,z=-1337,distance=..20,tag=!Dialogue76] unless entity @e[x=-1515,y=78,z=-1368,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1515 79 -1368 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Aarune", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "ornithologist.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+execute as @a[x=-1515,y=78,z=-1368,distance=..15,tag=!Dialogue76] run scoreboard players set @s DialogueTrigger 76
+
+#Dialogue 77 - Route 113
+#Rival healing player
+execute as @a[x=-1646,y=79,z=-1418,distance=..15,tag=!Dialogue77] run scoreboard players set @s DialogueTrigger 77
+
+#npc spawns
+execute as @a[x=-1580,y=79,z=-1416,distance=..20,tag=!Dialogue77,scores={Rival=1}] unless entity @e[x=-1646,y=79,z=-1418,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1646 79 -1418 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [90.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+execute as @a[x=-1580,y=79,z=-1416,distance=..20,tag=!Dialogue77,scores={Rival=2}] unless entity @e[x=-1646,y=79,z=-1418,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1646 79 -1418 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [90.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+
+#Dialogue 78 - Fallarbor Town
+#Meeting Lanette
+execute as @a[x=-2194,y=68,z=-1443,distance=..3,tag=!Dialogue78] run scoreboard players set @s DialogueTrigger 78
+
+execute as @a[x=-2200,y=68,z=-1431,distance=..6,tag=!Dialogue78] unless entity @e[x=-2194,y=68,z=-1443,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2194 68 -1443 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "scientist_f.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
 
 #Birch's Johto starters (beat the Pokemon League once)
 execute as @a[x=-2029,y=69,z=254,distance=..12,tag=!Dialogue171,scores={PokemonLeague=1..}] run scoreboard players set @s DialogueTrigger 171

@@ -47,6 +47,10 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=105}] MusicCoo
 playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=75}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=75}] MusicCooldown 102
 
+#Route 111 - Aarune introduction
+playsound secretbases record @s[scores={MusicCooldown=0,DialogueTrigger=76,TalkTime=..209}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=76,TalkTime=..209}] MusicCooldown 104
+
 #Kyogre/Groudon awoken
 playsound ancientawaken record @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=..70}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=..70}] MusicCooldown 90

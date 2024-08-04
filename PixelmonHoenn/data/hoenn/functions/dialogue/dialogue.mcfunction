@@ -2439,69 +2439,93 @@ tellraw @s[scores={DialogueTrigger=69,TalkTime=1}] {"text":"<Wanda> It's a crack
 tellraw @s[scores={DialogueTrigger=69,TalkTime=10}] {"text":"<Wanda> Y-your Pokémon! You can use Rock Smash?!"}
 tellraw @s[scores={DialogueTrigger=69,TalkTime=18}] {"text":"<Wanda> Please, kid! Use Rock Smash and break up these boulders!"}
 
-tag @s[scores={DialogueTrigger=69,TalkTime=100..}] add Dialogue69
+tag @s[scores={DialogueTrigger=69,TalkTime=18..}] add Dialogue69
 #-----------------------------
 #Dialogue 70 - Rusturf Tunnel
 #Post-Rock Smash
 #https://youtu.be/MgkqxXCmrtI?t=22309
 
-tellraw @s[scores={DialogueTrigger=70,TalkTime=1}] {"text":"<Black Belt> Wow! You shattered those boulders blocking the way."}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=10}] {"text":"<Black Belt> To show you how much I appreciate it, I'd like you to have this!"}
+execute at @s[scores={DialogueTrigger=70,TalkTime=4}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=70,TalkTime=8}] {"text":"<Riley> Wow! You shattered those boulders blocking the way."}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=18}] {"text":"<Riley> To show you how much I appreciate it, I'd like you to have this!"}
 
-execute as @s[scores={DialogueTrigger=70,TalkTime=17}] run give @s pixelmon:aggronite
-execute as @s[scores={DialogueTrigger=70,TalkTime=17}] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
-tellraw @s[scores={DialogueTrigger=70,TalkTime=17}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Aggronite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=70,TalkTime=25}] run give @s pixelmon:aggronite
+execute as @s[scores={DialogueTrigger=70,TalkTime=25}] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
+tellraw @s[scores={DialogueTrigger=70,TalkTime=25}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Aggronite!","italic":true,"color":"gray"}]
 
-tellraw @s[scores={DialogueTrigger=70,TalkTime=24}] {"text":"<Black Belt> I found that when I was digging for the tunnel."}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=31}] {"text":"<Black Belt> I felt like there's some mysterious power coming from it, but I don't think I could do a thing with it."}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=41}] {"text":"<Black Belt> Wanda! Now I can see you anytime!"}
-tellraw @s[scores={DialogueTrigger=70,TalkTime=48}] {"text":"<Wanda> That's...that's wonderful! Come on. Let me take you to my place so you can rest."}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=32}] {"text":"<Riley> I found that when I was digging for the tunnel."}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=39}] {"text":"<Riley> I felt like there's some mysterious power coming from it, but I don't think I could do a thing with it."}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=49}] {"text":"<Riley> Wanda! Now I can see you anytime!"}
+tellraw @s[scores={DialogueTrigger=70,TalkTime=56}] {"text":"<Wanda> That's...that's wonderful! Come on. Let me take you to my place so you can rest."}
 
 #tps them out
+execute as @s[scores={DialogueTrigger=70,TalkTime=63}] run particle cloud -2314 42 -817 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=70,TalkTime=63}] run particle cloud -2300 42 -820 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=70,TalkTime=63}] run tp @e[type=pixelmon:npc_chatting,x=-2314,y=42,z=-817,distance=..3] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=70,TalkTime=63}] run tp @e[type=pixelmon:npc_chatting,x=-2300,y=42,z=-820,distance=..3] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=70,TalkTime=48..}] add Dialogue70
+tag @s[scores={DialogueTrigger=70,TalkTime=64..}] add Dialogue70
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 71 - Verdanturf Town
 #Finding Shroomish behind sign
 #https://youtu.be/MgkqxXCmrtI?t=22379
-tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] ["",{"text":"Verdanturf Town\n"},{"text":"The windswept highlands with the sweet fragrance of grass.","italic":true}]
+#tellraw @s[scores={DialogueTrigger=71,TalkTime=1}] ["",{"text":"Verdanturf Town\n"},{"text":"The windswept highlands with the sweet fragrance of grass.","italic":true}]
 
 #teleport Shroomish in
+execute as @s[scores={DialogueTrigger=71,TalkTime=1}] at @s positioned ^ ^ ^5 run summon pixelmon:statue ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Tackle", MovePP: 35b}, {MoveID: "Growth", MovePP: 20b}, {MoveID: "Poison Powder", MovePP: 35b}, {MoveID: "Sleep Powder", MovePP: 15b}], Invulnerable: 0b, statueTexture: 0b, Gender: 1b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 19b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 22b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [707.5183364748955d, 64.0d, 982.4129032492638d], IVSpeed: 21b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 20s, IVAttack: 3b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 28s, IVHP: 6b, EVHP: 0s, ndex: 285, StatsSpecialDefense: 27s, Age: 0, Nature: 18b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 39s, Health: 20, Animate: 1b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [-90.0f, 0.0f], StatsSpeed: 21s, StatsAttack: 20s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 14b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
+
+execute as @s[scores={DialogueTrigger=71,TalkTime=2}] as @e[x=-2071,y=69,z=-617,distance=..10,type=pixelmon:statue] at @s run tp @s ~ 69 ~
+
+#Moves out from behind the sign
+
+execute as @s[scores={DialogueTrigger=71,TalkTime=8}] run playsound pixelmon:pixelmon.mob.shroomish ambient @s ~ ~ ~ 1 1 1
 tellraw @s[scores={DialogueTrigger=71,TalkTime=8}] {"text":"<Shroomish> Mu... Mushh...?"}
+
+execute as @s[scores={DialogueTrigger=71,TalkTime=14}] run playsound pixelmon:pixelmon.mob.shroomish ambient @s ~ ~ ~ 1 1 1
 tellraw @s[scores={DialogueTrigger=71,TalkTime=14}] {"text":"<Shroomish> Mushh!"}
 
 #teleport player and statue to the girl
+execute as @s[scores={DialogueTrigger=71,TalkTime=20}] run effect give @s minecraft:blindness 3 1 true
+execute as @s[scores={DialogueTrigger=71,TalkTime=20}] run tp @e[x=-2071,y=69,z=-617,distance=..10,type=pixelmon:statue] -2151 69 -576
+execute as @s[scores={DialogueTrigger=71,TalkTime=20}] run tp @s -2153.5 69 -569.5 -165 8
+execute as @s[scores={DialogueTrigger=71,TalkTime=21}] run data merge entity @e[x=-2151,y=69,z=-576,distance=..2,type=pixelmon:statue,limit=1] {Rotation: [100.0f, 0.0f]}
 
-tellraw @s[scores={DialogueTrigger=71,TalkTime=22}] {"text":"Ah! Mushew! Thank you for finding my Shroomish!"}
-tellraw @s[scores={DialogueTrigger=71,TalkTime=29}] {"text":"I'll give you this. I just found it."}
-tellraw @s[scores={DialogueTrigger=71,TalkTime=36}] {"text":"It has a strange shape and it looks amazing."}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=24}] {"text":"<Little Girl> Ah! Mushew! Thank you for finding my Shroomish!"}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=31}] {"text":"<Little Girl> I'll give you this. I just found it."}
+tellraw @s[scores={DialogueTrigger=71,TalkTime=38}] {"text":"<Little Girl> It has a strange shape and it looks amazing."}
 
-execute as @s[scores={DialogueTrigger=71,TalkTime=43}] run give @s pixelmon:intriguing_stone
-tellraw @s[scores={DialogueTrigger=71,TalkTime=43}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Intriguing Stone!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=71,TalkTime=43}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @a ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=71,TalkTime=44}] run give @s pixelmon:intriguing_stone
+tellraw @s[scores={DialogueTrigger=71,TalkTime=44}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Intriguing Stone!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=71,TalkTime=44}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @a ~ ~ ~ 1 1 1
 
-tag @s[scores={DialogueTrigger=71,TalkTime=43..}] add Dialogue71
+tag @s[scores={DialogueTrigger=71,TalkTime=45..}] add Dialogue71
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 72 - Route 116
 #After clearing out the tunnel
 #https://youtu.be/MgkqxXCmrtI?t=22446
 
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> Oh! It's you!"}
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> You're that Trainer who helped me in Petalburg Woods and also got back my case that was stolen and then graciously delivered it to Slateport!"}
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> Captain Stern informed us that the case arrived safely! I thank you very, very much."}
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> If I were a rain cloud, I would shower you with gratitude and hail you as a hero!"}
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> For you, most wonderful Trainer, I bear good news!"}
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> Recently, our company developed a new kind of Poké Ball."}
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> As a token of our appreciation for all your help, we would like to give you one!"}
+execute as @s[scores={DialogueTrigger=72,TalkTime=1}] unless entity @e[x=-2414,y=69,z=-714,distance=..2,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2414 69 -714 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Researcher", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "scientist_m.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Repeat Ball!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=72,TalkTime=1}] run give @s pixelmon:repeat_ball
+execute at @s[scores={DialogueTrigger=72,TalkTime=2}] as @e[x=-2414,y=69,z=-714,distance=..2,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=72,TalkTime=4}] {"text":"<Researcher> Oh! It's you!"}
+tellraw @s[scores={DialogueTrigger=72,TalkTime=11}] {"text":"<Researcher> You're that Trainer who helped me in Petalburg Woods and also got back my case that was stolen and then graciously delivered it to Slateport!"}
+tellraw @s[scores={DialogueTrigger=72,TalkTime=21}] {"text":"<Researcher> Captain Stern informed us that the case arrived safely! I thank you very, very much."}
+tellraw @s[scores={DialogueTrigger=72,TalkTime=30}] {"text":"<Researcher> If I were a rain cloud, I would shower you with gratitude and hail you as a hero!"}
+tellraw @s[scores={DialogueTrigger=72,TalkTime=38}] {"text":"<Researcher> For you, most wonderful Trainer, I bear good news!"}
+tellraw @s[scores={DialogueTrigger=72,TalkTime=45}] {"text":"<Researcher> Recently, our company developed a new kind of Poké Ball."}
+tellraw @s[scores={DialogueTrigger=72,TalkTime=52}] {"text":"<Researcher> As a token of our appreciation for all your help, we would like to give you one!"}
 
-tellraw @s[scores={DialogueTrigger=72,TalkTime=1}] {"text":"<Researcher> Please do try it out! Thank you and bye-bye!"}
+tellraw @s[scores={DialogueTrigger=72,TalkTime=61}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Repeat Ball!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=72,TalkTime=61}] run give @s pixelmon:repeat_ball
+execute as @s[scores={DialogueTrigger=72,TalkTime=61}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+
+tellraw @s[scores={DialogueTrigger=72,TalkTime=68}] {"text":"<Researcher> Please do try it out! Thank you and bye-bye!"}
 
 #tps out
+execute as @s[scores={DialogueTrigger=72,TalkTime=75}] run particle cloud -2414 69 -714 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=72,TalkTime=75}] run tp @e[x=-2414,y=69,z=-714,distance=..2,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=72,TalkTime=100..}] add Dialogue72
+tag @s[scores={DialogueTrigger=72,TalkTime=76..}] add Dialogue72
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 73 - Rustboro City
 #Bringing the Intriguing Stone to Devon Corp
@@ -2513,6 +2537,7 @@ tellraw @s[scores={DialogueTrigger=73,TalkTime=10}] {"text":"<Mr. Stone> On seco
 execute as @s[scores={DialogueTrigger=73,TalkTime=17}] run clear @s pixelmon:intriguing_stone
 tellraw @s[scores={DialogueTrigger=73,TalkTime=17}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Pidgeotite!","italic":true,"color":"gray"}]
 execute as @s[scores={DialogueTrigger=73,TalkTime=17}] run give @s pixelmon:pidgeotite
+execute as @s[scores={DialogueTrigger=73,TalkTime=17}] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
 
 tellraw @s[scores={DialogueTrigger=73,TalkTime=24}] {"text":"<Mr. Stone> To be carrying around a Mega Stone like that... It looks like you're also a bit of a connoisseur."}
 tellraw @s[scores={DialogueTrigger=73,TalkTime=34}] {"text":"<Mr. Stone> We had to do a whole lot of research into Mega Evolution to develop Infinity Energy."}
@@ -2652,139 +2677,118 @@ tag @s[scores={DialogueTrigger=75,TalkTime=137..}] add Dialogue75
 #Secret Base Obtaining
 #https://youtu.be/MgkqxXCmrtI?t=24761
 
-#This dialogue should probably be reworked to fit the theme of Minecraft and not auto-claim this one bsae due to it being multiplayer friendly
+#Abridged and made a little more specific for the map using the module.
 
 tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<...> Mmm-mm. I can smell it. I can smell it right here..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<...> The scent of adventure! This is definitely one."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<...> It's gotta be a Secret Spot."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> There'll be enough space here to build a crazy super place, or my name's not Aarune!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Yo, my young Pokémon Trainer!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> What can I do you for, hmm?"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Huh? What d'you mean, you didn't ask for anything?"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Bet your heart did! Now, now, no need to be shy!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> After all, we managed to meet! The name's Aarune. Put'er there."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Unova-born, and twenty-five years old."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Spent the last 11 years trying to find myself. Just a vagabond in search of dreams."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> I'm wandering 'round Hoenn, trying to find a place where I really belong."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> That's right! A Super-Secret Base!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> You don't know about Secret Bases? What kinda life is that?"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Too sad, little kid. Time for a little lecture from Uncle Aarune!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Let's start with what a Secret Base is..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Which is adventure! Romance! Awesome!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> For real, it's the best place ever to chill— you, your pals that you let hang out..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Since you've got this chance, you oughta learn how to make one. Take this."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=9}] {"text":"<...> The scent of adventure! This is definitely one."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=16}] {"text":"<...> It's gotta be a Secret Spot."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=23}] {"text":"<Aarune> There'll be enough space here to build a crazy super place, or my name's not Aarune!"}
 
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained SecretPower","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=76,TalkTime=1}] run tag @s add SecretBase
 
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Secret Power can help you find the entrances to hidden places."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> These entrances... They're full of adventure, all right!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> That's why I like to throw some spice in there and call 'em Secret Spots!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Like this! See? This right here is a Secret Spot."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Doesn't it look like you could just climb right up in this tree?"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> This is exactly the kinda place to bust out with Secret Power!"}
+execute as @s[scores={DialogueTrigger=76,TalkTime=30},tag=!MusicDisabled] run stopsound @s record
+execute as @s[scores={DialogueTrigger=76,TalkTime=30},tag=!MusicDisabled] run playsound minecraft:secretbases record @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=76,TalkTime=30},tag=!MusicDisabled] run scoreboard players set @s MusicCooldown 104
 
-#Changes into tree with vine
+execute at @s[scores={DialogueTrigger=76,TalkTime=30}] as @e[type=pixelmon:npc_chatting,x=-1515,y=78,z=-1368,distance=..3] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=76,TalkTime=33}] {"text":"<Aarune> Yo, my young Pokémon Trainer!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=40}] {"text":"<Aarune> What can I do you for, hmm?"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=47}] {"text":"<Aarune> The name's Aarune. Put'er there."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=54}] {"text":"<Aarune> Unova-born, and twenty-five years old."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=61}] {"text":"<Aarune> Spent the last 11 years trying to find myself. Just a vagabond in search of dreams."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=71}] {"text":"<Aarune> I'm wandering 'round Hoenn, trying to find a place where I really belong."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=80}] {"text":"<Aarune> That's right! A Super-Secret Base!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=87}] {"text":"<Aarune> You don't know about Secret Bases? What kinda life is that?"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=95}] {"text":"<Aarune> Too sad, little kid. Time for a little lecture from Uncle Aarune!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=103}] {"text":"<Aarune> Let's start with what a Secret Base is..."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=110}] {"text":"<Aarune> Which is adventure! Romance! Awesome!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=117}] {"text":"<Aarune> For real, it's the best place ever to chill— you, your pals that you let hang out..."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=126}] {"text":"<Aarune> Since you've got this chance, you oughta learn how to make one. Take this."}
 
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Awww yeah! I never get tired of that!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> And that's all there is to finding Secret Spots and creating the entrance to a Secret Base."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> This move is crucial to having a Secret Base. Don't forget, now!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=134}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" activated the BaseNav module!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=76,TalkTime=134}] run tag @s add SecretBase
+execute as @s[scores={DialogueTrigger=76,TalkTime=134}] run give @s pixelmon:tm_gen6{tm:101s}
+execute as @s[scores={DialogueTrigger=76,TalkTime=134}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
 
-#tps NPC and player into example base
+tellraw @s[scores={DialogueTrigger=76,TalkTime=141}] {"text":"<Aarune> Secret Power can help you find the entrances to hidden places using your PokéNav!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=150}] {"text":"<Aarune> These entrances... They're full of adventure, all right!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=157}] {"text":"<Aarune> That's why I like to throw some spice in there and call 'em Secret Spots!"}
+execute at @s[scores={DialogueTrigger=76,TalkTime=156}] as @e[type=pixelmon:npc_chatting,x=-1515,y=78,z=-1368,distance=..3] run data merge entity @s {Rotation:[180f,0.0f]}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=166}] {"text":"<Aarune> Like this! See? This right here is a Secret Spot."}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=175}] {"text":"<Aarune> Doesn't it look like you could just climb right up in this tree?"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=184}] {"text":"<Aarune> This is exactly the kinda place to bust out with Secret Power! Why not try it out?"}
 
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Mm-hmm! Not a bad layout..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> See, behind each Secret Spot, you'll find a space like this."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> They come in all kindsa shapes and sizes."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> So basically, whenever you find a Secret Spot, you oughta at least check it out with Secret Power!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Just think... Someday this place could be somebody's Secret Base, all decorated and filled with goods and friends..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> I'd really love to see it like that."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Wait a sec..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> But who in the world are you?"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> ..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] ["",{"text":"<Aarune> Ahhh! Right! "},{"selector":"@s"},{"text":"! Sorry about that."}]
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> I just got on such a roll..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] ["",{"text":"<Aarune> So then, "},{"selector":"@s"},{"text":"! How about I give you one more tip?"}]
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> When you feel happy about something, you oughta express that feeling."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> That's just how we roll in the Secret Base life."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Every day is full of happy adventures! Aw yeah!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Hmm. Now I could go ahead and make a Secret Base right here, but..."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> I get the feeling that this layout could be even better for you, little kid!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Guess I'm gonna leave this spot for you!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=194}] {"text":"<Aarune> Looks like it's about time for me to hit the road in search of my perfect base!"}
+tellraw @s[scores={DialogueTrigger=76,TalkTime=203}] ["",{"text":"<Aarune> Good-bye for now, but hopefully I'll see you again, "},{"selector":"@s"},{"text":"."}]
+#tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> If you need me for anything, try dropping in at the Secret Base Guild in Fortree!"}
 
-#Sets up PC and decorations
+execute as @s[scores={DialogueTrigger=76,TalkTime=210}] run particle cloud -1515 79 -1368 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=76,TalkTime=210}] run tp @e[type=pixelmon:npc_chatting,x=-1515,y=79,z=-1368,distance=..2] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=76,TalkTime=210}] run function hoenn:tools/forceclick
 
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> This will be your Secret Base from now on, little pal!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> It's yours now, so decorate it, destroy it, do whatever you want!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Whatever floats your boat, right?"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Oh, right. Decorating!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> See, any Decorations you buy or find around the world you'll use here."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Place 'em around and liven up your base a bit."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Not that you probably have much, right? Here, I'll give you these to get ya started!"}
-
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Decorations from Aarune!","italic":true,"color":"gray"}]
-
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Oh, RIGHT! One last thing!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> You can do more than make your own Secret Base."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> You can visit other people's bases for a bit of fun."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> If you find a base that belongs to someone else, check it out."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> And here's the real point. When you check out someone's base, collect the flag you find next to the PC."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Heh heh... Something good might come of it!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> Looks like it's about time for me to hit the road in search of my perfect base!"}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] ["",{"text":"<Aarune> Good-bye for now, but hopefully I'll see you again, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Aarune> If you need me for anything, try dropping in at the Secret Base Guild in Fortree!"}
-
-tag @s[scores={DialogueTrigger=76,TalkTime=100..}] add Dialogue76
+tag @s[scores={DialogueTrigger=76,TalkTime=210..}] add Dialogue76
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 77 - Route 113
 #Rival
 #https://youtu.be/MgkqxXCmrtI?t=25356
 
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> Hey!"}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> Phew..."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> The road here was pretty long, huh? I got tired enough that I had to take a little break."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":", your Pokémon look pretty tired themselves. Let me take care of them for a sec."}]
-execute as @s[scores={DialogueTrigger=77,TalkTime=1}] run pokeheal
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> ...There! That's all better."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> I'm on my way to pay a visit to Professor Cozmo."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> He's famous for his research on Meteorites."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> He was working on a project with my dad—um, I mean, Professor Birch—on how Meteorites might affect Pokémon."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> Enough dawdling! I think it's not much farther to Fallarbor."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<May> Let's give it one last push!"}
+execute at @s[scores={DialogueTrigger=77,TalkTime=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+
+tellraw @s[scores={DialogueTrigger=77,TalkTime=1,Rival=1}] {"text":"<May> Hey!"}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=7,Rival=1}] {"text":"<May> Phew..."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=13,Rival=1}] {"text":"<May> The road here was pretty long, huh? I got tired enough that I had to take a little break."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=23,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":", your Pokémon look pretty tired themselves. Let me take care of them for a sec."}]
+execute as @s[scores={DialogueTrigger=77,TalkTime=30,Rival=1}] run pokeheal
+execute as @s[scores={DialogueTrigger=77,TalkTime=30,Rival=1}] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+tellraw @s[scores={DialogueTrigger=77,TalkTime=33,Rival=1}] {"text":"<May> ...There! That's all better."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=40,Rival=1}] {"text":"<May> I'm on my way to pay a visit to Professor Cozmo."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=47,Rival=1}] {"text":"<May> He's famous for his research on Meteorites."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=54,Rival=1}] {"text":"<May> He was working on a project with my dad—um, I mean, Professor Birch—on how Meteorites might affect Pokémon."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=65,Rival=1}] {"text":"<May> Enough dawdling! I think it's not much farther to Fallarbor."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=72,Rival=1}] {"text":"<May> Let's give it one last push!"}
 
 #tps out
+execute as @s[scores={DialogueTrigger=77,TalkTime=79,Rival=1}] run particle cloud -1646 79 -1418 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=77,TalkTime=79,Rival=1}] run tp @e[type=pixelmon:npc_chatting,x=-1646,y=79,z=-1418,distance=..3] 10000000 -50000 -10000000
 
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> Hey!"}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> Phew..."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> It took a long time to make it this far. Even I felt like I needed a little break."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] ["",{"text":"<Brendan> Looks like your team could use one, too, "},{"selector":"@s"},{"text":". Lemme patch them up for you."}]
-execute as @s[scores={DialogueTrigger=77,TalkTime=1}] run pokeheal
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> I'm on my way to meet this Professor Cozmo fellow, right?"}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> He's super famous for his research on Meteorites."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> He even worked with my dad—I mean, with Professor Birch—on figuring out if Meteorites could have any effect on Pokémon."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> OK! Time to get moving again! I think Fallarbor's pretty close now."}
-tellraw @s[scores={DialogueTrigger=77,TalkTime=1}] {"text":"<Brendan> Let's both give it one last push!"}
+
+tellraw @s[scores={DialogueTrigger=77,TalkTime=1,Rival=2}] {"text":"<Brendan> Hey!"}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=7,Rival=2}] {"text":"<Brendan> Phew..."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=13,Rival=2}] {"text":"<Brendan> It took a long time to make it this far. Even I felt like I needed a little break."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=22,Rival=2}] ["",{"text":"<Brendan> Looks like your team could use one, too, "},{"selector":"@s"},{"text":". Lemme patch them up for you."}]
+execute as @s[scores={DialogueTrigger=77,TalkTime=30,Rival=2}] run pokeheal
+execute as @s[scores={DialogueTrigger=77,TalkTime=30,Rival=2}] run playsound pixelmon:pixelmon.block.healeractivate ambient @s ~ ~ ~ 1 1 1
+tellraw @s[scores={DialogueTrigger=77,TalkTime=33,Rival=2}] {"text":"<Brendan> I'm on my way to meet this Professor Cozmo fellow, right?"}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=40,Rival=2}] {"text":"<Brendan> He's super famous for his research on Meteorites."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=47,Rival=2}] {"text":"<Brendan> He even worked with my dad—I mean, with Professor Birch—on figuring out if Meteorites could have any effect on Pokémon."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=57,Rival=2}] {"text":"<Brendan> OK! Time to get moving again! I think Fallarbor's pretty close now."}
+tellraw @s[scores={DialogueTrigger=77,TalkTime=66,Rival=2}] {"text":"<Brendan> Let's both give it one last push!"}
 
 #tps out
+execute as @s[scores={DialogueTrigger=77,TalkTime=73,Rival=2}] run particle cloud -1646 79 -1418 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=77,TalkTime=73,Rival=2}] run tp @e[type=pixelmon:npc_chatting,x=-1646,y=79,z=-1418,distance=..3] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=77,TalkTime=100..}] add Dialogue77
+tag @s[scores={DialogueTrigger=77,TalkTime=79..}] add Dialogue77
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 78 - Fallarbor Town
 #Introduction to Lanette
 #https://youtu.be/MgkqxXCmrtI?t=26069
 
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<...> Oh, hello. You are?"}
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] ["",{"text":"<...> OK, you're "},{"selector":"@s"},{"text":". I can see that you're a Trainer."}]
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<...> So that means you use the Pokémon Storage System I developed."}
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<...> How I arrived at that conclusion is a simple deductive process."}
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<...> You spoke to me because you wanted to access something on this PC."}
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<Lanette> Oh, I'm sorry. I'm Lanette."}
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<Lanette> Honestly, I'm glad to meet you."}
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<Lanette> It's great you're using the Storage System."}
-tellraw @s[scores={DialogueTrigger=78,TalkTime=1}] {"text":"<Lanette> If you could, please visit me at home. My house is on Route 114."}
+execute at @s[scores={DialogueTrigger=78,TalkTime=1}] as @e[x=-2194,y=68,z=-1443,distance=..3,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=78,TalkTime=4}] {"text":"<...> Oh, hello. You are?"}
+tellraw @s[scores={DialogueTrigger=78,TalkTime=11}] ["",{"text":"<...> OK, you're "},{"selector":"@s"},{"text":". I can see that you're a Trainer."}]
+tellraw @s[scores={DialogueTrigger=78,TalkTime=20}] {"text":"<...> So that means you use the Pokémon Storage System I developed."}
+tellraw @s[scores={DialogueTrigger=78,TalkTime=27}] {"text":"<...> How I arrived at that conclusion is a simple deductive process."}
+tellraw @s[scores={DialogueTrigger=78,TalkTime=34}] {"text":"<...> You spoke to me because you wanted to access something on this PC."}
+tellraw @s[scores={DialogueTrigger=78,TalkTime=42}] {"text":"<Lanette> Oh, I'm sorry. I'm Lanette."}
+tellraw @s[scores={DialogueTrigger=78,TalkTime=49}] {"text":"<Lanette> Honestly, I'm glad to meet you."}
+tellraw @s[scores={DialogueTrigger=78,TalkTime=56}] {"text":"<Lanette> It's great you're using the Storage System."}
+tellraw @s[scores={DialogueTrigger=78,TalkTime=63}] {"text":"<Lanette> If you could, please visit me at home. My house is on Route 114."}
 
-#tps out
+#tps out\
+execute as @s[scores={DialogueTrigger=78,TalkTime=70}] run particle cloud -2194 68 -1443 1 1 1 0.15 200
+execute as @s[scores={DialogueTrigger=78,TalkTime=70}] run tp @e[type=pixelmon:npc_chatting,x=-2194,y=68,z=-1443,distance=..2] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=78,TalkTime=100..}] add Dialogue78
+tag @s[scores={DialogueTrigger=78,TalkTime=70..}] add Dialogue78
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 79
 #Rival in Fallarbor Town
