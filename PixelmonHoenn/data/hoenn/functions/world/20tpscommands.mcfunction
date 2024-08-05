@@ -153,6 +153,10 @@ execute as @a[scores={DialogueTrigger=208,TalkTime=26..35}] at @s run tp @s ~-0.
 execute as @a[scores={DialogueTrigger=75,TalkTime=23..56,Rival=2}] at @s run tp @s ~ ~-0.01 ~
 execute as @a[scores={DialogueTrigger=75,TalkTime=23..52,Rival=1}] at @s run tp @s ~ ~-0.01 ~
 
+#Dialogue 80 - Route 114, Rival running into Meteor Falls
+execute as @a[scores={DialogueTrigger=80,TalkTime=6..21}] at @s run tp @s ~-0.025 ~-0.025 ~-0.05 163 27
+execute as @a[scores={DialogueTrigger=80,TalkTime=6..21}] at @s run tp @s ~ ~ ~ 163 27
+execute if entity @a[scores={DialogueTrigger=80,TalkTime=14..21}] as @e[x=-2465,y=94,z=-1104,distance=..30,nbt={Name:"Rival"}] run data merge entity @s {Motion:[0.35,0.0,0.35],Rotation:[-45f,0.0f]}
 
 #-----------------------------------------------------------------------------------------
 

@@ -2794,62 +2794,92 @@ tag @s[scores={DialogueTrigger=78,TalkTime=70..}] add Dialogue78
 #Rival in Fallarbor Town
 #https://youtu.be/MgkqxXCmrtI?t=26132
 
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> Arghhh, what a disaster!"}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] ["",{"text":"<May> Oh! "},{"selector":"@s"},{"text":"! Help! You've got to come with me!"}]
+tellraw @s[scores={DialogueTrigger=79,TalkTime=1,Rival=1}] {"text":"<May> Arghhh, what a disaster!"}
+execute at @s[scores={DialogueTrigger=79,TalkTime=8,Rival=1}] as @e[x=-2225,y=89,z=-1389,distance=..3,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=79,TalkTime=8,Rival=1}] ["",{"text":"<May> Oh! "},{"selector":"@s"},{"text":"! Help! You've got to come with me!"}]
 
-
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"! C'mere!"}]
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> Everything's a mess!"}
+execute at @s[scores={DialogueTrigger=79,TalkTime=1,Rival=2}] as @e[x=-2225,y=89,z=-1389,distance=..3,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=79,TalkTime=1,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"! C'mere!"}]
+tellraw @s[scores={DialogueTrigger=79,TalkTime=8,Rival=2}] {"text":"<Brendan> Everything's a mess!"}
 
 #tps into observatory house
+execute as @s[scores={DialogueTrigger=79,TalkTime=14}] run effect give @s minecraft:blindness 3 1 true
+execute as @s[scores={DialogueTrigger=79,TalkTime=15}] run tp @e[x=-2225,y=89,z=-1389,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=79,TalkTime=15}] run tp @s -2262.5 68 -1379.5 -148 9
 
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> -you see..."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> Professor Cozmo..."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> He got abducted by some weird guys calling themselves Team Something or Other..."}
+execute as @s[scores={DialogueTrigger=79,TalkTime=15,Rival=1}] unless entity @e[x=-2263,y=68,z=-1386,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2263 68 -1386 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-55.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=79,TalkTime=15,Rival=2}] unless entity @e[x=-2263,y=68,z=-1386,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2263 68 -1386 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-55.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=79,TalkTime=15}] unless entity @e[x=-2258,y=68,z=-1383,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2258 68 -1383 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-55.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "dress.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
-
-
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> It's ridiculous..."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> Professor Cozmo..."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> They say that he was just up and kidnapped by some nuts calling themselves Team Something or Other..."}
-
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Cozmo's Wife> Those shady characters... They called themselves Team Magma."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Cozmo's Wife> Those shady characters... They called themselves Team Aqua."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Cozmo's Wife> It seems as though they plan to do something with the Meteorite that the professor has been researching."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Cozmo's Wife> The professor is just too gullible."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Cozmo's Wife> If you show the least bit of interest in his research, he would happily go with you anywhere, without question."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=22,Rival=1}] {"text":"<May> -you see..."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=29,Rival=1}] {"text":"<May> Professor Cozmo..."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=36,Rival=1}] {"text":"<May> He got abducted by some weird guys calling themselves Team Something or Other..."}
 
 
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":", please... You've got to help me save him!"}]
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> They can't be planning to do anything good with Professor Cozmo's research."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> We have to do something!"}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> I...I'm going to head after them right away!"}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<May> Let's meet up at Meteor Falls!"}
 
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"... I know it's a lot to ask, but we've gotta help Cozmo!"}]
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> I can't just stand by here and watch them use his life's work for their own corrupt reasons!"}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> I'm going to head to Meteor Falls right away."}
-tellraw @s[scores={DialogueTrigger=79,TalkTime=1}] {"text":"<Brendan> Come catch up to me as soon as you can."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=22,Rival=2}] {"text":"<Brendan> It's ridiculous..."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=29,Rival=2}] {"text":"<Brendan> Professor Cozmo..."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=36,Rival=2}] {"text":"<Brendan> They say that he was just up and kidnapped by some nuts calling themselves Team Something or Other..."}
+
+tellraw @s[scores={DialogueTrigger=79,TalkTime=45,GameVersion=1}] {"text":"<Cozmo's Wife> Those shady characters... They called themselves Team Magma."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=45,GameVersion=2}] {"text":"<Cozmo's Wife> Those shady characters... They called themselves Team Aqua."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=54}] {"text":"<Cozmo's Wife> It seems as though they plan to do something with the Meteorite that the professor has been researching."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=64}] {"text":"<Cozmo's Wife> The professor is just too gullible."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=71}] {"text":"<Cozmo's Wife> If you show the least bit of interest in his research, he would happily go with you anywhere, without question."}
+
+
+tellraw @s[scores={DialogueTrigger=79,TalkTime=81,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":", please... You've got to help me save him!"}]
+tellraw @s[scores={DialogueTrigger=79,TalkTime=89,Rival=1}] {"text":"<May> They can't be planning to do anything good with Professor Cozmo's research."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=97,Rival=1}] {"text":"<May> We have to do something!"}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=104,Rival=1}] {"text":"<May> I...I'm going to head after them right away!"}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=111,Rival=1}] {"text":"<May> Let's meet up at Meteor Falls!"}
+
+execute as @s[scores={DialogueTrigger=79,TalkTime=118,Rival=1}] run particle cloud -2263 68 -1386 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=79,TalkTime=118,Rival=1}] run tp @e[x=-2263,y=68,z=-1386,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+
+
+tellraw @s[scores={DialogueTrigger=79,TalkTime=81,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"... I know it's a lot to ask, but we've gotta help Cozmo!"}]
+tellraw @s[scores={DialogueTrigger=79,TalkTime=90,Rival=2}] {"text":"<Brendan> I can't just stand by here and watch them use his life's work for their own corrupt reasons!"}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=99,Rival=2}] {"text":"<Brendan> I'm going to head to Meteor Falls right away."}
+tellraw @s[scores={DialogueTrigger=79,TalkTime=106,Rival=2}] {"text":"<Brendan> Come catch up to me as soon as you can."}
 
 #tps out
+execute as @s[scores={DialogueTrigger=79,TalkTime=111,Rival=2}] run particle cloud -2263 68 -1386 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=79,TalkTime=111,Rival=2}] run tp @e[x=-2263,y=68,z=-1386,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=79,TalkTime=111,Rival=2}] run scoreboard players add @s TalkTime 10
 
-tag @s[scores={DialogueTrigger=79,TalkTime=100..}] add Dialogue79
+tag @s[scores={DialogueTrigger=79,TalkTime=118..}] add Dialogue79
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 80 - Meteor Falls Route 114 Side
 #Rival chasing team
 #https://youtu.be/MgkqxXCmrtI?t=27051
 
+execute as @s[scores={DialogueTrigger=80,TalkTime=1,Rival=1}] run summon pixelmon:npc_chatting -2473 94 -1111 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Rival", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-45.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=80,TalkTime=1,Rival=2}] run summon pixelmon:npc_chatting -2473 94 -1111 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Rival", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-45.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+
+execute as @s[scores={DialogueTrigger=80,TalkTime=5}] run gamemode spectator
+execute as @a[scores={DialogueTrigger=80,TalkTime=5}] run tp @s -2465.5 104.5 -1089.9 163 27
+
+
 #Cinematic shot?
+#execute as @a[scores={DialogueTrigger=80,TalkTime=6..21}] at @s run tp @s ~-0.025 ~-0.025 ~-0.05 163 27
+#execute as @a[scores={DialogueTrigger=80,TalkTime=6..21}] at @s run tp @s ~ ~ ~ 163 27
 
-tellraw @s[scores={DialogueTrigger=80,TalkTime=1}] {"text":"<May> You guys are— Where are you taking the professor?!"}
-tellraw @s[scores={DialogueTrigger=80,TalkTime=1}] {"text":"<May> H-hey! Wait up!"}
 
-tellraw @s[scores={DialogueTrigger=80,TalkTime=1}] {"text":"<Brendan> You guys are— Where are you taking the professor?!"}
-tellraw @s[scores={DialogueTrigger=80,TalkTime=1}] {"text":"<Brendan> H-hey! Stop right there!"}
+tellraw @s[scores={DialogueTrigger=80,TalkTime=7,Rival=1}] {"text":"<May> You guys are— Where are you taking the professor?!"}
+tellraw @s[scores={DialogueTrigger=80,TalkTime=14,Rival=1}] {"text":"<May> H-hey! Wait up!"}
+
+tellraw @s[scores={DialogueTrigger=80,TalkTime=7,Rival=2}] {"text":"<Brendan> You guys are— Where are you taking the professor?!"}
+tellraw @s[scores={DialogueTrigger=80,TalkTime=14,Rival=2}] {"text":"<Brendan> H-hey! Stop right there!"}
 
 #runs ahead
 
-tag @s[scores={DialogueTrigger=80,TalkTime=100..}] add Dialogue80
+execute as @s[scores={DialogueTrigger=80,TalkTime=22}] at @s run tp @e[distance=..40,nbt={Name:"Rival"}] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=80,TalkTime=22}] run gamemode adventure
+execute as @a[scores={DialogueTrigger=80,TalkTime=22}] run tp @s -2559 94 -1164 -18 7
+
+tag @s[scores={DialogueTrigger=80,TalkTime=22..}] add Dialogue80
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 81 - Meteor Falls
 #Team Encounter

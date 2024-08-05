@@ -291,6 +291,21 @@ execute as @a[x=-2194,y=68,z=-1443,distance=..3,tag=!Dialogue78] run scoreboard 
 execute as @a[x=-2200,y=68,z=-1431,distance=..6,tag=!Dialogue78] unless entity @e[x=-2194,y=68,z=-1443,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2194 68 -1443 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "scientist_f.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
 
+#Dialogue 79 - Fallarbor Town
+#Rival finding Professor Cozmo Gone
+execute as @a[x=-2225,y=89,z=-1389,distance=..10,tag=!Dialogue79] run scoreboard players set @s DialogueTrigger 79
+
+execute as @a[x=-2207,y=89,z=-1417,distance=..20,tag=!Dialogue79,scores={Rival=1}] unless entity @e[x=-2225,y=89,z=-1389,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2225 89 -1389 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [45.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+execute as @a[x=-2207,y=79,z=-1417,distance=..20,tag=!Dialogue79,scores={Rival=2}] unless entity @e[x=-2225,y=89,z=-1389,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2225 89 -1389 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [45.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+
+
+#Dialogue 80 - Meteor Falls Ext
+#Rival running ahead small cutscene
+execute as @a[x=-2560,y=94,z=-1174,distance=..20,tag=Dialogue79,tag=!Dialogue80] run scoreboard players set @s DialogueTrigger 80
+
+
+
 #Birch's Johto starters (beat the Pokemon League once)
 execute as @a[x=-2029,y=69,z=254,distance=..12,tag=!Dialogue171,scores={PokemonLeague=1..}] run scoreboard players set @s DialogueTrigger 171
 
