@@ -671,6 +671,9 @@ tp @a[x=-1561,y=69,z=-646,dx=6,dy=3,dz=1] -1558 48 -647
 execute as @a[x=-1559,y=48,z=-646,dx=3,dy=3] run function hoenn:tools/forceclick
 tp @a[x=-1559,y=48,z=-646,dx=3,dy=3] -1558 69 -644
 
+#Despawns rival in courtyard on any portal
+tp @e[type=pixelmon:npc_chatting,x=-1535,y=68,z=-573,distance=..3] 10000000 -50000 -10000000
+
 #North to Courtyard
 tp @a[x=-1540,y=69,z=-656,dx=12,dy=6] 2705 65 2745
 tp @a[x=2698,y=65,z=2746,dx=14,dy=6] -1534 69 -655
@@ -869,8 +872,10 @@ tp @a[x=-1743,y=67,z=1349,dx=3,dy=3] -2264 89 -1428
 tp @a[x=-2321,y=89,z=-1432,dx=6,dy=3] -2318 74 -1433
 tp @a[x=-2320,y=74,z=-1432,dx=3,dy=3] -2318 89 -1431
 
-#Observatory Home
+#Observatory Home (Prof Cozmo's)
 tp @a[x=-2266,y=89,z=-1379,dx=6,dy=3] -2262 68 -1380
+
+execute as @a[x=-2264,y=68,z=-1379,dx=3,dy=3,scores={DialogueTrigger=0},tag=Dialogue82] run tp @e[x=-2266,y=67,z=-1382,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 tp @a[x=-2264,y=68,z=-1379,dx=3,dy=3,scores={DialogueTrigger=0}] -2263 89 -1378
 
 #-------------------------------------------------------------------------

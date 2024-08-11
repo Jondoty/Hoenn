@@ -2885,229 +2885,328 @@ tag @s[scores={DialogueTrigger=80,TalkTime=22..}] add Dialogue80
 #Team Encounter
 #https://youtu.be/MgkqxXCmrtI?t=27516
 
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<May> Give it up, you bozos! Let the professor go!"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=1,Rival=1}] {"text":"<May> Give it up, you bozos! Let the professor go!"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=1,Rival=2}] {"text":"<Brendan> Hey! You jerks! Let Professor Cozmo go!"}
 
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Brendan> Hey! You jerks! Let Professor Cozmo go!"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=8,GameVersion=1}] {"text":"<Team Magma Admin> Hyuh?"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=15,GameVersion=1}] {"text":"<Team Magma Admin> What have we here? Why has this child suddenly appeared?"}
 
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Magma Admin> Hyuh?"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Magma Admin> What have we here? Why has this child suddenly appeared?"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=8,GameVersion=2}] {"text":"<Team Aqua Admin> Hahn?"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=15,GameVersion=2}] {"text":"<Team Aqua Admin> What's this? Who is this spoiled brat?"}
 
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Aqua Admin> Hahn?"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Aqua Admin> What's this? Who is this spoiled brat?"}
+execute as @s[scores={DialogueTrigger=81,TalkTime=22,Rival=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=81,TalkTime=23,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"! You came!"}]
+tellraw @s[scores={DialogueTrigger=81,TalkTime=30,Rival=1}] {"text":"<May> We've got to save Professor Cozmo from these people!"}
+#tellraw @s[scores={DialogueTrigger=81,TalkTime=37,Rival=1}] ["",{"text":"<May> There are two of them... And two of us... "},{"selector":"@s"},{"text":", please! Battle together with me!"}]
 
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"! You came!"}]
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<May> We've got to save Professor Cozmo from these people!"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] ["",{"text":"<May> There are two of them... And two of us... "},{"selector":"@s"},{"text":", please! Battle together with me!"}]
-
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"! You finally made it, huh!"}]
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Brendan> We've gotta protect the professor from these lunatics or else!"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] ["",{"text":"<Brendan> There's two of them... And two of us, huh? Sorry to ask, "},{"selector":"@s"},{"text":", but... Battle alongside me!"}]
+execute as @s[scores={DialogueTrigger=81,TalkTime=22,Rival=2}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=81,TalkTime=23,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"! You finally made it, huh!"}]
+tellraw @s[scores={DialogueTrigger=81,TalkTime=30,Rival=2}] {"text":"<Brendan> We've gotta protect the professor from these lunatics or else!"}
+#tellraw @s[scores={DialogueTrigger=81,TalkTime=37,Rival=2}] ["",{"text":"<Brendan> There's two of them... And two of us, huh? Sorry to ask, "},{"selector":"@s"},{"text":", but... Battle alongside me!"}]
 
 
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Magma Admin> Ahyahyahya! Isn't this amusing?!"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Magma Admin> Is it really your intention to oppose me, a Team Magma Admin, just the two of you?"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Magma Admin> Mmm... Very well then! I'll show you how terrifying adults can be!"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Magma Admin> Ahyahyahya! I'm going to give you some very thorough coaching!"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=37,GameVersion=1}] {"text":"<Team Magma Admin> Ahyahyahya! Isn't this amusing?!"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=44,GameVersion=1}] {"text":"<Team Magma Admin> Is it really your intention to oppose me, a Team Magma Admin, just the two of you?"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=53,GameVersion=1}] {"text":"<Team Magma Admin> Mmm... Very well then! I'll show you how terrifying adults can be!"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=60,GameVersion=1}] {"text":"<Team Magma Admin> Ahyahyahya! I'm going to give you some very thorough coaching!"}
 
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Aqua Admin> Ah! So even I, Team Aqua Admin Shelly, have been made a fool."}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Aqua Admin> ...Fine! Brats who don't know how to watch their mouths must be punished!"}
-tellraw @s[scores={DialogueTrigger=81,TalkTime=1}] {"text":"<Team Aqua Admin> I won't forgive you if you cower in fear either! Wahahaha!"}
-
+tellraw @s[scores={DialogueTrigger=81,TalkTime=37,GameVersion=2}] {"text":"<Team Aqua Admin> Ah! So even I, Team Aqua Admin Shelly, have been made a fool."}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=46,GameVersion=2}] {"text":"<Team Aqua Admin> ...Fine! Brats who don't know how to watch their mouths must be punished!"}
+tellraw @s[scores={DialogueTrigger=81,TalkTime=55,GameVersion=2}] {"text":"<Team Aqua Admin> I won't forgive you if you cower in fear either! Wahahaha!"}
 
 #double poke battle
+#Might just make the admin a double battle and have the player do it
 
-tag @s[scores={DialogueTrigger=81,TalkTime=100..}] add Dialogue81
+tag @s[scores={DialogueTrigger=81,TalkTime=60..}] add Dialogue81
 #-----------------------------
 #Dialogue 82 - Meteor Falls
 #Team Encounter post-battle
 #https://youtu.be/MgkqxXCmrtI?t=27710
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> Hyuhn?! An unexpected development?!"}
+execute as @s[scores={DialogueTrigger=82}] run clear @s minecraft:nether_brick
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> Ahhh?! Did I go too easy on you?!"}
+#Magma Line
+tellraw @s[scores={DialogueTrigger=82,TalkTime=3,GameVersion=1}] {"text":"<Team Magma Admin> Hyuhn?! An unexpected development?!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<May> We did it, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=10,GameVersion=1,Rival=1}] ["",{"text":"<May> We did it, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=10,GameVersion=1,Rival=2}] {"text":"<Brendan> All right! We beat 'em!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> All right! We beat 'em!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=17,GameVersion=1}] {"text":"<Team Magma Admin> You children! I would like you to stay out of my way!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=24,GameVersion=1}] {"text":"<Team Magma Admin> Team Magma's scientific prowess, Mt. Chimney's energy..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=32,GameVersion=1}] {"text":"<Team Magma Admin> And the hidden power of the Meteorite!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=39,GameVersion=1}] {"text":"<Team Magma Admin> If we combine them all, a super-ancient Pokémon..."}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> You children! I would like you to stay out of my way!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> Team Magma's scientific prowess, Mt. Chimney's energy..."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> And the hidden power of the Meteorite!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> If we combine them all, a super-ancient Pokémon..."}
+#stops music
+execute as @s[scores={DialogueTrigger=82,TalkTime=44,GameVersion=1},tag=!MusicDisabled] run stopsound @s record
+execute as @s[scores={DialogueTrigger=82,TalkTime=44,GameVersion=1},tag=!MusicDisabled] run scoreboard players set @s MusicCooldown 18
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> If the tremendous energy of Mt. Chimney and the Meteorite are combined, we of Team Aqua can take a giant step toward the world that we dream of!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> We won't let ignorant little brats get in our way!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=50,GameVersion=1}] {"text":"<...> Bwahahahahahaha! You lost to this scamp?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=57,GameVersion=1}] {"text":"<...> What a pathetic bunch! You lazy stooges will be the downfall of Team Magma!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<...> Bwahahahahahaha! You lost to this scamp?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<...> What a pathetic bunch! You lazy stooges will be the downfall of Team Magma!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=65,GameVersion=1,Rival=1}] {"text":"<May> Wh-who's there?!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=65,GameVersion=1,Rival=2}] {"text":"<Brendan> Who's that?!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<...> Hmph... Do these mere children give you so much trouble?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<...> You—an Admin of Team Aqua..."}
+#Opposite team leader makes an appearance
+#Plays boss music
+execute as @s[scores={DialogueTrigger=82,TalkTime=62,GameVersion=1}] run particle cloud 2285 110 -2501 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=62,GameVersion=1}] run particle cloud 2282 110 -2505 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=62,GameVersion=1}] run particle cloud 2282 110 -2497 1 1 1 0.15 300
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Wh-who's there?!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> Who's that?!"}
+execute as @s[scores={DialogueTrigger=82,TalkTime=62,GameVersion=1}] unless entity @e[x=2285,y=109,z=-2501,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2285 110 -2501 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Archie", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.7377799f, -40.0f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [2292.5d, 111.0d, -2502.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> Hyahya! Even Team Aqua is making an appearance!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> The odds do not appear to be in my favor..."}
+execute as @s[scores={DialogueTrigger=82,TalkTime=62,GameVersion=1}] unless entity @e[x=2282,y=109,z=-2497,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2282 110 -2497 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Aqua Grunt", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.7377799f, -40.0f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [2292.5d, 111.0d, -2502.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquagruntmale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=82,TalkTime=62,GameVersion=1}] unless entity @e[x=2282,y=109,z=-2505,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2282 110 -2505 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Aqua Grunt", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.7377799f, -40.0f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [2292.5d, 111.0d, -2502.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquagruntmale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> Hmph! Even Team Magma showed their faces, huh?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> There's nothing to be done about it..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=64,GameVersion=1}] {"text":"<Team Magma Admin> Hyahya! Even Team Aqua is making an appearance!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=72,GameVersion=1}] {"text":"<Team Magma Admin> The odds do not appear to be in my favor..."}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> You there! I'll have the Meteorite now!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Grunt> Yes, sir!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=80,GameVersion=1}] {"text":"<Team Magma Admin> You there! I'll have the Meteorite now!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=87,GameVersion=1}] {"text":"<Team Magma Grunt> Yes, sir!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> Hey! Grab that Meteorite!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Grunt> Aye aye!"}
+#Grunt looks over to the professor
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> Wha-wha-wha-what?!"}
+execute as @s[scores={DialogueTrigger=82,TalkTime=92,GameVersion=1}] as @e[x=2294,y=110,z=-2499,distance=..2,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[156f,0.0f]}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=94,GameVersion=1}] {"text":"<Professor Cosmo> Wha-wha-wha-what?!"}
+execute as @s[scores={DialogueTrigger=82,TalkTime=94,GameVersion=1}] run scoreboard players add @s TalkTime 10
+tellraw @s[scores={DialogueTrigger=82,TalkTime=111,GameVersion=1}] {"text":"<Team Magma Grunt> Come now! Hand over the Meteorite!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=118,GameVersion=1}] {"text":"<Professor Cosmo> Augh?!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Grunt> Come now! Hand over the Meteorite!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=125,GameVersion=1,Rival=1}] {"text":"<May> Professor!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=125,GameVersion=1,Rival=2}] {"text":"<Brendan> Professor!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Grunt> Come on! Hand over the Meteorite!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=132,GameVersion=1}] {"text":"<Team Magma Admin> Ahyahya! The Meteorite is in the palm of my hand!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=140,GameVersion=1}] {"text":"<Team Magma Admin> Well, well, well... Adios to each and every one of you!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=148,GameVersion=1}] {"text":"<Team Magma Admin> At long last I'm off to Mt. Chimney!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> Augh?!"}
+#Primary team tps out
+execute as @s[scores={DialogueTrigger=82,TalkTime=155,GameVersion=1}] run particle cloud 2297 110 -2503 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=155,GameVersion=1}] run particle cloud 2294 110 -2499 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=155,GameVersion=1}] run tp @e[type=pixelmon:npc_trainer,x=2297,y=110,z=-2503,distance=..2] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=82,TalkTime=155,GameVersion=1}] run tp @e[type=pixelmon:npc_chatting,x=2294,y=110,z=-2499,distance=..2] 10000000 -50000 -10000000
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Professor!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> Professor!"}
-
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> Ahyahya! The Meteorite is in the palm of my hand!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> Well, well, well... Adios to each and every one of you!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Admin> At long last I'm off to Mt. Chimney!"}
-
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> Ahahaha! Later days, brats and Team Magma!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Admin> All right, time to rush to Mt. Chimney!"}
-
-
-#Main team tps out
-
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<...> Hmph..."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<...> Tch!"}
-
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Aqua Grunt> Archie! We will go after those monsters!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Team Magma Grunt> Maxie... We must give chase to Team Aqua or else..."}
-
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> That's right! We're not letting them get away!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> Hmm..."}
-
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> Oh? What's this?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> You've got quite a fierce expression on you for such a wee little thing."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> The name's Archie. I'm the leader of Team Aqua, a group that's working to return the world to a pristine state."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> One that'll be perfect for Pokémon's survival."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> Looks like you were getting into it with Team Magma there, 'less my eyes deceive me."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> It's not like I'm in a position to argue if that's what you're up to, hey?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> But I'll tell you this much. So remember."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> If you next get in the way of Team Aqua, you won't get off so lightly."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> So steer clear and keep your nose clean, scamp!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Archie> I imagine I'll be seeing you! Waha! Bwahahahahah!"}
-
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> ... My name is Maxie."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> I lead an organization known as Team Magma."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> We work for the future happiness of all mankind."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> From what I have seen here, it appears that you are working against our rivals in Team Aqua."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> ...Fine. Amuse yourself with those Team Aqua fools."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> But be careful you do not impede our goals."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Maxie> Be you child or grown, oppose us in the slightest, and I, the great Maxie, will show no mercy!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=160,GameVersion=1}] {"text":"<...> Hmph..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=166,GameVersion=1}] {"text":"<Team Aqua Grunt> Archie! We will go after those monsters!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=173,GameVersion=1}] {"text":"<Archie> That's right! We're not letting them get away!"}
+execute at @s[scores={DialogueTrigger=82,TalkTime=180,GameVersion=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=180,GameVersion=1}] {"text":"<Archie> Oh? What's this?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=187,GameVersion=1}] {"text":"<Archie> You've got quite a fierce expression on you for such a wee little thing."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=195,GameVersion=1}] {"text":"<Archie> The name's Archie. I'm the leader of Team Aqua, a group that's working to return the world to a pristine state."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=205,GameVersion=1}] {"text":"<Archie> One that'll be perfect for Pokémon's survival."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=212,GameVersion=1}] {"text":"<Archie> Looks like you were getting into it with Team Magma there, 'less my eyes deceive me."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=220,GameVersion=1}] {"text":"<Archie> It's not like I'm in a position to argue if that's what you're up to, hey?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=228,GameVersion=1}] {"text":"<Archie> But I'll tell you this much. So remember."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=235,GameVersion=1}] {"text":"<Archie> If you next get in the way of Team Aqua, you won't get off so lightly."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=243,GameVersion=1}] {"text":"<Archie> So steer clear and keep your nose clean, scamp!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=250,GameVersion=1}] {"text":"<Archie> I imagine I'll be seeing you! Waha! Bwahahahahah!"}
 
 #Secondary leader and grunts tp out
+execute as @s[scores={DialogueTrigger=82,TalkTime=257,GameVersion=1}] run particle cloud 2285 110 -2501 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=257,GameVersion=1}] run particle cloud 2282 110 -2505 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=257,GameVersion=1}] run particle cloud 2282 110 -2497 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=257,GameVersion=1}] run tp @e[x=2285,y=109,z=-2501,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=82,TalkTime=257,GameVersion=1}] run tp @e[x=2282,y=109,z=-2497,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=82,TalkTime=257,GameVersion=1}] run tp @e[x=2282,y=109,z=-2505,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Oh bother! I have no idea what's going on anymore with all these people!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Never mind those nuts! Professor, you doing OK?!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> Oh man... What's with those lunatics?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> Forget those guys! Professor! Hey! Professor Cozmo! Hang in there, OK?"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> B-but...they... I...only..."}
+#Aqua Line
+tellraw @s[scores={DialogueTrigger=82,TalkTime=3,GameVersion=2}] {"text":"<Team Aqua Admin> Ahhh?! Did I go too easy on you?!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Looks like he's still pretty out of it..."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Never mind what's happened! I've got to get the professor back to his lab in Fallarbor!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> OK, Professor... Easy now..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=10,GameVersion=2,Rival=1}] ["",{"text":"<May> We did it, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=10,GameVersion=2,Rival=2}] {"text":"<Brendan> All right! We beat 'em!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> I think he's still pretty out of it..."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> Never mind what's happened! I've got to get the professor back to his lab in Fallarbor!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> OK, Professor... Easy now..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=17,GameVersion=2}] {"text":"<Team Aqua Admin> If the tremendous energy of Mt. Chimney and the Meteorite are combined,"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=25,GameVersion=2}] {"text":"<Team Aqua Admin> we of Team Aqua can take a giant step toward the world that we dream of!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=33,GameVersion=2}] {"text":"<Team Aqua Admin> We won't let ignorant little brats get in our way!"}
+
+#stops music
+execute as @s[scores={DialogueTrigger=82,TalkTime=40,GameVersion=2},tag=!MusicDisabled] run stopsound @s record
+execute as @s[scores={DialogueTrigger=82,TalkTime=40,GameVersion=2},tag=!MusicDisabled] run scoreboard players set @s MusicCooldown 18
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=43,GameVersion=2}] {"text":"<...> Hmph... Do these mere children give you so much trouble?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=52,GameVersion=2}] {"text":"<...> You—an Admin of Team Aqua..."}
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=59,GameVersion=2}] {"text":"<May> Wh-who's there?!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=59,GameVersion=2}] {"text":"<Brendan> Who's that?!"}
+
+#Opposite team leader makes an appearance
+#Plays boss music
+
+execute as @s[scores={DialogueTrigger=82,TalkTime=66,GameVersion=2}] run particle cloud 2285 110 -2501 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=66,GameVersion=2}] run particle cloud 2282 110 -2505 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=66,GameVersion=2}] run particle cloud 2282 110 -2497 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=66,GameVersion=2}] unless entity @e[x=2285,y=109,z=-2501,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2285 110 -2501 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Archie", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.7377799f, -40.0f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [2292.5d, 111.0d, -2502.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+execute as @s[scores={DialogueTrigger=82,TalkTime=66,GameVersion=2}] unless entity @e[x=2282,y=109,z=-2497,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2282 110 -2497 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Magma Grunt", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.7377799f, -40.0f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [2292.5d, 111.0d, -2502.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmagruntmale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=82,TalkTime=66,GameVersion=2}] unless entity @e[x=2282,y=109,z=-2505,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 2282 110 -2505 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Magma Grunt", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [-90.7377799f, -40.0f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [2292.5d, 111.0d, -2502.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmagruntmale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=70,GameVersion=2}] {"text":"<Team Aqua Admin> Hmph! Even Team Magma showed their faces, huh?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=77,GameVersion=2}] {"text":"<Team Aqua Admin> There's nothing to be done about it..."}
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=85,GameVersion=2}] {"text":"<Team Aqua Admin> Hey! Grab that Meteorite!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=92,GameVersion=2}] {"text":"<Team Aqua Grunt> Aye aye!"}
+
+#Grunt looks over to the professor
+execute as @s[scores={DialogueTrigger=82,TalkTime=95,GameVersion=1}] as @e[x=2294,y=110,z=-2499,distance=..2,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[156f,0.0f]}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=99,GameVersion=2}] {"text":"<Professor Cosmo> Wha-wha-wha-what?!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=106,GameVersion=2}] {"text":"<Team Aqua Grunt> Come on! Hand over the Meteorite!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=113,GameVersion=2}] {"text":"<Professor Cosmo> Augh?!"}
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=120,GameVersion=2,Rival=1}] {"text":"<May> Professor!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=120,GameVersion=2,Rival=2}] {"text":"<Brendan> Professor!"}
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=127,GameVersion=2}] {"text":"<Team Aqua Admin> Ahahaha! Later days, brats and Team Magma!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=134,GameVersion=2}] {"text":"<Team Aqua Admin> All right, time to rush to Mt. Chimney!"}
+
+#Primary team tps out
+execute as @s[scores={DialogueTrigger=82,TalkTime=141,GameVersion=2}] run particle cloud 2297 110 -2503 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=141,GameVersion=2}] run particle cloud 2294 110 -2499 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=141,GameVersion=2}] run tp @e[type=pixelmon:npc_trainer,x=2297,y=110,z=-2503,distance=..2] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=82,TalkTime=141,GameVersion=2}] run tp @e[type=pixelmon:npc_chatting,x=2294,y=110,z=-2499,distance=..2] 10000000 -50000 -10000000
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=144,GameVersion=2}] {"text":"<...> Tch!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=151,GameVersion=2}] {"text":"<Team Magma Grunt> Maxie... We must give chase to Team Aqua or else..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=159,GameVersion=2}] {"text":"<Maxie> Hmm..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=164,GameVersion=2}] {"text":"<Maxie> ... My name is Maxie."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=171,GameVersion=2}] {"text":"<Maxie> I lead an organization known as Team Magma."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=178,GameVersion=2}] {"text":"<Maxie> We work for the future happiness of all mankind."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=185,GameVersion=2}] {"text":"<Maxie> From what I have seen here, it appears that you are working against our rivals in Team Aqua."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=194,GameVersion=2}] {"text":"<Maxie> ...Fine. Amuse yourself with those Team Aqua fools."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=201,GameVersion=2}] {"text":"<Maxie> But be careful you do not impede our goals."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=208,GameVersion=2}] {"text":"<Maxie> Be you child or grown, oppose us in the slightest, and I, the great Maxie, will show no mercy!"}
+
+
+#Secondary leader and grunts tp out
+execute as @s[scores={DialogueTrigger=82,TalkTime=217,GameVersion=2}] run particle cloud 2285 110 -2501 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=217,GameVersion=2}] run particle cloud 2282 110 -2505 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=217,GameVersion=2}] run particle cloud 2282 110 -2497 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=82,TalkTime=217,GameVersion=2}] run tp @e[x=2285,y=109,z=-2501,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=82,TalkTime=217,GameVersion=2}] run tp @e[x=2282,y=109,z=-2497,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=82,TalkTime=217,GameVersion=2}] run tp @e[x=2282,y=109,z=-2505,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+
+execute as @s[scores={DialogueTrigger=82,TalkTime=218,GameVersion=2}] run scoreboard players set @s TalkTime 261
+
+#Back to a singular line
+
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=262,Rival=1}] {"text":"<May> Oh bother! I have no idea what's going on anymore with all these people!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=270,Rival=1}] {"text":"<May> Never mind those nuts! Professor, you doing OK?!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=278,Rival=1}] {"text":"<Professor Cosmo> B-but...they... I...only..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=286,Rival=1}] {"text":"<May> Looks like he's still pretty out of it..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=293,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=300,Rival=1}] {"text":"<May> Never mind what's happened! I've got to get the professor back to his lab in Fallarbor!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=309,Rival=1}] {"text":"<May> OK, Professor... Easy now..."}
+
+
+tellraw @s[scores={DialogueTrigger=82,TalkTime=262,Rival=2}] {"text":"<Brendan> Oh man... What's with those lunatics?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=269,Rival=2}] {"text":"<Brendan> Forget those guys! Professor! Hey! Professor Cozmo! Hang in there, OK?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=278,Rival=2}] {"text":"<Professor Cosmo> B-but...they... I...only..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=285,Rival=2}] {"text":"<Brendan> I think he's still pretty out of it..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=292,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=299,Rival=2}] {"text":"<Brendan> Never mind what's happened! I've got to get the professor back to his lab in Fallarbor!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=309,Rival=2}] {"text":"<Brendan> OK, Professor... Easy now..."}
 
 #tps everyone to Cosmos's house
+execute as @s[scores={DialogueTrigger=82,TalkTime=316}] run effect give @s minecraft:blindness 5 1 true
+execute as @s[scores={DialogueTrigger=82,TalkTime=317}] run tp @e[x=2292,y=109,z=-2503,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=82,TalkTime=317}] run tp @e[x=2304,y=109,z=-2501,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Cosmo's Wife> Ahhh! Professor! Thank the stars above! Professor, you're back!"}
+execute as @s[scores={DialogueTrigger=82,TalkTime=318}] run tp @s -2265.5 68 -1386.5 -36 7
+execute as @s[scores={DialogueTrigger=82,TalkTime=318}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=82,TalkTime=318}] run scoreboard players set @s MusicTitles 11
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> Hah...haha... Thanks to these children, I have somehow returned."}
+execute as @s[scores={DialogueTrigger=82,TalkTime=319}] unless entity @e[x=-2262,y=67,z=-1382,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2262 68 -1382 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Cozmo", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.7377799f, -40.0f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [2292.5d, 111.0d, -2502.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "scientist_m.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Those nuts back there... What do you think they're hoping to do with the professor's Meteorite?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> From the look of them, they kind of seem like bad guys, but..."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> We've both got to be careful."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<May> Though I'm not worried a bit if it's you and your team, "},{"selector":"@s"},{"text":"!"}]
+execute as @s[scores={DialogueTrigger=82,TalkTime=320,Rival=1}] unless entity @e[x=-2266,y=67,z=-1382,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2266 68 -1382 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [45.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=82,TalkTime=320,Rival=2}] unless entity @e[x=-2266,y=67,z=-1382,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -2266 68 -1382 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [45.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> Those crazy jerks... What do you think they wanted with the professor's Meteorite anyway?"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> I've gotta say, they sure didn't look like the good guys...but..."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> I guess we'd both better be careful from here on out."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<Brendan> Not that I'm really worried about you, "},{"selector":"@s"},{"text":". You and your team'd be fine for sure."}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=324}] {"text":"<Cosmo's Wife> Ahhh! Professor! Thank the stars above! Professor, you're back!"}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> But I need to thank you, as well. You truly saved me from disaster."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Professor Cosmo> I hope you'll take this TM as some small form of repayment."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=333}] {"text":"<Professor Cosmo> Hah...haha... Thanks to these children, I have somehow returned."}
 
-execute as @s[scores={DialogueTrigger=82,TalkTime=1}] run give @s pixelmon:tm_gen6{tm:23s}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM23 Smack Down","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=341,Rival=1}] {"text":"<May> Those nuts back there... What do you think they're hoping to do with the professor's Meteorite?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=351,Rival=1}] {"text":"<May> From the look of them, they kind of seem like bad guys, but..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=359,Rival=1}] {"text":"<May> We've both got to be careful."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=366,Rival=1}] ["",{"text":"<May> Though I'm not worried a bit if it's you and your team, "},{"selector":"@s"},{"text":"!"}]
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> Wow! Thanks, Professor!"}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<May> We-e-ell... What're you gonna do next, "},{"selector":"@s"},{"text":"?"}]
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> I'm thinking of checking out the next Gym on my list."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<May> It's the one in Mauville City."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<May> Why don't you come with me, "},{"selector":"@s"},{"text":"? To Mauville!"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=341,Rival=2}] {"text":"<Brendan> Those crazy jerks... What do you think they wanted with the professor's Meteorite anyway?"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=351,Rival=2}] {"text":"<Brendan> I've gotta say, they sure didn't look like the good guys...but..."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=360,Rival=2}] {"text":"<Brendan> I guess we'd both better be careful from here on out."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=367,Rival=2}] ["",{"text":"<Brendan> Not that I'm really worried about you, "},{"selector":"@s"},{"text":". You and your team'd be fine for sure."}]
 
-execute as @s[scores={DialogueTrigger=82,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 19"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 20"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=377}] {"text":"<Professor Cosmo> But I need to thank you, as well. You truly saved me from disaster."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=385}] {"text":"<Professor Cosmo> I hope you'll take this TM as some small form of repayment."}
 
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> Thank you, Professor."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<Brendan> Now that that's over with... What're you planning to do next, "},{"selector":"@s"},{"text":"?"}]
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> I'm thinking of going for my next Gym Badge."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] {"text":"<Brendan> The one from Mauville City."}
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"<Brendan> Wanna make the trip together, "},{"selector":"@s"},{"text":"? To Mauville, that is."}]
+execute as @s[scores={DialogueTrigger=82,TalkTime=394}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=82,TalkTime=394}] run give @s pixelmon:tm_gen6{tm:23s}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=394}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM23 Smack Down","italic":true,"color":"gray"}]
 
-execute as @s[scores={DialogueTrigger=82,TalkTime=1}] run scoreboard players enable @s TriggerCommand
-tellraw @s[scores={DialogueTrigger=82,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 19"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 20"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=402,Rival=1}] {"text":"<May> Wow! Thanks, Professor!"}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=409,Rival=1}] ["",{"text":"<May> We-e-ell... What're you gonna do next, "},{"selector":"@s"},{"text":"?"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=417,Rival=1}] {"text":"<May> I'm thinking of checking out the next Gym on my list."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=425,Rival=1}] {"text":"<May> It's the one in Mauville City."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=432,Rival=1}] ["",{"text":"<May> Why don't you come with me, "},{"selector":"@s"},{"text":"? To Mauville!"}]
 
-tag @s[scores={DialogueTrigger=82,TalkTime=100..}] add Dialogue82
+tellraw @s[scores={DialogueTrigger=82,TalkTime=402,Rival=2}] {"text":"<Brendan> Thank you, Professor."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=409,Rival=2}] ["",{"text":"<Brendan> Now that that's over with... What're you planning to do next, "},{"selector":"@s"},{"text":"?"}]
+tellraw @s[scores={DialogueTrigger=82,TalkTime=417,Rival=2}] {"text":"<Brendan> I'm thinking of going for my next Gym Badge."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=425,Rival=2}] {"text":"<Brendan> The one from Mauville City."}
+tellraw @s[scores={DialogueTrigger=82,TalkTime=432,Rival=2}] ["",{"text":"<Brendan> Wanna make the trip together, "},{"selector":"@s"},{"text":"? To Mauville, that is."}]
+
+execute as @s[scores={DialogueTrigger=82,TalkTime=432}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=82,TalkTime=432}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 19"}},{"text":"] \u0020["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 20"}},{"text":"]"}]
+
+tag @s[scores={DialogueTrigger=82,TalkTime=432..}] add Dialogue82
 #--------------------------------------------------------
 #Dialogue 83 - if player chooses to go with your rival
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<May> Let's hit the road!"}
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<Brendan> Let's go then."}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=1,Rival=1}] {"text":"<May> Let's hit the road!"}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=1,Rival=2}] {"text":"<Brendan> Let's go then."}
 
+#blinds player, tps out rival
+execute as @s[scores={DialogueTrigger=83,TalkTime=8}] run effect give @s minecraft:blindness 5 1 true
 
+execute as @s[scores={DialogueTrigger=83,TalkTime=9}] run tp @e[x=-2266,y=67,z=-1382,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
 #tps rival and player to Mauville City
 #https://youtu.be/MgkqxXCmrtI?t=27924
 
-#Mauville City
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<May> All right, made it to Mauville City."}
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<May> Up ahead here is Mt. Chimney, huh?"}
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<May> That's the place those nut jobs at Meteor Falls were talking about going to."}
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] ["",{"text":"<May> Be careful, "},{"selector":"@s"},{"text":". It might get dangerous around here."}]
+execute as @s[scores={DialogueTrigger=83,TalkTime=10}] run tp @s -1527.5 69 -572.5 170 -12
+execute as @s[scores={DialogueTrigger=83,TalkTime=11}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=83,TalkTime=11}] run scoreboard players set @s MusicTitles 8
+execute as @s[scores={DialogueTrigger=83,TalkTime=11,Rival=1}] unless entity @e[x=-1535,y=69,z=-573,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1535 69 -573 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
+execute as @s[scores={DialogueTrigger=83,TalkTime=11,Rival=2}] unless entity @e[x=-1535,y=69,z=-573,distance=..3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1535 69 -573 {HurtByTimestamp: 0, chatNum: 0, Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, TextureIndex: 4, TrainerIndex: "madame", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [180.0f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, Profession: -1s,Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 2s}
 
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<Brendan> We've arrived in Mauville City!"}
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<Brendan> Up ahead here is Mt. Chimney, huh?"}
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] {"text":"<Brendan> That's the place those nut jobs at Meteor Falls were talking about going to."}
-tellraw @s[scores={DialogueTrigger=83,TalkTime=1}] ["",{"text":"<Brendan> Be careful, "},{"selector":"@s"},{"text":". It might get dangerous around here."}]
+#Mauville City
+tellraw @s[scores={DialogueTrigger=83,TalkTime=13,Rival=1}] {"text":"<May> All right, made it to Mauville City."}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=20,Rival=1}] {"text":"<May> Up ahead here is Mt. Chimney, huh?"}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=27,Rival=1}] {"text":"<May> That's the place those nut jobs at Meteor Falls were talking about going to."}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=36,Rival=1}] ["",{"text":"<May> Be careful, "},{"selector":"@s"},{"text":". It might get dangerous around here."}]
+
+tellraw @s[scores={DialogueTrigger=83,TalkTime=13,Rival=2}] {"text":"<Brendan> We've arrived in Mauville City!"}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=20,Rival=2}] {"text":"<Brendan> Up ahead here is Mt. Chimney, huh?"}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=27,Rival=2}] {"text":"<Brendan> That's the place those nut jobs at Meteor Falls were talking about going to."}
+tellraw @s[scores={DialogueTrigger=83,TalkTime=36,Rival=2}] ["",{"text":"<Brendan> Be careful, "},{"selector":"@s"},{"text":". It might get dangerous around here."}]
 
 #tps out, could do it on a portal block execution since the rival stays in place
+#execute as @s run tp @e[type=pixelmon:npc_chatting,x=-1535,y=68,z=-573,distance=..3] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=83,TalkTime=100..}] add Dialogue83
+tag @s[scores={DialogueTrigger=83,TalkTime=36..}] add Dialogue83
 #--------------------------------------------
 #Dialogue 84 - if player chooses to go alone
 #Could activate if the player walks a specific distance away too
 
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<May> Ah, right. Well, I will see you there!"}
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<May> Mauville's right in the middle of Hoenn, so you can go to all sorts of places from there."}
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<May> Even Mt. Chimney, the place those guys were talking about at Meteor Falls, is a pretty short trip from Mauville."}
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<May> See ya!"}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=1,Rival=1}] {"text":"<May> Ah, right. Well, I will see you there!"}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=8,Rival=1}] {"text":"<May> Mauville's right in the middle of Hoenn, so you can go to all sorts of places from there."}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=17,Rival=1}] {"text":"<May> Even Mt. Chimney, the place those guys were talking about at Meteor Falls, is a pretty short trip from Mauville."}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=27,Rival=1}] {"text":"<May> See ya!"}
 
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<Brendan> Oh. Right. Well, I will see you there!"}
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<Brendan> Mauville's right in the middle of Hoenn, so you can go to all sorts of places from there."}
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<Brendan> Even Mt. Chimney, the place those guys were talking about at Meteor Falls, in fact."}
-tellraw @s[scores={DialogueTrigger=84,TalkTime=1}] {"text":"<Brendan> It's just a short trip from Mauville."}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=1,Rival=2}] {"text":"<Brendan> Oh. Right. Well, I will see you there!"}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=8,Rival=2}] {"text":"<Brendan> Mauville's right in the middle of Hoenn, so you can go to all sorts of places from there."}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=17,Rival=2}] {"text":"<Brendan> Even Mt. Chimney, the place those guys were talking about at Meteor Falls, in fact."}
+tellraw @s[scores={DialogueTrigger=84,TalkTime=26,Rival=2}] {"text":"<Brendan> It's just a short trip from Mauville."}
 
-tag @s[scores={DialogueTrigger=84,TalkTime=100..}] add Dialogue84
+tag @s[scores={DialogueTrigger=84,TalkTime=26..}] add Dialogue84
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 85 - Mt. Chimney
 #Team Admin pre-battle

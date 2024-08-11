@@ -134,10 +134,10 @@ execute as @s[scores={TriggerCommand=18}] run scoreboard players set @s TriggerC
 #Dialogue 82 & 83 Rival fast travel option
 
 #No
-execute as @s[scores={TriggerCommand=19}] run
+execute as @s[scores={TriggerCommand=19}] run scoreboard players set @s DialogueTrigger 83
 
 #Yes
-execute as @s[scores={TriggerCommand=20}] run
+execute as @s[scores={TriggerCommand=20}] run scoreboard players set @s DialogueTrigger 84
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 91 & 93 Rival fast travel option

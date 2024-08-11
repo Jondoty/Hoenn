@@ -24,6 +24,10 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=10,TalkTime=15
 playsound teamleader record @s[scores={MusicCooldown=0,DialogueTrigger=44,TalkTime=..268}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=44,TalkTime=..268}] MusicCooldown 99
 
+#
+playsound teamleader record @s[scores={MusicCooldown=0,DialogueTrigger=82,TalkTime=60..217}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=82,TalkTime=55..217}] MusicCooldown 99
+
 #Birch's other starter Pokemon dialogues
 playsound helpme record @s[scores={MusicCooldown=0,DialogueTrigger=171}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=171}] MusicCooldown 28
