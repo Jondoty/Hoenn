@@ -1640,7 +1640,7 @@ tellraw @s[scores={DialogueTrigger=43,TalkTime=19,GameVersion=1}] ["",{"text":"<
 tellraw @s[scores={DialogueTrigger=43,TalkTime=26,GameVersion=1}] ["",{"text":"<"},{"text":"Team Magma Grunt","color":"gray"},{"text":"> I suggest you observe while a future Ace Grunt of Team Magma makes short work of this infant."}]
 
 execute as @s[scores={DialogueTrigger=43,TalkTime=32,GameVersion=1}] run tp @e[type=pixelmon:npc_chatting,x=-1382,y=15,z=270,distance=..2] 10000000 -50000 -10000000
-execute as @s[scores={DialogueTrigger=43,TalkTime=32,GameVersion=1}] unless entity @e[x=-1382,y=15,z=270,dy=3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1382 15 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 36, TeamSelectTime: 0, RaiseToCap: 0b, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "MagmaGrunt2", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 18s, IVAttack: 18b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Ember", MovePP: 25b}, {MoveID: "Focus Energy", MovePP: 30b}, {MoveID: "Magnitude", MovePP: 30b}, {MoveID: "Flame Burst", MovePP: 15b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 26s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 322, palette: "none", StatsSpecialDefense: 21s, Nature: 19b, Ability: "Oblivious", StatsHP: 44s, IVDefense: 15b, Health: 44, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 15s, EVSpecialAttack: 0s, StatsAttack: 24s, IVSpeed: 19b, Level: 14, IVSpAtt: 8b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 20s, IVAttack: 21b, Growth: 5b, PHiddenAbility: 0b, Moveset: [{MoveID: "Absorb", MovePP: 25b}, {MoveID: "Supersonic", MovePP: 20b}, {MoveID: "Astonish", MovePP: 15b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 17s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 41, palette: "none", StatsSpecialDefense: 18s, Nature: 12b, Ability: "InnerFocus", StatsHP: 38s, IVDefense: 30b, Health: 38, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 21s, EVSpecialAttack: 0s, StatsAttack: 20s, IVSpeed: 9b, Level: 14, IVSpAtt: 29b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 0b, WinMessage: "See? They are useless.", Greeting: "Pok�mon are tools. What use is treating them well?", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "malemagmagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Useless things!", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 6, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "MaleMagmaGrunt", WinMoney: 280, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=43,TalkTime=32,GameVersion=1}] unless entity @e[x=-1382,y=15,z=270,dy=3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1382 15 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 36, TeamSelectTime: 0, RaiseToCap: 0b, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "MagmaGrunt2", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 18s, IVAttack: 18b, Growth: 3b, PHiddenAbility: 0b, Moveset: [{MoveID: "Ember", MovePP: 25b}, {MoveID: "Focus Energy", MovePP: 30b}, {MoveID: "Magnitude", MovePP: 30b}, {MoveID: "Flame Burst", MovePP: 15b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 26s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 322, palette: "none", StatsSpecialDefense: 21s, Nature: 19b, Ability: "Oblivious", StatsHP: 44s, IVDefense: 15b, Health: 44, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 15s, EVSpecialAttack: 0s, StatsAttack: 24s, IVSpeed: 19b, Level: 14, IVSpAtt: 8b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 20s, IVAttack: 21b, Growth: 5b, PHiddenAbility: 0b, Moveset: [{MoveID: "Absorb", MovePP: 25b}, {MoveID: "Supersonic", MovePP: 20b}, {MoveID: "Astonish", MovePP: 15b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 17s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 41, palette: "none", StatsSpecialDefense: 18s, Nature: 12b, Ability: "InnerFocus", StatsHP: 38s, IVDefense: 30b, Health: 38, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 21s, EVSpecialAttack: 0s, StatsAttack: 20s, IVSpeed: 9b, Level: 14, IVSpAtt: 29b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 0b, WinMessage: "See? They are useless.", Greeting: "Pokémon are tools. What use is treating them well?", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "malemagmagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Useless things!", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 6, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "MaleMagmaGrunt", WinMoney: 280, AIMode: 1s}
 execute as @s[scores={DialogueTrigger=43,TalkTime=33,GameVersion=1}] run pokebattle @s MagmaGrunt2
 
 
@@ -1651,7 +1651,7 @@ tellraw @s[scores={DialogueTrigger=43,TalkTime=19,GameVersion=2}] ["",{"text":"<
 tellraw @s[scores={DialogueTrigger=43,TalkTime=26,GameVersion=2}] ["",{"text":"<"},{"text":"Team Aqua Grunt","color":"gray"},{"text":"> Stand back and watch me, the 27th-strongest member of Team Aqua, take care of this kid!"}]
 
 execute as @s[scores={DialogueTrigger=43,TalkTime=32,GameVersion=2}] run tp @e[type=pixelmon:npc_chatting,x=-1382,y=-12,z=270,distance=..2] 10000000 -50000 -10000000
-execute as @s[scores={DialogueTrigger=43,TalkTime=32,GameVersion=2}] unless entity @e[x=-1382,y=-12,z=270,dy=3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1382 -12 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 36, TeamSelectTime: 0, RaiseToCap: 0b, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "AquaGrunt2", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 14s, IVAttack: 27b, Growth: 4b, PHiddenAbility: 0b, Moveset: [{MoveID: "Leer", MovePP: 30b}, {MoveID: "Scary Face", MovePP: 10b}, {MoveID: "Bite", MovePP: 25b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 35s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 20s, IVSpDef: 20b, CaughtBall: "poke_ball", IVHP: 4b, EVHP: 0s, ndex: 318, palette: "none", StatsSpecialDefense: 13s, Nature: 11b, Ability: "RoughSkin", StatsHP: 37s, IVDefense: 21b, Health: 37, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 25s, EVSpecialAttack: 0s, StatsAttack: 33s, IVSpeed: 19b, Level: 14, IVSpAtt: 1b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 20s, IVAttack: 21b, Growth: 5b, PHiddenAbility: 0b, Moveset: [{MoveID: "Absorb", MovePP: 25b}, {MoveID: "Supersonic", MovePP: 20b}, {MoveID: "Astonish", MovePP: 15b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 17s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 41, palette: "none", StatsSpecialDefense: 18s, Nature: 12b, Ability: "InnerFocus", StatsHP: 38s, IVDefense: 30b, Health: 38, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 21s, EVSpecialAttack: 0s, StatsAttack: 20s, IVSpeed: 9b, Level: 14, IVSpAtt: 29b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 0b, WinMessage: "See? They are useless.", Greeting: "Pok�mon are tools. What use is treating them well?", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "maleaquagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Useless things!", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 6, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "MaleAquaGrunt", WinMoney: 280, AIMode: 1s}
+execute as @s[scores={DialogueTrigger=43,TalkTime=32,GameVersion=2}] unless entity @e[x=-1382,y=-12,z=270,dy=3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1382 -12 270 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 36, TeamSelectTime: 0, RaiseToCap: 0b, LevelCap: 100, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "AquaGrunt2", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 14s, IVAttack: 27b, Growth: 4b, PHiddenAbility: 0b, Moveset: [{MoveID: "Leer", MovePP: 30b}, {MoveID: "Scary Face", MovePP: 10b}, {MoveID: "Bite", MovePP: 25b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 35s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 20s, IVSpDef: 20b, CaughtBall: "poke_ball", IVHP: 4b, EVHP: 0s, ndex: 318, palette: "none", StatsSpecialDefense: 13s, Nature: 11b, Ability: "RoughSkin", StatsHP: 37s, IVDefense: 21b, Health: 37, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 25s, EVSpecialAttack: 0s, StatsAttack: 33s, IVSpeed: 19b, Level: 14, IVSpAtt: 1b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 20s, IVAttack: 21b, Growth: 5b, PHiddenAbility: 0b, Moveset: [{MoveID: "Absorb", MovePP: 25b}, {MoveID: "Supersonic", MovePP: 20b}, {MoveID: "Astonish", MovePP: 15b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 17s, IVSpDef: 31b, CaughtBall: "poke_ball", IVHP: 25b, EVHP: 0s, ndex: 41, palette: "none", StatsSpecialDefense: 18s, Nature: 12b, Ability: "InnerFocus", StatsHP: 38s, IVDefense: 30b, Health: 38, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 21s, EVSpecialAttack: 0s, StatsAttack: 20s, IVSpeed: 9b, Level: 14, IVSpAtt: 29b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-2083.5d, 65.0d, 1422.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 0b, WinMessage: "See? They are useless.", Greeting: "Pokémon are tools. What use is treating them well?", Exitable: 1b, TrainerRotation: 0.0f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TrainerIndex: "maleaquagrunt", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Useless things!", LeftHanded: 0b, OnGround: 1b, Rotation: [0.0f, 0.0f], ChatIndex: 6, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "may", NumPokemon: 6, BaseTrainer: "MaleAquaGrunt", WinMoney: 280, AIMode: 1s}
 execute as @s[scores={DialogueTrigger=43,TalkTime=33,GameVersion=2}] run pokebattle @s AquaGrunt2
 
 tag @s[scores={DialogueTrigger=43,TalkTime=34..}] add Dialogue43
@@ -3212,197 +3212,264 @@ tag @s[scores={DialogueTrigger=84,TalkTime=26..}] add Dialogue84
 #Team Admin pre-battle
 #https://youtu.be/MgkqxXCmrtI?t=28387
 
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Admin> Hyahyahya?!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Admin> It's you! You're the one who tried to interrupt me, Tabitha, at Meteor Falls!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Tabitha> D-d-do you intend to get in my way once more? Unngh! You're really..."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Tabitha> really, really, really, really, really, really..."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Tabitha> really, really, really, really, really, really, really, really, really, really..."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Tabitha> reeeallllyyyyy..."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Tabitha> ...an obnoxious child, aren't you?!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Tabitha> Ahh... Ahh..."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Magma Tabitha> I will...crush you. So that you...never get in my way...again."}
+execute at @s[scores={DialogueTrigger=85,TalkTime=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+
+tellraw @s[scores={DialogueTrigger=85,TalkTime=3,GameVersion=1}] {"text":"<Team Magma Admin> Hyahyahya?!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=10,GameVersion=1}] {"text":"<Team Magma Admin> It's you! You're the one who tried to interrupt me, Tabitha, at Meteor Falls!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=20,GameVersion=1}] {"text":"<Team Magma Tabitha> D-d-do you intend to get in my way once more? Unngh! You're really..."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=28,GameVersion=1}] {"text":"<Team Magma Tabitha> really, really, really, really, really, really..."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=33,GameVersion=1}] {"text":"<Team Magma Tabitha> really, really, really, really, really, really, really, really, really, really..."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=40,GameVersion=1}] {"text":"<Team Magma Tabitha> reeeallllyyyyy..."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=45,GameVersion=1}] {"text":"<Team Magma Tabitha> ...an obnoxious child, aren't you?!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=52,GameVersion=1}] {"text":"<Team Magma Tabitha> Ahh... Ahh..."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=59,GameVersion=1}] {"text":"<Team Magma Tabitha> I will...crush you. So that you...never get in my way...again."}
+scoreboard players add @s[scores={DialogueTrigger=85,TalkTime=59,GameVersion=1}] TalkTime 20
 
 #Aqua Reference
 #https://youtu.be/yGAMrV0H33w?t=313
 
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> What are you doing here?!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> Did you follow us all the way here from Meteor Falls?!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> Ha! Well hey, good job, kid."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> OK. I admit it."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> You are quite the Trainer. And..."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> To Archie... me..."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> and all of Team Aqua, your existence is annoying!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> The world Archie dreams of would be a utopia for Pokémon."}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> I can't let you get in the way of someone who's pushing on toward a perfect world!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> Prepare yourself!"}
-tellraw @s[scores={DialogueTrigger=85,TalkTime=1}] {"text":"<Team Aqua Admin> This will finally be the time that I leave that cute face of yours swollen and crying!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=3,GameVersion=2}] {"text":"<Team Aqua Admin> What are you doing here?!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=10,GameVersion=2}] {"text":"<Team Aqua Admin> Did you follow us all the way here from Meteor Falls?!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=18,GameVersion=2}] {"text":"<Team Aqua Admin> Ha! Well hey, good job, kid."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=25,GameVersion=2}] {"text":"<Team Aqua Admin> OK. I admit it."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=32,GameVersion=2}] {"text":"<Team Aqua Admin> You are quite the Trainer. And..."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=39,GameVersion=2}] {"text":"<Team Aqua Admin> To Archie... me..."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=45,GameVersion=2}] {"text":"<Team Aqua Admin> and all of Team Aqua, your existence is annoying!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=53,GameVersion=2}] {"text":"<Team Aqua Admin> The world Archie dreams of would be a utopia for Pokémon."}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=61,GameVersion=2}] {"text":"<Team Aqua Admin> I can't let you get in the way of someone who's pushing on toward a perfect world!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=71,GameVersion=2}] {"text":"<Team Aqua Admin> Prepare yourself!"}
+tellraw @s[scores={DialogueTrigger=85,TalkTime=78,GameVersion=2}] {"text":"<Team Aqua Admin> This will finally be the time that I leave that cute face of yours swollen and crying!"}
 
-execute as @s[scores={DialogueTrigger=85,TalkTime=1}] run pokebattle
+#execute as @s[scores={DialogueTrigger=85,TalkTime=1}] run pokebattle
 
-tag @s[scores={DialogueTrigger=85,TalkTime=100..}] add Dialogue85
+tag @s[scores={DialogueTrigger=85,TalkTime=78..}] add Dialogue85
 #---------------------------
 #Dialogue 86 - Mt. Chimney
 #Team Admin Post-Battle
 #https://youtu.be/MgkqxXCmrtI?t=28537
 
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Magma Tabitha> I knew you would be strong."}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Magma Tabitha> What a shame, though!"}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Magma Tabitha> The Meteorite we got from Professor Whoever is already in our Boss's hands!"}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Magma Tabitha> Where's the Boss, you ask?"}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Magma Tabitha> Ah, yes, yes, right this way!"}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Magma Tabitha> Oh, I do hope that you can be shown Team Magma's true power!"}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Magma Tabitha> Ahya! Ahyahyahyahya!"}
+execute as @s[scores={DialogueTrigger=86}] run clear @s minecraft:nether_brick
 
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Aqua Shelly> Uh. Are you telling me you've upped your game even more since last time?"}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Aqua Shelly> You're a brat with a bright future..."}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Aqua Shelly> My Pokémon and I don't have any strength left to fight..."}
-tellraw @s[scores={DialogueTrigger=86,TalkTime=1}] {"text":"<Team Aqua Shelly> Go on... Go and be destroyed by Archie."}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=2,GameVersion=1}] {"text":"<Team Magma Tabitha> I knew you would be strong."}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=9,GameVersion=1}] {"text":"<Team Magma Tabitha> What a shame, though!"}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=16,GameVersion=1}] {"text":"<Team Magma Tabitha> The Meteorite we got from Professor Whoever is already in our Boss's hands!"}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=25,GameVersion=1}] {"text":"<Team Magma Tabitha> Where's the Boss, you ask?"}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=32,GameVersion=1}] {"text":"<Team Magma Tabitha> Ah, yes, yes, right this way!"}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=39,GameVersion=1}] {"text":"<Team Magma Tabitha> Oh, I do hope that you can be shown Team Magma's true power!"}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=47,GameVersion=1}] {"text":"<Team Magma Tabitha> Ahya! Ahyahyahyahya!"}
 
-tag @s[scores={DialogueTrigger=86,TalkTime=100..}] add Dialogue86
+tellraw @s[scores={DialogueTrigger=86,TalkTime=2,GameVersion=2}] {"text":"<Team Aqua Shelly> Uh. Are you telling me you've upped your game even more since last time?"}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=11,GameVersion=2}] {"text":"<Team Aqua Shelly> You're a brat with a bright future..."}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=18,GameVersion=2}] {"text":"<Team Aqua Shelly> My Pokémon and I don't have any strength left to fight..."}
+tellraw @s[scores={DialogueTrigger=86,TalkTime=26,GameVersion=2}] {"text":"<Team Aqua Shelly> Go on... Go and be destroyed by Archie."}
+scoreboard players add @s[scores={DialogueTrigger=86,TalkTime=26,GameVersion=2}] TalkTime 25
+
+tag @s[scores={DialogueTrigger=86,TalkTime=47..}] add Dialogue86
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 87 - Mt. Chimney
 #Team Leader Pre-Battle
 #https://youtu.be/MgkqxXCmrtI?t=28596
 
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> The power contained in the Meteorite..."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> If we merge the explosive energy contained within the planet's core with the Meteorite's power..."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> I remember those eyes. And the indomitable will that seems to burn behind them."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Ahhh. Now I recall. You are the one who defied us at Slateport's Oceanic Museum."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> And, your presence here tells me that you have defeated Tabitha."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Yes, I see now that the stirring of interest I felt was not misplaced."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Hmph. You show true promise. Fine. I will attempt to educate you."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Thousands of years ago, there lived a most powerful being that was said to be capable of creating new lands on the planet."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> The power which we in Team Magma seek—"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> This power, which can expand the available landmass, belongs to a legendary and super- ancient Pokémon."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Though now it slumbers, having lost the source of its power and been trapped in a deep sleep."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> So what is it that we must do to awaken this slumbering giant?"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Our research has led us here, to Mt. Chimney."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Yes, here...to this very Meteorite."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> If we create the right conditions, we should find ourselves able to alter this Meteorite's qualities."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Yes, even into a Mega Stone."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Even into a Key Stone."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> And here, at Mt. Chimney—"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Hmph... I should not say too much. That is the end of today's lesson."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> Now then. I believe it is time we begin."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> The time for the purge has come."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> I do believe that I made myself quite clear when we were last in Slateport."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> I warned you that any fool standing in our way would be met without mercy!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> I will bury you by my own hand."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Maxie> I hope you appreciate this honor!"}
+#sets player into spectator
+execute as @s[scores={DialogueTrigger=87,TalkTime=1}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=87,TalkTime=1..10}] run tp @s -1885.8 238 -3370.5 130 12
+execute as @s[scores={DialogueTrigger=87,TalkTime=1},tag=!MusicDisabled] run stopsound @s record
+execute as @s[scores={DialogueTrigger=87,TalkTime=1},tag=!MusicDisabled] run playsound minecraft:teamleader record @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=87,TalkTime=1},tag=!MusicDisabled] run scoreboard players set @s MusicCooldown 99
+
+tellraw @s[scores={DialogueTrigger=87,TalkTime=4,GameVersion=1}] {"text":"<Maxie> The power contained in the Meteorite..."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=13,GameVersion=1}] {"text":"<Maxie> If we merge the explosive energy contained within the planet's core with the Meteorite's power..."}
+
+execute as @s[scores={DialogueTrigger=87,TalkTime=20}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=87,TalkTime=20}] run tp @s -1898 236 -3374 -90 13
+execute at @s[scores={DialogueTrigger=87,TalkTime=20}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+
+tellraw @s[scores={DialogueTrigger=87,TalkTime=23,GameVersion=1}] {"text":"<Maxie> I remember those eyes. And the indomitable will that seems to burn behind them."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=30,GameVersion=1}] {"text":"<Maxie> Ahhh. Now I recall. You are the one who defied us at Slateport's Oceanic Museum."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=38,GameVersion=1}] {"text":"<Maxie> And, your presence here tells me that you have defeated Tabitha."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=45,GameVersion=1}] {"text":"<Maxie> Yes, I see now that the stirring of interest I felt was not misplaced."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=52,GameVersion=1}] {"text":"<Maxie> Hmph. You show true promise. Fine. I will attempt to educate you."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=61,GameVersion=1}] as @e[x=-1893,y=235,z=-3374,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=61,GameVersion=1}] {"text":"<Maxie> Thousands of years ago, there lived a most powerful being that was said to be capable of creating new lands on the planet."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=73,GameVersion=1}] {"text":"<Maxie> The power which we in Team Magma seek—"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=80,GameVersion=1}] {"text":"<Maxie> This power, which can expand the available landmass, belongs to a legendary and super- ancient Pokémon."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=90,GameVersion=1}] {"text":"<Maxie> Though now it slumbers, having lost the source of its power and been trapped in a deep sleep."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=99,GameVersion=1}] {"text":"<Maxie> So what is it that we must do to awaken this slumbering giant?"}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=108,GameVersion=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=87,TalkTime=108,GameVersion=1}] {"text":"<Maxie> Our research has led us here, to Mt. Chimney."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=115,GameVersion=1}] {"text":"<Maxie> Yes, here...to this very Meteorite."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=122,GameVersion=1}] {"text":"<Maxie> If we create the right conditions, we should find ourselves able to alter this Meteorite's qualities."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=131,GameVersion=1}] {"text":"<Maxie> Yes, even into a Mega Stone."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=138,GameVersion=1}] {"text":"<Maxie> Even into a Key Stone."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=145,GameVersion=1}] as @e[x=-1893,y=235,z=-3374,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=145,GameVersion=1}] {"text":"<Maxie> And here, at Mt. Chimney—"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=152,GameVersion=1}] {"text":"<Maxie> Hmph... I should not say too much. That is the end of today's lesson."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=160,GameVersion=1}] {"text":"<Maxie> Now then. I believe it is time we begin."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=167,GameVersion=1}] {"text":"<Maxie> The time for the purge has come."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=175,GameVersion=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=87,TalkTime=175,GameVersion=1}] {"text":"<Maxie> I do believe that I made myself quite clear when we were last in Slateport."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=184,GameVersion=1}] {"text":"<Maxie> I warned you that any fool standing in our way would be met without mercy!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=193,GameVersion=1}] {"text":"<Maxie> I will bury you by my own hand."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=200,GameVersion=1}] {"text":"<Maxie> I hope you appreciate this honor!"}
+
+execute as @s[scores={DialogueTrigger=87,TalkTime=200,GameVersion=1}] run tp @e[x=-1893,y=236,z=-3374,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=87,TalkTime=200,GameVersion=1}] unless entity @e[x=-1893,y=236,z=-3374,dy=3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1893 236 -3374 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLevel: 4, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "forge:step_height_addition"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "Maxie", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 44s, IVAttack: 0b, Growth: 2b, PHiddenAbility: 0b, Moveset: [{MoveID: "Wing Attack", MovePP: 35b}, {MoveID: "Confuse Ray", MovePP: 10b}, {MoveID: "Air Cutter", MovePP: 25b}, {MoveID: "Swift", MovePP: 20b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 39s, IVSpDef: 10b, CaughtBall: "poke_ball", IVHP: 31b, EVHP: 0s, ndex: 42, palette: "none", StatsSpecialDefense: 45s, Nature: 6b, Ability: "InnerFocus", StatsHP: 80s, IVDefense: 19b, Health: 80, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 45s, EVSpecialAttack: 0s, StatsAttack: 49s, IVSpeed: 0b, Level: 25, IVSpAtt: 6b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 43s, IVAttack: 6b, Growth: 5b, PHiddenAbility: 1b, Moveset: [{MoveID: "Roar", MovePP: 20b}, {MoveID: "Snarl", MovePP: 15b}, {MoveID: "Swagger", MovePP: 15b}, {MoveID: "Assurance", MovePP: 10b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 33s, IVSpDef: 5b, CaughtBall: "poke_ball", IVHP: 14b, EVHP: 0s, ndex: 262, palette: "none", StatsSpecialDefense: 36s, Nature: 7b, Ability: "Moxie", StatsHP: 73s, IVDefense: 15b, Health: 73, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 46s, EVSpecialAttack: 0s, StatsAttack: 56s, IVSpeed: 25b, Level: 25, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party2: {EVSpeed: 0s, StatsDefense: 43s, IVAttack: 7b, Growth: 1b, PHiddenAbility: 0b, Moveset: [{MoveID: "Flame Burst", MovePP: 15b}, {MoveID: "Amnesia", MovePP: 20b}, {MoveID: "Lava Plume", MovePP: 15b}, {MoveID: "Earth Power", MovePP: 10b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 64s, IVSpDef: 1b, CaughtBall: "poke_ball", IVHP: 11b, EVHP: 0s, ndex: 323, palette: "none", StatsSpecialDefense: 45s, Nature: 2b, Ability: "SolidRock", StatsHP: 77s, IVDefense: 3b, Health: 77, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 1, DynamaxLevel: 0, Variant: "", StatsSpeed: 27s, EVSpecialAttack: 0s, StatsAttack: 60s, IVSpeed: 3b, Level: 27, IVSpAtt: 9b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-1892.5d, 236.0d, -3373.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", TrainerRotation: 1168.9502f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Ugh! You are...quite capable... I fell behind, but only by an inch...", LeftHanded: 0b, OnGround: 1b, Rotation: [1168.9502f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "magmaboss", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 4320, AIMode: 1s}
 
 
 #Aqua Reference
 #https://youtu.be/yGAMrV0H33w?t=502
 
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> The great swell of power that sleeps deep in the magma..."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> And it's the key to controlling the super-ancient Pokémon's power?"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Ah! You..."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Uh... No... Oh!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Now I know how I know you! You're the little scamp that got in our way in Slateport's museum!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> If you made it here to me, you musta swept right past Shelly, huh?"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Heh...heheheh... Krmph! Bwahahahahaha!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> I figured you were a big deal the first time I laid eyes on you, but...whoa!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Heheh. Well, since you are the real deal, I s'pose I could let you in on just what's going on."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> See, this Meteorite that I just got from good old Professor High-an'-Mighty back there..."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> With the right bit of work, it seems we could turn it into a real nice, valuable bit."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Like maybe a Mega Stone."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Or maybe...even a Key Stone."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> And as long as we're here at Mt. Chimney..."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Hyup! Bwahahahahah! Look what I nearly went an' did!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> If I give away all my secrets, all the thrill'd be gone from our relationship!"}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> I think I'll just leave you hanging here."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Well... It's not the details that matter any old how."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> We've got a thing we gotta do, ya see."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> From our point of view, scamp, you're a dirty villain who's gotten in our way one time too many."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> I'm still leader of Team Aqua, so I'm afraid it's the rope's end for you and your Pokémon."}
-tellraw @s[scores={DialogueTrigger=87,TalkTime=1}] {"text":"<Archie> Now come!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=4,GameVersion=2}] {"text":"<Archie> The great swell of power that sleeps deep in the magma..."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=13,GameVersion=2}] {"text":"<Archie> And it's the key to controlling the super-ancient Pokémon's power?"}
 
-tag @s[scores={DialogueTrigger=87,TalkTime=100..}] add Dialogue87
+tellraw @s[scores={DialogueTrigger=87,TalkTime=23,GameVersion=2}] {"text":"<Archie> Ah! You..."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=28,GameVersion=2}] {"text":"<Archie> Uh... No... Oh!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=35,GameVersion=2}] {"text":"<Archie> Now I know how I know you! You're the little scamp that got in our way in Slateport's museum!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=45,GameVersion=2}] {"text":"<Archie> If you made it here to me, you musta swept right past Shelly, huh?"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=54,GameVersion=2}] {"text":"<Archie> Heh...heheheh... Krmph! Bwahahahahaha!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=61,GameVersion=2}] {"text":"<Archie> I figured you were a big deal the first time I laid eyes on you, but...whoa!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=70,GameVersion=2}] {"text":"<Archie> Heheh. Well, since you are the real deal, I s'pose I could let you in on just what's going on."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=80,GameVersion=2}] as @e[x=-1893,y=235,z=-3374,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=80,GameVersion=2}] {"text":"<Archie> See, this Meteorite that I just got from good old Professor High-an'-Mighty back there..."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=90,GameVersion=2}] {"text":"<Archie> With the right bit of work, it seems we could turn it into a real nice, valuable bit."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=99,GameVersion=2}] {"text":"<Archie> Like maybe a Mega Stone."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=106,GameVersion=2}] {"text":"<Archie> Or maybe...even a Key Stone."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=113,GameVersion=2}] {"text":"<Archie> And as long as we're here at Mt. Chimney..."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=120,GameVersion=2}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=87,TalkTime=120,GameVersion=2}] {"text":"<Archie> Hyup! Bwahahahahah! Look what I nearly went an' did!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=128,GameVersion=2}] {"text":"<Archie> If I give away all my secrets, all the thrill'd be gone from our relationship!"}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=138,GameVersion=2}] {"text":"<Archie> I think I'll just leave you hanging here."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=145,GameVersion=2}] as @e[x=-1893,y=235,z=-3374,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=145,GameVersion=2}] {"text":"<Archie> Well... It's not the details that matter any old how."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=153,GameVersion=2}] {"text":"<Archie> We've got a thing we gotta do, ya see."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=160,GameVersion=2}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=87,TalkTime=160,GameVersion=2}] {"text":"<Archie> From our point of view, scamp, you're a dirty villain who's gotten in our way one time too many."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=171,GameVersion=2}] {"text":"<Archie> I'm still leader of Team Aqua, so I'm afraid it's the rope's end for you and your Pokémon."}
+tellraw @s[scores={DialogueTrigger=87,TalkTime=181,GameVersion=2}] {"text":"<Archie> Now come!"}
+
+execute as @s[scores={DialogueTrigger=87,TalkTime=181,GameVersion=2}] run tp @e[x=-1893,y=236,z=-3374,distance=..3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=87,TalkTime=181,GameVersion=2}] unless entity @e[x=-1893,y=236,z=-3374,dy=3,type=pixelmon:npc_trainer] run summon pixelmon:npc_trainer -1893 236 -3374 {Brain: {memories: {}}, HurtByTimestamp: 0, NPCLeveUUIDl: 5, RaiseToCap: 0b, TeamSelectTime: 0, LevelCap: 100, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "forge:step_height_addition"}], BattleType: 0, Invulnerable: 0b, AbsorptionAmount: 0.0f, DefaultLose: 0b, Name: "Archie", FallDistance: 0.0f, WinningsTag: {item0: {id: "minecraft:nether_brick", Count: 1b}}, CanUpdate: 1b, BossTier: "notboss", DefaultName: 1b, hasMegaItem: 0, TeamPreview: 0b, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, FullHeal: 0b, trainerLocation: 2, oldGen: 0, OldGen: 0, pokeStore: {party1: {EVSpeed: 0s, StatsDefense: 47s, IVAttack: 14b, Growth: 1b, PHiddenAbility: 0b, Moveset: [{MoveID: "Wing Attack", MovePP: 35b}, {MoveID: "Confuse Ray", MovePP: 10b}, {MoveID: "Air Cutter", MovePP: 25b}, {MoveID: "Swift", MovePP: 20b}], PersistentData: {}, Gender: 0b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 38s, IVSpDef: 20b, CaughtBall: "poke_ball", IVHP: 3b, EVHP: 0s, ndex: 42, palette: "none", StatsSpecialDefense: 47s, Nature: 0b, Ability: "InnerFocus", StatsHP: 73s, IVDefense: 30b, Health: 73, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 52s, EVSpecialAttack: 0s, StatsAttack: 48s, IVSpeed: 10b, Level: 25, IVSpAtt: 4b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party0: {EVSpeed: 0s, StatsDefense: 37s, IVAttack: 2b, Growth: 2b, PHiddenAbility: 0b, Moveset: [{MoveID: "Roar", MovePP: 20b}, {MoveID: "Snarl", MovePP: 15b}, {MoveID: "Swagger", MovePP: 15b}, {MoveID: "Assurance", MovePP: 10b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 70s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 37s, IVSpDef: 19b, CaughtBall: "poke_ball", IVHP: 29b, EVHP: 0s, ndex: 262, palette: "none", StatsSpecialDefense: 39s, Nature: 5b, Ability: "Intimidate", StatsHP: 77s, IVDefense: 9b, Health: 77, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 40s, EVSpecialAttack: 0s, StatsAttack: 55s, IVSpeed: 1b, Level: 25, IVSpAtt: 8b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, party2: {EVSpeed: 0s, StatsDefense: 31s, IVAttack: 4b, Growth: 5b, PHiddenAbility: 0b, Moveset: [{MoveID: "Assurance", MovePP: 10b}, {MoveID: "Screech", MovePP: 40b}, {MoveID: "Swagger", MovePP: 15b}, {MoveID: "Ice Fang", MovePP: 15b}], PersistentData: {}, Gender: 1b, GigantamaxFactor: 0b, Friendship: 35s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 63s, IVSpDef: 10b, CaughtBall: "poke_ball", IVHP: 19b, EVHP: 0s, ndex: 319, palette: "none", StatsSpecialDefense: 31s, Nature: 21b, Ability: "RoughSkin", StatsHP: 79s, IVDefense: 19b, Health: 79, SpecFlags: [], DoesLevel: 1b, EVDefense: 0s, PAbilitySlot: 0, DynamaxLevel: 0, Variant: "", StatsSpeed: 59s, EVSpecialAttack: 0s, StatsAttack: 63s, IVSpeed: 10b, Level: 27, IVSpAtt: 27b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}, TempPartyEnabled: 0b}, EncMode: 1s, Air: 300s, HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-1892.5d, 236.0d, -3373.5d], CanPickUpLoot: 0b, HurtTime: 0s, Inventory: [], DefaultWin: 1b, WinMessage: "", Greeting: "", TrainerRotation: 1170.6025f, Encounters: [], FallFlying: 0b, PortalCooldown: 0, TurnTime: 0, DeathTime: 0s, Commands: {winCommands: [], loseCommands: [], preBattleCommands: [], interactCommands: [], forfeitCommands: []}, GymLeader: 0b, EngageDistance: 10, DefaultGreet: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "steve", Health: 20.0f, BattleAIMode: 0s, LoseMessage: "Oh! You went and did it, didn't you?", LeftHanded: 0b, OnGround: 1b, Rotation: [1170.6025f, 0.0f], ChatIndex: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CustomSteveTexture: "aquaboss", NumPokemon: 6, BaseTrainer: "Steve", WinMoney: 4320, AIMode: 1s}
+
+
+tag @s[scores={DialogueTrigger=87,TalkTime=200..}] add Dialogue87
 #--------------------------
 #Dialogue 88 - Mt. Chimney
 #Team Leader Post-Battle
 #https://youtu.be/MgkqxXCmrtI?t=28853
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Oh? So you repulsed the great Maxie in battle."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Haha... You never fail to entertain me!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> An excellent start! This time, permit me to unleash my full strength!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Once you've tasted my Pokémon's Mega Evolved power, you will say good-bye to your last shred of hope!"}
-#summon exclamation
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Hm?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Yes, it's me."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> ... Oh?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Then it is Mt. Pyre."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> I understand. I will come at once."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> I am sorry to cut our battle short, but I'm afraid I must excuse myself."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Such rudeness demands reparation. Take this Meteorite with my apologies."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> You may do with it what you like."}
+execute as @s[scores={DialogueTrigger=88}] run clear @s minecraft:nether_brick
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Meteorite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=88,TalkTime=1}] run give @s pixelmon:meteorite
+tellraw @s[scores={DialogueTrigger=88,TalkTime=2,GameVersion=1}] {"text":"<Maxie> Oh? So you repulsed the great Maxie in battle."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=9,GameVersion=1}] {"text":"<Maxie> Haha... You never fail to entertain me!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=16,GameVersion=1}] {"text":"<Maxie> An excellent start! This time, permit me to unleash my full strength!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=24,GameVersion=1}] {"text":"<Maxie> Once you've tasted my Pokémon's Mega Evolved power, you will say good-bye to your last shred of hope!"}
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> And I will not again forget the face of the Trainer who managed to thwart me in battle!"}
+execute at @s[scores={DialogueTrigger=88,TalkTime=34,GameVersion=1}] as @e[x=-1893,y=235,z=-3374,distance=..3,type=pixelmon:npc_trainer] run data merge entity @s {Rotation:[0f,0.0f]}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=34,GameVersion=1}] {"text":"<Maxie> Hm?"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=40,GameVersion=1}] {"text":"<Maxie> Yes, it's me."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=47,GameVersion=1}] {"text":"<Maxie> ... Oh?"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=53,GameVersion=1}] {"text":"<Maxie> Then it is Mt. Pyre."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=60,GameVersion=1}] {"text":"<Maxie> I understand. I will come at once."}
+
+execute at @s[scores={DialogueTrigger=87,TalkTime=68,GameVersion=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=88,TalkTime=68,GameVersion=1}] {"text":"<Maxie> I am sorry to cut our battle short, but I'm afraid I must excuse myself."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=77,GameVersion=1}] {"text":"<Maxie> Such rudeness demands reparation. Take this Meteorite with my apologies."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=86,GameVersion=1}] {"text":"<Maxie> You may do with it what you like."}
+
+tellraw @s[scores={DialogueTrigger=88,TalkTime=93,GameVersion=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Meteorite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=88,TalkTime=93,GameVersion=1}] run give @s pixelmon:meteorite
+execute as @s[scores={DialogueTrigger=88,TalkTime=93,GameVersion=1}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+
+tellraw @s[scores={DialogueTrigger=88,TalkTime=100,GameVersion=1}] {"text":"<Maxie> And I will not again forget the face of the Trainer who managed to thwart me in battle!"}
 
 #tp Maxie out
+execute as @s[scores={DialogueTrigger=88,TalkTime=108,GameVersion=1}] run particle cloud -1893 235 -3374 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=88,TalkTime=108,GameVersion=1}] run tp @e[type=pixelmon:npc_trainer,x=-1893,y=235,z=-3374,dy=3] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=88,TalkTime=108,GameVersion=1}] run scoreboard players add @s TalkTime 30
+
 
 #Aqua Reference
 #https://youtu.be/yGAMrV0H33w?t=946
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Heheheh."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Ya little scamp! I knew you were the real deal!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Brilliant!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Then my team won't hold back this time! Mega Evolution, how I've missed you!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> It's been ages since we got to let loose!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=2,GameVersion=2}] {"text":"<Archie> Heheheh."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=8,GameVersion=2}] {"text":"<Archie> Ya little scamp! I knew you were the real deal!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=15,GameVersion=2}] {"text":"<Archie> Brilliant!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=20,GameVersion=2}] {"text":"<Archie> Then my team won't hold back this time! Mega Evolution, how I've missed you!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=29,GameVersion=2}] {"text":"<Archie> It's been ages since we got to let loose!"}
 
-#summon exclamation
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Tch."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Scamp, I'm gonna have to ask you to hold that thought."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> I've gotta use my time-out."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Huh? That you, Matt? You have the worst timing—"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> What?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Hoh!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> So Mt. Pyre's the real— Got it."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Guess that orb's not just some fairy tale after all!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> All right! I'm on my way!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Sorry, scamp. When you're a grown-up, y'see, sometimes things crop up."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Gotta put our battle on hold till next time. Take this."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Should help keep ya busy till we settle the score. Have fun with it, hey?"}
+execute at @s[scores={DialogueTrigger=88,TalkTime=37,GameVersion=2}] as @e[x=-1893,y=235,z=-3374,distance=..3,type=pixelmon:npc_trainer] run data merge entity @s {Rotation:[0f,0.0f]}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=37,GameVersion=2}] {"text":"<Archie> Tch."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=44,GameVersion=2}] {"text":"<Archie> Scamp, I'm gonna have to ask you to hold that thought."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=51,GameVersion=2}] {"text":"<Archie> I've gotta use my time-out."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=58,GameVersion=2}] {"text":"<Archie> Huh? That you, Matt? You have the worst timing—"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=65,GameVersion=2}] {"text":"<Archie> What?"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=70,GameVersion=2}] {"text":"<Archie> Hoh!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=75,GameVersion=2}] {"text":"<Archie> So Mt. Pyre's the real— Got it."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=82,GameVersion=2}] {"text":"<Archie> Guess that orb's not just some fairy tale after all!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=90,GameVersion=2}] {"text":"<Archie> All right! I'm on my way!"}
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Meteorite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=88,TalkTime=1}] run give @s pixelmon:meteorite
+execute at @s[scores={DialogueTrigger=88,TalkTime=97,GameVersion=2}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=88,TalkTime=97,GameVersion=2}] {"text":"<Archie> Sorry, scamp. When you're a grown-up, y'see, sometimes things crop up."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=107,GameVersion=2}] {"text":"<Archie> Gotta put our battle on hold till next time. Take this."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=116,GameVersion=2}] {"text":"<Archie> Should help keep ya busy till we settle the score. Have fun with it, hey?"}
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Let's meet again somewhere. I'll be sure to remember that face."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=124,GameVersion=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Meteorite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=88,TalkTime=124,GameVersion=2}] run give @s pixelmon:meteorite
+execute as @s[scores={DialogueTrigger=88,TalkTime=124,GameVersion=2}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+
+tellraw @s[scores={DialogueTrigger=88,TalkTime=131,GameVersion=2}] {"text":"<Archie> Let's meet again somewhere. I'll be sure to remember that face."}
 
 #tps out
+execute as @s[scores={DialogueTrigger=88,TalkTime=138,GameVersion=2}] run particle cloud -1893 235 -3374 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=88,TalkTime=138,GameVersion=2}] run tp @e[type=pixelmon:npc_trainer,x=-1893,y=235,z=-3374,dy=3] 10000000 -50000 -10000000
 
 
 #Rival team walks up
 #https://youtu.be/MgkqxXCmrtI?t=28912
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Huh? If it ain't that little scamp!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> But blast that Maxie! He just escaped us!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> And he just left behind the Meteorite that he's been crazy about finding?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Can't be—!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> Could he have found out where the real orbs are hidden?!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> That sneaky little scientific so-and-so!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Archie> I'm always left watching his bony backside run two steps ahead of me!"}
+#this doesn't seem to be running properly for some reason
+execute as @s[scores={DialogueTrigger=88,TalkTime=143}] at @s positioned ~-10 ~ ~ run particle cloud ~ ~ ~ 1 1 1 0.15 300 force @s
+execute as @s[scores={DialogueTrigger=88,TalkTime=143,GameVersion=1}] at @s positioned ~-10 ~ ~ run summon pixelmon:npc_chatting ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "forge:step_height_addition"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "ArchieTemp", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "engineer", NameIndex: 3, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [1.7344766f, -3.0387728f], HandItems: [{}, {}], ChatIndex: 3, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=88,TalkTime=143,GameVersion=2}] at @s positioned ~-10 ~ ~ run summon pixelmon:npc_chatting ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.0d, Name: "forge:step_height_addition"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "MaxieTemp", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "engineer", NameIndex: 3, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [1.7344766f, -3.0387728f], HandItems: [{}, {}], ChatIndex: 3, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+
+tellraw @s[scores={DialogueTrigger=88,TalkTime=148,GameVersion=1}] {"text":"<Archie> Huh? If it ain't that little scamp!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=155,GameVersion=1}] {"text":"<Archie> But blast that Maxie! He just escaped us!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=162,GameVersion=1}] {"text":"<Archie> And he just left behind the Meteorite that he's been crazy about finding?"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=171,GameVersion=1}] {"text":"<Archie> Can't be—!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=176,GameVersion=1}] {"text":"<Archie> Could he have found out where the real orbs are hidden?!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=183,GameVersion=1}] {"text":"<Archie> That sneaky little scientific so-and-so!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=190,GameVersion=1}] {"text":"<Archie> I'm always left watching his bony backside run two steps ahead of me!"}
 
 #Tps out
+execute as @s[scores={DialogueTrigger=88,TalkTime=198,GameVersion=1}] as @e[distance=..100,type=pixelmon:npc_chatting,nbt={Name:"ArchieTemp"}] run particle cloud ~ ~ ~ 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=88,TalkTime=198,GameVersion=1}] run tp @e[distance=..100,type=pixelmon:npc_chatting,nbt={Name:"ArchieTemp"}] 10000000 -50000 -10000000
 
 #https://youtu.be/yGAMrV0H33w?t=1021
 
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> I've seen you before, child."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> It seems you are not to be trifled with, if you repelled Archie in battle."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> What is that fool up to now?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> He abandoned the Meteorite that he sought so persistently?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> No!"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Could it be possible that he has confirmed the existence of the orbs at last?"}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> Ngh! Again, I find myself outmaneuvered."}
-tellraw @s[scores={DialogueTrigger=88,TalkTime=1}] {"text":"<Maxie> What a terrible miscalculation!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=148,GameVersion=2}] {"text":"<Maxie> I've seen you before, child."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=155,GameVersion=2}] {"text":"<Maxie> It seems you are not to be trifled with, if you repelled Archie in battle."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=163,GameVersion=2}] {"text":"<Maxie> What is that fool up to now?"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=170,GameVersion=2}] {"text":"<Maxie> He abandoned the Meteorite that he sought so persistently?"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=178,GameVersion=2}] {"text":"<Maxie> No!"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=183,GameVersion=2}] {"text":"<Maxie> Could it be possible that he has confirmed the existence of the orbs at last?"}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=190,GameVersion=2}] {"text":"<Maxie> Ngh! Again, I find myself outmaneuvered."}
+tellraw @s[scores={DialogueTrigger=88,TalkTime=197,GameVersion=2}] {"text":"<Maxie> What a terrible miscalculation!"}
 
 #Tps out
+execute as @s[scores={DialogueTrigger=88,TalkTime=205,GameVersion=2}] at @e[distance=..100,type=pixelmon:npc_chatting,nbt={Name:"MaxieTemp"}] run particle cloud ~ ~ ~ 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=88,TalkTime=205,GameVersion=2}] run tp @e[distance=..100,type=pixelmon:npc_chatting,nbt={Name:"MaxieTemp"}] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=88,TalkTime=100..}] add Dialogue88
+tag @s[scores={DialogueTrigger=88,TalkTime=205..}] add Dialogue88
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 89 - Lavaridge Gym
 #Flannery Pre-Battle

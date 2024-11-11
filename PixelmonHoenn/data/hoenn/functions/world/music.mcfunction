@@ -63,7 +63,9 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkT
 playsound primal record @s[scores={MusicCooldown=0,DialogueTrigger=147..148,TalkTime=..70}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=147..148,TalkTime=..70}] MusicCooldown 138
 
-
+#Mt. Chimney continuation
+playsound teamleader record @s[scores={MusicCooldown=0,DialogueTrigger=87,TalkTime=..200}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=87,TalkTime=..200}] MusicCooldown 99
 
 
 
