@@ -67,7 +67,9 @@ scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=147..148,TalkT
 playsound teamleader record @s[scores={MusicCooldown=0,DialogueTrigger=87,TalkTime=..200}] ~ ~ ~ 1 1 1
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=87,TalkTime=..200}] MusicCooldown 99
 
-
+#Lavaridge Go-Goggles and fast travel
+playsound may record @s[scores={MusicCooldown=0,DialogueTrigger=91}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=91}] MusicCooldown 102
 
 
 

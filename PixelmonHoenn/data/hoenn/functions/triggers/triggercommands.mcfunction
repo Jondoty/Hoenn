@@ -143,10 +143,10 @@ execute as @s[scores={TriggerCommand=20}] run scoreboard players set @s Dialogue
 #Dialogue 91 & 93 Rival fast travel option
 
 #No
-execute as @s[scores={TriggerCommand=21}] run
+execute as @s[scores={TriggerCommand=21}] run scoreboard players set @s DialogueTrigger 92
 
 #Yes
-execute as @s[scores={TriggerCommand=22}] run
+execute as @s[scores={TriggerCommand=22}] run scoreboard players set @s DialogueTrigger 93
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogues 107 - 110, hidden power lady coin flips
