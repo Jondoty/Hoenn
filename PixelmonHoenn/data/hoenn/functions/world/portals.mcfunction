@@ -935,8 +935,21 @@ tp @a[x=-820,y=66,z=-824,dx=4,dy=3] -818 50 -825
 tp @a[x=-820,y=50,z=-824,dx=3,dy=3] -818 66 -823
 
 #Weather Institute
-tp @a[x=-991,y=79,z=-1280,dx=8,dy=3] -987 51 -1281
-tp @a[x=-989,y=51,z=-1280,dx=3,dy=3] -987 79 -1279
+#Normal, cleared of team
+tp @a[x=-991,y=79,z=-1280,dx=8,dy=3,tag=Dialogue104] -987 51 -1281
+
+#Ruby
+execute as @a[x=-991,y=79,z=-1280,dx=8,dy=3,scores={GameVersion=1},tag=!Dialogue104] run function hoenn:tools/forceclick
+tp @a[x=-991,y=79,z=-1280,dx=8,dy=3,scores={GameVersion=1},tag=!Dialogue104] -987 29 -1281
+
+#Sapphire
+execute as @a[x=-991,y=79,z=-1280,dx=8,dy=3,scores={GameVersion=2},tag=!Dialogue104] run function hoenn:tools/forceclick
+tp @a[x=-991,y=79,z=-1280,dx=8,dy=3,scores={GameVersion=2},tag=!Dialogue104] -987 7 -1281
+
+#Return
+execute as @a[x=-989,y=6,z=-1280,dx=3,dy=50,scores={GameVersion=1},tag=!Dialogue104] run function hoenn:tools/forceclick
+execute as @a[x=-989,y=6,z=-1280,dx=3,dy=50,scores={GameVersion=2},tag=!Dialogue104] run function hoenn:tools/forceclick
+tp @a[x=-989,y=6,z=-1280,dx=3,dy=50] -987 79 -1279
 
 
 #-------------------------------------------------------------------------

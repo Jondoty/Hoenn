@@ -316,6 +316,10 @@ scoreboard players set @s[x=2137,y=170,z=-798,dx=42,dy=15,dz=35,scores={MusicCoo
 playsound roomofglory record @s[x=616,y=0,z=-3337,dx=35,dy=256,dz=40,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=616,y=0,z=-3337,dx=35,dy=256,dz=40,scores={MusicCooldown=0}] MusicCooldown 105
 
+#Weather Institute (Team Takeover)
+playsound explosiveencounters record @s[x=-1023,y=3,z=-1326,dx=73,dy=44,dz=51,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1023,y=3,z=-1326,dx=73,dy=44,dz=51,scores={MusicCooldown=0}] MusicCooldown 102
+
 #---------------------------------------------------------------------------------------------------------------------------
 #Pokemon Centers
 
