@@ -45,17 +45,17 @@ execute as @s[tag=!CobalionCatch,tag=!CobalionEncounter] run tag @s remove Dialo
 execute as @s[tag=!TerrakionCatch,tag=!TerrakionEncounter] run tag @s remove Dialogue235
 execute as @s[tag=!VirizionCatch,tag=!VirizionEncounter] run tag @s remove Dialogue236
 execute as @s[tag=!RaikouEncounter,tag=!RaikouEncounter] run tag @s remove Dialogue237
-execute as @s[tag=!EnteiCatch,tag=!EnteiCatch] run tag @s remove Dialogue238
-execute as @s[tag=!SuicuneCatch,tag=!SuicuneCatch] run tag @s remove Dialogue239
-execute as @s[tag=!ReshiramCatch,tag=!ReshiramCatch] run tag @s remove Dialogue269
-execute as @s[tag=!ZekromCatch,tag=!ZekromCatch] run tag @s remove Dialogue270
-execute as @s[tag=!KyuremCatch,tag=!KyuremCatch] run tag @s remove Dialogue271
-execute as @s[tag=!UxieCatch,tag=!UxieCatch] run tag @s remove Dialogue272
-execute as @s[tag=!AzelfCatch,tag=!AzelfCatch] run tag @s remove Dialogue273
-execute as @s[tag=!MespritCatch,tag=!MespritCatch] run tag @s remove Dialogue274
-execute as @s[tag=!HeatranCatch,tag=!HeatranCatch] run tag @s remove Dialogue225
-execute as @s[tag=!HoohCatch,tag=!HoohCatch] run tag @s remove Dialogue220
-execute as @s[tag=!LugiaCatch,tag=!LugiaCatch] run tag @s remove Dialogue221
+execute as @s[tag=!EnteiCatch,tag=!EnteiEncounter] run tag @s remove Dialogue238
+execute as @s[tag=!SuicuneCatch,tag=!SuicuneEncounter] run tag @s remove Dialogue239
+execute as @s[tag=!ReshiramCatch,tag=!ReshiramEncounter] run tag @s remove Dialogue269
+execute as @s[tag=!ZekromCatch,tag=!ZekromEncounter] run tag @s remove Dialogue270
+execute as @s[tag=!KyuremCatch,tag=!KyuremEncounter] run tag @s remove Dialogue271
+execute as @s[tag=!UxieCatch,tag=!UxieEncounter] run tag @s remove Dialogue272
+execute as @s[tag=!AzelfCatch,tag=!AzelfEncounter] run tag @s remove Dialogue273
+execute as @s[tag=!MespritCatch,tag=!MespritEncounter] run tag @s remove Dialogue274
+execute as @s[tag=!HeatranCatch,tag=!HeatranEncounter] run tag @s remove Dialogue225
+execute as @s[tag=!HoohCatch,tag=!HoohEncounter] run tag @s remove Dialogue220
+execute as @s[tag=!LugiaCatch,tag=!LugiaEncounter] run tag @s remove Dialogue221
 
 #Rayquaza space prompt
 tag @s remove SpacePrompt
@@ -64,6 +64,11 @@ tag @s remove Dialogue206
 #if player is stuck on the screen shaking effect
 tag @s remove ShakeScreen
 
+
+#Refreshes any stuck on advancement achievements
+advancement revoke @s only hoenn:click/npcchatting
+advancement revoke @s only hoenn:click/rocksmashuse
+advancement revoke @s only hoenn:click/signread
 
 
 #If player has no bike, allows them to get another. Or if player relogs between claim and dialogue
