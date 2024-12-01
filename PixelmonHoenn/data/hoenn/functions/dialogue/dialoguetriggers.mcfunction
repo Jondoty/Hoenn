@@ -425,9 +425,23 @@ execute as @p[x=-1879,y=210,z=-3126,distance=..75,tag=Dialogue88] if entity @e[x
 #If player wanders too far, despawns NPC naturally
 execute as @p[x=-2036,y=84,z=-1044,distance=50..80,tag=Dialogue91] if entity @e[type=pixelmon:npc_chatting,x=-2036,y=84,z=-1044,dy=3] run tp @e[type=pixelmon:npc_chatting,x=-2036,y=84,z=-1044,dy=3] 10000000 -50000 -10000000
 
+#Dialogue 101 - If Shaymin is in party
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s remove Temp
+execute as @a[x=-560,y=45,z=-623,distance=..5] store result score @s PokeHave run poketest 1 Shaymin
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=-560,y=45,z=-623,distance=..5] store result score @s PokeHave run poketest 2 Shaymin
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=-560,y=45,z=-623,distance=..5] store result score @s PokeHave run poketest 3 Shaymin
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=-560,y=45,z=-623,distance=..5] store result score @s PokeHave run poketest 4 Shaymin
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=-560,y=45,z=-623,distance=..5] store result score @s PokeHave run poketest 5 Shaymin
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s[scores={PokeHave=1}] add Temp
+execute as @a[x=-560,y=45,z=-623,distance=..5] store result score @s PokeHave run poketest 6 Shaymin
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s[scores={PokeHave=1}] add Temp
 
-
-
+scoreboard players set @a[x=-560,y=45,z=-623,distance=..6,tag=!Dialogue101,tag=Temp] DialogueTrigger 101
+execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s remove Temp
 
 
 
@@ -1057,6 +1071,19 @@ execute as @a[x=725,y=73,z=771,distance=..150,tag=!Dialogue100,scores={GameVersi
 
 execute as @a[x=725,y=73,z=771,distance=..150,tag=!Dialogue100,scores={GameVersion=2}] unless entity @e[x=727,y=74,z=762,distance=..5,type=pixelmon:statue] run summon pixelmon:statue 727 74 762 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Tackle", MovePP: 35b}, {MoveID: "Growth", MovePP: 20b}, {MoveID: "Poison Powder", MovePP: 35b}, {MoveID: "Sleep Powder", MovePP: 15b}], Invulnerable: 0b, statueTexture: 0b, Gender: 1b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 19b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 22b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [707.5183364748955d, 64.0d, 982.4129032492638d], IVSpeed: 21b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 20s, IVAttack: 3b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 28s, IVHP: 6b, EVHP: 0s, ndex: 380, StatsSpecialDefense: 27s, Age: 0, Nature: 18b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 39s, Health: 20, Animate: 1b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [0.0f, 0.0f], StatsSpeed: 21s, StatsAttack: 20s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 14b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 
+#Dialogue 103 - Weather Institute
+#Team admin pre-battle
+execute as @a[x=-1001,y=38,z=-1310,dx=12,dy=6,dz=17,tag=!Dialogue103] run scoreboard players set @s DialogueTrigger 103
+execute as @a[x=-1001,y=16,z=-1310,dx=12,dy=6,dz=17,tag=!Dialogue103] run scoreboard players set @s DialogueTrigger 103
+
+#Dialogue 104 - Post-Battle
+scoreboard players set @a[x=-1001,y=38,z=-1310,dx=12,dy=6,dz=17,nbt={Inventory:[{id:"minecraft:nether_brick"}]},tag=!Dialogue104] DialogueTrigger 104
+scoreboard players set @a[x=-1001,y=16,z=-1310,dx=12,dy=6,dz=17,nbt={Inventory:[{id:"minecraft:nether_brick"}]},tag=!Dialogue104] DialogueTrigger 104
+
+#tps out temp NPCs in main area
+execute as @a[x=-962,y=55,z=-1317,distance=..15,tag=Dialogue104] run tp @e[x=-1001,y=61,z=-1306,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute as @a[x=-962,y=55,z=-1317,distance=..15,tag=Dialogue104] run tp @e[x=-1000,y=61,z=-1300,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+
 #----------------------------------------------
 #Dialogue 105 - Route 119
 #Rival Pre-Battle
@@ -1075,6 +1102,10 @@ execute as @a[x=-867,y=79,z=-1300,distance=..20,tag=Dialogue105,tag=!Dialogue106
 execute as @a[x=-867,y=79,z=-1300,distance=..30,nbt={Inventory:[{id:"minecraft:nether_brick"}]}] run scoreboard players set @s DialogueTrigger 106
 
 #----------------------------------------------
+#Dialogue 111 - Fortree City Steven walking off
+execute as @a[x=-516,y=84,z=-1412,distance=..30,tag=!Dialogue111] unless entity @e[x=-497,y=83,z=-1412,dx=30,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -496 84 -1412 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Steven", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "pkmn_breeder_f", NameIndex: 2, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.8142326f, -2.5619934f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-495.5d, 84.0d, -1411.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "steven.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @a[x=-516,y=84,z=-1412,distance=..15,tag=!Dialogue111] run scoreboard players set @s DialogueTrigger 111
+
 #Dialogue 139 - Mossdeep City
 #Steven giving Dive, V1 abridged just in his house after the gym
 execute as @a[x=1388,y=46,z=-1042,distance=..5,tag=Dialogue138,tag=!Dialogue139] run scoreboard players set @s DialogueTrigger 139

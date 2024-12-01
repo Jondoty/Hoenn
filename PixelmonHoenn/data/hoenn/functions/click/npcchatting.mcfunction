@@ -471,6 +471,9 @@ execute as @s[x=-630,y=66,z=-1391,distance=..5,tag=!Item54Give] run give @s mine
 execute as @s[x=-630,y=66,z=-1391,distance=..5,tag=!Item54Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=-630,y=66,z=-1391,distance=..5,tag=!Item54Give] run tag @s add Item54Give
 
+#Hidden Power Hands Lady
+execute as @s[x=-609,y=67,z=-1441,distance=..5,tag=!Dialogue107] run tag @s remove Dialogue107
+execute as @s[x=-609,y=67,z=-1441,distance=..5,tag=!Dialogue107] run scoreboard players set @s DialogueTrigger 107
 
 #Route 120
 execute as @s[x=-366,y=84,z=-1048,distance=..5,tag=!Item55Give] run give @s pixelmon:iapapa_berry

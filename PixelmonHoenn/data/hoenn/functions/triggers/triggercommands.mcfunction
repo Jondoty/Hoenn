@@ -152,16 +152,19 @@ execute as @s[scores={TriggerCommand=22}] run scoreboard players set @s Dialogue
 #Dialogues 107 - 110, hidden power lady coin flips
 
 #Incorrect hands
-execute as @s[scores={TriggerCommand=23}] run
+execute as @s[scores={TriggerCommand=23}] run tellraw @s {"text":"<Old Woman> No, too bad. You guessed wrong."}
+execute as @s[scores={TriggerCommand=23}] run tag @s remove Dialogue107
+execute as @s[scores={TriggerCommand=23}] run tag @s remove Dialogue108
+execute as @s[scores={TriggerCommand=23}] run tag @s remove Dialogue109
 
 #First correct hand
-execute as @s[scores={TriggerCommand=24}] run
+execute as @s[scores={TriggerCommand=24}] run scoreboard players set @s DialogueTrigger 108
 
 #Second correct hand
-execute as @s[scores={TriggerCommand=25}] run
+execute as @s[scores={TriggerCommand=25}] run scoreboard players set @s DialogueTrigger 109
 
 #Third correct hand
-execute as @s[scores={TriggerCommand=26}] run
+execute as @s[scores={TriggerCommand=26}] run scoreboard players set @s DialogueTrigger 110
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 115, Kecleon in Fortree

@@ -4208,19 +4208,20 @@ execute as @s[scores={DialogueTrigger=100,TalkTime=350}] run advancement grant @
 tag @s[scores={DialogueTrigger=100,TalkTime=350..}] add Dialogue100
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 101 - Route 123
-#Berry Master's House if Shaymin is in the room
+#Berry Master's House if Shaymin is in your party
 #https://youtu.be/MgkqxXCmrtI?t=33690
-tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"Golly! You have a Shaymin!"}
-tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"Speaking of Shaymin, do you have a Gracidea?"}
-tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"I have many Gracidea right now, so I'll give you one."}
+tellraw @s[scores={DialogueTrigger=101,TalkTime=5}] {"text":"<Rich Boy> Golly! You have a Shaymin!"}
+tellraw @s[scores={DialogueTrigger=101,TalkTime=12}] {"text":"<Rich Boy> Speaking of Shaymin, do you have a Gracidea?"}
+tellraw @s[scores={DialogueTrigger=101,TalkTime=19}] {"text":"<Rich Boy> I have many Gracidea right now, so I'll give you one."}
 
-execute as @s[scores={DialogueTrigger=101,TalkTime=1}] run give @s pixelmon:gracidea
+execute as @s[scores={DialogueTrigger=101,TalkTime=25}] run give @s pixelmon:gracidea
+execute as @s[scores={DialogueTrigger=101,TalkTime=25}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"In the Sinnoh region, there's an old custom that they give a bouquet of Gracidea to convey gratitude."}
-tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"In other words, if you give Gracidea, you can express your feeling even without saying it."}
-tellraw @s[scores={DialogueTrigger=101,TalkTime=1}] {"text":"For a shy person like me, there's nothing more useful than this."}
+tellraw @s[scores={DialogueTrigger=101,TalkTime=30}] {"text":"<Rich Boy> In the Sinnoh region, there's an old custom that they give a bouquet of Gracidea to convey gratitude."}
+tellraw @s[scores={DialogueTrigger=101,TalkTime=40}] {"text":"<Rich Boy> In other words, if you give Gracidea, you can express your feeling even without saying it."}
+tellraw @s[scores={DialogueTrigger=101,TalkTime=48}] {"text":"<Rich Boy> For a shy person like me, there's nothing more useful than this."}
 
-tag @s[scores={DialogueTrigger=101,TalkTime=100..}] add Dialogue101
+tag @s[scores={DialogueTrigger=101,TalkTime=48..}] add Dialogue101
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 102 - Weather Institute
 #Overhearing Team Admin
@@ -4228,33 +4229,33 @@ tag @s[scores={DialogueTrigger=101,TalkTime=100..}] add Dialogue101
 
 #tp to overhead shot
 
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> Just...what..."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> is this..."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> D-d-did Leader Maxie know that it would happen like this?!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Scientist> Curse you! The precious results of my research! GIVE THEM BACK!!!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> Oh, shut it!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Scientist> Augh?!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<...> Steady on! Are you all right?!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> Just what is going on around here?!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> Ahyahya! Even I, Tabitha, am feeling all discombobulated."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> Leader Maxie!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> What are you trying to do?!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> ...To the world. ...To us."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> ...To Team Magma."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Magma Tabitha> This can never, ever be forgiven!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Just...what..."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> is this..."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> D-d-did Leader Maxie know that it would happen like this?!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Scientist> Curse you! The precious results of my research! GIVE THEM BACK!!!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Oh, shut it!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Scientist> Augh?!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<...> Steady on! Are you all right?!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Just what is going on around here?!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Ahyahya! Even I, Tabitha, am feeling all discombobulated."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Leader Maxie!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> What are you trying to do?!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> ...To the world. ...To us."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> ...To Team Magma."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> This can never, ever be forgiven!"}
 
 
 
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> Could it be?"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> Is this the world... Archie hoped to create..."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Scientist> Curse you! The precious results of my research! GIVE THEM BACK!!!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> Shut your mouth!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Scientist> Augh?!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<...> Steady on! Are you all right?!"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> Fine, I'll give it back."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> I'll give it back, all right?"}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> The awakening of the super-ancient Pokémon will bring about extreme weather."}
-tellraw @s[scores={DialogueTrigger=102,TalkTime=1}] {"text":"<Team Aqua Shelly> If this happened all over the world, what would become of Pokémon, not to mention people?"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> Could it be?"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> Is this the world... Archie hoped to create..."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Scientist> Curse you! The precious results of my research! GIVE THEM BACK!!!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> Shut your mouth!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Scientist> Augh?!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<...> Steady on! Are you all right?!"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> Fine, I'll give it back."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> I'll give it back, all right?"}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> The awakening of the super-ancient Pokémon will bring about extreme weather."}
+tellraw @s[scores={DialogueTrigger=102,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> If this happened all over the world, what would become of Pokémon, not to mention people?"}
 
 #tps player back to stairs
 
@@ -4264,104 +4265,113 @@ tag @s[scores={DialogueTrigger=102,TalkTime=100..}] add Dialogue102
 #Pre-Battle with Admin
 #https://youtu.be/MgkqxXCmrtI?t=36165
 
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Magma Tabitha> Ahya. Are you one of my fans?"}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Magma Tabitha> You're that same kid who's always popping up!"}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Magma Tabitha> I can't believe you're even following me around in my private life."}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Magma Tabitha> Ahyahya! Well, that's all right!"}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Magma Tabitha> Maybe I'll just clear up this intensely unpleasant feeling I have welling up inside of me..."}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Magma Tabitha> By beating you to a pulp!"}
+
+tellraw @s[scores={DialogueTrigger=103,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Ahya. Are you one of my fans?"}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=8,GameVersion=1}] {"text":"<Team Magma Tabitha> You're that same kid who's always popping up!"}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=16,GameVersion=1}] {"text":"<Team Magma Tabitha> I can't believe you're even following me around in my private life."}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=24,GameVersion=1}] {"text":"<Team Magma Tabitha> Ahyahya! Well, that's all right!"}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=31,GameVersion=1}] {"text":"<Team Magma Tabitha> Maybe I'll just clear up this intensely unpleasant feeling I have welling up inside of me..."}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=41,GameVersion=1}] {"text":"<Team Magma Tabitha> By beating you to a pulp!"}
 
 
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> Oh my! I even run into you when I'm not on the clock!"}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> I wonder why that is..."}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> Maybe we're destined to be together... Ahaha!"}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> Wanna know something?"}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> I'm feeling so empty and downhearted right now."}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> I can't get my head straight."}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> Umm? Help me take my mind off it."}
-tellraw @s[scores={DialogueTrigger=103,TalkTime=1}] {"text":"<Team Aqua Shelly> The way you and your Pokémon battle so straightforwardly and sincerely with such hope, it makes me so mad!"}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> Oh my! I even run into you when I'm not on the clock!"}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=9,GameVersion=2}] {"text":"<Team Aqua Shelly> I wonder why that is..."}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=16,GameVersion=2}] {"text":"<Team Aqua Shelly> Maybe we're destined to be together... Ahaha!"}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=23,GameVersion=2}] {"text":"<Team Aqua Shelly> Wanna know something?"}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=30,GameVersion=2}] {"text":"<Team Aqua Shelly> I'm feeling so empty and downhearted right now."}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=37,GameVersion=2}] {"text":"<Team Aqua Shelly> I can't get my head straight."}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=44,GameVersion=2}] {"text":"<Team Aqua Shelly> Umm? Help me take my mind off it."}
+tellraw @s[scores={DialogueTrigger=103,TalkTime=51,GameVersion=2}] {"text":"<Team Aqua Shelly> The way you and your Pokémon battle so straightforwardly and sincerely with such hope, it makes me so mad!"}
 
-tag @s[scores={DialogueTrigger=103,TalkTime=100..}] add Dialogue103
+tag @s[scores={DialogueTrigger=103,TalkTime=51..}] add Dialogue103
 #---------------------------------
 #Dialogue 104 - Weather Institute
-#Pre-Battle with Admin
+#Post-Battle with Admin
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> Hah... Hah... Ahya... Ahya..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> Good grief... Today has been absolutely nothing but stress! I can't take it... It's so unpleasant!"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> You better listen, you stress-inducing child."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> When Leader Maxie's plan has been executed, twilight will fall upon the world."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> The Primordial Sea will be changed to Desolate Land."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> In other words, all life... Child!"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> What do you think you can do in the face of that which is to come?"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> I'm looking forward to seeing you rush into action!"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> Ahya! Ahyahyahyahya!"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Magma Tabitha> The Leader should be headed for Mt. Pyre... Which means I..."}
+clear @s[scores={DialogueTrigger=104}] minecraft:nether_brick
+tellraw @s[scores={DialogueTrigger=104,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Hah... Hah... Ahya... Ahya..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=8,GameVersion=1}] {"text":"<Team Magma Tabitha> Good grief... Today has been absolutely nothing but stress! I can't take it... It's so unpleasant!"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=18,GameVersion=1}] {"text":"<Team Magma Tabitha> You better listen, you stress-inducing child."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=25,GameVersion=1}] {"text":"<Team Magma Tabitha> When Leader Maxie's plan has been executed, twilight will fall upon the world."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=34,GameVersion=1}] {"text":"<Team Magma Tabitha> The Primordial Sea will be changed to Desolate Land."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=41,GameVersion=1}] {"text":"<Team Magma Tabitha> In other words, all life... Child!"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=48,GameVersion=1}] {"text":"<Team Magma Tabitha> What do you think you can do in the face of that which is to come?"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=56,GameVersion=1}] {"text":"<Team Magma Tabitha> I'm looking forward to seeing you rush into action!"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=64,GameVersion=1}] {"text":"<Team Magma Tabitha> Ahya! Ahyahyahyahya!"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=71,GameVersion=1}] {"text":"<Team Magma Tabitha> The Leader should be headed for Mt. Pyre... Which means I..."}
+
+
+tellraw @s[scores={DialogueTrigger=104,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Shelly> ..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=6,GameVersion=2}] {"text":"<Team Aqua Shelly> Hmmph. I feel a bit more relaxed... Thanks."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=13,GameVersion=2}] {"text":"<Team Aqua Shelly> As a token of my gratitude, I'll tell you one thing."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=20,GameVersion=2}] {"text":"<Team Aqua Shelly> When Team Aqua's..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=27,GameVersion=2}] {"text":"<Team Aqua Shelly> No, when the illustrious Archie's ambitions have been realized, the world will truly return to its beginnings,"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=39,GameVersion=2}] {"text":"<Team Aqua Shelly> to before the birth of anything at all..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=46,GameVersion=2}] {"text":"<Team Aqua Shelly> Think for yourself about what to do when you're up against that reality."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=55,GameVersion=2}] {"text":"<Team Aqua Shelly> I still haven't figured out for myself what's wrong and what's right..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=64,GameVersion=2}] {"text":"<Team Aqua Shelly> See ya. I'm sure I'll run into you again, though."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=72,GameVersion=2}] {"text":"<Team Aqua Shelly> Archie is probably on the way to Mt. Pyre... So I..."}
+
 #tp out
+execute as @s[scores={DialogueTrigger=104,TalkTime=77}] run effect give @s minecraft:blindness 3 1 true
+execute as @s[scores={DialogueTrigger=104,TalkTime=77}] run function hoenn:tools/forceclick
+execute as @s[scores={DialogueTrigger=104,TalkTime=78}] at @s run tp @s ~ 61 ~ ~ ~
+execute as @s[scores={DialogueTrigger=104,TalkTime=79}] unless entity @e[x=-1001,y=61,z=-1306,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1001 61 -1306 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Scientist", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "scientist_m", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.842825f, -2.5490923f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-1000.5d, 61.0d, -1305.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "scientist_m.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=104,TalkTime=79}] unless entity @e[x=-1000,y=61,z=-1300,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -1000 61 -1300 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Rich Boy", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "richboy", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [1.5228803f, 0.0f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-999.5d, 39.0d, -1299.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "richboy.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> ..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> Hmmph. I feel a bit more relaxed... Thanks."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> As a token of my gratitude, I'll tell you one thing."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> When Team Aqua's..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> No, when the illustrious Archie's ambitions have been realized, the world will truly return to its beginnings,"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> to before the birth of anything at all..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> Think for yourself about what to do when you're up against that reality."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> I still haven't figured out for myself what's wrong and what's right..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> See ya. I'm sure I'll run into you again, though."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Team Aqua Shelly> Archie is probably on the way to Mt. Pyre... So I..."}
-#tp out
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Thank you, young one. You helped save us from quite a pinch!"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<...> You OK there, mate?"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=82}] {"text":"<Institute Professor> Thank you, young one. You helped save us from quite a pinch!"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=90}] {"text":"<...> You OK there, mate?"}
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Scientist> Hah... Hah... That truly was a slap in the face..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=97}] {"text":"<Scientist> Hah... Hah... That truly was a slap in the face..."}
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Those thieves..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> What could they hope to gain by investigating the extreme weather patterns of thousands of years ago?"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Oh, but I am forgetting myself!"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> First I must thank you properly for your help."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> It might seem an odd way of rewarding you, but please take this Pokémon as my thanks."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=105}] {"text":"<Institute Professor> Those thieves..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=112}] {"text":"<Institute Professor> What could they hope to gain by investigating the extreme weather patterns of thousands of years ago?"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=122}] {"text":"<Institute Professor> Oh, but I am forgetting myself!"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=130}] {"text":"<Institute Professor> First I must thank you properly for your help."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=137}] {"text":"<Institute Professor> It might seem an odd way of rewarding you, but please take this Pokémon as my thanks."}
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Castform!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=104,TalkTime=1}] run pokegive @s castform
-execute as @s[scores={DialogueTrigger=104,TalkTime=1}] run give @s pixelmon:mystic_water
+tellraw @s[scores={DialogueTrigger=104,TalkTime=147}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" received Castform!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=104,TalkTime=147}] run pokegive @s castform helditem:mystic_water
+execute as @s[scores={DialogueTrigger=104,TalkTime=147}] run playsound minecraft:eggget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Castform is a Pokémon that changes its form according to the current weather conditions."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> We have many of them living here in the Institute with us."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> They help us with our research of weather phenomena."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> But as for the data those ruffians were seeking..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> They wanted to know about the extreme weather conditions that ruled thousands of years ago because of those two super-ancient Pokémon."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=153}] {"text":"<Institute Professor> Castform is a Pokémon that changes its form according to the current weather conditions."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=162}] {"text":"<Institute Professor> We have many of them living here in the Institute with us."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=170}] {"text":"<Institute Professor> They help us with our research of weather phenomena."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=177}] {"text":"<Institute Professor> But as for the data those ruffians were seeking..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=185}] {"text":"<Institute Professor> They wanted to know about the extreme weather conditions that ruled thousands of years ago because of those two super-ancient Pokémon."}
 
 #Ruby line
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> One of that pair was the Legendary Pokémon we know as mighty Groudon..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> By absorbing the energy that abounds in the natural world, Groudon transformed itself—or so it is said."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> The transformed Groudon caused so much disturbance to the weather patterns that the world grew barren."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> The heat it created dried up the oceans, and the parched land covered more and more of the planet."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> We refer to this transformation as Primal Reversion..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> The result of it is the terror we call Primal Groudon."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Primal Reversion is a possible form of Evolution, like and yet not like Mega Evolution..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Or so it has been theorized."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> But it has never been achieved by any Pokémon other than the super-ancient Legendary Pokémon,"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> and so it has been largely forgotten as a method of Evolution."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=196,GameVersion=1}] {"text":"<Institute Professor> One of that pair was the Legendary Pokémon we know as mighty Groudon..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=205,GameVersion=1}] {"text":"<Institute Professor> By absorbing the energy that abounds in the natural world, Groudon transformed itself—or so it is said."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=215,GameVersion=1}] {"text":"<Institute Professor> The transformed Groudon caused so much disturbance to the weather patterns that the world grew barren."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=225,GameVersion=1}] {"text":"<Institute Professor> The heat it created dried up the oceans, and the parched land covered more and more of the planet."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=235,GameVersion=1}] {"text":"<Institute Professor> We refer to this transformation as Primal Reversion..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=243,GameVersion=1}] {"text":"<Institute Professor> The result of it is the terror we call Primal Groudon."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=250,GameVersion=1}] {"text":"<Institute Professor> Primal Reversion is a possible form of Evolution, like and yet not like Mega Evolution..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=259,GameVersion=1}] {"text":"<Institute Professor> Or so it has been theorized."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=266,GameVersion=1}] {"text":"<Institute Professor> But it has never been achieved by any Pokémon other than the super-ancient Legendary Pokémon,"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=276,GameVersion=1}] {"text":"<Institute Professor> and so it has been largely forgotten as a method of Evolution."}
 
 #Sapphire line
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> One of that pair was the Legendary Pokémon we know as mighty Kyogre..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> By absorbing the energy that abounds in the natural world, Kyogre transformed itself—or so it is said."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> The transformed Kyogre caused so much disturbance to the weather patterns that the world was assaulted by torrential rains,"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> and the seas rose around the planet."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> We refer to this transformation as Primal Reversion..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Its result is the terror we call Primal Kyogre."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Primal Reversion is a possible form of Evolution, like and yet not like Mega Evolution..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> Or so it has been theorized."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> But it has never been achieved by any Pokémon other than the super-ancient Legendary Pokémon,"}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Institute Professor> and so it has been largely forgotten as a method of Evolution."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=196,GameVersion=2}] {"text":"<Institute Professor> One of that pair was the Legendary Pokémon we know as mighty Kyogre..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=205,GameVersion=2}] {"text":"<Institute Professor> By absorbing the energy that abounds in the natural world, Kyogre transformed itself—or so it is said."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=215,GameVersion=2}] {"text":"<Institute Professor> The transformed Kyogre caused so much disturbance to the weather patterns that the world was assaulted by torrential rains,"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=226,GameVersion=2}] {"text":"<Institute Professor> and the seas rose around the planet."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=233,GameVersion=2}] {"text":"<Institute Professor> We refer to this transformation as Primal Reversion..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=240,GameVersion=2}] {"text":"<Institute Professor> Its result is the terror we call Primal Kyogre."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=247,GameVersion=2}] {"text":"<Institute Professor> Primal Reversion is a possible form of Evolution, like and yet not like Mega Evolution..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=256,GameVersion=2}] {"text":"<Institute Professor> Or so it has been theorized."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=265,GameVersion=2}] {"text":"<Institute Professor> But it has never been achieved by any Pokémon other than the super-ancient Legendary Pokémon,"}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=276,GameVersion=2}] {"text":"<Institute Professor> and so it has been largely forgotten as a method of Evolution."}
 
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Scientist> If you'll excuse us then..."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Scientist> We'll be heading downstairs now, but talk to us when you have a moment."}
-tellraw @s[scores={DialogueTrigger=104,TalkTime=1}] {"text":"<Scientist> We want to thank you as well."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=284}] {"text":"<Scientist> If you'll excuse us then..."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=291}] {"text":"<Scientist> We'll be heading downstairs now, but talk to us when you have a moment."}
+tellraw @s[scores={DialogueTrigger=104,TalkTime=300}] {"text":"<Scientist> We want to thank you as well."}
 
-#tps scientist and other person out
+#tps player to normal variant of Institute
 
-tag @s[scores={DialogueTrigger=104,TalkTime=100..}] add Dialogue104
+tag @s[scores={DialogueTrigger=104,TalkTime=300..}] add Dialogue104
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 105 - Route 119
 #Rival Pre-Battle
@@ -4471,51 +4481,55 @@ tag @s[scores={DialogueTrigger=106,TalkTime=66..}] add Dialogue106
 #https://youtu.be/MgkqxXCmrtI?t=36919
 
 tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> People... Pokémon..."}
-tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> Their hidden powers are awakened by living in natural environments..."}
-tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> Let this old woman see if your hidden power has awakened."}
-tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> Let's see..."}
-tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> I hold a coin in my hand."}
-tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
-tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 24"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=107,TalkTime=8}] {"text":"<Old Woman> Their hidden powers are awakened by living in natural environments..."}
+tellraw @s[scores={DialogueTrigger=107,TalkTime=16}] {"text":"<Old Woman> Let this old woman see if your hidden power has awakened."}
+tellraw @s[scores={DialogueTrigger=107,TalkTime=23}] {"text":"<Old Woman> Let's see..."}
+tellraw @s[scores={DialogueTrigger=107,TalkTime=30}] {"text":"<Old Woman> I hold a coin in my hand."}
+tellraw @s[scores={DialogueTrigger=107,TalkTime=37}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
+execute as @s[scores={DialogueTrigger=107,TalkTime=37}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=107,TalkTime=37}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 24"}},{"text":"]"}]
 
 #Incorrect answers, runs a TriggerCommands number to reset.
-tellraw @s[scores={DialogueTrigger=107,TalkTime=1}] {"text":"<Old Woman> No, too bad. You guessed wrong."}
 
-tag @s[scores={DialogueTrigger=107,TalkTime=100..}] add Dialogue107
+tag @s[scores={DialogueTrigger=107,TalkTime=37..}] add Dialogue107
 #--------------------------------------
 #Dialogue 108 - Fortree City
 #Hidden Power TM Coin Flip First Dialogue
 #Answers Right Hand
 
-tellraw @s[scores={DialogueTrigger=108,TalkTime=1}] {"text":"<Old Woman> You are correct! Let us try again."}
-tellraw @s[scores={DialogueTrigger=108,TalkTime=1}] {"text":"<Old Woman> I hold a coin in my hand."}
-tellraw @s[scores={DialogueTrigger=108,TalkTime=1}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
-tellraw @s[scores={DialogueTrigger=108,TalkTime=1}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 25"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=108,TalkTime=2}] {"text":"<Old Woman> You are correct! Let us try again."}
+tellraw @s[scores={DialogueTrigger=108,TalkTime=10}] {"text":"<Old Woman> I hold a coin in my hand."}
+execute as @s[scores={DialogueTrigger=108,TalkTime=17}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=108,TalkTime=17}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
+tellraw @s[scores={DialogueTrigger=108,TalkTime=17}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 25"}},{"text":"]"}]
 
-tag @s[scores={DialogueTrigger=108,TalkTime=100..}] add Dialogue108
+tag @s[scores={DialogueTrigger=108,TalkTime=17..}] add Dialogue108
 #--------------------------------------
 #Dialogue 109 - Fortree City
 #Right Hand Second Time
 
-tellraw @s[scores={DialogueTrigger=109,TalkTime=1}] {"text":"<Old Woman> Yes, correct again! We shall try once more."}
-tellraw @s[scores={DialogueTrigger=109,TalkTime=1}] {"text":"<Old Woman> I hold a coin in my hand."}
-tellraw @s[scores={DialogueTrigger=109,TalkTime=1}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
-tellraw @s[scores={DialogueTrigger=109,TalkTime=1}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 26"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=109,TalkTime=2}] {"text":"<Old Woman> Yes, correct again! We shall try once more."}
+tellraw @s[scores={DialogueTrigger=109,TalkTime=10}] {"text":"<Old Woman> I hold a coin in my hand."}
+tellraw @s[scores={DialogueTrigger=109,TalkTime=17}] {"text":"<Old Woman> Now tell me, which hand holds the coin, the right hand or the left?"}
+execute as @s[scores={DialogueTrigger=109,TalkTime=17}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=109,TalkTime=17}] ["",{"text":"["},{"text":"Left hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 26"}},{"text":"] \u0020["},{"text":"Right hand","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 23"}},{"text":"]"}]
 
-tag @s[scores={DialogueTrigger=109,TalkTime=100..}] add Dialogue109
+tag @s[scores={DialogueTrigger=109,TalkTime=17..}] add Dialogue109
 #--------------------------------------
 #Dialogue 110 - Fortree City
 #Left Hand final answer
 
+execute as @s[scores={DialogueTrigger=110,TalkTime=1}] run playsound minecraft:entity.firework_rocket.twinkle ambient @s ~ ~ ~ 1 1 1
 tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"<Old Woman> Splendid! Your hidden power has awakened!"}
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"<Old Woman> Here, take this and awaken the hidden power of your Pokémon."}
+tellraw @s[scores={DialogueTrigger=110,TalkTime=10}] {"text":"<Old Woman> Here, take this and awaken the hidden power of your Pokémon."}
 
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM10 Hidden Power!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=110,TalkTime=1}] run give @s pixelmon:tm_gen6{tm:10s}
+tellraw @s[scores={DialogueTrigger=110,TalkTime=17}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained TM10 Hidden Power!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=110,TalkTime=17}] run give @s pixelmon:tm_gen6{tm:10s}
+execute as @s[scores={DialogueTrigger=110,TalkTime=17}] run playsound minecraft:tmget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=110,TalkTime=1}] {"text":"<Old Woman> Hidden Power varies in type depending on the Pokémon using it."}
+tellraw @s[scores={DialogueTrigger=110,TalkTime=25}] {"text":"<Old Woman> Hidden Power varies in type depending on the Pokémon using it."}
 
-tag @s[scores={DialogueTrigger=110,TalkTime=100..}] add Dialogue110
+tag @s[scores={DialogueTrigger=110,TalkTime=25..}] add Dialogue110
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 111 - Fortree City
 #Steven Stone
@@ -4524,11 +4538,15 @@ tag @s[scores={DialogueTrigger=110,TalkTime=100..}] add Dialogue110
 #tp in separately
 
 tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Steven> Hm..."}
-tellraw @s[scores={DialogueTrigger=111,TalkTime=1}] {"text":"<Steven> It looks as though that Pokémon can be found up on Route 120..."}
+tellraw @s[scores={DialogueTrigger=111,TalkTime=8}] {"text":"<Steven> It looks as though that Pokémon can be found up on Route 120..."}
+
+#Starts walking
 
 #tps off
+execute as @s[scores={DialogueTrigger=111,TalkTime=20}] at @e[x=-497,y=83,z=-1412,dx=30,dy=3,type=pixelmon:npc_chatting] run particle cloud ~ ~ ~ 1 1 1 0.15 300 
+execute as @s[scores={DialogueTrigger=111,TalkTime=20}] run tp @e[x=-497,y=83,z=-1412,dx=30,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=111,TalkTime=100..}] add Dialogue111
+tag @s[scores={DialogueTrigger=111,TalkTime=21..}] add Dialogue111
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 112 - Fortree City
 #Aarune when entering the building

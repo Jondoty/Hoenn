@@ -158,6 +158,9 @@ execute as @a[scores={DialogueTrigger=80,TalkTime=6..21}] at @s run tp @s ~-0.02
 execute as @a[scores={DialogueTrigger=80,TalkTime=6..21}] at @s run tp @s ~ ~ ~ 163 27
 execute if entity @a[scores={DialogueTrigger=80,TalkTime=14..21}] as @e[x=-2465,y=94,z=-1104,distance=..30,nbt={Name:"Rival"}] run data merge entity @s {Motion:[0.35,0.0,0.35],Rotation:[-45f,0.0f]}
 
+#Dialogue 111 - Foretree City Steven walking off
+execute as @a[scores={DialogueTrigger=111,TalkTime=13..20}] as @e[x=-497,y=83,z=-1412,dx=30,dy=3,type=pixelmon:npc_chatting] run data merge entity @s {Motion:[0.25,0.0,0.0],Rotation:[-90f,0.0f]}
+
 #-----------------------------------------------------------------------------------------
 
 #Road Blocks
