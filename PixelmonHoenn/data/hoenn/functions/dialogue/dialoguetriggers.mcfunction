@@ -443,7 +443,10 @@ execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s[scores={PokeHave=1}] a
 scoreboard players set @a[x=-560,y=45,z=-623,distance=..6,tag=!Dialogue101,tag=Temp] DialogueTrigger 101
 execute as @a[x=-560,y=45,z=-623,distance=..5] run tag @s remove Temp
 
-
+#Dialogue 113 - Steven and Kecleon Devon Scope
+execute as @a[x=-359,y=85,z=-1357,distance=..8,tag=!Dialogue113] run scoreboard players set @s DialogueTrigger 113
+execute as @a[x=-362,y=85,z=-1354,distance=..30,tag=Dialogue113,tag=!Dialogue114,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s DialogueTrigger 114
+execute as @a[x=-322,y=79,z=-1355,distance=..10,tag=!Dialogue114] unless entity @e[x=-359,y=85,z=-1357,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -359 85.6 -1357 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Steven", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "jonsnow", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.49925363f, -3.750684f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-358.5d, 85.5d, -1356.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "steven.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
 #------------------------------------------------
 

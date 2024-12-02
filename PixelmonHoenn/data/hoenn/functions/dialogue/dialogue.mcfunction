@@ -4573,65 +4573,74 @@ tag @s[scores={DialogueTrigger=112,TalkTime=100..}] add Dialogue112
 #https://youtu.be/MgkqxXCmrtI?t=37852
 
 tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> Hm?"}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"? So, we meet again."}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> How has it been? Have you been using the Mega Bracelet wisely?"}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> I suppose I needn't even ask, though."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> Not when it comes to you and your team."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> I wonder... Have you noticed? Hm?"}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> There's something here you can't see."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> Now, if I were to use this device on the invisible obstacle..."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> No, no... Rather than describing it, I should just show you."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> That should be more entertaining."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> Are you and your Pokémon ready for battle?"}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> I want you to take this."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> Try it on. I'm sure it will fit you."}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" slipped the Devon Scope on.","italic":true,"color":"gray"}]
+execute at @s[scores={DialogueTrigger=113,TalkTime=3}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=113,TalkTime=8}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"? So, we meet again."}]
+tellraw @s[scores={DialogueTrigger=113,TalkTime=15}] {"text":"<Steven> How has it been? Have you been using the Mega Bracelet wisely?"}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=23}] {"text":"<Steven> I suppose I needn't even ask, though."}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=30}] {"text":"<Steven> Not when it comes to you and your team."}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=37}] {"text":"<Steven> I wonder... Have you noticed? Hm?"}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=44}] {"text":"<Steven> There's something here you can't see."}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=52}] {"text":"<Steven> Now, if I were to use this device on the invisible obstacle..."}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=60}] {"text":"<Steven> No, no... Rather than describing it, I should just show you."}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=67}] {"text":"<Steven> That should be more entertaining."}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=74}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=113,TalkTime=71}] {"text":"<Steven> I want you to take this."}
+execute as @s[scores={DialogueTrigger=113,TalkTime=71}] run give @s pixelmon:devon_scope
+execute as @s[scores={DialogueTrigger=113,TalkTime=71}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+tellraw @s[scores={DialogueTrigger=113,TalkTime=79}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" turned the Devon Scope on.","italic":true,"color":"gray"}]
 
 #changes Kecleon to visible
+execute as @s[scores={DialogueTrigger=113,TalkTime=84}] run playsound entity.vex.charge ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=113,TalkTime=85..89}] run particle minecraft:composter -363 86 -1354 1 1 1 10 100
+execute as @s[scores={DialogueTrigger=113,TalkTime=90}] run summon pixelmon:statue -363 86 -1354 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Tackle", MovePP: 35b}, {MoveID: "Leech Seed", MovePP: 10b}, {MoveID: "Razor Leaf", MovePP: 25b}, {MoveID: "Poison Powder", MovePP: 35b}], Invulnerable: 0b, statueTexture: 0b, Gender: 1b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 3b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", UUID: [I; -868147843, 606555299, -2086090330, -1505133965], Ability: "Overgrow", IVDefense: 4b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [-362.54212959577285d, 86.0d, -1353.5384330986697d], IVSpeed: 1b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 20s, IVAttack: 29b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 25s, IVHP: 12b, EVHP: 0s, ndex: 352, StatsSpecialDefense: 26s, Age: 0, Nature: 21b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 40s, Health: 20, Animate: 1b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [269.24585f, 0.0f], StatsSpeed: 18s, StatsAttack: 21s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 8b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> A previously invisible Pokémon became visible to the naked eye!"}
-tellraw @s[scores={DialogueTrigger=113,TalkTime=1}] {"text":"<Steven> The startled Pokémon attacked!"}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=93}] {"text":"A previously invisible Pokémon became visible to the naked eye!","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=113,TalkTime=100}] {"text":"The startled Pokémon attacked!","italic":true,"color":"gray"}
+execute as @s[scores={DialogueTrigger=113,TalkTime=100}] run particle cloud ~ ~ ~ 2 2 2 0.15 500
+execute as @s[scores={DialogueTrigger=113,TalkTime=100}] run tp @e[x=-363,y=86,z=-1354,distance=..2,type=pixelmon:statue] 10000000 -50000 -10000000
 
-execute as @s[scores={DialogueTrigger=113,TalkTime=1}] run pokebattle @s kecleon lvl:30
+execute as @s[scores={DialogueTrigger=113,TalkTime=100}] run pokebattle @s kecleon
+#/pokespawn Kecleon lvl:30 aggressive gr:7
 
 tag @s[scores={DialogueTrigger=113,TalkTime=100..}] add Dialogue113
 #-----------------------------
 #Dialogue 114 - Route 120
 #Post Kecleon Battle
 
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> Just as I expected. That's called a Devon Scope."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> It's a fantastic piece of tech that lets you see Pokémon in hiding."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> Consider it a gift from me. Take it."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=3}] {"text":"<Steven> Just as I expected. That's called a Devon Scope."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=11}] {"text":"<Steven> It's a fantastic piece of tech that lets you see Pokémon in hiding."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=20}] {"text":"<Steven> Consider it a gift from me. Take it."}
 
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Devon Scope!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=114,TalkTime=27}] {"text":"<Steven> And one more thing..."}
 
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> And one more thing..."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=34,StarterPick=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Sceptilite!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=114,TalkTime=34,StarterPick=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Blazikenite!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=114,TalkTime=34,StarterPick=3}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Swampertite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=114,TalkTime=34,StarterPick=1}] run give @s pixelmon:sceptilite
+execute as @s[scores={DialogueTrigger=114,TalkTime=34,StarterPick=2}] run give @s pixelmon:blazikenite
+execute as @s[scores={DialogueTrigger=114,TalkTime=34,StarterPick=3}] run give @s pixelmon:swampertite
+execute as @s[scores={DialogueTrigger=114,TalkTime=34}] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Sceptilite!","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Swampertite!","italic":true,"color":"gray"}]
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained Blazikenite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s pixelmon:sceptilite
-execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s pixelmon:swampertite
-execute as @s[scores={DialogueTrigger=114,TalkTime=1}] run give @s pixelmon:blazikenite
-
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> This stone ranks as one of my top five favorite stones in existence."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> I have no doubt that your Pokémon will like it, too."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] ["",{"text":"<Steven> You know, "},{"selector":"@s"},{"text":"... I like to see Trainers and Pokémon who are trying their best."}]
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> That's why I like you so much."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=41}] {"text":"<Steven> This stone ranks as one of my top five favorite stones in existence."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=50}] {"text":"<Steven> I have no doubt that your Pokémon will like it, too."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=57}] ["",{"text":"<Steven> You know, "},{"selector":"@s"},{"text":"... I like to see Trainers and Pokémon who are trying their best."}]
+tellraw @s[scores={DialogueTrigger=114,TalkTime=67}] {"text":"<Steven> That's why I like you so much."}
 
 #summon exclamation
 
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> Hm?"}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> It seemed as though something just..."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> shone for a moment in your Bag."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> I'm sure I sensed the power of some kind of stone..."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> A Meteorite...? No, it couldn't be..."}
-tellraw @s[scores={DialogueTrigger=114,TalkTime=1}] {"text":"<Steven> Let's meet again someday."}
+execute at @s[scores={DialogueTrigger=114,TalkTime=73}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=114,TalkTime=74}] {"text":"<Steven> Hm?"}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=80}] {"text":"<Steven> It seemed as though something just..."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=87}] {"text":"<Steven> shone for a moment in your Bag."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=94}] {"text":"<Steven> I'm sure I sensed the power of some kind of stone..."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=102}] {"text":"<Steven> A Meteorite...? No, it couldn't be..."}
+tellraw @s[scores={DialogueTrigger=114,TalkTime=110}] {"text":"<Steven> Let's meet again someday."}
 
 #tp Steven out
+execute as @s[scores={DialogueTrigger=114,TalkTime=117}] run particle cloud -359 85.5 -1357 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=114,TalkTime=117}] run tp @e[type=pixelmon:npc_chatting,x=-359,y=85,z=-1357,dy=3] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=114,TalkTime=100..}] add Dialogue114
+tag @s[scores={DialogueTrigger=114,TalkTime=117..}] add Dialogue114
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 115 - Fortree City
 #Prompt for Kecleon blocking gym

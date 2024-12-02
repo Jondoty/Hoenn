@@ -1,5 +1,5 @@
 #Keeps just me specifically in creative to prevent crashes from trainers
-execute as Jond run gamemode creative @s[gamemode=adventure]
+#execute as Jond run gamemode creative @s[gamemode=adventure]
 
 #Adds the first command block check tag
 tag @e[x=-2070,y=65,z=1410,dy=5] add VerifyCommands
@@ -185,7 +185,9 @@ execute as @a[x=-997,y=0,z=1382,dx=276,dy=61,dz=194,gamemode=spectator] at @s ru
 execute as @a[x=-997,y=205,z=1382,dx=276,dy=50,dz=194,gamemode=spectator] at @s run tp @s ~ ~-5 ~
 
 
-
+#Route 120 Kecleon blocking until Devon Scope
+execute if block -362 86 -1351 barrier run fill -364 86 -1350 -362 92 -1358 air replace barrier
+execute as @a[x=-361,y=80,z=-1358,dx=10,dy=10,dz=8,tag=!Dialogue113] run fill -364 86 -1350 -362 92 -1358 barrier replace air
 
 
 #Acro Bike paths on foot
