@@ -57,6 +57,7 @@ tag @s remove Room7
 tag @s remove GroudonParticles
 tag @s remove KyogreParticles
 tag @s remove RoomVisit
+tag @s remove KecleonHint
 
 
 #Removes Mega Stone Fount tags

@@ -189,6 +189,9 @@ execute as @a[x=-997,y=205,z=1382,dx=276,dy=50,dz=194,gamemode=spectator] at @s 
 execute if block -362 86 -1351 barrier run fill -364 86 -1350 -362 92 -1358 air replace barrier
 execute as @a[x=-361,y=80,z=-1358,dx=10,dy=10,dz=8,tag=!Dialogue113] run fill -364 86 -1350 -362 92 -1358 barrier replace air
 
+#Fortree City Kecleon blocking
+execute if block -569 84 -1418 barrier run fill -569 84 -1413 -556 88 -1419 air replace barrier
+execute as @a[x=-569,y=83,z=-1427,dx=13,dy=8,dz=8,tag=!Dialogue116] run fill -569 84 -1413 -556 89 -1419 barrier replace air
 
 #Acro Bike paths on foot
 #Safari Zone

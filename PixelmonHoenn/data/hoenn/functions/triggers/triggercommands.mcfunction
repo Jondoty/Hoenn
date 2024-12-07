@@ -169,7 +169,7 @@ execute as @s[scores={TriggerCommand=26}] run scoreboard players set @s Dialogue
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 115, Kecleon in Fortree
 
-execute as @s[scores={TriggerCommand=27}] run
+execute as @s[scores={TriggerCommand=27}] run scoreboard players set @s DialogueTrigger 116
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 122, Evolite fisherman questions

@@ -4645,23 +4645,29 @@ tag @s[scores={DialogueTrigger=114,TalkTime=117..}] add Dialogue114
 #Dialogue 115 - Fortree City
 #Prompt for Kecleon blocking gym
 
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"There's an invisible obstacle in your way."}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"Would you like to use the Devon Scope?"}
-tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 27"}},{"text":"]"}]
+tellraw @s[scores={DialogueTrigger=115,TalkTime=1}] {"text":"There's an invisible obstacle in your way.","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=115,TalkTime=8}] {"text":"Would you like to use the Devon Scope?","italic":true,"color":"gray"}
+execute as @s[scores={DialogueTrigger=115,TalkTime=8}] run scoreboard players enable @s TriggerCommand
+tellraw @s[scores={DialogueTrigger=115,TalkTime=8}] ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 27"}},{"text":"]"}]
 
-tag @s[scores={DialogueTrigger=115,TalkTime=100..}] add Dialogue115
+tag @s[scores={DialogueTrigger=115,TalkTime=8..}] add Dialogue115
 #-------------------------------
 #Dialogue 116 - Fortree City
 #Revealing Kecleon
 
 #summons a statue
 
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] {"text":"A previously invisible Pokémon became visible to the naked eye!","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=116,TalkTime=1}] {"text":"The startled Kecleon fled!","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=116,TalkTime=2}] {"text":"A previously invisible Pokémon became visible to the naked eye!","italic":true,"color":"gray"}
+execute as @s[scores={DialogueTrigger=116,TalkTime=2}] run playsound entity.vex.charge ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=116,TalkTime=3..10}] run particle minecraft:composter -563 84 -1416 1 1 1 10 100
+execute as @s[scores={DialogueTrigger=116,TalkTime=7}] run summon pixelmon:statue -563 84 -1416 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Tackle", MovePP: 35b}, {MoveID: "Leech Seed", MovePP: 10b}, {MoveID: "Razor Leaf", MovePP: 25b}, {MoveID: "Poison Powder", MovePP: 35b}], Invulnerable: 0b, statueTexture: 0b, Gender: 1b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 3b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", UUID: [I; -868147843, 606555299, -2086090330, -1505133965], Ability: "Overgrow", IVDefense: 4b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, Pos: [-362.54212959577285d, 86.0d, -1353.5384330986697d], IVSpeed: 1b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 20s, IVAttack: 29b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 25s, IVHP: 12b, EVHP: 0s, ndex: 352, StatsSpecialDefense: 26s, Age: 0, Nature: 21b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 40s, Health: 20, Animate: 1b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [269.24585f, 0.0f], StatsSpeed: 18s, StatsAttack: 21s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 8b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 
 #tps out
+execute as @s[scores={DialogueTrigger=116,TalkTime=13}] run particle cloud -563 84 -1416 2 2 2 0.15 500
+execute as @s[scores={DialogueTrigger=116,TalkTime=13}] run tp @e[x=-563,y=84,z=-1416,distance=..2,type=pixelmon:statue] 10000000 -50000 -10000000
+tellraw @s[scores={DialogueTrigger=116,TalkTime=13}] {"text":"The startled Kecleon fled!","italic":true,"color":"gray"}
 
-tag @s[scores={DialogueTrigger=116,TalkTime=100..}] add Dialogue116
+tag @s[scores={DialogueTrigger=116,TalkTime=14..}] add Dialogue116
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 117 - Fortree Gym
 #Winona Pre-Battle
@@ -4711,16 +4717,19 @@ tag @s[scores={DialogueTrigger=118,TalkTime=77..}] add Dialogue118
 #Team Grunts
 #https://youtu.be/MgkqxXCmrtI?t=40620
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Magma Grunt> All right! We are leaving for Mt. Pyre!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Magma Grunt> We are going to obtain that orb before Team Aqua does!"}
+tellraw @s[scores={DialogueTrigger=275,TalkTime=3,GameVersion=1}] {"text":"<Team Magma Grunt> All right! We are leaving for Mt. Pyre!"}
+tellraw @s[scores={DialogueTrigger=275,TalkTime=11,GameVersion=1}] {"text":"<Team Magma Grunt> We are going to obtain that orb before Team Aqua does!"}
 
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Aqua Grunt> OK! We're moving out to Mt. Pyre!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Aqua Grunt> We're getting our hands on that orb before Team Magma does!"}
+tellraw @s[scores={DialogueTrigger=275,TalkTime=3,GameVersion=2}] {"text":"<Team Aqua Grunt> OK! We're moving out to Mt. Pyre!"}
+tellraw @s[scores={DialogueTrigger=275,TalkTime=11,GameVersion=2}] {"text":"<Team Aqua Grunt> We're getting our hands on that orb before Team Magma does!"}
 
 #tps out
+execute as @s[scores={DialogueTrigger=275,TalkTime=19}] at @e[type=pixelmon:npc_chatting,x=16,y=84,z=-1049,distance=..5] run particle cloud ~ ~ ~ 1 1 1 0.15 300 
+execute as @s[scores={DialogueTrigger=275,TalkTime=19}] run tp @e[type=pixelmon:npc_chatting,x=16,y=84,z=-1049,distance=..5] 10000000 -50000 -10000000
 
-tag @s[scores={DialogueTrigger=119,TalkTime=100..}] add Dialogue119
+
+tag @s[scores={DialogueTrigger=275,TalkTime=19..}] add Dialogue275
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 119 - Mt. Pyre
 #Leader taking orb
@@ -4728,122 +4737,149 @@ tag @s[scores={DialogueTrigger=119,TalkTime=100..}] add Dialogue119
 
 #cut to overhead
 
+execute at @s[scores={DialogueTrigger=119,TalkTime=1,GameVersion=1}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=119,TalkTime=3,GameVersion=1}] {"text":"<Maxie> Hmph..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=9,GameVersion=1}] {"text":"<Maxie> So it was you..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=16,GameVersion=1}] {"text":"<Maxie> I'm sorry I had to postpone my defeat of you at Mt. Chimney."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=24,GameVersion=1}] {"text":"<Maxie> And now, I am sorry that I have to postpone it once more."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=31,GameVersion=1}] {"text":"<Maxie> I cannot afford to waste even a single second now."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=38,GameVersion=1}] {"text":"<Maxie> For the Red Orb which has long been enshrined here at Mt. Pyre..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=46,GameVersion=1}] {"text":"<Maxie> Now belongs to me, the great Maxie!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=53,GameVersion=1}] {"text":"<Maxie> Courtney."}
+execute at @s[scores={DialogueTrigger=119,TalkTime=53,GameVersion=1}] as @e[x=1605,y=247,z=2361,type=pixelmon:npc_chatting,distance=..3] run data merge entity @s {Rotation:[-90f,0.0f]}
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> Hmph..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> So it was you..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> I'm sorry I had to postpone my defeat of you at Mt. Chimney."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> And now, I am sorry that I have to postpone it once more."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> I cannot afford to waste even a single second now."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> For the Red Orb which has long been enshrined here at Mt. Pyre..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> Now belongs to me, the great Maxie!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> Courtney."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=60,GameVersion=1}] {"text":"<Team Magma Cortney> ...Ha."}
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Magma Cortney> ...Ha."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=66,GameVersion=1}] {"text":"<Maxie> You must see to it that our dear visitor is not neglected due to my inability to battle now..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=76,GameVersion=1}] {"text":"<Maxie> Do be so kind as to battle them with the full measure of your strength..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=85,GameVersion=1}] {"text":"<Maxie> and crush this child so that they will never again for a single moment dream of defying our team!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=95,GameVersion=1}] {"text":"<Maxie> Fufufu..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=102,GameVersion=1}] {"text":"<Maxie> With this Red Orb in my possession, I have no need for the power of the Meteorite to awaken the beast from the deep!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=113,GameVersion=1}] {"text":"<Maxie> All that I need now is a way to reach the place where it sleeps..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=121,GameVersion=1}] {"text":"<Maxie> The only task remaining is obtaining the submarine being constructed in Slateport!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=130,GameVersion=1}] {"text":"<Maxie> We move out at once, team!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=137,GameVersion=1}] {"text":"<Maxie> Our next destination...Slateport City!"}
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> You must see to it that our dear visitor is not neglected due to my inability to battle now..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> Do be so kind as to battle them with the full measure of your strength..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> and crush this child so that they will never again for a single moment dream of defying our team!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> Fufufu..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> With this Red Orb in my possession, I have no need for the power of the Meteorite to awaken the beast from the deep!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> All that I need now is a way to reach the place where it sleeps..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> The only task remaining is obtaining the submarine being constructed in Slateport!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> We move out at once, team!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Maxie> Our next destination...Slateport City!"}
+#Maxie tps out
+execute as @s[scores={DialogueTrigger=119,TalkTime=144,GameVersion=1}] run particle cloud 1605 247 2361 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=119,TalkTime=144,GameVersion=1}] run tp @e[type=pixelmon:npc_chatting,x=1605,y=247,z=2361,distance=..3] 10000000 -50000 -10000000
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Magma Cortney> ..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Magma Cortney> ...Analyzing."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Magma Cortney> ...Hah. ♪"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=147,GameVersion=1}] {"text":"<Team Magma Cortney> ..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=153,GameVersion=1}] {"text":"<Team Magma Cortney> ...Analyzing."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=160,GameVersion=1}] {"text":"<Team Magma Cortney> ...Hah. ♪"}
 
 
+execute at @s[scores={DialogueTrigger=119,TalkTime=1,GameVersion=2}] as @e[type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=119,TalkTime=3,GameVersion=2}] {"text":"<Archie> Yo."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=9,GameVersion=2}] {"text":"<Archie> I thought something was a bit noisy, and who is it but the usual scamp!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=18,GameVersion=2}] {"text":"<Archie> Sorry, scampo, but I'm afraid I just don't have time to play with you right now."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=27,GameVersion=2}] {"text":"<Archie> The Blue Orb that's long been enshrined here at Mt. Pyre..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=35,GameVersion=2}] {"text":"<Archie> It belongs to Team Aqua now!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=42,GameVersion=2}] {"text":"<Archie> ...Ma-a-att!"}
+execute at @s[scores={DialogueTrigger=119,TalkTime=42,GameVersion=2}] as @e[x=1605,y=247,z=2361,type=pixelmon:npc_chatting,distance=..3] run data merge entity @s {Rotation:[-90f,0.0f]}
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> Yo."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> I thought something was a bit noisy, and who is it but the usual scamp!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> Sorry, scampo, but I'm afraid I just don't have time to play with you right now."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> The Blue Orb that's long been enshrined here at Mt. Pyre..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> It belongs to Team Aqua now!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> ...Ma-a-att!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=49,GameVersion=2}] {"text":"<Team Aqua Matt> Oh! Boss!"}
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Aqua Matt> Oh! Boss!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=56,GameVersion=2}] {"text":"<Archie> How about you do a favor for our lively little visitor, and keep them entertained?"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=65,GameVersion=2}] {"text":"<Archie> You'd better use your full strength, too, so you don't offend our honored guest!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=74,GameVersion=2}] {"text":"<Archie> Bwahahahaha! With this Blue Orb in my hands, I won't even need the power of the Meteorite to awaken the beast from the deep!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=86,GameVersion=2}] {"text":"<Archie> All I need now is a way to get to the place where it sleeps..."}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=94,GameVersion=2}] {"text":"<Archie> All I have to do is get that submarine they're making in Slateport!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=103,GameVersion=2}] {"text":"<Archie> Come on, boys! We're for Slateport City!"}
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> How about you do a favor for our lively little visitor, and keep them entertained?"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> You'd better use your full strength, too, so you don't offend our honored guest!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> Bwahahahaha! With this Blue Orb in my hands, I won't even need the power of the Meteorite to awaken the beast from the deep!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> All I need now is a way to get to the place where it sleeps..."}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> All I have to do is get that submarine they're making in Slateport!"}
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Archie> Come on, boys! We're for Slateport City!"}
+#Archie tps out
+execute as @s[scores={DialogueTrigger=119,TalkTime=110,GameVersion=2}] run particle cloud 1605 247 2361 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=119,TalkTime=110,GameVersion=2}] run tp @e[type=pixelmon:npc_chatting,x=1605,y=247,z=2361,distance=..3] 10000000 -50000 -10000000
 
-tellraw @s[scores={DialogueTrigger=119,TalkTime=1}] {"text":"<Team Aqua Matt> All right then, until the Boss makes his getaway, I'll be your opponent!"}
+tellraw @s[scores={DialogueTrigger=119,TalkTime=114,GameVersion=2}] {"text":"<Team Aqua Matt> All right then, until the Boss makes his getaway, I'll be your opponent!"}
+execute as @s[scores={DialogueTrigger=119,TalkTime=114,GameVersion=2}] run scoreboard players add @s TalkTime 30
 
-tag @s[scores={DialogueTrigger=119,TalkTime=100..}] add Dialogue119
+tag @s[scores={DialogueTrigger=119,TalkTime=144..}] add Dialogue119
 #------------------------
 #Dialogue 120 - Mt. Pyre
 #Post admin battle
 #https://youtu.be/MgkqxXCmrtI?t=44251
 
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Team Magma Cortney> ...Again? That's unanticipated."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Team Magma Cortney> ...I knew it. You...are interesting! ...Haha. ♪"}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Team Magma Cortney> I'm looking forward to..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Team Magma Cortney> I'm looking forward to... When we...can meet again."}
+clear @s[scores={DialogueTrigger=120}] minecraft:nether_brick
 
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Team Aqua Matt> That was fun! I knew you'd show me a good time!"}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Team Aqua Matt> I look forward to facing you again someday!"}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Cortney> ...Again? That's unanticipated."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=8,GameVersion=1}] {"text":"<Team Magma Cortney> ...I knew it. You...are interesting! ...Haha. ♪"}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=16,GameVersion=1}] {"text":"<Team Magma Cortney> I'm looking forward to..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=23,GameVersion=1}] {"text":"<Team Magma Cortney> I'm looking forward to... When we...can meet again."}
+
+tellraw @s[scores={DialogueTrigger=120,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> That was fun! I knew you'd show me a good time!"}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=10,GameVersion=2}] {"text":"<Team Aqua Matt> I look forward to facing you again someday!"}
 
 
 #tp admins out
+execute as @s[scores={DialogueTrigger=120,TalkTime=30,GameVersion=1}] run particle cloud 1611 247 2361 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=120,TalkTime=30,GameVersion=1}] run tp @e[type=pixelmon:npc_trainer,x=1611,y=247,z=2361,distance=..3] 10000000 -50000 -10000000
+
+execute as @s[scores={DialogueTrigger=120,TalkTime=17,GameVersion=2}] run particle cloud 1611 247 2361 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=120,TalkTime=17,GameVersion=2}] run tp @e[type=pixelmon:npc_trainer,x=1611,y=247,z=2361,distance=..3] 10000000 -50000 -10000000
+execute as @s[scores={DialogueTrigger=120,TalkTime=17,GameVersion=2}] run scoreboard players add @s TalkTime 13 
 
 
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Man> Aye, me, what disaster..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Man> The Red Orb... Stolen from our safekeeping..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> The Red Orb and Blue Orb must never be separated. They belong together..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=33}] {"text":"<Old Man> Aye, me, what disaster..."}
 
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Man> The Blue Orb... Stolen from our safekeeping..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> The Blue Orb and Blue Orb must never be separated. They belong together..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=40,GameVersion=1}] {"text":"<Old Man> The Red Orb... Stolen from our safekeeping..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=48,GameVersion=1}] {"text":"<Old Man> The Red Orb and Blue Orb must never be separated. They belong together..."}
 
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> Mmm..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> I will entrust the remaining Blue Orb to you, young one."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=40,GameVersion=2}] {"text":"<Old Man> The Blue Orb... Stolen from our safekeeping..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=48,GameVersion=2}] {"text":"<Old Man> The Blue Orb and Blue Orb must never be separated. They belong together..."}
 
-execute as @s[scores={DialogueTrigger=120,TalkTime=1}] run give @s pixelmon:blue_orb
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a ","italic":true,"color":"gray"},{"text":"Blue Orb","italic":true,"color":"dark_blue"},{"text":"!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=120,TalkTime=57}] {"text":"<Old Man> Mmm..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=64,GameVersion=1}] {"text":"<Old Man> I will entrust the remaining Blue Orb to you, young one."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=64,GameVersion=2}] {"text":"<Old Man> I will entrust the remaining Red Orb to you, young one."}
 
-execute as @s[scores={DialogueTrigger=120,TalkTime=1}] run give @s pixelmon:red_orb
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a ","italic":true,"color":"gray"},{"text":"Red Orb","italic":true,"color":"dark_red"},{"text":"!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=120,TalkTime=71,GameVersion=1}] run give @s pixelmon:blue_orb
+tellraw @s[scores={DialogueTrigger=120,TalkTime=71,GameVersion=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a ","italic":true,"color":"gray"},{"text":"Blue Orb","italic":true,"color":"dark_blue"},{"text":"!","italic":true,"color":"gray"}]
 
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> And I beg you..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> Chase after those thieves and take back their orb! That wretched leader of theirs..."}
-tellraw @s[scores={DialogueTrigger=120,TalkTime=1}] {"text":"<Old Lady> I'm sure he said they were headed for Slateport City next..."}
+execute as @s[scores={DialogueTrigger=120,TalkTime=71,GameVersion=2}] run give @s pixelmon:red_orb
+tellraw @s[scores={DialogueTrigger=120,TalkTime=71,GameVersion=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a ","italic":true,"color":"gray"},{"text":"Red Orb","italic":true,"color":"dark_red"},{"text":"!","italic":true,"color":"gray"}]
 
-tag @s[scores={DialogueTrigger=120,TalkTime=100..}] add Dialogue120
+execute as @s[scores={DialogueTrigger=120,TalkTime=71}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+
+tellraw @s[scores={DialogueTrigger=120,TalkTime=78}] {"text":"<Old Man> And I beg you..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=85}] {"text":"<Old Man> Chase after those thieves and take back their orb! That wretched leader of theirs..."}
+tellraw @s[scores={DialogueTrigger=120,TalkTime=95}] {"text":"<Old Man> I'm sure he said they were headed for Slateport City next..."}
+
+tag @s[scores={DialogueTrigger=120,TalkTime=95..}] add Dialogue120
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 121 - Route 123
 #Poochyena giving mega stone
 #https://youtu.be/MgkqxXCmrtI?t=45180
 
 tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Poochyena> Gromp gromp gromp..."}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"It seems like something is bothering Chomper... Could you give it a little scratch?","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Poochyena> Grrrmph! Rahk! Hack!"}
+tellraw @s[scores={DialogueTrigger=121,TalkTime=8}] {"text":"It seems like something is bothering Chomper... Could you give it a little scratch?","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=121,TalkTime=17}] {"text":"<Poochyena> Grrrmph! Rahk! Hack!"}
 
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Gyaradosite!","italic":true,"color":"gray"}]
-execute as @s[scores={DialogueTrigger=121,TalkTime=1}] run give @s pixelmon:gyaradosite
+tellraw @s[scores={DialogueTrigger=121,TalkTime=24}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained a Gyaradosite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=121,TalkTime=24}] run give @s pixelmon:gyaradosite
+execute as @s[scores={DialogueTrigger=121,TalkTime=24}] run playsound minecraft:megastoneget ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=121,TalkTime=1}] {"text":"<Poochyena> Grrromp!"}
+tellraw @s[scores={DialogueTrigger=121,TalkTime=31}] {"text":"<Poochyena> Grrromp!"}
 
-tag @s[scores={DialogueTrigger=121,TalkTime=100..}] add Dialogue121
+tag @s[scores={DialogueTrigger=121,TalkTime=31..}] add Dialogue121
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 122 - Route 123
 
 #Dialogue, if player picks Magikarp
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> Oh, exactly! You get it, don't you?"}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> I'll have to give you something special I've been holding onto!"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> Play along with an old man, would you? Tell me which Pokémon you like best. Magikarp or Gyarados?"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=11}] {"text":"<Fisherman> Magikarp?"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=18}] {"text":"<Fisherman> Oh, exactly! You get it, don't you?"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=25}] {"text":"<Fisherman> I'll have to give you something special I've been holding onto!"}
 
-execute as @s[scores={DialogueTrigger=122,TalkTime=1}] run give @s pixelmon:eviolite
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained an Eviolite!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=122,TalkTime=33}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=122,TalkTime=33}] run give @s pixelmon:eviolite
+tellraw @s[scores={DialogueTrigger=122,TalkTime=33}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained an Eviolite!","italic":true,"color":"gray"}]
 
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> That there will boost the Defense and Sp. Def of a Pokémon that can still evolve!"}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> I have my precious Magikarp hold one. Huhuhuhu..."}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> Unevolved Pokémon just get me right there, you know?"}
-tellraw @s[scores={DialogueTrigger=122,TalkTime=1}] {"text":"<Fisherman> They're like... Like a bud that hasn't yet bloomed!"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=40}] {"text":"<Fisherman> That there will boost the Defense and Sp. Def of a Pokémon that can still evolve!"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=50}] {"text":"<Fisherman> I have my precious Magikarp hold one. Huhuhuhu..."}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=58}] {"text":"<Fisherman> Unevolved Pokémon just get me right there, you know?"}
+tellraw @s[scores={DialogueTrigger=122,TalkTime=66}] {"text":"<Fisherman> They're like... Like a bud that hasn't yet bloomed!"}
 
-tag @s[scores={DialogueTrigger=122,TalkTime=100..}] add Dialogue122
+tag @s[scores={DialogueTrigger=122,TalkTime=66..}] add Dialogue122
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 123 - Slateport City
 #Slateport Harbor
@@ -10415,6 +10451,10 @@ execute as @s[scores={DialogueTrigger=274,TalkTime=10}] run tellraw @s ["",{"tex
 tag @s[scores={DialogueTrigger=274,TalkTime=10..}] add Dialogue274
 
 #-----------------------------------------------------------------------------------------------------
+
+#Dialogue275 used @118-119
+#
+
 
 #Helpful points of reference
 

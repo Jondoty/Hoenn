@@ -31,6 +31,14 @@ execute as @s[tag=!LandorusEncounter,tag=Dialogue264] run tag @s remove Dialogue
 #Groudon or Kyogre prompts but then relog
 execute as @s[tag=Dialogue140,tag=!Dialogue141,tag=!Dialogue142] run tag @s remove Dialogue140
 
+#Hidden Power TM Coin Flip lady
+execute as @s[tag=!Dialogue110] run tag @s remove Dialogue107
+execute as @s[tag=!Dialogue110] run tag @s remove Dialogue108
+execute as @s[tag=!Dialogue110] run tag @s remove Dialogue109
+
+#Kecleon prompt but then relog
+execute as @s[tag=Dialogue115,tag=!Dialogue116] run tag @s remove Dialogue115
+
 #Stern's Radar Prompt
 execute as @s[tag=!Dialogue219,tag=Dialogue218] run tag @s remove Dialogue218
 

@@ -46,6 +46,10 @@ execute as @p[x=-954,y=78,z=-1276,distance=..20,scores={GameVersion=2},tag=!Dial
 execute as @p[x=-954,y=78,z=-1276,distance=..20,scores={GameVersion=2},tag=!Dialogue104] unless entity @e[x=-954,y=78,z=-1281,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting -954 79 -1281 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 2, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 1b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "aquagruntmale", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.6893785f, 36.914062f], HandItems: [{}, {}], ChatIndex: 3, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [-953.5d, 80.0d, -1280.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquagruntmale.png", chat1: "Hey, you! Stay away from the Weather Institute. It's not safe.", chat0: "We're standing lookout here. ", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
 
+#Route 120, blocking player before they beat the Fortree Gym
+#Don't have an example but it does
+
+
 #----------
 
 #Gyms

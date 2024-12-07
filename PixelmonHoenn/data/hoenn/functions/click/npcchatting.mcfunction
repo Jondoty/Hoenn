@@ -495,6 +495,8 @@ execute as @s[x=112,y=74,z=-595,distance=..5,tag=!Item58Give] run give @s pixelm
 execute as @s[x=112,y=74,z=-595,distance=..5,tag=!Item58Give] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=112,y=74,z=-595,distance=..5,tag=!Item58Give] run tag @s add Item58Give
 
+execute as @s[x=-391,y=45,z=-654,distance=..5,tag=!Dialogue122,scores={DialogueTrigger=0}] run scoreboard players set @s DialogueTrigger 122
+
 
 #Lilycove City
 
