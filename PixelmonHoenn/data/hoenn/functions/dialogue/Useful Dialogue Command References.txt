@@ -8,7 +8,7 @@ as @e[x=-977,y=64,z=-598,distance=..3,type=pixelmon:npc_chatting] at @s run kill
 particle cloud ~ ~ ~ 1 1 1 0.15 300
 
 #tps things to the graveyard
-tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dx=20,dy=10,dz=15] 10000000 -50000 -10000000
+tp @e[type=pixelmon:npc_chatting,x=-2054,y=68,z=217,dy=3] 10000000 -50000 -10000000
 
 #Have the NPC look in a specific direction
 @e[x=-977,y=64,z=-598,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[0f,0.0f]}
