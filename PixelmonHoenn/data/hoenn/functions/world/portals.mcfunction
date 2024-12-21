@@ -576,8 +576,19 @@ tp @a[x=-1619,y=69,z=271,dx=4,dy=3] -1616 52 270
 tp @a[x=-1618,y=52,z=271,dx=3,dy=3] -1617 69 272
 
 #Slateport Harbor
-tp @a[x=-1412,y=64,z=203,dx=8,dy=3] 2221 79 2594
-tp @a[x=2220,y=79,z=2595,dx=2,dy=3] -1408 64 204
+execute as @a[x=-1412,y=64,z=203,dx=8,dy=3,scores={TalkTime=0}] run tp @e[x=-1408,y=64,z=211,distance=..10,type=pixelmon:npc_chatting] 10000000 -50000 -10000000 
+
+#Teams stealing Submarine
+
+execute as @a[x=-1412,y=64,z=203,dx=8,dy=3,scores={TalkTime=0},tag=Dialogue123,tag=!Dialogue126] run function hoenn:tools/forceclick
+execute as @a[x=2220,y=79,z=2709,dx=3,dy=3,scores={TalkTime=0},tag=Dialogue123,tag=!Dialogue126] run function hoenn:tools/forceclick
+
+tp @a[x=-1412,y=64,z=203,dx=8,dy=3,scores={TalkTime=0},tag=Dialogue123,tag=!Dialogue126] 2221 79 2708
+tp @a[x=2220,y=79,z=2709,dx=2,dy=3,scores={TalkTime=0},tag=Dialogue123,tag=!Dialogue126] -1408 64 204
+
+#No story
+tp @a[x=-1412,y=64,z=203,dx=8,dy=3,scores={TalkTime=0}] 2221 79 2594
+tp @a[x=2220,y=79,z=2595,dx=2,dy=3,scores={TalkTime=0}] -1408 64 204
 
 #Oceanic Museum
 #(Normal branch)
@@ -1108,6 +1119,8 @@ tp @a[x=609,y=31,z=-986,dx=3,dy=3] 611 74 -985
 
 #Lilycove Harbor
 tp @a[x=440,y=74,z=-910,dx=8,dy=3] 2431 79 2594
+
+execute as @a[x=2430,y=79,z=2595,dx=3,dy=3] run tp @e[x=2415,y=78,z=2585,dy=3,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 tp @a[x=2430,y=79,z=2595,dx=3,dy=3] 444 74 -909
 
 

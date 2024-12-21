@@ -31,7 +31,7 @@ title @s[x=2613,y=0,z=2295,dx=149,dy=256,dz=148] actionbar {"text":"Mossdeep Spa
 title @s[x=689,y=0,z=1366,dx=582,dy=256,dz=602] actionbar {"text":"Sootopolis City"}
 title @s[x=-180,y=0,z=97,dx=224,dy=256,dz=299] actionbar {"text":"Pacifidlog Town"}
 title @s[x=2025,y=0,z=-884,dx=338,dy=256,dz=961] actionbar {"text":"Ever Grande City"}
-title @s[x=2162,y=0,z=2521,dx=141,dy=256,dz=84] actionbar {"text":"Slateport Harbor"}
+title @s[x=2162,y=0,z=2521,dx=141,dy=256,dz=179] actionbar {"text":"Slateport Harbor"}
 title @s[x=2368,y=0,z=2523,dx=140,dy=256,dz=92] actionbar {"text":"Lilycove Harbor"}
 
 

@@ -522,9 +522,13 @@ scoreboard players set @s[x=-180,y=0,z=97,dx=224,dy=256,dz=299,scores={MusicCool
 playsound evergrandecity record @s[x=2025,y=0,z=-884,dx=338,dy=256,dz=961,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=2025,y=0,z=-884,dx=338,dy=256,dz=961,scores={MusicCooldown=0}] MusicCooldown 193
 
-#Slateport Harbor
-playsound slateportcity record @s[x=2162,y=0,z=2521,dx=141,dy=256,dz=84,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=2162,y=0,z=2521,dx=141,dy=256,dz=84,scores={MusicCooldown=0}] MusicCooldown 244
+#Slateport Harbor (Team Takeover)
+playsound explosiveencounters record @s[x=2175,y=0,z=2654,dx=141,dy=256,dz=54,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2175,y=0,z=2654,dx=141,dy=256,dz=54,scores={MusicCooldown=0}] MusicCooldown 102
+
+#Slateport Harbor (Normal)
+playsound slateportcity record @s[x=2162,y=0,z=2521,dx=141,dy=256,dz=179,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=2162,y=0,z=2521,dx=141,dy=256,dz=179,scores={MusicCooldown=0}] MusicCooldown 244
 
 
 
