@@ -5288,33 +5288,53 @@ tag @s[scores={DialogueTrigger=130,TalkTime=100..}] add Dialogue130
 
 #Rolls for a random number for display
 
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] ["",{"text":"<Loto Clerk> The Loto Ticket number is "},{"selector":"@e."}]
+#tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] ["",{"text":"<Loto Clerk> The Loto Ticket number is "},{"selector":"@e."}]
 tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> I need to check this number to see if it matches any of your Pokémon's ID numbers."}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> Please wait a moment."}
-
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> Spectacular! A ID number of your team's Pokémon matches your Loto Ticket number!"}
+tellraw @s[scores={DialogueTrigger=131,TalkTime=10}] {"text":"<Loto Clerk> Please wait a moment."}
 
 #Rolls for a random number for a prize
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players set @e[x=-2068,y=64,z=1410,dx=2,dy=4] rng 0
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 1
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 2
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 4
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 8
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 16
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 32
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players add @e[x=-2068,y=64,z=1410,dx=2,dy=4,sort=random,limit=1] rng 64
+execute as @s[scores={DialogueTrigger=131,TalkTime=15}] run scoreboard players operation @s rng = @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand] rng
 
 #Odds:
+#Nothing (33%, 0-42)
+#Master Ball (2%, 43-44)
+#Rare Candy (8%, 45-54)
+#PP Max (16%, 55-74)
+#PP Up (20%, 75-99)
+#Moomoo Milk (21%, 100..)
 
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> My goodness, all five digits matched! You've won the jackpot prize, a Master Ball!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> Four digits matched, so you win first prize! You've won a Rare Candy!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> Three digits matched, so you win second prize, a PP Max!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> Two digits matched, so you win third prize! You've won a PP Up!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> One digit matched, so you win fourth prize! You've won a Moomoo Milk!"}
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> I'm sorry. None of the numbers matched."}
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=43..}] run tellraw @s[scores={DialogueTrigger=131,TalkTime=19}] {"text":"<Loto Clerk> Spectacular! A ID number of your team's Pokémon matches your Loto Ticket number!"}
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=..42}] run tellraw @s[scores={DialogueTrigger=131,TalkTime=19}] {"text":"<Loto Clerk> I'm sorry. None of the numbers matched."}
+
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=43..44}] run tellraw @s[scores={DialogueTrigger=131,TalkTime=27}] {"text":"<Loto Clerk> My goodness, all five digits matched! You've won the jackpot prize, a Master Ball!"}
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=45..54}] run tellraw @s[scores={DialogueTrigger=131,TalkTime=27}] {"text":"<Loto Clerk> Four digits matched, so you win first prize! You've won a Rare Candy!"}
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=55..74}] run tellraw @s[scores={DialogueTrigger=131,TalkTime=27}] {"text":"<Loto Clerk> Three digits matched, so you win second prize, a PP Max!"}
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=75..99}] run tellraw @s[scores={DialogueTrigger=131,TalkTime=27}] {"text":"<Loto Clerk> Two digits matched, so you win third prize! You've won a PP Up!"}
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=100..}] run tellraw @s[scores={DialogueTrigger=131,TalkTime=27}] {"text":"<Loto Clerk> One digit matched, so you win fourth prize! You've won a Moomoo Milk!"}
+
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=43..54}] run playsound minecraft:entity.firework_rocket.launch ambient @s ~ ~ ~ 1 1 1
 
 #Gives prizes
-execute as @s[scores={DialogueTrigger=131,TalkTime=1}] run give @s
-execute as @s[scores={DialogueTrigger=131,TalkTime=1}] run give @s
-execute as @s[scores={DialogueTrigger=131,TalkTime=1}] run give @s
-execute as @s[scores={DialogueTrigger=131,TalkTime=1}] run give @s
-execute as @s[scores={DialogueTrigger=131,TalkTime=1}] run give @s
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=43..44}] as @s[scores={DialogueTrigger=131,TalkTime=34}] run give @s pixelmon:master_ball
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=45..54}] as @s[scores={DialogueTrigger=131,TalkTime=34}] run give @s pixelmon:rare_candy
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=55..74}] as @s[scores={DialogueTrigger=131,TalkTime=34}] run give @s pixelmon:pp_max
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=75..99}] as @s[scores={DialogueTrigger=131,TalkTime=34}] run give @s pixelmon:pp_up
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=100..}] as @s[scores={DialogueTrigger=131,TalkTime=34}] run give @s pixelmon:moomoo_milk
 
-tellraw @s[scores={DialogueTrigger=131,TalkTime=1}] {"text":"<Loto Clerk> We look forward to seeing you again soon!"}
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=43..44}] as @s[scores={DialogueTrigger=131,TalkTime=34}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+execute if entity @e[x=-2068,y=64,z=1410,dy=3,type=armor_stand,scores={rng=45..}] as @s[scores={DialogueTrigger=131,TalkTime=34}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
 
-tag @s[scores={DialogueTrigger=131,TalkTime=100..}] add Dialogue131
+tellraw @s[scores={DialogueTrigger=131,TalkTime=40}] {"text":"<Loto Clerk> We look forward to seeing you again soon!"}
+
+tag @s[scores={DialogueTrigger=131,TalkTime=40..}] add Dialogue131
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 132 - Team Magma Hideout
 #Hoard battle (is this kinda thing possible?)

@@ -48,6 +48,8 @@ tag @a remove CustomLoot51
 tag @a remove Dialogue227
 tag @a remove Dialogue228
 
+#Loto-ID daily reset
+tag @a remove Dialogue131
 
 
 

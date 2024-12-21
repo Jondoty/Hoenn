@@ -500,6 +500,11 @@ execute as @s[x=-391,y=45,z=-654,distance=..5,tag=!Dialogue122,scores={DialogueT
 
 #Lilycove City
 
+#Loto ID Department Store prompt
+execute as @s[x=523,y=30,z=-1108,distance=..5] run scoreboard players enable @s TriggerCommand
+execute as @s[x=523,y=30,z=-1108,distance=..5] run tellraw @s ["",{"text":"<Loto Clerk> This is the Pokémon Lottery Corner. If the Loto Ticket's number matches the ID number of any of your Pokémon, you will receive a fabulous gift. Would you like to try it?\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 33"}},{"text":"] ["},{"text":"No","color":"red","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 34"}},{"text":"]"}]
+
+
 #Random berry of 10, resets daily
 #Some a little less likely than others cause you can get them from another NPC, #5
 execute as @s[x=683,y=89,z=-1089,distance=..5,tag=!Item59Give] run scoreboard players set @e[x=-2068,y=64,z=1410,dx=2,dy=4] rng 0

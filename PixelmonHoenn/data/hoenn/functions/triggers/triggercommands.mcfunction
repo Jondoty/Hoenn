@@ -199,9 +199,11 @@ execute as @s[scores={TriggerCommand=32}] run tellraw @s ["",{"text":"<Captain S
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 130 - Loto ID Yes and No
 
-execute as @s[scores={TriggerCommand=33}] run
+#Yes
+execute as @s[scores={TriggerCommand=33}] run scoreboard players set @s DialogueTrigger 131
 
-execute as @s[scores={TriggerCommand=34}] run
+#No
+execute as @s[scores={TriggerCommand=34}] run tellraw @s {"text":"<Loto Clerk> We look forward to seeing you again soon!"}
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogues 183 & 184, Zinnea yes and no
