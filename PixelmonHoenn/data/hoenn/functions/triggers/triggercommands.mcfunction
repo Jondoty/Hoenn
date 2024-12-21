@@ -188,12 +188,13 @@ execute as @s[scores={TriggerCommand=30}] run tellraw @s {"text":"<Fisherman> Th
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 126-127, Captain Stern prompt
 
-#No
-execute as @s[scores={TriggerCommand=31}] run scoreboard players enable @s TriggerCommand
-execute as @s[scores={TriggerCommand=31}] run tellraw @s ["",{"text":"<Captain Stern> O-oh... Tell me if you change your mind. There's no one else I can ask...\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 32"}},{"text":"]"}]
-
 #Yes
-execute as @s[scores={TriggerCommand=32}] run scoreboard players set @s DialogueTrigger 127
+execute as @s[scores={TriggerCommand=31}] run scoreboard players set @s DialogueTrigger 127
+
+#No
+execute as @s[scores={TriggerCommand=32}] run scoreboard players enable @s TriggerCommand
+execute as @s[scores={TriggerCommand=32}] run tellraw @s ["",{"text":"<Captain Stern> O-oh... Tell me if you change your mind. There's no one else I can ask...\n["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 32"}},{"text":"]"}]
+
 
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 130 - Loto ID Yes and No
