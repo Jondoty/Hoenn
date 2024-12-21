@@ -1209,6 +1209,20 @@ execute as @a[x=566,y=74,z=-1055,distance=..20,tag=Dialogue128,tag=!Dialogue129,
 
 execute as @a[x=566,y=74,z=-1046,distance=..20,tag=!Dialogue129,nbt={Inventory:[{id:"minecraft:nether_brick"}]}] run scoreboard players set @s DialogueTrigger 129
 
+#Rocket Hideout
+#Horde trainer
+execute as @a[x=968,y=75,z=-2457,distance=..10,tag=!Dialogue132] run scoreboard players set @s DialogueTrigger 132
+execute as @a[x=1354,y=75,z=-2457,distance=..10,tag=!Dialogue133] run scoreboard players set @s DialogueTrigger 133
+
+execute as @a[x=968,y=75,z=-2457,distance=..10,tag=!Dialogue134,nbt={Inventory:[{id:"minecraft:nether_brick"}]}] run scoreboard players set @s DialogueTrigger 134
+execute as @a[x=1354,y=75,z=-2457,distance=..10,tag=!Dialogue134,nbt={Inventory:[{id:"minecraft:nether_brick"}]}] run scoreboard players set @s DialogueTrigger 134
+
+#Admins
+execute as @a[x=958,y=75,z=-2488,distance=..10,tag=!Dialogue135] run scoreboard players set @s DialogueTrigger 135
+execute as @a[x=1364,y=75,z=-2488,distance=..10,tag=!Dialogue135] run scoreboard players set @s DialogueTrigger 135
+
+execute as @a[x=958,y=75,z=-2488,distance=..10,tag=!Dialogue136,nbt={Inventory:[{id:"minecraft:nether_brick"}]}] run scoreboard players set @s DialogueTrigger 136
+execute as @a[x=1364,y=75,z=-2488,distance=..10,tag=!Dialogue136,nbt={Inventory:[{id:"minecraft:nether_brick"}]}] run scoreboard players set @s DialogueTrigger 136
 
 #----------------------------------------------
 #Seafloor Cavern Legendaries

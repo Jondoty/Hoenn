@@ -5342,17 +5342,17 @@ tag @s[scores={DialogueTrigger=131,TalkTime=40..}] add Dialogue131
 
 tellraw @s[scores={DialogueTrigger=132,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 1> Hehehe!"}
 
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 4> We finally meet again."}
+tellraw @s[scores={DialogueTrigger=132,TalkTime=8,GameVersion=1}] {"text":"<Team Magma Grunt 4> We finally meet again."}
 
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 2> Hm? Ah... Is this the first time we've met?"}
+tellraw @s[scores={DialogueTrigger=132,TalkTime=15,GameVersion=1}] {"text":"<Team Magma Grunt 2> Hm? Ah... Is this the first time we've met?"}
 
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 3> Nincompoop! It doesn't matter!"}
+tellraw @s[scores={DialogueTrigger=132,TalkTime=23,GameVersion=1}] {"text":"<Team Magma Grunt 3> Nincompoop! It doesn't matter!"}
 
-tellraw @s[scores={DialogueTrigger=132,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 5> Brace yourself! We'll show you the power of quintuplets!"}
+tellraw @s[scores={DialogueTrigger=132,TalkTime=30,GameVersion=1}] {"text":"<Team Magma Grunt 5> Brace yourself! We'll show you the power of quintuplets!"}
 
-execute as @s[scores={DialogueTrigger=132,TalkTime=1,GameVersion=1}] run pokebattle
+#execute as @s[scores={DialogueTrigger=132,TalkTime=1,GameVersion=1}] run pokebattle
 
-tag @s[scores={DialogueTrigger=132,TalkTime=100..}] add Dialogue132
+tag @s[scores={DialogueTrigger=132,TalkTime=30..}] add Dialogue132
 #---------------------------------
 #Dialogue 133 - Team Aqua Hideout
 #Hoard battle (is this kinda thing possible?)
@@ -5360,163 +5360,170 @@ tag @s[scores={DialogueTrigger=132,TalkTime=100..}] add Dialogue132
 
 tellraw @s[scores={DialogueTrigger=133,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 1> Teeheehee!"}
 
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 4> We finally meet again."}
+tellraw @s[scores={DialogueTrigger=133,TalkTime=8,GameVersion=2}] {"text":"<Team Aqua Grunt 4> We finally meet again."}
 
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 2> Hm? Ah... Is this the first time we've met?"}
+tellraw @s[scores={DialogueTrigger=133,TalkTime=15,GameVersion=2}] {"text":"<Team Aqua Grunt 2> Hm? Ah... Is this the first time we've met?"}
 
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 3> Nincompoop! It doesn't matter!"}
+tellraw @s[scores={DialogueTrigger=133,TalkTime=23,GameVersion=2}] {"text":"<Team Aqua Grunt 3> Nincompoop! It doesn't matter!"}
 
-tellraw @s[scores={DialogueTrigger=133,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 5> Brace yourself! We'll show you the power of quintuplets!"}
+tellraw @s[scores={DialogueTrigger=133,TalkTime=30,GameVersion=2}] {"text":"<Team Aqua Grunt 5> Brace yourself! We'll show you the power of quintuplets!"}
 
-execute as @s[scores={DialogueTrigger=133,TalkTime=1,GameVersion=2}] run pokebattle
+#execute as @s[scores={DialogueTrigger=133,TalkTime=1,GameVersion=2}] run pokebattle
 
-tag @s[scores={DialogueTrigger=133,TalkTime=100..}] add Dialogue133
+tag @s[scores={DialogueTrigger=133,TalkTime=30..}] add Dialogue133
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 134 - Team Hideout
 #Post quintuplet battle
 #https://youtu.be/MgkqxXCmrtI?t=49431
 
+clear @s[scores={DialogueTrigger=134}] minecraft:nether_brick
+
 tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 1> Hah, hah, hah..."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 1> We lost..."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=8,GameVersion=1}] {"text":"<Team Magma Grunt 1> We lost..."}
 
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 3> It's odd."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 3> I can't believe five of us couldn't defeat just one Trainer."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 3> Did you cheat? Grumble, grumble..."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=15,GameVersion=1}] {"text":"<Team Magma Grunt 3> It's odd."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=21,GameVersion=1}] {"text":"<Team Magma Grunt 3> I can't believe five of us couldn't defeat just one Trainer."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=30,GameVersion=1}] {"text":"<Team Magma Grunt 3> Did you cheat? Grumble, grumble..."}
 
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 2> Nincompoop!"}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 2> You're strong, aren't you? Stop whining!"}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 2> Our leaders are ahead!"}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Grunt 2> You have no chance to defeat them!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=37,GameVersion=1}] {"text":"<Team Magma Grunt 2> Nincompoop!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=44,GameVersion=1}] {"text":"<Team Magma Grunt 2> You're strong, aren't you? Stop whining!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=51,GameVersion=1}] {"text":"<Team Magma Grunt 2> Our leaders are ahead!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=58,GameVersion=1}] {"text":"<Team Magma Grunt 2> You have no chance to defeat them!"}
 
 #tp out
 
 tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 1> Hah, hah, hah..."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 1> We lost..."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=8,GameVersion=2}] {"text":"<Team Aqua Grunt 1> We lost..."}
 
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 3> It's odd."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 3> I can't believe five of us couldn't defeat just one Trainer."}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 3> Did you cheat? Grumble, grumble..."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=15,GameVersion=2}] {"text":"<Team Aqua Grunt 3> It's odd."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=21,GameVersion=2}] {"text":"<Team Aqua Grunt 3> I can't believe five of us couldn't defeat just one Trainer."}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=30,GameVersion=2}] {"text":"<Team Aqua Grunt 3> Did you cheat? Grumble, grumble..."}
 
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 2> Nincompoop!"}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 2> You're strong, aren't you? Stop whining!"}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 2> Our leaders are ahead!"}
-tellraw @s[scores={DialogueTrigger=134,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Grunt 2> You have no chance to defeat them!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=37,GameVersion=2}] {"text":"<Team Aqua Grunt 2> Nincompoop!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=44,GameVersion=2}] {"text":"<Team Aqua Grunt 2> You're strong, aren't you? Stop whining!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=51,GameVersion=2}] {"text":"<Team Aqua Grunt 2> Our leaders are ahead!"}
+tellraw @s[scores={DialogueTrigger=134,TalkTime=58,GameVersion=2}] {"text":"<Team Aqua Grunt 2> You have no chance to defeat them!"}
 
-tag @s[scores={DialogueTrigger=134,TalkTime=100..}] add Dialogue134
+tag @s[scores={DialogueTrigger=134,TalkTime=58..}] add Dialogue134
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 135 - Team Admin Pre-Battle
 #https://youtu.be/MgkqxXCmrtI?t=49471
 #https://youtu.be/XQJjBGOrdPw?t=309 (Aqua)
 
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ... ..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...I knew you would come."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Too bad, though. ...It's all over now. ♪"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...The submarine has been upgraded."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ... ..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=8,GameVersion=1}] {"text":"<Team Magma Courtney> ...I knew you would come."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=15,GameVersion=1}] {"text":"<Team Magma Courtney> ...Too bad, though. ...It's all over now. ♪"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=23,GameVersion=1}] {"text":"<Team Magma Courtney> ...The submarine has been upgraded."}
 
 #Shot of submarine
 
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Look. ♪ ...At that drill."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...With that...even the seal on the Seafloor Cavern is in for a walloping! ♪"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ... ...There's still more...work for me to do. ...I must...stop you."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Until Leader Maxie...departs..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=30,GameVersion=1}] {"text":"<Team Magma Courtney> ...Look. ♪ ...At that drill."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=37,GameVersion=1}] {"text":"<Team Magma Courtney> ...With that...even the seal on the Seafloor Cavern is in for a walloping! ♪"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=46,GameVersion=1}] {"text":"<Team Magma Courtney> ... ...There's still more...work for me to do. ...I must...stop you."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=55,GameVersion=1}] {"text":"<Team Magma Courtney> ...Until Leader Maxie...departs..."}
 
 #back to first person
 
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...But..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Now...I just...want to..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...With you..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...I want to...engage..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...You..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...I want to...analyze. Ahahaha. ♪"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=62,GameVersion=1}] {"text":"<Team Magma Courtney> ...But..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=69,GameVersion=1}] {"text":"<Team Magma Courtney> ...Now...I just...want to..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=76,GameVersion=1}] {"text":"<Team Magma Courtney> ...With you..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=83,GameVersion=1}] {"text":"<Team Magma Courtney> ...I want to...engage..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=90,GameVersion=1}] {"text":"<Team Magma Courtney> ...You..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=97,GameVersion=1}] {"text":"<Team Magma Courtney> ...I want to...analyze. Ahahaha. ♪"}
+
+execute as @s[scores={DialogueTrigger=135,TalkTime=97,GameVersion=1}] run scoreboard players add @s TalkTime 40
 
 #pokebattle
 
-execute as @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] run pokebattle
+#execute as @s[scores={DialogueTrigger=135,TalkTime=1,GameVersion=1}] run pokebattle
 
 #Aqua
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Oh! I knew you'd come!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> You're the first punk ever to sneak into this hideout and make it this far!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> I expected nothing less from a crumb like you!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> But I've got some bad news for you!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> We already completely finished upgrading the ship!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Oh! I knew you'd come!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=8,GameVersion=2}] {"text":"<Team Aqua Matt> You're the first punk ever to sneak into this hideout and make it this far!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=17,GameVersion=2}] {"text":"<Team Aqua Matt> I expected nothing less from a crumb like you!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=24,GameVersion=2}] {"text":"<Team Aqua Matt> But I've got some bad news for you!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=31,GameVersion=2}] {"text":"<Team Aqua Matt> We already completely finished upgrading the ship!"}
 
 #Shot of submarine
 
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Look at that drill!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> As long as we've got that thing, we could KO the seal over the Seafloor Cavern with one punch!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie's in the ship! Come at me!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> If you take me out fast, you might be able to catch up to him!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=39,GameVersion=2}] {"text":"<Team Aqua Matt> Look at that drill!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=46,GameVersion=2}] {"text":"<Team Aqua Matt> As long as we've got that thing, we could KO the seal over the Seafloor Cavern with one punch!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=56,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie's in the ship! Come at me!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=63,GameVersion=2}] {"text":"<Team Aqua Matt> If you take me out fast, you might be able to catch up to him!"}
 
 #back to first person
 
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Before you do, though..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> We need to settle once and for all who's stronger,"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> you and your sorry Pokémon, or me and my not-so-sorry Pokémon!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> ...Hoo!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> ...Haaahh!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> I'm... Heating up!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Hooah! Full on! I'm burning up!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Me! You! Pokémon!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Mixing it up! Dueling!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Well! Welll! Wellllll!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Let's battle it out until we've got nothing left!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=71,GameVersion=2}] {"text":"<Team Aqua Matt> Before you do, though..."}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=79,GameVersion=2}] {"text":"<Team Aqua Matt> We need to settle once and for all who's stronger,"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=86,GameVersion=2}] {"text":"<Team Aqua Matt> you and your sorry Pokémon, or me and my not-so-sorry Pokémon!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=93,GameVersion=2}] {"text":"<Team Aqua Matt> ...Hoo!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=98,GameVersion=2}] {"text":"<Team Aqua Matt> ...Haaahh!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=103,GameVersion=2}] {"text":"<Team Aqua Matt> I'm... Heating up!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=110,GameVersion=2}] {"text":"<Team Aqua Matt> Hooah! Full on! I'm burning up!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=117,GameVersion=2}] {"text":"<Team Aqua Matt> Me! You! Pokémon!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=124,GameVersion=2}] {"text":"<Team Aqua Matt> Mixing it up! Dueling!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=131,GameVersion=2}] {"text":"<Team Aqua Matt> Well! Welll! Wellllll!"}
+tellraw @s[scores={DialogueTrigger=135,TalkTime=138,GameVersion=2}] {"text":"<Team Aqua Matt> Let's battle it out until we've got nothing left!"}
 
-execute as @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] run pokebattle
+#execute as @s[scores={DialogueTrigger=135,TalkTime=1,GameVersion=2}] run pokebattle
 
-tag @s[scores={DialogueTrigger=136,TalkTime=100..}] add Dialogue136
+tag @s[scores={DialogueTrigger=135,TalkTime=138..}] add Dialogue135
 #--------------------------------------
 #Dialogue 136 - Team Admin Post-Battle
 #https://youtu.be/XQJjBGOrdPw?t=452 (Aqua)
 
+clear @s[scores={DialogueTrigger=136}] minecraft:nether_brick
+
 tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Change...the world."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=6,GameVersion=1}] {"text":"<Team Magma Courtney> ...Change...the world."}
 
 #submarine sinks
 
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Leader Maxie..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Mission..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Complete."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Leader Maxie...has departed."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...For the development...of humanity."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...For our...dreams..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...To you...whom I had not foreseen. ...I will give a hint."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...So that you...may dream... ...the same dream as us."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Leader Maxie...is headed for... the sea stretching out from Lilycove."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...In the depths of the sea...lies the Seafloor Cavern."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...What are you...going to do?"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Looking around...in seaside towns. ...That might work. ...Ahaha. ♪"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...I don't know...what you could do to get there."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Courtney> ...Even if I knew...I wouldn't tell. ...Ahaha. ♪"}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=13,GameVersion=1}] {"text":"<Team Magma Courtney> ...Leader Maxie..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=20,GameVersion=1}] {"text":"<Team Magma Courtney> ..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=25,GameVersion=1}] {"text":"<Team Magma Courtney> ...Mission..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=30,GameVersion=1}] {"text":"<Team Magma Courtney> ...Complete."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=35,GameVersion=1}] {"text":"<Team Magma Courtney> ...Leader Maxie...has departed."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=42,GameVersion=1}] {"text":"<Team Magma Courtney> ...For the development...of humanity."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=49,GameVersion=1}] {"text":"<Team Magma Courtney> ...For our...dreams..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=56,GameVersion=1}] {"text":"<Team Magma Courtney> ...To you...whom I had not foreseen. ...I will give a hint."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=63,GameVersion=1}] {"text":"<Team Magma Courtney> ...So that you...may dream... ...the same dream as us."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=70,GameVersion=1}] {"text":"<Team Magma Courtney> ...Leader Maxie...is headed for... the sea stretching out from Lilycove."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=78,GameVersion=1}] {"text":"<Team Magma Courtney> ...In the depths of the sea...lies the Seafloor Cavern."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=85,GameVersion=1}] {"text":"<Team Magma Courtney> ...What are you...going to do?"}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=92,GameVersion=1}] {"text":"<Team Magma Courtney> ...Looking around...in seaside towns. ...That might work. ...Ahaha. ♪"}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=100,GameVersion=1}] {"text":"<Team Magma Courtney> ...I don't know...what you could do to get there."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=107,GameVersion=1}] {"text":"<Team Magma Courtney> ...Even if I knew...I wouldn't tell. ...Ahaha. ♪"}
+execute as @s[scores={DialogueTrigger=136,TalkTime=107,GameVersion=1}] run scoreboard players add @s TalkTime 40
 
 
 #Aqua variant
 tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Hah... Hah... Hah..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Bro!"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> It's all...on you...now..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=8,GameVersion=2}] {"text":"<Team Aqua Matt> Bro!"}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=14,GameVersion=2}] {"text":"<Team Aqua Matt> It's all...on you...now..."}
 
 #submarine sinks
 
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> ..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> While we were battling it out..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie finished getting ready..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> ..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> I have only one hope..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> For my bro Archie to finish doing what he set out to do..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> That's all..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie is everything to me..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> I live to serve my bro..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> ...All right,"}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> then. You took me out, so I'll give you an idea of what the world will be like if my bro has his way."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie is headed for the big blue sea that stretches out from Lilycove City."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Deep beneath the surface is the Seafloor Cavern."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> That's where the world my bro hopes to create..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Where the beginnings of the primordial world will be felt..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Regular people and Pokémon can't make it there, though."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> How could you get there..."}
-tellraw @s[scores={DialogueTrigger=136,TalkTime=1,GameVersion=2}] {"text":"<Team Aqua Matt> Why don't you look around in towns by the sea and use your own thick head to think about it?"}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=21,GameVersion=2}] {"text":"<Team Aqua Matt> ..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=26,GameVersion=2}] {"text":"<Team Aqua Matt> While we were battling it out..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=33,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie finished getting ready..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=40,GameVersion=2}] {"text":"<Team Aqua Matt> ..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=45,GameVersion=2}] {"text":"<Team Aqua Matt> I have only one hope..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=52,GameVersion=2}] {"text":"<Team Aqua Matt> For my bro Archie to finish doing what he set out to do..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=60,GameVersion=2}] {"text":"<Team Aqua Matt> That's all..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=67,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie is everything to me..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=74,GameVersion=2}] {"text":"<Team Aqua Matt> I live to serve my bro..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=81,GameVersion=2}] {"text":"<Team Aqua Matt> ...All right, then."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=88,GameVersion=2}] {"text":"<Team Aqua Matt> You took me out, so I'll give you an idea of what the world will be like if my bro has his way."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=98,GameVersion=2}] {"text":"<Team Aqua Matt> My bro Archie is headed for the big blue sea that stretches out from Lilycove City."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=107,GameVersion=2}] {"text":"<Team Aqua Matt> Deep beneath the surface is the Seafloor Cavern."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=114,GameVersion=2}] {"text":"<Team Aqua Matt> That's where the world my bro hopes to create..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=121,GameVersion=2}] {"text":"<Team Aqua Matt> Where the beginnings of the primordial world will be felt..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=129,GameVersion=2}] {"text":"<Team Aqua Matt> Regular people and Pokémon can't make it there, though."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=136,GameVersion=2}] {"text":"<Team Aqua Matt> How could you get there..."}
+tellraw @s[scores={DialogueTrigger=136,TalkTime=143,GameVersion=2}] {"text":"<Team Aqua Matt> Why don't you look around in towns by the sea and use your own thick head to think about it?"}
 
-tag @s[scores={DialogueTrigger=136,TalkTime=100..}] add Dialogue136
+tag @s[scores={DialogueTrigger=136,TalkTime=143..}] add Dialogue136
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 137 - Mossdeep Gym
 #Liza and Tate pre-battle
