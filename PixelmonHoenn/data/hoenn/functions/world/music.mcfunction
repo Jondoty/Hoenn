@@ -56,8 +56,11 @@ playsound secretbases record @s[scores={MusicCooldown=0,DialogueTrigger=76,TalkT
 scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=76,TalkTime=..209}] MusicCooldown 104
 
 #Kyogre/Groudon awoken
-playsound ancientawaken record @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=214..256}] ~ ~ ~ 1 1 1
-scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=141..142,TalkTime=214..256}] MusicCooldown 90
+playsound ancientawaken record @s[scores={MusicCooldown=0,DialogueTrigger=141,TalkTime=214..256}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=141,TalkTime=214..256}] MusicCooldown 90
+
+playsound ancientawaken record @s[scores={MusicCooldown=0,DialogueTrigger=142,TalkTime=151..207}] ~ ~ ~ 1 1 1
+scoreboard players set @s[scores={MusicCooldown=0,DialogueTrigger=142,TalkTime=151..207}] MusicCooldown 90
 
 #After Leaders realizing the world status
 execute as @s[scores={DialogueTrigger=141,TalkTime=346..533}] run playsound countdowntodestruction record @s ~ ~ ~ 1 1 1
@@ -65,6 +68,12 @@ execute as @s[scores={DialogueTrigger=141,TalkTime=346..533}] run scoreboard pla
 
 execute as @s[scores={DialogueTrigger=141,TalkTime=534..}] run playsound drought record @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=141,TalkTime=534..}] run scoreboard players set @s MusicCooldown 81
+
+execute as @s[scores={DialogueTrigger=142,TalkTime=287..436}] run playsound countdowntodestruction record @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=142,TalkTime=287..436}] run scoreboard players set @s MusicCooldown 113
+
+execute as @s[scores={DialogueTrigger=142,TalkTime=437..}] run playsound drought record @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=142,TalkTime=437..}] run scoreboard players set @s MusicCooldown 81
 
 #Kyogre/Groudon going primal in Cave of Origin
 playsound primal record @s[scores={MusicCooldown=0,DialogueTrigger=147..148,TalkTime=..70}] ~ ~ ~ 1 1 1

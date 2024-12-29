@@ -125,8 +125,11 @@ execute as @a[scores={DialogueTrigger=139,TalkTime=13..25},gamemode=spectator] a
 execute as @a[scores={DialogueTrigger=139,TalkTime=70..98},gamemode=spectator] at @s run tp @s ~ ~-0.025 ~-0.025 ~ ~0.0125
 
 #Legendary spawn camera movements
-execute as @a[scores={DialogueTrigger=141..142,TalkTime=267..273},gamemode=spectator] at @s run tp @s ~-0.25 ~ ~-0.25
-execute as @s[scores={DialogueTrigger=141..142,TalkTime=260..267},gamemode=spectator] at @s run tp @s ~0.1 ~ ~
+execute as @a[scores={DialogueTrigger=141,TalkTime=267..273},gamemode=spectator] at @s run tp @s ~-0.25 ~ ~-0.25
+execute as @s[scores={DialogueTrigger=141,TalkTime=260..267},gamemode=spectator] at @s run tp @s ~0.1 ~ ~
+
+execute as @a[scores={DialogueTrigger=142,TalkTime=200..207},gamemode=spectator] at @s run tp @s ~0.1 ~ ~
+execute as @a[scores={DialogueTrigger=142,TalkTime=207..214},gamemode=spectator] at @s run tp @s ~-0.25 ~ ~-0.25
 
 #Cave of Origin particles
 execute as @a[scores={DialogueTrigger=147..148,TalkTime=216..223}] at @s run tp @s ~0.01 ~ ~-0.01
