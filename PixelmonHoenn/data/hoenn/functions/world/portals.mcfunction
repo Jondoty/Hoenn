@@ -1142,8 +1142,8 @@ tp @a[x=1472,y=74,z=-1036,dx=2,dy=3] 1473 47 -1037
 tp @a[x=1471,y=47,z=-1036,dx=4,dy=3] 1473 74 -1035
 
 #Pokemon Gym
-tag @a[x=1563,y=74,z=-1038,dx=6,dy=3,tag=!Dialogue138] remove Dialogue137
-tp @a[x=1563,y=74,z=-1038,dx=6,dy=3] -2586 61 1586
+tag @a[x=1563,y=74,z=-1038,dx=6,dy=3,tag=!Dialogue138,scores={DialogueTrigger=0}] remove Dialogue137
+tp @a[x=1563,y=74,z=-1038,dx=6,dy=3,scores={DialogueTrigger=0}] -2586 61 1586
 tp @a[x=-2587,y=61,z=1587,dx=3,dy=3] 1566 74 -1037
 
 #Top Right NPC Home

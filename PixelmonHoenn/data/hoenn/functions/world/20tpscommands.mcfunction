@@ -119,19 +119,24 @@ execute if entity @a[scores={DialogueTrigger=71,TalkTime=3..6}] as @e[x=-2071,y=
 
 execute as @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,scores={DialogueTrigger=97}] at @s run tp @s ~0.25 90 ~0.25 ~0.25 70
 
+#Dialogue 139 - Mossdeep team breaking in to cavern
+execute as @a[scores={DialogueTrigger=139,TalkTime=13..21}] run particle minecraft:glow_squid_ink 1454 64 -785 0.25 100 0.25 0.25 1000 force @s
+execute as @a[scores={DialogueTrigger=139,TalkTime=13..25},gamemode=spectator] at @s run tp @s ~ ~ ~0.025 ~ ~-0.0125
+execute as @a[scores={DialogueTrigger=139,TalkTime=70..98},gamemode=spectator] at @s run tp @s ~ ~-0.025 ~-0.025 ~ ~0.0125
+
 #Legendary spawn camera movements
-execute as @a[scores={DialogueTrigger=141..142,TalkTime=57..63}] at @s run tp @s ~-0.25 ~ ~-0.25
-execute as @s[scores={DialogueTrigger=141..142,TalkTime=50..57}] at @s run tp @s ~0.1 ~ ~
+execute as @a[scores={DialogueTrigger=141..142,TalkTime=267..273},gamemode=spectator] at @s run tp @s ~-0.25 ~ ~-0.25
+execute as @s[scores={DialogueTrigger=141..142,TalkTime=260..267},gamemode=spectator] at @s run tp @s ~0.1 ~ ~
 
 #Cave of Origin particles
-execute as @a[scores={DialogueTrigger=147..148,TalkTime=6..13}] at @s run tp @s ~0.01 ~ ~-0.01
-execute as @a[scores={DialogueTrigger=147..148,TalkTime=14..21}] at @s run tp @s ~-0.01 ~ ~-0.01
-execute if entity @a[scores={DialogueTrigger=147,TalkTime=14..38}] as @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] at @s run particle minecraft:electric_spark ~ ~ ~ 5 5 5 1 100 normal
-execute if entity @a[scores={DialogueTrigger=147,TalkTime=22..38}] as @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] at @s run particle minecraft:end_rod ~ ~ ~ 2.5 3 2.5 0.25 10 normal
+execute as @a[scores={DialogueTrigger=147..148,TalkTime=216..223}] at @s run tp @s ~0.01 ~ ~-0.01
+execute as @a[scores={DialogueTrigger=147..148,TalkTime=224..231}] at @s run tp @s ~-0.01 ~ ~-0.01
+execute if entity @a[scores={DialogueTrigger=147,TalkTime=224..248}] as @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] at @s run particle minecraft:electric_spark ~ ~ ~ 5 5 5 1 100 normal
+execute if entity @a[scores={DialogueTrigger=147,TalkTime=232..248}] as @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] at @s run particle minecraft:end_rod ~ ~ ~ 2.5 3 2.5 0.25 10 normal
 
-execute if entity @a[scores={DialogueTrigger=148,TalkTime=14..38}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:electric_spark ~ ~ ~ 5 5 5 1 100 normal
-execute if entity @a[scores={DialogueTrigger=148,TalkTime=14..38}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:dolphin ~ ~ ~ 5 5 5 1 100 normal
-execute if entity @a[scores={DialogueTrigger=148,TalkTime=22..38}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:end_rod ~ ~ ~ 2.5 3 2.5 0.25 10 normal
+execute if entity @a[scores={DialogueTrigger=148,TalkTime=224..248}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:electric_spark ~ ~ ~ 5 5 5 1 100 normal
+execute if entity @a[scores={DialogueTrigger=148,TalkTime=224..248}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:dolphin ~ ~ ~ 5 5 5 1 100 normal
+execute if entity @a[scores={DialogueTrigger=148,TalkTime=232..248}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:end_rod ~ ~ ~ 2.5 3 2.5 0.25 10 normal
 
 #Sky Pillar into Outer Space
 execute as @a[scores={DialogueTrigger=207,TalkTime=50..65}] at @s run tp @e[distance=..15,type=pixelmon:statue,nbt={Variant:"mega"}] ~ ~2 ~
