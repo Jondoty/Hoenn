@@ -6181,6 +6181,7 @@ execute as @s[scores={DialogueTrigger=142,TalkTime=437}] unless entity @e[x=1370
 execute as @s[scores={DialogueTrigger=142,TalkTime=437}] unless entity @e[x=1373,y=64,z=-49,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 1373 64 -49 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Tabitha", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "aquagruntfemale", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [6.185627f, -2.765615f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [1373.5d, 65.0d, -48.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquagruntfemale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 execute as @s[scores={DialogueTrigger=142,TalkTime=437}] unless entity @e[x=1364,y=64,z=-49,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 1364 64 -49 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}, {Base: 0.08d, Name: "forge:entity_gravity"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 1b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "aquaboss", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.0787864f, -4.131112f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [1364.5d, 65.0d, -48.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
 
+
 execute as @s[scores={DialogueTrigger=142,TalkTime=437},tag=!MusicDisabled] run stopsound @s record
 execute as @s[scores={DialogueTrigger=142,TalkTime=437},tag=!MusicDisabled] run playsound drought record @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=142,TalkTime=437},tag=!MusicDisabled] run scoreboard players set @s MusicCooldown 81
@@ -6278,198 +6279,376 @@ tag @s[scores={DialogueTrigger=142,TalkTime=792..}] add Dialogue142
 #Prior to Cave of Origin (Magma Variant)
 #https://youtu.be/MgkqxXCmrtI?t=55538
 
+execute at @s[scores={DialogueTrigger=143,TalkTime=1}] as @e[x=919,y=94,z=1477,type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
 tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Steven> So you did come... I have been waiting for you."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=6}] {"text":"<Steven> So you did come... I have been waiting for you."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=13}] {"text":"<Steven> ... What terrible heat..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=20}] {"text":"<Steven> It feels as though the entire world will be burnt away..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=29}] {"text":"<Steven> Ah, yes. You need to hear what my friend has to say."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=36}] {"text":"<Wallace> My name is Wallace. I'm this town's Gym Leader."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=44}] {"text":"<Wallace> I've also been entrusted with the protection of the Cave of Origin."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=53}] {"text":"<Wallace> This drought is being caused by a power emanating from the Cave of Origin."}
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> ... What terrible heat..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> It feels as though the entire world will be burnt away..."}
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Steven> ... What terrible rain..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Steven> It feels as though the entire world will be washed away..."}
-
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Steven> Ah, yes. You need to hear what my friend has to say."}
-
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> My name is Wallace. I'm this town's Gym Leader."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> I've also been entrusted with the protection of the Cave of Origin."}
-
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> This drought is being caused by a power emanating from the Cave of Origin."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Wallace> This downpour is being caused by a power emanating from the Cave of Origin."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=63}] {"text":"<Steven> This sunlight..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=70}] {"text":"<Steven> People and Pokémon need sunlight to live..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=78}] {"text":"<Steven> So why does this sunlight fill us with so much dread?"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=86}] {"text":"<Steven> The blazing sun over Sootopolis is growing even more intense..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=94}] {"text":"<Steven> Soon all of Hoenn will be caught under its withering glare..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=102}] {"text":"<Steven> If that were to happen..."}
 
 #summon exclamation
+execute as @s[scores={DialogueTrigger=143,TalkTime=107}] as @e[x=924,y=93,z=-1477,dy=3,type=pixelmon:npc_chatting] at @s run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"text":"!"}',CustomNameVisible:1b}
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> That is the Blue Orb."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Wallace> That is the Red Orb."}
+execute as @s[scores={DialogueTrigger=143,TalkTime=111}] as @e[x=924,y=93,z=-1477,dy=3,type=pixelmon:npc_chatting] at @s run kill @e[type=minecraft:armor_stand,distance=..5]
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Wallace> I see. Follow me."}
 
-#teleports to side of path
+tellraw @s[scores={DialogueTrigger=143,TalkTime=109}] {"text":"<Wallace> That is the Blue Orb."}
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> This sunlight..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> People and Pokémon need sunlight to live..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> So why does this sunlight fill us with so much dread?"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> The blazing sun over Sootopolis is growing even more intense..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> Soon all of Hoenn will be caught under its withering glare..."}
-
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Steven> This rain..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Steven> People and Pokémon need water to live..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Steven> So why does this rain fill us with so much dread?"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Steven> The rain clouds massing over Sootopolis keep building..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=2}] {"text":"<Steven> Soon they will extend over all of Hoenn..."}
-
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1}] {"text":"<Steven> If that were to happen..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=116}] {"text":"<Wallace> I see. Follow me."}
 
 #shot of leaders at entrance
+execute as @s[scores={DialogueTrigger=143,TalkTime=123}] run effect give @s minecraft:blindness 3 1 true
+execute as @s[scores={DialogueTrigger=143,TalkTime=123}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=143,TalkTime=124}] run tp @s 985.5 94 1560.5 180 21
+
+execute as @s[scores={DialogueTrigger=143,TalkTime=125}] unless entity @e[x=985,y=69,z=1512,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 985 69 1512 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 1b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "magmaboss", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.172649f, -5.0476475f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [985.5d, 70.0d, 1512.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=143,TalkTime=125}] unless entity @e[x=981,y=69,z=1510,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 981 69 1510 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 1b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "aquaboss", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.0873709f, -2.6226773f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [981.5d, 70.0d, 1510.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=143,TalkTime=125}] unless entity @e[x=989,y=69,z=1510,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 989 69 1510 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Tabitha", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "magmagruntmale", NameIndex: 2, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [5.8906956f, -3.5220904f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [989.5d, 70.0d, 1510.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmagruntmale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+execute as @a[scores={DialogueTrigger=143,TalkTime=125}] unless entity @e[x=979,y=69,z=1523,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 979 70 1523 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Wallace", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "psychic", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [2.8615823f, -3.2697194f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [924.5d, 95.0d, 1477.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "wallace.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @a[scores={DialogueTrigger=143,TalkTime=125}] unless entity @e[x=991,y=69,z=1523,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 991 70 1523 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Steven", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "baker", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.0006547f, -3.7350843f], HandItems: [{}, {}], ChatIndex: 3, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [919.5d, 95.0d, 1477.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "steven.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @a[scores={DialogueTrigger=143,TalkTime=126}] @e[x=979,y=69,z=1523,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+execute as @a[scores={DialogueTrigger=143,TalkTime=126}] @e[x=991,y=69,z=1523,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+
+#execute as @a[scores={DialogueTrigger=143,TalkTime=125..137},gamemode=spectator] at @s run tp @s ~ ~-0.025 ~-0.05 ~ ~-0.003
 
 #tps to bridge
+execute as @s[scores={DialogueTrigger=143,TalkTime=137}] run tp @s 985 69 1521 180 10
+execute as @s[scores={DialogueTrigger=143,TalkTime=137}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=143,TalkTime=137}] run scoreboard players add @s TalkTime 55
+
 
 #Magma line
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> ..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> Team Magma...and Team Aqua..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> We've been waiting, ya scamp!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> Leader Maxie..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> to that child...?"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> ...I know what must be done."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I will entrust this to you now."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> It is the fruit of our collaboration with the Devon Corporation, and it represents the height of Hoenn's technological knowledge and skill."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=193}] {"text":"<Maxie> ..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=200}] {"text":"<Steven> Team Magma...and Team Aqua..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=207}] {"text":"<Archie> We've been waiting, ya scamp!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=215}] {"text":"<Team Magma Tabitha> Leader Maxie..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=222}] {"text":"<Team Magma Tabitha> to that child...?"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=229}] {"text":"<Maxie> ...I know what must be done."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=236}] {"text":"<Maxie> I will entrust this to you now."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=243}] {"text":"<Maxie> It is the fruit of our collaboration with the Devon Corporation, and it represents the height of Hoenn's technological knowledge and skill."}
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Magma Suit!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=253}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Magma Suit!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=143,TalkTime=253}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> We had actually been preparing that in anticipation of making contact with Groudon..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> But at this point, it doesn't look like there's any hope of that for us..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> There's nothing we can do except leave it to you."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> And yet..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Even with that Magma Suit, is it probable that anyone could pass through that magma,"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> now fiercer than ever due to the forces of nature?"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> That's true."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Team Magma Tabitha> It is very possible that its energy could be far greater than our calculations show."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> There is nothing to fear."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> The Blue Orb they bear..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> Its ancient powers will protect both the trainer and their Pokémon."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> You've hit the nail on the head!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> Those old folks at Mt. Pyre did say something about that..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> That the Red Orb would unleash Groudon's primal powers..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> And trigger a Primal Reversion."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> ...While the Blue Orb had the power to reverse that and calm the beast."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> Yes. The energy overflowing from the Cave of Origin just now..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> It is the same energy that gives Groudon its power..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> With the Blue Orb, which contains the power to suppress that..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> It should be possible to calm the rage of this flood of magma."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> Of course the Blue Orb's power alone will not lead you to where Groudon waits."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> You will not reach Hoenn's Core that way."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> Use the suit that you were just given."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> With that, it will finally become possible to stand up against the forces of nature."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"... To think that you had the Blue Orb..."}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> You'll be OK."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> You and your Pokémon can handle it, whatever happens."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Steven> I believe that."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> No man or woman from Sootopolis is permitted to enter the Cave of Origin."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> But you must go, together with your Blue Orb."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Wallace> You must go regardless of what waits for you inside that cave..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> We'll also get our people together up top here, to help any folks and Pokémon in trouble."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> My little scamp of a savior..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> Looks like we're making you bear all the burden on your little shoulders alone."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Archie> I'm sorry for that. ...But I know you're going to see this through!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Child, you..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> No. I have no right to call you \"child.\""}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Fellow Trainer."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> I have caused great harm, and for that I apologize most sincerely."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> But now we find ourselves at an impasse, and you and your Pokémon are all that humanity has to count on in its stand against Groudon..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> The fate of our world..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> The world upon which all humanity thrives..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1}] {"text":"<Maxie> The fate of our world rests in your hands!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=260}] {"text":"<Team Magma Tabitha> We had actually been preparing that in anticipation of making contact with Groudon..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=269}] {"text":"<Team Magma Tabitha> But at this point, it doesn't look like there's any hope of that for us..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=277}] {"text":"<Team Magma Tabitha> There's nothing we can do except leave it to you."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=285}] {"text":"<Maxie> And yet..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=291}] {"text":"<Maxie> Even with that Magma Suit, is it probable that anyone could pass through that magma,"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=300}] {"text":"<Maxie> now fiercer than ever due to the forces of nature?"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=307}] {"text":"<Team Magma Tabitha> That's true."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=314}] {"text":"<Team Magma Tabitha> It is very possible that its energy could be far greater than our calculations show."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=324}] {"text":"<Wallace> There is nothing to fear."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=331}] {"text":"<Wallace> The Blue Orb they bear..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=338}] {"text":"<Wallace> Its ancient powers will protect both the trainer and their Pokémon."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=346}] {"text":"<Archie> You've hit the nail on the head!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=353}] {"text":"<Archie> Those old folks at Mt. Pyre did say something about that..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=361}] {"text":"<Archie> That the Red Orb would unleash Groudon's primal powers..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=369}] {"text":"<Archie> And trigger a Primal Reversion."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=376}] {"text":"<Archie> ...While the Blue Orb had the power to reverse that and calm the beast."}
+
+
+tellraw @s[scores={DialogueTrigger=143,TalkTime=384}] {"text":"<Wallace> Yes. The energy overflowing from the Cave of Origin just now..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=393}] {"text":"<Wallace> It is the same energy that gives Groudon its power..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=400}] {"text":"<Wallace> With the Blue Orb, which contains the power to suppress that..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=408}] {"text":"<Wallace> It should be possible to calm the rage of this flood of magma."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=416}] {"text":"<Wallace> Of course the Blue Orb's power alone will not lead you to where Groudon waits."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=425}] {"text":"<Wallace> You will not reach Hoenn's Core that way."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=432}] {"text":"<Wallace> Use the suit that you were just given."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=439}] {"text":"<Wallace> With that, it will finally become possible to stand up against the forces of nature."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=448}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"... To think that you had the Blue Orb..."}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=456}] {"text":"<Steven> You'll be OK."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=463}] {"text":"<Steven> You and your Pokémon can handle it, whatever happens."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=470}] {"text":"<Steven> I believe that."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=477}] {"text":"<Wallace> No man or woman from Sootopolis is permitted to enter the Cave of Origin."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=485}] {"text":"<Wallace> But you must go, together with your Blue Orb."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=482}] {"text":"<Wallace> You must go regardless of what waits for you inside that cave..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=490}] {"text":"<Archie> We'll also get our people together up top here, to help any folks and Pokémon in trouble."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=500}] {"text":"<Archie> My little scamp of a savior..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=507}] {"text":"<Archie> Looks like we're making you bear all the burden on your little shoulders alone."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=516}] {"text":"<Archie> I'm sorry for that. ...But I know you're going to see this through!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=524}] {"text":"<Maxie> Child, you..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=530}] {"text":"<Maxie> No. I have no right to call you \"child.\""}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=537}] {"text":"<Maxie> Fellow Trainer."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=544}] {"text":"<Maxie> I have caused great harm, and for that I apologize most sincerely."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=553}] {"text":"<Maxie> But now we find ourselves at an impasse, and you and your Pokémon are all that humanity has to count on in its stand against Groudon..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=565}] {"text":"<Maxie> The fate of our world..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=572}] {"text":"<Maxie> The world upon which all humanity thrives..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=579}] {"text":"<Maxie> The fate of our world rests in your hands!"}
 
 #May tps in
+execute as @s[scores={DialogueTrigger=143,TalkTime=586}] run particle cloud 985 69 1526 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=143,TalkTime=586,Rival=1}] unless entity @e[x=985,y=68,z=1526,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 985 69 1526 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "santa", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.060916558f, -14.882078f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [985.5d, 69.0d, 1526.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=143,TalkTime=586,Rival=2}] unless entity @e[x=985,y=68,z=1526,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 985 69 1526 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "santa", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.060916558f, -14.882078f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [985.5d, 69.0d, 1526.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute at @s[scores={DialogueTrigger=143,TalkTime=586,Rival=2}] as @e[x=985,y=68,z=1526,dy=3,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
 
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> I heard on the news that things were going haywire around Sootopolis."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] ["",{"text":"<May> And then I saw you on BuzzNav, "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> I couldn't just sit there and do nothing when I knew you were here in the thick of it, so I came flying!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> Bwuh?! Isn't that Team Aqua? And Team Magma?!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> OK, can I just say that I am, like, shocked and confused on so many levels right now?"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> This is probably something way bigger than I can even imagine, isn't it?"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> So I'm not even going to ask right now."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> I'm going to try to find what I can do to help, and then I'm going to do my best with that."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] ["",{"text":"<May> And I'm going to keep on hoping and believing that y-you'll be OK out there, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> Because..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> Because you... You're the best friend I have!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> I'll always be right there behind you."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=1}] {"text":"<May> You're my best friend, after all!"}
-
-
-
-
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"!"}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] ["",{"text":"<Brendan> When I saw the news about Sootopolis on my BuzzNav, and there you were, "},{"selector":"@s"},{"text":"..."}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> Well, anyway, all I could think of was coming to help!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> You don't know how glad I am to see that you're still in one piece."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> Bwuh?! Is that Team Aqua? And Team Magma?!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> OK, I don't really know what to say right now—I'm kind of dumbfounded."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> Look, I get that this is probably something way bigger than I've ever imagined."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> So, I won't bother with any questions now."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> I'm gonna find out what I should do to help, and then I'm going to do whatever I can."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] ["",{"text":"<Brendan> You'd better go do the same, "},{"selector":"@s"},{"text":"."}]
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> Because..."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> Because you... You're the best friend I have!"}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> I'll always be right there behind you."}
-tellraw @s[scores={DialogueTrigger=143,TalkTime=1,GameVersion=1,Rival=2}] {"text":"<Brendan> You're my best friend, after all!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=589,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=596,Rival=1}] {"text":"<May> I heard on the news that things were going haywire around Sootopolis."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=604,Rival=1}] ["",{"text":"<May> And then I saw you on BuzzNav, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=611,Rival=1}] {"text":"<May> I couldn't just sit there and do nothing when I knew you were here in the thick of it, so I came flying!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=621,Rival=1}] {"text":"<May> Bwuh?! Isn't that Team Aqua? And Team Magma?!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=628,Rival=1}] {"text":"<May> OK, can I just say that I am, like, shocked and confused on so many levels right now?"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=637,Rival=1}] {"text":"<May> This is probably something way bigger than I can even imagine, isn't it?"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=645,Rival=1}] {"text":"<May> So I'm not even going to ask right now."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=651,Rival=1}] {"text":"<May> I'm going to try to find what I can do to help, and then I'm going to do my best with that."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=660,Rival=1}] ["",{"text":"<May> And I'm going to keep on hoping and believing that y-you'll be OK out there, "},{"selector":"@s"},{"text":"."}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=670,Rival=1}] {"text":"<May> Because..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=676,Rival=1}] {"text":"<May> Because you... You're the best friend I have!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=683,Rival=1}] {"text":"<May> I'll always be right there behind you."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=690,Rival=1}] {"text":"<May> You're my best friend, after all!"}
 
 
 
 
-tag @s[scores={DialogueTrigger=143,TalkTime=100..}] add Dialogue143
+tellraw @s[scores={DialogueTrigger=143,TalkTime=589,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=596,Rival=2}] ["",{"text":"<Brendan> When I saw the news about Sootopolis on my BuzzNav, and there you were, "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=605,Rival=2}] {"text":"<Brendan> Well, anyway, all I could think of was coming to help!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=612,Rival=2}] {"text":"<Brendan> You don't know how glad I am to see that you're still in one piece."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=620,Rival=2}] {"text":"<Brendan> Bwuh?! Is that Team Aqua? And Team Magma?!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=627,Rival=2}] {"text":"<Brendan> OK, I don't really know what to say right now—I'm kind of dumbfounded."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=636,Rival=2}] {"text":"<Brendan> Look, I get that this is probably something way bigger than I've ever imagined."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=645,Rival=2}] {"text":"<Brendan> So, I won't bother with any questions now."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=652,Rival=2}] {"text":"<Brendan> I'm gonna find out what I should do to help, and then I'm going to do whatever I can."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=662,Rival=2}] ["",{"text":"<Brendan> You'd better go do the same, "},{"selector":"@s"},{"text":"."}]
+tellraw @s[scores={DialogueTrigger=143,TalkTime=670,Rival=2}] {"text":"<Brendan> Because..."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=676,Rival=2}] {"text":"<Brendan> Because you... You're the best friend I have!"}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=683,Rival=2}] {"text":"<Brendan> I'll always be right there behind you."}
+tellraw @s[scores={DialogueTrigger=143,TalkTime=690,Rival=2}] {"text":"<Brendan> You're my best friend, after all!"}
+
+
+
+
+tag @s[scores={DialogueTrigger=143,TalkTime=690..}] add Dialogue143
 #-----------------------------------
 #Dialogue 144 - Sootopolis City
 #Prior to Cave of Origin (Aqua Variant)
+#https://youtu.be/owtu7hQR8t8?list=PL_VGbflD64WRCpfMBjdWCQlyppOZCSL8Q&t=438
 
 
-tag @s[scores={DialogueTrigger=144,TalkTime=100..}] add Dialogue144
+execute at @s[scores={DialogueTrigger=144,TalkTime=1}] as @e[x=919,y=94,z=1477,type=pixelmon:npc_chatting,distance=..10] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=1}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=6}] {"text":"<Steven> So you did come... I have been waiting for you."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=13}] {"text":"<Steven> ... What terrible rain..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=20}] {"text":"<Steven> It feels as though the entire world will be washed away..."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=29}] {"text":"<Steven> Ah, yes. You need to hear what my friend has to say."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=36}] {"text":"<Wallace> My name is Wallace. I'm this town's Gym Leader."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=44}] {"text":"<Wallace> I've also been entrusted with the protection of the Cave of Origin."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=53}] {"text":"<Wallace> This downpour is being caused by a power emanating from the Cave of Origin."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=63}] {"text":"<Steven> This rain..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=70}] {"text":"<Steven> People and Pokémon need water to live..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=78}] {"text":"<Steven> So why does this rain fill us with so much dread?"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=86}] {"text":"<Steven> The rain clouds massing over Sootopolis keep building..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=94}] {"text":"<Steven> Soon they will extend over all of Hoenn..."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=102}] {"text":"<Steven> If that were to happen..."}
+
+#summon exclamation
+execute as @s[scores={DialogueTrigger=144,TalkTime=107}] as @e[x=924,y=93,z=-1477,dy=3,type=pixelmon:npc_chatting] at @s run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,NoGravity:1b,CustomName:'{"text":"!"}',CustomNameVisible:1b}
+
+execute as @s[scores={DialogueTrigger=144,TalkTime=111}] as @e[x=924,y=93,z=-1477,dy=3,type=pixelmon:npc_chatting] at @s run kill @e[type=minecraft:armor_stand,distance=..5]
+
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=109}] {"text":"<Wallace> That is the Red Orb."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=116}] {"text":"<Wallace> I see. Follow me."}
+
+#shot of leaders at entrance
+execute as @s[scores={DialogueTrigger=144,TalkTime=123}] run effect give @s minecraft:blindness 3 1 true
+execute as @s[scores={DialogueTrigger=144,TalkTime=123}] run gamemode spectator
+execute as @s[scores={DialogueTrigger=144,TalkTime=124}] run tp @s 985.5 94 1560.5 180 21
+
+execute as @s[scores={DialogueTrigger=144,TalkTime=125}] unless entity @e[x=985,y=69,z=1512,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 985 69 1512 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 1b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, UUID: [I; -30346035, -1835121894, -1963665765, 1547646968], trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "aquaboss", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [5.6509595f, -12.471337f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [985.5d, 70.0d, 1512.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=144,TalkTime=125}] unless entity @e[x=981,y=69,z=1510,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 981 69 1510 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 1b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, UUID: [I; -200309113, -1920578410, -1664651328, 244155613], trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "magmaboss", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.059953846f, -13.648094f], HandItems: [{}, {}], ChatIndex: 1, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [981.5d, 70.0d, 1510.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "magmaboss.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=144,TalkTime=125}] unless entity @e[x=989,y=69,z=1510,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 989 69 1510 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Shelly", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, UUID: [I; 1664006857, -716684049, -2078090875, 1647815239], trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 0, TrainerIndex: "aquagruntfemale", NameIndex: 1, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [4.0077405f, -11.501302f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [989.5d, 70.0d, 1510.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "aquagruntfemale.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+
+execute as @a[scores={DialogueTrigger=144,TalkTime=125}] unless entity @e[x=979,y=69,z=1523,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 979 70 1523 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Wallace", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "psychic", NameIndex: 4, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [2.8615823f, -3.2697194f], HandItems: [{}, {}], ChatIndex: 0, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [924.5d, 95.0d, 1477.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "wallace.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @a[scores={DialogueTrigger=144,TalkTime=125}] unless entity @e[x=991,y=69,z=1523,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 991 70 1523 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Steven", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "baker", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [3.0006547f, -3.7350843f], HandItems: [{}, {}], ChatIndex: 3, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [919.5d, 95.0d, 1477.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "steven.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @a[scores={DialogueTrigger=144,TalkTime=126}] @e[x=979,y=69,z=1523,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+execute as @a[scores={DialogueTrigger=144,TalkTime=126}] @e[x=991,y=69,z=1523,distance=..3,type=pixelmon:npc_chatting] run data merge entity @s {Rotation:[180f,0.0f]}
+
+#execute as @a[scores={DialogueTrigger=144,TalkTime=125..137},gamemode=spectator] at @s run tp @s ~ ~-0.025 ~-0.05 ~ ~-0.003
+
+#tps to bridge
+execute as @s[scores={DialogueTrigger=144,TalkTime=137}] run tp @s 985 69 1521 180 10
+execute as @s[scores={DialogueTrigger=144,TalkTime=137}] run gamemode adventure
+execute as @s[scores={DialogueTrigger=144,TalkTime=137}] run scoreboard players add @s TalkTime 53
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=191}] {"text":"<Archie> ..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=196}] {"text":"<Steven> Team Aqua...and Team Magma..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=203}] {"text":"<Archie> We have been expecting you."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=210}] {"text":"<Team Aqua Shelly> Archie... I'm going to hand over that thing we developed to this kid. All right?"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=220}] {"text":"<Archie> Yes."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=225}] {"text":"<Archie> The Aqua Suit. Take it..."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=232,GameVersion=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" obtained the Aqua Suit!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=144,TalkTime=232,GameVersion=1}] run playsound minecraft:keyitem ambient @s ~ ~ ~ 1 1 1
+
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=238}] {"text":"<Team Aqua Shelly> This super high-performance protective suit was made with the combined technology of the Devon Corporation and Team Aqua! "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=250}] {"text":"<Team Aqua Shelly> We actually prepared it in anticipation of coming into contact with Kyogre. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=258}] {"text":"<Team Aqua Shelly> I'll just leave it with you."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=265}] {"text":"<Archie> But... Even if you put that thing on, do you really think you'll be able to make it all the way down to where Kyogre waits?"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=275}] {"text":"<Team Aqua Shelly> The energy overflowing from this shrine is certainly much more powerful than we had anticipated. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=284}] {"text":"<Team Aqua Shelly> Its influence is making the current grow stronger."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=291}] {"text":"<Wallace> There is nothing to fear."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=298}] {"text":"<Wallace> The Red Orb they bear... Its ancient powers will protect both the kid and their Pokémon."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=306}] {"text":"<Maxie> Hmph! So that's it! Now that you mention it, I do remember the elderly couple at Mt. Pyre saying such... "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=315}] {"text":"<Maxie> The Blue Orb is capable of releasing Kyogre's full power, of reverting it to its primal form. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=324}] {"text":"<Maxie> While the Red Orb has the power to quell that flood of power."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=331}] {"text":"<Wallace> Yes. The energy overflowing from the Cave of Origin just now... "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=339}] {"text":"<Wallace> It is the very energy that gives Kyogre its power. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=347}] {"text":"<Wallace> With the Red Orb, which contains the power to suppress that, it should be possible to calm the force of this great flood."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=358}] {"text":"<Wallace> Of course the Red Orb's power alone will not lead you to where Kyogre waits. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=365}] {"text":"<Wallace> You will not reach Hoenn's Core that way."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=372}] {"text":"<Wallace> Use the suit that you were just given. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=379}] {"text":"<Wallace> With that, it will finally become possible to stand up against the forces of nature."}
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=387}] ["",{"text":"<Steven> "},{"selector":"@s"},{"text":"... To think that you had the Red Orb..."}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=395}] {"text":"<Steven> You'll be OK. You and your Pokémon can handle it, whatever happens."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=402}] {"text":"<Steven> I believe that."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=408}] {"text":"<Wallace> No man or woman from Sootopolis is permitted to enter the Cave of Origin."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=415}] {"text":"<Wallace> But you must go. Together with your Red Orb."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=422}] {"text":"<Wallace> You must go regardless of what awaits you inside that cave..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=430}] {"text":"<Maxie> We will also work to mobilize our team members and offer help to the people and Pokémon who are suffering most due to this disaster. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=441}] {"text":"<Maxie> Now is the time when we all must simply do the best that we can within our own chosen roles... And you, child..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=451}] {"text":"<Maxie> No. You are not acting as a mere child today. "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=458}] {"text":"<Maxie> Trainer! "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=464}] {"text":"<Maxie> I am sorry to say that we have put the greatest burden on your shoulders alone... "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=471}] {"text":"<Maxie> But I trust you to take care of this."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=477}] {"text":"<Archie> ... ... Sorry."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=484}] {"text":"<Archie> I'm begging, so... "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=491}] {"text":"<Archie> Save us... The world... "}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=498}] {"text":"<Archie> And Kyogre..."}
+
+#Rival shows up
+execute as @s[scores={DialogueTrigger=144,TalkTime=506}] run particle cloud 985 69 1526 1 1 1 0.15 300
+execute as @s[scores={DialogueTrigger=144,TalkTime=506,Rival=1}] unless entity @e[x=985,y=68,z=1526,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 985 69 1526 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "May", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "santa", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.060916558f, -14.882078f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [985.5d, 69.0d, 1526.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "may.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute as @s[scores={DialogueTrigger=144,TalkTime=506,Rival=2}] unless entity @e[x=985,y=68,z=1526,dy=3,type=pixelmon:npc_chatting] run summon pixelmon:npc_chatting 985 69 1526 {Brain: {memories: {}}, HurtByTimestamp: 0, chatNum: 0, Attributes: [{Base: 0.0d, Name: "forge:step_height_addition"}, {Base: 0.08d, Name: "forge:entity_gravity"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, Name: "Brendan", FallDistance: 0.0f, CanUpdate: 1b, DeathTime: 0s, DefaultName: 0b, Commands: {interactCommands: []}, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, trainerLocation: 2, DefaultGreet: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], TextureIndex: 4, TrainerIndex: "santa", NameIndex: 0, Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [0.060916558f, -14.882078f], HandItems: [{}, {}], ChatIndex: 2, ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Profession: -1s, Pos: [985.5d, 69.0d, 1526.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, CustomSteveTexture: "brendan.png", HurtTime: 0s, BaseTrainer: "Steve", Inventory: [], AIMode: 3s}
+execute at @s[scores={DialogueTrigger=144,TalkTime=506,Rival=2}] as @e[x=985,y=68,z=1526,dy=3,type=pixelmon:npc_chatting] at @s run tp @s ~ ~ ~ facing entity @p[distance=..15]
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=509,Rival=1}] ["",{"text":"<May> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=516,Rival=1}] {"text":"<May> I heard on the news that things were going haywire around Sootopolis."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=524,Rival=1}] ["",{"text":"<May> And then I saw you on BuzzNav, "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=531,Rival=1}] {"text":"<May> I couldn't just sit there and do nothing when I knew you were here in the thick of it, so I came flying!"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=541,Rival=1}] {"text":"<May> Bwuh?! Isn't that Team Aqua? And Team Magma?!"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=548,Rival=1}] {"text":"<May> OK, can I just say that I am, like, shocked and confused on so many levels right now?"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=557,Rival=1}] {"text":"<May> This is probably something way bigger than I can even imagine, isn't it?"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=565,Rival=1}] {"text":"<May> So I'm not even going to ask right now."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=571,Rival=1}] {"text":"<May> I'm going to try to find what I can do to help, and then I'm going to do my best with that."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=580,Rival=1}] ["",{"text":"<May> And I'm going to keep on hoping and believing that y-you'll be OK out there, "},{"selector":"@s"},{"text":"."}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=590,Rival=1}] {"text":"<May> Because..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=596,Rival=1}] {"text":"<May> Because you... You're the best friend I have!"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=603,Rival=1}] {"text":"<May> I'll always be right there behind you."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=610,Rival=1}] {"text":"<May> You're my best friend, after all!"}
+
+
+
+
+tellraw @s[scores={DialogueTrigger=144,TalkTime=509,Rival=2}] ["",{"text":"<Brendan> "},{"selector":"@s"},{"text":"!"}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=516,Rival=2}] ["",{"text":"<Brendan> When I saw the news about Sootopolis on my BuzzNav, and there you were, "},{"selector":"@s"},{"text":"..."}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=525,Rival=2}] {"text":"<Brendan> Well, anyway, all I could think of was coming to help!"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=532,Rival=2}] {"text":"<Brendan> You don't know how glad I am to see that you're still in one piece."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=540,Rival=2}] {"text":"<Brendan> Bwuh?! Is that Team Aqua? And Team Magma?!"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=547,Rival=2}] {"text":"<Brendan> OK, I don't really know what to say right now—I'm kind of dumbfounded."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=556,Rival=2}] {"text":"<Brendan> Look, I get that this is probably something way bigger than I've ever imagined."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=565,Rival=2}] {"text":"<Brendan> So, I won't bother with any questions now."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=572,Rival=2}] {"text":"<Brendan> I'm gonna find out what I should do to help, and then I'm going to do whatever I can."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=582,Rival=2}] ["",{"text":"<Brendan> You'd better go do the same, "},{"selector":"@s"},{"text":"."}]
+tellraw @s[scores={DialogueTrigger=144,TalkTime=590,Rival=2}] {"text":"<Brendan> Because..."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=596,Rival=2}] {"text":"<Brendan> Because you... You're the best friend I have!"}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=603,Rival=2}] {"text":"<Brendan> I'll always be right there behind you."}
+tellraw @s[scores={DialogueTrigger=144,TalkTime=610,Rival=2}] {"text":"<Brendan> You're my best friend, after all!"}
+
+
+
+
+
+
+
+
+tag @s[scores={DialogueTrigger=144,TalkTime=610..}] add Dialogue144
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 145 - Cave of Origin
-#Groudon Encounter
+#Groudon  upon entering the chamber
 #https://youtu.be/MgkqxXCmrtI?t=56025
 
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" changed into the Magma Suit!","italic":true,"color":"gray"}]
 
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" fitted the suit with the Blue Orb!","italic":true,"color":"gray"}]
+#Runs statue checks during this dialogue too just in case
+execute as @s[scores={DialogueTrigger=145,TalkTime=15}] unless entity @e[x=1856,y=70,z=-2426,distance=..15,type=pixelmon:statue] run summon pixelmon:statue 1856 70 -2426 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Growl", MovePP: 40b}, {MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Growth", MovePP: 20b}, {MoveID: "Leech Seed", MovePP: 10b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 21b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 11b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, IVSpeed: 17b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 16s, IVAttack: 4b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 19s, IVHP: 24b, EVHP: 0s, ndex: 383, StatsSpecialDefense: 21s, Age: 0, Nature: 2b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 33s, Health: 20, Animate: 1b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [0.0F, 0.0f], StatsSpeed: 16s, StatsAttack: 16s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 5b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Groudon> Gurrraaahhhh! Gurrrooouuuhhh!!!"}
 
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"You can hear a voice from within the Magma Suit!","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"???: Do you read me?"}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> It is I, the great Maxie."}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> A device built into that suit you have donned allows me to talk to you."}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> We have received the readings from your suit."}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> They suggest that Groudon has appeared."}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Is my supposition correct? Does it stand before you now?"}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> You must listen..."}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Do not waste even a single second. Leap upon Groudon's mighty back."}
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"<Maxie> Then le— take you to— dee—est... o— th— c..."}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" changed into the Magma Suit!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=146,TalkTime=1}] run playsound minecraft:entity.horse.armor ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=145,TalkTime=1,GameVersion=1}] {"text":"The sound cut out...","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=8}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" fitted the suit with the Blue Orb!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=145,TalkTime=8}] run playsound minecraft:entity.sheep.shear ambient @s ~ ~ ~ 1 1 1
 
-tag @s[scores={DialogueTrigger=145,TalkTime=100..}] add Dialogue145
+tellraw @s[scores={DialogueTrigger=145,TalkTime=15}] {"text":"<Groudon> Gurrraaahhhh! Gurrrooouuuhhh!!!"}
+execute as @s[scores={DialogueTrigger=145,TalkTime=15}] run playsound pixelmon:pixelmon.mob.kyogre ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=145,TalkTime=15}] run tag @s add ShakeScreen
+execute as @s[scores={DialogueTrigger=145,TalkTime=20}] run tag @s remove ShakeScreen
+
+tellraw @s[scores={DialogueTrigger=145,TalkTime=23}] {"text":"You can hear a voice from within the Magma Suit!","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=30}] {"text":"???: Do you read me?"}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=37}] {"text":"<Maxie> It is I, the great Maxie."}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=44}] {"text":"<Maxie> A device built into that suit you have donned allows me to talk to you."}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=51}] {"text":"<Maxie> We have received the readings from your suit."}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=58}] {"text":"<Maxie> They suggest that Groudon has appeared."}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=64}] {"text":"<Maxie> Is my supposition correct? Does it stand before you now?"}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=71}] {"text":"<Maxie> You must listen..."}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=78}] {"text":"<Maxie> Do not waste even a single second. Le— take you to—"}
+tellraw @s[scores={DialogueTrigger=145,TalkTime=85}] {"text":"<Maxie> dee—est... o— th— c..."}
+
+tellraw @s[scores={DialogueTrigger=145,TalkTime=93}] {"text":"The sound cut out...","italic":true,"color":"gray"}
+
+tag @s[scores={DialogueTrigger=145,TalkTime=93..}] add Dialogue145
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 146 - Cave of Origin
-#Kyogre Encounter
+#Kyogre upon entering the chamber
 
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" changed into the Aqua Suit!","italic":true,"color":"gray"}]
+#Runs statue checks during this dialogue too just in case
+execute as @s[scores={DialogueTrigger=146,TalkTime=15}] unless entity @e[x=2025,y=70,z=-2421,distance=..15,type=pixelmon:statue] run summon pixelmon:statue 2025 70 -2421 {Brain: {memories: {}}, HurtByTimestamp: 0, EVSpeed: 0s, Attributes: [], Moveset: [{MoveID: "Growl", MovePP: 40b}, {MoveID: "Vine Whip", MovePP: 25b}, {MoveID: "Growth", MovePP: 20b}, {MoveID: "Leech Seed", MovePP: 10b}], Invulnerable: 0b, statueTexture: 0b, Gender: 2b, ribbon_display2: {receiver: "null", received: 0L, type: "isi"}, AbsorptionAmount: 0.0f, Bred: 0b, FallDistance: 0.0f, InLove: 0, CanUpdate: 1b, IVSpDef: 21b, CaughtBall: "poke_ball", HandDropChances: [0.085f, 0.085f], statueLabel: "", PersistenceRequired: 0b, palette: "none", Ability: "Overgrow", IVDefense: 11b, DoesLevel: 1b, EVDefense: 0s, Air: 300s, PAbilitySlot: 0, DynamaxLevel: 0, HandItems: [{}, {}], Variant: "", ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], statueModelType: 1b, EVSpecialAttack: 0s, IVSpeed: 17b, Temper: 0, CanPickUpLoot: 0b, Level: -1, HurtTime: 0s, NoGravity: 1b, Tame: 0b, StatsDefense: 16s, IVAttack: 4b, Growth: 6b, PHiddenAbility: 0b, BoundingBoxMode: 2b, FallFlying: 0b, ForcedAge: 0, PersistentData: {}, PortalCooldown: 0, GigantamaxFactor: 0b, Friendship: 70s, statueAnimation: "idle", EatingHaystack: 0b, DeathTime: 0s, eggCycles: -1, EVAttack: 0s, StatsSpecialAttack: 19s, IVHP: 24b, EVHP: 0s, ndex: 382, StatsSpecialDefense: 21s, Age: 0, Nature: 2b, Motion: [0.0d, 0.0d, 0.0d], StatsHP: 33s, Health: 20, Animate: 1b, SpecFlags: [], LeftHanded: 0b, OnGround: 0b, NoAI: 1b, Rotation: [0.0F, 0.0f], StatsSpeed: 16s, StatsAttack: 16s, statueFrame: 0, Fire: -1s, ArmorItems: [{}, {}, {}, {}], IVSpAtt: 5b, NBT_VERSION: 2b, EVSpecialDefense: 0s, EXP: 0, RelrnMoves: [], ribbons2: []}
 
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" fitted the suit with the Red Orb!","italic":true,"color":"gray"}]
+tellraw @s[scores={DialogueTrigger=146,TalkTime=1}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" changed into the Aqua Suit!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=146,TalkTime=1}] run playsound minecraft:entity.horse.armor ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"<Kyogre> Krrraaawwwrrr!!!"}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=8}] ["",{"selector":"@s","italic":true,"color":"gray"},{"text":" fitted the suit with the Red Orb!","italic":true,"color":"gray"}]
+execute as @s[scores={DialogueTrigger=146,TalkTime=8}] run playsound minecraft:entity.sheep.shear ambient @s ~ ~ ~ 1 1 1
 
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"You can hear a voice from within the Aqua Suit!","italic":true,"color":"gray"}
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"???: Hey! You read me, little scamp?"}
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"<Archie> Aye, it's me, Archie!"}
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"<Archie> There's a device built into that suit that lets me talk to you."}
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"<Archie> We're getting readings up here that look as though Kyogre's appeared."}
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"<Archie> I'd guess you're staring right at it, if I'm not mistaken!"}
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"<Archie> Don't be afraid, scamp! You leap right onto that beastie's back!"}
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"<Archie> Then le— take you to— dee—est... o— th— c..."}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=15}] {"text":"<Kyogre> Krrraaawwwrrr!!!"}
+execute as @s[scores={DialogueTrigger=146,TalkTime=15}] run playsound pixelmon:pixelmon.mob.kyogre.primal ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=146,TalkTime=15}] run tag @s add ShakeScreen
+execute as @s[scores={DialogueTrigger=146,TalkTime=20}] run tag @s remove ShakeScreen
 
-tellraw @s[scores={DialogueTrigger=146,TalkTime=1,GameVersion=2}] {"text":"The sound cut out...","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=23}] {"text":"You can hear a voice from within the Aqua Suit!","italic":true,"color":"gray"}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=30}] {"text":"???: Hey! You read me, little scamp?"}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=37}] {"text":"<Archie> Aye, it's me, Archie!"}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=44}] {"text":"<Archie> There's a device built into that suit that lets me talk to you."}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=51}] {"text":"<Archie> We're getting readings up here that look as though Kyogre's appeared."}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=58}] {"text":"<Archie> I'd guess you're staring right at it, if I'm not mistaken!"}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=64}] {"text":"<Archie> Don't be afraid, scamp! Le— take you to— "}
+tellraw @s[scores={DialogueTrigger=146,TalkTime=71}] {"text":"<Archie> dee—est... o— th— c..."}
 
-tag @s[scores={DialogueTrigger=146,TalkTime=100..}] add Dialogue146
+tellraw @s[scores={DialogueTrigger=146,TalkTime=76}] {"text":"The sound cut out...","italic":true,"color":"gray"}
+
+tag @s[scores={DialogueTrigger=146,TalkTime=76..}] add Dialogue146
 #-----------------------------------------------------------------------------------------------------
 #Dialogue 147 - Cave of Origin
 #Groudon in primal chamber
@@ -6504,6 +6683,7 @@ execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run tp @s 1855 72 -2408 
 
 
 #Swaps for primal battle
+execute as @s[scores={DialogueTrigger=148,TalkTime=37}] run tp @e[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,type=pixelmon:pixelmon] 10000000 -50000 -10000000
 execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run particle minecraft:explosion_emitter 1856 70 -2426 4 5 4 .75 100 normal
 execute as @s[scores={DialogueTrigger=147,TalkTime=38}] positioned 1856 70 -2426 run pokespawn Groudon form:primal lvl:45 gr:7
 execute as @s[scores={DialogueTrigger=147,TalkTime=38}] run tp @e[x=1856,y=70,z=-2426,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000
@@ -6529,7 +6709,7 @@ tag @s[scores={DialogueTrigger=147,TalkTime=50..}] add Dialogue147
 #Triggered by jumping into the water with legendary
 
 tellraw @s[scores={DialogueTrigger=148,TalkTime=1}] {"text":"<Kyogre> Krawr!!"}
-execute as @s[scores={DialogueTrigger=148,TalkTime=1}] run playsound pixelmon:pixelmon.mob.kyogre ambient @s ~ ~ ~ 1 1 1
+execute as @s[scores={DialogueTrigger=148,TalkTime=1}] run playsound pixelmon:pixelmon.mob.kyogre.primal ambient @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=148,TalkTime=1}] run stopsound @s record
 
 #Camera 1
@@ -6556,6 +6736,7 @@ execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run tp @s 2025 72 -2404 
 
 
 #Swaps for primal battle
+execute as @s[scores={DialogueTrigger=148,TalkTime=37}] run tp @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,type=pixelmon:pixelmon] 10000000 -50000 -10000000
 execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run particle minecraft:explosion_emitter 2025 72 -2421 4 5 4 .75 100 normal
 execute as @s[scores={DialogueTrigger=148,TalkTime=38}] positioned 2025 70 -2421 run pokespawn Kyogre form:primal lvl:45 gr:7
 execute as @s[scores={DialogueTrigger=148,TalkTime=38}] run tp @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] 10000000 -50000 -10000000

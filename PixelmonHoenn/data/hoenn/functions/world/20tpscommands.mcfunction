@@ -172,6 +172,8 @@ execute as @a[scores={DialogueTrigger=111,TalkTime=13..20}] as @e[x=-497,y=83,z=
 #Dialogue 128 - Rival introducing department store
 execute as @a[scores={DialogueTrigger=128,TalkTime=17..50},gamemode=spectator] at @s run tp @s ~-0.025 ~ ~-0.025
 
+#Dialogue 143&144 - Sootopolis team in front of Cave of Origin
+execute as @a[scores={DialogueTrigger=143..144,TalkTime=125..137},gamemode=spectator] at @s run tp @s ~ ~-0.025 ~-0.05 ~ ~-0.003
 
 #-----------------------------------------------------------------------------------------
 

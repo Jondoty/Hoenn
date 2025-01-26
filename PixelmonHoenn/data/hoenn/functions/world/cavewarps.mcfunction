@@ -110,6 +110,9 @@ tp @a[x=1359,y=67,z=-2597,dx=24,dy=15,dz=6] 2235 139 -160 0 0
 #-------------------------------------------------------------------------
 #Cave of Origin
 
+#Gets rid of avoidiance if present to prevent dialogue skip
+effect clear @a[x=1826,y=64,z=-2542,dx=7,dy=10,dz=6] pixelmon:avoidance
+
 #Groudon Chamber
 tp @a[x=1826,y=64,z=-2542,dx=7,dy=10,dz=6,scores={GameVersion=1}] 1877 82 -2356
 tp @a[x=1885,y=88,z=-2358,dx=8,dy=8,dz=4] 1834 68 -2539

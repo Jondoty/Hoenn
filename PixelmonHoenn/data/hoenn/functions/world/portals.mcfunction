@@ -1284,6 +1284,11 @@ tp @a[x=8,y=29,z=319,dx=3,dy=3] 10 65 320
 #Sootopolis City
 
 #Pokemon Gym
+#Locked for story
+execute as @a[x=983,y=64,z=1715,dx=6,dy=3,tag=!Dialogue149] run tellraw @s {"text":"The door is currently locked.","italic":true,"color":"gray"}
+execute as @a[x=983,y=64,z=1715,dx=6,dy=3,tag=!Dialogue149] at @s run tp @s ~ ~ ~5
+
+#Regular
 tag @a[x=983,y=64,z=1715,dx=6,dy=3,tag=!Dialogue152] remove Dialogue151
 tp @a[x=983,y=64,z=1715,dx=6,dy=3] -3533.0 82 1601
 tp @a[x=-3536,y=82,z=1602,dx=5,dy=3] 986 65 1716
@@ -1338,6 +1343,13 @@ tp @a[x=1209,y=73,z=1658,dx=3,dy=3] 1211 89 1659
 #---------------
 
 #Cave of Origin
+#Kicks player back before dialogue
+tp @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1,tag=!Dialogue143,tag=!Dialogue144] ~ ~ ~7
+
+#tps chatting npcs into void after dialogue is cleared
+execute as @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1] run tp @e[x=978,y=68,z=1508,dx=15,dy=5,dz=20,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+
+#Normal portal
 tp @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1] 1945 227 -2418
 tp @a[x=1943,y=227,z=-2417,dx=4,dy=4] 985 69 1503
 

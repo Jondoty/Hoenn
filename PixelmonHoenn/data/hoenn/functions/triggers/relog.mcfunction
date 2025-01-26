@@ -39,6 +39,14 @@ execute as @s[tag=!Dialogue110] run tag @s remove Dialogue109
 #Kecleon prompt but then relog
 execute as @s[tag=Dialogue115,tag=!Dialogue116] run tag @s remove Dialogue115
 
+
+#Relog condition if player crashes/DCs between legend spawn and legend no longer in chamber
+execute as @s[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,tag=Dialogue145,tag=!Dialogue149] unless entity @e[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,type=pixelmon:pixelmon] run tag @s remove Dialogue145
+execute as @s[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,tag=Dialogue147,tag=!Dialogue149] unless entity @e[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,type=pixelmon:pixelmon] run tag @s remove Dialogue147
+execute as @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,tag=Dialogue146,tag=!Dialogue149] unless entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,type=pixelmon:pixelmon] run tag @s remove Dialogue146
+execute as @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,tag=Dialogue148,tag=!Dialogue149] unless entity @e[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,type=pixelmon:pixelmon] run tag @s remove Dialogue148
+
+
 #Stern's Radar Prompt
 execute as @s[tag=!Dialogue219,tag=Dialogue218] run tag @s remove Dialogue218
 
