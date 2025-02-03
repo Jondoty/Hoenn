@@ -141,6 +141,18 @@ execute if entity @a[scores={DialogueTrigger=148,TalkTime=224..248}] as @e[x=202
 execute if entity @a[scores={DialogueTrigger=148,TalkTime=224..248}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:dolphin ~ ~ ~ 5 5 5 1 100 normal
 execute if entity @a[scores={DialogueTrigger=148,TalkTime=232..248}] as @e[x=2025,y=70,z=-2421,distance=..5,type=pixelmon:statue] at @s run particle minecraft:end_rod ~ ~ ~ 2.5 3 2.5 0.25 10 normal
 
+#Dialogue 149, legend defeated cutscene
+execute as @a[scores={DialogueTrigger=149,TalkTime=6..18},gamemode=spectator] at @s run tp @s ~ ~0.1 ~-0.05 ~ ~
+execute as @a[scores={DialogueTrigger=149,TalkTime=6..17},gamemode=spectator] run particle minecraft:glow_squid_ink 986 64 1433 2 100 0.15 2 1000 force @s
+execute as @a[scores={DialogueTrigger=149,TalkTime=18..29},gamemode=spectator] at @s run tp @s ~0.015 ~0.015 ~0.015 ~ ~
+execute as @a[scores={DialogueTrigger=149,TalkTime=18..23},gamemode=spectator] run particle minecraft:glow_squid_ink -786 64 1465 0.05 100 0.05 0.25 100 force @s
+execute as @a[scores={DialogueTrigger=149,TalkTime=30..40},gamemode=spectator] at @s run tp @s ~ ~ ~ ~0.1 ~
+execute as @a[scores={DialogueTrigger=149,TalkTime=44..55},gamemode=spectator] at @s run tp @s ~0.021 ~ ~-0.044 ~-0.035 ~.086
+execute as @a[scores={DialogueTrigger=149,TalkTime=57..66},gamemode=spectator] at @s run tp @s ~0.02 ~ ~ ~ ~
+execute as @a[scores={DialogueTrigger=149,TalkTime=68..78},gamemode=spectator] at @s run tp @s ~0.023 ~-.0375 ~-0.08 ~-0.05 ~.038
+execute as @a[scores={DialogueTrigger=149,TalkTime=80..90},gamemode=spectator] at @s run tp @s ~-0.02 ~ ~-0.02 ~ ~
+execute as @a[scores={DialogueTrigger=149,TalkTime=592..630},gamemode=spectator] at @s run tp @s ~0.03 ~0.03 ~0.0375 ~ ~
+
 #Sky Pillar into Outer Space
 execute as @a[scores={DialogueTrigger=207,TalkTime=50..65}] at @s run tp @e[distance=..15,type=pixelmon:statue,nbt={Variant:"mega"}] ~ ~2 ~
 execute as @a[scores={DialogueTrigger=207,TalkTime=50..65}] at @s run tp @s ~ ~2 ~

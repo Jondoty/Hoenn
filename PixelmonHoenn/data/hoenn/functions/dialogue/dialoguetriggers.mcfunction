@@ -1277,13 +1277,13 @@ execute as @a[x=2042,y=81,z=-2350,distance=..15,tag=!Dialogue146] run scoreboard
 
 
 #Stops music if the player has avoidance effect (they defeated or caught it)
-execute as @a[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run stopsound @s record
-execute as @a[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s MusicCooldown 1
-execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run stopsound @s record
-execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s MusicCooldown 1
+execute as @a[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={active_effects:[{id:"pixelmon:avoidance"}]},tag=!Dialogue149] run stopsound @s record
+execute as @a[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={active_effects:[{id:"pixelmon:avoidance"}]},tag=!Dialogue149] run scoreboard players set @s MusicCooldown 1
+execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"pixelmon:avoidance"}]},tag=!Dialogue149] run stopsound @s record
+execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"pixelmon:avoidance"}]},tag=!Dialogue149] run scoreboard players set @s MusicCooldown 1
 
-execute as @a[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s DialogueTrigger 149
-execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"pixelmon:avoidance"}]}] run scoreboard players set @s DialogueTrigger 149
+execute as @a[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151,nbt={active_effects:[{id:"pixelmon:avoidance"}]},tag=!Dialogue149] run scoreboard players set @s DialogueTrigger 149
+execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"pixelmon:avoidance"}]},tag=!Dialogue149] run scoreboard players set @s DialogueTrigger 149
 
 #Relog condition if player crashes/DCs between legend spawn and legend no longer in chamber
 #execute as @s[x=1790,y=64,z=-2483,dx=133,dy=34,dz=151] unless entity @e[type=pixelmon:pixelmon,x=1790,y=64,z=-2483,dx=133,dy=34,dz=151] run tag @s remove Dialogue145
@@ -1291,6 +1291,8 @@ execute as @a[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170,nbt={active_effects:[{id:"
 
 #execute as @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170] unless entity @e[type=pixelmon:pixelmon,x=1954,y=64,z=-2496,dx=144,dy=34,dz=170] run tag @s remove Dialogue146
 #execute as @s[x=1954,y=64,z=-2496,dx=144,dy=34,dz=170] unless entity @e[type=pixelmon:pixelmon,x=1954,y=64,z=-2496,dx=144,dy=34,dz=170] run tag @s remove Dialogue148
+
+execute as @a[x=-2042,y=50,z=319,distance=..15,tag=Dialogue149,tag=!Dialogue150] run scoreboard players set @s DialogueTrigger 150
 
 #----------------------------------------------
 

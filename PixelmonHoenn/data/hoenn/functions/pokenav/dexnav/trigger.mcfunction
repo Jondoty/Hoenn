@@ -17,6 +17,10 @@
 #This function then rolls for a random number to determine a Pokemon
 #Then based on the player's coordinates, spawns a Pokemon with that specific rng value.
 
+
+
+#For later additions, can separate between Pre and Post National Dex spawns with tag=NatDex or tag=!NatDex 
+
 #Tags any player within 3 blocks of a shadow with 0 steps as Success for this function.
 execute as @e[type=armor_stand,tag=DexNav,tag=Active] at @s run tag @a[distance=..3,scores={StepCounter=0}] add Success
 

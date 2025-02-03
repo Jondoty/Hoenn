@@ -1350,8 +1350,8 @@ tp @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1,tag=!Dialogue143,tag=!Dialogue144] ~ ~ ~
 execute as @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1] run tp @e[x=978,y=68,z=1508,dx=15,dy=5,dz=20,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
 
 #Normal portal
-tp @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1] 1945 227 -2418
-tp @a[x=1943,y=227,z=-2417,dx=4,dy=4] 985 69 1503
+tp @a[x=979,y=69,z=1500,dx=13,dy=8,dz=1,scores={DialogueTrigger=0}] 1945 227 -2418
+tp @a[x=1943,y=227,z=-2417,dx=4,dy=4,scores={DialogueTrigger=0}] 985 69 1503
 
 #-------------------------------------------------------------------------
 #Evergrand City
