@@ -63,6 +63,19 @@ execute as @p[x=816,y=64,z=-1026,distance=..50,tag=!Dialogue136] unless entity @
 
 execute as @p[x=816,y=64,z=-1026,distance=..50,tag=Dialogue136] run tp @e[x=839,y=50,z=-1053,dx=18,dy=30,dz=53,type=pixelmon:statue] 10000000 -50000 -10000000
 
+
+#Block if player is not able to use Waterfall
+tellraw @a[x=2127,y=68,z=-100,dx=122,dy=50,dz=30,tag=!Dialogue152] {"text":"It's a towering waterfall. You may be able to swim up it with an HM.","italic":true,"color":"gray"}
+execute as @a[x=2127,y=68,z=-100,dx=12,dy=30,dz=30,tag=!Dialogue152] at @s run tp @s ~6 ~-3 ~10
+execute as @a[x=2243,y=68,z=-100,dx=12,dy=30,dz=30,tag=!Dialogue152] at @s run tp @s ~-6 ~-3 ~10
+execute as @a[x=2127,y=68,z=-100,dx=122,dy=30,dz=30,tag=!Dialogue152] at @s run tp @s ~ ~-3 ~10
+
+
+
+
+
+
+
 #----------
 
 #Gyms

@@ -1374,6 +1374,7 @@ tp @a[x=1341,y=75,z=-3153,dx=3,dy=3] 2166 164 -295
 scoreboard players set @a[x=2246,y=159,z=-377,dx=4,dy=3] EscapeRope 6
 tp @a[x=2246,y=159,z=-377,dx=4,dy=3] 1645 94 -3111
 scoreboard players set @a[x=1642,y=94,z=-3112,dx=8,dy=3] EscapeRope 0
+scoreboard players set @a[x=1642,y=94,z=-3112,dx=8,dy=3] BattleMusic 0
 tp @a[x=1642,y=94,z=-3112,dx=8,dy=3] 2248 159 -378
 
 #-------------------------------------------------------------------------
@@ -1502,6 +1503,9 @@ tp @a[x=632,y=84,z=-3215,dx=4,dy=3] 634.0 87 -3180
 tp @a[x=632,y=140,z=-3215,dx=4,dy=3] 634.0 87 -3180
 
 #Steven's battle room to hall of fame
+execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run tp @e[type=pixelmon:npc_chatting,x=626,y=109,z=-3263,dy=3] 10000000 -50000 -10000000
+execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run tp @e[type=pixelmon:npc_chatting,x=626,y=109,z=-3263,dy=3] 10000000 -50000 -10000000
+
 execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run function hoenn:tools/forceclick
 execute as @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] run tag @s remove Dialogue166
 tp @a[x=632,y=115,z=-3288,dx=4,dy=100,tag=Dialogue164] 633 132 -3305

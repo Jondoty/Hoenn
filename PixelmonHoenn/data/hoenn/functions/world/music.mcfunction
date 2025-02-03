@@ -133,7 +133,7 @@ scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=8}] MusicCooldown 
 
 #Wally
 playsound wally record @s[scores={MusicCooldown=0,BattleMusic=9}] ~ ~ ~ 1 1 1
-scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=9}] MusicCooldown 119
+scoreboard players set @s[scores={MusicCooldown=0,BattleMusic=9}] MusicCooldown 117
 
 #Zinnia
 playsound zinnia record @s[scores={MusicCooldown=0,BattleMusic=10}] ~ ~ ~ 1 1 1
