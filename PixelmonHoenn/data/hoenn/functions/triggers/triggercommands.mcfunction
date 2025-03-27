@@ -86,6 +86,11 @@ execute as @s[scores={TriggerCommand=13}] run scoreboard players set @s Dialogue
 execute as @s[scores={TriggerCommand=14}] run scoreboard players set @s Temp 2
 execute as @s[scores={TriggerCommand=14}] run scoreboard players set @s DialogueTrigger 38
 
+#if player is near Slateport, sends him to Dewford
+execute as @s[scores={TriggerCommand=61}] run tellraw @s {"text":"<Mr. Briney> Dewford, we're a-coming! Anchors aweigh!"}
+execute as @s[scores={TriggerCommand=61}] run scoreboard players set @s Cutscene 4
+execute as @s[scores={TriggerCommand=61}] run scoreboard players set @s TriggerCommand 0
+
 #-----------------------------------------------------------------------------------------------------
 #Rydel's Bike Choices
 
@@ -478,6 +483,7 @@ execute as @s[scores={TriggerCommand=59}] run tellraw @s {"text":"<Taillow> Trai
 #Resource pack explanation & link
 execute as @s[scores={TriggerCommand=60}] run tellraw @s ["",{"text":"[","italic":true,"color":"gray"},{"text":"Click Here","italic":true,"color":"aqua","clickEvent":{"action":"open_url","value":"http://hoenn.jond.tv"}},{"text":"] to download.\n[","italic":true,"color":"gray"},{"text":"Learn More","italic":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack"}},{"text":"] about how to enable a Resource Pack.","italic":true,"color":"gray"}]
 
+#61 used
 
 #-----------------------------------------------------------------------------------------------------
 #100+, chatting NPCs give player items

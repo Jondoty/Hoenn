@@ -1350,15 +1350,14 @@ tag @s[scores={DialogueTrigger=32,TalkTime=10..}] add Dialogue32
 tellraw @s[scores={DialogueTrigger=33,TalkTime=1}] {"text":"<Mr. Briney> Dewford, we're a-coming! Anchors aweigh!"}
 tellraw @s[scores={DialogueTrigger=33,TalkTime=8}] {"text":"<Mr. Briney> Peeko, we're setting sail, my darling!"}
 
-#Blinds player, tps to destination
-execute as @s[scores={DialogueTrigger=33,TalkTime=16}] run effect give @s minecraft:blindness 5 1 true
-execute as @s[scores={DialogueTrigger=33,TalkTime=16}] run tp @s -2419 70 838.5 -110 9
+#Runs cutscene
+execute as @s[scores={DialogueTrigger=33,TalkTime=16}] run scoreboard players set @s Cutscene 2
 
-tellraw @s[scores={DialogueTrigger=33,TalkTime=20}] {"text":"<Mr. Briney> Ahoy! We've struck land in Dewford."}
-tellraw @s[scores={DialogueTrigger=33,TalkTime=27}] {"text":"<Mr. Briney> If you're ever feeling lost and adrift though, try calling in on the island's Pokémon Gym."}
-tellraw @s[scores={DialogueTrigger=33,TalkTime=37}] {"text":"<Mr. Briney> The Leader, Brawly, surely knows everyone and everything that goes on in his town!"}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=80}] {"text":"<Mr. Briney> Ahoy! We've struck land in Dewford."}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=87}] {"text":"<Mr. Briney> If you're ever feeling lost and adrift though, try calling in on the island's Pokémon Gym."}
+tellraw @s[scores={DialogueTrigger=33,TalkTime=97}] {"text":"<Mr. Briney> The Leader, Brawly, surely knows everyone and everything that goes on in his town!"}
 
-tag @s[scores={DialogueTrigger=33,TalkTime=37..}] add Dialogue33
+tag @s[scores={DialogueTrigger=33,TalkTime=97..}] add Dialogue33
 #----------------------------------------------------------------------------------------------------------
 #Dialogue 34 - Dewford Gym
 #Brawly Pre-Battle
@@ -1487,15 +1486,14 @@ tellraw @s[scores={DialogueTrigger=38,TalkTime=1,Temp=1}] {"text":"<Mr. Briney> 
 tellraw @s[scores={DialogueTrigger=38,TalkTime=1,Temp=2}] {"text":"<Mr. Briney> Petalburg City, is it? Anchors aweigh! Peeko, we're setting sail, my darling!"}
 
 #Cutscene shots
-execute as @s[scores={DialogueTrigger=38,TalkTime=10}] run effect give @s minecraft:blindness 5 1 true
-execute as @s[scores={DialogueTrigger=38,TalkTime=11,Temp=1}] run tp @s -1438.1 70 685.15 -37 7
-execute as @s[scores={DialogueTrigger=38,TalkTime=11,Temp=2}] run tp @s -2718 69 -30.5 -182 7
+execute as @s[scores={DialogueTrigger=38,TalkTime=11,Temp=1}] run scoreboard players set @s Cutscene 3
+execute as @s[scores={DialogueTrigger=38,TalkTime=11,Temp=2}] run scoreboard players set @s Cutscene 5
 
-tellraw @s[scores={DialogueTrigger=38,TalkTime=15,Temp=1}] {"text":"<Mr. Briney> Ahoy! We've made land in Slateport!"}
-tellraw @s[scores={DialogueTrigger=38,TalkTime=15,Temp=2}] {"text":"<Mr. Briney> Ahoy! We've made land in Petalburg!"}
+tellraw @s[scores={DialogueTrigger=38,TalkTime=75,Temp=1}] {"text":"<Mr. Briney> Ahoy! We've made land in Slateport!"}
+tellraw @s[scores={DialogueTrigger=38,TalkTime=75,Temp=2}] {"text":"<Mr. Briney> Ahoy! We've made land in Petalburg!"}
 #tellraw @s[scores={DialogueTrigger=37,TalkTime=1}] {"text":"<Mr. Briney> I suppose you're off to visit Captain Stern and deliver those Devon Parts?"}
 
-tag @s[scores={DialogueTrigger=38,TalkTime=15..}] add Dialogue38
+tag @s[scores={DialogueTrigger=38,TalkTime=75..}] add Dialogue38
 #----------------------------------------------------------------------------------------------------------
 #Dialogue ??? - Route 109
 #Seashore House after all trainers battled

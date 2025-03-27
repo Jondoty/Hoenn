@@ -171,10 +171,10 @@ execute as @a[x=-2416,y=69,z=837,distance=..5,tag=!Dialogue37,scores={StepCounte
 execute as @a[x=-2416,y=69,z=837,distance=..5,tag=!Dialogue37,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
 
 #Slateport prompt to Petalburg
-execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tellraw @s {"text":"<Mr. Briney> How's about it, did you want to go back to my Cottage?"}
+execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tellraw @s {"text":"<Mr. Briney> How's about it, did you want to go back to Dewford?"}
 execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tag @s remove Dialogue38
 execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run scoreboard players enable @s TriggerCommand
-execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 14"}},{"text":"]"}]
+execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 61"}},{"text":"]"}]
 execute as @a[x=-1436,y=70,z=688,distance=..5,scores={StepCounter=3000..}] run scoreboard players set @s StepCounter 0
 
 #Dialogue 41 - Stern's Shipyard

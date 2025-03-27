@@ -11,7 +11,7 @@ execute at @a run execute if block ~ ~ ~ minecraft:pink_carpet run function hoen
 execute as @a[x=-2021,y=64,z=1459,distance=..20,tag=!InitialTags] run function hoenn:triggers/startingcommands
 
 #Runs function to update player's music and titles on a constant basis
-execute as @a[scores={BattleMusic=0,DialogueTrigger=0}] run function hoenn:world/musictitles
+execute as @a[scores={BattleMusic=0,DialogueTrigger=0,Cutscene=0}] run function hoenn:world/musictitles
 
 #Runs less-frequent cave portals, portals that are not activated by a portal block.
 execute as @a run function hoenn:world/cavewarps
