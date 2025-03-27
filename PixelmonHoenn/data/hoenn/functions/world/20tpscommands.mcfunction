@@ -59,6 +59,20 @@ execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,tag=TornadusHave,ta
 execute if entity @a[x=-1048,y=0,z=1331,dx=379,dy=256,dz=296,tag=TornadusHave,tag=ThundurusHave,tag=!LandorusEncounter] positioned -814 106 1503 run particle minecraft:campfire_cosy_smoke ~ ~ ~ 2 1 2 0 50 force @a[tag=!LandorusEncounter]
 
 #-----------------------------------------------------------------------------------------
+#Custom cutscenes fully scirpted
+
+#Adds a frame for each time this function runs
+execute as @a[scores={Cutscene=1..}] run scoreboard players add @s frame 1 
+
+execute as @a[scores={Cutscene=2}] run function hoenn:cutscenes/cutscene2
+execute as @a[scores={Cutscene=3}] run function hoenn:cutscenes/cutscene3
+execute as @a[scores={Cutscene=4}] run function hoenn:cutscenes/cutscene4
+execute as @a[scores={Cutscene=5}] run function hoenn:cutscenes/cutscene5
+
+#Common cutscene start, stop points and commands (anything but the individual frames)
+execute as @a[scores={Cutscene=1..}] run function hoenn:cutscenes/cutscenecommon
+
+#-----------------------------------------------------------------------------------------
 
 #Kills tree items in the wild. Ignores in bases
 execute as @a at @s unless entity @s[x=-3545,y=63,z=-3151,dx=1129,dy=50,dz=658] as @e[distance=..5,type=minecraft:item,nbt={Item:{id:"pixelmon:tree"}}] run kill @s
