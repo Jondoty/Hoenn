@@ -1,0 +1,202 @@
+{
+    "interactions": {
+        "value": {
+            "interactions": [
+                {
+                    "event": "pixelmon:hit_with_poke_ball",
+                    "conditions": {
+                        "player": {
+                            "key": "pixelmon:player",
+                            "type": "pixelmon:context_player"
+                        },
+                        "type": "pixelmon:can_battle"
+                    },
+                    "results": {
+                        "value": [
+                            {
+                                "title": "Aroma Lady Daisy",
+                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "type": "pixelmon:open_dialogue"
+                            },
+                            {
+                                "commands": [
+                                    "scoreboard players set @p BattleStart 1"
+                                ],
+                                "type": "pixelmon:console_execute_command"
+                            }
+                        ],
+                        "type": "pixelmon:constant"
+                    }
+                },
+                {
+                    "event": "pixelmon:right_click",
+                    "conditions": {
+                        "player": {
+                            "key": "pixelmon:player",
+                            "type": "pixelmon:context_player"
+                        },
+                        "type": "pixelmon:can_battle"
+                    },
+                    "results": {
+                        "value": [
+                            {
+                                "title": "Aroma Lady Daisy",
+                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "type": "pixelmon:open_dialogue"
+                            },
+                            {
+                                "commands": [
+                                    "scoreboard players set @p BattleStart 2"
+                                ],
+                                "type": "pixelmon:console_execute_command"
+                            }
+                        ],
+                        "type": "pixelmon:constant"
+                    }
+                },
+                {
+                    "event": "pixelmon:right_click",
+                    "conditions": {
+                        "type": "pixelmon:logical_not",
+                        "condition": {
+                            "condition": {
+                                "player": {
+                                    "key": "pixelmon:player",
+                                    "type": "pixelmon:context_player"
+                                },
+                                "type": "pixelmon:can_battle"
+                            },
+                            "type": "pixelmon:interaction_condition"
+                        }
+                    },
+                    "results": {
+                        "value": [
+                            {
+                                "messages": [
+                                    {
+                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                    }
+                                ],
+                                "type": "pixelmon:message_player"
+                            }
+                        ],
+                        "type": "pixelmon:constant"
+                    }
+                },
+                {
+                    "event": "pixelmon:close_dialogue",
+                    "conditions": {
+                        "type": "pixelmon:true"
+                    },
+                    "results": {
+                        "value": [
+                            {
+                                "type": "pixelmon:player_start_npc_battle"
+                            },
+                            {
+                                "commands": [
+                                    "scoreboard players set @p BattleStart 10"
+                                ],
+                                "type": "pixelmon:console_execute_command"
+                            }
+                        ],
+                        "type": "pixelmon:constant"
+                    }
+                },
+                {
+                    "event": "pixelmon:lose_battle",
+                    "conditions": {
+                        "type": "pixelmon:true"
+                    },
+                    "results": {
+                        "value": [
+                            {
+                                "commands": [
+                                    "scoreboard players set @p BattleEnd 0"
+                                ],
+                                "type": "pixelmon:console_execute_command"
+                            }
+                        ],
+                        "type": "pixelmon:constant"
+                    }
+                },
+                {
+                    "event": "pixelmon:win_battle",
+                    "conditions": {
+                        "type": "pixelmon:true"
+                    },
+                    "results": {
+                        "value": [
+                            {
+                                "title": "pixelmon.dialogue.trainer.wild",
+                                "message": "You weren\u0027t led astray by our aroma...",
+                                "fire_close_event": false,
+                                "type": "pixelmon:open_dialogue"
+                            },
+                            {
+                                "money": 544,
+                                "type": "pixelmon:give_money"
+                            },
+                            {
+                                "commands": [
+                                    "scoreboard players set @p BattleEnd 1"
+                                ],
+                                "type": "pixelmon:console_execute_command"
+                            }
+                        ],
+                        "type": "pixelmon:constant"
+                    }
+                }
+            ]
+        },
+        "type": "pixelmon:constant"
+    },
+    "properties": {
+        "value": {
+            "health": 20,
+            "eyeHeight": 1.9,
+            "dimensions": {
+                "width": 0.65,
+                "height": 2
+            },
+            "child": false,
+            "invulnerable": true,
+            "immovable": true,
+            "nameplate": true
+        },
+        "type": "pixelmon:constant"
+    },
+    "party": {
+        "value": {
+            "options": [
+                "Roselia"
+            ],
+            "min_selections": 1,
+            "max_selections": 1,
+            "type": "pixelmon:random_combination"
+        },
+        "type": "pixelmon:constant"
+    },
+    "names": {
+        "values": [
+            "Daisy"
+        ],
+        "type": "pixelmon:uniformly_random"
+    },
+    "models": {
+        "values": [
+            {
+                "slim": true,
+                "texture": {
+                    "resource": {
+                        "resource": "pixelmon:textures/steve/youngstergirl.png",
+                        "fallback": "pixelmon:textures/steve/youngstergirl.png"
+                    },
+                    "type": "pixelmon:fallback"
+                },
+                "type": "pixelmon:player"
+            }
+        ],
+        "type": "pixelmon:uniformly_random"
+    }
+}
