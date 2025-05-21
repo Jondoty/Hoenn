@@ -39,18 +39,22 @@ function hoenn:world/roadblocks
 function hoenn:triggers/potioneffects
 
 #Battle Music
-execute as @a[tag=BattleStart] run function hoenn:battles/start
-execute as @a[tag=BattleEnd] run function hoenn:battles/end
-execute as @a[tag=BattleForefit] run function hoenn:battles/forefit
+#Runs battle music and post-battle events
+#Battle endings
+execute as @a[scores={BattleEnd=1..}] run function hoenn:battles/battleend
+
+#Battle start and music
+execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
+execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function hoenn:battles/battlestart
 
 #---------------------
 #Lobby Gamerule Stuff
 #Runs boss levels
-execute at @a[scores={Boss=0}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "notboss"}
-execute at @a[scores={Boss=1}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "equal"}
-execute at @a[scores={Boss=2}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "common"}
-execute at @a[scores={Boss=3}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "uncommon"}
-execute at @a[scores={Boss=4}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "rare"}
+#execute at @a[scores={Boss=0}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "notboss"}
+#execute at @a[scores={Boss=1}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "equal"}
+#execute at @a[scores={Boss=2}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "common"}
+#execute at @a[scores={Boss=3}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "uncommon"}
+#execute at @a[scores={Boss=4}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "rare"}
 
 
 #Runs infolist command for non-ops
@@ -154,8 +158,8 @@ execute as @a[tag=!MusicDisabled,tag=!Cycling] at @s positioned ~ ~-2 ~ if entit
 tag @a[x=-1562,y=60,z=-1293,dx=249,dy=256,dz=159] add DesertTemp
 tag @a[x=-1479,y=60,z=-1133,dx=166,dy=256,dz=267] add DesertTemp
 
-clear @a pixelmon:safety_goggles{display:{Name:'[{"text":"Go-Goggles","italic":false}]'}}
-execute as @a[tag=SafetyGoggles] run item replace entity @s[tag=DesertTemp] armor.head with pixelmon:safety_goggles{display:{Name:'[{"text":"Go-Goggles","italic":false}]'}}
+#clear @a pixelmon:safety_goggles{display:{Name:'[{"text":"Go-Goggles","italic":false}]'}}
+#execute as @a[tag=SafetyGoggles] run item replace entity @s[tag=DesertTemp] armor.head with pixelmon:safety_goggles{display:{Name:'[{"text":"Go-Goggles","italic":false}]'}}
 
 tag @a remove DesertTemp
 

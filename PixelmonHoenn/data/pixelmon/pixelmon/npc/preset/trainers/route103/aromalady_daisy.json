@@ -20,7 +20,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @p BattleStart 1"
+                                    "scoreboard players set @pl BattleStart 6",
+                                    "execute as @pl run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -46,7 +47,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @p BattleStart 2"
+                                    "scoreboard players set @pl BattleStart 6",
+                                    "execute as @pl run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -95,7 +97,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @p BattleStart 10"
+                                    "scoreboard players set @pl BattleStart 37",
+                                    "execute as @pl run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -112,7 +115,8 @@
                         "value": [
                             {
                                 "commands": [
-                                    "scoreboard players set @p BattleEnd 0"
+                                    "scoreboard players set @pl BattleEnd 0",
+                                    "execute as @pl run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -128,7 +132,7 @@
                     "results": {
                         "value": [
                             {
-                                "title": "pixelmon.dialogue.trainer.wild",
+                                "title": "Aroma Lady Daisy",
                                 "message": "You weren\u0027t led astray by our aroma...",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
@@ -139,7 +143,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @p BattleEnd 1"
+                                    "scoreboard players set @pl BattleEnd 1",
+                                    "execute as @pl run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -161,7 +166,7 @@
             },
             "child": false,
             "invulnerable": true,
-            "immovable": true,
+            "immovable": false,
             "nameplate": true
         },
         "type": "pixelmon:constant"
