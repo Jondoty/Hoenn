@@ -20,8 +20,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @pl BattleStart 6",
-                                    "execute as @pl run function hoenn:triggers/stopsound"
+                                    "scoreboard players set %player_name% BattleStart 6",
+                                    "execute as %player_name% run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -47,8 +47,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @pl BattleStart 6",
-                                    "execute as @pl run function hoenn:triggers/stopsound"
+                                    "scoreboard players set %player_name% BattleStart 6",
+                                    "execute as %player_name% run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -97,8 +97,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @pl BattleStart 37",
-                                    "execute as @pl run function hoenn:triggers/stopsound"
+                                    "scoreboard players set %player_name% BattleStart 37",
+                                    "execute as %player_name% run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -115,8 +115,9 @@
                         "value": [
                             {
                                 "commands": [
-                                    "scoreboard players set @pl BattleEnd 0",
-                                    "execute as @pl run function hoenn:triggers/stopsound"
+                                    "scoreboard players set %player_name% BattleEnd 0",
+                                    "scoreboard players set %player_name% BattleStart 0",
+                                    "execute as %player_name% run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -143,8 +144,8 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set @pl BattleEnd 1",
-                                    "execute as @pl run function hoenn:triggers/stopsound"
+                                    "scoreboard players set %player_name% BattleEnd 1",
+                                    "execute as %player_name% run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
                             }
@@ -191,7 +192,7 @@
     "models": {
         "values": [
             {
-                "slim": true,
+                "slim": false,
                 "texture": {
                     "resource": {
                         "resource": "pixelmon:textures/steve/youngstergirl.png",
