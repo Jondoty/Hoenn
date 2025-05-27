@@ -2,7 +2,7 @@
   "id": "Trainers",
   "spawnInfos": [
     {
-      "trainerType": "BugCatcher",
+      "preset": "pixelmon:trainers/bugcatcher",
       "stringLocationTypes": [
         "Land"
       ],
@@ -24,11 +24,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+      "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "BugManiac",
+      "preset": "pixelmon:trainers/bugmaniac",
       "stringLocationTypes": [
         "Land"
       ],
@@ -50,11 +50,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+      "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Sport",
+      "preset": "pixelmon:trainers/sport",
       "stringLocationTypes": [
         "Land"
       ],
@@ -75,11 +75,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleRocketGrunt",
+      "preset": "pixelmon:trainers/femalerocketgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -89,11 +89,11 @@
           "#pixelmon:spawning/evil"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleRocketGrunt",
+      "preset": "pixelmon:trainers/malerocketgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -103,11 +103,11 @@
           "#pixelmon:spawning/evil"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleAquaGrunt",
+      "preset": "pixelmon:trainers/femaleaquagrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -116,11 +116,11 @@
           "#pixelmon:spawning/beaches"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleAquaGrunt",
+      "preset": "pixelmon:trainers/maleaquagrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -129,11 +129,11 @@
           "#pixelmon:spawning/beaches"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleMagmaGrunt",
+      "preset": "pixelmon:trainers/femalemagmagrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -142,11 +142,11 @@
           "#pixelmon:spawning/arid"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleMagmaGrunt",
+      "preset": "pixelmon:trainers/malemagmagrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -155,11 +155,11 @@
           "#pixelmon:spawning/arid"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleFlareGrunt",
+      "preset": "pixelmon:trainers/femaleflaregrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -168,11 +168,11 @@
           "#pixelmon:spawning/savannas"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleFlareGrunt",
+      "preset": "pixelmon:trainers/maleflaregrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -181,11 +181,11 @@
           "#pixelmon:spawning/savannas"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleGalacticGrunt",
+      "preset": "pixelmon:trainers/femalegalacticgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -194,11 +194,11 @@
           "#pixelmon:spawning/mountainous"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleGalacticGrunt",
+      "preset": "pixelmon:trainers/malegalacticgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -207,11 +207,11 @@
           "#pixelmon:spawning/mountainous"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemalePlasmaGrunt",
+      "preset": "pixelmon:trainers/femaleplasmagrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -220,11 +220,11 @@
           "#pixelmon:spawning/freezing"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MalePlasmaGrunt",
+      "preset": "pixelmon:trainers/maleplasmagrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -233,11 +233,11 @@
           "#pixelmon:spawning/freezing"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleSkullGrunt",
+      "preset": "pixelmon:trainers/femaleskullgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -246,11 +246,11 @@
           "#pixelmon:spawning/swamps"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleSkullGrunt",
+      "preset": "pixelmon:trainers/maleskullgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -259,11 +259,11 @@
           "#pixelmon:spawning/swamps"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleTeamYellGrunt",
+      "preset": "pixelmon:trainers/femaleteamyellgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -272,11 +272,11 @@
           "#pixelmon:spawning/redwoods"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleTeamYellGrunt",
+      "preset": "pixelmon:trainers/maleteamyellgrunt",
       "stringLocationTypes": [
         "Land"
       ],
@@ -285,11 +285,11 @@
           "#pixelmon:spawning/redwoods"
         ]
       },
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FireBreather",
+      "preset": "pixelmon:trainers/firebreather",
       "stringLocationTypes": [
         "Land"
       ],
@@ -309,11 +309,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Youngster",
+      "preset": "pixelmon:trainers/youngster",
       "stringLocationTypes": [
         "Land"
       ],
@@ -333,11 +333,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Lass",
+      "preset": "pixelmon:trainers/lass",
       "stringLocationTypes": [
         "Land"
       ],
@@ -357,11 +357,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Gentleman",
+      "preset": "pixelmon:trainers/gentleman",
       "stringLocationTypes": [
         "Land"
       ],
@@ -381,11 +381,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Pokemaniac",
+      "preset": "pixelmon:trainers/pokemaniac",
       "stringLocationTypes": [
         "Land"
       ],
@@ -405,11 +405,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Pokemaniacgirl",
+      "preset": "pixelmon:trainers/pokemaniacgirl",
       "stringLocationTypes": [
         "Land"
       ],
@@ -429,11 +429,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Policeman",
+      "preset": "pixelmon:trainers/policeman",
       "stringLocationTypes": [
         "Land"
       ],
@@ -441,7 +441,7 @@
         "biomes": [
           "#pixelmon:spawning/plains",
           "#pixelmon:spawning/taigas",
-          "minecraft:snowy_tundra",
+          "minecraft:snowy_plains",
           "#pixelmon:spawning/mountainous"
         ]
       },
@@ -455,11 +455,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "PreschoolerGirl",
+      "preset": "pixelmon:trainers/preschoolergirl",
       "stringLocationTypes": [
         "Land"
       ],
@@ -480,11 +480,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "RichBoy",
+      "preset": "pixelmon:trainers/richboy",
       "stringLocationTypes": [
         "Land"
       ],
@@ -505,11 +505,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "MaleScientist",
+      "preset": "pixelmon:trainers/malescientist",
       "stringLocationTypes": [
         "Land"
       ],
@@ -533,11 +533,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "FemaleScientist",
+      "preset": "pixelmon:trainers/femalescientist",
       "stringLocationTypes": [
         "Land"
       ],
@@ -561,11 +561,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Swimmer",
+      "preset": "pixelmon:trainers/swimmer",
       "stringLocationTypes": [
         "Land"
       ],
@@ -573,7 +573,7 @@
         "biomes": [
           "#pixelmon:spawning/beaches",
           "#pixelmon:spawning/lakes",
-          "minecraft:river"
+          "#pixelmon:spawning/rivers"
         ]
       },
       "rarityMultipliers": [
@@ -586,11 +586,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Swimmer",
+      "preset": "pixelmon:trainers/swimmer",
       "stringLocationTypes": [
         "Surface Water"
       ],
@@ -611,17 +611,17 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Fisherman",
+      "preset": "pixelmon:trainers/fisherman",
       "stringLocationTypes": [
         "Land"
       ],
       "condition": {
         "biomes": [
-          "minecraft:river",
+          "#pixelmon:spawning/rivers",
           "#pixelmon:spawning/lakes",
           "#pixelmon:spawning/beaches"
         ]
@@ -636,11 +636,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Pirate",
+      "preset": "pixelmon:trainers/pirate",
       "stringLocationTypes": [
         "Land"
       ],
@@ -659,11 +659,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Rancher",
+      "preset": "pixelmon:trainers/rancher",
       "stringLocationTypes": [
         "Land"
       ],
@@ -683,11 +683,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Miner",
+      "preset": "pixelmon:trainers/miner",
       "stringLocationTypes": [
         "Land"
       ],
@@ -707,11 +707,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Miner",
+      "preset": "pixelmon:trainers/miner",
       "stringLocationTypes": [
         "Underground"
       ],
@@ -728,11 +728,11 @@
           }
         }
       ],
-      "typeID": "trainer",
-      "rarity": 0.0
+     "typeID": "npc",
+      "rarity": 3.0
     },
     {
-      "trainerType": "Mountaineer",
+      "preset": "pixelmon:trainers/mountaineer",
       "stringLocationTypes": [
         "Land"
       ],
@@ -751,11 +751,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Ornithologist",
+      "preset": "pixelmon:trainers/ornithologist",
       "stringLocationTypes": [
         "Land"
       ],
@@ -775,11 +775,11 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     },
     {
-      "trainerType": "Blacksmith",
+      "preset": "pixelmon:trainers/blacksmith",
       "stringLocationTypes": [
         "Land"
       ],
@@ -800,7 +800,7 @@
           }
         }
       ],
-      "typeID": "trainer",
+     "typeID": "npc",
       "rarity": 0.0
     }
   ]

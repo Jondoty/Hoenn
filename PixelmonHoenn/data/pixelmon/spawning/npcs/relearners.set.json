@@ -2,14 +2,14 @@
   "id": "Relearners",
   "spawnInfos": [
     {
-      "name": "Relearner",
+      "preset": "pixelmon:move_relearner",
       "stringLocationTypes": [
         "Land"
       ],
       "condition": {
         "biomes": [
           "#pixelmon:spawning/plains",
-          "minecraft:snowy_tundra",
+          "minecraft:snowy_plains",
           "#pixelmon:spawning/mountainous"
         ]
       },
@@ -18,7 +18,7 @@
           "multiplier": 0.5,
           "condition": {
             "biomes": [
-              "minecraft:snowy_tundra"
+              "minecraft:snowy_plains"
             ]
           }
         }

@@ -2,15 +2,15 @@
   "id": "OldFishermen",
   "spawnInfos": [
     {
-      "name": "OldFisherman",
+      "preset": "pixelmon:old_fisherman",
       "stringLocationTypes": [
         "Land"
       ],
       "condition": {
         "biomes": [
-          "minecraft:river",
           "#pixelmon:spawning/lakes",
-          "#pixelmon:spawning/beaches"
+          "#pixelmon:spawning/beaches",
+          "#pixelmon:spawning/rivers"
         ]
       },
       "rarityMultipliers": [
@@ -26,7 +26,7 @@
           "multiplier": 20,
           "condition": {
             "biomes": [
-              "minecraft:river"
+              "#pixelmon:spawning/rivers"
             ]
           }
         }
