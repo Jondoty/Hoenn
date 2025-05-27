@@ -2,7 +2,7 @@
   "starters": [
     {
       "spec": "Treecko",
-      "chanceSpecs": [],
+      "chance_specs": [],
       "page": 0,
       "x": 5,
       "y": 0,
@@ -10,7 +10,7 @@
     },
     {
       "spec": "Torchic",
-      "chanceSpecs": [],
+      "chance_specs": [],
       "page": 0,
       "x": 7,
       "y": 0,
@@ -18,37 +18,37 @@
     },
     {
       "spec": "Mudkip",
-      "chanceSpecs": [],
+      "chance_specs": [],
       "page": 0,
       "x": 9,
       "y": 0,
       "scale": 1
     }
   ],
-  "chanceSpecs": [
+  "chance_specs": [
     {
       "spec": "level:5",
-      "rate": 1
+      "chance": 1
     },
     {
       "spec": "ribbon:destiny",
-      "rate": 1
+      "chance": 1
     },
     {
       "spec": "shiny",
-      "rate": 4096
+      "chance": 0.00024414062
     }
   ],
   "options": [
 
   ],
-  "pageColors": [
+  "page_colors": [
     {
       "page": 0,
       "color": {
-        "r": 203,
-        "g": 0,
-        "b": 11,
+        "r": 226,
+        "g": 86,
+        "b": 146,
         "a": 255
       }
     }
