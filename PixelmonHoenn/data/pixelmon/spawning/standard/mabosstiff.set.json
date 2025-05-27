@@ -1,0 +1,23 @@
+{
+  "id": "Mabosstiff",
+  "spawnInfos": [
+    {
+      "spec": "species:Mabosstiff",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

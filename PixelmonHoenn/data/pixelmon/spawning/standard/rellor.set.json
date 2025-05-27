@@ -1,0 +1,22 @@
+{
+  "id": "Rellor",
+  "spawnInfos": [
+    {
+      "spec": "species:Rellor",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

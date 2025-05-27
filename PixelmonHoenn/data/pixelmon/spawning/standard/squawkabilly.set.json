@@ -1,0 +1,237 @@
+{
+  "id": "Squawkabilly",
+  "spawnInfos": [
+    {
+      "spec": "species:Squawkabilly form:green",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Squawkabilly form:green",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Squawkabilly form:green",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Squawkabilly form:blue",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Squawkabilly form:blue",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Squawkabilly form:blue",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Squawkabilly form:yellow",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Squawkabilly form:yellow",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Squawkabilly form:yellow",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Squawkabilly form:white",
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "rarity": 0.0
+    },
+    {
+      "spec": "species:Squawkabilly form:white",
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/jungles"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Squawkabilly form:white",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 0.3
+        }
+      ],
+      "rarity": 0.0
+    }
+  ]
+}

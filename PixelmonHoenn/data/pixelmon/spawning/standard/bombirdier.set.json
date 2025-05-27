@@ -1,0 +1,73 @@
+{
+    "id": "Bombirdier",
+    "spawnInfos": [
+      {
+        "spec": "species:Bombirdier",
+        "stringLocationTypes": [
+          "Land"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "stringBiomes": [
+            "minecraft:river",
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/beaches"
+          ]
+        },
+        "anticondition": {
+          "stringBiomes": [
+            "#pixelmon:spawning/freezing"
+          ]
+        },
+        "rarity": 0.0
+      },
+      {
+        "spec": "species:Bombirdier",
+        "stringLocationTypes": [
+          "Air"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "stringBiomes": [
+            "minecraft:river",
+            "#pixelmon:spawning/lakes",
+            "#pixelmon:spawning/beaches"
+          ]
+        },
+        "anticondition": {
+          "stringBiomes": [
+            "#pixelmon:spawning/freezing"
+          ]
+        },
+        "rarity": 50.0
+      },
+      {
+        "spec": "species:Bombirdier",
+        "stringLocationTypes": [
+          "Air"
+        ],
+        "minLevel": 15,
+        "maxLevel": 35,
+        "typeID": "pokemon",
+        "condition": {
+          "times": [
+            "DAY"
+          ],
+          "biomes": [
+            "#pixelmon:spawning/mountainous"
+          ]
+        },
+        "rarity": 0.0
+      }
+    ]
+  }

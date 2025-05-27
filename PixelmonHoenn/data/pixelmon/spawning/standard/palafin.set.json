@@ -1,0 +1,48 @@
+{
+  "id": "Palafin",
+  "spawnInfos": [
+    {
+      "spec": "species:Palafin",
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:warm_ocean",
+          "minecraft:lukewarm_ocean",
+          "minecraft:deep_lukewarm_ocean",
+		  "biomeswevegone:lush_stacks"
+        ]
+      },
+      "groupSpawnSettings": [
+        {
+          "spec": "Finizen",
+          "amount": {
+            "min_value": 3,
+            "max_value": 4
+          },
+          "spawn_range_minimum": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "spawn_range_maximum": {
+            "x": 5,
+            "y": 5,
+            "z": 5
+          },
+          "chance": 1.0
+        }
+      ],
+      "rarity": 0.0
+    }
+  ]
+}

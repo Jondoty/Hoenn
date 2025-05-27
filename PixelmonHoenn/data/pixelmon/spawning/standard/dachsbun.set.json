@@ -1,0 +1,23 @@
+{
+  "id": "Dachsbun",
+  "spawnInfos": [
+    {
+      "spec": "species:Dachsbun",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 26,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

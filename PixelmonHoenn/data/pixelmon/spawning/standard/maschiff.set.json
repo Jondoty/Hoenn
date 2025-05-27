@@ -1,0 +1,23 @@
+{
+  "id": "Maschiff",
+  "spawnInfos": [
+    {
+      "spec": "species:Maschiff",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

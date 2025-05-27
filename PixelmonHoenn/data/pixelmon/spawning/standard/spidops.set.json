@@ -1,0 +1,24 @@
+{
+  "id": "Spidops",
+  "spawnInfos": [
+    {
+      "spec": "species:Spidops",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

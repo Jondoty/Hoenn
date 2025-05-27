@@ -1,0 +1,23 @@
+{
+  "id": "Fidough",
+  "spawnInfos": [
+    {
+      "spec": "species:Fidough",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/plains"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

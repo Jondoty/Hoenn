@@ -1,0 +1,23 @@
+{
+  "id": "Rabsca",
+  "spawnInfos": [
+    {
+      "spec": "species:Rabsca",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "biomes": [
+          "#pixelmon:spawning/arid",
+          "#pixelmon:spawning/savannas",
+          "#pixelmon:spawning/mesas",
+          "pixelmon:ultra_desert"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}

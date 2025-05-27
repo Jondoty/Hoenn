@@ -1,0 +1,24 @@
+{
+  "id": "Tarountula",
+  "spawnInfos": [
+    {
+      "spec": "species:Tarountula",
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 6,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarity": 0.0
+    }
+  ]
+}
