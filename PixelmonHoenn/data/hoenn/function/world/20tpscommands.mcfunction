@@ -105,13 +105,13 @@ execute as @a[scores={DialogueTrigger=20,TalkTime=16..39}] at @s run tp @s ~-0.0
 
 
 #Dialogue 26 - Rustboro NPCs running Motions
-execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-714,dx=7,dy=6,dz=58,type=pixelmon:npc_chatting,nbt={Name:"Runner"}] run data merge entity @s {Motion:[0.0,0.0,-0.45],Rotation:[180f,0.0f]}
-execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-717,dx=46,dy=6,dz=4,type=pixelmon:npc_chatting,nbt={Name:"Runner"}] run data merge entity @s {Motion:[0.45,0.0,0.0],Rotation:[-90f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-714,dx=7,dy=6,dz=58,type=pixelmon:npc,nbt={Name:"Runner"}] run data merge entity @s {Motion:[0.0,0.0,-0.45],Rotation:[180f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-717,dx=46,dy=6,dz=4,type=pixelmon:npc,nbt={Name:"Runner"}] run data merge entity @s {Motion:[0.45,0.0,0.0],Rotation:[-90f,0.0f]}
 
-execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-714,dx=7,dy=6,dz=58,type=pixelmon:npc_chatting,nbt={Name:"Runner2"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
-execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-717,dx=46,dy=6,dz=4,type=pixelmon:npc_chatting,nbt={Name:"Runner2"}] run data merge entity @s {Motion:[0.35,0.0,0.0],Rotation:[-90f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-714,dx=7,dy=6,dz=58,type=pixelmon:npc,nbt={Name:"Runner2"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=26}] as @e[x=-2709,y=69,z=-717,dx=46,dy=6,dz=4,type=pixelmon:npc,nbt={Name:"Runner2"}] run data merge entity @s {Motion:[0.35,0.0,0.0],Rotation:[-90f,0.0f]}
 
-execute if entity @a[scores={DialogueTrigger=26}] run tp @e[x=-2675,y=69,z=-720,dx=20,dy=10,dz=10,type=pixelmon:npc_chatting,nbt={Name:"Runner"}] 10000000 -50000 -10000000
+execute if entity @a[scores={DialogueTrigger=26}] run tp @e[x=-2675,y=69,z=-720,dx=20,dy=10,dz=10,type=pixelmon:npc,nbt={Name:"Runner"}] 10000000 -50000 -10000000
 
 
 #Dialogue 30 - Devon Corp shot
@@ -121,10 +121,10 @@ execute as @a[scores={DialogueTrigger=30,TalkTime=38..48}] at @s run tp @s ~ ~ ~
 execute as @a[scores={DialogueTrigger=44,TalkTime=26..42}] at @s run tp @s ~-0.005 ~ ~-0.005 ~ ~
 
 #Dialogue 50 - Route 110, moves grunts north
-execute if entity @a[scores={DialogueTrigger=50,TalkTime=33..37}] as @e[x=-1594,y=68,z=-37,dx=23,dy=5,dz=30,type=pixelmon:npc_chatting] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
+execute if entity @a[scores={DialogueTrigger=50,TalkTime=33..37}] as @e[x=-1594,y=68,z=-37,dx=23,dy=5,dz=30,type=pixelmon:npc] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
 
 #Dialogue 60 - Wally and uncle running off
-execute if entity @a[scores={DialogueTrigger=60}] run tp @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=1,type=pixelmon:npc_chatting] 10000000 -50000 -10000000
+execute if entity @a[scores={DialogueTrigger=60}] run tp @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=1,type=pixelmon:npc] 10000000 -50000 -10000000
 execute if entity @a[scores={DialogueTrigger=60,TalkTime=62..87}] as @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=45,nbt={Name:"Wally"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
 execute if entity @a[scores={DialogueTrigger=60,TalkTime=73..87}] as @e[x=2699,y=64,z=2866,dx=13,dy=5,dz=45,nbt={Name:"Uncle"}] run data merge entity @s {Motion:[0.0,0.0,-0.35],Rotation:[180f,0.0f]}
 
@@ -193,7 +193,7 @@ execute as @a[scores={DialogueTrigger=80,TalkTime=6..21}] at @s run tp @s ~ ~ ~ 
 execute if entity @a[scores={DialogueTrigger=80,TalkTime=14..21}] as @e[x=-2465,y=94,z=-1104,distance=..30,nbt={Name:"Rival"}] run data merge entity @s {Motion:[0.35,0.0,0.35],Rotation:[-45f,0.0f]}
 
 #Dialogue 111 - Foretree City Steven walking off
-execute as @a[scores={DialogueTrigger=111,TalkTime=13..20}] as @e[x=-497,y=83,z=-1412,dx=30,dy=3,type=pixelmon:npc_chatting] run data merge entity @s {Motion:[0.25,0.0,0.0],Rotation:[-90f,0.0f]}
+execute as @a[scores={DialogueTrigger=111,TalkTime=13..20}] as @e[x=-497,y=83,z=-1412,dx=30,dy=3,type=pixelmon:npc] run data merge entity @s {Motion:[0.25,0.0,0.0],Rotation:[-90f,0.0f]}
 
 #Dialogue 128 - Rival introducing department store
 execute as @a[scores={DialogueTrigger=128,TalkTime=17..50},gamemode=spectator] at @s run tp @s ~-0.025 ~ ~-0.025

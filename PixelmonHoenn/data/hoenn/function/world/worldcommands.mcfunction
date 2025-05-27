@@ -50,11 +50,11 @@ execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function ho
 #---------------------
 #Lobby Gamerule Stuff
 #Runs boss levels
-#execute at @a[scores={Boss=0}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "notboss"}
-#execute at @a[scores={Boss=1}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "equal"}
-#execute at @a[scores={Boss=2}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "common"}
-#execute at @a[scores={Boss=3}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "uncommon"}
-#execute at @a[scores={Boss=4}] as @e[distance=..20,type=pixelmon:npc_trainer] run data merge entity @s {BossTier: "rare"}
+#execute at @a[scores={Boss=0}] as @e[distance=..20,type=pixelmon:npc] run data merge entity @s {BossTier: "notboss"}
+#execute at @a[scores={Boss=1}] as @e[distance=..20,type=pixelmon:npc] run data merge entity @s {BossTier: "equal"}
+#execute at @a[scores={Boss=2}] as @e[distance=..20,type=pixelmon:npc] run data merge entity @s {BossTier: "common"}
+#execute at @a[scores={Boss=3}] as @e[distance=..20,type=pixelmon:npc] run data merge entity @s {BossTier: "uncommon"}
+#execute at @a[scores={Boss=4}] as @e[distance=..20,type=pixelmon:npc] run data merge entity @s {BossTier: "rare"}
 
 
 #Runs infolist command for non-ops
