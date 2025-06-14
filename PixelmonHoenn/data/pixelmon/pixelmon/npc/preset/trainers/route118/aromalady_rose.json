@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Rose",
+                                "message": "The aroma of flowers has a magical power. It cleanses us, body and soul.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Rose",
+                                "message": "The aroma of flowers has a magical power. It cleanses us, body and soul.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Rose",
+                                "message": "Flowers, Pok\u00e9mon... I love whatever smells nice. Stinky things... I'll pass.",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 512,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,17 +175,18 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Oddish level:16",
+                "Roselia level:16"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 2,
+            "max_selections": 2,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "Rose"
         ],
         "type": "pixelmon:uniformly_random"
     },

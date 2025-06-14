@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Timmy",
+                                "message": "I found some cool Pok\u00e9mon in the tall grass around here!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Timmy",
+                                "message": "I found some cool Pok\u00e9mon in the tall grass around here!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Timmy",
+                                "message": "It's hard to battle with Pok\u00e9mon you just caught.",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 224,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,17 +175,19 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Poochyena level:12",
+                "Aron level:13",
+                "Electrike level:14"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 3,
+            "max_selections": 3,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "Timmy"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +197,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/youngster7.png",
+                        "fallback": "pixelmon:textures/steve/youngster7.png"
                     },
                     "type": "pixelmon:fallback"
                 },

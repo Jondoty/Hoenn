@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Edward",
+                                "message": "I have foreseen your intentions! I cannot possibly lose!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Edward",
+                                "message": "I have foreseen your intentions! I cannot possibly lose!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,8 +133,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Edward",
+                                "message": "I see your future... Hmm... I see a shining light...",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
@@ -175,7 +175,7 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Abra level:17"
             ],
             "min_selections": 1,
             "max_selections": 1,
@@ -185,7 +185,7 @@
     },
     "names": {
         "values": [
-            "Daisy"
+            "Edward"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +195,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/psychic.png",
+                        "fallback": "pixelmon:textures/steve/psychic.png"
                     },
                     "type": "pixelmon:fallback"
                 },

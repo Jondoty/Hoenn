@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Luis",
+                                "message": "Whew! I was worried that a kid was drowning when I saw you. You seem to be OK, so what do you say to a battle?",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Luis",
+                                "message": "Whew! I was worried that a kid was drowning when I saw you. You seem to be OK, so what do you say to a battle?",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Luis",
+                                "message": "You're so strong for your age! How wonderful! When you get a little older, why don't you try being a lifeguard with me?",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 432,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,7 +175,7 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Carvanha level:27"
             ],
             "min_selections": 1,
             "max_selections": 1,
@@ -185,7 +185,7 @@
     },
     "names": {
         "values": [
-            "Daisy"
+            "Luis"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +195,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/swimmer_m1.png",
+                        "fallback": "pixelmon:textures/steve/swimmer_m1.png"
                     },
                     "type": "pixelmon:fallback"
                 },

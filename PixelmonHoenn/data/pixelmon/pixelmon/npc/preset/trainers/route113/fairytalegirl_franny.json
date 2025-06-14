@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Franny",
+                                "message": "Fairy-type Pok\u00e9mon are highly flammable, so do be careful!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Franny",
+                                "message": "Fairy-type Pok\u00e9mon are highly flammable, so do be careful!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Franny",
+                                "message": "About these Fairy-type Pok\u00e9mon... How can I make them get along with Fire-type Pok\u00e9mon?",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 352,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,7 +175,7 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Kirlia level:22"
             ],
             "min_selections": 1,
             "max_selections": 1,
@@ -185,7 +185,7 @@
     },
     "names": {
         "values": [
-            "Daisy"
+            "Franny"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +195,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/furisode.png",
+                        "fallback": "pixelmon:textures/steve/furisode.png"
                     },
                     "type": "pixelmon:fallback"
                 },

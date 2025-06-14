@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Timothy",
+                                "message": "Hmm... You seem rather capable. Let me keep you company!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Timothy",
+                                "message": "Hmm... You seem rather capable. Let me keep you company!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Timothy",
+                                "message": "There is no such thing as a born genius. It all depends on effort! That is what I believe...",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 2400,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,7 +175,7 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Hariyama level:30"
             ],
             "min_selections": 1,
             "max_selections": 1,
@@ -185,7 +185,7 @@
     },
     "names": {
         "values": [
-            "Daisy"
+            "Timothy"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +195,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/oldman.png",
+                        "fallback": "pixelmon:textures/steve/oldman.png"
                     },
                     "type": "pixelmon:fallback"
                 },

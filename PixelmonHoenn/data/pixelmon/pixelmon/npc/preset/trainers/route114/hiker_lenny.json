@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Lenny",
+                                "message": "Yo-de-lay-i-hoo! ... You have to shout \u201cyo-de-lay-i-hoo,\u201d too, since it doesn't echo here!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Lenny",
+                                "message": "Yo-de-lay-i-hoo! ... You have to shout \u201cyo-de-lay-i-hoo,\u201d too, since it doesn't echo here!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Lenny",
+                                "message": "When I was a wee tyke, I believed there was someone copying me and shouting back, \u201cYo-de-lay-i-hoo!\u201d",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 736,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,7 +175,7 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Machop level:23"
             ],
             "min_selections": 1,
             "max_selections": 1,
@@ -185,7 +185,7 @@
     },
     "names": {
         "values": [
-            "Daisy"
+            "Lenny"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +195,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/hiker.png",
+                        "fallback": "pixelmon:textures/steve/hiker.png"
                     },
                     "type": "pixelmon:fallback"
                 },

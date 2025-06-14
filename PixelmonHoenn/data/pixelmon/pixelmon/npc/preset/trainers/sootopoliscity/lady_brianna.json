@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Brianna",
+                                "message": "The sight of Wallace conducting a battle... The very beauty of it compelled me to become a Trainer.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Brianna",
+                                "message": "The sight of Wallace conducting a battle... The very beauty of it compelled me to become a Trainer.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Brianna",
+                                "message": "The grace you bring to battle is fabulous. Oh... I'm so fortunate to have found Pok\u00e9mon.",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 4920,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,17 +175,18 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Clamperl level:41",
+                "Corsola level:41"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 2,
+            "max_selections": 2,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "Brianna"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +196,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/madame.png",
+                        "fallback": "pixelmon:textures/steve/madame.png"
                     },
                     "type": "pixelmon:fallback"
                 },

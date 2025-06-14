@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Colton",
+                                "message": "Go back and forth between Lilycove and Slateport, that's what I do. It's my hobby\u2014going from port to port to take in Pok\u00e9mon Contest Spectaculars.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Colton",
+                                "message": "Go back and forth between Lilycove and Slateport, that's what I do. It's my hobby\u2014going from port to port to take in Pok\u00e9mon Contest Spectaculars.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Colton",
+                                "message": "I get so excited imagining what kinds of Pok\u00e9mon I'll get to see in the next Contest Spectacular. The anticipation thrills me!",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 3264,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,17 +175,19 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Delcatty level:48",
+                "Delcatty level:48",
+                "Delcatty level:48"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 3,
+            "max_selections": 3,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "Colton"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +197,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/pokefan_m.png",
+                        "fallback": "pixelmon:textures/steve/pokefan_m.png"
                     },
                     "type": "pixelmon:fallback"
                 },

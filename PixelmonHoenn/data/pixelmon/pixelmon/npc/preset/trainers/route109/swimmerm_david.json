@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "David",
+                                "message": "Hiyah! Look at my chiseled abs! This is what you call \u201ccut\u201d!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "David",
+                                "message": "Hiyah! Look at my chiseled abs! This is what you call \u201ccut\u201d!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "David",
+                                "message": "Hiyah! My sculpted abs have nothing to do with Pok\u00e9mon battles!",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 416,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,17 +175,18 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Corphish level:26",
+                "Carvanha level:26"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 2,
+            "max_selections": 2,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "David"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +196,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/swimmer_m1.png",
+                        "fallback": "pixelmon:textures/steve/swimmer_m1.png"
                     },
                     "type": "pixelmon:fallback"
                 },

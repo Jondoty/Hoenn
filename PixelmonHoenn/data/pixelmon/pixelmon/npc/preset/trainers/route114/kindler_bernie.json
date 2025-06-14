@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Bernie",
+                                "message": "If you're lighting a campfire or setting off fireworks, make sure you have water handy.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Bernie",
+                                "message": "If you're lighting a campfire or setting off fireworks, make sure you have water handy.",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Bernie",
+                                "message": "Thanks for dousing my fire, I guess.",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 704,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,17 +175,18 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Slugma level:20",
+                "Wingull level:22"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 2,
+            "max_selections": 2,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "Bernie"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +196,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/firebreather3.png",
+                        "fallback": "pixelmon:textures/steve/firebreather3.png"
                     },
                     "type": "pixelmon:fallback"
                 },

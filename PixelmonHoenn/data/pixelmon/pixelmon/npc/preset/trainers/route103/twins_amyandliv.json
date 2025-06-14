@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Amy & Liv",
+                                "message": "I'm Amy, and this is my twin sister, Liv! We're gonna fight you together!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Amy & Liv",
+                                "message": "I'm Amy, and this is my twin sister, Liv! We're gonna fight you together!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -133,13 +133,13 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Amy & Liv",
+                                "message": "My sister and I are the perfect team, but we still lost!",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
-                                "money": 544,
+                                "money": 128,
                                 "type": "pixelmon:give_money"
                             },
                             {
@@ -175,17 +175,18 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Plusle level:16",
+                "Minun level:16"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 2,
+            "max_selections": 2,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "Amy & Liv"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +196,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/youngstergirl.png",
+                        "fallback": "pixelmon:textures/steve/youngstergirl.png"
                     },
                     "type": "pixelmon:fallback"
                 },

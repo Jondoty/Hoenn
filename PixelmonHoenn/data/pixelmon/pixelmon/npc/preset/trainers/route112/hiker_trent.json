@@ -14,8 +14,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Trent",
+                                "message": "My legs are solid from pounding up and down the mountains. They're not going to buckle easily, friend!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -41,8 +41,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "Did you feel the tug of our soul- soothing fragrance?",
+                                "title": "Trent",
+                                "message": "My legs are solid from pounding up and down the mountains. They're not going to buckle easily, friend!",
                                 "type": "pixelmon:open_dialogue"
                             },
                             {
@@ -76,7 +76,7 @@
                             {
                                 "messages": [
                                     {
-                                        "text": "You don\u0027t have any Pokémon that can battle!"
+                                        "text": "You don't have any Pok\u00e9mon that can battle!"
                                     }
                                 ],
                                 "type": "pixelmon:message_player"
@@ -133,8 +133,8 @@
                     "results": {
                         "value": [
                             {
-                                "title": "Daisy",
-                                "message": "You weren\u0027t led astray by our aroma...",
+                                "title": "Trent",
+                                "message": "Try hiking, and I mean really pounding, on these mountain trails with a heavy pack weighing dozens of pounds. That, my friend, will get your body in serious shape.",
                                 "fire_close_event": false,
                                 "type": "pixelmon:open_dialogue"
                             },
@@ -175,17 +175,19 @@
     "party": {
         "value": {
             "options": [
-                "Roselia level:17"
+                "Geodude level:17",
+                "Geodude level:17",
+                "Geodude level:17"
             ],
-            "min_selections": 1,
-            "max_selections": 1,
+            "min_selections": 3,
+            "max_selections": 3,
             "type": "pixelmon:random_combination"
         },
         "type": "pixelmon:constant"
     },
     "names": {
         "values": [
-            "Daisy"
+            "Trent"
         ],
         "type": "pixelmon:uniformly_random"
     },
@@ -195,8 +197,8 @@
                 "slim": false,
                 "texture": {
                     "resource": {
-                        "resource": "pixelmon:textures/steve/pkmn_breeder_f.png",
-                        "fallback": "pixelmon:textures/steve/pkmn_breeder_f.png"
+                        "resource": "pixelmon:textures/steve/hiker.png",
+                        "fallback": "pixelmon:textures/steve/hiker.png"
                     },
                     "type": "pixelmon:fallback"
                 },
