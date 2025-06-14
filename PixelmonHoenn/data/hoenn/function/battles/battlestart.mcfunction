@@ -1,7 +1,7 @@
 #Function that is assigned a score from when NPCs are engaged with
 #Depending on the number, can play pre-battle music and then battle music
 
-#1 - Pre-battle Ace Trainer
+#1 - Pre-battle Ace Trainer, Battle Girl, Blackbelt
 execute as @s[tag=!RadioOff,scores={BattleStart=1}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=1}] run playsound acetrainer record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=1}] run scoreboard players set @s MusicCooldown 91
@@ -11,7 +11,7 @@ execute as @s[tag=!RadioOff,scores={BattleStart=2}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=2}] run playsound elitefouropen record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=2}] run scoreboard players set @s MusicCooldown 74
 
-#3 - Pre-battle Gentleman
+#3 - Pre-battle Gentleman, Oldman/Oldlady
 execute as @s[tag=!RadioOff,scores={BattleStart=3}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=3}] run playsound gentleman record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=3}] run scoreboard players set @s MusicCooldown 57
@@ -26,7 +26,7 @@ execute as @s[tag=!RadioOff,scores={BattleStart=5}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=5}] run playsound hiker record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=5}] run scoreboard players set @s MusicCooldown 53
 
-#6 - Pre-battle lass
+#6 - Pre-battle lass (Default)
 execute as @s[tag=!RadioOff,scores={BattleStart=6}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=6}] run playsound lass record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=6}] run scoreboard players set @s MusicCooldown 41
@@ -51,7 +51,7 @@ execute as @s[tag=!RadioOff,scores={BattleStart=10}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=10}] run playsound stevenopen record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=10}] run scoreboard players set @s MusicCooldown 93
 
-#11 - Pre-Battle streetthug
+#11 - Pre-Battle streetthug, Ninja
 execute as @s[tag=!RadioOff,scores={BattleStart=11}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=11}] run playsound streetthug record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=11}] run scoreboard players set @s MusicCooldown 70
@@ -82,7 +82,7 @@ execute as @s[tag=!RadioOff,scores={BattleStart=16}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=16}] run playsound tuber record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=16}] run scoreboard players set @s MusicCooldown 47
 
-#17 - Pre-Battle twins
+#17 - Pre-Battle twins, picnicker
 execute as @s[tag=!RadioOff,scores={BattleStart=17}] run stopsound @s record
 execute as @s[tag=!RadioOff,scores={BattleStart=17}] run playsound twins record @s ~ ~ ~ 1 1 1
 execute as @s[tag=!RadioOff,scores={BattleStart=17}] run scoreboard players set @s MusicCooldown 32

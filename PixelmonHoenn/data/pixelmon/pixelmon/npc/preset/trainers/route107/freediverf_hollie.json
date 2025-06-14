@@ -20,7 +20,7 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set %player_name% BattleStart 6",
+                                    "scoreboard players set %player_name% BattleStart 9",
                                     "execute as %player_name% run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
@@ -47,7 +47,7 @@
                             },
                             {
                                 "commands": [
-                                    "scoreboard players set %player_name% BattleStart 6",
+                                    "scoreboard players set %player_name% BattleStart 9",
                                     "execute as %player_name% run function hoenn:triggers/stopsound"
                                 ],
                                 "type": "pixelmon:console_execute_command"
