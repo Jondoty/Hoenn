@@ -2,8 +2,9 @@
 execute at @a run execute if block ~ ~ ~ minecraft:magenta_carpet run function hoenn:world/portals
 execute at @a run execute if block ~ ~ ~ minecraft:pink_carpet run function hoenn:world/portals
 
-
-
+#Slightly tps and tags NPCs that are newly spawned in
+execute as @e[type=pixelmon:npc,tag=!HeightAdjusted] at @s run tp @s ~ ~-0.5 ~
+tag @e[type=pixelmon:npc,tag=!HeightAdjusted] add HeightAdjusted
 
 
 #-------------------------World Functions-----------------------------------------------------------------------------------
