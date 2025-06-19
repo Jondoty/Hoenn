@@ -1,0 +1,91 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "     ",
+                  "pages": [
+                    "I used to run a business here, but I had to close it for reasons you don't need to know.",
+                    "Anyway, I still have some prizes left. Do you think you can take care of them?",
+                    "Thank you, thank you! I can tell they are happy, too!",
+                    "People used to come to my place and play games like crazy. Good times. Sigh... Times change."
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/monsieur.png",
+            "fallback": "pixelmon:textures/steve/monsieur.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.5,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "     "
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

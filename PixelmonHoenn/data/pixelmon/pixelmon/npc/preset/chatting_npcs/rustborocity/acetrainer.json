@@ -1,0 +1,91 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "     ",
+                  "pages": [
+                    "My dad's a real ace in the Devon Corporation, I'll have you know! It's no wonder I'm an ace myself!",
+                    "Here. I'll give you something that an Ace Trainer like me uses!",
+                    "If you have a Pokémon hold a Float Stone, its weight will be halved.",
+                    "Although it looks like it'll be a while before you can use something like this as well as I can."
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/acetrainer.png",
+            "fallback": "pixelmon:textures/steve/acetrainer.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.5,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "     "
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

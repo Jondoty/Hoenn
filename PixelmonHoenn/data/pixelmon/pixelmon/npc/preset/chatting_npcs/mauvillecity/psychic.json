@@ -1,0 +1,91 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "     ",
+                  "pages": [
+                    "The revolutionary Inverse-o-matic machine the inventor created can invert type matchups!",
+                    "For example, you know Fire-type moves are super effective against Grass-type Pokémon, right? Not with the Inverse-o-matic!",
+                    "Flip it on, and Fire-type moves become not very effective at all against Grass-type Pokémon!",
+                    "Now try to land as many supereffective hits as you can! Get lots and lots of points!"
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/psychic.png",
+            "fallback": "pixelmon:textures/steve/psychic.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.5,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "     "
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

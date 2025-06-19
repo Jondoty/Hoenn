@@ -1,0 +1,90 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "     ",
+                  "pages": [
+                    "Hey, you. It gets awfully dark ahead. It'll be tough trying to explore.",
+                    "Well, for us Hikers, helping out those that we meet is our motto. Here you go, I'll pass this on to you.",
+                    "Teach that TM Flash to a Pokémon and use it. It lights up even the inky darkness of caves."
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/hiker.png",
+            "fallback": "pixelmon:textures/steve/hiker.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.5,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "     "
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "     ",
+                  "pages": [
+                    "Hi there. Welcome! This is a specialty mirror store. Basically, we deal in mirrors and mirrors alone.",
+                    "We only exhibit and sell mirrors my husband collects from who knows where. So we don't have very many for sale.",
+                    "This mirror, by the way, is said to be used with Tornadus, Thundurus, and Landorus.",
+                    "I have no idea if that's true."
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/lass.png",
+            "fallback": "pixelmon:textures/steve/lass.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.5,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "     "
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}
