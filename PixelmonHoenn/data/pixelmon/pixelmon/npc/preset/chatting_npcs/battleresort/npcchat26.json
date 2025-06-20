@@ -1,0 +1,90 @@
+{
+  "interactions": {
+    "values": [
+      {
+        "interactions": [
+          {
+            "event": "pixelmon:right_click",
+            "conditions": {
+              "type": "pixelmon:true"
+            },
+            "results": {
+              "value": [
+                {
+                  "title": "     ",
+                  "pages": [
+                    "\u30d5\u30e0\u2026\u2026\u3000\u307f\u305f\u3060\u3051\u3067\u3000\u308f\u304b\u308b\u3088 \u30ad\u30df\u306f\u3000\u305f\u3060\u3082\u306e\u3000\u3067\u306f\u306a\u3044",
+                    "\u30c8\u30ec\u30fc\u30ca\u30fc\u3060 \u305d\u306e\u3046\u3067\u3092\u3000\u3055\u3089\u306b\u3000\u307f\u304c\u3044\u3066\u3000\u305b\u304b\u3044\u2026\u2026",
+                    "\u30dd\u30b1\u30e2\u30f3\u30ef\u30fc\u30eb\u30c9\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3\u30b7\u30c3\u30d7\u30b9\u306b \u30c1\u30e3\u30ec\u30f3\u30b8\u3059\u308b\u3053\u3068\u3092\u3000\u304a\u30b9\u30b9\u30e1\u3059\u308b\u3088"
+                  ],
+                  "type": "pixelmon:open_paged_dialogue"
+                }
+              ],
+              "type": "pixelmon:constant"
+            }
+          }
+        ]
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "models": {
+    "values": [
+      {
+        "slim": false,
+        "texture": {
+          "resource": {
+            "resource": "pixelmon:textures/steve/npcchat1.png",
+            "fallback": "pixelmon:textures/steve/npcchat1.png"
+          },
+          "type": "pixelmon:fallback"
+        },
+        "type": "pixelmon:player"
+      }
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "properties": {
+    "value": {
+      "health": 20.0,
+      "eyeHeight": 1.5,
+      "dimensions": {
+        "width": 1.0,
+        "height": 2.0
+      },
+      "pushable": false,
+      "child": false,
+      "invulnerable": true,
+      "immovable": true,
+      "nameplate": false
+    },
+    "type": "pixelmon:constant"
+  },
+  "party": {
+    "value": {
+      "type": "pixelmon:empty"
+    },
+    "type": "pixelmon:constant"
+  },
+  "names": {
+    "values": [
+      "     "
+    ],
+    "type": "pixelmon:uniformly_random"
+  },
+  "goals": {
+    "type": "pixelmon:constant",
+    "value": {
+      "goals": [
+        {
+          "provider": {
+            "type": "pixelmon:look_at_nearby",
+            "look_distance": 5,
+            "probability": 0.9
+          },
+          "priority": 1
+        }
+      ]
+    }
+  }
+}
